@@ -1,3 +1,133 @@
+WFL = {
+	army = {
+		male = {
+			"gfx/leaders/WFL/Portrait_generic_land_01.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_02.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_03.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_04.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_05.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_06.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_07.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_08.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_09.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_10.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_11.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_12.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_13.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_14.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_15.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_16.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_17.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_18.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_19.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_20.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_21.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_22.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_23.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_24.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_25.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_26.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_27.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_28.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_29.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_30.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_31.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_32.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_33.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_34.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_35.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_36.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_37.dds"
+			"gfx/leaders/WFL/Portrait_generic_land_38.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/WFL/Portrait_generic_naval_01.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_02.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_03.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_04.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_05.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_06.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_07.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_08.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_09.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_10.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_11.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_12.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_13.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_14.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_15.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_16.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_17.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_18.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_19.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_20.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_21.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_22.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_23.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_24.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_25.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_26.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_27.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_28.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_29.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_30.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_31.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_32.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_33.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_34.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_35.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_36.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_37.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_38.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_39.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_40.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_41.dds"
+			"gfx/leaders/WFL/Portrait_generic_naval_42.dds"
+		}
+	}
+	operative = {
+		female = {
+			"gfx/leaders/WFL/Portrait_female_generic_operative_01.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_02.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_03.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_04.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_05.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_06.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_07.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_08.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_09.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_10.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_11.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_12.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_13.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_14.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_15.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_16.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_17.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_18.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_19.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_20.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_21.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_22.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_23.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_24.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_25.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_26.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_27.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_28.dds"
+			"gfx/leaders/WFL/Portrait_female_generic_operative_29.dds"
+		}
+		male = {
+			"gfx/leaders/WFL/Portrait_male_generic_operative_01.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_02.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_03.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_04.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_05.dds"
+		}
+	}
+}
 ACW = {
 	army = {
 		male = {
@@ -128,7 +258,7 @@ ACW = {
 		}
 	}
 }
-AFM = {
+HEN = {
 	army = {
 		male = {
 			"gfx/leaders/acr_portrait_generic_land_01.dds"

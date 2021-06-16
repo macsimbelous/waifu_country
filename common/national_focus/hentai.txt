@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = AFM
+			tag = HEN
 		}
 	}
 	default = no
@@ -2373,7 +2373,7 @@ focus_tree = {
 		completion_reward = {
 			JAP = {
 				every_owned_state = {
-					add_claim_by = AFM
+					add_claim_by = HEN
 				}
 			}
 			create_wargoal = {
@@ -2405,7 +2405,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			JAP = {
-				add_to_faction = AFM
+				add_to_faction = HEN
 			}
 		}
 	}
