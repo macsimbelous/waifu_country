@@ -1,0 +1,717 @@
+ideas = {
+	country = {
+		AUN_revolution = {
+			allowed = {
+				original_tag = AUN
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = GFX_idea_home_of_revolution
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.2
+				conversion_cost_civ_to_mil_factor = -0.2
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				conscription = 0.1
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		ACW_anime_economic = {
+			allowed = {
+				original_tag = ACW
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_local_self_management
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				trade_laws_cost_factor = -0.33
+				economy_cost_factor = -0.33
+				political_advisor_cost_factor = -0.33
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_infrastructure_factor = 0.2
+				production_speed_synthetic_refinery_factor = 0.2
+			}
+		}
+		ACW_economic_integration = {
+			removal_cost = -1
+			allowed = {
+				original_tag = ACW
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.15
+				democratic_drift = 0.05
+				custom_modifier_tooltip = acw_subject_autonomy_mod_tt
+				hidden_modifier = { subjects_autonomy_gain = -0.5 }
+			}
+		}
+		ACW_economic_assistance = {
+			available = {
+				is_puppet = yes
+			}
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.15
+				stability_factor = 0.15
+				democratic_drift = 0.05
+				autonomy_manpower_share = 0.5
+				autonomy_gain = -0.5
+			}
+		}
+		Slice_of_Life = {
+			allowed = {
+				original_tag = ACW
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_local_self_management
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				conversion_cost_civ_to_mil_factor = -0.2
+				conversion_cost_mil_to_civ_factor = -0.2
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		acr_anime_physics = {
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+				}
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_intel_bonus
+			removal_cost = -1
+			modifier = {
+				attrition = -0.05
+				army_morale_factor = 0.05
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+				army_artillery_attack_factor = 0.05
+				army_artillery_defence_factor = 0.05
+				army_armor_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+				conscription = 0.05
+			}
+		}
+		Anime_fanat = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			picture = general_staff
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		Is_Flat_Justice = {
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+				}
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = ast_volunteer_defence_corps
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.25
+				production_speed_arms_factory_factor = 0.2
+			}
+		}
+	}
+	political_advisor = {
+		jeff = {
+			picture = acr_generic_captain_of_industry_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				captain_of_industry
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = democratic
+					add = 5
+				}
+			}
+		}
+		jeff_two = {
+			picture = acr_generic_communist_revolutionary_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		jeff_three = {
+			picture = acr_generic_democratic_reformer_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		jeff_four = {
+			picture = acr_generic_fascist_demagogue_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		jeff_five = {
+			picture = acr_generic_naval_theorist_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				silent_workhorse
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_six = {
+			picture = acr_generic_fortification_engineer_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				fortification_engineer
+			}
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		jeff_seven = {
+			picture = acr_generic_army_chief_off_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				princess_of_terror
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 5
+				}
+			}
+		}
+		jeff_eight = {
+			picture = acr_generic_democratic_reformer_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				popular_figurehead
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_nine = {
+			picture = acr_generic_war_industrialist_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				war_industrialist
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 5
+				}
+			}
+		}
+		jeff_ten = {
+			picture = acr_generic_head_of_intelligence_female
+			allowed = {
+				OR = {
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = democratic
+					add = 5
+				}
+			}
+		}
+		ACW_Niko_Yazawa = {
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				ACW_super_agent_idol
+				head_of_intelligence
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = democratic
+					add = 5
+				}
+			}
+		}
+	}
+	theorist = {
+		jeff_theorist = {
+			picture = acr_generic_military_theorist_female
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			research_bonus = {
+				land_doctrine = 0.15
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		jeff_theorist_two = {
+			ledger = air
+			picture = acr_generic_air_warfare_theorist_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			research_bonus = {
+				air_doctrine = 0.15
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+		jeff_theorist_three = {
+			ledger = navy
+			picture = acr_generic_naval_theorist_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			research_bonus = {
+				naval_doctrine = 0.15
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	army_chief = {
+		jeff_chief = {
+			picture = acr_generic_military_theorist_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_chief_two = {
+			picture = acr_generic_army_chief_def_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_chief_three = {
+			picture = acr_generic_army_chief_off_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	air_chief = {
+		jeff_air = {
+			picture = acr_generic_air_air_combat_trainer_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		jeff_air_two = {
+			picture = acr_generic_air_chief_all_weather_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				air_chief_all_weather_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_air_three = {
+			picture = acr_generic_air_warfare_theorist_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				air_chief_reform_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	navy_chief = {
+		jeff_navy = {
+			picture = acr_generic_navy_chief_decisive_bat_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_navy_two = {
+			picture = acr_generic_navy_fleet_log_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	high_command = {
+		jeff_high = {
+			picture = acr_generic_army_chief_off_female
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_infantry_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		jeff_high_two = {
+			picture = acr_generic_army_chief_def_female
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_armored_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_high_three = {
+			picture = acr_generic_military_theorist_female
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_regrouping_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_high_four = {
+			picture = acr_generic_army_log_female
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_logistics_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_high_five = {
+			picture = acr_generic_air_close_air_sup_female
+			ledger = air
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				air_close_air_support_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_high_six = {
+			ledger = army
+			picture = acr_generic_army_art_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_artillery_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_high_seven = {
+			ledger = navy
+			picture = acr_generic_navy_fleet_log_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				air_naval_strike_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_high_eight = {
+			ledger = navy
+			picture = acr_generic_naval_theorist_female
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				navy_naval_air_defense_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		jeff_high_nine = {
+			picture = acr_generic_air_warfare_theorist_female
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = AFM
+					original_tag = ASN
+					original_tag = AUN
+				}
+			}
+			traits = {
+				army_cavalry_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

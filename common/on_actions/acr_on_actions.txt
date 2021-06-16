@@ -1,0 +1,29 @@
+on_actions = {
+	#ROOT is subject FROM is overlord
+	on_subject_annexed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = ACW
+							original_tag = AFM
+							original_tag = ASN
+							original_tag = AUN
+						}
+					}
+				}
+				ROOT = {
+					every_owned_state = {
+						for_each_loop = {
+							array = core_countries
+							value = temp_tag
+							remove_core_of = temp_var:temp_tag
+						}
+						add_core_of = FROM
+					}
+				}
+			}
+		}
+	}
+}

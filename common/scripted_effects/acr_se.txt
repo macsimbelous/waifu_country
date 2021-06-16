@@ -1,0 +1,150 @@
+acr_coring_state = {
+	for_each_loop = {
+		array = core_countries
+		value = temp_tag
+		remove_core_of = temp_var:temp_tag
+	}
+	add_core_of = ROOT
+}
+acr_up_resources_state = {
+	set_temp_variable = {
+		mult_res = 1
+	}
+	if = {
+		limit = {
+			has_state_flag = acr_up_resources_1
+		}
+		add_to_temp_variable = {
+			mult_res = 1
+		}
+	}
+	if = {
+		limit = {
+			has_state_flag = acr_up_resources_2
+		}
+		add_to_temp_variable = {
+			mult_res = 1
+		}
+	}
+	if = {
+		limit = {
+			has_state_flag = acr_up_resources_3
+		}
+		add_to_temp_variable = {
+			mult_res = 1
+		}
+	}
+	set_temp_variable = {
+		base_res = 8
+	}
+	multiply_temp_variable = {
+		base_res = mult_res
+	}
+	if = {
+		limit = {
+			steel > 0
+		}
+		add_resource = {
+			type = steel
+			amount = var:base_res
+		}
+	}
+	if = {
+		limit = {
+			oil > 0
+		}
+		add_resource = {
+			type = oil
+			amount = var:base_res
+		}
+	}
+	if = {
+		limit = {
+			aluminium > 0
+		}
+		add_resource = {
+			type = aluminium
+			amount = var:base_res
+		}
+	}
+	if = {
+		limit = {
+			tungsten > 0
+		}
+		add_resource = {
+			type = tungsten
+			amount = var:base_res
+		}
+	}
+	if = {
+		limit = {
+			chromium > 0
+		}
+		add_resource = {
+			type = chromium
+			amount = var:base_res
+		}
+	}
+}
+acr_urbanize_state = {
+	if = {
+		limit = {
+			has_state_category = wasteland
+		}
+		set_state_category = pastoral
+	}
+	else_if = {
+		limit = {
+			has_state_category = enclave
+		}
+		set_state_category = pastoral
+	}
+	else_if = {
+		limit = {
+			has_state_category = tiny_island
+		}
+		set_state_category = small_island
+	}
+	else_if = {
+		limit = {
+			has_state_category = pastoral
+		}
+		set_state_category = rural
+	}
+	else_if = {
+		limit = {
+			has_state_category = rural
+		}
+		set_state_category = town
+	}
+	else_if = {
+		limit = {
+			has_state_category = town
+		}
+		set_state_category = large_town
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_town
+		}
+		set_state_category = city
+	}
+	else_if = {
+		limit = {
+			has_state_category = city
+		}
+		set_state_category = large_city
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_city
+		}
+		set_state_category = metropolis
+	}
+	else_if = {
+		limit = {
+			has_state_category = metropolis
+		}
+		set_state_category = megalopolis
+	}
+}

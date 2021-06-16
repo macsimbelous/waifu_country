@@ -1,0 +1,91 @@
+acr_discrediting_category = {
+	priority = 10
+	icon = decision_category_generic_propaganda
+	picture = GFX_decision_cat_picture_chi_political_support
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = AFM
+			original_tag = ASN
+			original_tag = AUN
+		}
+	}
+	visible = {
+		has_intelligence_agency = yes
+	}
+}
+acr_coring_category = {
+	priority = 9
+	icon = GFX_decision_category_eng_move_to_secure_the_dominions
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = AFM
+			original_tag = ASN
+			original_tag = AUN
+		}
+	}
+}
+acr_resources_category = {
+	priority = 8
+	icon = generic_prospect_for_resources
+	picture = GFX_wfl_resources_category
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = AFM
+			original_tag = ASN
+			original_tag = AUN
+		}
+	}
+	visible = {
+		has_tech = excavation1
+	}
+}
+acr_urbanisation_category = {
+	priority = 7
+	icon = generic_construction
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = AFM
+			original_tag = ASN
+			original_tag = AUN
+		}
+	}
+	visible = {
+		OR = {
+			has_tech = dispersed_industry5
+			has_tech = concentrated_industry5
+		}
+	}
+}
+acr_campaigning_for_volunteers_category = {
+	priority = 6
+	icon = decision_category_generic_propaganda
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = AFM
+			original_tag = ASN
+			original_tag = AUN
+		}
+	}
+	visible = {
+		has_manpower < 100000
+	}
+}
+acr_test_category = {
+	priority = 20
+	visible_when_empty = yes
+	allowed = {
+		always = no
+		is_debug = yes
+		OR = {
+			original_tag = ACW
+			original_tag = AFM
+			original_tag = ASN
+			original_tag = AUN
+		}
+	}
+}

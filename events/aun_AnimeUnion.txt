@@ -1,0 +1,63 @@
+﻿add_namespace = aun
+
+country_event = {
+	id = aun.1
+	title = aun.1.t
+	desc = aun.1.d
+	picture = GFX_report_event_gathering_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = aun.1.a
+		#COLON
+	add_state_core = 309
+	add_state_core = 310
+	add_state_core = 687
+	#VEN
+	add_state_core = 488
+	add_state_core = 307
+	add_state_core = 489
+	#COL
+	add_state_core = 493
+	add_state_core = 306
+	add_state_core = 486
+	#ECU
+	add_state_core = 305
+	#PRU
+	add_state_core = 490
+	add_state_core = 491
+	add_state_core = 492
+	add_state_core = 494
+	add_state_core = 303
+	#CHL
+	add_state_core = 279
+	add_state_core = 506
+	add_state_core = 507
+	#ARG
+	add_state_core = 508
+	add_state_core = 509
+	add_state_core = 510
+	add_state_core = 511
+	add_state_core = 512
+	add_state_core = 278
+	#URG
+	add_state_core = 300
+	#PAR
+	add_state_core = 301
+	add_state_core = 688
+	#BRA
+	add_state_core = 495
+	add_state_core = 496
+	add_state_core = 497
+	add_state_core = 498
+	add_state_core = 499
+	add_state_core = 500
+	add_state_core = 501
+	add_state_core = 502
+	add_state_core = 503
+	add_state_core = 504
+	add_state_core = 505
+	}
+}

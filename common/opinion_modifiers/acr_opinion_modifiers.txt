@@ -1,0 +1,34 @@
+opinion_modifiers = {
+	#Commonwealth focus
+	ACW_enemies_m = {
+		value = -10
+	}
+
+	ACW_together_m = {
+		value = 70
+	}
+
+	ACW_ROM_friend = {
+		value = 20
+	}
+	
+	ACW_anime_clever = {
+		value = 30
+	}
+	
+	ACW_POL_friend = {
+		value = 20
+	}
+	ACW_SOV_friend = {
+		value = 20
+	}
+	ACW_wariness = {
+		value = -20
+	}
+	ACW_ROM_hate = {
+		value = -100
+	}
+	AUN_red_friend = {
+		value = 50
+		}
+}

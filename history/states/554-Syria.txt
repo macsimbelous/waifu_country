@@ -1,0 +1,27 @@
+state={
+	id=554
+	name="STATE_554"
+	manpower = 4547797
+	
+	state_category = megalopolis
+
+	history={
+		owner = ASN
+		victory_points = {
+			4111 5
+		}
+		buildings = {
+			infrastructure = 8
+			air_base = 5
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		#add_core_of = SYR	
+		add_core_of = ASN
+	}
+
+
+	provinces={
+		1074 4111 4486 4550 7184 
+	}
+}

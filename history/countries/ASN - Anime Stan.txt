@@ -1,0 +1,165 @@
+﻿capital = 554
+
+oob = "ASN_1936"
+
+#research and industry stuff
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1	
+	tech_military_police = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	basic_torpedo = 1
+	early_ship_hull_light = 1
+	basic_battery = 1
+	early_ship_hull_submarine = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+}
+
+set_research_slots = 3
+
+set_convoys = 41
+1936.1.1 = {
+
+	
+}
+#politics and starting faction
+
+set_popularities = {
+	democratic = 20
+	neutrality = 40
+	fascism = 25
+	communism = 15
+}
+	
+set_politics = {
+	
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#ideas
+
+add_ideas = {
+	limited_exports
+	volunteer_only
+	partial_economic_mobilisation
+	Is_Flat_Justice
+	Slice_of_Life
+}
+
+#leaders
+
+create_country_leader = {
+	name = "Levi Ackerman"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Comm_Levi_Ackerman.tga"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		anime_tyan
+		peoples_favorite
+	}
+}
+create_country_leader = {
+	name = "Kaiser Ackerman"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Fascism_Ackerman.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		anime_tyan
+		Tyan_militarist
+		warmonger
+	}
+}
+create_country_leader = {
+	name = "Karen Kujou"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Demo_Karen_Kujou.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		dislikes_germany
+		anime_tyan
+	}
+}
+create_country_leader = {
+	name = "Arc Alter"
+	desc = "POLITICS_GHAZI_I_DESC"
+	picture = "France_Arc_Alter.tga"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		anime_tyan
+		Tyan_militarist
+	}
+}
+
+#generals
+
+create_field_marshal = {
+	name = "Lauri Allan Torni"
+	picture = "Finland_Lauri_Allan_Torni.tga"
+	traits = { offensive_doctrine logistics_wizard panzer_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Asahio"
+	picture = "Japan_Asahio.tga"
+	traits = { trickster fortress_buster }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Kinuyo Nishi"
+	picture = "Japan_Kinuyo_Nishi.tga"
+	traits = { trickster winter_specialist defensive_doctrine }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Arc Alter"
+	picture = "France_Arc_Alter.tga"
+	traits = { commando naval_invader panzer_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Youmu Konpaku"
+	picture = "Japan_Youmu_Konpaku.tga"
+	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}

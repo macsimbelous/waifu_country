@@ -1,0 +1,7 @@
+spriteTypes = {	
+	### categories
+	spriteType = {
+		name = "GFX_wfl_resources_category"
+		texturefile = "gfx/interface/decisions/wfl_resources_category.dds"
+	}
+}
