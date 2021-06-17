@@ -40,10 +40,10 @@ set_popularities = {
 	
 set_politics = {
 	
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 #ideas
@@ -83,9 +83,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Wilhelmina Braunschweig Ingenohl Friedeburg"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Germany_Wilhelmina_Braunschweig_Ingenohl_Friedeburg.tga"
+	name = "Mari Setogaya"
+	desc = "POLITICS_Mari_Setogaya_DESC"
+	picture = "Portrait_Mari_Setogaya.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -105,17 +105,6 @@ create_country_leader = {
 }
 
 #generals
-
-create_field_marshal = {
-	name = "Kaiser Hans"
-	picture = "Portrait_Germany_Generic_1.tga"
-	traits = { defensive_doctrine offensive_doctrine logistics_wizard panzer_leader }
-	skill = 6
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 6
-	logistics_skill = 4
-}
 
 create_corps_commander = {
 	name = "U-511"
