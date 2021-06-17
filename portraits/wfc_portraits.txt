@@ -120,11 +120,7 @@ WFL = {
 			"gfx/leaders/WFL/Portrait_female_generic_operative_29.dds"
 		}
 		male = {
-			"gfx/leaders/WFL/Portrait_male_generic_operative_01.dds"
-			"gfx/leaders/WFL/Portrait_male_generic_operative_02.dds"
-			"gfx/leaders/WFL/Portrait_male_generic_operative_03.dds"
-			"gfx/leaders/WFL/Portrait_male_generic_operative_04.dds"
-			"gfx/leaders/WFL/Portrait_male_generic_operative_05.dds"
+
 		}
 	}
 }
@@ -518,7 +514,7 @@ ASN = {
 		}
 	}
 }
-AUN = {
+TRP = {
 	army = {
 		male = {
 			"gfx/leaders/acr_portrait_generic_land_01.dds"
@@ -609,42 +605,14 @@ AUN = {
 	}
 	operative = {
 		female = {
-			"gfx/leaders/acr_portrait_female_generic_operative_01.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_02.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_03.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_04.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_05.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_06.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_07.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_08.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_09.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_10.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_11.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_12.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_13.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_14.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_15.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_16.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_17.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_18.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_19.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_20.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_21.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_22.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_23.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_24.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_25.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_26.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_27.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_28.dds"
-			"gfx/leaders/acr_portrait_female_generic_operative_29.dds"
+
 		}
 		male = {
-			"gfx/leaders/acr_portrait_male_generic_operative_01.dds"
-			"gfx/leaders/acr_portrait_male_generic_operative_02.dds"
-			"gfx/leaders/acr_portrait_male_generic_operative_03.dds"
-			"gfx/leaders/acr_portrait_male_generic_operative_04.dds"
-			"gfx/leaders/acr_portrait_male_generic_operative_05.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_01.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_02.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_03.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_04.dds"
+			"gfx/leaders/WFL/Portrait_male_generic_operative_05.dds"
 		}
 	}
 }

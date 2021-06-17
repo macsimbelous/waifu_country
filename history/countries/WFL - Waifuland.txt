@@ -563,21 +563,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Astolfo"
-	picture = "ROA_Astolfo_general.dds"
-	traits = {
-		cavalry_leader
-		cavalry_expert
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	#id = 7035
-}
-
-create_corps_commander = {
 	name = "Tiamat"
 	picture = "ROA_Tiamat_general.dds"
 	traits = {
@@ -769,18 +754,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Igawa Asagi"
-	picture = "Portrait_Igawa_Asagi.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
 	name = "Kiana Kaslana"
 	picture = "Portrait_Kiana_Kaslana.dds"
 	skill = 1
@@ -913,17 +886,7 @@ create_corps_commander = {
 	}
 }
 
-create_corps_commander = {
-	name = "Souji Mitsuka"
-	picture = "Portrait_Souji_Mitsuka.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
+
 
 create_corps_commander = {
 	name = "Velvet Crowe"
@@ -1302,30 +1265,8 @@ if = {
 			WFL
 		}
 	}
-	create_operative_leader = {
-		name = "Saki Mizushima"
-		GFX = GFX_ROA_Saki_Mizushima_agent
-		traits = {
-			operative_natural_orator
-		}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = {
-			WFL
-		}
-	}
-	create_operative_leader = {
-		name = "Ryou Akizuki"
-		GFX = GFX_ROA_Ryou_Akizuki_agent
-		traits = {
-			operative_seducer
-		}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = {
-			WFL
-		}
-	}
+
+
 	create_operative_leader = {
 		name = "Makoto Kikuchi"
 		GFX = GFX_ROA_Makoto_Kikuchi_agent

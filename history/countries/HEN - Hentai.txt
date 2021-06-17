@@ -1,6 +1,6 @@
 ﻿capital = 525
 
-oob = "AFM_1936"
+oob = "HEN_1936"
 
 #research and industry stuff
 
@@ -105,7 +105,17 @@ create_country_leader = {
 }
 
 #generals
-
+create_corps_commander = {
+	name = "Igawa Asagi"
+	picture = "Portrait_Igawa_Asagi.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
 create_corps_commander = {
 	name = "U-511"
 	picture = "Germany_U-511.tga"

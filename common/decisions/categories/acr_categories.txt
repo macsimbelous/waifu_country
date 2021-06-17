@@ -7,7 +7,7 @@ acr_discrediting_category = {
 			original_tag = ACW
 			original_tag = HEN
 			original_tag = ASN
-			original_tag = AUN
+			original_tag = TRP
 		}
 	}
 	visible = {
@@ -22,7 +22,7 @@ acr_coring_category = {
 			original_tag = ACW
 			original_tag = HEN
 			original_tag = ASN
-			original_tag = AUN
+			original_tag = TRP
 		}
 	}
 }
@@ -35,7 +35,7 @@ acr_resources_category = {
 			original_tag = ACW
 			original_tag = HEN
 			original_tag = ASN
-			original_tag = AUN
+			original_tag = TRP
 		}
 	}
 	visible = {
@@ -50,7 +50,7 @@ acr_urbanisation_category = {
 			original_tag = ACW
 			original_tag = HEN
 			original_tag = ASN
-			original_tag = AUN
+			original_tag = TRP
 		}
 	}
 	visible = {
@@ -68,7 +68,7 @@ acr_campaigning_for_volunteers_category = {
 			original_tag = ACW
 			original_tag = HEN
 			original_tag = ASN
-			original_tag = AUN
+			original_tag = TRP
 		}
 	}
 	visible = {
@@ -85,7 +85,7 @@ acr_test_category = {
 			original_tag = ACW
 			original_tag = HEN
 			original_tag = ASN
-			original_tag = AUN
+			original_tag = TRP
 		}
 	}
 }

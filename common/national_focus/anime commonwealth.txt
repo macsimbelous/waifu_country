@@ -257,7 +257,7 @@ focus_tree = {
 		available = {
 			has_war = no
 			any_neighbor_country = {
-				original_tag = AFM
+				original_tag = HEN
 			}
 		}
 		prerequisite = {
@@ -270,7 +270,7 @@ focus_tree = {
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
-				target = AFM
+				target = HEN
 			}
 		}
 	}

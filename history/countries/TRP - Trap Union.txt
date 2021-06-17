@@ -1,6 +1,6 @@
 ﻿capital = 495
 
-oob = "AUN_1936"
+oob = "TRP_1936"
 
 #research and industry stuff
 
@@ -51,17 +51,17 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	Is_Flat_Justice
-	AUN_revolution
+	TRP_revolution
 }
 
 #leaders
 
 create_country_leader = {
-	name = "Ekaterina"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Soviet_IS-7.tga"
+	name = "Astolfo"
+	desc = "POLITICS_Astolfo_DESC"
+	picture = "Portrait_Astolfo.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = socialism
 	traits = {
 		anime_tyan
 		peoples_favorite
@@ -104,7 +104,20 @@ create_country_leader = {
 }
 
 #generals
-
+create_field_marshal = {
+	name = "Astolfo"
+	picture = "Portrait_Astolfo.dds"
+	traits = {
+		cavalry_leader
+		cavalry_expert
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7035
+}
 create_field_marshal = {
 	name = "Hibiki"
 	picture = "Soviet_Hibiki.tga"
@@ -115,7 +128,17 @@ create_field_marshal = {
 	planning_skill = 6
 	logistics_skill = 6
 }
-
+create_corps_commander = {
+	name = "Souji Mitsuka"
+	picture = "Portrait_Souji_Mitsuka.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
 create_corps_commander = {
 	name = "Katyusha"
 	picture = "Soviet_Katyusha.tga"
@@ -169,4 +192,29 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 4
+}
+#agents
+create_operative_leader = {
+	name = "Saki Mizushima"
+	GFX = GFX_Saki_Mizushima
+	traits = {
+		operative_natural_orator
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		WFL
+	}
+}
+create_operative_leader = {
+	name = "Ryou Akizuki"
+	GFX = GFX_Ryou_Akizuki
+	traits = {
+		operative_seducer
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		WFL
+	}
 }

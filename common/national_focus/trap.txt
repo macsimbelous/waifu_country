@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = AUN
+			tag = TRP
 		}
 	}
 	default = no
@@ -16,7 +16,7 @@ focus_tree = {
 		y = 1500
 	}
 	focus = {
-		id = AUN_polit
+		id = TRP_polit
 		icon = GFX_goal_generic_demand_territory
 		cost = 1
 		x = 3
@@ -27,7 +27,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_col_minus
+		id = TRP_col_minus
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		x = 3
@@ -39,7 +39,7 @@ focus_tree = {
 		completion_reward = {
 			COL = {
 				every_owned_state = {
-					add_claim_by = AUN
+					add_claim_by = TRP
 				}
 			}
 			create_wargoal = {
@@ -49,11 +49,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_create_intelligence_agency
+		id = TRP_create_intelligence_agency
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 5
 		prerequisite = {
-			focus = AUN_polit
+			focus = TRP_polit
 		}
 		x = 3
 		y = 1
@@ -71,11 +71,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_bol_mipus
+		id = TRP_bol_mipus
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = AUN_create_intelligence_agency
+			focus = TRP_create_intelligence_agency
 		}
 		x = 1
 		y = 2
@@ -93,11 +93,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_fascism_del
+		id = TRP_fascism_del
 		icon = GFX_focus_generic_anti_fascist_diplomacy
 		cost = 5
 		prerequisite = {
-			focus = AUN_bol_mipus
+			focus = TRP_bol_mipus
 		}
 		x = 1
 		y = 3
@@ -110,11 +110,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_per_minus
+		id = TRP_per_minus
 		icon = GFX_goal_generic_major_war
 		cost = 5
 		prerequisite = {
-			focus = AUN_fascism_del
+			focus = TRP_fascism_del
 		}
 		x = 1
 		y = 4
@@ -125,7 +125,7 @@ focus_tree = {
 		completion_reward = {
 			PRU = {
 				every_owned_state = {
-					add_claim_by = AUN
+					add_claim_by = TRP
 				}
 			}
 			create_wargoal = {
@@ -135,11 +135,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_ven_minus
+		id = TRP_ven_minus
 		icon = GFX_goal_generic_major_war
 		cost = 5
 		prerequisite = {
-			focus = AUN_per_minus
+			focus = TRP_per_minus
 		}
 		x = 1
 		y = 5
@@ -157,7 +157,7 @@ focus_tree = {
 		completion_reward = {
 			VEN = {
 				every_owned_state = {
-					add_claim_by = AUN
+					add_claim_by = TRP
 				}
 			}
 			create_wargoal = {
@@ -167,11 +167,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_nalogi
+		id = TRP_nalogi
 		icon = GFX_focus_generic_treaty
 		cost = 10
 		prerequisite = {
-			focus = AUN_create_intelligence_agency
+			focus = TRP_create_intelligence_agency
 		}
 		x = 3
 		y = 2
@@ -185,11 +185,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_terr
+		id = TRP_terr
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		cost = 5
 		prerequisite = {
-			focus = AUN_bol_mipus
+			focus = TRP_bol_mipus
 		}
 		x = 3
 		y = 3
@@ -198,11 +198,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_bra_minus
+		id = TRP_bra_minus
 		icon = GFX_goal_generic_major_war
 		cost = 5
 		prerequisite = {
-			focus = AUN_terr
+			focus = TRP_terr
 		}
 		x = 3
 		y = 4
@@ -210,7 +210,7 @@ focus_tree = {
 		completion_reward = {
 			BRA = {
 				every_owned_state = {
-					add_claim_by = AUN
+					add_claim_by = TRP
 				}
 			}
 			create_wargoal = {
@@ -223,11 +223,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_chil_minus
+		id = TRP_chil_minus
 		icon = GFX_goal_generic_major_war
 		cost = 5
 		prerequisite = {
-			focus = AUN_bra_minus
+			focus = TRP_bra_minus
 		}
 		x = 3
 		y = 5
@@ -248,7 +248,7 @@ focus_tree = {
 		completion_reward = {
 			CHL = {
 				every_owned_state = {
-					add_claim_by = AUN
+					add_claim_by = TRP
 				}
 			}
 			create_wargoal = {
@@ -258,11 +258,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_arg_minus
+		id = TRP_arg_minus
 		icon = GFX_goal_generic_major_war
 		cost = 5
 		prerequisite = {
-			focus = AUN_bra_minus
+			focus = TRP_bra_minus
 		}
 		x = 5
 		y = 5
@@ -283,7 +283,7 @@ focus_tree = {
 		completion_reward = {
 			ARG = {
 				every_owned_state = {
-					add_claim_by = AUN
+					add_claim_by = TRP
 				}
 			}
 			create_wargoal = {
@@ -297,10 +297,10 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		prerequisite = {
-			focus = AUN_chil_minus
+			focus = TRP_chil_minus
 		}
 		prerequisite = {
-			focus = AUN_arg_minus
+			focus = TRP_arg_minus
 		}
 		x = 3
 		y = 6
@@ -314,7 +314,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_urg_minus
+		id = TRP_urg_minus
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
@@ -326,7 +326,7 @@ focus_tree = {
 		completion_reward = {
 			URG = {
 				every_owned_state = {
-					add_claim_by = AUN
+					add_claim_by = TRP
 				}
 			}
 			create_wargoal = {
@@ -336,7 +336,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_ecu_minus
+		id = TRP_ecu_minus
 		icon = GFX_goal_generic_major_war
 		cost = 5
 		prerequisite = {
@@ -348,7 +348,7 @@ focus_tree = {
 		completion_reward = {
 			ECU = {
 				every_owned_state = {
-					add_claim_by = AUN
+					add_claim_by = TRP
 				}
 			}
 			create_wargoal = {
@@ -358,17 +358,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_kolon_minus
+		id = TRP_kolon_minus
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = AUN_ecu_minus
+			focus = TRP_ecu_minus
 		}
 		prerequisite = {
-			focus = AUN_col_minus
+			focus = TRP_col_minus
 		}
 		prerequisite = {
-			focus = AUN_urg_minus
+			focus = TRP_urg_minus
 		}
 		x = 3
 		y = 8
@@ -383,11 +383,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_dru
+		id = TRP_dru
 		icon = GFX_focus_generic_join_comintern
 		cost = 5
 		prerequisite = {
-			focus = AUN_create_intelligence_agency
+			focus = TRP_create_intelligence_agency
 		}
 		x = 5
 		y = 2
@@ -407,17 +407,17 @@ focus_tree = {
 		icon = GFX_goal_tripartite_pact
 		cost = 10
 		prerequisite = {
-			focus = AUN_dru
+			focus = TRP_dru
 		}
 		completion_reward = {
 			add_opinion_modifier = {
 				target = PAR
-				modifier = AUN_red_friend
+				modifier = TRP_red_friend
 			}
 			PAR = {
 				add_opinion_modifier = {
-					target = AUN
-					modifier = AUN_red_friend
+					target = TRP
+					modifier = TRP_red_friend
 				}
 			}
 			puppet = PAR
@@ -450,11 +450,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_YPA
+		id = TRP_YPA
 		icon = GFX_focus_AST_squander_bug
 		cost = 10
 		prerequisite = {
-			focus = AUN_kolon_minus
+			focus = TRP_kolon_minus
 		}
 		x = 3
 		y = 9
@@ -466,11 +466,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUN_prazdnik
+		id = TRP_prazdnik
 		icon = GFX_goal_continuous_increase_nu
 		cost = 10
 		prerequisite = {
-			focus = AUN_YPA
+			focus = TRP_YPA
 		}
 		x = 3
 		y = 10

@@ -17,12 +17,12 @@ spriteTypes = {
                 texturefile = "gfx/leaders/WFL/Portrait_Ange_le_Carre.dds"
         }
         spriteType = {
-                name = "GFX_ROA_Saki_Mizushima_agent"
-                texturefile = "gfx/leaders/WFL/Portrait_Saki_Mizushima.dds"
+                name = "GFX_Saki_Mizushima"
+                texturefile = "gfx/leaders/TRP/Portrait_Saki_Mizushima.dds"
         }
         spriteType = {
-                name = "GFX_ROA_Ryou_Akizuki_agent"
-                texturefile = "gfx/leaders/WFL/Portrait_Ryou_Akizuki.dds"
+                name = "GFX_Ryou_Akizuki"
+                texturefile = "gfx/leaders/TRP/Portrait_Ryou_Akizuki.dds"
         }
         spriteType = {
                 name = "GFX_ROA_Makoto_Kikuchi_agent"
