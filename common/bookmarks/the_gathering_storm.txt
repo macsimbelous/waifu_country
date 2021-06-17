@@ -49,7 +49,7 @@ bookmarks = {
 				
 			}
 		}
-		"ASN" = {
+		"MAH" = {
 			history = "ASN_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -77,21 +77,17 @@ bookmarks = {
 				Is_Flat_Justice
 			}
 		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
+		"MEH"={
+			history = "MEH_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
+
 			}	
 			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
+
 			}			
 		}
-		"SOV"={
+		"MON"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {

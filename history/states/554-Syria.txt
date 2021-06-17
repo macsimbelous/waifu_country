@@ -6,7 +6,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = ASN
+		owner = MAH
 		victory_points = {
 			4111 5
 		}
@@ -17,7 +17,7 @@ state={
 			arms_factory = 3
 		}
 		#add_core_of = SYR	
-		add_core_of = ASN
+		add_core_of = MAH
 	}
 
 

@@ -6,7 +6,7 @@ state={
 	state_category = town
 
 	history={
-		owner = ASN
+		owner = MAH
 		victory_points = {
 			792 5 
 		}
@@ -20,7 +20,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = ASN
+		add_core_of = MAH
 		#add_core_of = LEB
 	}
 

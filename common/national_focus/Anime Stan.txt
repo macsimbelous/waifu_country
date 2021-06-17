@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = ASN
+			tag = MAH
 		}
 	}
 	continuous_focus_position = {
@@ -13,10 +13,10 @@ focus_tree = {
 	}
 	default = no
 	initial_show_position = {
-		focus = asn_industrial_effort
+		focus = MAH_industrial_effort
 	}
 	focus = {
-		id = ASN_create_intelligence_agency
+		id = MAH_create_intelligence_agency
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 5
 		x = 14
@@ -35,13 +35,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_terr_plus
+		id = MAH_terr_plus
 		icon = GFX_goal_generic_territory_or_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_create_intelligence_agency
+			focus = MAH_create_intelligence_agency
 		}
-		relative_position_id = ASN_create_intelligence_agency
+		relative_position_id = MAH_create_intelligence_agency
 		x = 0
 		y = 1
 		completion_reward = {
@@ -50,13 +50,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_milit
+		id = MAH_milit
 		icon = GFX_focus_generic_little_entente
 		cost = 10
 		prerequisite = {
-			focus = ASN_terr_plus
+			focus = MAH_terr_plus
 		}
-		relative_position_id = ASN_terr_plus
+		relative_position_id = MAH_terr_plus
 		x = -2
 		y = 1
 		completion_reward = {
@@ -64,13 +64,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_anime_pox
+		id = MAH_anime_pox
 		icon = GFX_focus_generic_air_defense
 		cost = 10
 		prerequisite = {
-			focus = ASN_milit
+			focus = MAH_milit
 		}
-		relative_position_id = ASN_milit
+		relative_position_id = MAH_milit
 		x = 0
 		y = 1
 		completion_reward = {
@@ -79,13 +79,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ASN_caud_atack
+		id = MAH_caud_atack
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_terr_plus
+			focus = MAH_terr_plus
 		}
-		relative_position_id = ASN_terr_plus
+		relative_position_id = MAH_terr_plus
 		x = 0
 		y = 1
 		ai_will_do = {
@@ -94,7 +94,7 @@ focus_tree = {
 		completion_reward = {
 			SAU = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			create_wargoal = {
@@ -104,13 +104,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_atack_oma
+		id = MAH_atack_oma
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_caud_atack
+			focus = MAH_caud_atack
 		}
-		relative_position_id = ASN_caud_atack
+		relative_position_id = MAH_caud_atack
 		x = 0
 		y = 1
 		ai_will_do = {
@@ -119,12 +119,12 @@ focus_tree = {
 		completion_reward = {
 			OMA = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			YEM = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			create_wargoal = {
@@ -138,19 +138,19 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_irq_atack
+		id = MAH_irq_atack
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_terr_plus
+			focus = MAH_terr_plus
 		}
-		relative_position_id = ASN_terr_plus
+		relative_position_id = MAH_terr_plus
 		x = 2
 		y = 1
 		completion_reward = {
 			IRQ = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			create_wargoal = {
@@ -160,19 +160,19 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_per_atack
+		id = MAH_per_atack
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_irq_atack
+			focus = MAH_irq_atack
 		}
-		relative_position_id = ASN_irq_atack
+		relative_position_id = MAH_irq_atack
 		x = 0
 		y = 1
 		completion_reward = {
 			PER = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			create_wargoal = {
@@ -182,23 +182,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_brit_lalk
+		id = MAH_brit_lalk
 		icon = GFX_goal_generic_military_deal
 		cost = 10
 		prerequisite = {
-			focus = ASN_per_atack
+			focus = MAH_per_atack
 		}
 		prerequisite = {
-			focus = ASN_atack_oma
+			focus = MAH_atack_oma
 		}
 		prerequisite = {
-			focus = ASN_anime_pox
+			focus = MAH_anime_pox
 		}
-		relative_position_id = ASN_atack_oma
+		relative_position_id = MAH_atack_oma
 		x = 0
 		y = 1
 		completion_reward = {
-			ASN = {
+			MAH = {
 				transfer_state = 656
 				transfer_state = 658
 				transfer_state = 659
@@ -208,13 +208,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_start_of_end
+		id = MAH_start_of_end
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10
 		prerequisite = {
-			focus = ASN_brit_lalk
+			focus = MAH_brit_lalk
 		}
-		relative_position_id = ASN_brit_lalk
+		relative_position_id = MAH_brit_lalk
 		x = 0
 		y = 1
 		completion_reward = {
@@ -222,20 +222,20 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_egy_over
+		id = MAH_egy_over
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 10
 		prerequisite = {
-			focus = ASN_start_of_end
+			focus = MAH_start_of_end
 		}
-		relative_position_id = ASN_start_of_end
+		relative_position_id = MAH_start_of_end
 		x = -1
 		y = 1
 		completion_reward = {
 			ENG = {
 				release = EGY
 			}
-			ASN = {
+			MAH = {
 				puppet = EGY
 			}
 		}
@@ -244,24 +244,24 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_our_tur
+		id = MAH_our_tur
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_start_of_end
+			focus = MAH_start_of_end
 		}
 		bypass = {
 			NOT = {
 				country_exists = TUR
 			}
 		}
-		relative_position_id = ASN_start_of_end
+		relative_position_id = MAH_start_of_end
 		x = 1
 		y = 1
 		completion_reward = {
 			TUR = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			create_wargoal = {
@@ -271,24 +271,24 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_our_afg
+		id = MAH_our_afg
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_our_tur
+			focus = MAH_our_tur
 		}
 		bypass = {
 			NOT = {
 				country_exists = AFG
 			}
 		}
-		relative_position_id = ASN_our_tur
+		relative_position_id = MAH_our_tur
 		x = 0
 		y = 1
 		completion_reward = {
 			AFG = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			create_wargoal = {
@@ -298,24 +298,24 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_our_sik
+		id = MAH_our_sik
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_our_afg
+			focus = MAH_our_afg
 		}
 		bypass = {
 			NOT = {
 				country_exists = SIK
 			}
 		}
-		relative_position_id = ASN_our_afg
+		relative_position_id = MAH_our_afg
 		x = 0
 		y = 1
 		completion_reward = {
 			SIK = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			create_wargoal = {
@@ -325,13 +325,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_raj_over
+		id = MAH_raj_over
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 10
 		prerequisite = {
-			focus = ASN_egy_over
+			focus = MAH_egy_over
 		}
-		relative_position_id = ASN_egy_over
+		relative_position_id = MAH_egy_over
 		x = 0
 		y = 1
 		completion_reward = {
@@ -344,16 +344,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_raj_team
+		id = MAH_raj_team
 		icon = GFX_goal_generic_military_deal
 		cost = 10
 		prerequisite = {
-			focus = ASN_raj_over
+			focus = MAH_raj_over
 		}
 		mutually_exclusive = {
-			focus = ASN_raj_overr
+			focus = MAH_raj_overr
 		}
-		relative_position_id = ASN_raj_over
+		relative_position_id = MAH_raj_over
 		x = 0
 		y = 1
 		completion_reward = {
@@ -361,22 +361,22 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ASN_raj_overr
+		id = MAH_raj_overr
 		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
-			focus = ASN_raj_over
+			focus = MAH_raj_over
 		}
 		mutually_exclusive = {
-			focus = ASN_raj_team
+			focus = MAH_raj_team
 		}
-		relative_position_id = ASN_raj_over
+		relative_position_id = MAH_raj_over
 		x = -2
 		y = 1
 		completion_reward = {
 			RAJ = {
 				every_owned_state = {
-					add_claim_by = ASN
+					add_claim_by = MAH
 				}
 			}
 			create_wargoal = {
@@ -389,7 +389,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_army_effort
+		id = MAH_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 9
 		y = 0
@@ -409,14 +409,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_equipment_effort
+		id = MAH_equipment_effort
 		icon = GFX_goal_generic_small_arms
 		prerequisite = {
-			focus = asn_army_effort
+			focus = MAH_army_effort
 		}
 		x = -1
 		y = 1
-		relative_position_id = asn_army_effort
+		relative_position_id = MAH_army_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -433,17 +433,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_motorization_effort
+		id = MAH_motorization_effort
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = {
-			focus = asn_army_effort
+			focus = MAH_army_effort
 		}
 		bypass = {
 			has_tech = motorised_infantry
 		}
 		x = 1
 		y = 1
-		relative_position_id = asn_army_effort
+		relative_position_id = MAH_army_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -458,14 +458,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_doctrine_effort
+		id = MAH_doctrine_effort
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = {
-			focus = asn_army_effort
+			focus = MAH_army_effort
 		}
 		x = 0
 		y = 2
-		relative_position_id = asn_army_effort
+		relative_position_id = MAH_army_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -482,14 +482,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_equipment_effort_2
+		id = MAH_equipment_effort_2
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = {
-			focus = asn_equipment_effort
+			focus = MAH_equipment_effort
 		}
 		x = 0
 		y = 2
-		relative_position_id = asn_equipment_effort
+		relative_position_id = MAH_equipment_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -506,14 +506,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_mechanization_effort
+		id = MAH_mechanization_effort
 		icon = GFX_goal_generic_build_tank
 		prerequisite = {
-			focus = asn_motorization_effort
+			focus = MAH_motorization_effort
 		}
 		x = 0
 		y = 2
-		relative_position_id = asn_motorization_effort
+		relative_position_id = MAH_motorization_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -529,14 +529,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_doctrine_effort_2
+		id = MAH_doctrine_effort_2
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = {
-			focus = asn_doctrine_effort
+			focus = MAH_doctrine_effort
 		}
 		x = 0
 		y = 2
-		relative_position_id = asn_doctrine_effort
+		relative_position_id = MAH_doctrine_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -553,14 +553,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_equipment_effort_3
+		id = MAH_equipment_effort_3
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = {
-			focus = asn_equipment_effort_2
+			focus = MAH_equipment_effort_2
 		}
 		x = 0
 		y = 2
-		relative_position_id = asn_equipment_effort_2
+		relative_position_id = MAH_equipment_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -577,14 +577,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_armor_effort
+		id = MAH_armor_effort
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = {
-			focus = asn_mechanization_effort
+			focus = MAH_mechanization_effort
 		}
 		x = 0
 		y = 2
-		relative_position_id = asn_mechanization_effort
+		relative_position_id = MAH_mechanization_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -600,20 +600,20 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_special_forces
+		id = MAH_special_forces
 		icon = GFX_goal_generic_special_forces
 		prerequisite = {
-			focus = asn_equipment_effort_3
+			focus = MAH_equipment_effort_3
 		}
 		prerequisite = {
-			focus = asn_doctrine_effort_2
+			focus = MAH_doctrine_effort_2
 		}
 		prerequisite = {
-			focus = asn_armor_effort
+			focus = MAH_armor_effort
 		}
 		x = 1
 		y = 1
-		relative_position_id = asn_equipment_effort_3
+		relative_position_id = MAH_equipment_effort_3
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -635,7 +635,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_aviation_effort
+		id = MAH_aviation_effort
 		icon = GFX_goal_generic_build_airforce
 		x = 13
 		y = 0
@@ -722,17 +722,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_fighter_focus
+		id = MAH_fighter_focus
 		icon = GFX_goal_generic_air_fighter
 		prerequisite = {
-			focus = asn_aviation_effort
+			focus = MAH_aviation_effort
 		}
 		mutually_exclusive = {
-			focus = asn_bomber_focus
+			focus = MAH_bomber_focus
 		}
 		x = -1
 		y = 1
-		relative_position_id = asn_aviation_effort
+		relative_position_id = MAH_aviation_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -754,17 +754,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_bomber_focus
+		id = MAH_bomber_focus
 		icon = GFX_goal_generic_air_bomber
 		prerequisite = {
-			focus = asn_aviation_effort
+			focus = MAH_aviation_effort
 		}
 		mutually_exclusive = {
-			focus = asn_fighter_focus
+			focus = MAH_fighter_focus
 		}
 		x = 1
 		y = 1
-		relative_position_id = asn_aviation_effort
+		relative_position_id = MAH_aviation_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -783,15 +783,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_aviation_effort_2
+		id = MAH_aviation_effort_2
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = {
-			focus = asn_bomber_focus
-			focus = asn_fighter_focus
+			focus = MAH_bomber_focus
+			focus = MAH_fighter_focus
 		}
 		x = -1
 		y = 1
-		relative_position_id = asn_bomber_focus
+		relative_position_id = MAH_bomber_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -801,7 +801,7 @@ focus_tree = {
 			air_experience = 25
 			if = {
 				limit = {
-					has_country_flag = asn_aviation_effort_2_AB
+					has_country_flag = MAH_aviation_effort_2_AB
 				}
 				add_building_construction = {
 					type = air_base
@@ -847,7 +847,7 @@ focus_tree = {
 						instant_build = yes
 					}
 					ROOT = {
-						set_country_flag = asn_aviation_effort_2_AB
+						set_country_flag = MAH_aviation_effort_2_AB
 					}
 				}
 			}
@@ -868,7 +868,7 @@ focus_tree = {
 						instant_build = yes
 					}
 					ROOT = {
-						set_country_flag = asn_aviation_effort_2_AB
+						set_country_flag = MAH_aviation_effort_2_AB
 					}
 				}
 			}
@@ -881,17 +881,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_CAS_effort
+		id = MAH_CAS_effort
 		icon = GFX_goal_generic_CAS
 		prerequisite = {
-			focus = asn_aviation_effort_2
+			focus = MAH_aviation_effort_2
 		}
 		prerequisite = {
-			focus = asn_motorization_effort
+			focus = MAH_motorization_effort
 		}
 		x = -1
 		y = 1
-		relative_position_id = asn_aviation_effort_2
+		relative_position_id = MAH_aviation_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -908,17 +908,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_rocket_effort
+		id = MAH_rocket_effort
 		icon = GFX_focus_rocketry
 		prerequisite = {
-			focus = asn_aviation_effort_2
+			focus = MAH_aviation_effort_2
 		}
 		prerequisite = {
-			focus = asn_infrastructure_effort
+			focus = MAH_infrastructure_effort
 		}
 		x = 0
 		y = 2
-		relative_position_id = asn_aviation_effort_2
+		relative_position_id = MAH_aviation_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -942,17 +942,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_NAV_effort
+		id = MAH_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
 		prerequisite = {
-			focus = asn_aviation_effort_2
+			focus = MAH_aviation_effort_2
 		}
 		prerequisite = {
-			focus = asn_flexible_navy
+			focus = MAH_flexible_navy
 		}
 		x = 1
 		y = 1
-		relative_position_id = asn_aviation_effort_2
+		relative_position_id = MAH_aviation_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -969,7 +969,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_naval_effort
+		id = MAH_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 17
 		y = 0
@@ -1098,17 +1098,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_flexible_navy
+		id = MAH_flexible_navy
 		icon = GFX_goal_generic_build_navy
 		prerequisite = {
-			focus = asn_naval_effort
+			focus = MAH_naval_effort
 		}
 		mutually_exclusive = {
-			focus = asn_large_navy
+			focus = MAH_large_navy
 		}
 		x = -1
 		y = 1
-		relative_position_id = asn_naval_effort
+		relative_position_id = MAH_naval_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1140,17 +1140,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_large_navy
+		id = MAH_large_navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = {
-			focus = asn_naval_effort
+			focus = MAH_naval_effort
 		}
 		mutually_exclusive = {
-			focus = asn_flexible_navy
+			focus = MAH_flexible_navy
 		}
 		x = 1
 		y = 1
-		relative_position_id = asn_naval_effort
+		relative_position_id = MAH_naval_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1178,15 +1178,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_submarine_effort
+		id = MAH_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		prerequisite = {
-			focus = asn_flexible_navy
-			focus = asn_large_navy
+			focus = MAH_flexible_navy
+			focus = MAH_large_navy
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_flexible_navy
+		relative_position_id = MAH_flexible_navy
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1215,15 +1215,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_cruiser_effort
+		id = MAH_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = {
-			focus = asn_large_navy
-			focus = asn_flexible_navy
+			focus = MAH_large_navy
+			focus = MAH_flexible_navy
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_large_navy
+		relative_position_id = MAH_large_navy
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1253,14 +1253,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_destroyer_effort
+		id = MAH_destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
 		prerequisite = {
-			focus = asn_submarine_effort
+			focus = MAH_submarine_effort
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_submarine_effort
+		relative_position_id = MAH_submarine_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1289,14 +1289,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_capital_ships_effort
+		id = MAH_capital_ships_effort
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = {
-			focus = asn_cruiser_effort
+			focus = MAH_cruiser_effort
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_cruiser_effort
+		relative_position_id = MAH_cruiser_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1328,7 +1328,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_industrial_effort
+		id = MAH_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 21
 		y = 0
@@ -1368,14 +1368,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_construction_effort
+		id = MAH_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = {
-			focus = asn_industrial_effort
+			focus = MAH_industrial_effort
 		}
 		x = -1
 		y = 1
-		relative_position_id = asn_industrial_effort
+		relative_position_id = MAH_industrial_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1386,7 +1386,7 @@ focus_tree = {
 		}
 		bypass = {
 			custom_trigger_tooltip = {
-				tooltip = asn_construction_effort_tt
+				tooltip = MAH_construction_effort_tt
 				all_owned_state = {
 					free_building_slots = {
 						building = industrial_complex
@@ -1438,14 +1438,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_production_effort
+		id = MAH_production_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {
-			focus = asn_industrial_effort
+			focus = MAH_industrial_effort
 		}
 		x = 1
 		y = 1
-		relative_position_id = asn_industrial_effort
+		relative_position_id = MAH_industrial_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1508,14 +1508,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_construction_effort_2
+		id = MAH_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = {
-			focus = asn_construction_effort
+			focus = MAH_construction_effort
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_construction_effort
+		relative_position_id = MAH_construction_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1578,14 +1578,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_production_effort_2
+		id = MAH_production_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {
-			focus = asn_production_effort
+			focus = MAH_production_effort
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_production_effort
+		relative_position_id = MAH_production_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1648,14 +1648,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_infrastructure_effort
+		id = MAH_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
-			focus = asn_construction_effort_2
+			focus = MAH_construction_effort_2
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_construction_effort_2
+		relative_position_id = MAH_construction_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1663,7 +1663,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		bypass = {
 			custom_trigger_tooltip = {
-				tooltip = asn_infrastructure_effort_tt
+				tooltip = MAH_infrastructure_effort_tt
 				all_owned_state = {
 					free_building_slots = {
 						building = infrastructure
@@ -1742,14 +1742,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_production_effort_3
+		id = MAH_production_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {
-			focus = asn_production_effort_2
+			focus = MAH_production_effort_2
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_production_effort_2
+		relative_position_id = MAH_production_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1812,14 +1812,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_infrastructure_effort_2
+		id = MAH_infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
-			focus = asn_infrastructure_effort
+			focus = MAH_infrastructure_effort
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_infrastructure_effort
+		relative_position_id = MAH_infrastructure_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1906,14 +1906,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_construction_effort_3
+		id = MAH_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = {
-			focus = asn_infrastructure_effort
+			focus = MAH_infrastructure_effort
 		}
 		x = 2
 		y = 1
-		relative_position_id = asn_infrastructure_effort
+		relative_position_id = MAH_infrastructure_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1976,14 +1976,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_nuclear_effort
+		id = MAH_nuclear_effort
 		icon = GFX_focus_wonderweapons
 		prerequisite = {
-			focus = asn_infrastructure_effort_2
+			focus = MAH_infrastructure_effort_2
 		}
 		x = -2
 		y = 1
-		relative_position_id = asn_infrastructure_effort_2
+		relative_position_id = MAH_infrastructure_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -2005,14 +2005,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_extra_tech_slot
+		id = MAH_extra_tech_slot
 		icon = GFX_focus_research
 		prerequisite = {
-			focus = asn_infrastructure_effort_2
+			focus = MAH_infrastructure_effort_2
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_infrastructure_effort_2
+		relative_position_id = MAH_infrastructure_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -2023,10 +2023,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_extra_tech_slot_2
+		id = MAH_extra_tech_slot_2
 		icon = GFX_focus_research
 		prerequisite = {
-			focus = asn_extra_tech_slot
+			focus = MAH_extra_tech_slot
 		}
 		available = {
 			num_of_factories > 50
@@ -2035,7 +2035,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		x = 0
 		y = 1
-		relative_position_id = asn_extra_tech_slot
+		relative_position_id = MAH_extra_tech_slot
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -2046,14 +2046,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_secret_weapons
+		id = MAH_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = {
-			focus = asn_infrastructure_effort_2
+			focus = MAH_infrastructure_effort_2
 		}
 		x = 2
 		y = 1
-		relative_position_id = asn_infrastructure_effort_2
+		relative_position_id = MAH_infrastructure_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -2078,7 +2078,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_political_effort
+		id = MAH_political_effort
 		icon = GFX_goal_generic_demand_territory
 		x = 3
 		y = 0
@@ -2092,13 +2092,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_collectivist_ethos
+		id = MAH_collectivist_ethos
 		icon = GFX_goal_generic_national_unity		#icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = asn_political_effort
+			focus = MAH_political_effort
 		}
 		mutually_exclusive = {
-			focus = asn_liberty_ethos
+			focus = MAH_liberty_ethos
 		}
 		available = {
 			OR = {
@@ -2109,7 +2109,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		relative_position_id = asn_political_effort
+		relative_position_id = MAH_political_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2136,13 +2136,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_nationalism_focus
+		id = MAH_nationalism_focus
 		icon = GFX_goal_support_fascism		#icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = asn_collectivist_ethos
+			focus = MAH_collectivist_ethos
 		}
 		mutually_exclusive = {
-			focus = asn_internationalism_focus
+			focus = MAH_internationalism_focus
 		}
 		available = {
 			OR = {
@@ -2152,7 +2152,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		relative_position_id = asn_collectivist_ethos
+		relative_position_id = MAH_collectivist_ethos
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2185,13 +2185,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_internationalism_focus
+		id = MAH_internationalism_focus
 		icon = GFX_goal_support_communism		#icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = asn_collectivist_ethos
+			focus = MAH_collectivist_ethos
 		}
 		mutually_exclusive = {
-			focus = asn_nationalism_focus
+			focus = MAH_nationalism_focus
 		}
 		available = {
 			if = {
@@ -2209,7 +2209,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_collectivist_ethos
+		relative_position_id = MAH_collectivist_ethos
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2242,13 +2242,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_liberty_ethos
+		id = MAH_liberty_ethos
 		icon = GFX_goal_support_democracy
 		prerequisite = {
-			focus = asn_political_effort
+			focus = MAH_political_effort
 		}
 		mutually_exclusive = {
-			focus = asn_collectivist_ethos
+			focus = MAH_collectivist_ethos
 		}
 		available = {
 			OR = {
@@ -2258,7 +2258,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		relative_position_id = asn_political_effort
+		relative_position_id = MAH_political_effort
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2288,14 +2288,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_militarism
+		id = MAH_militarism
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = {
-			focus = asn_nationalism_focus
+			focus = MAH_nationalism_focus
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_nationalism_focus
+		relative_position_id = MAH_nationalism_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2316,14 +2316,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_political_correctness
+		id = MAH_political_correctness
 		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = {
-			focus = asn_internationalism_focus
+			focus = MAH_internationalism_focus
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_internationalism_focus
+		relative_position_id = MAH_internationalism_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2341,17 +2341,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_neutrality_focus
+		id = MAH_neutrality_focus
 		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = {
-			focus = asn_liberty_ethos
+			focus = MAH_liberty_ethos
 		}
 		mutually_exclusive = {
-			focus = asn_interventionism_focus
+			focus = MAH_interventionism_focus
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_liberty_ethos
+		relative_position_id = MAH_liberty_ethos
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2377,17 +2377,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_interventionism_focus
+		id = MAH_interventionism_focus
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = {
-			focus = asn_liberty_ethos
+			focus = MAH_liberty_ethos
 		}
 		mutually_exclusive = {
-			focus = asn_neutrality_focus
+			focus = MAH_neutrality_focus
 		}
 		x = 2
 		y = 1
-		relative_position_id = asn_liberty_ethos
+		relative_position_id = MAH_liberty_ethos
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2414,14 +2414,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_military_youth
+		id = MAH_military_youth
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = {
-			focus = asn_militarism
+			focus = MAH_militarism
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_militarism
+		relative_position_id = MAH_militarism
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2450,14 +2450,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_deterrence
+		id = MAH_deterrence
 		icon = GFX_goal_generic_defence
 		prerequisite = {
-			focus = asn_neutrality_focus
+			focus = MAH_neutrality_focus
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_neutrality_focus
+		relative_position_id = MAH_neutrality_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2469,14 +2469,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_volunteer_corps
+		id = MAH_volunteer_corps
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = {
-			focus = asn_interventionism_focus
+			focus = MAH_interventionism_focus
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_interventionism_focus
+		relative_position_id = MAH_interventionism_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2487,14 +2487,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_paramilitarism
+		id = MAH_paramilitarism
 		icon = GFX_goal_generic_military_sphere
 		prerequisite = {
-			focus = asn_military_youth
+			focus = MAH_military_youth
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_military_youth
+		relative_position_id = MAH_military_youth
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2505,14 +2505,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_indoctrination_focus
+		id = MAH_indoctrination_focus
 		icon = GFX_goal_generic_propaganda
 		prerequisite = {
-			focus = asn_political_correctness
+			focus = MAH_political_correctness
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_political_correctness
+		relative_position_id = MAH_political_correctness
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2524,14 +2524,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_foreign_expeditions
+		id = MAH_foreign_expeditions
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = {
-			focus = asn_volunteer_corps
+			focus = MAH_volunteer_corps
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_volunteer_corps
+		relative_position_id = MAH_volunteer_corps
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2542,11 +2542,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_why_we_fight
+		id = MAH_why_we_fight
 		icon = GFX_goal_generic_propaganda
 		prerequisite = {
-			focus = asn_foreign_expeditions
-			focus = asn_deterrence
+			focus = MAH_foreign_expeditions
+			focus = MAH_deterrence
 		}
 		available = {
 			OR = {
@@ -2557,7 +2557,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		x = -2
 		y = 1
-		relative_position_id = asn_foreign_expeditions
+		relative_position_id = MAH_foreign_expeditions
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2581,16 +2581,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_political_commissars
+		id = MAH_political_commissars
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = {
-			focus = asn_indoctrination_focus
+			focus = MAH_indoctrination_focus
 		}
 		available = {
 		}
 		x = 0
 		y = 1
-		relative_position_id = asn_indoctrination_focus
+		relative_position_id = MAH_indoctrination_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2620,15 +2620,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_ideological_fanaticism
+		id = MAH_ideological_fanaticism
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = {
-			focus = asn_paramilitarism
-			focus = asn_political_commissars
+			focus = MAH_paramilitarism
+			focus = MAH_political_commissars
 		}
 		x = 1
 		y = 1
-		relative_position_id = asn_paramilitarism
+		relative_position_id = MAH_paramilitarism
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2648,11 +2648,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = asn_technology_sharing
+		id = MAH_technology_sharing
 		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = {
-			focus = asn_ideological_fanaticism
-			focus = asn_why_we_fight
+			focus = MAH_ideological_fanaticism
+			focus = MAH_why_we_fight
 		}
 		available = {
 			has_war = yes
@@ -2667,7 +2667,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		relative_position_id = asn_ideological_fanaticism
+		relative_position_id = MAH_ideological_fanaticism
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
