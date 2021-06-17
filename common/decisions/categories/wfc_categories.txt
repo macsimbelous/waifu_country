@@ -65,7 +65,7 @@ wfl_cultural_assimilation_category = {
 	icon = decision_category_generic_propaganda
 	#picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
 	allowed = {
-		#always = no
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
@@ -87,7 +87,7 @@ wfl_purge_category = {
 	icon = decision_category_eng_move_to_secure_the_dominions
 	#picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
 	allowed = {
-		#always = no
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
@@ -133,6 +133,7 @@ wfl_resources_category = {
 	icon = generic_prospect_for_resources
 	picture = GFX_wfl_resources_category
 	allowed = {
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
@@ -151,6 +152,7 @@ wfl_resources_puppets_category = {
 	icon = generic_prospect_for_resources
 	picture = GFX_wfl_resources_category
 	allowed = {
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
@@ -203,7 +205,8 @@ wfl_discrediting_decisions = {
 		#has_dlc = "La Resistance"
 	}
 	visible = {
-		has_country_flag = wfl_KGB_flag
+		#has_country_flag = wfl_KGB_flag
+		has_intelligence_agency = yes
 	}
 }
 
