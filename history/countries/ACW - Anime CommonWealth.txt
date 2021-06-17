@@ -1,8 +1,18 @@
 ﻿capital = 79
-
+set_stability = 0.3
+set_war_support = 0.3
+set_convoys = 100
+set_research_slots = 3
 oob = "ACW_1936"
+#oob = "ACW_1936"
+#set_naval_oob = "ACW_1936_Naval"
 
-#research and industry stuff
+#create_faction = WaifuPower
+
+#set_rule = {
+#	can_use_kamikaze_pilots = yes
+#	can_create_factions = yes
+#}
 
 set_technology = {
 	infantry_weapons = 1
@@ -24,27 +34,6 @@ set_technology = {
 	basic_machine_tools = 1
 	construction1 = 1
 }
-
-set_research_slots = 3
-
-set_convoys = 87
-#politics and starting faction
-
-set_popularities = {
-	democratic = 35
-	neutrality = 25
-	fascism = 15
-	communism = 25
-}
-	
-set_politics = {
-	
-	ruling_party = democratic
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
 #ideas
 
 add_ideas = {
@@ -52,9 +41,23 @@ add_ideas = {
 	volunteer_only
 	civilian_economy
 }
+#politics and starting faction
+
+set_popularities = {
+	democratic = 25
+	neutrality = 35
+	fascism = 15
+	communism = 25
+}
+	
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
 
 #leaders
-
 create_country_leader = {
 	name = "Mother Weaboo"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
@@ -93,40 +96,618 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Chise Hatori"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "Chise_Hatori.tga"
+	name = "Anastasia"
+	desc = "POLITICS_ANASTASIA_DESC"
+	picture = "ROA_Anastasia_lider_liberalism.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		anime_tyan
+		wfl_idol
+		wfl_patron_of_intelligence
+		wfl_patron_of_industry
 	}
 }
-
-#generals
-
+#marshal
 create_field_marshal = {
-	name = "Hans von Zettour"
-	picture = "hans.tga"
-	traits = { defensive_doctrine offensive_doctrine logistics_wizard panzer_leader }
-	skill = 6
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 6
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Reinhard von Lohengramm"
-	picture = "von.tga"
-	traits = { trickster fortress_buster panzer_leader }
+	name = "Asuka"
+	picture = "Portrait_Asuka.dds"
+	traits = {
+		panzer_leader
+		aggressive_assaulter
+	}
 	skill = 4
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 5
+	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 4
 }
 
+create_field_marshal = {
+	name = "Anastasia"
+	picture = "ROA_Anastasia_general.dds"
+	traits = {
+		logistics_wizard
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Erza"
+	picture = "ROA_Erza_general.tga"
+	traits = {
+		expert_delegator
+		war_hero
+		fast_planner
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "KOS-MOS"
+	picture = "ROA_KOS-MOS_general.tga"
+	traits = {
+		defensive_doctrine
+		bearer_of_artillery
+		unyielding_defender
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Lightning"
+	picture = "ROA_Lightning_general.tga"
+	traits = {
+		commando
+		offensive_doctrine
+		war_hero
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7004
+}
+#generals
+create_corps_commander = {
+	name = "Asuna"
+	picture = "Portrait_Asuna_Yuuki.dds"
+	traits = {
+		war_hero
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	#id = 7005
+}
+
+create_corps_commander = {
+	name = "Mash Kyrielight"
+	picture = "ROA_Mash_Kyrielight_general.dds"
+	traits = {
+		defensive_doctrine
+		unyielding_defender
+	}
+	skill = 6
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
+	#id = 7010
+}
+
+create_corps_commander = {
+	name = "Ishtar"
+	picture = "ROA_Ishtar_general.dds"
+	traits = {
+		trickster
+		expert_delegator
+		commando
+		offensive_doctrine
+		organisational_leader
+		inspirational_leader
+		aggressive_assaulter
+	}
+	skill = 7
+	attack_skill = 8
+	defense_skill = 7
+	planning_skill = 7
+	logistics_skill = 7
+	#id = 7011
+}
+
+create_corps_commander = {
+	name = "Maple"
+	picture = "ROA_Maple_general.dds"
+	traits = {
+		trickster
+		winter_specialist
+		organizer
+		skilled_staffer
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 4
+	#id = 7012
+}
+
+create_corps_commander = {
+	name = "Yoko Littner"
+	picture = "ROA_Yoko_Littner_general.dds"
+	traits = {
+		organizer
+		fast_planner
+		panzer_leader
+		panzer_expert
+	}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+	#id = 7013
+}
+
+create_corps_commander = {
+	name = "Kallen Stadtfeld"
+	picture = "ROA_Kallen_Stadtfeld_general.dds"
+	traits = {
+		panzer_leader
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+	#id = 7014
+}
+
+create_corps_commander = {
+	name = "Saki Rukino"
+	picture = "ROA_Saki_Rukino_general.dds"
+	traits = {
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7015
+}
+
+create_corps_commander = {
+	name = "Iris Heart"
+	picture = "ROA_Iris_Heart_general.dds"
+	traits = {
+		commando
+		infantry_leader
+		infantry_expert
+		skilled_staffer
+		trickster
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7016
+}
+
+create_corps_commander = {
+	name = "Kurumi Tokisaki"
+	picture = "ROA_Kurumi_Tokisaki_general.dds"
+	traits = {
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 1
+	#id = 7017
+}
+
+create_corps_commander = {
+	name = "Sanya V. Litvyak"
+	picture = "ROA_Sanya_V_Litvyak_general.dds"
+	traits = {
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7018
+}
+
+create_corps_commander = {
+	name = "Isuzu Sento"
+	picture = "ROA_Isuzu_Sento_general.dds"
+	traits = {
+		commando
+		infantry_leader
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7019
+}
+
+create_corps_commander = {
+	name = "Astaroth"
+	picture = "ROA_Astaroth_general.tga"
+	traits = {
+		infantry_leader
+	}
+	skill = 1
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 1
+	#id = 7020
+}
+
+create_corps_commander = {
+	name = "Laharl"
+	picture = "ROA_Laharl_girl_general.tga"
+	traits = {
+		infantry_leader
+		skilled_staffer
+	}
+	skill = 1
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7022
+}
+
+create_corps_commander = {
+	name = "Volemia"
+	picture = "ROA_Volemia_general.dds"
+	traits = {
+		infantry_leader
+	}
+	skill = 1
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7023
+}
+
+create_corps_commander = {
+	name = "Camilla"
+	picture = "ROA_Camilla_general.dds"
+	traits = {
+		skilled_staffer
+		cavalry_leader
+		cavalry_expert
+	}
+	skill = 1
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7024
+}
+
+create_corps_commander = {
+	name = "Shamiko"
+	picture = "ROA_Shamiko_general.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+	#id = 7028
+}
+
+create_corps_commander = {
+	name = "Sinon"
+	picture = "ROA_Sinon_general.dds"
+	traits = {
+		war_hero
+		skilled_staffer
+		infantry_leader
+		infantry_expert
+		trait_mountaineer
+		trait_engineer
+		adaptable
+	}
+	skill = 9
+	attack_skill = 9
+	defense_skill = 8
+	planning_skill = 9
+	logistics_skill = 8
+	#id = 7029
+}
+create_corps_commander = {
+	name = "Kaname Chidori"
+	picture = "ROA_Kaname_Chidori_general.dds"
+	traits = {
+		commando
+		infantry_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7034
+}
+
+
+
+create_corps_commander = {
+	name = "Yoshiko Tsushima"
+	picture = "ROA_Yoshiko_Tsushima_general.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7038
+}
+
+
+
+create_corps_commander = {
+	name = "Ranko Kanzaki"
+	picture = "ROA_Ranko_Kanzaki_general.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7040
+}
+
+create_corps_commander = {
+	name = "Mamako Oosuki"
+	picture = "Portrait_Mamako_Oosuki.dds"
+	traits = {
+		infantry_expert
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Milla Maxwell"
+	picture = "Portrait_Milla_Maxwell.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		infantry_expert
+	}
+}
+
+create_corps_commander = {
+	name = "Elma"
+	picture = "Portrait_Elma.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		armor_officer
+		panzer_leader
+	}
+}
+
+create_corps_commander = {
+	name = "Ako Tamaki"
+	picture = "Portrait_Ako_Tamaki.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Celica"
+	picture = "Portrait_Celica.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Cryska Barchenowa"
+	picture = "Portrait_Cryska_Barchenowa.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Fiora"
+	picture = "Portrait_Fiora.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Haruhi Suzumiya"
+	picture = "Portrait_Haruhi_Suzumiya.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Kiana Kaslana"
+	picture = "Portrait_Kiana_Kaslana.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Konoko"
+	picture = "Portrait_Konoko.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Lina Inverse"
+	picture = "Portrait_Lina_Inverse.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Neptune"
+	picture = "Portrait_Neptune.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Ryuuko Matoi"
+	picture = "Portrait_Ryuuko_Matoi.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		aggressive_assaulter
+	}
+}
+
+create_corps_commander = {
+	name = "Satellizer el Bridget"
+	picture = "Portrait_Satellizer_el_Bridget.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Siluca Meletes"
+	picture = "Portrait_Siluca_Meletes.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Yuno Gasai"
+	picture = "Portrait_Yuno_Gasai.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Byleth Eisner"
+	picture = "Portrait_Byleth_Eisner.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Eula"
+	picture = "Portrait_Eula.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		infantry_leader
+		commando
+	}
+}
 create_corps_commander = {
 	name = "Mother Weaboo"
 	picture = "ok.tga"
@@ -170,7 +751,168 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 1
 }
+#Admirals
+create_navy_leader = {
+	name = "Yamato"
+	#id = 7100
+	picture = "ROA_Yamato_Kancol_admiral2.tga"
+	traits = {
+		navy_career_officer
+		bold
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
 
+create_navy_leader = {
+	name = "Atago"
+	#id = 7101
+	picture = "ROA_Atago_Azur_Lane_admiral.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Avrora"
+	#id = 7102
+	picture = "ROA_Avrora_Azur_Lane_admiral.tga"
+	traits = {
+		bold
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Belfast"
+	#id = 7103
+	picture = "Portrait_Belfast.dds"
+	traits = {
+		navy_career_officer
+		bold
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Marblehead"
+	#id = 7104
+	picture = "ROA_Marblehead_Azur_Lane_admiral.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Saint Louis"
+	#id = 7105
+	picture = "ROA_Saint_Louis_Azur_Lane_admiral.tga"
+	traits = {
+		navy_career_officer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Takao Azur Lane"
+	#id = 7106
+	picture = "ROA_Takao_Azur_Lane_admiral.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Tosa"
+	#id = 7108
+	picture = "ROA_Tosa_Azur_Lane_admiral.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Sovetskaya Rossiya"
+	#id = 7110
+	picture = "ROA_Sovetskaya_Rossiya_admiral.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Shima Tateishi"
+	#id = 7111
+	picture = "ROA_Shima_Tateishi_admiral.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Akeno Misaki"
+	#id = 7112
+	picture = "ROA_Akeno_Misaki_admiral.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Beidou"
+	#id = 7113
+	picture = "Portrait_Beidou.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
+	traits = {
+	}
+}
 #Agents
 create_operative_leader = {
 	name = "Niko Yazawa"
@@ -186,5 +928,161 @@ create_operative_leader = {
 		operative_natural_orator
 		operative_seducer
 		operative_safe_cracker
+	}
+}
+create_operative_leader = {
+	name = "Rosaria"
+	GFX = GFX_Rosaria
+	traits = {
+		operative_infiltrator
+		operative_demolition_expert
+		operative_commando
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+}
+create_operative_leader = {
+	name = "Reina Prowler"
+	GFX = GFX_ROA_Reina_Prowler_agent
+	traits = {
+		operative_infiltrator
+		operative_safe_cracker
+		operative_demolition_expert
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+}
+create_operative_leader = {
+	name = "Sheryl Nome"
+	GFX = GFX_ROA_Sheryl_Nome_agent
+	traits = {
+		operative_seducer
+		operative_natural_orator
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+}
+create_operative_leader = {
+	name = "Ange le Carré"
+	GFX = GFX_ROA_Ange_le_Carre_agent
+	traits = {
+		operative_commando
+		operative_demolition_expert
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+}
+
+
+create_operative_leader = {
+	name = "Makoto Kikuchi"
+	GFX = GFX_ROA_Makoto_Kikuchi_agent
+	traits = {
+		operative_commando
+		operative_demolition_expert
+		operative_safe_cracker
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+}
+
+create_operative_leader = {
+	name = "Tomoko Kuroki"
+	GFX = GFX_Tomoko_Kuroki
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+}
+create_operative_leader = {
+	name = "Aika Sumeragi"
+	GFX = GFX_Aika_Sumeragi
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+}
+
+create_operative_leader = {
+	name = "Aoba Suzukaze"
+	GFX = GFX_Aoba_Suzukaze
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+}
+create_operative_leader = {
+	name = "Ayame Himuro"
+	GFX = GFX_Ayame_Himuro
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+	traits = {
+		operative_linguist
+		operative_safe_cracker
+	}
+}
+create_operative_leader = {
+	name = "Shiki"
+	GFX = GFX_Shiki
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+	traits = {
+		operative_linguist
+		operative_seducer
+	}
+}
+### Variants ###
+# Submarines #
+create_equipment_variant = {
+	name = "S Class"
+	type = ship_hull_submarine_1
+	name_group = ENG_SS_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+}
+
+# Destroyers #
+create_equipment_variant = {
+	name = "E/F/G/H Class"
+	type = ship_hull_light_2
+	name_group = ENG_DD_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		mid_1_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_depth_charge_1
 	}
 }

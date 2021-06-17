@@ -4,25 +4,8 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "WFL"
+		default_country = "ACW"
 		default = yes
-		"WFL"={
-			history = "WFL_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				#closed_economy
-				free_trade
-				#partial_economic_mobilisation
-				civilian_economy
-				#ideological_fanaticism_focus
-				volunteer_only
-			}
-			focuses = {
-				wfl_political_effort
-				wfl_perimetr
-				wfl_nii
-			}
-		}
 		"ACW" = {
 			history = "ACW_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -58,9 +41,7 @@ bookmarks = {
 				Is_Flat_Justice
 			}
 			focuses = {
-				ASN_terr_plus
-				asn_industrial_effort
-				asn_army_effort
+
 			}
 		}
 		"TRP" = {

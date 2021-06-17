@@ -73,9 +73,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Kaiser Ackerman"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Fascism_Ackerman.tga"
+	name = "Nanoha Takamachi"
+	desc = "POLITICS_Nanoha_Takamachi_DESC"
+	picture = "Portrait_Nanoha_Takamachi.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -162,4 +162,14 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 5
+}
+#agents
+create_operative_leader = {
+	name = "Hitomi Tsukishiro"
+	GFX = GFX_Hitomi_Tsukishiro
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		WFL
+	}
 }

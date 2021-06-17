@@ -98,7 +98,16 @@ set_popularities = {
 	communism = 25	##Коммунизм
 	fascism = 25	##Фашизм
 }
-
+create_country_leader = {
+	name = "Shamiko"
+	desc = "POLITICS_Shamiko_DESC"
+	picture = "ROA_Shamiko_general.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		defeatist
+	}
+}
 
 
 
@@ -259,7 +268,30 @@ create_corps_commander = {
 	traits = {
 	}
 }
-
+create_corps_commander = {
+	name = "Vignette April Tsukinose"
+	picture = "ROA_Vignette_April_Tsukinose_general.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7039
+}
+create_corps_commander = {
+	name = "Satanichia McDowell Kurumizawa"
+	picture = "ROA_Satanichia_McDowell_Kurumizawa_general.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7037
+}
 #Admirals
 
 create_navy_leader = {
@@ -276,7 +308,18 @@ create_navy_leader = {
 }
 
 #Agents
-
+create_operative_leader = {
+	name = "Rias Gremory"
+	GFX = GFX_ROA_Rias_Gremory_agent
+	traits = {
+		operative_seducer
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		WFL
+	}
+}
 
 ### Variants ###
 # Submarines #

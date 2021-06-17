@@ -3,8 +3,8 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
-			tag = WFL
+			add = -10
+			tag = ACW
 		}
 	}
 	default = no
@@ -1113,7 +1113,7 @@ focus_tree = {
 		completion_reward = {
 			PER = {
 				every_owned_state = {
-					add_claim_by = WFL
+					add_claim_by = ACW
 				}
 			}
 			create_wargoal = {
@@ -1179,10 +1179,10 @@ focus_tree = {
 					country_exists = USA
 				}
 				USA = {
-					is_puppet_of = WFL
+					is_puppet_of = ACW
 				}
 				USA = {
-					is_in_faction_with = WFL
+					is_in_faction_with = ACW
 				}
 			}
 		}
@@ -1220,10 +1220,10 @@ focus_tree = {
 					country_exists = BRA
 				}
 				BRA = {
-					is_puppet_of = WFL
+					is_puppet_of = ACW
 				}
 				BRA = {
-					is_in_faction_with = WFL
+					is_in_faction_with = ACW
 				}
 			}
 		}
@@ -1269,10 +1269,10 @@ focus_tree = {
 			GER = {
 				add_ideas = waifuland_assistance
 				add_opinion_modifier = {
-					target = WFL
+					target = ACW
 					modifier = medium_increase
 				}
-				add_to_faction = WFL
+				add_to_faction = ACW
 			}
 		}
 	}
@@ -1592,10 +1592,10 @@ focus_tree = {
 			ENG = {
 				add_ideas = waifuland_assistance
 				add_opinion_modifier = {
-					target = WFL
+					target = ACW
 					modifier = medium_increase
 				}
-				add_to_faction = WFL
+				add_to_faction = ACW
 			}
 		}
 	}
@@ -1630,14 +1630,14 @@ focus_tree = {
 			USA = {
 				add_ideas = waifuland_assistance
 				add_opinion_modifier = {
-					target = WFL
+					target = ACW
 					modifier = wfl_usa_frend_opinion
 				}
 				if = {
 					limit = {
 						is_in_faction = yes
 					}
-					add_to_faction = WFL
+					add_to_faction = ACW
 				}
 			}
 		}
@@ -1670,7 +1670,7 @@ focus_tree = {
 					}
 				}
 				add_opinion_modifier = {
-					target = WFL
+					target = ACW
 					modifier = wfl_usa_frend_opinion
 				}
 			}
@@ -1719,7 +1719,7 @@ focus_tree = {
 					category = naval_equipment
 				}
 				add_opinion_modifier = {
-					target = WFL
+					target = ACW
 					modifier = wfl_usa_frend_opinion
 				}
 			}
@@ -1749,7 +1749,7 @@ focus_tree = {
 					category = nuclear
 				}
 				add_opinion_modifier = {
-					target = WFL
+					target = ACW
 					modifier = wfl_usa_frend_opinion
 				}
 			}
@@ -1776,7 +1776,7 @@ focus_tree = {
 			is_faction_leader = yes
 			USA = {
 				has_war = no
-				is_in_faction_with = WFL
+				is_in_faction_with = ACW
 			}
 		}
 		ai_will_do = {
@@ -1841,7 +1841,7 @@ focus_tree = {
 					popularity = 0.05
 				}
 				add_opinion_modifier = {
-					target = WFL
+					target = ACW
 					modifier = small_increase
 				}
 			}
@@ -1975,10 +1975,10 @@ focus_tree = {
 			SOV = {
 				add_ideas = waifuland_assistance
 				add_opinion_modifier = {
-					target = WFL
+					target = ACW
 					modifier = wfl_sov_frend_opinion
 				}
-				add_to_faction = WFL
+				add_to_faction = ACW
 			}
 		}
 	}
@@ -2303,7 +2303,7 @@ focus_tree = {
 			is_faction_leader = yes
 			SOV = {
 				has_war = no
-				is_in_faction_with = WFL
+				is_in_faction_with = ACW
 			}
 		}
 		ai_will_do = {
@@ -2612,7 +2612,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 300
-			WFL = {
+			ACW = {
 				country_event = wfl_event.2
 			}
 			custom_effect_tooltip = wfl_tentakles_tt
@@ -2742,7 +2742,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 150
-			WFL = {
+			ACW = {
 				country_event = wfl_event.6
 			}
 			set_global_flag = wfl_perimetr_flag
@@ -2798,7 +2798,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = wfl_mecha_girl_influence
-			WFL = {
+			ACW = {
 				country_event = wfl_event.5
 			}
 			add_equipment_to_stockpile = {

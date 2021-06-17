@@ -7,9 +7,11 @@ on_actions = {
 					FROM = {
 						OR = {
 							original_tag = ACW
-							original_tag = AFM
-							original_tag = ASN
-							original_tag = AUN
+							original_tag = HEN
+							original_tag = MAH
+							original_tag = TRP
+							original_tag = MEH
+							original_tag = MON
 						}
 					}
 				}

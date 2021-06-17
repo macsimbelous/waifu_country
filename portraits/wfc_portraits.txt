@@ -1,66 +1,3 @@
-WFL = {
-	army = {
-		male = {
-			"gfx/leaders/WFL/Portrait_WFL_land_01.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_02.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_03.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_04.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_05.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_06.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_07.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_08.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_09.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_10.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_11.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_12.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_13.dds"
-			"gfx/leaders/WFL/Portrait_WFL_land_14.dds"
-		}
-	}
-	navy = {
-		male = {
-			"gfx/leaders/WFL/Portrait_WFL_naval_01.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_02.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_03.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_04.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_05.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_06.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_07.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_08.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_09.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_10.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_11.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_12.dds"
-			"gfx/leaders/WFL/Portrait_WFL_naval_13.dds"
-		}
-	}
-	operative = {
-		female = {
-			"gfx/leaders/WFL/Portrait_WFL_operative_01.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_02.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_03.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_04.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_05.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_06.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_07.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_08.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_09.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_10.dds"
-		}
-		male = {
-			"gfx/leaders/WFL/Portrait_WFL_operative_01.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_02.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_03.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_04.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_05.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_06.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_07.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_08.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_09.dds"
-			"gfx/leaders/WFL/Portrait_WFL_operative_10.dds"
-		}
-	}
-}
 ACW = {
 	army = {
 		male = {
@@ -80,6 +17,16 @@ ACW = {
 			"gfx/leaders/ACW/Portrait_ACW_land_14.dds"
 			"gfx/leaders/ACW/Portrait_ACW_land_15.dds"
 			"gfx/leaders/ACW/Portrait_ACW_land_16.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_17.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_18.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_19.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_20.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_21.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_22.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_23.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_24.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_25.dds"
+			"gfx/leaders/ACW/Portrait_ACW_land_26.dds"
 		}
 	}
 	navy = {
@@ -94,6 +41,19 @@ ACW = {
 			"gfx/leaders/ACW/Portrait_ACW_naval_08.dds"
 			"gfx/leaders/ACW/Portrait_ACW_naval_09.dds"
 			"gfx/leaders/ACW/Portrait_ACW_naval_10.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_11.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_12.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_13.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_14.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_15.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_16.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_17.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_18.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_19.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_20.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_21.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_22.dds"
+			"gfx/leaders/ACW/Portrait_ACW_naval_23.dds"
 		}
 	}
 	operative = {
@@ -109,6 +69,16 @@ ACW = {
 			"gfx/leaders/ACW/Portrait_ACW_operative_09.dds"
 			"gfx/leaders/ACW/Portrait_ACW_operative_10.dds"
 			"gfx/leaders/ACW/Portrait_ACW_operative_11.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_12.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_13.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_14.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_15.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_16.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_17.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_18.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_19.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_20.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_21.dds"
 		}
 		male = {
 			"gfx/leaders/ACW/Portrait_ACW_operative_01.dds"
@@ -122,6 +92,16 @@ ACW = {
 			"gfx/leaders/ACW/Portrait_ACW_operative_09.dds"
 			"gfx/leaders/ACW/Portrait_ACW_operative_10.dds"
 			"gfx/leaders/ACW/Portrait_ACW_operative_11.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_12.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_13.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_14.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_15.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_16.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_17.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_18.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_19.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_20.dds"
+			"gfx/leaders/ACW/Portrait_ACW_operative_21.dds"
 		}
 	}
 }
@@ -129,7 +109,7 @@ HEN = {
 	army = {
 		male = {
 			"gfx/leaders/HEN/Portrait_HEN_land_01.dds"
-			"gfx/leaders/HEN/Portrait_HEN_land_02.dds"
+
 		}
 	}
 	navy = {
@@ -150,60 +130,60 @@ HEN = {
 		}
 	}
 }
-ASN = {
+MAH = {
 	army = {
 		male = {
-			"gfx/leaders/ASN/Portrait_ASN_land_01.dds"
-			"gfx/leaders/ASN/Portrait_ASN_land_02.dds"
-			"gfx/leaders/ASN/Portrait_ASN_land_03.dds"
-			"gfx/leaders/ASN/Portrait_ASN_land_04.dds"
-			"gfx/leaders/ASN/Portrait_ASN_land_05.dds"
-			"gfx/leaders/ASN/Portrait_ASN_land_06.dds"
-			"gfx/leaders/ASN/Portrait_ASN_land_07.dds"
-			"gfx/leaders/ASN/Portrait_ASN_land_08.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_01.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_02.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_03.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_04.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_05.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_06.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_07.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_08.dds"
 		}
 	}
 	navy = {
 		male = {
-			"gfx/leaders/ASN/Portrait_ASN_naval_01.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_02.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_03.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_04.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_05.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_06.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_07.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_08.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_09.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_10.dds"
-			"gfx/leaders/ASN/Portrait_ASN_naval_11.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_01.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_02.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_03.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_04.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_05.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_06.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_07.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_08.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_09.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_10.dds"
+			"gfx/leaders/MAH/Portrait_MAH_naval_11.dds"
 		}
 	}
 	operative = {
 		female = {
-			"gfx/leaders/ASN/Portrait_ASN_operative_01.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_02.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_03.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_04.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_05.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_06.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_07.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_08.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_09.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_10.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_11.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_01.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_02.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_03.dds"
+
+			"gfx/leaders/MAH/Portrait_MAH_operative_05.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_06.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_07.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_08.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_09.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_10.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_11.dds"
 		}
 		male = {
-			"gfx/leaders/ASN/Portrait_ASN_operative_01.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_02.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_03.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_04.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_05.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_06.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_07.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_08.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_09.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_10.dds"
-			"gfx/leaders/ASN/Portrait_ASN_operative_11.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_01.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_02.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_03.dds"
+
+			"gfx/leaders/MAH/Portrait_MAH_operative_05.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_06.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_07.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_08.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_09.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_10.dds"
+			"gfx/leaders/MAH/Portrait_MAH_operative_11.dds"
 		}
 	}
 }
@@ -238,6 +218,52 @@ TRP = {
 			"gfx/leaders/TRP/Portrait_TRP_operative_02.dds"
 			"gfx/leaders/TRP/Portrait_TRP_operative_03.dds"
 			"gfx/leaders/TRP/Portrait_TRP_operative_04.dds"
+		}
+	}
+}
+MEH = {
+	army = {
+		male = {
+			"gfx/leaders/MEH/Portrait_MEH_land_01.dds"
+		}
+	}
+	navy = {
+		male = {
+
+		}
+	}
+	operative = {
+		female = {
+
+		}
+		male = {
+
+		}
+	}
+}
+MOH = {
+	army = {
+		male = {
+			"gfx/leaders/MON/Portrait_MON_land_01.dds"
+			"gfx/leaders/MON/Portrait_MON_land_02.dds"
+			"gfx/leaders/MON/Portrait_MON_land_03.dds"
+			"gfx/leaders/MON/Portrait_MON_land_04.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/MON/Portrait_MON_land_01.dds"
+			"gfx/leaders/MON/Portrait_MON_land_02.dds"
+			"gfx/leaders/MON/Portrait_MON_land_03.dds"
+			"gfx/leaders/MON/Portrait_MON_land_04.dds"
+		}
+	}
+	operative = {
+		female = {
+			"gfx/leaders/MON/Portrait_MON_operative_01.dds"
+		}
+		male = {
+			"gfx/leaders/MON/Portrait_MON_operative_01.dds"
 		}
 	}
 }

@@ -10,7 +10,7 @@ state={
 
 	state_category = large_city
 	history={
-		owner = WFL
+		owner = MON
 		victory_points = {
 			8117 3 
 		}
@@ -32,7 +32,7 @@ state={
 			dockyard = 3
 			arms_factory = 1
 		}
-		add_core_of = WFL
+		add_core_of = MON
 	}
 
 	provinces={

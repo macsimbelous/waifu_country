@@ -9,9 +9,9 @@
 # garrison
 # protect
 # influence
-WFL_unit_production = {
+ACW_unit_production = {
 	enable = {
-		original_tag = WFL
+		original_tag = ACW
 	}
 	abort = {
 		always = no
@@ -140,26 +140,9 @@ WFL_unit_production = {
 	}
 }
 
-royal_air_force = {
-	enable = {
-		tag = WFL
-		date > 1939.4.1
-	}
-	abort = {
-		NOT = {
-			tag = WFL
-			date > 1939.4.1
-		}
-	}
-	ai_strategy = {
-		type = air_factory_balance
-		value = 125
-	}
-}
-
 WFL_template_design_1 = {
 	enable = {
-		original_tag = WFL
+		original_tag = ACW
 		date < 1940.1.1
 	}
 	abort = {
@@ -209,7 +192,7 @@ WFL_template_design_1 = {
 
 WFL_template_design_2 = {
 	enable = {
-		original_tag = WFL
+		original_tag = ACW
 		date > 1940.1.1
 	}
 	ai_strategy = {
@@ -261,7 +244,7 @@ WFL_template_design_2 = {
 
 prio_invasions = {
 	enable = {
-		original_tag = WFL
+		original_tag = ACW
 		OR = {
 			has_tech = landing_craft
 			has_tech = mtg_landing_craft

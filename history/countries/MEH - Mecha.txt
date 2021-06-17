@@ -1,4 +1,4 @@
-capital = 410
+capital = 378
 set_research_slots = 4
 #oob = "MEH_1936"
 #set_naval_oob = "MEH_1936_Naval"
@@ -132,7 +132,56 @@ create_field_marshal = {
 }
 
 #generals
+create_corps_commander = {
+	name = "Fiora Mechon"
+	picture = "Portrait_Fiora_Mechon.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		panzer_leader
+	}
+}
+create_corps_commander = {
+	name = "Pyra"
+	picture = "Portrait_Pyra.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		infantry_leader
+	}
+}
 
+create_corps_commander = {
+	name = "Mythra"
+	picture = "Portrait_Mythra.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		panzer_leader
+	}
+}
+
+create_corps_commander = {
+	name = "Pneuma"
+	picture = "Portrait_Pneuma.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		panzer_leader
+	}
+}
 create_corps_commander = {
 	name = "Iris Heart"
 	picture = "ROA_Iris_Heart_general.dds"
@@ -165,7 +214,19 @@ create_corps_commander = {
 	logistics_skill = 1
 	#id = 7033
 }
-
+create_corps_commander = {
+	name = "Hatsune Miku"
+	picture = "ROA_Hatsune_Miku_general.dds"
+	traits = {
+		panzer_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7031
+}
 
 create_corps_commander = {
 	name = "Hana"
