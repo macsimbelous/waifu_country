@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_Astolfo_DESC"
 	picture = "Portrait_Astolfo.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = leninism
 	traits = {
 		anime_tyan
 		peoples_favorite

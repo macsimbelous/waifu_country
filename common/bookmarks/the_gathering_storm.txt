@@ -67,12 +67,12 @@ bookmarks = {
 			history = "AUN_GATHERING_STORM_DESC"
 			ideology = communism
 			focuses = {
-				AUN_polit
+				TRP_polit
 				aun_industrial_effort
 				aun_army_effort
 			}
 			ideas = {
-				AUN_revolution
+				TRP_revolution
 				partial_economic_mobilisation
 				Is_Flat_Justice
 			}

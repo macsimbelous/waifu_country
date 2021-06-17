@@ -7,7 +7,7 @@ state = {
 		aluminium = 24
 	}
 	history = {
-		owner = AUN
+		owner = TRP
 		buildings = {
 			infrastructure = 8
 			4980 = {
@@ -17,7 +17,7 @@ state = {
 			industrial_complex = 6
 			arms_factory = 3
 		}
-		add_core_of = AUN
+		add_core_of = TRP
 	}
 	provinces = {
 		1979
