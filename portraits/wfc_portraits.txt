@@ -163,27 +163,27 @@ MAH = {
 			"gfx/leaders/MAH/Portrait_MAH_operative_01.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_02.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_03.dds"
-
+			"gfx/leaders/MAH/Portrait_MAH_operative_04.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_05.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_06.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_07.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_08.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_09.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_10.dds"
-			"gfx/leaders/MAH/Portrait_MAH_operative_11.dds"
+
 		}
 		male = {
 			"gfx/leaders/MAH/Portrait_MAH_operative_01.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_02.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_03.dds"
-
+			"gfx/leaders/MAH/Portrait_MAH_operative_04.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_05.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_06.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_07.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_08.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_09.dds"
 			"gfx/leaders/MAH/Portrait_MAH_operative_10.dds"
-			"gfx/leaders/MAH/Portrait_MAH_operative_11.dds"
+
 		}
 	}
 }
@@ -241,29 +241,29 @@ MEH = {
 		}
 	}
 }
-MOH = {
+MMS = {
 	army = {
 		male = {
-			"gfx/leaders/MON/Portrait_MON_land_01.dds"
-			"gfx/leaders/MON/Portrait_MON_land_02.dds"
-			"gfx/leaders/MON/Portrait_MON_land_03.dds"
-			"gfx/leaders/MON/Portrait_MON_land_04.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_01.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_02.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_03.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_04.dds"
 		}
 	}
 	navy = {
 		male = {
-			"gfx/leaders/MON/Portrait_MON_land_01.dds"
-			"gfx/leaders/MON/Portrait_MON_land_02.dds"
-			"gfx/leaders/MON/Portrait_MON_land_03.dds"
-			"gfx/leaders/MON/Portrait_MON_land_04.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_01.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_02.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_03.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_04.dds"
 		}
 	}
 	operative = {
 		female = {
-			"gfx/leaders/MON/Portrait_MON_operative_01.dds"
+			"gfx/leaders/MMS/Portrait_MMS_operative_01.dds"
 		}
 		male = {
-			"gfx/leaders/MON/Portrait_MON_operative_01.dds"
+			"gfx/leaders/MMS/Portrait_MMS_operative_01.dds"
 		}
 	}
 }

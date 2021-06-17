@@ -11,7 +11,7 @@ wfl_government_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -29,7 +29,7 @@ wfl_puppets_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -50,7 +50,7 @@ wfl_overseas_puppets_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -72,7 +72,7 @@ wfl_cultural_assimilation_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -94,7 +94,7 @@ wfl_purge_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -139,7 +139,7 @@ wfl_resources_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -157,7 +157,7 @@ wfl_resources_puppets_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -177,7 +177,7 @@ wfl_tentakles_decisions = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 		#has_dlc = "La Resistance"
 	}
@@ -198,7 +198,7 @@ wfl_discrediting_decisions = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 		#has_dlc = "La Resistance"
 	}
@@ -223,7 +223,7 @@ wfl_declare_war_decisions = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 		#has_dlc = "La Resistance"
 	}
@@ -241,7 +241,7 @@ wfl_concert_decisions = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 		#has_dlc = "La Resistance"
 	}
@@ -274,7 +274,7 @@ wfl_kosmos_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -304,7 +304,7 @@ wfl_immigration_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -322,7 +322,7 @@ wfl_campaigning_for_volunteers_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -340,7 +340,7 @@ wfl_cloning_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -360,7 +360,7 @@ wfl_economy_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 	visible = {
@@ -408,7 +408,7 @@ wfl_debug_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 		#has_dlc = "La Resistance"
 	}
@@ -431,7 +431,7 @@ wfl_test_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 		#has_dlc = "La Resistance"
 	}
@@ -451,7 +451,7 @@ wfl_gacha_category = {
 			original_tag = MAH
 			original_tag = TRP
 			original_tag = MEH
-			original_tag = MON
+			original_tag = MMS
 		}
 	}
 }

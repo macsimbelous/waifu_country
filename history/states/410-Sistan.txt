@@ -7,7 +7,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = MON
+		owner = MMS
 		victory_points = {
 			10782 1 
 		}
@@ -17,7 +17,7 @@ state={
 			industrial_complex = 2
 			dockyard = 3
 		}
-		add_core_of = MON
+		add_core_of = MMS
 	}
 
 	provinces={
