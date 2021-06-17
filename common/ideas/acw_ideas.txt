@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		wfl_traps_in_army = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			picture = generic_manpower_bonus
 			removal_cost = -1
@@ -12,7 +12,7 @@ ideas = {
 		}
 		wfl_futanary_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			picture = generic_manpower_bonus
 			removal_cost = -1
@@ -22,7 +22,7 @@ ideas = {
 		}
 		wfl_demon_influence = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -37,7 +37,7 @@ ideas = {
 		}
 		wfl_angel_influence = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -53,7 +53,7 @@ ideas = {
 		}
 		wfl_mecha_girl_influence = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -79,7 +79,7 @@ ideas = {
 		}
 		wfl_mintrans_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = no
@@ -94,7 +94,7 @@ ideas = {
 		}
 		wfl_stavka_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = no
@@ -116,7 +116,7 @@ ideas = {
 		}
 		wfl_minoboron_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = no
@@ -151,7 +151,7 @@ ideas = {
 		}
 		wfl_incompetent_officers = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -168,7 +168,7 @@ ideas = {
 		}
 		wfl_hentai_banned_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -182,7 +182,7 @@ ideas = {
 		}
 		wfl_hentai_allow_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -196,7 +196,7 @@ ideas = {
 		}
 		wfl_cloning_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -209,7 +209,7 @@ ideas = {
 		}
 		wfl_tax_on_childlessness_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -223,7 +223,7 @@ ideas = {
 		}
 		wfl_idols_agency_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -260,7 +260,7 @@ ideas = {
 		}
 		wfl_spy_princesses_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -274,7 +274,7 @@ ideas = {
 		}
 		wfl_KGB_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -295,7 +295,7 @@ ideas = {
 		}
 		wfl_sputnik_v_kosmose = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -311,7 +311,7 @@ ideas = {
 		}
 		wfl_minprom_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -332,7 +332,7 @@ ideas = {
 		}
 		wfl_minpropagand_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -363,7 +363,7 @@ ideas = {
 		}
 		wfl_minscience_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -378,7 +378,7 @@ ideas = {
 		}
 		wfl_nii_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -391,7 +391,7 @@ ideas = {
 		}
 		wfl_immigration_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -447,7 +447,7 @@ ideas = {
 		}
 		wfl_super_factory = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -460,7 +460,7 @@ ideas = {
 		}
 		wfl_rocket_factory = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -501,7 +501,7 @@ ideas = {
 		}
 		wfl_test_idea = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			allowed_civil_war = {
 				always = yes
@@ -515,7 +515,7 @@ ideas = {
 	political_advisor = {
 		wfl_neko = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			ai_will_do = {
 				factor = 1
@@ -526,7 +526,7 @@ ideas = {
 		}
 		wfl_megumin = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_secret_weapons
@@ -543,7 +543,7 @@ ideas = {
 		}
 		wfl_eruza_guranhirute = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			traits = {
 				princess_of_terror
@@ -554,7 +554,7 @@ ideas = {
 		}
 		wfl_ayame_himuro = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minscience
@@ -569,7 +569,7 @@ ideas = {
 		}
 		wfl_mare_bello_fiore = {
 			allowed = {
-				##original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minprom
@@ -583,7 +583,7 @@ ideas = {
 		}
 		wfl_albedo = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			traits = {
 				wfl_silent_workhorse
@@ -594,7 +594,7 @@ ideas = {
 		}
 		wfl_ange_le_carre = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			traits = {
 				wfl_intelligence_princess
@@ -607,9 +607,28 @@ ideas = {
 				#has_completed_focus = wfl_KGB
 			}
 		}
+		ACW_Niko_Yazawa = {
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				ACW_super_agent_idol
+				head_of_intelligence
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = democratic
+					add = 5
+				}
+			}
+		}
 		wfl_head_int = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			traits = {
 				head_of_intelligence
@@ -626,7 +645,7 @@ ideas = {
 		}
 		wfl_office_lady = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			traits = {
 				fortification_engineer
@@ -637,7 +656,7 @@ ideas = {
 		}
 		wfl_mikumo_guynemer = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minpropagand
@@ -652,7 +671,7 @@ ideas = {
 		#заглушка
 		wfl_com_ref = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			visible = {
 				always = no
@@ -667,7 +686,7 @@ ideas = {
 		#заглушка
 		wfl_dem_ref = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			visible = {
 				always = no
@@ -679,7 +698,7 @@ ideas = {
 		#заглушка
 		wfl_fas_demgog = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			visible = {
 				always = no
@@ -693,7 +712,7 @@ ideas = {
 		}
 		wfl_lucy_yamagami = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minprom
@@ -707,7 +726,7 @@ ideas = {
 		}
 		wfl_minami_nitta = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_government = democratic
@@ -724,7 +743,7 @@ ideas = {
 		}
 		wfl_aoi_sakurai = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_mintrans
@@ -739,7 +758,7 @@ ideas = {
 		wfl_democratic_reformer = {
 			picture = wfl_eagle
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			traits = { democratic_reformer }
 			ai_will_do = {
@@ -749,7 +768,7 @@ ideas = {
 		wfl_communist_revolutionary = {
 			picture = wfl_sovetskaya_rossiya
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			traits = { communist_revolutionary }
 			ai_will_do = {
@@ -759,7 +778,7 @@ ideas = {
 		wfl_fascist_demagogue = {
 			picture = wfl_prinz_eugen
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			traits = { fascist_demagogue }
 			ai_will_do = {
@@ -771,7 +790,7 @@ ideas = {
 		wfl_velvet_crowe = {
 			ledger = army
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -790,7 +809,7 @@ ideas = {
 		wfl_akeno_misaki = {
 			ledger = navy
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -806,7 +825,7 @@ ideas = {
 		wfl_sovetskaya_rossiya = {
 			ledger = navy
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -822,7 +841,7 @@ ideas = {
 		wfl_arisa_mitaka = {
 			ledger = air
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -838,7 +857,7 @@ ideas = {
 		wfl_eagle = {
 			ledger = air
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -854,7 +873,7 @@ ideas = {
 		wfl_i_401 = {
 			ledger = navy
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -870,7 +889,7 @@ ideas = {
 		wfl_marblehead = {
 			ledger = navy
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minprom
@@ -889,7 +908,7 @@ ideas = {
 	army_chief = {
 		wfl_darkness = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -904,7 +923,7 @@ ideas = {
 		}
 		wfl_mosin_nagant = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -919,7 +938,7 @@ ideas = {
 		}
 		wfl_matoi_ryuko = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -936,7 +955,7 @@ ideas = {
 	air_chief = {
 		wfl_mirage_farina_jenius = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -951,7 +970,7 @@ ideas = {
 		}
 		wfl_sanya_v_litvyak = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -966,7 +985,7 @@ ideas = {
 		}
 		wfl_camilla = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -982,7 +1001,7 @@ ideas = {
 	navy_chief = {
 		wfl_yamato_navy_chief = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -997,7 +1016,7 @@ ideas = {
 		}
 		wfl_atago_al_navy_chief = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1012,7 +1031,7 @@ ideas = {
 		}
 		wfl_prinz_eugen = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1029,7 +1048,7 @@ ideas = {
 		wfl_asuna_high_command = {
 			ledger = army
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1045,7 +1064,7 @@ ideas = {
 		wfl_stalin_girl = {
 			ledger = army
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1060,7 +1079,7 @@ ideas = {
 		wfl_klara_high_command = {
 			ledger = army
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1076,7 +1095,7 @@ ideas = {
 		wfl_rokosovskii_girl_high_command = {
 			ledger = army
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1092,7 +1111,7 @@ ideas = {
 		wfl_patton_girl_high_command = {
 			ledger = army
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1108,7 +1127,7 @@ ideas = {
 		wfl_angelise_ikaruga_misurugi = {
 			ledger = air
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1124,7 +1143,7 @@ ideas = {
 		wfl_juana_del_moral = {
 			ledger = air
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1140,7 +1159,7 @@ ideas = {
 		wfl_celia_cumani_aintree = {
 			ledger = army
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_minoboron
@@ -1159,7 +1178,7 @@ ideas = {
 		wfl_obt_arsenal = {
 			picture = generic_industrial_concern_1
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			available = {
 				#has_completed_focus = wfl_main_battle_tank
@@ -1194,7 +1213,7 @@ ideas = {
 		wfl_fast_tank_design_bureau = {
 			picture = generic_industrial_concern_1
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			research_bonus = {
 				armor = 0.3
@@ -1207,7 +1226,7 @@ ideas = {
 		wfl_medium_tank_astrov_design_bureau = {
 			picture = generic_industrial_concern_1
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			research_bonus = {
 				armor = 0.3
@@ -1220,7 +1239,7 @@ ideas = {
 		wfl_heavy_tank_design_bureau = {
 			picture = generic_industrial_concern_1
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			research_bonus = {
 				armor = 0.3
@@ -1233,7 +1252,7 @@ ideas = {
 		#заглушка
 		wfl_generic_tank_manufacturer = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			visible = {
 				always = no
@@ -1251,7 +1270,7 @@ ideas = {
 		wfl_submarine_company = {
 			#picture = idea_generic_naval_manufacturer_1
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			research_bonus = {
 				naval_equipment = 0.3
@@ -1266,7 +1285,7 @@ ideas = {
 		wfl_carrier_company = {
 			#picture = idea_generic_navy_carrier_bonus
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			research_bonus = {
 				naval_equipment = 0.3
@@ -1281,7 +1300,7 @@ ideas = {
 		wfl_battlefleet_company = {
 			picture = generic_navy_bonus
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			research_bonus = {
 				naval_equipment = 0.3
@@ -1296,7 +1315,7 @@ ideas = {
 		#заглушка
 		wfl_generic_naval_manufacturer = {
 			allowed = {
-				#original_tag = WFL
+				original_tag = ACW
 			}
 			visible = {
 				always = no

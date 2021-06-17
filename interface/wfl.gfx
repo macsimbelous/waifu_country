@@ -224,9 +224,100 @@ spriteTypes = {
                 name = "GFX_idea_wfl_colonial_office"
                 texturefile = "gfx/interface/ideas/idea_por_colonial_assimilation.dds"
         }
-        #parti
         spriteType = {
-		name = "GFX_ideology_waifuism_group"
-		texturefile = "gfx/interface/ideologies/waifuism_group.dds"
+                name = "GFX_idea_acr_generic_communist_revolutionary_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_communist_revolutionary_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_democratic_reformer_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_democratic_reformer_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_fascist_demagogue_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_fascist_demagogue_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_head_of_intelligence_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_head_of_intelligence_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_captain_of_industry_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_captain_of_industry_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_fortification_engineer_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_fortification_engineer_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_war_industrialist_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_war_industrialist_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_army_chief_off_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_army_chief_off_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_army_chief_def_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_army_chief_def_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_navy_chief_decisive_bat_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_navy_chief_decisive_bat_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_navy_anti_submarine_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_navy_anti_submarine_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_air_close_air_sup_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_air_close_air_sup_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_air_chief_all_weather_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_air_chief_all_weather_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_military_theorist_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_military_theorist_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_army_art_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_army_art_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_army_log_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_army_log_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_navy_fleet_log_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_navy_fleet_log_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_air_air_combat_trainer_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_air_air_combat_trainer_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_naval_theorist_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_naval_theorist_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acr_generic_air_warfare_theorist_female"
+                texturefile = "gfx/interface/ideas/idea_acr_generic_air_warfare_theorist_female.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_ACW_Niko_Yazawa"
+                texturefile = "gfx/interface/ideas/idea_acr_niko_yazawa.dds"
+        }
+        spriteType = {
+		name = "GFX_idea_TRP_revolution"
+		texturefile = "gfx/interface/ideas/home_of_the_revolution.dds"
 	}
+        spriteType = {
+                name = "GFX_idea_ACW_economic_integration"
+                texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_ACW_economic_assistance"
+                texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
+        }
 }

@@ -1,6 +1,10 @@
 spriteTypes = {
         #Agents
         spriteType = {
+                name = "GFX_Niko_Yazawa"
+                texturefile = "gfx/leaders/ACW/Portrait_Niko_Yazawa.dds"
+        }
+        spriteType = {
                 name = "GFX_Rosaria"
                 texturefile = "gfx/leaders/ACW/Portrait_Rosaria.dds"
         }

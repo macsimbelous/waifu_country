@@ -353,25 +353,7 @@ ideas = {
 				}
 			}
 		}
-		ACW_Niko_Yazawa = {
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				has_intelligence_agency = yes
-			}
-			traits = {
-				ACW_super_agent_idol
-				head_of_intelligence
-			}
-			ai_will_do = {
-				base = 1
-				modifier = {
-					has_government = democratic
-					add = 5
-				}
-			}
-		}
+
 	}
 	theorist = {
 		jeff_theorist = {
