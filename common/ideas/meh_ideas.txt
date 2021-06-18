@@ -1,0 +1,76 @@
+ideas = {
+	country = {
+		wfl_mecha_girl_influence = {
+			allowed = {
+				original_tag = MEH
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = general_staff
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				army_armor_attack_factor = 0.15
+				army_armor_defence_factor = 0.15
+			}
+		}
+	}
+	political_advisor = {
+
+	}
+	theorist = {
+		wfl_eagle = {
+			ledger = air
+			allowed = {
+				original_tag = MEH
+			}
+			available = {
+				#has_completed_focus = wfl_minoboron
+			}
+			cost = 150
+			research_bonus = {
+				air_doctrine = 0.1
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+		wfl_i_401 = {
+			ledger = navy
+			allowed = {
+				original_tag = MEH
+			}
+			available = {
+				#has_completed_focus = wfl_minoboron
+			}
+			cost = 150
+			research_bonus = {
+				cat_trade_interdiction = 0.2
+			}
+			traits = {
+				submarine_specialist
+			}
+		}
+	}
+	army_chief = {
+
+	}
+	air_chief = {
+
+	}
+	navy_chief = {
+
+	}
+	high_command = {
+
+	}
+	tank_manufacturer = {
+		designer = yes
+
+	}
+	naval_manufacturer = {
+		designer = yes
+
+	}
+}

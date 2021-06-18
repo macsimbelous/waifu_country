@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+		TRP_revolution = {
+			allowed = {
+				original_tag = TRP
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = GFX_idea_home_of_revolution
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.2
+				conversion_cost_civ_to_mil_factor = -0.2
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				conscription = 0.1
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		wfl_traps_in_army = {
+			allowed = {
+				original_tag = TRP
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		wfl_cloning_idea = {
+			allowed = {
+				original_tag = TRP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+			modifier = {
+				monthly_population = 1.0
+			}
+		}
+	}
+	political_advisor = {
+		wfl_mare_bello_fiore = {
+			allowed = {
+				original_tag = TRP
+			}
+			available = {
+				#has_completed_focus = wfl_minprom
+			}
+			traits = {
+				wfl_captain_of_industry
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	theorist = {
+
+	}
+	army_chief = {
+
+	}
+	air_chief = {
+
+	}
+	navy_chief = {
+
+	}
+	high_command = {
+
+	}
+	tank_manufacturer = {
+		designer = yes
+
+	}
+	naval_manufacturer = {
+		designer = yes
+
+	}
+}

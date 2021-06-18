@@ -1,0 +1,90 @@
+ideas = {
+	country = {
+		wfl_demon_influence = {
+			allowed = {
+				original_tag = MMS
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = general_staff
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				army_infantry_attack_factor = 0.15
+				army_artillery_attack_factor = 0.15
+			}
+		}
+		wfl_angel_influence = {
+			allowed = {
+				original_tag = MMS
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = general_staff
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				army_morale_factor = 0.2
+				army_infantry_defence_factor = 0.1
+				army_artillery_defence_factor = 0.1
+			}
+		}
+	}
+	political_advisor = {
+		wfl_albedo = {
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfl_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+	theorist = {
+		wfl_velvet_crowe = {
+			ledger = army
+			allowed = {
+				original_tag = MMS
+			}
+			available = {
+				#has_completed_focus = wfl_minoboron
+			}
+			research_bonus = {
+				land_doctrine = 0.15
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+	}
+	army_chief = {
+
+	}
+	air_chief = {
+
+	}
+	navy_chief = {
+
+	}
+	high_command = {
+
+	}
+	tank_manufacturer = {
+		designer = yes
+
+
+	}
+	naval_manufacturer = {
+		designer = yes
+
+	}
+}

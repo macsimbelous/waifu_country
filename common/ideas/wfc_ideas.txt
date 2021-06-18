@@ -1,58 +1,179 @@
 ideas = {
 	country = {
-		TRP_revolution = {
+		wfl_apocalypse_idea = {
 			allowed = {
-				original_tag = TRP
+				always = yes
 			}
 			allowed_civil_war = {
-				always = no
+				always = yes
 			}
-			picture = GFX_idea_home_of_revolution
+			picture = air_war_plans_division_focus
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.2
-				conversion_cost_civ_to_mil_factor = -0.2
-				industrial_capacity_factory = 0.2
-				industrial_capacity_dockyard = 0.2
-				conscription = 0.1
-				production_speed_buildings_factor = 0.2
+				stability_factor = -2
+				monthly_population = -10
+				command_power_gain = -100
+				army_defence_factor = -1
+				#production_speed_arms_factory_factor = -10.0
+				conscription = -1
+				army_morale_factor = -1
+				political_power_factor = -1
+				production_speed_buildings_factor = -10
+				#production_speed_dockyard_factor = -10.0
+				nuclear_production_factor = 1
+				production_factory_max_efficiency_factor = -1
 			}
 		}
-		ACW_anime_economic = {
+		wfl_sputnik_v_kosmose = {
 			allowed = {
-				original_tag = ACW
+				always = yes
 			}
 			allowed_civil_war = {
-				always = no
+				always = yes
 			}
-			picture = generic_local_self_management
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.05
-				trade_laws_cost_factor = -0.33
-				economy_cost_factor = -0.33
-				political_advisor_cost_factor = -0.33
-				production_speed_industrial_complex_factor = 0.2
-				production_speed_infrastructure_factor = 0.2
-				production_speed_synthetic_refinery_factor = 0.2
+				political_power_factor = 0.3
+				decryption_factor = 0.3
+				encryption_factor = 0.3
+				recon_factor = 0.3
+				research_speed_factor = 0.1
 			}
 		}
-		ACW_economic_integration = {
-			removal_cost = -1
+		wfl_immigration_idea = {
 			allowed = {
-				original_tag = ACW
+				always = yes
 			}
 			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.1
+			}
+		}
+		fascism_discrediting = {
+			allowed = {
 				always = no
+			}
+			removal_cost = -1
+			picture = spr_the_popular_front
+			modifier = {
+				fascism_drift = -0.1
+				stability_factor = -0.3
+			}
+		}
+		communism_discrediting = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = spr_the_popular_front
+			modifier = {
+				communism_drift = -0.1
+				stability_factor = -0.3
+			}
+		}
+		democratic_discrediting = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = spr_the_popular_front
+			modifier = {
+				democratic_drift = -0.1
+				stability_factor = -0.3
+			}
+		}
+		neutrality_discrediting = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = spr_the_popular_front
+			modifier = {
+				neutrality_drift = -0.1
+				stability_factor = -0.3
+			}
+		}
+		wfl_rocket_factory = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_rocket_site_factor = 0.5
+				repair_speed_rocket_site_factor = 0.5
+			}
+		}
+		waifuland_assistance = {
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
 			}
 			modifier = {
 				stability_factor = 0.15
 				political_power_factor = 0.15
 				production_speed_buildings_factor = 0.15
 				research_speed_factor = 0.15
-				democratic_drift = 0.05
-				custom_modifier_tooltip = acw_subject_autonomy_mod_tt
-				hidden_modifier = { subjects_autonomy_gain = -0.5 }
+				#waifuism_drift = 0.1
+				opinion_gain_monthly_same_ideology_factor = 0.2
+			}
+		}
+		wfl_waifuland_puppet = {
+			available = {
+				is_puppet = yes
+			}
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				autonomy_gain = -0.5
+				#waifuism_drift = 0.01
+				autonomy_manpower_share = 0.5
+			}
+		}
+		wfl_hentai_banned_idea = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.05
+				stability_factor = -0.05
+			}
+		}
+		wfl_hentai_allow_idea = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_intel_bonus
+			removal_cost = -1
+			modifier = {
+				monthly_population = -0.01
+				stability_factor = 0.05
+			}
+		}
+		wfl_tantacle_attack = {
+			allowed = {
+				always = no
+			}
+			picture = generic_purge
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.7
+				army_morale_factor = -0.2
 			}
 		}
 		ACW_economic_assistance = {
@@ -72,28 +193,15 @@ ideas = {
 				autonomy_gain = -0.5
 			}
 		}
-		Slice_of_Life = {
-			allowed = {
-				original_tag = ACW
-			}
-			allowed_civil_war = {
-				always = no
-			}
-			picture = generic_local_self_management
-			removal_cost = -1
-			modifier = {
-				consumer_goods_factor = -0.05
-				conversion_cost_civ_to_mil_factor = -0.2
-				conversion_cost_mil_to_civ_factor = -0.2
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-			}
-		}
 		acr_anime_physics = {
 			allowed = {
 				OR = {
 					original_tag = ACW
 					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
 				}
 			}
 			allowed_civil_war = {
@@ -115,7 +223,14 @@ ideas = {
 		}
 		Anime_fanat = {
 			allowed = {
-				always = no
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
 			}
 			allowed_civil_war = {
 			}
@@ -130,6 +245,10 @@ ideas = {
 				OR = {
 					original_tag = ACW
 					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
 				}
 			}
 			allowed_civil_war = {
@@ -144,6 +263,81 @@ ideas = {
 		}
 	}
 	political_advisor = {
+		wfl_head_int = {
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			traits = {
+				head_of_intelligence
+			}
+			ai_will_do = {
+				factor = -1
+			}
+			available = {
+				always = no
+			}
+			visible = {
+				always = no
+			}
+		}
+		wfl_democratic_reformer = {
+			picture = wfl_eagle
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			traits = { democratic_reformer }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		wfl_communist_revolutionary = {
+			picture = wfl_sovetskaya_rossiya
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			traits = { communist_revolutionary }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		wfl_fascist_demagogue = {
+			picture = wfl_prinz_eugen
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			traits = { fascist_demagogue }
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		jeff = {
 			picture = acr_generic_captain_of_industry_female
 			allowed = {
@@ -353,7 +547,6 @@ ideas = {
 				}
 			}
 		}
-
 	}
 	theorist = {
 		jeff_theorist = {
@@ -754,6 +947,224 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
+			}
+		}
+	}
+	tank_manufacturer = {
+		designer = yes
+		wfl_obt_arsenal = {
+			picture = generic_industrial_concern_1
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			available = {
+				#has_completed_focus = wfl_main_battle_tank
+				OR = {
+					has_tech = advanced_heavy_tank
+					has_tech = advanced_medium_tank
+				}
+			}
+			ai_will_do = {
+				factor = 100
+			}
+			research_bonus = {
+				armor = 0.3
+			}
+			cost = 150
+			traits = {
+				tank_manufacturer
+			}
+			equipment_bonus = {
+				modern_armor = {
+					build_cost_ic = -0.3
+					ap_attack = 0.2
+					hard_attack = 0.2
+				}
+				#modern_tank_equipment_1 = {
+				#	build_cost_ic = -0.2
+				#	ap_attack = 0.2
+				#	hard_attack = 0.5
+				#}
+			}
+		}
+		wfl_fast_tank_design_bureau = {
+			picture = generic_industrial_concern_1
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			research_bonus = {
+				armor = 0.3
+			}
+			cost = 150
+			traits = {
+				fast_tank_manufacturer
+			}
+		}
+		wfl_medium_tank_astrov_design_bureau = {
+			picture = generic_industrial_concern_1
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			research_bonus = {
+				armor = 0.3
+			}
+			cost = 150
+			traits = {
+				medium_tank_manufacturer
+			}
+		}
+		wfl_heavy_tank_design_bureau = {
+			picture = generic_industrial_concern_1
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			research_bonus = {
+				armor = 0.3
+			}
+			cost = 150
+			traits = {
+				heavy_tank_manufacturer
+			}
+		}
+		#заглушка
+		wfl_generic_tank_manufacturer = {
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			visible = {
+				always = no
+			}
+			ai_will_do = {
+				factor = -1
+			}
+			traits = {
+				tank_manufacturer
+			}
+		}
+	}
+	naval_manufacturer = {
+		designer = yes
+		wfl_submarine_company = {
+			#picture = idea_generic_naval_manufacturer_1
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			research_bonus = {
+				naval_equipment = 0.3
+			}
+			cost = 150
+			traits = {
+				wfl_submarine_manufacturer
+			}
+			modifier = {
+			}
+		}
+		wfl_carrier_company = {
+			#picture = idea_generic_navy_carrier_bonus
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			research_bonus = {
+				naval_equipment = 0.3
+			}
+			cost = 150
+			traits = {
+				wfl_carrier_manufacturer
+			}
+			modifier = {
+			}
+		}
+		wfl_battlefleet_company = {
+			picture = generic_navy_bonus
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			research_bonus = {
+				naval_equipment = 0.3
+			}
+			cost = 150
+			traits = {
+				wfl_battlefleet_designer
+			}
+			modifier = {
+			}
+		}
+		#заглушка
+		wfl_generic_naval_manufacturer = {
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			visible = {
+				always = no
+			}
+			ai_will_do = {
+				factor = -1
+			}
+			traits = {
+				naval_manufacturer
 			}
 		}
 	}

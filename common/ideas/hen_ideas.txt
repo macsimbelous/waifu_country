@@ -1,0 +1,78 @@
+ideas = {
+	country = {
+		wfl_futanary_idea = {
+			allowed = {
+				original_tag = HEN
+			}
+			picture = generic_manpower_bonus
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.25
+			}
+		}
+		wfl_incompetent_officers = {
+			allowed = {
+				original_tag = HEN
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_idea_chi_incompetent_officers
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = -0.05
+				army_attack_factor = -0.05
+				army_speed_factor = -0.15
+				army_org_factor = -0.1
+				army_org_regain = -0.1
+			}
+		}
+	}
+	political_advisor = {
+		wfl_neko = {
+			allowed = {
+				original_tag = HEN
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			traits = {
+				wfl_popular_figurehead
+			}
+		}
+		wfl_office_lady = {
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				fortification_engineer
+			}
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+	}
+	theorist = {
+
+	}
+	army_chief = {
+
+	}
+	air_chief = {
+
+	}
+	navy_chief = {
+
+	}
+	high_command = {
+
+	}
+	tank_manufacturer = {
+		designer = yes
+
+	}
+	naval_manufacturer = {
+		designer = yes
+
+	}
+}
