@@ -73,16 +73,10 @@ set_technology = {
 }
 
 add_ideas = {
-	#limited_exports
 	free_trade
-	#closed_economy
 	civilian_economy
-	#partial_economic_mobilisation
 	volunteer_only
-	#limited_conscription
-	#wfl_incompetent_officers
-	#ideological_fanaticism_focus
-	#political_commissars_focus
+	wfl_super_factory
 }
 
 set_politics = {

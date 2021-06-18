@@ -252,19 +252,7 @@ ideas = {
 				research_speed_factor = 0.2
 			}
 		}
-		wfl_super_factory = {
-			allowed = {
-				original_tag = ACW
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				industrial_capacity_factory = 1
-				industrial_capacity_dockyard = 1
-			}
-		}
+
 		Slice_of_Life = {
 			allowed = {
 				original_tag = ACW

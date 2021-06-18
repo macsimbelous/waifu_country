@@ -4,8 +4,7 @@ set_war_support = 0.3
 set_convoys = 100
 set_research_slots = 3
 oob = "ACW_1936"
-#oob = "ACW_1936"
-#set_naval_oob = "ACW_1936_Naval"
+set_naval_oob = "ACW_1936_Naval"
 
 #create_faction = WaifuPower
 
@@ -59,52 +58,53 @@ set_politics = {
 
 #leaders
 create_country_leader = {
-	name = "Mother Weaboo"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Soviet_Irina_Vladimirovna_Putina.tga"
+	name = "Erza"
+	desc = "POLITICS_ERZA_DESC"
+	picture = "ROA_Erza_lider_stalinism.tga"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		anime_tyan
-		peoples_favorite
+		wfl_dictator
+		wfl_revolutionary
+		warrior_code
 	}
 }
 create_country_leader = {
-	name = "Eirin Yagokaro"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Germany_Eirin_Yagokaro.tga"
+	name = "Asuka"
+	desc = "POLITICS_ASUKA_DESC"
+	picture = "Portrait_Asuka_lider.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = fascism_ideology
 	traits = {
-		anime_tyan
-		Tyan_militarist
-		warmonger
+		wfl_tsundere
+		wfl_dictator
+		wfl_patron_of_the_military_industrial_complex
 	}
 }
 create_country_leader = {
-	name = "Hisaichi Terauchi"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_Japan_Hisaichi_Terauchi.tga"
+	name = "Irina Vladimirovna Putina"
+	desc = "POLITICS_Irina_Vladimirovna_Putina_DESC"
+	picture = "Soviet_Irina_Vladimirovna_Putina.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		dislikes_germany
 		anime_tyan
 		liberal_democratic_paragon
 		freedom_fighter
 		stout_defender
+		wfl_patron_of_industry
 	}
 }
 create_country_leader = {
 	name = "Anastasia"
 	desc = "POLITICS_ANASTASIA_DESC"
-	picture = "ROA_Anastasia_lider_liberalism.tga"
+	picture = "Portrait_Anastasia_I_Empress.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
 		wfl_idol
+		wfl_empress
 		wfl_patron_of_intelligence
-		wfl_patron_of_industry
 	}
 }
 #marshal
