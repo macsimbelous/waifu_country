@@ -1,0 +1,261 @@
+division_template = {
+	name = "Mecha Garrison"
+	regiments = {
+		cavalry = {
+			x = 0
+			y = 0
+		}
+		cavalry = {
+			x = 1
+			y = 0
+		}
+		cavalry = {
+			x = 0
+			y = 1
+		}
+		cavalry = {
+			x = 1
+			y = 1
+		}
+	}
+	support = {
+		military_police = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "Mecha 20"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 3
+		}
+		infantry = {
+			x = 0
+			y = 4
+		}
+		infantry = {
+			x = 1
+			y = 4
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+		engineer = {
+			x = 0
+			y = 1
+		}
+		recon = {
+			x = 0
+			y = 2
+		}
+	}
+}
+units = {
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9814
+		division_template = "Mecha 20"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MEH"
+		}
+		requested_factories = 1
+		progress = 0.67
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MEH"
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "MEH"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 80
+	}
+}

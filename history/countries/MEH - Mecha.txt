@@ -1,6 +1,6 @@
 capital = 378
 set_research_slots = 4
-#oob = "MEH_1936"
+oob = "MEH_1936"
 #set_naval_oob = "MEH_1936_Naval"
 set_stability = 0.5
 set_war_support = 0.5
@@ -182,25 +182,6 @@ create_corps_commander = {
 		panzer_leader
 	}
 }
-create_corps_commander = {
-	name = "Iris Heart"
-	picture = "ROA_Iris_Heart_general.dds"
-	traits = {
-		commando
-		infantry_leader
-		infantry_expert
-		skilled_staffer
-		trickster
-	}
-	skill = 4
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-	#id = 7016
-}
-
-
 create_corps_commander = {
 	name = "Saint Martha"
 	picture = "ROA_Saint_Martha_general.dds"

@@ -287,57 +287,6 @@ ideas = {
 				always = no
 			}
 		}
-		wfl_democratic_reformer = {
-			picture = wfl_eagle
-			allowed = {
-				OR = {
-					original_tag = ACW
-					original_tag = HEN
-					original_tag = MAH
-					original_tag = TRP
-					original_tag = MEH
-					original_tag = MMS
-				}
-			}
-			traits = { democratic_reformer }
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		wfl_communist_revolutionary = {
-			picture = wfl_sovetskaya_rossiya
-			allowed = {
-				OR = {
-					original_tag = ACW
-					original_tag = HEN
-					original_tag = MAH
-					original_tag = TRP
-					original_tag = MEH
-					original_tag = MMS
-				}
-			}
-			traits = { communist_revolutionary }
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		wfl_fascist_demagogue = {
-			picture = wfl_prinz_eugen
-			allowed = {
-				OR = {
-					original_tag = ACW
-					original_tag = HEN
-					original_tag = MAH
-					original_tag = TRP
-					original_tag = MEH
-					original_tag = MMS
-				}
-			}
-			traits = { fascist_demagogue }
-			ai_will_do = {
-				factor = 1
-			}
-		}
 		jeff = {
 			picture = acr_generic_captain_of_industry_female
 			allowed = {
@@ -347,7 +296,7 @@ ideas = {
 					original_tag = MAH
 					original_tag = TRP
 					original_tag = MEH
-					original_tag = MMS
+					#original_tag = MMS
 				}
 			}
 			traits = {
@@ -365,7 +314,7 @@ ideas = {
 			picture = acr_generic_communist_revolutionary_female
 			allowed = {
 				OR = {
-					original_tag = ACW
+					#original_tag = ACW
 					original_tag = HEN
 					original_tag = MAH
 					original_tag = TRP
@@ -384,7 +333,7 @@ ideas = {
 			picture = acr_generic_democratic_reformer_female
 			allowed = {
 				OR = {
-					original_tag = ACW
+					#original_tag = ACW
 					original_tag = HEN
 					original_tag = MAH
 					original_tag = TRP
@@ -403,7 +352,7 @@ ideas = {
 			picture = acr_generic_fascist_demagogue_female
 			allowed = {
 				OR = {
-					original_tag = ACW
+					#original_tag = ACW
 					original_tag = HEN
 					original_tag = MAH
 					original_tag = TRP
@@ -502,7 +451,7 @@ ideas = {
 			picture = acr_generic_war_industrialist_female
 			allowed = {
 				OR = {
-					original_tag = ACW
+					#original_tag = ACW
 					original_tag = HEN
 					original_tag = MAH
 					original_tag = TRP
@@ -525,7 +474,7 @@ ideas = {
 			picture = acr_generic_head_of_intelligence_female
 			allowed = {
 				OR = {
-					original_tag = ACW
+					#original_tag = ACW
 					original_tag = HEN
 					original_tag = MAH
 					original_tag = TRP
@@ -559,7 +508,7 @@ ideas = {
 					original_tag = MAH
 					original_tag = TRP
 					original_tag = MEH
-					original_tag = MMS
+					#original_tag = MMS
 				}
 			}
 			research_bonus = {

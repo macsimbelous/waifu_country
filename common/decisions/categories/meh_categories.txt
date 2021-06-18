@@ -1,0 +1,13 @@
+meh_war_category = {
+	priority = 11
+	icon = generic_political_actions
+	picture = GFX_wfl_government_category
+	#visible_when_empty = yes
+	allowed = {
+		#always = yes
+		original_tag = MEH
+	}
+	visible = {
+		#has_country_flag = wfl_elections_flag
+	}
+}
