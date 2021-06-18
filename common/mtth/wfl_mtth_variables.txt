@@ -138,10 +138,10 @@ wfl_propaganda_in_sov_power = {
 	}
 }
 
-wfl_volunteers_base = {
+wfc_volunteers_base = {
 	base = 500
 	modifier = {
-		has_idea = wfl_minpropagand_idea
+		has_idea = acw_minpropagand_idea
 		add = 250
 	}
 	modifier = {

@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		wfl_futanary_idea = {
+		hen_futanary_idea = {
 			allowed = {
 				original_tag = HEN
 			}
@@ -10,7 +10,7 @@ ideas = {
 				monthly_population = 0.25
 			}
 		}
-		wfl_incompetent_officers = {
+		hen_incompetent_officers = {
 			allowed = {
 				original_tag = HEN
 			}

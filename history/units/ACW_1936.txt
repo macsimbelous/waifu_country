@@ -356,16 +356,4 @@ instant_effect = {
 		progress = 0.24
 		efficiency = 80
 	}
-	add_equipment_to_stockpile = {
-		type = infantry_equipment_1
-		amount = 21000
-	}
-	add_equipment_to_stockpile = {
-		type = artillery_equipment_1
-		amount = 240
-	}
-	add_equipment_to_stockpile = {
-		type = support_equipment_1
-		amount = 800
-	}
 }

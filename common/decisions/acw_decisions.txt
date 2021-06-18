@@ -1,0 +1,948 @@
+acw_government_category = {
+	acw_create_minprom_decision = {
+		name = acw_create_minprom_decision.t
+		ai_will_do = {
+			base = 200
+			modifier = {
+				has_country_leader = {
+					name = "Erza"
+				}
+				add = 100
+			}
+		}
+		fire_only_once = yes
+		cost = 100
+		#days_re_enable = 30
+		days_remove = 30
+		modifier = {
+			#stability_factor = -0.025
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_ideas = acw_minprom_idea
+			set_country_flag = acw_minprom_flag
+		}
+	}
+	acw_create_minoboron_decision = {
+		name = acw_create_minoboron_decision.t
+		ai_will_do = {
+			factor = 300
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 30
+		modifier = {
+			#stability_factor = -0.025
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_ideas = acw_minoboron_idea
+		}
+	}
+	acw_create_stavka_decision = {
+		name = acw_create_stavka_decision.t
+		ai_will_do = {
+			factor = 300
+		}
+		fire_only_once = yes
+		cost = 100
+		#days_re_enable = 30
+		visible = {
+			has_idea = acw_minoboron_idea
+		}
+		available = {
+			has_idea = acw_minoboron_idea
+			#num_divisions > 100
+			custom_trigger_tooltip = {
+				tooltip = acw_create_stavka_decision_tt
+				check_variable = {
+					num_battalions > 1999
+				}
+			}
+			has_deployed_air_force_size = {
+				size > 999
+			}
+		}
+		days_remove = 30
+		modifier = {
+			#stability_factor = -0.025
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			army_experience = 25
+			navy_experience = 25
+			air_experience = 25
+			add_ideas = acw_stavka_idea
+		}
+	}
+	acw_create_minscience_decision = {
+		name = acw_create_minscience_decision.t
+		ai_will_do = {
+			base = 200
+			modifier = {
+				has_country_leader = {
+					name = "KOS-MOS"
+				}
+				add = 100
+			}
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 30
+		modifier = {
+			#stability_factor = -0.025
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_ideas = acw_minscience_idea
+			add_research_slot = 1
+		}
+	}
+	acw_create_KGB_decision = {
+		name = acw_create_KGB_decision.t
+		ai_will_do = {
+			base = 200
+			modifier = {
+				OR = {
+					has_country_leader = {
+						name = "Anastasia"
+					}
+					has_country_leader = {
+						name = "Anastasia I"
+					}
+				}
+				add = 100
+			}
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 30
+		modifier = {
+			#stability_factor = -0.025
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			#create_intelligence_agency = yes
+			set_country_flag = acw_KGB_flag
+			add_ideas = acw_KGB_idea
+			create_intelligence_agency = {
+				icon = GFX_intelligence_agency_logo_generic_8
+				name = "KGB"
+			}
+		}
+	}
+	acw_create_mintrans_decision = {
+		name = acw_create_mintrans_decision.t
+		ai_will_do = {
+			base = 200
+			modifier = {
+				has_country_leader = {
+					name = "Asuka"
+				}
+				add = 100
+			}
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 30
+		modifier = {
+			#stability_factor = -0.025
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_ideas = acw_mintrans_idea
+		}
+	}
+	acw_create_minpropagand_decision = {
+		name = acw_create_minpropagand_decision.t
+		ai_will_do = {
+			base = 200
+			modifier = {
+				OR = {
+					has_country_leader = {
+						name = "Anastasia"
+					}
+					has_country_leader = {
+						name = "Anastasia I"
+					}
+				}
+				add = 100
+			}
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 30
+		modifier = {
+			#stability_factor = -0.025
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_ideas = acw_minpropagand_idea
+		}
+	}
+	acw_create_colonial_office_decision = {
+		name = acw_create_colonial_office_decision.t
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 100
+		available = {
+			num_subjects > 3
+		}
+		days_remove = 30
+		modifier = {
+			#stability_factor = -0.025
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_ideas = acw_colonial_office
+		}
+	}
+	acw_create_great_waifuland_decision = {
+		name = acw_create_great_waifuland_decision.t
+		available = {
+			#num_of_controlled_states > 30
+			custom_trigger_tooltip = {
+				tooltip = acw_create_great_waifuland_tt
+				check_variable = {
+					owned_states > 49
+				}
+			}
+			#has_war = no
+			#has_stability > 0.9
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		fire_only_once = yes
+		cost = 100
+		complete_effect = {
+			set_cosmetic_tag = WFL_EOW
+			add_country_leader_trait = wfc_empress
+			add_political_power = 1000
+		}
+	}
+}
+acw_concert_decisions = {
+	acw_concert_love_laika_decision = {
+		name = acw_concert_love_laika_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			#has_completed_focus = acw_idols_agency
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_concert_run_flag
+						has_country_flag = acw_love_laika_is_busy_flag
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_stability < 0.6
+				add = 3
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 90
+		days_remove = 30
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_concert_run_flag
+			set_country_flag = acw_love_laika_is_busy_flag
+		}
+		modifier = {
+			stability_factor = 0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_concert_run_flag
+			clr_country_flag = acw_love_laika_is_busy_flag
+			add_stability = 0.05
+		}
+	}
+	acw_love_laika_tour_decision = {
+		name = acw_love_laika_tour_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_tour_run_flag
+						has_country_flag = acw_love_laika_is_busy_flag
+					}
+				}
+			}
+		}
+		visible = {
+			has_country_flag = acw_world_tour_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 180
+		days_remove = 90
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_tour_run_flag
+			set_country_flag = acw_love_laika_is_busy_flag
+		}
+		modifier = {
+			#stability_factor = 0.1
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_tour_run_flag
+			clr_country_flag = acw_love_laika_is_busy_flag
+			random_other_country = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 30
+				}
+				add_opinion_modifier = {
+					target = ACW
+					modifier = acw_idols_tour_opinion
+				}
+			}
+		}
+	}
+	acw_concert_muse_decision = {
+		name = acw_concert_muse_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_concert_run_flag
+						has_country_flag = acw_muse_is_busy_flag
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_stability < 0.6
+				add = 3
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 90
+		days_remove = 30
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_concert_run_flag
+			set_country_flag = acw_muse_is_busy_flag
+		}
+		modifier = {
+			stability_factor = 0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_concert_run_flag
+			clr_country_flag = acw_muse_is_busy_flag
+			add_stability = 0.05
+		}
+	}
+	acw_muse_tour_decision = {
+		name = acw_muse_tour_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_tour_run_flag
+						has_country_flag = acw_muse_is_busy_flag
+					}
+				}
+			}
+		}
+		visible = {
+			has_country_flag = acw_world_tour_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 180
+		days_remove = 90
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_tour_run_flag
+			set_country_flag = acw_muse_is_busy_flag
+		}
+		modifier = {
+			#stability_factor = 0.1
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_tour_run_flag
+			clr_country_flag = acw_muse_is_busy_flag
+			random_other_country = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 30
+				}
+				add_opinion_modifier = {
+					target = ACW
+					modifier = acw_idols_tour_opinion
+				}
+			}
+		}
+	}
+	acw_concert_aqours_decision = {
+		name = acw_concert_aqours_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_concert_run_flag
+						has_country_flag = acw_aqours_is_busy_flag
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_stability < 0.6
+				add = 3
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 90
+		days_remove = 30
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_concert_run_flag
+			set_country_flag = acw_aqours_is_busy_flag
+		}
+		modifier = {
+			stability_factor = 0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_concert_run_flag
+			clr_country_flag = acw_aqours_is_busy_flag
+			add_stability = 0.05
+		}
+	}
+	acw_aqours_tour_decision = {
+		name = acw_aqours_tour_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_tour_run_flag
+						has_country_flag = acw_aqours_is_busy_flag
+					}
+				}
+			}
+		}
+		visible = {
+			has_country_flag = acw_world_tour_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 180
+		days_remove = 90
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_tour_run_flag
+			set_country_flag = acw_aqours_is_busy_flag
+		}
+		modifier = {
+			#stability_factor = 0.1
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_tour_run_flag
+			clr_country_flag = acw_aqours_is_busy_flag
+			random_other_country = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 30
+				}
+				add_opinion_modifier = {
+					target = ACW
+					modifier = acw_idols_tour_opinion
+				}
+			}
+		}
+	}
+	acw_concert_765_production_decision = {
+		name = acw_concert_765_production_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_concert_run_flag
+						has_country_flag = acw_765_production_is_busy_flag
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_stability < 0.6
+				add = 3
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 90
+		days_remove = 30
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_concert_run_flag
+			set_country_flag = acw_765_production_is_busy_flag
+		}
+		modifier = {
+			stability_factor = 0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_concert_run_flag
+			clr_country_flag = acw_765_production_is_busy_flag
+			add_stability = 0.05
+		}
+	}
+	acw_765_production_tour_decision = {
+		name = acw_765_production_tour_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_tour_run_flag
+						has_country_flag = acw_765_production_is_busy_flag
+					}
+				}
+			}
+		}
+		visible = {
+			has_country_flag = acw_world_tour_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 180
+		days_remove = 90
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_tour_run_flag
+			set_country_flag = acw_765_production_is_busy_flag
+		}
+		modifier = {
+			#stability_factor = 0.1
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_tour_run_flag
+			clr_country_flag = acw_765_production_is_busy_flag
+			random_other_country = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 30
+				}
+				add_opinion_modifier = {
+					target = ACW
+					modifier = acw_idols_tour_opinion
+				}
+			}
+		}
+	}
+	acw_concert_ranko_kanzaki_decision = {
+		name = acw_concert_ranko_kanzaki_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_concert_run_flag
+						has_country_flag = acw_ranko_kanzaki_is_busy_flag
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_stability < 0.6
+				add = 3
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 90
+		days_remove = 30
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_concert_run_flag
+			set_country_flag = acw_ranko_kanzaki_is_busy_flag
+		}
+		modifier = {
+			stability_factor = 0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_concert_run_flag
+			clr_country_flag = acw_ranko_kanzaki_is_busy_flag
+			add_stability = 0.05
+		}
+	}
+	acw_ranko_kanzaki_tour_decision = {
+		name = acw_ranko_kanzaki_tour_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_tour_run_flag
+						has_country_flag = acw_ranko_kanzaki_is_busy_flag
+					}
+				}
+			}
+		}
+		visible = {
+			has_country_flag = acw_world_tour_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 180
+		days_remove = 90
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_tour_run_flag
+			set_country_flag = acw_ranko_kanzaki_is_busy_flag
+		}
+		modifier = {
+			#stability_factor = 0.1
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_tour_run_flag
+			clr_country_flag = acw_ranko_kanzaki_is_busy_flag
+			random_other_country = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 30
+				}
+				add_opinion_modifier = {
+					target = ACW
+					modifier = acw_idols_tour_opinion
+				}
+			}
+		}
+	}
+	acw_concert_kaede_takagaki_decision = {
+		name = acw_concert_kaede_takagaki_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_concert_run_flag
+						has_country_flag = acw_kaede_takagaki_is_busy_flag
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_stability < 0.6
+				add = 3
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 90
+		days_remove = 30
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_concert_run_flag
+			set_country_flag = acw_kaede_takagaki_is_busy_flag
+		}
+		modifier = {
+			stability_factor = 0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_concert_run_flag
+			clr_country_flag = acw_kaede_takagaki_is_busy_flag
+			add_stability = 0.05
+		}
+	}
+	acw_kaede_takagaki_tour_decision = {
+		name = acw_kaede_takagaki_tour_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_tour_run_flag
+						has_country_flag = acw_kaede_takagaki_is_busy_flag
+					}
+				}
+			}
+		}
+		visible = {
+			has_country_flag = acw_world_tour_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 180
+		days_remove = 90
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_tour_run_flag
+			set_country_flag = acw_kaede_takagaki_is_busy_flag
+		}
+		modifier = {
+			#stability_factor = 0.1
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_tour_run_flag
+			clr_country_flag = acw_kaede_takagaki_is_busy_flag
+			random_other_country = {
+				#add_timed_idea = {
+				#	idea = waifu_influence
+				#	days = 30
+				#}
+				add_opinion_modifier = {
+					target = ACW
+					modifier = acw_idols_tour_opinion
+				}
+			}
+		}
+	}
+	acw_concert_sheryl_nome_decision = {
+		name = acw_concert_sheryl_nome_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_concert_run_flag
+						has_country_flag = acw_sheryl_nome_is_busy_flag
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_stability < 0.6
+				add = 3
+			}
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 90
+		days_remove = 30
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_concert_run_flag
+			set_country_flag = acw_sheryl_nome_is_busy_flag
+		}
+		modifier = {
+			stability_factor = 0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_concert_run_flag
+			clr_country_flag = acw_sheryl_nome_is_busy_flag
+			add_stability = 0.05
+		}
+	}
+	acw_sheryl_nome_tour_decision = {
+		name = acw_sheryl_nome_tour_decision.t
+		icon = decision_category_generic_propaganda
+		available = {
+			hidden_trigger = {
+				NOT = {
+					OR = {
+						has_country_flag = acw_tour_run_flag
+						has_country_flag = acw_sheryl_nome_is_busy_flag
+					}
+				}
+			}
+		}
+		visible = {
+			has_country_flag = acw_world_tour_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 180
+		days_remove = 90
+		#on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = acw_tour_run_flag
+			set_country_flag = acw_sheryl_nome_is_busy_flag
+		}
+		modifier = {
+			#stability_factor = 0.1
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			clr_country_flag = acw_tour_run_flag
+			clr_country_flag = acw_sheryl_nome_is_busy_flag
+			random_other_country = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 30
+				}
+				add_opinion_modifier = {
+					target = ACW
+					modifier = acw_idols_tour_opinion
+				}
+			}
+		}
+	}
+}
+acw_economy_category = {
+	acw_economy_infrastructure_decision = {
+		name = acw_economy_infrastructure_decision.t
+		icon = generic_construction
+		fire_only_once = no
+		days_remove = 60
+		cost = 100
+		days_re_enable = 30
+		modifier = {
+			production_speed_infrastructure_factor = 0.3
+			production_speed_naval_base_factor = 0.3
+			production_speed_air_base_factor = 0.3
+		}
+		remove_trigger = {
+			#has_war = yes
+			surrender_progress > 0
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	acw_economy_industrial_complex_decision = {
+		name = acw_economy_industrial_complex_decision.t
+		icon = generic_construction
+		fire_only_once = no
+		days_remove = 60
+		cost = 100
+		days_re_enable = 30
+		modifier = {
+			production_speed_industrial_complex_factor = 0.3
+		}
+		remove_trigger = {
+			#has_war = yes
+			surrender_progress > 0
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	acw_economy_synthetic_refinery_decision = {
+		name = acw_economy_synthetic_refinery_decision.t
+		icon = generic_construction
+		fire_only_once = no
+		days_remove = 60
+		cost = 100
+		days_re_enable = 30
+		modifier = {
+			production_speed_synthetic_refinery_factor = 0.3
+		}
+		remove_trigger = {
+			#has_war = yes
+			surrender_progress > 0
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	acw_economy_arms_factory_decision = {
+		name = acw_economy_arms_factory_decision.t
+		icon = generic_construction
+		fire_only_once = no
+		days_remove = 60
+		cost = 100
+		days_re_enable = 30
+		modifier = {
+			production_speed_arms_factory_factor = 0.3
+		}
+		remove_trigger = {
+			#has_war = yes
+			surrender_progress > 0
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	acw_economy_dockyard_decision = {
+		name = acw_economy_dockyard_decision.t
+		icon = generic_construction
+		fire_only_once = no
+		days_remove = 60
+		cost = 100
+		days_re_enable = 30
+		modifier = {
+			production_speed_dockyard_factor = 0.3
+		}
+		remove_trigger = {
+			#has_war = yes
+			surrender_progress > 0
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	acw_economy_nuclear_reactor_decision = {
+		name = acw_economy_nuclear_reactor_decision.t
+		icon = generic_construction
+		fire_only_once = no
+		days_remove = 120
+		cost = 200
+		days_re_enable = 30
+		available = {
+			has_tech = nuclear_reactor
+		}
+		modifier = {
+			production_speed_nuclear_reactor_factor = 0.6
+		}
+		remove_trigger = {
+			#has_war = yes
+			surrender_progress > 0
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+}
+

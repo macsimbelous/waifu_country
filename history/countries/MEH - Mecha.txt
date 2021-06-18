@@ -76,7 +76,7 @@ add_ideas = {
 	free_trade
 	civilian_economy
 	volunteer_only
-	wfl_super_factory
+	meh_super_factory
 }
 
 set_politics = {
@@ -100,11 +100,11 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		wfl_android
-		wfl_defender
-		wfl_patron_of_science
-		wfl_patron_of_industry
-		wfl_superweapon
+		wfc_android
+		wfc_defender
+		wfc_patron_of_science
+		wfc_patron_of_industry
+		wfc_superweapon
 	}
 }
 

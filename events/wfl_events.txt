@@ -1,15 +1,15 @@
 ###########################
 # Republic of Anime Events
 ###########################
-add_namespace = wfl_event
+add_namespace = wfc_event
 country_event = {
-	id = wfl_event.1
-	title = wfl_event.1.t
-	desc = wfl_event.1.d
-	picture = GFX_wfl_event1
+	id = wfc_event.1
+	title = wfc_event.1.t
+	desc = wfc_event.1.d
+	picture = GFX_wfc_event1
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.1.a
+		name = wfc_event.1.a
 		ai_chance = {
 			factor = 75
 		}
@@ -20,14 +20,14 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {
-				wfl_tsundere
-				wfl_dictator
-				wfl_patron_of_the_military_industrial_complex
+				wfc_tsundere
+				wfc_dictator
+				wfc_patron_of_the_military_industrial_complex
 			}
 		}
 	}
 	option = {
-		name = wfl_event.1.b
+		name = wfc_event.1.b
 		ai_chance = {
 			factor = 75
 		}
@@ -38,13 +38,13 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = liberalism
 			traits = {
-				wfl_idol
-				wfl_patron_of_intelligence
+				wfc_idol
+				wfc_patron_of_intelligence
 			}
 		}
 	}
 	option = {
-		name = wfl_event.1.c
+		name = wfc_event.1.c
 		ai_chance = {
 			factor = 75
 		}
@@ -55,14 +55,14 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = stalinism
 			traits = {
-				wfl_dictator
-				wfl_patron_of_industry
+				wfc_dictator
+				wfc_patron_of_industry
 				warrior_code
 			}
 		}
 	}
 	option = {
-		name = wfl_event.1.e
+		name = wfc_event.1.e
 		ai_chance = {
 			factor = 75
 		}
@@ -73,23 +73,23 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
-				wfl_android
-				wfl_defender
-				wfl_patron_of_science
-				wfl_superweapon
+				wfc_android
+				wfc_defender
+				wfc_patron_of_science
+				wfc_superweapon
 			}
 		}
 	}
 }
 
 country_event = {
-	id = wfl_event.2
-	title = wfl_event.2.t
-	desc = wfl_event.2.d
-	picture = GFX_wfl_event2
+	id = wfc_event.2
+	title = wfc_event.2.t
+	desc = wfc_event.2.d
+	picture = GFX_wfc_event2
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.2.a
+		name = wfc_event.2.a
 		ai_chance = {
 			factor = 75
 		}
@@ -97,13 +97,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfl_event.3
-	title = wfl_event.3.t
-	desc = wfl_event.3.d
-	picture = GFX_wfl_event3
+	id = wfc_event.3
+	title = wfc_event.3.t
+	desc = wfc_event.3.d
+	picture = GFX_wfc_event3
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.3.a
+		name = wfc_event.3.a
 		ai_chance = {
 			factor = 75
 		}
@@ -111,13 +111,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfl_event.4
-	title = wfl_event.4.t
-	desc = wfl_event.4.d
-	picture = GFX_wfl_event4
+	id = wfc_event.4
+	title = wfc_event.4.t
+	desc = wfc_event.4.d
+	picture = GFX_wfc_event4
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.4.a
+		name = wfc_event.4.a
 		ai_chance = {
 			factor = 75
 		}
@@ -125,13 +125,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfl_event.5
-	title = wfl_event.5.t
-	desc = wfl_event.5.d
-	picture = GFX_wfl_event5
+	id = wfc_event.5
+	title = wfc_event.5.t
+	desc = wfc_event.5.d
+	picture = GFX_wfc_event5
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.5.a
+		name = wfc_event.5.a
 		ai_chance = {
 			factor = 75
 		}
@@ -139,13 +139,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfl_event.6
-	title = wfl_event.6.t
-	desc = wfl_event.6.d
-	picture = GFX_wfl_event5
+	id = wfc_event.6
+	title = wfc_event.6.t
+	desc = wfc_event.6.d
+	picture = GFX_wfc_event5
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.6.a
+		name = wfc_event.6.a
 		ai_chance = {
 			factor = 75
 		}
@@ -154,13 +154,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfl_event.7
-	title = wfl_event.7.t
-	desc = wfl_event.7.d
-	picture = GFX_wfl_event7
+	id = wfc_event.7
+	title = wfc_event.7.t
+	desc = wfc_event.7.d
+	picture = GFX_wfc_event7
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.7.a
+		name = wfc_event.7.a
 		ai_chance = {
 			factor = 75
 		}
@@ -168,42 +168,42 @@ country_event = {
 }
 
 country_event = {
-	id = wfl_event.8
-	title = wfl_event.8.t
-	desc = wfl_event.8.d
-	picture = GFX_wfl_event8
+	id = wfc_event.8
+	title = wfc_event.8.t
+	desc = wfc_event.8.d
+	picture = GFX_wfc_event8
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.8.a
+		name = wfc_event.8.a
 		ai_chance = {
 			factor = 75
 		}
-		add_ideas = wfl_hentai_banned_idea
+		add_ideas = wfc_hentai_banned_idea
 	}
 	option = {
-		name = wfl_event.8.b
+		name = wfc_event.8.b
 		ai_chance = {
 			factor = 75
 		}
-		add_ideas = wfl_hentai_allow_idea
+		add_ideas = wfc_hentai_allow_idea
 	}
 }
 
 country_event = {
-	id = wfl_event.9
-	title = wfl_event.9.t
-	desc = wfl_event.9.d
-	picture = GFX_wfl_event9
+	id = wfc_event.9
+	title = wfc_event.9.t
+	desc = wfc_event.9.d
+	picture = GFX_wfc_event9
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.9.a
+		name = wfc_event.9.a
 		ai_chance = {
 			factor = 75
 		}
-		add_ideas = wfl_futanary_idea
+		add_ideas = hen_futanary_idea
 	}
 	option = {
-		name = wfl_event.9.b
+		name = wfc_event.9.b
 		ai_chance = {
 			factor = 0
 		}
@@ -211,28 +211,28 @@ country_event = {
 }
 
 country_event = {
-	id = wfl_event.10
-	title = wfl_event.10.t
-	desc = wfl_event.10.d
-	picture = GFX_wfl_event10
+	id = wfc_event.10
+	title = wfc_event.10.t
+	desc = wfc_event.10.d
+	picture = GFX_wfc_event10
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.10.a
+		name = wfc_event.10.a
 		ai_chance = {
 			factor = 75
 		}
-		#add_ideas = wfl_futanary_idea
+		#add_ideas = wfc_futanary_idea
 	}
 }
 
 country_event = {
-	id = wfl_event.11
-	title = wfl_event.11.t
-	desc = wfl_event.11.d
+	id = wfc_event.11
+	title = wfc_event.11.t
+	desc = wfc_event.11.d
 	picture = GFX_report_event_fascist_gathering
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.11.c
+		name = wfc_event.11.c
 		set_politics = {
 			ruling_party = fascism
 			elections_allowed = no
@@ -242,13 +242,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfl_event.12
-	title = wfl_event.12.t
-	desc = wfl_event.12.d
-	picture = GFX_wfl_event12
+	id = wfc_event.12
+	title = wfc_event.12.t
+	desc = wfc_event.12.d
+	picture = GFX_wfc_event12
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.12.c
+		name = wfc_event.12.c
 		ai_chance = {
 			factor = 75
 		}
@@ -266,18 +266,18 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		name = wfl_event.12.e
+		name = wfc_event.12.e
 	}
 }
 
 country_event = {
-	id = wfl_event.13
-	title = wfl_event.13.t
-	desc = wfl_event.13.d
-	picture = GFX_wfl_event13
+	id = wfc_event.13
+	title = wfc_event.13.t
+	desc = wfc_event.13.d
+	picture = GFX_wfc_event13
 	is_triggered_only = yes
 	option = {
-		name = wfl_event.13.c
+		name = wfc_event.13.c
 		ai_chance = {
 			factor = 75
 		}
@@ -295,6 +295,6 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		name = wfl_event.13.e
+		name = wfc_event.13.e
 	}
 }

@@ -1,0 +1,38 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_idea_wfc_immigration_idea"
+                texturefile = "gfx/interface/ideas/idea_generic_flexible_foreign_policy2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_wfc_carrier_company"
+                texturefile = "gfx/interface/ideas/idea_generic_navy_carrier_bonus.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_wfc_submarine_company"
+                texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_1.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_wfc_rocket_factory"
+                texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_3.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_wfc_sputnik_v_kosmose"
+                texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_1.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_waifu_influence"
+                texturefile = "gfx/interface/ideas/idea_jap_supremacy_of_will.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_wfc_sputnik"
+                texturefile = "gfx/interface/ideas/idea_generic_flexible_foreign_policy2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_waifuland_assistance"
+                texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_wfc_waifuland_puppet"
+                texturefile = "gfx/interface/ideas/idea_ast_classify_aliens.dds"
+        }
+}

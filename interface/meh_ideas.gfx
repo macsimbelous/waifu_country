@@ -1,0 +1,14 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_idea_meh_i_401"
+                texturefile = "gfx/interface/ideas/idea_wfl_i_401.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_eagle"
+                texturefile = "gfx/interface/ideas/idea_wfl_eagle.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_super_factory"
+                texturefile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
+        }
+}

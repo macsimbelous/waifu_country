@@ -1,3 +1,24 @@
+meh_kosmos_category = {
+	picture = GFX_decision_wfl_kosmos_category
+	icon = GFX_decision_wfl_kosmos_category_icon
+	allowed = {
+		original_tag = MEH
+	}
+	visible = {
+		has_tech = advanced_rocket_engines
+	}
+	priority = 9
+	on_map_area = {
+		#		state = ROOT.capital
+		name = wfl_mbr_strike_decision_tt
+		zoom = 656
+		target_root_trigger = {
+			#			has_tech = nukes
+			#			has_tech = advanced_rocket_engines
+		}
+	}
+}
+
 meh_war_category = {
 	priority = 11
 	icon = generic_political_actions

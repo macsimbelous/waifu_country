@@ -34,7 +34,9 @@ ideas = {
 				research_speed_factor = 0.15
 				democratic_drift = 0.05
 				custom_modifier_tooltip = acw_subject_autonomy_mod_tt
-				hidden_modifier = { subjects_autonomy_gain = -0.5 }
+				hidden_modifier = {
+					subjects_autonomy_gain = -0.5
+				}
 			}
 		}
 		acw_mintrans_idea = {
@@ -171,7 +173,6 @@ ideas = {
 				resistance_damage_to_garrison = -0.25
 			}
 		}
-
 		acw_minprom_idea = {
 			allowed = {
 				original_tag = ACW
@@ -219,7 +220,9 @@ ideas = {
 			}
 			modifier = {
 				custom_modifier_tooltip = acw_subject_autonomy_mod_tt
-				hidden_modifier = { subjects_autonomy_gain = -0.25 }
+				hidden_modifier = {
+					subjects_autonomy_gain = -0.25
+				}
 				#political_power_factor = 0.1
 				political_power_gain = 0.1
 			}
@@ -252,7 +255,6 @@ ideas = {
 				research_speed_factor = 0.2
 			}
 		}
-
 		Slice_of_Life = {
 			allowed = {
 				original_tag = ACW
@@ -272,6 +274,34 @@ ideas = {
 		}
 	}
 	political_advisor = {
+		acw_minami_nitta = {
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				#has_government = democratic
+				has_country_leader = {
+					name = "Anastasia"
+				}
+			}
+			traits = {
+				wfc_first_lady
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		acw_silent_workhorse = {
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
 		acw_megumin = {
 			allowed = {
 				original_tag = ACW
@@ -352,11 +382,33 @@ ideas = {
 			allowed = {
 				original_tag = ACW
 			}
-			available = {
-				has_intelligence_agency = yes
-			}
 			traits = {
 				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		acw_sovetskaya_rossiya_com_rev = {
+			picture = acw_sovetskaya_rossiya
+			allowed = {
+				original_tag = ACW
+			}
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		acw_camilla_fas_dem = {
+			picture = acw_camilla
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				fascist_demagogue
 			}
 			ai_will_do = {
 				factor = 0
@@ -376,6 +428,20 @@ ideas = {
 				factor = -1
 			}
 		}
+		acw_captain_of_industry = {
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				#has_completed_focus = wfl_minprom
+			}
+			traits = {
+				wfc_captain_of_industry
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		acw_lucy_yamagami = {
 			allowed = {
 				original_tag = ACW
@@ -390,23 +456,7 @@ ideas = {
 				factor = 1
 			}
 		}
-		acw_minami_nitta = {
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				#has_government = democratic
-				has_country_leader = {
-					name = "Anastasia"
-				}
-			}
-			traits = {
-				wfc_first_lady
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
+
 		acw_aoi_sakurai = {
 			allowed = {
 				original_tag = ACW
@@ -760,10 +810,8 @@ ideas = {
 	}
 	tank_manufacturer = {
 		designer = yes
-
 	}
 	naval_manufacturer = {
 		designer = yes
-
 	}
 }

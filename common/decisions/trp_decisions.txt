@@ -1,0 +1,236 @@
+trp_cloning_category = {
+	trp_cloning_decision = {
+		name = wfl_cloning_decision.t
+		icon = decision_generic_research
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_manpower < 100000
+				add = 1
+			}
+			modifier = {
+				has_manpower < 10000
+				add = 200
+			}
+		}
+		fire_only_once = no
+		cost = 300
+		days_re_enable = 60
+		complete_effect = {
+			add_manpower = mtth:wfl_cloning_power
+		}
+	}
+	trp_cloning_level_2_decision = {
+		name = wfl_cloning_level_up_decision.t
+		icon = decision_generic_research
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_manpower < 100000
+				add = 1
+			}
+			modifier = {
+				has_manpower < 10000
+				add = 200
+			}
+		}
+		visible = {
+			has_country_flag = wfl_cloning_level_1
+			NOT = {
+				has_country_flag = wfl_cloning_level_2
+			}
+		}
+		fire_only_once = yes
+		cost = 300
+		days_remove = 90
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			set_country_flag = wfl_cloning_level_2
+		}
+	}
+	trp_cloning_level_3_decision = {
+		name = wfl_cloning_level_up_decision.t
+		icon = decision_generic_research
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_manpower < 100000
+				add = 1
+			}
+			modifier = {
+				has_manpower < 10000
+				add = 200
+			}
+		}
+		visible = {
+			has_country_flag = wfl_cloning_level_2
+			NOT = {
+				has_country_flag = wfl_cloning_level_3
+			}
+		}
+		fire_only_once = yes
+		cost = 300
+		days_remove = 120
+		available = {
+			num_of_civilian_factories_available_for_projects > 6
+		}
+		modifier = {
+			civilian_factory_use = 6
+		}
+		remove_effect = {
+			set_country_flag = wfl_cloning_level_3
+		}
+	}
+	trp_cloning_level_4_decision = {
+		name = wfl_cloning_level_up_decision.t
+		icon = decision_generic_research
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_manpower < 100000
+				add = 1
+			}
+			modifier = {
+				has_manpower < 10000
+				add = 200
+			}
+		}
+		visible = {
+			has_country_flag = wfl_cloning_level_3
+			NOT = {
+				has_country_flag = wfl_cloning_level_4
+			}
+		}
+		fire_only_once = yes
+		cost = 300
+		days_remove = 150
+		available = {
+			num_of_civilian_factories_available_for_projects > 9
+		}
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			set_country_flag = wfl_cloning_level_4
+		}
+	}
+	trp_cloning_level_5_decision = {
+		name = wfl_cloning_level_up_decision.t
+		icon = decision_generic_research
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_manpower < 100000
+				add = 1
+			}
+			modifier = {
+				has_manpower < 10000
+				add = 200
+			}
+		}
+		visible = {
+			has_country_flag = wfl_cloning_level_4
+			NOT = {
+				has_country_flag = wfl_cloning_level_5
+			}
+		}
+		fire_only_once = yes
+		cost = 300
+		days_remove = 180
+		available = {
+			num_of_civilian_factories_available_for_projects > 12
+		}
+		modifier = {
+			civilian_factory_use = 12
+		}
+		remove_effect = {
+			set_country_flag = wfl_cloning_level_5
+		}
+	}
+}
+trp_discrediting_decisions = {
+	trp_discrediting_decision = {
+		name = wfl_discrediting_decision.t
+		#icon = onmap_recruit_operative
+		visible = {
+			has_wargoal_against = FROM
+		}
+		available = {
+			#has_annex_war_goal = FROM
+		}
+		target_trigger = {
+			FROM = {
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
+				}
+				has_capitulated = no
+			}
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 30
+		#on_map_mode = map_only
+		complete_effect = {
+			every_country = {
+				add_opinion_modifier = {
+					target = FROM
+					modifier = large_decrease
+				}
+				diplomatic_relation = {
+					country = FROM
+					relation = guarantee
+					active = no
+				}
+			}
+			FROM = {
+				IF = {
+					LIMIT = {
+						has_government = fascism
+					}
+					add_timed_idea = {
+						idea = fascism_discrediting
+						days = 180
+					}
+				}
+				IF = {
+					LIMIT = {
+						has_government = communism
+					}
+					add_timed_idea = {
+						idea = communism_discrediting
+						days = 180
+					}
+				}
+				IF = {
+					LIMIT = {
+						has_government = democratic
+					}
+					add_timed_idea = {
+						idea = democratic_discrediting
+						days = 180
+					}
+				}
+				IF = {
+					LIMIT = {
+						has_government = neutrality
+					}
+					add_timed_idea = {
+						idea = neutrality_discrediting
+						days = 180
+					}
+				}
+			}
+		}
+	}
+}

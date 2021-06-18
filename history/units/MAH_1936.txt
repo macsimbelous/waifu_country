@@ -248,7 +248,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "ASN"
+			creator = "MAH"
 		}
 		requested_factories = 1
 		progress = 0.87
@@ -257,7 +257,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "ASN"
+			creator = "MAH"
 		}
 		requested_factories = 1
 		progress = 0.19
@@ -266,22 +266,10 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "ASN"
+			creator = "MAH"
 		}
 		requested_factories = 1
 		progress = 0.24
 		efficiency = 100
-	}
-	add_equipment_to_stockpile = {
-		type = infantry_equipment_1
-		amount = 21000
-	}
-	add_equipment_to_stockpile = {
-		type = artillery_equipment_1
-		amount = 240
-	}
-	add_equipment_to_stockpile = {
-		type = support_equipment_1
-		amount = 800
 	}
 }

@@ -1,23 +1,4 @@
-wfl_government_category = {
-	priority = 11
-	icon = generic_political_actions
-	picture = GFX_wfl_government_category
-	#visible_when_empty = yes
-	allowed = {
-		#always = yes
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		#has_country_flag = wfl_elections_flag
-	}
-}
+
 wfl_puppets_category = {
 	icon = generic_independence
     picture = GFX_decision_cat_picture_chi_political_support
@@ -188,27 +169,7 @@ wfl_tentakles_decisions = {
 	}
 }
 
-wfl_discrediting_decisions = {
-	priority = 9
-	icon = decision_category_generic_propaganda
-	picture = GFX_decision_cat_picture_chi_political_support
-	allowed = {
-		#always = yes
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-		#has_dlc = "La Resistance"
-	}
-	visible = {
-		#has_country_flag = wfl_KGB_flag
-		has_intelligence_agency = yes
-	}
-}
+
 
 wfl_declare_war_decisions = {
 	priority = 1
@@ -232,26 +193,7 @@ wfl_declare_war_decisions = {
 	}
 }
 
-wfl_concert_decisions = {
-	priority = 6
-	icon = decision_category_generic_propaganda
-	picture = GFX_decision_cat_concert_decisions
-	allowed = {
-		#always = yes
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-		#has_dlc = "La Resistance"
-	}
-	visible = {
-		has_completed_focus = wfl_idols_agency
-	}
-}
+
 
 wfl_infiltration_decisions = {
 	priority = 1
@@ -267,33 +209,7 @@ wfl_infiltration_decisions = {
 	}
 }
 
-wfl_kosmos_category = {
-	picture = GFX_decision_wfl_kosmos_category
-	icon = GFX_decision_wfl_kosmos_category_icon
-	allowed = {
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		has_tech = advanced_rocket_engines
-	}
-	priority = 9
-	on_map_area = {
-		#		state = ROOT.capital
-		name = wfl_mbr_strike_decision_tt
-		zoom = 656
-		target_root_trigger = {
-			#			has_tech = nukes
-			#			has_tech = advanced_rocket_engines
-		}
-	}
-}
+
 
 wfl_immigration_category = {
 	priority = 4
@@ -330,44 +246,6 @@ wfl_campaigning_for_volunteers_category = {
 	}
 	visible = {
 		has_manpower < 100000
-	}
-}
-
-wfl_cloning_category = {
-	priority = 5
-	icon = decision_generic_research
-	allowed = {
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		has_completed_focus = wfl_cloning
-	}
-}
-
-wfl_economy_category = {
-	priority = 7
-	icon = generic_economy
-	picture = GFX_wfl_economy_category
-	allowed = {
-		#always = yes
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		has_country_flag = wfl_minprom_flag
 	}
 }
 

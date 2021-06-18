@@ -87,66 +87,7 @@ wfl_up_resources_state = {
 		}
 	}
 }
-wfl_sputnik_change = {
-	set_variable = {
-		wfk_sputnik_decryption_factor = 0.02
-	}
-	multiply_variable = {
-		wfk_sputnik_decryption_factor = wfl_sputnik_count
-	}
-	set_variable = {
-		wfk_sputnik_encryption_factor = 0.02
-	}
-	multiply_variable = {
-		wfk_sputnik_encryption_factor = wfl_sputnik_count
-	}
-	set_variable = {
-		wfk_sputnik_recon_factor = 0.02
-	}
-	multiply_variable = {
-		wfk_sputnik_recon_factor = wfl_sputnik_count
-	}
-	set_variable = {
-		wfk_sputnik_research_speed_factor = 0.02
-	}
-	multiply_variable = {
-		wfk_sputnik_research_speed_factor = wfl_sputnik_count
-	}
-}
-wfl_sputnik_add = {
-	add_to_variable = {
-		wfl_sputnik_count = 1
-	}
-	add_to_variable = {
-		wfk_sputnik_decryption_factor = 0.02
-	}
-	add_to_variable = {
-		wfk_sputnik_encryption_factor = 0.02
-	}
-	add_to_variable = {
-		wfk_sputnik_recon_factor = 0.02
-	}
-	add_to_variable = {
-		wfk_sputnik_research_speed_factor = 0.02
-	}
-}
-wfl_sputnik_remove = {
-	subtract_from_variable = {
-		wfl_sputnik_count = 1
-	}
-	subtract_from_variable = {
-		wfk_sputnik_decryption_factor = 0.02
-	}
-	subtract_from_variable = {
-		wfk_sputnik_encryption_factor = 0.02
-	}
-	subtract_from_variable = {
-		wfk_sputnik_recon_factor = 0.02
-	}
-	subtract_from_variable = {
-		wfk_sputnik_research_speed_factor = 0.02
-	}
-}
+
 
 wfl_up_resources_state3 = {
 	if = {

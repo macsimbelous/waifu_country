@@ -237,7 +237,7 @@ instant_effect = {
 			creator = "MEH"
 		}
 		requested_factories = 1
-		progress = 0.67
+		progress = 0.7
 		efficiency = 80
 	}
 	add_equipment_production = {
@@ -246,7 +246,7 @@ instant_effect = {
 			creator = "MEH"
 		}
 		requested_factories = 1
-		progress = 0.19
+		progress = 0.7
 		efficiency = 80
 	}
 	add_equipment_production = {
@@ -255,7 +255,7 @@ instant_effect = {
 			creator = "MEH"
 		}
 		requested_factories = 1
-		progress = 0.54
+		progress = 0.7
 		efficiency = 80
 	}
 }

@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		wfl_apocalypse_idea = {
+		wfc_apocalypse_idea = {
 			allowed = {
 				always = yes
 			}
@@ -24,23 +24,8 @@ ideas = {
 				production_factory_max_efficiency_factor = -1
 			}
 		}
-		wfl_sputnik_v_kosmose = {
-			allowed = {
-				always = yes
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				political_power_factor = 0.3
-				decryption_factor = 0.3
-				encryption_factor = 0.3
-				recon_factor = 0.3
-				research_speed_factor = 0.1
-			}
-		}
-		wfl_immigration_idea = {
+
+		wfc_immigration_idea = {
 			allowed = {
 				always = yes
 			}
@@ -96,19 +81,7 @@ ideas = {
 				stability_factor = -0.3
 			}
 		}
-		wfl_rocket_factory = {
-			allowed = {
-				always = yes
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				production_speed_rocket_site_factor = 0.5
-				repair_speed_rocket_site_factor = 0.5
-			}
-		}
+
 		waifuland_assistance = {
 			removal_cost = -1
 			allowed_civil_war = {
@@ -123,7 +96,7 @@ ideas = {
 				opinion_gain_monthly_same_ideology_factor = 0.2
 			}
 		}
-		wfl_waifuland_puppet = {
+		wfc_waifuland_puppet = {
 			available = {
 				is_puppet = yes
 			}
@@ -137,7 +110,7 @@ ideas = {
 				autonomy_manpower_share = 0.5
 			}
 		}
-		wfl_hentai_banned_idea = {
+		wfc_hentai_banned_idea = {
 			allowed = {
 				always = yes
 			}
@@ -151,7 +124,7 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
-		wfl_hentai_allow_idea = {
+		wfc_hentai_allow_idea = {
 			allowed = {
 				always = yes
 			}
@@ -165,7 +138,7 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-		wfl_tantacle_attack = {
+		wfc_tantacle_attack = {
 			allowed = {
 				always = no
 			}
@@ -265,7 +238,7 @@ ideas = {
 
 	tank_manufacturer = {
 		designer = yes
-		wfl_obt_arsenal = {
+		wfc_obt_arsenal = {
 			picture = generic_industrial_concern_1
 			allowed = {
 				OR = {
@@ -278,7 +251,7 @@ ideas = {
 				}
 			}
 			available = {
-				#has_completed_focus = wfl_main_battle_tank
+				#has_completed_focus = wfc_main_battle_tank
 				OR = {
 					has_tech = advanced_heavy_tank
 					has_tech = advanced_medium_tank
@@ -307,7 +280,7 @@ ideas = {
 				#}
 			}
 		}
-		wfl_fast_tank_design_bureau = {
+		wfc_fast_tank_design_bureau = {
 			picture = generic_industrial_concern_1
 			allowed = {
 				OR = {
@@ -327,7 +300,7 @@ ideas = {
 				fast_tank_manufacturer
 			}
 		}
-		wfl_medium_tank_astrov_design_bureau = {
+		wfc_medium_tank_astrov_design_bureau = {
 			picture = generic_industrial_concern_1
 			allowed = {
 				OR = {
@@ -347,7 +320,7 @@ ideas = {
 				medium_tank_manufacturer
 			}
 		}
-		wfl_heavy_tank_design_bureau = {
+		wfc_heavy_tank_design_bureau = {
 			picture = generic_industrial_concern_1
 			allowed = {
 				OR = {
@@ -368,7 +341,7 @@ ideas = {
 			}
 		}
 		#заглушка
-		wfl_generic_tank_manufacturer = {
+		wfc_generic_tank_manufacturer = {
 			allowed = {
 				OR = {
 					original_tag = ACW
@@ -392,7 +365,7 @@ ideas = {
 	}
 	naval_manufacturer = {
 		designer = yes
-		wfl_submarine_company = {
+		wfc_submarine_company = {
 			#picture = idea_generic_naval_manufacturer_1
 			allowed = {
 				OR = {
@@ -409,12 +382,12 @@ ideas = {
 			}
 			cost = 150
 			traits = {
-				wfl_submarine_manufacturer
+				wfc_submarine_manufacturer
 			}
 			modifier = {
 			}
 		}
-		wfl_carrier_company = {
+		wfc_carrier_company = {
 			#picture = idea_generic_navy_carrier_bonus
 			allowed = {
 				OR = {
@@ -431,12 +404,12 @@ ideas = {
 			}
 			cost = 150
 			traits = {
-				wfl_carrier_manufacturer
+				wfc_carrier_manufacturer
 			}
 			modifier = {
 			}
 		}
-		wfl_battlefleet_company = {
+		wfc_battlefleet_company = {
 			picture = generic_navy_bonus
 			allowed = {
 				OR = {
@@ -453,13 +426,13 @@ ideas = {
 			}
 			cost = 150
 			traits = {
-				wfl_battlefleet_designer
+				wfc_battlefleet_designer
 			}
 			modifier = {
 			}
 		}
 		#заглушка
-		wfl_generic_naval_manufacturer = {
+		wfc_generic_naval_manufacturer = {
 			allowed = {
 				OR = {
 					original_tag = ACW

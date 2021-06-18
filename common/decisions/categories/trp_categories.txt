@@ -1,0 +1,23 @@
+trp_cloning_category = {
+	priority = 5
+	icon = decision_generic_research
+	allowed = {
+		original_tag = TRP
+	}
+	visible = {
+		#has_completed_focus = wfl_cloning
+	}
+}
+
+trp_discrediting_decisions = {
+	priority = 9
+	icon = decision_category_generic_propaganda
+	picture = GFX_decision_cat_picture_chi_political_support
+	allowed = {
+		original_tag = TRP
+	}
+	visible = {
+		#has_country_flag = wfl_KGB_flag
+		#has_intelligence_agency = yes
+	}
+}

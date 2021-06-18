@@ -1,0 +1,60 @@
+meh_sputnik_change = {
+	set_variable = {
+		meh_sputnik_decryption_factor = 0.02
+	}
+	multiply_variable = {
+		meh_sputnik_decryption_factor = meh_sputnik_count
+	}
+	set_variable = {
+		meh_sputnik_encryption_factor = 0.02
+	}
+	multiply_variable = {
+		meh_sputnik_encryption_factor = meh_sputnik_count
+	}
+	set_variable = {
+		meh_sputnik_recon_factor = 0.02
+	}
+	multiply_variable = {
+		meh_sputnik_recon_factor = meh_sputnik_count
+	}
+	set_variable = {
+		meh_sputnik_research_speed_factor = 0.02
+	}
+	multiply_variable = {
+		meh_sputnik_research_speed_factor = meh_sputnik_count
+	}
+}
+meh_sputnik_add = {
+	add_to_variable = {
+		meh_sputnik_count = 1
+	}
+	add_to_variable = {
+		meh_sputnik_decryption_factor = 0.02
+	}
+	add_to_variable = {
+		meh_sputnik_encryption_factor = 0.02
+	}
+	add_to_variable = {
+		meh_sputnik_recon_factor = 0.02
+	}
+	add_to_variable = {
+		meh_sputnik_research_speed_factor = 0.02
+	}
+}
+meh_sputnik_remove = {
+	subtract_from_variable = {
+		meh_sputnik_count = 1
+	}
+	subtract_from_variable = {
+		meh_sputnik_decryption_factor = 0.02
+	}
+	subtract_from_variable = {
+		meh_sputnik_encryption_factor = 0.02
+	}
+	subtract_from_variable = {
+		meh_sputnik_recon_factor = 0.02
+	}
+	subtract_from_variable = {
+		meh_sputnik_research_speed_factor = 0.02
+	}
+}

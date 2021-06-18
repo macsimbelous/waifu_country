@@ -1,0 +1,36 @@
+acw_government_category = {
+	priority = 11
+	icon = generic_political_actions
+	picture = GFX_wfl_government_category
+	#visible_when_empty = yes
+	allowed = {
+		original_tag = ACW
+	}
+	visible = {
+		#has_country_flag = wfl_elections_flag
+	}
+}
+
+acw_concert_decisions = {
+	priority = 6
+	icon = decision_category_generic_propaganda
+	picture = GFX_decision_cat_concert_decisions
+	allowed = {
+		original_tag = ACW
+	}
+	visible = {
+		#has_completed_focus = wfl_idols_agency
+	}
+}
+
+acw_economy_category = {
+	priority = 7
+	icon = generic_economy
+	picture = GFX_wfl_economy_category
+	allowed = {
+		original_tag = ACW
+	}
+	visible = {
+		has_country_flag = acw_minprom_flag
+	}
+}

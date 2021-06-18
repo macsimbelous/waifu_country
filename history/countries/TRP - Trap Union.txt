@@ -63,8 +63,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		anime_tyan
-		peoples_favorite
+		wfc_anime_tyan
+		wfc_peoples_favorite
 		warmonger
 		great_war_hero
 	}
@@ -76,8 +76,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		anime_tyan
-		Tyan_militarist
+		wfc_anime_tyan
+		wfc_Tyan_militarist
 	}
 }
 create_country_leader = {
@@ -88,7 +88,7 @@ create_country_leader = {
 	ideology = liberalism
 	traits = {
 		dislikes_germany
-		anime_tyan
+		wfc_anime_tyan
 		defeatist
 	}
 }
@@ -99,7 +99,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		anime_tyan
+		wfc_anime_tyan
 	}
 }
 
