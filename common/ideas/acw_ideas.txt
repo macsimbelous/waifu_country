@@ -37,7 +37,7 @@ ideas = {
 				hidden_modifier = { subjects_autonomy_gain = -0.5 }
 			}
 		}
-		wfl_mintrans_idea = {
+		acw_mintrans_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -52,7 +52,7 @@ ideas = {
 				political_power_gain = 0.1
 			}
 		}
-		wfl_stavka_idea = {
+		acw_stavka_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -74,7 +74,7 @@ ideas = {
 				planning_speed = 0.15
 			}
 		}
-		wfl_minoboron_idea = {
+		acw_minoboron_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -109,7 +109,7 @@ ideas = {
 				naval_doctrine = 0.3
 			}
 		}
-		wfl_tax_on_childlessness_idea = {
+		acw_tax_on_childlessness_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -123,7 +123,7 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
-		wfl_idols_agency_idea = {
+		acw_idols_agency_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -136,7 +136,7 @@ ideas = {
 				stability_factor = 0.1
 			}
 		}
-		wfl_spy_princesses_idea = {
+		acw_spy_princesses_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -150,7 +150,7 @@ ideas = {
 				operative_slot = 2
 			}
 		}
-		wfl_KGB_idea = {
+		acw_KGB_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -172,7 +172,7 @@ ideas = {
 			}
 		}
 
-		wfl_minprom_idea = {
+		acw_minprom_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -193,7 +193,7 @@ ideas = {
 				global_building_slots_factor = 0.2
 			}
 		}
-		wfl_minpropagand_idea = {
+		acw_minpropagand_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -212,19 +212,19 @@ ideas = {
 				political_power_gain = 0.1
 			}
 		}
-		wfl_colonial_office = {
+		acw_colonial_office = {
 			removal_cost = -1
 			allowed_civil_war = {
 				always = yes
 			}
 			modifier = {
-				custom_modifier_tooltip = wfl_subject_autonomy_mod_tt
+				custom_modifier_tooltip = acw_subject_autonomy_mod_tt
 				hidden_modifier = { subjects_autonomy_gain = -0.25 }
 				#political_power_factor = 0.1
 				political_power_gain = 0.1
 			}
 		}
-		wfl_minscience_idea = {
+		acw_minscience_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -239,7 +239,7 @@ ideas = {
 				political_power_gain = 0.1
 			}
 		}
-		wfl_nii_idea = {
+		acw_nii_idea = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -272,24 +272,24 @@ ideas = {
 		}
 	}
 	political_advisor = {
-		wfl_megumin = {
+		acw_megumin = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_secret_weapons
+				#has_completed_focus = acw_secret_weapons
 			}
 			research_bonus = {
 				nuclear = 0.15
 			}
 			traits = {
-				wfl_nuclear_mazoku
+				wfc_nuclear_mazoku
 			}
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		wfl_eruza_guranhirute = {
+		acw_eruza_guranhirute = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -300,34 +300,52 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_ayame_himuro = {
+		acw_ayame_himuro = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minscience
+				#has_completed_focus = acw_minscience
 			}
 			#research_speed_factor = 0.03
 			traits = {
-				wfl_girl_scientist
+				wfc_girl_scientist
 			}
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		wfl_ange_le_carre = {
+		acw_ange_le_carre = {
 			allowed = {
 				original_tag = ACW
 			}
 			traits = {
-				wfl_intelligence_princess
+				wfc_intelligence_princess
 			}
 			ai_will_do = {
 				factor = 1
 			}
 			available = {
 				has_intelligence_agency = yes
-				#has_completed_focus = wfl_KGB
+				#has_completed_focus = acw_KGB
+			}
+		}
+		#заглушка
+		acw_head_int = {
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				head_of_intelligence
+			}
+			ai_will_do = {
+				factor = -1
+			}
+			available = {
+				always = no
+			}
+			visible = {
+				always = no
 			}
 		}
 		ACW_Niko_Yazawa = {
@@ -338,46 +356,41 @@ ideas = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				ACW_super_agent_idol
-				head_of_intelligence
+				democratic_reformer
 			}
 			ai_will_do = {
-				base = 1
-				modifier = {
-					has_government = democratic
-					add = 5
-				}
+				factor = 0
 			}
 		}
-		wfl_mikumo_guynemer = {
+		acw_mikumo_guynemer = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minpropagand
+				#has_completed_focus = acw_minpropagand
 			}
 			traits = {
-				wfl_propaganda_expert
+				wfc_propaganda_expert
 			}
 			ai_will_do = {
 				factor = -1
 			}
 		}
-		wfl_lucy_yamagami = {
+		acw_lucy_yamagami = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minprom
+				#has_completed_focus = acw_minprom
 			}
 			traits = {
-				wfl_war_industrialist
+				wfc_war_industrialist
 			}
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		wfl_minami_nitta = {
+		acw_minami_nitta = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -388,21 +401,21 @@ ideas = {
 				}
 			}
 			traits = {
-				wfl_first_lady
+				wfc_first_lady
 			}
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		wfl_aoi_sakurai = {
+		acw_aoi_sakurai = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_mintrans
+				#has_completed_focus = acw_mintrans
 			}
 			traits = {
-				wfl_infrastructure_developer
+				wfc_infrastructure_developer
 			}
 			ai_will_do = {
 				factor = 1
@@ -410,13 +423,13 @@ ideas = {
 		}
 	}
 	theorist = {
-		wfl_akeno_misaki = {
+		acw_akeno_misaki = {
 			ledger = navy
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			research_bonus = {
@@ -426,13 +439,13 @@ ideas = {
 				naval_theorist
 			}
 		}
-		wfl_sovetskaya_rossiya = {
+		acw_sovetskaya_rossiya = {
 			ledger = navy
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			research_bonus = {
@@ -442,13 +455,13 @@ ideas = {
 				grand_fleet_proponent
 			}
 		}
-		wfl_arisa_mitaka = {
+		acw_arisa_mitaka = {
 			ledger = air
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			research_bonus = {
@@ -458,13 +471,13 @@ ideas = {
 				close_air_support_proponent
 			}
 		}
-		wfl_marblehead = {
+		acw_marblehead = {
 			ledger = navy
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minprom
+				#has_completed_focus = acw_minprom
 			}
 			research_bonus = {
 				cat_base_strike = 0.2
@@ -478,12 +491,12 @@ ideas = {
 		}
 	}
 	army_chief = {
-		wfl_darkness = {
+		acw_darkness = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -493,12 +506,12 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_mosin_nagant = {
+		acw_mosin_nagant = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -508,12 +521,12 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_matoi_ryuko = {
+		acw_matoi_ryuko = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -525,12 +538,12 @@ ideas = {
 		}
 	}
 	air_chief = {
-		wfl_mirage_farina_jenius = {
+		acw_mirage_farina_jenius = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -540,12 +553,12 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_sanya_v_litvyak = {
+		acw_sanya_v_litvyak = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -555,12 +568,12 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_camilla = {
+		acw_camilla = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			traits = {
 				air_chief_night_operations_3
@@ -571,12 +584,12 @@ ideas = {
 		}
 	}
 	navy_chief = {
-		wfl_yamato_navy_chief = {
+		acw_yamato_navy_chief = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -586,12 +599,12 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_atago_al_navy_chief = {
+		acw_atago_al_navy_chief = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -601,12 +614,12 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_prinz_eugen = {
+		acw_prinz_eugen = {
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			traits = {
 				navy_chief_maneuver_3
@@ -617,13 +630,13 @@ ideas = {
 		}
 	}
 	high_command = {
-		wfl_asuna_high_command = {
+		acw_asuna_high_command = {
 			ledger = army
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -633,13 +646,13 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_stalin_girl = {
+		acw_stalin_girl = {
 			ledger = army
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			traits = {
 				army_artillery_3
@@ -648,13 +661,13 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_klara_high_command = {
+		acw_klara_high_command = {
 			ledger = army
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -664,13 +677,13 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_rokosovskii_girl_high_command = {
+		acw_rokosovskii_girl_high_command = {
 			ledger = army
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -680,13 +693,13 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_patton_girl_high_command = {
+		acw_patton_girl_high_command = {
 			ledger = army
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -696,13 +709,13 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_angelise_ikaruga_misurugi = {
+		acw_angelise_ikaruga_misurugi = {
 			ledger = air
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -712,13 +725,13 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_juana_del_moral = {
+		acw_juana_del_moral = {
 			ledger = air
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
@@ -728,13 +741,13 @@ ideas = {
 				factor = 1
 			}
 		}
-		wfl_celia_cumani_aintree = {
+		acw_celia_cumani_aintree = {
 			ledger = army
 			allowed = {
 				original_tag = ACW
 			}
 			available = {
-				#has_completed_focus = wfl_minoboron
+				#has_completed_focus = acw_minoboron
 			}
 			cost = 150
 			traits = {
