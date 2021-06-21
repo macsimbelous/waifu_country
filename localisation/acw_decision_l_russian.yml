@@ -1,0 +1,61 @@
+﻿l_russian:
+#decisions
+#concert_decisions
+acw_concert_decisions:0 "Концерты"
+acw_concert_decisions_desc:0 "Мы создали агенство идолов и теперь можем проводить концерты популярных идолов что бы повысить стабильность и популярность правяшей партии."
+acw_concert_love_laika_decision.t:0 "Концерт Милой Лайки"
+#acw_concert_love_laika_decision.t_desc:0 "Концерт Милой Лайки"
+acw_concert_muse_decision.t:0 "Концерт Мьюз"
+#acw_concert_muse_decision.t_desc:0 "Концерт Мьюз"
+acw_concert_aqours_decision.t:0 "Концерт Аква"
+#acw_concert_aqours_decision.t_desc:0 "Концерт Аква"
+acw_concert_765_production_decision.t:0 "Концерт 765 Production"
+#acw_concert_765_production_decision.t_desc:0 "Концерт 765 Production"
+acw_concert_ranko_kanzaki_decision.t:0 "Концерт Ранко Кандзаки"
+#acw_concert_ranko_kanzaki_decision.t_desc:0 "Концерт Ранко Кандзаки"
+acw_concert_kaede_takagaki_decision.t:0 "Концерт Каэдэ Такагаки"
+#acw_concert_kaede_takagaki_decision.t_desc:0 "Концерт Каэдэ Такагаки"
+acw_concert_sheryl_nome_decision.t:0 "Концерт Шерил Ноум"
+#acw_concert_sheryl_nome_decision.t_desc:0 "Концерт Шерил Ноум"
+acw_love_laika_tour_decision.t:0 "Гастроли Милой Лайки"
+acw_muse_tour_decision.t:0 "Гастроли Мьюз"
+acw_aqours_tour_decision.t:0 "Гастроли Аква"
+acw_765_production_tour_decision.t:0 "Гастроли 765 Production"
+acw_ranko_kanzaki_tour_decision.t:0 "Гастроли Ранко Кандзаки"
+acw_kaede_takagaki_tour_decision.t:0 "Гастроли Каэдэ Такагаки"
+acw_sheryl_nome_tour_decision.t:0 "Гастроли Шерил Ноум"
+
+#acw_economy_category
+acw_economy_category:0 "Экономика"
+acw_economy_category_desc:0 "Инветиции в различьные отрасли экономики"
+acw_economy_arms_factory_decision.t:0 "Инвестиции в ВПК"
+acw_economy_dockyard_decision.t:0 "Инвестиции в судостроение"
+acw_economy_industrial_complex_decision.t:0 "Инвестиции в гражданские фабрики"
+acw_economy_synthetic_refinery_decision.t:0 "Инвестиции в НПЗ"
+acw_economy_nuclear_reactor_decision.t:0 "Инвестиции в атомные электростанции"
+acw_economy_infrastructure_decision.t:0 "Инвестиции в инфраструктуру"
+#acw_government_category
+acw_government_category:0 "Правительство"
+acw_government_category_desc:0 "Регионы:\nВо владении: §G[?owned_states]§!\nНациональные: §G[?core_states]§!\nНе национальные: §R[?mtth:acw_uncore_states]§!\nОкупированные: §R[?mtth:acw_occupied_states]§!"
+acw_create_minprom_decision.t:0 "Сформировать Министерство промышленности"
+acw_create_minoboron_decision.t:0 "Сформировать Министерство обороны"
+acw_create_minscience_decision.t:0 "Сформировать Министерство науки"
+acw_create_KGB_decision.t:0 "Сформировать КГБ"
+acw_create_minpropagand_decision.t:0 "Сформировать Министерство пропаганды"
+acw_create_mintrans_decision.t:0 "Сформировать Министерство транспорта"
+acw_create_stavka_decision.t:0 "Ставка верховного командования"
+acw_create_stavka_decision_tt:0 "Батальёнов 2000 или более"
+acw_create_great_waifuland_decision.t:0 "Сформировать Великий Вайфулэнд"
+acw_create_great_waifuland_tt:0 "Регионов во владении 50 или более"
+acw_create_colonial_office_decision.t:0 "Сформировать Министерство колоний"
+
+#acw_puppets_category
+acw_puppets_category:0 "Подчинение слабых стран"
+acw_create_puppet_decision.t:0 "Подчинить §Y[From.GetNameDef]§!"
+acw_ven_to_puppet_decision.t:0 "Подчинить §Y[VEN.GetNameDef]§!"
+
+#acw_overseas_puppets_category
+acw_overseas_puppets_category:0 "Подчинение заморских територий"
+acw_create_overseas_puppets_decision.t:0 "Подчинить §Y[From.GetNameDef]§!"
+acw_battle_trigger_tt:0 "Наш флот сильнее в §G2§! и более раз"
+

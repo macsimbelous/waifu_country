@@ -238,7 +238,7 @@ wfl_puppet_cost = {
 		add = puppet_cost
 	}
 }
-wfl_uncore_states = {
+acw_uncore_states = {
 	base = 0
 	modifier = {
 		set_temp_variable = {
