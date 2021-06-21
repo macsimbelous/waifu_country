@@ -166,6 +166,10 @@ wfl_create_puppet_decision_tt_green:0 "Инвестиций в §Y[FROM.GetName]
 #gacha
 wfl_gacha_decision.t:0 "Испытать удачу"
 
+#wfc_integration_category
+wfc_integration_category:0 "Интеграция"
+wfc_integration_decision.t:0 "Интегрировать §Y[From.GetName]§!"
+wfc_integration_decision.t_desc:0 "Не обходимо закрепить распространение нашей культуры в §Y[From.GetName]§!"
 
 #test
 wfl_test_category:0 "Тестовая категория"

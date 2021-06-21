@@ -1,11 +1,9 @@
 
-
-wfl_cultural_assimilation_category = {
-	priority = 9
+wfc_integration_category = {
+	priority = 5
 	icon = decision_category_generic_propaganda
 	#picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
 	allowed = {
-		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
@@ -15,35 +13,8 @@ wfl_cultural_assimilation_category = {
 			original_tag = MMS
 		}
 	}
-	visible = {
-		OR = {
-			has_government = democratic
-			has_government = neutrality
-		}
-	}
 }
-wfl_purge_category = {
-	priority = 9
-	icon = decision_category_eng_move_to_secure_the_dominions
-	#picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
-	allowed = {
-		always = no
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		OR = {
-			has_government = fascism
-			has_government = communism
-		}
-	}
-}
+
 wfl_coring_category = {
 	priority = 9
 	icon = generic_political_actions

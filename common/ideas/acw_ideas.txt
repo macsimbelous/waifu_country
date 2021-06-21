@@ -483,7 +483,8 @@ ideas = {
 				cat_superior_firepower = 0.2
 			}
 			traits = {
-				blitzkrieg_theorist
+				#blitzkrieg_theorist
+				superior_firepower_expert
 			}
 		}
 		acw_siluca_meletes = {
@@ -496,7 +497,7 @@ ideas = {
 				cat_grand_battle_plan = 0.2
 			}
 			traits = {
-				blitzkrieg_theorist
+				grand_battle_plan_expert
 			}
 		}
 		acw_lisa_eostre = {
@@ -522,7 +523,7 @@ ideas = {
 				cat_mass_assault = 0.2
 			}
 			traits = {
-				blitzkrieg_theorist
+				mass_assault_expert
 			}
 		}
 		acw_akeno_misaki = {
@@ -568,10 +569,11 @@ ideas = {
 			}
 			cost = 150
 			research_bonus = {
-				cat_battlefield_support = 0.15
+				#cat_battlefield_support = 0.15
+				air_doctrine = 0.2
 			}
 			traits = {
-				close_air_support_proponent
+				air_warfare_theorist
 			}
 		}
 		acw_marblehead = {

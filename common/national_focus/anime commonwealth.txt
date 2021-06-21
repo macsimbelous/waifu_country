@@ -10,49 +10,26 @@ focus_tree = {
 	default = no
 	continuous_focus_position = {
 		x = 50
-		y = 1200
+		y = 1100
 	}
 	initial_show_position = {
-		focus = ACW_create_intelligence_agency
-	}
-	focus = {
-		id = ACW_create_intelligence_agency
-		icon = GFX_focus_generic_support_the_left_right
-		cost = 5
-		x = 3
-		y = 0
-		bypass = {
-			has_intelligence_agency = yes
-		}
-		completion_reward = {
-			create_intelligence_agency = {
-				icon = GFX_intelligence_agency_logo_generic_8
-				name = "MIMIMI7"
-			}
-		}
-		ai_will_do = {
-			factor = 5
-		}
+		focus = acw_political_effort
 	}
 	focus = {
 		id = ACW_army_power
 		icon = GFX_focus_chi_army_reform
-		cost = 5
-		prerequisite = {
-			focus = ACW_create_intelligence_agency
-		}
-		relative_position_id = ACW_create_intelligence_agency
-		x = -2
-		y = 1
-		mutually_exclusive = {
-			focus = ACW_econom_power
-		}
+		cost = 10
+		x = 11
+		y = 7
 		ai_will_do = {
 			base = 1
 			modifier = {
 				has_government = fascism
 				add = 5
 			}
+		}
+		available = {
+			has_government = fascism
 		}
 		completion_reward = {
 			add_ideas = acr_anime_physics
@@ -85,7 +62,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		cost = 5
 		relative_position_id = ACW_war_economic
-		x = 0
+		x = -1
 		y = 1
 		prerequisite = {
 			focus = ACW_war_economic
@@ -233,10 +210,10 @@ focus_tree = {
 			has_war = no
 		}
 		prerequisite = {
-			focus = ACW_alb_annex
+			focus = ACW_war_economic
 		}
-		relative_position_id = ACW_alb_annex
-		x = 0
+		relative_position_id = ACW_war_economic
+		x = 2
 		y = 1
 		completion_reward = {
 			POL = {
@@ -251,410 +228,85 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ACW_afm_atack
+		id = ACW_lit_atack
 		icon = GFX_goal_generic_major_war
 		cost = 5
 		available = {
 			has_war = no
-			any_neighbor_country = {
-				original_tag = HEN
-			}
 		}
 		prerequisite = {
 			focus = ACW_pol_atack
-			focus = ACW_pol_to_pupppet
 		}
 		relative_position_id = ACW_pol_atack
-		x = 2
+		x = 0
 		y = 1
 		completion_reward = {
+			LIT = {
+				every_owned_state = {
+					add_claim_by = ACW
+				}
+			}
 			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = HEN
+				type = annex_everything
+				target = LIT
 			}
 		}
 	}
 	focus = {
-		id = ACW_econom_power
-		icon = GFX_focus_generic_industry_3
-		cost = 10
-		prerequisite = {
-			focus = ACW_create_intelligence_agency
-		}
-		relative_position_id = ACW_create_intelligence_agency
-		x = 2
-		y = 1
-		mutually_exclusive = {
-			focus = ACW_army_power
-		}
-		ai_will_do = {
-			base = 1
-			modifier = {
-				has_government = democratic
-				add = 5
-			}
-		}
-		completion_reward = {
-			add_ideas = ACW_anime_economic
-			every_owned_state = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = ACW_focus_economic_integration
-		icon = GFX_goal_tripartite_pact
+		id = ACW_lat_atack
+		icon = GFX_goal_generic_major_war
 		cost = 5
-		prerequisite = {
-			focus = ACW_econom_power
+		available = {
+			has_war = no
 		}
-		relative_position_id = ACW_econom_power
+		prerequisite = {
+			focus = ACW_lit_atack
+		}
+		relative_position_id = ACW_lit_atack
 		x = 0
 		y = 1
-		ai_will_do = {
-			base = 1
-			modifier = {
-				has_government = democratic
-				add = 5
-			}
-		}
 		completion_reward = {
-			add_ideas = ACW_economic_integration
-		}
-		ai_will_do = {
-			factor = 100
+			LAT = {
+				every_owned_state = {
+					add_claim_by = ACW
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = LAT
+			}
 		}
 	}
 	focus = {
-		id = ACW_rom_to_pupppet
-		icon = GFX_focus_invite_romania
+		id = ACW_est_atack
+		icon = GFX_goal_generic_major_war
 		cost = 5
-		prerequisite = {
-			focus = ACW_focus_economic_integration
+		available = {
+			has_war = no
 		}
-		relative_position_id = ACW_focus_economic_integration
+		prerequisite = {
+			focus = ACW_lat_atack
+		}
+		relative_position_id = ACW_lat_atack
 		x = 0
 		y = 1
-		continue_if_invalid = yes
-		available = {
-			has_war = no
-			ic_ratio = {
-				tag = ROM
-				ratio > 1.5
-			}
-			strength_ratio = {
-				tag = ROM
-				ratio > 1.5
-			}
-			ROM = {
-				has_war = no
-				#democratic > 0.3
-				has_opinion = {
-					target = ROOT
-					value > 49
+		completion_reward = {
+			EST = {
+				every_owned_state = {
+					add_claim_by = ACW
 				}
 			}
-		}
-		completion_reward = {
-			puppet = ROM
-			ROM = {
-				add_ideas = ACW_economic_assistance
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		bypass = {
-			NOT = {
-				country_exists = ROM
+			create_wargoal = {
+				type = annex_everything
+				target = EST
 			}
 		}
 	}
-	focus = {
-		id = ACW_bul_to_pupppet
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
-		prerequisite = {
-			focus = ACW_rom_to_pupppet
-		}
-		relative_position_id = ACW_rom_to_pupppet
-		x = 1
-		y = 1
-		continue_if_invalid = yes
-		available = {
-			has_war = no
-			ic_ratio = {
-				tag = BUL
-				ratio > 1.5
-			}
-			strength_ratio = {
-				tag = BUL
-				ratio > 1.5
-			}
-			BUL = {
-				has_war = no
-				#democratic > 0.3
-				has_opinion = {
-					target = ROOT
-					value > 49
-				}
-			}
-		}
-		completion_reward = {
-			puppet = BUL
-			BUL = {
-				add_ideas = ACW_economic_assistance
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		bypass = {
-			NOT = {
-				country_exists = BUL
-			}
-		}
-	}
-	focus = {
-		id = ACW_gre_to_pupppet
-		icon = GFX_focus_generic_befriend_greece
-		cost = 10
-		prerequisite = {
-			focus = ACW_bul_to_pupppet
-		}
-		relative_position_id = ACW_bul_to_pupppet
-		x = 0
-		y = 1
-		continue_if_invalid = yes
-		available = {
-			has_war = no
-			ic_ratio = {
-				tag = GRE
-				ratio > 1.5
-			}
-			strength_ratio = {
-				tag = GRE
-				ratio > 1.5
-			}
-			GRE = {
-				has_war = no
-				#democratic > 0.3
-				has_opinion = {
-					target = ROOT
-					value > 49
-				}
-			}
-		}
-		completion_reward = {
-			puppet = GRE
-			GRE = {
-				add_ideas = ACW_economic_assistance
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		bypass = {
-			NOT = {
-				country_exists = GRE
-			}
-		}
-	}
-	focus = {
-		id = ACW_hun_to_pupppet
-		icon = GFX_goal_generic_major_alliance
-		cost = 10
-		prerequisite = {
-			focus = ACW_rom_to_pupppet
-		}
-		relative_position_id = ACW_rom_to_pupppet
-		x = -1
-		y = 1
-		continue_if_invalid = yes
-		available = {
-			has_war = no
-			ic_ratio = {
-				tag = HUN
-				ratio > 1.5
-			}
-			strength_ratio = {
-				tag = HUN
-				ratio > 1.5
-			}
-			HUN = {
-				has_war = no
-				#democratic > 0.3
-				has_opinion = {
-					target = ROOT
-					value > 49
-				}
-			}
-		}
-		completion_reward = {
-			puppet = HUN
-			HUN = {
-				add_ideas = ACW_economic_assistance
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		bypass = {
-			NOT = {
-				country_exists = HUN
-			}
-		}
-	}
-	focus = {
-		id = ACW_yug_to_pupppet
-		icon = GFX_focus_invite_yugoslavia
-		cost = 10
-		prerequisite = {
-			focus = ACW_hun_to_pupppet
-		}
-		relative_position_id = ACW_hun_to_pupppet
-		x = 0
-		y = 1
-		continue_if_invalid = yes
-		available = {
-			has_war = no
-			ic_ratio = {
-				tag = YUG
-				ratio > 1.5
-			}
-			strength_ratio = {
-				tag = YUG
-				ratio > 1.5
-			}
-			YUG = {
-				has_war = no
-				#democratic > 0.3
-				has_opinion = {
-					target = ROOT
-					value > 49
-				}
-			}
-		}
-		completion_reward = {
-			puppet = YUG
-			YUG = {
-				add_ideas = ACW_economic_assistance
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		bypass = {
-			NOT = {
-				country_exists = YUG
-			}
-		}
-	}
-	focus = {
-		id = ACW_alb_to_pupppet
-		icon = GFX_goal_generic_major_alliance
-		cost = 2
-		prerequisite = {
-			focus = ACW_yug_to_pupppet
-			focus = ACW_gre_to_pupppet
-		}
-		relative_position_id = ACW_yug_to_pupppet
-		x = 1
-		y = 1
-		continue_if_invalid = yes
-		available = {
-			has_war = no
-			ic_ratio = {
-				tag = ALB
-				ratio > 1.5
-			}
-			strength_ratio = {
-				tag = ALB
-				ratio > 1.5
-			}
-			ALB = {
-				has_war = no
-				#democratic > 0.3
-				has_opinion = {
-					target = ROOT
-					value > 49
-				}
-			}
-		}
-		completion_reward = {
-			puppet = ALB
-			ALB = {
-				add_ideas = ACW_economic_assistance
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		bypass = {
-			NOT = {
-				country_exists = ALB
-			}
-		}
-	}
-	focus = {
-		id = ACW_pol_to_pupppet
-		icon = GFX_focus_generic_polish_deal
-		cost = 10
-		prerequisite = {
-			focus = ACW_alb_to_pupppet
-		}
-		relative_position_id = ACW_alb_to_pupppet
-		x = 0
-		y = 1
-		continue_if_invalid = yes
-		available = {
-			has_war = no
-			ic_ratio = {
-				tag = POL
-				ratio > 1.5
-			}
-			strength_ratio = {
-				tag = POL
-				ratio > 1.5
-			}
-			POL = {
-				has_war = no
-				#democratic > 0.3
-				has_opinion = {
-					target = ROOT
-					value > 49
-				}
-			}
-		}
-		completion_reward = {
-			puppet = POL
-			POL = {
-				add_ideas = ACW_economic_assistance
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		bypass = {
-			NOT = {
-				country_exists = POL
-			}
-		}
-	}
+
 	focus = {
 		id = acw_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 17
+		x = 9
 		y = 0
 		cost = 10
 		search_filters = {
@@ -900,7 +552,7 @@ focus_tree = {
 	focus = {
 		id = acw_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		x = 21
+		x = 13
 		y = 0
 		cost = 10
 		search_filters = {
@@ -1234,7 +886,7 @@ focus_tree = {
 	focus = {
 		id = acw_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 25
+		x = 17
 		y = 0
 		cost = 10
 		search_filters = {
@@ -1593,7 +1245,7 @@ focus_tree = {
 	focus = {
 		id = acw_industrial_effort
 		icon = GFX_goal_generic_production
-		x = 29
+		x = 21
 		y = 0
 		cost = 10
 		search_filters = {
@@ -2343,7 +1995,7 @@ focus_tree = {
 	focus = {
 		id = acw_political_effort
 		icon = GFX_goal_generic_demand_territory
-		x = 11
+		x = 3
 		y = 0
 		cost = 10
 		search_filters = {
