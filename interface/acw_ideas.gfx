@@ -183,4 +183,8 @@ spriteTypes = {
                 name = "GFX_idea_acw_ryouko_asakura"
                 texturefile = "gfx/interface/ideas/idea_acw_ryouko_asakura.dds"
         }
+        spriteType = {
+                name = "GFX_idea_acw_asuka_tanaka"
+                texturefile = "gfx/interface/ideas/idea_acw_asuka_tanaka.dds"
+        }
 }

@@ -428,7 +428,7 @@ ideas = {
 				factor = -1
 			}
 		}
-		acw_captain_of_industry = {
+		acw_asuka_tanaka = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -439,7 +439,7 @@ ideas = {
 				wfc_captain_of_industry
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 2
 			}
 		}
 		acw_lucy_yamagami = {
@@ -499,7 +499,7 @@ ideas = {
 				blitzkrieg_theorist
 			}
 		}
-		acw_acw_lisa_eostre = {
+		acw_lisa_eostre = {
 			ledger = army
 			allowed = {
 				original_tag = ACW
@@ -512,7 +512,7 @@ ideas = {
 				blitzkrieg_theorist
 			}
 		}
-		acw_acw_ryouko_asakura = {
+		acw_ryouko_asakura = {
 			ledger = army
 			allowed = {
 				original_tag = ACW
