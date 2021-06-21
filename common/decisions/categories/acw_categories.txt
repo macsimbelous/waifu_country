@@ -12,7 +12,7 @@ acw_government_category = {
 }
 
 acw_concert_decisions = {
-	priority = 6
+	priority = 7
 	icon = decision_category_generic_propaganda
 	picture = GFX_decision_cat_concert_decisions
 	allowed = {
@@ -24,7 +24,7 @@ acw_concert_decisions = {
 }
 
 acw_economy_category = {
-	priority = 7
+	priority = 10
 	icon = generic_economy
 	picture = GFX_wfl_economy_category
 	allowed = {
@@ -32,5 +32,35 @@ acw_economy_category = {
 	}
 	visible = {
 		has_country_flag = acw_minprom_flag
+	}
+}
+
+acw_puppets_category = {
+	icon = generic_independence
+	picture = GFX_decision_cat_picture_chi_political_support
+	priority = 9
+	allowed = {
+		original_tag = ACW
+	}
+	visible = {
+		OR = {
+			has_government = democratic
+			has_government = neutrality
+		}
+	}
+}
+
+acw_overseas_puppets_category = {
+	icon = generic_independence
+	picture = GFX_decision_cat_picture_chi_political_support
+	priority = 8
+	allowed = {
+		original_tag = ACW
+	}
+	visible = {
+		OR = {
+			has_government = democratic
+			has_government = neutrality
+		}
 	}
 }

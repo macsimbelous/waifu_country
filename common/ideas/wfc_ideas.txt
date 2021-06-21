@@ -82,7 +82,7 @@ ideas = {
 			}
 		}
 
-		waifuland_assistance = {
+		wfc_acw_assistance = {
 			removal_cost = -1
 			allowed_civil_war = {
 				always = yes
@@ -96,7 +96,7 @@ ideas = {
 				opinion_gain_monthly_same_ideology_factor = 0.2
 			}
 		}
-		wfc_waifuland_puppet = {
+		wfc_acw_puppet = {
 			available = {
 				is_puppet = yes
 			}

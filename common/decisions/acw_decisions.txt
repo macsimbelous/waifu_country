@@ -2,24 +2,28 @@ acw_government_category = {
 	acw_create_minprom_decision = {
 		name = acw_create_minprom_decision.t
 		ai_will_do = {
-			base = 200
-			modifier = {
-				has_country_leader = {
-					name = "Erza"
-				}
-				add = 100
-			}
+			base = 5
 		}
 		fire_only_once = yes
 		cost = 100
 		#days_re_enable = 30
 		days_remove = 30
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_create_ministerstvo_run_tt
+				NOT = {
+					has_country_flag = acw_create_ministerstvo_run
+				}
+			}
+		}
 		modifier = {
-			#stability_factor = -0.025
+			political_power_gain = -1
 		}
 		complete_effect = {
+			set_country_flag = acw_create_ministerstvo_run
 		}
 		remove_effect = {
+			clr_country_flag = acw_create_ministerstvo_run
 			add_ideas = acw_minprom_idea
 			set_country_flag = acw_minprom_flag
 		}
@@ -27,28 +31,37 @@ acw_government_category = {
 	acw_create_minoboron_decision = {
 		name = acw_create_minoboron_decision.t
 		ai_will_do = {
-			factor = 300
+			factor = 5
 		}
 		fire_only_once = yes
 		cost = 100
 		days_remove = 30
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_create_ministerstvo_run_tt
+				NOT = {
+					has_country_flag = acw_create_ministerstvo_run
+				}
+			}
+		}
 		modifier = {
-			#stability_factor = -0.025
+			political_power_gain = -1
 		}
 		complete_effect = {
+			set_country_flag = acw_create_ministerstvo_run
 		}
 		remove_effect = {
+			clr_country_flag = acw_create_ministerstvo_run
 			add_ideas = acw_minoboron_idea
 		}
 	}
 	acw_create_stavka_decision = {
 		name = acw_create_stavka_decision.t
 		ai_will_do = {
-			factor = 300
+			factor = 100
 		}
 		fire_only_once = yes
 		cost = 100
-		#days_re_enable = 30
 		visible = {
 			has_idea = acw_minoboron_idea
 		}
@@ -65,13 +78,7 @@ acw_government_category = {
 				size > 999
 			}
 		}
-		days_remove = 30
-		modifier = {
-			#stability_factor = -0.025
-		}
 		complete_effect = {
-		}
-		remove_effect = {
 			army_experience = 25
 			navy_experience = 25
 			air_experience = 25
@@ -81,23 +88,27 @@ acw_government_category = {
 	acw_create_minscience_decision = {
 		name = acw_create_minscience_decision.t
 		ai_will_do = {
-			base = 200
-			modifier = {
-				has_country_leader = {
-					name = "KOS-MOS"
-				}
-				add = 100
-			}
+			base = 5
 		}
 		fire_only_once = yes
 		cost = 100
 		days_remove = 30
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_create_ministerstvo_run_tt
+				NOT = {
+					has_country_flag = acw_create_ministerstvo_run
+				}
+			}
+		}
 		modifier = {
-			#stability_factor = -0.025
+			political_power_gain = -1
 		}
 		complete_effect = {
+			set_country_flag = acw_create_ministerstvo_run
 		}
 		remove_effect = {
+			clr_country_flag = acw_create_ministerstvo_run
 			add_ideas = acw_minscience_idea
 			add_research_slot = 1
 		}
@@ -105,105 +116,115 @@ acw_government_category = {
 	acw_create_KGB_decision = {
 		name = acw_create_KGB_decision.t
 		ai_will_do = {
-			base = 200
-			modifier = {
-				OR = {
-					has_country_leader = {
-						name = "Anastasia"
-					}
-					has_country_leader = {
-						name = "Anastasia I"
-					}
-				}
-				add = 100
-			}
+			base = 5
 		}
 		fire_only_once = yes
 		cost = 100
 		days_remove = 30
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_create_ministerstvo_run_tt
+				NOT = {
+					has_country_flag = acw_create_ministerstvo_run
+				}
+			}
+		}
 		modifier = {
-			#stability_factor = -0.025
+			political_power_gain = -1
 		}
 		complete_effect = {
+			set_country_flag = acw_create_ministerstvo_run
 		}
 		remove_effect = {
+			clr_country_flag = acw_create_ministerstvo_run
 			#create_intelligence_agency = yes
 			set_country_flag = acw_KGB_flag
 			add_ideas = acw_KGB_idea
 			create_intelligence_agency = {
 				icon = GFX_intelligence_agency_logo_generic_8
-				name = "KGB"
+				name = "FSB"
 			}
 		}
 	}
 	acw_create_mintrans_decision = {
 		name = acw_create_mintrans_decision.t
 		ai_will_do = {
-			base = 200
-			modifier = {
-				has_country_leader = {
-					name = "Asuka"
-				}
-				add = 100
-			}
+			base = 5
 		}
 		fire_only_once = yes
 		cost = 100
 		days_remove = 30
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_create_ministerstvo_run_tt
+				NOT = {
+					has_country_flag = acw_create_ministerstvo_run
+				}
+			}
+		}
 		modifier = {
-			#stability_factor = -0.025
+			political_power_gain = -1
 		}
 		complete_effect = {
+			set_country_flag = acw_create_ministerstvo_run
 		}
 		remove_effect = {
+			clr_country_flag = acw_create_ministerstvo_run
 			add_ideas = acw_mintrans_idea
 		}
 	}
 	acw_create_minpropagand_decision = {
 		name = acw_create_minpropagand_decision.t
 		ai_will_do = {
-			base = 200
-			modifier = {
-				OR = {
-					has_country_leader = {
-						name = "Anastasia"
-					}
-					has_country_leader = {
-						name = "Anastasia I"
-					}
-				}
-				add = 100
-			}
+			base = 5
 		}
 		fire_only_once = yes
 		cost = 100
 		days_remove = 30
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_create_ministerstvo_run_tt
+				NOT = {
+					has_country_flag = acw_create_ministerstvo_run
+				}
+			}
+		}
 		modifier = {
-			#stability_factor = -0.025
+			political_power_gain = -1
 		}
 		complete_effect = {
+			set_country_flag = acw_create_ministerstvo_run
 		}
 		remove_effect = {
+			clr_country_flag = acw_create_ministerstvo_run
 			add_ideas = acw_minpropagand_idea
 		}
 	}
 	acw_create_colonial_office_decision = {
 		name = acw_create_colonial_office_decision.t
 		ai_will_do = {
-			factor = 100
+			factor = 5
 		}
 		fire_only_once = yes
 		cost = 100
 		available = {
 			num_subjects > 3
+			custom_trigger_tooltip = {
+				tooltip = acw_create_ministerstvo_run_tt
+				NOT = {
+					has_country_flag = acw_create_ministerstvo_run
+				}
+			}
 		}
 		days_remove = 30
 		modifier = {
-			#stability_factor = -0.025
+			political_power_gain = -1
 		}
 		complete_effect = {
+			set_country_flag = acw_create_ministerstvo_run
 		}
 		remove_effect = {
+			clr_country_flag = acw_create_ministerstvo_run
 			add_ideas = acw_colonial_office
 		}
 	}
@@ -221,7 +242,7 @@ acw_government_category = {
 			#has_stability > 0.9
 		}
 		ai_will_do = {
-			factor = 2000
+			factor = 100
 		}
 		fire_only_once = yes
 		cost = 100
@@ -232,6 +253,7 @@ acw_government_category = {
 		}
 	}
 }
+
 acw_concert_decisions = {
 	acw_concert_love_laika_decision = {
 		name = acw_concert_love_laika_decision.t
@@ -830,6 +852,7 @@ acw_concert_decisions = {
 		}
 	}
 }
+
 acw_economy_category = {
 	acw_economy_infrastructure_decision = {
 		name = acw_economy_infrastructure_decision.t
@@ -843,12 +866,26 @@ acw_economy_category = {
 			production_speed_naval_base_factor = 0.3
 			production_speed_air_base_factor = 0.3
 		}
-		remove_trigger = {
-			#has_war = yes
-			surrender_progress > 0
-		}
 		ai_will_do = {
-			factor = 0.5
+			base = 0
+			modifier = {
+				has_political_power > 1000
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_invest_run_tt
+				NOT = {
+					has_country_flag = acw_invest_run
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = acw_invest_run
+		}
+		remove_effect = {
+			clr_country_flag = acw_invest_run
 		}
 	}
 	acw_economy_industrial_complex_decision = {
@@ -861,12 +898,26 @@ acw_economy_category = {
 		modifier = {
 			production_speed_industrial_complex_factor = 0.3
 		}
-		remove_trigger = {
-			#has_war = yes
-			surrender_progress > 0
-		}
 		ai_will_do = {
-			factor = 0.5
+			base = 0
+			modifier = {
+				has_political_power > 1000
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_invest_run_tt
+				NOT = {
+					has_country_flag = acw_invest_run
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = acw_invest_run
+		}
+		remove_effect = {
+			clr_country_flag = acw_invest_run
 		}
 	}
 	acw_economy_synthetic_refinery_decision = {
@@ -879,12 +930,26 @@ acw_economy_category = {
 		modifier = {
 			production_speed_synthetic_refinery_factor = 0.3
 		}
-		remove_trigger = {
-			#has_war = yes
-			surrender_progress > 0
-		}
 		ai_will_do = {
-			factor = 0.5
+			base = 0
+			modifier = {
+				has_political_power > 1000
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_invest_run_tt
+				NOT = {
+					has_country_flag = acw_invest_run
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = acw_invest_run
+		}
+		remove_effect = {
+			clr_country_flag = acw_invest_run
 		}
 	}
 	acw_economy_arms_factory_decision = {
@@ -897,12 +962,26 @@ acw_economy_category = {
 		modifier = {
 			production_speed_arms_factory_factor = 0.3
 		}
-		remove_trigger = {
-			#has_war = yes
-			surrender_progress > 0
-		}
 		ai_will_do = {
-			factor = 0.5
+			base = 0
+			modifier = {
+				has_political_power > 1000
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_invest_run_tt
+				NOT = {
+					has_country_flag = acw_invest_run
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = acw_invest_run
+		}
+		remove_effect = {
+			clr_country_flag = acw_invest_run
 		}
 	}
 	acw_economy_dockyard_decision = {
@@ -915,12 +994,26 @@ acw_economy_category = {
 		modifier = {
 			production_speed_dockyard_factor = 0.3
 		}
-		remove_trigger = {
-			#has_war = yes
-			surrender_progress > 0
-		}
 		ai_will_do = {
-			factor = 0.5
+			base = 0
+			modifier = {
+				has_political_power > 1000
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_invest_run_tt
+				NOT = {
+					has_country_flag = acw_invest_run
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = acw_invest_run
+		}
+		remove_effect = {
+			clr_country_flag = acw_invest_run
 		}
 	}
 	acw_economy_nuclear_reactor_decision = {
@@ -941,8 +1034,315 @@ acw_economy_category = {
 			surrender_progress > 0
 		}
 		ai_will_do = {
-			factor = 0.5
+			base = 0
+			modifier = {
+				has_political_power > 1000
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_invest_run_tt
+				NOT = {
+					has_country_flag = acw_invest_run
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = acw_invest_run
+		}
+		remove_effect = {
+			clr_country_flag = acw_invest_run
 		}
 	}
 }
 
+acw_puppets_category = {
+	acw_create_puppet_decision = {
+		name = acw_create_puppet_decision.t
+		available = {
+			has_war = no
+			ic_ratio = {
+				tag = FROM
+				ratio > 1.5
+			}
+			strength_ratio = {
+				tag = FROM
+				ratio > 1.5
+			}
+			FROM = {
+				has_war = no
+				has_opinion = {
+					target = ROOT
+					value > 49
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						is_major = yes
+					}
+				}
+			}
+		}
+		#target_array = neighbors
+		target_trigger = {
+			FROM = {
+				exists = yes
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						is_major = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		fire_only_once = no
+		cost = 300
+		#days_re_enable = 180
+		days_remove = 180
+		modifier = {
+			political_power_gain = -1
+		}
+		remove_effect = {
+			puppet = FROM
+			FROM = {
+				add_ideas = {
+					wfc_acw_assistance
+					wfc_acw_puppet
+				}
+				hidden_effect = {
+					if = {
+						limit = {
+							has_idea = ENG_guided_by_britain_raj_2
+						}
+						remove_ideas = ENG_guided_by_britain_raj_2
+					}
+					if = {
+						limit = {
+							has_idea = ENG_guided_by_britain_raj_1
+						}
+						remove_ideas = ENG_guided_by_britain_raj_1
+					}
+					if = {
+						limit = {
+							has_idea = ENG_guided_by_britain_2
+						}
+						remove_ideas = ENG_guided_by_britain_2
+					}
+					if = {
+						limit = {
+							has_idea = ENG_guided_by_britain_1
+						}
+						remove_ideas = ENG_guided_by_britain_1
+					}
+				}
+			}
+			add_named_threat = {
+				threat = 5
+				name = acw_create_puppet_threat
+			}
+		}
+	}
+}
+
+acw_overseas_puppets_category = {
+	acw_create_overseas_puppets_decision = {
+		name = acw_create_overseas_puppets_decision.t
+		available = {
+			has_war = no
+			custom_trigger_tooltip = {
+				tooltip = acw_battle_trigger_tt
+				if = {
+					limit = {
+						check_variable = {
+							num_ships > 0
+						}
+					}
+					if = {
+						limit = {
+							FROM = {
+								check_variable = {
+									num_ships > 0
+								}
+							}
+						}
+						set_temp_variable = {
+							temp_fleet_strength = num_ships_with_type@submarine
+						}
+						add_to_temp_variable = {
+							temp_fleet_strength = num_ships_with_type@destroyer
+						}
+						add_to_temp_variable = {
+							temp_fleet_strength = num_ships_with_type@light_cruiser
+						}
+						#heavy
+						set_temp_variable = {
+							temp_var = num_ships_with_type@heavy_cruiser
+						}
+						add_to_temp_variable = {
+							temp_var = num_ships_with_type@battle_cruiser
+						}
+						multiply_temp_variable = {
+							temp_var = 4
+						}
+						add_to_temp_variable = {
+							temp_fleet_strength = temp_var
+						}
+						#super heavy
+						set_temp_variable = {
+							temp_var = num_ships_with_type@battleship
+						}
+						add_to_temp_variable = {
+							temp_var = num_ships_with_type@carrier
+						}
+						multiply_temp_variable = {
+							temp_var = 8
+						}
+						add_to_temp_variable = {
+							temp_fleet_strength = temp_var
+						}
+						#target fleet
+						set_temp_variable = {
+							temp_fleet_strength_terget = FROM.num_ships_with_type@submarine
+						}
+						add_to_temp_variable = {
+							temp_fleet_strength_terget = FROM.num_ships_with_type@destroyer
+						}
+						add_to_temp_variable = {
+							temp_fleet_strength_terget = FROM.num_ships_with_type@light_cruiser
+						}
+						#heavy
+						set_temp_variable = {
+							temp_var = FROM.num_ships_with_type@heavy_cruiser
+						}
+						add_to_temp_variable = {
+							temp_var = FROM.num_ships_with_type@battle_cruiser
+						}
+						multiply_temp_variable = {
+							temp_var = 4
+						}
+						add_to_temp_variable = {
+							temp_fleet_strength_terget = temp_var
+						}
+						#super heavy
+						set_temp_variable = {
+							temp_var = FROM.num_ships_with_type@battleship
+						}
+						add_to_temp_variable = {
+							temp_var = FROM.num_ships_with_type@carrier
+						}
+						multiply_temp_variable = {
+							temp_var = 8
+						}
+						add_to_temp_variable = {
+							temp_fleet_strength_terget = temp_var
+						}
+						divide_temp_variable = {
+							temp_fleet_strength = temp_fleet_strength_terget
+						}
+						check_variable = {
+							var = temp_fleet_strength
+							value = 2
+							compare = greater_than_or_equals
+						}
+					}
+					else = {
+						always = yes
+					}
+				}
+				else = {
+					always = no
+				}
+			}
+			ic_ratio = {
+				tag = FROM
+				ratio > 2.25
+			}
+			strength_ratio = {
+				tag = FROM
+				ratio > 2.25
+			}
+			FROM = {
+				has_war = no
+				has_opinion = {
+					target = ROOT
+					value > 74
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				exists = yes
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						is_major = yes
+					}
+				}
+			}
+		}
+		target_trigger = {
+			FROM = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+				var:capital = {
+					NOT = {
+						OR = {
+							is_on_continent = europe
+							is_on_continent = asia
+							is_on_continent = middle_east
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		fire_only_once = no
+		cost = 300
+		#days_re_enable = 180
+		days_remove = 180
+		modifier = {
+			political_power_gain = -1
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			puppet = FROM
+			FROM = {
+				add_ideas = {
+					wfc_acw_assistance
+					wfc_acw_puppet
+				}
+			}
+			add_named_threat = {
+				threat = 5
+				name = acw_create_puppet_threat
+			}
+		}
+	}
+}

@@ -26,47 +26,47 @@ on_actions = {
 			}
 		}
 	}
-	on_startup = {
-		effect = {
-			ACW = {
-				set_variable = {
-					acw_core_bonus_to_pp = 0.05
-				}
-				add_dynamic_modifier = {
-					modifier = acw_core_states_to_pp
-				}
-			}
-		}
-	}
-	on_weekly_ACW = {
-		effect = {
-			#every_owned_state = {
-			#	limit = {
-			#		is_fully_controlled_by = WFL
-			#		compliance > 0.9
-			#		resistance < 0.05
-			#		NOT = {
-			#			is_core_of = WFL
-			#		}
-			#	}
-			#	for_each_loop = {
-			#		array = core_countries
-			#		value = temp_tag
-			#		remove_core_of = temp_var:temp_tag
-			#	}
-			#	add_core_of = WFL
-			#}
-			set_temp_variable = {
-				temp = core_states
-			}
-			multiply_temp_variable = {
-				temp = 0.01
-			}
-			set_variable = {
-				acw_core_bonus_to_pp = temp
-			}
-		}
-	}
+	# on_startup = {
+	# 	effect = {
+	# 		ACW = {
+	# 			set_variable = {
+	# 				acw_core_bonus_to_pp = 0.05
+	# 			}
+	# 			add_dynamic_modifier = {
+	# 				modifier = acw_core_states_to_pp
+	# 			}
+	# 		}
+	# 	}
+	# }
+	# on_weekly_ACW = {
+	# 	effect = {
+	# 		#every_owned_state = {
+	# 		#	limit = {
+	# 		#		is_fully_controlled_by = WFL
+	# 		#		compliance > 0.9
+	# 		#		resistance < 0.05
+	# 		#		NOT = {
+	# 		#			is_core_of = WFL
+	# 		#		}
+	# 		#	}
+	# 		#	for_each_loop = {
+	# 		#		array = core_countries
+	# 		#		value = temp_tag
+	# 		#		remove_core_of = temp_var:temp_tag
+	# 		#	}
+	# 		#	add_core_of = WFL
+	# 		#}
+	# 		set_temp_variable = {
+	# 			temp = core_states
+	# 		}
+	# 		multiply_temp_variable = {
+	# 			temp = 0.01
+	# 		}
+	# 		set_variable = {
+	# 			acw_core_bonus_to_pp = temp
+	# 		}
+	# 	}
+	# }
 	#ROOT is subject FROM is overlord
 	on_subject_annexed = {
 		effect = {
@@ -97,10 +97,10 @@ on_actions = {
 						original_tag = ACW
 					}
 					NOT = {
-						has_idea = wfc_waifuland_puppet
+						has_idea = wfc_acw_puppet
 					}
 				}
-				add_ideas = wfc_waifuland_puppet
+				add_ideas = wfc_acw_puppet
 				#Лидеры марионеток
 				if = {
 					limit = {

@@ -1,46 +1,5 @@
 
-wfl_puppets_category = {
-	icon = generic_independence
-    picture = GFX_decision_cat_picture_chi_political_support
-    priority = 10
-	allowed = {
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		OR = {
-			has_government = democratic
-			has_government = neutrality
-		}
-	}
-}
-wfl_overseas_puppets_category = {
-	icon = generic_independence
-    picture = GFX_decision_cat_picture_chi_political_support
-    priority = 10
-	allowed = {
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		OR = {
-			has_government = democratic
-			has_government = neutrality
-		}
-	}
-}
+
 wfl_cultural_assimilation_category = {
 	priority = 9
 	icon = decision_category_generic_propaganda
