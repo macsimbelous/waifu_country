@@ -410,8 +410,8 @@ wfl_test_category = {
 			puppet = FROM
 			FROM = {
 				add_ideas = {
-					wfl_waifuland_puppet
-					waifuland_assistance
+					wfc_acw_assistance
+					wfc_acw_puppet
 				}
 				hidden_effect = {
 					if = {
@@ -762,7 +762,7 @@ wfl_coring_category = {
 		remove_effect = {
 			FROM = {
 				#add_core_of = ROOT
-				wfl_coring_state = yes
+				wfc_coring_state = yes
 			}
 			#add_manpower = -100000
 		}

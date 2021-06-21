@@ -1,4 +1,4 @@
-wfl_coring_state = {
+wfc_coring_state = {
 	for_each_loop = {
 		array = core_countries
 		value = temp_tag
@@ -87,8 +87,6 @@ wfl_up_resources_state = {
 		}
 	}
 }
-
-
 wfl_up_resources_state3 = {
 	if = {
 		limit = {

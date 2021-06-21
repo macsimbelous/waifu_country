@@ -47,7 +47,7 @@ wfc_integration_category = {
 		remove_effect = {
 			FROM = {
 				#add_core_of = ROOT
-				wfl_coring_state = yes
+				wfc_coring_state = yes
 			}
 		}
 		cancel_effect = {
