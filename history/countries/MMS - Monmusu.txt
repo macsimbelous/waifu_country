@@ -115,6 +115,25 @@ create_country_leader = {
 
 #generals
 create_corps_commander = {
+	name = "Ishtar"
+	picture = "ROA_Ishtar_general.dds"
+	traits = {
+		trickster
+		expert_delegator
+		commando
+		offensive_doctrine
+		organisational_leader
+		inspirational_leader
+		aggressive_assaulter
+	}
+	skill = 7
+	attack_skill = 8
+	defense_skill = 7
+	planning_skill = 7
+	logistics_skill = 7
+	#id = 7011
+}
+create_corps_commander = {
 	name = "Astaroth"
 	picture = "ROA_Astaroth_general.tga"
 	traits = {

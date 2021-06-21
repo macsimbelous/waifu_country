@@ -3,8 +3,11 @@ state={
 	name="STATE_80"
 	manpower = 874600
 	
-	state_category = rural
-	
+	state_category = town
+	resources = 
+	{
+		steel = 12
+	}
 	history=
 	{
 		victory_points = {
@@ -14,9 +17,10 @@ state={
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 2
 		}
 		add_core_of = ACW
+		add_claim_by = ROM
 	}
 	provinces={
 		577 9548

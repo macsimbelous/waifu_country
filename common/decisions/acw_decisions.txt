@@ -1120,7 +1120,7 @@ acw_puppets_category = {
 		fire_only_once = no
 		cost = 300
 		#days_re_enable = 180
-		days_remove = 180
+		days_remove = 90
 		modifier = {
 			political_power_gain = -1
 		}
@@ -1325,7 +1325,7 @@ acw_overseas_puppets_category = {
 		fire_only_once = no
 		cost = 300
 		#days_re_enable = 180
-		days_remove = 180
+		days_remove = 120
 		modifier = {
 			political_power_gain = -1
 		}

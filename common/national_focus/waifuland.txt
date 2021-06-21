@@ -1267,7 +1267,7 @@ focus_tree = {
 				modifier = medium_increase
 			}
 			GER = {
-				add_ideas = waifuland_assistance
+				add_ideas = wfc_acw_assistance
 				add_opinion_modifier = {
 					target = ACW
 					modifier = medium_increase
@@ -1590,7 +1590,7 @@ focus_tree = {
 				modifier = medium_increase
 			}
 			ENG = {
-				add_ideas = waifuland_assistance
+				add_ideas = wfc_acw_assistance
 				add_opinion_modifier = {
 					target = ACW
 					modifier = medium_increase
@@ -1628,7 +1628,7 @@ focus_tree = {
 				modifier = wfl_usa_frend_opinion
 			}
 			USA = {
-				add_ideas = waifuland_assistance
+				add_ideas = wfc_acw_assistance
 				add_opinion_modifier = {
 					target = ACW
 					modifier = wfl_usa_frend_opinion
@@ -1801,15 +1801,15 @@ focus_tree = {
 		}
 		available = {
 			has_war = no
-			has_idea = wfl_minpropagand_idea
+			has_idea = acw_minpropagand_idea
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 2
 		}
 		completion_reward = {
-			country_event = wfl_event.10
-			add_ideas = wfl_idols_agency_idea
+			country_event = wfc_event.10
+			add_ideas = acw_idols_agency_idea
 			custom_effect_tooltip = wfl_idols_agency_tt
 		}
 	}
@@ -1973,7 +1973,7 @@ focus_tree = {
 				modifier = wfl_sov_frend_opinion
 			}
 			SOV = {
-				add_ideas = waifuland_assistance
+				add_ideas = wfc_acw_assistance
 				add_opinion_modifier = {
 					target = ACW
 					modifier = wfl_sov_frend_opinion
@@ -2490,7 +2490,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_research_slot = 1
-			add_ideas = wfl_nii_idea
+			add_ideas = acw_nii_idea
 		}
 	}
 	focus = {
@@ -2541,7 +2541,7 @@ focus_tree = {
 			has_completed_focus = wfl_nii
 		}
 		completion_reward = {
-			add_ideas = wfl_super_factory
+			add_ideas = meh_super_factory
 		}
 	}
 	focus = {
@@ -2594,7 +2594,7 @@ focus_tree = {
 				id = wfl_news.4
 				hours = 5
 			}
-			country_event = wfl_event.9
+			country_event = wfc_event.9
 		}
 	}
 	focus = {
@@ -2613,7 +2613,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 300
 			ACW = {
-				country_event = wfl_event.2
+				country_event = wfc_event.2
 			}
 			custom_effect_tooltip = wfl_tentakles_tt
 		}
@@ -2743,7 +2743,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			ACW = {
-				country_event = wfl_event.6
+				country_event = wfc_event.6
 			}
 			set_global_flag = wfl_perimetr_flag
 		}
@@ -2797,9 +2797,9 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = wfl_mecha_girl_influence
+			add_ideas = meh_mecha_girl_influence
 			ACW = {
-				country_event = wfl_event.5
+				country_event = wfc_event.5
 			}
 			add_equipment_to_stockpile = {
 				type = modern_tank_equipment

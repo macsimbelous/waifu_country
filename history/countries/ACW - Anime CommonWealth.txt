@@ -25,6 +25,7 @@ set_technology = {
 	gw_artillery = 1
 	gwtank = 1
 	early_fighter = 1
+	fighter1 = 1
 	early_bomber = 1
 	basic_torpedo = 1
 	early_ship_hull_light = 1
@@ -103,8 +104,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		wfc_idol
 		wfc_empress
+		wfc_idol
 		wfc_patron_of_intelligence
 	}
 }
@@ -152,21 +153,6 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "KOS-MOS"
-	picture = "ROA_KOS-MOS_general.tga"
-	traits = {
-		defensive_doctrine
-		bearer_of_artillery
-		unyielding_defender
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_field_marshal = {
 	name = "Lightning"
 	picture = "ROA_Lightning_general.tga"
 	traits = {
@@ -209,26 +195,6 @@ create_corps_commander = {
 	planning_skill = 6
 	logistics_skill = 6
 	#id = 7010
-}
-
-create_corps_commander = {
-	name = "Ishtar"
-	picture = "ROA_Ishtar_general.dds"
-	traits = {
-		trickster
-		expert_delegator
-		commando
-		offensive_doctrine
-		organisational_leader
-		inspirational_leader
-		aggressive_assaulter
-	}
-	skill = 7
-	attack_skill = 8
-	defense_skill = 7
-	planning_skill = 7
-	logistics_skill = 7
-	#id = 7011
 }
 
 create_corps_commander = {
@@ -352,35 +318,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Astaroth"
-	picture = "ROA_Astaroth_general.tga"
-	traits = {
-		infantry_leader
-	}
-	skill = 1
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 1
-	#id = 7020
-}
-
-create_corps_commander = {
-	name = "Laharl"
-	picture = "ROA_Laharl_girl_general.tga"
-	traits = {
-		infantry_leader
-		skilled_staffer
-	}
-	skill = 1
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-	#id = 7022
-}
-
-create_corps_commander = {
 	name = "Volemia"
 	picture = "ROA_Volemia_general.dds"
 	traits = {
@@ -408,19 +345,6 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 4
 	#id = 7024
-}
-
-create_corps_commander = {
-	name = "Shamiko"
-	picture = "ROA_Shamiko_general.dds"
-	traits = {
-	}
-	skill = 1
-	attack_skill = 6
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 4
-	#id = 7028
 }
 
 create_corps_commander = {
@@ -456,8 +380,6 @@ create_corps_commander = {
 	logistics_skill = 1
 	#id = 7034
 }
-
-
 
 create_corps_commander = {
 	name = "Yoshiko Tsushima"
@@ -709,49 +631,7 @@ create_corps_commander = {
 		commando
 	}
 }
-create_corps_commander = {
-	name = "Mother Weaboo"
-	picture = "ok.tga"
-	traits = { trickster winter_specialist }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 4
-}
 
-create_field_marshal = {
-	name = "Hisaichi Terauchi"
-	picture = "Portrait_Japan_Hisaichi_Terauchi.tga"
-	traits = { defensive_doctrine offensive_doctrine fast_planner trait_engineer }
-	skill = 5
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Oficer Miki"
-	picture = "Portrait_Germany_Generic_land_3.tga"
-	traits = { commando naval_invader }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 6
-}
-
-create_corps_commander = {
-	name = "Honoka"
-	picture = "Germany_Karabiner_Achtundneunzig_Kurz.tga"
-	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 1
-}
 #Admirals
 create_navy_leader = {
 	name = "Yamato"

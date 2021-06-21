@@ -26,6 +26,35 @@
 	}
 }
 division_template = {
+	name = "Anime Cavalry"
+	regiments = {
+		cavalry = {
+			x = 0
+			y = 0
+		}
+		cavalry = {
+			x = 1
+			y = 0
+		}
+		cavalry = {
+			x = 0
+			y = 1
+		}
+		cavalry = {
+			x = 1
+			y = 1
+		}
+		cavalry = {
+			x = 0
+			y = 2
+		}
+		cavalry = {
+			x = 1
+			y = 2
+		}
+	}
+}
+division_template = {
 	name = "Anime Infantry Division"
 	regiments = {
 		infantry = {
@@ -325,6 +354,92 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9716
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9716
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9716
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9716
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9716
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9716
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	#mountainers
+	division = {
+		location = 11689
+		division_template = "Anime Mountaineers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 11689
+		division_template = "Anime Mountaineers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	#cavalry
+	division = {
+		location = 577
+		division_template = "Anime Cavalry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 577
+		division_template = "Anime Cavalry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 577
+		division_template = "Anime Cavalry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 577
+		division_template = "Anime Cavalry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 577
+		division_template = "Anime Cavalry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
 }
 
 ###starting production###
@@ -334,7 +449,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "ACW"
 		}
-		requested_factories = 2
+		requested_factories = 3
 		progress = 0.67
 		efficiency = 80
 	}
@@ -344,12 +459,21 @@ instant_effect = {
 			creator = "ACW"
 		}
 		requested_factories = 1
-		progress = 0.19
+		progress = 0.4
 		efficiency = 80
 	}
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
+			creator = "ACW"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
 			creator = "ACW"
 		}
 		requested_factories = 1
