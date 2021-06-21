@@ -38,6 +38,17 @@ ideas = {
 				original_tag = MMS
 			}
 			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		mms_special_week = {
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
 				wfc_silent_workhorse
 			}
 			ai_will_do = {

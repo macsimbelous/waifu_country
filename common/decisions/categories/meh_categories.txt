@@ -29,6 +29,6 @@ meh_war_category = {
 		original_tag = MEH
 	}
 	visible = {
-		#has_country_flag = wfl_elections_flag
+		always = no
 	}
 }

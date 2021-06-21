@@ -163,4 +163,24 @@ spriteTypes = {
                 name = "GFX_idea_ACW_economic_assistance"
                 texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
         }
+        spriteType = {
+                name = "GFX_idea_acw_noelle"
+                texturefile = "gfx/interface/ideas/idea_acw_noelle.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_lina_inverse"
+                texturefile = "gfx/interface/ideas/idea_acw_lina_inverse.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_siluca_meletes"
+                texturefile = "gfx/interface/ideas/idea_acw_siluca_meletes.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_lisa_eostre"
+                texturefile = "gfx/interface/ideas/idea_acw_lisa_eostre.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_ryouko_asakura"
+                texturefile = "gfx/interface/ideas/idea_acw_ryouko_asakura.dds"
+        }
 }

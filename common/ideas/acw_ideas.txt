@@ -291,7 +291,7 @@ ideas = {
 				factor = 1
 			}
 		}
-		acw_silent_workhorse = {
+		acw_noelle = {
 			allowed = {
 				original_tag = ACW
 			}
@@ -473,6 +473,58 @@ ideas = {
 		}
 	}
 	theorist = {
+		acw_lina_inverse = {
+			ledger = army
+			allowed = {
+				original_tag = ACW
+			}
+			cost = 150
+			research_bonus = {
+				cat_superior_firepower = 0.2
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		acw_siluca_meletes = {
+			ledger = army
+			allowed = {
+				original_tag = ACW
+			}
+			cost = 150
+			research_bonus = {
+				cat_grand_battle_plan = 0.2
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		acw_acw_lisa_eostre = {
+			ledger = army
+			allowed = {
+				original_tag = ACW
+			}
+			cost = 150
+			research_bonus = {
+				cat_mobile_warfare = 0.2
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		acw_acw_ryouko_asakura = {
+			ledger = army
+			allowed = {
+				original_tag = ACW
+			}
+			cost = 150
+			research_bonus = {
+				cat_mass_assault = 0.2
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
 		acw_akeno_misaki = {
 			ledger = navy
 			allowed = {
@@ -483,7 +535,8 @@ ideas = {
 			}
 			cost = 150
 			research_bonus = {
-				naval_doctrine = 0.15
+				#naval_doctrine = 0.15
+				cat_trade_interdiction = 0.2
 			}
 			traits = {
 				naval_theorist
