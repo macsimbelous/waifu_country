@@ -1,15 +1,12 @@
-###########################
-# Republic of Anime Events
-###########################
-add_namespace = wfc_event
+add_namespace = acw_event
 country_event = {
-	id = wfc_event.1
-	title = wfc_event.1.t
-	desc = wfc_event.1.d
-	picture = GFX_wfc_event1
+	id = acw_event.1
+	title = acw_event.1.t
+	desc = acw_event.1.d
+	picture = GFX_acw_event1
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.1.a
+		name = acw_event.1.a
 		ai_chance = {
 			factor = 75
 		}
@@ -27,7 +24,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wfc_event.1.b
+		name = acw_event.1.b
 		ai_chance = {
 			factor = 75
 		}
@@ -44,7 +41,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wfc_event.1.c
+		name = acw_event.1.c
 		ai_chance = {
 			factor = 75
 		}
@@ -62,7 +59,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wfc_event.1.e
+		name = acw_event.1.e
 		ai_chance = {
 			factor = 75
 		}
@@ -83,13 +80,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.2
-	title = wfc_event.2.t
-	desc = wfc_event.2.d
-	picture = GFX_wfc_event2
+	id = acw_event.2
+	title = acw_event.2.t
+	desc = acw_event.2.d
+	picture = GFX_acw_event2
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.2.a
+		name = acw_event.2.a
 		ai_chance = {
 			factor = 75
 		}
@@ -97,13 +94,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.3
-	title = wfc_event.3.t
-	desc = wfc_event.3.d
-	picture = GFX_wfc_event3
+	id = acw_event.3
+	title = acw_event.3.t
+	desc = acw_event.3.d
+	picture = GFX_acw_event3
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.3.a
+		name = acw_event.3.a
 		ai_chance = {
 			factor = 75
 		}
@@ -111,13 +108,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.4
-	title = wfc_event.4.t
-	desc = wfc_event.4.d
-	picture = GFX_wfc_event4
+	id = acw_event.4
+	title = acw_event.4.t
+	desc = acw_event.4.d
+	picture = GFX_acw_event4
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.4.a
+		name = acw_event.4.a
 		ai_chance = {
 			factor = 75
 		}
@@ -125,13 +122,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.5
-	title = wfc_event.5.t
-	desc = wfc_event.5.d
-	picture = GFX_wfc_event5
+	id = acw_event.5
+	title = acw_event.5.t
+	desc = acw_event.5.d
+	picture = GFX_acw_event5
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.5.a
+		name = acw_event.5.a
 		ai_chance = {
 			factor = 75
 		}
@@ -139,13 +136,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.6
-	title = wfc_event.6.t
-	desc = wfc_event.6.d
-	picture = GFX_wfc_event5
+	id = acw_event.6
+	title = acw_event.6.t
+	desc = acw_event.6.d
+	picture = GFX_acw_event5
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.6.a
+		name = acw_event.6.a
 		ai_chance = {
 			factor = 75
 		}
@@ -154,13 +151,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.7
-	title = wfc_event.7.t
-	desc = wfc_event.7.d
-	picture = GFX_wfc_event7
+	id = acw_event.7
+	title = acw_event.7.t
+	desc = acw_event.7.d
+	picture = GFX_acw_event7
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.7.a
+		name = acw_event.7.a
 		ai_chance = {
 			factor = 75
 		}
@@ -168,20 +165,20 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.8
-	title = wfc_event.8.t
-	desc = wfc_event.8.d
-	picture = GFX_wfc_event8
+	id = acw_event.8
+	title = acw_event.8.t
+	desc = acw_event.8.d
+	picture = GFX_acw_event8
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.8.a
+		name = acw_event.8.a
 		ai_chance = {
 			factor = 75
 		}
 		add_ideas = wfc_hentai_banned_idea
 	}
 	option = {
-		name = wfc_event.8.b
+		name = acw_event.8.b
 		ai_chance = {
 			factor = 75
 		}
@@ -190,20 +187,20 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.9
-	title = wfc_event.9.t
-	desc = wfc_event.9.d
-	picture = GFX_wfc_event9
+	id = acw_event.9
+	title = acw_event.9.t
+	desc = acw_event.9.d
+	picture = GFX_acw_event9
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.9.a
+		name = acw_event.9.a
 		ai_chance = {
 			factor = 75
 		}
 		add_ideas = hen_futanary_idea
 	}
 	option = {
-		name = wfc_event.9.b
+		name = acw_event.9.b
 		ai_chance = {
 			factor = 0
 		}
@@ -211,28 +208,28 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.10
-	title = wfc_event.10.t
-	desc = wfc_event.10.d
-	picture = GFX_wfc_event10
+	id = acw_event.10
+	title = acw_event.10.t
+	desc = acw_event.10.d
+	picture = GFX_acw_event10
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.10.a
+		name = acw_event.10.a
 		ai_chance = {
 			factor = 75
 		}
-		#add_ideas = wfc_futanary_idea
+		#add_ideas = acw_futanary_idea
 	}
 }
 
 country_event = {
-	id = wfc_event.11
-	title = wfc_event.11.t
-	desc = wfc_event.11.d
+	id = acw_event.11
+	title = acw_event.11.t
+	desc = acw_event.11.d
 	picture = GFX_report_event_fascist_gathering
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.11.c
+		name = acw_event.11.c
 		set_politics = {
 			ruling_party = fascism
 			elections_allowed = no
@@ -242,13 +239,13 @@ country_event = {
 }
 
 country_event = {
-	id = wfc_event.12
-	title = wfc_event.12.t
-	desc = wfc_event.12.d
-	picture = GFX_wfc_event12
+	id = acw_event.12
+	title = acw_event.12.t
+	desc = acw_event.12.d
+	picture = GFX_acw_event12
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.12.c
+		name = acw_event.12.c
 		ai_chance = {
 			factor = 75
 		}
@@ -266,18 +263,18 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		name = wfc_event.12.e
+		name = acw_event.12.e
 	}
 }
 
 country_event = {
-	id = wfc_event.13
-	title = wfc_event.13.t
-	desc = wfc_event.13.d
-	picture = GFX_wfc_event13
+	id = acw_event.13
+	title = acw_event.13.t
+	desc = acw_event.13.d
+	picture = GFX_acw_event13
 	is_triggered_only = yes
 	option = {
-		name = wfc_event.13.c
+		name = acw_event.13.c
 		ai_chance = {
 			factor = 75
 		}
@@ -295,6 +292,42 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		name = wfc_event.13.e
+		name = acw_event.13.e
+	}
+}
+
+country_event = {
+	id = acw_event.14
+	title = acw_event.14.t
+	desc = acw_event.14.d
+	picture = GFX_report_event_generic_battle
+	#is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = ACW
+		ROM = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+	}
+	option = {
+		name = acw_event.14.c
+		ai_chance = {
+			factor = 75
+		}
+		ROM = {
+			create_wargoal = {
+				target = ACW
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
+			ROM = {
+				every_owned_state = {
+					add_claim_by = ACW
+				}
+			}
+		}
 	}
 }

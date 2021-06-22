@@ -1808,7 +1808,7 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
-			country_event = wfc_event.10
+			country_event = acw_event.10
 			add_ideas = acw_idols_agency_idea
 			custom_effect_tooltip = wfl_idols_agency_tt
 		}
@@ -2594,7 +2594,7 @@ focus_tree = {
 				id = wfl_news.4
 				hours = 5
 			}
-			country_event = wfc_event.9
+			country_event = acw_event.9
 		}
 	}
 	focus = {
@@ -2613,7 +2613,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 300
 			ACW = {
-				country_event = wfc_event.2
+				country_event = acw_event.2
 			}
 			custom_effect_tooltip = wfl_tentakles_tt
 		}
@@ -2743,7 +2743,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			ACW = {
-				country_event = wfc_event.6
+				country_event = acw_event.6
 			}
 			set_global_flag = wfl_perimetr_flag
 		}
@@ -2799,7 +2799,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = meh_mecha_girl_influence
 			ACW = {
-				country_event = wfc_event.5
+				country_event = acw_event.5
 			}
 			add_equipment_to_stockpile = {
 				type = modern_tank_equipment

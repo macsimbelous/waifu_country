@@ -1,0 +1,12 @@
+spriteTypes = {
+	#kosmos
+	spriteType = {
+		name = "GFX_report_event_kosmos_2"
+		texturefile = "gfx/event_pictures/report_event_kosmos_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_kosmos_3"
+		texturefile = "gfx/event_pictures/report_event_kosmos_3.dds"
+	}
+	
+}

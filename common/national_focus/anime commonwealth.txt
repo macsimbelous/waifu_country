@@ -2622,4 +2622,127 @@ focus_tree = {
 			}
 		}
 	}
+	#neutral
+	focus = {
+		id = wfl_coast_defense
+		icon = GFX_focus_generic_coastal_fort
+		cost = 5
+		x = 18
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+		available = {
+			has_government = neutrality
+		}
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					all_neighbor_state = {
+						always = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+					}
+					level = 5
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 6
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 5
+					instant_build = yes
+				}
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.15
+			}
+		}
+	}
+	#democrat
+	focus = {
+		id = wfl_idols_agency
+		icon = GFX_focus_generic_treaty
+		cost = 5
+		x = 22
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_war = no
+			has_idea = acw_minpropagand_idea
+			has_government = democratic
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			country_event = acw_event.10
+			add_ideas = acw_idols_agency_idea
+			custom_effect_tooltip = wfl_idols_agency_tt
+		}
+	}
+	focus = {
+		id = wfl_world_tour
+		icon = GFX_goal_generic_propaganda
+		cost = 20
+		prerequisite = {
+			focus = wfl_idols_agency
+		}
+		relative_position_id = wfl_idols_agency
+		x = 0
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		available = {
+			has_war = no
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			#country_event = wfl_event.10
+			every_other_country = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.05
+				}
+				add_opinion_modifier = {
+					target = ACW
+					modifier = small_increase
+				}
+			}
+			custom_effect_tooltip = wfl_world_tour_tt
+			set_country_flag = wfl_world_tour_flag
+		}
+	}
 }
