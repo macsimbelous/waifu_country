@@ -1,5 +1,4 @@
 spriteTypes = {
-        #Agents
         spriteType = {
                 name = "GFX_Niko_Yazawa"
                 texturefile = "gfx/leaders/ACW/Portrait_Niko_Yazawa.dds"
@@ -9,32 +8,20 @@ spriteTypes = {
                 texturefile = "gfx/leaders/ACW/Portrait_Rosaria.dds"
         }
         spriteType = {
-                name = "GFX_ROA_Reina_Prowler_agent"
+                name = "GFX_Reina_Prowler"
                 texturefile = "gfx/leaders/ACW/Portrait_Reina_Prowler.dds"
         }
         spriteType = {
-                name = "GFX_ROA_Sheryl_Nome_agent"
+                name = "GFX_Sheryl_Nome"
                 texturefile = "gfx/leaders/ACW/Portrait_Sheryl_Nome.dds"
         }
         spriteType = {
-                name = "GFX_ROA_Ange_le_Carre_agent"
+                name = "GFX_Ange_le_Carre"
                 texturefile = "gfx/leaders/ACW/Portrait_Ange_le_Carre.dds"
         }
         spriteType = {
-                name = "GFX_Saki_Mizushima"
-                texturefile = "gfx/leaders/TRP/Portrait_Saki_Mizushima.dds"
-        }
-        spriteType = {
-                name = "GFX_Ryou_Akizuki"
-                texturefile = "gfx/leaders/TRP/Portrait_Ryou_Akizuki.dds"
-        }
-        spriteType = {
-                name = "GFX_ROA_Makoto_Kikuchi_agent"
+                name = "GFX_Makoto_Kikuchi"
                 texturefile = "gfx/leaders/ACW/Portrait_Makoto_Kikuchi.dds"
-        }
-        spriteType = {
-                name = "GFX_ROA_Rias_Gremory_agent"
-                texturefile = "gfx/leaders/MMS/Portrait_Rias_Gremory.dds"
         }
         spriteType = {
                 name = "GFX_Tomoko_Kuroki"

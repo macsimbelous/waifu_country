@@ -329,7 +329,7 @@ create_navy_leader = {
 #Agents
 create_operative_leader = {
 	name = "Rias Gremory"
-	GFX = GFX_ROA_Rias_Gremory_agent
+	GFX = GFX_Rias_Gremory
 	traits = {
 		operative_seducer
 	}

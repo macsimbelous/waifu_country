@@ -45,14 +45,14 @@ add_ideas = {
 #politics and starting faction
 
 set_popularities = {
-	democratic = 25
-	neutrality = 35
+	democratic = 35
+	neutrality = 25
 	fascism = 15
 	communism = 25
 }
 	
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -62,7 +62,7 @@ set_politics = {
 create_country_leader = {
 	name = "Erza"
 	desc = "POLITICS_ERZA_DESC"
-	picture = "ROA_Erza_lider_stalinism.tga"
+	picture = "Portrait_Erza.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -84,29 +84,28 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Irina Vladimirovna Putina"
-	desc = "POLITICS_Irina_Vladimirovna_Putina_DESC"
-	picture = "Soviet_Irina_Vladimirovna_Putina.tga"
+	name = "Aurora Suya Rhys Kaymin"
+	desc = "POLITICS_Aurora_Suya_Rhys_Kaymin_DESC"
+	picture = "Portrait_Aurora_Suya_Rhys_Kaymin.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = despotism
 	traits = {
-		wfc_anime_tyan
-		liberal_democratic_paragon
-		freedom_fighter
+		wfc_empress
 		stout_defender
-		wfc_patron_of_industry
+		wfc_patron_of_intelligence
 	}
 }
 create_country_leader = {
 	name = "Anastasia"
 	desc = "POLITICS_ANASTASIA_DESC"
-	picture = "Portrait_Anastasia_I_Empress.dds"
+	picture = "Portrait_Anastasia.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = liberalism
 	traits = {
-		wfc_empress
 		wfc_idol
-		wfc_patron_of_intelligence
+		liberal_democratic_paragon
+		freedom_fighter
+		wfc_patron_of_industry
 	}
 }
 #marshal
@@ -126,7 +125,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Anastasia"
-	picture = "ROA_Anastasia_general.dds"
+	picture = "Portrait_Anastasia_general.dds"
 	traits = {
 		logistics_wizard
 	}
@@ -139,7 +138,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Erza"
-	picture = "ROA_Erza_general.tga"
+	picture = "Portrait_Erza.dds"
 	traits = {
 		expert_delegator
 		war_hero
@@ -154,7 +153,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Lightning"
-	picture = "ROA_Lightning_general.tga"
+	picture = "Portrait_Lightning.dds"
 	traits = {
 		commando
 		offensive_doctrine
@@ -184,7 +183,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Mash Kyrielight"
-	picture = "ROA_Mash_Kyrielight_general.dds"
+	picture = "Portrait_Mash_Kyrielight.dds"
 	traits = {
 		defensive_doctrine
 		unyielding_defender
@@ -199,7 +198,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Maple"
-	picture = "ROA_Maple_general.dds"
+	picture = "Portrait_Maple.dds"
 	traits = {
 		trickster
 		winter_specialist
@@ -216,7 +215,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Yoko Littner"
-	picture = "ROA_Yoko_Littner_general.dds"
+	picture = "Portrait_Yoko_Littner.dds"
 	traits = {
 		organizer
 		fast_planner
@@ -233,7 +232,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Kallen Stadtfeld"
-	picture = "ROA_Kallen_Stadtfeld_general.dds"
+	picture = "Portrait_Kallen_Stadtfeld.dds"
 	traits = {
 		panzer_leader
 	}
@@ -247,7 +246,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Saki Rukino"
-	picture = "ROA_Saki_Rukino_general.dds"
+	picture = "Portrait_Saki_Rukino.dds"
 	traits = {
 	}
 	skill = 4
@@ -260,7 +259,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Iris Heart"
-	picture = "ROA_Iris_Heart_general.dds"
+	picture = "Portrait_Iris_Heart.dds"
 	traits = {
 		commando
 		infantry_leader
@@ -278,7 +277,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Kurumi Tokisaki"
-	picture = "ROA_Kurumi_Tokisaki_general.dds"
+	picture = "Portrait_Kurumi_Tokisaki.dds"
 	traits = {
 	}
 	skill = 4
@@ -291,7 +290,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Sanya V. Litvyak"
-	picture = "ROA_Sanya_V_Litvyak_general.dds"
+	picture = "Portrait_Sanya_V_Litvyak.dds"
 	traits = {
 	}
 	skill = 4
@@ -304,7 +303,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Isuzu Sento"
-	picture = "ROA_Isuzu_Sento_general.dds"
+	picture = "Portrait_Isuzu_Sento.dds"
 	traits = {
 		commando
 		infantry_leader
@@ -319,7 +318,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Volemia"
-	picture = "ROA_Volemia_general.dds"
+	picture = "Portrait_Volemia.dds"
 	traits = {
 		infantry_leader
 	}
@@ -333,7 +332,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Camilla"
-	picture = "ROA_Camilla_general.dds"
+	picture = "Portrait_Camilla.dds"
 	traits = {
 		skilled_staffer
 		cavalry_leader
@@ -349,7 +348,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Sinon"
-	picture = "ROA_Sinon_general.dds"
+	picture = "Portrait_Sinon.dds"
 	traits = {
 		war_hero
 		skilled_staffer
@@ -368,7 +367,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Kaname Chidori"
-	picture = "ROA_Kaname_Chidori_general.dds"
+	picture = "Portrait_Kaname_Chidori.dds"
 	traits = {
 		commando
 		infantry_leader
@@ -383,7 +382,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Yoshiko Tsushima"
-	picture = "ROA_Yoshiko_Tsushima_general.dds"
+	picture = "Portrait_Yoshiko_Tsushima.dds"
 	traits = {
 	}
 	skill = 1
@@ -398,7 +397,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ranko Kanzaki"
-	picture = "ROA_Ranko_Kanzaki_general.dds"
+	picture = "Portrait_Ranko_Kanzaki.dds"
 	traits = {
 	}
 	skill = 1
@@ -413,7 +412,7 @@ create_corps_commander = {
 	name = "Mamako Oosuki"
 	picture = "Portrait_Mamako_Oosuki.dds"
 	traits = {
-		infantry_expert
+		infantry_expert offensive_doctrine
 	}
 	skill = 1
 	attack_skill = 2
@@ -482,6 +481,7 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 	traits = {
+		panzer_leader
 	}
 }
 
@@ -541,7 +541,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
-	traits = {
+	traits = { bearer_of_artillery aggressive_assaulter
 	}
 }
 
@@ -636,7 +636,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Yamato"
 	#id = 7100
-	picture = "ROA_Yamato_Kancol_admiral2.tga"
+	picture = "Portrait_Yamato_Kancol.dds"
 	traits = {
 		navy_career_officer
 		bold
@@ -651,7 +651,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Atago"
 	#id = 7101
-	picture = "ROA_Atago_Azur_Lane_admiral.tga"
+	picture = "Portrait_Atago_Azur_Lane.dds"
 	traits = {
 	}
 	skill = 1
@@ -664,7 +664,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Avrora"
 	#id = 7102
-	picture = "ROA_Avrora_Azur_Lane_admiral.tga"
+	picture = "Portrait_Avrora_Azur_Lane.dds"
 	traits = {
 		bold
 	}
@@ -693,7 +693,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Marblehead"
 	#id = 7104
-	picture = "ROA_Marblehead_Azur_Lane_admiral.tga"
+	picture = "Portrait_Marblehead_Azur_Lane.dds"
 	traits = {
 	}
 	skill = 1
@@ -706,7 +706,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Saint Louis"
 	#id = 7105
-	picture = "ROA_Saint_Louis_Azur_Lane_admiral.tga"
+	picture = "Portrait_Saint_Louis_Azur_Lane.dds"
 	traits = {
 		navy_career_officer
 	}
@@ -720,7 +720,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Takao Azur Lane"
 	#id = 7106
-	picture = "ROA_Takao_Azur_Lane_admiral.tga"
+	picture = "Portrait_Takao_Azur_Lane.dds"
 	traits = {
 	}
 	skill = 1
@@ -733,7 +733,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Tosa"
 	#id = 7108
-	picture = "ROA_Tosa_Azur_Lane_admiral.tga"
+	picture = "Portrait_Tosa_Azur_Lane.dds"
 	traits = {
 	}
 	skill = 1
@@ -746,7 +746,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Sovetskaya Rossiya"
 	#id = 7110
-	picture = "ROA_Sovetskaya_Rossiya_admiral.dds"
+	picture = "Portrait_Sovetskaya_Rossiya.dds"
 	traits = {
 	}
 	skill = 1
@@ -759,7 +759,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Shima Tateishi"
 	#id = 7111
-	picture = "ROA_Shima_Tateishi_admiral.dds"
+	picture = "Portrait_Shima_Tateishi.dds"
 	traits = {
 	}
 	skill = 1
@@ -772,7 +772,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Akeno Misaki"
 	#id = 7112
-	picture = "ROA_Akeno_Misaki_admiral.dds"
+	picture = "Portrait_Akeno_Misaki.dds"
 	traits = {
 	}
 	skill = 1
@@ -827,7 +827,7 @@ create_operative_leader = {
 }
 create_operative_leader = {
 	name = "Reina Prowler"
-	GFX = GFX_ROA_Reina_Prowler_agent
+	GFX = GFX_Reina_Prowler
 	traits = {
 		operative_infiltrator
 		operative_safe_cracker
@@ -841,7 +841,7 @@ create_operative_leader = {
 }
 create_operative_leader = {
 	name = "Sheryl Nome"
-	GFX = GFX_ROA_Sheryl_Nome_agent
+	GFX = GFX_Sheryl_Nome
 	traits = {
 		operative_seducer
 		operative_natural_orator
@@ -854,7 +854,7 @@ create_operative_leader = {
 }
 create_operative_leader = {
 	name = "Ange le Carré"
-	GFX = GFX_ROA_Ange_le_Carre_agent
+	GFX = GFX_Ange_le_Carre
 	traits = {
 		operative_commando
 		operative_demolition_expert
@@ -869,7 +869,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Makoto Kikuchi"
-	GFX = GFX_ROA_Makoto_Kikuchi_agent
+	GFX = GFX_Makoto_Kikuchi
 	traits = {
 		operative_commando
 		operative_demolition_expert

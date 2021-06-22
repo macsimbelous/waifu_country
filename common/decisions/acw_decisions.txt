@@ -1072,10 +1072,10 @@ acw_puppets_category = {
 			}
 			FROM = {
 				has_war = no
-				has_opinion = {
-					target = ROOT
-					value > 49
-				}
+				# has_opinion = {
+				# 	target = ROOT
+				# 	value > 49
+				# }
 			}
 		}
 		visible = {
@@ -1285,10 +1285,10 @@ acw_overseas_puppets_category = {
 			}
 			FROM = {
 				has_war = no
-				has_opinion = {
-					target = ROOT
-					value > 74
-				}
+				# has_opinion = {
+				# 	target = ROOT
+				# 	value > 74
+				# }
 			}
 		}
 		visible = {

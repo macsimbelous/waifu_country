@@ -43,10 +43,7 @@ acw_puppets_category = {
 		original_tag = ACW
 	}
 	visible = {
-		OR = {
-			has_government = democratic
-			has_government = neutrality
-		}
+		has_government = democratic
 	}
 }
 
@@ -58,9 +55,6 @@ acw_overseas_puppets_category = {
 		original_tag = ACW
 	}
 	visible = {
-		OR = {
-			has_government = democratic
-			has_government = neutrality
-		}
+		has_government = democratic
 	}
 }

@@ -96,9 +96,51 @@ set_popularities = {
 create_country_leader = {
 	name = "KOS-MOS"
 	desc = "POLITICS_KOS-MOS_DESC"
-	picture = "ROA_KOS-MOS_lider_despotism.tga"
+	picture = "Portrait_KOS-MOS.dds"
 	expire = "1965.1.1"
 	ideology = despotism
+	traits = {
+		wfc_android
+		wfc_defender
+		wfc_patron_of_science
+		wfc_patron_of_industry
+		wfc_superweapon
+	}
+}
+create_country_leader = {
+	name = "Fiora Mechon"
+	desc = "POLITICS_Fiora_Mechon_DESC"
+	picture = "Portrait_Fiora_Mechon.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		wfc_android
+		wfc_defender
+		wfc_patron_of_science
+		wfc_patron_of_industry
+		wfc_superweapon
+	}
+}
+create_country_leader = {
+	name = "Mythra"
+	desc = "POLITICS_Mythra_DESC"
+	picture = "Portrait_Mythra.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		wfc_android
+		warmonger
+		wfc_patron_of_science
+		wfc_patron_of_industry
+		wfc_superweapon
+	}
+}
+create_country_leader = {
+	name = "Pyra"
+	desc = "POLITICS_Pyra_DESC"
+	picture = "Portrait_Pyra.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
 	traits = {
 		wfc_android
 		wfc_defender
@@ -112,7 +154,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "KOS-MOS"
-	picture = "ROA_KOS-MOS_general.tga"
+	picture = "Portrait_KOS-MOS.dds"
 	traits = {
 		defensive_doctrine
 		bearer_of_artillery
@@ -178,7 +220,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Saint Martha"
-	picture = "ROA_Saint_Martha_general.dds"
+	picture = "Portrait_Saint_Martha.dds"
 	traits = {
 		panzer_leader
 	}
@@ -191,7 +233,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Hatsune Miku"
-	picture = "ROA_Hatsune_Miku_general.dds"
+	picture = "Portrait_Hatsune_Miku.dds"
 	traits = {
 		panzer_leader
 	}
@@ -205,7 +247,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Hana"
-	picture = "ROA_Hana_general.dds"
+	picture = "Portrait_Hana.dds"
 	traits = {
 		panzer_leader
 	}
@@ -216,63 +258,12 @@ create_corps_commander = {
 	logistics_skill = 1
 	#id = 7030
 }
-create_corps_commander = {
-	name = "Fiora Mechon"
-	picture = "Portrait_Fiora_Mechon.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-		panzer_leader
-	}
-}
-
-create_corps_commander = {
-	name = "Pyra"
-	picture = "Portrait_Pyra.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-		infantry_leader
-	}
-}
-
-create_corps_commander = {
-	name = "Mythra"
-	picture = "Portrait_Mythra.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-		panzer_leader
-	}
-}
-
-create_corps_commander = {
-	name = "Pneuma"
-	picture = "Portrait_Pneuma.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-		panzer_leader
-	}
-}
 
 #Admirals
 create_navy_leader = {
 	name = "Takao ARP"
 	#id = 7107
-	picture = "ROA_Takao_ARP_admiral.tga"
+	picture = "Portrait_Takao_ARP.dds"
 	traits = {
 	}
 	skill = 2
@@ -285,7 +276,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "I-410"
 	#id = 7113
-	picture = "ROA_I-410_admiral.dds"
+	picture = "Portrait_I-410.dds"
 	traits = {
 		torpedo_expert
 		silent_hunter

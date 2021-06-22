@@ -1,0 +1,10 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_Saki_Mizushima"
+                texturefile = "gfx/leaders/TRP/Portrait_Saki_Mizushima.dds"
+        }
+        spriteType = {
+                name = "GFX_Ryou_Akizuki"
+                texturefile = "gfx/leaders/TRP/Portrait_Ryou_Akizuki.dds"
+        }
+}
