@@ -7,8 +7,8 @@ wfc_integration_category = {
 		icon = decision_generic_brainwash
 		available = {
 			FROM = {
-				compliance > 0.9
-				resistance < 0.05
+				compliance > 90
+				resistance < 5
 			}
 		}
 		visible = {
