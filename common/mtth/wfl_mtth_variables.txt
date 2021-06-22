@@ -250,7 +250,7 @@ acw_uncore_states = {
 		add = temp
 	}
 }
-wfl_occupied_states = {
+acw_occupied_states = {
 	base = 0
 	modifier = {
 		set_temp_variable = {

@@ -317,7 +317,7 @@ country_event = {
 			factor = 75
 		}
 		ROM = {
-			create_wargoal = {
+			declare_war_on = {
 				target = ACW
 				type = annex_everything
 			}
