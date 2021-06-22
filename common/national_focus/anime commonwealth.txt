@@ -2624,7 +2624,7 @@ focus_tree = {
 	}
 	#neutral
 	focus = {
-		id = wfl_coast_defense
+		id = acw_coast_defense
 		icon = GFX_focus_generic_coastal_fort
 		cost = 5
 		x = 18
@@ -2686,7 +2686,7 @@ focus_tree = {
 	}
 	#democrat
 	focus = {
-		id = wfl_idols_agency
+		id = acw_idols_agency
 		icon = GFX_focus_generic_treaty
 		cost = 5
 		x = 22
@@ -2710,13 +2710,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = wfl_world_tour
+		id = acw_world_tour
 		icon = GFX_goal_generic_propaganda
 		cost = 20
 		prerequisite = {
-			focus = wfl_idols_agency
+			focus = acw_idols_agency
 		}
-		relative_position_id = wfl_idols_agency
+		relative_position_id = acw_idols_agency
 		x = 0
 		y = 1
 		search_filters = {
