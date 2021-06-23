@@ -7,4 +7,8 @@ spriteTypes = {
                 name = "GFX_Ryou_Akizuki"
                 texturefile = "gfx/leaders/TRP/Portrait_Ryou_Akizuki.dds"
         }
+        spriteType = {
+                name = "GFX_Gasper_Vladi"
+                texturefile = "gfx/leaders/TRP/Portrait_Gasper_Vladi.dds"
+        }
 }

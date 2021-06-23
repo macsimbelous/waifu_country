@@ -63,43 +63,43 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		wfc_anime_tyan
+		wfc_trap
 		wfc_peoples_favorite
 		warmonger
 		great_war_hero
 	}
 }
 create_country_leader = {
-	name = "Alina"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Soviet_Alina.tga"
+	name = "Hideri Kanzaki"
+	desc = "POLITICS_Hideri_Kanzaki_DESC"
+	picture = "Portrait_Hideri_Kanzaki.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		wfc_anime_tyan
+		wfc_trap
 		wfc_Tyan_militarist
+		warmonger
 	}
 }
 create_country_leader = {
-	name = "Soviet Izabella Koshkina"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Soviet_Izabella_Koshkina.tga"
+	name = "Tetora"
+	desc = "POLITICS_Tetora_DESC"
+	picture = "Portrait_Tetora.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
 		dislikes_germany
-		wfc_anime_tyan
-		defeatist
+		wfc_trap
 	}
 }
 create_country_leader = {
-	name = "Kudryavka Noumi"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "Soviet_Kudryavka_Noumi.tga"
+	name = "Ringo Tsukimiya"
+	desc = "POLITICS_Ringo_Tsukimiya_DESC"
+	picture = "Portrait_Ringo_Tsukimiya.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		wfc_anime_tyan
+		wfc_trap
 	}
 }
 
@@ -119,14 +119,14 @@ create_field_marshal = {
 	#id = 7035
 }
 create_field_marshal = {
-	name = "Hibiki"
-	picture = "Soviet_Hibiki.tga"
-	traits = { fortress_buster offensive_doctrine logistics_wizard panzer_leader }
-	skill = 6
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 6
-	logistics_skill = 6
+	name = "Hime Arikawa"
+	picture = "Portrait_Hime_Arikawa.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Souji Mitsuka"
@@ -140,9 +140,9 @@ create_corps_commander = {
 	}
 }
 create_corps_commander = {
-	name = "Katyusha"
-	picture = "Soviet_Katyusha.tga"
-	traits = { trickster panzer_leader defensive_doctrine }
+	name = "Hitoshi Sugoroku"
+	picture = "Portrait_Hitoshi_Sugoroku.dds"
+	traits = { trickster }
 	skill = 4
 	attack_skill = 5
 	defense_skill = 2
@@ -184,8 +184,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Miki Naoki"
-	picture = "Soviet_Miki_Naoki.tga"
+	name = "Felix Argyle"
+	picture = "Portrait_Felix_Argyle.dds"
 	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
 	skill = 4
 	attack_skill = 5
@@ -216,5 +216,17 @@ create_operative_leader = {
 	available_to_spy_master = yes
 	nationalities = {
 		TRP
+	}
+}
+create_operative_leader = {
+	name = "Gasper Vladi"
+	GFX = GFX_Gasper_Vladi
+	traits = {
+		operative_seducer
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		TRP MMS
 	}
 }
