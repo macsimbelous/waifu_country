@@ -19,7 +19,7 @@ acw_concert_decisions = {
 		original_tag = ACW
 	}
 	visible = {
-		has_completed_focus = wfl_idols_agency
+		has_completed_focus = acw_idols_agency
 	}
 }
 

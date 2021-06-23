@@ -1,4 +1,3 @@
-
 wfc_integration_category = {
 	wfc_integration_decision = {
 		name = wfc_integration_decision.t
@@ -302,6 +301,61 @@ economy_decisions = {
 						size < 1
 						include_locked = no
 					}
+				}
+			}
+		}
+	}
+}
+
+wfc_create_subjects_category = {
+	wfc_create_subject_decision = {
+		fire_only_once = no
+		cost = 100
+		#target_array = countries
+		target_non_existing = yes
+		target_trigger = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				any_owned_state = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			FROM = {
+				exists = no
+			}
+			ROOT = {
+				any_owned_state = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			set_autonomy = {
+				target = FROM
+				autonomy_state = autonomy_federation_subject
+			}
+			every_controlled_state = {
+				limit = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+				FROM = {
+					transfer_state = PREV
 				}
 			}
 		}

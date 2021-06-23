@@ -21,10 +21,4 @@ trp_discrediting_decisions = {
 		#has_intelligence_agency = yes
 	}
 }
-trp_create_subjects_category = {
-	priority = 4
 
-	allowed = {
-		original_tag = TRP
-	}
-}

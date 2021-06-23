@@ -14,7 +14,20 @@ wfc_integration_category = {
 		}
 	}
 }
+wfc_create_subjects_category = {
+	priority = 15
 
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+		}
+	}
+}
 wfl_coring_category = {
 	priority = 9
 	icon = generic_political_actions
