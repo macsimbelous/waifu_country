@@ -153,6 +153,7 @@ trp_cloning_category = {
 		}
 	}
 }
+
 trp_discrediting_decisions = {
 	trp_discrediting_decision = {
 		name = wfl_discrediting_decision.t
@@ -229,6 +230,47 @@ trp_discrediting_decisions = {
 						idea = neutrality_discrediting
 						days = 180
 					}
+				}
+			}
+		}
+	}
+}
+
+trp_create_subjects_category = {
+	trp_create_bra_subject_decision = {
+		#icon = onmap_recruit_operative
+		visible = {
+			any_owned_state = {
+				is_core_of = BRA
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		available = {
+			BRA = {
+				exists = no
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		fire_only_once = no
+		cost = 100
+		complete_effect = {
+			set_autonomy = {
+				target = BRA
+				autonomy_state = autonomy_federation_subject
+			}
+			every_controlled_state = {
+				limit = {
+					is_core_of = BRA
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+				BRA = {
+					transfer_state = PREV
 				}
 			}
 		}

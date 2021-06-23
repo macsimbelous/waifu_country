@@ -349,7 +349,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.67
@@ -358,7 +358,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.19
@@ -367,7 +367,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.24
@@ -376,7 +376,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.24
@@ -385,7 +385,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.24
@@ -394,7 +394,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = fighter_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.24
@@ -403,7 +403,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = CAS_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.24
@@ -412,7 +412,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = tac_bomber_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.24
@@ -421,7 +421,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = nav_bomber_equipment_1
-			creator = "WFL"
+			creator = "ACW"
 		}
 		requested_factories = 1
 		progress = 0.24

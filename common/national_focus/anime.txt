@@ -2624,10 +2624,10 @@ focus_tree = {
 	}
 	#neutral
 	focus = {
-		id = acw_coast_defense
+		id = acw_border_defense
 		icon = GFX_focus_generic_coastal_fort
 		cost = 5
-		x = 18
+		x = 15
 		y = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2635,7 +2635,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available_if_capitulated = yes
 		available = {
 			has_government = neutrality
 		}
@@ -2684,12 +2683,40 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = acw_sleeping
+		icon = GFX_focus_generic_coastal_fort
+		cost = 5
+		relative_position_id = acw_border_defense
+		x = 0
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = acw_border_defense
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			POL = {
+				every_owned_state = {
+					add_claim_by = ACW
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = POL
+			}
+		}
+	}
 	#democrat
 	focus = {
 		id = acw_idols_agency
 		icon = GFX_focus_generic_treaty
 		cost = 5
-		x = 22
+		x = 17
 		y = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -2706,7 +2733,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = acw_event.10
 			add_ideas = acw_idols_agency_idea
-			custom_effect_tooltip = wfl_idols_agency_tt
+			custom_effect_tooltip = acw_idols_agency_tt
 		}
 	}
 	focus = {
@@ -2730,7 +2757,7 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
-			#country_event = wfl_event.10
+			#country_event = acw_event.10
 			every_other_country = {
 				add_popularity = {
 					ideology = democratic
@@ -2741,8 +2768,378 @@ focus_tree = {
 					modifier = small_increase
 				}
 			}
-			custom_effect_tooltip = wfl_world_tour_tt
-			set_country_flag = wfl_world_tour_flag
+			custom_effect_tooltip = acw_world_tour_tt
+			set_country_flag = acw_world_tour_flag
+		}
+	}
+	#comunist
+	focus = {
+		id = acw_sov_frend
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 5
+		x = 20
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_government = communism
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = acw_sov_frend_opinion
+			}
+			SOV = {
+				add_ideas = wfc_acw_assistance
+				add_opinion_modifier = {
+					target = ACW
+					modifier = acw_sov_frend_opinion
+				}
+				add_to_faction = ACW
+			}
+		}
+	}
+	focus = {
+		id = acw_railway_in_mid_asia
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = acw_sov_frend
+		}
+		relative_position_id = acw_sov_frend
+		x = 0
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			SOV = {
+				add_opinion_modifier = {
+					target = ACW
+					modifier = small_increase
+				}
+				584 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					urbanize_state = yes
+				}
+				585 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					urbanize_state = yes
+				}
+				587 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					urbanize_state = yes
+				}
+				406 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					urbanize_state = yes
+				}
+				407 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					urbanize_state = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = acw_trans_sib_upgrade
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 20
+		prerequisite = {
+			focus = acw_railway_in_mid_asia
+		}
+		relative_position_id = acw_railway_in_mid_asia
+		x = 0
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			SOV = {
+				add_opinion_modifier = {
+					target = ACW
+					modifier = small_increase
+				}
+				573 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				572 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				403 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				571 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				570 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				569 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				568 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				567 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				566 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				564 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				563 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				561 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				657 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				409 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				408 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = acw_arms_factory_to_sov
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = acw_trans_sib_upgrade
+		}
+		relative_position_id = acw_trans_sib_upgrade
+		x = -1
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			SOV = {
+				has_war = yes
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			SOV = {
+				add_opinion_modifier = {
+					target = ACW
+					modifier = large_increase
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1
+					uses = 1
+					category = industry
+				}
+				651 = {
+					add_extra_state_shared_building_slots = 5
+					add_building_construction = {
+						type = arms_factory
+						level = 5
+						instant_build = yes
+					}
+				}
+				399 = {
+					add_extra_state_shared_building_slots = 5
+					add_building_construction = {
+						type = arms_factory
+						level = 5
+						instant_build = yes
+					}
+				}
+				251 = {
+					add_extra_state_shared_building_slots = 5
+					add_building_construction = {
+						type = arms_factory
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_civ_factory_to_sov
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = acw_trans_sib_upgrade
+		}
+		relative_position_id = acw_trans_sib_upgrade
+		x = 1
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			SOV = {
+				add_opinion_modifier = {
+					target = ACW
+					modifier = small_increase
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1
+					uses = 1
+					category = industry
+				}
+				584 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				585 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				587 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_waifu_revolution_in_sov
+		icon = GFX_goal_anti_comintern_pact
+		cost = 1
+		prerequisite = {
+			focus = acw_arms_factory_to_sov
+			focus = acw_civ_factory_to_sov
+		}
+		relative_position_id = acw_arms_factory_to_sov
+		x = 1
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_war = no
+			is_faction_leader = yes
+			SOV = {
+				has_war = no
+				is_in_faction_with = ACW
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			puppet = SOV
 		}
 	}
 }
