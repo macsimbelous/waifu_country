@@ -168,6 +168,19 @@ create_field_marshal = {
 }
 #generals
 create_corps_commander = {
+	name = "Saint Martha"
+	picture = "Portrait_Saint_Martha.dds"
+	traits = {
+		panzer_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7033
+}
+create_corps_commander = {
 	name = "Asuna"
 	picture = "Portrait_Asuna_Yuuki.dds"
 	traits = {
