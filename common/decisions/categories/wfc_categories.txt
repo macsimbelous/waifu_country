@@ -245,7 +245,7 @@ wfl_test_category = {
 	visible_when_empty = yes
 	visible = {
 		#is_debug = yes
-		always = no
+		#always = no
 	}
 	allowed = {
 		#always = yes

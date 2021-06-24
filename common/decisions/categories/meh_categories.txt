@@ -10,7 +10,7 @@ meh_kosmos_category = {
 	priority = 9
 	on_map_area = {
 		#		state = ROOT.capital
-		name = wfl_mbr_strike_decision_tt
+		name = meh_mbr_strike_decision_tt
 		zoom = 656
 		target_root_trigger = {
 			#			has_tech = nukes
@@ -27,6 +27,6 @@ meh_war_category = {
 		original_tag = MEH
 	}
 	visible = {
-		always = no
+		
 	}
 }

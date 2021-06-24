@@ -162,7 +162,7 @@ ideas = {
 				research_speed_factor = 0.15
 				stability_factor = 0.15
 				democratic_drift = 0.05
-				autonomy_manpower_share = 0.5
+				#autonomy_manpower_share = 0.5
 				autonomy_gain = -0.5
 			}
 		}
