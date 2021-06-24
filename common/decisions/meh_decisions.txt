@@ -235,40 +235,45 @@ meh_kosmos_category = {
 meh_war_category = {
 	meh_declare_war_decision = {
 		name = meh_declare_war_decision.t
-		allowed = {
-			always = yes
-		}
 		available = {
-			#has_war = no
-			#has_completed_focus = meh_world_conquest
+			has_war = no
 			FROM = {
 				is_neighbor_of = ROOT
 				NOT = {
-					is_in_faction_with = ROOT
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
 		visible = {
-			#has_completed_focus = meh_world_conquest
 			FROM = {
 				is_neighbor_of = ROOT
 				NOT = {
-					is_in_faction_with = ROOT
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
+		target_array = neighbors
 		target_trigger = {
 			FROM = {
 				is_neighbor_of = ROOT
 				NOT = {
-					is_in_faction_with = ROOT
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 0.5
+				add = 1
 				has_government = fascism
 			}
 			modifier = {
@@ -285,17 +290,18 @@ meh_war_category = {
 			}
 		}
 		fire_only_once = no
-		cost = 10
-		days_re_enable = 10
-		#on_map_mode = map_only
+		cost = 100
+		days_re_enable = 30
 		complete_effect = {
 			FROM = {
-				declare_war_on = {
-					target = MEH
-					type = annex_everything
+				every_owned_state = {
+					add_claim_by = ROOT
 				}
 			}
-			
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
+			}
 		}
 	}
 }

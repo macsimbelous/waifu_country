@@ -14,18 +14,11 @@ wfl_tentakles_decisions:0 "Тентакли"
 wfl_tentakles_decisions_desc:0 "Насылая тентакли на другие страны мы сможем сеять в них срах и ужас"
 wfl_tentakles_attack_decision.t:0 "Наслать тентакли на §Y[From.Owner.GetName]§!"
 wfl_tentakles_attack_decision.t_desc:0 "Тентакли атакуют §Y[From.Owner.GetName]§!"
-#create country
-wfl_create_country:0 "Создание Файфуляндии"
-wfl_create_country.t:0 "Превратить §Y[Root.GetName]§! в Файфуляндию"
-wfl_create_country.t_desc:0 "Превратить §Y[Root.GetName]§! в Файфуляндию"
+
 #discrediting
 wfl_discrediting_decisions:0 "Дискредитация"
 wfl_discrediting_decision.t:0 "Дискредитировать §Y[From.GetName]§!"
 wfl_discrediting_decision.t_desc:0 "Распространить по всему миру компрометируюшую информацию о государстве §Y[From.GetName]§!"
-#war dicisions
-wfl_declare_war_decisions:0 "Завоевания"
-wfl_declare_war_decision.t:0 "Завоевать §Y[From.GetName]§!"
-wfl_declare_war_decision.t_desc:0 "Завлевать §Y[From.GetName]§!"
 #infiltration_decision
 wfl_infiltration_decisions:0 "Инфильтрация"
 wfl_infiltration_decision.t:0 "Инфильтрация в §Y[From.GetName]§!"
@@ -56,27 +49,6 @@ wfl_kaede_takagaki_tour_decision.t:0 "Гастроли Каэдэ Такагак
 wfl_sheryl_nome_tour_decision.t:0 "Гастроли Шерил Ноум"
 
 
-#kosmos
-meh_kosmos_category:0 "Космос"
-meh_kosmos_category_desc:0 "Спутников на орбите: [?meh_sputnik_count]\nРакет носителей: [?meh_rocket_count]\nМБР: [?meh_mbr_in_the_warehouse]"
-meh_create_rocket_factory_decision:0 "Построить ракетный завод"
-meh_create_rocket_factory_decision_desc:0 "Ракетный завод позволит произвоить нам ракеты различных типов а также увеличит скорость строительства ракетных плошадок." 
-meh_rocket_assembly_decision:0 "Произвести ракету-носитель"
-meh_rocket_assembly_decision_desc:0 "Будет произведена ракета-носитель для вывода спутников на орбиту." 
-meh_rocket_assembly_decision_tt:0 "На наш склад будет добавлена §Y1§! ед. ракеты-носителя.\nВ данный момент на нашем складе §G[?meh_rocket_count]§! ед. ракет-носителей."
-meh_rocket_launch_decision:0 "Запуск спутника"
-meh_rocket_launch_decision_desc:0 "Каждый спутник на орбите увеличевает наши разведывательные возможности."
-meh_rocket_count_tt:0 "Нужно иметь хотя бы одну ракету"
-meh_sputnik_count_tt:0 "Меньше §Y40§! спутников на орбите"
-meh_mbr_assembly_decision:0 "Произвести МБР"
-meh_mbr_assembly_decision_desc:0 "Будет произведена §Rмежконтинентальная баллистическая ракета.§!"
-meh_mbr_assembly_decision_tt:0 "На наш склад будет добавлена §Y1§! ед. МБР.\nВ данный момент на нашем складе §G[?meh_mbr_in_the_warehouse]§! ед. МБР."
-meh_mbr_strike_decision:0 "Цель для баллистической ракеты"
-meh_mbr_strike_decision_desc:0 "Нанести ядерный удар по региону §Y[FROM.GetName]§! с помощью МБР."
-meh_mbr_strike_decision_tt:0 "По региону §Y[FROM.GetName]§! будет выпущена §YМБР§! с §Rядерной боеголовкой§!.\nЕй §Yне страшны ПВО и перехватчики противника§!, но и её точность оставляет желать лучшего.\nМы надеемся что она попадёт в места скопления войск противника." 
-meh_mbr_not:0 "Иметь хотя бы одну §YМБР§!"
-meh_nuclear_strike_tt:0 "Ядерный удар"
-meh_sputnik_not:0 "Нужно иметь хотя бы один §Yспутник§! на орбите"
 #urbanize
 wfl_urbanisation_decision:0 "Урбанизация регионов"
 wfl_urbanisation_category:0 "Урбанизация"

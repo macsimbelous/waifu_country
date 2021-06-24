@@ -20,12 +20,10 @@ meh_kosmos_category = {
 }
 
 meh_war_category = {
-	priority = 11
-	icon = generic_political_actions
-	picture = GFX_wfl_government_category
+	priority = 8
+	icon = decision_generic_ignite_civil_war
 	#visible_when_empty = yes
 	allowed = {
-		#always = yes
 		original_tag = MEH
 	}
 	visible = {
