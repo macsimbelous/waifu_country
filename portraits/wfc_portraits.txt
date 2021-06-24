@@ -194,6 +194,7 @@ TRP = {
 			"gfx/leaders/TRP/Portrait_TRP_land_02.dds"
 			"gfx/leaders/TRP/Portrait_TRP_land_03.dds"
 			"gfx/leaders/TRP/Portrait_TRP_land_04.dds"
+			"gfx/leaders/TRP/Portrait_TRP_land_05.dds"
 		}
 	}
 	navy = {
@@ -204,6 +205,13 @@ TRP = {
 			"gfx/leaders/TRP/Portrait_TRP_naval_04.dds"
 			"gfx/leaders/TRP/Portrait_TRP_naval_05.dds"
 			"gfx/leaders/TRP/Portrait_TRP_naval_06.dds"
+			"gfx/leaders/TRP/Portrait_TRP_naval_07.dds"
+			"gfx/leaders/TRP/Portrait_TRP_naval_08.dds"
+			"gfx/leaders/TRP/Portrait_TRP_naval_09.dds"
+			"gfx/leaders/TRP/Portrait_TRP_naval_10.dds"
+			"gfx/leaders/TRP/Portrait_TRP_naval_11.dds"
+			"gfx/leaders/TRP/Portrait_TRP_naval_12.dds"
+			"gfx/leaders/TRP/Portrait_TRP_naval_13.dds"
 		}
 	}
 	operative = {
@@ -212,12 +220,14 @@ TRP = {
 			"gfx/leaders/TRP/Portrait_TRP_operative_02.dds"
 			"gfx/leaders/TRP/Portrait_TRP_operative_03.dds"
 			"gfx/leaders/TRP/Portrait_TRP_operative_04.dds"
+			"gfx/leaders/TRP/Portrait_TRP_operative_05.dds"
 		}
 		male = {
 			"gfx/leaders/TRP/Portrait_TRP_operative_01.dds"
 			"gfx/leaders/TRP/Portrait_TRP_operative_02.dds"
 			"gfx/leaders/TRP/Portrait_TRP_operative_03.dds"
 			"gfx/leaders/TRP/Portrait_TRP_operative_04.dds"
+			"gfx/leaders/TRP/Portrait_TRP_operative_05.dds"
 		}
 	}
 }
@@ -225,6 +235,17 @@ MEH = {
 	army = {
 		male = {
 			"gfx/leaders/MEH/Portrait_MEH_land_01.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_02.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_03.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_04.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_05.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_06.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_07.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_08.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_09.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_10.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_11.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_12.dds"
 		}
 	}
 	navy = {
@@ -234,10 +255,10 @@ MEH = {
 	}
 	operative = {
 		female = {
-
+			"gfx/leaders/MEH/Portrait_MEH_operative_01.dds"
 		}
 		male = {
-
+			"gfx/leaders/MEH/Portrait_MEH_operative_01.dds"
 		}
 	}
 }
@@ -248,6 +269,7 @@ MMS = {
 			"gfx/leaders/MMS/Portrait_MMS_land_02.dds"
 			"gfx/leaders/MMS/Portrait_MMS_land_03.dds"
 			"gfx/leaders/MMS/Portrait_MMS_land_04.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_05.dds"
 		}
 	}
 	navy = {

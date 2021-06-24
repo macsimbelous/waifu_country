@@ -151,39 +151,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nonna"
-	picture = "Soviet_Nonna.tga"
-	traits = { trickster winter_specialist defensive_doctrine }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 4
-}
-
-create_field_marshal = {
-	name = "T54"
-	picture = "Soviet_T_54.tga"
-	traits = { offensive_doctrine fast_planner trait_engineer }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Kirima Sharo"
-	picture = "Soviet_Kirima_Sharo.tga"
-	traits = { commando naval_invader }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 5
-}
-
-create_corps_commander = {
 	name = "Felix Argyle"
 	picture = "Portrait_Felix_Argyle.dds"
 	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
