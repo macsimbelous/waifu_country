@@ -1,7 +1,7 @@
 capital = 378
 set_research_slots = 4
 oob = "MEH_1936"
-#set_naval_oob = "MEH_1936_Naval"
+set_naval_oob = "MEH_1936_Naval"
 set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 150
@@ -105,7 +105,6 @@ create_country_leader = {
 		wfc_android
 		wfc_defender
 		wfc_patron_of_science
-		wfc_patron_of_industry
 		wfc_superweapon
 	}
 }
@@ -117,9 +116,8 @@ create_country_leader = {
 	ideology = liberalism
 	traits = {
 		wfc_android
-		wfc_defender
-		wfc_patron_of_science
-		wfc_patron_of_industry
+		wfc_patron_of_intelligence
+		freedom_fighter
 		wfc_superweapon
 	}
 }
@@ -132,8 +130,7 @@ create_country_leader = {
 	traits = {
 		wfc_android
 		warmonger
-		wfc_patron_of_science
-		wfc_patron_of_industry
+		wfc_patron_of_the_military_industrial_complex
 		wfc_superweapon
 	}
 }
@@ -146,7 +143,6 @@ create_country_leader = {
 	traits = {
 		wfc_android
 		wfc_dictator
-		wfc_defender
 		wfc_patron_of_industry
 	}
 }

@@ -238,7 +238,12 @@ meh_war_category = {
 		available = {
 			has_war = no
 			FROM = {
-				is_neighbor_of = ROOT
+				OR = {
+					is_neighbor_of = ROOT
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+				}
 				NOT = {
 					OR = {
 						is_in_faction_with = ROOT
@@ -249,7 +254,12 @@ meh_war_category = {
 		}
 		visible = {
 			FROM = {
-				is_neighbor_of = ROOT
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
 				NOT = {
 					OR = {
 						is_in_faction_with = ROOT
@@ -258,10 +268,15 @@ meh_war_category = {
 				}
 			}
 		}
-		target_array = neighbors
+		#target_array = neighbors
 		target_trigger = {
 			FROM = {
-				is_neighbor_of = ROOT
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
 				NOT = {
 					OR = {
 						is_in_faction_with = ROOT
