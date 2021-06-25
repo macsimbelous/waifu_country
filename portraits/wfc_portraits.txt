@@ -141,6 +141,7 @@ MAH = {
 			"gfx/leaders/MAH/Portrait_MAH_land_06.dds"
 			"gfx/leaders/MAH/Portrait_MAH_land_07.dds"
 			"gfx/leaders/MAH/Portrait_MAH_land_08.dds"
+			"gfx/leaders/MAH/Portrait_MAH_land_09.dds"
 		}
 	}
 	navy = {
@@ -195,6 +196,7 @@ TRP = {
 			"gfx/leaders/TRP/Portrait_TRP_land_03.dds"
 			"gfx/leaders/TRP/Portrait_TRP_land_04.dds"
 			"gfx/leaders/TRP/Portrait_TRP_land_05.dds"
+			"gfx/leaders/TRP/Portrait_TRP_land_06.dds"
 		}
 	}
 	navy = {
@@ -270,14 +272,12 @@ MMS = {
 			"gfx/leaders/MMS/Portrait_MMS_land_03.dds"
 			"gfx/leaders/MMS/Portrait_MMS_land_04.dds"
 			"gfx/leaders/MMS/Portrait_MMS_land_05.dds"
+			"gfx/leaders/MMS/Portrait_MMS_land_06.dds"
 		}
 	}
 	navy = {
 		male = {
-			"gfx/leaders/MMS/Portrait_MMS_land_01.dds"
-			"gfx/leaders/MMS/Portrait_MMS_land_02.dds"
-			"gfx/leaders/MMS/Portrait_MMS_land_03.dds"
-			"gfx/leaders/MMS/Portrait_MMS_land_04.dds"
+			"gfx/leaders/MMS/Portrait_MMS_naval_01.dds"
 		}
 	}
 	operative = {

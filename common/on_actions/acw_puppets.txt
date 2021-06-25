@@ -78,55 +78,70 @@ on_actions = {
 							}
 						}
 					}
-
-
 				}
 				else_if = {
 					limit = {
 						original_tag = GER
 					}
-					create_country_leader = {
-						name = "Prinz Eugen"
-						desc = "Prinz_Eugen_DESC"
-						picture = "Portrait_Prinz_Eugen.dds"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					if = {
+						limit = {
+							has_government = communism
+						}
+						create_country_leader = {
+							name = "Prinz Eugen"
+							desc = "Prinz_Eugen_DESC"
+							picture = "Portrait_Prinz_Eugen.dds"
+							expire = "1965.1.1"
+							ideology = stalinism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Prinz Eugen"
-						desc = "Prinz_Eugen_DESC"
-						picture = "Portrait_Prinz_Eugen.dds"
-						expire = "1965.1.1"
-						ideology = stalinism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = fascism
+						}
+						create_country_leader = {
+							name = "Prinz Eugen"
+							desc = "Prinz_Eugen_DESC"
+							picture = "Portrait_Prinz_Eugen.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Prinz Eugen"
-						desc = "Prinz_Eugen_DESC"
-						picture = "Portrait_Prinz_Eugen.dds"
-						expire = "1965.1.1"
-						ideology = liberalism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = democratic
+						}
+						create_country_leader = {
+							name = "Prinz Eugen"
+							desc = "Prinz_Eugen_DESC"
+							picture = "Portrait_Prinz_Eugen.dds"
+							expire = "1965.1.1"
+							ideology = liberalism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Prinz Eugen"
-						desc = "Prinz_Eugen_DESC"
-						picture = "Portrait_Prinz_Eugen.dds"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else = {
+						create_country_leader = {
+							name = "Prinz Eugen"
+							desc = "Prinz_Eugen_DESC"
+							picture = "Portrait_Prinz_Eugen.dds"
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
 				}
@@ -134,48 +149,65 @@ on_actions = {
 					limit = {
 						original_tag = FRA
 					}
-					create_country_leader = {
-						name = "Charlotte Dunois"
-						desc = "Charlotte_Dunois_DESC"
-						picture = "Portrait_Charlotte_Dunois.dds"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					if = {
+						limit = {
+							has_government = communism
+						}
+						create_country_leader = {
+							name = "Charlotte Dunois"
+							desc = "Charlotte_Dunois_DESC"
+							picture = "Portrait_Charlotte_Dunois.dds"
+							expire = "1965.1.1"
+							ideology = stalinism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Charlotte Dunois"
-						desc = "Charlotte_Dunois_DESC"
-						picture = "Portrait_Charlotte_Dunois.dds"
-						expire = "1965.1.1"
-						ideology = stalinism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = fascism
+						}
+						create_country_leader = {
+							name = "Charlotte Dunois"
+							desc = "Charlotte_Dunois_DESC"
+							picture = "Portrait_Charlotte_Dunois.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Charlotte Dunois"
-						desc = "Charlotte_Dunois_DESC"
-						picture = "Portrait_Charlotte_Dunois.dds"
-						expire = "1965.1.1"
-						ideology = liberalism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = democratic
+						}
+						create_country_leader = {
+							name = "Charlotte Dunois"
+							desc = "Charlotte_Dunois_DESC"
+							picture = "Portrait_Charlotte_Dunois.dds"
+							expire = "1965.1.1"
+							ideology = liberalism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Charlotte Dunois"
-						desc = "Charlotte_Dunois_DESC"
-						picture = "Portrait_Charlotte_Dunois.dds"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else = {
+						create_country_leader = {
+							name = "Charlotte Dunois"
+							desc = "Charlotte_Dunois_DESC"
+							picture = "Portrait_Charlotte_Dunois.dds"
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
 				}
@@ -183,48 +215,65 @@ on_actions = {
 					limit = {
 						original_tag = USA
 					}
-					create_country_leader = {
-						name = "Kei"
-						desc = "Kei_DESC"
-						picture = "Portrait_Kei.dds"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					if = {
+						limit = {
+							has_government = communism
+						}
+						create_country_leader = {
+							name = "Kei"
+							desc = "Kei_DESC"
+							picture = "Portrait_Kei.dds"
+							expire = "1965.1.1"
+							ideology = stalinism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Kei"
-						desc = "Kei_DESC"
-						picture = "Portrait_Kei.dds"
-						expire = "1965.1.1"
-						ideology = stalinism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = fascism
+						}
+						create_country_leader = {
+							name = "Kei"
+							desc = "Kei_DESC"
+							picture = "Portrait_Kei.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Kei"
-						desc = "Kei_DESC"
-						picture = "Portrait_Kei.dds"
-						expire = "1965.1.1"
-						ideology = liberalism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = democratic
+						}
+						create_country_leader = {
+							name = "Kei"
+							desc = "Kei_DESC"
+							picture = "Portrait_Kei.dds"
+							expire = "1965.1.1"
+							ideology = liberalism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Kei"
-						desc = "Kei_DESC"
-						picture = "Portrait_Kei.dds"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else = {
+						create_country_leader = {
+							name = "Kei"
+							desc = "Kei_DESC"
+							picture = "Portrait_Kei.dds"
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
 				}
@@ -232,48 +281,65 @@ on_actions = {
 					limit = {
 						original_tag = JAP
 					}
-					create_country_leader = {
-						name = "Miki Hoshii"
-						desc = "Miki_Hoshii_DESC"
-						picture = "Portrait_Miki_Hoshii.dds"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					if = {
+						limit = {
+							has_government = communism
+						}
+						create_country_leader = {
+							name = "Miki Hoshii"
+							desc = "Miki_Hoshii_DESC"
+							picture = "Portrait_Miki_Hoshii.dds"
+							expire = "1965.1.1"
+							ideology = stalinism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Miki Hoshii"
-						desc = "Miki_Hoshii_DESC"
-						picture = "Portrait_Miki_Hoshii.dds"
-						expire = "1965.1.1"
-						ideology = stalinism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = fascism
+						}
+						create_country_leader = {
+							name = "Miki Hoshii"
+							desc = "Miki_Hoshii_DESC"
+							picture = "Portrait_Miki_Hoshii.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Miki Hoshii"
-						desc = "Miki_Hoshii_DESC"
-						picture = "Portrait_Miki_Hoshii.dds"
-						expire = "1965.1.1"
-						ideology = liberalism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = democratic
+						}
+						create_country_leader = {
+							name = "Miki Hoshii"
+							desc = "Miki_Hoshii_DESC"
+							picture = "Portrait_Miki_Hoshii.dds"
+							expire = "1965.1.1"
+							ideology = liberalism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Miki Hoshii"
-						desc = "Miki_Hoshii_DESC"
-						picture = "Portrait_Miki_Hoshii.dds"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else = {
+						create_country_leader = {
+							name = "Miki Hoshii"
+							desc = "Miki_Hoshii_DESC"
+							picture = "Portrait_Miki_Hoshii.dds"
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
 				}
@@ -281,48 +347,65 @@ on_actions = {
 					limit = {
 						original_tag = ITA
 					}
-					create_country_leader = {
-						name = "Erica Blandelli"
-						desc = "Erica_Blandelli_DESC"
-						picture = "Portrait_Erica_Blandelli.dds"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					if = {
+						limit = {
+							has_government = communism
+						}
+						create_country_leader = {
+							name = "Erica Blandelli"
+							desc = "Erica_Blandelli_DESC"
+							picture = "Portrait_Erica_Blandelli.dds"
+							expire = "1965.1.1"
+							ideology = stalinism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Erica Blandelli"
-						desc = "Erica_Blandelli_DESC"
-						picture = "Portrait_Erica_Blandelli.dds"
-						expire = "1965.1.1"
-						ideology = stalinism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = fascism
+						}
+						create_country_leader = {
+							name = "Erica Blandelli"
+							desc = "Erica_Blandelli_DESC"
+							picture = "Portrait_Erica_Blandelli.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Erica Blandelli"
-						desc = "Erica_Blandelli_DESC"
-						picture = "Portrait_Erica_Blandelli.dds"
-						expire = "1965.1.1"
-						ideology = liberalism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = democratic
+						}
+						create_country_leader = {
+							name = "Erica Blandelli"
+							desc = "Erica_Blandelli_DESC"
+							picture = "Portrait_Erica_Blandelli.dds"
+							expire = "1965.1.1"
+							ideology = liberalism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Erica Blandelli"
-						desc = "Erica_Blandelli_DESC"
-						picture = "Portrait_Erica_Blandelli.dds"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else = {
+						create_country_leader = {
+							name = "Erica Blandelli"
+							desc = "Erica_Blandelli_DESC"
+							picture = "Portrait_Erica_Blandelli.dds"
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
 				}
@@ -330,48 +413,65 @@ on_actions = {
 					limit = {
 						original_tag = ENG
 					}
-					create_country_leader = {
-						name = "Satellizer el Bridget"
-						desc = "Satellizer_el_Bridget_DESC"
-						picture = "Portrait_Satellizer_el_Bridget.dds"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					if = {
+						limit = {
+							has_government = communism
+						}
+						create_country_leader = {
+							name = "Satellizer el Bridget"
+							desc = "Satellizer_el_Bridget_DESC"
+							picture = "Portrait_Satellizer_el_Bridget.dds"
+							expire = "1965.1.1"
+							ideology = stalinism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Satellizer el Bridget"
-						desc = "Satellizer_el_Bridget_DESC"
-						picture = "Portrait_Satellizer_el_Bridget.dds"
-						expire = "1965.1.1"
-						ideology = stalinism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = fascism
+						}
+						create_country_leader = {
+							name = "Satellizer el Bridget"
+							desc = "Satellizer_el_Bridget_DESC"
+							picture = "Portrait_Satellizer_el_Bridget.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Satellizer el Bridget"
-						desc = "Satellizer_el_Bridget_DESC"
-						picture = "Portrait_Satellizer_el_Bridget.dds"
-						expire = "1965.1.1"
-						ideology = liberalism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = democratic
+						}
+						create_country_leader = {
+							name = "Satellizer el Bridget"
+							desc = "Satellizer_el_Bridget_DESC"
+							picture = "Portrait_Satellizer_el_Bridget.dds"
+							expire = "1965.1.1"
+							ideology = liberalism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Satellizer el Bridget"
-						desc = "Satellizer_el_Bridget_DESC"
-						picture = "Portrait_Satellizer_el_Bridget.dds"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else = {
+						create_country_leader = {
+							name = "Satellizer el Bridget"
+							desc = "Satellizer_el_Bridget_DESC"
+							picture = "Portrait_Satellizer_el_Bridget.dds"
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
 				}
@@ -379,48 +479,65 @@ on_actions = {
 					limit = {
 						original_tag = POL
 					}
-					create_country_leader = {
-						name = "Irina Jelavic"
-						desc = "Irina_Jelavic_DESC"
-						picture = "Portrait_Irina_Jelavic.dds"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					if = {
+						limit = {
+							has_government = communism
+						}
+						create_country_leader = {
+							name = "Irina Jelavic"
+							desc = "Irina_Jelavic_DESC"
+							picture = "Portrait_Irina_Jelavic.dds"
+							expire = "1965.1.1"
+							ideology = stalinism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Irina Jelavic"
-						desc = "Irina_Jelavic_DESC"
-						picture = "Portrait_Irina_Jelavic.dds"
-						expire = "1965.1.1"
-						ideology = stalinism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = fascism
+						}
+						create_country_leader = {
+							name = "Irina Jelavic"
+							desc = "Irina_Jelavic_DESC"
+							picture = "Portrait_Irina_Jelavic.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Irina Jelavic"
-						desc = "Irina_Jelavic_DESC"
-						picture = "Portrait_Irina_Jelavic.dds"
-						expire = "1965.1.1"
-						ideology = liberalism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else_if = {
+						limit = {
+							has_government = democratic
+						}
+						create_country_leader = {
+							name = "Irina Jelavic"
+							desc = "Irina_Jelavic_DESC"
+							picture = "Portrait_Irina_Jelavic.dds"
+							expire = "1965.1.1"
+							ideology = liberalism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
-					create_country_leader = {
-						name = "Irina Jelavic"
-						desc = "Irina_Jelavic_DESC"
-						picture = "Portrait_Irina_Jelavic.dds"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							wfc_dictator
-							wfc_patron_of_the_military_industrial_complex
+					else = {
+						create_country_leader = {
+							name = "Irina Jelavic"
+							desc = "Irina_Jelavic_DESC"
+							picture = "Portrait_Irina_Jelavic.dds"
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = {
+								wfc_dictator
+								wfc_patron_of_the_military_industrial_complex
+							}
 						}
 					}
 				}

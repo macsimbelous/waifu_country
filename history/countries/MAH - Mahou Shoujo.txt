@@ -62,9 +62,9 @@ add_ideas = {
 #leaders
 
 create_country_leader = {
-	name = "Levi Ackerman"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Comm_Levi_Ackerman.tga"
+	name = "Arika Yumemiya"
+	desc = "POLITICS_Arika_Yumemiya_DESC"
+	picture = "Portrait_Arika_Yumemiya.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -85,30 +85,32 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Karen Kujou"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Demo_Karen_Kujou.tga"
+	name = "Illyasviel von Einzbern"
+	desc = "POLITICS_Illyasviel_von_Einzbern_DESC"
+	picture = "Portrait_Illyasviel_von_Einzbern.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		dislikes_germany
 		wfc_anime_tyan
+		wfc_defender
+		freedom_fighter
 	}
 }
 create_country_leader = {
-	name = "Arc Alter"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "France_Arc_Alter.tga"
+	name = "Momo Chiyoda"
+	desc = "POLITICS_Momo_Chiyoda_DESC"
+	picture = "Portrait_Momo_Chiyoda.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = fascism_ideology
 	traits = {
 		wfc_anime_tyan
 		wfc_Tyan_militarist
+		warmonger
 	}
 }
 
-#generals
 
+#marshal
 create_field_marshal = {
 	name = "Lauri Allan Torni"
 	picture = "Finland_Lauri_Allan_Torni.tga"
@@ -119,7 +121,17 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 4
 }
-
+#generals
+create_corps_commander = {
+	name = "Madoka_Kaname"
+	picture = "Portrait_Madoka_Kaname.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
 create_corps_commander = {
 	name = "Asahio"
 	picture = "Japan_Asahio.tga"

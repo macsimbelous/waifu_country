@@ -3,4 +3,16 @@ spriteTypes = {
                 name = "GFX_Rias_Gremory"
                 texturefile = "gfx/leaders/MMS/Portrait_Rias_Gremory.dds"
         }
+        spriteType = {
+                name = "GFX_Mio_Naruse"
+                texturefile = "gfx/leaders/MMS/Portrait_Mio_Naruse.dds"
+        }
+        spriteType = {
+                name = "GFX_Sakura_Minamoto"
+                texturefile = "gfx/leaders/MMS/Portrait_Sakura_Minamoto.dds"
+        }
+        spriteType = {
+                name = "GFX_Shigure"
+                texturefile = "gfx/leaders/MMS/Portrait_Shigure.dds"
+        }
 }

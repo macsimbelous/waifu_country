@@ -160,6 +160,29 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 4
 }
+create_corps_commander = {
+	name = "Birdy Cephon Altera"
+	picture = "Portrait_Birdy_Cephon_Altera.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+#Admirals
+create_navy_leader = {
+	name = "Ranma Saotome"
+	#id = 7109
+	picture = "Portrait_Ranma_Saotome.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
 #agents
 create_operative_leader = {
 	name = "Saki Mizushima"

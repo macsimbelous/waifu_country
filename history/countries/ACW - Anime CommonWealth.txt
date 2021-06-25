@@ -271,24 +271,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Iris Heart"
-	picture = "Portrait_Iris_Heart.dds"
-	traits = {
-		commando
-		infantry_leader
-		infantry_expert
-		skilled_staffer
-		trickster
-	}
-	skill = 4
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-	#id = 7016
-}
-
-create_corps_commander = {
 	name = "Kurumi Tokisaki"
 	picture = "Portrait_Kurumi_Tokisaki.dds"
 	traits = {
@@ -642,6 +624,249 @@ create_corps_commander = {
 	traits = {
 		infantry_leader
 		commando
+	}
+}
+create_corps_commander = {
+	name = "5pb"
+	picture = "Portrait_5pb.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Blanc"
+	picture = "Portrait_Blanc.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Compa"
+	picture = "Portrait_Compa.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Djeeta"
+	picture = "Portrait_Djeeta.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Ellis"
+	picture = "Portrait_Ellis.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Escha Malier"
+	picture = "Portrait_Escha_Malier.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Fujimaru Ritsuka"
+	picture = "Portrait_Fujimaru_Ritsuka.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Honoka Kousaka"
+	picture = "Portrait_Honoka_Kousaka.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "IF"
+	picture = "Portrait_IF.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Kasumi"
+	picture = "Portrait_Kasumi.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Merurulince Rede Arls"
+	picture = "Portrait_Merurulince_Rede_Arls.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Miho Nishizumi"
+	picture = "Portrait_Miho_Nishizumi.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Misato Katsuragi"
+	picture = "Portrait_Misato_Katsuragi.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Naru Narusegawa"
+	picture = "Portrait_Naru_Narusegawa.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Noire"
+	picture = "Portrait_Noire.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Rei Ayanami"
+	picture = "Portrait_Rei_Ayanami.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		panzer_leader
+	}
+}
+create_corps_commander = {
+	name = "Ryza"
+	picture = "Portrait_Ryza.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Selesia Upitiria"
+	picture = "Portrait_Selesia_Upitiria.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Sophie Neuenmuller"
+	picture = "Portrait_Sophie_Neuenmuller.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Vert"
+	picture = "Portrait_Vert.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Yukina Himeragi"
+	picture = "Portrait_Yukina_Himeragi.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Yuna"
+	picture = "Portrait_Yuna.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
 	}
 }
 

@@ -137,17 +137,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pyra"
-	desc = "POLITICS_Pyra_DESC"
-	picture = "Portrait_Pyra.dds"
+	name = "Histoire"
+	desc = "POLITICS_Histoire_DESC"
+	picture = "Portrait_Histoire.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
 		wfc_android
+		wfc_dictator
 		wfc_defender
-		wfc_patron_of_science
 		wfc_patron_of_industry
-		wfc_superweapon
 	}
 }
 
@@ -167,7 +166,22 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 4
 }
-
+create_field_marshal = {
+	name = "Iris Heart"
+	picture = "Portrait_Iris_Heart.dds"
+	traits = {
+		commando
+		infantry_leader
+		infantry_expert
+		offensive_doctrine
+		aggressive_assaulter
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
 #generals
 create_corps_commander = {
 	name = "Fiora Mechon"
@@ -185,9 +199,9 @@ create_corps_commander = {
 	name = "Pyra"
 	picture = "Portrait_Pyra.dds"
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
+	planning_skill = 2
 	logistics_skill = 1
 	traits = {
 		infantry_leader
@@ -224,13 +238,13 @@ create_corps_commander = {
 	name = "Hatsune Miku"
 	picture = "Portrait_Hatsune_Miku.dds"
 	traits = {
-		panzer_leader
+		
 	}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 	#id = 7031
 }
 
@@ -238,10 +252,23 @@ create_corps_commander = {
 	name = "Hana"
 	picture = "Portrait_Hana.dds"
 	traits = {
-		panzer_leader
+		
 	}
 	skill = 1
 	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "2B"
+	picture = "Portrait_2B.dds"
+	traits = {
+		offensive_doctrine
+	}
+	skill = 1
+	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
