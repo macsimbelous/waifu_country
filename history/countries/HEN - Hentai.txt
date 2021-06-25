@@ -59,9 +59,9 @@ add_ideas = {
 #leaders
 
 create_country_leader = {
-	name = "Suigintou Doll"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Germany_Suigintou_Doll.tga"
+	name = "Takumi Musashino"
+	desc = "POLITICS_Takumi_Musashino_DESC"
+	picture = "Portrait_Takumi_Musashino.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -70,9 +70,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Kaiser Tanya"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Germany_Kaiser_Tanya.tga"
+	name = "Saori Asamiya"
+	desc = "POLITICS_Saori_Asamiya_DESC"
+	picture = "Portrait_Saori_Asamiya.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -94,9 +94,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Eiki Shiki"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "Italy_Eiki_Shiki.tga"
+	name = "Sill Plain"
+	desc = "POLITICS_Sill_Plain_DESC"
+	picture = "Portrait_Sill_Plain.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -117,56 +117,25 @@ create_corps_commander = {
 	}
 }
 create_corps_commander = {
-	name = "U-511"
-	picture = "Germany_U-511.tga"
-	traits = { trickster fortress_buster panzer_leader }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
+	name = "Anri Sogahara"
+	picture = "Portrait_Anri_Sogahara.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
 }
-
 create_corps_commander = {
-	name = "Miho Nishizumi"
-	picture = "Germany_Miho_Nishizumi.tga"
-	traits = { trickster winter_specialist }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
+	name = "Yuuki Kawaragi"
+	picture = "Portrait_Yuuki_Kawaragi.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
 }
 
-create_field_marshal = {
-	name = "Ermi Doenitz"
-	picture = "Germany_Ermi_Doenitz.tga"
-	traits = { defensive_doctrine offensive_doctrine fast_planner trait_engineer }
-	skill = 5
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Walther Wenck"
-	picture = "Germany_Walther_Wenck.tga"
-	traits = { commando naval_invader }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Hans Detloff von Cossel"
-	picture = "Germany_Hans_Detloff_von_Cossel.tga"
-	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-}
