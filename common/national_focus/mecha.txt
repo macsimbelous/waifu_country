@@ -623,7 +623,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_extra_tech_slot_2
+		id = meh_extra_tech_slot_2
 		icon = GFX_focus_research
 		prerequisite = {
 			focus = meh_rocket_effort
@@ -650,7 +650,7 @@ focus_tree = {
 	}
 	#indastrial
 	focus = {
-		id = meh_robo_factory
+		id = meh_robo_factory_focus
 		icon = GFX_goal_generic_production
 		x = 26
 		y = 0
@@ -674,11 +674,11 @@ focus_tree = {
 		id = meh_steel_effort
 		icon = GFX_focus_generic_steel
 		prerequisite = {
-			focus = meh_robo_factory
+			focus = meh_robo_factory_focus
 		}
 		x = -1
 		y = 1
-		relative_position_id = meh_robo_factory
+		relative_position_id = meh_robo_factory_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -738,11 +738,11 @@ focus_tree = {
 		id = meh_non-ferrous_metals_effort
 		icon = GFX_focus_generic_aluminum
 		prerequisite = {
-			focus = meh_robo_factory
+			focus = meh_robo_factory_focus
 		}
 		x = 1
 		y = 1
-		relative_position_id = meh_robo_factory
+		relative_position_id = meh_robo_factory_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
