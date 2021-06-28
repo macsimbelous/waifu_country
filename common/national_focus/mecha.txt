@@ -1,0 +1,835 @@
+focus_tree = {
+	id = mecha_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEH
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 1100
+	}
+	initial_show_position = {
+		focus = meh_political_effort
+	}
+	focus = {
+		id = meh_political_effort
+		icon = GFX_goal_generic_demand_territory
+		x = 10
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = meh_conquest
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = meh_political_effort
+		}
+		relative_position_id = meh_political_effort
+		x = -5
+		y = 1
+		cost = 10
+		mutually_exclusive = {
+			focus = meh_cooperation
+			focus = meh_neutrality
+		}
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available_if_capitulated = yes
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_timed_idea = {
+				idea = nationalism
+				days = 720
+			}
+			set_rule = {
+				can_join_factions = no
+				can_create_factions = no
+				can_puppet = no
+				can_force_government = no
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_provocation_on_mex_border
+		icon = GFX_focus_generic_provoke_border_clashes
+		prerequisite = {
+			focus = meh_conquest
+		}
+		relative_position_id = meh_conquest
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			MEX = {
+				every_owned_state = {
+					add_claim_by = MEH
+				}
+				declare_war_on = {
+					target = MEH
+				}
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_usa_attack
+		icon = GFX_focus_generic_strike_at_democracy3
+		prerequisite = {
+			focus = meh_provocation_on_mex_border
+		}
+		relative_position_id = meh_provocation_on_mex_border
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available_if_capitulated = yes
+		available = {
+			has_government = fascism
+		}
+		completion_reward = {
+			USA = {
+				every_owned_state = {
+					add_claim_by = MEH
+				}
+			}
+			create_wargoal = {
+				target = USA
+				type = annex_everything
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+			focus = meh_political_effort
+		}
+		mutually_exclusive = {
+			focus = meh_conquest
+			focus = meh_cooperation
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_political_effort
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		available = {
+			has_government = neutrality
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_idea = neutrality_idea
+					}
+				}
+				add_ideas = neutrality_idea
+			}
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = meh_border_defense
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10
+		relative_position_id = meh_neutrality
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = meh_neutrality
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					all_neighbor_state = {
+						always = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 5
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 5
+					instant_build = yes
+				}
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_cooperation
+		icon = GFX_goal_generic_national_unity
+		prerequisite = {
+			focus = meh_political_effort
+		}
+		relative_position_id = meh_political_effort
+		x = 5
+		y = 1
+		cost = 5
+		mutually_exclusive = {
+			focus = meh_conquest
+			focus = meh_neutrality
+		}
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available_if_capitulated = yes
+		available = {
+			OR = {
+				has_government = communism
+				has_government = democratic
+				has_government = neutrality
+			}
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.1
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_communism
+		icon = GFX_goal_support_communism		#icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = meh_cooperation
+		}
+		mutually_exclusive = {
+			focus = meh_democratic
+		}
+		available = {
+			OR = {
+				has_government = communism
+				has_government = neutrality
+			}
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_cooperation
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_timed_idea = {
+				idea = internationalism
+				days = 720
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_join_comintern
+		icon = GFX_focus_generic_join_comintern
+		prerequisite = {
+			focus = meh_communism
+		}
+		available = {
+			has_government = communism
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_communism
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			SOV = {
+				add_to_faction = MEH
+			}
+		}
+	}
+	focus = {
+		id = meh_democratic
+		icon = GFX_goal_support_democracy
+		prerequisite = {
+			focus = meh_cooperation
+		}
+		mutually_exclusive = {
+			focus = meh_communism
+		}
+		available = {
+			OR = {
+				has_government = democratic
+				has_government = neutrality
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_cooperation
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = liberty_ethos_focus
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_join_allies
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = {
+			focus = meh_democratic
+		}
+		available = {
+			has_government = democratic
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_democratic
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			ENG = {
+				add_to_faction = MEH
+			}
+		}
+	}
+	#army
+	focus = {
+		id = meh_warmind_focus
+		icon = GFX_goal_generic_secret_weapon
+		x = 20
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 25
+			add_ideas = meh_warmind
+		}
+	}
+	focus = {
+		id = meh_armor_effort
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = {
+			focus = meh_warmind_focus
+		}
+		x = -2
+		y = 1
+		relative_position_id = meh_warmind_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 2
+				category = cat_heavy_armor
+			}
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = meh_fighter_focus
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = {
+			focus = meh_warmind_focus
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_warmind_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1
+				uses = 2
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = meh_cruiser_effort
+		icon = GFX_focus_generic_navy_battleship2
+		prerequisite = {
+			focus = meh_warmind_focus
+		}
+		x = 2
+		y = 1
+		relative_position_id = meh_warmind_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_equipment_research
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				name = naval_doc_bonus
+				bonus = 1
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	focus = {
+		id = meh_warmind_agr_focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+			focus = meh_armor_effort
+			focus = meh_fighter_focus
+			focus = meh_cruiser_effort
+		}
+		relative_position_id = meh_fighter_focus
+		x = -1
+		y = 1
+		cost = 10
+		mutually_exclusive = {
+			focus = meh_warmind_def_focus
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 25
+			swap_ideas = {
+				remove_idea = meh_warmind
+				add_idea = meh_warmind_agr
+			}
+		}
+	}
+	focus = {
+		id = meh_warmind_def_focus
+		icon = GFX_goal_generic_defence
+		prerequisite = {
+			focus = meh_armor_effort
+			focus = meh_fighter_focus
+			focus = meh_cruiser_effort
+		}
+		relative_position_id = meh_fighter_focus
+		x = 1
+		y = 1
+		cost = 10
+		mutually_exclusive = {
+			focus = meh_warmind_agr_focus
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 25
+			swap_ideas = {
+				remove_idea = meh_warmind
+				add_idea = meh_warmind_def
+			}
+		}
+	}
+	focus = {
+		id = meh_ai_2_focus
+		icon = GFX_goal_generic_production2
+		prerequisite = {
+			focus = meh_warmind_agr_focus
+			focus = meh_warmind_def_focus
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_warmind_def_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = meh_ai
+				add_idea = meh_ai_2
+			}
+		}
+	}
+	focus = {
+		id = meh_extra_tech_slot
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = meh_ai_2_focus
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_ai_2_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = meh_rocket_effort
+		icon = GFX_focus_rocketry
+		prerequisite = {
+			focus = meh_extra_tech_slot
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_extra_tech_slot
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 2
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+	}
+	focus = {
+		id = meh_nuclear_effort
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = meh_extra_tech_slot
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_extra_tech_slot
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = acw_extra_tech_slot_2
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = meh_rocket_effort
+		}
+		prerequisite = {
+			focus = meh_nuclear_effort
+		}
+		available = {
+			num_of_factories > 50
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = -1
+		y = 1
+		relative_position_id = meh_nuclear_effort
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	#indastrial
+	focus = {
+		id = meh_robo_factory
+		icon = GFX_goal_generic_production
+		x = 26
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = meh_robo_factory
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = meh_steel_effort
+		icon = GFX_focus_generic_steel
+		prerequisite = {
+			focus = meh_robo_factory
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_robo_factory
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			378 = {
+				add_resource = {
+					type = steel
+					amount = 31
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = meh_tungsten_effort
+		icon = GFX_focus_generic_tungsten
+		prerequisite = {
+			focus = meh_steel_effort
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_steel_effort
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			378 = {
+				add_resource = {
+					type = tungsten
+					amount = 17
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = meh_non-ferrous_metals_effort
+		icon = GFX_focus_generic_aluminum
+		prerequisite = {
+			focus = meh_robo_factory
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_robo_factory
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			378 = {
+				add_resource = {
+					type = aluminium
+					amount = 21
+				}
+				add_resource = {
+					type = chromium
+					amount = 13
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = meh_synthetic_refinery_effort
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = {
+			focus = meh_non-ferrous_metals_effort
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_non-ferrous_metals_effort
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		available = {
+			has_tech = synth_oil_experiments
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			378 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = meh_robo_factory_2
+		icon = GFX_goal_generic_production
+		prerequisite = {
+			focus = meh_synthetic_refinery_effort
+		}
+		prerequisite = {
+			focus = meh_tungsten_effort
+		}
+		relative_position_id = meh_synthetic_refinery_effort
+		x = -1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = meh_robo_factory_2_tt
+			add_to_variable = {
+				meh_robo_factory_production = 10000
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+		}
+	}
+}

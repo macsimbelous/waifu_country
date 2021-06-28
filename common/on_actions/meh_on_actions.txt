@@ -1,0 +1,24 @@
+on_actions = {
+		on_startup = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = MEH
+				}
+				set_variable = {
+					meh_robo_factory_production = 25000
+				}
+			}
+		}
+	}
+	on_weekly_MEH = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = meh_robo_factory_flag
+				}
+				add_manpower = meh_robo_factory_production
+			}
+		}
+	}
+}

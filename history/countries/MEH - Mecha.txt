@@ -32,7 +32,7 @@ set_technology = {
 	interwar_artillery = 1
 	interwar_antiair = 1
 	gwtank = 1
-	basic_light_tank = 1
+	basic_heavy_tank = 1
 	early_fighter = 1
 	fighter1 = 1
 	CAS1 = 1
@@ -73,12 +73,12 @@ set_technology = {
 }
 
 add_ideas = {
-	free_trade
+	closed_economy
 	civilian_economy
 	volunteer_only
 	meh_super_factory
 	meh_ai
-	meh_warmind_1
+	#meh_warmind_1
 }
 
 set_politics = {
