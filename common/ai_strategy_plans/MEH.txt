@@ -5,7 +5,7 @@ mecha_historical = {
 		original_tag = MEH
 	}
 	enable = {
-		is_historical_focus_on = yes
+		has_government = neutrality
 	}
 	abort = {
 		OR = {
