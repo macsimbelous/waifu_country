@@ -1,0 +1,10 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_Aegis"
+                texturefile = "gfx/leaders/MEH/Portrait_Aegis.dds"
+        }
+        spriteType = {
+                name = "GFX_Chii"
+                texturefile = "gfx/leaders/MEH/Portrait_Chii.dds"
+        }
+}

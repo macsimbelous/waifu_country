@@ -1,0 +1,10 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_Mika_Amano"
+                texturefile = "gfx/leaders/HEN/Portrait_Mika_Amano.dds"
+        }
+        spriteType = {
+                name = "GFX_Yuriya_Komiya"
+                texturefile = "gfx/leaders/HEN/Portrait_Yuriya_Komiya.dds"
+        }
+}

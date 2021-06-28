@@ -271,6 +271,19 @@ create_corps_commander = {
 	logistics_skill = 1
 	#id = 7030
 }
+create_corps_commander = {
+	name = "A2"
+	picture = "Portrait_A2.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 7030
+}
 
 #Admirals
 create_navy_leader = {
@@ -302,8 +315,34 @@ create_navy_leader = {
 }
 
 #Agents
-
-
+create_operative_leader = {
+	name = "Aegis"
+	GFX = GFX_Aegis
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	female = yes
+	nationalities = {
+		MEH
+	}
+	traits = {
+		operative_commando
+	}
+}
+create_operative_leader = {
+	name = "Chii"
+	GFX = GFX_Chii
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	female = yes
+	nationalities = {
+		MEH
+	}
+	traits = {
+		operative_seducer
+		operative_infiltrator
+		operative_master_interrogator
+	}
+}
 ### Variants ###
 # Submarines #
 create_equipment_variant = {

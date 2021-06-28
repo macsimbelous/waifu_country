@@ -138,7 +138,7 @@ create_country_leader = {
 	desc = "POLITICS_Holo_DESC"
 	picture = "Portrait_Holo.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = centrism
 	traits = {
 		wfc_anime_tyan
 		financial_expert
@@ -169,6 +169,18 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Shiraori"
+	picture = "Portrait_Shiraori.dds"
+	traits = {
+		expert_delegator fast_planner trickster adaptable trait_engineer
+	}
+	skill = 6
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 7
+	logistics_skill = 6
 }
 #generals
 create_corps_commander = {

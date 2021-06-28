@@ -138,4 +138,88 @@ create_corps_commander = {
 	traits = {
 	}
 }
-
+create_corps_commander = {
+	name = "Rina Komiya"
+	picture = "Portrait_Rina_Komiya.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Anna Komiya"
+	picture = "Portrait_Anna_Komiya.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Ruma"
+	picture = "Portrait_Ruma.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+#admirals
+create_navy_leader = {
+	name = "Suomi"
+	#id = 7105
+	picture = "Portrait_Suomi.dds"
+	traits = {
+		naval_invader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Akiho Taniguchi"
+	#id = 7105
+	picture = "Portrait_Akiho_Taniguchi.dds"
+	traits = {
+		naval_liason
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+#agents
+create_operative_leader = {
+	name = "Mika Amano"
+	GFX = GFX_Mika_Amano
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		HEN
+	}
+	traits = {
+		operative_seducer
+	}
+}
+create_operative_leader = {
+	name = "Yuriya Komiya"
+	GFX = GFX_Yuriya_Komiya
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		HEN SOV
+	}
+	traits = {
+		operative_seducer
+	}
+}
