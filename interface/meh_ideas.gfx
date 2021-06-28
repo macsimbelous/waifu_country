@@ -1,14 +1,26 @@
 spriteTypes = {
         spriteType = {
                 name = "GFX_idea_meh_i_401"
-                texturefile = "gfx/interface/ideas/idea_wfl_i_401.dds"
+                texturefile = "gfx/interface/ideas/idea_meh_i_401.dds"
         }
         spriteType = {
                 name = "GFX_idea_meh_eagle"
-                texturefile = "gfx/interface/ideas/idea_wfl_eagle.dds"
+                texturefile = "gfx/interface/ideas/idea_meh_eagle.dds"
         }
         spriteType = {
                 name = "GFX_idea_meh_super_factory"
                 texturefile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_a2"
+                texturefile = "gfx/interface/ideas/idea_meh_a2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_pyra"
+                texturefile = "gfx/interface/ideas/idea_meh_pyra.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_iris_heart"
+                texturefile = "gfx/interface/ideas/idea_meh_iris_heart.dds"
         }
 }

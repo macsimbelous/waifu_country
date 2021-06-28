@@ -182,33 +182,40 @@ ideas = {
 
 	}
 	theorist = {
-		wfl_eagle = {
+		meh_a2 = {
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			cost = 150
+			research_bonus = {
+				land_doctrine = 0.2
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		meh_eagle = {
 			ledger = air
 			allowed = {
 				original_tag = MEH
 			}
-			available = {
-				#has_completed_focus = wfl_minoboron
-			}
 			cost = 150
 			research_bonus = {
-				air_doctrine = 0.1
+				air_doctrine = 0.2
 			}
 			traits = {
 				air_warfare_theorist
 			}
 		}
-		wfl_i_401 = {
+		meh_i_401 = {
 			ledger = navy
 			allowed = {
 				original_tag = MEH
 			}
-			available = {
-				#has_completed_focus = wfl_minoboron
-			}
 			cost = 150
 			research_bonus = {
-				cat_trade_interdiction = 0.2
+				naval_doctrine = 0.2
 			}
 			traits = {
 				submarine_specialist
@@ -216,7 +223,22 @@ ideas = {
 		}
 	}
 	army_chief = {
-
+		meh_iris_heart = {
+			allowed = {
+				original_tag = MEH
+			}
+			cost = 150
+			traits = {
+				army_chief_offensive_3
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 9
+				}
+			}
+		}
 	}
 	air_chief = {
 
@@ -225,7 +247,19 @@ ideas = {
 
 	}
 	high_command = {
-
+		meh_pyra = {
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			cost = 150
+			traits = {
+				army_infantry_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	tank_manufacturer = {
 		designer = yes
