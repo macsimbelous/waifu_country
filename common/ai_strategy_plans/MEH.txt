@@ -15,27 +15,14 @@ mecha_historical = {
 		}
 	}
 	ai_national_focuses = {
-		political_effort
-		liberty_ethos
-		neutrality_focus
-		deterrence
-		industrial_effort
-		production_effort
-		production_effort_2
-		production_effort_3
-		construction_effort
-		construction_effort_2
-		infrastructure_effort
-		infrastructure_effort_2
-		extra_tech_slot
-		nuclear_effort
-		secret_weapons
-		aviation_effort
-		fighter_focus
-		aviation_effort_2
-		rocket_effort
-		construction_effort_3
-		extra_tech_slot_2
+		meh_political_effort
+		meh_conquest
+		meh_warmind_focus
+		meh_armor_effort
+		meh_warmind_agr_focus
+		meh_ai_2_focus
+		meh_robo_factory_focus
+		meh_provocation_on_mex_border
 	}
 }
 
@@ -49,27 +36,7 @@ mecha_fascist = {
 		has_government = fascism
 	}
 	ai_national_focuses = {
-		political_effort
-		collectivist_ethos
-		nationalism_focus
-		militarism
-		industrial_effort
-		production_effort
-		production_effort_2
-		production_effort_3
-		construction_effort
-		construction_effort_2
-		infrastructure_effort
-		infrastructure_effort_2
-		extra_tech_slot
-		nuclear_effort
-		secret_weapons
-		aviation_effort
-		fighter_focus
-		aviation_effort_2
-		rocket_effort
-		construction_effort_3
-		extra_tech_slot_2
+		meh_usa_attack
 	}
 }
 
@@ -83,26 +50,7 @@ mecha_communism_ussr = {
 		has_government = communism
 	}
 	ai_national_focuses = {
-		political_effort
-		collectivist_ethos
-		internationalism_focus
-		industrial_effort
-		production_effort
-		production_effort_2
-		production_effort_3
-		construction_effort
-		construction_effort_2
-		infrastructure_effort
-		infrastructure_effort_2
-		extra_tech_slot
-		nuclear_effort
-		secret_weapons
-		aviation_effort
-		fighter_focus
-		aviation_effort_2
-		rocket_effort
-		construction_effort_3
-		extra_tech_slot_2
+		meh_join_comintern
 	}
 }
 mecha_democrat = {
@@ -115,27 +63,6 @@ mecha_democrat = {
 		has_government = democratic
 	}
 	ai_national_focuses = {
-		political_effort
-		liberty_ethos
-		interventionism_focus
-		volunteer_corps
-		foreign_expeditions
-		industrial_effort
-		production_effort
-		production_effort_2
-		production_effort_3
-		construction_effort
-		construction_effort_2
-		infrastructure_effort
-		infrastructure_effort_2
-		extra_tech_slot
-		nuclear_effort
-		secret_weapons
-		aviation_effort
-		fighter_focus
-		aviation_effort_2
-		rocket_effort
-		construction_effort_3
-		extra_tech_slot_2
+		meh_join_allies
 	}
 }
