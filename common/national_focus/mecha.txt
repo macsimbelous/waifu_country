@@ -54,6 +54,9 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+			}
 			add_political_power = 150
 			add_timed_idea = {
 				idea = nationalism
@@ -72,8 +75,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = meh_provocation_on_mex_border
-		icon = GFX_focus_generic_provoke_border_clashes
+		id = meh_usa_attack
+		icon = GFX_focus_generic_strike_at_democracy3
 		prerequisite = {
 			focus = meh_conquest
 		}
@@ -84,39 +87,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		available_if_capitulated = yes
-		completion_reward = {
-			MEX = {
-				every_owned_state = {
-					add_claim_by = MEH
-				}
-				declare_war_on = {
-					target = MEH
-				}
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.1
-			}
-		}
-	}
-	focus = {
-		id = meh_usa_attack
-		icon = GFX_focus_generic_strike_at_democracy3
-		prerequisite = {
-			focus = meh_provocation_on_mex_border
-		}
-		relative_position_id = meh_provocation_on_mex_border
-		x = 0
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		available_if_capitulated = yes
-		available = {
-			has_government = fascism
-		}
+		#available_if_capitulated = yes
 		completion_reward = {
 			USA = {
 				every_owned_state = {
@@ -131,6 +102,34 @@ focus_tree = {
 				ideology = fascism
 				popularity = 0.1
 			}
+		}
+	}
+	focus = {
+		id = meh_triumph_in_america
+		icon = GFX_focus_generic_strike_at_democracy3
+		prerequisite = {
+			focus = meh_usa_attack
+		}
+		relative_position_id = meh_usa_attack
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		#available_if_capitulated = yes
+		available = {
+			NOT = {
+				country_exists = USA
+			}
+		}
+		completion_reward = {
+			add_political_power = 300
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			add_war_support = 0.3
 		}
 	}
 	focus = {
@@ -795,7 +794,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
-					level = 3
+					level = 1
 					instant_build = yes
 				}
 			}

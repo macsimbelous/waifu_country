@@ -6,7 +6,7 @@ wfc_integration_category = {
 		icon = decision_generic_brainwash
 		available = {
 			FROM = {
-				compliance > 90
+				compliance > 50
 				resistance < 5
 			}
 		}
@@ -340,7 +340,12 @@ wfc_create_subjects_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			base = 1
+			modifier = {
+				#garrison_manpower_need > 0
+				has_manpower = 0
+				add = 9
+			}
 		}
 		complete_effect = {
 			set_autonomy = {

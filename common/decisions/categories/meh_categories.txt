@@ -27,6 +27,15 @@ meh_war_category = {
 		original_tag = MEH
 	}
 	visible = {
-		has_completed_focus = meh_usa_attack
+		has_completed_focus = meh_triumph_in_america
+	}
+}
+
+meh_cyborgization_category = {
+	priority = 5
+	icon = decision_category_generic_propaganda
+	#picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
+	allowed = {
+		original_tag = MEH
 	}
 }
