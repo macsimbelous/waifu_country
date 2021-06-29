@@ -75,12 +75,57 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = meh_usa_attack
-		icon = GFX_focus_generic_strike_at_democracy3
+		id = meh_war_economy
+		icon = GFX_focus_generic_tank_production
+		cost = 5
 		prerequisite = {
 			focus = meh_conquest
 		}
 		relative_position_id = meh_conquest
+		x = 0
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					OR = {
+						NOT = {
+							has_idea = war_economy
+						}
+						NOT = {
+							has_idea = tot_economic_mobilisation
+						}
+					}
+				}
+				add_ideas = war_economy
+			}
+			378 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+		}
+	}
+	focus = {
+		id = meh_usa_attack
+		icon = GFX_focus_generic_strike_at_democracy3
+		prerequisite = {
+			focus = meh_war_economy
+		}
+		relative_position_id = meh_war_economy
 		x = 0
 		y = 1
 		cost = 10
@@ -88,6 +133,9 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		#available_if_capitulated = yes
+		available = {
+			num_divisions > 60
+		}
 		completion_reward = {
 			USA = {
 				every_owned_state = {
@@ -119,8 +167,8 @@ focus_tree = {
 		}
 		#available_if_capitulated = yes
 		available = {
-			NOT = {
-				country_exists = USA
+			USA = {
+				has_capitulated = yes
 			}
 		}
 		completion_reward = {
@@ -823,6 +871,31 @@ focus_tree = {
 			add_to_variable = {
 				meh_robo_factory_production = 10000
 			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = meh_construction_robots_focus
+		icon = GFX_goal_generic_construction
+		prerequisite = {
+			focus = meh_robo_factory_2
+		}
+		relative_position_id = meh_robo_factory_2
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = meh_construction_robots
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1

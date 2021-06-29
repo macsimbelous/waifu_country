@@ -16,13 +16,8 @@ mecha_historical = {
 	}
 	ai_national_focuses = {
 		meh_robo_factory_focus
-		meh_warmind_focus
-		meh_armor_effort
-		meh_warmind_agr_focus
-		meh_ai_2_focus
 		meh_political_effort
 		meh_conquest
-		
 	}
 }
 
@@ -36,6 +31,17 @@ mecha_fascist = {
 		has_government = fascism
 	}
 	ai_national_focuses = {
+		meh_warmind_focus
+		meh_armor_effort
+		meh_warmind_agr_focus
+		meh_ai_2_focus
+		meh_extra_tech_slot
+		meh_steel_effort
+		meh_tungsten_effort
+		meh_non-ferrous_metals_effort
+		meh_synthetic_refinery_effort
+		meh_robo_factory_2
+		meh_construction_robots_focus
 		meh_usa_attack
 	}
 }

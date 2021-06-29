@@ -289,7 +289,7 @@ ideas = {
 				wfc_first_lady
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 2
 			}
 		}
 		acw_noelle = {
@@ -343,7 +343,7 @@ ideas = {
 				wfc_girl_scientist
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 2
 			}
 		}
 		acw_ange_le_carre = {
@@ -639,7 +639,7 @@ ideas = {
 				army_chief_offensive_3
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 2
 			}
 		}
 	}
@@ -749,7 +749,7 @@ ideas = {
 				army_infantry_3
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 2
 			}
 		}
 		acw_stalin_girl = {

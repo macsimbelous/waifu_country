@@ -41,6 +41,9 @@ leader_traits = {
 		army_core_defence_factor = 0.15
 		ai_call_ally_desire_factor = 10
 		political_power_factor = 0.3
+		trade_laws_cost_factor = -0.33
+		economy_cost_factor = -0.33
+		political_advisor_cost_factor = -0.33
 	}
 	wfc_patron_of_intelligence = {
 		random = no
@@ -171,6 +174,7 @@ leader_traits = {
 		#sprite = 12
 		war_support_factor = 0.15
 		stability_factor = 0.15
+		political_power_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
