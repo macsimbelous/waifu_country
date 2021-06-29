@@ -28,9 +28,9 @@ focus_tree = {
 				add = 5
 			}
 		}
-		available = {
-			has_government = fascism
-		}
+		# available = {
+		# 	has_government = fascism
+		# }
 		completion_reward = {
 			add_ideas = acr_anime_physics
 		}
@@ -2765,7 +2765,7 @@ focus_tree = {
 				}
 				add_opinion_modifier = {
 					target = ACW
-					modifier = small_increase
+					modifier = large_increase
 				}
 			}
 			custom_effect_tooltip = acw_world_tour_tt
