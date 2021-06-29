@@ -235,6 +235,8 @@ meh_kosmos_category = {
 meh_war_category = {
 	meh_declare_war_decision = {
 		name = meh_declare_war_decision.t
+		#war_with_target_on_complete = yes
+		war_with_target_on_remove = yes
 		available = {
 			#has_war = no
 			FROM = {
@@ -307,7 +309,8 @@ meh_war_category = {
 		fire_only_once = no
 		cost = 100
 		days_re_enable = 30
-		complete_effect = {
+		days_remove = 30
+		remove_effect = {
 			FROM = {
 				every_owned_state = {
 					add_claim_by = ROOT
@@ -317,6 +320,9 @@ meh_war_category = {
 				target = FROM
 				type = annex_everything
 			}
+		}
+		complete_effect = {
+
 		}
 	}
 }
