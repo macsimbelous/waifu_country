@@ -343,7 +343,7 @@ wfc_create_subjects_category = {
 			base = 1
 			modifier = {
 				#garrison_manpower_need > 0
-				has_manpower = 0
+				has_manpower < 1000
 				add = 9
 			}
 		}

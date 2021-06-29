@@ -16,14 +16,13 @@ mecha_historical = {
 	}
 	ai_national_focuses = {
 		meh_robo_factory_focus
-		meh_political_effort
-		meh_conquest
 		meh_warmind_focus
 		meh_armor_effort
 		meh_warmind_agr_focus
 		meh_ai_2_focus
+		meh_political_effort
+		meh_conquest
 		
-
 	}
 }
 
