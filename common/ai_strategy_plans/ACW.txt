@@ -15,6 +15,9 @@ acw_historical = {
 		}
 	}
 	ai_national_focuses = {
+		ACW_army_power
+		ACW_war_economic
+		ACW_rom_atack
 		acw_industrial_effort
 		acw_production_effort
 		acw_production_effort_2

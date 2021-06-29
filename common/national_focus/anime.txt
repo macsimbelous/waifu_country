@@ -67,6 +67,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ACW_war_economic
 		}
+		will_lead_to_war_with = ROM
 		completion_reward = {
 			ROM = {
 				every_owned_state = {
