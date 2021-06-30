@@ -280,9 +280,11 @@ focus_tree = {
 		}
 		#available_if_capitulated = yes
 		completion_reward = {
-			305.OWNER = {
-				every_owned_state = {
-					add_claim_by = MEH
+			305 = {
+				OWNER = {
+					every_owned_state = {
+						add_claim_by = MEH
+					}
 				}
 			}
 			create_wargoal = {
@@ -343,9 +345,11 @@ focus_tree = {
 		}
 		#available_if_capitulated = yes
 		completion_reward = {
-			142.OWNER = {
-				every_owned_state = {
-					add_claim_by = MEH
+			142 = {
+				OWNER = {
+					every_owned_state = {
+						add_claim_by = MEH
+					}
 				}
 			}
 			create_wargoal = {
