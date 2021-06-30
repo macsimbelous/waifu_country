@@ -1,7 +1,7 @@
 ﻿capital = 554
 
 oob = "MAH_1936"
-
+set_naval_oob = "MAH_1936_Naval"
 #research and industry stuff
 
 set_technology = {
@@ -183,5 +183,18 @@ create_operative_leader = {
 	available_to_spy_master = yes
 	nationalities = {
 		MAH
+	}
+}
+### Variants ###
+# Submarines #
+create_equipment_variant = {
+	name = "S Class"
+	type = ship_hull_submarine_1
+	name_group = ENG_SS_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
 	}
 }

@@ -1,0 +1,28 @@
+mms_world_conquest_category = {
+	priority = 8
+	icon = decision_generic_ignite_civil_war
+	#visible_when_empty = yes
+	allowed = {
+		original_tag = MMS
+	}
+	visible = {
+		NOT = {
+			has_country_leader_with_trait = defeatist
+		}
+	}
+}
+mms_workouts_shamiko_category = {
+	priority = 10
+	#icon = decision_generic_ignite_civil_war
+	#visible_when_empty = yes
+	allowed = {
+		original_tag = MMS
+	}
+	visible = {
+		has_country_leader = {
+			ruling_only = yes
+			name = "Shamiko"
+		}
+		has_country_leader_with_trait = defeatist
+	}
+}

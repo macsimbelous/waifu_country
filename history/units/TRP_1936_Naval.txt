@@ -1,0 +1,58 @@
+﻿units = {
+	fleet = {
+		name = "Trap Submarine Fleet"
+		naval_base = 4980
+		task_force = {
+			name = "1st Submarine Flotilla"
+			location = 4980
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+		}
+		task_force = {
+			name = "2nd Submarine Flotilla"
+			location = 4980
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEH version_name = "S Class" } } }
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "MEH" 
+			version_name = "S Class"
+		}
+		requested_factories = 1
+		progress = 0.90
+		amount = 1
+	}
+}

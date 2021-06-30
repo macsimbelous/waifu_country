@@ -1,0 +1,111 @@
+mms_workouts_shamiko_category = {
+	mms_workouts_shamiko_decision = {
+		ai_will_do = {
+			factor = 1
+		}
+		days_remove = 30
+		remove_effect = {
+			remove_country_leader_trait = defeatist
+			add_country_leader_trait = warmonger
+			add_country_leader_trait = wfc_Tyan_militarist
+		}
+	}
+}
+mms_world_conquest_category = {
+	mms_world_conquest_decision = {
+		name = mms_world_conquest_decision.t
+		#war_with_target_on_complete = yes
+		war_with_target_on_remove = yes
+		available = {
+			#has_war = no
+			FROM = {
+				OR = {
+					is_neighbor_of = ROOT
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
+				}
+			}
+		}
+		#target_array = neighbors
+		target_trigger = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 2
+				has_government = fascism
+			}
+			modifier = {
+				add = 1.5
+				has_government = communism
+			}
+			modifier = {
+				add = 1
+				has_government = democratic
+			}
+			modifier = {
+				add = 1
+				has_government = neutrality
+			}
+			modifier = {
+				has_war = yes
+				add = -1
+			}
+		}
+		fire_only_once = no
+		cost = 100
+		days_re_enable = 30
+		days_remove = 30
+		remove_effect = {
+			FROM = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
+			}
+		}
+		complete_effect = {
+
+		}
+	}
+}

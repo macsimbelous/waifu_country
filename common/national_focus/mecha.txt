@@ -129,12 +129,18 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 10
+		will_lead_to_war_with = USA
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		#available_if_capitulated = yes
-		available = {
-			num_divisions > 60
+		bypass = {
+			OR = {
+				has_war_with = USA
+				NOT = {
+					country_exists = USA
+				}
+			}
 		}
 		completion_reward = {
 			USA = {
@@ -154,7 +160,7 @@ focus_tree = {
 	}
 	focus = {
 		id = meh_triumph_in_america
-		icon = GFX_focus_generic_strike_at_democracy3
+		icon = GFX_goal_generic_propaganda
 		prerequisite = {
 			focus = meh_usa_attack
 		}
@@ -178,6 +184,178 @@ focus_tree = {
 				popularity = 0.1
 			}
 			add_war_support = 0.3
+		}
+	}
+	focus = {
+		id = meh_mex_attack
+		icon = GFX_focus_attack_mexico
+		prerequisite = {
+			focus = meh_triumph_in_america
+		}
+		relative_position_id = meh_triumph_in_america
+		x = -1
+		y = 1
+		cost = 10
+		will_lead_to_war_with = MEX
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		#available_if_capitulated = yes
+		bypass = {
+			OR = {
+				has_war_with = MEX
+				NOT = {
+					country_exists = MEX
+				}
+			}
+		}
+		completion_reward = {
+			MEX = {
+				every_owned_state = {
+					add_claim_by = MEH
+				}
+			}
+			create_wargoal = {
+				target = MEX
+				type = annex_everything
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_can_attack
+		icon = GFX_focus_attack_canada
+		prerequisite = {
+			focus = meh_triumph_in_america
+		}
+		relative_position_id = meh_triumph_in_america
+		x = 1
+		y = 1
+		cost = 10
+		will_lead_to_war_with = CAN
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		#available_if_capitulated = yes
+		bypass = {
+			OR = {
+				has_war_with = CAN
+				NOT = {
+					country_exists = CAN
+				}
+			}
+		}
+		completion_reward = {
+			CAN = {
+				every_owned_state = {
+					add_claim_by = MEH
+				}
+			}
+			create_wargoal = {
+				target = CAN
+				type = annex_everything
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_invade_in_south_america
+		icon = GFX_focus_por_recover_latin_america
+		prerequisite = {
+			focus = meh_mex_attack
+		}
+		relative_position_id = meh_mex_attack
+		x = -1
+		y = 1
+		cost = 10
+		#will_lead_to_war_with = 305.OWNER
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		#available_if_capitulated = yes
+		completion_reward = {
+			305.OWNER = {
+				every_owned_state = {
+					add_claim_by = MEH
+				}
+			}
+			create_wargoal = {
+				target = 305.OWNER
+				type = annex_everything
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = meh_world_conquest
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = meh_can_attack
+		}
+		prerequisite = {
+			focus = meh_mex_attack
+		}
+		relative_position_id = meh_can_attack
+		x = -1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available = {
+			NOT = {
+				country_exists = CAN
+				country_exists = MEX
+			}
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_war_support = 0.3
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			custom_effect_tooltip = meh_world_conquest_tt
+		}
+	}
+	focus = {
+		id = meh_invade_in_europe
+		icon = GFX_focus_usa_focus_on_europe
+		prerequisite = {
+			focus = meh_can_attack
+		}
+		relative_position_id = meh_can_attack
+		x = 1
+		y = 1
+		cost = 10
+		#will_lead_to_war_with = 142.OWNER
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		#available_if_capitulated = yes
+		completion_reward = {
+			142.OWNER = {
+				every_owned_state = {
+					add_claim_by = MEH
+				}
+			}
+			create_wargoal = {
+				target = 142.OWNER
+				type = annex_everything
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
 		}
 	}
 	focus = {
