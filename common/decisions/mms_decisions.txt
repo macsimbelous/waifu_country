@@ -88,6 +88,33 @@ mms_world_conquest_category = {
 				has_war = yes
 				add = -1
 			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 1.5
+				}
+				add = 1
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 2
+				}
+				add = 1
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 3
+				}
+				add = 1
+			}
+			modifier = {
+				FROM = {
+					is_in_faction = yes
+				}
+				add = -2
+			}
 		}
 		fire_only_once = no
 		cost = 100
