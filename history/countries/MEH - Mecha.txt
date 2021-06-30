@@ -330,6 +330,20 @@ create_operative_leader = {
 		operative_master_interrogator
 	}
 }
+create_operative_leader = {
+	name = "Vanessa Diodati"
+	GFX = GFX_Vanessa_Diodati
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	female = yes
+	nationalities = {
+		MEH
+	}
+	traits = {
+		operative_demolition_expert
+		operative_commando
+	}
+}
 ### Variants ###
 # Submarines #
 create_equipment_variant = {

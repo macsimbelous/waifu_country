@@ -23,4 +23,16 @@ spriteTypes = {
                 name = "GFX_idea_meh_iris_heart"
                 texturefile = "gfx/interface/ideas/idea_meh_iris_heart.dds"
         }
+        spriteType = {
+                name = "GFX_idea_meh_grace_o_connor"
+                texturefile = "gfx/interface/ideas/idea_meh_grace_o_connor.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_camilla_pareto"
+                texturefile = "gfx/interface/ideas/idea_meh_camilla_pareto.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_ritsu"
+                texturefile = "gfx/interface/ideas/idea_meh_ritsu.dds"
+        }
 }

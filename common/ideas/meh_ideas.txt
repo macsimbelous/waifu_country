@@ -12,7 +12,6 @@ ideas = {
 	# 			conscription = 0
 	# 		}
 	# 		cancel_if_invalid = no
-			
 	# 	}
 	# }
 	country = {
@@ -155,7 +154,7 @@ ideas = {
 				navy_org_factor = 0.1
 				max_command_power = 150
 				command_power_gain = 10
-				planning_speed = 0.10
+				planning_speed = 0.1
 				experience_gain_factor = 0.1
 				experience_gain_army_factor = 0.1
 				experience_gain_air_factor = 0.1
@@ -211,7 +210,7 @@ ideas = {
 				navy_org_factor = 0.2
 				max_command_power = 200
 				command_power_gain = 15
-				planning_speed = 0.10
+				planning_speed = 0.1
 				experience_gain_factor = 0.2
 				experience_gain_army_factor = 0.2
 				experience_gain_air_factor = 0.2
@@ -222,7 +221,34 @@ ideas = {
 		}
 	}
 	political_advisor = {
-
+		meh_grace_o_connor = {
+			allowed = {
+				original_tag = MEH
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence
+			}
+			modifier = {
+				operative_slot = 1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_camilla_pareto = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_girl_scientist
+			}
+			ai_will_do = {
+				base = 2
+			}
+		}
 	}
 	theorist = {
 		meh_a2 = {
@@ -284,10 +310,8 @@ ideas = {
 		}
 	}
 	air_chief = {
-
 	}
 	navy_chief = {
-
 	}
 	high_command = {
 		meh_pyra = {
@@ -300,16 +324,27 @@ ideas = {
 				army_infantry_3
 			}
 			ai_will_do = {
+				factor = 2
+			}
+		}
+		meh_ritsu = {
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			cost = 150
+			traits = {
+				army_artillery_3
+			}
+			ai_will_do = {
 				factor = 1
 			}
 		}
 	}
 	tank_manufacturer = {
 		designer = yes
-
 	}
 	naval_manufacturer = {
 		designer = yes
-
 	}
 }
