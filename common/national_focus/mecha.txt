@@ -167,8 +167,8 @@ focus_tree = {
 		}
 		#available_if_capitulated = yes
 		available = {
-			USA = {
-				has_capitulated = yes
+			NOT = {
+				country_exists = USA
 			}
 		}
 		completion_reward = {
@@ -735,7 +735,7 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
-			378 = {
+			379 = {
 				add_resource = {
 					type = steel
 					amount = 31
@@ -767,7 +767,7 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
-			378 = {
+			379 = {
 				add_resource = {
 					type = tungsten
 					amount = 17
@@ -799,7 +799,7 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
-			378 = {
+			379 = {
 				add_resource = {
 					type = aluminium
 					amount = 21
@@ -901,6 +901,73 @@ focus_tree = {
 				bonus = 1
 				uses = 1
 				category = industry
+			}
+		}
+	}
+	focus = {
+		id = meh_rocket_base_focus
+		icon = GFX_focus_rocketry
+		prerequisite = {
+			focus = meh_construction_robots_focus
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_construction_robots_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			has_tech = experimental_rockets
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = rocketry
+			}
+			379 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = rocket_site
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = meh_nuclear_reactor_focus
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = meh_construction_robots_focus
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_construction_robots_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = nuclear
+			}
+			379 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = nuclear_reactor
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
