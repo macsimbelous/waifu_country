@@ -35,4 +35,64 @@ spriteTypes = {
                 name = "GFX_idea_meh_ritsu"
                 texturefile = "gfx/interface/ideas/idea_meh_ritsu.dds"
         }
+        spriteType = {
+                name = "GFX_idea_meh_haruna"
+                texturefile = "gfx/interface/ideas/idea_meh_haruna.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_kirishima"
+                texturefile = "gfx/interface/ideas/idea_meh_kirishima.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_kongo"
+                texturefile = "gfx/interface/ideas/idea_meh_kongo.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_edi"
+                texturefile = "gfx/interface/ideas/idea_meh_edi.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_alexandra_frolova"
+                texturefile = "gfx/interface/ideas/idea_meh_alexandra_frolova.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_phantom_queen_ex-xecty"
+                texturefile = "gfx/interface/ideas/idea_meh_phantom_queen_ex-xecty.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_mei-fang"
+                texturefile = "gfx/interface/ideas/idea_meh_mei-fang.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_svetlana_sakura"
+                texturefile = "gfx/interface/ideas/idea_meh_svetlana_sakura.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_rozen_s_series"
+                texturefile = "gfx/interface/ideas/idea_meh_rozen_s_series.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_mhmd-02_haruko"
+                texturefile = "gfx/interface/ideas/idea_meh_mhmd-02_haruko.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_clarion"
+                texturefile = "gfx/interface/ideas/idea_meh_clarion.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_kaori_weber"
+                texturefile = "gfx/interface/ideas/idea_meh_kaori_weber.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_atago_arp"
+                texturefile = "gfx/interface/ideas/idea_meh_atago_arp.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_caseal"
+                texturefile = "gfx/interface/ideas/idea_meh_caseal.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_maki_ivanova"
+                texturefile = "gfx/interface/ideas/idea_meh_maki_ivanova.dds"
+        }
 }

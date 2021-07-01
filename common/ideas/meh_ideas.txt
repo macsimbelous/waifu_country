@@ -308,10 +308,100 @@ ideas = {
 				}
 			}
 		}
+		meh_mei-fang = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_svetlana_sakura = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	air_chief = {
+		meh_phantom_queen_ex-xecty = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		meh_alexandra_frolova = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_chief_all_weather_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_edi = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_chief_reform_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	navy_chief = {
+		meh_haruna = {
+			allowed = {
+				original_tag = MEH
+			}
+			cost = 150
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_kirishima = {
+			allowed = {
+				original_tag = MEH
+			}
+			cost = 150
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		meh_kongo = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_chief_maneuver_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	high_command = {
 		meh_pyra = {
@@ -335,6 +425,90 @@ ideas = {
 			cost = 150
 			traits = {
 				army_artillery_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_rozen_s_series = {
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_armored_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		meh_mhmd-02_haruko = {
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_regrouping_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_clarion = {
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_logistics_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_kaori_weber = {
+			ledger = air
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_close_air_support_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_atago_arp = {
+			ledger = navy
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_naval_strike_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_caseal = {
+			ledger = navy
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_naval_air_defense_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_maki_ivanova = {
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_cavalry_3
 			}
 			ai_will_do = {
 				factor = 1

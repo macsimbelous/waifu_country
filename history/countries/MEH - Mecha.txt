@@ -271,6 +271,110 @@ create_corps_commander = {
 	logistics_skill = 1
 	#id = 7030
 }
+create_corps_commander = {
+	name = "EDI"
+	picture = "Portrait_EDI.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Alexandra Frolova"
+	picture = "Portrait_Alexandra_Frolova.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Phantom Queen Ex-Xecty"
+	picture = "Portrait_Phantom_Queen_Ex-Xecty.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Svetlana Sakura"
+	picture = "Portrait_Svetlana_Sakura.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Rozen S Series"
+	picture = "Portrait_Rozen_S_Series.dds"
+	traits = {
+		panzer_leader
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "MHMD-02 Haruko"
+	picture = "Portrait_MHMD-02_Haruko.dds"
+	traits = {
+		logistics_wizard
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Clarion"
+	picture = "Portrait_Clarion.dds"
+	traits = {
+		logistics_wizard
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Maki Ivanova"
+	picture = "Portrait_Maki_Ivanova.dds"
+	traits = {
+		cavalry_leader cavalry_expert
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	#id = 7030
+}
 
 #Admirals
 create_navy_leader = {
@@ -280,14 +384,14 @@ create_navy_leader = {
 	traits = {
 	}
 	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 create_navy_leader = {
-	name = "I-410"
+	name = "Iona ARP"
 	#id = 7113
 	picture = "Portrait_I-410.dds"
 	traits = {
@@ -300,7 +404,66 @@ create_navy_leader = {
 	maneuvering_skill = 3
 	coordination_skill = 2
 }
-
+create_navy_leader = {
+	name = "Haruna ARP"
+	#id = 7107
+	picture = "Portrait_Haruna.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Kirishima ARP"
+	#id = 7107
+	picture = "Portrait_Kirishima.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Kongo ARP"
+	#id = 7107
+	picture = "Portrait_Kongo.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+create_navy_leader = {
+	name = "Atago ARP"
+	#id = 7107
+	picture = "Portrait_Atago_ARP.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Caseal"
+	#id = 7107
+	picture = "Portrait_Caseal.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
 #Agents
 create_operative_leader = {
 	name = "Aegis"
