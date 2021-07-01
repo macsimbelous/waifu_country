@@ -44,8 +44,8 @@ spriteTypes = {
                 texturefile = "gfx/interface/ideas/idea_meh_kirishima.dds"
         }
         spriteType = {
-                name = "GFX_idea_meh_kongo"
-                texturefile = "gfx/interface/ideas/idea_meh_kongo.dds"
+                name = "GFX_idea_meh_kongou"
+                texturefile = "gfx/interface/ideas/idea_meh_kongou.dds"
         }
         spriteType = {
                 name = "GFX_idea_meh_edi"
@@ -94,5 +94,37 @@ spriteTypes = {
         spriteType = {
                 name = "GFX_idea_meh_maki_ivanova"
                 texturefile = "gfx/interface/ideas/idea_meh_maki_ivanova.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_t-elos"
+                texturefile = "gfx/interface/ideas/idea_meh_t-elos.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_yurizaki_mira"
+                texturefile = "gfx/interface/ideas/idea_meh_yurizaki_mira.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_ashigara_arp"
+                texturefile = "gfx/interface/ideas/idea_meh_ashigara_arp.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_alisa_boskonovich"
+                texturefile = "gfx/interface/ideas/idea_meh_alisa_boskonovich.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_hiei_arp"
+                texturefile = "gfx/interface/ideas/idea_meh_hiei_arp.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_lisa"
+                texturefile = "gfx/interface/ideas/idea_meh_lisa.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_cibo"
+                texturefile = "gfx/interface/ideas/idea_meh_cibo.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_2b"
+                texturefile = "gfx/interface/ideas/idea_meh_2b.dds"
         }
 }

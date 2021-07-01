@@ -217,7 +217,19 @@ create_corps_commander = {
 		panzer_leader
 	}
 }
-
+create_corps_commander = {
+	name = "Lisa"
+	picture = "Portrait_Lisa.dds"
+	traits = {
+		aggressive_assaulter commando
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	#id = 7031
+}
 create_corps_commander = {
 	name = "Hatsune Miku"
 	picture = "Portrait_Hatsune_Miku.dds"
@@ -272,8 +284,34 @@ create_corps_commander = {
 	#id = 7030
 }
 create_corps_commander = {
+	name = "Automaton"
+	picture = "Portrait_Automaton.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
 	name = "EDI"
 	picture = "Portrait_EDI.dds"
+	traits = {
+		
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Cibo"
+	picture = "Portrait_Cibo.dds"
 	traits = {
 		
 	}
@@ -375,6 +413,32 @@ create_corps_commander = {
 	logistics_skill = 2
 	#id = 7030
 }
+create_corps_commander = {
+	name = "T-Elos"
+	picture = "Portrait_T-Elos.dds"
+	traits = {
+		aggressive_assaulter
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Alisa Boskonovich"
+	picture = "Portrait_Alisa_Boskonovich.dds"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	#id = 7030
+}
 
 #Admirals
 create_navy_leader = {
@@ -429,9 +493,9 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 create_navy_leader = {
-	name = "Kongo ARP"
+	name = "Kongou ARP"
 	#id = 7107
-	picture = "Portrait_Kongo.dds"
+	picture = "Portrait_Kongou_ARP.dds"
 	traits = {
 	}
 	skill = 2
@@ -456,6 +520,30 @@ create_navy_leader = {
 	name = "Caseal"
 	#id = 7107
 	picture = "Portrait_Caseal.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Ashigara ARP"
+	#id = 7107
+	picture = "Portrait_Ashigara_ARP.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Hiei ARP"
+	#id = 7107
+	picture = "Portrait_Hiei_ARP.dds"
 	traits = {
 	}
 	skill = 2
@@ -505,6 +593,20 @@ create_operative_leader = {
 	traits = {
 		operative_demolition_expert
 		operative_commando
+	}
+}
+create_operative_leader = {
+	name = "Yurizaki Mira"
+	GFX = GFX_Yurizaki_Mira
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	female = yes
+	nationalities = {
+		MEH
+	}
+	traits = {
+		operative_seducer
+		operative_natural_orator
 	}
 }
 ### Variants ###

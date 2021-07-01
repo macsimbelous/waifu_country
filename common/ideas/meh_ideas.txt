@@ -249,6 +249,105 @@ ideas = {
 				base = 2
 			}
 		}
+		meh_yurizaki_mira = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_captain_of_industry
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_ashigara_arp = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		meh_alisa_boskonovich = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		meh_t-elos = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		meh_hiei_arp = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		meh_lisa = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.25
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 2
+				}
+			}
+		}
+		meh_2b = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_popular_figurehead
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meh_cibo = {
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_war_industrialist
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 2
+				}
+			}
+		}
 	}
 	theorist = {
 		meh_a2 = {
@@ -391,7 +490,7 @@ ideas = {
 				factor = 2
 			}
 		}
-		meh_kongo = {
+		meh_kongou = {
 			allowed = {
 				original_tag = MEH
 			}
@@ -515,10 +614,104 @@ ideas = {
 			}
 		}
 	}
+	aircraft_manufacturer = {
+		designer = yes
+		generic_light_aircraft_manufacturer = {
+			picture = generic_air_manufacturer_1
+			allowed = {
+				original_tag = MEH
+			}
+			cost = 150
+			removal_cost = 10
+			research_bonus = {
+				air_equipment = 0.3
+			}
+			equipment_bonus = {
+				jet_fighter = {
+					build_cost_ic = -0.3
+					air_agility = 0.1
+					maximum_speed = 0.1
+					air_ground_attack = 0.1
+					reliability = 0.1
+					air_range = 0.1
+					air_bombing = 0.1
+				}
+				jet_strat_bomber = {
+					build_cost_ic = -0.3
+					air_agility = 0.1
+					maximum_speed = 0.1
+					air_ground_attack = 0.1
+					reliability = 0.1
+					air_range = 0.1
+					air_bombing = 0.1
+				}
+				jet_tac_bomber = {
+					build_cost_ic = -0.3
+					air_agility = 0.1
+					maximum_speed = 0.1
+					air_ground_attack = 0.1
+					reliability = 0.1
+					air_range = 0.1
+					air_bombing = 0.1
+				}
+			}
+			traits = {
+				aircraft_manufacturer
+			}
+		}
+	}
 	tank_manufacturer = {
 		designer = yes
+		meh_heavy_tank_designer = {
+			picture = generic_acquire_tanks
+			allowed = {
+				original_tag = MEH
+			}
+			research_bonus = {
+				armor = 0.3
+			}
+			equipment_bonus = {
+				heavy_armor = {
+					build_cost_ic = -0.3
+					ap_attack = 0.2
+					hard_attack = 0.2
+					armor_value = 0.2
+				}
+			}
+			cost = 150
+			traits = {
+				heavy_tank_manufacturer
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
 	}
 	naval_manufacturer = {
 		designer = yes
+		meh_submarine_company = {
+			picture = generic_naval_manufacturer_3
+			allowed = {
+				original_tag = MEH
+			}
+			research_bonus = {
+				naval_equipment = 0.3
+			}
+			# equipment_bonus = {
+			# 	submarine = {
+			# 		build_cost_ic = -0.3
+			# 		sub_visibility = -0.25
+			# 		surface_visibility = -0.2
+			# 		naval_speed = 0.2
+			# 		naval_range = 0.2
+			# 	}
+			# }
+			cost = 150
+			traits = {
+				wfc_submarine_manufacturer
+			}
+			modifier = {
+			}
+		}
 	}
 }

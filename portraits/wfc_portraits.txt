@@ -248,19 +248,29 @@ MEH = {
 			"gfx/leaders/MEH/Portrait_MEH_land_10.dds"
 			"gfx/leaders/MEH/Portrait_MEH_land_11.dds"
 			"gfx/leaders/MEH/Portrait_MEH_land_12.dds"
+			"gfx/leaders/MEH/Portrait_MEH_land_13.dds"
 		}
 	}
 	navy = {
 		male = {
 			"gfx/leaders/MEH/Portrait_MEH_naval_01.dds"
+			"gfx/leaders/MEH/Portrait_MEH_naval_02.dds"
+			"gfx/leaders/MEH/Portrait_MEH_naval_03.dds"
+			"gfx/leaders/MEH/Portrait_MEH_naval_04.dds"
 		}
 	}
 	operative = {
 		female = {
 			"gfx/leaders/MEH/Portrait_MEH_operative_01.dds"
+			"gfx/leaders/MEH/Portrait_MEH_operative_02.dds"
+			"gfx/leaders/MEH/Portrait_MEH_operative_03.dds"
+			"gfx/leaders/MEH/Portrait_MEH_operative_04.dds"
 		}
 		male = {
 			"gfx/leaders/MEH/Portrait_MEH_operative_01.dds"
+			"gfx/leaders/MEH/Portrait_MEH_operative_02.dds"
+			"gfx/leaders/MEH/Portrait_MEH_operative_03.dds"
+			"gfx/leaders/MEH/Portrait_MEH_operative_04.dds"
 		}
 	}
 }

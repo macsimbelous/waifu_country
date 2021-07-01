@@ -7,4 +7,12 @@ spriteTypes = {
                 name = "GFX_Chii"
                 texturefile = "gfx/leaders/MEH/Portrait_Chii.dds"
         }
+        spriteType = {
+                name = "GFX_Vanessa_Diodati"
+                texturefile = "gfx/leaders/MEH/Portrait_Vanessa_Diodati.dds"
+        }
+        spriteType = {
+                name = "GFX_Yurizaki_Mira"
+                texturefile = "gfx/leaders/MEH/Portrait_Yurizaki_Mira.dds"
+        }
 }
