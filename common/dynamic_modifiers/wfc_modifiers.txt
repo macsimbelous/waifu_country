@@ -1,13 +1,20 @@
 acw_core_states_to_pp = {
-	icon = GFX_idea_wfl_core_states_to_pp
+	icon = GFX_idea_wfc_core_states_to_pp
 	enable = { always = yes }
-	political_power_gain = wfl_core_bonus_to_pp
+	political_power_gain = acw_core_bonus_to_pp
 }
 meh_sputnik = {
-	icon = GFX_idea_wfl_sputnik
+	icon = GFX_idea_meh_sputnik
 	enable = { always = yes }
-	decryption_factor = wfk_sputnik_decryption_factor
-	encryption_factor = wfk_sputnik_encryption_factor
-	recon_factor = wfk_sputnik_recon_factor
-	research_speed_factor = wfk_sputnik_research_speed_factor
+	decryption_factor = meh_sputnik_decryption_factor
+	encryption_factor = meh_sputnik_encryption_factor
+	recon_factor = meh_sputnik_recon_factor
+	research_speed_factor = meh_sputnik_research_speed_factor
+}
+mms_power_shamiko = {
+	icon = GFX_idea_generic_intel_bonus
+	enable = { always = yes }
+	army_attack_factor = mms_shamiko_attack
+	army_defence_factor = mms_shamiko_defence
+	army_speed_factor = 0.05
 }

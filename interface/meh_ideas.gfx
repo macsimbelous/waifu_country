@@ -127,4 +127,16 @@ spriteTypes = {
                 name = "GFX_idea_meh_2b"
                 texturefile = "gfx/interface/ideas/idea_meh_2b.dds"
         }
+        spriteType = {
+                name = "GFX_idea_meh_sputnik"
+                texturefile = "gfx/interface/ideas/idea_generic_flexible_foreign_policy2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_rocket_factory"
+                texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_3.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_sputnik_v_kosmose"
+                texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_1.dds"
+        }
 }

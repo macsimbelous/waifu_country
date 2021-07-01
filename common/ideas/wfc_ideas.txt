@@ -248,7 +248,7 @@ ideas = {
 				}
 			}
 			traits = {
-				captain_of_industry
+				wfc_captain_of_industry
 			}
 			ai_will_do = {
 				base = 1
@@ -324,7 +324,7 @@ ideas = {
 				}
 			}
 			traits = {
-				silent_workhorse
+				wfc_silent_workhorse
 			}
 			ai_will_do = {
 				factor = 2
@@ -382,7 +382,7 @@ ideas = {
 				}
 			}
 			traits = {
-				popular_figurehead
+				wfc_popular_figurehead
 			}
 			ai_will_do = {
 				factor = 1
@@ -400,7 +400,7 @@ ideas = {
 				}
 			}
 			traits = {
-				war_industrialist
+				wfc_war_industrialist
 			}
 			ai_will_do = {
 				base = 1
@@ -426,6 +426,9 @@ ideas = {
 			}
 			traits = {
 				head_of_intelligence
+			}
+			modifier = {
+				operative_slot = 1
 			}
 			ai_will_do = {
 				base = 1

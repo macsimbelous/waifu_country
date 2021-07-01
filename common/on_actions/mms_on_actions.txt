@@ -1,0 +1,20 @@
+on_actions = {
+		on_startup = {
+		effect = {
+			MMS = {
+				set_variable = {
+					mms_shamiko_attack = 5
+				}
+				set_variable = {
+					mms_shamiko_defence = 5
+				}
+				set_variable = {
+					mms_shamiko_speed = 5
+				}
+				set_variable = {
+					mms_shamiko_workouts_count = 0
+				}
+			}
+		}
+	}
+}

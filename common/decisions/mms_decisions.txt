@@ -1,16 +1,136 @@
 mms_workouts_shamiko_category = {
-	mms_workouts_shamiko_decision = {
-		ai_will_do = {
-			factor = 1
+	mms_train_shamiko_attack = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mms_workouts_shamiko_not_final_tt
+				check_variable = {
+					var = mms_shamiko_workouts_count
+					value = 10
+					compare = less_than
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mms_train_shamiko_run_tt
+				NOT = {
+					has_country_flag = mms_train_shamiko_run
+				}
+			}
 		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 25
+		days_remove = 30
+		remove_effect = {
+			add_to_variable = {
+				mms_shamiko_attack = 1
+			}
+			add_to_variable = {
+				mms_shamiko_workouts_count = 1
+			}
+			clr_country_flag = mms_train_shamiko_run
+		}
+		complete_effect = {
+			set_country_flag = mms_train_shamiko_run
+		}
+	}
+	mms_train_shamiko_protection = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mms_workouts_shamiko_not_final_tt
+				check_variable = {
+					var = mms_shamiko_workouts_count
+					value = 10
+					compare = less_than
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mms_train_shamiko_run_tt
+				NOT = {
+					has_country_flag = mms_train_shamiko_run
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 25
+		days_remove = 30
+		remove_effect = {
+			add_to_variable = {
+				mms_shamiko_defence = 1
+			}
+			add_to_variable = {
+				mms_shamiko_workouts_count = 1
+			}
+			clr_country_flag = mms_train_shamiko_run
+		}
+		complete_effect = {
+			set_country_flag = mms_train_shamiko_run
+		}
+	}
+	mms_train_shamiko_speed = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mms_workouts_shamiko_not_final_tt
+				check_variable = {
+					var = mms_shamiko_workouts_count
+					value = 10
+					compare = less_than
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mms_train_shamiko_run_tt
+				NOT = {
+					has_country_flag = mms_train_shamiko_run
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 25
+		days_remove = 30
+		remove_effect = {
+			add_to_variable = {
+				mms_shamiko_speed = 1
+			}
+			add_to_variable = {
+				mms_shamiko_workouts_count = 1
+			}
+			clr_country_flag = mms_train_shamiko_run
+		}
+		complete_effect = {
+			set_country_flag = mms_train_shamiko_run
+		}
+	}
+	mms_workouts_shamiko_final = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mms_workouts_shamiko_final_tt
+				check_variable = {
+					var = mms_shamiko_workouts_count
+					value = 10
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 50
 		days_remove = 30
 		remove_effect = {
 			remove_country_leader_trait = defeatist
 			add_country_leader_trait = warmonger
-			add_country_leader_trait = wfc_Tyan_militarist
+			#add_country_leader_trait = wfc_Tyan_militarist
+			add_dynamic_modifier = {
+				modifier = mms_power_shamiko
+			}
 		}
 	}
 }
+
 mms_world_conquest_category = {
 	mms_world_conquest_decision = {
 		name = mms_world_conquest_decision.t
@@ -132,7 +252,6 @@ mms_world_conquest_category = {
 			}
 		}
 		complete_effect = {
-
 		}
 	}
 }
