@@ -33,7 +33,7 @@ ideas = {
 		}
 	}
 	political_advisor = {
-		wfl_albedo = {
+		mms_albedo = {
 			allowed = {
 				original_tag = MMS
 			}
@@ -57,7 +57,7 @@ ideas = {
 		}
 	}
 	theorist = {
-		wfl_velvet_crowe = {
+		mms_velvet_crowe = {
 			ledger = army
 			allowed = {
 				original_tag = MMS

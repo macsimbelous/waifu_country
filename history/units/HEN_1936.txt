@@ -284,7 +284,14 @@ units = {
 		start_equipment_factor = 1.0
 	}
 }
-
+air_wings = {
+	528 = { 
+		fighter_equipment_1 = {
+			owner = "HEN" 
+			amount = 200
+		}
+	}
+}
 ###starting production###
 	instant_effect = {
 	add_equipment_production = {
@@ -302,7 +309,7 @@ units = {
 			creator = "HEN"
 		}
 		requested_factories = 1
-		progress = 0.19
+		progress = 0.4
 		efficiency = 100
 	}
 	add_equipment_production = {
@@ -311,7 +318,7 @@ units = {
 			creator = "HEN"
 		}
 		requested_factories = 1
-		progress = 0.24
+		progress = 0.4
 		efficiency = 100
 	}
 

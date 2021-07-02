@@ -1,11 +1,11 @@
 spriteTypes = {
         spriteType = {
                 name = "GFX_idea_mms_albedo"
-                texturefile = "gfx/interface/ideas/idea_wfl_albedo.dds"
+                texturefile = "gfx/interface/ideas/idea_mms_albedo.dds"
         }
         spriteType = {
                 name = "GFX_idea_mms_velvet_crowe"
-                texturefile = "gfx/interface/ideas/idea_wfl_velvet_crowe.dds"
+                texturefile = "gfx/interface/ideas/idea_mms_velvet_crowe.dds"
         }
         spriteType = {
                 name = "GFX_idea_mms_special_week"

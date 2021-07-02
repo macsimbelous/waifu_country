@@ -29,7 +29,7 @@ ideas = {
 		}
 	}
 	political_advisor = {
-		wfl_neko = {
+		hen_neko = {
 			allowed = {
 				original_tag = HEN
 			}
@@ -40,7 +40,7 @@ ideas = {
 				wfc_popular_figurehead
 			}
 		}
-		wfl_office_lady = {
+		hen_office_lady = {
 			allowed = {
 				original_tag = HEN
 			}

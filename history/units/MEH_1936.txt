@@ -144,157 +144,165 @@ units = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha 20"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha heavy tank"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
 		division_template = "Mecha heavy tank"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
+	}
+}
+air_wings = {
+	378 = { 
+		fighter_equipment_1 = {
+			owner = "MEH" 
+			amount = 400
+		}
 	}
 }
 instant_effect = {
@@ -319,6 +327,24 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
+			creator = "MEH"
+		}
+		requested_factories = 1
+		progress = 0.7
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = heavy_tank_equipment_1
+			creator = "MEH"
+		}
+		requested_factories = 1
+		progress = 0.7
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
 			creator = "MEH"
 		}
 		requested_factories = 1
