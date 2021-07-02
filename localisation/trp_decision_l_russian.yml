@@ -1,0 +1,14 @@
+﻿l_russian:
+
+#discrediting
+trp_discrediting_decisions:0 "Дискредитация"
+trp_discrediting_decision.t:0 "Дискредитировать §Y[From.GetName]§!"
+trp_discrediting_decision.t_desc:0 "Распространить по всему миру компрометируюшую информацию о государстве §Y[From.GetName]§!"
+
+#cloning
+trp_cloning_category:0 "Клонирование"
+trp_cloning_category_desc:0 "Массовое клонирование"
+trp_develop_cloning_technology:0 "Разработать технологию клонирования"
+trp_cloning_decision.t:0 "Произвести §G[?mtth:trp_cloning_power]§! клонов"
+trp_cloning_level_up_decision.t:0 "Расширить производство клонов"
+

@@ -60,6 +60,7 @@ acw_lina_inverse:0 "Лина Инверс"
 acw_lisa_eostre:0 "Лиза Эостра"
 acw_ryouko_asakura:0 "Рёко Асакура"
 acw_asuka_tanaka:0 "Аска Танака"
+ACW_Niko_Yazawa:0 "Нико Язава"
 
 
 #ideas
@@ -85,3 +86,6 @@ acw_KGB_idea:0 "КГБ"
 acw_core_states_to_pp:0 "Прирост политической власти за кажрый национальный регион(§G0.01§!)"
 acw_colonial_office:0 "Министерство колоний"
 ACW_anime_economic:0 "Анимешная экономика"
+
+#toolltip
+acw_subject_autonomy_mod_tt:0 "Прирост автономии субъектов §G-0.5"

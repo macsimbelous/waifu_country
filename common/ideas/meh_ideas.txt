@@ -304,7 +304,7 @@ ideas = {
 				factor = 2
 			}
 		}
-		meh_lisa = {
+		meh_risa = {
 			allowed = {
 				original_tag = MEH
 			}
@@ -616,7 +616,7 @@ ideas = {
 	}
 	aircraft_manufacturer = {
 		designer = yes
-		generic_light_aircraft_manufacturer = {
+		meh_jet_aircraft_manufacturer = {
 			picture = generic_air_manufacturer_1
 			allowed = {
 				original_tag = MEH
@@ -657,6 +657,9 @@ ideas = {
 			}
 			traits = {
 				aircraft_manufacturer
+			}
+			ai_will_do = {
+				factor = 2
 			}
 		}
 	}

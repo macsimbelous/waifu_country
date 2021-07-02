@@ -1,3 +1,9 @@
+meh_modernization_category = {
+	priority = 10
+	allowed = {
+		original_tag = MEH
+	}
+}
 meh_kosmos_category = {
 	picture = GFX_decision_wfl_kosmos_category
 	icon = GFX_decision_wfl_kosmos_category_icon
@@ -16,18 +22,6 @@ meh_kosmos_category = {
 			#			has_tech = nukes
 			#			has_tech = advanced_rocket_engines
 		}
-	}
-}
-
-meh_war_category = {
-	priority = 8
-	icon = decision_generic_ignite_civil_war
-	#visible_when_empty = yes
-	allowed = {
-		original_tag = MEH
-	}
-	visible = {
-		has_completed_focus = meh_world_conquest
 	}
 }
 

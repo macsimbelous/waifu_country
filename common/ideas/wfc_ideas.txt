@@ -146,7 +146,8 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.7
-				army_morale_factor = -0.2
+				army_morale_factor = -0.3
+				political_power_gain = -1
 			}
 		}
 		ACW_economic_assistance = {

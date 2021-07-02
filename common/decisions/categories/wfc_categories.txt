@@ -1,3 +1,29 @@
+wfc_world_conquest_category = {
+	priority = 8
+	icon = decision_generic_ignite_civil_war
+	#visible_when_empty = yes
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MMS
+			original_tag = MEH
+		}
+	}
+	available = {
+		if = {
+			limit = {
+				original_tag = MMS
+			}
+			NOT = {
+				has_country_leader_with_trait = defeatist
+			}
+		}
+	}
+}
+
 wfc_integration_category = {
 	priority = 5
 	icon = decision_category_generic_propaganda
@@ -100,27 +126,6 @@ wfl_resources_puppets_category = {
 	}
 	visible = {
 		has_tech = excavation1
-	}
-}
-
-wfl_tentakles_decisions = {
-	priority = 2
-	icon = spr_the_inevitable_civil_war
-	picture = GFX_decision_cat_tentakles_decisions
-	allowed = {
-		#always = yes
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-		#has_dlc = "La Resistance"
-	}
-	visible = {
-		has_completed_focus = wfl_tentakles
 	}
 }
 
@@ -298,5 +303,27 @@ wfl_resources_category_2 = {
 	}
 	visible = {
 		is_debug = yes
+	}
+}
+
+wfc_preparation_for_war_category = {
+	priority = 5
+	visible = {
+		any_other_country = {
+			OR = {
+				has_wargoal_against = ROOT
+				is_justifying_wargoal_against = ROOT
+			}
+		}
+	}
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+		}
 	}
 }

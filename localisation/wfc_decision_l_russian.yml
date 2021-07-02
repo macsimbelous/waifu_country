@@ -1,0 +1,85 @@
+﻿l_russian:
+
+#infiltration_decision
+wfl_infiltration_decisions:0 "Инфильтрация"
+wfl_infiltration_decision.t:0 "Инфильтрация в §Y[From.GetName]§!"
+wfl_infiltration_decision.t_desc:0 "В регион §Y[From.GetName]§! не обходимо распростронить аниме культуру"
+
+#urbanize
+wfl_urbanisation_decision:0 "Урбанизация регионов"
+wfl_urbanisation_category:0 "Урбанизация"
+wfl_urbanisation_category_desc:0 "Следуя достижениям в строительстве и государственном промышленном управлении, мы считаем, что обладаем средствами, необходимыми для улучшения и расширения потенциала наших регионов."
+wfl_urbanisation_state.t:0 "Урбанизировать §Y[From.GetName]§!"
+wfl_urbanisation_state.t_desc:0 "Повысить уровень урбанизации региона §Y[From.GetName]§!"
+#immigrants
+wfl_immigration_category:0 "Иммиграция"
+wfl_immigration_category_desc:0 "Привлечение иммигрантов"
+wfl_immigration_decision.t:0 "Привлечь иммигрантов"
+#resources
+wfl_resources_category:0 "Ресурсы"
+wfl_resources_category_desc:0 "Разведка и разработка ресурсов."
+wfl_find_steel_decision:0 "Разведать месторождения §Gстали§!"
+wfl_find_steel_tt:0 "Будет открыто месторождение §Gстали§!"
+wfl_find_aluminium_decision:0 "Разведать месторождения §Gалюминия§!"
+wfl_find_aluminium_tt:0 "Будет открыто месторождение §Gалюминия§!"
+wfl_find_tungsten_decision:0 "Разведать месторождения §Gвольфрама§!"
+wfl_find_tungsten_tt:0 "Будет открыто месторождение §Gвольфрама§!"
+wfl_find_chromium_decision:0 "Разведать месторождения §Gхрома§!"
+wfl_find_chromium_tt:0 "Будет открыто месторождение §Gхрома§!"
+wfl_find_oil_decision:0 "Разведать месторождения §Gнефти§!"
+wfl_find_oil_tt:0 "Будет открыто месторождение §Gнефти§!"
+wfl_not_find_resources_in_this_state:0 "Не проводилась разведка ресурсов в этом регионе"
+wfl_not_find_resources_run:0 "Нет активных проектов по резведке ресурсов"
+wfl_find_resources_decision.t:0 "Разведать ресурсы в §Y[From.GetName]§!"
+wfl_up_resources_decision.t:0 "Расширение добычи ресурсов в §Y[From.GetName]§!"
+#resources puppets
+wfl_resources_puppets_category:0 "Ресурсы мирионеток"
+wfl_resources_puppets_category_desc:0 "Разведка и разработка ресурсов на териториях подконторольных стран."
+
+
+#volunteers
+wfl_campaigning_for_volunteers_category:0 "Людские ресурсы"
+wfl_campaigning_for_volunteers_category_desc:0 "Людские ресурсыв"
+wfl_campaigning_for_volunteers_decision.t:0 "Агитация добровольцев"
+
+#wfl_faction_category
+wfl_faction_category:0 "[WFL.GetFactionName]"
+wfl_faction_category_desc:0 "Альянс §Y[WFL.GetFactionName]§!"
+wfl_faction_decision_1.t:0 "Вступить в альянс §Y[WFL.GetFactionName]§!"
+wfl_faction_decision_2.t:0 "Пригласить в альянс §Y[FROM.GetName]§!"
+wfl_faction_decision_3.t:0 "Пропагандировать §G[WFL.GetRulingParty]§! в §Y[FROM.GetName]§!"
+wfl_faction_decision_4.t:0 "Помощь §Y[FROM.GetNameDef]§!"
+
+#wfl_investments_abroad_category
+wfl_investments_abroad_category:0 "Инвестирование за рубежом"
+wfl_investments_abroad_category_desc:0 "Инвестируя в экономики других стран мы можем превращать их в наши марионетки"
+wfl_investments_abroad_decision.t:0 "Инвестировать в §Y[FROM.OWNER.GetName]§!"
+wfl_investments_abroad_decision.t_desc:0 "Наши инвестиции в §Y[FROM.OWNER.GetName]§! достигнут §G[?mtth:wfl_get_investments_count]§!"
+wfl_create_puppet_decision2.t:0 "Превратить §Y[FROM.GetName]§! в марионетку"
+wfl_create_puppet_decision_tt:0 "[wfl_create_puppet_decision_tt_script]"
+wfl_create_puppet_decision_tt_red:0 "Инвестиций в §Y[FROM.GetName]§! §R[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
+wfl_create_puppet_decision_tt_green:0 "Инвестиций в §Y[FROM.GetName]§! §G[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
+
+#gacha
+wfl_gacha_decision.t:0 "Испытать удачу"
+
+#wfc_integration_category
+wfc_integration_category:0 "Интеграция"
+wfc_integration_decision.t:0 "Интегрировать §Y[From.GetName]§!"
+wfc_integration_decision.t_desc:0 "Не обходимо закрепить распространение нашей культуры в §Y[From.GetName]§!"
+
+#create_subject
+wfc_create_subjects_category:0 "Субъекты"
+wfc_create_subject_decision:0 "Создать субъект §Y[From.GetNameDef]§!"
+
+#wfc_world_conquest_category
+wfc_world_conquest_category:0 "Завоевание мира"
+wfc_world_conquest_decision:0 "Завоевать §R[From.GetNameDef]§!"
+
+#wfc_preparation_for_war_category
+wfc_preparation_for_war_category:0 "Подготовка к воине"
+wfc_border_defense:0 "Укрепление границы"
+
+#test
+wfl_test_category:0 "Тестовая категория"
+wfl_test_category_desc:0 "415 - §G[?123.modifier@manpower]§!"

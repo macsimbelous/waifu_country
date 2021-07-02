@@ -1,0 +1,8 @@
+hen_tentakles_decisions = {
+	priority = 2
+	icon = spr_the_inevitable_civil_war
+	picture = GFX_decision_cat_tentakles_decisions
+	allowed = {
+		original_tag = HEN
+	}
+}

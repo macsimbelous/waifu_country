@@ -25,10 +25,10 @@ ideas = {
 			picture = generic_manpower_bonus
 			removal_cost = -1
 			modifier = {
-				conscription = 0.02
+				conscription = 0.05
 			}
 		}
-		wfl_cloning_idea = {
+		trp_cloning_idea = {
 			allowed = {
 				original_tag = TRP
 			}

@@ -1,3 +1,152 @@
+meh_modernization_category = {
+	meh_create_robo_factory = {
+		icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 5
+		}
+		cost = 100
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			add_ideas = meh_robo_factory
+		}
+	}
+	meh_upgrade_robo_factory = {
+		icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 9
+		}
+		visible = {
+			has_idea = meh_robo_factory
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 10
+		}
+		cost = 100
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			custom_effect_tooltip = meh_upgrade_robo_factory_tt
+			add_to_variable = {
+				meh_robo_factory_production = 5000
+			}
+		}
+	}
+	meh_create_construction_robots = {
+		icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 5
+		}
+		cost = 100
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			add_ideas = meh_construction_robots
+		}
+	}
+	meh_create_warmind = {
+		icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 5
+		}
+		cost = 100
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			add_ideas = meh_warmind
+		}
+	}
+	meh_upgrade_warmind_agr = {
+		icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 9
+		}
+		visible = {
+			has_idea = meh_warmind
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 10
+		}
+		cost = 100
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = meh_warmind
+				add_idea = meh_warmind_agr
+			}
+		}
+	}
+	meh_upgrade_warmind_def = {
+		icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 9
+		}
+		visible = {
+			has_idea = meh_warmind
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 10
+		}
+		cost = 100
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = meh_warmind
+				add_idea = meh_warmind_def
+			}
+		}
+	}
+	meh_upgrade_ai = {
+		icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 9
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 10
+		}
+		cost = 100
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = meh_ai
+				add_idea = meh_ai_2
+			}
+		}
+	}
+}
 meh_kosmos_category = {
 	meh_create_rocket_factory_decision = {
 		icon = generic_construction
@@ -232,100 +381,6 @@ meh_kosmos_category = {
 	}
 }
 
-meh_war_category = {
-	meh_declare_war_decision = {
-		name = meh_declare_war_decision.t
-		#war_with_target_on_complete = yes
-		war_with_target_on_remove = yes
-		available = {
-			#has_war = no
-			FROM = {
-				OR = {
-					is_neighbor_of = ROOT
-					any_neighbor_country = {
-						is_puppet_of = ROOT
-					}
-				}
-				NOT = {
-					OR = {
-						is_in_faction_with = ROOT
-						is_puppet_of = ROOT
-					}
-				}
-			}
-		}
-		visible = {
-			FROM = {
-				OR = {
-					any_neighbor_country = {
-						is_puppet_of = ROOT
-					}
-					is_neighbor_of = ROOT
-				}
-				NOT = {
-					OR = {
-						is_in_faction_with = ROOT
-						is_puppet_of = ROOT
-					}
-				}
-			}
-		}
-		#target_array = neighbors
-		target_trigger = {
-			FROM = {
-				OR = {
-					any_neighbor_country = {
-						is_puppet_of = ROOT
-					}
-					is_neighbor_of = ROOT
-				}
-				NOT = {
-					OR = {
-						is_in_faction_with = ROOT
-						is_puppet_of = ROOT
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 1
-				has_government = fascism
-			}
-			modifier = {
-				add = 0.5
-				has_government = communism
-			}
-			modifier = {
-				add = 0.5
-				has_government = democratic
-			}
-			modifier = {
-				add = 0.5
-				has_government = neutrality
-			}
-		}
-		fire_only_once = no
-		cost = 100
-		days_re_enable = 30
-		days_remove = 30
-		remove_effect = {
-			FROM = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
-			declare_war_on = {
-				target = FROM
-				type = annex_everything
-			}
-		}
-		complete_effect = {
-
-		}
-	}
-}
 meh_cyborgization_category = {
 	meh_cyborgization_decision = {
 		name = meh_cyborgization_decision.t

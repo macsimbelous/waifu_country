@@ -1,3 +1,146 @@
+wfc_world_conquest_category = {
+	wfc_world_conquest_decision = {
+		#war_with_target_on_complete = yes
+		war_with_target_on_remove = yes
+		available = {
+			#has_war = no
+			FROM = {
+				OR = {
+					is_neighbor_of = ROOT
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		#target_array = neighbors
+		target_trigger = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 2
+				has_government = fascism
+			}
+			modifier = {
+				add = 2
+				has_government = communism
+			}
+			modifier = {
+				add = 1
+				has_government = democratic
+			}
+			modifier = {
+				add = 1
+				has_government = neutrality
+			}
+			modifier = {
+				has_war = yes
+				add = -1
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 1.5
+				}
+				add = 1
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 2
+				}
+				add = 1
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 3
+				}
+				add = 1
+			}
+			modifier = {
+				is_in_faction = yes
+				add = 1
+			}
+			modifier = {
+				FROM = {
+					is_in_faction = yes
+				}
+				add = -2
+			}
+			modifier = {
+				FROM = {
+					OR = {
+						has_guaranteed = USA
+						has_guaranteed = ENG
+						has_guaranteed = GER
+						has_guaranteed = ITA
+						has_guaranteed = SOV
+						has_guaranteed = FRA
+					}
+				}
+				add = -1
+			}
+		}
+		fire_only_once = no
+		cost = 100
+		#days_re_enable = 30
+		days_remove = 30
+		remove_effect = {
+			FROM = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
+			}
+		}
+		complete_effect = {
+		}
+	}
+}
+
 wfc_integration_category = {
 	wfc_integration_decision = {
 		name = wfc_integration_decision.t
@@ -51,64 +194,6 @@ wfc_integration_category = {
 		}
 		cancel_effect = {
 			add_political_power = 50
-		}
-	}
-}
-
-wfl_tentakles_decisions = {
-	wfl_tentakles_attack_decision = {
-		name = wfl_tentakles_attack_decision.t
-		icon = generic_prepare_civil_war
-		visible = {
-			FROM = {
-				is_capital = yes
-				CONTROLLER = {
-					NOT = {
-						tag = ROOT
-						is_puppet_of = ROOT
-						is_in_faction_with = ROOT
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				has_wargoal_against = FROM.OWNER
-				add = 100
-			}
-			modifier = {
-				has_war_with = FROM.OWNER
-				add = 100
-			}
-		}
-		state_target = yes
-		on_map_mode = map_only
-		#target_array = all_states
-		target_trigger = {
-			FROM = {
-				is_capital = yes
-				CONTROLLER = {
-					NOT = {
-						tag = ROOT
-						is_puppet_of = ROOT
-						is_in_faction_with = ROOT
-					}
-				}
-			}
-		}
-		cost = 100
-		fire_only_once = no
-		days_remove = 180
-		complete_effect = {
-			FROM = {
-				OWNER = {
-					add_timed_idea = {
-						idea = wfc_tantacle_attack
-						days = 90
-					}
-				}
-			}
 		}
 	}
 }
@@ -361,6 +446,66 @@ wfc_create_subjects_category = {
 				}
 				FROM = {
 					transfer_state = PREV
+				}
+			}
+		}
+	}
+}
+
+wfc_preparation_for_war_category = {
+	wfc_border_defense = {
+		icon = generic_construction
+		available = {
+			has_war = no
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			every_owned_state = {
+				limit = {
+					all_neighbor_state = {
+						always = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 1
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 1
+					instant_build = yes
 				}
 			}
 		}

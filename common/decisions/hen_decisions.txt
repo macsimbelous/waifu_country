@@ -1,0 +1,57 @@
+hen_tentakles_decisions = {
+	hen_tentakles_attack_decision = {
+		name = hen_tentakles_attack_decision.t
+		icon = generic_prepare_civil_war
+		visible = {
+			FROM = {
+				is_capital = yes
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+						is_puppet_of = ROOT
+						is_in_faction_with = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_wargoal_against = FROM.OWNER
+				add = 100
+			}
+			modifier = {
+				has_war_with = FROM.OWNER
+				add = 100
+			}
+		}
+		state_target = yes
+		on_map_mode = map_only
+		#target_array = all_states
+		target_trigger = {
+			FROM = {
+				is_capital = yes
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+						is_puppet_of = ROOT
+						is_in_faction_with = ROOT
+					}
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = no
+		days_remove = 180
+		complete_effect = {
+			FROM = {
+				OWNER = {
+					add_timed_idea = {
+						idea = wfc_tantacle_attack
+						days = 90
+					}
+				}
+			}
+		}
+	}
+}
