@@ -28,11 +28,6 @@ set_technology = {
 set_research_slots = 3
 
 set_convoys = 41
-1936.1.1 = {
-
-	
-}
-#politics and starting faction
 
 set_popularities = {
 	democratic = 20
@@ -52,7 +47,7 @@ set_politics = {
 #ideas
 
 add_ideas = {
-	limited_exports
+	free_trade
 	volunteer_only
 	partial_economic_mobilisation
 	Is_Flat_Justice
