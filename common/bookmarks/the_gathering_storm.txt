@@ -15,9 +15,7 @@ bookmarks = {
 				ACW_anime_economic
 			}
 			focuses = {
-				ACW_army_power
-				acw_political_effort
-				acw_production_effort
+
 			}
 		}
 		"HEN" = {
@@ -48,9 +46,7 @@ bookmarks = {
 			history = "AUN_GATHERING_STORM_DESC"
 			ideology = communism
 			focuses = {
-				TRP_polit
-				aun_industrial_effort
-				aun_army_effort
+
 			}
 			ideas = {
 				TRP_revolution
@@ -64,7 +60,7 @@ bookmarks = {
 			ideas = {
 				meh_ai
 				meh_super_factory
-				meh_warmind
+
 			}	
 			focuses = {
 
@@ -74,13 +70,10 @@ bookmarks = {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				trotskyite_plot
-				home_of_revolution
+
 			}
 			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
+
 			}	
 		}
 
