@@ -124,6 +124,15 @@ mms_workouts_shamiko_category = {
 			remove_country_leader_trait = defeatist
 			add_country_leader_trait = warmonger
 			#add_country_leader_trait = wfc_Tyan_militarist
+			divide_variable = {
+				mms_shamiko_attack = 100
+			}
+			divide_variable = {
+				mms_shamiko_defence = 100
+			}
+			divide_variable = {
+				mms_shamiko_speed = 100
+			}
 			add_dynamic_modifier = {
 				modifier = mms_power_shamiko
 			}

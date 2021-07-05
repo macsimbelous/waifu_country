@@ -5,6 +5,7 @@ set_naval_oob = "MAH_1936_Naval"
 #research and industry stuff
 
 set_technology = {
+	basic_machine_tools = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	motorised_infantry = 1
@@ -106,16 +107,7 @@ create_country_leader = {
 
 
 #marshal
-create_field_marshal = {
-	name = "Lauri Allan Torni"
-	picture = "Finland_Lauri_Allan_Torni.tga"
-	traits = { offensive_doctrine logistics_wizard panzer_leader }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 4
-}
+
 #generals
 create_corps_commander = {
 	name = "Madoka_Kaname"
@@ -126,49 +118,6 @@ create_corps_commander = {
 	defense_skill = 5
 	planning_skill = 4
 	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Asahio"
-	picture = "Japan_Asahio.tga"
-	traits = { trickster fortress_buster }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Kinuyo Nishi"
-	picture = "Japan_Kinuyo_Nishi.tga"
-	traits = { trickster winter_specialist defensive_doctrine }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Arc Alter"
-	picture = "France_Arc_Alter.tga"
-	traits = { commando naval_invader panzer_leader }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Youmu Konpaku"
-	picture = "Japan_Youmu_Konpaku.tga"
-	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
-	skill = 5
-	attack_skill = 6
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 5
 }
 #agents
 create_operative_leader = {

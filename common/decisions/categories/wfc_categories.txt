@@ -13,6 +13,7 @@ wfc_world_conquest_category = {
 		}
 	}
 	available = {
+		is_puppet = no
 		if = {
 			limit = {
 				original_tag = MMS

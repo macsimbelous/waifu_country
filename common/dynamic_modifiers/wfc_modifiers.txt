@@ -16,5 +16,5 @@ mms_power_shamiko = {
 	enable = { always = yes }
 	army_attack_factor = mms_shamiko_attack
 	army_defence_factor = mms_shamiko_defence
-	army_speed_factor = 0.05
+	army_speed_factor = mms_shamiko_speed
 }
