@@ -175,14 +175,14 @@ country_event = {
 		ai_chance = {
 			factor = 75
 		}
-		add_ideas = wfc_hentai_banned_idea
+		#add_ideas = wfc_hentai_banned_idea
 	}
 	option = {
 		name = acw_event.8.b
 		ai_chance = {
 			factor = 75
 		}
-		add_ideas = wfc_hentai_allow_idea
+		#add_ideas = wfc_hentai_allow_idea
 	}
 }
 

@@ -20,15 +20,30 @@ state={
 			industrial_complex = 6
 			9950 = {
 				naval_base = 6
-
+				coastal_bunker = 3
 			}
-
+			4102 = {
+				coastal_bunker = 3
+				naval_base = 2
+			}
+			1025 = {
+				coastal_bunker = 3
+				bunker = 3
+			}
+			10092 = {
+				coastal_bunker = 3
+				bunker = 3
+			}
+			12032 = {
+				coastal_bunker = 3
+				bunker = 3
+			}
 		}
 		victory_points = {
 			1025 10 
 		}
 		victory_points = {
-			4102 15 
+			4102 50 
 		}
 		victory_points = {
 			9950 30

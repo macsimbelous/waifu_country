@@ -143,62 +143,91 @@ division_template = {
 		}
 	}
 }
-division_template = {
-	name = "Anime light tank"
-	regiments = {
-		light_armor = {
-			x = 0
-			y = 0
-		}
-		light_armor = {
-			x = 0
-			y = 1
-		}
-		light_armor = {
-			x = 0
-			y = 2
-		}
-		light_armor = {
-			x = 1
-			y = 0
-		}
-		light_armor = {
-			x = 1
-			y = 1
-		}
-		light_armor = {
-			x = 1
-			y = 2
-		}
-		motorized = {
-			x = 2
-			y = 0
-		}
-		motorized = {
-			x = 2
-			y = 1
-		}
-		motorized = {
-			x = 2
-			y = 2
-		}
-		motorized = {
-			x = 2
-			y = 3
-		}
-	}
-	support = {
-		mot_recon = {
-			x = 0
-			y = 0
-		}
-		maintenance_company = {
-			x = 0
-			y = 1
-		}
-	}
-}
 units = {
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Anime Infantry Division"
+		location = 9950
+		division_template = "Anime Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
 	division = {
 		name = "Anime Infantry Division"
 		location = 9950
@@ -288,6 +317,10 @@ air_wings = {
 	528 = { 
 		fighter_equipment_1 = {
 			owner = "HEN" 
+			amount = 200
+		}
+		nav_bomber_equipment_1 = {
+			owner = "HEN"
 			amount = 200
 		}
 	}
