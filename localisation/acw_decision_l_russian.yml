@@ -57,11 +57,14 @@ acw_create_ministerstvo_run_tt:0 "Не создаются другие ведо�
 #acw_puppets_category
 acw_puppets_category:0 "Подчинение слабых стран"
 acw_create_puppet_decision.t:0 "Подчинить §Y[From.GetNameDef]§!"
-acw_ven_to_puppet_decision.t:0 "Подчинить §Y[VEN.GetNameDef]§!"
+acw_change_country_leader:0 "Сменить лидера §Y[From.GetNameDef]§!"
 #acw_overseas_puppets_category
 acw_overseas_puppets_category:0 "Подчинение заморских територий"
 acw_create_overseas_puppets_decision.t:0 "Подчинить §Y[From.GetNameDef]§!"
 acw_battle_trigger_tt:0 "Наш флот сильнее в §G2§! и более раз"
 #threat
 acw_create_puppet_threat:0 "Вайфулэнд подчинил независимую страну"
+
+#acw_puppets_economic_assistance
+acw_puppets_economic_assistance:0 "Предоставить экономическую помошь §Y[From.GetNameDef]§!"
 

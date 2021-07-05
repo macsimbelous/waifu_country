@@ -69,7 +69,7 @@ wfc_integration_decision.t:0 "Интегрировать §Y[From.GetName]§!"
 wfc_integration_decision.t_desc:0 "Не обходимо закрепить распространение нашей культуры в §Y[From.GetName]§!"
 
 #create_subject
-wfc_create_subjects_category:0 "Субъекты"
+wfc_subjects_category:0 "Субъекты"
 wfc_create_subject_decision:0 "Создать субъект §Y[From.GetNameDef]§!"
 
 #wfc_world_conquest_category

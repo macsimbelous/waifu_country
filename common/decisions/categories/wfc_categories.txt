@@ -40,8 +40,8 @@ wfc_integration_category = {
 	}
 }
 
-wfc_create_subjects_category = {
-	priority = 15
+wfc_subjects_category = {
+	priority = 10
 	allowed = {
 		OR = {
 			original_tag = ACW

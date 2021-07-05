@@ -392,7 +392,7 @@ economy_decisions = {
 	}
 }
 
-wfc_create_subjects_category = {
+wfc_subjects_category = {
 	wfc_create_subject_decision = {
 		fire_only_once = no
 		cost = 100
@@ -446,6 +446,18 @@ wfc_create_subjects_category = {
 				}
 				FROM = {
 					transfer_state = PREV
+				}
+			}
+			if = {
+				limit = {
+					original_tag = ACW
+				}
+				FROM = {
+					acw_change_country_leader = yes
+					add_ideas = {
+						wfc_acw_assistance
+						wfc_acw_puppet
+					}
 				}
 			}
 		}

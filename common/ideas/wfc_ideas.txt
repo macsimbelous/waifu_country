@@ -107,7 +107,7 @@ ideas = {
 			modifier = {
 				autonomy_gain = -0.5
 				#waifuism_drift = 0.01
-				autonomy_manpower_share = 0.5
+				#autonomy_manpower_share = 0.5
 			}
 		}
 		wfc_hentai_banned_idea = {
@@ -148,23 +148,6 @@ ideas = {
 				stability_factor = -0.7
 				army_morale_factor = -0.3
 				political_power_gain = -1
-			}
-		}
-		ACW_economic_assistance = {
-			available = {
-				is_puppet = yes
-			}
-			removal_cost = -1
-			allowed_civil_war = {
-				always = yes
-			}
-			modifier = {
-				production_speed_buildings_factor = 0.15
-				research_speed_factor = 0.15
-				stability_factor = 0.15
-				democratic_drift = 0.05
-				#autonomy_manpower_share = 0.5
-				autonomy_gain = -0.5
 			}
 		}
 		acr_anime_physics = {

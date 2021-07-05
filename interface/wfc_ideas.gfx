@@ -16,11 +16,11 @@ spriteTypes = {
                 texturefile = "gfx/interface/ideas/idea_jap_supremacy_of_will.dds"
         }
         spriteType = {
-                name = "GFX_idea_waifuland_assistance"
+                name = "GFX_idea_wfc_acw_assistance"
                 texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
         }
         spriteType = {
-                name = "GFX_idea_wfc_waifuland_puppet"
+                name = "GFX_idea_wfc_acw_puppet"
                 texturefile = "gfx/interface/ideas/idea_ast_classify_aliens.dds"
         }
 }
