@@ -460,6 +460,101 @@ wfc_subjects_category = {
 					}
 				}
 			}
+			else_if = {
+				limit = {
+					original_tag = HEN
+				}
+				FROM = {
+					hen_change_country_leader = yes
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MAH
+				}
+				FROM = {
+					mah_change_country_leader = yes
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MEH
+				}
+				FROM = {
+					meh_change_country_leader = yes
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MMS
+				}
+				FROM = {
+					mms_change_country_leader = yes
+				}
+			}
+			else = {
+				FROM = {
+					trp_change_country_leader = yes
+				}
+			}
+		}
+	}
+	wfc_change_country_leader = {
+		cost = 100
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				NOT = {
+					OR = {
+						has_country_leader_with_trait = wfc_anime_tyan
+						has_country_leader_with_trait = wfc_trap
+						has_country_leader_with_trait = wfc_android
+					}
+					
+				}
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					original_tag = ACW
+				}
+				FROM = {
+					acw_change_country_leader = yes
+				}
+			}
+			else_if = {
+				limit = { original_tag = HEN }
+				FROM = {
+					hen_change_country_leader = yes
+				}
+			}
+			else_if = {
+				limit = { original_tag = MEH }
+				FROM = {
+					meh_change_country_leader = yes
+				}
+			}
+			else_if = {
+				limit = { original_tag = MAH }
+				FROM = {
+					mah_change_country_leader = yes
+				}
+			}
+			else_if = {
+				limit = { original_tag = MMS }
+				FROM = {
+					mms_change_country_leader = yes
+				}
+			}
+			else = {
+				FROM = {
+					trp_change_country_leader = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }

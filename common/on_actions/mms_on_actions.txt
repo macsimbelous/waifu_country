@@ -1,5 +1,5 @@
 on_actions = {
-		on_startup = {
+	on_startup = {
 		effect = {
 			MMS = {
 				set_variable = {
@@ -14,6 +14,20 @@ on_actions = {
 				set_variable = {
 					mms_shamiko_workouts_count = 0
 				}
+			}
+		}
+	}
+	#ROOT is subject FROM is overlord
+	on_puppet = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						original_tag = MMS
+					}
+				}
+				#add_ideas = wfc_acw_puppet
+				mms_change_country_leader = yes
 			}
 		}
 	}

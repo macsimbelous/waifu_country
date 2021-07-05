@@ -6,6 +6,7 @@ set_naval_oob = "HEN_1936_Naval"
 
 set_technology = {
 	basic_machine_tools = 1
+	concentrated_industry = 1
 	electronic_mechanical_engineering = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1

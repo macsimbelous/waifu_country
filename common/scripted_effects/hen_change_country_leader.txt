@@ -1,0 +1,309 @@
+hen_change_country_leader = {
+	#Лидеры марионеток
+	if = {
+		limit = {
+			has_government = fascism
+		}
+		random_list = {
+			10 = {
+				create_country_leader = {
+					name = "Olga Araki"
+					picture = "gfx/leaders/HEN/Portrait_HEN_land_01.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Mary Lazarev"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_01.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Victoria Wagner"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_02.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Maki Kuroki"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_03.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Hanako Nakamuta"
+					picture = "gfx/leaders/HEN/Portrait_Ruma.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Asuka Ivanov"
+					picture = "gfx/leaders/HEN/Portrait_Igawa_Asagi.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Ludmila Hasegawa"
+					picture = "gfx/leaders/HEN/Portrait_Suomi.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Svetlana Kataoka"
+					picture = "gfx/leaders/HEN/Portrait_Sill_Plain.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Sofia Nire"
+					picture = "gfx/leaders/HEN/Portrait_Mika_Amano.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Alice Saigo"
+					picture = "gfx/leaders/HEN/Portrait_Yuriya_komiya.dds"
+					ideology = fascism_ideology
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_government = communism
+		}
+		random_list = {
+			10 = {
+				create_country_leader = {
+					name = "Olga Araki"
+					picture = "gfx/leaders/HEN/Portrait_HEN_land_01.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Mary Lazarev"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_01.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Victoria Wagner"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_02.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Maki Kuroki"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_03.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Hanako Nakamuta"
+					picture = "gfx/leaders/HEN/Portrait_Ruma.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Asuka Ivanov"
+					picture = "gfx/leaders/HEN/Portrait_Igawa_Asagi.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Ludmila Hasegawa"
+					picture = "gfx/leaders/HEN/Portrait_Suomi.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Svetlana Kataoka"
+					picture = "gfx/leaders/HEN/Portrait_Sill_Plain.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Sofia Nire"
+					picture = "gfx/leaders/HEN/Portrait_Mika_Amano.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Alice Saigo"
+					picture = "gfx/leaders/HEN/Portrait_Yuriya_komiya.dds"
+					ideology = fascism_ideology
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_government = democratic
+		}
+		random_list = {
+			10 = {
+				create_country_leader = {
+					name = "Olga Araki"
+					picture = "gfx/leaders/HEN/Portrait_HEN_land_01.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Mary Lazarev"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_01.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Victoria Wagner"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_02.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Maki Kuroki"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_03.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Hanako Nakamuta"
+					picture = "gfx/leaders/HEN/Portrait_Ruma.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Asuka Ivanov"
+					picture = "gfx/leaders/HEN/Portrait_Igawa_Asagi.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Ludmila Hasegawa"
+					picture = "gfx/leaders/HEN/Portrait_Suomi.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Svetlana Kataoka"
+					picture = "gfx/leaders/HEN/Portrait_Sill_Plain.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Sofia Nire"
+					picture = "gfx/leaders/HEN/Portrait_Mika_Amano.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Alice Saigo"
+					picture = "gfx/leaders/HEN/Portrait_Yuriya_komiya.dds"
+					ideology = fascism_ideology
+				}
+			}
+		}
+	}
+	else = {
+		random_list = {
+			10 = {
+				create_country_leader = {
+					name = "Olga Araki"
+					picture = "gfx/leaders/HEN/Portrait_HEN_land_01.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Mary Lazarev"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_01.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Victoria Wagner"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_02.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Maki Kuroki"
+					picture = "gfx/leaders/HEN/Portrait_HEN_operative_03.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Hanako Nakamuta"
+					picture = "gfx/leaders/HEN/Portrait_Ruma.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Asuka Ivanov"
+					picture = "gfx/leaders/HEN/Portrait_Igawa_Asagi.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Ludmila Hasegawa"
+					picture = "gfx/leaders/HEN/Portrait_Suomi.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Svetlana Kataoka"
+					picture = "gfx/leaders/HEN/Portrait_Sill_Plain.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Sofia Nire"
+					picture = "gfx/leaders/HEN/Portrait_Mika_Amano.dds"
+					ideology = fascism_ideology
+				}
+			}
+			10 = {
+				create_country_leader = {
+					name = "Alice Saigo"
+					picture = "gfx/leaders/HEN/Portrait_Yuriya_komiya.dds"
+					ideology = fascism_ideology
+				}
+			}
+		}
+	}
+	add_country_leader_trait = wfc_anime_tyan
+}

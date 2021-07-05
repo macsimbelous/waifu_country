@@ -71,6 +71,7 @@ wfc_integration_decision.t_desc:0 "Не обходимо закрепить ра
 #create_subject
 wfc_subjects_category:0 "Субъекты"
 wfc_create_subject_decision:0 "Создать субъект §Y[From.GetNameDef]§!"
+wfc_change_country_leader:0 "Сменить лидера §Y[From.GetNameDef]§!"
 
 #wfc_world_conquest_category
 wfc_world_conquest_category:0 "Завоевание мира"
