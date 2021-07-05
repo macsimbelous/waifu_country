@@ -122,6 +122,7 @@ mms_workouts_shamiko_category = {
 		days_remove = 30
 		remove_effect = {
 			remove_country_leader_trait = defeatist
+			add_country_leader_trait = wfc_demon_lord
 			add_country_leader_trait = warmonger
 			#add_country_leader_trait = wfc_Tyan_militarist
 			divide_variable = {

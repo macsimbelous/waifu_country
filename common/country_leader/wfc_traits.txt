@@ -14,6 +14,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	wfc_demon_lord = {
+		random = no
+		political_power_factor = 0.25
+		army_attack_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	wfc_peoples_favorite = {
 		random = no
 		stability_factor = 0.10
