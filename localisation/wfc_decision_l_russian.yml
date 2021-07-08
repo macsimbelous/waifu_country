@@ -83,4 +83,4 @@ wfc_border_defense:0 "Укрепление границы"
 
 #test
 wfl_test_category:0 "Тестовая категория"
-wfl_test_category_desc:0 "415 - §G[?123.modifier@manpower]§!"
+wfl_test_category_desc:0 "415 - §G[?neutrality.GetName]§!"
