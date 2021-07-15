@@ -185,7 +185,7 @@ create_field_marshal = {
 	logistics_skill = 6
 }
 #generals
-create_corps_commander = {
+create_field_marshal = {
 	name = "Ishtar"
 	picture = "Portrait_Ishtar.dds"
 	traits = {
@@ -203,6 +203,18 @@ create_corps_commander = {
 	planning_skill = 7
 	logistics_skill = 7
 	#id = 7011
+}
+create_corps_commander = {
+	name = "Milla Maxwell"
+	picture = "Portrait_Milla_Maxwell.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+		infantry_expert
+	}
 }
 create_corps_commander = {
 	name = "Astaroth"

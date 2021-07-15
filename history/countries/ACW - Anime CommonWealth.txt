@@ -418,19 +418,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Milla Maxwell"
-	picture = "Portrait_Milla_Maxwell.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-		infantry_expert
-	}
-}
-
-create_corps_commander = {
 	name = "Elma"
 	picture = "Portrait_Elma.dds"
 	skill = 1
