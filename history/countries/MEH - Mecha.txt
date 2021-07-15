@@ -62,9 +62,10 @@ set_technology = {
 add_ideas = {
 	free_trade
 	partial_economic_mobilisation
-	volunteer_only
+	#volunteer_only
 	meh_super_factory
 	meh_ai
+	meh_mob_law
 	#meh_warmind_1
 }
 
