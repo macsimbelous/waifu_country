@@ -450,51 +450,67 @@ wfc_subjects_category = {
 			}
 			if = {
 				limit = {
-					original_tag = ACW
-				}
-				FROM = {
-					acw_change_country_leader = yes
-					add_ideas = {
-						wfc_acw_assistance
-						wfc_acw_puppet
+					FROM = {
+						NOT = {
+							OR = {
+								original_tag = ACW
+								original_tag = HEN
+								original_tag = MAH
+								original_tag = TRP
+								original_tag = MMS
+								original_tag = MEH
+							}
+						}
 					}
 				}
-			}
-			else_if = {
-				limit = {
-					original_tag = HEN
+				if = {
+					limit = {
+						original_tag = ACW
+					}
+					FROM = {
+						acw_change_country_leader = yes
+						add_ideas = {
+							wfc_acw_assistance
+							wfc_acw_puppet
+						}
+					}
 				}
-				FROM = {
-					hen_change_country_leader = yes
+				else_if = {
+					limit = {
+						original_tag = HEN
+					}
+					FROM = {
+						hen_change_country_leader = yes
+					}
 				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MAH
+				else_if = {
+					limit = {
+						original_tag = MAH
+					}
+					FROM = {
+						mah_change_country_leader = yes
+					}
 				}
-				FROM = {
-					mah_change_country_leader = yes
+				else_if = {
+					limit = {
+						original_tag = MEH
+					}
+					FROM = {
+						meh_change_country_leader = yes
+					}
 				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MEH
+				else_if = {
+					limit = {
+						original_tag = MMS
+					}
+					FROM = {
+						mms_change_country_leader = yes
+					}
 				}
-				FROM = {
-					meh_change_country_leader = yes
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MMS
-				}
-				FROM = {
-					mms_change_country_leader = yes
-				}
-			}
-			else = {
-				FROM = {
-					trp_change_country_leader = yes
+				else = {
+					FROM = {
+						trp_change_country_leader = yes
+					}
 				}
 			}
 		}
@@ -510,7 +526,6 @@ wfc_subjects_category = {
 						has_country_leader_with_trait = wfc_trap
 						has_country_leader_with_trait = wfc_android
 					}
-					
 				}
 			}
 		}
@@ -524,25 +539,33 @@ wfc_subjects_category = {
 				}
 			}
 			else_if = {
-				limit = { original_tag = HEN }
+				limit = {
+					original_tag = HEN
+				}
 				FROM = {
 					hen_change_country_leader = yes
 				}
 			}
 			else_if = {
-				limit = { original_tag = MEH }
+				limit = {
+					original_tag = MEH
+				}
 				FROM = {
 					meh_change_country_leader = yes
 				}
 			}
 			else_if = {
-				limit = { original_tag = MAH }
+				limit = {
+					original_tag = MAH
+				}
 				FROM = {
 					mah_change_country_leader = yes
 				}
 			}
 			else_if = {
-				limit = { original_tag = MMS }
+				limit = {
+					original_tag = MMS
+				}
 				FROM = {
 					mms_change_country_leader = yes
 				}

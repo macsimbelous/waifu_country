@@ -9,7 +9,23 @@ on_actions = {
 					}
 				}
 				#add_ideas = wfc_acw_puppet
-				hen_change_country_leader = yes
+				if = {
+					limit = {
+						ROOT = {
+							NOT = {
+								OR = {
+									original_tag = ACW
+									original_tag = HEN
+									original_tag = MAH
+									original_tag = TRP
+									original_tag = MMS
+									original_tag = MEH
+								}
+							}
+						}
+					}
+					hen_change_country_leader = yes
+				}
 			}
 		}
 	}
