@@ -5,7 +5,7 @@ set_naval_oob = "MEH_1936_Naval"
 set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 150
-add_manpower = 500000
+#add_manpower = 500000
 #create_faction = WaifuPower
 
 set_technology = {
@@ -63,10 +63,10 @@ set_technology = {
 add_ideas = {
 	free_trade
 	partial_economic_mobilisation
-	#volunteer_only
+	volunteer_only
 	meh_super_factory
 	meh_ai
-	meh_mob_law
+	#meh_mob_law
 	#meh_warmind_1
 }
 
