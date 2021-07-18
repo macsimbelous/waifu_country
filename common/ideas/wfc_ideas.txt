@@ -271,6 +271,9 @@ ideas = {
 			traits = {
 				princess_of_terror
 			}
+			modifier = {
+				compliance_growth = 0.25
+			}
 			ai_will_do = {
 				base = 1
 				modifier = {
