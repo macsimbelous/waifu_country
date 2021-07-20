@@ -36,3 +36,6 @@ meh_upgrade_warmind_agr:0 "Наступательная модернизация
 meh_upgrade_warmind_def:0 "Оборонительная модернизация"
 meh_upgrade_ai:0 "Улючшить искуственый интелект"
 
+#meh_cyborgization_category
+meh_cyborgization_category:0 "Киборгизация"
+meh_cyborgization:0 "Киборгизировать §R[From.GetName]§!"

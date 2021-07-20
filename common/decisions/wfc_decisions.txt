@@ -425,12 +425,7 @@ wfc_subjects_category = {
 			}
 		}
 		ai_will_do = {
-			base = 1
-			modifier = {
-				#garrison_manpower_need > 0
-				has_manpower < 1000
-				add = 9
-			}
+			factor = 0
 		}
 		complete_effect = {
 			set_autonomy = {

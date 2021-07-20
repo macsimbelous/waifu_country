@@ -46,6 +46,22 @@
  ACW:0 "Анимеляндия"
  ACW_DEF:0 "Анимеляндия"
  ACW_ADJ:0 "Анимещная"
+#Empire
+ACW_EMP_communism:0 "Великая Советская Анимеляндия"
+ACW_EMP_communism_DEF:0 "Великая Советская Анимеляндия"
+ACW_EMP_communism_ADJ:0 "Анимещная"
+
+ACW_EMP_democratic:0 "Аниме Федерация"
+ACW_EMP_democratic_DEF:0 "Аниме Федерация"
+ACW_EMP_democratic_ADJ:0 "Анимещная"
+
+ACW_EMP_fascism:0 "Великая Империя Анимеляндия"
+ACW_EMP_fascism_DEF:0 "Великая Империя Анимеляндия"
+ACW_EMP_fascism_ADJ:0 "Анимещная"
+
+ACW_EMP_neutrality:0 "Великая Анимеляндия"
+ACW_EMP_neutrality_DEF:0 "Великая Анимеляндия"
+ACW_EMP_neutrality_ADJ:0 "Анимещная"
 
  MAH_fascism:0 "Империя Девочек Волшебниц"
  MAH_fascism_DEF:0 "Империя Девочек Волшебниц"
