@@ -109,6 +109,20 @@ wfc_world_conquest_category = {
 			}
 			modifier = {
 				FROM = {
+					is_puppet = yes
+				}
+				add = -1
+			}
+			modifier = {
+				FROM = {
+					OVERLORD = {
+						is_major = yes
+					}
+				}
+				add = -1
+			}
+			modifier = {
+				FROM = {
 					OR = {
 						has_guaranteed = USA
 						has_guaranteed = ENG
