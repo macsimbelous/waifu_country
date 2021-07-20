@@ -390,7 +390,7 @@ meh_cyborgization_category = {
 			# FROM = {
 			# 	compliance > 30
 			# }
-			num_of_civilian_factories_available_for_projects > 3
+			num_of_civilian_factories_available_for_projects > 2
 		}
 		visible = {
 			FROM = {
@@ -400,7 +400,7 @@ meh_cyborgization_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 		state_target = yes
 		on_map_mode = map_and_decisions_view
