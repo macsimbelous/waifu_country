@@ -169,6 +169,7 @@ wfc_integration_category = {
 		}
 		visible = {
 			FROM = {
+				is_owned_by = ROOT
 				NOT = {
 					is_core_of = ROOT
 				}
