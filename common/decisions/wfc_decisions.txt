@@ -148,7 +148,9 @@ wfc_world_conquest_category = {
 			FROM = {
 				every_owned_state = {
 					limit = {
-						is_neighbor_of = ROOT
+						any_neighbor_state = {
+							is_owned_by = ROOT
+						}
 					}
 					add_claim_by = ROOT
 				}
