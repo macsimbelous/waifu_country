@@ -793,6 +793,10 @@ ideas = {
 					build_cost_ic = -0.3
 					reliability = 0.1
 				}
+				mechanized_equipment = {
+					build_cost_ic = -0.3
+					reliability = 0.1
+				}
 			}
 			traits = {
 				motorized_equipment_manufacturer
@@ -892,6 +896,9 @@ ideas = {
 					ap_attack = 0.2
 					hard_attack = 0.2
 				}
+				armor = {
+					build_cost_ic = -0.3
+				}
 				#modern_tank_equipment_1 = {
 				#	build_cost_ic = -0.2
 				#	ap_attack = 0.2
@@ -901,6 +908,7 @@ ideas = {
 		}
 		wfc_fast_tank_design_bureau = {
 			picture = generic_industrial_concern_1
+			name = generic_tank_manufacturer
 			allowed = {
 				OR = {
 					original_tag = ACW
@@ -918,6 +926,9 @@ ideas = {
 				light_armor = {
 					build_cost_ic = -0.3
 					maximum_speed = 0.1
+				}
+				armor = {
+					build_cost_ic = -0.3
 				}
 			}
 			cost = 150
@@ -946,6 +957,9 @@ ideas = {
 					ap_attack = 0.2
 					hard_attack = 0.2
 				}
+				armor = {
+					build_cost_ic = -0.3
+				}
 			}
 			cost = 150
 			traits = {
@@ -972,6 +986,9 @@ ideas = {
 					build_cost_ic = -0.3
 					ap_attack = 0.3
 					armor_value = 0.2
+				}
+				armor = {
+					build_cost_ic = -0.3
 				}
 			}
 			cost = 150

@@ -693,6 +693,9 @@ ideas = {
 					hard_attack = 0.2
 					armor_value = 0.2
 				}
+				armor = {
+					build_cost_ic = -0.3
+				}
 			}
 			cost = 150
 			traits = {
