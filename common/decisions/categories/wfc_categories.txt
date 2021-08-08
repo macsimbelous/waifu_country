@@ -59,16 +59,6 @@ wfc_subjects_category = {
 			original_tag = MEH
 		}
 	}
-	visible = {
-		if = {
-			limit = {
-				original_tag = MEH
-			}
-			NOT = {
-				has_government = fascism
-			}
-		}
-	}
 }
 
 wfl_coring_category = {
