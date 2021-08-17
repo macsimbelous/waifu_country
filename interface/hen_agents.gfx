@@ -7,4 +7,8 @@ spriteTypes = {
                 name = "GFX_Yuriya_Komiya"
                 texturefile = "gfx/leaders/HEN/Portrait_Yuriya_Komiya.dds"
         }
+        spriteType = {
+                name = "GFX_Mako_Mitsuki"
+                texturefile = "gfx/leaders/HEN/Mako_Mitsuki.dds"
+        }
 }

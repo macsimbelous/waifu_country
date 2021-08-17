@@ -172,6 +172,28 @@ create_corps_commander = {
 	traits = {
 	}
 }
+create_corps_commander = {
+	name = "Yuuki Kawaragi"
+	picture = "Yuuki_Kawaragi.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Tsubasa Kamijo"
+	picture = "Tsubasa_Kamijo.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
 #admirals
 create_navy_leader = {
 	name = "Suomi"
@@ -222,6 +244,18 @@ create_operative_leader = {
 	}
 	traits = {
 		operative_seducer
+	}
+}
+create_operative_leader = {
+	name = "Mako Mitsuki"
+	GFX = GFX_Mako_Mitsuki
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		HEN
+	}
+	traits = {
+		operative_seducer operative_infiltrator
 	}
 }
 ### Variants ###

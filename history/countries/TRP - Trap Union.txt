@@ -171,6 +171,16 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 4
 }
+create_corps_commander = {
+	name = "Ranga"
+	picture = "Ranga.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 #Admirals
 create_navy_leader = {
 	name = "Ranma Saotome"
@@ -196,6 +206,7 @@ create_navy_leader = {
 	maneuvering_skill = 2
 	coordination_skill = 1
 }
+
 #agents
 create_operative_leader = {
 	name = "Saki Mizushima"
