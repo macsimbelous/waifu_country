@@ -335,7 +335,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Oni"
+	name = "02"
 	picture = "Portrait_Zero_Two.dds"
 	skill = 1
 	attack_skill = 2
@@ -403,8 +403,8 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Arnice"
-	picture = "Portrait_Arnice.dds"
+	name = "Kurari Rose"
+	picture = "Kurari_Rose.dds"
 	traits = {
 	}
 	skill = 2
