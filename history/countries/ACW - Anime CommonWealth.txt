@@ -183,6 +183,19 @@ create_corps_commander = {
 	#id = 7033
 }
 create_corps_commander = {
+	name = "Nishizumi Miho"
+	picture = "Nishizumi_Miho.dds"
+	traits = {
+		panzer_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 7033
+}
+create_corps_commander = {
 	name = "Asuna"
 	picture = "Portrait_Asuna_Yuuki.dds"
 	traits = {
