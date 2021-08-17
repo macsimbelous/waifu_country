@@ -441,6 +441,32 @@ create_corps_commander = {
 	logistics_skill = 2
 	#id = 7030
 }
+create_corps_commander = {
+	name = "Aino"
+	picture = "Aino.dds"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	#id = 7030
+}
+create_corps_commander = {
+	name = "Rose"
+	picture = "Rose.dds"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	#id = 7030
+}
 
 #Admirals
 create_navy_leader = {
