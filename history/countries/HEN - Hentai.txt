@@ -194,6 +194,17 @@ create_corps_commander = {
 	traits = {
 	}
 }
+create_corps_commander = {
+	name = "Prim Fiorire"
+	picture = "Prim_Fiorire.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
 #admirals
 create_navy_leader = {
 	name = "Suomi"
