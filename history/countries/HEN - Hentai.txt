@@ -104,7 +104,31 @@ create_country_leader = {
 		wfc_anime_tyan
 	}
 }
-
+#marshals
+create_field_marshal = {
+	name = "Olga Discordia"
+	picture = "Olga_Discordia.dds"
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	traits = {
+		infantry_leader offensive_doctrine expert_delegator
+	}
+}
+create_field_marshal = {
+	name = "Celestine Lucullus"
+	picture = "Celestine_Lucullus.dds"
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	traits = {
+		infantry_leader defensive_doctrine expert_delegator
+	}
+}
 #generals
 create_corps_commander = {
 	name = "Igawa Asagi"
@@ -197,6 +221,39 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Prim Fiorire"
 	picture = "Prim_Fiorire.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Cloe"
+	picture = "Cloe.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Claudia le Van Tyne"
+	picture = "Claudia_le_Van_Tyne.dds"
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Alicia Arcturus"
+	picture = "Alicia_Arcturus.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
