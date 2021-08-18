@@ -1,3 +1,35 @@
+hen_japan_conquest = {
+	hen_stockpile_up = {
+		icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 2
+		}
+		cost = 50
+		days_remove = 30
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 10500
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 120
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 400
+			}
+		}
+	}
+}
+
 hen_tentakles_decisions = {
 	hen_tentakles_attack_decision = {
 		name = hen_tentakles_attack_decision.t
