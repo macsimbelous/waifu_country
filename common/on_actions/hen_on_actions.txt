@@ -29,4 +29,18 @@ on_actions = {
 			}
 		}
 	}
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = JAP
+					HEN = {
+						has_war_with = JAP
+					}
+				}
+				set_global_flag = hen_world_conquest_enabled_flag
+			}
+		}
+	}
 }

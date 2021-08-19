@@ -24,10 +24,16 @@ wfc_world_conquest_category = {
 		}
 		if = {
 			limit = {
-				is_ai = yes
+				original_tag = HEN
 			}
-			date > 1937.1.1
+			has_global_flag = hen_world_conquest_enabled_flag
 		}
+		# if = {
+		# 	limit = {
+		# 		is_ai = yes
+		# 	}
+		# 	date > 1937.1.1
+		# }
 	}
 }
 

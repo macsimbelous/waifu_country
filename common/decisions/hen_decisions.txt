@@ -9,11 +9,12 @@ hen_japan_conquest = {
 			civilian_factory_use = 2
 		}
 		cost = 50
-		days_remove = 30
+		days_remove = 60
 		ai_will_do = {
 			factor = 10
 		}
 		remove_effect = {
+			set_country_flag = hen_stockpile_up_flag
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_1
 				amount = 10500
@@ -25,6 +26,98 @@ hen_japan_conquest = {
 			add_equipment_to_stockpile = {
 				type = support_equipment_1
 				amount = 400
+			}
+		}
+	}
+	hen_seduce_politics = {
+		#icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 1
+		}
+		cost = 50
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			set_country_flag = hen_seduce_politics_flag
+			add_collaboration = {
+				target = JAP
+				value = 0.75
+			}
+		}
+	}
+	hen_demoralize_jap = {
+		#icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 1
+		}
+		cost = 50
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			set_country_flag = hen_demoralize_jap_flag
+			JAP = {
+				add_stability = -30
+				add_political_power = -100
+				add_war_support = -30
+			}
+		}
+	}
+	hen_add_claim_to_jap = {
+		#icon = generic_construction
+		available = {
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 1
+		}
+		cost = 50
+		days_remove = 60
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			set_country_flag = hen_add_claim_to_jap_flag
+			add_war_support = 10
+			JAP = {
+				every_owned_state = {
+					add_claim_by = HEN
+				}
+			}
+		}
+	}
+	hen_declare_war_jap = {
+		#icon = generic_construction
+		available = {
+			has_country_flag = hen_stockpile_up_flag
+			has_country_flag = hen_seduce_politics_flag
+			has_country_flag = hen_demoralize_jap_flag
+			has_country_flag = hen_add_claim_to_jap_flag
+		}
+		fire_only_once = yes
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			JAP = {
+				declare_war_on = {
+					target = JAP
+					type = annex_everything
+				}
 			}
 		}
 	}
