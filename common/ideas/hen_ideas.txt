@@ -34,7 +34,6 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = GFX_idea_jap_supremacy_of_will
 			removal_cost = -1
 			modifier = {
 				army_defence_factor = 0.05
@@ -48,12 +47,14 @@ ideas = {
 				propaganda_mission_factor = 0.2
 				diplomatic_pressure_mission_factor = 0.2
 				control_trade_mission_factor = 0.2
-				drift_defence_factor = 0.5
+				drift_defence_factor = 0.25
 				political_power_gain = 0.25
 				justify_war_goal_time = -0.25
-				consumer_goods_factor = -0.05
+				#consumer_goods_factor = -0.05
 				#production_speed_arms_factory_factor = 0.2
-				dig_in_speed = 1
+				dig_in_speed_factor = 0.2
+				training_time_army_factor = 0.1
+				trade_opinion_factor = 0.1
 			}
 		}
 	}

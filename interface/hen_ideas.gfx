@@ -11,4 +11,8 @@ spriteTypes = {
                 name = "GFX_idea_hen_incompetent_officers"
                 texturefile = "gfx/interface/ideas/idea_chi_incompetent_officers.dds"
         }
+        spriteType = {
+                name = "GFX_idea_hen_the_nation_of_hentai"
+                texturefile = "gfx/interface/ideas/idea_jap_supremacy_of_will.dds"
+        }
 }
