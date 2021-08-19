@@ -68,9 +68,9 @@ hen_japan_conquest = {
 		remove_effect = {
 			set_country_flag = hen_demoralize_jap_flag
 			JAP = {
-				add_stability = -30
+				add_stability = -0.3
 				add_political_power = -100
-				add_war_support = -30
+				add_war_support = -0.3
 			}
 		}
 	}
@@ -90,7 +90,7 @@ hen_japan_conquest = {
 		}
 		remove_effect = {
 			set_country_flag = hen_add_claim_to_jap_flag
-			add_war_support = 10
+			add_war_support = 0.1
 			JAP = {
 				every_owned_state = {
 					add_claim_by = HEN
@@ -107,17 +107,14 @@ hen_japan_conquest = {
 			has_country_flag = hen_add_claim_to_jap_flag
 		}
 		fire_only_once = yes
-
 		cost = 50
 		ai_will_do = {
 			factor = 10
 		}
 		complete_effect = {
-			JAP = {
-				declare_war_on = {
-					target = JAP
-					type = annex_everything
-				}
+			declare_war_on = {
+				target = JAP
+				type = annex_everything
 			}
 		}
 	}

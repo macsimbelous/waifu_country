@@ -48,12 +48,12 @@ wfl_test_category = {
 				set_variable = {
 					rpsov = despotism
 				}
-				create_country_leader = {
-					name = rpsov
+				# create_country_leader = {
+				# 	name = rpsov
 					
-					picture = "gfx/leaders/ACW/Portrait_ACW_land_01.dds"
-					ideology = rpsov
-				}
+				# 	picture = "gfx/leaders/ACW/Portrait_ACW_land_01.dds"
+				# 	#ideology = rpsov
+				# }
 			}
 		}
 	}

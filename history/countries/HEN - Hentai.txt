@@ -153,17 +153,6 @@ create_corps_commander = {
 	}
 }
 create_corps_commander = {
-	name = "Yuuki Kawaragi"
-	picture = "Portrait_Yuuki_Kawaragi.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-create_corps_commander = {
 	name = "Rina Komiya"
 	picture = "Portrait_Rina_Komiya.dds"
 	skill = 1
