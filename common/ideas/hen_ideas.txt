@@ -27,6 +27,35 @@ ideas = {
 				army_org_regain = -0.1
 			}
 		}
+		hen_the_nation_of_hentai = {
+			allowed = {
+				original_tag = HEN
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_idea_jap_supremacy_of_will
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+				army_speed_factor = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.1
+				army_morale_factor = 0.2
+				monthly_population = 0.5
+				boost_ideology_mission_factor = 0.2
+				propaganda_mission_factor = 0.2
+				diplomatic_pressure_mission_factor = 0.2
+				control_trade_mission_factor = 0.2
+				drift_defence_factor = 0.5
+				political_power_gain = 0.25
+				justify_war_goal_time = -0.25
+				consumer_goods_factor = -0.05
+				#production_speed_arms_factory_factor = 0.2
+				dig_in_speed = 1
+			}
+		}
 	}
 	political_advisor = {
 		hen_neko = {
