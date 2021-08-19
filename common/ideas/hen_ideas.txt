@@ -63,7 +63,34 @@ ideas = {
 				occupation_cost = 0.5
 				resistance_decay = 0.25
 				compliance_growth = 0.25
+				terrain_penalty_reduction = 0.3
+				supply_consumption_factor = -0.3
 			}
+		}
+		hen_attack_jap_bonus = {
+			#name = ENG_tackle_fascism
+
+			allowed = {
+				original_tag = HEN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				industrial_capacity_factory = 0.2
+			}
+
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.2
+				defense_bonus_against = 0.2
+			}
+
+			picture = generic_fascism_banned
+			
+			removal_cost = -1
 		}
 	}
 	political_advisor = {

@@ -112,6 +112,7 @@ hen_japan_conquest = {
 			factor = 10
 		}
 		complete_effect = {
+			add_ideas = hen_attack_jap_bonus
 			declare_war_on = {
 				target = JAP
 				type = annex_everything
