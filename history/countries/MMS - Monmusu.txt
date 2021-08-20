@@ -83,6 +83,7 @@ add_ideas = {
 	#wfl_incompetent_officers
 	#ideological_fanaticism_focus
 	#political_commissars_focus
+	mms_the_nation_of_monmusu
 }
 
 set_politics = {
@@ -131,8 +132,8 @@ create_country_leader = {
 	traits = {
 		wfc_demon_lord
 		wfc_anime_tyan
-		warmonger
 		wfc_patron_of_the_military_industrial_complex
+		wfc_Tyan_militarist
 	}
 }
 create_country_leader = {

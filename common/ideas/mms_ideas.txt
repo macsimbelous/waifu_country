@@ -1,5 +1,33 @@
 ideas = {
 	country = {
+		mms_the_nation_of_monmusu = {
+			picture = GFX_idea_air_war_plans_division_focus
+			allowed = {
+				original_tag = MMS
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				drift_defence_factor = 0.25
+				political_power_gain = 0.25
+				justify_war_goal_time = -0.5
+				defensive_war_stability_factor = 0.2
+				offensive_war_stability_factor = 0.2
+				#consumer_goods_factor = -0.05
+				#production_speed_arms_factory_factor = 0.2
+				training_time_army_factor = -0.2
+				trade_opinion_factor = 0.15
+				conscription = 0.02
+				conscription_factor = 0.2
+				occupation_cost = -0.5
+				resistance_decay = 0.35
+				compliance_growth = 0.15
+				terrain_penalty_reduction = 0.3
+				supply_consumption_factor = -0.3
+			}
+		}
 		wfl_demon_influence = {
 			allowed = {
 				original_tag = MMS
