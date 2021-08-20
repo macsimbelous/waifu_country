@@ -433,14 +433,40 @@ create_navy_leader = {
 	#id = 7109
 	picture = "Portrait_Yamato_WG.dds"
 	traits = {
+		big_guns_expert blue_water_expert
 	}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	maneuvering_skill = 1
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Purifier"
+	#id = 7109
+	picture = "Purifier.dds"
+	traits = {
+		destroyer_leader green_water_expert
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 1
 	coordination_skill = 1
 }
-
+create_navy_leader = {
+	name = "Tester"
+	#id = 7109
+	picture = "Tester.dds"
+	traits = {
+		cruiser_captain arctic_water_expert
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
 #Agents
 create_operative_leader = {
 	name = "Rias Gremory"
