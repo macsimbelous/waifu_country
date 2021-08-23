@@ -1,9 +1,38 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_trp_mare_bello_fiore"
+		texturefile = "gfx/interface/ideas/idea_trp_mare_bello_fiore.dds"
+	}
         spriteType = {
-                name = "GFX_idea_trp_mare_bello_fiore"
-                texturefile = "gfx/interface/ideas/idea_trp_mare_bello_fiore.dds"
-        }
+		name = "GFX_idea_trp_hitoshi_sugoroku"
+		texturefile = "gfx/interface/ideas/idea_trp_hitoshi_sugoroku.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_felix_argyle"
+		texturefile = "gfx/interface/ideas/idea_trp_felix_argyle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_birdy_cephon_altera"
+		texturefile = "gfx/interface/ideas/idea_trp_birdy_cephon_altera.dds"
+	}
         spriteType = {
+		name = "GFX_idea_trp_hime_arikawa"
+		texturefile = "gfx/interface/ideas/idea_trp_hime_arikawa.dds"
+	}
+        spriteType = {
+		name = "GFX_idea_trp_russell"
+		texturefile = "gfx/interface/ideas/idea_trp_russell.dds"
+	}
+        spriteType = {
+		name = "GFX_idea_trp_souji_mitsuka"
+		texturefile = "gfx/interface/ideas/idea_trp_souji_mitsuka.dds"
+	}
+        spriteType = {
+		name = "GFX_idea_trp_ranga"
+		texturefile = "gfx/interface/ideas/idea_trp_ranga.dds"
+	}
+	#duhi
+	spriteType = {
 		name = "GFX_idea_TRP_revolution"
 		texturefile = "gfx/interface/ideas/home_of_the_revolution.dds"
 	}

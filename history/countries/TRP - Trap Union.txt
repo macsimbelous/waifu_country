@@ -119,6 +119,16 @@ create_field_marshal = {
 	#id = 7035
 }
 create_field_marshal = {
+	name = "Felix Argyle"
+	picture = "Portrait_Felix_Argyle.dds"
+	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {
 	name = "Hime Arikawa"
 	picture = "Portrait_Hime_Arikawa.dds"
 	traits = {  }
@@ -150,16 +160,6 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
-create_corps_commander = {
-	name = "Felix Argyle"
-	picture = "Portrait_Felix_Argyle.dds"
-	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
 create_corps_commander = {
 	name = "Birdy Cephon Altera"
 	picture = "Portrait_Birdy_Cephon_Altera.dds"

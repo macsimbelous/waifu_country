@@ -15,7 +15,7 @@ ideas = {
 				industrial_capacity_factory = 0.2
 				industrial_capacity_dockyard = 0.2
 				conscription = 0.02
-				conscription_factor = 0.
+				conscription_factor = 0
 				training_time_army_factor = -0.1
 				production_speed_buildings_factor = 0.2
 				drift_defence_factor = 0.25
@@ -48,7 +48,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			removal_cost = -1
 			modifier = {
-				monthly_population = 1.0
+				monthly_population = 1
 			}
 		}
 	}
@@ -67,28 +67,108 @@ ideas = {
 				factor = 1
 			}
 		}
+		trp_hitoshi_sugoroku = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.25
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 5
+				}
+			}
+		}
 	}
 	theorist = {
-
+		trp_felix_argyle = {
+			ledger = army
+			allowed = {
+				original_tag = TRP
+			}
+			research_bonus = {
+				land_doctrine = 0.15
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		trp_hime_arikawa = {
+			ledger = air
+			allowed = {
+				original_tag = TRP
+			}
+			research_bonus = {
+				air_doctrine = 0.15
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+		trp_russell = {
+			ledger = navy
+			allowed = {
+				original_tag = TRP
+			}
+			research_bonus = {
+				naval_doctrine = 0.15
+			}
+			traits = {
+				naval_theorist
+			}
+		}
 	}
 	army_chief = {
-
+		trp_birdy_cephon_altera = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		trp_souji_mitsuka = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		trp_ranga = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	air_chief = {
-
 	}
 	navy_chief = {
-
 	}
 	high_command = {
-
 	}
 	tank_manufacturer = {
 		designer = yes
-
 	}
 	naval_manufacturer = {
 		designer = yes
-
 	}
 }
