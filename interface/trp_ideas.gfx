@@ -3,7 +3,7 @@ spriteTypes = {
 		name = "GFX_idea_trp_mare_bello_fiore"
 		texturefile = "gfx/interface/ideas/idea_trp_mare_bello_fiore.dds"
 	}
-        spriteType = {
+	spriteType = {
 		name = "GFX_idea_trp_hitoshi_sugoroku"
 		texturefile = "gfx/interface/ideas/idea_trp_hitoshi_sugoroku.dds"
 	}
@@ -15,21 +15,25 @@ spriteTypes = {
 		name = "GFX_idea_trp_birdy_cephon_altera"
 		texturefile = "gfx/interface/ideas/idea_trp_birdy_cephon_altera.dds"
 	}
-        spriteType = {
+	spriteType = {
 		name = "GFX_idea_trp_hime_arikawa"
 		texturefile = "gfx/interface/ideas/idea_trp_hime_arikawa.dds"
 	}
-        spriteType = {
+	spriteType = {
 		name = "GFX_idea_trp_russell"
 		texturefile = "gfx/interface/ideas/idea_trp_russell.dds"
 	}
-        spriteType = {
+	spriteType = {
 		name = "GFX_idea_trp_souji_mitsuka"
 		texturefile = "gfx/interface/ideas/idea_trp_souji_mitsuka.dds"
 	}
-        spriteType = {
+	spriteType = {
 		name = "GFX_idea_trp_ranga"
 		texturefile = "gfx/interface/ideas/idea_trp_ranga.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_aoi_futaba"
+		texturefile = "gfx/interface/ideas/idea_trp_aoi_futaba.dds"
 	}
 	#duhi
 	spriteType = {

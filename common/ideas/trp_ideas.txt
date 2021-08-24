@@ -85,6 +85,23 @@ ideas = {
 				}
 			}
 		}
+		trp_aoi_futaba = {
+			allowed = {
+				original_tag = TRP
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence
+			}
+			modifier = {
+				operative_slot = 1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	theorist = {
 		trp_felix_argyle = {

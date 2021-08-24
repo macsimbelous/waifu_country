@@ -235,12 +235,24 @@ create_operative_leader = {
 	name = "Gasper Vladi"
 	GFX = GFX_Gasper_Vladi
 	traits = {
-		operative_seducer
+		operative_seducer operative_double_agent
 	}
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
 		TRP MMS
+	}
+}
+create_operative_leader = {
+	name = "Aoi Futaba"
+	GFX = GFX_Aoi_Futaba
+	traits = {
+		operative_seducer operative_linguist
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		TRP
 	}
 }
 ### Variants ###
