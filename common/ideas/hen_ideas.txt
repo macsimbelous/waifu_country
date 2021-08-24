@@ -64,27 +64,21 @@ ideas = {
 		}
 		hen_attack_jap_bonus = {
 			#name = ENG_tackle_fascism
-
 			allowed = {
 				original_tag = HEN
 			}
-
 			allowed_civil_war = {
 				always = yes
 			}
-
 			modifier = {
 				industrial_capacity_factory = 0.2
 			}
-
 			targeted_modifier = {
 				tag = JAP
 				attack_bonus_against = 0.2
 				defense_bonus_against = 0.2
 			}
-
 			picture = generic_fascism_banned
-			
 			removal_cost = -1
 		}
 	}
@@ -108,31 +102,36 @@ ideas = {
 				fortification_engineer
 			}
 			ai_will_do = {
-				factor = 0.5
+				factor = 0
 			}
 		}
 	}
 	theorist = {
-
 	}
 	army_chief = {
-
 	}
 	air_chief = {
-
 	}
 	navy_chief = {
-
 	}
 	high_command = {
-
+		hen_homare_nao = {
+			ledger = army
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_infantry_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
 	}
 	tank_manufacturer = {
 		designer = yes
-
 	}
 	naval_manufacturer = {
 		designer = yes
-
 	}
 }

@@ -8,6 +8,11 @@ spriteTypes = {
                 texturefile = "gfx/interface/ideas/idea_hen_office_lady.dds"
         }
         spriteType = {
+                name = "GFX_idea_hen_homare_nao"
+                texturefile = "gfx/interface/ideas/idea_hen_homare_nao.dds"
+        }
+        #duhi
+        spriteType = {
                 name = "GFX_idea_hen_incompetent_officers"
                 texturefile = "gfx/interface/ideas/idea_chi_incompetent_officers.dds"
         }
