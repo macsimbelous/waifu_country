@@ -35,6 +35,14 @@ spriteTypes = {
 		name = "GFX_idea_trp_aoi_futaba"
 		texturefile = "gfx/interface/ideas/idea_trp_aoi_futaba.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_kaoru_hanase"
+		texturefile = "gfx/interface/ideas/idea_trp_kaoru_hanase.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_aoi_hyoudou"
+		texturefile = "gfx/interface/ideas/idea_trp_aoi_hyoudou.dds"
+	}
 	#duhi
 	spriteType = {
 		name = "GFX_idea_TRP_revolution"

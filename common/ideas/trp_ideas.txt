@@ -102,6 +102,28 @@ ideas = {
 				factor = 1
 			}
 		}
+		trp_kaoru_hanase = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		trp_aoi_hyoudou = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_popular_figurehead
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	theorist = {
 		trp_felix_argyle = {
