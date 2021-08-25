@@ -259,9 +259,42 @@ ideas = {
 		}
 	}
 	air_chief = {
+		trp_yukikaze = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		trp_mitsunaga_oda = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				air_chief_all_weather_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		trp_ritsu_souma = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				air_chief_reform_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	navy_chief = {
-		trp_kaname = {
+		trp_hamaji_yakumo = {
 			allowed = {
 				original_tag = TRP
 			}
@@ -285,11 +318,65 @@ ideas = {
 		}
 	}
 	high_command = {
-	}
-	tank_manufacturer = {
-		designer = yes
-	}
-	naval_manufacturer = {
-		designer = yes
+		trp_xianming_lin = {
+			ledger = army
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_infantry_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		trp_hacka_doll_3 = {
+			ledger = army
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_armored_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		trp_mizuho_miyanokouji = {
+			ledger = army
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_regrouping_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		trp_youta_tsunashi = {
+			ledger = army
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_logistics_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		trp_fish_eye = {
+			ledger = army
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_cavalry_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 }

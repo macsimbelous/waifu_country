@@ -398,13 +398,9 @@ ideas = {
 					original_tag = MAH
 					original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
-			available = {
-				#has_completed_focus = acw_minscience
-			}
-			#research_speed_factor = 0.03
 			traits = {
 				wfc_girl_scientist
 			}
@@ -475,7 +471,7 @@ ideas = {
 					original_tag = MAH
 					#original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
 			traits = {
@@ -493,7 +489,7 @@ ideas = {
 					original_tag = MAH
 					#original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
 			traits = {
@@ -511,7 +507,7 @@ ideas = {
 					original_tag = MAH
 					#original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
 			traits = {
@@ -570,7 +566,7 @@ ideas = {
 					original_tag = MAH
 					#original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
 			traits = {
@@ -589,7 +585,7 @@ ideas = {
 					original_tag = MAH
 					#original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
 			traits = {
@@ -608,7 +604,7 @@ ideas = {
 					original_tag = MAH
 					#original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
 			traits = {
@@ -627,87 +623,11 @@ ideas = {
 					original_tag = MAH
 					#original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
 			traits = {
 				army_logistics_3
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		jeff_high_five = {
-			picture = generic_air_south_america_3
-			ledger = air
-			allowed = {
-				OR = {
-					original_tag = HEN
-					original_tag = MAH
-					#original_tag = MEH
-					original_tag = MMS
-					original_tag = TRP
-				}
-			}
-			traits = {
-				air_close_air_support_3
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		jeff_high_six = {
-			ledger = army
-			picture = generic_army_europe_5
-			allowed = {
-				OR = {
-					original_tag = HEN
-					original_tag = MAH
-					#original_tag = MEH
-					original_tag = MMS
-					original_tag = TRP
-				}
-			}
-			traits = {
-				army_artillery_3
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		jeff_high_seven = {
-			ledger = navy
-			picture = generic_navy_europe_1
-			allowed = {
-				OR = {
-					original_tag = HEN
-					original_tag = MAH
-					#original_tag = MEH
-					original_tag = MMS
-					original_tag = TRP
-				}
-			}
-			traits = {
-				air_naval_strike_3
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		jeff_high_eight = {
-			ledger = navy
-			picture = generic_navy_europe_2
-			allowed = {
-				OR = {
-					original_tag = HEN
-					original_tag = MAH
-					#original_tag = MEH
-					original_tag = MMS
-					original_tag = TRP
-				}
-			}
-			traits = {
-				navy_naval_air_defense_3
 			}
 			ai_will_do = {
 				factor = 1
@@ -722,7 +642,7 @@ ideas = {
 					original_tag = MAH
 					#original_tag = MEH
 					original_tag = MMS
-					original_tag = TRP
+					#original_tag = TRP
 				}
 			}
 			traits = {

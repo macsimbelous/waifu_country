@@ -67,6 +67,42 @@ spriteTypes = {
 		name = "GFX_idea_trp_sylvia"
 		texturefile = "gfx/interface/ideas/idea_trp_sylvia.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_hamaji_yakumo"
+		texturefile = "gfx/interface/ideas/idea_trp_hamaji_yakumo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_yukikaze"
+		texturefile = "gfx/interface/ideas/idea_trp_yukikaze.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_mitsunaga_oda"
+		texturefile = "gfx/interface/ideas/idea_trp_mitsunaga_oda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_ritsu_souma"
+		texturefile = "gfx/interface/ideas/idea_trp_ritsu_souma.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_xianming_lin"
+		texturefile = "gfx/interface/ideas/idea_trp_xianming_lin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_hacka_doll_3"
+		texturefile = "gfx/interface/ideas/idea_trp_hacka_doll_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_mizuho_miyanokouji"
+		texturefile = "gfx/interface/ideas/idea_trp_mizuho_miyanokouji.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_youta_tsunashi"
+		texturefile = "gfx/interface/ideas/idea_trp_youta_tsunashi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_fish_eye"
+		texturefile = "gfx/interface/ideas/idea_trp_fish_eye.dds"
+	}
 	#duhi
 	spriteType = {
 		name = "GFX_idea_TRP_revolution"

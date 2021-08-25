@@ -240,6 +240,87 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
+create_corps_commander = {
+	name = "Yukikaze"
+	picture = "Yukikaze.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Mitsunaga Oda"
+	picture = "Mitsunaga_Oda.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ritsu Souma"
+	picture = "Ritsu_Souma.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Xianming Lin"
+	picture = "Xianming_Lin.dds"
+	traits = { commando }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hacka Doll No.3"
+	picture = "Hacka_Doll_3.dds"
+	traits = { armor_officer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Mizuho Miyanokouji"
+	picture = "Mizuho_Miyanokouji.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Youta Tsunashi"
+	picture = "Youta_Tsunashi.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Fish Eye"
+	picture = "Fish_Eye.dds"
+	traits = { cavalry_officer cavalry_leader }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
 #Admirals
 create_navy_leader = {
 	name = "Ranma Saotome"
@@ -293,7 +374,19 @@ create_navy_leader = {
 	maneuvering_skill = 2
 	coordination_skill = 1
 }
-
+create_navy_leader = {
+	name = "Hamaji Yakumo"
+	#id = 7109
+	picture = "Hamaji_Yakumo.dds"
+	traits = {
+		naval_lineage
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
 #agents
 create_operative_leader = {
 	name = "Saki Mizushima"
