@@ -67,6 +67,24 @@ ideas = {
 				factor = 1
 			}
 		}
+		trp_oboro_tsukimigusa = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_war_industrialist
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					OR = {
+						has_government = fascism
+						has_government = communism
+					}
+					add = 5
+				}
+			}
+		}
 		trp_hitoshi_sugoroku = {
 			allowed = {
 				original_tag = TRP
@@ -122,6 +140,39 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
+			}
+		}
+		trp_kaguya_arikawa = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		trp_tama_kyan = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		trp_mariya_shidou = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 	}
@@ -201,6 +252,28 @@ ideas = {
 	air_chief = {
 	}
 	navy_chief = {
+		trp_kaname = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		trp_taroumaru_seike = {
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	high_command = {
 	}

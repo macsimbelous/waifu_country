@@ -43,6 +43,30 @@ spriteTypes = {
 		name = "GFX_idea_trp_aoi_hyoudou"
 		texturefile = "gfx/interface/ideas/idea_trp_aoi_hyoudou.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_mariya_shidou"
+		texturefile = "gfx/interface/ideas/idea_trp_mariya_shidou.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_kaname"
+		texturefile = "gfx/interface/ideas/idea_trp_kaname.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_taroumaru_seike"
+		texturefile = "gfx/interface/ideas/idea_trp_taroumaru_seike.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_tama_kyan"
+		texturefile = "gfx/interface/ideas/idea_trp_tama_kyan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_kaguya_arikawa"
+		texturefile = "gfx/interface/ideas/idea_trp_kaguya_arikawa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_oboro_tsukimigusa"
+		texturefile = "gfx/interface/ideas/idea_trp_oboro_tsukimigusa.dds"
+	}
 	#duhi
 	spriteType = {
 		name = "GFX_idea_TRP_revolution"

@@ -200,12 +200,43 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Tama Kyan"
+	picture = "Tama_Kyan.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Kaguya Arikawa"
+	picture = "Kaguya_Arikawa.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Oboro Tsukimigusa"
+	picture = "Oboro_Tsukimigusa.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 #Admirals
 create_navy_leader = {
 	name = "Ranma Saotome"
 	#id = 7109
 	picture = "Portrait_Ranma_Saotome.dds"
 	traits = {
+		old_guard_navy
 	}
 	skill = 2
 	attack_skill = 2
@@ -218,8 +249,48 @@ create_navy_leader = {
 	#id = 7109
 	picture = "Russell.dds"
 	traits = {
+		navy_career_officer
 	}
 	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Mariya Shidou"
+	#id = 7109
+	picture = "Mariya_Shidou.dds"
+	traits = {
+		navy_media_personality naval_invader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Kaname"
+	#id = 7109
+	picture = "Kaname.dds"
+	traits = {
+		naval_lineage
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Taroumaru Seike"
+	#id = 7109
+	picture = "Taroumaru_Seike.dds"
+	traits = {
+		naval_liason
+	}
+	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	maneuvering_skill = 2
