@@ -290,6 +290,19 @@ create_navy_leader = {
 	maneuvering_skill = 1
 	coordination_skill = 1
 }
+create_navy_leader = {
+	name = "Kaname"
+	#id = 7109
+	picture = "Kaname.dds"
+	traits = {
+		naval_lineage
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
 #agents
 create_operative_leader = {
 	name = "Mika Amano"

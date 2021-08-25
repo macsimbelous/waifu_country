@@ -48,10 +48,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_trp_mariya_shidou.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_trp_kaname"
-		texturefile = "gfx/interface/ideas/idea_trp_kaname.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_trp_taroumaru_seike"
 		texturefile = "gfx/interface/ideas/idea_trp_taroumaru_seike.dds"
 	}

@@ -113,6 +113,17 @@ ideas = {
 	air_chief = {
 	}
 	navy_chief = {
+		hen_kaname = {
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	high_command = {
 		hen_homare_nao = {
