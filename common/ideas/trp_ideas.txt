@@ -213,6 +213,15 @@ ideas = {
 				naval_theorist
 			}
 		}
+		trp_sylvia = {
+			ledger = army
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_girl_scientist
+			}
+		}
 	}
 	army_chief = {
 		trp_birdy_cephon_altera = {

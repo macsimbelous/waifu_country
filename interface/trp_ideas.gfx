@@ -63,6 +63,10 @@ spriteTypes = {
 		name = "GFX_idea_trp_oboro_tsukimigusa"
 		texturefile = "gfx/interface/ideas/idea_trp_oboro_tsukimigusa.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_sylvia"
+		texturefile = "gfx/interface/ideas/idea_trp_sylvia.dds"
+	}
 	#duhi
 	spriteType = {
 		name = "GFX_idea_TRP_revolution"
