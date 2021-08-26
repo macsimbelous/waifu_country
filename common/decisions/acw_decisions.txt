@@ -1193,7 +1193,8 @@ acw_puppets_category = {
 			factor = 5
 		}
 		fire_only_once = no
-		cost = 300
+		#cost = 300
+		cost = mtth:acw_puppet_cost
 		#days_re_enable = 180
 		days_remove = 90
 		modifier = {

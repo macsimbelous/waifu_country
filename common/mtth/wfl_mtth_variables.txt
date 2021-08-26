@@ -262,3 +262,10 @@ acw_occupied_states = {
 		add = temp
 	}
 }
+acw_puppet_cost = {
+	base = 100
+	modifier = {
+		is_ai = no
+		add = 200
+	}
+}
