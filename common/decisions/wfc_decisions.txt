@@ -279,6 +279,13 @@ wfl_campaigning_for_volunteers_category = {
 		fire_only_once = no
 		cost = 50
 		days_re_enable = 30
+		available = {
+			OR = {
+				has_idea = service_by_requirement
+				has_idea = all_adults_serve
+				has_idea = scraping_the_barrel
+			}
+		}
 		ai_will_do = {
 			base = 0
 			modifier = {
