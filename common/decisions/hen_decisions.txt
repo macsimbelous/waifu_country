@@ -141,11 +141,11 @@ hen_tentakles_decisions = {
 			base = 0
 			modifier = {
 				has_wargoal_against = FROM.OWNER
-				add = 100
+				add = 1
 			}
 			modifier = {
 				has_war_with = FROM.OWNER
-				add = 100
+				add = 2
 			}
 		}
 		state_target = yes
