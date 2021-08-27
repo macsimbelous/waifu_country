@@ -12,6 +12,11 @@ spriteTypes = {
                 texturefile = "gfx/interface/ideas/idea_mms_special_week.dds"
         }
         spriteType = {
+                name = "GFX_idea_mms_lilith"
+                texturefile = "gfx/interface/ideas/idea_mms_lilith.dds"
+        }
+        #duhi
+        spriteType = {
                 name = "GFX_idea_mms_the_nation_of_monmusu"
                 texturefile = "gfx/interface/ideas/air_war_plans_division_focus.dds"
         }

@@ -226,7 +226,7 @@ ideas = {
 					original_tag = HEN
 					original_tag = MAH
 					#original_tag = MEH
-					original_tag = MMS
+					#original_tag = MMS
 					#original_tag = TRP
 				}
 			}
@@ -244,7 +244,7 @@ ideas = {
 					original_tag = HEN
 					original_tag = MAH
 					#original_tag = MEH
-					original_tag = MMS
+					#original_tag = MMS
 					#original_tag = TRP
 				}
 			}
@@ -287,7 +287,7 @@ ideas = {
 					original_tag = HEN
 					original_tag = MAH
 					#original_tag = MEH
-					original_tag = MMS
+					#original_tag = MMS
 					#original_tag = TRP
 				}
 			}
@@ -657,6 +657,7 @@ ideas = {
 		designer = yes
 		wfc_aircraft_manufacturer = {
 			picture = generic_air_manufacturer_1
+			name = generic_light_aircraft_manufacturer
 			allowed = {
 				OR = {
 					original_tag = ACW
@@ -814,7 +815,7 @@ ideas = {
 			}
 			equipment_bonus = {
 				modern_armor = {
-					build_cost_ic = -0.3
+					#build_cost_ic = -0.3
 					ap_attack = 0.2
 					hard_attack = 0.2
 				}
@@ -841,12 +842,17 @@ ideas = {
 					original_tag = MMS
 				}
 			}
+			available = {
+				NOT = {
+					has_tech = advanced_light_tank
+				}
+			}
 			research_bonus = {
 				armor = 0.3
 			}
 			equipment_bonus = {
 				light_armor = {
-					build_cost_ic = -0.3
+					#build_cost_ic = -0.3
 					maximum_speed = 0.1
 				}
 				armor = {
@@ -860,6 +866,7 @@ ideas = {
 		}
 		wfc_medium_tank_astrov_design_bureau = {
 			picture = generic_industrial_concern_1
+			name = generic_tank_manufacturer
 			allowed = {
 				OR = {
 					original_tag = ACW
@@ -870,12 +877,20 @@ ideas = {
 					original_tag = MMS
 				}
 			}
+			available = {
+				NOT = {
+					OR = {
+						has_tech = advanced_heavy_tank
+						has_tech = advanced_medium_tank
+					}
+				}
+			}
 			research_bonus = {
 				armor = 0.3
 			}
 			equipment_bonus = {
 				medium_armor = {
-					build_cost_ic = -0.3
+					#build_cost_ic = -0.3
 					ap_attack = 0.2
 					hard_attack = 0.2
 				}
@@ -890,6 +905,7 @@ ideas = {
 		}
 		wfc_heavy_tank_design_bureau = {
 			picture = generic_industrial_concern_1
+			name = generic_tank_manufacturer
 			allowed = {
 				OR = {
 					original_tag = ACW
@@ -900,12 +916,20 @@ ideas = {
 					original_tag = MMS
 				}
 			}
+			available = {
+				NOT = {
+					OR = {
+						has_tech = advanced_heavy_tank
+						has_tech = advanced_medium_tank
+					}
+				}
+			}
 			research_bonus = {
 				armor = 0.3
 			}
 			equipment_bonus = {
 				heavy_armor = {
-					build_cost_ic = -0.3
+					#build_cost_ic = -0.3
 					ap_attack = 0.3
 					armor_value = 0.2
 				}
@@ -945,6 +969,7 @@ ideas = {
 		designer = yes
 		wfc_submarine_company = {
 			#picture = idea_generic_naval_manufacturer_1
+			name = generic_naval_manufacturer
 			allowed = {
 				OR = {
 					original_tag = ACW
@@ -967,6 +992,7 @@ ideas = {
 		}
 		wfc_carrier_company = {
 			#picture = idea_generic_navy_carrier_bonus
+			name = generic_naval_manufacturer
 			allowed = {
 				OR = {
 					original_tag = ACW
@@ -989,6 +1015,7 @@ ideas = {
 		}
 		wfc_battlefleet_company = {
 			picture = generic_navy_bonus
+			name = generic_naval_manufacturer
 			allowed = {
 				OR = {
 					original_tag = ACW

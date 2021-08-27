@@ -66,10 +66,14 @@ ideas = {
 				original_tag = MMS
 			}
 			traits = {
-				fascist_demagogue
+				wfc_war_industrialist
 			}
 			ai_will_do = {
-				factor = 0
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 5
+				}
 			}
 		}
 		mms_special_week = {
@@ -81,6 +85,24 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 2
+			}
+		}
+		mms_lilith = {
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.25
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 5
+				}
 			}
 		}
 	}
@@ -106,24 +128,17 @@ ideas = {
 		}
 	}
 	army_chief = {
-
 	}
 	air_chief = {
-
 	}
 	navy_chief = {
-
 	}
 	high_command = {
-
 	}
 	tank_manufacturer = {
 		designer = yes
-
-
 	}
 	naval_manufacturer = {
 		designer = yes
-
 	}
 }

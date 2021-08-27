@@ -214,7 +214,7 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 	traits = {
-		infantry_expert
+		infantry_leader infantry_expert
 	}
 }
 create_corps_commander = {
@@ -417,15 +417,23 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Heine"
 	picture = "Heine.dds"
-	traits = {
-	}
+	traits = { cavalry_leader }
 	skill = 2
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
 }
-
+create_corps_commander = {
+	name = "Lilith"
+	picture = "Lilith.dds"
+	traits = { aggressive_assaulter	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
 #Admirals
 
 create_navy_leader = {
