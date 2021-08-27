@@ -3,7 +3,10 @@
 oob = "MAH_1936"
 set_naval_oob = "MAH_1936_Naval"
 #research and industry stuff
-
+set_rule = {
+	#can_use_kamikaze_pilots = yes
+	can_create_factions = yes
+}
 set_technology = {
 	basic_machine_tools = 1
 	infantry_weapons = 1

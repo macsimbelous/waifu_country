@@ -296,6 +296,10 @@ wfl_campaigning_for_volunteers_category = {
 				has_manpower < 10000
 				add = 5
 			}
+			modifier = {
+				has_war = no
+				add = -6
+			}
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -510,7 +514,9 @@ wfc_subjects_category = {
 						original_tag = ACW
 					}
 					FROM = {
-						acw_change_country_leader = yes
+						hidden_effect = {
+							acw_change_country_leader = yes
+						}
 						add_ideas = {
 							wfc_acw_assistance
 							wfc_acw_puppet
@@ -522,7 +528,9 @@ wfc_subjects_category = {
 						original_tag = HEN
 					}
 					FROM = {
-						hen_change_country_leader = yes
+						hidden_effect = {
+							hen_change_country_leader = yes
+						}
 					}
 				}
 				else_if = {
@@ -530,7 +538,9 @@ wfc_subjects_category = {
 						original_tag = MAH
 					}
 					FROM = {
-						mah_change_country_leader = yes
+						hidden_effect = {
+							mah_change_country_leader = yes
+						}
 					}
 				}
 				else_if = {
@@ -538,7 +548,9 @@ wfc_subjects_category = {
 						original_tag = MEH
 					}
 					FROM = {
-						meh_change_country_leader = yes
+						hidden_effect = {
+							meh_change_country_leader = yes
+						}
 					}
 				}
 				else_if = {
@@ -546,12 +558,16 @@ wfc_subjects_category = {
 						original_tag = MMS
 					}
 					FROM = {
-						mms_change_country_leader = yes
+						hidden_effect = {
+							mms_change_country_leader = yes
+						}
 					}
 				}
 				else = {
 					FROM = {
-						trp_change_country_leader = yes
+						hidden_effect = {
+							trp_change_country_leader = yes
+						}
 					}
 				}
 			}
@@ -572,49 +588,51 @@ wfc_subjects_category = {
 			}
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					original_tag = ACW
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = ACW
+					}
+					FROM = {
+						acw_change_country_leader = yes
+					}
 				}
-				FROM = {
-					acw_change_country_leader = yes
+				else_if = {
+					limit = {
+						original_tag = HEN
+					}
+					FROM = {
+						hen_change_country_leader = yes
+					}
 				}
-			}
-			else_if = {
-				limit = {
-					original_tag = HEN
+				else_if = {
+					limit = {
+						original_tag = MEH
+					}
+					FROM = {
+						meh_change_country_leader = yes
+					}
 				}
-				FROM = {
-					hen_change_country_leader = yes
+				else_if = {
+					limit = {
+						original_tag = MAH
+					}
+					FROM = {
+						mah_change_country_leader = yes
+					}
 				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MEH
+				else_if = {
+					limit = {
+						original_tag = MMS
+					}
+					FROM = {
+						mms_change_country_leader = yes
+					}
 				}
-				FROM = {
-					meh_change_country_leader = yes
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MAH
-				}
-				FROM = {
-					mah_change_country_leader = yes
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MMS
-				}
-				FROM = {
-					mms_change_country_leader = yes
-				}
-			}
-			else = {
-				FROM = {
-					trp_change_country_leader = yes
+				else = {
+					FROM = {
+						trp_change_country_leader = yes
+					}
 				}
 			}
 		}
@@ -680,6 +698,424 @@ wfc_preparation_for_war_category = {
 					instant_build = yes
 				}
 			}
+		}
+	}
+}
+
+wfc_faction_category = {
+	wfc_create_faction = {
+		visible = {
+			NOT = {
+				has_global_flag = wfc_waifu_power_is_exist_flag
+			}
+		}
+		available = {
+			num_of_factories > 50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		cost = 100
+		complete_effect = {
+			set_global_flag = wfc_waifu_power_is_exist_flag
+			create_faction = WaifuPower
+		}
+	}
+	wfc_invite_acw_faction = {
+		visible = {
+			has_global_flag = wfc_waifu_power_is_exist_flag
+			ROOT = {
+				is_faction_leader = yes
+				NOT = {
+					original_tag = ACW
+				}
+				NOT = {
+					is_in_faction_with = ACW
+				}
+			}
+		}
+		available = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				ACW = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				ACW = {
+					OR = {
+						has_government = communism
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				ACW = {
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+			else = {
+				ACW = {
+					OR = {
+						has_government = democratic
+						has_government = communism
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 100
+		complete_effect = {
+			add_to_faction = ACW
+		}
+	}
+	wfc_invite_hen_faction = {
+		visible = {
+			has_global_flag = wfc_waifu_power_is_exist_flag
+			ROOT = {
+				is_faction_leader = yes
+				NOT = {
+					original_tag = HEN
+				}
+				NOT = {
+					is_in_faction_with = HEN
+				}
+			}
+		}
+		available = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				HEN = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				HEN = {
+					OR = {
+						has_government = communism
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				HEN = {
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+			else = {
+				HEN = {
+					OR = {
+						has_government = democratic
+						has_government = communism
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 100
+		complete_effect = {
+			add_to_faction = HEN
+		}
+	}
+	wfc_invite_mah_faction = {
+		visible = {
+			has_global_flag = wfc_waifu_power_is_exist_flag
+			ROOT = {
+				is_faction_leader = yes
+				NOT = {
+					original_tag = MAH
+				}
+				NOT = {
+					is_in_faction_with = MAH
+				}
+			}
+		}
+		available = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				MAH = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				MAH = {
+					OR = {
+						has_government = communism
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				MAH = {
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+			else = {
+				MAH = {
+					OR = {
+						has_government = democratic
+						has_government = communism
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 100
+		complete_effect = {
+			add_to_faction = MAH
+		}
+	}
+	wfc_invite_meh_faction = {
+		visible = {
+			has_global_flag = wfc_waifu_power_is_exist_flag
+			ROOT = {
+				is_faction_leader = yes
+				NOT = {
+					original_tag = MEH
+				}
+				NOT = {
+					is_in_faction_with = MEH
+				}
+			}
+		}
+		available = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				MEH = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				MEH = {
+					OR = {
+						has_government = communism
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				MEH = {
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+			else = {
+				MEH = {
+					OR = {
+						has_government = democratic
+						has_government = communism
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 100
+		complete_effect = {
+			add_to_faction = MEH
+		}
+	}
+	wfc_invite_mms_faction = {
+		visible = {
+			has_global_flag = wfc_waifu_power_is_exist_flag
+			ROOT = {
+				is_faction_leader = yes
+				NOT = {
+					original_tag = MMS
+				}
+				NOT = {
+					is_in_faction_with = MMS
+				}
+			}
+		}
+		available = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				MMS = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				MMS = {
+					OR = {
+						has_government = communism
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				MMS = {
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+			else = {
+				MMS = {
+					OR = {
+						has_government = democratic
+						has_government = communism
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 100
+		complete_effect = {
+			add_to_faction = MMS
+		}
+	}
+	wfc_invite_trp_faction = {
+		visible = {
+			has_global_flag = wfc_waifu_power_is_exist_flag
+			ROOT = {
+				is_faction_leader = yes
+				NOT = {
+					original_tag = TRP
+				}
+				NOT = {
+					is_in_faction_with = TRP
+				}
+			}
+		}
+		available = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				TRP = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				TRP = {
+					OR = {
+						has_government = communism
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				TRP = {
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+			else = {
+				TRP = {
+					OR = {
+						has_government = democratic
+						has_government = communism
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		cost = 100
+		complete_effect = {
+			add_to_faction = TRP
 		}
 	}
 }

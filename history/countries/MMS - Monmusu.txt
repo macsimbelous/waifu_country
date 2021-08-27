@@ -6,10 +6,10 @@ set_stability = 0.3
 set_war_support = 0.5
 set_convoys = 800
 #create_faction = WaifuPower
-#set_rule = {
-#	can_use_kamikaze_pilots = yes
-#	can_create_factions = yes
-#}
+set_rule = {
+	#can_use_kamikaze_pilots = yes
+	can_create_factions = yes
+}
 
 set_technology = {
 	infantry_weapons = 1

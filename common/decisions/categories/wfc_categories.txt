@@ -28,6 +28,12 @@ wfc_world_conquest_category = {
 			}
 			has_global_flag = hen_world_conquest_enabled_flag
 		}
+		if = {
+			limit = {
+				original_tag = ACW
+			}
+			has_idea = acw_minoboron_idea
+		}
 		# if = {
 		# 	limit = {
 		# 		is_ai = yes
@@ -278,7 +284,7 @@ wfl_test_category = {
 wfl_perimetr_category = {
 	priority = 1
 	visible = {
-		has_global_flag = wfl_apocalypse_flag
+		has_global_flag = meh_apocalypse_flag
 	}
 }
 
@@ -327,6 +333,21 @@ wfc_preparation_for_war_category = {
 			original_tag = TRP
 			original_tag = MEH
 			original_tag = MMS
+		}
+	}
+}
+wfc_faction_category = {
+	priority = 9
+	icon = decision_category_generic_propaganda
+	picture = GFX_decision_cat_picture_chi_political_support
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MMS
+			original_tag = MEH
 		}
 	}
 }

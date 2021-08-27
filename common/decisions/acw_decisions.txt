@@ -1211,8 +1211,8 @@ acw_puppets_category = {
 					wfc_acw_assistance
 					wfc_acw_puppet
 				}
-				acw_change_country_leader = yes
 				hidden_effect = {
+					acw_change_country_leader = yes
 					if = {
 						limit = {
 							has_idea = ENG_guided_by_britain_raj_2
@@ -1419,7 +1419,9 @@ acw_overseas_puppets_category = {
 					wfc_acw_assistance
 					wfc_acw_puppet
 				}
-				acw_change_country_leader = yes
+				hidden_effect = {
+					acw_change_country_leader = yes
+				}
 			}
 			add_named_threat = {
 				threat = 5

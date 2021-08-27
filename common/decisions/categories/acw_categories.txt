@@ -18,6 +18,9 @@ acw_concert_decisions = {
 	allowed = {
 		original_tag = ACW
 	}
+	visible = {
+		has_idea = acw_minpropagand_idea
+	}
 }
 
 acw_economy_category = {
@@ -40,7 +43,8 @@ acw_puppets_category = {
 		original_tag = ACW
 	}
 	visible = {
-		#has_government = democratic
+		has_country_flag = acw_minprom_flag
+		has_country_flag = acw_KGB_flag
 	}
 }
 
@@ -52,7 +56,8 @@ acw_overseas_puppets_category = {
 		original_tag = ACW
 	}
 	visible = {
-		#has_government = democratic
+		has_country_flag = acw_minprom_flag
+		has_country_flag = acw_KGB_flag
 		has_country_flag = acw_great_animeland_flag
 	}
 }
