@@ -303,23 +303,7 @@ ideas = {
 				factor = 2
 			}
 		}
-		acw_megumin = {
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				#has_completed_focus = acw_secret_weapons
-			}
-			research_bonus = {
-				nuclear = 0.15
-			}
-			traits = {
-				wfc_nuclear_mazoku
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
+
 		acw_eruza_guranhirute = {
 			allowed = {
 				original_tag = ACW
@@ -329,21 +313,6 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
-			}
-		}
-		acw_ayame_himuro = {
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				#has_completed_focus = acw_minscience
-			}
-			#research_speed_factor = 0.03
-			traits = {
-				wfc_girl_scientist
-			}
-			ai_will_do = {
-				factor = 2
 			}
 		}
 		acw_ange_le_carre = {
@@ -593,6 +562,40 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
+			}
+		}
+		acw_megumin = {
+			ledger = army
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				#has_completed_focus = acw_secret_weapons
+			}
+			research_bonus = {
+				nuclear = 0.15
+			}
+			traits = {
+				wfc_nuclear_mazoku
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		acw_ayame_himuro = {
+			ledger = army
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				#has_completed_focus = acw_minscience
+			}
+			#research_speed_factor = 0.03
+			traits = {
+				wfc_girl_scientist
+			}
+			ai_will_do = {
+				factor = 2
 			}
 		}
 	}

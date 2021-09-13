@@ -83,28 +83,6 @@ ideas = {
 		}
 	}
 	political_advisor = {
-		hen_neko = {
-			allowed = {
-				original_tag = HEN
-			}
-			ai_will_do = {
-				factor = 1
-			}
-			traits = {
-				wfc_popular_figurehead
-			}
-		}
-		hen_office_lady = {
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				fortification_engineer
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 	}
 	theorist = {
 	}
