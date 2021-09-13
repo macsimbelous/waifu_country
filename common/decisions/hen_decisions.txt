@@ -152,14 +152,14 @@ hen_japan_conquest = {
 		}
 		complete_effect = {
 			SOV = {
-				add_faction = HEN
+				add_to_faction = HEN
 			}
 		}
 	}
 	hen_join_allies = {
 		#icon = generic_construction
 		available = {
-			has_government = democrotic
+			has_government = democratic
 		}
 		fire_only_once = yes
 		cost = 50
@@ -168,7 +168,7 @@ hen_japan_conquest = {
 		}
 		complete_effect = {
 			ENG = {
-				add_faction = HEN
+				add_to_faction = HEN
 			}
 		}
 	}
