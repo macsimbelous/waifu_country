@@ -1,5 +1,4 @@
 ﻿capital = 528
-
 oob = "HEN_1936"
 set_naval_oob = "HEN_1936_Naval"
 #research and industry stuff
@@ -7,6 +6,7 @@ set_rule = {
 	#can_use_kamikaze_pilots = yes
 	can_create_factions = yes
 }
+
 set_technology = {
 	basic_machine_tools = 1
 	concentrated_industry = 1
@@ -15,7 +15,7 @@ set_technology = {
 	infantry_weapons1 = 1
 	motorised_infantry = 1
 	tech_recon = 1
-	tech_support = 1	
+	tech_support = 1
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
@@ -29,21 +29,25 @@ set_technology = {
 	early_ship_hull_submarine = 1
 }
 
+JAP = {
+	diplomatic_relation = {
+		country = HEN
+		relation = military_access
+		active = yes
+	}
+}
+
 set_research_slots = 3
-
 set_convoys = 150
-
 #politics and starting faction
-	
 set_popularities = {
 	democratic = 25
 	neutrality = 25
 	fascism = 25
 	communism = 25
 }
-	
+
 set_politics = {
-	
 	ruling_party = neutrality
 	last_election = "1933.3.5"
 	election_frequency = 48
@@ -51,7 +55,6 @@ set_politics = {
 }
 
 #ideas
-
 add_ideas = {
 	limited_exports
 	limited_conscription
@@ -62,7 +65,6 @@ add_ideas = {
 }
 
 #leaders
-
 create_country_leader = {
 	name = "Takumi Musashino"
 	desc = "POLITICS_Takumi_Musashino_DESC"
@@ -74,6 +76,7 @@ create_country_leader = {
 		wfc_peoples_favorite
 	}
 }
+
 create_country_leader = {
 	name = "Saori Asamiya"
 	desc = "POLITICS_Saori_Asamiya_DESC"
@@ -87,6 +90,7 @@ create_country_leader = {
 		kaiserin_of_the_people
 	}
 }
+
 create_country_leader = {
 	name = "Mari Setogaya"
 	desc = "POLITICS_Mari_Setogaya_DESC"
@@ -98,6 +102,7 @@ create_country_leader = {
 		wfc_anime_tyan
 	}
 }
+
 create_country_leader = {
 	name = "Sill Plain"
 	desc = "POLITICS_Sill_Plain_DESC"
@@ -108,6 +113,7 @@ create_country_leader = {
 		wfc_anime_tyan
 	}
 }
+
 #marshals
 create_field_marshal = {
 	name = "Olga Discordia"
@@ -118,9 +124,12 @@ create_field_marshal = {
 	planning_skill = 3
 	logistics_skill = 3
 	traits = {
-		infantry_leader offensive_doctrine expert_delegator
+		infantry_leader
+		offensive_doctrine
+		expert_delegator
 	}
 }
+
 create_field_marshal = {
 	name = "Celestine Lucullus"
 	picture = "Celestine_Lucullus.dds"
@@ -130,9 +139,12 @@ create_field_marshal = {
 	planning_skill = 3
 	logistics_skill = 3
 	traits = {
-		infantry_leader defensive_doctrine expert_delegator
+		infantry_leader
+		defensive_doctrine
+		expert_delegator
 	}
 }
+
 #generals
 create_corps_commander = {
 	name = "Igawa Asagi"
@@ -145,6 +157,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Anri Sogahara"
 	picture = "Portrait_Anri_Sogahara.dds"
@@ -156,6 +169,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Rina Komiya"
 	picture = "Portrait_Rina_Komiya.dds"
@@ -167,6 +181,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Anna Komiya"
 	picture = "Portrait_Anna_Komiya.dds"
@@ -178,6 +193,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Ruma"
 	picture = "Portrait_Ruma.dds"
@@ -189,6 +205,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Yuuki Kawaragi"
 	picture = "Yuuki_Kawaragi.dds"
@@ -200,6 +217,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Tsubasa Kamijo"
 	picture = "Tsubasa_Kamijo.dds"
@@ -211,6 +229,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Prim Fiorire"
 	picture = "Prim_Fiorire.dds"
@@ -222,6 +241,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Cloe"
 	picture = "Cloe.dds"
@@ -233,6 +253,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Claudia le Van Tyne"
 	picture = "Claudia_le_Van_Tyne.dds"
@@ -244,6 +265,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Alicia Arcturus"
 	picture = "Alicia_Arcturus.dds"
@@ -255,6 +277,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 create_corps_commander = {
 	name = "Homare Nao"
 	picture = "Homare_Nao.dds"
@@ -266,6 +289,7 @@ create_corps_commander = {
 	traits = {
 	}
 }
+
 #admirals
 create_navy_leader = {
 	name = "Suomi"
@@ -280,6 +304,7 @@ create_navy_leader = {
 	maneuvering_skill = 1
 	coordination_skill = 1
 }
+
 create_navy_leader = {
 	name = "Akiho Taniguchi"
 	#id = 7105
@@ -293,6 +318,7 @@ create_navy_leader = {
 	maneuvering_skill = 1
 	coordination_skill = 1
 }
+
 create_navy_leader = {
 	name = "Kaname"
 	#id = 7109
@@ -306,6 +332,7 @@ create_navy_leader = {
 	maneuvering_skill = 2
 	coordination_skill = 1
 }
+
 #agents
 create_operative_leader = {
 	name = "Mika Amano"
@@ -319,18 +346,21 @@ create_operative_leader = {
 		operative_seducer
 	}
 }
+
 create_operative_leader = {
 	name = "Yuriya Komiya"
 	GFX = GFX_Yuriya_Komiya
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
-		HEN SOV
+		HEN
+		SOV
 	}
 	traits = {
 		operative_seducer
 	}
 }
+
 create_operative_leader = {
 	name = "Mako Mitsuki"
 	GFX = GFX_Mako_Mitsuki
@@ -340,9 +370,11 @@ create_operative_leader = {
 		HEN
 	}
 	traits = {
-		operative_seducer operative_infiltrator
+		operative_seducer
+		operative_infiltrator
 	}
 }
+
 ### Variants ###
 # Submarines #
 create_equipment_variant = {

@@ -67,6 +67,11 @@ ideas = {
 			allowed = {
 				original_tag = HEN
 			}
+			available = {
+				NOT = {
+					has_global_flag = hen_world_conquest_enabled_flag
+				}
+			}
 			allowed_civil_war = {
 				always = yes
 			}
