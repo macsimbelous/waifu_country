@@ -336,18 +336,3 @@ wfc_preparation_for_war_category = {
 		}
 	}
 }
-wfc_faction_category = {
-	priority = 9
-	icon = decision_category_generic_propaganda
-	picture = GFX_decision_cat_picture_chi_political_support
-	allowed = {
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MMS
-			original_tag = MEH
-		}
-	}
-}

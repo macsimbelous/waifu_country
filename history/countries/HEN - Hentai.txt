@@ -36,15 +36,15 @@ set_convoys = 150
 #politics and starting faction
 	
 set_popularities = {
-	democratic = 15
+	democratic = 25
 	neutrality = 25
-	fascism = 35
+	fascism = 25
 	communism = 25
 }
 	
 set_politics = {
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

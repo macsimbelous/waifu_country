@@ -1,7 +1,7 @@
 ﻿capital = 79
 set_stability = 0.3
 set_war_support = 0.3
-set_convoys = 100
+set_convoys = 150
 set_research_slots = 3
 oob = "ACW_1936"
 set_naval_oob = "ACW_1936_Naval"
@@ -47,17 +47,17 @@ add_ideas = {
 #politics and starting faction
 
 set_popularities = {
-	democratic = 35
+	democratic = 25
 	neutrality = 25
-	fascism = 15
+	fascism = 25
 	communism = 25
 }
 	
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 #leaders

@@ -68,3 +68,12 @@ acw_create_puppet_threat:0 "Вайфулэнд подчинил независи
 #acw_puppets_economic_assistance
 acw_puppets_economic_assistance:0 "Предоставить экономическую помошь §Y[From.GetNameDef]§!"
 
+#acw_faction_category
+acw_faction_category:0 "Альянс §GМогучие Вайфу§!"
+acw_create_faction:0 "Создать альянс §GМогучие Вайфу§!"
+acw_invite_hen_faction:0 "Пригласить §Y[HEN.GetNameDef]§!"
+acw_invite_mah_faction:0 "Пригласить §Y[MAH.GetNameDef]§!"
+acw_invite_meh_faction:0 "Пригласить §Y[MEH.GetNameDef]§!"
+acw_invite_mms_faction:0 "Пригласить §Y[MMS.GetNameDef]§!"
+acw_invite_trp_faction:0 "Пригласить §Y[TRP.GetNameDef]§!"
+
