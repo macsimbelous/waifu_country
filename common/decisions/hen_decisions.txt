@@ -165,7 +165,7 @@ hen_tentakles_decisions = {
 		}
 		cost = 100
 		fire_only_once = no
-		days_remove = 180
+		days_re_enable = 365
 		complete_effect = {
 			FROM = {
 				OWNER = {
