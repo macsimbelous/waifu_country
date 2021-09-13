@@ -11,7 +11,11 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			factor = 10
+			base = 10
+			modifier = {
+				has_government = neutrality
+				add = -10
+			}
 		}
 		remove_effect = {
 			set_country_flag = hen_stockpile_up_flag
@@ -41,7 +45,11 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			factor = 10
+			base = 10
+			modifier = {
+				has_government = neutrality
+				add = -10
+			}
 		}
 		remove_effect = {
 			set_country_flag = hen_seduce_politics_flag
@@ -63,7 +71,11 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			factor = 10
+			base = 10
+			modifier = {
+				has_government = neutrality
+				add = -10
+			}
 		}
 		remove_effect = {
 			set_country_flag = hen_demoralize_jap_flag
@@ -86,14 +98,19 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			factor = 10
+			base = 10
+			modifier = {
+				has_government = neutrality
+				add = -10
+			}
 		}
 		remove_effect = {
 			set_country_flag = hen_add_claim_to_jap_flag
 			add_war_support = 0.1
 			JAP = {
 				every_owned_state = {
-					add_claim_by = HEN
+					#add_claim_by = HEN
+					add_core_of = HEN
 				}
 			}
 		}
@@ -109,13 +126,68 @@ hen_japan_conquest = {
 		fire_only_once = yes
 		cost = 50
 		ai_will_do = {
-			factor = 10
+			base = 10
+			modifier = {
+				has_government = neutrality
+				add = -10
+			}
 		}
 		complete_effect = {
 			add_ideas = hen_attack_jap_bonus
 			declare_war_on = {
 				target = JAP
 				type = annex_everything
+			}
+		}
+	}
+	hen_join_comintern = {
+		#icon = generic_construction
+		available = {
+			has_government = communism
+		}
+		fire_only_once = yes
+		cost = 50
+		ai_will_do = {
+			factor = 15
+		}
+		complete_effect = {
+			SOV = {
+				add_faction = HEN
+			}
+		}
+	}
+	hen_join_allies = {
+		#icon = generic_construction
+		available = {
+			has_government = democrotic
+		}
+		fire_only_once = yes
+		cost = 50
+		ai_will_do = {
+			factor = 15
+		}
+		complete_effect = {
+			ENG = {
+				add_faction = HEN
+			}
+		}
+	}
+	hen_transfert_sahalin = {
+		#icon = generic_construction
+		available = {
+			is_in_faction_with = SOV
+		}
+		fire_only_once = yes
+		cost = 50
+		ai_will_do = {
+			factor = 15
+		}
+		complete_effect = {
+			transfer_state = 537
+			537 = {
+				add_core_of = SOV
+				remove_core_of = JAP
+				remove_core_of = HEN
 			}
 		}
 	}

@@ -1544,8 +1544,13 @@ acw_faction_category = {
 			factor = 2
 		}
 		cost = 100
+		fire_only_once = no
+		days_re_enable = 365
 		complete_effect = {
-			add_to_faction = HEN
+			#add_to_faction = HEN
+			HEN = {
+				country_event = acw_event.13
+			}
 		}
 	}
 	acw_invite_mah_faction = {
@@ -1593,8 +1598,13 @@ acw_faction_category = {
 			factor = 2
 		}
 		cost = 100
+		fire_only_once = no
+		days_re_enable = 365
 		complete_effect = {
-			add_to_faction = MAH
+			#add_to_faction = MAH
+			MAH = {
+				country_event = acw_event.13
+			}
 		}
 	}
 	acw_invite_meh_faction = {
@@ -1642,8 +1652,13 @@ acw_faction_category = {
 			factor = 2
 		}
 		cost = 100
+		fire_only_once = no
+		days_re_enable = 365
 		complete_effect = {
-			add_to_faction = MEH
+			#add_to_faction = MEH
+			MEH = {
+				country_event = acw_event.13
+			}
 		}
 	}
 	acw_invite_mms_faction = {
@@ -1691,8 +1706,13 @@ acw_faction_category = {
 			factor = 2
 		}
 		cost = 100
+		fire_only_once = no
+		days_re_enable = 365
 		complete_effect = {
-			add_to_faction = MMS
+			#add_to_faction = MMS
+			MMS = {
+				country_event = acw_event.13
+			}
 		}
 	}
 	acw_invite_trp_faction = {
@@ -1740,8 +1760,13 @@ acw_faction_category = {
 			factor = 2
 		}
 		cost = 100
+		fire_only_once = no
+		days_re_enable = 365
 		complete_effect = {
-			add_to_faction = TRP
+			#add_to_faction = TRP
+			TRP = {
+				country_event = acw_event.13
+			}
 		}
 	}
 }
