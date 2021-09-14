@@ -1916,17 +1916,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_timed_idea = {
-				idea = collectivist_ethos_focus
+				idea = wfc_collectivist_ethos_focus
 				days = 1095
 			}
-			add_popularity = {
-				ideology = neutrality
-				popularity = -0.05
-			}
-			add_popularity = {
-				ideology = democratic
-				popularity = -0.05
-			}
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -1956,13 +1949,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_political_power = 150
 			add_timed_idea = {
-				idea = nationalism
+				idea = wfc_nationalism
 				days = 720
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.1
 			}
 		}
 	}
@@ -2001,13 +1991,10 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
+			add_political_power = 150
 			add_timed_idea = {
-				idea = internationalism
+				idea = wfc_internationalism
 				days = 720
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.1
 			}
 		}
 	}
@@ -2039,14 +2026,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = liberty_ethos_focus
-			add_popularity = {
-				ideology = fascism
-				popularity = -0.05
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = -0.05
-			}
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -2075,10 +2055,6 @@ focus_tree = {
 			set_rule = {
 				can_send_volunteers = yes
 			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
 		}
 	}
 	focus = {
@@ -2104,10 +2080,6 @@ focus_tree = {
 			}
 			add_political_power = 200
 			add_ideas = idea_political_correctness
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
 		}
 	}
 	focus = {
@@ -2141,12 +2113,8 @@ focus_tree = {
 			}
 			add_political_power = 150
 			add_timed_idea = {
-				idea = neutrality_influence
+				idea = wfc_neutrality_influence
 				days = 720
-			}
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.1
 			}
 		}
 	}
@@ -2182,12 +2150,8 @@ focus_tree = {
 			}
 			add_political_power = 150
 			add_timed_idea = {
-				idea = democratic_influence
+				idea = wfc_democratic_influence
 				days = 720
-			}
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.1
 			}
 		}
 	}
@@ -2244,10 +2208,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = deterrence
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.05
-			}
 		}
 	}
 	focus = {
@@ -2266,10 +2226,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = volunteer_corps_focus
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
 		}
 	}
 	focus = {

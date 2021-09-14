@@ -152,3 +152,18 @@ wfc_preparation_for_war_category = {
 		}
 	}
 }
+wfc_economy_category = {
+	priority = 10
+	icon = generic_economy
+	picture = GFX_wfl_economy_category
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+		}
+	}
+}

@@ -23,18 +23,6 @@ acw_concert_decisions = {
 	}
 }
 
-acw_economy_category = {
-	priority = 10
-	icon = generic_economy
-	picture = GFX_wfl_economy_category
-	allowed = {
-		original_tag = ACW
-	}
-	visible = {
-		has_country_flag = acw_minprom_flag
-	}
-}
-
 acw_puppets_category = {
 	icon = generic_independence
 	picture = GFX_decision_cat_picture_chi_political_support
@@ -53,7 +41,8 @@ acw_overseas_puppets_category = {
 	picture = GFX_decision_cat_picture_chi_political_support
 	priority = 8
 	allowed = {
-		original_tag = ACW
+		#original_tag = ACW
+		always = no
 	}
 	visible = {
 		has_country_flag = acw_minprom_flag

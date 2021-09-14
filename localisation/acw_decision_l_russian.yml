@@ -27,17 +27,6 @@ acw_ranko_kanzaki_tour_decision.t:0 "Гастроли Ранко Кандзак�
 acw_kaede_takagaki_tour_decision.t:0 "Гастроли Каэдэ Такагаки"
 acw_sheryl_nome_tour_decision.t:0 "Гастроли Шерил Ноум"
 
-#acw_economy_category
-acw_economy_category:0 "Экономика"
-acw_economy_category_desc:0 "Инветиции в различьные отрасли экономики"
-acw_economy_arms_factory_decision.t:0 "Инвестиции в ВПК"
-acw_economy_dockyard_decision.t:0 "Инвестиции в судостроение"
-acw_economy_industrial_complex_decision.t:0 "Инвестиции в гражданские фабрики"
-acw_economy_synthetic_refinery_decision.t:0 "Инвестиции в НПЗ"
-acw_economy_nuclear_reactor_decision.t:0 "Инвестиции в атомные электростанции"
-acw_economy_infrastructure_decision.t:0 "Инвестиции в инфраструктуру"
-acw_invest_run_tt:0 "Нет активных инвестиционных проектов"
-
 #acw_government_category
 acw_government_category:0 "Правительство"
 acw_government_category_desc:0 "Регионы:\nВо владении: §G[?owned_states]§!\nНациональные: §G[?core_states]§!\nНе национальные: §R[?mtth:acw_uncore_states]§!\nОкупированные: §R[?mtth:acw_occupied_states]§!"

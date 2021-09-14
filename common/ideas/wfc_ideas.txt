@@ -141,6 +141,81 @@ ideas = {
 				production_speed_arms_factory_factor = 0.2
 			}
 		}
+		wfc_collectivist_ethos_focus = {
+			name = collectivist_ethos_focus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				democratic_drift = -0.05
+				neutrality_drift = -0.05
+			}
+		}
+		wfc_nationalism = {
+			name = nationalism
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				fascism_drift = 0.25
+				fascism_acceptance = 85
+			}
+		}
+		wfc_internationalism = {
+			name = internationalism
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				communism_drift = 0.25
+				communism_acceptance = 85
+			}
+		}
+		wfc_democratic_influence = {
+			name = democratic_influence
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				democratic_drift = 0.25
+				democratic_acceptance = 85
+			}
+		}
+		wfc_neutrality_influence = {
+			name = neutrality_influence
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				neutrality_drift = 0.25
+				neutrality_acceptance = 85
+			}
+		}
 	}
 	political_advisor = {
 		jeff = {
