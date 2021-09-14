@@ -1526,6 +1526,36 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = wfc_excavation_tech
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {
+			focus = wfc_generic_force_excavation
+		}
+		prerequisite = {
+			focus = wfc_infrastructure_effort_2
+		}
+		x = 0
+		y = 1
+		relative_position_id = wfc_generic_force_excavation
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = excavation_tech
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
 		id = wfc_infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
@@ -1697,14 +1727,50 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = wfc_nuclear_effort
-		icon = GFX_focus_wonderweapons
+		id = wfc_urbanisation
+		icon = GFX_focus_spa_the_spanish_miracle
+		prerequisite = {
+			focus = wfc_construction_effort_3
+		}
 		prerequisite = {
 			focus = wfc_infrastructure_effort_2
 		}
+		x = 0
+		y = 1
+		relative_position_id = wfc_construction_effort_3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = construction_tech
+			}
+			random_owned_state = {
+				limit = {
+					is_island_state = no
+				}
+				urbanize_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	focus = {
+		id = wfc_nuclear_effort
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = wfc_extra_tech_slot
+		}
 		x = -2
 		y = 1
-		relative_position_id = wfc_infrastructure_effort_2
+		relative_position_id = wfc_extra_tech_slot
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1776,11 +1842,11 @@ focus_tree = {
 		id = wfc_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = {
-			focus = wfc_infrastructure_effort_2
+			focus = wfc_extra_tech_slot
 		}
 		x = 2
 		y = 1
-		relative_position_id = wfc_infrastructure_effort_2
+		relative_position_id = wfc_extra_tech_slot
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1853,6 +1919,14 @@ focus_tree = {
 				idea = collectivist_ethos_focus
 				days = 1095
 			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.05
+			}
 		}
 	}
 	focus = {
@@ -1888,7 +1962,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.05
+				popularity = 0.1
 			}
 		}
 	}
@@ -1933,7 +2007,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = communism
-				popularity = 0.05
+				popularity = 0.1
 			}
 		}
 	}
@@ -1965,6 +2039,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = liberty_ethos_focus
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
 		}
 	}
 	focus = {
@@ -2064,7 +2146,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = neutrality
-				popularity = 0.05
+				popularity = 0.1
 			}
 		}
 	}
@@ -2105,7 +2187,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.05
+				popularity = 0.1
 			}
 		}
 	}

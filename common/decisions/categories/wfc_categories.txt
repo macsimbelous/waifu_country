@@ -73,124 +73,22 @@ wfc_subjects_category = {
 	}
 }
 
-wfl_coring_category = {
-	priority = 9
-	icon = generic_political_actions
-	#picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
-	allowed = {
-		always = no
-		#original_tag = WFL
-	}
-	visible = {
-		#has_country_flag = wfl_cultural_assimilation_flag
-	}
-}
-
-wfl_urbanisation_category = {
-	priority = 8
-	icon = generic_construction
-	allowed = {
-		always = no
-		#original_tag = WFL
-	}
-	visible = {
-		#has_country_flag = wfl_elections_flag
-	}
-}
-
-wfl_resources_category = {
-	priority = 7
-	icon = generic_prospect_for_resources
-	picture = GFX_wfl_resources_category
-	allowed = {
-		always = no
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		has_tech = excavation1
-	}
-}
-
-wfl_resources_puppets_category = {
-	priority = 6
-	icon = generic_prospect_for_resources
-	picture = GFX_wfl_resources_category
-	allowed = {
-		always = no
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-	visible = {
-		has_tech = excavation1
-	}
-}
-
-wfl_declare_war_decisions = {
-	priority = 1
-	icon = decision_category_usa_intervention_mandate
-	picture = GFX_decision_cat_picture_chi_political_support
-	visible = {
-		always = no
-		#is_debug = yes
-	}
-	allowed = {
-		#always = yes
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-		#has_dlc = "La Resistance"
-	}
-}
-
-wfl_infiltration_decisions = {
-	priority = 1
-	icon = decision_category_generic_propaganda
-	picture = GFX_decision_cat_picture_chi_political_support
-	allowed = {
-		always = no
-		#original_tag = WFL
-		#has_dlc = "La Resistance"
-	}
-	visible = {
-		#has_completed_focus = wfl_infiltration
-	}
-}
-
 wfl_immigration_category = {
 	priority = 4
 	#icon = generic_economy
 	picture = GFX_wfl_immigration_category
 	allowed = {
-		#always = yes
 		OR = {
 			original_tag = ACW
-			#original_tag = HEN
+			original_tag = HEN
 			original_tag = MAH
 			original_tag = TRP
-			#original_tag = MEH
+			original_tag = MEH
 			original_tag = MMS
 		}
 	}
 	visible = {
-		#has_country_flag = wfl_elections_flag
+		has_government = democratic
 	}
 }
 
@@ -203,81 +101,12 @@ wfl_campaigning_for_volunteers_category = {
 			original_tag = HEN
 			original_tag = MAH
 			original_tag = TRP
-			#original_tag = MEH
+			original_tag = MEH
 			original_tag = MMS
 		}
 	}
 	visible = {
 		has_manpower < 100000
-	}
-}
-
-wfl_faction_category = {
-	priority = 9
-	icon = decision_category_generic_propaganda
-	picture = GFX_decision_cat_picture_chi_political_support
-	allowed = {
-		always = yes
-		#original_tag = WFL
-		#has_dlc = "La Resistance"
-	}
-}
-
-wfl_investments_abroad_category = {
-	priority = 8
-	icon = generic_economy
-	picture = GFX_wfl_investments_abroad_category
-	allowed = {
-		always = no
-		#original_tag = WFL
-	}
-	visible = {
-		#has_country_flag = wfl_elections_flag
-	}
-}
-
-wfl_debug_category = {
-	priority = 1
-	icon = decision_category_usa_intervention_mandate
-	picture = GFX_decision_cat_picture_chi_political_support
-	visible = {
-		#is_debug = yes
-		always = no
-	}
-	allowed = {
-		#always = yes
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-		#has_dlc = "La Resistance"
-	}
-}
-
-wfl_test_category = {
-	priority = 20
-	icon = decision_category_usa_intervention_mandate
-	picture = GFX_decision_cat_picture_chi_political_support
-	#visible_when_empty = yes
-	visible = {
-		#is_debug = yes
-		#always = no
-	}
-	allowed = {
-		#always = yes
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-		#has_dlc = "La Resistance"
 	}
 }
 
@@ -299,19 +128,6 @@ wfl_gacha_category = {
 			original_tag = MEH
 			original_tag = MMS
 		}
-	}
-}
-
-wfl_resources_category_2 = {
-	priority = 20
-	icon = generic_prospect_for_resources
-	picture = GFX_wfl_resources_category
-	allowed = {
-		always = no
-		#original_tag = WFL
-	}
-	visible = {
-		is_debug = yes
 	}
 }
 
