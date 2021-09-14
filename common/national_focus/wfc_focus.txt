@@ -986,19 +986,7 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				date < 1939.1.1
-				OR = {
-					# we dont want chinese minors to go crazy on slots early since they get eaten
-					tag = GXC
-					tag = YUN
-					tag = SHX
-					tag = XSM
-					tag = BEL
-					tag = LUX
-					tag = HOL
-					tag = DEN
-					# we also dont want tiny nations to go crazy with slots right away
-					num_of_controlled_states < 2
-				}
+				num_of_controlled_states < 2
 			}
 		}
 	}
@@ -1018,6 +1006,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				has_government = democratic
+				factor = 3
+			}
 		}
 		bypass = {
 			custom_trigger_tooltip = {
@@ -1088,6 +1080,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+				factor = 3
+			}
 		}
 		bypass = {
 			custom_trigger_tooltip = {
@@ -1158,6 +1157,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				has_government = democratic
+				factor = 3
+			}
 		}
 		bypass = {
 			custom_trigger_tooltip = {
@@ -1228,6 +1231,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+				factor = 3
+			}
 		}
 		bypass = {
 			custom_trigger_tooltip = {
@@ -1306,6 +1316,9 @@ focus_tree = {
 					}
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 3
 		}
 		complete_tooltip = {
 			add_building_construction = {
@@ -1392,6 +1405,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+				factor = 3
+			}
 		}
 		bypass = {
 			custom_trigger_tooltip = {
@@ -1459,6 +1479,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		ai_will_do = {
+			factor = 5
+		}
 		completion_reward = {
 			random_owned_state = {
 				limit = {
@@ -1470,31 +1493,31 @@ focus_tree = {
 						30 = {
 							add_resource = {
 								type = steel
-								amount = 8
+								amount = 32
 							}
 						}
 						20 = {
 							add_resource = {
 								type = oil
-								amount = 8
+								amount = 16
 							}
 						}
 						30 = {
 							add_resource = {
 								type = aluminium
-								amount = 8
+								amount = 32
 							}
 						}
 						10 = {
 							add_resource = {
 								type = tungsten
-								amount = 8
+								amount = 24
 							}
 						}
 						10 = {
 							add_resource = {
 								type = chromium
-								amount = 8
+								amount = 24
 							}
 						}
 					}
@@ -1526,6 +1549,9 @@ focus_tree = {
 					}
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 3
 		}
 		complete_tooltip = {
 			add_building_construction = {
@@ -1612,6 +1638,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				has_government = democratic
+				factor = 3
+			}
 		}
 		bypass = {
 			custom_trigger_tooltip = {
@@ -1712,6 +1742,9 @@ focus_tree = {
 		completion_reward = {
 			add_research_slot = 1
 		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
 		id = wfc_extra_tech_slot_2
@@ -1721,6 +1754,9 @@ focus_tree = {
 		}
 		available = {
 			num_of_factories > 50
+		}
+		ai_will_do = {
+			factor = 5
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
@@ -1779,7 +1815,10 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			add_political_power = 120
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 	focus = {
@@ -1847,6 +1886,10 @@ focus_tree = {
 				idea = nationalism
 				days = 720
 			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -1887,6 +1930,10 @@ focus_tree = {
 			add_timed_idea = {
 				idea = internationalism
 				days = 720
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
 			}
 		}
 	}
@@ -1946,6 +1993,10 @@ focus_tree = {
 			set_rule = {
 				can_send_volunteers = yes
 			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -1971,6 +2022,10 @@ focus_tree = {
 			}
 			add_political_power = 200
 			add_ideas = idea_political_correctness
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -2006,6 +2061,10 @@ focus_tree = {
 			add_timed_idea = {
 				idea = neutrality_influence
 				days = 720
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
 			}
 		}
 	}
@@ -2043,6 +2102,10 @@ focus_tree = {
 			add_timed_idea = {
 				idea = democratic_influence
 				days = 720
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
 			}
 		}
 	}
@@ -2099,6 +2162,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = deterrence
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -2117,6 +2184,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = volunteer_corps_focus
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {

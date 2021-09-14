@@ -39,8 +39,10 @@ on_actions = {
 						has_war_with = JAP
 					}
 				}
-				set_global_flag = hen_world_conquest_enabled_flag
-				remove_ideas = hen_attack_jap_bonus
+				HEN = {
+					set_country_flag = hen_world_conquest_enabled_flag
+					remove_ideas = hen_attack_jap_bonus
+				}
 			}
 		}
 	}

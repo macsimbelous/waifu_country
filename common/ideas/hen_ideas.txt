@@ -87,14 +87,6 @@ ideas = {
 			removal_cost = -1
 		}
 	}
-	political_advisor = {
-	}
-	theorist = {
-	}
-	army_chief = {
-	}
-	air_chief = {
-	}
 	navy_chief = {
 		hen_kaname = {
 			allowed = {
@@ -121,11 +113,5 @@ ideas = {
 				factor = 2
 			}
 		}
-	}
-	tank_manufacturer = {
-		designer = yes
-	}
-	naval_manufacturer = {
-		designer = yes
 	}
 }

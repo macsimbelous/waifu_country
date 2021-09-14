@@ -145,6 +145,11 @@ hen_japan_conquest = {
 		available = {
 			has_government = communism
 		}
+		visible = {
+			NOT = {
+				has_country_flag = hen_world_conquest_enabled_flag
+			}
+		}
 		fire_only_once = yes
 		cost = 50
 		ai_will_do = {
@@ -160,6 +165,15 @@ hen_japan_conquest = {
 		#icon = generic_construction
 		available = {
 			has_government = democratic
+			ENG = {
+				has_government = democratic
+				is_faction_leader = yes
+			}
+		}
+		visible = {
+			NOT = {
+				has_country_flag = hen_world_conquest_enabled_flag
+			}
 		}
 		fire_only_once = yes
 		cost = 50
@@ -176,6 +190,7 @@ hen_japan_conquest = {
 		#icon = generic_construction
 		available = {
 			is_in_faction_with = SOV
+			has_full_control_of_state = 537
 		}
 		fire_only_once = yes
 		cost = 50
