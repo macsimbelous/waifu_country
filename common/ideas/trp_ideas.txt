@@ -93,7 +93,7 @@ ideas = {
 				princess_of_terror
 			}
 			modifier = {
-				compliance_growth = 0.25
+				compliance_growth = 0.15
 			}
 			ai_will_do = {
 				base = 1
@@ -111,11 +111,12 @@ ideas = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				head_of_intelligence
+				#head_of_intelligence
+				wfc_intelligence_princess
 			}
-			modifier = {
-				operative_slot = 1
-			}
+			# modifier = {
+			# 	operative_slot = 1
+			# }
 			ai_will_do = {
 				factor = 1
 			}
@@ -183,7 +184,7 @@ ideas = {
 				original_tag = TRP
 			}
 			research_bonus = {
-				land_doctrine = 0.15
+				land_doctrine = 0.2
 			}
 			traits = {
 				blitzkrieg_theorist
@@ -195,7 +196,7 @@ ideas = {
 				original_tag = TRP
 			}
 			research_bonus = {
-				air_doctrine = 0.15
+				air_doctrine = 0.2
 			}
 			traits = {
 				air_warfare_theorist
@@ -207,7 +208,7 @@ ideas = {
 				original_tag = TRP
 			}
 			research_bonus = {
-				naval_doctrine = 0.15
+				naval_doctrine = 0.2
 			}
 			traits = {
 				naval_theorist

@@ -69,7 +69,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					has_global_flag = hen_world_conquest_enabled_flag
+					has_country_flag = hen_world_conquest_enabled_flag
 				}
 			}
 			allowed_civil_war = {

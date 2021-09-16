@@ -52,8 +52,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				industrial_capacity_factory = 1
-				industrial_capacity_dockyard = 1
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
 			}
 		}
 		meh_rocket_factory = {
@@ -65,8 +65,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_speed_rocket_site_factor = 0.5
-				repair_speed_rocket_site_factor = 0.5
+				production_speed_rocket_site_factor = 0.25
+				repair_speed_rocket_site_factor = 0.25
 			}
 		}
 		meh_robo_factory = {
@@ -98,7 +98,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_speed_buildings_factor = 0.5
+				production_speed_buildings_factor = 0.2
 				consumer_goods_factor = -0.1
 			}
 		}
@@ -242,11 +242,12 @@ ideas = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				head_of_intelligence
+				#head_of_intelligence
+				wfc_intelligence_princess
 			}
-			modifier = {
-				operative_slot = 1
-			}
+			# modifier = {
+			# 	operative_slot = 1
+			# }
 			ai_will_do = {
 				factor = 1
 			}
@@ -314,7 +315,7 @@ ideas = {
 				princess_of_terror
 			}
 			modifier = {
-				compliance_growth = 0.25
+				compliance_growth = 0.15
 			}
 			ai_will_do = {
 				base = 1

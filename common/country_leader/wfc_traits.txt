@@ -129,8 +129,8 @@ leader_traits = {
 	wfc_nuclear_mazoku = {
 		random = no
 		#production_speed_rocket_site_factor = 0.2
-		production_speed_nuclear_reactor_factor = 0.3
-		nuclear_production_factor = 0.3
+		production_speed_nuclear_reactor_factor = 0.15
+		nuclear_production_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
@@ -139,7 +139,7 @@ leader_traits = {
 		random = no
 		#production_speed_rocket_site_factor = 0.2
 		#production_speed_nuclear_reactor_factor = 0.2
-		research_speed_factor = 0.1
+		research_speed_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
@@ -155,7 +155,7 @@ leader_traits = {
 	wfc_silent_workhorse = {
 		random = no
 		#sprite = 13
-		political_power_factor = 0.3
+		political_power_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
@@ -172,7 +172,7 @@ leader_traits = {
 	}
 	wfc_propaganda_expert = {
 		#sprite = 13
-		war_support_factor = 0.3
+		war_support_factor = 0.15
 		random = no
 		ai_will_do = {
 			factor = 1
@@ -181,9 +181,9 @@ leader_traits = {
 	wfc_first_lady = {
 		random = no
 		#sprite = 12
-		war_support_factor = 0.15
-		stability_factor = 0.15
-		political_power_factor = 0.15
+		war_support_factor = 0.1
+		stability_factor = 0.1
+		political_power_factor = 0.1
 		ai_will_do = {
 			factor = 1
 		}
@@ -191,16 +191,16 @@ leader_traits = {
 	wfc_naval_base_engineer = {
 		#sprite = 10
 		random = no
-		production_speed_naval_base_factor = 0.3
+		production_speed_naval_base_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	wfc_infrastructure_developer = {
 		random = no
-		production_speed_infrastructure_factor = 0.3
-		production_speed_naval_base_factor = 0.3
-		production_speed_air_base_factor = 0.3
+		production_speed_infrastructure_factor = 0.15
+		production_speed_naval_base_factor = 0.15
+		production_speed_air_base_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
@@ -208,14 +208,10 @@ leader_traits = {
 	wfc_captain_of_industry = {
 		#sprite = 10
 		random = no
-		production_speed_industrial_complex_factor = 0.3
-		production_speed_synthetic_refinery_factor = 0.3
+		production_speed_industrial_complex_factor = 0.15
+		production_speed_synthetic_refinery_factor = 0.15
 		ai_will_do = {
 			base = 1
-			modifier = {
-				add = 100
-				has_government = communism
-			}
 			modifier = {
 				add = 100
 				has_government = democratic
@@ -229,9 +225,20 @@ leader_traits = {
 	wfc_war_industrialist = {
 		#sprite = 10
 		random = no
-		production_speed_arms_factory_factor = 0.3
-		production_speed_dockyard_factor = 0.3
-		production_speed_fuel_silo_factor = 0.3
+		production_speed_arms_factory_factor = 0.15
+		production_speed_dockyard_factor = 0.15
+		production_speed_fuel_silo_factor = 0.15
+		ai_will_do = {
+			base = 1
+			modifier = {
+				add = 100
+				has_government = fascism
+			}
+			modifier = {
+				add = 100
+				has_government = communism
+			}
+		}
 	}
 	wfc_submarine_manufacturer = {
 		random = no
@@ -240,7 +247,7 @@ leader_traits = {
 				sub_visibility = -0.25
 				surface_visibility = -0.2
 				naval_speed = 0.2
-				build_cost_ic = -0.5
+				build_cost_ic = -0.15
 				naval_range = 0.2
 			}
 		}
@@ -255,7 +262,7 @@ leader_traits = {
 				armor_value = 0.5
 				max_strength = 0.2
 				naval_speed = 0.2
-				build_cost_ic = -0.5
+				build_cost_ic = -0.15
 				naval_range = 0.2
 				surface_visibility = -0.2
 				carrier_size = 0.2
@@ -274,7 +281,7 @@ leader_traits = {
 				surface_visibility = -0.2
 				naval_speed = 0.2
 				naval_range = 0.25
-				build_cost_ic = -0.5
+				build_cost_ic = -0.15
 			}
 			screen_ship = {
 				armor_value = 0.25
@@ -283,7 +290,7 @@ leader_traits = {
 				surface_visibility = -0.2
 				naval_speed = 0.2
 				naval_range = 0.25
-				build_cost_ic = -0.5
+				build_cost_ic = -0.15
 			}
 		}
 		ai_will_do = {

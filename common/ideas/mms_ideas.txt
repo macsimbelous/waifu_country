@@ -95,7 +95,7 @@ ideas = {
 				princess_of_terror
 			}
 			modifier = {
-				compliance_growth = 0.25
+				compliance_growth = 0.15
 			}
 			ai_will_do = {
 				base = 1
@@ -116,7 +116,7 @@ ideas = {
 				#has_completed_focus = wfl_minoboron
 			}
 			research_bonus = {
-				land_doctrine = 0.15
+				land_doctrine = 0.2
 			}
 			cost = 150
 			ai_will_do = {

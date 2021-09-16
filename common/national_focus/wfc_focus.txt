@@ -1762,6 +1762,28 @@ focus_tree = {
 			factor = 2
 		}
 	}
+
+	focus = {
+		id = wfc_extra_tech_slot
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = wfc_infrastructure_effort_2
+		}
+		x = 0
+		y = 1
+		relative_position_id = wfc_infrastructure_effort_2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
 	focus = {
 		id = wfc_nuclear_effort
 		icon = GFX_focus_wonderweapons
@@ -1789,27 +1811,6 @@ focus_tree = {
 				factor = 0.25
 				always = yes
 			}
-		}
-	}
-	focus = {
-		id = wfc_extra_tech_slot
-		icon = GFX_focus_research
-		prerequisite = {
-			focus = wfc_infrastructure_effort_2
-		}
-		x = 0
-		y = 1
-		relative_position_id = wfc_infrastructure_effort_2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_research_slot = 1
-		}
-		ai_will_do = {
-			factor = 5
 		}
 	}
 	focus = {
