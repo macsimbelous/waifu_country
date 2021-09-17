@@ -51,6 +51,19 @@ ideas = {
 				monthly_population = 1
 			}
 		}
+		trp_childless_idea = {
+			picture = raj_risk_of_famine
+			allowed = {
+				original_tag = TRP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = -0.5
+			}
+		}
 	}
 	political_advisor = {
 		trp_mare_bello_fiore = {

@@ -20,7 +20,11 @@ trp_cloning_category = {
 		days_remove = 180
 		remove_effect = {
 			set_country_flag = trp_cloning_level_1
-			add_ideas = trp_cloning_idea
+			swap_ideas = {
+				remove_idea = trp_childless_idea
+				add_idea = trp_cloning_idea
+			}
+			#add_ideas = trp_cloning_idea
 		}
 	}
 	trp_cloning_decision = {
