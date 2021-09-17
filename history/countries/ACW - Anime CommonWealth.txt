@@ -68,9 +68,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		wfc_dictator
+		wfc_anime_tyan
 		wfc_revolutionary
-		warrior_code
+		wfc_dictator
+		wfc_patron_of_industry
 	}
 }
 create_country_leader = {
@@ -80,8 +81,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
+		wfc_anime_tyan
+		wfc_tyan_militarist
 		wfc_tsundere
-		wfc_dictator
 		wfc_patron_of_the_military_industrial_complex
 	}
 }
@@ -92,8 +94,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
+		wfc_anime_tyan
+		wfc_defender
 		wfc_empress
-		stout_defender
 		wfc_patron_of_intelligence
 	}
 }
@@ -104,10 +107,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
+		wfc_anime_tyan
+		wfc_peoples_favorite
 		wfc_idol
-		liberal_democratic_paragon
-		freedom_fighter
-		wfc_patron_of_industry
+		wfc_patron_of_science
 	}
 }
 #marshal

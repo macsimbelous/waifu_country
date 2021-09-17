@@ -67,7 +67,9 @@ create_country_leader = {
 	ideology = stalinism
 	traits = {
 		wfc_anime_tyan
-		wfc_peoples_favorite
+		wfc_revolutionary
+		wfc_dictator
+		wfc_patron_of_industry
 	}
 }
 create_country_leader = {
@@ -78,8 +80,9 @@ create_country_leader = {
 	ideology = despotism
 	traits = {
 		wfc_anime_tyan
-		wfc_Tyan_militarist
-		warmonger
+		wfc_defender
+		wfc_empress
+		wfc_patron_of_intelligence
 	}
 }
 create_country_leader = {
@@ -90,8 +93,9 @@ create_country_leader = {
 	ideology = liberalism
 	traits = {
 		wfc_anime_tyan
-		wfc_defender
-		freedom_fighter
+		wfc_peoples_favorite
+		wfc_idol
+		wfc_patron_of_science
 	}
 }
 create_country_leader = {
@@ -102,8 +106,9 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {
 		wfc_anime_tyan
-		wfc_Tyan_militarist
-		warmonger
+		wfc_tyan_militarist
+		wfc_tsundere
+		wfc_patron_of_the_military_industrial_complex
 	}
 }
 

@@ -68,9 +68,9 @@ create_country_leader = {
 	ideology = leninism
 	traits = {
 		wfc_trap
-		wfc_peoples_favorite
-		warmonger
-		great_war_hero
+		wfc_revolutionary
+		wfc_dictator
+		wfc_patron_of_industry
 	}
 }
 create_country_leader = {
@@ -81,8 +81,9 @@ create_country_leader = {
 	ideology = nazism
 	traits = {
 		wfc_trap
-		wfc_Tyan_militarist
-		warmonger
+		wfc_tyan_militarist
+		wfc_tsundere
+		wfc_patron_of_the_military_industrial_complex
 	}
 }
 create_country_leader = {
@@ -92,8 +93,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		dislikes_germany
 		wfc_trap
+		wfc_peoples_favorite
+		wfc_idol
+		wfc_patron_of_science
 	}
 }
 create_country_leader = {
@@ -104,6 +107,9 @@ create_country_leader = {
 	ideology = despotism
 	traits = {
 		wfc_trap
+		wfc_defender
+		wfc_empress
+		wfc_patron_of_intelligence
 	}
 }
 

@@ -96,7 +96,7 @@ create_country_leader = {
 	traits = {
 		wfc_android
 		wfc_defender
-		wfc_patron_of_science
+		wfc_patron_of_intelligence
 		wfc_superweapon
 	}
 }
@@ -108,9 +108,9 @@ create_country_leader = {
 	ideology = liberalism
 	traits = {
 		wfc_android
-		wfc_patron_of_intelligence
-		freedom_fighter
-		wfc_superweapon
+		wfc_peoples_favorite
+		wfc_idol
+		wfc_patron_of_science
 	}
 }
 create_country_leader = {
@@ -121,9 +121,9 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {
 		wfc_android
-		warmonger
+		wfc_tyan_militarist
+		wfc_tsundere
 		wfc_patron_of_the_military_industrial_complex
-		wfc_superweapon
 	}
 }
 create_country_leader = {
@@ -134,6 +134,7 @@ create_country_leader = {
 	ideology = stalinism
 	traits = {
 		wfc_android
+		wfc_revolutionary
 		wfc_dictator
 		wfc_patron_of_industry
 	}
