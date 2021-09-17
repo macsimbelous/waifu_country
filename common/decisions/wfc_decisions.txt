@@ -298,7 +298,7 @@ wfc_integration_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 100
 		}
 		state_target = yes
 		on_map_mode = map_and_decisions_view

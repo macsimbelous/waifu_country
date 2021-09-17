@@ -425,7 +425,7 @@ meh_cyborgization_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 100
 		}
 	}
 }
