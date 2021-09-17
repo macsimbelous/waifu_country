@@ -573,7 +573,7 @@ wfc_subjects_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = -100
 		}
 		complete_effect = {
 			set_autonomy = {
