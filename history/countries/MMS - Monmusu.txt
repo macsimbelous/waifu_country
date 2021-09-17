@@ -133,8 +133,8 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {
 		wfc_anime_tyan
+		wfc_tyan_militarist
 		wfc_demon_lord
-		wfc_tsundere
 		wfc_patron_of_the_military_industrial_complex
 	}
 }
