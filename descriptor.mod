@@ -3,5 +3,5 @@ tags={
 	"Alternative History"
 }
 name="Waifu Country"
-supported_version="1.10.7"
+supported_version="1.10.8"
 replace_path="gfx/loadingscreens"
