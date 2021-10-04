@@ -1284,6 +1284,9 @@ acw_faction_category = {
 		}
 		available = {
 			num_of_factories > 50
+			NOT = {
+				is_in_faction = yes
+			}
 		}
 		ai_will_do = {
 			factor = 1
