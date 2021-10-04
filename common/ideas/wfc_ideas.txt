@@ -514,7 +514,7 @@ ideas = {
 					original_tag = HEN
 					original_tag = MAH
 					#original_tag = MEH
-					original_tag = MMS
+					#original_tag = MMS
 					#original_tag = TRP
 				}
 			}
@@ -532,7 +532,7 @@ ideas = {
 					original_tag = HEN
 					original_tag = MAH
 					#original_tag = MEH
-					original_tag = MMS
+					#original_tag = MMS
 					#original_tag = TRP
 				}
 			}
@@ -550,7 +550,7 @@ ideas = {
 					original_tag = HEN
 					original_tag = MAH
 					#original_tag = MEH
-					original_tag = MMS
+					#original_tag = MMS
 					#original_tag = TRP
 				}
 			}
@@ -558,7 +558,7 @@ ideas = {
 				army_chief_offensive_3
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 2
 			}
 		}
 	}

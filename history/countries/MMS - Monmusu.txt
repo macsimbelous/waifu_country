@@ -438,6 +438,36 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Ripine"
+	picture = "Ripine.dds"
+	traits = { commando	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Morrah"
+	picture = "Morrah.dds"
+	traits = { defensive_doctrine }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Rose"
+	picture = "Rose.dds"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
 #Admirals
 
 create_navy_leader = {

@@ -127,5 +127,39 @@ ideas = {
 			}
 		}
 	}
-
+	army_chief = {
+		mms_rose = {
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		mms_morrah = {
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		mms_ripine = {
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
 }

@@ -81,9 +81,12 @@ meh_modernization_category = {
 		icon = generic_construction
 		available = {
 			num_of_civilian_factories_available_for_projects > 9
+			has_idea = meh_warmind
 		}
 		visible = {
-			has_idea = meh_warmind
+			NOT = {
+				has_country_flag = meh_warmaind_selected_flag
+			}
 		}
 		fire_only_once = yes
 		modifier = {
@@ -93,6 +96,9 @@ meh_modernization_category = {
 		days_remove = 60
 		ai_will_do = {
 			factor = 10
+		}
+		complete_effect = {
+			set_country_flag = meh_warmaind_selected_flag
 		}
 		remove_effect = {
 			swap_ideas = {
@@ -105,9 +111,12 @@ meh_modernization_category = {
 		icon = generic_construction
 		available = {
 			num_of_civilian_factories_available_for_projects > 9
+			has_idea = meh_warmind
 		}
 		visible = {
-			has_idea = meh_warmind
+			NOT = {
+				has_country_flag = meh_warmaind_selected_flag
+			}
 		}
 		fire_only_once = yes
 		modifier = {
@@ -117,6 +126,9 @@ meh_modernization_category = {
 		days_remove = 60
 		ai_will_do = {
 			factor = 10
+		}
+		complete_effect = {
+			set_country_flag = meh_warmaind_selected_flag
 		}
 		remove_effect = {
 			swap_ideas = {
