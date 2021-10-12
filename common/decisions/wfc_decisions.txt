@@ -737,6 +737,46 @@ wfc_subjects_category = {
 			factor = 200
 		}
 	}
+	wfc_change_focus_tree = {
+		cost = 100
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				NOT = {
+					OR = {
+						original_tag = ACW
+						original_tag = HEN
+						original_tag = MAH
+						original_tag = MEH
+						original_tag = MMS
+						original_tag = TRP
+					}
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				NOT = {
+					has_country_flag = wfc_change_focus_tree_flag
+				}
+			}
+		}
+		complete_effect = {
+			FROM = {
+				custom_effect_tooltip = wfc_change_focus_tree_tt
+				hidden_effect = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_focus
+						keep_completed = no
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
 
 wfc_preparation_for_war_category = {
@@ -798,6 +838,7 @@ wfc_preparation_for_war_category = {
 		}
 	}
 }
+
 wfc_economy_category = {
 	wfc_economy_infrastructure_decision = {
 		name = wfc_economy_infrastructure_decision.t

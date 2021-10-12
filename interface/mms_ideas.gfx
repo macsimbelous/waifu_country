@@ -27,6 +27,10 @@ spriteTypes = {
                 name = "GFX_idea_mms_rose"
                 texturefile = "gfx/interface/ideas/idea_mms_rose.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mms_dullahan"
+                texturefile = "gfx/interface/ideas/idea_mms_dullahan.dds"
+        }
         #duhi
         spriteType = {
                 name = "GFX_idea_mms_the_nation_of_monmusu"

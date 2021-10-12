@@ -87,6 +87,45 @@ ideas = {
 			removal_cost = -1
 		}
 	}
+	political_advisor = {
+		hen_olga_discordia = {
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		hen_mistiora_arte = {
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				wfc_war_industrialist
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 5
+				}
+			}
+		}
+		hen_iris_arcadia = {
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
 	navy_chief = {
 		hen_kaname = {
 			allowed = {

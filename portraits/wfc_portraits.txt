@@ -111,11 +111,15 @@ HEN = {
 			"gfx/leaders/HEN/Portrait_HEN_land_01.dds"
 			"gfx/leaders/HEN/Portrait_HEN_land_02.dds"
 			"gfx/leaders/HEN/Portrait_HEN_land_03.dds"
+			"gfx/leaders/HEN/Portrait_HEN_land_04.dds"
+			"gfx/leaders/HEN/Portrait_HEN_land_05.dds"
 		}
 	}
 	navy = {
 		male = {
 			"gfx/leaders/HEN/Portrait_HEN_naval_01.dds"
+			"gfx/leaders/HEN/Portrait_HEN_naval_02.dds"
+			"gfx/leaders/HEN/Portrait_HEN_naval_03.dds"
 		}
 	}
 	operative = {

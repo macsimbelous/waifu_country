@@ -95,3 +95,7 @@ wfc_economy_synthetic_refinery_decision.t:0 "Инвестиции в НПЗ"
 wfc_economy_nuclear_reactor_decision.t:0 "Инвестиции в атомные электростанции"
 wfc_economy_infrastructure_decision.t:0 "Инвестиции в инфраструктуру"
 wfc_invest_run_tt:0 "Нет активных инвестиционных проектов"
+
+#wfc_change_focus_tree
+wfc_change_focus_tree:0 "Заменить дерево фокусов"
+wfc_change_focus_tree_tt:0 "Национальные фокусы будут заменены на фокусы §Gвайфу стран§!"

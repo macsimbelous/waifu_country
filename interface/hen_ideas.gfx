@@ -15,6 +15,18 @@ spriteTypes = {
 		name = "GFX_idea_hen_kaname"
 		texturefile = "gfx/interface/ideas/idea_hen_kaname.dds"
 	}
+        spriteType = {
+		name = "GFX_idea_hen_mistiora_arte"
+		texturefile = "gfx/interface/ideas/idea_hen_mistiora_arte.dds"
+	}
+        spriteType = {
+		name = "GFX_idea_hen_iris_arcadia"
+		texturefile = "gfx/interface/ideas/idea_hen_iris_arcadia.dds"
+	}
+        spriteType = {
+		name = "GFX_idea_hen_olga_discordia"
+		texturefile = "gfx/interface/ideas/idea_hen_olga_discordia.dds"
+	}
         #duhi
         spriteType = {
                 name = "GFX_idea_hen_incompetent_officers"
