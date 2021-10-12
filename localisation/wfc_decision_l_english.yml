@@ -1,0 +1,54 @@
+﻿l_english:
+
+#urbanize
+wfl_urbanisation_decision:0 "Urbanization of regions"
+
+#immigrants
+wfl_immigration_category:0 "Immigration"
+wfl_immigration_category_desc:0 "Attracting immigrants"
+wfl_immigration_decision.t:0 "Attracting immigrants"
+
+#volunteers
+wfl_campaigning_for_volunteers_category:0 "Human resources"
+wfl_campaigning_for_volunteers_category_desc:0 "Human resources"
+wfl_campaigning_for_volunteers_decision.t:0 "Volunteer campaigning"
+
+#gacha
+wfl_gacha_decision.t:0 "Try your luck"
+
+#wfc_integration_category
+wfc_integration_category:0 "Integration"
+wfc_integration_decision.t:0 "Integrate §Y[From.GetName]§!"
+wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of our culture in §Y[From.GetName]§!"
+
+#create_subject
+wfc_subjects_category:0 "Subjects"
+wfc_create_subject_decision:0 "Create subject §Y[From.GetNameDef]§!"
+wfc_change_country_leader:0 "Change leader §Y[From.GetNameDef]§!"
+
+#wfc_world_conquest_category
+wfc_world_conquest_category:0 "Conquest of the world"
+wfc_world_conquest_decision:0 "Conquer §R[From.GetNameDef]§!"
+
+#wfc_preparation_for_war_category
+wfc_preparation_for_war_category:0 "Preparing for a warrior"
+wfc_border_defense:0 "Strengthening the border"
+
+#test
+wfl_test_category:0 "Тестовая категория"
+wfl_test_category_desc:0 "415 - §G[?neutrality.GetName]§!"
+
+#wfc_economy_category
+wfc_economy_category:0 "Economy"
+wfc_economy_category_desc:0 "Investments in various sectors of the economy"
+wfc_economy_arms_factory_decision.t:0 "Investments in the military-industrial complex"
+wfc_economy_dockyard_decision.t:0 "Investment in shipbuilding"
+wfc_economy_industrial_complex_decision.t:0 "Investment in civilian factories"
+wfc_economy_synthetic_refinery_decision.t:0 "Refinery investments"
+wfc_economy_nuclear_reactor_decision.t:0 "Investments in nuclear power plants"
+wfc_economy_infrastructure_decision.t:0 "Investment in infrastructure"
+wfc_invest_run_tt:0 "No active investment projects"
+
+#wfc_change_focus_tree
+wfc_change_focus_tree:0 "Replace focus tree"
+wfc_change_focus_tree_tt:0 "National focuses will be replaced with §Gwaifu countries§ focuses!"
