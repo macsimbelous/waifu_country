@@ -142,7 +142,7 @@ acw_government_category = {
 			add_ideas = acw_KGB_idea
 			create_intelligence_agency = {
 				icon = GFX_intelligence_agency_logo_generic_8
-				name = "FSB"
+				name = "KGB"
 			}
 		}
 	}

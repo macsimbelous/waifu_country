@@ -1,0 +1,68 @@
+﻿l_english:
+#decisions
+#concert_decisions
+acw_concert_decisions:0 "Концерты"
+acw_concert_decisions_desc:0 "We created an idol agency and now we can hold concerts of popular idols to increase the stability and popularity of the ruling party."
+acw_create_idols_agency:0 "Create an idol agency"
+acw_world_tour:0 "World tour"
+acw_concert_love_laika_decision.t:0 "Concert of Love Laika"
+#acw_concert_love_laika_decision.t_desc:0 "Концерт Милой Лайки"
+acw_concert_muse_decision.t:0 "Concert of Muse"
+#acw_concert_muse_decision.t_desc:0 "Концерт Мьюз"
+acw_concert_aqours_decision.t:0 "Concert of Aqours"
+#acw_concert_aqours_decision.t_desc:0 "Концерт Аква"
+acw_concert_765_production_decision.t:0 "Concert of 765 Production"
+#acw_concert_765_production_decision.t_desc:0 "Концерт 765 Production"
+acw_concert_ranko_kanzaki_decision.t:0 "Concert of Ranko Kanzaki"
+#acw_concert_ranko_kanzaki_decision.t_desc:0 "Концерт Ранко Кандзаки"
+acw_concert_kaede_takagaki_decision.t:0 "Concert of Kaede Takagaki"
+#acw_concert_kaede_takagaki_decision.t_desc:0 "Концерт Каэдэ Такагаки"
+acw_concert_sheryl_nome_decision.t:0 "Concert of Sheryl Nome"
+#acw_concert_sheryl_nome_decision.t_desc:0 "Концерт Шерил Ноум"
+acw_love_laika_tour_decision.t:0 "Tour of Love Laika"
+acw_muse_tour_decision.t:0 "Tour of Muse"
+acw_aqours_tour_decision.t:0 "Tour of Aqours"
+acw_765_production_tour_decision.t:0 "Tour of 765 Production"
+acw_ranko_kanzaki_tour_decision.t:0 "Tour of Ranko Kanzaki"
+acw_kaede_takagaki_tour_decision.t:0 "Tour of Kaede Takagaki"
+acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
+
+#acw_government_category
+acw_government_category:0 "Government"
+acw_government_category_desc:0 "States:\nOwned: §G[?owned_states]§!\nCore: §G[?core_states]§!\nNon core: §R[?mtth:acw_uncore_states]§!\nOccupied: §R[?mtth:acw_occupied_states]§!"
+acw_create_minprom_decision.t:0 "Form the Ministry of Industry"
+acw_create_minoboron_decision.t:0 "Form the Ministry of Defense"
+acw_create_minscience_decision.t:0 "Form the Ministry of Science"
+acw_create_KGB_decision.t:0 "Form the KGB"
+acw_create_minpropagand_decision.t:0 "Form a Ministry of Propaganda"
+acw_create_mintrans_decision.t:0 "Form the Ministry of Transport"
+acw_create_stavka_decision.t:0 "High Command Headquarters"
+acw_create_stavka_decision_tt:0 "Battalion 2000 or more"
+acw_create_great_animeland:0 "Form the Great Animeland"
+acw_create_great_animeland_tt:0 "Regions owned by 50 or more"
+acw_create_colonial_office_decision.t:0 "Form the Ministry of Colonies"
+acw_create_ministerstvo_run_tt:0 "No other departments are created"
+
+#acw_puppets_category
+acw_puppets_category:0 "Submission of weak countries"
+acw_create_puppet_decision.t:0 "Subdue §Y[From.GetNameDef]§!"
+
+#acw_overseas_puppets_category
+acw_overseas_puppets_category:0 "Subjugation of overseas territories"
+acw_create_overseas_puppets_decision.t:0 "Subdue §Y[From.GetNameDef]§!"
+acw_battle_trigger_tt:0 "Our fleet is §G2§! or more times stronger"
+#threat
+acw_create_puppet_threat:0 "Animeland subdued an independent country"
+
+#acw_puppets_economic_assistance
+acw_puppets_economic_assistance:0 "Submit economic aid §Y[From.GetNameDef]§!"
+
+#acw_faction_category
+acw_faction_category:0 "Alliance §GMighty Waifu§!"
+acw_create_faction:0 "Create alliance §GMighty Waifu§!"
+acw_invite_hen_faction:0 "To invite §Y[HEN.GetNameDef]§!"
+acw_invite_mah_faction:0 "To invite §Y[MAH.GetNameDef]§!"
+acw_invite_meh_faction:0 "To invite §Y[MEH.GetNameDef]§!"
+acw_invite_mms_faction:0 "To invite §Y[MMS.GetNameDef]§!"
+acw_invite_trp_faction:0 "To invite §Y[TRP.GetNameDef]§!"
+
