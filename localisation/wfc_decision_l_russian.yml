@@ -99,3 +99,19 @@ wfc_invest_run_tt:0 "Нет активных инвестиционных про
 #wfc_change_focus_tree
 wfc_change_focus_tree:0 "Заменить дерево фокусов"
 wfc_change_focus_tree_tt:0 "Национальные фокусы будут заменены на фокусы §Gвайфу стран§!"
+
+#wfc_budget_category
+wfc_budget_category:0 "Бюджет"
+wfc_budget_category_desc:0 "Субсидии: §G[?wfc_subsidies_count]§! из §G10§!\nСтроительство: §G[?wfc_subsidies_to_building_count]§!\nПроизводство: §G[?wfc_subsidies_to_factory_count]§!\nСудостроение: §G[?wfc_subsidies_to_dockyard_count]§!\nИсследования: §G[?wfc_subsidies_to_research_count]§!\nАтомное оружие: §G[?wfc_subsidies_to_nuclear_count]§!"
+wfc_subsidies_count_up_tt:0 "Есть свободные субсидии"
+wfc_subsidies_count_down_tt:0 "Есть субсидии в отрасли"
+wfc_subsidies_to_building_up_decision:0 "Субсидировать строительство"
+wfc_subsidies_to_building_down_decision:0 "Уменьшить субсидии строительству"
+wfc_subsidies_to_factory_up_decision:0 "Субсидировать производство"
+wfc_subsidies_to_factory_down_decision:0 "Уменьшить субсидии производству"
+wfc_subsidies_to_dockyard_up_decision:0 "Субсидировать судостроение"
+wfc_subsidies_to_dockyard_down_decision:0 "Уменьшить субсидии судостроению"
+wfc_subsidies_to_research_up_decision:0 "Субсидировать исследования"
+wfc_subsidies_to_research_down_decision:0 "Уменьшить субсидии исследованиям"
+wfc_subsidies_to_nuclear_up_decision:0 "Субсидировать атомное оружия"
+wfc_subsidies_to_nuclear_down_decision:0 "Уменьшить субсидии атомному оружию"

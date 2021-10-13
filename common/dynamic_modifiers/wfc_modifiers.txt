@@ -18,3 +18,12 @@ mms_power_shamiko = {
 	army_defence_factor = mms_shamiko_defence
 	army_speed_factor = mms_shamiko_speed
 }
+wfc_subsidies_dm = {
+	icon = GFX_idea_generic_economic_increase
+	enable = { always = yes }
+	production_speed_buildings_factor = wfc_subsidies_to_building
+	industrial_capacity_factory = wfc_subsidies_to_factory
+	industrial_capacity_dockyard = wfc_subsidies_to_dockyard
+	research_speed_factor = wfc_subsidies_to_research
+	nuclear_production_factor = wfc_subsidies_to_nuclear
+}

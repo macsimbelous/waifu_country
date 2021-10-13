@@ -210,3 +210,35 @@ wfl_up_resources_state2 = {
 		}
 	}
 }
+wfc_subsidies_change = {
+	set_variable = {
+		wfc_subsidies_to_building = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_building = wfc_subsidies_to_building_count
+	}
+	set_variable = {
+		wfc_subsidies_to_factory = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_factory = wfc_subsidies_to_factory_count
+	}
+	set_variable = {
+		wfc_subsidies_to_dockyard = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_dockyard = wfc_subsidies_to_dockyard_count
+	}
+	set_variable = {
+		wfc_subsidies_to_research = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_research = wfc_subsidies_to_research_count
+	}
+	set_variable = {
+		wfc_subsidies_to_nuclear = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_nuclear = wfc_subsidies_to_nuclear_count
+	}
+}

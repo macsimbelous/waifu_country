@@ -167,3 +167,18 @@ wfc_economy_category = {
 		}
 	}
 }
+wfc_budget_category = {
+	priority = 11
+	icon = generic_economy
+	picture = GFX_wfc_budget_category
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+		}
+	}
+}

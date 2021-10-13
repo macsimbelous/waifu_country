@@ -36,6 +36,10 @@ spriteTypes = {
 		name = "GFX_wfl_government_category"
 		texturefile = "gfx/interface/decisions/wfl_government_category.dds"
 	}
+	spriteType = {
+		name = "GFX_wfc_budget_category"
+		texturefile = "gfx/interface/decisions/wfc_budget_category.dds"
+	}
 	#icons
 	spriteType = {
 		name = "GFX_decision_wfl_create_puppet_decision"

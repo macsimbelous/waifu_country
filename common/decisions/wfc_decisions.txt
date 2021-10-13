@@ -1009,9 +1009,6 @@ wfc_economy_category = {
 		days_remove = 120
 		cost = 200
 		days_re_enable = 30
-		available = {
-			has_tech = nuclear_reactor
-		}
 		modifier = {
 			production_speed_nuclear_reactor_factor = 0.6
 		}
@@ -1027,6 +1024,7 @@ wfc_economy_category = {
 			}
 		}
 		available = {
+			has_tech = nuclear_reactor
 			custom_trigger_tooltip = {
 				tooltip = wfc_invest_run_tt
 				NOT = {
@@ -1039,6 +1037,373 @@ wfc_economy_category = {
 		}
 		remove_effect = {
 			clr_country_flag = wfc_invest_run
+		}
+	}
+}
+wfc_budget_category = {
+	wfc_subsidies_to_building_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = democratic
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = 10
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_building_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_building_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = fascism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_building_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_building_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_factory_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = democratic
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = 10
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_factory_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_factory_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = fascism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_factory_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_factory_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_dockyard_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = democratic
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = 10
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_dockyard_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_dockyard_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = fascism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_dockyard_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_dockyard_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_research_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = democratic
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = 10
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_research_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_research_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = fascism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_research_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_research_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_nuclear_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = democratic
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = 10
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_nuclear_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_nuclear_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_government = fascism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_nuclear_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_nuclear_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
 		}
 	}
 }
