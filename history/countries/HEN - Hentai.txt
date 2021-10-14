@@ -108,9 +108,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sill Plain"
-	desc = "POLITICS_Sill_Plain_DESC"
-	picture = "Portrait_Sill_Plain.dds"
+	name = "Sheliss Elleness Zurbach"
+	desc = "POLITICS_Sheliss_Elleness_Zurbach_DESC"
+	picture = "Sheliss_Elleness_Zurbach.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -354,6 +354,19 @@ create_navy_leader = {
 	picture = "Kaname.dds"
 	traits = {
 		naval_lineage
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Sill Plain"
+	#id = 7109
+	picture = "Sill_Plain.dds"
+	traits = {
+		navy_career_officer
 	}
 	skill = 1
 	attack_skill = 1
