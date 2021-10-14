@@ -29,6 +29,12 @@ on_actions = {
 				set_global_flag = meh_apocalypse_flag
 				every_country = {
 					add_ideas = wfc_apocalypse_idea
+					every_country = {
+						declare_war_on = {
+							target = PREV
+							type = annex_everything
+						}
+					}
 				}
 				#				every_state = {
 				#					launch_nuke = {
