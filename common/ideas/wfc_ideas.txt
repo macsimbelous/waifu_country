@@ -1054,6 +1054,14 @@ ideas = {
 					build_cost_ic = -0.15
 					reliability = 0.1
 				}
+				anti_air_equipment = {
+					build_cost_ic = -0.15
+					reliability = 0.1
+				}
+				anti_tank_equipment = {
+					build_cost_ic = -0.15
+					reliability = 0.1
+				}
 			}
 			traits = {
 				artillery_manufacturer

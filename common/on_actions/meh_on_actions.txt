@@ -8,16 +8,16 @@ on_actions = {
 			}
 		}
 	}
-	on_weekly_MEH = {
-		effect = {
-			if = {
-				limit = {
-					has_country_flag = meh_robo_factory_flag
-				}
-				add_manpower = meh_robo_factory_production
-			}
-		}
-	}
+	# on_weekly_MEH = {
+	# 	effect = {
+	# 		if = {
+	# 			limit = {
+	# 				has_country_flag = meh_robo_factory_flag
+	# 			}
+	# 			add_manpower = meh_robo_factory_production
+	# 		}
+	# 	}
+	# }
 	#	# ROOT is capitulated country, FROM is winner
 	on_capitulation = {
 		effect = {

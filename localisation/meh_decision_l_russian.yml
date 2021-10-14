@@ -1,8 +1,4 @@
 ﻿l_russian:
-#war dicisions
-meh_declare_war_decisions:0 "Завоевания"
-meh_declare_war_decision.t:0 "Завоевать §Y[From.GetName]§!"
-meh_declare_war_decision.t_desc:0 "Завоевать §Y[From.GetName]§!"
 
 #kosmos
 meh_kosmos_category:0 "Космос"
@@ -30,11 +26,16 @@ meh_sputnik_not:0 "Нужно иметь хотя бы один §Yспутни�
 meh_modernization_category:0 "Модернизация"
 meh_create_robo_factory:0 "Построить роботозавод"
 meh_upgrade_robo_factory:0 "Модернизировать роботозавод"
+meh_upgrade_robo_factory_tt:0 "Будет произведена модернизация Роботозавода"
 meh_create_construction_robots:0 "Разработать строительных роботов"
 meh_create_warmind:0 "Создать Военный разум"
 meh_upgrade_warmind_agr:0 "Наступательная модернизация"
 meh_upgrade_warmind_def:0 "Оборонительная модернизация"
 meh_upgrade_ai:0 "Улючшить искуственый интелект"
+meh_create_perimetr:0 "Создать систему §RПериметр§!"
+meh_1_sputnik_tt:0 "Вывести первый спутник в космос"
+meh_perimetr_tt:0 "Будет создана система периметр"
+meh_warmind_tt:0 "Военный разум создан"
 
 #meh_cyborgization_category
 meh_cyborgization_category:0 "Киборгизация"

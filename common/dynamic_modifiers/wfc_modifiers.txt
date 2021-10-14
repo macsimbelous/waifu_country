@@ -27,3 +27,8 @@ wfc_subsidies_dm = {
 	research_speed_factor = wfc_subsidies_to_research
 	nuclear_production_factor = wfc_subsidies_to_nuclear
 }
+meh_robo_factory_dm = {
+	icon = GFX_idea_generic_industrial_concern_1
+	enable = { always = yes }
+	weekly_manpower = meh_robo_factory_production
+}
