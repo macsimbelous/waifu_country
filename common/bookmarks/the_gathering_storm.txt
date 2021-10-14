@@ -74,7 +74,21 @@ bookmarks = {
 
 			}	
 		}
-
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = communism
+			ideas = {
+				trotskyite_plot_purged
+				home_of_revolution
+				officers_purged
+				nkvd_2
+			}
+			focuses = {
+				SOV_move_industry_to_urals
+				SOV_claims_on_baltic
+				SOV_war_with_uk
+			}
+		}
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
