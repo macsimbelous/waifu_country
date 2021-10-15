@@ -187,4 +187,8 @@ spriteTypes = {
                 name = "GFX_idea_acw_asuka_tanaka"
                 texturefile = "gfx/interface/ideas/idea_acw_asuka_tanaka.dds"
         }
+        spriteType = {
+                name = "GFX_idea_acw_winry_rockbell"
+                texturefile = "gfx/interface/ideas/idea_acw_winry_rockbell.dds"
+        }
 }

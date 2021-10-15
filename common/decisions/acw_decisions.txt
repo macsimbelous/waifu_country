@@ -1568,4 +1568,47 @@ acw_faction_category = {
 			}
 		}
 	}
+	acw_economic_assistance_to_faction_members = {
+		allowed = {
+			original_tag = ACW
+		}
+		visible = {
+			has_country_flag = acw_waifu_power_is_exist_flag
+		}
+		available = {
+			is_faction_leader = yes
+			num_of_civilian_factories_available_for_projects > 30
+		}
+		target_array = faction_members
+		target_trigger = {
+			FROM = {
+				#is_puppet = no
+				NOT = {
+					is_puppet_of = ROOT
+				}
+			}
+		}
+		fire_only_once = no
+		cost = 100
+		days_remove = 180
+		#days_re_enable = 45
+		# modifier = {
+		# 	civilian_factory_use = 10
+		# }
+		targeted_modifier = {
+			tag = FROM
+			cic_to_target_factor = 0.1
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				num_of_civilian_factories > 50
+				add = 1
+			}
+			modifier = {
+				num_of_civilian_factories > 100
+				add = 1
+			}
+		}
+	}
 }

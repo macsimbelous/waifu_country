@@ -15,20 +15,21 @@ leader_traits = {
 	#2
 	wfc_revolutionary = {
 		random = no
-		stability_factor = 0.1
-		war_support_factor = 0.15
-		mobilization_laws_cost_factor = -0.33
-		political_advisor_cost_factor = -0.33
+		stability_factor = 0.15
+		war_support_factor = 0.1
 		ai_focus_aggressive_factor = 1
+		mobilization_laws_cost_factor = -0.33
+		#political_advisor_cost_factor = -0.33
 		annex_cost_factor = -0.33
 	}
 	wfc_peoples_favorite = {
 		random = no
-		stability_factor = 0.1
-		trade_laws_cost_factor = -0.33
-		economy_cost_factor = -0.33
-		political_advisor_cost_factor = -0.33
+		stability_factor = 0.2
+		war_support_factor = -0.1
 		ai_focus_defense_factor = 1
+		trade_laws_cost_factor = -0.33
+		#economy_cost_factor = -0.33
+		#political_advisor_cost_factor = -0.33
 		puppet_cost_factor = -0.33
 	}
 	wfc_tyan_militarist = {
@@ -36,64 +37,40 @@ leader_traits = {
 		stability_factor = 0.1
 		war_support_factor = 0.15
 		ai_focus_aggressive_factor = 1
+		economy_cost_factor = -0.33
 		annex_cost_factor = -0.33
-		military_leader_cost_factor = -0.33
-		mobilization_laws_cost_factor = -0.33
+		#military_leader_cost_factor = -0.33
+		#mobilization_laws_cost_factor = -0.33
 	}
 	wfc_defender = {
 		random = no
 		stability_factor = 0.15
-		puppet_cost_factor = -0.33
+		defensive_war_stability_factor = 0.1
 		ai_focus_defense_factor = 1
 		political_advisor_cost_factor = -0.33
-		economy_cost_factor = -0.33
-		military_leader_cost_factor = -0.33
+		#economy_cost_factor = -0.33
+		#military_leader_cost_factor = -0.33
+		puppet_cost_factor = -0.33
 	}
 	#3
-	wfc_demon_lord = {
-		random = no
-		political_power_factor = 0.25
-		annex_cost_factor = -0.5
-		military_leader_cost_factor = -0.33
-		mobilization_laws_cost_factor = -0.33
-		#ai_focus_aggressive_factor = 1
-	}
-	wfc_idol = {
-		random = no
-		army_morale_factor = 0.15
-		army_core_defence_factor = 0.15
-		ai_call_ally_desire_factor = 10
-		political_power_factor = 0.3
-		trade_laws_cost_factor = -0.33
-		economy_cost_factor = -0.33
-		political_advisor_cost_factor = -0.33
-	}
 	wfc_patron_of_intelligence = {
 		random = no
-		agency_upgrade_time = -0.3
+		agency_upgrade_time = -0.33
 		crypto_strength = 3
 		decryption_power = 15
-		operative_slot = 2
-	}
-	wfc_dictator = {
-		random = no
-		stability_factor = 0.15
-		political_power_factor = 0.3
-	}
-	wfc_tsundere = {
-		random = no
-		army_attack_factor = 0.15
-		army_speed_factor = 0.15
-		army_org_Factor = 0.15
-		justify_war_goal_time = -0.5
-		war_support_factor = 0.15
-		ai_focus_aggressive_factor = 1
+		operative_slot = 1
 	}
 	wfc_patron_of_the_military_industrial_complex = {
 		random = no
-		production_speed_arms_factory_factor = 0.2
-		production_speed_dockyard_factor = 0.2
+		production_speed_arms_factory_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
 		#production_speed_infrastructure_factor = 0.2
+		tank_manufacturer_cost_factor = -0.33
+		naval_manufacturer_cost_factor = -0.33
+		aircraft_manufacturer_cost_factor = -0.33
+		materiel_manufacturer_cost_factor = -0.33
 	}
 	wfc_patron_of_industry = {
 		random = no
@@ -104,20 +81,59 @@ leader_traits = {
 	wfc_patron_of_science = {
 		random = no
 		research_speed_factor = 0.15
+		theorist_cost_factor = -0.33
+	}
+	#4
+	wfc_demon_lord = {
+		random = no
+		political_power_factor = 0.3
+		#annex_cost_factor = -0.5
+		military_leader_cost_factor = -0.33
+		#mobilization_laws_cost_factor = -0.33
+		#ai_focus_aggressive_factor = 1
+	}
+	wfc_idol = {
+		random = no
+		political_power_factor = 0.2
+		army_morale_factor = 0.15
+		army_core_defence_factor = 0.15
+		ai_call_ally_desire_factor = 10
+		#trade_laws_cost_factor = -0.33
+		#economy_cost_factor = -0.33
+		#political_advisor_cost_factor = -0.33
+		industrial_concern_cost_factor = -0.33
+		compliance_growth = 0.1
+	}
+	wfc_dictator = {
+		random = no
+		#stability_factor = 0.15
+		political_power_factor = 0.3
+		military_leader_cost_factor = -0.33
+	}
+	wfc_tsundere = {
+		random = no
+		army_attack_factor = 0.1
+		army_speed_factor = 0.1
+		#army_org_Factor = 0.05
+		justify_war_goal_time = -0.33
+		ai_focus_aggressive_factor = 0.5
+		#war_support_factor = 0.15
+		#ai_focus_aggressive_factor = 1
 	}
 	wfc_superweapon = {
 		random = no
-		production_speed_rocket_site_factor = 0.3
-		production_speed_radar_station_factor = 0.3
-		production_speed_nuclear_reactor_factor = 0.3
+		production_speed_rocket_site_factor = 0.1
+		production_speed_radar_station_factor = 0.1
+		production_speed_nuclear_reactor_factor = 0.1
 	}
 	wfc_empress = {
 		random = no
-		political_power_factor = 0.3
-		stability_factor = 0.15
-		trade_laws_cost_factor = -0.33
-		economy_cost_factor = -0.33
-		political_advisor_cost_factor = -0.33
+		political_power_factor = 0.5
+		#stability_factor = 0.15
+		#trade_laws_cost_factor = -0.33
+		#economy_cost_factor = -0.33
+		#political_advisor_cost_factor = -0.33
+		#military_leader_cost_factor = -0.33
 	}
 	#ministri
 	wfc_nuclear_mazoku = {
@@ -292,6 +308,9 @@ leader_traits = {
 		}
 	}
 	wfc_atom_concern_trait = {
+		random = no
+	}
+	wfc_jack_of_all_trades_trait = {
 		random = no
 	}
 }

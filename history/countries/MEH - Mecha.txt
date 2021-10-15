@@ -109,8 +109,8 @@ create_country_leader = {
 	traits = {
 		wfc_android
 		wfc_peoples_favorite
-		wfc_idol
 		wfc_patron_of_science
+		democratic_reformer
 	}
 }
 create_country_leader = {
@@ -122,8 +122,8 @@ create_country_leader = {
 	traits = {
 		wfc_android
 		wfc_tyan_militarist
-		wfc_tsundere
 		wfc_patron_of_the_military_industrial_complex
+		wfc_dictator
 	}
 }
 create_country_leader = {
@@ -135,8 +135,8 @@ create_country_leader = {
 	traits = {
 		wfc_android
 		wfc_revolutionary
-		wfc_dictator
 		wfc_patron_of_industry
+		communist_revolutionary
 	}
 }
 

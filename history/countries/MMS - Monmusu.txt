@@ -108,8 +108,9 @@ create_country_leader = {
 	traits = {
 		wfc_anime_tyan
 		wfc_defender
-		defeatist
 		wfc_patron_of_intelligence
+		wfc_demon_lord
+		defeatist
 	}
 }
 create_country_leader = {
@@ -121,8 +122,9 @@ create_country_leader = {
 	traits = {
 		wfc_anime_tyan
 		wfc_revolutionary
-		wfc_dictator
 		wfc_patron_of_industry
+		wfc_demon_lord
+		technocrat
 	}
 }
 create_country_leader = {
@@ -134,8 +136,9 @@ create_country_leader = {
 	traits = {
 		wfc_anime_tyan
 		wfc_tyan_militarist
-		wfc_demon_lord
 		wfc_patron_of_the_military_industrial_complex
+		wfc_demon_lord
+		anti_communist_crusader
 	}
 }
 create_country_leader = {
@@ -147,8 +150,9 @@ create_country_leader = {
 	traits = {
 		wfc_anime_tyan
 		wfc_peoples_favorite
-		wfc_idol
 		wfc_patron_of_science
+		wfc_demon_lord
+		economist
 	}
 }
 
