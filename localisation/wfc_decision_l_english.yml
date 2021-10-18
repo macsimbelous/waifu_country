@@ -55,7 +55,7 @@ wfc_change_focus_tree_tt:0 "National focuses will be replaced with §Gwaifu coun
 
 #wfc_budget_category
 wfc_budget_category:0 "Budget"
-wfc_budget_category_desc:0 "Subsidies: §G[?wfc_subsidies_count]§! из §G10§!\nBuilding: §G[?wfc_subsidies_to_building_count]§!\nFactory: §G[?wfc_subsidies_to_factory_count]§!\nDockyard: §G[?wfc_subsidies_to_dockyard_count]§!\nResearch: §G[?wfc_subsidies_to_research_count]§!\nNuclear: §G[?wfc_subsidies_to_nuclear_count]§!"
+wfc_budget_category_desc:0 "Subsidies: §G[?wfc_subsidies_count]§! из §G[?mtth:wfc_subsidies_count]§!\nBuilding: §G[?wfc_subsidies_to_building_count]§!\nFactory: §G[?wfc_subsidies_to_factory_count]§!\nDockyard: §G[?wfc_subsidies_to_dockyard_count]§!\nResearch: §G[?wfc_subsidies_to_research_count]§!\nNuclear: §G[?wfc_subsidies_to_nuclear_count]§!\nThe number of subsidies is determined by the number of civil factories: 50 or less - 10, more than 50 - 15, more than 75 - 20, more than 100 - 25."
 wfc_subsidies_count_up_tt:0 "There are free subsidies"
 wfc_subsidies_count_down_tt:0 "There are subsidies in the industry"
 wfc_subsidies_to_building_up_decision:0 "Subsidize construction"

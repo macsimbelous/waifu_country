@@ -1054,7 +1054,7 @@ wfc_budget_category = {
 				tooltip = wfc_subsidies_count_up_tt
 				check_variable = {
 					var = wfc_subsidies_count
-					value = 10
+					value = mtth:wfc_subsidies_count
 					compare = less_than
 				}
 			}
@@ -1127,7 +1127,7 @@ wfc_budget_category = {
 				tooltip = wfc_subsidies_count_up_tt
 				check_variable = {
 					var = wfc_subsidies_count
-					value = 10
+					value = mtth:wfc_subsidies_count
 					compare = less_than
 				}
 			}
@@ -1200,7 +1200,7 @@ wfc_budget_category = {
 				tooltip = wfc_subsidies_count_up_tt
 				check_variable = {
 					var = wfc_subsidies_count
-					value = 10
+					value = mtth:wfc_subsidies_count
 					compare = less_than
 				}
 			}
@@ -1273,7 +1273,7 @@ wfc_budget_category = {
 				tooltip = wfc_subsidies_count_up_tt
 				check_variable = {
 					var = wfc_subsidies_count
-					value = 10
+					value = mtth:wfc_subsidies_count
 					compare = less_than
 				}
 			}
@@ -1346,7 +1346,7 @@ wfc_budget_category = {
 				tooltip = wfc_subsidies_count_up_tt
 				check_variable = {
 					var = wfc_subsidies_count
-					value = 10
+					value = mtth:wfc_subsidies_count
 					compare = less_than
 				}
 			}

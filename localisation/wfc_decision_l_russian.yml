@@ -102,7 +102,7 @@ wfc_change_focus_tree_tt:0 "Национальные фокусы будут з�
 
 #wfc_budget_category
 wfc_budget_category:0 "Бюджет"
-wfc_budget_category_desc:0 "Субсидии: §G[?wfc_subsidies_count]§! из §G10§!\nСтроительство: §G[?wfc_subsidies_to_building_count]§!\nПроизводство: §G[?wfc_subsidies_to_factory_count]§!\nСудостроение: §G[?wfc_subsidies_to_dockyard_count]§!\nИсследования: §G[?wfc_subsidies_to_research_count]§!\nАтомное оружие: §G[?wfc_subsidies_to_nuclear_count]§!"
+wfc_budget_category_desc:0 "Субсидии: §G[?wfc_subsidies_count]§! из §G[?mtth:wfc_subsidies_count]§!\nСтроительство: §G[?wfc_subsidies_to_building_count]§!\nПроизводство: §G[?wfc_subsidies_to_factory_count]§!\nСудостроение: §G[?wfc_subsidies_to_dockyard_count]§!\nИсследования: §G[?wfc_subsidies_to_research_count]§!\nАтомное оружие: §G[?wfc_subsidies_to_nuclear_count]§!\nКоличество субсидий определяется числом гражданских фабри: 50 или меньше - 10, больше 50 - 15, больше 75 - 20, больше 100 - 25."
 wfc_subsidies_count_up_tt:0 "Есть свободные субсидии"
 wfc_subsidies_count_down_tt:0 "Есть субсидии в отрасли"
 wfc_subsidies_to_building_up_decision:0 "Субсидировать строительство"
