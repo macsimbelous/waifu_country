@@ -1,44 +1,10 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_acw_event1"
-		texturefile = "gfx/event_pictures/acw_event_01.dds"
-	}
-	spriteType = {
-		name = "GFX_acw_event3"
-		texturefile = "gfx/event_pictures/acw_event_03.dds"
-	}
-	spriteType = {
-		name = "GFX_acw_event4"
-		texturefile = "gfx/event_pictures/acw_event_04.dds"
-	}
-	spriteType = {
-		name = "GFX_acw_event6"
-		texturefile = "gfx/event_pictures/acw_event_01.dds"
-	}
-	spriteType = {
-		name = "GFX_acw_event7"
-		texturefile = "gfx/event_pictures/acw_event_07.dds"
-	}
-	spriteType = {
-		name = "GFX_acw_event8"
-		texturefile = "gfx/event_pictures/acw_event_08.dds"
-	}
-	spriteType = {
-		name = "GFX_acw_event9"
-		texturefile = "gfx/event_pictures/acw_event_09.dds"
-	}
-	spriteType = {
-		name = "GFX_acw_event10"
+		name = "GFX_acw_event_10"
 		texturefile = "gfx/event_pictures/acw_event_10.dds"
 	}
-
 	spriteType = {
-		name = "GFX_acw_event12"
-		texturefile = "gfx/event_pictures/acw_event_12.dds"
+		name = "GFX_acw_event_13"
+		texturefile = "gfx/event_pictures/acw_event_13.dds"
 	}
-	spriteType = {
-		name = "GFX_acw_event13"
-		texturefile = "gfx/event_pictures/acw_event_12.dds"
-	}
-
 }
