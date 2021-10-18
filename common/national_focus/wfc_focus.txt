@@ -1490,22 +1490,22 @@ focus_tree = {
 				custom_effect_tooltip = wfc_generic_force_excavation_tt
 				hidden_effect = {
 					random_list = {
-						30 = {
+						40 = {
 							add_resource = {
 								type = steel
 								amount = 32
-							}
-						}
-						20 = {
-							add_resource = {
-								type = oil
-								amount = 16
 							}
 						}
 						30 = {
 							add_resource = {
 								type = aluminium
 								amount = 32
+							}
+						}
+						10 = {
+							add_resource = {
+								type = oil
+								amount = 16
 							}
 						}
 						10 = {
@@ -1653,6 +1653,79 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = wfc_synthetic_refinery_effort
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = {
+			focus = wfc_infrastructure_effort_2
+		}
+		x = 0
+		y = 1
+		relative_position_id = wfc_infrastructure_effort_2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		available = {
+			has_tech = synth_oil_experiments
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_synth_oil_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = synthetic_refinery
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 3
+		}
+	}
+	focus = {
 		id = wfc_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = {
@@ -1762,21 +1835,23 @@ focus_tree = {
 			factor = 2
 		}
 	}
-
 	focus = {
 		id = wfc_extra_tech_slot
 		icon = GFX_focus_research
-		prerequisite = {
-			focus = wfc_infrastructure_effort_2
-		}
-		x = 0
-		y = 1
-		relative_position_id = wfc_infrastructure_effort_2
+		# prerequisite = {
+		# 	focus = wfc_infrastructure_effort_2
+		# }
+		x = 12
+		y = 7
+		#relative_position_id = wfc_infrastructure_effort_2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
+		available = {
+			num_of_factories > 25
+		}
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -1967,17 +2042,9 @@ focus_tree = {
 			focus = wfc_nationalism_focus
 		}
 		available = {
-			if = {
-				limit = {
-					original_tag = CHI
-				}
+			OR = {
 				has_government = communism
-				else = {
-					OR = {
-						has_government = communism
-						has_government = neutrality
-					}
-				}
+				has_government = neutrality
 			}
 		}
 		x = 0
@@ -2100,6 +2167,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
+		available = {
+			has_government = neutrality
+		}
 		ai_will_do = {
 			factor = 5
 		}
@@ -2136,6 +2206,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
+		available = {
+			OR = {
+				has_government = democratic
+				has_government = neutrality
+			}
+		}
 		ai_will_do = {
 			factor = 5
 		}

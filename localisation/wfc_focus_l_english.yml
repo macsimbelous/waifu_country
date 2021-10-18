@@ -71,7 +71,6 @@
  wfc_infrastructure_effort:0 "Infrastructure Effort"
  wfc_infrastructure_effort_desc:0 "A country without proper infrastructure cannot pursue advanced projects or constructions."
  wfc_infrastructure_effort_tt:0 "Not enough building slots for §YInfrastructure§!"
- wfc_synth_oil_effort_tt:0 "Not enough building slots for §YSynthetic Refinery§!"
  wfc_infrastructure_effort_2:0 "Infrastructure Effort II"
  wfc_infrastructure_effort_2_desc:0 "Extending our infrastructure further will enable the transports and communications necessary for high-tech clandestine projects."
  wfc_construction_effort_3:0 "Construction Effort III"
@@ -130,3 +129,11 @@
  wfc_naval_air_effort:0 "Naval Air Effort"
  wfc_naval_air_effort_desc:0 "The efficacy of air strikes against naval targets was demonstrated by the Americans already back in 1921. We should not neglect this branch of the Air Force if we intend to wage war on a naval power."
  
+wfc_generic_force_excavation:0 "Geological exploration"
+wfc_generic_force_excavation_tt:0 "Resources will be explored"
+wfc_excavation_tech:0 "Resource extraction technology"
+wfc_urbanisation:0 "Urbanization"
+
+wfc_synthetic_refinery_effort:0 "Development of oil refining"
+wfc_synthetic_refinery_effort_desc:0 "A modern warrior is impossible without fuel."
+wfc_synth_oil_effort_tt:0 "Not enough building slots for §YSynthetic Refinery§!"
