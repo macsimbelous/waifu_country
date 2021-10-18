@@ -1012,10 +1012,6 @@ wfc_economy_category = {
 		modifier = {
 			production_speed_nuclear_reactor_factor = 0.6
 		}
-		remove_trigger = {
-			#has_war = yes
-			surrender_progress > 0
-		}
 		ai_will_do = {
 			base = 0
 			modifier = {
@@ -1040,6 +1036,7 @@ wfc_economy_category = {
 		}
 	}
 }
+
 wfc_budget_category = {
 	wfc_subsidies_to_building_up_decision = {
 		icon = generic_economy
@@ -1404,6 +1401,402 @@ wfc_budget_category = {
 				wfc_subsidies_count = 1
 			}
 			wfc_subsidies_change = yes
+		}
+	}
+}
+
+wfc_construction_phase_category = {
+	wfc_construction_phase_infrastructure_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_industrial_complex_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_synthetic_refinery_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			has_tech = synth_oil_experiments
+			any_owned_state = {
+				free_building_slots = {
+					building = synthetic_refinery
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_fuel_silo_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			has_tech = fuel_silos
+			any_owned_state = {
+				free_building_slots = {
+					building = fuel_silo
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = fuel_silo
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_arms_factory_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_dockyard_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_rocket_site_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			has_tech = experimental_rockets
+			any_owned_state = {
+				free_building_slots = {
+					building = rocket_site
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = rocket_site
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = rocket_site
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_nuclear_reactor_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			has_tech = nuclear_reactor
+			any_owned_state = {
+				free_building_slots = {
+					building = nuclear_reactor
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = nuclear_reactor
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = nuclear_reactor
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_air_base_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = air_base
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_anti_air_building_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = anti_air_building
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = anti_air_building
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_radar_station_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			has_tech = radio_detection
+			any_owned_state = {
+				free_building_slots = {
+					building = radar_station
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = radar_station
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_bunker_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				any_neighbor_state = {
+					any_province_building_level = {
+						building = bunker
+						level < 10
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					all_neighbor_state = {
+						always = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_coastal_bunker_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				is_coastal = yes
+				any_province_building_level = {
+					building = coastal_bunker
+					level < 10
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 1
+					instant_build = no
+				}
+			}
 		}
 	}
 }

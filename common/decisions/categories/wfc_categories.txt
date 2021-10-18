@@ -182,3 +182,21 @@ wfc_budget_category = {
 		}
 	}
 }
+wfc_construction_phase_category = {
+	priority = 5
+	icon = generic_industry
+	picture = GFX_wfc_budget_category
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+		}
+	}
+	visible = {
+		is_ai = no
+	}
+}
