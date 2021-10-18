@@ -193,6 +193,7 @@ meh_modernization_category = {
 				set_global_flag = wfc_perimetr_flag
 				add_ideas = meh_perimetr_idea
 			}
+			country_event = { id = meh_event.1 }
 		}
 	}
 }
@@ -317,6 +318,7 @@ meh_kosmos_category = {
 							hours = 1
 							id = meh_kosmos.2
 						}
+						news_event = wfc_news.7
 					}
 					else = {
 						meh_sputnik_add = yes

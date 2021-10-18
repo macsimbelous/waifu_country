@@ -1,0 +1,16 @@
+add_namespace = meh_event
+
+country_event = {
+	id = meh_event.1
+	title = meh_event.1.t
+	desc = meh_event.1.d
+	picture = GFX_meh_event_01
+	is_triggered_only = yes
+	option = {
+		name = meh_event.1.a
+		ai_chance = {
+			factor = 75
+		}
+		#add_ideas = ROA_apocalypse_idea
+	}
+}

@@ -1,36 +1,5 @@
 add_namespace = wfc_news
 
-# Marco Polo Bridge I
-news_event = {
-	id = wfc_news.1
-	title = wfc_news.1.t
-	desc = wfc_news.1.d
-	picture = GFX_wfc_news_event_001
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = wfc_news.1.a
-
-	}
-}
-news_event = {
-	id = wfc_news.2
-	title = wfc_news.2.t
-	desc = wfc_news.2.d
-	picture = GFX_wfc_news_event_002
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = wfc_news.2.a
-
-	}
-}
 news_event = {
 	id = wfc_news.3
 	title = wfc_news.3.t

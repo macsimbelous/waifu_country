@@ -8,5 +8,9 @@ spriteTypes = {
 		name = "GFX_report_event_kosmos_3"
 		texturefile = "gfx/event_pictures/report_event_kosmos_3.dds"
 	}
-	
+	#events
+	spriteType = {
+		name = "GFX_meh_event_01"
+		texturefile = "gfx/event_pictures/meh_event_01.dds"
+	}
 }

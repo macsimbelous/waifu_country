@@ -1,27 +1,19 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_wfl_news_event_001"
-		texturefile = "gfx/event_pictures/wfl_event1.dds"
+		name = "GFX_wfc_news_event_003"
+		texturefile = "gfx/event_pictures/wfc_news_event_003.dds"
 	}
 	spriteType = {
-		name = "GFX_wfl_news_event_002"
-		texturefile = "gfx/event_pictures/wfl_news_event_002.dds"
+		name = "GFX_wfc_news_event_004"
+		texturefile = "gfx/event_pictures/wfc_news_event_004.dds"
 	}
 	spriteType = {
-		name = "GFX_wfl_news_event_003"
-		texturefile = "gfx/event_pictures/wfl_news_event_003.dds"
+		name = "GFX_wfc_news_event_005"
+		texturefile = "gfx/event_pictures/wfc_news_event_005.dds"
 	}
 	spriteType = {
-		name = "GFX_wfl_news_event_004"
-		texturefile = "gfx/event_pictures/wfl_news_event_004.dds"
-	}
-	spriteType = {
-		name = "GFX_wfl_news_event_005"
-		texturefile = "gfx/event_pictures/wfl_news_event_005.dds"
-	}
-	spriteType = {
-		name = "GFX_wfl_news_event_006"
-		texturefile = "gfx/event_pictures/wfl_news_event_006.dds"
+		name = "GFX_wfc_news_event_006"
+		texturefile = "gfx/event_pictures/wfc_news_event_006.dds"
 	}
 	#kosmos
 	spriteType = {

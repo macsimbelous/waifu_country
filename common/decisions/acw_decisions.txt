@@ -198,6 +198,7 @@ acw_government_category = {
 		remove_effect = {
 			clr_country_flag = acw_create_ministerstvo_run
 			add_ideas = acw_minpropagand_idea
+			news_event = wfc_news.6
 		}
 	}
 	acw_create_colonial_office_decision = {

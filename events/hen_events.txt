@@ -1,0 +1,15 @@
+add_namespace = hen_event
+
+country_event = {
+	id = hen_event.1
+	title = hen_event.1.t
+	desc = hen_event.1.d
+	picture = GFX_hen_event_01
+	is_triggered_only = yes
+	option = {
+		name = hen_event.1.a
+		ai_chance = {
+			factor = 75
+		}
+	}
+}

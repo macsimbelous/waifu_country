@@ -1,211 +1,4 @@
 add_namespace = acw_event
-country_event = {
-	id = acw_event.1
-	title = acw_event.1.t
-	desc = acw_event.1.d
-	picture = GFX_acw_event1
-	is_triggered_only = yes
-	option = {
-		name = acw_event.1.a
-		ai_chance = {
-			factor = 75
-		}
-		create_country_leader = {
-			name = "Asuka"
-			desc = "POLITICS_ASUKA_DESC"
-			picture = "Portrait_Asuka_lider.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				wfc_tsundere
-				wfc_dictator
-				wfc_patron_of_the_military_industrial_complex
-			}
-		}
-	}
-	option = {
-		name = acw_event.1.b
-		ai_chance = {
-			factor = 75
-		}
-		create_country_leader = {
-			name = "Anastasia"
-			desc = "POLITICS_ANASTASIA_DESC"
-			picture = "ROA_Anastasia_lider_liberalism.tga"
-			expire = "1965.1.1"
-			ideology = liberalism
-			traits = {
-				wfc_idol
-				wfc_patron_of_intelligence
-			}
-		}
-	}
-	option = {
-		name = acw_event.1.c
-		ai_chance = {
-			factor = 75
-		}
-		create_country_leader = {
-			name = "Erza"
-			desc = "POLITICS_ERZA_DESC"
-			picture = "ROA_Erza_lider_stalinism.tga"
-			expire = "1965.1.1"
-			ideology = stalinism
-			traits = {
-				wfc_dictator
-				wfc_patron_of_industry
-				warrior_code
-			}
-		}
-	}
-	option = {
-		name = acw_event.1.e
-		ai_chance = {
-			factor = 75
-		}
-		create_country_leader = {
-			name = "KOS-MOS"
-			desc = "POLITICS_KOS-MOS_DESC"
-			picture = "ROA_KOS-MOS_lider_despotism.tga"
-			expire = "1965.1.1"
-			ideology = despotism
-			traits = {
-				wfc_android
-				wfc_defender
-				wfc_patron_of_science
-				wfc_superweapon
-			}
-		}
-	}
-}
-
-country_event = {
-	id = acw_event.2
-	title = acw_event.2.t
-	desc = acw_event.2.d
-	picture = GFX_acw_event2
-	is_triggered_only = yes
-	option = {
-		name = acw_event.2.a
-		ai_chance = {
-			factor = 75
-		}
-	}
-}
-
-country_event = {
-	id = acw_event.3
-	title = acw_event.3.t
-	desc = acw_event.3.d
-	picture = GFX_acw_event3
-	is_triggered_only = yes
-	option = {
-		name = acw_event.3.a
-		ai_chance = {
-			factor = 75
-		}
-	}
-}
-
-country_event = {
-	id = acw_event.4
-	title = acw_event.4.t
-	desc = acw_event.4.d
-	picture = GFX_acw_event4
-	is_triggered_only = yes
-	option = {
-		name = acw_event.4.a
-		ai_chance = {
-			factor = 75
-		}
-	}
-}
-
-country_event = {
-	id = acw_event.5
-	title = acw_event.5.t
-	desc = acw_event.5.d
-	picture = GFX_acw_event5
-	is_triggered_only = yes
-	option = {
-		name = acw_event.5.a
-		ai_chance = {
-			factor = 75
-		}
-	}
-}
-
-country_event = {
-	id = acw_event.6
-	title = acw_event.6.t
-	desc = acw_event.6.d
-	picture = GFX_acw_event5
-	is_triggered_only = yes
-	option = {
-		name = acw_event.6.a
-		ai_chance = {
-			factor = 75
-		}
-		#add_ideas = ROA_apocalypse_idea
-	}
-}
-
-country_event = {
-	id = acw_event.7
-	title = acw_event.7.t
-	desc = acw_event.7.d
-	picture = GFX_acw_event7
-	is_triggered_only = yes
-	option = {
-		name = acw_event.7.a
-		ai_chance = {
-			factor = 75
-		}
-	}
-}
-
-country_event = {
-	id = acw_event.8
-	title = acw_event.8.t
-	desc = acw_event.8.d
-	picture = GFX_acw_event8
-	is_triggered_only = yes
-	option = {
-		name = acw_event.8.a
-		ai_chance = {
-			factor = 75
-		}
-		#add_ideas = wfc_hentai_banned_idea
-	}
-	option = {
-		name = acw_event.8.b
-		ai_chance = {
-			factor = 75
-		}
-		#add_ideas = wfc_hentai_allow_idea
-	}
-}
-
-country_event = {
-	id = acw_event.9
-	title = acw_event.9.t
-	desc = acw_event.9.d
-	picture = GFX_acw_event9
-	is_triggered_only = yes
-	option = {
-		name = acw_event.9.a
-		ai_chance = {
-			factor = 75
-		}
-		add_ideas = hen_futanary_idea
-	}
-	option = {
-		name = acw_event.9.b
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
 
 country_event = {
 	id = acw_event.10
@@ -218,52 +11,6 @@ country_event = {
 		ai_chance = {
 			factor = 75
 		}
-		#add_ideas = acw_futanary_idea
-	}
-}
-
-country_event = {
-	id = acw_event.11
-	title = acw_event.11.t
-	desc = acw_event.11.d
-	picture = GFX_report_event_fascist_gathering
-	is_triggered_only = yes
-	option = {
-		name = acw_event.11.c
-		set_politics = {
-			ruling_party = fascism
-			elections_allowed = no
-		}
-		add_stability = -0.05
-	}
-}
-
-country_event = {
-	id = acw_event.12
-	title = acw_event.12.t
-	desc = acw_event.12.d
-	picture = GFX_acw_event12
-	is_triggered_only = yes
-	option = {
-		name = acw_event.12.c
-		ai_chance = {
-			factor = 75
-		}
-		FROM = {
-			IF = {
-				LIMIT = {
-					is_in_faction = yes
-				}
-				leave_faction = yes
-			}
-		}
-		add_to_faction = FROM
-	}
-	option = {
-		ai_chance = {
-			factor = 0
-		}
-		name = acw_event.12.e
 	}
 }
 
@@ -304,13 +51,13 @@ country_event = {
 	#is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
-		always = no
-		# original_tag = ACW
-		# ROM = {
-		# 	NOT = {
-		# 		has_government = democratic
-		# 	}
-		# }
+		#always = no
+		original_tag = ACW
+		ROM = {
+			NOT = {
+				has_government = democratic
+			}
+		}
 	}
 	option = {
 		name = acw_event.14.c
@@ -321,13 +68,6 @@ country_event = {
 			declare_war_on = {
 				target = ACW
 				type = annex_everything
-			}
-		}
-		hidden_effect = {
-			ROM = {
-				every_owned_state = {
-					add_claim_by = ACW
-				}
 			}
 		}
 	}

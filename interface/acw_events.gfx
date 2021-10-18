@@ -4,20 +4,12 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/acw_event_01.dds"
 	}
 	spriteType = {
-		name = "GFX_acw_event2"
-		texturefile = "gfx/event_pictures/acw_event_02.dds"
-	}
-	spriteType = {
 		name = "GFX_acw_event3"
 		texturefile = "gfx/event_pictures/acw_event_03.dds"
 	}
 	spriteType = {
 		name = "GFX_acw_event4"
 		texturefile = "gfx/event_pictures/acw_event_04.dds"
-	}
-	spriteType = {
-		name = "GFX_acw_event5"
-		texturefile = "gfx/event_pictures/acw_event_05.dds"
 	}
 	spriteType = {
 		name = "GFX_acw_event6"
