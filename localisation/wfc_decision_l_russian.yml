@@ -51,14 +51,14 @@ wfl_faction_decision_3.t:0 "Пропагандировать §G[WFL.GetRulingPa
 wfl_faction_decision_4.t:0 "Помощь §Y[FROM.GetNameDef]§!"
 
 #wfl_investments_abroad_category
-wfl_investments_abroad_category:0 "Инвестирование за рубежом"
-wfl_investments_abroad_category_desc:0 "Инвестируя в экономики других стран мы можем превращать их в наши марионетки"
-wfl_investments_abroad_decision.t:0 "Инвестировать в §Y[FROM.OWNER.GetName]§!"
-wfl_investments_abroad_decision.t_desc:0 "Наши инвестиции в §Y[FROM.OWNER.GetName]§! достигнут §G[?mtth:wfl_get_investments_count]§!"
-wfl_create_puppet_decision2.t:0 "Превратить §Y[FROM.GetName]§! в марионетку"
-wfl_create_puppet_decision_tt:0 "[wfl_create_puppet_decision_tt_script]"
-wfl_create_puppet_decision_tt_red:0 "Инвестиций в §Y[FROM.GetName]§! §R[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
-wfl_create_puppet_decision_tt_green:0 "Инвестиций в §Y[FROM.GetName]§! §G[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
+# wfl_investments_abroad_category:0 "Инвестирование за рубежом"
+# wfl_investments_abroad_category_desc:0 "Инвестируя в экономики других стран мы можем превращать их в наши марионетки"
+# wfl_investments_abroad_decision.t:0 "Инвестировать в §Y[FROM.OWNER.GetName]§!"
+# wfl_investments_abroad_decision.t_desc:0 "Наши инвестиции в §Y[FROM.OWNER.GetName]§! достигнут §G[?mtth:wfl_get_investments_count]§!"
+# wfl_create_puppet_decision2.t:0 "Превратить §Y[FROM.GetName]§! в марионетку"
+# wfl_create_puppet_decision_tt:0 "[wfl_create_puppet_decision_tt_script]"
+# wfl_create_puppet_decision_tt_red:0 "Инвестиций в §Y[FROM.GetName]§! §R[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
+# wfl_create_puppet_decision_tt_green:0 "Инвестиций в §Y[FROM.GetName]§! §G[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
 
 #gacha
 wfl_gacha_decision.t:0 "Испытать удачу"
