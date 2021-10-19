@@ -65,7 +65,7 @@ bookmarks = {
 			}			
 		}
 		"MMS"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "MMS_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				mms_the_nation_of_monmusu
@@ -75,7 +75,7 @@ bookmarks = {
 			}	
 		}
 		SOV = {
-			history = SOV_BLITZKRIEG_DESC
+			history = SOV_GATHERING_STORM_DESC
 			ideology = communism
 			ideas = {
 				trotskyite_plot_purged
