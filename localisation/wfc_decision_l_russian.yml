@@ -132,3 +132,7 @@ wfc_construction_phase_anti_air_building_decision:0 "Добавить ПВО"
 wfc_construction_phase_radar_station_decision:0 "Добавить радары"
 wfc_construction_phase_bunker_decision:0 "Добавить бункеры на границе"
 wfc_construction_phase_coastal_bunker_decision:0 "Добавить береговае укрепления"
+
+#wfc_transfer_of_the_capital_category
+wfc_transfer_of_the_capital_category:0 "Перенос столицы"
+wfc_transfer_of_the_capital_decision:0 "Перенести столицу в регион §G[FROM.GetName]§!"

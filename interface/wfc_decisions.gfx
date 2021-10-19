@@ -57,4 +57,12 @@ spriteTypes = {
 		name = "GFX_decision_wfl_rocket_launch_decision"
 		texturefile = "gfx/interface/decisions/wfl_rocket_launch_decision.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_wfc_transfer_of_the_capital_decision_1"
+		texturefile = "gfx/interface/decisions/wfc_transfer_of_the_capital_decision_1.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_wfc_transfer_of_the_capital_decision_2"
+		texturefile = "gfx/interface/decisions/wfc_transfer_of_the_capital_decision_2.dds"
+	}
 }

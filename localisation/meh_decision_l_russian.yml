@@ -13,10 +13,10 @@ meh_rocket_launch_decision_desc:0 "Каждый спутник на орбите
 meh_rocket_count_tt:0 "Нужно иметь хотя бы одну ракету"
 meh_sputnik_count_tt:0 "Меньше §Y40§! спутников на орбите"
 meh_mbr_assembly_decision:0 "Произвести МБР"
-meh_mbr_assembly_decision_desc:0 "Будет произведена §Rмежконтинентальная баллистическая ракета.§!"
+meh_mbr_assembly_decision_desc:0 "Будет произведена §Rмежконтинентальная баллистическая ракета§!."
 meh_mbr_assembly_decision_tt:0 "На наш склад будет добавлена §Y1§! ед. МБР.\nВ данный момент на нашем складе §G[?meh_mbr_in_the_warehouse]§! ед. МБР."
 meh_mbr_strike_decision:0 "Цель для баллистической ракеты"
-meh_mbr_strike_decision_desc:0 "Нанести ядерный удар по региону §Y[FROM.GetName]§! с помощью МБР."
+meh_mbr_strike_decision_desc:0 "Нанести §Rядерный удар§! по региону §Y[FROM.GetName]§! с помощью МБР."
 meh_mbr_strike_decision_tt:0 "По региону §Y[FROM.GetName]§! будет выпущена §YМБР§! с §Rядерной боеголовкой§!.\nЕй §Yне страшны ПВО и перехватчики противника§!, но и её точность оставляет желать лучшего.\nМы надеемся что она попадёт в места скопления войск противника." 
 meh_mbr_not:0 "Иметь хотя бы одну §YМБР§!"
 meh_nuclear_strike_tt:0 "Ядерный удар"
@@ -39,4 +39,4 @@ meh_warmind_tt:0 "Военный разум создан"
 
 #meh_cyborgization_category
 meh_cyborgization_category:0 "Киборгизация"
-meh_cyborgization:0 "Киборгизировать §R[From.GetName]§!"
+meh_cyborgization:0 "Киборгизировать §Y[From.GetName]§!"

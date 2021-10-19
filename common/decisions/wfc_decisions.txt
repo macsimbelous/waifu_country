@@ -282,7 +282,7 @@ wfc_integration_category = {
 		name = wfc_integration_decision.t
 		#icon = generic_nationalism
 		#icon = generic_form_nation
-		icon = decision_generic_brainwash
+		icon = GFX_decision_generic_brainwash
 		available = {
 			FROM = {
 				compliance > 50
@@ -291,7 +291,7 @@ wfc_integration_category = {
 		}
 		visible = {
 			FROM = {
-				is_owned_by = ROOT
+				#is_owned_by = ROOT
 				NOT = {
 					is_core_of = ROOT
 				}
@@ -1043,9 +1043,13 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = 2
 			modifier = {
 				has_government = democratic
+				add = 1
+			}
+			modifier = {
+				has_government = fascism
 				add = 1
 			}
 		}
@@ -1085,10 +1089,10 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = -10
 			modifier = {
-				has_government = fascism
-				add = 1
+				has_government = communism
+				add = 13
 			}
 		}
 		available = {
@@ -1116,9 +1120,13 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = 2
 			modifier = {
 				has_government = democratic
+				add = 1
+			}
+			modifier = {
+				has_government = communism
 				add = 1
 			}
 		}
@@ -1158,10 +1166,10 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = -10
 			modifier = {
 				has_government = fascism
-				add = 1
+				add = 13
 			}
 		}
 		available = {
@@ -1189,9 +1197,13 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = 2
 			modifier = {
 				has_government = democratic
+				add = 1
+			}
+			modifier = {
+				has_government = communism
 				add = 1
 			}
 		}
@@ -1231,10 +1243,10 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = -10
 			modifier = {
 				has_government = fascism
-				add = 1
+				add = 13
 			}
 		}
 		available = {
@@ -1262,9 +1274,13 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = 2
 			modifier = {
-				has_government = democratic
+				has_government = fascism
+				add = 1
+			}
+			modifier = {
+				has_government = communism
 				add = 1
 			}
 		}
@@ -1304,10 +1320,10 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = -10
 			modifier = {
-				has_government = fascism
-				add = 1
+				has_government = democratic
+				add = 13
 			}
 		}
 		available = {
@@ -1335,13 +1351,15 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = 3
 			modifier = {
-				has_government = democratic
-				add = 1
+				num_of_nukes > 20
+				add = -13
 			}
 		}
 		available = {
+			has_tech = nukes
+			nuclear_reactor > 0
 			custom_trigger_tooltip = {
 				tooltip = wfc_subsidies_count_up_tt
 				check_variable = {
@@ -1377,10 +1395,10 @@ wfc_budget_category = {
 		fire_only_once = no
 		cost = 50
 		ai_will_do = {
-			base = 0
+			base = -10
 			modifier = {
-				has_government = fascism
-				add = 1
+				num_of_nukes > 20
+				add = 13
 			}
 		}
 		available = {
@@ -1797,6 +1815,64 @@ wfc_construction_phase_category = {
 					instant_build = no
 				}
 			}
+		}
+	}
+}
+
+wfc_transfer_of_the_capital_category = {
+	wfc_transfer_of_the_capital_decision = {
+		icon = GFX_decision_wfc_transfer_of_the_capital_decision_2
+		visible = {
+			FROM = {
+				is_core_of = ROOT
+				is_capital = no
+				OR = {
+					has_state_category = large_city
+					has_state_category = metropolis
+					has_state_category = megalopolis
+				}
+			}
+		}
+		available = {
+			FROM = {
+				is_fully_controlled_by = ROOT
+				OR = {
+					has_state_category = metropolis
+					has_state_category = megalopolis
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		state_target = yes
+		on_map_mode = map_only
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			FROM = {
+				always = yes
+			}
+		}
+		cost = 300
+		fire_only_once = no
+		days_remove = 30
+		modifier = {
+			stability_factor = -0.1
+			political_power_gain = -0.1
+		}
+		cancel_trigger = {
+			FROM = {
+				NOT = {
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			set_capital = FROM
+		}
+		cancel_effect = {
+			add_political_power = 50
 		}
 	}
 }

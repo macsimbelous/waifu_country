@@ -85,3 +85,7 @@ wfc_construction_phase_anti_air_building_decision:0 "Add air defense"
 wfc_construction_phase_radar_station_decision:0 "Add radars"
 wfc_construction_phase_bunker_decision:0 "Add bunkers at the border"
 wfc_construction_phase_coastal_bunker_decision:0 "Add coastal fortifications"
+
+#wfc_transfer_of_the_capital_category
+wfc_transfer_of_the_capital_category:0 "Transfer of the capital"
+wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName]§! region"

@@ -437,7 +437,7 @@ meh_cyborgization_category = {
 	meh_cyborgization = {
 		#icon = generic_nationalism
 		#icon = generic_form_nation
-		icon = decision_generic_brainwash
+		icon = GFX_decision_generic_brainwash
 		available = {
 			# FROM = {
 			# 	compliance > 30

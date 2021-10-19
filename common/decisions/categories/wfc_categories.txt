@@ -200,3 +200,16 @@ wfc_construction_phase_category = {
 		is_ai = no
 	}
 }
+wfc_transfer_of_the_capital_category = {
+	priority = 1
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+		}
+	}
+}

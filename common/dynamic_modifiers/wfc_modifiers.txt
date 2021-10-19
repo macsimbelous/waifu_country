@@ -1,34 +1,51 @@
-acw_core_states_to_pp = {
-	icon = GFX_idea_wfc_core_states_to_pp
-	enable = { always = yes }
-	political_power_gain = acw_core_bonus_to_pp
-}
+# acw_core_states_to_pp = {
+# 	icon = GFX_idea_wfc_core_states_to_pp
+# 	enable = {
+# 		always = yes
+# 	}
+# 	political_power_gain = acw_core_bonus_to_pp
+# }
+
 meh_sputnik = {
 	icon = GFX_idea_meh_sputnik
-	enable = { always = yes }
+	enable = {
+		always = yes
+	}
 	decryption_factor = meh_sputnik_decryption_factor
 	encryption_factor = meh_sputnik_encryption_factor
 	recon_factor = meh_sputnik_recon_factor
 	research_speed_factor = meh_sputnik_research_speed_factor
 }
+
 mms_power_shamiko = {
 	icon = GFX_idea_generic_intel_bonus
-	enable = { always = yes }
+	enable = {
+		has_country_leader = {
+			ruling_only = yes
+			name = "Shamiko"
+		}
+	}
 	army_attack_factor = mms_shamiko_attack
 	army_defence_factor = mms_shamiko_defence
 	army_speed_factor = mms_shamiko_speed
 }
+
 wfc_subsidies_dm = {
 	icon = GFX_idea_generic_economic_increase
-	enable = { always = yes }
+	enable = {
+		always = yes
+	}
 	production_speed_buildings_factor = wfc_subsidies_to_building
 	industrial_capacity_factory = wfc_subsidies_to_factory
 	industrial_capacity_dockyard = wfc_subsidies_to_dockyard
 	research_speed_factor = wfc_subsidies_to_research
 	nuclear_production_factor = wfc_subsidies_to_nuclear
 }
+
 meh_robo_factory_dm = {
 	icon = GFX_idea_generic_industrial_concern_1
-	enable = { always = yes }
+	enable = {
+		always = yes
+	}
 	weekly_manpower = meh_robo_factory_production
 }
