@@ -184,9 +184,10 @@ wfc_budget_category = {
 }
 wfc_construction_phase_category = {
 	priority = 5
-	icon = generic_industry
+	icon = generic_construction
 	#picture = GFX_wfc_budget_category
 	allowed = {
+		#always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN

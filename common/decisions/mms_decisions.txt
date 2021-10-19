@@ -79,6 +79,7 @@ mms_workouts_shamiko_category = {
 	}
 	mms_train_shamiko_speed = {
 		available = {
+			#neutrality  > 0.3
 			custom_trigger_tooltip = {
 				tooltip = mms_workouts_shamiko_not_final_tt
 				check_variable = {

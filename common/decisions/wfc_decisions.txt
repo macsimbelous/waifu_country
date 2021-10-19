@@ -1437,8 +1437,9 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
+		cost = 0
 		complete_effect = {
 			every_owned_state = {
 				limit = {
@@ -1459,6 +1460,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_industrial_complex_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			any_owned_state = {
 				free_building_slots = {
@@ -1469,7 +1471,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1491,6 +1493,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_synthetic_refinery_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			has_tech = synth_oil_experiments
 			any_owned_state = {
@@ -1502,7 +1505,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1524,6 +1527,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_fuel_silo_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			has_tech = fuel_silos
 			any_owned_state = {
@@ -1535,7 +1539,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1557,6 +1561,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_arms_factory_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			any_owned_state = {
 				free_building_slots = {
@@ -1567,7 +1572,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1589,6 +1594,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_dockyard_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			any_owned_state = {
 				free_building_slots = {
@@ -1599,7 +1605,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1621,6 +1627,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_rocket_site_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			has_tech = experimental_rockets
 			any_owned_state = {
@@ -1632,7 +1639,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1654,6 +1661,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_nuclear_reactor_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			has_tech = nuclear_reactor
 			any_owned_state = {
@@ -1665,7 +1673,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1687,6 +1695,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_air_base_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			any_owned_state = {
 				free_building_slots = {
@@ -1697,7 +1706,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1719,6 +1728,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_anti_air_building_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			any_owned_state = {
 				free_building_slots = {
@@ -1729,7 +1739,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1751,6 +1761,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_radar_station_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			has_tech = radio_detection
 			any_owned_state = {
@@ -1762,7 +1773,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1784,6 +1795,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_bunker_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			any_owned_state = {
 				any_neighbor_state = {
@@ -1799,7 +1811,7 @@ wfc_construction_phase_category = {
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
@@ -1823,6 +1835,7 @@ wfc_construction_phase_category = {
 	wfc_construction_phase_coastal_bunker_decision = {
 		icon = generic_construction
 		fire_only_once = no
+		cost = 0
 		available = {
 			any_owned_state = {
 				is_coastal = yes
@@ -1831,13 +1844,13 @@ wfc_construction_phase_category = {
 					level < 10
 					province = {
 						all_provinces = yes
-						limit_to_border = yes
+						limit_to_coastal = yes
 					}
 				}
 			}
 		}
 		ai_will_do = {
-			factor = -1000
+			factor = -10
 		}
 		complete_effect = {
 			every_owned_state = {
