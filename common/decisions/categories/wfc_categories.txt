@@ -196,9 +196,6 @@ wfc_construction_phase_category = {
 			original_tag = MMS
 		}
 	}
-	visible = {
-		is_ai = no
-	}
 }
 wfc_transfer_of_the_capital_category = {
 	priority = 2
