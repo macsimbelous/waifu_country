@@ -201,7 +201,7 @@ wfc_construction_phase_category = {
 	}
 }
 wfc_transfer_of_the_capital_category = {
-	priority = 1
+	priority = 2
 	allowed = {
 		OR = {
 			original_tag = ACW

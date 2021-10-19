@@ -2,10 +2,10 @@
 wfc_apocalypse_idea:0 "Апокалипсис"
 wfc_apocalypse_idea_desc:0 "Мы попадём в рай а они просто сдохнут."
 wfc_immigration_idea:0 "Иммиграция"
-fascism_discrediting:0 "$RДискредитация правительства"
-communism_discrediting:0 "$RДискредитация правительства"
-democratic_discrediting:0 "$RДискредитация правительства"
-neutrality_discrediting:0 "$RДискредитация правительства"
+fascism_discrediting:0 "§RДискредитация правительства§!"
+communism_discrediting:0 "§RДискредитация правительства§!"
+democratic_discrediting:0 "§RДискредитация правительства§!"
+neutrality_discrediting:0 "§RДискредитация правительства§!"
 wfc_acw_assistance:0 "Экономическая помощь §G[ACW.GetNameDef]§!"
 wfc_acw_puppet:0 "Марионетка §G[ACW.GetNameDef]§!"
 wfc_tantacle_attack:0 "Атака тентаклей"
@@ -26,8 +26,7 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
  Anime_Physics_desc:0 "Один удар!"
  Slice_of_Life:0 "Кусочек жизни"
  Slice_of_Life_desc:0 "Кавай!"
- Is_Flat_Justice:0 "Быстрое провосудие?"
- Is_Flat_Justice_desc:0 "Да"
+
 
 
 
