@@ -192,38 +192,38 @@ wfl_political_power_up_level = {
 		add = var:temp1
 	}
 }
-wfl_get_investments_count_old = {
-	base = 0
-	modifier = {
-		FROM.OWNER = {
-			check_variable = {
-				var = wfl_investments_count
-				value = 0
-				compare = greater_than
-			}
-			set_temp_variable = {
-				tempv = wfl_investments_count
-			}
-		}
-		add = tempv
-	}
-}
-wfl_get_investments_count = {
-	base = 0
-	modifier = {
-		FROM = {
-			check_variable = {
-				var = wfl_investments_count
-				value = 0
-				compare = greater_than
-			}
-			set_temp_variable = {
-				tempv = wfl_investments_count
-			}
-		}
-		add = tempv
-	}
-}
+# wfl_get_investments_count_old = {
+# 	base = 0
+# 	modifier = {
+# 		FROM.OWNER = {
+# 			check_variable = {
+# 				var = wfl_investments_count
+# 				value = 0
+# 				compare = greater_than
+# 			}
+# 			set_temp_variable = {
+# 				tempv = wfl_investments_count
+# 			}
+# 		}
+# 		add = tempv
+# 	}
+# }
+# wfl_get_investments_count = {
+# 	base = 0
+# 	modifier = {
+# 		FROM = {
+# 			check_variable = {
+# 				var = wfl_investments_count
+# 				value = 0
+# 				compare = greater_than
+# 			}
+# 			set_temp_variable = {
+# 				tempv = wfl_investments_count
+# 			}
+# 		}
+# 		add = tempv
+# 	}
+# }
 wfl_puppet_cost = {
 	base = 0
 	modifier = {

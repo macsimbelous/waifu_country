@@ -1,0 +1,33 @@
+﻿l_english:
+
+#kosmos
+meh_kosmos.1.t:0 "Factory built"
+meh_kosmos.1.d:0 "We have completed the construction of a rocket factory and will now be able to produce missiles of any type."
+meh_kosmos.1.a:0 "Start production!"
+meh_kosmos.2.t:0 "The first satellite in space!"
+meh_kosmos.2.d:0 "Our first satellite has been put into orbit, which will enhance our intelligence capabilities and will also allow us to launch nuclear strikes with ICBMs."
+meh_kosmos.2.a:0 "Fine!"
+meh_kosmos.2.a.tt:0 "Now we can carry out nuclear strikes with ICBMs."
+meh_kosmos.3.t:0 "The satellite constellation is growing!"
+meh_kosmos.3.d:0 "The increase in satellite constellation will significantly increase our intelligence capabilities."
+meh_kosmos.3.a:0 "Fine!"
+meh_kosmos.4.t:0 "Emergency start!"
+meh_kosmos.4.d:0 "Unfortunately, the next launch of the satellite ended in an accident and the loss of the spacecraft. Our engineers are already working to find out the cause of the accident."
+meh_kosmos.4.a:0 "All necessary measures must be taken." 
+meh_kosmos.5.t:0 "Lost satellite connection!"
+meh_kosmos.5.d:0 "The flight control center has been unable to reconnect with one of our satellites for several hours."
+meh_kosmos.5.a:0 "The satellite must be saved!"
+meh_kosmos.5.b:0 "Waste of time."
+meh_kosmos.6.t:0 "The connection has been restored!"
+meh_kosmos.6.d:0 "MCC engineers managed to regain control of the satellite."
+meh_kosmos.6.a:0 "Cute."
+meh_kosmos.7.t:0 "The satellite is lost!"
+meh_kosmos.7.d:0 "Despite heroic efforts, the MCC engineers were unable to regain control of the satellite."
+meh_kosmos.7.a:0 "Prepare a new one!"
+ 
+#events
+meh_event.1.t:0 "Perimeter (Dead Hand)"
+meh_event.1.d:0 "Even if we fall, the Perimeter system will strike with retaliation."
+meh_event.1.a:0 "Retribution is inevitable!"
+
+

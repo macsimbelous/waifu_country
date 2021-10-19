@@ -17,7 +17,11 @@ mms_workouts_shamiko_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 0
+			modifier = {
+				neutrality  > 0.3
+				add = 2
+			}
 		}
 		cost = 25
 		days_remove = 30
@@ -52,7 +56,11 @@ mms_workouts_shamiko_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 0
+			modifier = {
+				neutrality  > 0.3
+				add = 2
+			}
 		}
 		cost = 25
 		days_remove = 30
@@ -87,7 +95,11 @@ mms_workouts_shamiko_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 0
+			modifier = {
+				neutrality  > 0.3
+				add = 2
+			}
 		}
 		cost = 25
 		days_remove = 30
