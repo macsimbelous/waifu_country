@@ -75,6 +75,7 @@ mah_crystal_empire_category = {
 		}
 		complete_effect = {
 			set_cosmetic_tag = MAH_CRY_EMP
+			set_country_flag = mah_crystal_empire_formed_flag
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
 			hidden_effect = {
