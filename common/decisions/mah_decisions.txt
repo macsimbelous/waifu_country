@@ -1,6 +1,7 @@
 mah_crystal_empire_category = {
 	mah_form_crystal_empire_decision = {
 		cost = 100
+		fire_only_once = yes
 		available = {
 			# Maho
 			custom_trigger_tooltip = {
@@ -211,24 +212,178 @@ mah_crystal_empire_category = {
 			}
 		}
 	}
+	mah_substantiate_claims_decision = {
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			custom_effect_tooltip = mah_substantiate_claims_tt
+			hidden_effect = {
+				add_state_claim = 797
+				add_state_claim = 341
+				add_state_claim = 340
+				add_state_claim = 339
+				add_state_claim = 342
+				add_state_claim = 343
+				add_state_claim = 347
+				add_state_claim = 49
+				add_state_claim = 798
+				add_state_claim = 346
+				add_state_claim = 345
+				add_state_claim = 356
+				add_state_claim = 348
+				add_state_claim = 344
+				add_state_claim = 355
+				add_state_claim = 349
+				add_state_claim = 350
+				add_state_claim = 354
+				add_state_claim = 353
+				add_state_claim = 352
+				add_state_claim = 800
+				add_state_claim = 676
+				add_state_claim = 675
+				add_state_claim = 291
+				add_state_claim = 292
+				add_state_claim = 679
+				add_state_claim = 678
+				add_state_claim = 452
+				add_state_claim = 447
+				add_state_claim = 446
+				add_state_claim = 456
+				add_state_claim = 457
+				add_state_claim = 453
+				add_state_claim = 656
+				add_state_claim = 765
+				add_state_claim = 658
+				add_state_claim = 293
+				add_state_claim = 659
+				add_state_claim = 294
+			}
+		}
+	}
+	mah_conquest_of_tur_decision = {
+		cost = 100
+		visible = {
+			country_exists = TUR
+		}
+		available = {
+			# Iraq
+			custom_trigger_tooltip = {
+				tooltip = form_country_iraq_required_states_tt
+				controls_state = 676
+				controls_state = 675
+				controls_state = 291
+			}
+			# Saudi Arabia
+			custom_trigger_tooltip = {
+				tooltip = form_country_saudi_required_states_tt
+				controls_state = 292
+				controls_state = 679
+				controls_state = 678
+			}
+			controls_state = 293
+			controls_state = 294
+			num_divisions > 30
+			has_equipment = {
+				infantry_equipment > 25000
+			}
+		}
+		complete_effect = {
+			create_wargoal = {
+				target = TUR
+				type = annex_everything
+			}
+		}
+	}
+	mah_conquest_of_irq_decision = {
+		cost = 100
+		visible = {
+			country_exists = IRQ
+		}
+		complete_effect = {
+			create_wargoal = {
+				target = IRQ
+				type = annex_everything
+			}
+		}
+	}
+	mah_conquest_of_sau_decision = {
+		cost = 100
+		visible = {
+			country_exists = SAU
+		}
+		available = {
+			# Iraq
+			custom_trigger_tooltip = {
+				tooltip = form_country_iraq_required_states_tt
+				controls_state = 676
+				controls_state = 675
+				controls_state = 291
+			}
+		}
+		complete_effect = {
+			create_wargoal = {
+				target = SAU
+				type = annex_everything
+			}
+		}
+	}
+	mah_conquest_of_oma_decision = {
+		cost = 100
+		visible = {
+			country_exists = OMA
+		}
+		available = {
+			# Saudi Arabia
+			custom_trigger_tooltip = {
+				tooltip = form_country_saudi_required_states_tt
+				controls_state = 292
+				controls_state = 679
+				controls_state = 678
+			}
+		}
+		complete_effect = {
+			create_wargoal = {
+				target = OMA
+				type = annex_everything
+			}
+		}
+	}
+	mah_conquest_of_yem_decision = {
+		cost = 100
+		visible = {
+			country_exists = YEM
+		}
+		available = {
+			# Saudi Arabia
+			custom_trigger_tooltip = {
+				tooltip = form_country_saudi_required_states_tt
+				controls_state = 292
+				controls_state = 679
+				controls_state = 678
+			}
+		}
+		complete_effect = {
+			create_wargoal = {
+				target = YEM
+				type = annex_everything
+			}
+		}
+	}
 }
 
 mah_british_colonies_in_the_middle_east_category = {
 	mah_state_656_decision = {
 		cost = 100
 		visible = {
-			OR = {
+			NOT = {
 				controls_state = 656
-				656 = {
-					OWNER = {
-						is_puppet_of = MAH
-					}
-				}
 			}
 		}
 		available = {
 			MAH = {
-				is_in_faction_with = ENG
+				NOT = {
+					has_war_with = ENG
+				}
 			}
 			ENG = {
 				controls_state = 656
@@ -255,35 +410,39 @@ mah_british_colonies_in_the_middle_east_category = {
 					controls_state = 678
 				}
 			}
+			has_political_power > 400
+			has_equipment = {
+				infantry_equipment > 25000
+			}
 		}
 		ai_will_do = {
 			factor = 2
 		}
 		complete_effect = {
-			KUW = {
-				transfer_state = 656
+			ENG = {
+				country_event = mah_event.1
 			}
-			set_autonomy = {
-				target = KUW
-				autonomy_state = autonomy_puppet
-			}
+			# KUW = {
+			# 	transfer_state = 656
+			# }
+			# set_autonomy = {
+			# 	target = KUW
+			# 	autonomy_state = autonomy_puppet
+			# }
 		}
 	}
 	mah_state_765_decision = {
 		cost = 100
 		visible = {
-			OR = {
+			NOT = {
 				controls_state = 765
-				765 = {
-					OWNER = {
-						is_puppet_of = MAH
-					}
-				}
 			}
 		}
 		available = {
 			MAH = {
-				is_in_faction_with = ENG
+				NOT = {
+					has_war_with = ENG
+				}
 			}
 			ENG = {
 				controls_state = 765
@@ -300,35 +459,39 @@ mah_british_colonies_in_the_middle_east_category = {
 					controls_state = 678
 				}
 			}
+			has_political_power > 400
+			has_equipment = {
+				infantry_equipment > 25000
+			}
 		}
 		ai_will_do = {
 			factor = 2
 		}
 		complete_effect = {
-			QAT = {
-				transfer_state = 765
+			ENG = {
+				country_event = mah_event.2
 			}
-			set_autonomy = {
-				target = QAT
-				autonomy_state = autonomy_puppet
-			}
+			# QAT = {
+			# 	transfer_state = 765
+			# }
+			# set_autonomy = {
+			# 	target = QAT
+			# 	autonomy_state = autonomy_puppet
+			# }
 		}
 	}
 	mah_state_658_decision = {
 		cost = 100
 		visible = {
-			OR = {
+			NOT = {
 				controls_state = 658
-				658 = {
-					OWNER = {
-						is_puppet_of = MAH
-					}
-				}
 			}
 		}
 		available = {
 			MAH = {
-				is_in_faction_with = ENG
+				NOT = {
+					has_war_with = ENG
+				}
 			}
 			ENG = {
 				controls_state = 658
@@ -350,35 +513,39 @@ mah_british_colonies_in_the_middle_east_category = {
 					controls_state = 678
 				}
 			}
+			has_political_power > 400
+			has_equipment = {
+				infantry_equipment > 25000
+			}
 		}
 		ai_will_do = {
 			factor = 2
 		}
 		complete_effect = {
-			UAE = {
-				transfer_state = 658
+			ENG = {
+				country_event = mah_event.3
 			}
-			set_autonomy = {
-				target = UAE
-				autonomy_state = autonomy_puppet
-			}
+			# UAE = {
+			# 	transfer_state = 658
+			# }
+			# set_autonomy = {
+			# 	target = UAE
+			# 	autonomy_state = autonomy_puppet
+			# }
 		}
 	}
 	mah_state_659_decision = {
 		cost = 100
 		visible = {
-			OR = {
+			NOT = {
 				controls_state = 659
-				659 = {
-					OWNER = {
-						is_puppet_of = MAH
-					}
-				}
 			}
 		}
 		available = {
 			MAH = {
-				is_in_faction_with = ENG
+				NOT = {
+					has_war_with = ENG
+				}
 			}
 			ENG = {
 				controls_state = 659
@@ -390,24 +557,111 @@ mah_british_colonies_in_the_middle_east_category = {
 				}
 				controls_state = 293
 			}
+			has_political_power > 400
+			has_equipment = {
+				infantry_equipment > 25000
+			}
 		}
 		ai_will_do = {
 			factor = 2
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					YEM = {
-						is_puppet_of = MAH
-					}
-				}
-				YEM = {
-					transfer_state = 659
+			ENG = {
+				country_event = mah_event.4
+			}
+			# if = {
+			# 	limit = {
+			# 		YEM = {
+			# 			is_puppet_of = MAH
+			# 		}
+			# 	}
+			# 	YEM = {
+			# 		transfer_state = 659
+			# 	}
+			# }
+			# else = {
+			# 	transfer_state = 659
+			# }
+		}
+	}
+	mah_egypt_decision = {
+		cost = 100
+		visible = {
+			NOT = {
+				controls_state = 452
+				controls_state = 447
+				controls_state = 446
+				controls_state = 456
+				controls_state = 457
+				controls_state = 453
+			}
+		}
+		available = {
+			MAH = {
+				NOT = {
+					has_war_with = ENG
 				}
 			}
-			else = {
-				transfer_state = 659
+			OR = {
+				ENG = {
+					controls_state = 452
+					controls_state = 447
+					controls_state = 446
+					controls_state = 456
+					controls_state = 457
+					controls_state = 453
+				}
+				EGY = {
+					is_puppet_of = ENG
+				}
 			}
+			has_political_power > 1000
+			has_equipment = {
+				infantry_equipment > 100000
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		complete_effect = {
+			ENG = {
+				country_event = mah_event.5
+			}
+		}
+	}
+	mah_white_peace_with_eng_decision = {
+		cost = 100
+		visible = {
+			has_war_with = ENG
+		}
+		available = {
+			# Egypt
+			custom_trigger_tooltip = {
+				tooltip = mah_form_crystal_empire_egypt_required_states_tt
+				controls_state = 452
+				controls_state = 447
+				controls_state = 446
+				controls_state = 456
+				controls_state = 457
+				controls_state = 453
+			}
+			controls_state = 656
+			controls_state = 765
+			controls_state = 658
+			controls_state = 659
+		}
+		complete_effect = {
+			white_peace = ENG
+			transfer_state = 452
+			transfer_state = 447
+			transfer_state = 446
+			transfer_state = 456
+			transfer_state = 457
+			transfer_state = 453
+			transfer_state = 656
+			transfer_state = 765
+			transfer_state = 658
+			transfer_state = 659
 		}
 	}
 }
