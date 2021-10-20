@@ -1,0 +1,413 @@
+mah_crystal_empire_category = {
+	mah_form_crystal_empire_decision = {
+		cost = 100
+		available = {
+			# Maho
+			custom_trigger_tooltip = {
+				tooltip = mah_form_crystal_empire_maho_required_states_tt
+				controls_state = 677
+				controls_state = 680
+				controls_state = 553
+				controls_state = 554
+				controls_state = 799
+				controls_state = 454
+				controls_state = 455
+			}
+			# Turkey
+			custom_trigger_tooltip = {
+				tooltip = form_country_turkey_required_states_tt
+				controls_state = 797
+				controls_state = 341
+				controls_state = 340
+				controls_state = 339
+				controls_state = 342
+				controls_state = 343
+				controls_state = 347
+				controls_state = 49
+				controls_state = 798
+				controls_state = 346
+				controls_state = 345
+				controls_state = 356
+				controls_state = 348
+				controls_state = 344
+				controls_state = 355
+				controls_state = 349
+				controls_state = 350
+				controls_state = 354
+				controls_state = 353
+				controls_state = 352
+				controls_state = 800
+			}
+			# Iraq
+			custom_trigger_tooltip = {
+				tooltip = form_country_iraq_required_states_tt
+				controls_state = 676
+				controls_state = 675
+				controls_state = 291
+			}
+			# Saudi Arabia
+			custom_trigger_tooltip = {
+				tooltip = form_country_saudi_required_states_tt
+				controls_state = 292
+				controls_state = 679
+				controls_state = 678
+			}
+			# Egypt
+			custom_trigger_tooltip = {
+				tooltip = mah_form_crystal_empire_egypt_required_states_tt
+				controls_state = 452
+				controls_state = 447
+				controls_state = 446
+				controls_state = 456
+				controls_state = 457
+				controls_state = 453
+			}
+			controls_state = 656
+			controls_state = 765
+			controls_state = 658
+			controls_state = 293
+			controls_state = 659
+			controls_state = 294
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			set_cosmetic_tag = MAH_CRY_EMP
+			# Turkey
+			custom_effect_tooltip = form_country_turkey_coring_states_tt
+			hidden_effect = {
+				341 = {
+					add_core_of = ROOT
+				}
+				340 = {
+					add_core_of = ROOT
+				}
+				339 = {
+					add_core_of = ROOT
+				}
+				342 = {
+					add_core_of = ROOT
+				}
+				343 = {
+					add_core_of = ROOT
+				}
+				347 = {
+					add_core_of = ROOT
+				}
+				49 = {
+					add_core_of = ROOT
+				}
+				346 = {
+					add_core_of = ROOT
+				}
+				345 = {
+					add_core_of = ROOT
+				}
+				356 = {
+					add_core_of = ROOT
+				}
+				348 = {
+					add_core_of = ROOT
+				}
+				344 = {
+					add_core_of = ROOT
+				}
+				355 = {
+					add_core_of = ROOT
+				}
+				349 = {
+					add_core_of = ROOT
+				}
+				798 = {
+					add_core_of = ROOT
+				}
+				350 = {
+					add_core_of = ROOT
+				}
+				354 = {
+					add_core_of = ROOT
+				}
+				353 = {
+					add_core_of = ROOT
+				}
+				352 = {
+					add_core_of = ROOT
+				}
+				800 = {
+					add_core_of = ROOT
+				}
+				799 = {
+					add_core_of = ROOT
+				}
+				797 = {
+					add_core_of = ROOT
+				}
+			}
+			custom_effect_tooltip = form_country_iraq_coring_states_tt
+			hidden_effect = {
+				676 = {
+					add_core_of = ROOT
+				}
+				675 = {
+					add_core_of = ROOT
+				}
+				291 = {
+					add_core_of = ROOT
+				}
+			}
+			# Saudi Arabia
+			custom_effect_tooltip = form_country_saudi_coring_states_tt
+			hidden_effect = {
+				292 = {
+					add_core_of = ROOT
+				}
+				679 = {
+					add_core_of = ROOT
+				}
+				678 = {
+					add_core_of = ROOT
+				}
+			}
+			# Egypt
+			custom_effect_tooltip = mah_form_egypt_coring_states_tt
+			hidden_effect = {
+				452 = {
+					add_core_of = ROOT
+				}
+				447 = {
+					add_core_of = ROOT
+				}
+				446 = {
+					add_core_of = ROOT
+				}
+				456 = {
+					add_core_of = ROOT
+				}
+				457 = {
+					add_core_of = ROOT
+				}
+				453 = {
+					add_core_of = ROOT
+				}
+			}
+			656 = {
+				add_core_of = ROOT
+			}
+			765 = {
+				add_core_of = ROOT
+			}
+			658 = {
+				add_core_of = ROOT
+			}
+			293 = {
+				add_core_of = ROOT
+			}
+			659 = {
+				add_core_of = ROOT
+			}
+			294 = {
+				add_core_of = ROOT
+			}
+		}
+	}
+}
+
+mah_british_colonies_in_the_middle_east_category = {
+	mah_state_656_decision = {
+		cost = 100
+		visible = {
+			OR = {
+				controls_state = 656
+				656 = {
+					OWNER = {
+						is_puppet_of = MAH
+					}
+				}
+			}
+		}
+		available = {
+			MAH = {
+				is_in_faction_with = ENG
+			}
+			ENG = {
+				controls_state = 656
+			}
+			OR = {
+				# Iraq
+				IRQ = {
+					is_puppet_of = MAH
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_country_iraq_required_states_tt
+					controls_state = 676
+					controls_state = 675
+					controls_state = 291
+				}
+				# Saudi Arabia
+				SAU = {
+					is_puppet_of = MAH
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		complete_effect = {
+			KUW = {
+				transfer_state = 656
+			}
+			set_autonomy = {
+				target = KUW
+				autonomy_state = autonomy_puppet
+			}
+		}
+	}
+	mah_state_765_decision = {
+		cost = 100
+		visible = {
+			OR = {
+				controls_state = 765
+				765 = {
+					OWNER = {
+						is_puppet_of = MAH
+					}
+				}
+			}
+		}
+		available = {
+			MAH = {
+				is_in_faction_with = ENG
+			}
+			ENG = {
+				controls_state = 765
+			}
+			OR = {
+				# Saudi Arabia
+				SAU = {
+					is_puppet_of = MAH
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		complete_effect = {
+			QAT = {
+				transfer_state = 765
+			}
+			set_autonomy = {
+				target = QAT
+				autonomy_state = autonomy_puppet
+			}
+		}
+	}
+	mah_state_658_decision = {
+		cost = 100
+		visible = {
+			OR = {
+				controls_state = 658
+				658 = {
+					OWNER = {
+						is_puppet_of = MAH
+					}
+				}
+			}
+		}
+		available = {
+			MAH = {
+				is_in_faction_with = ENG
+			}
+			ENG = {
+				controls_state = 658
+			}
+			OR = {
+				# Oman
+				OMA = {
+					is_puppet_of = MAH
+				}
+				controls_state = 294
+				# Saudi Arabia
+				SAU = {
+					is_puppet_of = MAH
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		complete_effect = {
+			UAE = {
+				transfer_state = 658
+			}
+			set_autonomy = {
+				target = UAE
+				autonomy_state = autonomy_puppet
+			}
+		}
+	}
+	mah_state_659_decision = {
+		cost = 100
+		visible = {
+			OR = {
+				controls_state = 659
+				659 = {
+					OWNER = {
+						is_puppet_of = MAH
+					}
+				}
+			}
+		}
+		available = {
+			MAH = {
+				is_in_faction_with = ENG
+			}
+			ENG = {
+				controls_state = 659
+			}
+			OR = {
+				# Yemen
+				YEM = {
+					is_puppet_of = MAH
+				}
+				controls_state = 293
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					YEM = {
+						is_puppet_of = MAH
+					}
+				}
+				YEM = {
+					transfer_state = 659
+				}
+			}
+			else = {
+				transfer_state = 659
+			}
+		}
+	}
+}

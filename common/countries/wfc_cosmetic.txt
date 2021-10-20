@@ -2,3 +2,7 @@ ACW_EMP = {
 	color = rgb { 51  255  255 }
 	color_ui = rgb { 51  255  255 }
 }
+MAH_CRY_EMP = {
+	color = rgb { 236 35 191 }
+	color_ui = rgb { 236 100 191 }
+}
