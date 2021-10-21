@@ -5,6 +5,11 @@ mah_crystal_empire_category = {
 	allowed = {
 		original_tag = MAH
 	}
+	visible = {
+		NOT = {
+			has_country_flag = mah_crystal_empire_formed_flag
+		}
+	}
 }
 mah_british_colonies_in_the_middle_east_category = {
 	priority = 8

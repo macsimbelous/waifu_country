@@ -211,6 +211,47 @@ mah_crystal_empire_category = {
 			294 = {
 				add_core_of = ROOT
 			}
+			hidden_effect = {
+				transfer_state = 797
+				transfer_state = 341
+				transfer_state = 340
+				transfer_state = 339
+				transfer_state = 342
+				transfer_state = 343
+				transfer_state = 347
+				transfer_state = 49
+				transfer_state = 798
+				transfer_state = 346
+				transfer_state = 345
+				transfer_state = 356
+				transfer_state = 348
+				transfer_state = 344
+				transfer_state = 355
+				transfer_state = 349
+				transfer_state = 350
+				transfer_state = 354
+				transfer_state = 353
+				transfer_state = 352
+				transfer_state = 800
+				transfer_state = 676
+				transfer_state = 675
+				transfer_state = 291
+				transfer_state = 292
+				transfer_state = 679
+				transfer_state = 678
+				transfer_state = 452
+				transfer_state = 447
+				transfer_state = 446
+				transfer_state = 456
+				transfer_state = 457
+				transfer_state = 453
+				transfer_state = 656
+				transfer_state = 765
+				transfer_state = 658
+				transfer_state = 293
+				transfer_state = 659
+				transfer_state = 294
+			}
 		}
 	}
 	mah_substantiate_claims_decision = {
@@ -263,6 +304,7 @@ mah_crystal_empire_category = {
 	}
 	mah_conquest_of_tur_decision = {
 		cost = 100
+		fire_only_once = yes
 		visible = {
 			country_exists = TUR
 		}
@@ -297,6 +339,7 @@ mah_crystal_empire_category = {
 	}
 	mah_conquest_of_irq_decision = {
 		cost = 100
+		fire_only_once = yes
 		visible = {
 			country_exists = IRQ
 		}
@@ -309,6 +352,7 @@ mah_crystal_empire_category = {
 	}
 	mah_conquest_of_sau_decision = {
 		cost = 100
+		fire_only_once = yes
 		visible = {
 			country_exists = SAU
 		}
@@ -330,6 +374,7 @@ mah_crystal_empire_category = {
 	}
 	mah_conquest_of_oma_decision = {
 		cost = 100
+		fire_only_once = yes
 		visible = {
 			country_exists = OMA
 		}
@@ -351,6 +396,7 @@ mah_crystal_empire_category = {
 	}
 	mah_conquest_of_yem_decision = {
 		cost = 100
+		fire_only_once = yes
 		visible = {
 			country_exists = YEM
 		}
@@ -375,9 +421,15 @@ mah_crystal_empire_category = {
 mah_british_colonies_in_the_middle_east_category = {
 	mah_state_656_decision = {
 		cost = 100
+		days_re_enable = 180
 		visible = {
-			NOT = {
-				controls_state = 656
+			656 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
 			}
 		}
 		available = {
@@ -434,9 +486,15 @@ mah_british_colonies_in_the_middle_east_category = {
 	}
 	mah_state_765_decision = {
 		cost = 100
+		days_re_enable = 180
 		visible = {
-			NOT = {
-				controls_state = 765
+			765 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
 			}
 		}
 		available = {
@@ -483,9 +541,15 @@ mah_british_colonies_in_the_middle_east_category = {
 	}
 	mah_state_658_decision = {
 		cost = 100
+		days_re_enable = 180
 		visible = {
-			NOT = {
-				controls_state = 658
+			658 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
 			}
 		}
 		available = {
@@ -537,9 +601,15 @@ mah_british_colonies_in_the_middle_east_category = {
 	}
 	mah_state_659_decision = {
 		cost = 100
+		days_re_enable = 180
 		visible = {
-			NOT = {
-				controls_state = 659
+			659 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
 			}
 		}
 		available = {
@@ -587,14 +657,63 @@ mah_british_colonies_in_the_middle_east_category = {
 	}
 	mah_egypt_decision = {
 		cost = 100
+		days_re_enable = 180
 		visible = {
-			NOT = {
-				controls_state = 452
-				controls_state = 447
-				controls_state = 446
-				controls_state = 456
-				controls_state = 457
-				controls_state = 453
+			# NOT = {
+			# 	controls_state = 452
+			# 	controls_state = 447
+			# 	controls_state = 446
+			# 	controls_state = 456
+			# 	controls_state = 457
+			# 	controls_state = 453
+			# }
+			452 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
+			}
+			447 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
+			}
+			446 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
+			}
+			456 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
+			}
+			457 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
+			}
+			453 = {
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						is_controlled_by = ROOT
+					}
+				}
 			}
 		}
 		available = {

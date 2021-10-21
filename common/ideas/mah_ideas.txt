@@ -28,6 +28,16 @@ ideas = {
 				#supply_consumption_factor = -0.3
 			}
 		}
+		# mah_britain_refused_idea = {
+		# 	picture = GFX_idea_generic_king_handled
+		# 	allowed = {
+		# 		original_tag = MAH
+		# 	}
+		# 	allowed_civil_war = {
+		# 		always = yes
+		# 	}
+		# 	removal_cost = -1
+		# }
 	}
 
 }
