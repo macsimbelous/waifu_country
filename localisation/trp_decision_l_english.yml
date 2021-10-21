@@ -1,0 +1,14 @@
+﻿l_english:
+
+#discrediting
+trp_discrediting_decisions:0 "Discredit"
+trp_discrediting_decision.t:0 "Discredit §Y[From.GetName]§!"
+trp_discrediting_decision.t_desc:0 "Disseminate compromising information about the state of §Y[From.GetName]§! throughout the world."
+
+#cloning
+trp_cloning_category:0 "Cloning"
+trp_cloning_category_desc:0 "Bulk cloning"
+trp_develop_cloning_technology:0 "Develop cloning technology"
+trp_cloning_decision.t:0 "Produce §G[?mtth:trp_cloning_power]§! clones"
+trp_cloning_level_up_decision.t:0 "Expand production of clones"
+
