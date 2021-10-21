@@ -8,183 +8,29 @@ country_event = {
 	option = {
 		name = mah_event.1.a
 		ai_chance = {
-			factor = 75
+			base = 0
+			modifier = {
+				ENG = {
+					has_government = democratic 
+				}
+				add = 100
+			}
+			modifier = {
+				MAH = {
+					OR = {
+						has_government = fascism
+						has_government = communism
+					}
+				}
+				add = -100
+			}
 		}
 		MAH = {
 			transfer_state = 656
-			add_political_power = -300
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -25000
-			}
-		}
-		ENG = {
-			add_political_power = 300
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 25000
-			}
-		}
-	}
-	option = {
-		name = mah_event.1.b
-		ai_chance = {
-			factor = 0
-		}
-		MAH = {
-			create_wargoal = {
-				target = ENG
-				type = take_claimed_state
-			}
-			add_state_claim = 656
-		}
-	}
-}
-
-country_event = {
-	id = mah_event.2
-	title = mah_event.2.t
-	desc = mah_event.2.d
-	picture = GFX_report_event_generic_sign_treaty3
-	is_triggered_only = yes
-	option = {
-		name = mah_event.2.a
-		ai_chance = {
-			factor = 75
-		}
-		MAH = {
 			transfer_state = 765
-			add_political_power = -300
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -25000
-			}
-		}
-		ENG = {
-			add_political_power = 300
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 25000
-			}
-		}
-	}
-	option = {
-		name = mah_event.2.b
-		ai_chance = {
-			factor = 0
-		}
-		MAH = {
-			create_wargoal = {
-				target = ENG
-				type = take_claimed_state
-			}
-			add_state_claim = 765
-		}
-	}
-}
-
-country_event = {
-	id = mah_event.3
-	title = mah_event.3.t
-	desc = mah_event.3.d
-	picture = GFX_report_event_generic_sign_treaty3
-	is_triggered_only = yes
-	option = {
-		name = mah_event.3.a
-		ai_chance = {
-			factor = 75
-		}
-		MAH = {
 			transfer_state = 658
-			add_political_power = -300
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -25000
-			}
-		}
-		ENG = {
-			add_political_power = 300
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 25000
-			}
-		}
-	}
-	option = {
-		name = mah_event.3.b
-		ai_chance = {
-			factor = 0
-		}
-		MAH = {
-			create_wargoal = {
-				target = ENG
-				type = take_claimed_state
-			}
-			add_state_claim = 658
-		}
-	}
-}
-
-country_event = {
-	id = mah_event.4
-	title = mah_event.4.t
-	desc = mah_event.4.d
-	picture = GFX_report_event_generic_sign_treaty3
-	is_triggered_only = yes
-	option = {
-		name = mah_event.4.a
-		ai_chance = {
-			factor = 75
-		}
-		MAH = {
 			transfer_state = 659
-			add_political_power = -300
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -25000
-			}
-		}
-		ENG = {
-			add_political_power = 300
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 25000
-			}
-		}
-	}
-	option = {
-		name = mah_event.4.b
-		ai_chance = {
-			factor = 0
-		}
-		MAH = {
-			create_wargoal = {
-				target = ENG
-				type = take_claimed_state
-			}
-			add_state_claim = 659
-		}
-	}
-}
-
-country_event = {
-	id = mah_event.5
-	title = mah_event.5.t
-	desc = mah_event.5.d
-	picture = GFX_report_event_generic_sign_treaty3
-	is_triggered_only = yes
-	option = {
-		name = mah_event.5.a
-		ai_chance = {
-			factor = 75
-		}
-		MAH = {
-			#transfer_state = 659
-			add_political_power = -1000
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -100000
-			}
+			#egypt
 			transfer_state = 452
 			transfer_state = 552
 			transfer_state = 447
@@ -192,6 +38,11 @@ country_event = {
 			transfer_state = 456
 			transfer_state = 457
 			transfer_state = 453
+			add_political_power = -1000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -100000
+			}
 		}
 		ENG = {
 			add_political_power = 1000
@@ -202,22 +53,31 @@ country_event = {
 		}
 	}
 	option = {
-		name = mah_event.5.b
+		name = mah_event.1.b
 		ai_chance = {
-			factor = 0
-		}
-		MAH = {
-			create_wargoal = {
-				target = ENG
-				type = take_claimed_state
+			base = 0
+			modifier = {
+				ENG = {
+					NOT = { has_government = democratic }
+				}
+				add = 100
 			}
-			add_state_claim = 452
-			add_state_claim = 552
-			add_state_claim = 447
-			add_state_claim = 446
-			add_state_claim = 456
-			add_state_claim = 457
-			add_state_claim = 453
+			modifier = {
+				MAH = {
+					OR = {
+						has_government = fascism
+						has_government = communism
+					}
+				}
+				add = 100
+			}
 		}
+		# MAH = {
+		# 	create_wargoal = {
+		# 		target = ENG
+		# 		type = take_claimed_state
+		# 	}
+		# 	add_state_claim = 656
+		# }
 	}
 }

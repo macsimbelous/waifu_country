@@ -11,11 +11,3 @@ mah_crystal_empire_category = {
 		}
 	}
 }
-mah_british_colonies_in_the_middle_east_category = {
-	priority = 8
-	#icon = decision_category_generic_propaganda
-	picture = GFX_decision_cat_generic_arabia
-	allowed = {
-		original_tag = MAH
-	}
-}

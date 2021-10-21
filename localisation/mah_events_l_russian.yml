@@ -1,28 +1,9 @@
 ﻿l_russian:
 
 #mah_event.1
-mah_event.1.t:0 "Выкуп §Y[656.GetName]§!"
-mah_event.1.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас §Y[656.GetName]§!."
+mah_event.1.t:0 "Выкуп ближневосточных колоний!"
+mah_event.1.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас:\n§Y[656.GetName]§!\n§Y[765.GetName]§!\n§Y[658.GetName]§!\n§Y[659.GetName]§!\n§Y[EGY.GetName]§!"
 mah_event.1.a:0 "§RСогласится§!"
 mah_event.1.b:0 "§RОтказать§!"
-#mah_event.2
-mah_event.2.t:0 "Выкуп §Y[765.GetName]§!"
-mah_event.2.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас §Y[765.GetName]§!."
-mah_event.2.a:0 "§RСогласится§!"
-mah_event.2.b:0 "§RОтказать§!"
-#mah_event.3
-mah_event.3.t:0 "Выкуп §Y[658.GetName]§!"
-mah_event.3.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас §Y[658.GetName]§!."
-mah_event.3.a:0 "§RСогласится§!"
-mah_event.3.b:0 "§RОтказать§!"
-#mah_event.4
-mah_event.4.t:0 "Выкуп §Y[659.GetName]§!"
-mah_event.4.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас §Y[659.GetName]§!."
-mah_event.4.a:0 "§RСогласится§!"
-mah_event.4.b:0 "§RОтказать§!"
-#mah_event.5
-mah_event.5.t:0 "Выкуп §YЕгипта§!"
-mah_event.5.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас §Y[EGY.GetName]§!."
-mah_event.5.a:0 "§RСогласится§!"
-mah_event.5.b:0 "§RОтказать§!"
+
 
