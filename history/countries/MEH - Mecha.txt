@@ -90,7 +90,7 @@ set_popularities = {
 create_country_leader = {
 	name = "KOS-MOS"
 	desc = "POLITICS_KOS-MOS_DESC"
-	picture = "Portrait_KOS-MOS.dds"
+	picture = "KOS-MOS.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -103,7 +103,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Fiora Mechon"
 	desc = "POLITICS_Fiora_Mechon_DESC"
-	picture = "Portrait_Fiora_Mechon.dds"
+	picture = "Fiora_Mechon.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -116,7 +116,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mythra"
 	desc = "POLITICS_Mythra_DESC"
-	picture = "Portrait_Mythra.dds"
+	picture = "Mythra.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -129,7 +129,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Histoire"
 	desc = "POLITICS_Histoire_DESC"
-	picture = "Portrait_Histoire.dds"
+	picture = "Histoire.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -144,7 +144,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "KOS-MOS"
-	picture = "Portrait_KOS-MOS.dds"
+	picture = "KOS-MOS.dds"
 	traits = {
 		defensive_doctrine
 		bearer_of_artillery
@@ -158,7 +158,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Iris Heart"
-	picture = "Portrait_Iris_Heart.dds"
+	picture = "Iris_Heart.dds"
 	traits = {
 		commando
 		infantry_leader
@@ -175,7 +175,7 @@ create_field_marshal = {
 #generals
 create_corps_commander = {
 	name = "Fiora Mechon"
-	picture = "Portrait_Fiora_Mechon.dds"
+	picture = "Fiora_Mechon.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -187,7 +187,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Pyra"
-	picture = "Portrait_Pyra.dds"
+	picture = "Pyra.dds"
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -200,7 +200,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Mythra"
-	picture = "Portrait_Mythra.dds"
+	picture = "Mythra.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -213,7 +213,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Pneuma"
-	picture = "Portrait_Pneuma.dds"
+	picture = "Pneuma.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -225,7 +225,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Risa"
-	picture = "Portrait_Risa.dds"
+	picture = "Risa.dds"
 	traits = {
 		aggressive_assaulter commando
 	}
@@ -238,7 +238,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Hatsune Miku"
-	picture = "Portrait_Hatsune_Miku.dds"
+	picture = "Hatsune_Miku.dds"
 	traits = {
 		
 	}
@@ -252,7 +252,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Hana"
-	picture = "Portrait_Hana.dds"
+	picture = "Hana.dds"
 	traits = {
 		
 	}
@@ -265,7 +265,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "2B"
-	picture = "Portrait_2B.dds"
+	picture = "2B.dds"
 	traits = {
 		offensive_doctrine
 	}
@@ -278,7 +278,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "A2"
-	picture = "Portrait_A2.dds"
+	picture = "A2.dds"
 	traits = {
 		
 	}
@@ -291,7 +291,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Automaton"
-	picture = "Portrait_Automaton.dds"
+	picture = "Automaton.dds"
 	traits = {
 		
 	}
@@ -304,7 +304,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "EDI"
-	picture = "Portrait_EDI.dds"
+	picture = "EDI.dds"
 	traits = {
 		
 	}
@@ -317,7 +317,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Cibo"
-	picture = "Portrait_Cibo.dds"
+	picture = "Cibo.dds"
 	traits = {
 		
 	}
@@ -330,7 +330,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Alexandra Frolova"
-	picture = "Portrait_Alexandra_Frolova.dds"
+	picture = "Alexandra_Frolova.dds"
 	traits = {
 		
 	}
@@ -343,7 +343,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Phantom Queen Ex-Xecty"
-	picture = "Portrait_Phantom_Queen_Ex-Xecty.dds"
+	picture = "Phantom_Queen_Ex-Xecty.dds"
 	traits = {
 		
 	}
@@ -356,7 +356,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Svetlana Sakura"
-	picture = "Portrait_Svetlana_Sakura.dds"
+	picture = "Svetlana_Sakura.dds"
 	traits = {
 		
 	}
@@ -369,7 +369,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Rozen S Series"
-	picture = "Portrait_Rozen_S_Series.dds"
+	picture = "Rozen_S_Series.dds"
 	traits = {
 		panzer_leader
 	}
@@ -382,7 +382,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "MHMD-02 Haruko"
-	picture = "Portrait_MHMD-02_Haruko.dds"
+	picture = "MHMD-02_Haruko.dds"
 	traits = {
 		logistics_wizard
 	}
@@ -395,7 +395,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Clarion"
-	picture = "Portrait_Clarion.dds"
+	picture = "Clarion.dds"
 	traits = {
 		logistics_wizard
 	}
@@ -408,7 +408,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Maki Ivanova"
-	picture = "Portrait_Maki_Ivanova.dds"
+	picture = "Maki_Ivanova.dds"
 	traits = {
 		cavalry_leader cavalry_expert
 	}
@@ -421,7 +421,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "T-Elos"
-	picture = "Portrait_T-Elos.dds"
+	picture = "T-Elos.dds"
 	traits = {
 		aggressive_assaulter
 	}
@@ -434,7 +434,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Alisa Boskonovich"
-	picture = "Portrait_Alisa_Boskonovich.dds"
+	picture = "Alisa_Boskonovich.dds"
 	traits = {
 		
 	}
@@ -502,7 +502,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Takao ARP"
 	#id = 7107
-	picture = "Portrait_Takao_ARP.dds"
+	picture = "Takao_ARP.dds"
 	traits = {
 	}
 	skill = 2
@@ -515,7 +515,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Iona ARP"
 	#id = 7113
-	picture = "Portrait_I-410.dds"
+	picture = "I-410.dds"
 	traits = {
 		torpedo_expert
 		silent_hunter
@@ -529,7 +529,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Haruna ARP"
 	#id = 7107
-	picture = "Portrait_Haruna.dds"
+	picture = "Haruna.dds"
 	traits = {
 	}
 	skill = 1
@@ -541,7 +541,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Kirishima ARP"
 	#id = 7107
-	picture = "Portrait_Kirishima.dds"
+	picture = "Kirishima.dds"
 	traits = {
 	}
 	skill = 1
@@ -553,7 +553,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Kongou ARP"
 	#id = 7107
-	picture = "Portrait_Kongou_ARP.dds"
+	picture = "Kongou_ARP.dds"
 	traits = {
 	}
 	skill = 2
@@ -565,7 +565,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Atago ARP"
 	#id = 7107
-	picture = "Portrait_Atago_ARP.dds"
+	picture = "Atago_ARP.dds"
 	traits = {
 	}
 	skill = 2
@@ -577,7 +577,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Caseal"
 	#id = 7107
-	picture = "Portrait_Caseal.dds"
+	picture = "Caseal.dds"
 	traits = {
 	}
 	skill = 2
@@ -589,7 +589,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Ashigara ARP"
 	#id = 7107
-	picture = "Portrait_Ashigara_ARP.dds"
+	picture = "Ashigara_ARP.dds"
 	traits = {
 	}
 	skill = 2
@@ -601,7 +601,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Hiei ARP"
 	#id = 7107
-	picture = "Portrait_Hiei_ARP.dds"
+	picture = "Hiei_ARP.dds"
 	traits = {
 	}
 	skill = 2

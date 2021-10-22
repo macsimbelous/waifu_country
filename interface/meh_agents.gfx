@@ -1,18 +1,18 @@
 spriteTypes = {
         spriteType = {
                 name = "GFX_Aegis"
-                texturefile = "gfx/leaders/MEH/Portrait_Aegis.dds"
+                texturefile = "gfx/leaders/MEH/Aegis.dds"
         }
         spriteType = {
                 name = "GFX_Chii"
-                texturefile = "gfx/leaders/MEH/Portrait_Chii.dds"
+                texturefile = "gfx/leaders/MEH/Chii.dds"
         }
         spriteType = {
                 name = "GFX_Vanessa_Diodati"
-                texturefile = "gfx/leaders/MEH/Portrait_Vanessa_Diodati.dds"
+                texturefile = "gfx/leaders/MEH/Vanessa_Diodati.dds"
         }
         spriteType = {
                 name = "GFX_Yurizaki_Mira"
-                texturefile = "gfx/leaders/MEH/Portrait_Yurizaki_Mira.dds"
+                texturefile = "gfx/leaders/MEH/Yurizaki_Mira.dds"
         }
 }

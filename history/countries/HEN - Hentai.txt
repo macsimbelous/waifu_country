@@ -68,7 +68,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Takumi Musashino"
 	desc = "POLITICS_Takumi_Musashino_DESC"
-	picture = "Portrait_Takumi_Musashino.dds"
+	picture = "Takumi_Musashino.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -82,7 +82,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Saori Asamiya"
 	desc = "POLITICS_Saori_Asamiya_DESC"
-	picture = "Portrait_Saori_Asamiya.dds"
+	picture = "Saori_Asamiya.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -96,7 +96,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mari Setogaya"
 	desc = "POLITICS_Mari_Setogaya_DESC"
-	picture = "Portrait_Mari_Setogaya.dds"
+	picture = "Mari_Setogaya.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -155,7 +155,7 @@ create_field_marshal = {
 #generals
 create_corps_commander = {
 	name = "Igawa Asagi"
-	picture = "Portrait_Igawa_Asagi.dds"
+	picture = "Igawa_Asagi.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -167,7 +167,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Anri Sogahara"
-	picture = "Portrait_Anri_Sogahara.dds"
+	picture = "Anri_Sogahara.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -179,7 +179,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Rina Komiya"
-	picture = "Portrait_Rina_Komiya.dds"
+	picture = "Rina_Komiya.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -191,7 +191,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Anna Komiya"
-	picture = "Portrait_Anna_Komiya.dds"
+	picture = "Anna_Komiya.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -203,7 +203,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ruma"
-	picture = "Portrait_Ruma.dds"
+	picture = "Ruma.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -323,7 +323,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Suomi"
 	#id = 7105
-	picture = "Portrait_Suomi.dds"
+	picture = "Suomi.dds"
 	traits = {
 		naval_invader
 	}
@@ -337,7 +337,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Akiho Taniguchi"
 	#id = 7105
-	picture = "Portrait_Akiho_Taniguchi.dds"
+	picture = "Akiho_Taniguchi.dds"
 	traits = {
 		naval_liason
 	}

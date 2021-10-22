@@ -63,7 +63,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Astolfo"
 	desc = "POLITICS_Astolfo_DESC"
-	picture = "Portrait_Astolfo.dds"
+	picture = "Astolfo.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -76,7 +76,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hideri Kanzaki"
 	desc = "POLITICS_Hideri_Kanzaki_DESC"
-	picture = "Portrait_Hideri_Kanzaki.dds"
+	picture = "Hideri_Kanzaki.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -89,7 +89,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Tetora"
 	desc = "POLITICS_Tetora_DESC"
-	picture = "Portrait_Tetora.dds"
+	picture = "Tetora.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -102,7 +102,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ringo Tsukimiya"
 	desc = "POLITICS_Ringo_Tsukimiya_DESC"
-	picture = "Portrait_Ringo_Tsukimiya.dds"
+	picture = "Ringo_Tsukimiya.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -116,7 +116,7 @@ create_country_leader = {
 #generals
 create_field_marshal = {
 	name = "Astolfo"
-	picture = "Portrait_Astolfo.dds"
+	picture = "Astolfo.dds"
 	traits = {
 		cavalry_leader
 		cavalry_expert
@@ -130,7 +130,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Felix Argyle"
-	picture = "Portrait_Felix_Argyle.dds"
+	picture = "Felix_Argyle.dds"
 	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
 	skill = 4
 	attack_skill = 5
@@ -140,7 +140,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Hime Arikawa"
-	picture = "Portrait_Hime_Arikawa.dds"
+	picture = "Hime_Arikawa.dds"
 	traits = {  }
 	skill = 1
 	attack_skill = 2
@@ -150,7 +150,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Souji Mitsuka"
-	picture = "Portrait_Souji_Mitsuka.dds"
+	picture = "Souji_Mitsuka.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -161,7 +161,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Hitoshi Sugoroku"
-	picture = "Portrait_Hitoshi_Sugoroku.dds"
+	picture = "Hitoshi_Sugoroku.dds"
 	traits = { trickster }
 	skill = 4
 	attack_skill = 5
@@ -172,7 +172,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Birdy Cephon Altera"
-	picture = "Portrait_Birdy_Cephon_Altera.dds"
+	picture = "Birdy_Cephon_Altera.dds"
 	traits = {  }
 	skill = 4
 	attack_skill = 4
@@ -335,7 +335,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Ranma Saotome"
 	#id = 7109
-	picture = "Portrait_Ranma_Saotome.dds"
+	picture = "Ranma_Saotome.dds"
 	traits = {
 		old_guard_navy
 	}

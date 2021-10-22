@@ -102,7 +102,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Shamiko"
 	desc = "POLITICS_Shamiko_DESC"
-	picture = "Portrait_Shamiko.dds"
+	picture = "Shamiko.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -116,7 +116,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Maou"
 	desc = "POLITICS_Maou_DESC"
-	picture = "Portrait_Maou.dds"
+	picture = "Maou.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -130,7 +130,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Velvet Crowe"
 	desc = "POLITICS_Velvet_Crowe_DESC"
-	picture = "Portrait_Velvet_Crowe.dds"
+	picture = "Velvet_Crowe.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -144,7 +144,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Holo"
 	desc = "POLITICS_Holo_DESC"
-	picture = "Portrait_Holo.dds"
+	picture = "Holo.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -159,7 +159,7 @@ create_country_leader = {
 #marshal
 create_field_marshal = {
 	name = "Fino Bloodstone"
-	picture = "Portrait_Fino_Bloodstone.dds"
+	picture = "Fino_Bloodstone.dds"
 	traits = {
 		aggressive_assaulter
 	}
@@ -171,7 +171,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Rhea"
-	picture = "Portrait_Rhea.dds"
+	picture = "Rhea.dds"
 	traits = {
 		
 	}
@@ -183,7 +183,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Shiraori"
-	picture = "Portrait_Shiraori.dds"
+	picture = "Shiraori.dds"
 	traits = {
 		expert_delegator fast_planner trickster adaptable trait_engineer
 	}
@@ -196,7 +196,7 @@ create_field_marshal = {
 #generals
 create_field_marshal = {
 	name = "Ishtar"
-	picture = "Portrait_Ishtar.dds"
+	picture = "Ishtar.dds"
 	traits = {
 		trickster
 		expert_delegator
@@ -215,7 +215,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Milla Maxwell"
-	picture = "Portrait_Milla_Maxwell.dds"
+	picture = "Milla_Maxwell.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -227,7 +227,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Astaroth"
-	picture = "Portrait_Astaroth.dds"
+	picture = "Astaroth.dds"
 	traits = {
 		infantry_leader
 	}
@@ -241,7 +241,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Laharl female"
-	picture = "Portrait_Laharl_girl.dds"
+	picture = "Laharl_girl.dds"
 	traits = {
 		infantry_leader
 		skilled_staffer
@@ -256,7 +256,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Desco"
-	picture = "Portrait_Desco.dds"
+	picture = "Desco.dds"
 	traits = {
 		panzer_leader
 	}
@@ -270,7 +270,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Tiamat"
-	picture = "Portrait_Tiamat.dds"
+	picture = "Tiamat.dds"
 	traits = {
 		skilled_staffer
 		expert_delegator
@@ -285,7 +285,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Belldandy"
-	picture = "Portrait_Belldandy.dds"
+	picture = "Belldandy.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -297,7 +297,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Corrin"
-	picture = "Portrait_Corrin.dds"
+	picture = "Corrin.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -309,7 +309,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Lucy"
-	picture = "Portrait_Lucy.dds"
+	picture = "Lucy.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -321,7 +321,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Makina Hoshimura"
-	picture = "Portrait_Makina_Hoshimura.dds"
+	picture = "Makina_Hoshimura.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -333,7 +333,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Saya Kisaragi"
-	picture = "Portrait_Saya_Kisaragi.dds"
+	picture = "Saya_Kisaragi.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -345,7 +345,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "02"
-	picture = "Portrait_Zero_Two.dds"
+	picture = "Zero_Two.dds"
 	skill = 1
 	attack_skill = 2
 	defense_skill = 1
@@ -356,7 +356,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Vignette April Tsukinose"
-	picture = "Portrait_Vignette_April_Tsukinose.dds"
+	picture = "Vignette_April_Tsukinose.dds"
 	traits = {
 	}
 	skill = 2
@@ -368,7 +368,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Satanichia McDowell Kurumizawa"
-	picture = "Portrait_Satanichia_McDowell_Kurumizawa.dds"
+	picture = "Satanichia_McDowell_Kurumizawa.dds"
 	traits = {
 	}
 	skill = 1
@@ -380,7 +380,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Arnice"
-	picture = "Portrait_Arnice.dds"
+	picture = "Arnice.dds"
 	traits = {
 	}
 	skill = 1
@@ -391,7 +391,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Saya Otonashi"
-	picture = "Portrait_Saya_Otonashi.dds"
+	picture = "Saya_Otonashi.dds"
 	traits = {
 	}
 	skill = 1
@@ -402,7 +402,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Marie Von Eisenberg"
-	picture = "Portrait_Marie_Von_Eisenberg.dds"
+	picture = "Marie_Von_Eisenberg.dds"
 	traits = {
 	}
 	skill = 2
@@ -487,7 +487,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Yamato WG"
 	#id = 7109
-	picture = "Portrait_Yamato_WG.dds"
+	picture = "Yamato_WG.dds"
 	traits = {
 		big_guns_expert blue_water_expert
 	}
