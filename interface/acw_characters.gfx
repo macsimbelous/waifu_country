@@ -1,0 +1,412 @@
+spriteTypes = {
+	spriteType = {
+                name = "GFX_idea_acw_5pb"
+                texturefile = "gfx/leaders/ACW/5pb_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_aika_sumeragi"
+                texturefile = "gfx/leaders/ACW/aika_sumeragi_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_akeno_misaki"
+                texturefile = "gfx/leaders/ACW/akeno_misaki_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/akeno_misaki_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_ako_tamaki"
+                texturefile = "gfx/leaders/ACW/ako_tamaki_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_anastasia_general"
+                texturefile = "gfx/leaders/ACW/anastasia_general_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_anastasia_i_empress"
+                texturefile = "gfx/leaders/ACW/anastasia_i_empress_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_anastasia"
+                texturefile = "gfx/leaders/ACW/anastasia_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_ange_le_carre"
+                texturefile = "gfx/leaders/ACW/ange_le_carre_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_aoba_suzukaze"
+                texturefile = "gfx/leaders/ACW/aoba_suzukaze_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_asuka"
+                texturefile = "gfx/leaders/ACW/asuka_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_asuka_lider"
+                texturefile = "gfx/leaders/ACW/asuka_lider_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_asuna_yuuki"
+                texturefile = "gfx/leaders/ACW/asuna_yuuki_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/atago_azur_lane_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/aurora_suya_rhys_kaymin_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/avrora_azur_lane_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/ayame_himuro_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/beidou_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/belfast_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/blanc_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/byleth_eisner_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/camilla_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/celica_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/compa_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/cryska_barchenowa_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/djeeta_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/ellis_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/elma_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/erza_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/escha_malier_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/eula_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/fiora_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/fujimaru_ritsuka_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/haruhi_suzumiya_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = "gfx/leaders/ACW/honoka_kousaka_idea.dds"
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+        spriteType = {
+                name = "GFX_idea_acw_"
+                texturefile = ""
+	}
+}
+
+
+
+
+gfx/leaders/ACW/if_idea.dds
+gfx/leaders/ACW/isuzu_sento_idea.dds
+gfx/leaders/ACW/kallen_stadtfeld_idea.dds
+gfx/leaders/ACW/kaname_chidori_idea.dds
+gfx/leaders/ACW/kasumi_idea.dds
+gfx/leaders/ACW/kiana_kaslana_idea.dds
+gfx/leaders/ACW/konoko_idea.dds
+gfx/leaders/ACW/kurumi_tokisaki_idea.dds
+gfx/leaders/ACW/lightning_idea.dds
+gfx/leaders/ACW/lina_inverse_idea.dds
+gfx/leaders/ACW/makoto_kikuchi_idea.dds
+gfx/leaders/ACW/mamako_oosuki_idea.dds
+gfx/leaders/ACW/maple_idea.dds
+gfx/leaders/ACW/marblehead_azur_lane_idea.dds
+gfx/leaders/ACW/mash_kyrielight_idea.dds
+gfx/leaders/ACW/merurulince_rede_arls_idea.dds
+gfx/leaders/ACW/miho_nishizumi_idea.dds
+gfx/leaders/ACW/miki_naoki_idea.dds
+gfx/leaders/ACW/misato_katsuragi_idea.dds
+gfx/leaders/ACW/naru_narusegawa_idea.dds
+gfx/leaders/ACW/neptune_idea.dds
+gfx/leaders/ACW/niko_yazawa_idea.dds
+gfx/leaders/ACW/nishizumi_miho_idea.dds
+gfx/leaders/ACW/noire_idea.dds
+gfx/leaders/ACW/ranko_kanzaki_idea.dds
+gfx/leaders/ACW/rei_ayanami_idea.dds
+gfx/leaders/ACW/reina_prowler_idea.dds
+gfx/leaders/ACW/rosaria_idea.dds
+gfx/leaders/ACW/ryuuko_matoi_idea.dds
+gfx/leaders/ACW/ryza_idea.dds
+gfx/leaders/ACW/saint_louis_azur_lane_idea.dds
+gfx/leaders/ACW/saint_martha_idea.dds
+gfx/leaders/ACW/saki_rukino_idea.dds
+gfx/leaders/ACW/sanya_v_litvyak_idea.dds
+gfx/leaders/ACW/satellizer_el_bridget_idea.dds
+gfx/leaders/ACW/selesia_upitiria_idea.dds
+gfx/leaders/ACW/sheryl_nome_idea.dds
+gfx/leaders/ACW/shiki_idea.dds
+gfx/leaders/ACW/shima_tateishi_idea.dds
+gfx/leaders/ACW/siluca_meletes_idea.dds
+gfx/leaders/ACW/sinon_idea.dds
+gfx/leaders/ACW/sophie_neuenmuller_idea.dds
+gfx/leaders/ACW/sovetskaya_rossiya_idea.dds
+gfx/leaders/ACW/takao_azur_lane_idea.dds
+gfx/leaders/ACW/tomoko_kuroki_idea.dds
+gfx/leaders/ACW/tosa_azur_lane_idea.dds
+gfx/leaders/ACW/vert_idea.dds
+gfx/leaders/ACW/volemia_idea.dds
+gfx/leaders/ACW/yamato_kancol_idea.dds
+gfx/leaders/ACW/yoko_littner_idea.dds
+gfx/leaders/ACW/yoshiko_tsushima_idea.dds
+gfx/leaders/ACW/yukina_himeragi_idea.dds
+gfx/leaders/ACW/yuna_idea.dds
+gfx/leaders/ACW/yuno_gasai_idea.dds
