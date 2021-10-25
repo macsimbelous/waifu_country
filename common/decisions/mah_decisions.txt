@@ -1084,7 +1084,7 @@ mah_make_friends_with_shamiko_category = {
 			}
 		}
 		complete_effect = {
-			
+			MMS = { country_event = mah_event.2 }
 		}
 	}
 }

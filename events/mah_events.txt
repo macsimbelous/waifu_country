@@ -83,8 +83,8 @@ country_event = {
 }
 country_event = {
 	id = mah_event.2
-	title = mah_event.13.t
-	desc = mah_event.13.d
+	title = mah_event.2.t
+	desc = mah_event.2.d
 	picture = GFX_acw_event_13
 	is_triggered_only = yes
 	option = {
@@ -99,7 +99,7 @@ country_event = {
 			leave_faction = yes
 		}
 		FROM = {
-			create_faction = Yoshida_and_Shamiko
+			create_faction = Momo_and_Yuuko
 			add_to_faction = ROOT
 		}
 	}
@@ -107,6 +107,6 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		name = mah_event.13.e
+		name = mah_event.2.e
 	}
 }
