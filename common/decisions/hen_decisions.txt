@@ -232,6 +232,13 @@ hen_tentakles_decisions = {
 				}
 			}
 		}
+		available = {
+			all_other_country = {
+				NOT = {
+					has_idea = wfc_tantacle_attack
+				}
+			}
+		}
 		ai_will_do = {
 			base = 0
 			modifier = {

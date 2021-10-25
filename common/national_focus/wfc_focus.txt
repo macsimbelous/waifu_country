@@ -1951,7 +1951,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		x = 19
 		y = 0
-		cost = 10
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1982,7 +1982,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = wfc_political_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2016,7 +2016,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = wfc_collectivist_ethos
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2050,7 +2050,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = wfc_collectivist_ethos
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2084,7 +2084,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = wfc_political_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2162,7 +2162,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = wfc_liberty_ethos
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2201,7 +2201,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = wfc_liberty_ethos
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
