@@ -204,7 +204,9 @@ hen_japan_conquest = {
 			factor = 15
 		}
 		complete_effect = {
-			transfer_state = 537
+			SOV = {
+				transfer_state = 537
+			}
 			537 = {
 				add_core_of = SOV
 				remove_core_of = JAP
