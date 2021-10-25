@@ -1,0 +1,154 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_idea_mms_arnice"
+                texturefile = "gfx/leaders/MMS/arnice_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_astaroth"
+                texturefile = "gfx/leaders/MMS/astaroth_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_belldandy"
+                texturefile = "gfx/leaders/MMS/belldandy_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_corrin"
+                texturefile = "gfx/leaders/MMS/corrin_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_desco"
+                texturefile = "gfx/leaders/MMS/desco_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_dullahan"
+                texturefile = "gfx/leaders/MMS/dullahan_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_fino_bloodstone"
+                texturefile = "gfx/leaders/MMS/fino_bloodstone_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_heine"
+                texturefile = "gfx/leaders/MMS/heine_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_holo"
+                texturefile = "gfx/leaders/MMS/holo_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_ishtar"
+                texturefile = "gfx/leaders/MMS/ishtar_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_kurari_rose"
+                texturefile = "gfx/leaders/MMS/kurari_rose_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_laharl_girl"
+                texturefile = "gfx/leaders/MMS/laharl_girl_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_lilith"
+                texturefile = "gfx/leaders/MMS/lilith_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_lucy"
+                texturefile = "gfx/leaders/MMS/lucy_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_makina_hoshimura"
+                texturefile = "gfx/leaders/MMS/makina_hoshimura_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_maou"
+                texturefile = "gfx/leaders/MMS/maou_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_marie_von_eisenberg"
+                texturefile = "gfx/leaders/MMS/marie_von_eisenberg_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_milla_maxwell"
+                texturefile = "gfx/leaders/MMS/milla_maxwell_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_mio_naruse"
+                texturefile = "gfx/leaders/MMS/mio_naruse_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_morrah"
+                texturefile = "gfx/leaders/MMS/morrah_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_purifier"
+                texturefile = "gfx/leaders/MMS/purifier_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_rhea"
+                texturefile = "gfx/leaders/MMS/rhea_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_rias_gremory"
+                texturefile = "gfx/leaders/MMS/rias_gremory_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_ripine"
+                texturefile = "gfx/leaders/MMS/ripine_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_rose"
+                texturefile = "gfx/leaders/MMS/rose_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_sakura_minamoto"
+                texturefile = "gfx/leaders/MMS/sakura_minamoto_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_satanichia_mcdowell_kurumizawa"
+                texturefile = "gfx/leaders/MMS/satanichia_mcdowell_kurumizawa_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_saya_kisaragi"
+                texturefile = "gfx/leaders/MMS/saya_kisaragi_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_saya_otonashi"
+                texturefile = "gfx/leaders/MMS/saya_otonashi_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_shamiko"
+                texturefile = "gfx/leaders/MMS/shamiko_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_shigure"
+                texturefile = "gfx/leaders/MMS/shigure_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_shiraori"
+                texturefile = "gfx/leaders/MMS/shiraori_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_tester"
+                texturefile = "gfx/leaders/MMS/tester_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_tiamat"
+                texturefile = "gfx/leaders/MMS/tiamat_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_velvet_crowe"
+                texturefile = "gfx/leaders/MMS/velvet_crowe_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_vignette_april_tsukinose"
+                texturefile = "gfx/leaders/MMS/vignette_april_tsukinose_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_yamato_wg"
+                texturefile = "gfx/leaders/MMS/yamato_wg_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_zero_two"
+                texturefile = "gfx/leaders/MMS/zero_two_idea.dds"
+        }
+}

@@ -1,0 +1,174 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_idea_meh_2b"
+                texturefile = "gfx/leaders/MEH/2b_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_a2"
+                texturefile = "gfx/leaders/MEH/a2_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_aegis"
+                texturefile = "gfx/leaders/MEH/aegis_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_aino"
+                texturefile = "gfx/leaders/MEH/aino_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_alexandra_frolova"
+                texturefile = "gfx/leaders/MEH/alexandra_frolova_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_alisa_boskonovich"
+                texturefile = "gfx/leaders/MEH/alisa_boskonovich_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_ashigara_arp"
+                texturefile = "gfx/leaders/MEH/ashigara_arp_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_atago_arp"
+                texturefile = "gfx/leaders/MEH/atago_arp_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_automaton"
+                texturefile = "gfx/leaders/MEH/automaton_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_caseal"
+                texturefile = "gfx/leaders/MEH/caseal_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_chii"
+                texturefile = "gfx/leaders/MEH/chii_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_cibo"
+                texturefile = "gfx/leaders/MEH/cibo_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_clarion"
+                texturefile = "gfx/leaders/MEH/clarion_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_edi"
+                texturefile = "gfx/leaders/MEH/edi_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_elizabeth"
+                texturefile = "gfx/leaders/MEH/elizabeth_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_fiora_mechon"
+                texturefile = "gfx/leaders/MEH/fiora_mechon_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_hana"
+                texturefile = "gfx/leaders/MEH/hana_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_haruna"
+                texturefile = "gfx/leaders/MEH/haruna_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_hatsune_miku"
+                texturefile = "gfx/leaders/MEH/hatsune_miku_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_hiei_arp"
+                texturefile = "gfx/leaders/MEH/hiei_arp_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_histoire"
+                texturefile = "gfx/leaders/MEH/histoire_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_i-410"
+                texturefile = "gfx/leaders/MEH/i-410_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_iris_heart"
+                texturefile = "gfx/leaders/MEH/iris_heart_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_kaori_weber"
+                texturefile = "gfx/leaders/MEH/kaori_weber_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_kirishima"
+                texturefile = "gfx/leaders/MEH/kirishima_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_kongou_arp"
+                texturefile = "gfx/leaders/MEH/kongou_arp_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_kos-mos"
+                texturefile = "gfx/leaders/MEH/kos-mos_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_maki_ivanova"
+                texturefile = "gfx/leaders/MEH/maki_ivanova_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_mei-fang"
+                texturefile = "gfx/leaders/MEH/mei-fang_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_mhmd-02_haruko"
+                texturefile = "gfx/leaders/MEH/mhmd-02_haruko_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_mythra"
+                texturefile = "gfx/leaders/MEH/mythra_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_phantom_queen_ex-xecty"
+                texturefile = "gfx/leaders/MEH/phantom_queen_ex-xecty_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_pneuma"
+                texturefile = "gfx/leaders/MEH/pneuma_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_pyra"
+                texturefile = "gfx/leaders/MEH/pyra_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_risa"
+                texturefile = "gfx/leaders/MEH/risa_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_rose"
+                texturefile = "gfx/leaders/MEH/rose_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_rozen_s_series"
+                texturefile = "gfx/leaders/MEH/rozen_s_series_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_svetlana_sakura"
+                texturefile = "gfx/leaders/MEH/svetlana_sakura_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_takao_arp"
+                texturefile = "gfx/leaders/MEH/takao_arp_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_t-elos"
+                texturefile = "gfx/leaders/MEH/t-elos_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_vanessa_diodati"
+                texturefile = "gfx/leaders/MEH/vanessa_diodati_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_vivy"
+                texturefile = "gfx/leaders/MEH/vivy_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_yurizaki_mira"
+                texturefile = "gfx/leaders/MEH/yurizaki_mira_idea.dds"
+        }
+}

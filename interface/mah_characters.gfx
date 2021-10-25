@@ -1,0 +1,28 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_idea_mah_arika_yumemiya"
+                texturefile = "gfx/leaders/MAH/arika_yumemiya_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_hitomi_tsukishiro"
+                texturefile = "gfx/leaders/MAH/hitomi_tsukishiro_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_illyasviel_von_einzbern"
+                texturefile = "gfx/leaders/MAH/illyasviel_von_einzbern_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_madoka_kaname"
+                texturefile = "gfx/leaders/MAH/madoka_kaname_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_momo_chiyoda"
+                texturefile = "gfx/leaders/MAH/momo_chiyoda_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_nanoha_takamachi"
+                texturefile = "gfx/leaders/MAH/nanoha_takamachi_idea.dds"
+        }
+}
+
+
