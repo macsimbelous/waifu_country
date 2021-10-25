@@ -39,5 +39,42 @@ ideas = {
 		# 	removal_cost = -1
 		# }
 	}
-
+	political_advisor = {
+		mah_hitomi_tsukishiro = {
+			allowed = {
+				original_tag = MAH
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				#head_of_intelligence
+				wfc_intelligence_princess
+			}
+			# modifier = {
+			# 	operative_slot = 1
+			# }
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = neutrality
+					add = 5
+				}
+			}
+		}
+	}
+	theorist = {
+		mah_madoka_kaname = {
+			ledger = army
+			allowed = {
+				original_tag = MAH
+			}
+			research_bonus = {
+				land_doctrine = 0.2
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+	}
 }
