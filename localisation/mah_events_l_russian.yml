@@ -5,5 +5,9 @@ mah_event.1.t:0 "Выкуп ближневосточных колоний!"
 mah_event.1.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас:\n§Y[656.GetName]§!\n§Y[765.GetName]§!\n§Y[658.GetName]§!\n§Y[659.GetName]§!\n§Y[EGY.GetName]§!"
 mah_event.1.a:0 "§RСогласится§!"
 mah_event.1.b:0 "§RОтказать§!"
-
+#mah_event.2
+mah_event.2.t:0 "Предложение дружбы!"
+mah_event.2.d:0 "Государство [FROM.GetName] предлагает нам забыть былую вражду и подружится."
+mah_event.2.c:0 "Будем дружить."
+mah_event.2.e:0 "Никакой дружбы с §Y[FROM.GetName]§!."
 

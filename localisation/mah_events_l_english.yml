@@ -4,5 +4,10 @@ mah_event.1.t:0 "Redemption of Middle Eastern colonies!"
 mah_event.1.d:0 "The state of §Y[MAH.GetName]§! wants to buy from us:\n§Y[656.GetName]§!\n§Y[765.GetName]§!\n§Y[658.GetName]§!\n§Y[659.GetName]§!\n§Y[EGY.GetName]§!"
 mah_event.1.a:0 "§RAgree§!"
 mah_event.1.b:0 "§RDeny§!"
+#mah_event.2
+mah_event.2.t:0 "Friendship offer!"
+mah_event.2.d:0 "The state [FROM.GetName] invites us to forget the former enmity and make friends."
+mah_event.2.c:0 "Let's be friends."
+mah_event.2.e:0 "No friendship with §Y[FROM.GetName]§!!"
 
 

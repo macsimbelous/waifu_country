@@ -23,6 +23,14 @@ spriteTypes = {
                 name = "GFX_idea_mah_nanoha_takamachi"
                 texturefile = "gfx/leaders/MAH/nanoha_takamachi_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mah_asuka_ootorii"
+                texturefile = "gfx/leaders/MAH/asuka_ootorii_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_usagi_tsukino"
+                texturefile = "gfx/leaders/MAH/usagi_tsukino_idea.dds"
+        }
 }
 
 

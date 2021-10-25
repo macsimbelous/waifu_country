@@ -501,6 +501,9 @@ ideas = {
 					#original_tag = TRP
 				}
 			}
+			ai_will_do = {
+				factor = 5
+			}
 			traits = {
 				wfc_girl_scientist
 			}
@@ -548,7 +551,7 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = HEN
-					original_tag = MAH
+					#original_tag = MAH
 					#original_tag = MEH
 					#original_tag = MMS
 					#original_tag = TRP

@@ -77,4 +77,31 @@ ideas = {
 			}
 		}
 	}
+	army_chief = {
+		mah_illyasviel_von_einzbern = {
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+	high_command = {
+		mah_arika_yumemiya = {
+			ledger = army
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				army_infantry_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
 }

@@ -100,9 +100,9 @@ set_popularities = {
 	fascism = 25	##Фашизм
 }
 create_country_leader = {
-	name = "Shamiko"
-	desc = "POLITICS_Shamiko_DESC"
-	picture = "Shamiko.dds"
+	name = "Yuuko Yoshida"
+	desc = "POLITICS_yuuko_yoshida_DESC"
+	picture = "yuuko_yoshida.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

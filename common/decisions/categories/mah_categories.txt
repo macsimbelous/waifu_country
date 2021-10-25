@@ -11,3 +11,17 @@ mah_crystal_empire_category = {
 		}
 	}
 }
+mah_make_friends_with_shamiko_category = {
+	priority = 19
+	#icon = decision_category_generic_propaganda
+	#picture = GFX_decision_cat_generic_arabia
+	allowed = {
+		original_tag = MAH
+	}
+	visible = {
+		has_country_leader = {
+			ruling_only = yes
+			name = "Momo Chiyoda"
+		}
+	}
+}

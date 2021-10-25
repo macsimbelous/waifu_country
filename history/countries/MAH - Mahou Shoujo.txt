@@ -1,7 +1,9 @@
 ﻿capital = 554
-
+set_research_slots = 4
+set_convoys = 150
 oob = "MAH_1936"
 set_naval_oob = "MAH_1936_Naval"
+
 #research and industry stuff
 set_rule = {
 	#can_use_kamikaze_pilots = yes
@@ -28,18 +30,12 @@ set_technology = {
 	fuel_silos = 1
 	synth_oil_experiments = 1
 }
-
-set_research_slots = 4
-
-set_convoys = 150
-
 set_popularities = {
 	democratic = 25
 	neutrality = 25
 	fascism = 25
 	communism = 25
 }
-	
 set_politics = {
 	
 	ruling_party = neutrality
@@ -47,9 +43,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
 #ideas
-
 add_ideas = {
 	free_trade
 	volunteer_only
@@ -58,11 +52,24 @@ add_ideas = {
 }
 
 #leaders
-
 create_country_leader = {
-	name = "Arika Yumemiya"
-	desc = "POLITICS_Arika_Yumemiya_DESC"
-	picture = "Arika_Yumemiya.dds"
+	name = "Asuka Ootorii"
+	desc = "POLITICS_asuka_ootorii_DESC"
+	picture = "asuka_ootorii.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		wfc_anime_tyan
+		wfc_tyan_militarist
+		wfc_patron_of_the_military_industrial_complex
+		wfc_dictator
+		great_war_hero
+	}
+}
+create_country_leader = {
+	name = "Nanoha Takamachi"
+	desc = "POLITICS_Nanoha_Takamachi_DESC"
+	picture = "Nanoha_Takamachi.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -73,9 +80,22 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Nanoha Takamachi"
-	desc = "POLITICS_Nanoha_Takamachi_DESC"
-	picture = "Nanoha_Takamachi.dds"
+	name = "Usagi Tsukino"
+	desc = "POLITICS_usagi_tsukino_DESC"
+	picture = "usagi_tsukino.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		wfc_anime_tyan
+		wfc_peoples_favorite
+		wfc_patron_of_science
+		freedom_fighter
+	}
+}
+create_country_leader = {
+	name = "Momo Chiyoda"
+	desc = "POLITICS_momo_chiyoda_DESC"
+	picture = "Momo_Chiyoda.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -83,32 +103,7 @@ create_country_leader = {
 		wfc_defender
 		wfc_patron_of_intelligence
 		wfc_empress
-	}
-}
-create_country_leader = {
-	name = "Illyasviel von Einzbern"
-	desc = "POLITICS_Illyasviel_von_Einzbern_DESC"
-	picture = "Illyasviel_von_Einzbern.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		wfc_anime_tyan
-		wfc_peoples_favorite
-		wfc_patron_of_science
-		political_dancer
-	}
-}
-create_country_leader = {
-	name = "Momo Chiyoda"
-	desc = "POLITICS_Momo_Chiyoda_DESC"
-	picture = "Momo_Chiyoda.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		wfc_anime_tyan
-		wfc_tyan_militarist
-		wfc_patron_of_the_military_industrial_complex
-		wfc_dictator
+		great_war_hero
 	}
 }
 
@@ -120,11 +115,31 @@ create_corps_commander = {
 	name = "Madoka_Kaname"
 	picture = "Madoka_Kaname.dds"
 	traits = {  }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Arika Yumemiya"
+	picture = "arika_yumemiya.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Illyasviel von Einzbern"
+	picture = "illyasviel_von_einzbern.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 #agents
 create_operative_leader = {
