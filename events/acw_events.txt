@@ -23,7 +23,16 @@ country_event = {
 	option = {
 		name = acw_event.13.c
 		ai_chance = {
-			factor = 75
+			base = 75
+			modifier = {
+				is_faction_leader = yes
+				add = -200
+			}
+			modifier = {
+				original_tag = MMS
+				is_in_faction_with = MAH
+				add = -200
+			}
 		}
 		IF = {
 			LIMIT = {
@@ -37,7 +46,16 @@ country_event = {
 	}
 	option = {
 		ai_chance = {
-			factor = 0
+			base = 0
+			modifier = {
+				is_faction_leader = yes
+				add = 200
+			}
+			modifier = {
+				original_tag = MMS
+				is_in_faction_with = MAH
+				add = 200
+			}
 		}
 		name = acw_event.13.e
 	}
