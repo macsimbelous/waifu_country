@@ -1,14 +1,14 @@
 characters = {
 #Country Leader
-	SOV_iosif_stalin = {
-		name = SOV_iosif_stalin
+	HEN_iosif_stalin = {
+		name = HEN_iosif_stalin
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
 			}
 			army = {
 				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-				small = "gfx/interface/ideas/idea_SOV_joseph_stalin.dds"
+				small = "gfx/interface/ideas/idea_HEN_joseph_stalin.dds"
 			}
 		}
 		country_leader = {
@@ -19,22 +19,22 @@ characters = {
 		}
 	}
 
-	SOV_supreme_soviet = { #Country Leader role added via focus
-		name = SOV_supreme_soviet
+	HEN_supreme_soviet = { #Country Leader role added via focus
+		name = HEN_supreme_soviet
 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds"
+				large = "gfx/leaders/SOV/portrait_HEN_supreme_soviet.dds"
 			}
 		}
 	}
 
-	SOV_provisional_government = {
-		name = SOV_provisional_government
+	HEN_provisional_government = {
+		name = HEN_provisional_government
 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/portrait_SOV_white_transitionary_council.dds"
+				large = "gfx/leaders/SOV/portrait_HEN_white_transitionary_council.dds"
 			}
 		}
 		country_leader = {
@@ -50,8 +50,8 @@ characters = {
 
 #Army                                                                                            
 
-	SOV_georgy_zhukov = {
-		name = SOV_georgy_zhukov
+	HEN_georgy_zhukov = {
+		name = HEN_georgy_zhukov
 
 		portraits = {
 			army = {
@@ -68,7 +68,7 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 5
 			legacy_id = 410
-			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
+			visible = { NOT = { has_character_flag = HEN_exiled_flag } }
 		}
 
 		advisor = {
@@ -80,12 +80,12 @@ characters = {
 				original_tag = SOV
 			}
 			available = {
-				has_completed_focus = SOV_positive_heroism
+				has_completed_focus = HEN_positive_heroism
 				if = {
 					limit = {
-						has_character_flag = SOV_exiled_flag
+						has_character_flag = HEN_exiled_flag
 					}
-					NOT = { has_character_flag = SOV_exiled_flag }
+					NOT = { has_character_flag = HEN_exiled_flag }
 				}
 			}
 			traits = {
@@ -94,8 +94,8 @@ characters = {
 		}		
 	}
 
-	SOV_kliment_voroshilov = {
-		name = SOV_kliment_voroshilov
+	HEN_kliment_voroshilov = {
+		name = HEN_kliment_voroshilov
 
 		portraits = {
 			army = {
@@ -121,9 +121,9 @@ characters = {
 				}
 				if = {
 					limit = {
-						has_character_flag = SOV_exiled_flag
+						has_character_flag = HEN_exiled_flag
 					}
-					NOT = { has_character_flag = SOV_exiled_flag }
+					NOT = { has_character_flag = HEN_exiled_flag }
 				}
 			}
 			traits = {
@@ -143,7 +143,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 405
-			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
+			visible = { NOT = { has_character_flag = HEN_exiled_flag } }
 		}
 	}
 
@@ -152,8 +152,8 @@ characters = {
 #### NAVY LEADRES ####
 ######################
 
-	SOV_sergey_gorshkov = {
-		name = SOV_sergey_gorshkov
+	HEN_sergey_gorshkov = {
+		name = HEN_sergey_gorshkov
 		portraits = {
 			navy = {
 				small = "GFX_idea_sergey_gorshkov"
@@ -173,9 +173,9 @@ characters = {
 			available = {
 				if = {
 					limit = {
-						has_character_flag = SOV_exiled_flag
+						has_character_flag = HEN_exiled_flag
 					}
-					NOT = { has_character_flag = SOV_exiled_flag }
+					NOT = { has_character_flag = HEN_exiled_flag }
 				}
 			}
 			traits = { naval_theorist }
@@ -189,14 +189,14 @@ characters = {
 			maneuvering_skill = 3
 			coordination_skill = 2
 			legacy_id = 411
-			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
+			visible = { NOT = { has_character_flag = HEN_exiled_flag } }
 		}
 	}
 
 #political advisors
 
-	SOV_mikhail_kalinin = {
-		name = SOV_mikhail_kalinin
+	HEN_mikhail_kalinin = {
+		name = HEN_mikhail_kalinin
 		portraits = {
 			army = {
 				small = "GFX_idea_mikhail_kalinin"
@@ -204,9 +204,9 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				SOV_advisor_is_aligned_left = yes 
-				SOV_advisor_is_aligned_right = yes 
-				SOV_advisor_is_aligned_centre = yes 
+				HEN_advisor_is_aligned_left = yes 
+				HEN_advisor_is_aligned_right = yes 
+				HEN_advisor_is_aligned_centre = yes 
 			}
 			has_government = communism
 		}
@@ -220,15 +220,15 @@ characters = {
 			
 			visible = {
 				NOT = {
-					has_character_flag = SOV_character_purged_flag 
+					has_character_flag = HEN_character_purged_flag 
 				}
 			}
 			available = {
 				if = {
 					limit = {
-						has_character_flag = SOV_exiled_flag
+						has_character_flag = HEN_exiled_flag
 					}
-					NOT = { has_character_flag = SOV_exiled_flag }
+					NOT = { has_character_flag = HEN_exiled_flag }
 				}
 			}
 			traits = {

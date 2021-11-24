@@ -22,6 +22,18 @@ characters = {
 			expire = "1953.3.1.1"
 			id = -1
 		}
+		field_marshal = {
+			traits = {
+				expert_delegator
+				war_hero
+				fast_planner
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+		}
 	}
 	ACW_Asuka = {
 		name = ACW_Asuka
@@ -30,8 +42,8 @@ characters = {
 				large = "gfx/leaders/ACW/Asuka_lider.dds"
 			}
 			army = {
-				large = "gfx/leaders/ACW/Asuka_lider.dds"
-				small = "gfx/leaders/ACW/asuka_lider_idea.dds"
+				large = "gfx/leaders/ACW/Asuka.dds"
+				small = "gfx/leaders/ACW/asuka_idea.dds"
 			}
 		}
 		country_leader = {
@@ -84,11 +96,11 @@ characters = {
 		name = ACW_Anastasia
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ACW/erza_idea.dds"
+				large = "gfx/leaders/ACW/Anastasia.dds"
 			}
 			army = {
-				large = "gfx/leaders/ACW/Anastasia.dds"
-				small = "gfx/leaders/ACW/anastasia_idea.dds"
+				large = "gfx/leaders/ACW/Anastasia_general.dds"
+				small = "gfx/leaders/ACW/anastasia_general_idea.dds"
 			}
 		}
 		country_leader = {
@@ -102,154 +114,1343 @@ characters = {
 			expire = "1953.3.1.1"
 			id = -1
 		}
+		field_marshal = {
+			traits = {
+				logistics_wizard
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 5
+		}
 	}
 	#Army
 	#Marshal
-	ACW_kliment_voroshilov = {
-		name = ACW_kliment_voroshilov
+	ACW_Lightning = {
+		name = ACW_Lightning
 		portraits = {
 			army = {
-				small = "GFX_idea_kliment_voroshilov"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Kliment_Voroshilov.dds"
+				small = "gfx/leaders/ACW/lightning_idea.dds"
+				large = "gfx/leaders/ACW/Lightning.dds"
 			}
 		}
 		advisor = {
-			slot = army_chief
-			idea_token = kliment_voroshilov
+			slot = theorist
+			ledger = army
+			idea_token = ACW_Lightning
 			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				hidden_trigger = {
-					NOT = {
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 405
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_character_flag = ACW_exiled_flag
-					}
-					NOT = {
-						has_character_flag = ACW_exiled_flag
-					}
-				}
+				original_tag = ACW
 			}
 			traits = {
-				army_chief_drill_1
+				blitzkrieg_theorist
 			}
-			cost = 50
-			ai_will_do = {
-				factor = 1
+			research_bonus = {
+				cat_mobile_warfare = 0.2
 			}
 		}
 		field_marshal = {
 			traits = {
-				old_guard
-				inflexible_strategist
-				politically_connected
+				commando
+				offensive_doctrine
+				war_hero
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	ACW_Mamako_Oosuki = {
+		name = ACW_Mamako_Oosuki
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/mamako_oosuki_idea.dds"
+				large = "gfx/leaders/ACW/Mamako_Oosuki.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				infantry_expert
+				offensive_doctrine
+				logistics_skill
+				logistics_wizard
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	#General                                                                                          
+	ACW_Saint_Martha = {
+		name = ACW_Saint_Martha
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/saint_martha_idea.dds"
+				large = "gfx/leaders/ACW/Saint_Martha.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Nishizumi_Miho = {
+		name = ACW_Nishizumi_Miho
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/nishizumi_miho_idea.dds"
+				large = "gfx/leaders/ACW/Nishizumi_Miho.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ACW_Asuna_Yuuki = {
+		name = ACW_Asuna_Yuuki
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/asuna_yuuki_idea.dds"
+				large = "gfx/leaders/ACW/Asuna_Yuuki.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Asuna_Yuuki
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_infantry_3
+			}
+		}
+	}
+	ACW_Mash_Kyrielight = {
+		name = ACW_Mash_Kyrielight
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/mash_kyrielight_idea.dds"
+				large = "gfx/leaders/ACW/Mash_Kyrielight.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				defensive_doctrine
+				unyielding_defender
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 6
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ACW_Mash_Kyrielight
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+		}
+	}
+	ACW_Maple = {
+		name = ACW_Maple
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/maple_idea.dds"
+				large = "gfx/leaders/ACW/Maple.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				skilled_staffer
+				unyielding_defender
+				defense_skill
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+	ACW_Yoko_Littner = {
+		name = ACW_Yoko_Littner
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/yoko_littner_idea.dds"
+				large = "gfx/leaders/ACW/Yoko_Littner.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				fast_planner
+				panzer_leader
+				panzer_expert
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+	ACW_Kallen_Stadtfeld = {
+		name = ACW_Kallen_Stadtfeld
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/kallen_stadtfeld_idea.dds"
+				large = "gfx/leaders/ACW/Kallen_Stadtfeld.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Saki_Rukino = {
+		name = ACW_Saki_Rukino
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/saki_rukino_idea.dds"
+				large = "gfx/leaders/ACW/Saki_Rukino.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Kurumi_Tokisaki = {
+		name = ACW_Kurumi_Tokisaki
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/kurumi_tokisaki_idea.dds"
+				large = "gfx/leaders/ACW/Kurumi_Tokisaki.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Kurumi_Tokisaki
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_artillery_3
+			}
+		}
+	}
+	ACW_Sanya_V_Litvyak = {
+		name = ACW_Sanya_V_Litvyak
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/sanya_v_litvyak_idea.dds"
+				large = "gfx/leaders/ACW/Sanya_V_Litvyak.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = ACW_Sanya_V_Litvyak
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				air_chief_night_operations_3
+			}
+		}
+	}
+	ACW_Isuzu_Sento = {
+		name = ACW_Isuzu_Sento
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/isuzu_sento_idea.dds"
+				large = "gfx/leaders/ACW/Isuzu_Sento.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ACW_Isuzu_Sento
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_chief_drill_3
+			}
+		}
+	}
+	ACW_Volemia = {
+		name = ACW_Volemia
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/volemia_idea.dds"
+				large = "gfx/leaders/ACW/Volemia.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+			}
+			skill = 1
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	ACW_Camilla = {
+		name = ACW_Camilla
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/camilla_idea.dds"
+				large = "gfx/leaders/ACW/Camilla.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				skilled_staffer
+				cavalry_leader
+				cavalry_expert
+			}
+			skill = 1
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Camilla
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	ACW_Sinon = {
+		name = ACW_Sinon
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/sinon_idea.dds"
+				large = "gfx/leaders/ACW/Sinon.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				skilled_staffer
+				trait_mountaineer
+				adaptable
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Kaname_Chidori = {
+		name = ACW_Kaname_Chidori
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/kaname_chidori_idea.dds"
+				large = "gfx/leaders/ACW/Kaname_Chidori.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+				infantry_leader
 			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			legacy_id = 405
-			visible = {
-				NOT = {
-					has_character_flag = ACW_exiled_flag
-				}
-			}
 		}
-	}                                                                                            
-	ACW_georgy_zhukov = {
-		name = ACW_georgy_zhukov
+	}
+	ACW_Yoshiko_Tsushima = {
+		name = ACW_Yoshiko_Tsushima
 		portraits = {
 			army = {
-				small = "GFX_idea_georgy_zhukov"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Gregory_Zhukov.dds"
+				small = "gfx/leaders/ACW/yoshiko_tsushima_idea.dds"
+				large = "gfx/leaders/ACW/Yoshiko_Tsushima.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				media_personality
-				armor_officer
-				war_hero
-				winter_specialist
 			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 5
-			legacy_id = 410
-			visible = {
-				NOT = {
-					has_character_flag = ACW_exiled_flag
-				}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Ranko_Kanzaki = {
+		name = ACW_Ranko_Kanzaki
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/ranko_kanzaki_idea.dds"
+				large = "gfx/leaders/ACW/Ranko_Kanzaki.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ACW_Elma = {
+		name = ACW_Elma
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/elma_idea.dds"
+				large = "gfx/leaders/ACW/Elma.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Elma
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_armored_3
+			}
+		}
+	}
+	ACW_Ako_Tamaki = {
+		name = ACW_Ako_Tamaki
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/ako_tamaki_idea.dds"
+				large = "gfx/leaders/ACW/Ako_Tamaki.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Celica = {
+		name = ACW_Celica
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/celica_idea.dds"
+				large = "gfx/leaders/ACW/Celica.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Cryska_Barchenowa = {
+		name = ACW_Cryska_Barchenowa
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/cryska_barchenowa_idea.dds"
+				large = "gfx/leaders/ACW/Cryska_Barchenowa.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Fiora = {
+		name = ACW_Fiora
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/fiora_idea.dds"
+				large = "gfx/leaders/ACW/Fiora.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Haruhi_Suzumiya = {
+		name = ACW_Haruhi_Suzumiya
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/haruhi_suzumiya_idea.dds"
+				large = "gfx/leaders/ACW/Haruhi_Suzumiya.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Kiana_Kaslana = {
+		name = ACW_Kiana_Kaslana
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/kiana_kaslana_idea.dds"
+				large = "gfx/leaders/ACW/Kiana_Kaslana.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Konoko = {
+		name = ACW_Konoko
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/konoko_idea.dds"
+				large = "gfx/leaders/ACW/Konoko.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Lina_Inverse = {
+		name = ACW_Lina_Inverse
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/lina_inverse_idea.dds"
+				large = "gfx/leaders/ACW/Lina_Inverse.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				bearer_of_artillery
+				aggressive_assaulter
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = ACW_Lina_Inverse
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				superior_firepower_expert
+			}
+			research_bonus = {
+				cat_superior_firepower = 0.2
+			}
+		}
+	}
+	ACW_Neptune = {
+		name = ACW_Neptune
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/neptune_idea.dds"
+				large = "gfx/leaders/ACW/Neptune.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = ACW_Neptune
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				air_chief_all_weather_3
+			}
+		}
+	}
+	ACW_Ryuuko_Matoi = {
+		name = ACW_Ryuuko_Matoi
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/ryuuko_matoi_idea.dds"
+				large = "gfx/leaders/ACW/Ryuuko_Matoi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				aggressive_assaulter
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = ACW_Ryuuko_Matoi
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				mass_assault_expert
+			}
+			research_bonus = {
+				cat_mass_assault = 0.2
+			}
+		}
+	}
+	ACW_Satellizer_el_Bridget = {
+		name = ACW_Satellizer_el_Bridget
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/satellizer_el_bridget_idea.dds"
+				large = "gfx/leaders/ACW/Satellizer_el_Bridget.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Siluca_Meletes = {
+		name = ACW_Siluca_Meletes
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/siluca_meletes_idea.dds"
+				large = "gfx/leaders/ACW/Siluca_Meletes.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = ACW_Siluca_Meletes
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+			research_bonus = {
+				cat_grand_battle_plan = 0.2
+			}
+		}
+	}
+	ACW_Yuno_Gasai = {
+		name = ACW_Yuno_Gasai
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/yuno_gasai_idea.dds"
+				large = "gfx/leaders/ACW/Yuno_Gasai.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ACW_Yuno_Gasai
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+		}
+	}
+	ACW_Byleth_Eisner = {
+		name = ACW_Byleth_Eisner
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/byleth_eisner_idea.dds"
+				large = "gfx/leaders/ACW/Byleth_Eisner.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Byleth_Eisner
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_regrouping_3
+			}
+		}
+	}
+	ACW_Eula = {
+		name = ACW_Eula
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/eula_idea.dds"
+				large = "gfx/leaders/ACW/Eula.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_5pb = {
+		name = ACW_5pb
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/5pb_idea.dds"
+				large = "gfx/leaders/ACW/5pb.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_5pb
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_cavalry_3
+			}
+		}
+	}
+	ACW_Blanc = {
+		name = ACW_Blanc
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/blanc_idea.dds"
+				large = "gfx/leaders/ACW/Blanc.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			ledger = air
+			idea_token = ACW_Blanc
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				air_tactical_bombing_3
+			}
+		}
+	}
+	ACW_Compa = {
+		name = ACW_Compa
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/compa_idea.dds"
+				large = "gfx/leaders/ACW/Compa.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Compa
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_logistics_3
+			}
+		}
+	}
+	ACW_Djeeta = {
+		name = ACW_Djeeta
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/djeeta_idea.dds"
+				large = "gfx/leaders/ACW/Djeeta.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Ellis = {
+		name = ACW_Ellis
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/ellis_idea.dds"
+				large = "gfx/leaders/ACW/Ellis.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Escha_Malier = {
+		name = ACW_Escha_Malier
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/escha_malier_idea.dds"
+				large = "gfx/leaders/ACW/Escha_Malier.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Fujimaru_Ritsuka = {
+		name = ACW_Fujimaru_Ritsuka
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/fujimaru_ritsuka_idea.dds"
+				large = "gfx/leaders/ACW/Fujimaru_Ritsuka.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Honoka_Kousaka = {
+		name = ACW_Honoka_Kousaka
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/honoka_kousaka_idea.dds"
+				large = "gfx/leaders/ACW/Honoka_Kousaka.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_IF = {
+		name = ACW_IF
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/if_idea.dds"
+				large = "gfx/leaders/ACW/IF.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Kasumi = {
+		name = ACW_Kasumi
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/kasumi_idea.dds"
+				large = "gfx/leaders/ACW/Kasumi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Merurulince_Rede_Arls = {
+		name = ACW_Merurulince_Rede_Arls
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/merurulince_rede_arls_idea.dds"
+				large = "gfx/leaders/ACW/Merurulince_Rede_Arls.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Miho_Nishizumi = {
+		name = ACW_Miho_Nishizumi
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/miho_nishizumi_idea.dds"
+				large = "gfx/leaders/ACW/Miho_Nishizumi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Misato_Katsuragi = {
+		name = ACW_Misato_Katsuragi
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/misato_katsuragi_idea.dds"
+				large = "gfx/leaders/ACW/Misato_Katsuragi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Naru_Narusegawa = {
+		name = ACW_Naru_Narusegawa
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/naru_narusegawa_idea.dds"
+				large = "gfx/leaders/ACW/Naru_Narusegawa.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Noire = {
+		name = ACW_Noire
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/noire_idea.dds"
+				large = "gfx/leaders/ACW/Noire.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = ACW_Noire
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+		}
+	}
+	ACW_Rei_Ayanami = {
+		name = ACW_Rei_Ayanami
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/rei_ayanami_idea.dds"
+				large = "gfx/leaders/ACW/Rei_Ayanami.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Ryza = {
+		name = ACW_Ryza
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/ryza_idea.dds"
+				large = "gfx/leaders/ACW/Ryza.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Selesia_Upitiria = {
+		name = ACW_Selesia_Upitiria
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/selesia_upitiria_idea.dds"
+				large = "gfx/leaders/ACW/Selesia_Upitiria.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = theorist
+			ledger = air
+			idea_token = ACW_Selesia_Upitiria
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				air_warfare_theorist
+			}
+			research_bonus = {
+				air_doctrine = 0.2
+			}
+		}
+	}
+	ACW_Sophie_Neuenmuller = {
+		name = ACW_Sophie_Neuenmuller
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/sophie_neuenmuller_idea.dds"
+				large = "gfx/leaders/ACW/Sophie_Neuenmuller.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Vert = {
+		name = ACW_Vert
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/vert_idea.dds"
+				large = "gfx/leaders/ACW/Vert.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			ledger = air
+			idea_token = ACW_Vert
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				air_close_air_support_3
+			}
+		}
+	}
+	ACW_Yukina_Himeragi = {
+		name = ACW_Yukina_Himeragi
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/yukina_himeragi_idea.dds"
+				large = "gfx/leaders/ACW/Yukina_Himeragi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_Yuna = {
+		name = ACW_Yuna
+		portraits = {
+			army = {
+				small = "gfx/leaders/ACW/yuna_idea.dds"
+				large = "gfx/leaders/ACW/Yuna.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	######################
+	#### NAVY LEADRES ####
+	######################
+	ACW_Yamato_Kancol = {
+		name = ACW_Yamato_Kancol
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/yamato_kancol_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Yamato_Kancol.dds"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = theorist
-			idea_token = georgy_zhukov
-			ledger = army
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				has_completed_focus = ACW_positive_heroism
-				if = {
-					limit = {
-						has_character_flag = ACW_exiled_flag
-					}
-					NOT = {
-						has_character_flag = ACW_exiled_flag
-					}
-				}
-			}
-			traits = {
-				mass_assault_expert
-			}
-		}
-	}
-
-	######################
-	#### NAVY LEADRES ####
-	######################
-	ACW_sergey_gorshkov = {
-		name = ACW_sergey_gorshkov
-		portraits = {
-			navy = {
-				small = "GFX_idea_sergey_gorshkov"
-			}
-			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Sergey_Gorshkov.dds"
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = sergey_gorshkov
+			idea_token = ACW_Yamato_Kancol
 			ledger = navy
 			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				if = {
-					limit = {
-						has_character_flag = ACW_exiled_flag
-					}
-					NOT = {
-						has_character_flag = ACW_exiled_flag
-					}
-				}
+				original_tag = ACW
 			}
 			traits = {
-				naval_theorist
+				grand_fleet_proponent
+			}
+			research_bonus = {
+				cat_fleet_in_being = 0.2
 			}
 		}
 		navy_leader = {
@@ -262,53 +1463,566 @@ characters = {
 			defense_skill = 2
 			maneuvering_skill = 3
 			coordination_skill = 2
-			legacy_id = 411
-			visible = {
-				NOT = {
-					has_character_flag = ACW_exiled_flag
-				}
+		}
+	}
+	ACW_Atago_Azur_Lane = {
+		name = ACW_Atago_Azur_Lane
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/atago_azur_lane_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Atago_Azur_Lane.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ACW_Atago_Azur_Lane
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				navy_chief_maneuver_3
+			}
+		}
+	}
+	ACW_Avrora_Azur_Lane = {
+		name = ACW_Avrora_Azur_Lane
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/avrora_azur_lane_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Avrora_Azur_Lane.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ACW_Avrora_Azur_Lane
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+		}
+	}
+	ACW_Belfast = {
+		name = ACW_Belfast
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/belfast_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Belfast.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	ACW_Marblehead = {
+		name = ACW_Marblehead
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/marblehead_azur_lane_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Marblehead_Azur_Lane.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				caustic_personality
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = ACW_Selesia_Upitiria
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				naval_theorist
+			}
+			research_bonus = {
+				cat_base_strike = 0.2
+			}
+		}
+	}
+	ACW_Saint_Louis_Azur_Lane = {
+		name = ACW_Saint_Louis_Azur_Lane
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/saint_louis_azur_lane_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Saint_Louis_Azur_Lane.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	ACW_Takao_Azur_Lane = {
+		name = ACW_Takao_Azur_Lane
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/takao_azur_lane_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Takao_Azur_Lane.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	ACW_Tosa_Azur_Lane = {
+		name = ACW_Tosa_Azur_Lane
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/tosa_azur_lane_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Tosa_Azur_Lane.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	ACW_Sovetskaya_Rossiya = {
+		name = ACW_Sovetskaya_Rossiya
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/sovetskaya_rossiya_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Sovetskaya_Rossiya.dds"
+				small = "gfx/leaders/ACW/sovetskaya_rossiya_idea.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Sovetskaya_Rossiya
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	ACW_Shima_Tateishi = {
+		name = ACW_Shima_Tateishi
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/shima_tateishi_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Shima_Tateishi.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	ACW_Akeno_Misaki = {
+		name = ACW_Akeno_Misaki
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/akeno_misaki_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Akeno_Misaki.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = ACW_Akeno_Misaki
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				naval_theorist
+			}
+			research_bonus = {
+				cat_trade_interdiction = 0.2
+			}
+		}
+	}
+	ACW_Beidou = {
+		name = ACW_Beidou
+		portraits = {
+			navy = {
+				small = "gfx/leaders/ACW/beidou_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/ACW/Beidou.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ACW_Beidou
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
 			}
 		}
 	}
 	#political advisors
-	ACW_mikhail_kalinin = {
-		name = ACW_mikhail_kalinin
+	ACW_Minami_Nitta = {
+		name = ACW_Minami_Nitta
 		portraits = {
 			army = {
-				small = "GFX_idea_mikhail_kalinin"
+				small = "GFX_idea_acw_minami_nitta"
 			}
 		}
 		allowed_civil_war = {
-			OR = {
-				ACW_advisor_is_aligned_left = yes
-				ACW_advisor_is_aligned_right = yes
-				ACW_advisor_is_aligned_centre = yes
-			}
-			has_government = communism
+			always = yes
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = mikhail_kalinin
+			idea_token = ACW_Minami_Nitta
 			allowed = {
-				original_tag = SOV
-			}
-			visible = {
-				NOT = {
-					has_character_flag = ACW_character_purged_flag
-				}
+				original_tag = ACW
 			}
 			available = {
-				if = {
-					limit = {
-						has_character_flag = ACW_exiled_flag
-					}
-					NOT = {
-						has_character_flag = ACW_exiled_flag
+				has_country_leader = {
+					name = "Anastasia"
+				}
+			}
+			traits = {
+				wfc_first_lady
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	ACW_Noelle = {
+		name = ACW_Noelle
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_noelle"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Noelle
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						name = "Anastasia"
 					}
 				}
 			}
 			traits = {
-				popular_figurehead
+				silent_workhorse
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+	ACW_Eruza_Guranhirute = {
+		name = ACW_Eruza_Guranhirute
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_eruza_guranhirute"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Eruza_Guranhirute
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.15
+			}
+		}
+	}
+	ACW_Ange_le_Carre = {
+		name = ACW_Ange_le_Carre
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_ange_le_carre"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Ange_le_Carre
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				wfc_intelligence_princess
+			}
+		}
+	}
+	ACW_Niko_Yazawa = {
+		name = ACW_Niko_Yazawa
+		portraits = {
+			army = {
+				small = "GFX_idea_ACW_Niko_Yazawa"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Niko_Yazawa
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	ACW_Mikumo_Guynemer = {
+		name = ACW_Mikumo_Guynemer
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_mikumo_guynemer"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Mikumo_Guynemer
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_propaganda_expert
+			}
+		}
+	}
+	ACW_Asuka_Tanaka = {
+		name = ACW_Asuka_Tanaka
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_asuka_tanaka"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Asuka_Tanaka
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_captain_of_industry
+			}
+		}
+	}
+	ACW_Lucy_Yamagami = {
+		name = ACW_Lucy_Yamagami
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_lucy_yamagami"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Lucy_Yamagami
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_war_industrialist
+			}
+		}
+	}
+	ACW_Aoi_Sakurai = {
+		name = ACW_Aoi_Sakurai
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_aoi_sakurai"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Aoi_Sakurai
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_infrastructure_developer
+			}
+		}
+	}
+	ACW_Megumin = {
+		name = ACW_Megumin
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_megumin"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = ACW_Megumin
+			allowed = {
+				original_tag = ACW
+			}
+			research_bonus = {
+				nuclear = 0.2
+			}
+			traits = {
+				wfc_nuclear_mazoku
+			}
+		}
+	}
+	ACW_Ayame_Himuro = {
+		name = ACW_Ayame_Himuro
+		portraits = {
+			army = {
+				small = "ayame_himuro_idea"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = ACW_Ayame_Himuro
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_girl_scientist
+			}
+			ai_will_do = {
+				factor = 2
 			}
 		}
 	}
