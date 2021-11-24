@@ -61,72 +61,12 @@ set_politics = {
 }
 
 #leaders
-create_country_leader = {
-	name = "Erza"
-	desc = "POLITICS_ERZA_DESC"
-	picture = "Erza.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		wfc_anime_tyan
-		wfc_revolutionary
-		wfc_dictator
-		wfc_patron_of_industry
-	}
-}
-create_country_leader = {
-	name = "Asuka"
-	desc = "POLITICS_ASUKA_DESC"
-	picture = "Asuka_lider.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		wfc_anime_tyan
-		wfc_tyan_militarist
-		wfc_patron_of_the_military_industrial_complex
-		wfc_tsundere
-	}
-}
-create_country_leader = {
-	name = "Aurora Suya Rhys Kaymin"
-	desc = "POLITICS_Aurora_Suya_Rhys_Kaymin_DESC"
-	picture = "Aurora_Suya_Rhys_Kaymin.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		wfc_anime_tyan
-		wfc_defender
-		wfc_patron_of_intelligence
-		wfc_empress
-	}
-}
-create_country_leader = {
-	name = "Anastasia"
-	desc = "POLITICS_ANASTASIA_DESC"
-	picture = "Anastasia.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		wfc_anime_tyan
-		wfc_peoples_favorite
-		wfc_patron_of_science
-		wfc_idol
-	}
-}
+recruit_character = ACW_Erza
+recruit_character = ACW_Asuka
+recruit_character = ACW_Aurora_Suya_Rhys_Kaymin
+recruit_character = ACW_Anastasia
 #marshal
-create_field_marshal = {
-	name = "Asuka"
-	picture = "Asuka.dds"
-	traits = {
-		panzer_leader
-		aggressive_assaulter
-	}
-	skill = 4
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
+
 
 create_field_marshal = {
 	name = "Anastasia"

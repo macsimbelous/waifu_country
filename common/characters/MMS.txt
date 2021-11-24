@@ -1,0 +1,241 @@
+characters = {
+#Country Leader
+	SOV_iosif_stalin = {
+		name = SOV_iosif_stalin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
+			}
+			army = {
+				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
+				small = "gfx/interface/ideas/idea_SOV_joseph_stalin.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = { stalin_heart_of_steel }
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	}
+
+	SOV_supreme_soviet = { #Country Leader role added via focus
+		name = SOV_supreme_soviet
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds"
+			}
+		}
+	}
+
+	SOV_provisional_government = {
+		name = SOV_provisional_government
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/portrait_SOV_white_transitionary_council.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1953.3.1.1"
+			id = -1
+			traits = {
+				emigre_connections desperate_gambit dysfunctional_assembly
+			}
+		}
+	}
+
+
+#Army                                                                                            
+
+	SOV_georgy_zhukov = {
+		name = SOV_georgy_zhukov
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = "gfx/leaders/SOV/Portrait_Soviet_Gregory_Zhukov.dds"
+			}
+		}
+
+		corps_commander = {
+			traits = { media_personality armor_officer war_hero winter_specialist }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+			legacy_id = 410
+			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
+		}
+
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = georgy_zhukov
+			ledger = army
+			allowed = {
+				original_tag = SOV
+			}
+			available = {
+				has_completed_focus = SOV_positive_heroism
+				if = {
+					limit = {
+						has_character_flag = SOV_exiled_flag
+					}
+					NOT = { has_character_flag = SOV_exiled_flag }
+				}
+			}
+			traits = {
+				mass_assault_expert
+			}
+		}		
+	}
+
+	SOV_kliment_voroshilov = {
+		name = SOV_kliment_voroshilov
+
+		portraits = {
+			army = {
+				small = "GFX_idea_kliment_voroshilov"
+				large = "gfx/leaders/SOV/Portrait_Soviet_Kliment_Voroshilov.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = kliment_voroshilov
+			allowed = {
+				original_tag = SOV
+			}
+			available = {
+				hidden_trigger = {
+					NOT = {
+						any_other_country = {
+							has_war_with = SOV
+							original_tag = SOV
+							has_unit_leader = 405.000
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_character_flag = SOV_exiled_flag
+					}
+					NOT = { has_character_flag = SOV_exiled_flag }
+				}
+			}
+			traits = {
+				army_chief_drill_1
+			}
+				cost = 50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		field_marshal = {
+			traits = { old_guard inflexible_strategist politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 405
+			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
+		}
+	}
+
+
+######################
+#### NAVY LEADRES ####
+######################
+
+	SOV_sergey_gorshkov = {
+		name = SOV_sergey_gorshkov
+		portraits = {
+			navy = {
+				small = "GFX_idea_sergey_gorshkov"
+			}
+			army = {
+				large = "gfx/leaders/SOV/Portrait_Soviet_Sergey_Gorshkov.dds"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = sergey_gorshkov
+			ledger = navy
+			allowed = {
+				original_tag = SOV
+			}
+			available = {
+				if = {
+					limit = {
+						has_character_flag = SOV_exiled_flag
+					}
+					NOT = { has_character_flag = SOV_exiled_flag }
+				}
+			}
+			traits = { naval_theorist }
+		}
+
+		navy_leader = {
+			traits = { bold navy_career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = 411
+			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
+		}
+	}
+
+#political advisors
+
+	SOV_mikhail_kalinin = {
+		name = SOV_mikhail_kalinin
+		portraits = {
+			army = {
+				small = "GFX_idea_mikhail_kalinin"
+			}
+		}
+		allowed_civil_war = {
+			OR = {
+				SOV_advisor_is_aligned_left = yes 
+				SOV_advisor_is_aligned_right = yes 
+				SOV_advisor_is_aligned_centre = yes 
+			}
+			has_government = communism
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = mikhail_kalinin
+			allowed = {
+				original_tag = SOV
+			}
+			
+			visible = {
+				NOT = {
+					has_character_flag = SOV_character_purged_flag 
+				}
+			}
+			available = {
+				if = {
+					limit = {
+						has_character_flag = SOV_exiled_flag
+					}
+					NOT = { has_character_flag = SOV_exiled_flag }
+				}
+			}
+			traits = {
+				popular_figurehead 
+			}
+		}
+	}
+	
+
+}
