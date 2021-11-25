@@ -59,16 +59,20 @@ add_ideas = {
 }
 
 #leaders
+recruit_character = TRP_astolfo
+recruit_character = TRP_hideri_kanzaki
+recruit_character = TRP_tetora
+recruit_character = TRP_ringo_tsukimiya
+#marshal
+recruit_character = TRP_felix_argyle
+#generals
 recruit_character = TRP_oboro_tsukimigusa
 recruit_character = TRP_hitoshi_sugoroku
 recruit_character = TRP_kaoru_hanase
 recruit_character = TRP_aoi_hyoudou
 recruit_character = TRP_kaguya_arikawa
 recruit_character = TRP_tama_kyan
-recruit_character = TRP_mariya_shidou
-recruit_character = TRP_felix_argyle
 recruit_character = TRP_hime_arikawa
-recruit_character = TRP_russell
 recruit_character = TRP_sylvia
 recruit_character = TRP_birdy_cephon_altera
 recruit_character = TRP_souji_mitsuka
@@ -76,20 +80,21 @@ recruit_character = TRP_ranga
 recruit_character = TRP_yukikaze
 recruit_character = TRP_mitsunaga_oda
 recruit_character = TRP_ritsu_souma
-recruit_character = TRP_hamaji_yakumo
-recruit_character = TRP_taroumaru_seike
 recruit_character = TRP_xianming_lin
 recruit_character = TRP_mizuho_miyanokouji
 recruit_character = TRP_youta_tsunashi
 recruit_character = TRP_fish_eye
-recruit_character = TRP_astolfo
-recruit_character = TRP_hideri_kanzaki
-recruit_character = TRP_tetora
-recruit_character = TRP_ringo_tsukimiya
-recruit_character = TRP_hacka_doll_no.3
-recruit_character = TRP_ranma_saotome
-#generals
+recruit_character = TRP_hacka_doll_no_3
+
 #Admirals
+recruit_character = TRP_ranma_saotome
+recruit_character = TRP_hamaji_yakumo
+recruit_character = TRP_taroumaru_seike
+recruit_character = TRP_mariya_shidou
+recruit_character = TRP_russell
+#advisor
+recruit_character = TRP_mare_bello_fiore
+recruit_character = TRP_aoi_futaba
 #agents
 create_operative_leader = {
 	name = "Saki Mizushima"

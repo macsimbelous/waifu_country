@@ -1,149 +1,111 @@
 characters = {
-	TRP_oboro_tsukimigusa = {
-		name = "Oboro Tsukimigusa"
+	#lider
+	TRP_astolfo = {
+		name = "Astolfo"
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_astolfo"
 			}
-			army = {
-				large = "gfx/leaders/TRP/Oboro_Tsukimigusa.dds"
-			}
-		}
-		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = -1
-		}
-	}
-	TRP_hitoshi_sugoroku = {
-		name = "Hitoshi Sugoroku"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Hitoshi_Sugoroku.dds"
+			civilian = {
+				large = "gfx/leaders/TRP/Astolfo.dds"
 			}
 		}
-		corps_commander = {
+		field_marshal = {
 			traits = {
-				trickster
+				cavalry_leader
+				cavalry_expert
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
-	}
-	TRP_kaoru_hanase = {
-		name = "Kaoru Hanase"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Kaoru_Hanase.dds"
-			}
-		}
-		corps_commander = {
 			skill = 1
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
 		}
-	}
-	TRP_aoi_hyoudou = {
-		name = "Aoi Hyoudou"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Aoi_Hyoudou.dds"
-			}
-		}
-		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-			legacy_id = -1
-		}
-	}
-	TRP_kaguya_arikawa = {
-		name = "Kaguya Arikawa"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Kaguya_Arikawa.dds"
-			}
-		}
-		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = -1
-		}
-	}
-	TRP_tama_kyan = {
-		name = "Tama Kyan"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Tama_Kyan.dds"
-			}
-		}
-		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = -1
-		}
-	}
-	TRP_mariya_shidou = {
-		name = "Mariya Shidou"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Mariya_Shidou.dds"
-			}
-		}
-		navy_leader = {
+		country_leader = {
+			ideology = leninism
 			traits = {
-				navy_media_personality
-				naval_invader
+				wfc_trap
+				wfc_revolutionary
+				wfc_patron_of_industry
+				wfc_dictator
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
+			expire = "1965.1.1.1"
+			id = -1
 		}
 	}
+	TRP_hideri_kanzaki = {
+		name = "Hideri Kanzaki"
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_hideri_kanzaki"
+			}
+			civilian = {
+				large = "gfx/leaders/TRP/Hideri_Kanzaki.dds"
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits = {
+				wfc_trap
+				wfc_tyan_militarist
+				wfc_patron_of_the_military_industrial_complex
+				fascist_militia_leader
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	TRP_tetora = {
+		name = "Tetora"
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_tetora"
+			}
+			civilian = {
+				large = "gfx/leaders/TRP/Tetora.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {
+				wfc_trap
+				wfc_peoples_favorite
+				wfc_patron_of_science
+				liberal_democratic_paragon
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	TRP_ringo_tsukimiya = {
+		name = "Ringo Tsukimiya"
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_ringo_tsukimiya"
+			}
+			civilian = {
+				large = "gfx/leaders/TRP/Ringo_Tsukimiya.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				wfc_trap
+				wfc_defender
+				wfc_patron_of_intelligence
+				wfc_empress
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	#marshal
 	TRP_felix_argyle = {
-		name = "Felix Argyle"
+		name = TRP_felix_argyle
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_felix_argyle"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Felix_Argyle.dds"
@@ -164,12 +126,207 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = TRP_felix_argyle
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
 	}
-	TRP_hime_arikawa = {
-		name = "Hime Arikawa"
+	#general
+	TRP_oboro_tsukimigusa = {
+		name = TRP_oboro_tsukimigusa
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_oboro_tsukimigusa"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Oboro_Tsukimigusa.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_oboro_tsukimigusa
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_war_industrialist
+			}
+		}
+	}
+	TRP_hitoshi_sugoroku = {
+		name = TRP_hitoshi_sugoroku
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_hitoshi_sugoroku"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Hitoshi_Sugoroku.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_hitoshi_sugoroku
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				princess_of_terror
+			}
+		}
+	}
+	TRP_kaoru_hanase = {
+		name = TRP_kaoru_hanase
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_kaoru_hanase"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Kaoru_Hanase.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_kaoru_hanase
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+		}
+	}
+	TRP_aoi_hyoudou = {
+		name = TRP_aoi_hyoudou
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_aoi_hyoudou"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Aoi_Hyoudou.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_aoi_hyoudou
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_popular_figurehead
+			}
+		}
+	}
+	TRP_kaguya_arikawa = {
+		name = TRP_kaguya_arikawa
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_kaguya_arikawa"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Kaguya_Arikawa.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_kaguya_arikawa
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	TRP_tama_kyan = {
+		name = TRP_tama_kyan
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_tama_kyan"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Tama_Kyan.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_tama_kyan
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	TRP_hime_arikawa = {
+		name = TRP_hime_arikawa
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_hime_arikawa"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Hime_Arikawa.dds"
@@ -183,34 +340,23 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 		}
-	}
-	TRP_russell = {
-		name = "Russell"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
+		advisor = {
+			slot = theorist
+			ledger = air
+			idea_token = TRP_hime_arikawa
+			allowed = {
+				original_tag = TRP
 			}
-			army = {
-				large = "gfx/leaders/TRP/Russell.dds"
-			}
-		}
-		navy_leader = {
 			traits = {
-				navy_career_officer
+				air_warfare_theorist
 			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 		}
 	}
 	TRP_sylvia = {
-		name = "Sylvia"
+		name = TRP_sylvia
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_sylvia"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Sylvia.dds"
@@ -224,12 +370,23 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = TRP_sylvia
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_girl_scientist
+			}
+		}
 	}
 	TRP_birdy_cephon_altera = {
-		name = "Birdy Cephon Altera"
+		name = TRP_birdy_cephon_altera
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_birdy_cephon_altera"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Birdy_Cephon_Altera.dds"
@@ -237,18 +394,28 @@ characters = {
 		}
 		corps_commander = {
 			skill = 4
-			attack_skill = 4
-			defense_skill = 5
+			attack_skill = 5
+			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
 			legacy_id = -1
 		}
+		advisor = {
+			slot = army_chief 
+			idea_token = TRP_birdy_cephon_altera
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+		}
 	}
 	TRP_souji_mitsuka = {
-		name = "Souji Mitsuka"
+		name = TRP_souji_mitsuka
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_souji_mitsuka"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Souji_Mitsuka.dds"
@@ -262,12 +429,22 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
+		advisor = {
+			slot = army_chief 
+			idea_token = TRP_souji_mitsuka
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+		}
 	}
 	TRP_ranga = {
-		name = "Ranga"
+		name = TRP_ranga
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_ranga"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Ranga.dds"
@@ -281,12 +458,22 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
+		advisor = {
+			slot = army_chief 
+			idea_token = TRP_ranga
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_chief_drill_3
+			}
+		}
 	}
 	TRP_yukikaze = {
-		name = "Yukikaze"
+		name = TRP_yukikaze
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_yukikaze"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Yukikaze.dds"
@@ -300,12 +487,22 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
+		advisor = {
+			slot = air_chief
+			idea_token = TRP_yukikaze
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+		}
 	}
 	TRP_mitsunaga_oda = {
-		name = "Mitsunaga Oda"
+		name = TRP_mitsunaga_oda
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_mitsunaga_oda"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Mitsunaga_Oda.dds"
@@ -319,12 +516,22 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
+		advisor = {
+			slot = air_chief
+			idea_token = TRP_mitsunaga_oda
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				air_chief_all_weather_3
+			}
+		}
 	}
 	TRP_ritsu_souma = {
-		name = "Ritsu Souma"
+		name = TRP_ritsu_souma
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_ritsu_souma"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Ritsu_Souma.dds"
@@ -338,56 +545,23 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-	}
-	TRP_hamaji_yakumo = {
-		name = "Hamaji Yakumo"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
+		advisor = {
+			slot = air_chief
+			idea_token = TRP_ritsu_souma
+			allowed = {
+				original_tag = TRP
 			}
-			army = {
-				large = "gfx/leaders/TRP/Hamaji_Yakumo.dds"
-			}
-		}
-		navy_leader = {
 			traits = {
-				naval_lineage
+				air_chief_reform_3
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 		}
 	}
-	TRP_taroumaru_seike = {
-		name = "Taroumaru Seike"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Taroumaru_Seike.dds"
-			}
-		}
-		navy_leader = {
-			traits = {
-				naval_liason
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
-		}
-	}
+
 	TRP_xianming_lin = {
-		name = "Xianming Lin"
+		name = TRP_xianming_lin
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_xianming_lin"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Xianming_Lin.dds"
@@ -404,12 +578,26 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = TRP_xianming_lin
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_infantry_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
 	}
 	TRP_mizuho_miyanokouji = {
-		name = "Mizuho Miyanokouji"
+		name = TRP_mizuho_miyanokouji
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_mizuho_miyanokouji"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Mizuho_Miyanokouji.dds"
@@ -423,12 +611,26 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = TRP_mizuho_miyanokouji
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_regrouping_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
 	}
 	TRP_youta_tsunashi = {
-		name = "Youta Tsunashi"
+		name = TRP_youta_tsunashi
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_youta_tsunashi"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Youta_Tsunashi.dds"
@@ -442,12 +644,23 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = TRP_youta_tsunashi
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_logistics_3
+			}
+		}
 	}
 	TRP_fish_eye = {
-		name = "Fish Eye"
+		name = TRP_fish_eye
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_fish_eye"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Fish_Eye.dds"
@@ -465,116 +678,23 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-	}
-	TRP_astolfo = {
-		name = "Astolfo"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = TRP_fish_eye
+			allowed = {
+				original_tag = TRP
 			}
-			civilian = {
-				large = "gfx/leaders/TRP/Astolfo.dds"
-			}
-		}
-		field_marshal = {
 			traits = {
-				cavalry_leader
-				cavalry_expert
+				army_cavalry_3
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = -1
-		}
-		country_leader = {
-			desc = "POLITICS_Astolfo_DESC"
-			ideology = leninism
-			traits = {
-				wfc_trap
-				wfc_revolutionary
-				wfc_patron_of_industry
-				wfc_dictator
-			}
-			expire = "1965.1.1.1"
-			id = -1
 		}
 	}
-	TRP_hideri_kanzaki = {
-		name = "Hideri Kanzaki"
+	TRP_hacka_doll_no_3 = {
+		name = TTRP_hacka_doll_no_3
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
-			}
-			civilian = {
-				large = "gfx/leaders/TRP/Hideri_Kanzaki.dds"
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_Hideri_Kanzaki_DESC"
-			ideology = nazism
-			traits = {
-				wfc_trap
-				wfc_tyan_militarist
-				wfc_patron_of_the_military_industrial_complex
-				fascist_militia_leader
-			}
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
-	TRP_tetora = {
-		name = "Tetora"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			civilian = {
-				large = "gfx/leaders/TRP/Tetora.dds"
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_Tetora_DESC"
-			ideology = liberalism
-			traits = {
-				wfc_trap
-				wfc_peoples_favorite
-				wfc_patron_of_science
-				liberal_democratic_paragon
-			}
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
-	TRP_ringo_tsukimiya = {
-		name = "Ringo Tsukimiya"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
-			}
-			civilian = {
-				large = "gfx/leaders/TRP/Ringo_Tsukimiya.dds"
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_Ringo_Tsukimiya_DESC"
-			ideology = despotism
-			traits = {
-				wfc_trap
-				wfc_defender
-				wfc_patron_of_intelligence
-				wfc_empress
-			}
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
-	TRP_hacka_doll_no.3 = {
-		name = "Hacka Doll No.3"
-		portraits = {
-			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_hacka_doll_no_3"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Hacka_Doll_3.dds"
@@ -591,12 +711,27 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = TRP_hacka_doll_no_3
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_armored_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
 	}
+	#admirals
 	TRP_ranma_saotome = {
 		name = "Ranma Saotome"
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_"
+				small = "GFX_idea_trp_ranma_saotome"
 			}
 			army = {
 				large = "gfx/leaders/TRP/Ranma_Saotome.dds"
@@ -612,6 +747,176 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 			legacy_id = -1
+		}
+	}
+	TRP_hamaji_yakumo = {
+		name = TRP_hamaji_yakumo
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_hamaji_yakumo"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Hamaji_Yakumo.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				naval_lineage
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = TRP_hamaji_yakumo
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+		}
+	}
+	TRP_taroumaru_seike = {
+		name = TRP_taroumaru_seike
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_taroumaru_seike"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Taroumaru_Seike.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				naval_liason
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = TRP_taroumaru_seike
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+		}
+	}
+	TRP_mariya_shidou = {
+		name = TRP_mariya_shidou
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_mariya_shidou"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Mariya_Shidou.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_media_personality
+				naval_invader
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_mariya_shidou
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	TRP_russell = {
+		name = TRP_russell
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_russell"
+			}
+			army = {
+				large = "gfx/leaders/TRP/Russell.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_career_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = TRP_russell
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	#advisor
+	TRP_mare_bello_fiore = {
+		name = TRP_mare_bello_fiore
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_mare_bello_fiore"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_mare_bello_fiore
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_captain_of_industry
+			}
+		}
+	}
+	TRP_aoi_futaba = {
+		name = TRP_aoi_futaba
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_aoi_futaba"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_aoi_futaba
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				wfc_intelligence_princess
+			}
 		}
 	}
 }

@@ -11,7 +11,6 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_Velvet_Crowe_DESC"
 			ideology = fascism_ideology
 			traits = {
 				wfc_anime_tyan
@@ -46,7 +45,6 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_yuuko_yoshida_DESC"
 			ideology = despotism
 			traits = {
 				wfc_anime_tyan
@@ -70,7 +68,6 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_Maou_DESC"
 			ideology = leninism
 			traits = {
 				wfc_anime_tyan
@@ -94,7 +91,6 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_Holo_DESC"
 			ideology = liberalism
 			traits = {
 				wfc_anime_tyan
