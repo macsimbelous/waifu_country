@@ -1,241 +1,548 @@
 characters = {
-#Country Leader
-	HEN_iosif_stalin = {
-		name = HEN_iosif_stalin
+	#Lider
+	HEN_Takumi_Musashino = {
+		name = HEN_Takumi_Musashino
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-			}
-			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-				small = "gfx/interface/ideas/idea_HEN_joseph_stalin.dds"
+				large = "gfx/leaders/HEN/Takumi_Musashino.dds"
 			}
 		}
 		country_leader = {
+			desc = "POLITICS_Takumi_Musashino_DESC"
 			ideology = stalinism
-			traits = { stalin_heart_of_steel }
-			expire = "1953.3.1.1"
+			traits = {
+				wfc_anime_tyan
+				wfc_revolutionary
+				wfc_patron_of_industry
+				wfc_dictator
+			}
+			expire = "1965.1.1.1"
 			id = -1
 		}
 	}
-
-	HEN_supreme_soviet = { #Country Leader role added via focus
-		name = HEN_supreme_soviet
-
+	HEN_Saori_Asamiya = {
+		name = HEN_Saori_Asamiya
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/portrait_HEN_supreme_soviet.dds"
-			}
-		}
-	}
-
-	HEN_provisional_government = {
-		name = HEN_provisional_government
-
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SOV/portrait_HEN_white_transitionary_council.dds"
+				large = "gfx/leaders/HEN/Saori_Asamiya.dds"
 			}
 		}
 		country_leader = {
-			ideology = despotism
-			expire = "1953.3.1.1"
+			desc = "POLITICS_Saori_Asamiya_DESC"
+			ideology = nazism
+			traits = {
+				wfc_anime_tyan
+				wfc_tyan_militarist
+				wfc_patron_of_the_military_industrial_complex
+				wfc_dictator
+			}
+			expire = "1965.1.1.1"
 			id = -1
-			traits = {
-				emigre_connections desperate_gambit dysfunctional_assembly
-			}
 		}
 	}
-
-
-#Army                                                                                            
-
-	HEN_georgy_zhukov = {
-		name = HEN_georgy_zhukov
-
+	HEN_Mari_Setogaya = {
+		name = HEN_Mari_Setogaya
 		portraits = {
-			army = {
-				small = "GFX_idea_georgy_zhukov"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Gregory_Zhukov.dds"
+			civilian = {
+				large = "gfx/leaders/HEN/Mari_Setogaya.dds"
 			}
 		}
-
-		corps_commander = {
-			traits = { media_personality armor_officer war_hero winter_specialist }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 5
-			legacy_id = 410
-			visible = { NOT = { has_character_flag = HEN_exiled_flag } }
-		}
-
-		advisor = {
-			cost = 150
-			slot = theorist
-			idea_token = georgy_zhukov
-			ledger = army
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				has_completed_focus = HEN_positive_heroism
-				if = {
-					limit = {
-						has_character_flag = HEN_exiled_flag
-					}
-					NOT = { has_character_flag = HEN_exiled_flag }
-				}
-			}
+		country_leader = {
+			desc = "POLITICS_Mari_Setogaya_DESC"
+			ideology = liberalism
 			traits = {
-				mass_assault_expert
+				wfc_anime_tyan
+				wfc_peoples_favorite
+				wfc_patron_of_science
+				freedom_fighter
 			}
-		}		
+			expire = "1965.1.1.1"
+			id = -1
+		}
 	}
-
-	HEN_kliment_voroshilov = {
-		name = HEN_kliment_voroshilov
-
+	HEN_Sheliss_Elleness_Zurbach = {
+		name = HEN_Sheliss_Elleness_Zurbach
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HEN/Sheliss_Elleness_Zurbach.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_Sheliss_Elleness_Zurbach_DESC"
+			ideology = despotism
+			traits = {
+				wfc_anime_tyan
+				wfc_defender
+				wfc_patron_of_intelligence
+				wfc_empress
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	#marshal
+	HEN_Olga_Discordia = {
+		name = HEN_Olga_Discordia
 		portraits = {
 			army = {
-				small = "GFX_idea_kliment_voroshilov"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Kliment_Voroshilov.dds"
+				small = "gfx/leaders/HEN/olga_discordia_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Olga_Discordia.dds"
 			}
 		}
-		advisor = {
-			slot = army_chief
-			idea_token = kliment_voroshilov
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				hidden_trigger = {
-					NOT = {
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 405.000
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_character_flag = HEN_exiled_flag
-					}
-					NOT = { has_character_flag = HEN_exiled_flag }
-				}
-			}
-			traits = {
-				army_chief_drill_1
-			}
-				cost = 50
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-
 		field_marshal = {
-			traits = { old_guard inflexible_strategist politically_connected }
+			traits = {
+				infantry_leader
+				offensive_doctrine
+				expert_delegator
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Olga_Discordia
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	HEN_Celestine_Lucullus = {
+		name = HEN_Celestine_Lucullus
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/celestine_lucullus_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Celestine_Lucullus.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				infantry_leader
+				defensive_doctrine
+				expert_delegator
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	#genarals
+	HEN_Mistiora_Arte = {
+		name = HEN_Mistiora_Arte
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/mistiora_arte_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Mistiora_Arte.dds"
+			}
+		}
+		corps_commander = {
 			skill = 1
-			attack_skill = 1
+			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			legacy_id = 405
-			visible = { NOT = { has_character_flag = HEN_exiled_flag } }
+			legacy_id = -1
 		}
-	}
-
-
-######################
-#### NAVY LEADRES ####
-######################
-
-	HEN_sergey_gorshkov = {
-		name = HEN_sergey_gorshkov
-		portraits = {
-			navy = {
-				small = "GFX_idea_sergey_gorshkov"
-			}
-			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Sergey_Gorshkov.dds"
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = sergey_gorshkov
-			ledger = navy
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				if = {
-					limit = {
-						has_character_flag = HEN_exiled_flag
-					}
-					NOT = { has_character_flag = HEN_exiled_flag }
-				}
-			}
-			traits = { naval_theorist }
-		}
-
-		navy_leader = {
-			traits = { bold navy_career_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
-			legacy_id = 411
-			visible = { NOT = { has_character_flag = HEN_exiled_flag } }
-		}
-	}
-
-#political advisors
-
-	HEN_mikhail_kalinin = {
-		name = HEN_mikhail_kalinin
-		portraits = {
-			army = {
-				small = "GFX_idea_mikhail_kalinin"
-			}
-		}
-		allowed_civil_war = {
-			OR = {
-				HEN_advisor_is_aligned_left = yes 
-				HEN_advisor_is_aligned_right = yes 
-				HEN_advisor_is_aligned_centre = yes 
-			}
-			has_government = communism
-		}
-
 		advisor = {
 			slot = political_advisor
-			idea_token = mikhail_kalinin
+			idea_token = HEN_Mistiora_Arte
 			allowed = {
-				original_tag = SOV
-			}
-			
-			visible = {
-				NOT = {
-					has_character_flag = HEN_character_purged_flag 
-				}
-			}
-			available = {
-				if = {
-					limit = {
-						has_character_flag = HEN_exiled_flag
-					}
-					NOT = { has_character_flag = HEN_exiled_flag }
-				}
+				original_tag = HEN
 			}
 			traits = {
-				popular_figurehead 
+				wfc_war_industrialist
 			}
 		}
 	}
-	
-
+	HEN_Iris_Arcadia = {
+		name = HEN_Iris_Arcadia
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/iris_arcadia_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Iris_Arcadia.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Iris_Arcadia
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	HEN_Homare_Nao = {
+		name = HEN_Homare_Nao
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/homare_nao_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Homare_Nao.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = HEN_Homare_Nao
+			ledger = army
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_infantry_3
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+	HEN_Igawa_Asagi = {
+		name = HEN_Igawa_Asagi
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/igawa_asagi_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Igawa_Asagi.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Anri_Sogahara = {
+		name = HEN_Anri_Sogahara
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/anri_sogahara_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Anri_Sogahara.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Rina_Komiya = {
+		name = HEN_Rina_Komiya
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/rina_komiya_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Rina_Komiya.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Anna_Komiya = {
+		name = HEN_Anna_Komiya
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/anna_komiya_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Anna_Komiya.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Ruma = {
+		name = HEN_Ruma
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/ruma_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Ruma.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Yuuki_Kawaragi = {
+		name = HEN_Yuuki_Kawaragi
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/yuuki_kawaragi_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Yuuki_Kawaragi.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Tsubasa_Kamijo = {
+		name = HEN_Tsubasa_Kamijo
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/tsubasa_kamijo_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Tsubasa_Kamijo.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Prim_Fiorire = {
+		name = HEN_Prim_Fiorire
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/prim_fiorire_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Prim_Fiorire.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Cloe = {
+		name = HEN_Cloe
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/cloe_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Cloe.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Claudia_le_Van_Tyne = {
+		name = HEN_Claudia_le_Van_Tyne
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/claudia_le_van_tyne_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Claudia_le_Van_Tyne.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Alicia_Arcturus = {
+		name = HEN_Alicia_Arcturus
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/alicia_arcturus_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Alicia_Arcturus.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	#admerals
+	HEN_Kaname = {
+		name = HEN_Kaname
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/kaname_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Kaname.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				naval_lineage
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = HEN_Kaname
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+		}
+	}
+	HEN_Suomi = {
+		name = HEN_Suomi
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/suomi_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Suomi.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				naval_invader
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Akiho_Taniguchi = {
+		name = HEN_Akiho_Taniguchi
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/akiho_taniguchi_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Akiho_Taniguchi.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				naval_liason
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Sill_Plain = {
+		name = HEN_Sill_Plain
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/sill_plain_idea.dds"
+			}
+			army = {
+				large = "gfx/leaders/HEN/Sill_Plain.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
 }

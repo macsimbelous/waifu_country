@@ -1,241 +1,841 @@
 characters = {
-#Country Leader
-	MMS_iosif_stalin = {
-		name = MMS_iosif_stalin
+	#lider
+	MMS_velvet_crowe = {
+		name = MMS_velvet_crowe
 		portraits = {
-			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-			}
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-				small = "gfx/interface/ideas/idea_MMS_joseph_stalin.dds"
+				small = "GFX_idea_mms_velvet_crowe"
+			}
+			civilian = {
+				large = "gfx/leaders/MMS/Velvet_Crowe.dds"
 			}
 		}
 		country_leader = {
-			ideology = stalinism
-			traits = { stalin_heart_of_steel }
-			expire = "1953.3.1.1"
-			id = -1
-		}
-	}
-
-	MMS_supreme_soviet = { #Country Leader role added via focus
-		name = MMS_supreme_soviet
-
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SOV/portrait_MMS_supreme_soviet.dds"
-			}
-		}
-	}
-
-	MMS_provisional_government = {
-		name = MMS_provisional_government
-
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SOV/portrait_MMS_white_transitionary_council.dds"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			expire = "1953.3.1.1"
-			id = -1
+			desc = "POLITICS_Velvet_Crowe_DESC"
+			ideology = fascism_ideology
 			traits = {
-				emigre_connections desperate_gambit dysfunctional_assembly
+				wfc_anime_tyan
+				wfc_tyan_militarist
+				wfc_patron_of_the_military_industrial_complex
+				wfc_demon_lord
+				anti_communist_crusader
 			}
+			expire = "1965.1.1.1"
+			id = -1
 		}
-	}
-
-
-#Army                                                                                            
-
-	MMS_georgy_zhukov = {
-		name = MMS_georgy_zhukov
-
-		portraits = {
-			army = {
-				small = "GFX_idea_georgy_zhukov"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Gregory_Zhukov.dds"
-			}
-		}
-
-		corps_commander = {
-			traits = { media_personality armor_officer war_hero winter_specialist }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 5
-			legacy_id = 410
-			visible = { NOT = { has_character_flag = MMS_exiled_flag } }
-		}
-
 		advisor = {
-			cost = 150
 			slot = theorist
-			idea_token = georgy_zhukov
+			idea_token = MMS_velvet_crowe
 			ledger = army
 			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				has_completed_focus = MMS_positive_heroism
-				if = {
-					limit = {
-						has_character_flag = MMS_exiled_flag
-					}
-					NOT = { has_character_flag = MMS_exiled_flag }
-				}
+				original_tag = MMS
 			}
 			traits = {
-				mass_assault_expert
+				blitzkrieg_theorist
 			}
-		}		
+		}
 	}
-
-	MMS_kliment_voroshilov = {
-		name = MMS_kliment_voroshilov
-
+	MMS_yuuko_yoshida = {
+		name = "Yuuko Yoshida"
 		portraits = {
 			army = {
-				small = "GFX_idea_kliment_voroshilov"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Kliment_Voroshilov.dds"
+				small = "GFX_idea_mms_yuuko_yoshida"
 			}
+			civilian = {
+				large = "gfx/leaders/MMS/yuuko_yoshida.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_yuuko_yoshida_DESC"
+			ideology = despotism
+			traits = {
+				wfc_anime_tyan
+				wfc_defender
+				wfc_patron_of_intelligence
+				wfc_demon_lord
+				defeatist
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	MMS_maou = {
+		name = "Maou"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_maou"
+			}
+			civilian = {
+				large = "gfx/leaders/MMS/Maou.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_Maou_DESC"
+			ideology = leninism
+			traits = {
+				wfc_anime_tyan
+				wfc_revolutionary
+				wfc_patron_of_industry
+				wfc_demon_lord
+				technocrat
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	MMS_holo = {
+		name = "Holo"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_holo"
+			}
+			civilian = {
+				large = "gfx/leaders/MMS/Holo.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_Holo_DESC"
+			ideology = liberalism
+			traits = {
+				wfc_anime_tyan
+				wfc_peoples_favorite
+				wfc_patron_of_science
+				wfc_demon_lord
+				economist
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	#marshal
+	MMS_fino_bloodstone = {
+		name = "Fino Bloodstone"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_fino_bloodstone"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Fino_Bloodstone.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				aggressive_assaulter
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MMS_rhea = {
+		name = "Rhea"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_rhea"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Rhea.dds"
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MMS_shiraori = {
+		name = "Shiraori"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_shiraori"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Shiraori.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				trickster
+				trait_engineer
+				fast_planner
+				expert_delegator
+				adaptable
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 7
+			logistics_skill = 6
+			legacy_id = -1
+		}
+	}
+	MMS_ishtar = {
+		name = "Ishtar"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_ishtar"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Ishtar.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				trickster
+				commando
+				offensive_doctrine
+				aggressive_assaulter
+				organisational_leader
+				inspirational_leader
+				expert_delegator
+			}
+			skill = 7
+			attack_skill = 8
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			legacy_id = -1
+		}
+	}
+	#general
+	MMS_lilith = {
+		name = MMS_lilith
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_lilith"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Lilith.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				aggressive_assaulter
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_lilith
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				princess_of_terror
+			}
+		}
+	}
+
+	MMS_rose = {
+		name = MMS_rose
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_rose"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Rose.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = kliment_voroshilov
+			idea_token = MMS_rose
 			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				hidden_trigger = {
-					NOT = {
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 405.000
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_character_flag = MMS_exiled_flag
-					}
-					NOT = { has_character_flag = MMS_exiled_flag }
-				}
+				original_tag = MMS
 			}
 			traits = {
-				army_chief_drill_1
-			}
-				cost = 50
-			ai_will_do = {
-				factor = 1.000
+				army_chief_drill_3
 			}
 		}
+	}
+	MMS_morrah = {
+		name = MMS_morrah
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_morrah"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Morrah.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				defensive_doctrine
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MMS_morrah
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+		}
+	}
+	MMS_ripine = {
+		name = MMS_ripine
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_ripine"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Ripine.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando offensive_doctrine
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MMS_ripine
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+		}
+	}
+	MMS_dullahan = {
+		name = MMS_dullahan
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_dullahan"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Dullahan.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MMS_dullahan
+			ledger = army
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_cavalry_3
+			}
+		}
+	}
 
-		field_marshal = {
-			traits = { old_guard inflexible_strategist politically_connected }
+
+	MMS_milla_maxwell = {
+		name = "Milla Maxwell"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_milla_maxwell"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Milla_Maxwell.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				infantry_expert
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_astaroth = {
+		name = "Astaroth"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_astaroth"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Astaroth.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+			}
+			skill = 1
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_laharl_female = {
+		name = "Laharl female"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_laharl_female"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Laharl_girl.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				skilled_staffer
+			}
+			skill = 1
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MMS_desco = {
+		name = "Desco"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_desco"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Desco.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			legacy_id = 405
-			visible = { NOT = { has_character_flag = MMS_exiled_flag } }
+			legacy_id = -1
 		}
 	}
-
-
-######################
-#### NAVY LEADRES ####
-######################
-
-	MMS_sergey_gorshkov = {
-		name = MMS_sergey_gorshkov
-		portraits = {
-			navy = {
-				small = "GFX_idea_sergey_gorshkov"
-			}
-			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Sergey_Gorshkov.dds"
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = sergey_gorshkov
-			ledger = navy
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				if = {
-					limit = {
-						has_character_flag = MMS_exiled_flag
-					}
-					NOT = { has_character_flag = MMS_exiled_flag }
-				}
-			}
-			traits = { naval_theorist }
-		}
-
-		navy_leader = {
-			traits = { bold navy_career_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
-			legacy_id = 411
-			visible = { NOT = { has_character_flag = MMS_exiled_flag } }
-		}
-	}
-
-#political advisors
-
-	MMS_mikhail_kalinin = {
-		name = MMS_mikhail_kalinin
+	MMS_tiamat = {
+		name = MMS_tiamat 
 		portraits = {
 			army = {
-				small = "GFX_idea_mikhail_kalinin"
+				small = "GFX_idea_mms_tiamat"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Tiamat.dds"
 			}
 		}
-		allowed_civil_war = {
-			OR = {
-				MMS_advisor_is_aligned_left = yes 
-				MMS_advisor_is_aligned_right = yes 
-				MMS_advisor_is_aligned_centre = yes 
+		corps_commander = {
+			traits = {
+				skilled_staffer
+				expert_delegator
 			}
-			has_government = communism
+			skill = 9
+			attack_skill = 9
+			defense_skill = 9
+			planning_skill = 9
+			logistics_skill = 9
+			legacy_id = -1
 		}
-
 		advisor = {
 			slot = political_advisor
-			idea_token = mikhail_kalinin
+			idea_token = MMS_tiamat 
 			allowed = {
-				original_tag = SOV
-			}
-			
-			visible = {
-				NOT = {
-					has_character_flag = MMS_character_purged_flag 
-				}
-			}
-			available = {
-				if = {
-					limit = {
-						has_character_flag = MMS_exiled_flag
-					}
-					NOT = { has_character_flag = MMS_exiled_flag }
-				}
+				original_tag = MMS
 			}
 			traits = {
-				popular_figurehead 
+				wfc_war_industrialist
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 5
+				}
 			}
 		}
 	}
-	
-
+	MMS_belldandy = {
+		name = MMS_belldandy
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_belldandy"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Belldandy.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_belldandy
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfc_peoples_favorite
+			}
+		}
+	}
+	MMS_corrin = {
+		name = "Corrin"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_corrin"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Corrin.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_lucy = {
+		name = "Lucy"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_lucy"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Lucy.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_makina_hoshimura = {
+		name = "Makina Hoshimura"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_makina_hoshimura"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Makina_Hoshimura.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_saya_kisaragi = {
+		name = "Saya Kisaragi"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_saya_kisaragi"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Saya_Kisaragi.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_02 = {
+		name = "02"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_02"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Zero_Two.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_vignette_april_tsukinose = {
+		name = MMS_vignette_april_tsukinose
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_vignette_april_tsukinose"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Vignette_April_Tsukinose.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_vignette_april_tsukinose
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+		}
+	}
+	MMS_satanichia_mcdowell_kurumizawa = {
+		name = "Satanichia McDowell Kurumizawa"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_satanichia_mcdowell_kurumizawa"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Satanichia_McDowell_Kurumizawa.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_arnice = {
+		name = "Arnice"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_arnice"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Arnice.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_saya_otonashi = {
+		name = "Saya Otonashi"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_saya_otonashi"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Saya_Otonashi.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_marie_von_eisenberg = {
+		name = "Marie Von Eisenberg"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_marie_von_eisenberg"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Marie_Von_Eisenberg.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MMS_kurari_rose = {
+		name = "Kurari Rose"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_kurari_rose"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Kurari_Rose.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MMS_heine = {
+		name = "Heine"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_heine"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Heine.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	#admirals
+	MMS_yamato_wg = {
+		name = "Yamato WG"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_yamato_wg"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Yamato_WG.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				blue_water_expert
+				big_guns_expert
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_purifier = {
+		name = "Purifier"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_purifier"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Purifier.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				green_water_expert
+				destroyer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	MMS_tester = {
+		name = "Tester"
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_tester"
+			}
+			army = {
+				large = "gfx/leaders/MMS/Tester.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				arctic_water_expert
+				cruiser_captain
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
 }

@@ -52,95 +52,20 @@ add_ideas = {
 }
 
 #leaders
-create_country_leader = {
-	name = "Asuka Ootorii"
-	desc = "POLITICS_asuka_ootorii_DESC"
-	picture = "asuka_ootorii.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		wfc_anime_tyan
-		wfc_tyan_militarist
-		wfc_patron_of_the_military_industrial_complex
-		wfc_dictator
-		great_war_hero
-	}
-}
-create_country_leader = {
-	name = "Nanoha Takamachi"
-	desc = "POLITICS_Nanoha_Takamachi_DESC"
-	picture = "Nanoha_Takamachi.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		wfc_anime_tyan
-		wfc_revolutionary
-		wfc_patron_of_industry
-		wfc_dictator
-	}
-}
-create_country_leader = {
-	name = "Usagi Tsukino"
-	desc = "POLITICS_usagi_tsukino_DESC"
-	picture = "usagi_tsukino.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		wfc_anime_tyan
-		wfc_peoples_favorite
-		wfc_patron_of_science
-		freedom_fighter
-	}
-}
-create_country_leader = {
-	name = "Momo Chiyoda"
-	desc = "POLITICS_momo_chiyoda_DESC"
-	picture = "Momo_Chiyoda.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		wfc_anime_tyan
-		wfc_defender
-		wfc_patron_of_intelligence
-		wfc_empress
-		great_war_hero
-	}
-}
-
+recruit_character = MAH_Asuka_Ootorii
+recruit_character = MAH_Nanoha_Takamachi
+recruit_character = MAH_Usagi_Tsukino
+recruit_character = MAH_Momo_Chiyoda
+#advisors
+recruit_character = MAH_Hitomi_Tsukishiro
 
 #marshal
 
 #generals
-create_corps_commander = {
-	name = "Madoka_Kaname"
-	picture = "Madoka_Kaname.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Arika Yumemiya"
-	picture = "arika_yumemiya.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Illyasviel von Einzbern"
-	picture = "illyasviel_von_einzbern.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
+recruit_character = MAH_Madoka_Kaname
+recruit_character = MAH_Illyasviel_von_einzbern
+recruit_character = MAH_Arika_Yumemiya
+
 #agents
 create_operative_leader = {
 	name = "Hitomi Tsukishiro"

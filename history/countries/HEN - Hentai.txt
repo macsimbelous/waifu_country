@@ -65,315 +65,36 @@ add_ideas = {
 }
 
 #leaders
-create_country_leader = {
-	name = "Takumi Musashino"
-	desc = "POLITICS_Takumi_Musashino_DESC"
-	picture = "Takumi_Musashino.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		wfc_anime_tyan
-		wfc_revolutionary
-		wfc_patron_of_industry
-		wfc_dictator
-	}
-}
-
-create_country_leader = {
-	name = "Saori Asamiya"
-	desc = "POLITICS_Saori_Asamiya_DESC"
-	picture = "Saori_Asamiya.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		wfc_anime_tyan
-		wfc_tyan_militarist
-		wfc_patron_of_the_military_industrial_complex
-		wfc_dictator
-	}
-}
-
-create_country_leader = {
-	name = "Mari Setogaya"
-	desc = "POLITICS_Mari_Setogaya_DESC"
-	picture = "Mari_Setogaya.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		wfc_anime_tyan
-		wfc_peoples_favorite
-		wfc_patron_of_science
-		freedom_fighter
-	}
-}
-
-create_country_leader = {
-	name = "Sheliss Elleness Zurbach"
-	desc = "POLITICS_Sheliss_Elleness_Zurbach_DESC"
-	picture = "Sheliss_Elleness_Zurbach.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		wfc_anime_tyan
-		wfc_defender
-		wfc_patron_of_intelligence
-		wfc_empress
-	}
-}
+recruit_character = HEN_Takumi_Musashino
+recruit_character = HEN_Saori_Asamiya
+recruit_character = HEN_Mari_Setogaya
+recruit_character = HEN_Sheliss_Elleness_Zurbach
 
 #marshals
-create_field_marshal = {
-	name = "Olga Discordia"
-	picture = "Olga_Discordia.dds"
-	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-	traits = {
-		infantry_leader
-		offensive_doctrine
-		expert_delegator
-	}
-}
-
-create_field_marshal = {
-	name = "Celestine Lucullus"
-	picture = "Celestine_Lucullus.dds"
-	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-	traits = {
-		infantry_leader
-		defensive_doctrine
-		expert_delegator
-	}
-}
+recruit_character = HEN_Olga_Discordia
+recruit_character = HEN_Celestine_Lucullus
 
 #generals
-create_corps_commander = {
-	name = "Igawa Asagi"
-	picture = "Igawa_Asagi.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Anri Sogahara"
-	picture = "Anri_Sogahara.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Rina Komiya"
-	picture = "Rina_Komiya.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Anna Komiya"
-	picture = "Anna_Komiya.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Ruma"
-	picture = "Ruma.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Yuuki Kawaragi"
-	picture = "Yuuki_Kawaragi.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Tsubasa Kamijo"
-	picture = "Tsubasa_Kamijo.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Prim Fiorire"
-	picture = "Prim_Fiorire.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Cloe"
-	picture = "Cloe.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Claudia le Van Tyne"
-	picture = "Claudia_le_Van_Tyne.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Alicia Arcturus"
-	picture = "Alicia_Arcturus.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Homare Nao"
-	picture = "Homare_Nao.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-create_corps_commander = {
-	name = "Mistiora Arte"
-	picture = "Mistiora_Arte.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-create_corps_commander = {
-	name = "Iris Arcadia"
-	picture = "Iris_Arcadia.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
+recruit_character = HEN_Mistiora_Arte
+recruit_character = HEN_Iris_Arcadia
+recruit_character = HEN_Homare_Nao
+recruit_character = HEN_Igawa_Asagi
+recruit_character = HEN_Anri_Sogahara
+recruit_character = HEN_Rina_Komiya
+recruit_character = HEN_Anna_Komiya
+recruit_character = HEN_Ruma
+recruit_character = HEN_Yuuki_Kawaragi
+recruit_character = HEN_Tsubasa_Kamijo
+recruit_character = HEN_Prim_Fiorire
+recruit_character = HEN_Cloe
+recruit_character = HEN_Claudia_le_Van_Tyne
+recruit_character = HEN_Alicia_Arcturus
 
 #admirals
-create_navy_leader = {
-	name = "Suomi"
-	#id = 7105
-	picture = "Suomi.dds"
-	traits = {
-		naval_invader
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
-}
-
-create_navy_leader = {
-	name = "Akiho Taniguchi"
-	#id = 7105
-	picture = "Akiho_Taniguchi.dds"
-	traits = {
-		naval_liason
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
-}
-
-create_navy_leader = {
-	name = "Kaname"
-	#id = 7109
-	picture = "Kaname.dds"
-	traits = {
-		naval_lineage
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 1
-}
-create_navy_leader = {
-	name = "Sill Plain"
-	#id = 7109
-	picture = "Sill_Plain.dds"
-	traits = {
-		navy_career_officer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 1
-}
+recruit_character = HEN_Kaname
+recruit_character = HEN_Suomi
+recruit_character = HEN_Akiho_Taniguchi
+recruit_character = HEN_Sill_Plain
 
 #agents
 create_operative_leader = {

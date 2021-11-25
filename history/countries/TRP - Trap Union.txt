@@ -59,344 +59,37 @@ add_ideas = {
 }
 
 #leaders
-
-create_country_leader = {
-	name = "Astolfo"
-	desc = "POLITICS_Astolfo_DESC"
-	picture = "Astolfo.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		wfc_trap
-		wfc_revolutionary
-		wfc_patron_of_industry
-		wfc_dictator
-	}
-}
-create_country_leader = {
-	name = "Hideri Kanzaki"
-	desc = "POLITICS_Hideri_Kanzaki_DESC"
-	picture = "Hideri_Kanzaki.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		wfc_trap
-		wfc_tyan_militarist
-		wfc_patron_of_the_military_industrial_complex
-		fascist_militia_leader
-	}
-}
-create_country_leader = {
-	name = "Tetora"
-	desc = "POLITICS_Tetora_DESC"
-	picture = "Tetora.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		wfc_trap
-		wfc_peoples_favorite
-		wfc_patron_of_science
-		liberal_democratic_paragon
-	}
-}
-create_country_leader = {
-	name = "Ringo Tsukimiya"
-	desc = "POLITICS_Ringo_Tsukimiya_DESC"
-	picture = "Ringo_Tsukimiya.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		wfc_trap
-		wfc_defender
-		wfc_patron_of_intelligence
-		wfc_empress
-	}
-}
-
+recruit_character = TRP_oboro_tsukimigusa
+recruit_character = TRP_hitoshi_sugoroku
+recruit_character = TRP_kaoru_hanase
+recruit_character = TRP_aoi_hyoudou
+recruit_character = TRP_kaguya_arikawa
+recruit_character = TRP_tama_kyan
+recruit_character = TRP_mariya_shidou
+recruit_character = TRP_felix_argyle
+recruit_character = TRP_hime_arikawa
+recruit_character = TRP_russell
+recruit_character = TRP_sylvia
+recruit_character = TRP_birdy_cephon_altera
+recruit_character = TRP_souji_mitsuka
+recruit_character = TRP_ranga
+recruit_character = TRP_yukikaze
+recruit_character = TRP_mitsunaga_oda
+recruit_character = TRP_ritsu_souma
+recruit_character = TRP_hamaji_yakumo
+recruit_character = TRP_taroumaru_seike
+recruit_character = TRP_xianming_lin
+recruit_character = TRP_mizuho_miyanokouji
+recruit_character = TRP_youta_tsunashi
+recruit_character = TRP_fish_eye
+recruit_character = TRP_astolfo
+recruit_character = TRP_hideri_kanzaki
+recruit_character = TRP_tetora
+recruit_character = TRP_ringo_tsukimiya
+recruit_character = TRP_hacka_doll_no.3
+recruit_character = TRP_ranma_saotome
 #generals
-create_field_marshal = {
-	name = "Astolfo"
-	picture = "Astolfo.dds"
-	traits = {
-		cavalry_leader
-		cavalry_expert
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	#id = 7035
-}
-create_field_marshal = {
-	name = "Felix Argyle"
-	picture = "Felix_Argyle.dds"
-	traits = { trait_engineer trait_mountaineer swamp_fox hill_fighter desert_fox }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Hime Arikawa"
-	picture = "Hime_Arikawa.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Souji Mitsuka"
-	picture = "Souji_Mitsuka.dds"
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	traits = {
-	}
-}
-create_corps_commander = {
-	name = "Hitoshi Sugoroku"
-	picture = "Hitoshi_Sugoroku.dds"
-	traits = { trickster }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Birdy Cephon Altera"
-	picture = "Birdy_Cephon_Altera.dds"
-	traits = {  }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Ranga"
-	picture = "Ranga.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Kaoru Hanase"
-	picture = "Kaoru_Hanase.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Aoi Hyoudou"
-	picture = "Aoi_Hyoudou.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Tama Kyan"
-	picture = "Tama_Kyan.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Kaguya Arikawa"
-	picture = "Kaguya_Arikawa.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Oboro Tsukimigusa"
-	picture = "Oboro_Tsukimigusa.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Sylvia"
-	picture = "Sylvia.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Yukikaze"
-	picture = "Yukikaze.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Mitsunaga Oda"
-	picture = "Mitsunaga_Oda.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Ritsu Souma"
-	picture = "Ritsu_Souma.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Xianming Lin"
-	picture = "Xianming_Lin.dds"
-	traits = { commando }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Hacka Doll No.3"
-	picture = "Hacka_Doll_3.dds"
-	traits = { armor_officer }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Mizuho Miyanokouji"
-	picture = "Mizuho_Miyanokouji.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Youta Tsunashi"
-	picture = "Youta_Tsunashi.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Fish Eye"
-	picture = "Fish_Eye.dds"
-	traits = { cavalry_officer cavalry_leader }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
 #Admirals
-create_navy_leader = {
-	name = "Ranma Saotome"
-	#id = 7109
-	picture = "Ranma_Saotome.dds"
-	traits = {
-		old_guard_navy
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
-}
-create_navy_leader = {
-	name = "Russell"
-	#id = 7109
-	picture = "Russell.dds"
-	traits = {
-		navy_career_officer
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 1
-}
-create_navy_leader = {
-	name = "Mariya Shidou"
-	#id = 7109
-	picture = "Mariya_Shidou.dds"
-	traits = {
-		navy_media_personality naval_invader
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 1
-}
-create_navy_leader = {
-	name = "Taroumaru Seike"
-	#id = 7109
-	picture = "Taroumaru_Seike.dds"
-	traits = {
-		naval_liason
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 1
-}
-create_navy_leader = {
-	name = "Hamaji Yakumo"
-	#id = 7109
-	picture = "Hamaji_Yakumo.dds"
-	traits = {
-		naval_lineage
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 1
-}
 #agents
 create_operative_leader = {
 	name = "Saki Mizushima"

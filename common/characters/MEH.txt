@@ -1,241 +1,1173 @@
 characters = {
-#Country Leader
-	MEH_iosif_stalin = {
-		name = MEH_iosif_stalin
+	#liders
+	MEH_KOS_MOS = {
+		name = MEH_KOS_MOS
 		portraits = {
-			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-			}
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
-				small = "gfx/interface/ideas/idea_MEH_joseph_stalin.dds"
+				small = "GFX_idea_meh_kos-mos"
+				large = "gfx/leaders/MEH/KOS-MOS.dds"
 			}
-		}
-		country_leader = {
-			ideology = stalinism
-			traits = { stalin_heart_of_steel }
-			expire = "1953.3.1.1"
-			id = -1
-		}
-	}
-
-	MEH_supreme_soviet = { #Country Leader role added via focus
-		name = MEH_supreme_soviet
-
-		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/portrait_MEH_supreme_soviet.dds"
+				large = "gfx/leaders/MEH/KOS-MOS.dds"
 			}
 		}
-	}
-
-	MEH_provisional_government = {
-		name = MEH_provisional_government
-
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SOV/portrait_MEH_white_transitionary_council.dds"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			expire = "1953.3.1.1"
-			id = -1
+		field_marshal = {
 			traits = {
-				emigre_connections desperate_gambit dysfunctional_assembly
+				bearer_of_artillery
+				defensive_doctrine
+				unyielding_defender
 			}
-		}
-	}
-
-
-#Army                                                                                            
-
-	MEH_georgy_zhukov = {
-		name = MEH_georgy_zhukov
-
-		portraits = {
-			army = {
-				small = "GFX_idea_georgy_zhukov"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Gregory_Zhukov.dds"
-			}
-		}
-
-		corps_commander = {
-			traits = { media_personality armor_officer war_hero winter_specialist }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
 			planning_skill = 4
-			logistics_skill = 5
-			legacy_id = 410
-			visible = { NOT = { has_character_flag = MEH_exiled_flag } }
+			logistics_skill = 4
+			legacy_id = -1
 		}
-
-		advisor = {
-			cost = 150
-			slot = theorist
-			idea_token = georgy_zhukov
-			ledger = army
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				has_completed_focus = MEH_positive_heroism
-				if = {
-					limit = {
-						has_character_flag = MEH_exiled_flag
-					}
-					NOT = { has_character_flag = MEH_exiled_flag }
-				}
-			}
+		country_leader = {
+			desc = "POLITICS_KOS-MOS_DESC"
+			ideology = despotism
 			traits = {
-				mass_assault_expert
+				wfc_android
+				wfc_defender
+				wfc_patron_of_intelligence
+				wfc_superweapon
 			}
-		}		
+			expire = "1965.1.1.1"
+			id = -1
+		}
 	}
-
-	MEH_kliment_voroshilov = {
-		name = MEH_kliment_voroshilov
-
+	MEH_Fiora_Mechon = {
+		name = MEH_Fiora_Mechon
 		portraits = {
 			army = {
-				small = "GFX_idea_kliment_voroshilov"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Kliment_Voroshilov.dds"
+				small = "GFX_idea_meh_fiora_mechon"
+				large = "gfx/leaders/MEH/Fiora_Mechon.dds"
 			}
+			civilian = {
+				large = "gfx/leaders/MEH/Fiora_Mechon.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_Fiora_Mechon_DESC"
+			ideology = liberalism
+			traits = {
+				wfc_android
+				wfc_peoples_favorite
+				wfc_patron_of_science
+				democratic_reformer
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	MEH_Mythra = {
+		name = MEH_Mythra
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_mythra"
+				large = "gfx/leaders/MEH/Mythra.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/MEH/Mythra.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_Mythra_DESC"
+			ideology = fascism_ideology
+			traits = {
+				wfc_android
+				wfc_tyan_militarist
+				wfc_patron_of_the_military_industrial_complex
+				wfc_dictator
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	MEH_Histoire = {
+		name = MEH_Histoire
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_histoire"
+				large = "gfx/leaders/MEH/Histoire.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/MEH/Histoire.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_Histoire_DESC"
+			ideology = stalinism
+			traits = {
+				wfc_android
+				wfc_revolutionary
+				wfc_patron_of_industry
+				communist_revolutionary
+			}
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	#marshal
+	MEH_Iris_Heart = {
+		name = MEH_Iris_Heart
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_iris_heart"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Iris_Heart.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				infantry_leader
+				commando
+				offensive_doctrine
+				aggressive_assaulter
+				infantry_expert
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = kliment_voroshilov
+			idea_token = MEH_Iris_Heart
 			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				hidden_trigger = {
-					NOT = {
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 405.000
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_character_flag = MEH_exiled_flag
-					}
-					NOT = { has_character_flag = MEH_exiled_flag }
-				}
+				original_tag = MEH
 			}
 			traits = {
-				army_chief_drill_1
+				army_chief_offensive_3
 			}
-				cost = 50
 			ai_will_do = {
-				factor = 1.000
+				base = 2
 			}
 		}
-
-		field_marshal = {
-			traits = { old_guard inflexible_strategist politically_connected }
+	}
+	#generals
+	MEH_Alisa_Boskonovich = {
+		name = MEH_Alisa_Boskonovich
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_alisa_boskonovich"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Alisa_Boskonovich.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Alisa_Boskonovich
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	MEH_Risa = {
+		name = MEH_Risa
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_risa"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Risa.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+				aggressive_assaulter
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Risa
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.15
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 2
+				}
+			}
+		}
+	}
+	MEH_2B = {
+		name = MEH_2B
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_2b"
+			}
+			army = {
+				large = "gfx/leaders/MEH/2B.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				offensive_doctrine bearer_of_artillery
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_2B
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_artillery_3
+			}
+		}
+	}
+	MEH_Cibo = {
+		name = MEH_Cibo
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_cibo"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Cibo.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Cibo
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_war_industrialist
+			}
+		}
+	}
+	MEH_A2 = {
+		name = MEH_A2
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_a2"
+			}
+			army = {
+				large = "gfx/leaders/MEH/A2.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MEH_A2
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+	}
+	MEH_Svetlana_Sakura = {
+		name = MEH_Svetlana_Sakura
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_svetlana_sakura"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Svetlana_Sakura.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MEH_Svetlana_Sakura
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_chief_drill_3
+			}
+		}
+	}
+	MEH_Alexandra_Frolova = {
+		name = MEH_Alexandra_Frolova
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_alexandra_frolova"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Alexandra_Frolova.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MEH_Alexandra_Frolova
+			ledger = air
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	MEH_EDI = {
+		name = MEH_EDI
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_edi"
+			}
+			army = {
+				large = "gfx/leaders/MEH/EDI.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MEH_EDI
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_girl_scientist
+			}
+			ai_will_do = {
+				base = 2
+			}
+		}
+	}
+	MEH_Pyra = {
+		name = MEH_Pyra
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_pyra"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Pyra.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Pyra
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_infantry_3
+			}
+		}
+	}
+	MEH_Rozen_S_Series = {
+		name = MEH_Rozen_S_Series
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_rozen_s_series"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Rozen_S_Series.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Rozen_S_Series
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_armored_3
+			}
+		}
+	}
+	MEH_Clarion = {
+		name = MEH_Clarion
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_clarion"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Clarion.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				logistics_wizard logistics_skill
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = 405
-			visible = { NOT = { has_character_flag = MEH_exiled_flag } }
-		}
-	}
-
-
-######################
-#### NAVY LEADRES ####
-######################
-
-	MEH_sergey_gorshkov = {
-		name = MEH_sergey_gorshkov
-		portraits = {
-			navy = {
-				small = "GFX_idea_sergey_gorshkov"
-			}
-			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Sergey_Gorshkov.dds"
-			}
+			logistics_skill = 3
+			legacy_id = -1
 		}
 		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = sergey_gorshkov
-			ledger = navy
+			slot = high_command
+			idea_token = MEH_Clarion
+			ledger = army
 			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				if = {
-					limit = {
-						has_character_flag = MEH_exiled_flag
-					}
-					NOT = { has_character_flag = MEH_exiled_flag }
-				}
-			}
-			traits = { naval_theorist }
-		}
-
-		navy_leader = {
-			traits = { bold navy_career_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
-			legacy_id = 411
-			visible = { NOT = { has_character_flag = MEH_exiled_flag } }
-		}
-	}
-
-#political advisors
-
-	MEH_mikhail_kalinin = {
-		name = MEH_mikhail_kalinin
-		portraits = {
-			army = {
-				small = "GFX_idea_mikhail_kalinin"
-			}
-		}
-		allowed_civil_war = {
-			OR = {
-				MEH_advisor_is_aligned_left = yes 
-				MEH_advisor_is_aligned_right = yes 
-				MEH_advisor_is_aligned_centre = yes 
-			}
-			has_government = communism
-		}
-
-		advisor = {
-			slot = political_advisor
-			idea_token = mikhail_kalinin
-			allowed = {
-				original_tag = SOV
-			}
-			
-			visible = {
-				NOT = {
-					has_character_flag = MEH_character_purged_flag 
-				}
-			}
-			available = {
-				if = {
-					limit = {
-						has_character_flag = MEH_exiled_flag
-					}
-					NOT = { has_character_flag = MEH_exiled_flag }
-				}
+				original_tag = MEH
 			}
 			traits = {
-				popular_figurehead 
+				army_logistics_3
 			}
 		}
 	}
-	
-
+	MEH_Maki_Ivanova = {
+		name = MEH_Maki_Ivanova
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_maki_ivanova"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Maki_Ivanova.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+				cavalry_expert
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MEH_Maki_Ivanova
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_chief_all_weather_3
+			}
+		}
+	}
+	MEH_Pneuma = {
+		name = MEH_Pneuma
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_pneuma"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Pneuma.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Pneuma
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_popular_figurehead
+			}
+		}
+	}
+	MEH_Hatsune_Miku = {
+		name = MEH_Hatsune_Miku
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_hatsune_miku"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Hatsune_Miku.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MEH_Hatsune_Miku
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_chief_reform_3
+			}
+		}
+	}
+	MEH_Hana = {
+		name = MEH_Hana
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_hana"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Hana.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MEH_Hana
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+		}
+	}
+	MEH_Automaton = {
+		name = MEH_Automaton
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_automaton"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Automaton.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Automaton
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_cavalry_3
+			}
+		}
+	}
+	MEH_Phantom_Queen_Ex_Xecty = {
+		name = MEH_Phantom_Queen_Ex_Xecty
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_phantom_queen_ex-xecty"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Phantom_Queen_Ex-Xecty.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MEH_Phantom_Queen_Ex_Xecty
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+		}
+	}
+	MEH_MHMD_02_Haruko = {
+		name = MEH_MHMD_02_Haruko
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_mhmd-02_haruko"
+			}
+			army = {
+				large = "gfx/leaders/MEH/MHMD-02_Haruko.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				logistics_wizard
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_MHMD_02_Haruko
+			ledger = army
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_regrouping_3
+			}
+		}
+	}
+	MEH_T_Elos = {
+		name = MEH_T_Elos
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_t-elos"
+			}
+			army = {
+				large = "gfx/leaders/MEH/T-Elos.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				aggressive_assaulter
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_T_Elos
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	MEH_Aino = {
+		name = MEH_Aino
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_aino"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Aino.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MEH_Rose = {
+		name = MEH_Rose
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_rose"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Rose.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Rose
+			ledger = air
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_close_air_support_3
+			}
+		}
+	}
+	MEH_Elizabeth = {
+		name = MEH_Elizabeth
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_elizabeth"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Elizabeth.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Elizabeth
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_captain_of_industry
+			}
+		}
+	}
+	MEH_Vivy = {
+		name = MEH_Vivy
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_vivy"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Vivy.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	#admirals
+	MEH_Ashigara_ARP = {
+		name = MEH_Ashigara_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_ashigara_arp"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Ashigara_ARP.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Ashigara_ARP
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	MEH_Takao_ARP = {
+		name = MEH_Takao_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_takao_arp"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Takao_ARP.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	MEH_I_410 = {
+		name = MEH_I_410
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_i-410"
+			}
+			army = {
+				large = "gfx/leaders/MEH/I-410.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				silent_hunter
+				torpedo_expert
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MEH_I_410
+			ledger = navy
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				submarine_specialist
+			}
+		}
+	}
+	MEH_Haruna_ARP = {
+		name = MEH_Haruna_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_haruna"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Haruna.dds"
+			}
+		}
+		navy_leader = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MEH_Haruna_ARP
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+		}
+	}
+	MEH_Kirishima_ARP = {
+		name = MEH_Kirishima_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_kirishima"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Kirishima.dds"
+			}
+		}
+		navy_leader = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MEH_Kirishima_ARP
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+		}
+	}
+	MEH_Kongou_ARP = {
+		name = MEH_Kongou_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_kongou_arp"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Kongou_ARP.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MEH_Kongou_ARP
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_chief_maneuver_3
+			}
+		}
+	}
+	MEH_Atago_ARP = {
+		name = MEH_Atago_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_atago_arp"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Atago_ARP.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Atago_ARP
+			ledger = navy
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_naval_strike_3
+			}
+		}
+	}
+	MEH_Caseal = {
+		name = MEH_Caseal
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_caseal"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Caseal.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Caseal
+			ledger = navy
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_naval_air_defense_3
+			}
+		}
+	}
+	MEH_Hiei_ARP = {
+		name = MEH_Hiei_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_hiei_arp"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Hiei_ARP.dds"
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Hiei_ARP
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+		}
+	}
+	#advisor
+	MEH_Yurizaki_Mira = {
+		name = MEH_Hiei_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_yurizaki_mira"
+			}
+			army = {
+				large = "gfx/leaders/MEH/Yurizaki_Mira.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Yurizaki_Mira
+			allowed = {
+				original_tag = MEH
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				wfc_intelligence_princess
+			}
+		}
+	}
 }

@@ -2005,7 +2005,10 @@ characters = {
 		name = ACW_Ayame_Himuro
 		portraits = {
 			army = {
-				small = "ayame_himuro_idea"
+				small = "GFX_idea_acw_ayame_himuro"
+			}
+			civilian = {
+				large = "gfx/leaders/ACW/Ayame_Himuro.dds"
 			}
 		}
 		allowed_civil_war = {
