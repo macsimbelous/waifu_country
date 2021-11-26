@@ -1862,7 +1862,10 @@ characters = {
 		name = ACW_Niko_Yazawa
 		portraits = {
 			army = {
-				small = "GFX_idea_ACW_Niko_Yazawa"
+				small = "GFX_idea_acw_niko_yazawa"
+			}
+			civilian = {
+				large = "gfx/leaders/ACW/Niko_Yazawa.dds"
 			}
 		}
 		allowed_civil_war = {
