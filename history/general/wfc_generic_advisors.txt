@@ -1,25 +1,13 @@
-# For minor countries where advisors are not defined
-# Generate them from a generic template
-# Political advisors
 every_possible_country = {
 	limit = {
 		OR = {
-			original_tag = ACW
+			##original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
 			original_tag = MEH
 			original_tag = MMS
 			original_tag = TRP
 		}
-		# avoid generic advisors in temporary countries
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = {
-				idea = communist_revolutionary
-				characters = yes
-			}
-		}
-
 	}
 	generate_character = {
 		token_base = generic_communist_revolutionary		# token will be TAG_token_base
@@ -27,23 +15,6 @@ every_possible_country = {
 			slot = political_advisor
 			traits = {
 				communist_revolutionary
-			}
-			available = {
-				if = {
-					limit = {
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_the_lee_affair
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -60,19 +31,12 @@ every_possible_country = {
 every_possible_country = {
 	limit = {
 		OR = {
-			original_tag = ACW
+			##original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
 			original_tag = MEH
 			original_tag = MMS
 			original_tag = TRP
-		}
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = {
-				idea = democratic_reformer
-				characters = yes
-			}
 		}
 	}
 	generate_character = {
@@ -81,26 +45,6 @@ every_possible_country = {
 			slot = political_advisor
 			traits = {
 				democratic_reformer
-			}
-			available = {
-				if = {
-					limit = {
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -117,19 +61,12 @@ every_possible_country = {
 every_possible_country = {
 	limit = {
 		OR = {
-			original_tag = ACW
+			##original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
 			original_tag = MEH
 			original_tag = MMS
 			original_tag = TRP
-		}
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = {
-				idea = fascist_demagogue
-				characters = yes
-			}
 		}
 	}
 	generate_character = {
@@ -138,23 +75,6 @@ every_possible_country = {
 			slot = political_advisor
 			traits = {
 				fascist_demagogue
-			}
-			available = {
-				if = {
-					limit = {
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_in_the_darkness
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
 			}
 			ai_will_do = {
 				factor = 0
@@ -170,17 +90,8 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		has_dlc = "La Resistance"
-		# china gets a special one via focus
-		NOT = {
-			has_allowed_idea_with_traits = {
-				idea = head_of_intelligence
-				characters = yes
-			}
-		}
-		is_dynamic_country = no
 		OR = {
-			original_tag = ACW
+			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
 			original_tag = MEH
@@ -193,17 +104,10 @@ every_possible_country = {
 		advisor = {
 			slot = political_advisor
 			traits = {
-				head_of_intelligence
+				wfc_intelligence_princess
 			}
 			available = {
 				has_intelligence_agency = yes
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					has_intelligence_agency = no
-					factor = 0
-				}
 			}
 		}
 		portraits = {
@@ -213,12 +117,10 @@ every_possible_country = {
 		}
 	}
 }
-
-# Military advisors
 every_possible_country = {
 	limit = {
 		OR = {
-			original_tag = ACW
+			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
 			original_tag = MEH
@@ -226,13 +128,12 @@ every_possible_country = {
 			original_tag = TRP
 		}
 	}
-	# generic political advisors
 	generate_character = {
-		token_base = generic_captain_of_industry		# token will be TAG_token_base
+		token_base = generic_captain_of_industry		
 		advisor = {
 			slot = political_advisor
 			traits = {
-				captain_of_industry
+				wfc_captain_of_industry
 			}
 		}
 		portraits = {
@@ -241,26 +142,24 @@ every_possible_country = {
 			}
 		}
 	}
-	generate_character = {
-		token_base = generic_fortification_engineer		# token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = {
-				fortification_engineer
-			}
-		}
-		portraits = {
-			army = {
-				small = GFX_idea_generic_fortification_engineer
-			}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
 		}
 	}
 	generate_character = {
-		token_base = generic_war_industrialist		# token will be TAG_token_base
+		token_base = generic_war_industrialist		
 		advisor = {
 			slot = political_advisor
 			traits = {
-				war_industrialist
+				wfc_war_industrialist
 			}
 		}
 		portraits = {
@@ -269,13 +168,103 @@ every_possible_country = {
 			}
 		}
 	}
-	# generic army chiefs
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_political_advisor		
+		advisor = {
+			slot = political_advisor
+			traits = {
+				wfc_silent_workhorse
+			}
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_political_advisor		
+		advisor = {
+			slot = political_advisor
+			traits = {
+				princess_of_terror
+			}
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_political_advisor		
+		advisor = {
+			slot = political_advisor
+			traits = {
+				wfc_popular_figurehead
+			}
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_political_advisor
+			}
+		}
+	}
+}
+# Military advisors
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_army_chief_off		# token will be TAG_token_base
 		advisor = {
 			slot = army_chief
 			traits = {
-				army_chief_offensive_1
+				army_chief_offensive_3
 			}
 			cost = 50
 		}
@@ -285,12 +274,24 @@ every_possible_country = {
 			}
 		}
 	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_army_chief_def		# token will be TAG_token_base
 		advisor = {
 			slot = army_chief
 			traits = {
-				army_chief_defensive_1
+				army_chief_defensive_3
 			}
 			cost = 50
 		}
@@ -300,13 +301,51 @@ every_possible_country = {
 			}
 		}
 	}
-	# generic navy chiefs
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_army_chief_drill
+		advisor = {
+			slot = army_chief
+			traits = {
+				army_chief_drill_3
+			}
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_army_chief_drill
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_navy_chief_decisive_bat		# token will be TAG_token_base
 		advisor = {
 			slot = navy_chief
 			traits = {
-				navy_chief_decisive_battle_2
+				navy_chief_decisive_battle_3
 			}
 			cost = 50
 		}
@@ -316,12 +355,24 @@ every_possible_country = {
 			}
 		}
 	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_navy_anti_submarine		# token will be TAG_token_base
 		advisor = {
 			slot = navy_chief
 			traits = {
-				navy_anti_submarine_2
+				navy_anti_submarine_3
 			}
 			cost = 50
 		}
@@ -331,13 +382,51 @@ every_possible_country = {
 			}
 		}
 	}
-	# generic air chiefs
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_navy_chief_commerce_raiding
+		advisor = {
+			slot = navy_chief
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_navy_anti_submarine
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_air_close_air_sup		# token will be TAG_token_base
 		advisor = {
 			slot = air_chief
 			traits = {
-				air_close_air_support_2
+				air_close_air_support_3
 			}
 			cost = 50
 		}
@@ -347,12 +436,24 @@ every_possible_country = {
 			}
 		}
 	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_air_chief_all_weather		# token will be TAG_token_base
 		advisor = {
 			slot = air_chief
 			traits = {
-				air_chief_all_weather_2
+				air_chief_all_weather_3
 			}
 			cost = 50
 		}
@@ -362,21 +463,70 @@ every_possible_country = {
 			}
 		}
 	}
-	# generic high command
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
-		token_base = generic_army_art		# token will be TAG_token_base
+		token_base = generic_air_chief_ground_support
 		advisor = {
-			slot = high_command
+			slot = air_chief
 			traits = {
-				army_artillery_1
+				air_chief_ground_support_3
 			}
-			ledger = army
 			cost = 50
 		}
 		portraits = {
 			army = {
-				small = GFX_idea_generic_army_art
+				small = GFX_idea_generic_air_chief_ground_support
 			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_air_chief_reform
+		advisor = {
+			slot = air_chief
+			traits = {
+				air_chief_reform_3
+			}
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_air_chief_reform
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -384,7 +534,7 @@ every_possible_country = {
 		advisor = {
 			slot = high_command
 			traits = {
-				army_logistics_2
+				army_logistics_3
 			}
 			ledger = army
 			cost = 50
@@ -395,12 +545,164 @@ every_possible_country = {
 			}
 		}
 	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_army_art		# token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = {
+				army_artillery_3
+			}
+			ledger = army
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_army_art
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_army_inf
+		advisor = {
+			slot = high_command
+			traits = {
+				army_infantry_3
+			}
+			ledger = army
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_army_inf
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_army_arm
+		advisor = {
+			slot = high_command
+			traits = {
+				army_armored_3
+			}
+			ledger = army
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_army_arm
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_army_reg
+		advisor = {
+			slot = high_command
+			traits = {
+				army_regrouping_3
+			}
+			ledger = army
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_army_reg
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_army_cavalry
+		advisor = {
+			slot = high_command
+			traits = {
+				army_cavalry_3
+			}
+			ledger = army
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_army_cavalry
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_navy_fleet_log		# token will be TAG_token_base
 		advisor = {
 			slot = high_command
 			traits = {
-				navy_fleet_logistics_1
+				navy_fleet_logistics_3
 			}
 			ledger = navy
 			cost = 50
@@ -411,12 +713,24 @@ every_possible_country = {
 			}
 		}
 	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_air_air_combat_trainer		# token will be TAG_token_base
 		advisor = {
 			slot = high_command
 			traits = {
-				air_air_combat_training_2
+				air_air_combat_training_3
 			}
 			ledger = air
 			cost = 50
@@ -427,7 +741,18 @@ every_possible_country = {
 			}
 		}
 	}
-	# generic theorists
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_military_theorist		# token will be TAG_token_base
 		advisor = {
@@ -444,6 +769,46 @@ every_possible_country = {
 			}
 		}
 	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_military_theorist		# token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = {
+				blitzkrieg_theorist
+			}
+			ledger = army
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_military_theorist
+			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
 	generate_character = {
 		token_base = generic_naval_theorist		# token will be TAG_token_base
 		advisor = {
@@ -458,6 +823,18 @@ every_possible_country = {
 			army = {
 				small = GFX_idea_generic_naval_theorist
 			}
+		}
+	}
+}
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -477,3 +854,32 @@ every_possible_country = {
 		}
 	}
 }
+every_possible_country = {
+	limit = {
+		OR = {
+			#original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = TRP
+		}
+	}
+	generate_character = {
+		token_base = generic_captain_of_industry
+		advisor = {
+			slot = theorist
+			traits = {
+				wfc_girl_scientist
+			}
+			ledger = air
+			cost = 50
+		}
+		portraits = {
+			army = {
+				small = GFX_idea_generic_captain_of_industry
+			}
+		}
+	}
+}
+

@@ -1,104 +1,104 @@
 spriteTypes = {
-	spriteType = {
-		name = "GFX_idea_trp_mare_bello_fiore"
-		texturefile = "gfx/interface/ideas/idea_trp_mare_bello_fiore.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_hitoshi_sugoroku"
-		texturefile = "gfx/interface/ideas/idea_trp_hitoshi_sugoroku.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_felix_argyle"
-		texturefile = "gfx/interface/ideas/idea_trp_felix_argyle.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_birdy_cephon_altera"
-		texturefile = "gfx/interface/ideas/idea_trp_birdy_cephon_altera.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_hime_arikawa"
-		texturefile = "gfx/interface/ideas/idea_trp_hime_arikawa.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_russell"
-		texturefile = "gfx/interface/ideas/idea_trp_russell.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_souji_mitsuka"
-		texturefile = "gfx/interface/ideas/idea_trp_souji_mitsuka.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_ranga"
-		texturefile = "gfx/interface/ideas/idea_trp_ranga.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_aoi_futaba"
-		texturefile = "gfx/interface/ideas/idea_trp_aoi_futaba.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_kaoru_hanase"
-		texturefile = "gfx/interface/ideas/idea_trp_kaoru_hanase.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_aoi_hyoudou"
-		texturefile = "gfx/interface/ideas/idea_trp_aoi_hyoudou.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_mariya_shidou"
-		texturefile = "gfx/interface/ideas/idea_trp_mariya_shidou.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_taroumaru_seike"
-		texturefile = "gfx/interface/ideas/idea_trp_taroumaru_seike.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_tama_kyan"
-		texturefile = "gfx/interface/ideas/idea_trp_tama_kyan.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_kaguya_arikawa"
-		texturefile = "gfx/interface/ideas/idea_trp_kaguya_arikawa.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_oboro_tsukimigusa"
-		texturefile = "gfx/interface/ideas/idea_trp_oboro_tsukimigusa.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_sylvia"
-		texturefile = "gfx/interface/ideas/idea_trp_sylvia.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_hamaji_yakumo"
-		texturefile = "gfx/interface/ideas/idea_trp_hamaji_yakumo.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_yukikaze"
-		texturefile = "gfx/interface/ideas/idea_trp_yukikaze.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_mitsunaga_oda"
-		texturefile = "gfx/interface/ideas/idea_trp_mitsunaga_oda.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_ritsu_souma"
-		texturefile = "gfx/interface/ideas/idea_trp_ritsu_souma.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_xianming_lin"
-		texturefile = "gfx/interface/ideas/idea_trp_xianming_lin.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_mizuho_miyanokouji"
-		texturefile = "gfx/interface/ideas/idea_trp_mizuho_miyanokouji.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_youta_tsunashi"
-		texturefile = "gfx/interface/ideas/idea_trp_youta_tsunashi.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_trp_fish_eye"
-		texturefile = "gfx/interface/ideas/idea_trp_fish_eye.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_trp_mare_bello_fiore"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_mare_bello_fiore.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_hitoshi_sugoroku"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_hitoshi_sugoroku.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_felix_argyle"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_felix_argyle.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_birdy_cephon_altera"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_birdy_cephon_altera.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_hime_arikawa"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_hime_arikawa.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_russell"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_russell.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_souji_mitsuka"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_souji_mitsuka.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_ranga"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_ranga.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_aoi_futaba"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_aoi_futaba.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_kaoru_hanase"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_kaoru_hanase.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_aoi_hyoudou"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_aoi_hyoudou.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_mariya_shidou"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_mariya_shidou.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_taroumaru_seike"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_taroumaru_seike.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_tama_kyan"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_tama_kyan.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_kaguya_arikawa"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_kaguya_arikawa.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_oboro_tsukimigusa"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_oboro_tsukimigusa.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_sylvia"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_sylvia.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_hamaji_yakumo"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_hamaji_yakumo.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_yukikaze"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_yukikaze.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_mitsunaga_oda"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_mitsunaga_oda.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_ritsu_souma"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_ritsu_souma.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_xianming_lin"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_xianming_lin.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_mizuho_miyanokouji"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_mizuho_miyanokouji.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_youta_tsunashi"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_youta_tsunashi.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_trp_fish_eye"
+	# 	texturefile = "gfx/interface/ideas/idea_trp_fish_eye.dds"
+	# }
 	#duhi
 	spriteType = {
 		name = "GFX_idea_TRP_revolution"

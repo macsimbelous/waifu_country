@@ -145,9 +145,6 @@ characters = {
 			traits = {
 				blitzkrieg_theorist
 			}
-			research_bonus = {
-				cat_mobile_warfare = 0.2
-			}
 		}
 		field_marshal = {
 			traits = {
@@ -770,9 +767,6 @@ characters = {
 			traits = {
 				superior_firepower_expert
 			}
-			research_bonus = {
-				cat_superior_firepower = 0.2
-			}
 		}
 	}
 	ACW_Neptune = {
@@ -831,9 +825,6 @@ characters = {
 			traits = {
 				mass_assault_expert
 			}
-			research_bonus = {
-				cat_mass_assault = 0.2
-			}
 		}
 	}
 	ACW_Satellizer_el_Bridget = {
@@ -880,9 +871,6 @@ characters = {
 			}
 			traits = {
 				grand_battle_plan_expert
-			}
-			research_bonus = {
-				cat_grand_battle_plan = 0.2
 			}
 		}
 	}
@@ -1337,9 +1325,6 @@ characters = {
 			traits = {
 				air_warfare_theorist
 			}
-			research_bonus = {
-				air_doctrine = 0.2
-			}
 		}
 	}
 	ACW_Sophie_Neuenmuller = {
@@ -1425,6 +1410,48 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	ACW_Noelle = {
+		name = ACW_Noelle
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_noelle"
+				large = "gfx/leaders/ACW/noelle.dds"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		corps_commander = {
+			traits = {
+				unyielding_defender defense_skill
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Noelle
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						name = "Anastasia"
+					}
+				}
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
 	######################
 	#### NAVY LEADRES ####
 	######################
@@ -1448,9 +1475,6 @@ characters = {
 			}
 			traits = {
 				grand_fleet_proponent
-			}
-			research_bonus = {
-				cat_fleet_in_being = 0.2
 			}
 		}
 		navy_leader = {
@@ -1574,9 +1598,6 @@ characters = {
 			}
 			traits = {
 				naval_theorist
-			}
-			research_bonus = {
-				cat_base_strike = 0.2
 			}
 		}
 	}
@@ -1724,9 +1745,6 @@ characters = {
 			traits = {
 				naval_theorist
 			}
-			research_bonus = {
-				cat_trade_interdiction = 0.2
-			}
 		}
 	}
 	ACW_Beidou = {
@@ -1766,6 +1784,9 @@ characters = {
 			army = {
 				small = "GFX_idea_acw_minami_nitta"
 			}
+			civilian = {
+				large = "gfx/leaders/ACW/minami_nitta.dds"
+			}
 		}
 		allowed_civil_war = {
 			always = yes
@@ -1786,37 +1807,6 @@ characters = {
 			}
 			ai_will_do = {
 				factor = 5
-			}
-		}
-	}
-	ACW_Noelle = {
-		name = ACW_Noelle
-		portraits = {
-			army = {
-				small = "GFX_idea_acw_noelle"
-			}
-		}
-		allowed_civil_war = {
-			always = yes
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Noelle
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						name = "Anastasia"
-					}
-				}
-			}
-			traits = {
-				silent_workhorse
-			}
-			ai_will_do = {
-				factor = 2
 			}
 		}
 	}

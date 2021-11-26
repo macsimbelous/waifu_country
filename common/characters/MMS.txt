@@ -35,7 +35,7 @@ characters = {
 		}
 	}
 	MMS_yuuko_yoshida = {
-		name = "Yuuko Yoshida"
+		name = MMS_yuuko_yoshida
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_yuuko_yoshida"
@@ -58,7 +58,7 @@ characters = {
 		}
 	}
 	MMS_maou = {
-		name = "Maou"
+		name = MMS_maou
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_maou"
@@ -81,7 +81,7 @@ characters = {
 		}
 	}
 	MMS_holo = {
-		name = "Holo"
+		name = MMS_holo
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_holo"
@@ -105,7 +105,7 @@ characters = {
 	}
 	#marshal
 	MMS_fino_bloodstone = {
-		name = "Fino Bloodstone"
+		name = MMS_fino_bloodstone
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_fino_bloodstone"
@@ -127,7 +127,7 @@ characters = {
 		}
 	}
 	MMS_rhea = {
-		name = "Rhea"
+		name = MMS_rhea
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_rhea"
@@ -146,7 +146,7 @@ characters = {
 		}
 	}
 	MMS_shiraori = {
-		name = "Shiraori"
+		name = MMS_shiraori
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_shiraori"
@@ -172,7 +172,7 @@ characters = {
 		}
 	}
 	MMS_ishtar = {
-		name = "Ishtar"
+		name = MMS_ishtar
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_ishtar"
@@ -365,7 +365,7 @@ characters = {
 
 
 	MMS_milla_maxwell = {
-		name = "Milla Maxwell"
+		name = MMS_milla_maxwell
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_milla_maxwell"
@@ -388,7 +388,7 @@ characters = {
 		}
 	}
 	MMS_astaroth = {
-		name = "Astaroth"
+		name = MMS_astaroth
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_astaroth"
@@ -410,7 +410,7 @@ characters = {
 		}
 	}
 	MMS_laharl_female = {
-		name = "Laharl female"
+		name = MMS_laharl_female
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_laharl_female"
@@ -433,7 +433,7 @@ characters = {
 		}
 	}
 	MMS_desco = {
-		name = "Desco"
+		name = MMS_desco
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_desco"
@@ -524,7 +524,7 @@ characters = {
 		}
 	}
 	MMS_corrin = {
-		name = "Corrin"
+		name = MMS_corrin
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_corrin"
@@ -543,7 +543,7 @@ characters = {
 		}
 	}
 	MMS_lucy = {
-		name = "Lucy"
+		name = MMS_lucy
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_lucy"
@@ -562,7 +562,7 @@ characters = {
 		}
 	}
 	MMS_makina_hoshimura = {
-		name = "Makina Hoshimura"
+		name = MMS_makina_hoshimura
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_makina_hoshimura"
@@ -581,7 +581,7 @@ characters = {
 		}
 	}
 	MMS_saya_kisaragi = {
-		name = "Saya Kisaragi"
+		name = MMS_saya_kisaragi
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_saya_kisaragi"
@@ -600,7 +600,7 @@ characters = {
 		}
 	}
 	MMS_02 = {
-		name = "02"
+		name = MMS_02
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_02"
@@ -648,7 +648,7 @@ characters = {
 		}
 	}
 	MMS_satanichia_mcdowell_kurumizawa = {
-		name = "Satanichia McDowell Kurumizawa"
+		name = MMS_satanichia_mcdowell_kurumizawa
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_satanichia_mcdowell_kurumizawa"
@@ -667,7 +667,7 @@ characters = {
 		}
 	}
 	MMS_arnice = {
-		name = "Arnice"
+		name = MMS_arnice
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_arnice"
@@ -686,7 +686,7 @@ characters = {
 		}
 	}
 	MMS_saya_otonashi = {
-		name = "Saya Otonashi"
+		name = MMS_saya_otonashi
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_saya_otonashi"
@@ -705,7 +705,7 @@ characters = {
 		}
 	}
 	MMS_marie_von_eisenberg = {
-		name = "Marie Von Eisenberg"
+		name = MMS_marie_von_eisenberg
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_marie_von_eisenberg"
@@ -724,7 +724,7 @@ characters = {
 		}
 	}
 	MMS_kurari_rose = {
-		name = "Kurari Rose"
+		name = MMS_kurari_rose
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_kurari_rose"
@@ -743,7 +743,7 @@ characters = {
 		}
 	}
 	MMS_heine = {
-		name = "Heine"
+		name = MMS_heine
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_heine"
@@ -766,7 +766,7 @@ characters = {
 	}
 	#admirals
 	MMS_yamato_wg = {
-		name = "Yamato WG"
+		name = MMS_yamato_wg
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_yamato_wg"
@@ -789,7 +789,7 @@ characters = {
 		}
 	}
 	MMS_purifier = {
-		name = "Purifier"
+		name = MMS_purifier
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_purifier"
@@ -812,7 +812,7 @@ characters = {
 		}
 	}
 	MMS_tester = {
-		name = "Tester"
+		name = MMS_tester
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_tester"

@@ -351,4 +351,12 @@ spriteTypes = {
                 name = "GFX_idea_acw_yuno_gasai"
                 texturefile = "gfx/leaders/ACW/yuno_gasai_idea.dds"
 	}
+        spriteType = {
+                name = "GFX_idea_acw_noelle"
+                texturefile = "gfx/leaders/ACW/noelle_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_minami_nitta"
+                texturefile = "gfx/leaders/ACW/minami_nitta_idea.dds"
+        }
 }

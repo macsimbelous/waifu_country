@@ -1,7 +1,7 @@
 characters = {
 	#lider
 	TRP_astolfo = {
-		name = "Astolfo"
+		name = TRP_astolfo
 		portraits = {
 			army = {
 				small = "GFX_idea_trp_astolfo"
@@ -35,7 +35,7 @@ characters = {
 		}
 	}
 	TRP_hideri_kanzaki = {
-		name = "Hideri Kanzaki"
+		name = TRP_hideri_kanzaki
 		portraits = {
 			army = {
 				small = "GFX_idea_trp_hideri_kanzaki"
@@ -57,7 +57,7 @@ characters = {
 		}
 	}
 	TRP_tetora = {
-		name = "Tetora"
+		name = TRP_tetora
 		portraits = {
 			army = {
 				small = "GFX_idea_trp_tetora"
@@ -79,7 +79,7 @@ characters = {
 		}
 	}
 	TRP_ringo_tsukimiya = {
-		name = "Ringo Tsukimiya"
+		name = TRP_ringo_tsukimiya
 		portraits = {
 			army = {
 				small = "GFX_idea_trp_ringo_tsukimiya"
@@ -728,7 +728,7 @@ characters = {
 	}
 	#admirals
 	TRP_ranma_saotome = {
-		name = "Ranma Saotome"
+		name = TRP_ranma_saotome
 		portraits = {
 			army = {
 				small = "GFX_idea_trp_ranma_saotome"
