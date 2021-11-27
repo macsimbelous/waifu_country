@@ -359,4 +359,16 @@ spriteTypes = {
                 name = "GFX_idea_acw_minami_nitta"
                 texturefile = "gfx/leaders/ACW/minami_nitta_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_acw_megumin"
+                texturefile = "gfx/leaders/ACW/megumin_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_mikumo_guynemer"
+                texturefile = "gfx/leaders/ACW/mikumo_guynemer_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_lucy_yamagami"
+                texturefile = "gfx/leaders/ACW/lucy_yamagami_idea.dds"
+        }
 }

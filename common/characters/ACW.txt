@@ -1895,6 +1895,9 @@ characters = {
 			army = {
 				small = "GFX_idea_acw_mikumo_guynemer"
 			}
+			civilian = {
+				large = "gfx/leaders/ACW/mikumo_guynemer.dds"
+			}
 		}
 		allowed_civil_war = {
 			always = yes
@@ -1937,6 +1940,9 @@ characters = {
 			army = {
 				small = "GFX_idea_acw_lucy_yamagami"
 			}
+			civilian = {
+				large = "gfx/leaders/ACW/lucy_yamagami.dds"
+			}
 		}
 		allowed_civil_war = {
 			always = yes
@@ -1978,6 +1984,9 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_acw_megumin"
+			}
+			civilian = {
+				large = "gfx/leaders/ACW/megumin.dds"
 			}
 		}
 		allowed_civil_war = {
@@ -2023,6 +2032,36 @@ characters = {
 			}
 			ai_will_do = {
 				factor = 2
+			}
+		}
+	}
+	ACW_head_int = {
+		name = generic_head_of_intelligence
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_ayame_himuro"
+			}
+			civilian = {
+				large = "gfx/leaders/ACW/Ayame_Himuro.dds"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_head_of_intelligence
+			allowed = {
+				original_tag = ACW
+			}
+			visible = {
+				always = no
+			}
+			traits = {
+				head_of_intelligence
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 	}
