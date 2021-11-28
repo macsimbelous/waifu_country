@@ -20,8 +20,8 @@ mah_make_friends_with_shamiko_category = {
 	}
 	visible = {
 		has_country_leader = {
+			character = MMS_yuuko_yoshida
 			ruling_only = yes
-			name = "Momo Chiyoda"
 		}
 	}
 }

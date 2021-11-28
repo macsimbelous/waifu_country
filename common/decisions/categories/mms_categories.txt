@@ -8,8 +8,9 @@ mms_workouts_shamiko_category = {
 	}
 	visible = {
 		has_country_leader = {
+			character = MMS_yuuko_yoshida
 			ruling_only = yes
-			name = "Yuuko Yoshida"
+			#name = "Yuuko Yoshida"
 		}
 		has_country_leader_with_trait = defeatist
 	}

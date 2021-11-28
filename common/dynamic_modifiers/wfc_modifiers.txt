@@ -21,8 +21,8 @@ mms_power_shamiko = {
 	icon = GFX_idea_generic_intel_bonus
 	enable = {
 		has_country_leader = {
+			character = MMS_yuuko_yoshida
 			ruling_only = yes
-			name = "Shamiko"
 		}
 	}
 	army_attack_factor = mms_shamiko_attack
