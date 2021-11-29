@@ -2,7 +2,7 @@ characters = {
 	ACW_GER_puppet_leader_neutrality = {
 		name = generic_political_advisor
 		portraits = { civilian = { large = "gfx/leaders/ACW/ACW_land_01.dds" } }
-		country_leader = { ideology = despotism traits = { wfc_anime_tyan } expire = "1953.3.1.1" id = -1 }
+		#country_leader = { ideology = despotism traits = { wfc_anime_tyan } expire = "1953.3.1.1" id = -1 }
 	}
 	ACW_GER_puppet_leader_democratic = {
 		name = generic_political_advisor

@@ -59,7 +59,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+#recruit_character = ACW_GER_puppet_leader_neutrality
 #leaders
 recruit_character = ACW_Erza
 recruit_character = ACW_Asuka

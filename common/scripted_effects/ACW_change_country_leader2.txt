@@ -1,34 +1,68 @@
 ACW_change_country_leader2 = {
 	if = {
-		limit = { original_tag = GER }
+		limit = {
+			original_tag = GER
+		}
 		if = {
-			limit = { has_government = communism }
-			GER = { recruit_character = ACW_GER_puppet_leader_communism }
+			limit = {
+				has_government = communism
+			}
+			GER = {
+				recruit_character = ACW_GER_puppet_leader_communism
+			}
 		}
 		else_if = {
-			limit = { has_government = fascism }
-			GER = { recruit_character = ACW_GER_puppet_leader_fascism }
+			limit = {
+				has_government = fascism
+			}
+			GER = {
+				recruit_character = ACW_GER_puppet_leader_fascism
+			}
 		}
 		else_if = {
-			limit = { has_government = democratic }
-			GER = { recruit_character = ACW_GER_puppet_leader_democratic }
+			limit = {
+				has_government = democratic
+			}
+			GER = {
+				recruit_character = ACW_GER_puppet_leader_democratic
+			}
 		}
 		else = {
-			GER = { recruit_character = ACW_GER_puppet_leader_neutrality }
+			ACW_GER_puppet_leader_neutrality = { set_nationality = GER }
+			retire_country_leader = yes
+			add_country_leader_role = {
+				Character = ACW_GER_puppet_leader_neutrality
+				Promote_leader = yes
+				Country_leader = {
+					ideology = despotism
+					expire = "1965.1.1.1"
+					traits = {
+						wfc_anime_tyan
+					}
+				}
+			}
 		}
 	}
 	else_if = {
-		limit = { original_tag = ENG }
+		limit = {
+			original_tag = ENG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ENG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ENG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ENG_puppet_leader_democratic
 		}
 		else = {
@@ -36,17 +70,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SOV }
+		limit = {
+			original_tag = SOV
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SOV_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SOV_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SOV_puppet_leader_democratic
 		}
 		else = {
@@ -54,17 +96,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SWE }
+		limit = {
+			original_tag = SWE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SWE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SWE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SWE_puppet_leader_democratic
 		}
 		else = {
@@ -72,17 +122,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = FRA }
+		limit = {
+			original_tag = FRA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_FRA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_FRA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_FRA_puppet_leader_democratic
 		}
 		else = {
@@ -90,17 +148,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = LUX }
+		limit = {
+			original_tag = LUX
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_LUX_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_LUX_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_LUX_puppet_leader_democratic
 		}
 		else = {
@@ -108,17 +174,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BEL }
+		limit = {
+			original_tag = BEL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BEL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BEL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BEL_puppet_leader_democratic
 		}
 		else = {
@@ -126,17 +200,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = HOL }
+		limit = {
+			original_tag = HOL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_HOL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_HOL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_HOL_puppet_leader_democratic
 		}
 		else = {
@@ -144,17 +226,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CZE }
+		limit = {
+			original_tag = CZE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CZE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CZE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CZE_puppet_leader_democratic
 		}
 		else = {
@@ -162,17 +252,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = POL }
+		limit = {
+			original_tag = POL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_POL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_POL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_POL_puppet_leader_democratic
 		}
 		else = {
@@ -180,17 +278,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = AUS }
+		limit = {
+			original_tag = AUS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_AUS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_AUS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_AUS_puppet_leader_democratic
 		}
 		else = {
@@ -198,17 +304,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = LIT }
+		limit = {
+			original_tag = LIT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_LIT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_LIT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_LIT_puppet_leader_democratic
 		}
 		else = {
@@ -216,17 +330,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = EST }
+		limit = {
+			original_tag = EST
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_EST_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_EST_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_EST_puppet_leader_democratic
 		}
 		else = {
@@ -234,17 +356,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = LAT }
+		limit = {
+			original_tag = LAT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_LAT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_LAT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_LAT_puppet_leader_democratic
 		}
 		else = {
@@ -252,17 +382,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SPR }
+		limit = {
+			original_tag = SPR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SPR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SPR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SPR_puppet_leader_democratic
 		}
 		else = {
@@ -270,17 +408,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ITA }
+		limit = {
+			original_tag = ITA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ITA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ITA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ITA_puppet_leader_democratic
 		}
 		else = {
@@ -288,17 +434,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ROM }
+		limit = {
+			original_tag = ROM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ROM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ROM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ROM_puppet_leader_democratic
 		}
 		else = {
@@ -306,17 +460,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = YUG }
+		limit = {
+			original_tag = YUG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_YUG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_YUG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_YUG_puppet_leader_democratic
 		}
 		else = {
@@ -324,17 +486,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SER }
+		limit = {
+			original_tag = SER
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SER_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SER_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SER_puppet_leader_democratic
 		}
 		else = {
@@ -342,17 +512,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SWI }
+		limit = {
+			original_tag = SWI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SWI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SWI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SWI_puppet_leader_democratic
 		}
 		else = {
@@ -360,17 +538,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TUR }
+		limit = {
+			original_tag = TUR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TUR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TUR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TUR_puppet_leader_democratic
 		}
 		else = {
@@ -378,17 +564,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GRE }
+		limit = {
+			original_tag = GRE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GRE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GRE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GRE_puppet_leader_democratic
 		}
 		else = {
@@ -396,17 +590,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ALB }
+		limit = {
+			original_tag = ALB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ALB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ALB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ALB_puppet_leader_democratic
 		}
 		else = {
@@ -414,17 +616,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NOR }
+		limit = {
+			original_tag = NOR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NOR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NOR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NOR_puppet_leader_democratic
 		}
 		else = {
@@ -432,17 +642,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = DEN }
+		limit = {
+			original_tag = DEN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_DEN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_DEN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_DEN_puppet_leader_democratic
 		}
 		else = {
@@ -450,17 +668,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BUL }
+		limit = {
+			original_tag = BUL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BUL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BUL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BUL_puppet_leader_democratic
 		}
 		else = {
@@ -468,17 +694,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = POR }
+		limit = {
+			original_tag = POR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_POR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_POR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_POR_puppet_leader_democratic
 		}
 		else = {
@@ -486,17 +720,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = FIN }
+		limit = {
+			original_tag = FIN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_FIN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_FIN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_FIN_puppet_leader_democratic
 		}
 		else = {
@@ -504,17 +746,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = IRE }
+		limit = {
+			original_tag = IRE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_IRE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_IRE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_IRE_puppet_leader_democratic
 		}
 		else = {
@@ -522,17 +772,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = HUN }
+		limit = {
+			original_tag = HUN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_HUN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_HUN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_HUN_puppet_leader_democratic
 		}
 		else = {
@@ -540,17 +798,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = AFG }
+		limit = {
+			original_tag = AFG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_AFG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_AFG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_AFG_puppet_leader_democratic
 		}
 		else = {
@@ -558,17 +824,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ARG }
+		limit = {
+			original_tag = ARG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ARG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ARG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ARG_puppet_leader_democratic
 		}
 		else = {
@@ -576,17 +850,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = AST }
+		limit = {
+			original_tag = AST
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_AST_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_AST_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_AST_puppet_leader_democratic
 		}
 		else = {
@@ -594,17 +876,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BHU }
+		limit = {
+			original_tag = BHU
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BHU_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BHU_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BHU_puppet_leader_democratic
 		}
 		else = {
@@ -612,17 +902,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BOL }
+		limit = {
+			original_tag = BOL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BOL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BOL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BOL_puppet_leader_democratic
 		}
 		else = {
@@ -630,17 +928,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BRA }
+		limit = {
+			original_tag = BRA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BRA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BRA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BRA_puppet_leader_democratic
 		}
 		else = {
@@ -648,17 +954,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CAN }
+		limit = {
+			original_tag = CAN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CAN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CAN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CAN_puppet_leader_democratic
 		}
 		else = {
@@ -666,17 +980,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CHI }
+		limit = {
+			original_tag = CHI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CHI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CHI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CHI_puppet_leader_democratic
 		}
 		else = {
@@ -684,17 +1006,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CHL }
+		limit = {
+			original_tag = CHL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CHL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CHL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CHL_puppet_leader_democratic
 		}
 		else = {
@@ -702,17 +1032,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = COL }
+		limit = {
+			original_tag = COL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_COL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_COL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_COL_puppet_leader_democratic
 		}
 		else = {
@@ -720,17 +1058,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = COS }
+		limit = {
+			original_tag = COS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_COS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_COS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_COS_puppet_leader_democratic
 		}
 		else = {
@@ -738,17 +1084,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ECU }
+		limit = {
+			original_tag = ECU
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ECU_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ECU_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ECU_puppet_leader_democratic
 		}
 		else = {
@@ -756,17 +1110,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ELS }
+		limit = {
+			original_tag = ELS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ELS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ELS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ELS_puppet_leader_democratic
 		}
 		else = {
@@ -774,17 +1136,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ETH }
+		limit = {
+			original_tag = ETH
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ETH_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ETH_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ETH_puppet_leader_democratic
 		}
 		else = {
@@ -792,17 +1162,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GUA }
+		limit = {
+			original_tag = GUA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GUA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GUA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GUA_puppet_leader_democratic
 		}
 		else = {
@@ -810,17 +1188,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = HON }
+		limit = {
+			original_tag = HON
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_HON_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_HON_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_HON_puppet_leader_democratic
 		}
 		else = {
@@ -828,17 +1214,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = IRQ }
+		limit = {
+			original_tag = IRQ
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_IRQ_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_IRQ_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_IRQ_puppet_leader_democratic
 		}
 		else = {
@@ -846,17 +1240,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = JAP }
+		limit = {
+			original_tag = JAP
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_JAP_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_JAP_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_JAP_puppet_leader_democratic
 		}
 		else = {
@@ -864,17 +1266,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KOR }
+		limit = {
+			original_tag = KOR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KOR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KOR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KOR_puppet_leader_democratic
 		}
 		else = {
@@ -882,17 +1292,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = LIB }
+		limit = {
+			original_tag = LIB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_LIB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_LIB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_LIB_puppet_leader_democratic
 		}
 		else = {
@@ -900,17 +1318,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MEX }
+		limit = {
+			original_tag = MEX
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MEX_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MEX_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MEX_puppet_leader_democratic
 		}
 		else = {
@@ -918,17 +1344,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MEN }
+		limit = {
+			original_tag = MEN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MEN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MEN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MEN_puppet_leader_democratic
 		}
 		else = {
@@ -936,17 +1370,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NEP }
+		limit = {
+			original_tag = NEP
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NEP_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NEP_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NEP_puppet_leader_democratic
 		}
 		else = {
@@ -954,17 +1396,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NIC }
+		limit = {
+			original_tag = NIC
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NIC_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NIC_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NIC_puppet_leader_democratic
 		}
 		else = {
@@ -972,17 +1422,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NZL }
+		limit = {
+			original_tag = NZL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NZL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NZL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NZL_puppet_leader_democratic
 		}
 		else = {
@@ -990,17 +1448,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PAN }
+		limit = {
+			original_tag = PAN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PAN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PAN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PAN_puppet_leader_democratic
 		}
 		else = {
@@ -1008,17 +1474,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PER }
+		limit = {
+			original_tag = PER
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PER_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PER_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PER_puppet_leader_democratic
 		}
 		else = {
@@ -1026,17 +1500,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PHI }
+		limit = {
+			original_tag = PHI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PHI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PHI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PHI_puppet_leader_democratic
 		}
 		else = {
@@ -1044,17 +1526,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PRU }
+		limit = {
+			original_tag = PRU
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PRU_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PRU_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PRU_puppet_leader_democratic
 		}
 		else = {
@@ -1062,17 +1552,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SAF }
+		limit = {
+			original_tag = SAF
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SAF_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SAF_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SAF_puppet_leader_democratic
 		}
 		else = {
@@ -1080,17 +1578,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SAU }
+		limit = {
+			original_tag = SAU
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SAU_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SAU_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SAU_puppet_leader_democratic
 		}
 		else = {
@@ -1098,17 +1604,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SIA }
+		limit = {
+			original_tag = SIA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SIA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SIA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SIA_puppet_leader_democratic
 		}
 		else = {
@@ -1116,17 +1630,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SIK }
+		limit = {
+			original_tag = SIK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SIK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SIK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SIK_puppet_leader_democratic
 		}
 		else = {
@@ -1134,17 +1656,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TIB }
+		limit = {
+			original_tag = TIB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TIB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TIB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TIB_puppet_leader_democratic
 		}
 		else = {
@@ -1152,17 +1682,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = URG }
+		limit = {
+			original_tag = URG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_URG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_URG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_URG_puppet_leader_democratic
 		}
 		else = {
@@ -1170,17 +1708,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = VEN }
+		limit = {
+			original_tag = VEN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_VEN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_VEN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_VEN_puppet_leader_democratic
 		}
 		else = {
@@ -1188,17 +1734,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = YUN }
+		limit = {
+			original_tag = YUN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_YUN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_YUN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_YUN_puppet_leader_democratic
 		}
 		else = {
@@ -1206,17 +1760,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = USA }
+		limit = {
+			original_tag = USA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_USA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_USA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_USA_puppet_leader_democratic
 		}
 		else = {
@@ -1224,17 +1786,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MON }
+		limit = {
+			original_tag = MON
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MON_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MON_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MON_puppet_leader_democratic
 		}
 		else = {
@@ -1242,17 +1812,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TAN }
+		limit = {
+			original_tag = TAN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TAN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TAN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TAN_puppet_leader_democratic
 		}
 		else = {
@@ -1260,17 +1838,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PAR }
+		limit = {
+			original_tag = PAR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PAR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PAR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PAR_puppet_leader_democratic
 		}
 		else = {
@@ -1278,17 +1864,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CUB }
+		limit = {
+			original_tag = CUB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CUB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CUB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CUB_puppet_leader_democratic
 		}
 		else = {
@@ -1296,17 +1890,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = DOM }
+		limit = {
+			original_tag = DOM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_DOM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_DOM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_DOM_puppet_leader_democratic
 		}
 		else = {
@@ -1314,17 +1916,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = HAI }
+		limit = {
+			original_tag = HAI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_HAI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_HAI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_HAI_puppet_leader_democratic
 		}
 		else = {
@@ -1332,17 +1942,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = YEM }
+		limit = {
+			original_tag = YEM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_YEM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_YEM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_YEM_puppet_leader_democratic
 		}
 		else = {
@@ -1350,17 +1968,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = OMA }
+		limit = {
+			original_tag = OMA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_OMA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_OMA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_OMA_puppet_leader_democratic
 		}
 		else = {
@@ -1368,17 +1994,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SLO }
+		limit = {
+			original_tag = SLO
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SLO_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SLO_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SLO_puppet_leader_democratic
 		}
 		else = {
@@ -1386,17 +2020,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = RAJ }
+		limit = {
+			original_tag = RAJ
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_RAJ_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_RAJ_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_RAJ_puppet_leader_democratic
 		}
 		else = {
@@ -1404,17 +2046,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CRO }
+		limit = {
+			original_tag = CRO
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CRO_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CRO_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CRO_puppet_leader_democratic
 		}
 		else = {
@@ -1422,17 +2072,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GXC }
+		limit = {
+			original_tag = GXC
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GXC_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GXC_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GXC_puppet_leader_democratic
 		}
 		else = {
@@ -1440,17 +2098,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PRC }
+		limit = {
+			original_tag = PRC
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PRC_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PRC_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PRC_puppet_leader_democratic
 		}
 		else = {
@@ -1458,17 +2124,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SHX }
+		limit = {
+			original_tag = SHX
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SHX_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SHX_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SHX_puppet_leader_democratic
 		}
 		else = {
@@ -1476,17 +2150,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = XSM }
+		limit = {
+			original_tag = XSM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_XSM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_XSM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_XSM_puppet_leader_democratic
 		}
 		else = {
@@ -1494,17 +2176,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ICE }
+		limit = {
+			original_tag = ICE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ICE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ICE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ICE_puppet_leader_democratic
 		}
 		else = {
@@ -1512,17 +2202,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = LEB }
+		limit = {
+			original_tag = LEB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_LEB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_LEB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_LEB_puppet_leader_democratic
 		}
 		else = {
@@ -1530,17 +2228,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = JOR }
+		limit = {
+			original_tag = JOR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_JOR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_JOR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_JOR_puppet_leader_democratic
 		}
 		else = {
@@ -1548,17 +2254,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SYR }
+		limit = {
+			original_tag = SYR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SYR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SYR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SYR_puppet_leader_democratic
 		}
 		else = {
@@ -1566,17 +2280,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = EGY }
+		limit = {
+			original_tag = EGY
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_EGY_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_EGY_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_EGY_puppet_leader_democratic
 		}
 		else = {
@@ -1584,17 +2306,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = LBA }
+		limit = {
+			original_tag = LBA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_LBA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_LBA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_LBA_puppet_leader_democratic
 		}
 		else = {
@@ -1602,17 +2332,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = WGR }
+		limit = {
+			original_tag = WGR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_WGR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_WGR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_WGR_puppet_leader_democratic
 		}
 		else = {
@@ -1620,17 +2358,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = DDR }
+		limit = {
+			original_tag = DDR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_DDR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_DDR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_DDR_puppet_leader_democratic
 		}
 		else = {
@@ -1638,17 +2384,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PAL }
+		limit = {
+			original_tag = PAL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PAL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PAL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PAL_puppet_leader_democratic
 		}
 		else = {
@@ -1656,17 +2410,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ISR }
+		limit = {
+			original_tag = ISR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ISR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ISR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ISR_puppet_leader_democratic
 		}
 		else = {
@@ -1674,17 +2436,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = VIN }
+		limit = {
+			original_tag = VIN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_VIN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_VIN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_VIN_puppet_leader_democratic
 		}
 		else = {
@@ -1692,17 +2462,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CAM }
+		limit = {
+			original_tag = CAM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CAM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CAM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CAM_puppet_leader_democratic
 		}
 		else = {
@@ -1710,17 +2488,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MAL }
+		limit = {
+			original_tag = MAL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MAL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MAL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MAL_puppet_leader_democratic
 		}
 		else = {
@@ -1728,17 +2514,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = INS }
+		limit = {
+			original_tag = INS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_INS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_INS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_INS_puppet_leader_democratic
 		}
 		else = {
@@ -1746,17 +2540,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = LAO }
+		limit = {
+			original_tag = LAO
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_LAO_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_LAO_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_LAO_puppet_leader_democratic
 		}
 		else = {
@@ -1764,17 +2566,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MNT }
+		limit = {
+			original_tag = MNT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MNT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MNT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MNT_puppet_leader_democratic
 		}
 		else = {
@@ -1782,17 +2592,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = UKR }
+		limit = {
+			original_tag = UKR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_UKR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_UKR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_UKR_puppet_leader_democratic
 		}
 		else = {
@@ -1800,17 +2618,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GEO }
+		limit = {
+			original_tag = GEO
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GEO_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GEO_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GEO_puppet_leader_democratic
 		}
 		else = {
@@ -1818,17 +2644,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KAZ }
+		limit = {
+			original_tag = KAZ
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KAZ_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KAZ_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KAZ_puppet_leader_democratic
 		}
 		else = {
@@ -1836,17 +2670,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = AZR }
+		limit = {
+			original_tag = AZR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_AZR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_AZR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_AZR_puppet_leader_democratic
 		}
 		else = {
@@ -1854,17 +2696,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ARM }
+		limit = {
+			original_tag = ARM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ARM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ARM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ARM_puppet_leader_democratic
 		}
 		else = {
@@ -1872,17 +2722,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BLR }
+		limit = {
+			original_tag = BLR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BLR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BLR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BLR_puppet_leader_democratic
 		}
 		else = {
@@ -1890,17 +2748,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ANG }
+		limit = {
+			original_tag = ANG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ANG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ANG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ANG_puppet_leader_democratic
 		}
 		else = {
@@ -1908,17 +2774,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MZB }
+		limit = {
+			original_tag = MZB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MZB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MZB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MZB_puppet_leader_democratic
 		}
 		else = {
@@ -1926,17 +2800,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ZIM }
+		limit = {
+			original_tag = ZIM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ZIM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ZIM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ZIM_puppet_leader_democratic
 		}
 		else = {
@@ -1944,17 +2826,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = COG }
+		limit = {
+			original_tag = COG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_COG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_COG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_COG_puppet_leader_democratic
 		}
 		else = {
@@ -1962,17 +2852,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KEN }
+		limit = {
+			original_tag = KEN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KEN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KEN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KEN_puppet_leader_democratic
 		}
 		else = {
@@ -1980,17 +2878,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PAK }
+		limit = {
+			original_tag = PAK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PAK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PAK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PAK_puppet_leader_democratic
 		}
 		else = {
@@ -1998,17 +2904,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BOT }
+		limit = {
+			original_tag = BOT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BOT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BOT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BOT_puppet_leader_democratic
 		}
 		else = {
@@ -2016,17 +2930,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MAN }
+		limit = {
+			original_tag = MAN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MAN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MAN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MAN_puppet_leader_democratic
 		}
 		else = {
@@ -2034,17 +2956,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BAH }
+		limit = {
+			original_tag = BAH
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BAH_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BAH_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BAH_puppet_leader_democratic
 		}
 		else = {
@@ -2052,17 +2982,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BAN }
+		limit = {
+			original_tag = BAN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BAN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BAN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BAN_puppet_leader_democratic
 		}
 		else = {
@@ -2070,17 +3008,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BLZ }
+		limit = {
+			original_tag = BLZ
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BLZ_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BLZ_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BLZ_puppet_leader_democratic
 		}
 		else = {
@@ -2088,17 +3034,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BRM }
+		limit = {
+			original_tag = BRM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BRM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BRM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BRM_puppet_leader_democratic
 		}
 		else = {
@@ -2106,17 +3060,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CRC }
+		limit = {
+			original_tag = CRC
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CRC_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CRC_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CRC_puppet_leader_democratic
 		}
 		else = {
@@ -2124,17 +3086,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GDL }
+		limit = {
+			original_tag = GDL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GDL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GDL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GDL_puppet_leader_democratic
 		}
 		else = {
@@ -2142,17 +3112,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GYA }
+		limit = {
+			original_tag = GYA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GYA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GYA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GYA_puppet_leader_democratic
 		}
 		else = {
@@ -2160,17 +3138,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = JAM }
+		limit = {
+			original_tag = JAM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_JAM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_JAM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_JAM_puppet_leader_democratic
 		}
 		else = {
@@ -2178,17 +3164,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KYR }
+		limit = {
+			original_tag = KYR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KYR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KYR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KYR_puppet_leader_democratic
 		}
 		else = {
@@ -2196,17 +3190,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MAD }
+		limit = {
+			original_tag = MAD
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MAD_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MAD_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MAD_puppet_leader_democratic
 		}
 		else = {
@@ -2214,17 +3216,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MOL }
+		limit = {
+			original_tag = MOL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MOL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MOL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MOL_puppet_leader_democratic
 		}
 		else = {
@@ -2232,17 +3242,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PNG }
+		limit = {
+			original_tag = PNG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PNG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PNG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PNG_puppet_leader_democratic
 		}
 		else = {
@@ -2250,17 +3268,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PUE }
+		limit = {
+			original_tag = PUE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PUE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PUE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PUE_puppet_leader_democratic
 		}
 		else = {
@@ -2268,17 +3294,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = QAT }
+		limit = {
+			original_tag = QAT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_QAT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_QAT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_QAT_puppet_leader_democratic
 		}
 		else = {
@@ -2286,17 +3320,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SCO }
+		limit = {
+			original_tag = SCO
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SCO_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SCO_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SCO_puppet_leader_democratic
 		}
 		else = {
@@ -2304,17 +3346,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SRL }
+		limit = {
+			original_tag = SRL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SRL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SRL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SRL_puppet_leader_democratic
 		}
 		else = {
@@ -2322,17 +3372,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SUR }
+		limit = {
+			original_tag = SUR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SUR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SUR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SUR_puppet_leader_democratic
 		}
 		else = {
@@ -2340,17 +3398,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TAJ }
+		limit = {
+			original_tag = TAJ
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TAJ_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TAJ_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TAJ_puppet_leader_democratic
 		}
 		else = {
@@ -2358,17 +3424,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TRI }
+		limit = {
+			original_tag = TRI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TRI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TRI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TRI_puppet_leader_democratic
 		}
 		else = {
@@ -2376,17 +3450,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TMS }
+		limit = {
+			original_tag = TMS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TMS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TMS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TMS_puppet_leader_democratic
 		}
 		else = {
@@ -2394,17 +3476,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = UAE }
+		limit = {
+			original_tag = UAE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_UAE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_UAE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_UAE_puppet_leader_democratic
 		}
 		else = {
@@ -2412,17 +3502,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = UZB }
+		limit = {
+			original_tag = UZB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_UZB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_UZB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_UZB_puppet_leader_democratic
 		}
 		else = {
@@ -2430,17 +3528,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KUW }
+		limit = {
+			original_tag = KUW
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KUW_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KUW_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KUW_puppet_leader_democratic
 		}
 		else = {
@@ -2448,17 +3554,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CYP }
+		limit = {
+			original_tag = CYP
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CYP_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CYP_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CYP_puppet_leader_democratic
 		}
 		else = {
@@ -2466,17 +3580,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MLT }
+		limit = {
+			original_tag = MLT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MLT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MLT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MLT_puppet_leader_democratic
 		}
 		else = {
@@ -2484,17 +3606,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ALG }
+		limit = {
+			original_tag = ALG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ALG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ALG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ALG_puppet_leader_democratic
 		}
 		else = {
@@ -2502,17 +3632,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MOR }
+		limit = {
+			original_tag = MOR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MOR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MOR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MOR_puppet_leader_democratic
 		}
 		else = {
@@ -2520,17 +3658,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TUN }
+		limit = {
+			original_tag = TUN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TUN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TUN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TUN_puppet_leader_democratic
 		}
 		else = {
@@ -2538,17 +3684,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SUD }
+		limit = {
+			original_tag = SUD
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SUD_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SUD_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SUD_puppet_leader_democratic
 		}
 		else = {
@@ -2556,17 +3710,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ERI }
+		limit = {
+			original_tag = ERI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ERI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ERI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ERI_puppet_leader_democratic
 		}
 		else = {
@@ -2574,17 +3736,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = DJI }
+		limit = {
+			original_tag = DJI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_DJI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_DJI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_DJI_puppet_leader_democratic
 		}
 		else = {
@@ -2592,17 +3762,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SOM }
+		limit = {
+			original_tag = SOM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SOM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SOM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SOM_puppet_leader_democratic
 		}
 		else = {
@@ -2610,17 +3788,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = UGA }
+		limit = {
+			original_tag = UGA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_UGA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_UGA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_UGA_puppet_leader_democratic
 		}
 		else = {
@@ -2628,17 +3814,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = RWA }
+		limit = {
+			original_tag = RWA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_RWA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_RWA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_RWA_puppet_leader_democratic
 		}
 		else = {
@@ -2646,17 +3840,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BRD }
+		limit = {
+			original_tag = BRD
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BRD_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BRD_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BRD_puppet_leader_democratic
 		}
 		else = {
@@ -2664,17 +3866,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TZN }
+		limit = {
+			original_tag = TZN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TZN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TZN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TZN_puppet_leader_democratic
 		}
 		else = {
@@ -2682,17 +3892,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ZAM }
+		limit = {
+			original_tag = ZAM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ZAM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ZAM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ZAM_puppet_leader_democratic
 		}
 		else = {
@@ -2700,17 +3918,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MLW }
+		limit = {
+			original_tag = MLW
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MLW_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MLW_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MLW_puppet_leader_democratic
 		}
 		else = {
@@ -2718,17 +3944,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GAB }
+		limit = {
+			original_tag = GAB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GAB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GAB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GAB_puppet_leader_democratic
 		}
 		else = {
@@ -2736,17 +3970,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = RCG }
+		limit = {
+			original_tag = RCG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_RCG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_RCG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_RCG_puppet_leader_democratic
 		}
 		else = {
@@ -2754,17 +3996,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = EQG }
+		limit = {
+			original_tag = EQG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_EQG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_EQG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_EQG_puppet_leader_democratic
 		}
 		else = {
@@ -2772,17 +4022,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CMR }
+		limit = {
+			original_tag = CMR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CMR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CMR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CMR_puppet_leader_democratic
 		}
 		else = {
@@ -2790,17 +4048,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CAR }
+		limit = {
+			original_tag = CAR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CAR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CAR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CAR_puppet_leader_democratic
 		}
 		else = {
@@ -2808,17 +4074,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CHA }
+		limit = {
+			original_tag = CHA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CHA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CHA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CHA_puppet_leader_democratic
 		}
 		else = {
@@ -2826,17 +4100,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NGA }
+		limit = {
+			original_tag = NGA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NGA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NGA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NGA_puppet_leader_democratic
 		}
 		else = {
@@ -2844,17 +4126,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = DAH }
+		limit = {
+			original_tag = DAH
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_DAH_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_DAH_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_DAH_puppet_leader_democratic
 		}
 		else = {
@@ -2862,17 +4152,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TOG }
+		limit = {
+			original_tag = TOG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TOG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TOG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TOG_puppet_leader_democratic
 		}
 		else = {
@@ -2880,17 +4178,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GHA }
+		limit = {
+			original_tag = GHA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GHA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GHA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GHA_puppet_leader_democratic
 		}
 		else = {
@@ -2898,17 +4204,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = IVO }
+		limit = {
+			original_tag = IVO
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_IVO_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_IVO_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_IVO_puppet_leader_democratic
 		}
 		else = {
@@ -2916,17 +4230,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = VOL }
+		limit = {
+			original_tag = VOL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_VOL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_VOL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_VOL_puppet_leader_democratic
 		}
 		else = {
@@ -2934,17 +4256,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MLI }
+		limit = {
+			original_tag = MLI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MLI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MLI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MLI_puppet_leader_democratic
 		}
 		else = {
@@ -2952,17 +4282,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SIE }
+		limit = {
+			original_tag = SIE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SIE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SIE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SIE_puppet_leader_democratic
 		}
 		else = {
@@ -2970,17 +4308,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GNA }
+		limit = {
+			original_tag = GNA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GNA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GNA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GNA_puppet_leader_democratic
 		}
 		else = {
@@ -2988,17 +4334,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GNB }
+		limit = {
+			original_tag = GNB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GNB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GNB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GNB_puppet_leader_democratic
 		}
 		else = {
@@ -3006,17 +4360,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SEN }
+		limit = {
+			original_tag = SEN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SEN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SEN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SEN_puppet_leader_democratic
 		}
 		else = {
@@ -3024,17 +4386,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GAM }
+		limit = {
+			original_tag = GAM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GAM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GAM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GAM_puppet_leader_democratic
 		}
 		else = {
@@ -3042,17 +4412,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = WLS }
+		limit = {
+			original_tag = WLS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_WLS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_WLS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_WLS_puppet_leader_democratic
 		}
 		else = {
@@ -3060,17 +4438,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NGR }
+		limit = {
+			original_tag = NGR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NGR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NGR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NGR_puppet_leader_democratic
 		}
 		else = {
@@ -3078,17 +4464,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CSA }
+		limit = {
+			original_tag = CSA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CSA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CSA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CSA_puppet_leader_democratic
 		}
 		else = {
@@ -3096,17 +4490,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = USB }
+		limit = {
+			original_tag = USB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_USB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_USB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_USB_puppet_leader_democratic
 		}
 		else = {
@@ -3114,17 +4516,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MRT }
+		limit = {
+			original_tag = MRT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MRT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MRT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MRT_puppet_leader_democratic
 		}
 		else = {
@@ -3132,17 +4542,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NMB }
+		limit = {
+			original_tag = NMB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NMB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NMB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NMB_puppet_leader_democratic
 		}
 		else = {
@@ -3150,17 +4568,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = WES }
+		limit = {
+			original_tag = WES
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_WES_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_WES_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_WES_puppet_leader_democratic
 		}
 		else = {
@@ -3168,17 +4594,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BAS }
+		limit = {
+			original_tag = BAS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BAS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BAS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BAS_puppet_leader_democratic
 		}
 		else = {
@@ -3186,17 +4620,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CAY }
+		limit = {
+			original_tag = CAY
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CAY_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CAY_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CAY_puppet_leader_democratic
 		}
 		else = {
@@ -3204,17 +4646,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MLD }
+		limit = {
+			original_tag = MLD
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MLD_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MLD_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MLD_puppet_leader_democratic
 		}
 		else = {
@@ -3222,17 +4672,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = FIJ }
+		limit = {
+			original_tag = FIJ
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_FIJ_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_FIJ_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_FIJ_puppet_leader_democratic
 		}
 		else = {
@@ -3240,17 +4698,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = FSM }
+		limit = {
+			original_tag = FSM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_FSM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_FSM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_FSM_puppet_leader_democratic
 		}
 		else = {
@@ -3258,17 +4724,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TAH }
+		limit = {
+			original_tag = TAH
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TAH_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TAH_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TAH_puppet_leader_democratic
 		}
 		else = {
@@ -3276,17 +4750,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GUM }
+		limit = {
+			original_tag = GUM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GUM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GUM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GUM_puppet_leader_democratic
 		}
 		else = {
@@ -3294,17 +4776,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SOL }
+		limit = {
+			original_tag = SOL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SOL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SOL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SOL_puppet_leader_democratic
 		}
 		else = {
@@ -3312,17 +4802,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SAM }
+		limit = {
+			original_tag = SAM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SAM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SAM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SAM_puppet_leader_democratic
 		}
 		else = {
@@ -3330,17 +4828,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = HAW }
+		limit = {
+			original_tag = HAW
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_HAW_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_HAW_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_HAW_puppet_leader_democratic
 		}
 		else = {
@@ -3348,17 +4854,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SLV }
+		limit = {
+			original_tag = SLV
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SLV_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SLV_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SLV_puppet_leader_democratic
 		}
 		else = {
@@ -3366,17 +4880,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BOS }
+		limit = {
+			original_tag = BOS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BOS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BOS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BOS_puppet_leader_democratic
 		}
 		else = {
@@ -3384,17 +4906,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = HRZ }
+		limit = {
+			original_tag = HRZ
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_HRZ_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_HRZ_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_HRZ_puppet_leader_democratic
 		}
 		else = {
@@ -3402,17 +4932,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MAC }
+		limit = {
+			original_tag = MAC
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MAC_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MAC_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MAC_puppet_leader_democratic
 		}
 		else = {
@@ -3420,17 +4958,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NIR }
+		limit = {
+			original_tag = NIR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NIR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NIR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NIR_puppet_leader_democratic
 		}
 		else = {
@@ -3438,17 +4984,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BAY }
+		limit = {
+			original_tag = BAY
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BAY_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BAY_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BAY_puppet_leader_democratic
 		}
 		else = {
@@ -3456,17 +5010,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MEK }
+		limit = {
+			original_tag = MEK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MEK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MEK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MEK_puppet_leader_democratic
 		}
 		else = {
@@ -3474,17 +5036,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = PRE }
+		limit = {
+			original_tag = PRE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_PRE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_PRE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_PRE_puppet_leader_democratic
 		}
 		else = {
@@ -3492,17 +5062,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SAX }
+		limit = {
+			original_tag = SAX
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SAX_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SAX_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SAX_puppet_leader_democratic
 		}
 		else = {
@@ -3510,17 +5088,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = HAN }
+		limit = {
+			original_tag = HAN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_HAN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_HAN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_HAN_puppet_leader_democratic
 		}
 		else = {
@@ -3528,17 +5114,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = WUR }
+		limit = {
+			original_tag = WUR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_WUR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_WUR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_WUR_puppet_leader_democratic
 		}
 		else = {
@@ -3546,17 +5140,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SHL }
+		limit = {
+			original_tag = SHL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SHL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SHL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SHL_puppet_leader_democratic
 		}
 		else = {
@@ -3564,17 +5166,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CAT }
+		limit = {
+			original_tag = CAT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CAT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CAT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CAT_puppet_leader_democratic
 		}
 		else = {
@@ -3582,17 +5192,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NAV }
+		limit = {
+			original_tag = NAV
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NAV_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NAV_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NAV_puppet_leader_democratic
 		}
 		else = {
@@ -3600,17 +5218,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = GLC }
+		limit = {
+			original_tag = GLC
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_GLC_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_GLC_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_GLC_puppet_leader_democratic
 		}
 		else = {
@@ -3618,17 +5244,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ADU }
+		limit = {
+			original_tag = ADU
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ADU_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ADU_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ADU_puppet_leader_democratic
 		}
 		else = {
@@ -3636,17 +5270,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BRI }
+		limit = {
+			original_tag = BRI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BRI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BRI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BRI_puppet_leader_democratic
 		}
 		else = {
@@ -3654,17 +5296,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = OCC }
+		limit = {
+			original_tag = OCC
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_OCC_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_OCC_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_OCC_puppet_leader_democratic
 		}
 		else = {
@@ -3672,17 +5322,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = COR }
+		limit = {
+			original_tag = COR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_COR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_COR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_COR_puppet_leader_democratic
 		}
 		else = {
@@ -3690,17 +5348,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KUR }
+		limit = {
+			original_tag = KUR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KUR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KUR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KUR_puppet_leader_democratic
 		}
 		else = {
@@ -3708,17 +5374,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TRA }
+		limit = {
+			original_tag = TRA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TRA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TRA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TRA_puppet_leader_democratic
 		}
 		else = {
@@ -3726,17 +5400,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = DNZ }
+		limit = {
+			original_tag = DNZ
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_DNZ_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_DNZ_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_DNZ_puppet_leader_democratic
 		}
 		else = {
@@ -3744,17 +5426,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = SIL }
+		limit = {
+			original_tag = SIL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_SIL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_SIL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_SIL_puppet_leader_democratic
 		}
 		else = {
@@ -3762,17 +5452,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KSH }
+		limit = {
+			original_tag = KSH
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KSH_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KSH_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KSH_puppet_leader_democratic
 		}
 		else = {
@@ -3780,17 +5478,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = DON }
+		limit = {
+			original_tag = DON
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_DON_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_DON_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_DON_puppet_leader_democratic
 		}
 		else = {
@@ -3798,17 +5504,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KUB }
+		limit = {
+			original_tag = KUB
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KUB_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KUB_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KUB_puppet_leader_democratic
 		}
 		else = {
@@ -3816,17 +5530,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BUK }
+		limit = {
+			original_tag = BUK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BUK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BUK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BUK_puppet_leader_democratic
 		}
 		else = {
@@ -3834,17 +5556,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ALT }
+		limit = {
+			original_tag = ALT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ALT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ALT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ALT_puppet_leader_democratic
 		}
 		else = {
@@ -3852,17 +5582,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KAL }
+		limit = {
+			original_tag = KAL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KAL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KAL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KAL_puppet_leader_democratic
 		}
 		else = {
@@ -3870,17 +5608,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KAR }
+		limit = {
+			original_tag = KAR
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KAR_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KAR_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KAR_puppet_leader_democratic
 		}
 		else = {
@@ -3888,17 +5634,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CRI }
+		limit = {
+			original_tag = CRI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CRI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CRI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CRI_puppet_leader_democratic
 		}
 		else = {
@@ -3906,17 +5660,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TAT }
+		limit = {
+			original_tag = TAT
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TAT_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TAT_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TAT_puppet_leader_democratic
 		}
 		else = {
@@ -3924,17 +5686,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CIN }
+		limit = {
+			original_tag = CIN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CIN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CIN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CIN_puppet_leader_democratic
 		}
 		else = {
@@ -3942,17 +5712,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = DAG }
+		limit = {
+			original_tag = DAG
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_DAG_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_DAG_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_DAG_puppet_leader_democratic
 		}
 		else = {
@@ -3960,17 +5738,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BYA }
+		limit = {
+			original_tag = BYA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BYA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BYA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BYA_puppet_leader_democratic
 		}
 		else = {
@@ -3978,17 +5764,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CKK }
+		limit = {
+			original_tag = CKK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CKK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CKK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CKK_puppet_leader_democratic
 		}
 		else = {
@@ -3996,17 +5790,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = FER }
+		limit = {
+			original_tag = FER
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_FER_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_FER_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_FER_puppet_leader_democratic
 		}
 		else = {
@@ -4014,17 +5816,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = YAK }
+		limit = {
+			original_tag = YAK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_YAK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_YAK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_YAK_puppet_leader_democratic
 		}
 		else = {
@@ -4032,17 +5842,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = VLA }
+		limit = {
+			original_tag = VLA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_VLA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_VLA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_VLA_puppet_leader_democratic
 		}
 		else = {
@@ -4050,17 +5868,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KKP }
+		limit = {
+			original_tag = KKP
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KKP_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KKP_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KKP_puppet_leader_democratic
 		}
 		else = {
@@ -4068,17 +5894,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = YAM }
+		limit = {
+			original_tag = YAM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_YAM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_YAM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_YAM_puppet_leader_democratic
 		}
 		else = {
@@ -4086,17 +5920,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = TAY }
+		limit = {
+			original_tag = TAY
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_TAY_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_TAY_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_TAY_puppet_leader_democratic
 		}
 		else = {
@@ -4104,17 +5946,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = OVO }
+		limit = {
+			original_tag = OVO
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_OVO_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_OVO_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_OVO_puppet_leader_democratic
 		}
 		else = {
@@ -4122,17 +5972,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NEN }
+		limit = {
+			original_tag = NEN
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NEN_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NEN_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NEN_puppet_leader_democratic
 		}
 		else = {
@@ -4140,17 +5998,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KOM }
+		limit = {
+			original_tag = KOM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KOM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KOM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KOM_puppet_leader_democratic
 		}
 		else = {
@@ -4158,17 +6024,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = ABK }
+		limit = {
+			original_tag = ABK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_ABK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_ABK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_ABK_puppet_leader_democratic
 		}
 		else = {
@@ -4176,17 +6050,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KBK }
+		limit = {
+			original_tag = KBK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KBK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KBK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KBK_puppet_leader_democratic
 		}
 		else = {
@@ -4194,17 +6076,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = NOA }
+		limit = {
+			original_tag = NOA
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_NOA_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_NOA_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_NOA_puppet_leader_democratic
 		}
 		else = {
@@ -4212,17 +6102,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = VGE }
+		limit = {
+			original_tag = VGE
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_VGE_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_VGE_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_VGE_puppet_leader_democratic
 		}
 		else = {
@@ -4230,17 +6128,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = BSK }
+		limit = {
+			original_tag = BSK
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_BSK_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_BSK_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_BSK_puppet_leader_democratic
 		}
 		else = {
@@ -4248,17 +6154,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KHI }
+		limit = {
+			original_tag = KHI
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KHI_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KHI_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KHI_puppet_leader_democratic
 		}
 		else = {
@@ -4266,17 +6180,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = UDM }
+		limit = {
+			original_tag = UDM
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_UDM_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_UDM_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_UDM_puppet_leader_democratic
 		}
 		else = {
@@ -4284,17 +6206,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = CHU }
+		limit = {
+			original_tag = CHU
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_CHU_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_CHU_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_CHU_puppet_leader_democratic
 		}
 		else = {
@@ -4302,17 +6232,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = MEL }
+		limit = {
+			original_tag = MEL
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_MEL_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_MEL_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_MEL_puppet_leader_democratic
 		}
 		else = {
@@ -4320,17 +6258,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = KOS }
+		limit = {
+			original_tag = KOS
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_KOS_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_KOS_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_KOS_puppet_leader_democratic
 		}
 		else = {
@@ -4338,17 +6284,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D01 }
+		limit = {
+			original_tag = D01
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D01_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D01_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D01_puppet_leader_democratic
 		}
 		else = {
@@ -4356,17 +6310,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D02 }
+		limit = {
+			original_tag = D02
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D02_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D02_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D02_puppet_leader_democratic
 		}
 		else = {
@@ -4374,17 +6336,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D03 }
+		limit = {
+			original_tag = D03
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D03_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D03_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D03_puppet_leader_democratic
 		}
 		else = {
@@ -4392,17 +6362,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D04 }
+		limit = {
+			original_tag = D04
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D04_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D04_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D04_puppet_leader_democratic
 		}
 		else = {
@@ -4410,17 +6388,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D05 }
+		limit = {
+			original_tag = D05
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D05_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D05_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D05_puppet_leader_democratic
 		}
 		else = {
@@ -4428,17 +6414,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D06 }
+		limit = {
+			original_tag = D06
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D06_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D06_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D06_puppet_leader_democratic
 		}
 		else = {
@@ -4446,17 +6440,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D07 }
+		limit = {
+			original_tag = D07
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D07_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D07_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D07_puppet_leader_democratic
 		}
 		else = {
@@ -4464,17 +6466,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D08 }
+		limit = {
+			original_tag = D08
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D08_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D08_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D08_puppet_leader_democratic
 		}
 		else = {
@@ -4482,17 +6492,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D09 }
+		limit = {
+			original_tag = D09
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D09_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D09_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D09_puppet_leader_democratic
 		}
 		else = {
@@ -4500,17 +6518,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D10 }
+		limit = {
+			original_tag = D10
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D10_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D10_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D10_puppet_leader_democratic
 		}
 		else = {
@@ -4518,17 +6544,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D11 }
+		limit = {
+			original_tag = D11
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D11_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D11_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D11_puppet_leader_democratic
 		}
 		else = {
@@ -4536,17 +6570,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D12 }
+		limit = {
+			original_tag = D12
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D12_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D12_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D12_puppet_leader_democratic
 		}
 		else = {
@@ -4554,17 +6596,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D13 }
+		limit = {
+			original_tag = D13
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D13_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D13_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D13_puppet_leader_democratic
 		}
 		else = {
@@ -4572,17 +6622,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D14 }
+		limit = {
+			original_tag = D14
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D14_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D14_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D14_puppet_leader_democratic
 		}
 		else = {
@@ -4590,17 +6648,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D15 }
+		limit = {
+			original_tag = D15
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D15_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D15_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D15_puppet_leader_democratic
 		}
 		else = {
@@ -4608,17 +6674,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D16 }
+		limit = {
+			original_tag = D16
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D16_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D16_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D16_puppet_leader_democratic
 		}
 		else = {
@@ -4626,17 +6700,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D17 }
+		limit = {
+			original_tag = D17
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D17_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D17_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D17_puppet_leader_democratic
 		}
 		else = {
@@ -4644,17 +6726,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D18 }
+		limit = {
+			original_tag = D18
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D18_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D18_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D18_puppet_leader_democratic
 		}
 		else = {
@@ -4662,17 +6752,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D19 }
+		limit = {
+			original_tag = D19
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D19_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D19_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D19_puppet_leader_democratic
 		}
 		else = {
@@ -4680,17 +6778,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D20 }
+		limit = {
+			original_tag = D20
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D20_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D20_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D20_puppet_leader_democratic
 		}
 		else = {
@@ -4698,17 +6804,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D21 }
+		limit = {
+			original_tag = D21
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D21_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D21_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D21_puppet_leader_democratic
 		}
 		else = {
@@ -4716,17 +6830,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D22 }
+		limit = {
+			original_tag = D22
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D22_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D22_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D22_puppet_leader_democratic
 		}
 		else = {
@@ -4734,17 +6856,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D23 }
+		limit = {
+			original_tag = D23
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D23_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D23_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D23_puppet_leader_democratic
 		}
 		else = {
@@ -4752,17 +6882,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D24 }
+		limit = {
+			original_tag = D24
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D24_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D24_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D24_puppet_leader_democratic
 		}
 		else = {
@@ -4770,17 +6908,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D25 }
+		limit = {
+			original_tag = D25
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D25_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D25_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D25_puppet_leader_democratic
 		}
 		else = {
@@ -4788,17 +6934,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D26 }
+		limit = {
+			original_tag = D26
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D26_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D26_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D26_puppet_leader_democratic
 		}
 		else = {
@@ -4806,17 +6960,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D27 }
+		limit = {
+			original_tag = D27
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D27_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D27_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D27_puppet_leader_democratic
 		}
 		else = {
@@ -4824,17 +6986,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D28 }
+		limit = {
+			original_tag = D28
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D28_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D28_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D28_puppet_leader_democratic
 		}
 		else = {
@@ -4842,17 +7012,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D29 }
+		limit = {
+			original_tag = D29
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D29_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D29_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D29_puppet_leader_democratic
 		}
 		else = {
@@ -4860,17 +7038,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D30 }
+		limit = {
+			original_tag = D30
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D30_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D30_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D30_puppet_leader_democratic
 		}
 		else = {
@@ -4878,17 +7064,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D31 }
+		limit = {
+			original_tag = D31
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D31_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D31_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D31_puppet_leader_democratic
 		}
 		else = {
@@ -4896,17 +7090,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D32 }
+		limit = {
+			original_tag = D32
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D32_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D32_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D32_puppet_leader_democratic
 		}
 		else = {
@@ -4914,17 +7116,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D33 }
+		limit = {
+			original_tag = D33
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D33_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D33_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D33_puppet_leader_democratic
 		}
 		else = {
@@ -4932,17 +7142,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D34 }
+		limit = {
+			original_tag = D34
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D34_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D34_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D34_puppet_leader_democratic
 		}
 		else = {
@@ -4950,17 +7168,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D35 }
+		limit = {
+			original_tag = D35
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D35_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D35_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D35_puppet_leader_democratic
 		}
 		else = {
@@ -4968,17 +7194,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D36 }
+		limit = {
+			original_tag = D36
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D36_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D36_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D36_puppet_leader_democratic
 		}
 		else = {
@@ -4986,17 +7220,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D37 }
+		limit = {
+			original_tag = D37
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D37_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D37_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D37_puppet_leader_democratic
 		}
 		else = {
@@ -5004,17 +7246,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D38 }
+		limit = {
+			original_tag = D38
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D38_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D38_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D38_puppet_leader_democratic
 		}
 		else = {
@@ -5022,17 +7272,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D39 }
+		limit = {
+			original_tag = D39
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D39_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D39_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D39_puppet_leader_democratic
 		}
 		else = {
@@ -5040,17 +7298,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D40 }
+		limit = {
+			original_tag = D40
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D40_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D40_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D40_puppet_leader_democratic
 		}
 		else = {
@@ -5058,17 +7324,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D41 }
+		limit = {
+			original_tag = D41
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D41_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D41_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D41_puppet_leader_democratic
 		}
 		else = {
@@ -5076,17 +7350,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D42 }
+		limit = {
+			original_tag = D42
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D42_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D42_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D42_puppet_leader_democratic
 		}
 		else = {
@@ -5094,17 +7376,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D43 }
+		limit = {
+			original_tag = D43
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D43_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D43_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D43_puppet_leader_democratic
 		}
 		else = {
@@ -5112,17 +7402,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D44 }
+		limit = {
+			original_tag = D44
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D44_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D44_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D44_puppet_leader_democratic
 		}
 		else = {
@@ -5130,17 +7428,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D45 }
+		limit = {
+			original_tag = D45
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D45_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D45_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D45_puppet_leader_democratic
 		}
 		else = {
@@ -5148,17 +7454,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D46 }
+		limit = {
+			original_tag = D46
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D46_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D46_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D46_puppet_leader_democratic
 		}
 		else = {
@@ -5166,17 +7480,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D47 }
+		limit = {
+			original_tag = D47
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D47_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D47_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D47_puppet_leader_democratic
 		}
 		else = {
@@ -5184,17 +7506,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D48 }
+		limit = {
+			original_tag = D48
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D48_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D48_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D48_puppet_leader_democratic
 		}
 		else = {
@@ -5202,17 +7532,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D49 }
+		limit = {
+			original_tag = D49
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D49_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D49_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D49_puppet_leader_democratic
 		}
 		else = {
@@ -5220,17 +7558,25 @@ ACW_change_country_leader2 = {
 		}
 	}
 	else_if = {
-		limit = { original_tag = D50 }
+		limit = {
+			original_tag = D50
+		}
 		if = {
-			limit = { has_government = communism }
+			limit = {
+				has_government = communism
+			}
 			recruit_character = ACW_D50_puppet_leader_communism
 		}
 		else_if = {
-			limit = { has_government = fascism }
+			limit = {
+				has_government = fascism
+			}
 			recruit_character = ACW_D50_puppet_leader_fascism
 		}
 		else_if = {
-			limit = { has_government = democratic }
+			limit = {
+				has_government = democratic
+			}
 			recruit_character = ACW_D50_puppet_leader_democratic
 		}
 		else = {

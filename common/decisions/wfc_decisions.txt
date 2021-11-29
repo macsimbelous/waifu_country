@@ -1922,7 +1922,9 @@ wfc_transfer_of_the_capital_category = {
 		}
 		remove_effect = {
 			#set_capital = FROM
-			set_capital = { state = FROM }
+			set_capital = {
+				state = FROM
+			}
 		}
 		cancel_effect = {
 			add_political_power = 50
