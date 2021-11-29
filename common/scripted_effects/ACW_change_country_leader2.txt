@@ -3,18 +3,18 @@ ACW_change_country_leader2 = {
 		limit = { original_tag = GER }
 		if = {
 			limit = { has_government = communism }
-			recruit_character = ACW_GER_puppet_leader_communism
+			GER = { recruit_character = ACW_GER_puppet_leader_communism }
 		}
 		else_if = {
 			limit = { has_government = fascism }
-			recruit_character = ACW_GER_puppet_leader_fascism
+			GER = { recruit_character = ACW_GER_puppet_leader_fascism }
 		}
 		else_if = {
 			limit = { has_government = democratic }
-			recruit_character = ACW_GER_puppet_leader_democratic
+			GER = { recruit_character = ACW_GER_puppet_leader_democratic }
 		}
 		else = {
-			recruit_character = ACW_GER_puppet_leader_neutrality
+			GER = { recruit_character = ACW_GER_puppet_leader_neutrality }
 		}
 	}
 	else_if = {
