@@ -8,6 +8,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_communist_revolutionary		# token will be TAG_token_base
@@ -38,6 +39,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_democratic_reformer		# token will be TAG_token_base
@@ -68,6 +70,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_fascist_demagogue		# token will be TAG_token_base
@@ -98,6 +101,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_head_of_intelligence		# token will be TAG_token_base
@@ -127,6 +131,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_captain_of_industry		
@@ -153,6 +158,7 @@ every_possible_country = {
 			#original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_war_industrialist		
@@ -179,6 +185,7 @@ every_possible_country = {
 			#original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_political_advisor		
@@ -205,6 +212,7 @@ every_possible_country = {
 			#original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_political_advisor		
@@ -231,6 +239,7 @@ every_possible_country = {
 			#original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_political_advisor		
@@ -258,6 +267,7 @@ every_possible_country = {
 			#original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_army_chief_def		# token will be TAG_token_base
@@ -285,6 +295,7 @@ every_possible_country = {
 			#original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_army_chief_drill
@@ -312,6 +323,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_navy_chief_decisive_bat		# token will be TAG_token_base
@@ -339,6 +351,7 @@ every_possible_country = {
 			original_tag = MMS
 			original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_navy_anti_submarine		# token will be TAG_token_base
@@ -366,6 +379,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_navy_chief_commerce_raiding
@@ -393,6 +407,7 @@ every_possible_country = {
 			original_tag = MMS
 			original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_air_close_air_sup		# token will be TAG_token_base
@@ -420,6 +435,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_air_chief_all_weather		# token will be TAG_token_base
@@ -447,6 +463,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_air_chief_ground_support
@@ -474,6 +491,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_air_chief_reform
@@ -501,6 +519,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_army_log		# token will be TAG_token_base
@@ -529,6 +548,7 @@ every_possible_country = {
 			original_tag = MMS
 			original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_army_art		# token will be TAG_token_base
@@ -557,6 +577,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_army_inf
@@ -585,6 +606,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_army_arm
@@ -613,6 +635,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_army_reg
@@ -641,6 +664,7 @@ every_possible_country = {
 			#original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_army_cavalry
@@ -669,6 +693,7 @@ every_possible_country = {
 			original_tag = MMS
 			original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_navy_fleet_log		# token will be TAG_token_base
@@ -697,6 +722,7 @@ every_possible_country = {
 			original_tag = MMS
 			original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_air_air_combat_trainer		# token will be TAG_token_base
@@ -725,6 +751,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_military_theorist		# token will be TAG_token_base
@@ -753,6 +780,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_naval_theorist		# token will be TAG_token_base
@@ -781,6 +809,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_air_warfare_theorist		# token will be TAG_token_base
@@ -809,6 +838,7 @@ every_possible_country = {
 			original_tag = MMS
 			#original_tag = TRP
 		}
+		is_dynamic_country = no
 	}
 	generate_character = {
 		token_base = generic_captain_of_industry
