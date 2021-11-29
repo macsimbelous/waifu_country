@@ -1434,6 +1434,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Noelle
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1452,6 +1453,75 @@ characters = {
 			ai_will_do = {
 				factor = 2
 			}
+		}
+	}
+	ACW_Eruza_Guranhirute = {
+		name = ACW_Eruza_Guranhirute
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_eruza_guranhirute"
+				large = "gfx/leaders/ACW/eruza_guranhirute.dds"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Eruza_Guranhirute
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.15
+			}
+		}
+		corps_commander = {
+			traits = {
+				offensive_doctrine offensive_skill
+			}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ACW_Aoi_Sakurai = {
+		name = ACW_Aoi_Sakurai
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_aoi_sakurai"
+				large = "gfx/leaders/ACW/lucy_yamagami.dds"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Aoi_Sakurai
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_infrastructure_developer
+			}
+		}
+		corps_commander = {
+			traits = {
+				logistics_skill logistics_wizard
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
 		}
 	}
 	######################
@@ -1814,30 +1884,7 @@ characters = {
 			}
 		}
 	}
-	ACW_Eruza_Guranhirute = {
-		name = ACW_Eruza_Guranhirute
-		portraits = {
-			army = {
-				small = "GFX_idea_acw_eruza_guranhirute"
-			}
-		}
-		allowed_civil_war = {
-			always = yes
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Eruza_Guranhirute
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				princess_of_terror
-			}
-			modifier = {
-				compliance_growth = 0.15
-			}
-		}
-	}
+
 	ACW_Ange_le_Carre = {
 		name = ACW_Ange_le_Carre
 		portraits = {
@@ -1919,6 +1966,9 @@ characters = {
 			army = {
 				small = "GFX_idea_acw_asuka_tanaka"
 			}
+			civilian = {
+				large = "gfx/leaders/ACW/asuka_tanaka.dds"
+			}
 		}
 		allowed_civil_war = {
 			always = yes
@@ -1955,27 +2005,6 @@ characters = {
 			}
 			traits = {
 				wfc_war_industrialist
-			}
-		}
-	}
-	ACW_Aoi_Sakurai = {
-		name = ACW_Aoi_Sakurai
-		portraits = {
-			army = {
-				small = "GFX_idea_acw_aoi_sakurai"
-			}
-		}
-		allowed_civil_war = {
-			always = yes
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Aoi_Sakurai
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				wfc_infrastructure_developer
 			}
 		}
 	}

@@ -95,6 +95,9 @@ recruit_character = HEN_Kaname
 recruit_character = HEN_Suomi
 recruit_character = HEN_Akiho_Taniguchi
 recruit_character = HEN_Sill_Plain
+#advisors
+recruit_character = HEN_Mika_Amano
+recruit_character = HEN_head_int
 
 #agents
 create_operative_leader = {

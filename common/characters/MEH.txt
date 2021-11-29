@@ -248,8 +248,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_2b"
-			}
-			army = {
 				large = "gfx/leaders/MEH/2B.dds"
 			}
 		}
@@ -781,9 +779,22 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_aino"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Aino.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Aino
+			ledger = air
+			cost = 150
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				air_air_combat_training_3
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
@@ -917,9 +928,18 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_takao_arp"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Takao_ARP.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MEH_Takao_ARP
+			cost = 150
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_anti_submarine_3
 			}
 		}
 		navy_leader = {
@@ -1163,6 +1183,31 @@ characters = {
 			}
 			traits = {
 				wfc_intelligence_princess
+			}
+		}
+	}
+	MEH_head_int = {
+		name = MEH_Hiei_ARP
+		portraits = {
+			army = {
+				small = "GFX_idea_meh_yurizaki_mira"
+				large = "gfx/leaders/MEH/Yurizaki_Mira.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Yurizaki_Mira
+			allowed = {
+				original_tag = MEH
+			}
+			visible = {
+				always = no
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence
 			}
 		}
 	}

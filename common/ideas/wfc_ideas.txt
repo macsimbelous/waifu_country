@@ -908,5 +908,24 @@ ideas = {
 				refinery_concern
 			}
 		}
+		wfc_railway_company = {
+			name = generic_industrial_concern
+			picture = generic_build_infrastructure
+			allowed = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MMS
+				}
+			}
+			cost = 150
+			removal_cost = -1
+			traits = {
+				railway_company
+			}
+		}
 	}
 }

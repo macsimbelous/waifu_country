@@ -2,11 +2,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			##original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -32,11 +32,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			##original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -62,11 +62,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			##original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -92,11 +92,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = MEH
+			#original_tag = HEN
+			#original_tag = MAH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -121,11 +121,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -147,11 +147,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
+			#original_tag = MEH
+			#original_tag = MMS
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -173,11 +173,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
+			#original_tag = MEH
+			#original_tag = MMS
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -199,11 +199,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
+			#original_tag = MEH
+			#original_tag = MMS
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -227,9 +227,9 @@ every_possible_country = {
 			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
+			#original_tag = MEH
+			#original_tag = MMS
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -252,38 +252,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_off		# token will be TAG_token_base
-		advisor = {
-			slot = army_chief
-			traits = {
-				army_chief_offensive_3
-			}
-			cost = 50
-		}
-		portraits = {
-			army = {
-				small = GFX_idea_generic_army_chief_off
-			}
-		}
-	}
-}
-every_possible_country = {
-	limit = {
-		OR = {
-			#original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
+			#original_tag = MEH
+			#original_tag = MMS
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -306,11 +279,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
+			#original_tag = MEH
+			#original_tag = MMS
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -333,11 +306,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -387,11 +360,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -416,7 +389,7 @@ every_possible_country = {
 			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
 			original_tag = TRP
 		}
@@ -443,9 +416,9 @@ every_possible_country = {
 			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -468,11 +441,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -497,9 +470,9 @@ every_possible_country = {
 			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -522,11 +495,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -552,7 +525,7 @@ every_possible_country = {
 			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
 			original_tag = TRP
 		}
@@ -578,11 +551,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = MEH
+			#original_tag = HEN
+			#original_tag = MAH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -606,11 +579,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -634,11 +607,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -664,9 +637,9 @@ every_possible_country = {
 			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
+			#original_tag = MEH
+			#original_tag = MMS
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -720,7 +693,7 @@ every_possible_country = {
 			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
 			original_tag = TRP
 		}
@@ -746,11 +719,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = MEH
+			#original_tag = HEN
+			#original_tag = MAH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -774,39 +747,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
-		}
-	}
-	generate_character = {
-		token_base = generic_military_theorist		# token will be TAG_token_base
-		advisor = {
-			slot = theorist
-			traits = {
-				blitzkrieg_theorist
-			}
-			ledger = army
-			cost = 50
-		}
-		portraits = {
-			army = {
-				small = GFX_idea_generic_military_theorist
-			}
-		}
-	}
-}
-every_possible_country = {
-	limit = {
-		OR = {
-			#original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -830,11 +775,11 @@ every_possible_country = {
 	limit = {
 		OR = {
 			#original_tag = ACW
-			original_tag = HEN
+			#original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {
@@ -860,9 +805,9 @@ every_possible_country = {
 			#original_tag = ACW
 			original_tag = HEN
 			original_tag = MAH
-			original_tag = MEH
+			#original_tag = MEH
 			original_tag = MMS
-			original_tag = TRP
+			#original_tag = TRP
 		}
 	}
 	generate_character = {

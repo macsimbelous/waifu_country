@@ -371,4 +371,16 @@ spriteTypes = {
                 name = "GFX_idea_acw_lucy_yamagami"
                 texturefile = "gfx/leaders/ACW/lucy_yamagami_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_acw_eruza_guranhirute"
+                texturefile = "gfx/leaders/ACW/eruza_guranhirute_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_asuka_tanaka"
+                texturefile = "gfx/leaders/ACW/asuka_tanaka_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_aoi_sakurai"
+                texturefile = "gfx/leaders/ACW/aoi_sakurai_idea.dds"
+        }
 }

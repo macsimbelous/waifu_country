@@ -131,6 +131,10 @@ spriteTypes = {
 		name = "GFX_idea_trp_ukikaze"
 		texturefile = "gfx/leaders/TRP/yukikaze_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_mare_bello_fiore"
+		texturefile = "gfx/leaders/TRP/mare_bello_fiore_idea.dds"
+	}
 }
 
 

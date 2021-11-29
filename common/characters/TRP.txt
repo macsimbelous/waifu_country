@@ -134,7 +134,7 @@ characters = {
 				original_tag = TRP
 			}
 			traits = {
-				blitzkrieg_theorist
+				military_theorist
 			}
 		}
 	}
@@ -556,7 +556,6 @@ characters = {
 			}
 		}
 	}
-
 	TRP_xianming_lin = {
 		name = TRP_xianming_lin
 		portraits = {
@@ -887,12 +886,16 @@ characters = {
 		name = TRP_mare_bello_fiore
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_mare_bello_fiore"
+				small = GFX_idea_trp_mare_bello_fiore
+			}
+			civilian = {
+				large = "gfx/leaders/TRP/mare_bello_fiore.dds"
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = TRP_mare_bello_fiore
+			cost = 150
 			allowed = {
 				original_tag = TRP
 			}
@@ -914,8 +917,32 @@ characters = {
 			allowed = {
 				original_tag = TRP
 			}
+			available = {
+				has_intelligence_agency = yes
+			}
 			traits = {
 				wfc_intelligence_princess
+			}
+		}
+	}
+	TRP_aoi_futaba2 = {
+		name = TRP_aoi_futaba
+		portraits = {
+			army = {
+				small = "GFX_idea_trp_aoi_futaba"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_aoi_futaba
+			allowed = {
+				original_tag = TRP
+			}
+			visible = {
+				always = no
+			}
+			traits = {
+				head_of_intelligence
 			}
 		}
 	}

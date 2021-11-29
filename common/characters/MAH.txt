@@ -118,7 +118,7 @@ characters = {
 				original_tag = MAH
 			}
 			traits = {
-				blitzkrieg_theorist
+				military_theorist
 			}
 		}
 	}
@@ -127,8 +127,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mah_illyasviel_von_einzbern"
-			}
-			army = {
 				large = "gfx/leaders/MAH/illyasviel_von_einzbern.dds"
 			}
 		}
@@ -139,10 +137,14 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
+			traits = {
+				offensive_skill
+			}
 		}
 		advisor = {
 			slot = army_chief
 			idea_token = MAH_Illyasviel_von_einzbern
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -159,8 +161,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mah_arika_yumemiya"
-			}
-			army = {
 				large = "gfx/leaders/MAH/arika_yumemiya.dds"
 			}
 		}
@@ -171,11 +171,15 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
+			traits = {
+				infantry_leader
+			}
 		}
 		advisor = {
 			slot = high_command
 			idea_token = MAH_Arika_Yumemiya
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -194,8 +198,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mah_hitomi_tsukishiro"
-			}
-			army = {
 				large = "gfx/leaders/MAH/Hitomi_Tsukishiro.dds"
 			}
 		}
@@ -205,8 +207,33 @@ characters = {
 			allowed = {
 				original_tag = MAH
 			}
+			available = {
+				has_intelligence_agency = yes
+			}
 			traits = {
 				wfc_intelligence_princess
+			}
+		}
+	}
+	MAH_head_int = {
+		name = MAH_Hitomi_Tsukishiro
+		portraits = {
+			army = {
+				small = "GFX_idea_mah_hitomi_tsukishiro"
+				large = "gfx/leaders/MAH/Hitomi_Tsukishiro.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_Hitomi_Tsukishiro
+			allowed = {
+				original_tag = MAH
+			}
+			visible = {
+				always = no
+			}
+			traits = {
+				head_of_intelligence
 			}
 		}
 	}

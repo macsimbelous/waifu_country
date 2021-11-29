@@ -82,8 +82,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/olga_discordia_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Olga_Discordia.dds"
 			}
 		}
@@ -103,14 +101,15 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = HEN_Olga_Discordia
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
 			traits = {
-				wfc_silent_workhorse
+				fascist_demagogue
 			}
 			ai_will_do = {
-				factor = 5
+				factor = 0
 			}
 		}
 	}
@@ -119,8 +118,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/celestine_lucullus_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Celestine_Lucullus.dds"
 			}
 		}
@@ -136,6 +133,20 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Celestine_Lucullus
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
 		}
 	}
 	#genarals
@@ -173,8 +184,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/iris_arcadia_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Iris_Arcadia.dds"
 			}
 		}
@@ -238,9 +247,22 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/igawa_asagi_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Igawa_Asagi.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = HEN_Igawa_Asagi
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				military_theorist
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
@@ -257,9 +279,21 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/anri_sogahara_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Anri_Sogahara.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = HEN_Anri_Sogahara
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
@@ -276,9 +310,21 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/rina_komiya_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Rina_Komiya.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = HEN_Rina_Komiya
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
@@ -295,9 +341,22 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/anna_komiya_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Anna_Komiya.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = HEN_Anna_Komiya
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_armored_3
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
@@ -307,6 +366,9 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
+			traits = {
+				panzer_leader
+			}
 		}
 	}
 	HEN_Ruma = {
@@ -317,6 +379,20 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/HEN/Ruma.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Ruma
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.15
 			}
 		}
 		corps_commander = {
@@ -333,18 +409,34 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/yuuki_kawaragi_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Yuuki_Kawaragi.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = HEN_Yuuki_Kawaragi
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_regrouping_3
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
 			skill = 1
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 			legacy_id = -1
+			traits = {
+				planning_skill
+			}
 		}
 	}
 	HEN_Tsubasa_Kamijo = {
@@ -352,9 +444,22 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/tsubasa_kamijo_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Tsubasa_Kamijo.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = HEN_Tsubasa_Kamijo
+			ledger = air
+			cost = 50
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				air_warfare_theorist
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
@@ -371,18 +476,30 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/prim_fiorire_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Prim_Fiorire.dds"
 			}
 		}
 		corps_commander = {
 			skill = 1
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Prim_Fiorire
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				wfc_captain_of_industry
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	HEN_Cloe = {
@@ -390,18 +507,34 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/cloe_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Cloe.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = HEN_Cloe
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_logistics_3
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
 			skill = 1
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 2
 			legacy_id = -1
+			traits = {
+				logistics_wizard
+			}
 		}
 	}
 	HEN_Claudia_le_Van_Tyne = {
@@ -409,15 +542,27 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/claudia_le_van_tyne_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Claudia_le_Van_Tyne.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = HEN_Claudia_le_Van_Tyne
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
 			skill = 1
-			attack_skill = 2
-			defense_skill = 1
+			attack_skill = 1
+			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
@@ -428,17 +573,59 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/alicia_arcturus_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Alicia_Arcturus.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = HEN_Alicia_Arcturus
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		corps_commander = {
 			skill = 1
-			attack_skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_Sill_Plain = {
+		name = HEN_Sill_Plain
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/sill_plain_idea.dds"
+				large = "gfx/leaders/HEN/Sill_Plain.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Sill_Plain
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 2
 			legacy_id = -1
 		}
 	}
@@ -480,9 +667,22 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/suomi_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Suomi.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = HEN_Suomi
+			ledger = navy
+			cost = 50
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				naval_theorist
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		navy_leader = {
@@ -502,43 +702,88 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/akiho_taniguchi_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Akiho_Taniguchi.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = HEN_Akiho_Taniguchi
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				navy_chief_decisive_battle_4
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		navy_leader = {
 			traits = {
-				naval_liason
+				naval_liason naval_lineage
 			}
 			skill = 1
-			attack_skill = 1
+			attack_skill = 2
 			defense_skill = 1
 			maneuvering_skill = 1
 			coordination_skill = 1
 			legacy_id = -1
 		}
 	}
-	HEN_Sill_Plain = {
-		name = HEN_Sill_Plain
+	#advisors
+	HEN_Mika_Amano = {
+		name = HEN_Mika_Amano
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/sill_plain_idea.dds"
-			}
-			army = {
-				large = "gfx/leaders/HEN/Sill_Plain.dds"
+				small = "gfx/leaders/HEN/mika_amano_idea.dds"
+				large = "gfx/leaders/HEN/Mika_Amano.dds"
 			}
 		}
-		navy_leader = {
-			traits = {
-				navy_career_officer
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Mika_Amano
+			allowed = {
+				original_tag = HEN
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				wfc_intelligence_princess
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	HEN_head_int = {
+		name = generic_head_of_intelligence
+		portraits = {
+			army = {
+				small = "GFX_idea_acw_mika_amano"
+			}
+			civilian = {
+				large = "gfx/leaders/HEN/Mika_Amano.dds"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_head_of_intelligence
+			allowed = {
+				original_tag = HEN
+			}
+			visible = {
+				always = no
+			}
+			traits = {
+				head_of_intelligence
+			}
+			ai_will_do = {
+				factor = 0
+			}
 		}
 	}
 }
