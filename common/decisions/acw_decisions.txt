@@ -1025,7 +1025,7 @@ acw_puppets_category = {
 								}
 							}
 						}
-						acw_change_country_leader2 = yes
+						acw_change_country_leader = yes
 						if = {
 							limit = {
 								has_idea = ENG_guided_by_britain_raj_2
@@ -1227,7 +1227,12 @@ acw_overseas_puppets_category = {
 		complete_effect = {
 		}
 		remove_effect = {
-			puppet = FROM
+			#puppet = FROM
+			set_autonomy = {
+				target = FROM
+				#autonomy_state = autonomy_federation_subject
+				autonomy_state = autonomy_dominion
+			}
 			FROM = {
 				add_ideas = {
 					wfc_acw_assistance
