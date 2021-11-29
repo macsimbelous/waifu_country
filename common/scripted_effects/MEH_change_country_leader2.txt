@@ -1,0 +1,5240 @@
+MEH_change_country_leader2 = {
+	if = {
+		limit = { original_tag = GER }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GER_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GER_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GER_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GER_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ENG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ENG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ENG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ENG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ENG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SOV }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SOV_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SOV_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SOV_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SOV_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SWE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SWE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SWE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SWE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SWE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = FRA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_FRA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_FRA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_FRA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_FRA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = LUX }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_LUX_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_LUX_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_LUX_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_LUX_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BEL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BEL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BEL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BEL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BEL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = HOL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_HOL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_HOL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_HOL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_HOL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CZE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CZE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CZE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CZE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CZE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = POL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_POL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_POL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_POL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_POL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = AUS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_AUS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_AUS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_AUS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_AUS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = LIT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_LIT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_LIT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_LIT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_LIT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = EST }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_EST_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_EST_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_EST_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_EST_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = LAT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_LAT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_LAT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_LAT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_LAT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SPR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SPR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SPR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SPR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SPR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ITA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ITA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ITA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ITA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ITA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ROM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ROM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ROM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ROM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ROM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = YUG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_YUG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_YUG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_YUG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_YUG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SER }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SER_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SER_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SER_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SER_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SWI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SWI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SWI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SWI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SWI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TUR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TUR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TUR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TUR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TUR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GRE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GRE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GRE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GRE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GRE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ALB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ALB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ALB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ALB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ALB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NOR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NOR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NOR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NOR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NOR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = DEN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_DEN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_DEN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_DEN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_DEN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BUL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BUL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BUL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BUL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BUL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = POR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_POR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_POR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_POR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_POR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = FIN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_FIN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_FIN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_FIN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_FIN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = IRE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_IRE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_IRE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_IRE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_IRE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = HUN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_HUN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_HUN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_HUN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_HUN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = AFG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_AFG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_AFG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_AFG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_AFG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ARG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ARG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ARG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ARG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ARG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = AST }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_AST_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_AST_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_AST_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_AST_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BHU }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BHU_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BHU_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BHU_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BHU_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BOL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BOL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BOL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BOL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BOL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BRA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BRA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BRA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BRA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BRA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CAN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CAN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CAN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CAN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CAN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CHI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CHI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CHI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CHI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CHI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CHL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CHL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CHL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CHL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CHL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = COL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_COL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_COL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_COL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_COL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = COS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_COS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_COS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_COS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_COS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ECU }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ECU_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ECU_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ECU_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ECU_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ELS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ELS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ELS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ELS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ELS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ETH }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ETH_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ETH_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ETH_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ETH_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GUA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GUA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GUA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GUA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GUA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = HON }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_HON_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_HON_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_HON_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_HON_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = IRQ }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_IRQ_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_IRQ_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_IRQ_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_IRQ_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = JAP }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_JAP_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_JAP_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_JAP_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_JAP_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KOR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KOR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KOR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KOR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KOR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = LIB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_LIB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_LIB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_LIB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_LIB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MEX }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MEX_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MEX_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MEX_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MEX_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MEN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MEN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MEN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MEN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MEN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NEP }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NEP_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NEP_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NEP_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NEP_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NIC }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NIC_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NIC_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NIC_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NIC_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NZL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NZL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NZL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NZL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NZL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PAN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PAN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PAN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PAN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PAN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PER }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PER_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PER_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PER_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PER_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PHI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PHI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PHI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PHI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PHI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PRU }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PRU_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PRU_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PRU_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PRU_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SAF }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SAF_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SAF_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SAF_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SAF_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SAU }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SAU_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SAU_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SAU_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SAU_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SIA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SIA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SIA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SIA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SIA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SIK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SIK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SIK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SIK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SIK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TIB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TIB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TIB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TIB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TIB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = URG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_URG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_URG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_URG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_URG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = VEN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_VEN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_VEN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_VEN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_VEN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = YUN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_YUN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_YUN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_YUN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_YUN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = USA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_USA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_USA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_USA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_USA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MON }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MON_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MON_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MON_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MON_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TAN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TAN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TAN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TAN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TAN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PAR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PAR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PAR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PAR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PAR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CUB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CUB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CUB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CUB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CUB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = DOM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_DOM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_DOM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_DOM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_DOM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = HAI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_HAI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_HAI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_HAI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_HAI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = YEM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_YEM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_YEM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_YEM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_YEM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = OMA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_OMA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_OMA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_OMA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_OMA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SLO }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SLO_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SLO_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SLO_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SLO_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = RAJ }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_RAJ_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_RAJ_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_RAJ_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_RAJ_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CRO }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CRO_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CRO_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CRO_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CRO_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GXC }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GXC_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GXC_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GXC_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GXC_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PRC }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PRC_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PRC_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PRC_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PRC_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SHX }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SHX_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SHX_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SHX_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SHX_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = XSM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_XSM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_XSM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_XSM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_XSM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ICE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ICE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ICE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ICE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ICE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = LEB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_LEB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_LEB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_LEB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_LEB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = JOR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_JOR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_JOR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_JOR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_JOR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SYR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SYR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SYR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SYR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SYR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = EGY }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_EGY_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_EGY_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_EGY_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_EGY_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = LBA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_LBA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_LBA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_LBA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_LBA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = WGR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_WGR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_WGR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_WGR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_WGR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = DDR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_DDR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_DDR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_DDR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_DDR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PAL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PAL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PAL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PAL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PAL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ISR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ISR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ISR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ISR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ISR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = VIN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_VIN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_VIN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_VIN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_VIN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CAM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CAM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CAM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CAM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CAM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MAL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MAL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MAL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MAL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MAL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = INS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_INS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_INS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_INS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_INS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = LAO }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_LAO_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_LAO_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_LAO_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_LAO_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MNT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MNT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MNT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MNT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MNT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = UKR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_UKR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_UKR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_UKR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_UKR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GEO }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GEO_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GEO_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GEO_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GEO_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KAZ }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KAZ_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KAZ_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KAZ_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KAZ_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = AZR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_AZR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_AZR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_AZR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_AZR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ARM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ARM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ARM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ARM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ARM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BLR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BLR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BLR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BLR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BLR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ANG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ANG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ANG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ANG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ANG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MZB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MZB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MZB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MZB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MZB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ZIM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ZIM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ZIM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ZIM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ZIM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = COG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_COG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_COG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_COG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_COG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KEN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KEN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KEN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KEN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KEN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PAK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PAK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PAK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PAK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PAK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BOT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BOT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BOT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BOT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BOT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MAN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MAN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MAN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MAN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MAN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BAH }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BAH_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BAH_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BAH_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BAH_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BAN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BAN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BAN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BAN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BAN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BLZ }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BLZ_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BLZ_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BLZ_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BLZ_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BRM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BRM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BRM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BRM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BRM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CRC }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CRC_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CRC_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CRC_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CRC_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GDL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GDL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GDL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GDL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GDL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GYA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GYA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GYA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GYA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GYA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = JAM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_JAM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_JAM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_JAM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_JAM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KYR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KYR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KYR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KYR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KYR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MAD }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MAD_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MAD_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MAD_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MAD_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MOL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MOL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MOL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MOL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MOL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PNG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PNG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PNG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PNG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PNG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PUE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PUE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PUE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PUE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PUE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = QAT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_QAT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_QAT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_QAT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_QAT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SCO }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SCO_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SCO_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SCO_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SCO_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SRL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SRL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SRL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SRL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SRL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SUR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SUR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SUR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SUR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SUR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TAJ }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TAJ_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TAJ_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TAJ_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TAJ_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TRI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TRI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TRI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TRI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TRI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TMS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TMS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TMS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TMS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TMS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = UAE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_UAE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_UAE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_UAE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_UAE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = UZB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_UZB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_UZB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_UZB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_UZB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KUW }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KUW_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KUW_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KUW_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KUW_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CYP }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CYP_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CYP_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CYP_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CYP_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MLT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MLT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MLT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MLT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MLT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ALG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ALG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ALG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ALG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ALG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MOR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MOR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MOR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MOR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MOR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TUN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TUN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TUN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TUN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TUN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SUD }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SUD_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SUD_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SUD_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SUD_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ERI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ERI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ERI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ERI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ERI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = DJI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_DJI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_DJI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_DJI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_DJI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SOM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SOM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SOM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SOM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SOM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = UGA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_UGA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_UGA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_UGA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_UGA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = RWA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_RWA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_RWA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_RWA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_RWA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BRD }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BRD_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BRD_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BRD_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BRD_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TZN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TZN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TZN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TZN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TZN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ZAM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ZAM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ZAM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ZAM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ZAM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MLW }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MLW_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MLW_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MLW_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MLW_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GAB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GAB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GAB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GAB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GAB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = RCG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_RCG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_RCG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_RCG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_RCG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = EQG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_EQG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_EQG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_EQG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_EQG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CMR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CMR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CMR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CMR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CMR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CAR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CAR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CAR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CAR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CAR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CHA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CHA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CHA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CHA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CHA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NGA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NGA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NGA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NGA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NGA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = DAH }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_DAH_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_DAH_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_DAH_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_DAH_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TOG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TOG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TOG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TOG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TOG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GHA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GHA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GHA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GHA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GHA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = IVO }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_IVO_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_IVO_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_IVO_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_IVO_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = VOL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_VOL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_VOL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_VOL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_VOL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MLI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MLI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MLI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MLI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MLI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SIE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SIE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SIE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SIE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SIE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GNA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GNA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GNA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GNA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GNA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GNB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GNB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GNB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GNB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GNB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SEN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SEN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SEN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SEN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SEN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GAM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GAM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GAM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GAM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GAM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = WLS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_WLS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_WLS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_WLS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_WLS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NGR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NGR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NGR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NGR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NGR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CSA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CSA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CSA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CSA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CSA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = USB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_USB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_USB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_USB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_USB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MRT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MRT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MRT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MRT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MRT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NMB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NMB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NMB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NMB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NMB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = WES }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_WES_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_WES_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_WES_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_WES_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BAS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BAS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BAS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BAS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BAS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CAY }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CAY_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CAY_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CAY_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CAY_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MLD }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MLD_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MLD_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MLD_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MLD_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = FIJ }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_FIJ_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_FIJ_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_FIJ_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_FIJ_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = FSM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_FSM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_FSM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_FSM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_FSM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TAH }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TAH_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TAH_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TAH_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TAH_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GUM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GUM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GUM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GUM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GUM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SOL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SOL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SOL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SOL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SOL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SAM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SAM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SAM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SAM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SAM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = HAW }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_HAW_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_HAW_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_HAW_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_HAW_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SLV }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SLV_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SLV_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SLV_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SLV_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BOS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BOS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BOS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BOS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BOS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = HRZ }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_HRZ_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_HRZ_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_HRZ_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_HRZ_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MAC }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MAC_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MAC_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MAC_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MAC_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NIR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NIR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NIR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NIR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NIR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BAY }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BAY_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BAY_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BAY_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BAY_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MEK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MEK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MEK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MEK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MEK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = PRE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_PRE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_PRE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_PRE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_PRE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SAX }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SAX_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SAX_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SAX_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SAX_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = HAN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_HAN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_HAN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_HAN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_HAN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = WUR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_WUR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_WUR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_WUR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_WUR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SHL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SHL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SHL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SHL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SHL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CAT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CAT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CAT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CAT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CAT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NAV }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NAV_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NAV_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NAV_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NAV_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = GLC }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_GLC_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_GLC_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_GLC_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_GLC_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ADU }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ADU_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ADU_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ADU_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ADU_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BRI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BRI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BRI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BRI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BRI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = OCC }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_OCC_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_OCC_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_OCC_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_OCC_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = COR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_COR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_COR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_COR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_COR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KUR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KUR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KUR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KUR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KUR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TRA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TRA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TRA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TRA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TRA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = DNZ }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_DNZ_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_DNZ_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_DNZ_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_DNZ_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = SIL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_SIL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_SIL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_SIL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_SIL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KSH }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KSH_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KSH_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KSH_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KSH_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = DON }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_DON_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_DON_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_DON_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_DON_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KUB }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KUB_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KUB_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KUB_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KUB_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BUK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BUK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BUK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BUK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BUK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ALT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ALT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ALT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ALT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ALT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KAL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KAL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KAL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KAL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KAL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KAR }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KAR_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KAR_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KAR_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KAR_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CRI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CRI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CRI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CRI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CRI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TAT }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TAT_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TAT_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TAT_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TAT_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CIN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CIN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CIN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CIN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CIN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = DAG }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_DAG_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_DAG_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_DAG_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_DAG_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BYA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BYA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BYA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BYA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BYA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CKK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CKK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CKK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CKK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CKK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = FER }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_FER_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_FER_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_FER_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_FER_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = YAK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_YAK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_YAK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_YAK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_YAK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = VLA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_VLA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_VLA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_VLA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_VLA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KKP }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KKP_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KKP_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KKP_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KKP_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = YAM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_YAM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_YAM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_YAM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_YAM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = TAY }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_TAY_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_TAY_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_TAY_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_TAY_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = OVO }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_OVO_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_OVO_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_OVO_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_OVO_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NEN }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NEN_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NEN_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NEN_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NEN_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KOM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KOM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KOM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KOM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KOM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = ABK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_ABK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_ABK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_ABK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_ABK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KBK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KBK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KBK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KBK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KBK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = NOA }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_NOA_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_NOA_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_NOA_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_NOA_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = VGE }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_VGE_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_VGE_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_VGE_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_VGE_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = BSK }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_BSK_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_BSK_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_BSK_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_BSK_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KHI }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KHI_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KHI_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KHI_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KHI_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = UDM }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_UDM_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_UDM_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_UDM_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_UDM_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = CHU }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_CHU_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_CHU_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_CHU_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_CHU_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = MEL }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_MEL_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_MEL_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_MEL_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_MEL_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = KOS }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_KOS_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_KOS_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_KOS_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_KOS_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D01 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D01_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D01_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D01_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D01_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D02 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D02_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D02_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D02_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D02_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D03 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D03_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D03_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D03_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D03_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D04 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D04_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D04_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D04_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D04_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D05 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D05_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D05_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D05_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D05_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D06 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D06_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D06_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D06_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D06_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D07 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D07_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D07_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D07_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D07_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D08 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D08_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D08_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D08_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D08_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D09 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D09_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D09_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D09_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D09_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D10 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D10_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D10_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D10_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D10_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D11 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D11_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D11_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D11_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D11_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D12 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D12_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D12_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D12_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D12_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D13 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D13_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D13_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D13_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D13_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D14 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D14_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D14_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D14_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D14_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D15 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D15_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D15_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D15_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D15_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D16 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D16_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D16_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D16_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D16_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D17 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D17_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D17_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D17_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D17_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D18 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D18_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D18_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D18_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D18_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D19 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D19_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D19_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D19_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D19_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D20 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D20_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D20_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D20_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D20_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D21 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D21_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D21_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D21_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D21_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D22 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D22_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D22_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D22_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D22_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D23 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D23_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D23_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D23_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D23_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D24 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D24_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D24_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D24_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D24_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D25 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D25_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D25_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D25_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D25_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D26 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D26_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D26_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D26_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D26_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D27 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D27_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D27_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D27_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D27_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D28 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D28_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D28_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D28_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D28_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D29 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D29_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D29_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D29_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D29_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D30 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D30_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D30_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D30_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D30_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D31 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D31_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D31_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D31_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D31_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D32 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D32_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D32_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D32_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D32_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D33 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D33_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D33_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D33_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D33_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D34 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D34_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D34_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D34_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D34_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D35 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D35_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D35_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D35_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D35_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D36 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D36_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D36_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D36_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D36_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D37 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D37_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D37_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D37_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D37_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D38 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D38_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D38_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D38_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D38_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D39 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D39_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D39_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D39_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D39_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D40 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D40_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D40_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D40_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D40_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D41 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D41_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D41_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D41_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D41_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D42 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D42_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D42_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D42_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D42_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D43 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D43_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D43_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D43_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D43_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D44 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D44_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D44_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D44_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D44_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D45 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D45_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D45_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D45_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D45_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D46 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D46_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D46_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D46_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D46_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D47 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D47_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D47_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D47_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D47_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D48 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D48_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D48_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D48_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D48_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D49 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D49_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D49_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D49_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D49_puppet_leader_neutrality
+		}
+	}
+	else_if = {
+		limit = { original_tag = D50 }
+		if = {
+			limit = { has_government = communism }
+			recruit_character = MEH_D50_puppet_leader_communism
+		}
+		else_if = {
+			limit = { has_government = fascism }
+			recruit_character = MEH_D50_puppet_leader_fascism
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			recruit_character = MEH_D50_puppet_leader_democratic
+		}
+		else = {
+			recruit_character = MEH_D50_puppet_leader_neutrality
+		}
+	}
+}

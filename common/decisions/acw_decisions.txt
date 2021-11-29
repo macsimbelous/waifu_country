@@ -990,17 +990,18 @@ acw_puppets_category = {
 			factor = 100
 		}
 		fire_only_once = no
-		cost = 300
+		cost = 100
 		#cost = mtth:acw_puppet_cost
 		#days_re_enable = 180
-		days_remove = 90
+		days_remove = 30
 		modifier = {
 			political_power_gain = -1
 		}
 		remove_effect = {
 			set_autonomy = {
 				target = FROM
-				autonomy_state = autonomy_federation_subject
+				#autonomy_state = autonomy_federation_subject
+				autonomy_state = autonomy_dominion
 			}
 			#puppet = FROM
 			FROM = {
@@ -1024,7 +1025,7 @@ acw_puppets_category = {
 								}
 							}
 						}
-						acw_change_country_leader = yes
+						acw_change_country_leader2 = yes
 						if = {
 							limit = {
 								has_idea = ENG_guided_by_britain_raj_2

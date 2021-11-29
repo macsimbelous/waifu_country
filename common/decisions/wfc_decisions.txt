@@ -612,7 +612,7 @@ wfc_subjects_category = {
 					}
 					FROM = {
 						hidden_effect = {
-							acw_change_country_leader = yes
+							acw_change_country_leader2 = yes
 						}
 						add_ideas = {
 							wfc_acw_assistance
@@ -626,7 +626,7 @@ wfc_subjects_category = {
 					}
 					FROM = {
 						hidden_effect = {
-							hen_change_country_leader = yes
+							hen_change_country_leader2 = yes
 						}
 					}
 				}
@@ -636,7 +636,7 @@ wfc_subjects_category = {
 					}
 					FROM = {
 						hidden_effect = {
-							mah_change_country_leader = yes
+							mah_change_country_leader2 = yes
 						}
 					}
 				}
@@ -646,7 +646,7 @@ wfc_subjects_category = {
 					}
 					FROM = {
 						hidden_effect = {
-							meh_change_country_leader = yes
+							meh_change_country_leader2 = yes
 						}
 					}
 				}
@@ -656,14 +656,14 @@ wfc_subjects_category = {
 					}
 					FROM = {
 						hidden_effect = {
-							mms_change_country_leader = yes
+							mms_change_country_leader2 = yes
 						}
 					}
 				}
 				else = {
 					FROM = {
 						hidden_effect = {
-							trp_change_country_leader = yes
+							trp_change_country_leader2 = yes
 						}
 					}
 				}
@@ -691,7 +691,7 @@ wfc_subjects_category = {
 						original_tag = ACW
 					}
 					FROM = {
-						acw_change_country_leader = yes
+						acw_change_country_leader2 = yes
 					}
 				}
 				else_if = {
@@ -699,7 +699,7 @@ wfc_subjects_category = {
 						original_tag = HEN
 					}
 					FROM = {
-						hen_change_country_leader = yes
+						hen_change_country_leader2 = yes
 					}
 				}
 				else_if = {
@@ -707,7 +707,7 @@ wfc_subjects_category = {
 						original_tag = MEH
 					}
 					FROM = {
-						meh_change_country_leader = yes
+						meh_change_country_leader2 = yes
 					}
 				}
 				else_if = {
@@ -715,7 +715,7 @@ wfc_subjects_category = {
 						original_tag = MAH
 					}
 					FROM = {
-						mah_change_country_leader = yes
+						mah_change_country_leader2 = yes
 					}
 				}
 				else_if = {
@@ -723,12 +723,12 @@ wfc_subjects_category = {
 						original_tag = MMS
 					}
 					FROM = {
-						mms_change_country_leader = yes
+						mms_change_country_leader2 = yes
 					}
 				}
 				else = {
 					FROM = {
-						trp_change_country_leader = yes
+						trp_change_country_leader2 = yes
 					}
 				}
 			}
