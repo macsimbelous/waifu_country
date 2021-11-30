@@ -31,6 +31,22 @@ spriteTypes = {
                 name = "GFX_idea_mah_usagi_tsukino"
                 texturefile = "gfx/leaders/MAH/usagi_tsukino_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mah_ami_mizuno"
+                texturefile = "gfx/leaders/MAH/ami_mizuno_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_makoto_kino"
+                texturefile = "gfx/leaders/MAH/makoto_kino_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_minako_aino"
+                texturefile = "gfx/leaders/MAH/minako_aino_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_rei_hino"
+                texturefile = "gfx/leaders/MAH/rei_hino_idea.dds"
+        }
 }
 
 

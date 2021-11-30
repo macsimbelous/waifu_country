@@ -191,6 +191,117 @@ characters = {
 			}
 		}
 	}
+	MAH_ami_mizuno = {
+		name = MAH_ami_mizuno
+		portraits = {
+			army = {
+				small = GFX_idea_mah_ami_mizuno
+				large = "gfx/leaders/MAH/ami_mizuno.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_ami_mizuno
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				wfc_silent_workhorse
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MAH_makoto_kino = {
+		name = MAH_makoto_kino
+		portraits = {
+			army = {
+				small = GFX_idea_mah_makoto_kino
+				large = "gfx/leaders/MAH/makoto_kino.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_makoto_kino
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				wfc_captain_of_industry
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	MAH_minako_aino = {
+		name = MAH_minako_aino
+		portraits = {
+			army = {
+				small = GFX_idea_mah_minako_aino
+				large = "gfx/leaders/MAH/minako_aino.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_minako_aino
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				democratic_reformer
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	MAH_rei_hino = {
+		name = MAH_rei_hino
+		portraits = {
+			army = {
+				small = GFX_idea_mah_rei_hino
+				large = "gfx/leaders/MAH/rei_hino.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_rei_hino
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.15
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
 	#admural
 	#advisors
 	MAH_Hitomi_Tsukishiro = {

@@ -34,7 +34,7 @@ every_possible_country = {
 		OR = {
 			##original_tag = ACW
 			#original_tag = HEN
-			original_tag = MAH
+			#original_tag = MAH
 			#original_tag = MEH
 			original_tag = MMS
 			#original_tag = TRP
@@ -126,7 +126,7 @@ every_possible_country = {
 		OR = {
 			#original_tag = ACW
 			#original_tag = HEN
-			original_tag = MAH
+			#original_tag = MAH
 			#original_tag = MEH
 			original_tag = MMS
 			#original_tag = TRP
@@ -171,60 +171,6 @@ every_possible_country = {
 		portraits = {
 			army = {
 				small = GFX_idea_generic_war_industrialist
-			}
-		}
-	}
-}
-every_possible_country = {
-	limit = {
-		OR = {
-			#original_tag = ACW
-			#original_tag = HEN
-			original_tag = MAH
-			#original_tag = MEH
-			#original_tag = MMS
-			#original_tag = TRP
-		}
-		is_dynamic_country = no
-	}
-	generate_character = {
-		token_base = generic_political_advisor		
-		advisor = {
-			slot = political_advisor
-			traits = {
-				wfc_silent_workhorse
-			}
-		}
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor
-			}
-		}
-	}
-}
-every_possible_country = {
-	limit = {
-		OR = {
-			#original_tag = ACW
-			#original_tag = HEN
-			original_tag = MAH
-			#original_tag = MEH
-			#original_tag = MMS
-			#original_tag = TRP
-		}
-		is_dynamic_country = no
-	}
-	generate_character = {
-		token_base = generic_political_advisor		
-		advisor = {
-			slot = political_advisor
-			traits = {
-				princess_of_terror
-			}
-		}
-		portraits = {
-			army = {
-				small = GFX_idea_generic_political_advisor
 			}
 		}
 	}

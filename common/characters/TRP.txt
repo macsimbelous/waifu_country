@@ -198,6 +198,9 @@ characters = {
 			traits = {
 				princess_of_terror
 			}
+			modifier = {
+				compliance_growth = 0.15
+			}
 		}
 	}
 	TRP_kaoru_hanase = {
