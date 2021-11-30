@@ -47,6 +47,34 @@ spriteTypes = {
                 name = "GFX_idea_mah_rei_hino"
                 texturefile = "gfx/leaders/MAH/rei_hino_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mah_chisato_yonamine"
+                texturefile = "gfx/leaders/MAH/chisato_yonamine_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_kurumi_mugen"
+                texturefile = "gfx/leaders/MAH/kurumi_mugen_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_homura_akemi"
+                texturefile = "gfx/leaders/MAH/homura_akemi_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_subaru_nakajima"
+                texturefile = "gfx/leaders/MAH/subaru_nakajima_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_vivio"
+                texturefile = "gfx/leaders/MAH/vivio_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_fate_testarossa"
+                texturefile = "gfx/leaders/MAH/fate_testarossa_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_akane_isshiki"
+                texturefile = "gfx/leaders/MAH/akane_isshiki_idea.dds"
+        }
 }
 
 

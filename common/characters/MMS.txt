@@ -22,17 +22,6 @@ characters = {
 			expire = "1965.1.1.1"
 			id = -1
 		}
-		advisor = {
-			slot = theorist
-			idea_token = MMS_velvet_crowe
-			ledger = army
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				blitzkrieg_theorist
-			}
-		}
 	}
 	MMS_yuuko_yoshida = {
 		name = MMS_yuuko_yoshida
@@ -114,6 +103,19 @@ characters = {
 				large = "gfx/leaders/MMS/Fino_Bloodstone.dds"
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_fino_bloodstone
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		field_marshal = {
 			traits = {
 				aggressive_assaulter
@@ -160,6 +162,7 @@ characters = {
 				trickster
 				trait_engineer
 				fast_planner
+				skilled_staffer
 				expert_delegator
 				adaptable
 			}
@@ -235,7 +238,6 @@ characters = {
 			}
 		}
 	}
-
 	MMS_rose = {
 		name = MMS_rose
 		portraits = {
@@ -365,8 +367,6 @@ characters = {
 			}
 		}
 	}
-
-
 	MMS_milla_maxwell = {
 		name = MMS_milla_maxwell
 		portraits = {
@@ -422,6 +422,19 @@ characters = {
 				large = "gfx/leaders/MMS/Laharl_girl.dds"
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_laharl_female
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		corps_commander = {
 			traits = {
 				infantry_leader
@@ -443,6 +456,18 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/MMS/Desco.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MMS_desco
+			ledger = army
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				blitzkrieg_theorist
 			}
 		}
 		corps_commander = {
@@ -555,6 +580,19 @@ characters = {
 				large = "gfx/leaders/MMS/Lucy.dds"
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_lucy
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		corps_commander = {
 			skill = 1
 			attack_skill = 2
@@ -619,6 +657,9 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
+			traits = {
+				panzer_leader
+			}
 		}
 	}
 	MMS_vignette_april_tsukinose = {
@@ -658,6 +699,18 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/MMS/Satanichia_McDowell_Kurumizawa.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MMS_satanichia_mcdowell_kurumizawa
+			ledger = air
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				air_warfare_theorist
 			}
 		}
 		corps_commander = {
@@ -712,9 +765,17 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_marie_von_eisenberg"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Marie_Von_Eisenberg.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_marie_von_eisenberg
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfc_captain_of_industry
 			}
 		}
 		corps_commander = {
@@ -731,9 +792,19 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_kurari_rose"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Kurari_Rose.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MMS_kurari_rose
+			ledger = army
+			cost = 100
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfc_girl_scientist
 			}
 		}
 		corps_commander = {
@@ -753,6 +824,18 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/MMS/Heine.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MMS_heine
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				military_theorist
 			}
 		}
 		corps_commander = {
@@ -776,6 +859,18 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/MMS/Yamato_WG.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MMS_yamato_wg
+			ledger = navy
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				naval_theorist
 			}
 		}
 		navy_leader = {
@@ -835,6 +930,55 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 			legacy_id = -1
+		}
+	}
+	#advisors
+	MMS_shigure = {
+		name = MMS_shigure
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_shigure"
+			}
+			civilian = {
+				large = "gfx/leaders/MMS/Shigure.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_shigure
+			allowed = {
+				original_tag = MMS
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				wfc_intelligence_princess
+			}
+		}
+	}
+	MMS_shigure2 = {
+		name = MMS_shigure
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_shigure"
+			}
+			civilian = {
+				large = "gfx/leaders/MMS/Shigure.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_shigure
+			allowed = {
+				original_tag = MMS
+			}
+			visible = {
+				always = no
+			}
+			traits = {
+				head_of_intelligence
+			}
 		}
 	}
 }

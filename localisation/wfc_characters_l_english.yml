@@ -145,6 +145,13 @@
   MAH_makoto_kino:0 "Makoto Kino"
   MAH_minako_aino:0 "Minako Aino"
   MAH_rei_hino:0 "Rei Hino"
+  MAH_chisato_yonamine:0 "Chisato Yonamine"
+  MAH_kurumi_mugen:0 "Kurumi Mugen"
+  MAH_homura_akemi:0 "Homura Akemi"
+  MAH_subaru_nakajima:0 "Subaru Nakajima"
+  MAH_vivio:0 "Vivio"
+  MAH_fate_testarossa:0 "Fate Testarossa"
+  MAH_akane_isshiki:0 "Akane Isshiki"
 #MEH
  #lider
   MEH_KOS_MOS:0 "KOS-MOS"
@@ -231,6 +238,8 @@
   MMS_yamato_wg:0 "Yamato WG"
   MMS_purifier:0 "Purifier"
   MMS_tester:0 "Tester"
+ #advisors
+  MMS_shigure:0 "Shigure"
 #TRP
  #leaders
   TRP_astolfo:0 "Astolfo"

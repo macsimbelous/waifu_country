@@ -302,6 +302,213 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MAH_chisato_yonamine = {
+		name = MAH_chisato_yonamine
+		portraits = {
+			army = {
+				small = GFX_idea_mah_chisato_yonamine
+				large = "gfx/leaders/MAH/chisato_yonamine.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_chisato_yonamine
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	MAH_kurumi_mugen = {
+		name = MAH_kurumi_mugen
+		portraits = {
+			army = {
+				small = "GFX_idea_mah_kurumi_mugen"
+			}
+			army = {
+				large = "gfx/leaders/MAH/kurumi_mugen.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAH_kurumi_mugen
+			ledger = army
+			cost = 100
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				wfc_girl_scientist
+			}
+		}
+	}
+	MAH_homura_akemi = {
+		name = MAH_homura_akemi
+		portraits = {
+			army = {
+				small = GFX_idea_mah_homura_akemi
+				large = "gfx/leaders/MAH/homura_akemi.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_homura_akemi
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				wfc_war_industrialist
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	MAH_subaru_nakajima = {
+		name = MAH_subaru_nakajima
+		portraits = {
+			army = {
+				small = GFX_idea_mah_subaru_nakajima
+				large = "gfx/leaders/MAH/subaru_nakajima.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_subaru_nakajima
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MAH_vivio = {
+		name = MAH_vivio
+		portraits = {
+			army = {
+				small = GFX_idea_mah_vivio
+				large = "gfx/leaders/MAH/vivio.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_vivio
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				wfc_popular_figurehead
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MAH_fate_testarossa = {
+		name = MAH_fate_testarossa
+		portraits = {
+			army = {
+				small = "GFX_idea_mah_fate_testarossa"
+			}
+			army = {
+				large = "gfx/leaders/MAH/fate_testarossa.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAH_fate_testarossa
+			ledger = air
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	MAH_akane_isshiki = {
+		name = MAH_akane_isshiki
+		portraits = {
+			army = {
+				small = "GFX_idea_mah_akane_isshiki"
+			}
+			army = {
+				large = "gfx/leaders/MAH/akane_isshiki.dds"
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAH_akane_isshiki
+			ledger = navy
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
 	#admural
 	#advisors
 	MAH_Hitomi_Tsukishiro = {
