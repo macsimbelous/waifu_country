@@ -114,6 +114,7 @@ characters = {
 			slot = theorist
 			idea_token = MAH_Madoka_Kaname
 			ledger = army
+			cost = 50
 			allowed = {
 				original_tag = MAH
 			}
@@ -202,6 +203,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_ami_mizuno
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -229,6 +231,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_makoto_kino
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -256,6 +259,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_minako_aino
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -283,6 +287,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_rei_hino
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -313,6 +318,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_chisato_yonamine
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -337,8 +343,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mah_kurumi_mugen"
-			}
-			army = {
 				large = "gfx/leaders/MAH/kurumi_mugen.dds"
 			}
 		}
@@ -374,6 +378,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_homura_akemi
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -401,6 +406,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_subaru_nakajima
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -431,6 +437,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_vivio
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -452,8 +459,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mah_fate_testarossa"
-			}
-			army = {
 				large = "gfx/leaders/MAH/fate_testarossa.dds"
 			}
 		}
@@ -522,6 +527,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_Hitomi_Tsukishiro
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -544,6 +550,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAH_Hitomi_Tsukishiro
+			cost = 1000
 			allowed = {
 				original_tag = MAH
 			}

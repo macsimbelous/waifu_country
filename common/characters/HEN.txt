@@ -171,6 +171,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = HEN_Mistiora_Arte
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -198,6 +199,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = HEN_Iris_Arcadia
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -231,6 +233,7 @@ characters = {
 			slot = high_command
 			idea_token = HEN_Homare_Nao
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -605,6 +608,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = HEN_Sill_Plain
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -649,6 +653,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = HEN_Kaname
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -703,6 +708,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = HEN_Akiho_Taniguchi
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -737,6 +743,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = HEN_Mika_Amano
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -767,6 +774,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = generic_head_of_intelligence
+			cost = 1000
 			allowed = {
 				original_tag = HEN
 			}

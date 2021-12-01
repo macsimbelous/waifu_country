@@ -156,6 +156,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MEH_Iris_Heart
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -163,7 +164,7 @@ characters = {
 				army_chief_offensive_3
 			}
 			ai_will_do = {
-				base = 2
+				factor = 2
 			}
 		}
 	}
@@ -189,6 +190,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Alisa_Boskonovich
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -225,6 +227,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Risa
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -266,6 +269,7 @@ characters = {
 			slot = high_command
 			idea_token = MEH_2B
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -295,6 +299,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Cibo
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -325,6 +330,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_A2
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -354,6 +360,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MEH_Svetlana_Sakura
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -384,6 +391,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Alexandra_Frolova
 			ledger = air
+			cost = 50
 			allowed = {
 				original_tag = MEH
 			}
@@ -414,6 +422,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_EDI
 			ledger = army
+			cost = 100
 			allowed = {
 				original_tag = MEH
 			}
@@ -450,11 +459,15 @@ characters = {
 			slot = high_command
 			idea_token = MEH_Pyra
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
 				army_infantry_3
+			}
+			ai_will_do = {
+				factor = 2
 			}
 		}
 	}
@@ -483,6 +496,7 @@ characters = {
 			slot = high_command
 			idea_token = MEH_Rozen_S_Series
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -516,6 +530,7 @@ characters = {
 			slot = high_command
 			idea_token = MEH_Clarion
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -549,6 +564,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = MEH_Maki_Ivanova
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -581,6 +597,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Pneuma
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -610,6 +627,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = MEH_Hatsune_Miku
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -639,6 +657,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MEH_Hana
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -669,6 +688,7 @@ characters = {
 			slot = high_command
 			idea_token = MEH_Automaton
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -698,6 +718,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = MEH_Phantom_Queen_Ex_Xecty
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -731,6 +752,7 @@ characters = {
 			slot = high_command
 			idea_token = MEH_MHMD_02_Haruko
 			ledger = army
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -763,6 +785,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_T_Elos
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -828,6 +851,7 @@ characters = {
 			slot = high_command
 			idea_token = MEH_Rose
 			ledger = air
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -860,6 +884,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Elizabeth
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -912,6 +937,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Ashigara_ARP
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -977,6 +1003,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_I_410
 			ledger = navy
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -1006,6 +1033,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = MEH_Haruna_ARP
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -1035,6 +1063,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = MEH_Kirishima_ARP
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -1064,6 +1093,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = MEH_Kongou_ARP
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -1094,6 +1124,7 @@ characters = {
 			slot = high_command
 			idea_token = MEH_Atago_ARP
 			ledger = navy
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -1124,6 +1155,7 @@ characters = {
 			slot = high_command
 			idea_token = MEH_Caseal
 			ledger = navy
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -1153,6 +1185,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Hiei_ARP
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -1163,7 +1196,7 @@ characters = {
 	}
 	#advisor
 	MEH_Yurizaki_Mira = {
-		name = MEH_Hiei_ARP
+		name = MEH_Yurizaki_Mira
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_yurizaki_mira"
@@ -1175,6 +1208,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Yurizaki_Mira
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -1187,7 +1221,7 @@ characters = {
 		}
 	}
 	MEH_head_int = {
-		name = MEH_Hiei_ARP
+		name = MEH_Yurizaki_Mira
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_yurizaki_mira"
@@ -1197,14 +1231,12 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MEH_Yurizaki_Mira
+			cost = 1000
 			allowed = {
 				original_tag = MEH
 			}
 			visible = {
 				always = no
-			}
-			available = {
-				has_intelligence_agency = yes
 			}
 			traits = {
 				head_of_intelligence

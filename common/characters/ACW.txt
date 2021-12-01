@@ -139,6 +139,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ACW_Lightning
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -242,6 +243,7 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_Asuna_Yuuki
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -272,6 +274,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = ACW_Mash_Kyrielight
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -384,6 +387,7 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_Kurumi_Tokisaki
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -412,6 +416,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = ACW_Sanya_V_Litvyak
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -442,6 +447,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = ACW_Isuzu_Sento
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -604,6 +610,7 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_Elma
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -761,6 +768,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ACW_Lina_Inverse
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -789,6 +797,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = ACW_Neptune
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -819,6 +828,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ACW_Ryuuko_Matoi
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -866,6 +876,7 @@ characters = {
 			slot = theorist
 			ledger = navy
 			idea_token = ACW_Siluca_Meletes
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -894,6 +905,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = ACW_Yuno_Gasai
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -923,6 +935,7 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_Byleth_Eisner
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -970,6 +983,7 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_5pb
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -999,6 +1013,7 @@ characters = {
 			slot = high_command
 			ledger = air
 			idea_token = ACW_Blanc
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1028,6 +1043,7 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_Compa
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1254,6 +1270,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = ACW_Noire
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1319,6 +1336,7 @@ characters = {
 			slot = theorist
 			ledger = air
 			idea_token = ACW_Selesia_Upitiria
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1366,6 +1384,7 @@ characters = {
 			slot = high_command
 			ledger = air
 			idea_token = ACW_Vert
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1583,6 +1602,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = ACW_Atago_Azur_Lane
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1613,6 +1633,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = ACW_Avrora_Azur_Lane
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1665,6 +1686,7 @@ characters = {
 			slot = theorist
 			ledger = navy
 			idea_token = ACW_Selesia_Upitiria
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1811,6 +1833,7 @@ characters = {
 			slot = theorist
 			ledger = navy
 			idea_token = ACW_Akeno_Misaki
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1832,15 +1855,16 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
 		}
 		advisor = {
 			slot = navy_chief
 			idea_token = ACW_Beidou
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1866,6 +1890,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Minami_Nitta
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1898,6 +1923,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Ange_le_Carre
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1925,6 +1951,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Niko_Yazawa
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1952,6 +1979,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Mikumo_Guynemer
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -1976,6 +2004,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Asuka_Tanaka
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -2000,6 +2029,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Lucy_Yamagami
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -2025,6 +2055,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ACW_Megumin
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -2053,6 +2084,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ACW_Ayame_Himuro
+			cost = 100
 			allowed = {
 				original_tag = ACW
 			}
@@ -2080,6 +2112,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = generic_head_of_intelligence
+			cost = 1000
 			allowed = {
 				original_tag = ACW
 			}

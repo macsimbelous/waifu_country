@@ -158,8 +158,9 @@ wfc_preparation_for_war_category = {
 		}
 	}
 }
+
 wfc_economy_category = {
-	priority = 10
+	priority = 6
 	icon = generic_economy
 	picture = GFX_wfl_economy_category
 	allowed = {
@@ -173,6 +174,7 @@ wfc_economy_category = {
 		}
 	}
 }
+
 wfc_budget_category = {
 	priority = 11
 	icon = generic_economy
@@ -188,10 +190,11 @@ wfc_budget_category = {
 		}
 	}
 }
+
 wfc_construction_phase_category = {
 	priority = 5
 	icon = generic_construction
-	#picture = GFX_wfc_budget_category
+	picture = GFX_wfl_economy_category
 	allowed = {
 		#always = no
 		OR = {
@@ -204,6 +207,7 @@ wfc_construction_phase_category = {
 		}
 	}
 }
+
 wfc_transfer_of_the_capital_category = {
 	priority = 2
 	allowed = {
@@ -215,5 +219,21 @@ wfc_transfer_of_the_capital_category = {
 			original_tag = MEH
 			original_tag = MMS
 		}
+	}
+}
+
+wfc_test_category = {
+	priority = 20
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+		}
+		#always = no
+		is_debug = yes
 	}
 }

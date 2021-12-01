@@ -1,0 +1,82 @@
+wfc_test_category = {
+	wfc_test_1 = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			ROM = {
+				generate_character = {
+					token_base = generic_democratic_reformer
+					portraits = {
+						civilian = {
+							large = "gfx/leaders/ACW/ACW_land_01.dds"
+						}
+					}
+					country_leader = {
+						ideology = despotism
+						
+						traits = {
+							wfc_anime_tyan
+						}
+						expire = "1953.3.1.1"
+						id = -1
+					}
+					#promote_character = THIS
+				}
+				generate_character = {
+					token_base = generic_democratic_reformer
+					portraits = {
+						civilian = {
+							large = "gfx/leaders/ACW/ACW_land_01.dds"
+						}
+					}
+					country_leader = {
+						ideology = liberalism
+						
+						traits = {
+							wfc_anime_tyan
+						}
+						expire = "1953.3.1.1"
+						id = -1
+					}
+					#promote_character = THIS
+				}
+				generate_character = {
+					token_base = generic_democratic_reformer
+					portraits = {
+						civilian = {
+							large = "gfx/leaders/ACW/ACW_land_01.dds"
+						}
+					}
+					country_leader = {
+						ideology = stalinism
+						
+						traits = {
+							wfc_anime_tyan
+						}
+						expire = "1953.3.1.1"
+						id = -1
+					}
+					#promote_character = THIS
+				}
+				generate_character = {
+					token_base = generic_democratic_reformer
+					portraits = {
+						civilian = {
+							large = "gfx/leaders/ACW/ACW_land_01.dds"
+						}
+					}
+					country_leader = {
+						ideology = fascism_ideology
+						
+						traits = {
+							wfc_anime_tyan
+						}
+						expire = "1953.3.1.1"
+						id = -1
+					}
+					#promote_character = THIS
+				}
+			}
+		}
+	}
+}
