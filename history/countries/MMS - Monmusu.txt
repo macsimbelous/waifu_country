@@ -12,6 +12,7 @@ set_rule = {
 }
 
 set_technology = {
+	basic_train = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	infantry_weapons2 = 1
@@ -31,8 +32,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
 	early_fighter = 1
 	fighter1 = 1
 	CAS1 = 1
@@ -48,28 +47,9 @@ set_technology = {
 	#####
 	basic_naval_mines = 1
 	submarine_mine_laying = 1
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
 	early_ship_hull_submarine = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_heavy = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	basic_battery = 1
-	basic_light_battery = 1
-	basic_medium_battery = 1
-	basic_heavy_battery = 1
 	basic_torpedo = 1
-	sonar = 1
-	smoke_generator = 1
-	basic_depth_charges = 1
-	basic_secondary_battery = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
 	mtg_transport = 1
-	improved_secondary_battery = 1
-	basic_fire_control_system = 1
 }
 
 add_ideas = {

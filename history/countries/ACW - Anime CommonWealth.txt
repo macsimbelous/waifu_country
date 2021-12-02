@@ -14,6 +14,7 @@ set_rule = {
 }
 
 set_technology = {
+	basic_train = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	motorised_infantry = 1
@@ -24,17 +25,20 @@ set_technology = {
 	tech_mountaineers = 1
 	tech_maintenance_company = 1
 	gw_artillery = 1
-	gwtank = 1
 	basic_light_tank = 1
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
 	basic_torpedo = 1
-	early_ship_hull_light = 1
-	basic_battery = 1
 	early_ship_hull_submarine = 1
 	basic_machine_tools = 1
 	construction1 = 1
+		#####
+		gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
 }
 #ideas
 
@@ -309,21 +313,20 @@ create_equipment_variant = {
 		rear_1_custom_slot = ship_torpedo_sub_1
 	}
 }
-
-# Destroyers #
 create_equipment_variant = {
-	name = "E/F/G/H Class"
-	type = ship_hull_light_2
-	name_group = ENG_DD_HISTORICAL
+	name = "ALT-1"
+	type = light_tank_chassis_2
 	parent_version = 0
 	modules = {
-		fixed_ship_battery_slot = ship_light_battery_2
-		fixed_ship_anti_air_slot = ship_anti_air_1
-		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-		fixed_ship_radar_slot = ship_sonar_1
-		fixed_ship_engine_slot = light_ship_engine_2
-		fixed_ship_torpedo_slot = ship_torpedo_1
-		mid_1_custom_slot = ship_torpedo_1
-		rear_1_custom_slot = ship_depth_charge_1
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
 	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 10
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "gfx/interface/technologies/SOV_imp_light_tank.dds"
 }

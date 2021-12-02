@@ -471,11 +471,12 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_equipment_1
+			type = light_tank_chassis_2
 			creator = "ACW"
+			version_name = "ALT-1"
 		}
 		requested_factories = 1
-		progress = 0.24
+		progress = 0.7
 		efficiency = 80
 	}
 	add_equipment_production = {
@@ -484,7 +485,7 @@ instant_effect = {
 			creator = "ACW"
 		}
 		requested_factories = 1
-		progress = 0.24
+		progress = 0.5
 		efficiency = 80
 	}
 }

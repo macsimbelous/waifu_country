@@ -87,15 +87,18 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
+				infantry_officer
 				infantry_leader
 				offensive_doctrine
-				expert_delegator
+				harsh_leader
+				media_personality
+				aggressive_assaulter
 			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
@@ -123,15 +126,19 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
+				infantry_officer
 				infantry_leader
 				defensive_doctrine
+				skilled_staffer
 				expert_delegator
+				inspirational_leader
+				unyielding_defender
 			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
@@ -161,12 +168,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
+			skill = 2
 			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 			legacy_id = -1
+			traits = {
+				logistics_skill
+			}
 		}
 		advisor = {
 			slot = political_advisor
@@ -216,18 +226,22 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/homare_nao_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Homare_Nao.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
+			traits = {
+				infantry_officer
+				skilled_staffer
+				inspirational_leader
+				media_personality
+			}
 		}
 		advisor = {
 			slot = high_command
@@ -269,11 +283,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 5
 			legacy_id = -1
 		}
 	}
@@ -358,11 +372,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 			traits = {
 				panzer_leader
@@ -374,8 +388,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/ruma_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Ruma.dds"
 			}
 		}
@@ -461,11 +473,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 5
 			legacy_id = -1
 		}
 	}
@@ -558,11 +570,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 	}
@@ -625,6 +637,40 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	HEN_risa = {
+		name = HEN_risa
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/risa_idea.dds"
+				large = "gfx/leaders/HEN/risa.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	HEN_kasumi_nanakura = {
+		name = HEN_kasumi_nanakura
+		portraits = {
+			army = {
+				small = "gfx/leaders/HEN/kasumi_nanakura_idea.dds"
+				large = "gfx/leaders/HEN/kasumi_nanakura.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 			legacy_id = -1
 		}
 	}

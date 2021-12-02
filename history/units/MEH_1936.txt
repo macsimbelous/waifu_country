@@ -85,29 +85,29 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Mecha heavy tank"
+	name = "Mecha light tank"
 	regiments = {
-		heavy_armor = {
+		light_armor = {
 			x = 0
 			y = 0
 		}
-		heavy_armor = {
+		light_armor = {
 			x = 0
 			y = 1
 		}
-		heavy_armor = {
+		light_armor = {
 			x = 0
 			y = 2
 		}
-		heavy_armor = {
+		light_armor = {
 			x = 1
 			y = 0
 		}
-		heavy_armor = {
+		light_armor = {
 			x = 1
 			y = 1
 		}
-		heavy_armor = {
+		light_armor = {
 			x = 1
 			y = 2
 		}
@@ -286,13 +286,13 @@ units = {
 	}
 	division = {
 		location = 9814
-		division_template = "Mecha heavy tank"
+		division_template = "Mecha light tank"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 9814
-		division_template = "Mecha heavy tank"
+		division_template = "Mecha light tank"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
@@ -335,8 +335,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = heavy_tank_equipment_1
+			type = light_tank_chassis_2
 			creator = "MEH"
+			version_name = "MLT-1"
 		}
 		requested_factories = 1
 		progress = 0.7

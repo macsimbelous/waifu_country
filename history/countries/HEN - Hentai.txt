@@ -8,6 +8,7 @@ set_rule = {
 }
 
 set_technology = {
+	basic_train = 1
 	basic_machine_tools = 1
 	concentrated_industry = 1
 	electronic_mechanical_engineering = 1
@@ -20,7 +21,6 @@ set_technology = {
 	tech_military_police = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
-	gwtank = 1
 	early_fighter = 1
 	fighter1 = 1
 	naval_bomber1 = 1
@@ -89,6 +89,8 @@ recruit_character = HEN_Prim_Fiorire
 recruit_character = HEN_Cloe
 recruit_character = HEN_Claudia_le_Van_Tyne
 recruit_character = HEN_Alicia_Arcturus
+recruit_character = HEN_risa
+recruit_character = HEN_kasumi_nanakura
 
 #admirals
 recruit_character = HEN_Kaname
@@ -98,6 +100,7 @@ recruit_character = HEN_Sill_Plain
 #advisors
 recruit_character = HEN_Mika_Amano
 recruit_character = HEN_head_int
+
 
 #agents
 create_operative_leader = {

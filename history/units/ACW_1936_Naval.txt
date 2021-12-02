@@ -2,22 +2,25 @@
 	fleet = {
 		name = "Grand Waifu Fleet"			
 		naval_base = 6727
-		task_force = {
-			name = "Lina Fleet"
-			location = 6727
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }	
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }	
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }
-			ship = { definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = ACW version_name = "E/F/G/H Class"} } }
-		}
 		task_force = {				
 			name = "1st Submarine Flotilla"			
+			location = 6727
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
+
+		}
+		task_force = {				
+			name = "2nd Submarine Flotilla"			
 			location = 6727
 			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }
 			ship = {  definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ACW version_name = "S Class" } } }

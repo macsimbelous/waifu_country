@@ -11,7 +11,9 @@ set_rule = {
 	#can_use_kamikaze_pilots = yes
 	can_create_factions = yes
 }
+
 set_technology = {
+	basic_train = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	infantry_weapons2 = 1
@@ -31,8 +33,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
-	basic_heavy_tank = 1
 	early_fighter = 1
 	fighter1 = 1
 	CAS1 = 1
@@ -59,8 +59,13 @@ set_technology = {
 	submarine_mine_laying = 1
 	early_ship_hull_submarine = 1
 	basic_ship_hull_submarine = 1
-	sonar = 1
 	#mtg_transport = 1
+	#####
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
 }
 
 add_ideas = {
@@ -86,12 +91,12 @@ set_popularities = {
 	communism = 25	##Коммунизм
 	fascism = 25	##Фашизм
 }
+
 #lider
 recruit_character = MEH_KOS_MOS
 recruit_character = MEH_Fiora_Mechon
 recruit_character = MEH_Mythra
 recruit_character = MEH_Histoire
-
 #marshal
 recruit_character = MEH_Iris_Heart
 #generals
@@ -118,7 +123,6 @@ recruit_character = MEH_Aino
 recruit_character = MEH_Rose
 recruit_character = MEH_Elizabeth
 recruit_character = MEH_Vivy
-
 #admiral
 recruit_character = MEH_Ashigara_ARP
 recruit_character = MEH_Takao_ARP
@@ -132,8 +136,6 @@ recruit_character = MEH_Hiei_ARP
 #advisor
 recruit_character = MEH_Yurizaki_Mira
 recruit_character = MEH_head_int
-
-
 #Agents
 create_operative_leader = {
 	name = "Aegis"
@@ -148,6 +150,7 @@ create_operative_leader = {
 		operative_commando
 	}
 }
+
 create_operative_leader = {
 	name = "Chii"
 	GFX = GFX_Chii
@@ -163,6 +166,7 @@ create_operative_leader = {
 		operative_master_interrogator
 	}
 }
+
 create_operative_leader = {
 	name = "Vanessa Diodati"
 	GFX = GFX_Vanessa_Diodati
@@ -177,6 +181,7 @@ create_operative_leader = {
 		operative_commando
 	}
 }
+
 create_operative_leader = {
 	name = "Yurizaki Mira"
 	GFX = GFX_Yurizaki_Mira
@@ -191,7 +196,26 @@ create_operative_leader = {
 		operative_natural_orator
 	}
 }
+
 ### Variants ###
+create_equipment_variant = {
+	name = "MLT-1"
+	type = light_tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 10
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "gfx/interface/technologies/SOV_imp_light_tank.dds"
+}
+
 # Submarines #
 create_equipment_variant = {
 	name = "Iona Class"
