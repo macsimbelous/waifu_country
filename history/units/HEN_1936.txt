@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Anime Garrison"
+	name = "BDSM Garrison"
 	regiments = {
 		cavalry = {
 			x = 0
@@ -25,8 +25,39 @@
 		}
 	}
 }
+
 division_template = {
-	name = "Anime Infantry Division"
+	name = "Hentai Cavalry"
+	regiments = {
+		cavalry = {
+			x = 0
+			y = 0
+		}
+		cavalry = {
+			x = 1
+			y = 0
+		}
+		cavalry = {
+			x = 0
+			y = 1
+		}
+		cavalry = {
+			x = 1
+			y = 1
+		}
+		cavalry = {
+			x = 0
+			y = 2
+		}
+		cavalry = {
+			x = 1
+			y = 2
+		}
+	}
+}
+
+division_template = {
+	name = "Hentai Infantry Division"
 	regiments = {
 		infantry = {
 			x = 0
@@ -84,8 +115,9 @@ division_template = {
 		}
 	}
 }
+
 division_template = {
-	name = "Anime Mountaineers"
+	name = "Hentai Mountaineers"
 	regiments = {
 		mountaineers = {
 			x = 0
@@ -120,12 +152,20 @@ division_template = {
 			y = 3
 		}
 		mountaineers = {
-			x = 0
-			y = 4
+			x = 2
+			y = 0
 		}
 		mountaineers = {
-			x = 1
-			y = 4
+			x = 2
+			y = 1
+		}
+		mountaineers = {
+			x = 2
+			y = 2
+		}
+		mountaineers = {
+			x = 2
+			y = 3
 		}
 	}
 	support = {
@@ -140,183 +180,228 @@ division_template = {
 		recon = {
 			x = 0
 			y = 2
+		}
+	}
+}
+division_template = {
+	name = "Hentai light tank"
+	regiments = {
+		light_armor = {
+			x = 0
+			y = 0
+		}
+		light_armor = {
+			x = 0
+			y = 1
+		}
+		light_armor = {
+			x = 0
+			y = 2
+		}
+		light_armor = {
+			x = 1
+			y = 0
+		}
+		light_armor = {
+			x = 1
+			y = 1
+		}
+		light_armor = {
+			x = 1
+			y = 2
+		}
+		motorized = {
+			x = 2
+			y = 0
+		}
+		motorized = {
+			x = 2
+			y = 1
+		}
+		motorized = {
+			x = 2
+			y = 2
+		}
+		motorized = {
+			x = 2
+			y = 3
+		}
+	}
+	support = {
+		mot_recon = {
+			x = 0
+			y = 0
+		}
+		maintenance_company = {
+			x = 0
+			y = 1
 		}
 	}
 }
 units = {
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9950
-		division_template = "Anime Infantry Division"
+		division_template = "Hentai Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
+		start_equipment_factor = 1
+	}
+	#tanks
+	division = {
+		location = 9950
+		division_template = "Hentai light tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9950
+		division_template = "Hentai light tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
 	}
 }
+
 air_wings = {
-	528 = { 
+	528 = {
 		fighter_equipment_1 = {
-			owner = "HEN" 
+			owner = "HEN"
 			amount = 200
 		}
 		nav_bomber_equipment_1 = {
@@ -325,8 +410,9 @@ air_wings = {
 		}
 	}
 }
+
 ###starting production###
-	instant_effect = {
+instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
@@ -354,5 +440,4 @@ air_wings = {
 		progress = 0.4
 		efficiency = 100
 	}
-
 }

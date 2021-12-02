@@ -1,5 +1,4 @@
 ﻿capital = 495
-
 oob = "TRP_1936"
 set_naval_oob = "TRP_1936_Naval"
 #research and industry stuff
@@ -7,6 +6,7 @@ set_rule = {
 	#can_use_kamikaze_pilots = yes
 	can_create_factions = yes
 }
+
 set_technology = {
 	basic_train = 1
 	infantry_weapons = 1
@@ -20,34 +20,41 @@ set_technology = {
 	gw_artillery = 1
 	early_fighter = 1
 	early_bomber = 1
+	#####
 	basic_torpedo = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
 	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
 	trench_warfare = 1
 	support_weapons = 1
 	basic_machine_tools = 1
+	#####
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
 }
 
 set_research_slots = 4
-
 set_convoys = 150
-
 #politics and starting faction
-	
 set_popularities = {
 	democratic = 25
 	neutrality = 25
 	fascism = 25
 	communism = 25
 }
-	
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-#ideas
 
+#ideas
 add_ideas = {
 	limited_exports
 	limited_conscription
@@ -83,7 +90,6 @@ recruit_character = TRP_mizuho_miyanokouji
 recruit_character = TRP_youta_tsunashi
 recruit_character = TRP_fish_eye
 recruit_character = TRP_hacka_doll_no_3
-
 #Admirals
 recruit_character = TRP_ranma_saotome
 recruit_character = TRP_hamaji_yakumo
@@ -107,6 +113,7 @@ create_operative_leader = {
 		TRP
 	}
 }
+
 create_operative_leader = {
 	name = "Ryou Akizuki"
 	GFX = GFX_Ryou_Akizuki
@@ -119,23 +126,28 @@ create_operative_leader = {
 		TRP
 	}
 }
+
 create_operative_leader = {
 	name = "Gasper Vladi"
 	GFX = GFX_Gasper_Vladi
 	traits = {
-		operative_seducer operative_double_agent
+		operative_seducer
+		operative_double_agent
 	}
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
-		TRP MMS
+		TRP
+		MMS
 	}
 }
+
 create_operative_leader = {
 	name = "Aoi Futaba"
 	GFX = GFX_Aoi_Futaba
 	traits = {
-		operative_seducer operative_linguist
+		operative_seducer
+		operative_linguist
 	}
 	bypass_recruitment = no
 	available_to_spy_master = yes
@@ -143,16 +155,34 @@ create_operative_leader = {
 		TRP
 	}
 }
+
 ### Variants ###
 # Submarines #
 create_equipment_variant = {
-	name = "S Class"
-	type = ship_hull_submarine_1
-	name_group = ENG_SS_HISTORICAL
+	name = "Trap Class"
+	type = ship_hull_submarine_2
+	#name_group = ENG_SS_HISTORICAL
 	parent_version = 0
 	modules = {
-		fixed_ship_torpedo_slot = ship_torpedo_sub_1
-		fixed_ship_engine_slot = sub_ship_engine_1
-		rear_1_custom_slot = ship_torpedo_sub_1
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
 	}
+}
+create_equipment_variant = {
+	name = "Iron Trap 1"
+	type = light_tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 10
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "gfx/interface/technologies/improved_light_tank.dds"
 }

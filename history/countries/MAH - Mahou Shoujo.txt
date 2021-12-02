@@ -3,12 +3,12 @@ set_research_slots = 4
 set_convoys = 150
 oob = "MAH_1936"
 set_naval_oob = "MAH_1936_Naval"
-
 #research and industry stuff
 set_rule = {
 	#can_use_kamikaze_pilots = yes
 	can_create_factions = yes
 }
+
 set_technology = {
 	basic_train = 1
 	basic_machine_tools = 1
@@ -17,30 +17,42 @@ set_technology = {
 	motorised_infantry = 1
 	tech_recon = 1
 	tech_support = 1
-	tech_engineers = 1	
+	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
 	early_fighter = 1
 	early_bomber = 1
+	#####
 	basic_torpedo = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
 	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
+	#####
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
 }
+
 set_popularities = {
 	democratic = 25
 	neutrality = 25
 	fascism = 25
 	communism = 25
 }
+
 set_politics = {
-	
 	ruling_party = neutrality
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 #ideas
 add_ideas = {
 	free_trade
@@ -57,9 +69,7 @@ recruit_character = MAH_Momo_Chiyoda
 #advisors
 recruit_character = MAH_Hitomi_Tsukishiro
 recruit_character = MAH_head_int
-
 #marshal
-
 #generals
 recruit_character = MAH_Madoka_Kaname
 recruit_character = MAH_Illyasviel_von_einzbern
@@ -75,7 +85,6 @@ recruit_character = MAH_subaru_nakajima
 recruit_character = MAH_vivio
 recruit_character = MAH_fate_testarossa
 recruit_character = MAH_akane_isshiki
-
 #agents
 create_operative_leader = {
 	name = "Hitomi Tsukishiro"
@@ -86,16 +95,34 @@ create_operative_leader = {
 		MAH
 	}
 }
+
 ### Variants ###
 # Submarines #
 create_equipment_variant = {
-	name = "S Class"
-	type = ship_hull_submarine_1
-	name_group = ENG_SS_HISTORICAL
+	name = "Maho Class"
+	type = ship_hull_submarine_2
+	#name_group = ENG_SS_HISTORICAL
 	parent_version = 0
 	modules = {
-		fixed_ship_torpedo_slot = ship_torpedo_sub_1
-		fixed_ship_engine_slot = sub_ship_engine_1
-		rear_1_custom_slot = ship_torpedo_sub_1
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
 	}
+}
+create_equipment_variant = {
+	name = "Maho-1"
+	type = light_tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 10
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "gfx/interface/technologies/improved_light_tank.dds"
 }

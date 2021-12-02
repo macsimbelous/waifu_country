@@ -29,6 +29,7 @@ set_technology = {
 	tech_military_police = 1
 	tech_maintenance_company = 1
 	tech_field_hospital = 1
+	tech_mountaineers = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_artillery = 1
@@ -213,7 +214,7 @@ create_equipment_variant = {
 		tank_nsb_engine_upgrade = 10
 		tank_nsb_armor_upgrade = 2
 	}
-	icon = "gfx/interface/technologies/SOV_imp_light_tank.dds"
+	icon = "gfx/interface/technologies/improved_light_tank.dds"
 }
 
 # Submarines #

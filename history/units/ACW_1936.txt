@@ -149,12 +149,20 @@ division_template = {
 			y = 3
 		}
 		mountaineers = {
-			x = 0
-			y = 4
+			x = 2
+			y = 0
 		}
 		mountaineers = {
-			x = 1
-			y = 4
+			x = 2
+			y = 1
+		}
+		mountaineers = {
+			x = 2
+			y = 2
+		}
+		mountaineers = {
+			x = 2
+			y = 3
 		}
 	}
 	support = {

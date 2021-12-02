@@ -25,8 +25,18 @@ set_technology = {
 	fighter1 = 1
 	naval_bomber1 = 1
 	early_bomber = 1
+	#####
 	basic_torpedo = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
 	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	#####
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
 }
 
 JAP = {
@@ -69,11 +79,9 @@ recruit_character = HEN_Takumi_Musashino
 recruit_character = HEN_Saori_Asamiya
 recruit_character = HEN_Mari_Setogaya
 recruit_character = HEN_Sheliss_Elleness_Zurbach
-
 #marshals
 recruit_character = HEN_Olga_Discordia
 recruit_character = HEN_Celestine_Lucullus
-
 #generals
 recruit_character = HEN_Mistiora_Arte
 recruit_character = HEN_Iris_Arcadia
@@ -91,7 +99,6 @@ recruit_character = HEN_Claudia_le_Van_Tyne
 recruit_character = HEN_Alicia_Arcturus
 recruit_character = HEN_risa
 recruit_character = HEN_kasumi_nanakura
-
 #admirals
 recruit_character = HEN_Kaname
 recruit_character = HEN_Suomi
@@ -100,8 +107,6 @@ recruit_character = HEN_Sill_Plain
 #advisors
 recruit_character = HEN_Mika_Amano
 recruit_character = HEN_head_int
-
-
 #agents
 create_operative_leader = {
 	name = "Mika Amano"
@@ -147,13 +152,30 @@ create_operative_leader = {
 ### Variants ###
 # Submarines #
 create_equipment_variant = {
-	name = "S Class"
-	type = ship_hull_submarine_1
-	name_group = ENG_SS_HISTORICAL
+	name = "Hentai Class"
+	type = ship_hull_submarine_2
+	#name_group = ENG_SS_HISTORICAL
 	parent_version = 0
 	modules = {
-		fixed_ship_torpedo_slot = ship_torpedo_sub_1
-		fixed_ship_engine_slot = sub_ship_engine_1
-		rear_1_custom_slot = ship_torpedo_sub_1
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
 	}
+}
+create_equipment_variant = {
+	name = "HLT-1"
+	type = light_tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 10
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "gfx/interface/technologies/improved_light_tank.dds"
 }

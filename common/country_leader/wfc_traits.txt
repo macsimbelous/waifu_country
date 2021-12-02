@@ -137,6 +137,7 @@ leader_traits = {
 	}
 	#ministri
 	wfc_nuclear_mazoku = {
+		sprite = 14
 		random = no
 		#production_speed_rocket_site_factor = 0.2
 		production_speed_nuclear_reactor_factor = 0.15
@@ -146,6 +147,7 @@ leader_traits = {
 		}
 	}
 	wfc_girl_scientist = {
+		sprite = 14
 		random = no
 		#production_speed_rocket_site_factor = 0.2
 		#production_speed_nuclear_reactor_factor = 0.2
@@ -155,7 +157,7 @@ leader_traits = {
 		}
 	}
 	wfc_popular_figurehead = {
-		#sprite = 13
+		sprite = 13
 		stability_factor = 0.15
 		random = no
 		ai_will_do = {
@@ -164,7 +166,7 @@ leader_traits = {
 	}
 	wfc_silent_workhorse = {
 		random = no
-		#sprite = 13
+		sprite = 13
 		political_power_factor = 0.15
 		ai_will_do = {
 			factor = 1
@@ -172,7 +174,7 @@ leader_traits = {
 	}
 	wfc_intelligence_princess = {
 		random = no
-		#sprite = 15
+		sprite = 15
 		operative_slot = 2
 		agency_upgrade_time = -0.3
 		decryption_power_factor = 0.15
@@ -181,7 +183,7 @@ leader_traits = {
 		}
 	}
 	wfc_propaganda_expert = {
-		#sprite = 13
+		sprite = 13
 		war_support_factor = 0.15
 		random = no
 		ai_will_do = {
@@ -190,7 +192,7 @@ leader_traits = {
 	}
 	wfc_first_lady = {
 		random = no
-		#sprite = 12
+		sprite = 12
 		war_support_factor = 0.1
 		stability_factor = 0.1
 		political_power_factor = 0.1
@@ -199,7 +201,7 @@ leader_traits = {
 		}
 	}
 	wfc_naval_base_engineer = {
-		#sprite = 10
+		sprite = 10
 		random = no
 		production_speed_naval_base_factor = 0.15
 		ai_will_do = {
@@ -207,6 +209,7 @@ leader_traits = {
 		}
 	}
 	wfc_infrastructure_developer = {
+		sprite = 10
 		random = no
 		production_speed_infrastructure_factor = 0.15
 		production_speed_naval_base_factor = 0.15
@@ -218,7 +221,7 @@ leader_traits = {
 		}
 	}
 	wfc_captain_of_industry = {
-		#sprite = 10
+		sprite = 10
 		random = no
 		production_speed_industrial_complex_factor = 0.15
 		production_speed_synthetic_refinery_factor = 0.15
@@ -235,7 +238,7 @@ leader_traits = {
 		}
 	}
 	wfc_war_industrialist = {
-		#sprite = 10
+		sprite = 10
 		random = no
 		production_speed_arms_factory_factor = 0.15
 		production_speed_dockyard_factor = 0.15

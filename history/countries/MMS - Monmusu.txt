@@ -28,6 +28,7 @@ set_technology = {
 	tech_military_police = 1
 	tech_maintenance_company = 1
 	tech_field_hospital = 1
+	tech_mountaineers = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_artillery = 1
@@ -45,11 +46,18 @@ set_technology = {
 	basic_machine_tools = 1
 	fuel_silos = 1
 	#####
+	basic_torpedo = 1
 	basic_naval_mines = 1
 	submarine_mine_laying = 1
 	early_ship_hull_submarine = 1
-	basic_torpedo = 1
+	basic_ship_hull_submarine = 1
 	mtg_transport = 1
+	#####
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
 }
 
 add_ideas = {
@@ -89,7 +97,6 @@ recruit_character = MMS_fino_bloodstone
 recruit_character = MMS_rhea
 recruit_character = MMS_shiraori
 recruit_character = MMS_ishtar
-
 #generals
 recruit_character = MMS_lilith
 recruit_character = MMS_rose
@@ -134,6 +141,7 @@ create_operative_leader = {
 		MMS
 	}
 }
+
 create_operative_leader = {
 	name = "Mio Naruse"
 	GFX = GFX_Mio_Naruse
@@ -146,6 +154,7 @@ create_operative_leader = {
 		MMS
 	}
 }
+
 create_operative_leader = {
 	name = "Sakura Minamoto"
 	GFX = GFX_Sakura_Minamoto
@@ -159,6 +168,7 @@ create_operative_leader = {
 		MMS
 	}
 }
+
 create_operative_leader = {
 	name = "Shigure"
 	GFX = GFX_Shigure
@@ -176,13 +186,30 @@ create_operative_leader = {
 ### Variants ###
 # Submarines #
 create_equipment_variant = {
-	name = "S Class"
-	type = ship_hull_submarine_1
-	name_group = ENG_SS_HISTORICAL
+	name = "MonMusu Class"
+	type = ship_hull_submarine_2
+	#name_group = ENG_SS_HISTORICAL
 	parent_version = 0
 	modules = {
-		fixed_ship_torpedo_slot = ship_torpedo_sub_1
-		fixed_ship_engine_slot = sub_ship_engine_1
-		rear_1_custom_slot = ship_torpedo_sub_1
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
 	}
+}
+create_equipment_variant = {
+	name = "MonMusu-1"
+	type = light_tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 10
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "gfx/interface/technologies/improved_light_tank.dds"
 }

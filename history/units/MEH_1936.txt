@@ -26,6 +26,35 @@ division_template = {
 	}
 }
 division_template = {
+	name = "Macha motorized infantry"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		motorized = {
+			x = 1
+			y = 0
+		}
+		motorized = {
+			x = 0
+			y = 1
+		}
+		motorized = {
+			x = 1
+			y = 1
+		}
+		motorized = {
+			x = 0
+			y = 2
+		}
+		motorized = {
+			x = 1
+			y = 2
+		}
+	}
+}
+division_template = {
 	name = "Mecha 20"
 	regiments = {
 		infantry = {
@@ -67,6 +96,73 @@ division_template = {
 		infantry = {
 			x = 1
 			y = 4
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+		engineer = {
+			x = 0
+			y = 1
+		}
+		recon = {
+			x = 0
+			y = 2
+		}
+	}
+}
+division_template = {
+	name = "Mecha Mountaineers"
+	regiments = {
+		mountaineers = {
+			x = 0
+			y = 0
+		}
+		mountaineers = {
+			x = 1
+			y = 0
+		}
+		mountaineers = {
+			x = 0
+			y = 1
+		}
+		mountaineers = {
+			x = 1
+			y = 1
+		}
+		mountaineers = {
+			x = 0
+			y = 2
+		}
+		mountaineers = {
+			x = 1
+			y = 2
+		}
+		mountaineers = {
+			x = 0
+			y = 3
+		}
+		mountaineers = {
+			x = 1
+			y = 3
+		}
+		mountaineers = {
+			x = 2
+			y = 0
+		}
+		mountaineers = {
+			x = 2
+			y = 1
+		}
+		mountaineers = {
+			x = 2
+			y = 2
+		}
+		mountaineers = {
+			x = 2
+			y = 3
 		}
 	}
 	support = {
@@ -284,6 +380,7 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
+	#tanks
 	division = {
 		location = 9814
 		division_template = "Mecha light tank"
@@ -293,6 +390,31 @@ units = {
 	division = {
 		location = 9814
 		division_template = "Mecha light tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	#motized
+	division = {
+		location = 9814
+		division_template = "Macha motorized infantry"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9814
+		division_template = "Macha motorized infantry"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9814
+		division_template = "Macha motorized infantry"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9814
+		division_template = "Macha motorized infantry"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
