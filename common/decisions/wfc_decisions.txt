@@ -285,13 +285,42 @@ wfc_integration_category = {
 		icon = GFX_decision_generic_brainwash
 		available = {
 			FROM = {
-				compliance > 50
+				compliance > 90
 				resistance < 5
+			}
+			if = {
+				limit = {
+					FROM = {
+						state_population > 999999
+					}
+				}
+				has_manpower > 100000
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						state_population < 1000000
+						state_population > 249999
+					}
+				}
+				has_manpower > 50000
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						state_population < 250000
+						state_population > 49999
+					}
+				}
+				has_manpower > 10000
+			}
+			else = {
+				has_manpower > 1000
 			}
 		}
 		visible = {
 			FROM = {
-				#is_owned_by = ROOT
+				is_owned_by = ROOT
 				NOT = {
 					is_core_of = ROOT
 				}
@@ -318,9 +347,47 @@ wfc_integration_category = {
 			stability_factor = -0.05
 			political_power_gain = -0.1
 		}
-		cancel_trigger = {
-			FROM = {
-				is_core_of = ROOT
+		complete_effect = {
+			if = {
+				limit = {
+					FROM = {
+						state_population > 999999
+					}
+				}
+				add_manpower = -100000
+				FROM = {
+					add_manpower = 100000
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						state_population < 1000000
+						state_population > 249999
+					}
+				}
+				add_manpower = -50000
+				FROM = {
+					add_manpower = 50000
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						state_population < 250000
+						state_population > 49999
+					}
+				}
+				add_manpower = -10000
+				FROM = {
+					add_manpower = 10000
+				}
+			}
+			else = {
+				add_manpower = -1000
+				FROM = {
+					add_manpower = 1000
+				}
 			}
 		}
 		remove_effect = {
@@ -328,9 +395,6 @@ wfc_integration_category = {
 				#add_core_of = ROOT
 				wfc_coring_state = yes
 			}
-		}
-		cancel_effect = {
-			add_political_power = 50
 		}
 	}
 }
