@@ -247,12 +247,12 @@ characters = {
 			slot = high_command
 			idea_token = HEN_Homare_Nao
 			ledger = army
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = HEN
 			}
 			traits = {
-				army_infantry_3
+				army_infantry_1
 			}
 			ai_will_do = {
 				factor = 2
@@ -356,21 +356,6 @@ characters = {
 				large = "gfx/leaders/HEN/Anna_Komiya.dds"
 			}
 		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = HEN_Anna_Komiya
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				army_armored_3
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
 		corps_commander = {
 			skill = 5
 			attack_skill = 6
@@ -420,21 +405,6 @@ characters = {
 			army = {
 				small = "gfx/leaders/HEN/yuuki_kawaragi_idea.dds"
 				large = "gfx/leaders/HEN/Yuuki_Kawaragi.dds"
-			}
-		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = HEN_Yuuki_Kawaragi
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				army_regrouping_3
-			}
-			ai_will_do = {
-				factor = 1
 			}
 		}
 		corps_commander = {
@@ -524,26 +494,26 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = HEN_Cloe
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = HEN
 			}
 			traits = {
-				army_logistics_3
+				army_logistics_1
 			}
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 6
 			legacy_id = -1
 			traits = {
-				logistics_wizard
+				logistics_skill
 			}
 		}
 	}
@@ -558,12 +528,12 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = HEN_Claudia_le_Van_Tyne
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = HEN
 			}
 			traits = {
-				army_chief_offensive_3
+				army_chief_offensive_1
 			}
 			ai_will_do = {
 				factor = 1
@@ -587,17 +557,14 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = army_chief
+			slot = air_chief
 			idea_token = HEN_Alicia_Arcturus
 			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
 			traits = {
-				army_chief_drill_3
-			}
-			ai_will_do = {
-				factor = 1
+				air_chief_ground_support_3
 			}
 		}
 		corps_commander = {
@@ -689,11 +656,11 @@ characters = {
 			traits = {
 				naval_lineage
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 6
 			legacy_id = -1
 		}
 		advisor = {
@@ -704,7 +671,7 @@ characters = {
 				original_tag = HEN
 			}
 			traits = {
-				navy_chief_commerce_raiding_3
+				navy_chief_commerce_raiding_1
 			}
 		}
 	}
@@ -749,20 +716,6 @@ characters = {
 			army = {
 				small = "gfx/leaders/HEN/akiho_taniguchi_idea.dds"
 				large = "gfx/leaders/HEN/Akiho_Taniguchi.dds"
-			}
-		}
-		advisor = {
-			slot = navy_chief
-			idea_token = HEN_Akiho_Taniguchi
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				navy_chief_decisive_battle_4
-			}
-			ai_will_do = {
-				factor = 1
 			}
 		}
 		navy_leader = {

@@ -233,22 +233,22 @@ characters = {
 			traits = {
 				war_hero
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 6
 		}
 		advisor = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_Asuna_Yuuki
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
 			traits = {
-				army_infantry_3
+				army_infantry_1
 			}
 		}
 	}
@@ -270,17 +270,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 6
 			logistics_skill = 6
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = ACW_Mash_Kyrielight
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				army_chief_defensive_3
-			}
 		}
 	}
 	ACW_Maple = {
@@ -383,18 +372,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = ACW_Kurumi_Tokisaki
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				army_artillery_3
-			}
-		}
 	}
 	ACW_Sanya_V_Litvyak = {
 		name = ACW_Sanya_V_Litvyak
@@ -444,17 +421,6 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 		}
-		advisor = {
-			slot = army_chief
-			idea_token = ACW_Isuzu_Sento
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				army_chief_drill_3
-			}
-		}
 	}
 	ACW_Volemia = {
 		name = ACW_Volemia
@@ -485,7 +451,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				skilled_staffer
 				cavalry_leader
 				cavalry_expert
 			}
@@ -598,24 +563,23 @@ characters = {
 		corps_commander = {
 			traits = {
 				armor_officer
-				panzer_leader
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 		}
 		advisor = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_Elma
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
 			traits = {
-				army_armored_3
+				army_armored_1
 			}
 		}
 	}
@@ -794,17 +758,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		advisor = {
-			slot = air_chief
-			idea_token = ACW_Neptune
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				air_chief_all_weather_3
-			}
-		}
 	}
 	ACW_Ryuuko_Matoi = {
 		name = ACW_Ryuuko_Matoi
@@ -896,21 +849,21 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 		}
 		advisor = {
 			slot = army_chief
 			idea_token = ACW_Yuno_Gasai
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
 			traits = {
-				army_chief_offensive_3
+				army_chief_offensive_1
 			}
 		}
 	}
@@ -930,18 +883,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = ACW_Byleth_Eisner
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				army_regrouping_3
-			}
 		}
 	}
 	ACW_Eula = {
@@ -972,24 +913,13 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				cavalry_leader
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = ACW_5pb
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				army_cavalry_3
-			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	ACW_Blanc = {
@@ -1009,18 +939,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		advisor = {
-			slot = high_command
-			ledger = air
-			idea_token = ACW_Blanc
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				air_tactical_bombing_3
-			}
-		}
 	}
 	ACW_Compa = {
 		name = ACW_Compa
@@ -1032,23 +950,24 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				logistics_skill
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 6
 		}
 		advisor = {
 			slot = high_command
 			ledger = army
 			idea_token = ACW_Compa
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
 			traits = {
-				army_logistics_3
+				army_logistics_1
 			}
 		}
 	}
@@ -1267,17 +1186,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		advisor = {
-			slot = air_chief
-			idea_token = ACW_Noire
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				air_chief_ground_support_3
-			}
-		}
 	}
 	ACW_Rei_Ayanami = {
 		name = ACW_Rei_Ayanami
@@ -1326,17 +1234,17 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 		}
 		advisor = {
 			slot = theorist
 			ledger = air
 			idea_token = ACW_Selesia_Upitiria
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
@@ -1380,18 +1288,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		advisor = {
-			slot = high_command
-			ledger = air
-			idea_token = ACW_Vert
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				air_close_air_support_3
-			}
-		}
 	}
 	ACW_Yukina_Himeragi = {
 		name = ACW_Yukina_Himeragi
@@ -1402,8 +1298,6 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {
-			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -1573,11 +1467,11 @@ characters = {
 				bold
 				navy_career_officer
 			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
+			skill = 5
+			attack_skill = 6
+			defense_skill = 6
+			maneuvering_skill = 4
+			coordination_skill = 5
 		}
 	}
 	ACW_Atago_Azur_Lane = {
@@ -1599,36 +1493,23 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 		}
-		advisor = {
-			slot = navy_chief
-			idea_token = ACW_Atago_Azur_Lane
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				navy_chief_maneuver_3
-			}
-		}
 	}
 	ACW_Avrora_Azur_Lane = {
 		name = ACW_Avrora_Azur_Lane
 		portraits = {
 			navy = {
 				small = "gfx/leaders/ACW/avrora_azur_lane_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/ACW/Avrora_Azur_Lane.dds"
 			}
 		}
 		navy_leader = {
 			traits = {
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 6
 		}
 		advisor = {
 			slot = navy_chief
@@ -1676,17 +1557,17 @@ characters = {
 			traits = {
 				caustic_personality
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
 		}
 		advisor = {
 			slot = theorist
 			ledger = navy
 			idea_token = ACW_Selesia_Upitiria
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
@@ -1829,18 +1710,6 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 		}
-		advisor = {
-			slot = theorist
-			ledger = navy
-			idea_token = ACW_Akeno_Misaki
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				naval_theorist
-			}
-		}
 	}
 	ACW_Beidou = {
 		name = ACW_Beidou
@@ -1853,8 +1722,6 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {
-			}
 			skill = 5
 			attack_skill = 6
 			defense_skill = 5
@@ -1869,7 +1736,7 @@ characters = {
 				original_tag = ACW
 			}
 			traits = {
-				navy_chief_commerce_raiding_3
+				navy_chief_commerce_raiding_1
 			}
 		}
 	}

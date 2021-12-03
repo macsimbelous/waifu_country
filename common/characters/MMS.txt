@@ -98,8 +98,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_fino_bloodstone"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Fino_Bloodstone.dds"
 			}
 		}
@@ -152,9 +150,7 @@ characters = {
 		name = MMS_shiraori
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_shiraori"
-			}
-			army = {
+				small = GFX_idea_mms_shiraori
 				large = "gfx/leaders/MMS/Shiraori.dds"
 			}
 		}
@@ -179,9 +175,7 @@ characters = {
 		name = MMS_ishtar
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_ishtar"
-			}
-			army = {
+				small = GFX_idea_mms_ishtar
 				large = "gfx/leaders/MMS/Ishtar.dds"
 			}
 		}
@@ -209,8 +203,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_lilith"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Lilith.dds"
 			}
 		}
@@ -245,32 +237,30 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_rose"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Rose.dds"
 			}
 		}
-		corps_commander = {
-			traits = {
-				politically_connected
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-			legacy_id = -1
-		}
 		advisor = {
-			slot = army_chief
+			slot = air_chief
 			idea_token = MMS_rose
 			cost = 150
 			allowed = {
 				original_tag = MMS
 			}
 			traits = {
-				army_chief_drill_3
+				air_chief_ground_support_3
 			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
 		}
 	}
 	MMS_morrah = {
@@ -292,25 +282,12 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 		}
-		advisor = {
-			slot = army_chief
-			idea_token = MMS_morrah
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				army_chief_defensive_3
-			}
-		}
 	}
 	MMS_ripine = {
 		name = MMS_ripine
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_ripine"
-			}
-			army = {
+				small = GFX_idea_mms_ripine
 				large = "gfx/leaders/MMS/Ripine.dds"
 			}
 		}
@@ -318,22 +295,22 @@ characters = {
 			traits = {
 				commando offensive_doctrine
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
 			slot = army_chief
 			idea_token = MMS_ripine
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MMS
 			}
 			traits = {
-				army_chief_offensive_3
+				army_chief_offensive_1
 			}
 		}
 	}
@@ -341,9 +318,7 @@ characters = {
 		name = MMS_dullahan
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_dullahan"
-			}
-			army = {
+				small = GFX_idea_mms_dullahan
 				large = "gfx/leaders/MMS/Dullahan.dds"
 			}
 		}
@@ -351,11 +326,11 @@ characters = {
 			traits = {
 				cavalry_leader
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
@@ -375,22 +350,32 @@ characters = {
 		name = MMS_milla_maxwell
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_milla_maxwell"
-			}
-			army = {
+				small = GFX_idea_mms_milla_maxwell
 				large = "gfx/leaders/MMS/Milla_Maxwell.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = MMS_milla_maxwell
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_infantry_1
 			}
 		}
 		corps_commander = {
 			traits = {
 				infantry_leader
-				infantry_expert
+				#infantry_expert
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 	}
@@ -398,9 +383,7 @@ characters = {
 		name = MMS_astaroth
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_astaroth"
-			}
-			army = {
+				small = GFX_idea_mms_astaroth
 				large = "gfx/leaders/MMS/Astaroth.dds"
 			}
 		}
@@ -420,9 +403,7 @@ characters = {
 		name = MMS_laharl_female
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_laharl_female"
-			}
-			army = {
+				small = GFX_idea_mms_laharl_female
 				large = "gfx/leaders/MMS/Laharl_girl.dds"
 			}
 		}
@@ -458,32 +439,18 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_desco"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Desco.dds"
-			}
-		}
-		advisor = {
-			slot = theorist
-			idea_token = MMS_desco
-			ledger = army
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				blitzkrieg_theorist
 			}
 		}
 		corps_commander = {
 			traits = {
 				panzer_leader
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 7
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
 			legacy_id = -1
 		}
 	}
@@ -492,15 +459,25 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_tiamat"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Tiamat.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MMS_tiamat
+			ledger = army
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				mass_assault_expert
 			}
 		}
 		corps_commander = {
 			traits = {
 				skilled_staffer
-				expert_delegator
+				#expert_delegator
 			}
 			skill = 9
 			attack_skill = 9
@@ -509,32 +486,12 @@ characters = {
 			logistics_skill = 9
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_tiamat 
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				wfc_war_industrialist
-			}
-			ai_will_do = {
-				base = 1
-				modifier = {
-					has_government = fascism
-					add = 5
-				}
-			}
-		}
 	}
 	MMS_belldandy = {
 		name = MMS_belldandy
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_belldandy"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Belldandy.dds"
 			}
 		}
@@ -615,9 +572,25 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_makina_hoshimura"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Makina_Hoshimura.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_makina_hoshimura
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfc_war_industrialist
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 5
+				}
 			}
 		}
 		corps_commander = {
@@ -675,8 +648,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_vignette_april_tsukinose"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Vignette_April_Tsukinose.dds"
 			}
 		}
@@ -705,8 +676,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_satanichia_mcdowell_kurumizawa"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Satanichia_McDowell_Kurumizawa.dds"
 			}
 		}

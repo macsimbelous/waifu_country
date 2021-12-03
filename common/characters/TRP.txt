@@ -336,18 +336,16 @@ characters = {
 		name = TRP_hime_arikawa
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_hime_arikawa"
-			}
-			army = {
+				small = GFX_idea_trp_hime_arikawa
 				large = "gfx/leaders/TRP/Hime_Arikawa.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
@@ -367,9 +365,7 @@ characters = {
 		name = TRP_sylvia
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_sylvia"
-			}
-			army = {
+				small = GFX_idea_trp_sylvia
 				large = "gfx/leaders/TRP/Sylvia.dds"
 			}
 		}
@@ -398,9 +394,7 @@ characters = {
 		name = TRP_birdy_cephon_altera
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_birdy_cephon_altera"
-			}
-			army = {
+				small = GFX_idea_trp_birdy_cephon_altera
 				large = "gfx/leaders/TRP/Birdy_Cephon_Altera.dds"
 			}
 		}
@@ -415,12 +409,12 @@ characters = {
 		advisor = {
 			slot = army_chief 
 			idea_token = TRP_birdy_cephon_altera
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = TRP
 			}
 			traits = {
-				army_chief_offensive_3
+				army_chief_offensive_1
 			}
 		}
 	}
@@ -428,9 +422,7 @@ characters = {
 		name = TRP_souji_mitsuka
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_souji_mitsuka"
-			}
-			army = {
+				small = GFX_idea_trp_souji_mitsuka
 				large = "gfx/leaders/TRP/Souji_Mitsuka.dds"
 			}
 		}
@@ -442,25 +434,12 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = army_chief 
-			idea_token = TRP_souji_mitsuka
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				army_chief_defensive_3
-			}
-		}
 	}
 	TRP_ranga = {
 		name = TRP_ranga
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_ranga"
-			}
-			army = {
+				small = GFX_idea_trp_ranga
 				large = "gfx/leaders/TRP/Ranga.dds"
 			}
 		}
@@ -472,34 +451,21 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = army_chief 
-			idea_token = TRP_ranga
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				army_chief_drill_3
-			}
-		}
 	}
 	TRP_yukikaze = {
 		name = TRP_yukikaze
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_yukikaze"
-			}
-			army = {
+				small = GFX_idea_trp_ukikaze
 				large = "gfx/leaders/TRP/Yukikaze.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
@@ -518,9 +484,7 @@ characters = {
 		name = TRP_mitsunaga_oda
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_mitsunaga_oda"
-			}
-			army = {
+				small = GFX_idea_trp_mitsunaga_oda
 				large = "gfx/leaders/TRP/Mitsunaga_Oda.dds"
 			}
 		}
@@ -532,25 +496,12 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = air_chief
-			idea_token = TRP_mitsunaga_oda
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				air_chief_all_weather_3
-			}
-		}
 	}
 	TRP_ritsu_souma = {
 		name = TRP_ritsu_souma
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_ritsu_souma"
-			}
-			army = {
+				small = GFX_idea_trp_ritsu_souma
 				large = "gfx/leaders/TRP/Ritsu_Souma.dds"
 			}
 		}
@@ -562,49 +513,36 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = air_chief
-			idea_token = TRP_ritsu_souma
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				air_chief_reform_3
-			}
-		}
 	}
 	TRP_xianming_lin = {
 		name = TRP_xianming_lin
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_xianming_lin"
-			}
-			army = {
+				small = GFX_idea_trp_xianming_lin
 				large = "gfx/leaders/TRP/Xianming_Lin.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				commando
+				commando infantry_leader
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
 			slot = high_command
 			ledger = army
 			idea_token = TRP_xianming_lin
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = TRP
 			}
 			traits = {
-				army_infantry_3
+				army_infantry_1
 			}
 			ai_will_do = {
 				factor = 2
@@ -615,9 +553,7 @@ characters = {
 		name = TRP_mizuho_miyanokouji
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_mizuho_miyanokouji"
-			}
-			army = {
+				small = GFX_idea_trp_mizuho_miyanokouji
 				large = "gfx/leaders/TRP/Mizuho_Miyanokouji.dds"
 			}
 		}
@@ -629,29 +565,12 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = TRP_mizuho_miyanokouji
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				army_regrouping_3
-			}
-			ai_will_do = {
-				factor = 2
-			}
-		}
 	}
 	TRP_youta_tsunashi = {
 		name = TRP_youta_tsunashi
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_youta_tsunashi"
-			}
-			army = {
+				small = GFX_idea_trp_youta_tsunashi
 				large = "gfx/leaders/TRP/Youta_Tsunashi.dds"
 			}
 		}
@@ -663,33 +582,19 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = TRP_youta_tsunashi
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				army_logistics_3
-			}
-		}
 	}
 	TRP_fish_eye = {
 		name = TRP_fish_eye
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_fish_eye"
-			}
-			army = {
+				small = GFX_idea_trp_fish_eye
 				large = "gfx/leaders/TRP/Fish_Eye.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
 				cavalry_officer
-				cavalry_leader
+				#cavalry_leader
 			}
 			skill = 1
 			attack_skill = 2
@@ -698,26 +603,12 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = TRP_fish_eye
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				army_cavalry_3
-			}
-		}
 	}
 	TRP_hacka_doll_no_3 = {
 		name = TTRP_hacka_doll_no_3
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_hacka_doll_no_3"
-			}
-			army = {
+				small = GFX_idea_trp_hacka_doll_no_3
 				large = "gfx/leaders/TRP/Hacka_Doll_3.dds"
 			}
 		}
@@ -731,21 +622,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
-		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = TRP_hacka_doll_no_3
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				army_armored_3
-			}
-			ai_will_do = {
-				factor = 2
-			}
 		}
 	}
 	#admirals
@@ -773,9 +649,7 @@ characters = {
 		name = TRP_hamaji_yakumo
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_hamaji_yakumo"
-			}
-			army = {
+				small = GFX_idea_trp_hamaji_yakumo
 				large = "gfx/leaders/TRP/Hamaji_Yakumo.dds"
 			}
 		}
@@ -790,25 +664,12 @@ characters = {
 			coordination_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = navy_chief
-			idea_token = TRP_hamaji_yakumo
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				navy_chief_commerce_raiding_3
-			}
-		}
 	}
 	TRP_taroumaru_seike = {
 		name = TRP_taroumaru_seike
 		portraits = {
 			army = {
 				small = "GFX_idea_trp_taroumaru_seike"
-			}
-			army = {
 				large = "gfx/leaders/TRP/Taroumaru_Seike.dds"
 			}
 		}
@@ -816,22 +677,22 @@ characters = {
 			traits = {
 				naval_liason
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
 			slot = navy_chief
 			idea_token = TRP_taroumaru_seike
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = TRP
 			}
 			traits = {
-				navy_chief_decisive_battle_3
+				navy_chief_decisive_battle_1
 			}
 		}
 	}
@@ -839,9 +700,7 @@ characters = {
 		name = TRP_mariya_shidou
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_mariya_shidou"
-			}
-			army = {
+				small = GFX_idea_trp_mariya_shidou
 				large = "gfx/leaders/TRP/Mariya_Shidou.dds"
 			}
 		}
@@ -876,9 +735,7 @@ characters = {
 		name = TRP_russell
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_russell"
-			}
-			army = {
+				small = GFX_idea_trp_russell
 				large = "gfx/leaders/TRP/Russell.dds"
 			}
 		}

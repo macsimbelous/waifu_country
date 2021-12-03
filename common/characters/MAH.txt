@@ -103,11 +103,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
@@ -132,11 +132,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 			traits = {
 				offensive_skill
@@ -145,12 +145,12 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MAH_Illyasviel_von_einzbern
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MAH
 			}
 			traits = {
-				army_chief_offensive_3
+				army_chief_offensive_1
 			}
 			ai_will_do = {
 				factor = 2
@@ -166,14 +166,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 			traits = {
-				infantry_leader
+				infantry_leader defense_skill
 			}
 		}
 		advisor = {
@@ -185,7 +185,7 @@ characters = {
 				original_tag = MAH
 			}
 			traits = {
-				army_infantry_3
+				army_infantry_1
 			}
 			ai_will_do = {
 				factor = 2
@@ -488,8 +488,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mah_akane_isshiki"
-			}
-			army = {
 				large = "gfx/leaders/MAH/akane_isshiki.dds"
 			}
 		}
@@ -511,6 +509,38 @@ characters = {
 			}
 			traits = {
 				naval_theorist
+			}
+		}
+	}
+	MAH_cavalri = {
+		name = MMS_cavalri
+		portraits = {
+			army = {
+				#small = MAH_cavalri
+				large = "gfx/leaders/MMS/Dullahan.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = MMS_cavalri
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				blitzkrieg_theorist
 			}
 		}
 	}
@@ -559,6 +589,26 @@ characters = {
 			}
 			traits = {
 				head_of_intelligence
+			}
+		}
+	}
+	MAH_air_chief = {
+		name = MAH_air_chief
+		portraits = {
+			army = {
+				small = "GFX_idea_mah_hitomi_tsukishiro"
+				large = "gfx/leaders/MAH/Hitomi_Tsukishiro.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MAH_air_chief
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				air_chief_ground_support_3
 			}
 		}
 	}

@@ -133,8 +133,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_iris_heart"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Iris_Heart.dds"
 			}
 		}
@@ -146,11 +144,11 @@ characters = {
 				aggressive_assaulter
 				infantry_expert
 			}
-			skill = 4
-			attack_skill = 5
+			skill = 5
+			attack_skill = 6
 			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
@@ -161,7 +159,7 @@ characters = {
 				original_tag = MEH
 			}
 			traits = {
-				army_chief_offensive_3
+				army_chief_offensive_1
 			}
 			ai_will_do = {
 				factor = 2
@@ -265,18 +263,6 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			idea_token = MEH_2B
-			ledger = army
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				army_artillery_3
-			}
-		}
 	}
 	MEH_Cibo = {
 		name = MEH_Cibo
@@ -313,8 +299,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_a2"
-			}
-			army = {
 				large = "gfx/leaders/MEH/A2.dds"
 			}
 		}
@@ -344,8 +328,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_svetlana_sakura"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Svetlana_Sakura.dds"
 			}
 		}
@@ -357,34 +339,21 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = army_chief
-			idea_token = MEH_Svetlana_Sakura
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				army_chief_drill_3
-			}
-		}
 	}
 	MEH_Alexandra_Frolova = {
 		name = MEH_Alexandra_Frolova
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_alexandra_frolova"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Alexandra_Frolova.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
@@ -405,8 +374,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_edi"
-			}
-			army = {
 				large = "gfx/leaders/MEH/EDI.dds"
 			}
 		}
@@ -439,8 +406,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_pyra"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Pyra.dds"
 			}
 		}
@@ -448,23 +413,23 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
 			slot = high_command
 			idea_token = MEH_Pyra
 			ledger = army
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				army_infantry_3
+				army_infantry_1
 			}
 			ai_will_do = {
 				factor = 2
@@ -476,8 +441,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_rozen_s_series"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Rozen_S_Series.dds"
 			}
 		}
@@ -485,23 +448,23 @@ characters = {
 			traits = {
 				panzer_leader
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = -1
 		}
 		advisor = {
 			slot = high_command
 			idea_token = MEH_Rozen_S_Series
 			ledger = army
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				army_armored_3
+				army_armored_1
 			}
 		}
 	}
@@ -510,8 +473,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_clarion"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Clarion.dds"
 			}
 		}
@@ -526,26 +487,12 @@ characters = {
 			logistics_skill = 3
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			idea_token = MEH_Clarion
-			ledger = army
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				army_logistics_3
-			}
-		}
 	}
 	MEH_Maki_Ivanova = {
 		name = MEH_Maki_Ivanova
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_maki_ivanova"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Maki_Ivanova.dds"
 			}
 		}
@@ -560,17 +507,6 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = -1
-		}
-		advisor = {
-			slot = air_chief
-			idea_token = MEH_Maki_Ivanova
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				air_chief_all_weather_3
-			}
 		}
 	}
 	MEH_Pneuma = {
@@ -611,8 +547,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_hatsune_miku"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Hatsune_Miku.dds"
 			}
 		}
@@ -624,46 +558,34 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 		}
-		advisor = {
-			slot = air_chief
-			idea_token = MEH_Hatsune_Miku
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				air_chief_reform_3
-			}
-		}
 	}
 	MEH_Hana = {
 		name = MEH_Hana
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_hana"
-			}
-			army = {
+				small = GFX_idea_meh_hana
 				large = "gfx/leaders/MEH/Hana.dds"
 			}
 		}
-		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = -1
-		}
 		advisor = {
-			slot = army_chief
+			slot = theorist
 			idea_token = MEH_Hana
-			cost = 150
+			ledger = army
+			cost = 50
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				army_chief_defensive_3
+				military_theorist
 			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
 		}
 	}
 	MEH_Automaton = {
@@ -671,8 +593,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_automaton"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Automaton.dds"
 			}
 		}
@@ -684,26 +604,12 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			idea_token = MEH_Automaton
-			ledger = army
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				army_cavalry_3
-			}
-		}
 	}
 	MEH_Phantom_Queen_Ex_Xecty = {
 		name = MEH_Phantom_Queen_Ex_Xecty
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_phantom_queen_ex-xecty"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Phantom_Queen_Ex-Xecty.dds"
 			}
 		}
@@ -732,14 +638,12 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_mhmd-02_haruko"
-			}
-			army = {
 				large = "gfx/leaders/MEH/MHMD-02_Haruko.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				logistics_wizard
+				logistics_wizard logistics_skill
 			}
 			skill = 1
 			attack_skill = 2
@@ -747,18 +651,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
-		}
-		advisor = {
-			slot = high_command
-			idea_token = MEH_MHMD_02_Haruko
-			ledger = army
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				army_regrouping_3
-			}
 		}
 	}
 	MEH_T_Elos = {
@@ -801,23 +693,8 @@ characters = {
 		name = MEH_Aino
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_aino"
+				small = GFX_idea_meh_aino
 				large = "gfx/leaders/MEH/Aino.dds"
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = MEH_Aino
-			ledger = air
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				air_air_combat_training_3
-			}
-			ai_will_do = {
-				factor = 1
 			}
 		}
 		corps_commander = {
@@ -833,9 +710,7 @@ characters = {
 		name = MEH_Rose
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_rose"
-			}
-			army = {
+				small = GFX_idea_meh_rose
 				large = "gfx/leaders/MEH/Rose.dds"
 			}
 		}
@@ -847,26 +722,12 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			idea_token = MEH_Rose
-			ledger = air
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				air_close_air_support_3
-			}
-		}
 	}
 	MEH_Elizabeth = {
 		name = MEH_Elizabeth
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_elizabeth"
-			}
-			army = {
+				small = GFX_idea_meh_elizabeth
 				large = "gfx/leaders/MEH/Elizabeth.dds"
 			}
 		}
@@ -897,9 +758,7 @@ characters = {
 		name = MEH_Vivy
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_vivy"
-			}
-			army = {
+				small = GFX_idea_meh_vivy
 				large = "gfx/leaders/MEH/Vivy.dds"
 			}
 		}
@@ -921,8 +780,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_ashigara_arp"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Ashigara_ARP.dds"
 			}
 		}
@@ -960,20 +817,20 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = MEH_Takao_ARP
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				navy_anti_submarine_3
+				navy_anti_submarine_1
 			}
 		}
 		navy_leader = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
 			legacy_id = -1
 		}
 	}
@@ -1017,8 +874,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_haruna"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Haruna.dds"
 			}
 		}
@@ -1030,25 +885,12 @@ characters = {
 			coordination_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = navy_chief
-			idea_token = MEH_Haruna_ARP
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				navy_chief_decisive_battle_3
-			}
-		}
 	}
 	MEH_Kirishima_ARP = {
 		name = MEH_Kirishima_ARP
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_kirishima"
-			}
-			army = {
+				small = GFX_idea_meh_kirishima
 				large = "gfx/leaders/MEH/Kirishima.dds"
 			}
 		}
@@ -1060,25 +902,12 @@ characters = {
 			coordination_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = navy_chief
-			idea_token = MEH_Kirishima_ARP
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				navy_chief_commerce_raiding_3
-			}
-		}
 	}
 	MEH_Kongou_ARP = {
 		name = MEH_Kongou_ARP
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_kongou_arp"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Kongou_ARP.dds"
 			}
 		}
@@ -1090,25 +919,12 @@ characters = {
 			coordination_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = navy_chief
-			idea_token = MEH_Kongou_ARP
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				navy_chief_maneuver_3
-			}
-		}
 	}
 	MEH_Atago_ARP = {
 		name = MEH_Atago_ARP
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_atago_arp"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Atago_ARP.dds"
 			}
 		}
@@ -1120,26 +936,12 @@ characters = {
 			coordination_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			idea_token = MEH_Atago_ARP
-			ledger = navy
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				air_naval_strike_3
-			}
-		}
 	}
 	MEH_Caseal = {
 		name = MEH_Caseal
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_caseal"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Caseal.dds"
 			}
 		}
@@ -1151,26 +953,12 @@ characters = {
 			coordination_skill = 1
 			legacy_id = -1
 		}
-		advisor = {
-			slot = high_command
-			idea_token = MEH_Caseal
-			ledger = navy
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				navy_naval_air_defense_3
-			}
-		}
 	}
 	MEH_Hiei_ARP = {
 		name = MEH_Hiei_ARP
 		portraits = {
 			army = {
 				small = "GFX_idea_meh_hiei_arp"
-			}
-			army = {
 				large = "gfx/leaders/MEH/Hiei_ARP.dds"
 			}
 		}
@@ -1199,9 +987,7 @@ characters = {
 		name = MEH_Yurizaki_Mira
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_yurizaki_mira"
-			}
-			army = {
+				small = GFX_idea_meh_yurizaki_mira
 				large = "gfx/leaders/MEH/Yurizaki_Mira.dds"
 			}
 		}
