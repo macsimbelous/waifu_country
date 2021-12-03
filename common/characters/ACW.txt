@@ -324,15 +324,27 @@ characters = {
 				large = "gfx/leaders/ACW/Kallen_Stadtfeld.dds"
 			}
 		}
+		advisor = {
+			slot = theorist
+			idea_token = ACW_Kallen_Stadtfeld
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				military_theorist
+			}
+		}
 		corps_commander = {
 			traits = {
 				panzer_leader
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
 		}
 	}
 	ACW_Saki_Rukino = {
@@ -1566,7 +1578,7 @@ characters = {
 		advisor = {
 			slot = theorist
 			ledger = navy
-			idea_token = ACW_Selesia_Upitiria
+			idea_token = ACW_Marblehead
 			cost = 50
 			allowed = {
 				original_tag = ACW

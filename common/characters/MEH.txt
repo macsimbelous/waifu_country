@@ -911,6 +911,18 @@ characters = {
 				large = "gfx/leaders/MEH/Kongou_ARP.dds"
 			}
 		}
+		advisor = {
+			slot = theorist
+			idea_token = MEH_Kongou_ARP
+			ledger = navy
+			cost = 50
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				naval_theorist
+			}
+		}
 		navy_leader = {
 			skill = 2
 			attack_skill = 2
