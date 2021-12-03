@@ -72,6 +72,7 @@ wfc_integration_decision.t_desc:0 "Не обходимо закрепить ра
 wfc_subjects_category:0 "Субъекты"
 wfc_create_subject_decision:0 "Создать субъект §Y[From.GetNameDef]§!"
 wfc_change_country_leader:0 "Сменить лидера §Y[From.GetNameDef]§!"
+wfc_buy_out_state:0 "Выкупить §Y[From.GetName]§!"
 
 #wfc_world_conquest_category
 wfc_world_conquest_category:0 "Завоевание мира"
@@ -136,3 +137,17 @@ wfc_construction_phase_coastal_bunker_decision:0 "Добавить берего�
 #wfc_transfer_of_the_capital_category
 wfc_transfer_of_the_capital_category:0 "Перенос столицы"
 wfc_transfer_of_the_capital_decision:0 "Перенести столицу в регион §G[FROM.GetName]§!"
+
+#prospect_for_resources
+ wfc_geological_exploration:0 "Геологическая разведка"
+ wfc_develop_steel_deposits:0 "Разработать месторождения железа в §G[FROM.GetName]§!"
+ wfc_develop_steel_deposits_tt:0 "В регионе §G[FROM.GetName]§! будут разработаны месторождения железа"
+ wfc_develop_aluminium_deposits:0 "Разработать месторождения алюминия в §G[FROM.GetName]§!"
+ wfc_develop_aluminium_deposits_tt:0 "В регионе §G[FROM.GetName]§! будут разработаны месторождения алюминия"
+ wfc_develop_oil_deposits:0 "Разработать месторождения нефти в §G[FROM.GetName]§!"
+ wfc_develop_oil_deposits_tt:0 "В регионе §G[FROM.GetName]§! будут разработаны месторождения нефти"
+ wfc_develop_chromium_deposits:0 "Разработать месторождения хрома в §G[FROM.GetName]§!"
+ wfc_develop_chromium_deposits_tt:0 "В регионе §G[FROM.GetName]§! будут разработаны месторождения хрома"
+ wfc_develop_tungsten_deposits:0 "Разработать месторождения вольфрама в §G[FROM.GetName]§!"
+ wfc_develop_tungsten_deposits_tt:0 "В регионе §G[FROM.GetName]§! будут разработаны месторождения вольфрама"
+ wfc_develop_deposits_desc:0 "Будет добавлено случайное колтчество ресурсов от 3 до 25."

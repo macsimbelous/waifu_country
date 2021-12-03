@@ -25,6 +25,7 @@ wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of 
 wfc_subjects_category:0 "Subjects"
 wfc_create_subject_decision:0 "Create subject §Y[From.GetNameDef]§!"
 wfc_change_country_leader:0 "Change leader §Y[From.GetNameDef]§!"
+wfc_buy_out_state:0 "Buy out §Y[From.GetName]§!"
 
 #wfc_world_conquest_category
 wfc_world_conquest_category:0 "Conquest of the world"
@@ -89,3 +90,17 @@ wfc_construction_phase_coastal_bunker_decision:0 "Add coastal fortifications"
 #wfc_transfer_of_the_capital_category
 wfc_transfer_of_the_capital_category:0 "Transfer of the capital"
 wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName]§! region"
+
+#prospect_for_resources
+ wfc_geological_exploration:0 "Geological exploration"
+ wfc_develop_steel_deposits:0 "Develop iron deposits in §G[FROM.GetName]§!"
+ wfc_develop_steel_deposits_tt:0 "Iron deposits will be developed in the §G[FROM.GetName]§! region"
+ wfc_develop_aluminium_deposits:0 "Develop aluminium deposits in §G[FROM.GetName]§!"
+ wfc_develop_aluminium_deposits_tt:0 "Aluminium deposits will be developed in the §G[FROM.GetName]§! region"
+ wfc_develop_oil_deposits:0 "Develop oil deposits in §G[FROM.GetName]§!"
+ wfc_develop_oil_deposits_tt:0 "Oil deposits will be developed in the §G[FROM.GetName]§! region"
+ wfc_develop_chromium_deposits:0 "Develop chromium deposits in §G[FROM.GetName]§!"
+ wfc_develop_chromium_deposits_tt:0 "Chromium deposits will be developed in the §G[FROM.GetName]§! region"
+ wfc_develop_tungsten_deposits:0 "Develop tungsten deposits in §G[FROM.GetName]§!"
+ wfc_develop_tungsten_deposits_tt:0 "Tungsten deposits will be developed in the §G[FROM.GetName]§! region"
+ wfc_develop_deposits_desc:0 "A random amount of resources from 3 to 25 will be added."

@@ -933,13 +933,13 @@ acw_puppets_category = {
 				tag = FROM
 				ratio > 1.5
 			}
-			# if = {
-			# 	limit = {
-			# 		is_ai = no
-			# 	}
-				strength_ratio = {
-					tag = FROM
-					ratio > 1.5
+			strength_ratio = {
+				tag = FROM
+				ratio > 1.5
+			}
+			if = {
+				limit = {
+					is_ai = no
 				}
 				FROM = {
 					has_war = no
@@ -948,7 +948,7 @@ acw_puppets_category = {
 						value > 49
 					}
 				}
-			#}
+			}
 		}
 		visible = {
 			FROM = {

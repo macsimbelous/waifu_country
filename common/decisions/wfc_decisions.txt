@@ -392,8 +392,8 @@ wfc_integration_category = {
 		}
 		remove_effect = {
 			FROM = {
-				#add_core_of = ROOT
-				wfc_coring_state = yes
+				add_core_of = ROOT
+				#wfc_coring_state = yes
 			}
 		}
 	}
@@ -839,6 +839,45 @@ wfc_subjects_category = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	wfc_buy_out_state = {
+		icon = GFX_decision_eng_trade_unions_support
+		available = {
+			FROM = {
+				NOT = {
+					is_capital = yes
+				}
+				OWNER = {
+					is_puppet_of = ROOT
+					has_autonomy_state = autonomy_federation_subject
+				}
+			}
+		}
+		visible = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		state_target = yes
+		on_map_mode = map_only
+		#target_array = owned_controlled_states
+		#target_array = states
+		target_trigger = {
+			FROM = {
+				OWNER = {
+					is_puppet_of = ROOT
+				}
+			}
+		}
+		cost = 300
+		fire_only_once = no
+		complete_effect = {
+			transfer_state = FROM
+			FROM = {
+				set_resistance = 1
+				set_compliance = 95
+			}
 		}
 	}
 }
@@ -1994,6 +2033,409 @@ wfc_transfer_of_the_capital_category = {
 		}
 		cancel_effect = {
 			add_political_power = 50
+		}
+	}
+}
+
+prospect_for_resources = {
+	wfc_geological_exploration = {
+		icon = GFX_decision_category_generic_prospect_for_resources
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
+		cost = 100
+		fire_only_once = no
+		days_re_enable = 30
+		days_remove = 30
+		available = {
+			any_owned_state = {
+				NOT = {
+					has_state_flag = wfc_geological_exploration_completed_flag
+				}
+				is_fully_controlled_by = ROOT
+				is_owned_by = ROOT
+			}
+		}
+		visible = {
+			any_owned_state = {
+				NOT = {
+					has_state_flag = wfc_geological_exploration_completed_flag
+				}
+				is_fully_controlled_by = ROOT
+				is_owned_by = ROOT
+			}
+		}
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = {
+						has_state_flag = wfc_geological_exploration_completed_flag
+					}
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+				}
+				custom_effect_tooltip = wfc_generic_force_excavation_tt
+				hidden_effect = {
+					random_list = {
+						40 = {
+							set_state_flag = wfc_exploration_steel_flag
+						}
+						30 = {
+							set_state_flag = wfc_exploration_aluminium_flag
+						}
+						10 = {
+							set_state_flag = wfc_exploration_oil_flag
+						}
+						10 = {
+							set_state_flag = wfc_exploration_tungsten_flag
+						}
+						10 = {
+							set_state_flag = wfc_exploration_chromium_flag
+						}
+					}
+					set_state_flag = wfc_geological_exploration_completed_flag
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					steel < 1
+					aluminium < 1
+					oil < 1
+					tungsten < 1
+					chromium < 1
+				}
+			}
+		}
+	}
+	wfc_develop_steel_deposits = {
+		icon = steel
+		desc = wfc_develop_deposits_desc
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
+		available = {
+			controls_state = FROM
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		visible = {
+			FROM = {
+				has_state_flag = wfc_exploration_steel_flag
+				NOT = {
+					has_state_flag = wfc_resource_development_completed_flag
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			always = yes
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			FROM = {
+				set_state_flag = wfc_resource_development_completed_flag
+				custom_effect_tooltip = wfc_develop_steel_deposits_tt
+				hidden_effect = {
+					set_temp_variable = {
+						res_count = 8
+					}
+					randomize_temp_variable = {
+						var = res_count
+						distribution = uniform
+						min = 3
+						max = 25
+					}
+					add_resource = {
+						type = steel
+						amount = var:res_count
+					}
+				}
+			}
+		}
+	}
+	wfc_develop_aluminium_deposits = {
+		icon = aluminium
+		desc = wfc_develop_deposits_desc
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
+		available = {
+			controls_state = FROM
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		visible = {
+			FROM = {
+				has_state_flag = wfc_exploration_aluminium_flag
+				NOT = {
+					has_state_flag = wfc_resource_development_completed_flag
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			always = yes
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			FROM = {
+				set_state_flag = wfc_resource_development_completed_flag
+				custom_effect_tooltip = wfc_develop_aluminium_deposits_tt
+				hidden_effect = {
+					set_temp_variable = {
+						res_count = 8
+					}
+					randomize_temp_variable = {
+						var = res_count
+						distribution = uniform
+						min = 3
+						max = 25
+					}
+					add_resource = {
+						type = aluminium
+						amount = var:res_count
+					}
+				}
+			}
+		}
+	}
+	wfc_develop_oil_deposits = {
+		icon = oil
+		desc = wfc_develop_deposits_desc
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
+		available = {
+			controls_state = FROM
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		visible = {
+			FROM = {
+				has_state_flag = wfc_exploration_oil_flag
+				NOT = {
+					has_state_flag = wfc_resource_development_completed_flag
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			always = yes
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			FROM = {
+				set_state_flag = wfc_resource_development_completed_flag
+				custom_effect_tooltip = wfc_develop_oil_deposits_tt
+				hidden_effect = {
+					set_temp_variable = {
+						res_count = 8
+					}
+					randomize_temp_variable = {
+						var = res_count
+						distribution = uniform
+						min = 3
+						max = 25
+					}
+					add_resource = {
+						type = oil
+						amount = var:res_count
+					}
+				}
+			}
+		}
+	}
+	wfc_develop_chromium_deposits = {
+		icon = chromium
+		desc = wfc_develop_deposits_desc
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
+		available = {
+			controls_state = FROM
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		visible = {
+			FROM = {
+				has_state_flag = wfc_exploration_chromium_flag
+				NOT = {
+					has_state_flag = wfc_resource_development_completed_flag
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			always = yes
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			FROM = {
+				set_state_flag = wfc_resource_development_completed_flag
+				custom_effect_tooltip = wfc_develop_chromium_deposits_tt
+				hidden_effect = {
+					set_temp_variable = {
+						res_count = 8
+					}
+					randomize_temp_variable = {
+						var = res_count
+						distribution = uniform
+						min = 3
+						max = 25
+					}
+					add_resource = {
+						type = chromium
+						amount = var:res_count
+					}
+				}
+			}
+		}
+	}
+	wfc_develop_tungsten_deposits = {
+		icon = tungsten
+		desc = wfc_develop_deposits_desc
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
+		available = {
+			controls_state = FROM
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		visible = {
+			FROM = {
+				has_state_flag = wfc_exploration_tungsten_flag
+				NOT = {
+					has_state_flag = wfc_resource_development_completed_flag
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			always = yes
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			FROM = {
+				set_state_flag = wfc_resource_development_completed_flag
+				custom_effect_tooltip = wfc_develop_tungsten_deposits_tt
+				hidden_effect = {
+					set_temp_variable = {
+						res_count = 8
+					}
+					randomize_temp_variable = {
+						var = res_count
+						distribution = uniform
+						min = 3
+						max = 25
+					}
+					add_resource = {
+						type = tungsten
+						amount = var:res_count
+					}
+				}
+			}
 		}
 	}
 }
