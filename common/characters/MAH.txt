@@ -545,6 +545,35 @@ characters = {
 		}
 	}
 	#admural
+	ACW_navy_chief = {
+		name = CW_navy_chief
+		portraits = {
+			navy = {
+				#small = "gfx/leaders/ACW/avrora_azur_lane_idea.dds"
+				large = "gfx/leaders/ACW/Avrora_Azur_Lane.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 6
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = CW_navy_chief
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+		}
+	}
 	#advisors
 	MAH_Hitomi_Tsukishiro = {
 		name = MAH_Hitomi_Tsukishiro

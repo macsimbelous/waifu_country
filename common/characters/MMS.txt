@@ -403,7 +403,7 @@ characters = {
 		name = MMS_laharl_female
 		portraits = {
 			army = {
-				small = GFX_idea_mms_laharl_female
+				small = GFX_idea_mms_laharl
 				large = "gfx/leaders/MMS/Laharl_girl.dds"
 			}
 		}
@@ -864,9 +864,18 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_mms_purifier"
-			}
-			army = {
 				large = "gfx/leaders/MMS/Purifier.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MMS_purifier
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				navy_chief_decisive_battle_3
 			}
 		}
 		navy_leader = {
@@ -874,11 +883,11 @@ characters = {
 				green_water_expert
 				destroyer_leader
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
 			legacy_id = -1
 		}
 	}
