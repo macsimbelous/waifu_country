@@ -544,13 +544,61 @@ characters = {
 			}
 		}
 	}
+	MAH_hayato_juumonji = {
+		name = MAH_hayato_juumonji
+		portraits = {
+			army = {
+				small = GFX_idea_mah_hayato_juumonji
+				large = "gfx/leaders/MAH/hayato_juumonji.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MAH_hayato_juumonji
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	MAH_saki_uno = {
+		name = MAH_saki_uno
+		portraits = {
+			army = {
+				small = GFX_idea_mah_saki_uno
+				large = "gfx/leaders/MAH/saki_uno.dds"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 	#admural
-	ACW_navy_chief = {
-		name = CW_navy_chief
+	MAH_sakuyo_mikage = {
+		name = MAH_sakuyo_mikage
 		portraits = {
 			navy = {
-				#small = "gfx/leaders/ACW/avrora_azur_lane_idea.dds"
-				large = "gfx/leaders/ACW/Avrora_Azur_Lane.dds"
+				small = GFX_idea_mah_sakuyo_mikage
+				large = "gfx/leaders/MAH/sakuyo_mikage.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/MAH/sakuyo_mikage_civ.dds"
 			}
 		}
 		navy_leader = {
@@ -564,7 +612,7 @@ characters = {
 		}
 		advisor = {
 			slot = navy_chief
-			idea_token = CW_navy_chief
+			idea_token = MAH_sakuyo_mikage
 			cost = 150
 			allowed = {
 				original_tag = MAH
@@ -618,26 +666,6 @@ characters = {
 			}
 			traits = {
 				head_of_intelligence
-			}
-		}
-	}
-	MAH_air_chief = {
-		name = MAH_air_chief
-		portraits = {
-			army = {
-				small = "GFX_idea_mah_hitomi_tsukishiro"
-				large = "gfx/leaders/MAH/Hitomi_Tsukishiro.dds"
-			}
-		}
-		advisor = {
-			slot = air_chief
-			idea_token = MAH_air_chief
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				air_chief_ground_support_3
 			}
 		}
 	}
