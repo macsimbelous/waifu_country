@@ -4,6 +4,7 @@ wfc_test_category = {
 		cost = 0
 		complete_effect = {
 			ROM = {
+				retire_country_leader = yes
 				generate_character = {
 					token_base = generic_democratic_reformer
 					portraits = {
@@ -13,13 +14,14 @@ wfc_test_category = {
 					}
 					country_leader = {
 						ideology = despotism
-						
+						#promote_leader = yes
 						traits = {
 							wfc_anime_tyan
 						}
 						expire = "1953.3.1.1"
 						id = -1
 					}
+					
 					#promote_character = THIS
 				}
 				generate_character = {
@@ -38,6 +40,7 @@ wfc_test_category = {
 						expire = "1953.3.1.1"
 						id = -1
 					}
+
 					#promote_character = THIS
 				}
 				generate_character = {
@@ -56,6 +59,7 @@ wfc_test_category = {
 						expire = "1953.3.1.1"
 						id = -1
 					}
+					#promote_leader = yes
 					#promote_character = THIS
 				}
 				generate_character = {
@@ -74,6 +78,7 @@ wfc_test_category = {
 						expire = "1953.3.1.1"
 						id = -1
 					}
+					#promote_leader = yes
 					#promote_character = THIS
 				}
 			}

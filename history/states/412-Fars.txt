@@ -8,7 +8,7 @@ state={
 	}
 
 
-	state_category = large_city
+	state_category = metropolis
 	history={
 		owner = MMS
 		victory_points = {
@@ -21,7 +21,7 @@ state={
 			12832 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			7982 = {
 				naval_base = 4
 			}
@@ -29,7 +29,7 @@ state={
 				naval_base = 2
 			}
 			industrial_complex = 3
-			dockyard = 3
+			dockyard = 2
 			arms_factory = 1
 		}
 		add_core_of = MMS
