@@ -64,22 +64,22 @@ acw_change_country_leader = {
 					wfc_patron_of_the_military_industrial_complex
 				}
 			}
-			ACW_anastasia_romanova = {
-				set_nationality = SOV
-			}
-			add_country_leader_role = {
-				Character = ACW_anastasia_romanova
-				Promote_leader = yes
-				Country_leader = {
-					ideology = despotism
-					expire = "1965.1.1.1"
-					traits = {
-						wfc_anime_tyan
-						wfc_peoples_favorite
-					}
-				}
-			}
-			promote_character = ACW_anastasia_romanova
+			# ACW_anastasia_romanova = {
+			# 	set_nationality = SOV
+			# }
+			# add_country_leader_role = {
+			# 	Character = ACW_anastasia_romanova
+			# 	Promote_leader = yes
+			# 	Country_leader = {
+			# 		ideology = despotism
+			# 		expire = "1965.1.1.1"
+			# 		traits = {
+			# 			wfc_anime_tyan
+			# 			wfc_peoples_favorite
+			# 		}
+			# 	}
+			# }
+			# promote_character = ACW_anastasia_romanova
 		}
 	}
 	else_if = {
