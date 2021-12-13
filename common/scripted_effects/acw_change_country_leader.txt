@@ -53,33 +53,15 @@ acw_change_country_leader = {
 			}
 		}
 		else = {
-			create_country_leader = {
-				name = "Alisa Illinichina Amiella"
-				desc = "Alisa_Illinichina_Amiella_DESC"
-				picture = "Alisa_Illinichina_Amiella.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
+			retire_country_leader = yes
+			set_country_leader_name = {
+				name = ACW_anastasia_romanova
 			}
-			# ACW_anastasia_romanova = {
-			# 	set_nationality = SOV
-			# }
-			# add_country_leader_role = {
-			# 	Character = ACW_anastasia_romanova
-			# 	Promote_leader = yes
-			# 	Country_leader = {
-			# 		ideology = despotism
-			# 		expire = "1965.1.1.1"
-			# 		traits = {
-			# 			wfc_anime_tyan
-			# 			wfc_peoples_favorite
-			# 		}
-			# 	}
-			# }
-			# promote_character = ACW_anastasia_romanova
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/ACW/anastasia_romanova.dds"
+			}
+			add_country_leader_trait = wfc_anime_tyan
+			add_country_leader_trait = wfc_peoples_favorite
 		}
 	}
 	else_if = {
