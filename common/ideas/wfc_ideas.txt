@@ -96,7 +96,11 @@ ideas = {
 		}
 		wfc_acw_puppet = {
 			available = {
-				is_puppet = yes
+				OR = {
+					is_puppet = yes
+					has_autonomy_state = autonomy_dominion
+					has_autonomy_state = autonomy_colony
+				}
 			}
 			removal_cost = -1
 			allowed_civil_war = {

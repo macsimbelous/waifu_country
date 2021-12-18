@@ -2101,6 +2101,15 @@ prospect_for_resources = {
 						}
 					}
 					set_state_flag = wfc_geological_exploration_completed_flag
+					set_variable = {
+						res_count = 3
+					}
+					randomize_variable = {
+						var = res_count
+						distribution = uniform
+						min = 3
+						max = 25
+					}
 				}
 			}
 		}
@@ -2164,21 +2173,21 @@ prospect_for_resources = {
 			FROM = {
 				set_state_flag = wfc_resource_development_completed_flag
 				custom_effect_tooltip = wfc_develop_steel_deposits_tt
-				hidden_effect = {
-					set_temp_variable = {
-						res_count = 8
-					}
-					randomize_temp_variable = {
-						var = res_count
-						distribution = uniform
-						min = 3
-						max = 25
-					}
+				#hidden_effect = {
+					# set_temp_variable = {
+					# 	res_count = 8
+					# }
+					# randomize_temp_variable = {
+					# 	var = res_count
+					# 	distribution = uniform
+					# 	min = 3
+					# 	max = 25
+					# }
 					add_resource = {
 						type = steel
 						amount = var:res_count
 					}
-				}
+				#}
 			}
 		}
 	}
@@ -2228,21 +2237,21 @@ prospect_for_resources = {
 			FROM = {
 				set_state_flag = wfc_resource_development_completed_flag
 				custom_effect_tooltip = wfc_develop_aluminium_deposits_tt
-				hidden_effect = {
-					set_temp_variable = {
-						res_count = 8
-					}
-					randomize_temp_variable = {
-						var = res_count
-						distribution = uniform
-						min = 3
-						max = 25
-					}
+				#hidden_effect = {
+					# set_temp_variable = {
+					# 	res_count = 8
+					# }
+					# randomize_temp_variable = {
+					# 	var = res_count
+					# 	distribution = uniform
+					# 	min = 3
+					# 	max = 25
+					# }
 					add_resource = {
 						type = aluminium
 						amount = var:res_count
 					}
-				}
+				#}
 			}
 		}
 	}
@@ -2292,21 +2301,21 @@ prospect_for_resources = {
 			FROM = {
 				set_state_flag = wfc_resource_development_completed_flag
 				custom_effect_tooltip = wfc_develop_oil_deposits_tt
-				hidden_effect = {
-					set_temp_variable = {
-						res_count = 8
-					}
-					randomize_temp_variable = {
-						var = res_count
-						distribution = uniform
-						min = 3
-						max = 25
-					}
+				#hidden_effect = {
+					# set_temp_variable = {
+					# 	res_count = 8
+					# }
+					# randomize_temp_variable = {
+					# 	var = res_count
+					# 	distribution = uniform
+					# 	min = 3
+					# 	max = 25
+					# }
 					add_resource = {
 						type = oil
 						amount = var:res_count
 					}
-				}
+				#}
 			}
 		}
 	}
@@ -2356,21 +2365,21 @@ prospect_for_resources = {
 			FROM = {
 				set_state_flag = wfc_resource_development_completed_flag
 				custom_effect_tooltip = wfc_develop_chromium_deposits_tt
-				hidden_effect = {
-					set_temp_variable = {
-						res_count = 8
-					}
-					randomize_temp_variable = {
-						var = res_count
-						distribution = uniform
-						min = 3
-						max = 25
-					}
+				#hidden_effect = {
+					# set_temp_variable = {
+					# 	res_count = 8
+					# }
+					# randomize_temp_variable = {
+					# 	var = res_count
+					# 	distribution = uniform
+					# 	min = 3
+					# 	max = 25
+					# }
 					add_resource = {
 						type = chromium
 						amount = var:res_count
 					}
-				}
+				#}
 			}
 		}
 	}
@@ -2420,21 +2429,21 @@ prospect_for_resources = {
 			FROM = {
 				set_state_flag = wfc_resource_development_completed_flag
 				custom_effect_tooltip = wfc_develop_tungsten_deposits_tt
-				hidden_effect = {
-					set_temp_variable = {
-						res_count = 8
-					}
-					randomize_temp_variable = {
-						var = res_count
-						distribution = uniform
-						min = 3
-						max = 25
-					}
+				#hidden_effect = {
+					# set_temp_variable = {
+					# 	res_count = 8
+					# }
+					# randomize_temp_variable = {
+					# 	var = res_count
+					# 	distribution = uniform
+					# 	min = 3
+					# 	max = 25
+					# }
 					add_resource = {
 						type = tungsten
 						amount = var:res_count
 					}
-				}
+				#}
 			}
 		}
 	}
