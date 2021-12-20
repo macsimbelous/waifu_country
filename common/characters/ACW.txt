@@ -1473,6 +1473,28 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	ACW_kawashima_mizuki = {
+		name = ACW_kawashima_mizuki
+		portraits = {
+			army = {
+				small = GFX_idea_acw_kawashima_mizuki
+				large = "gfx/leaders/ACW/kawashima_mizuki.dds"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist media_personality desert_fox
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 4
+		}
+	}
 	######################
 	#### NAVY LEADRES ####
 	######################
