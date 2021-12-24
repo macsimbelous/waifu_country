@@ -2055,6 +2055,7 @@ prospect_for_resources = {
 		days_re_enable = 30
 		days_remove = 30
 		available = {
+			has_tech = excavation1
 			any_owned_state = {
 				NOT = {
 					has_state_flag = wfc_geological_exploration_completed_flag
@@ -2142,7 +2143,7 @@ prospect_for_resources = {
 		}
 		available = {
 			controls_state = FROM
-			has_tech = excavation3
+			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
 		visible = {
@@ -2206,7 +2207,7 @@ prospect_for_resources = {
 		}
 		available = {
 			controls_state = FROM
-			has_tech = excavation3
+			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
 		visible = {
@@ -2270,7 +2271,7 @@ prospect_for_resources = {
 		}
 		available = {
 			controls_state = FROM
-			has_tech = excavation3
+			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
 		visible = {
@@ -2334,7 +2335,7 @@ prospect_for_resources = {
 		}
 		available = {
 			controls_state = FROM
-			has_tech = excavation3
+			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
 		visible = {
@@ -2398,7 +2399,7 @@ prospect_for_resources = {
 		}
 		available = {
 			controls_state = FROM
-			has_tech = excavation3
+			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
 		visible = {

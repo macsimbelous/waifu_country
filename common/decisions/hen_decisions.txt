@@ -11,11 +11,7 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			base = 10
-			modifier = {
-				has_government = neutrality
-				add = -10
-			}
+			factor = 10
 		}
 		remove_effect = {
 			set_country_flag = hen_stockpile_up_flag
@@ -45,11 +41,7 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			base = 10
-			modifier = {
-				has_government = neutrality
-				add = -10
-			}
+			factor = 10
 		}
 		remove_effect = {
 			set_country_flag = hen_seduce_politics_flag
@@ -71,11 +63,7 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			base = 10
-			modifier = {
-				has_government = neutrality
-				add = -10
-			}
+			factor = 10
 		}
 		remove_effect = {
 			set_country_flag = hen_demoralize_jap_flag
@@ -98,11 +86,7 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			base = 10
-			modifier = {
-				has_government = neutrality
-				add = -10
-			}
+			factor = 10
 		}
 		remove_effect = {
 			set_country_flag = hen_add_claim_to_jap_flag
@@ -126,11 +110,7 @@ hen_japan_conquest = {
 		fire_only_once = yes
 		cost = 50
 		ai_will_do = {
-			base = 10
-			modifier = {
-				has_government = neutrality
-				add = -10
-			}
+			factor = 10
 		}
 		complete_effect = {
 			add_ideas = hen_attack_jap_bonus
