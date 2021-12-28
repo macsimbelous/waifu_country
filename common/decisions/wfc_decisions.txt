@@ -190,7 +190,7 @@ wfc_world_conquest_category = {
 			}
 			modifier = {
 				has_government = neutrality
-				add = -5
+				add = 1
 			}
 			modifier = {
 				has_war = yes
@@ -212,7 +212,13 @@ wfc_world_conquest_category = {
 			}
 			modifier = {
 				is_in_faction = yes
+				is_faction_leader = yes
 				add = 1
+			}
+			modifier = {
+				is_in_faction = yes
+				is_faction_leader = no
+				add = -10
 			}
 			modifier = {
 				FROM = {

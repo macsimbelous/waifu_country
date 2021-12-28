@@ -27,7 +27,7 @@ characters = {
 		name = MMS_yuuko_yoshida
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_yuuko_yoshida"
+				small = GFX_idea_mms_yuuko_yoshida
 			}
 			civilian = {
 				large = "gfx/leaders/MMS/yuuko_yoshida.dds"
@@ -50,7 +50,7 @@ characters = {
 		name = MMS_maou
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_maou"
+				small = GFX_idea_mms_maou
 			}
 			civilian = {
 				large = "gfx/leaders/MMS/Maou.dds"

@@ -305,6 +305,7 @@ mah_crystal_empire_category = {
 			factor = 10
 		}
 		complete_effect = {
+			set_country_flag = mah_substantiate_claims_flag
 			custom_effect_tooltip = mah_substantiate_claims_tt
 			hidden_effect = {
 				add_state_claim = 797
@@ -358,6 +359,10 @@ mah_crystal_empire_category = {
 			country_exists = TUR
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
 			# Iraq
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
@@ -400,6 +405,12 @@ mah_crystal_empire_category = {
 		visible = {
 			country_exists = IRQ
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
+		}
 		ai_will_do = {
 			factor = 2
 		}
@@ -428,6 +439,10 @@ mah_crystal_empire_category = {
 			country_exists = SAU
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
 			# Iraq
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
@@ -464,6 +479,10 @@ mah_crystal_empire_category = {
 			country_exists = OMA
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
 			# Saudi Arabia
 			custom_trigger_tooltip = {
 				tooltip = form_country_saudi_required_states_tt
@@ -501,6 +520,10 @@ mah_crystal_empire_category = {
 			country_exists = YEM
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
 			# Saudi Arabia
 			custom_trigger_tooltip = {
 				tooltip = form_country_saudi_required_states_tt
@@ -585,6 +608,10 @@ mah_crystal_empire_category = {
 			country_exists = KUW
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
 			OR = {
 				# Iraq
 				custom_trigger_tooltip = {
@@ -630,6 +657,10 @@ mah_crystal_empire_category = {
 			country_exists = QAT
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
 			# Saudi Arabia
 			custom_trigger_tooltip = {
 				tooltip = form_country_saudi_required_states_tt
@@ -666,6 +697,10 @@ mah_crystal_empire_category = {
 			country_exists = UAE
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
 			# Saudi Arabia
 			custom_trigger_tooltip = {
 				tooltip = form_country_saudi_required_states_tt
@@ -702,6 +737,10 @@ mah_crystal_empire_category = {
 			country_exists = EGY
 		}
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
 			num_divisions > 19
 			has_equipment = {
 				infantry_equipment > 24999
@@ -1077,8 +1116,9 @@ mah_make_friends_with_shamiko_category = {
 			neutrality > 0.3
 			MMS = {
 				has_country_leader = {
+					character = MMS_yuuko_yoshida
 					ruling_only = yes
-					name = "Yuuko Yoshida"
+					#name = "Yuuko Yoshida"
 				}
 				neutrality > 0.3
 			}

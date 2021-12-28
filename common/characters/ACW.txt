@@ -1803,7 +1803,7 @@ characters = {
 		name = ACW_Minami_Nitta
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_minami_nitta"
+				small = GFX_idea_acw_minami_nitta
 			}
 			civilian = {
 				large = "gfx/leaders/ACW/minami_nitta.dds"
