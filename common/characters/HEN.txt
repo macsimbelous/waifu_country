@@ -87,7 +87,7 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				infantry_officer
+				wfc_exp_trait
 				infantry_leader
 				offensive_doctrine
 				harsh_leader
@@ -126,7 +126,7 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				infantry_officer
+				wfc_exp_trait
 				infantry_leader
 				defensive_doctrine
 				skilled_staffer
@@ -168,13 +168,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 			traits = {
+				wfc_exp_trait
+				organizer
 				logistics_skill
 			}
 		}
@@ -199,11 +201,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 		advisor = {
@@ -237,7 +243,8 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 			traits = {
-				infantry_officer
+				wfc_exp_trait
+				infantry_leader
 				skilled_staffer
 				inspirational_leader
 				media_personality
@@ -283,6 +290,10 @@ characters = {
 			}
 		}
 		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				commando
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 5
@@ -312,11 +323,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -340,11 +355,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -364,6 +383,7 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 			traits = {
+				wfc_exp_trait
 				panzer_leader
 			}
 		}
@@ -391,11 +411,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -408,14 +432,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 			traits = {
-				planning_skill
+				wfc_exp_trait
+				trickster
 			}
 		}
 	}
@@ -460,11 +485,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 		advisor = {
@@ -513,6 +542,8 @@ characters = {
 			logistics_skill = 6
 			legacy_id = -1
 			traits = {
+				wfc_exp_trait
+				organizer
 				logistics_skill
 			}
 		}
@@ -540,6 +571,9 @@ characters = {
 			}
 		}
 		corps_commander = {
+			traits = {
+				wfc_exp_trait cavalry_leader
+			}
 			skill = 5
 			attack_skill = 6
 			defense_skill = 5
@@ -568,11 +602,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -599,11 +637,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
+			traits = {
+				wfc_exp_trait infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -616,11 +657,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -633,11 +678,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -654,6 +703,7 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				wfc_exp_navy_trait
 				naval_lineage
 			}
 			skill = 5
@@ -700,13 +750,14 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				wfc_exp_navy_trait
 				naval_invader
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -720,13 +771,14 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				wfc_exp_navy_trait
 				naval_liason naval_lineage
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -772,7 +824,7 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = generic_head_of_intelligence
+			idea_token = HEN_head_int
 			cost = 1000
 			allowed = {
 				original_tag = HEN

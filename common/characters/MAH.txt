@@ -96,17 +96,20 @@ characters = {
 		name = MAH_Madoka_Kaname
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_madoka_kaname"
-			}
-			army = {
+				small = GFX_idea_mah_madoka_kaname
 				large = "gfx/leaders/MAH/Madoka_Kaname.dds"
 			}
 		}
 		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				organizer
+				skilled_staffer
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 5
-			planning_skill = 5
+			planning_skill = 6
 			logistics_skill = 5
 			legacy_id = -1
 		}
@@ -127,7 +130,7 @@ characters = {
 		name = MAH_Illyasviel_von_einzbern
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_illyasviel_von_einzbern"
+				small = GFX_idea_mah_illyasviel_von_einzbern
 				large = "gfx/leaders/MAH/illyasviel_von_einzbern.dds"
 			}
 		}
@@ -139,7 +142,9 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 			traits = {
+				wfc_exp_trait
 				offensive_skill
+				panzer_leader
 			}
 		}
 		advisor = {
@@ -161,7 +166,7 @@ characters = {
 		name = MAH_Arika_Yumemiya
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_arika_yumemiya"
+				small = GFX_idea_mah_arika_yumemiya
 				large = "gfx/leaders/MAH/arika_yumemiya.dds"
 			}
 		}
@@ -173,6 +178,7 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 			traits = {
+				wfc_exp_trait
 				infantry_leader defense_skill
 			}
 		}
@@ -212,11 +218,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -240,6 +250,10 @@ characters = {
 			}
 		}
 		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
 			skill = 5
 			attack_skill = 6
 			defense_skill = 5
@@ -268,11 +282,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
+			traits = {
+				wfc_exp_trait
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -299,11 +317,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			traits = {
+				wfc_exp_trait
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -330,11 +352,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -347,11 +373,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
+			traits = {
+				wfc_exp_trait
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 		advisor = {
@@ -387,11 +417,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 3
+			traits = {
+				wfc_exp_trait
+				panzer_leader
+			}
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -418,11 +452,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			traits = {
+				wfc_exp_trait
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -446,11 +484,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 2
+			traits = {
+				wfc_exp_trait
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
 			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -458,11 +500,15 @@ characters = {
 		name = MAH_fate_testarossa
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_fate_testarossa"
+				small = GFX_idea_mah_fate_testarossa
 				large = "gfx/leaders/MAH/fate_testarossa.dds"
 			}
 		}
 		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				organizer
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 5
@@ -483,35 +529,6 @@ characters = {
 			}
 		}
 	}
-	MAH_akane_isshiki = {
-		name = MAH_akane_isshiki
-		portraits = {
-			army = {
-				small = "GFX_idea_mah_akane_isshiki"
-				large = "gfx/leaders/MAH/akane_isshiki.dds"
-			}
-		}
-		corps_commander = {
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 6
-			logistics_skill = 5
-			legacy_id = -1
-		}
-		advisor = {
-			slot = theorist
-			idea_token = MAH_akane_isshiki
-			ledger = navy
-			cost = 50
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				naval_theorist
-			}
-		}
-	}
 	MAH_cavalri = {
 		name = MMS_cavalri
 		portraits = {
@@ -522,6 +539,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				wfc_exp_trait
 				cavalry_leader
 			}
 			skill = 5
@@ -564,6 +582,10 @@ characters = {
 			}
 		}
 		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				trait_engineer
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 5
@@ -581,11 +603,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 3
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
 			attack_skill = 5
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -603,6 +629,7 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				wfc_exp_navy_trait
 			}
 			skill = 5
 			attack_skill = 6
@@ -622,12 +649,43 @@ characters = {
 			}
 		}
 	}
+	MAH_akane_isshiki = {
+		name = MAH_akane_isshiki
+		portraits = {
+			navy = {
+				small = GFX_idea_mah_akane_isshiki
+				large = "gfx/leaders/MAH/akane_isshiki.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 6
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAH_akane_isshiki
+			ledger = navy
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
 	#advisors
 	MAH_Hitomi_Tsukishiro = {
 		name = MAH_Hitomi_Tsukishiro
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_hitomi_tsukishiro"
+				small = GFX_idea_mah_hitomi_tsukishiro
 				large = "gfx/leaders/MAH/Hitomi_Tsukishiro.dds"
 			}
 		}
@@ -656,7 +714,7 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = MAH_Hitomi_Tsukishiro
+			idea_token = MAH_head_int
 			cost = 1000
 			allowed = {
 				original_tag = MAH

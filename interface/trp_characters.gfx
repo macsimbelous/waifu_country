@@ -135,6 +135,14 @@ spriteTypes = {
 		name = "GFX_idea_trp_mare_bello_fiore"
 		texturefile = "gfx/leaders/TRP/mare_bello_fiore_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_shirota_mitsuki"
+		texturefile = "gfx/leaders/TRP/shirota_mitsuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_tiger_traps"
+		texturefile = "gfx/leaders/TRP/tiger_traps_idea.dds"
+	}
 }
 
 

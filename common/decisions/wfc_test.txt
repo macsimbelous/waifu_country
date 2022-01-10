@@ -35,9 +35,9 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		available = {
-			wfc_test_char = {
-				is_unit_leader = yes
-			}
+			# wfc_test_char = {
+			# 	is_unit_leader = yes
+			# }
 			
 		}
 		complete_effect = {

@@ -117,7 +117,9 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
+				wfc_exp_trait
 				aggressive_assaulter
+				cavalry_leader
 			}
 			skill = 4
 			attack_skill = 5
@@ -138,6 +140,10 @@ characters = {
 			}
 		}
 		field_marshal = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -156,6 +162,7 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
+				wfc_exp_trait
 				trickster
 				trait_engineer
 				fast_planner
@@ -181,13 +188,8 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				trickster
-				commando
-				offensive_doctrine
-				aggressive_assaulter
-				organisational_leader
-				inspirational_leader
-				expert_delegator
+				wfc_exp_trait
+				panzer_leader
 			}
 			skill = 7
 			attack_skill = 8
@@ -208,13 +210,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				aggressive_assaulter
+				wfc_exp_trait
+				skilled_staffer
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 		advisor = {
@@ -253,7 +256,9 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				wfc_exp_trait
 				politically_connected
+				infantry_leader
 			}
 			skill = 5
 			attack_skill = 5
@@ -273,13 +278,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				defensive_doctrine
+				wfc_exp_trait
+				naval_invader
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -293,7 +299,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				commando offensive_doctrine
+				wfc_exp_trait
+				commando
 			}
 			skill = 5
 			attack_skill = 6
@@ -324,6 +331,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				wfc_exp_trait
 				cavalry_leader
 			}
 			skill = 5
@@ -368,6 +376,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				wfc_exp_trait
 				infantry_leader
 				#infantry_expert
 			}
@@ -389,13 +398,15 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				wfc_exp_trait
 				infantry_leader
+				trait_engineer
 			}
-			skill = 1
+			skill = 4
 			attack_skill = 5
 			defense_skill = 5
 			planning_skill = 4
-			logistics_skill = 1
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -423,10 +434,11 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				wfc_exp_trait
 				infantry_leader
 				skilled_staffer
 			}
-			skill = 1
+			skill = 4
 			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
@@ -444,6 +456,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				wfc_exp_trait
 				panzer_leader
 			}
 			skill = 5
@@ -455,10 +468,10 @@ characters = {
 		}
 	}
 	MMS_tiamat = {
-		name = MMS_tiamat 
+		name = MMS_tiamat
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_tiamat"
+				small = GFX_idea_mms_tiamat
 				large = "gfx/leaders/MMS/Tiamat.dds"
 			}
 		}
@@ -476,7 +489,9 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				wfc_exp_trait
 				skilled_staffer
+				infantry_leader
 				#expert_delegator
 			}
 			skill = 9
@@ -496,11 +511,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 		advisor = {
@@ -526,11 +545,15 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -559,11 +582,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -594,11 +622,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -613,11 +644,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -625,20 +659,19 @@ characters = {
 		name = MMS_02
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_02"
-			}
-			army = {
+				small = GFX_idea_mms_02
 				large = "gfx/leaders/MMS/Zero_Two.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 			traits = {
+				wfc_exp_trait
 				panzer_leader
 			}
 		}
@@ -652,11 +685,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
+			traits = {
+				wfc_exp_trait infantry_leader organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 		advisor = {
@@ -692,11 +728,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -704,18 +743,19 @@ characters = {
 		name = MMS_arnice
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_arnice"
-			}
-			army = {
+				small = GFX_idea_mms_arnice
 				large = "gfx/leaders/MMS/Arnice.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -723,16 +763,19 @@ characters = {
 		name = MMS_saya_otonashi
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_saya_otonashi"
+				small = GFX_idea_mms_saya_otonashi
 				large = "gfx/leaders/MMS/Saya_Otonashi.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				wfc_exp_trait infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -756,11 +799,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			traits = {
+				wfc_exp_trait trait_engineer cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -785,11 +831,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			traits = {
+				wfc_exp_trait trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -797,7 +846,7 @@ characters = {
 		name = MMS_heine
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_heine"
+				small = GFX_idea_mms_heine
 				large = "gfx/leaders/MMS/Heine.dds"
 			}
 		}
@@ -815,13 +864,33 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				cavalry_leader
+				wfc_exp_trait cavalry_leader skilled_staffer
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MMS_freyja = {
+		name = MMS_freyja
+		portraits = {
+			army = {
+				small = GFX_idea_mms_freyja
+				large = "gfx/leaders/MMS/freyja.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait cavalry_leader trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -848,14 +917,15 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				wfc_exp_navy_trait
 				blue_water_expert
 				big_guns_expert
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -880,6 +950,7 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				wfc_exp_navy_trait
 				green_water_expert
 				destroyer_leader
 			}
@@ -903,14 +974,15 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				wfc_exp_navy_trait
 				arctic_water_expert
 				cruiser_captain
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -944,7 +1016,7 @@ characters = {
 		name = MMS_shigure
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_shigure"
+				small = GFX_idea_mms_shigure
 			}
 			civilian = {
 				large = "gfx/leaders/MMS/Shigure.dds"
@@ -952,7 +1024,7 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = MMS_shigure
+			idea_token = MMS_shigure2
 			cost = 1000
 			allowed = {
 				original_tag = MMS

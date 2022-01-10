@@ -151,4 +151,8 @@ spriteTypes = {
                 name = "GFX_idea_mms_zero_two"
                 texturefile = "gfx/leaders/MMS/zero_two_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mms_freyja"
+                texturefile = "gfx/leaders/MMS/freyja_idea.dds"
+        }
 }
