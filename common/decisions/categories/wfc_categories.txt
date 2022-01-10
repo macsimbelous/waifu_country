@@ -192,7 +192,7 @@ wfc_budget_category = {
 }
 
 wfc_construction_phase_category = {
-	priority = 5
+	priority = 2
 	icon = generic_construction
 	picture = GFX_wfl_economy_category
 	allowed = {
@@ -209,7 +209,7 @@ wfc_construction_phase_category = {
 }
 
 wfc_transfer_of_the_capital_category = {
-	priority = 2
+	priority = 3
 	allowed = {
 		OR = {
 			original_tag = ACW
