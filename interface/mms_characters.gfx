@@ -163,4 +163,8 @@ spriteTypes = {
                 name = "GFX_idea_mms_miia"
                 texturefile = "gfx/leaders/MMS/miia_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mms_meroune_lorelei"
+                texturefile = "gfx/leaders/MMS/meroune_lorelei_idea.dds"
+        }
 }

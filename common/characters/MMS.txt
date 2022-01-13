@@ -1043,6 +1043,32 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MMS_meroune_lorelei = {
+		name = MMS_meroune_lorelei
+		portraits = {
+			army = {
+				small = GFX_idea_mms_meroune_lorelei
+				large = "gfx/leaders/MMS/meroune_lorelei.dds"
+			}
+			navy = {
+				small = GFX_idea_mms_meroune_lorelei
+				large = "gfx/leaders/MMS/meroune_lorelei.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+				blue_water_expert
+				seawolf
+				silent_hunter
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 6
+			coordination_skill = 4
+		}
+	}
 	#advisors
 	MMS_shigure = {
 		name = MMS_shigure
