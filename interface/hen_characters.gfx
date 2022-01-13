@@ -115,4 +115,12 @@ spriteTypes = {
                 name = "GFX_idea_hen_kasumi_nanakura"
                 texturefile = "gfx/leaders/HEN/kasumi_nanakura_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_hen_ai_kagano"
+                texturefile = "gfx/leaders/HEN/ai_kagano_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_hen_rin"
+                texturefile = "gfx/leaders/HEN/rin_idea.dds"
+        }
 }

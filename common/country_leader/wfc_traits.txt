@@ -185,6 +185,7 @@ leader_traits = {
 	wfc_propaganda_expert = {
 		sprite = 13
 		war_support_factor = 0.15
+		justify_war_goal_time = -0.5
 		random = no
 		ai_will_do = {
 			factor = 1
@@ -317,5 +318,10 @@ leader_traits = {
 	}
 	wfc_jack_of_all_trades_trait = {
 		random = no
+	}
+	wfc_minister_of_health = {
+		random = no
+		monthly_population = 0.25
+		experience_loss_factor = -0.25
 	}
 }

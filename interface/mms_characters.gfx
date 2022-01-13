@@ -155,4 +155,12 @@ spriteTypes = {
                 name = "GFX_idea_mms_freyja"
                 texturefile = "gfx/leaders/MMS/freyja_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mms_saphentite_neikes"
+                texturefile = "gfx/leaders/MMS/saphentite_neikes_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mms_miia"
+                texturefile = "gfx/leaders/MMS/miia_idea.dds"
+        }
 }

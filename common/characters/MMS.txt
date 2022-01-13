@@ -894,6 +894,63 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MMS_saphentite_neikes = {
+		name = MMS_saphentite_neikes
+		portraits = {
+			army = {
+				small = GFX_idea_mms_saphentite_neikes
+				large = "gfx/leaders/MMS/saphentite_neikes.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/MMS/saphentite_neikes.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_saphentite_neikes
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfc_minister_of_health
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MMS_miia = {
+		name = MMS_miia
+		portraits = {
+			army = {
+				small = GFX_idea_mms_miia
+				large = "gfx/leaders/MMS/miia.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/MMS/miia.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
 	#admirals
 	MMS_yamato_wg = {
 		name = MMS_yamato_wg

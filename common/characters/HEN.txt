@@ -690,6 +690,48 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	HEN_ai_kagano = {
+		name = HEN_ai_kagano
+		portraits = {
+			army = {
+				small = GFX_idea_hen_ai_kagano
+				large = "gfx/leaders/HEN/ai_kagano.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				commando
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	HEN_rin = {
+		name = HEN_rin
+		portraits = {
+			army = {
+				small = GFX_idea_hen_rin
+				large = "gfx/leaders/HEN/rin.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				trickster
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	#admerals
 	HEN_Kaname = {
 		name = HEN_Kaname
