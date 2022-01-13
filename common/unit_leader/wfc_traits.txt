@@ -24,7 +24,7 @@ leader_traits = {
 			experience_gain_factor = 0.25
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 1000
 		}
 		new_commander_weight = {
 			factor = 1000
@@ -55,7 +55,7 @@ leader_traits = {
 			experience_gain_factor = 0.25
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 1000
 		}
 		new_commander_weight = {
 			factor = 1000
