@@ -1,6 +1,6 @@
 mah_crystal_empire_category = {
 	mah_form_crystal_empire_decision = {
-		cost = 100
+		cost = 0
 		fire_only_once = yes
 		available = {
 			# Maho

@@ -44,7 +44,7 @@ MEH_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
-		value = 5
+		value = 15
 	}
 	ai_strategy = {
 		type = unit_ratio

@@ -192,7 +192,7 @@ wfc_budget_category = {
 }
 
 wfc_construction_phase_category = {
-	priority = 2
+	priority = 1
 	icon = generic_construction
 	picture = GFX_wfl_economy_category
 	allowed = {

@@ -236,3 +236,139 @@ trp_discrediting_decisions = {
 		}
 	}
 }
+
+trp_south_american_federation = {
+	trp_form_south_american_federation = {
+		cost = 0
+		fire_only_once = yes
+		available = {
+			# TRP
+			custom_trigger_tooltip = {
+				tooltip = trp_states_tt
+				controls_state = 495
+				controls_state = 280
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			set_cosmetic_tag = MAH_CRY_EMP
+			set_country_flag = trp_crystal_empire_formed_flag
+			# Turkey
+			custom_effect_tooltip = form_country_turkey_coring_states_tt
+			hidden_effect = {
+				488 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
+			}
+			310 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			309 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			687 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			hidden_effect = {
+				transfer_state = 310
+				transfer_state = 309
+				transfer_state = 687
+			}
+		}
+	}
+	trp_substantiate_claims_decision = {
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			set_country_flag = trp_substantiate_claims_flag
+			custom_effect_tooltip = trp_substantiate_claims_decision_tt
+			hidden_effect = {
+				add_state_claim = 310
+				add_state_claim = 309
+				add_state_claim = 687
+			}
+		}
+	}
+	trp_conquest_of_ven_decision = {
+		cost = 100
+		fire_only_once = yes
+		days_remove = 60
+		war_with_on_remove = VEN
+		visible = {
+			country_exists = VEN
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = trp_substantiate_claims_tt
+				has_country_flag = trp_substantiate_claims_flag
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = VEN
+				type = annex_everything
+			}
+		}
+	}
+	trp_conquest_of_col_decision = {
+		cost = 100
+		fire_only_once = yes
+		days_remove = 30
+		war_with_on_remove = COL
+		visible = {
+			country_exists = COL
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = trp_substantiate_claims_tt
+				has_country_flag = trp_substantiate_claims_flag
+			}
+			# VEN
+			custom_trigger_tooltip = {
+				tooltip = trp_form_country_ven_required_states_tt
+				controls_state = 488
+				controls_state = 307
+				controls_state = 489
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = COL
+				type = annex_everything
+			}
+		}
+	}
+}

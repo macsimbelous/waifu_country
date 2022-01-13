@@ -1,12 +1,18 @@
+trp_south_american_federation = {
+	priority = 20
+	allowed = {
+		original_tag = TRP
+	}
+}
 trp_cloning_category = {
 	priority = 5
 	icon = decision_generic_research
 	allowed = {
 		original_tag = TRP
 	}
-	visible = {
-		#has_completed_focus = wfl_cloning
-	}
+	# visible = {
+	# 	#has_completed_focus = wfl_cloning
+	# }
 }
 
 trp_discrediting_decisions = {
@@ -16,9 +22,9 @@ trp_discrediting_decisions = {
 	allowed = {
 		original_tag = TRP
 	}
-	visible = {
-		#has_country_flag = wfl_KGB_flag
-		#has_intelligence_agency = yes
-	}
+	# visible = {
+	# 	#has_country_flag = wfl_KGB_flag
+	# 	#has_intelligence_agency = yes
+	# }
 }
 
