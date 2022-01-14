@@ -287,7 +287,7 @@ trp_south_american_federation = {
 			# ARG
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_arg_required_states_tt
-				controls_state = 287
+				controls_state = 278
 				controls_state = 508
 				controls_state = 509
 				controls_state = 510
@@ -317,9 +317,9 @@ trp_south_american_federation = {
 			controls_state = 304
 			controls_state = 305
 			controls_state = 300
-			controls_state = 309
-			controls_state = 310
-			controls_state = 687
+			#controls_state = 309
+			#controls_state = 310
+			#controls_state = 687
 		}
 		ai_will_do = {
 			factor = 1000
