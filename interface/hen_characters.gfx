@@ -123,4 +123,8 @@ spriteTypes = {
                 name = "GFX_idea_hen_rin"
                 texturefile = "gfx/leaders/HEN/rin_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_hen_mind_flayer"
+                texturefile = "gfx/leaders/HEN/mind_flayer_idea.dds"
+        }
 }

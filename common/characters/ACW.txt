@@ -8,7 +8,29 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/ACW/Erza.dds"
-				small = "gfx/leaders/ACW/erza_idea.dds"
+				small = GFX_idea_acw_erza
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Erza
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = ACW_Erza
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -45,7 +67,29 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/ACW/Asuka.dds"
-				small = "gfx/leaders/ACW/asuka_idea.dds"
+				small = GFX_idea_acw_asuka_lider
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Asuka
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = ACW_Asuka
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -103,7 +147,29 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/ACW/Anastasia_general.dds"
-				small = "gfx/leaders/ACW/anastasia_general_idea.dds"
+				small = GFX_idea_acw_anastasia
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Anastasia
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = ACW_Anastasia
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -524,20 +590,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Camilla
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 	ACW_Sinon = {
@@ -1500,29 +1552,6 @@ characters = {
 			planning_skill = 6
 			logistics_skill = 6
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Noelle
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						#name = "Anastasia"
-						character = ACW_Anastasia
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				wfc_silent_workhorse
-			}
-			ai_will_do = {
-				factor = 2
-			}
-		}
 	}
 	ACW_Eruza_Guranhirute = {
 		name = ACW_Eruza_Guranhirute
@@ -1735,8 +1764,6 @@ characters = {
 		portraits = {
 			navy = {
 				small = "gfx/leaders/ACW/marblehead_azur_lane_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/ACW/Marblehead_Azur_Lane.dds"
 			}
 		}
@@ -1847,20 +1874,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Sovetskaya_Rossiya
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 	ACW_Shima_Tateishi = {
@@ -2019,11 +2032,20 @@ characters = {
 			allowed = {
 				original_tag = ACW
 			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						#name = "Anastasia"
+						character = ACW_Anastasia
+						ruling_only = yes
+					}
+				}
+			}
 			traits = {
-				democratic_reformer
+				wfc_silent_workhorse
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 2
 			}
 		}
 	}

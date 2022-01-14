@@ -4,10 +4,32 @@ characters = {
 		name = MAH_Asuka_Ootorii
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_asuka_ootorii"
+				small = GFX_idea_mah_asuka_ootorii
 			}
 			civilian = {
 				large = "gfx/leaders/MAH/asuka_ootorii.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_Asuka_Ootorii
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MAH_Asuka_Ootorii
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -27,10 +49,32 @@ characters = {
 		name = MAH_Nanoha_Takamachi
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_nanoha_takamachi"
+				small = GFX_idea_mah_nanoha_takamachi
 			}
 			civilian = {
 				large = "gfx/leaders/MAH/Nanoha_Takamachi.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_Nanoha_Takamachi
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MAH_Nanoha_Takamachi
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -49,10 +93,32 @@ characters = {
 		name = MAH_Usagi_Tsukino
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_usagi_tsukino"
+				small = GFX_idea_mah_usagi_tsukino
 			}
 			civilian = {
 				large = "gfx/leaders/MAH/usagi_tsukino.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_Usagi_Tsukino
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MAH_Usagi_Tsukino
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -270,17 +336,6 @@ characters = {
 				large = "gfx/leaders/MAH/minako_aino.dds"
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_minako_aino
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				democratic_reformer
-			}
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -335,20 +390,6 @@ characters = {
 			army = {
 				small = GFX_idea_mah_chisato_yonamine
 				large = "gfx/leaders/MAH/chisato_yonamine.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_chisato_yonamine
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		corps_commander = {
@@ -435,20 +476,6 @@ characters = {
 			army = {
 				small = GFX_idea_mah_subaru_nakajima
 				large = "gfx/leaders/MAH/subaru_nakajima.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_subaru_nakajima
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		corps_commander = {

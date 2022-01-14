@@ -42,11 +42,33 @@ characters = {
 		name = MEH_Fiora_Mechon
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_fiora_mechon"
+				small = GFX_idea_meh_fiora_mechon
 				large = "gfx/leaders/MEH/Fiora_Mechon.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/MEH/Fiora_Mechon.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Fiora_Mechon
+			cost = 150
+			allowed = {
+				original_tag = MEH
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MEH_Fiora_Mechon
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		corps_commander = {
@@ -67,7 +89,7 @@ characters = {
 				wfc_android
 				wfc_peoples_favorite
 				wfc_patron_of_science
-				democratic_reformer
+				freedom_fighter
 			}
 			expire = "1965.1.1.1"
 			id = -1
@@ -77,11 +99,33 @@ characters = {
 		name = MEH_Mythra
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_mythra"
+				small = GFX_idea_meh_mythra
 				large = "gfx/leaders/MEH/Mythra.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/MEH/Mythra.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Mythra
+			cost = 150
+			allowed = {
+				original_tag = MEH
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MEH_Mythra
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		corps_commander = {
@@ -112,11 +156,33 @@ characters = {
 		name = MEH_Histoire
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_histoire"
+				small = GFX_idea_meh_histoire
 				large = "gfx/leaders/MEH/Histoire.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/MEH/Histoire.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Histoire
+			cost = 150
+			allowed = {
+				original_tag = MEH
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MEH_Histoire
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -125,7 +191,7 @@ characters = {
 				wfc_android
 				wfc_revolutionary
 				wfc_patron_of_industry
-				communist_revolutionary
+				wfc_dictator
 			}
 			expire = "1965.1.1.1"
 			id = -1
@@ -194,20 +260,6 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Alisa_Boskonovich
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 	MEH_Risa = {
@@ -728,20 +780,6 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_T_Elos
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 	}
 	MEH_Aino = {
 		name = MEH_Aino
@@ -857,20 +895,6 @@ characters = {
 			maneuvering_skill = 4
 			coordination_skill = 4
 			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Ashigara_ARP
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 	MEH_Takao_ARP = {

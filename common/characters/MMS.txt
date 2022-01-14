@@ -4,10 +4,32 @@ characters = {
 		name = MMS_velvet_crowe
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_velvet_crowe"
+				small = GFX_idea_mms_velvet_crowe
 			}
 			civilian = {
 				large = "gfx/leaders/MMS/Velvet_Crowe.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_velvet_crowe
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MMS_velvet_crowe
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -56,6 +78,28 @@ characters = {
 				large = "gfx/leaders/MMS/Maou.dds"
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_maou
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MMS_maou
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		country_leader = {
 			ideology = leninism
 			traits = {
@@ -73,10 +117,32 @@ characters = {
 		name = MMS_holo
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_holo"
+				small = GFX_idea_mms_holo
 			}
 			civilian = {
 				large = "gfx/leaders/MMS/Holo.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_holo
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = MMS_holo
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -99,20 +165,6 @@ characters = {
 			army = {
 				small = "GFX_idea_mms_fino_bloodstone"
 				large = "gfx/leaders/MMS/Fino_Bloodstone.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_fino_bloodstone
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		field_marshal = {
@@ -418,20 +470,6 @@ characters = {
 				large = "gfx/leaders/MMS/Laharl_girl.dds"
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_laharl_female
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -565,20 +603,6 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/MMS/Lucy.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_lucy
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		corps_commander = {

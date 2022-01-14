@@ -3,8 +3,34 @@ characters = {
 	HEN_Takumi_Musashino = {
 		name = HEN_Takumi_Musashino
 		portraits = {
+			army = {
+				small = GFX_idea_hen_takumi_musashino
+				large = "gfx/leaders/HEN/Takumi_Musashino.dds"
+			}
 			civilian = {
 				large = "gfx/leaders/HEN/Takumi_Musashino.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Takumi_Musashino
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = HEN_Takumi_Musashino
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -19,11 +45,37 @@ characters = {
 			id = -1
 		}
 	}
-	HEN_Saori_Asamiya = {
-		name = HEN_Saori_Asamiya
+	HEN_mind_flayer = {
+		name = HEN_mind_flayer
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HEN/Saori_Asamiya.dds"
+				large = "gfx/leaders/HEN/mind_flayer.dds"
+			}
+			army = {
+				small = GFX_idea_hen_mind_flayer
+				large = "gfx/leaders/HEN/mind_flayer_general.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_mind_flayer
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = HEN_mind_flayer
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -41,8 +93,34 @@ characters = {
 	HEN_Mari_Setogaya = {
 		name = HEN_Mari_Setogaya
 		portraits = {
+			army = {
+				small = GFX_idea_hen_mari_setogaya
+				large = "gfx/leaders/HEN/Mari_Setogaya.dds"
+			}
 			civilian = {
 				large = "gfx/leaders/HEN/Mari_Setogaya.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Mari_Setogaya
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = HEN_Mari_Setogaya
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -101,20 +179,6 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Olga_Discordia
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 	}
 	HEN_Celestine_Lucullus = {
 		name = HEN_Celestine_Lucullus
@@ -141,29 +205,38 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Celestine_Lucullus
-			cost = 150
-			allowed = {
-				original_tag = HEN
+	}
+	#genarals
+	HEN_Saori_Asamiya = {
+		name = HEN_Saori_Asamiya
+		portraits = {
+			army = {
+				small = GFX_idea_hen_saori_asamiya
+				large = "gfx/leaders/HEN/Saori_Asamiya.dds"
 			}
+			civilian = {
+				large = "gfx/leaders/HEN/Saori_Asamiya.dds"
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
 			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
+				wfc_exp_trait
+				infantry_leader
+				logistics_skill
 			}
 		}
 	}
-	#genarals
 	HEN_Mistiora_Arte = {
 		name = HEN_Mistiora_Arte
 		portraits = {
 			army = {
 				small = "gfx/leaders/HEN/mistiora_arte_idea.dds"
-			}
-			army = {
 				large = "gfx/leaders/HEN/Mistiora_Arte.dds"
 			}
 		}
@@ -211,20 +284,6 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Iris_Arcadia
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 	HEN_Homare_Nao = {

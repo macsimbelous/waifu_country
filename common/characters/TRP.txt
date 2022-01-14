@@ -4,10 +4,32 @@ characters = {
 		name = TRP_astolfo
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_astolfo"
+				small = GFX_idea_trp_astolfo
 			}
 			civilian = {
 				large = "gfx/leaders/TRP/Astolfo.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_astolfo
+			cost = 150
+			allowed = {
+				original_tag = TRP
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = TRP_astolfo
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		field_marshal = {
@@ -39,10 +61,32 @@ characters = {
 		name = TRP_hideri_kanzaki
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_hideri_kanzaki"
+				small = GFX_idea_trp_hideri_kanzaki
 			}
 			civilian = {
 				large = "gfx/leaders/TRP/Hideri_Kanzaki.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_hideri_kanzaki
+			cost = 150
+			allowed = {
+				original_tag = TRP
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = TRP_hideri_kanzaki
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -61,10 +105,32 @@ characters = {
 		name = TRP_tetora
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_tetora"
+				small = GFX_idea_trp_tetora
 			}
 			civilian = {
 				large = "gfx/leaders/TRP/Tetora.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_tetora
+			cost = 150
+			allowed = {
+				original_tag = TRP
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = TRP_tetora
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		country_leader = {
@@ -297,20 +363,6 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_kaguya_arikawa
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 	}
 	TRP_tama_kyan = {
 		name = TRP_tama_kyan
@@ -333,20 +385,6 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_tama_kyan
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 	TRP_hime_arikawa = {
@@ -820,20 +858,6 @@ characters = {
 			maneuvering_skill = 4
 			coordination_skill = 4
 			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_mariya_shidou
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 	TRP_russell = {
