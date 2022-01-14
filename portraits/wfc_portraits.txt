@@ -293,6 +293,12 @@ MMS = {
 			"gfx/leaders/MMS/MMS_land_06.dds"
 			"gfx/leaders/MMS/MMS_land_07.dds"
 			"gfx/leaders/MMS/MMS_land_08.dds"
+			"gfx/leaders/MMS/MMS_land_09.dds"
+			"gfx/leaders/MMS/MMS_land_10.dds"
+			"gfx/leaders/MMS/MMS_land_11.dds"
+			"gfx/leaders/MMS/MMS_land_12.dds"
+			"gfx/leaders/MMS/MMS_land_13.dds"
+			"gfx/leaders/MMS/MMS_land_14.dds"
 		}
 	}
 	navy = {
@@ -315,9 +321,18 @@ MMS = {
 		female = {
 			"gfx/leaders/MMS/MMS_operative_01.dds"
 			"gfx/leaders/MMS/MMS_operative_02.dds"
+			"gfx/leaders/MMS/MMS_operative_03.dds"
+			"gfx/leaders/MMS/MMS_operative_04.dds"
+			"gfx/leaders/MMS/MMS_operative_05.dds"
+			"gfx/leaders/MMS/MMS_operative_06.dds"
 		}
 		male = {
 			"gfx/leaders/MMS/MMS_operative_01.dds"
+			"gfx/leaders/MMS/MMS_operative_02.dds"
+			"gfx/leaders/MMS/MMS_operative_03.dds"
+			"gfx/leaders/MMS/MMS_operative_04.dds"
+			"gfx/leaders/MMS/MMS_operative_05.dds"
+			"gfx/leaders/MMS/MMS_operative_06.dds"
 		}
 	}
 }
