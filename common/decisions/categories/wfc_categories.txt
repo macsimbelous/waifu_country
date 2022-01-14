@@ -40,6 +40,12 @@ wfc_world_conquest_category = {
 			}
 			has_country_flag = mah_crystal_empire_formed_flag
 		}
+		if = {
+			limit = {
+				original_tag = TRP
+			}
+			has_country_flag = trp_south_american_federation_formed_flag
+		}
 		# if = {
 		# 	limit = {
 		# 		is_ai = yes
