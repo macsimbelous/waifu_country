@@ -314,6 +314,7 @@ trp_south_american_federation = {
 				controls_state = 504
 				controls_state = 505
 			}
+			controls_state = 304
 			controls_state = 305
 			controls_state = 300
 			controls_state = 309
@@ -324,32 +325,186 @@ trp_south_american_federation = {
 			factor = 1000
 		}
 		complete_effect = {
-			set_cosmetic_tag = MAH_CRY_EMP
-			set_country_flag = trp_crystal_empire_formed_flag
-			# Turkey
-			custom_effect_tooltip = form_country_turkey_coring_states_tt
+			set_cosmetic_tag = TRP_SAF
+			set_country_flag = trp_south_american_federation_formed_flag
 			hidden_effect = {
-				488 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
+				transfer_state = 493
+				transfer_state = 306
+				transfer_state = 486
+				transfer_state = 488
+				transfer_state = 307
+				transfer_state = 489
+				transfer_state = 490
+				transfer_state = 491
+				transfer_state = 303
+				transfer_state = 492
+				transfer_state = 494
+				transfer_state = 302
+				transfer_state = 487
+				transfer_state = 506
+				transfer_state = 279
+				transfer_state = 507
+				transfer_state = 287
+				transfer_state = 508
+				transfer_state = 509
+				transfer_state = 510
+				transfer_state = 511
+				transfer_state = 512
+				transfer_state = 301
+				transfer_state = 688
+				transfer_state = 496
+				transfer_state = 497
+				transfer_state = 498
+				transfer_state = 499
+				transfer_state = 500
+				transfer_state = 501
+				transfer_state = 502
+				transfer_state = 503
+				transfer_state = 504
+				transfer_state = 505
+				transfer_state = 305
+				transfer_state = 300
+				transfer_state = 309
+				transfer_state = 310
+				transfer_state = 687
+				if = {
+					limit = {
+						controls_state = 649
+					}
+					transfer_state = 649
+				}
+				if = {
+					limit = {
+						controls_state = 299
+					}
+					transfer_state = 299
+				}
+				if = {
+					limit = {
+						controls_state = 691
+					}
+					transfer_state = 691
+				}
+				if = {
+					limit = {
+						controls_state = 695
+					}
+					transfer_state = 695
+				}
+				if = {
+					limit = {
+						controls_state = 692
+					}
+					transfer_state = 692
+				}
+				if = {
+					limit = {
+						controls_state = 694
+					}
+					transfer_state = 694
+				}
+				if = {
+					limit = {
+						controls_state = 308
+					}
+					transfer_state = 308
+				}
+				if = {
+					limit = {
+						controls_state = 308
+					}
+					transfer_state = 304
 				}
 			}
-			310 = {
-				#add_core_of = ROOT
-				wfc_coring_state = yes
-			}
-			309 = {
-				#add_core_of = ROOT
-				wfc_coring_state = yes
-			}
-			687 = {
-				#add_core_of = ROOT
-				wfc_coring_state = yes
-			}
+			custom_effect_tooltip = trp_form_country_coring_states_tt
 			hidden_effect = {
-				transfer_state = 310
-				transfer_state = 309
-				transfer_state = 687
+				493 = { wfc_coring_state = yes }
+				306 = { wfc_coring_state = yes }
+				486 = { wfc_coring_state = yes }
+				488 = { wfc_coring_state = yes }
+				307 = { wfc_coring_state = yes }
+				489 = { wfc_coring_state = yes }
+				490 = { wfc_coring_state = yes }
+				491 = { wfc_coring_state = yes }
+				303 = { wfc_coring_state = yes }
+				492 = { wfc_coring_state = yes }
+				494 = { wfc_coring_state = yes }
+				302 = { wfc_coring_state = yes }
+				487 = { wfc_coring_state = yes }
+				506 = { wfc_coring_state = yes }
+				279 = { wfc_coring_state = yes }
+				507 = { wfc_coring_state = yes }
+				287 = { wfc_coring_state = yes }
+				508 = { wfc_coring_state = yes }
+				509 = { wfc_coring_state = yes }
+				510 = { wfc_coring_state = yes }
+				511 = { wfc_coring_state = yes }
+				512 = { wfc_coring_state = yes }
+				301 = { wfc_coring_state = yes }
+				688 = { wfc_coring_state = yes }
+				496 = { wfc_coring_state = yes }
+				497 = { wfc_coring_state = yes }
+				498 = { wfc_coring_state = yes }
+				499 = { wfc_coring_state = yes }
+				500 = { wfc_coring_state = yes }
+				501 = { wfc_coring_state = yes }
+				502 = { wfc_coring_state = yes }
+				503 = { wfc_coring_state = yes }
+				504 = { wfc_coring_state = yes }
+				505 = { wfc_coring_state = yes }
+				305 = { wfc_coring_state = yes }
+				300 = { wfc_coring_state = yes }
+				309 = { wfc_coring_state = yes }
+				310 = { wfc_coring_state = yes }
+				687 = { wfc_coring_state = yes }
+				if = {
+					limit = {
+						controls_state = 649
+					}
+					649 = { wfc_coring_state = yes }
+				}
+				if = {
+					limit = {
+						controls_state = 299
+					}
+					299 = { wfc_coring_state = yes }
+				}
+				if = {
+					limit = {
+						controls_state = 691
+					}
+					691 = { wfc_coring_state = yes }
+				}
+				if = {
+					limit = {
+						controls_state = 695
+					}
+					695 = { wfc_coring_state = yes }
+				}
+				if = {
+					limit = {
+						controls_state = 692
+					}
+					692 = { wfc_coring_state = yes }
+				}
+				if = {
+					limit = {
+						controls_state = 694
+					}
+					694 = { wfc_coring_state = yes }
+				}
+				if = {
+					limit = {
+						controls_state = 308
+					}
+					308 = { wfc_coring_state = yes }
+				}
+				if = {
+					limit = {
+						controls_state = 304
+					}
+					304 = { wfc_coring_state = yes }
+				}
 			}
 		}
 	}
@@ -376,6 +531,11 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				add_state_claim = 488
+				add_state_claim = 307
+				add_state_claim = 489
+			}
 			create_wargoal = {
 				target = VEN
 				type = annex_everything
@@ -420,7 +580,7 @@ trp_south_american_federation = {
 			country_exists = ECU
 		}
 		available = {
-			any_owned_state = {
+			ROOT = {
 				is_neighbor_of = ECU
 			}
 		}
@@ -539,7 +699,7 @@ trp_south_american_federation = {
 			country_exists = CHL
 		}
 		available = {
-			any_owned_state = {
+			ROOT = {
 				is_neighbor_of = CHL
 			}
 		}
@@ -571,7 +731,7 @@ trp_south_american_federation = {
 			country_exists = ARG
 		}
 		available = {
-			any_owned_state = {
+			ROOT = {
 				is_neighbor_of = ARG
 			}
 		}
@@ -603,7 +763,7 @@ trp_south_american_federation = {
 			country_exists = PAR
 		}
 		available = {
-			any_owned_state = {
+			ROOT = {
 				is_neighbor_of = PAR
 			}
 		}
@@ -635,7 +795,7 @@ trp_south_american_federation = {
 			country_exists = URG
 		}
 		available = {
-			any_owned_state = {
+			ROOT = {
 				is_neighbor_of = URG
 			}
 		}
@@ -654,6 +814,38 @@ trp_south_american_federation = {
 		remove_effect = {
 			create_wargoal = {
 				target = URG
+				type = annex_everything
+			}
+		}
+	}
+	trp_conquest_of_pan_decision = {
+		cost = 100
+		fire_only_once = yes
+		days_remove = 30
+		war_with_on_remove = PAN
+		visible = {
+			country_exists = PAN
+		}
+		available = {
+			ROOT = {
+				is_neighbor_of = PAN
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = PAN
 				type = annex_everything
 			}
 		}
