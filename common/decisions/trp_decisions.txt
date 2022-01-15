@@ -344,7 +344,7 @@ trp_south_american_federation = {
 				transfer_state = 506
 				transfer_state = 279
 				transfer_state = 507
-				transfer_state = 287
+				transfer_state = 278
 				transfer_state = 508
 				transfer_state = 509
 				transfer_state = 510
@@ -434,7 +434,7 @@ trp_south_american_federation = {
 				506 = { wfc_coring_state = yes }
 				279 = { wfc_coring_state = yes }
 				507 = { wfc_coring_state = yes }
-				287 = { wfc_coring_state = yes }
+				278 = { wfc_coring_state = yes }
 				508 = { wfc_coring_state = yes }
 				509 = { wfc_coring_state = yes }
 				510 = { wfc_coring_state = yes }
