@@ -1,6 +1,6 @@
 leader_traits = {
 	wfc_exp_trait = {
-		type = all
+		type = land
 		trait_type = personality_trait
 		# gain_xp = {
 		# 	always = no			# not gainable
@@ -31,7 +31,7 @@ leader_traits = {
 		}
 	}
 	wfc_exp_navy_trait = {
-		type = all
+		type = navy
 		trait_type = personality_trait
 		# gain_xp = {
 		# 	always = no			# not gainable

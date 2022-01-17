@@ -391,4 +391,12 @@ spriteTypes = {
                 name = "GFX_idea_acw_kawashima_mizuki"
                 texturefile = "gfx/leaders/ACW/kawashima_mizuki_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_acw_natasha_cioara"
+                texturefile = "gfx/leaders/ACW/natasha_cioara_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_kitagawa_marin"
+                texturefile = "gfx/leaders/ACW/kitagawa_marin_idea.dds"
+        }
 }

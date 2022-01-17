@@ -114,6 +114,8 @@ HEN = {
 			"gfx/leaders/HEN/HEN_land_04.dds"
 			"gfx/leaders/HEN/HEN_land_05.dds"
 			"gfx/leaders/HEN/HEN_land_06.dds"
+			"gfx/leaders/HEN/HEN_land_07.dds"
+			"gfx/leaders/HEN/HEN_land_08.dds"
 		}
 	}
 	navy = {
@@ -121,6 +123,7 @@ HEN = {
 			"gfx/leaders/HEN/HEN_naval_01.dds"
 			"gfx/leaders/HEN/HEN_naval_02.dds"
 			"gfx/leaders/HEN/HEN_naval_03.dds"
+			"gfx/leaders/HEN/HEN_naval_04.dds"
 		}
 	}
 	operative = {
@@ -128,11 +131,17 @@ HEN = {
 			"gfx/leaders/HEN/HEN_operative_01.dds"
 			"gfx/leaders/HEN/HEN_operative_02.dds"
 			"gfx/leaders/HEN/HEN_operative_03.dds"
+			"gfx/leaders/HEN/HEN_operative_04.dds"
+			"gfx/leaders/HEN/HEN_operative_05.dds"
+			"gfx/leaders/HEN/HEN_operative_06.dds"
 		}
 		male = {
 			"gfx/leaders/HEN/HEN_operative_01.dds"
 			"gfx/leaders/HEN/HEN_operative_02.dds"
 			"gfx/leaders/HEN/HEN_operative_03.dds"
+			"gfx/leaders/HEN/HEN_operative_04.dds"
+			"gfx/leaders/HEN/HEN_operative_05.dds"
+			"gfx/leaders/HEN/HEN_operative_06.dds"
 		}
 	}
 }
@@ -204,6 +213,9 @@ TRP = {
 			"gfx/leaders/TRP/TRP_land_05.dds"
 			"gfx/leaders/TRP/TRP_land_06.dds"
 			"gfx/leaders/TRP/TRP_land_07.dds"
+			"gfx/leaders/TRP/TRP_land_08.dds"
+			"gfx/leaders/TRP/TRP_land_09.dds"
+			"gfx/leaders/TRP/TRP_land_10.dds"
 		}
 	}
 	navy = {
@@ -221,6 +233,7 @@ TRP = {
 			"gfx/leaders/TRP/TRP_naval_11.dds"
 			"gfx/leaders/TRP/TRP_naval_12.dds"
 			"gfx/leaders/TRP/TRP_naval_13.dds"
+			"gfx/leaders/TRP/TRP_naval_14.dds"
 		}
 	}
 	operative = {
@@ -273,12 +286,14 @@ MEH = {
 			"gfx/leaders/MEH/MEH_operative_02.dds"
 			"gfx/leaders/MEH/MEH_operative_03.dds"
 			"gfx/leaders/MEH/MEH_operative_04.dds"
+			"gfx/leaders/MEH/MEH_operative_05.dds"
 		}
 		male = {
 			"gfx/leaders/MEH/MEH_operative_01.dds"
 			"gfx/leaders/MEH/MEH_operative_02.dds"
 			"gfx/leaders/MEH/MEH_operative_03.dds"
 			"gfx/leaders/MEH/MEH_operative_04.dds"
+			"gfx/leaders/MEH/MEH_operative_05.dds"
 		}
 	}
 }
@@ -299,6 +314,7 @@ MMS = {
 			"gfx/leaders/MMS/MMS_land_12.dds"
 			"gfx/leaders/MMS/MMS_land_13.dds"
 			"gfx/leaders/MMS/MMS_land_14.dds"
+			"gfx/leaders/MMS/MMS_land_15.dds"
 		}
 	}
 	navy = {

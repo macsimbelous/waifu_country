@@ -1647,6 +1647,52 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	ACW_natasha_cioara = {
+		name = ACW_natasha_cioara
+		portraits = {
+			army = {
+				small = GFX_idea_acw_natasha_cioara
+				large = "gfx/leaders/ACW/natasha_cioara.dds"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				winter_specialist
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 4
+		}
+	}
+	ACW_kitagawa_marin = {
+		name = ACW_kitagawa_marin
+		portraits = {
+			army = {
+				small = GFX_idea_acw_kitagawa_marin
+				large = "gfx/leaders/ACW/kitagawa_marin.dds"
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 4
+		}
+	}
 	######################
 	#### NAVY LEADRES ####
 	######################
