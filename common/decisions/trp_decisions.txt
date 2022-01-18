@@ -180,7 +180,7 @@ trp_discrediting_decisions = {
 			factor = 1000
 		}
 		fire_only_once = no
-		cost = 100
+		cost = mtth:trp_discrediting_cost
 		days_re_enable = 30
 		#on_map_mode = map_only
 		complete_effect = {
@@ -314,7 +314,7 @@ trp_south_american_federation = {
 				controls_state = 504
 				controls_state = 505
 			}
-			controls_state = 304
+			#controls_state = 304
 			controls_state = 305
 			controls_state = 300
 			#controls_state = 309
@@ -825,6 +825,7 @@ trp_south_american_federation = {
 		war_with_on_remove = PAN
 		visible = {
 			country_exists = PAN
+			has_country_flag = trp_south_american_federation_formed_flag
 		}
 		available = {
 			ROOT = {
@@ -848,6 +849,49 @@ trp_south_american_federation = {
 				target = PAN
 				type = annex_everything
 			}
+		}
+	}
+	trp_annex_of_colonies_decision = {
+		cost = 300
+		fire_only_once = yes
+		visible = {
+			has_country_flag = trp_south_american_federation_formed_flag
+		}
+		available = {
+			
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		complete_effect = {
+			687 = {
+				add_claim_by = OWNER
+				owner = {
+					create_wargoal = {
+						target = TRP
+						type = take_claimed_state
+					}
+				}
+			}
+			transfer_state = 687
+			309 = {
+				owner = {
+					create_wargoal = {
+						target = TRP
+						type = take_claimed_state
+					}
+				}
+			}
+			transfer_state = 309
+			310 = {
+				owner = {
+					create_wargoal = {
+						target = TRP
+						type = take_claimed_state
+					}
+				}
+			}
+			transfer_state = 310
 		}
 	}
 }

@@ -284,3 +284,10 @@ wfc_subsidies_count = {
 		add = 5
 	}
 }
+trp_discrediting_cost = {
+	base = 0
+	modifier = {
+		is_ai = no
+		add = 100
+	}
+}
