@@ -251,42 +251,40 @@ wfc_world_conquest_category = {
 		#days_re_enable = 30
 		days_remove = 30
 		remove_effect = {
-			# FROM = {
-			# 	every_owned_state = {
-			# 		add_claim_by = ROOT
-			# 	}
-			# }
-			FROM = {
-				every_owned_state = {
-					limit = {
-						any_neighbor_state = {
-							is_owned_by = ROOT
-						}
-					}
-					add_claim_by = ROOT
-				}
-			}
 			# declare_war_on = {
 			# 	target = FROM
 			# 	type = annex_everything
 			# }
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = democratic
 				}
 				create_wargoal = {
 					target = FROM
-					type = annex_everything
+					type = puppet_wargoal_focus
+				}
+				FROM = {
+					every_owned_state = {
+						limit = {
+							any_neighbor_state = {
+								is_owned_by = ROOT
+							}
+						}
+						add_claim_by = ROOT
+					}
 				}
 			}
 			else = {
 				create_wargoal = {
 					target = FROM
-					type = puppet_wargoal_focus
+					type = annex_everything
+				}
+				FROM = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
 				}
 			}
-		}
-		complete_effect = {
 		}
 	}
 }

@@ -364,9 +364,27 @@ trp_south_american_federation = {
 				transfer_state = 505
 				transfer_state = 305
 				transfer_state = 300
-				transfer_state = 309
-				transfer_state = 310
-				transfer_state = 687
+				#transfer_state = 309
+				if = {
+					limit = {
+						controls_state = 309
+					}
+					transfer_state = 309
+				}
+				#transfer_state = 310
+				if = {
+					limit = {
+						controls_state = 310
+					}
+					transfer_state = 310
+				}
+				#transfer_state = 687
+				if = {
+					limit = {
+						controls_state = 687
+					}
+					transfer_state = 687
+				}
 				if = {
 					limit = {
 						controls_state = 649
@@ -454,9 +472,27 @@ trp_south_american_federation = {
 				505 = { wfc_coring_state = yes }
 				305 = { wfc_coring_state = yes }
 				300 = { wfc_coring_state = yes }
-				309 = { wfc_coring_state = yes }
-				310 = { wfc_coring_state = yes }
-				687 = { wfc_coring_state = yes }
+				#309 = { wfc_coring_state = yes }
+				if = {
+					limit = {
+						controls_state = 309
+					}
+					309 = { wfc_coring_state = yes }
+				}
+				#310 = { wfc_coring_state = yes }
+				if = {
+					limit = {
+						controls_state = 310
+					}
+					310 = { wfc_coring_state = yes }
+				}
+				#687 = { wfc_coring_state = yes }
+				if = {
+					limit = {
+						controls_state = 687
+					}
+					687 = { wfc_coring_state = yes }
+				}
 				if = {
 					limit = {
 						controls_state = 649
@@ -532,9 +568,11 @@ trp_south_american_federation = {
 		}
 		remove_effect = {
 			hidden_effect = {
-				add_state_claim = 488
-				add_state_claim = 307
-				add_state_claim = 489
+				VEN = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
 			}
 			create_wargoal = {
 				target = VEN
@@ -565,6 +603,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				COL = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = COL
 				type = annex_everything
@@ -597,6 +642,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				ECU = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = ECU
 				type = annex_everything
@@ -626,6 +678,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				PRU = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = PRU
 				type = annex_everything
@@ -655,6 +714,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				BOL = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = BOL
 				type = annex_everything
@@ -684,6 +750,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				BRA = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = BRA
 				type = annex_everything
@@ -716,6 +789,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				CHL = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = CHL
 				type = annex_everything
@@ -748,6 +828,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				ARG = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = ARG
 				type = annex_everything
@@ -780,6 +867,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				PAR = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = PAR
 				type = annex_everything
@@ -812,6 +906,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				URG = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = URG
 				type = annex_everything
@@ -845,6 +946,13 @@ trp_south_american_federation = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				PAN = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = PAN
 				type = annex_everything
