@@ -954,7 +954,10 @@ acw_puppets_category = {
 			FROM = {
 				OR = {
 					any_neighbor_country = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 					is_neighbor_of = ROOT
 				}
@@ -962,6 +965,7 @@ acw_puppets_category = {
 					OR = {
 						is_in_faction_with = ROOT
 						is_puppet_of = ROOT
+						is_subject_of = ROOT 
 						is_major = yes
 					}
 				}
@@ -973,7 +977,10 @@ acw_puppets_category = {
 				exists = yes
 				OR = {
 					any_neighbor_country = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 					is_neighbor_of = ROOT
 				}
@@ -981,6 +988,7 @@ acw_puppets_category = {
 					OR = {
 						is_in_faction_with = ROOT
 						is_puppet_of = ROOT
+						is_subject_of = ROOT 
 						is_major = yes
 					}
 				}
