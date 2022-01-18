@@ -98,6 +98,7 @@ ideas = {
 			available = {
 				OR = {
 					is_puppet = yes
+					is_subject = yes
 					has_autonomy_state = autonomy_dominion
 					has_autonomy_state = autonomy_colony
 				}
