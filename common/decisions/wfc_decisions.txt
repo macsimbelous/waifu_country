@@ -2144,15 +2144,15 @@ prospect_for_resources = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			base = 1
 			modifier = {
-				factor = 10
+				add = 10
 				OR = {
-					steel < 1
-					aluminium < 1
-					oil < 1
-					tungsten < 1
-					chromium < 1
+					steel < 0
+					aluminium < 0
+					oil < 0
+					tungsten < 0
+					chromium < 0
 				}
 			}
 		}
@@ -2184,7 +2184,11 @@ prospect_for_resources = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 1
+			modifier = {
+				add = 10
+				steel < 0
+			}
 		}
 		state_target = yes
 		on_map_mode = map_and_decisions_view
@@ -2248,7 +2252,11 @@ prospect_for_resources = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 1
+			modifier = {
+				add = 10
+				aluminium < 0
+			}
 		}
 		state_target = yes
 		on_map_mode = map_and_decisions_view
@@ -2312,7 +2320,11 @@ prospect_for_resources = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 1
+			modifier = {
+				add = 10
+				oil < 0
+			}
 		}
 		state_target = yes
 		on_map_mode = map_and_decisions_view
@@ -2376,7 +2388,11 @@ prospect_for_resources = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 1
+			modifier = {
+				add = 10
+				chromium < 0
+			}
 		}
 		state_target = yes
 		on_map_mode = map_and_decisions_view
@@ -2440,7 +2456,11 @@ prospect_for_resources = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 1
+			modifier = {
+				add = 10
+				tungsten < 0
+			}
 		}
 		state_target = yes
 		on_map_mode = map_and_decisions_view
