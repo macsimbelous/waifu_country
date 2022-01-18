@@ -272,11 +272,11 @@ on_actions = {
 				}
 				ROOT = {
 					every_owned_state = {
-						for_each_loop = {
-							array = core_countries
-							value = temp_tag
-							remove_core_of = temp_var:temp_tag
-						}
+						# for_each_loop = {
+						# 	array = core_countries
+						# 	value = temp_tag
+						# 	remove_core_of = temp_var:temp_tag
+						# }
 						add_core_of = FROM
 					}
 				}

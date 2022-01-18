@@ -699,10 +699,10 @@ wfc_subjects_category = {
 						hidden_effect = {
 							acw_change_country_leader = yes
 						}
-						add_ideas = {
-							wfc_acw_assistance
-							wfc_acw_puppet
-						}
+						# add_ideas = {
+						# 	wfc_acw_assistance
+						# 	wfc_acw_puppet
+						# }
 					}
 				}
 				else_if = {

@@ -1012,55 +1012,55 @@ acw_puppets_category = {
 				autonomy_state = autonomy_dominion
 			}
 			#puppet = FROM
-			FROM = {
-				add_ideas = {
-					wfc_acw_assistance
-					wfc_acw_puppet
-				}
-				hidden_effect = {
-					if = {
-						limit = {
-							FROM = {
-								NOT = {
-									OR = {
-										original_tag = ACW
-										original_tag = HEN
-										original_tag = MAH
-										original_tag = TRP
-										original_tag = MMS
-										original_tag = MEH
-									}
-								}
-							}
-						}
-						acw_change_country_leader = yes
-						if = {
-							limit = {
-								has_idea = ENG_guided_by_britain_raj_2
-							}
-							remove_ideas = ENG_guided_by_britain_raj_2
-						}
-						if = {
-							limit = {
-								has_idea = ENG_guided_by_britain_raj_1
-							}
-							remove_ideas = ENG_guided_by_britain_raj_1
-						}
-						if = {
-							limit = {
-								has_idea = ENG_guided_by_britain_2
-							}
-							remove_ideas = ENG_guided_by_britain_2
-						}
-						if = {
-							limit = {
-								has_idea = ENG_guided_by_britain_1
-							}
-							remove_ideas = ENG_guided_by_britain_1
-						}
-					}
-				}
-			}
+			# FROM = {
+			# 	add_ideas = {
+			# 		wfc_acw_assistance
+			# 		wfc_acw_puppet
+			# 	}
+			# 	hidden_effect = {
+			# 		if = {
+			# 			limit = {
+			# 				FROM = {
+			# 					NOT = {
+			# 						OR = {
+			# 							original_tag = ACW
+			# 							original_tag = HEN
+			# 							original_tag = MAH
+			# 							original_tag = TRP
+			# 							original_tag = MMS
+			# 							original_tag = MEH
+			# 						}
+			# 					}
+			# 				}
+			# 			}
+			# 			acw_change_country_leader = yes
+			# 			if = {
+			# 				limit = {
+			# 					has_idea = ENG_guided_by_britain_raj_2
+			# 				}
+			# 				remove_ideas = ENG_guided_by_britain_raj_2
+			# 			}
+			# 			if = {
+			# 				limit = {
+			# 					has_idea = ENG_guided_by_britain_raj_1
+			# 				}
+			# 				remove_ideas = ENG_guided_by_britain_raj_1
+			# 			}
+			# 			if = {
+			# 				limit = {
+			# 					has_idea = ENG_guided_by_britain_2
+			# 				}
+			# 				remove_ideas = ENG_guided_by_britain_2
+			# 			}
+			# 			if = {
+			# 				limit = {
+			# 					has_idea = ENG_guided_by_britain_1
+			# 				}
+			# 				remove_ideas = ENG_guided_by_britain_1
+			# 			}
+			# 		}
+			# 	}
+			# }
 			add_named_threat = {
 				threat = 5
 				name = acw_create_puppet_threat

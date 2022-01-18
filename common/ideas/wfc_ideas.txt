@@ -85,6 +85,12 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			available = {
+				OR = {
+					is_puppet_of = ACW
+					is_subject_of = ACW
+				}
+			}
 			modifier = {
 				stability_factor = 0.15
 				political_power_factor = 0.15
@@ -92,6 +98,7 @@ ideas = {
 				research_speed_factor = 0.15
 				#waifuism_drift = 0.1
 				opinion_gain_monthly_same_ideology_factor = 0.2
+				autonomy_gain = -0.5
 			}
 		}
 		wfc_acw_puppet = {
@@ -99,8 +106,8 @@ ideas = {
 				OR = {
 					is_puppet = yes
 					is_subject = yes
-					has_autonomy_state = autonomy_dominion
-					has_autonomy_state = autonomy_colony
+					# has_autonomy_state = autonomy_dominion
+					# has_autonomy_state = autonomy_colony
 				}
 			}
 			removal_cost = -1
