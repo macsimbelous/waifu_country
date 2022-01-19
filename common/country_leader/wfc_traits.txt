@@ -320,6 +320,7 @@ leader_traits = {
 		random = no
 	}
 	wfc_minister_of_health = {
+		sprite = 13
 		random = no
 		monthly_population = 0.25
 		experience_loss_factor = -0.25

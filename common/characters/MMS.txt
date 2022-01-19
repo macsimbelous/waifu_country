@@ -238,10 +238,22 @@ characters = {
 				large = "gfx/leaders/MMS/Ishtar.dds"
 			}
 		}
+		advisor = {
+			slot = army_chief
+			idea_token = MMS_ripine
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+		}
 		field_marshal = {
 			traits = {
 				wfc_exp_trait
 				panzer_leader
+				offensive_doctrine
 			}
 			skill = 7
 			attack_skill = 8
@@ -360,17 +372,6 @@ characters = {
 			planning_skill = 5
 			logistics_skill = 5
 			legacy_id = -1
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = MMS_ripine
-			cost = 50
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				army_chief_offensive_1
-			}
 		}
 	}
 	MMS_dullahan = {
@@ -538,38 +539,6 @@ characters = {
 			planning_skill = 9
 			logistics_skill = 9
 			legacy_id = -1
-		}
-	}
-	MMS_belldandy = {
-		name = MMS_belldandy
-		portraits = {
-			army = {
-				small = "GFX_idea_mms_belldandy"
-				large = "gfx/leaders/MMS/Belldandy.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_belldandy
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				wfc_peoples_favorite
-			}
 		}
 	}
 	MMS_corrin = {
@@ -975,6 +944,29 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MMS_asmodeus = {
+		name = MMS_asmodeus
+		portraits = {
+			army = {
+				small = GFX_idea_mms_asmodeus
+				large = "gfx/leaders/MMS/asmodeus.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/MMS/asmodeus.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait infantry_leader skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
 	#admirals
 	MMS_yamato_wg = {
 		name = MMS_yamato_wg
@@ -1095,6 +1087,31 @@ characters = {
 		}
 	}
 	#advisors
+	MMS_belldandy = {
+		name = MMS_belldandy
+		portraits = {
+			army = {
+				small = "GFX_idea_mms_belldandy"
+				large = "gfx/leaders/MMS/Belldandy.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_belldandy
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			traits = {
+				wfc_peoples_favorite
+			}
+		}
+	}
 	MMS_shigure = {
 		name = MMS_shigure
 		portraits = {
