@@ -19,7 +19,7 @@ mms_workouts_shamiko_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				neutrality  > 0.3
+				neutrality > 0.3
 				add = 2
 			}
 		}
@@ -58,7 +58,7 @@ mms_workouts_shamiko_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				neutrality  > 0.3
+				neutrality > 0.3
 				add = 2
 			}
 		}
@@ -98,7 +98,7 @@ mms_workouts_shamiko_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				neutrality  > 0.3
+				neutrality > 0.3
 				add = 2
 			}
 		}
@@ -153,44 +153,22 @@ mms_workouts_shamiko_category = {
 		}
 	}
 }
+
 mms_civil_war_category = {
 	mms_fascist_rise_decision = {
 		is_good = no
 		selectable_mission = no
 		days_mission_timeout = 100
 		available = {
-			fascism < 0.1
+			fascism < 0.2
 		}
 		activation = {
 			has_government = communism
 		}
 		timeout_effect = {
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@democratic
-				}
-			}
-			if = {
-				limit = {
-					has_government = communism
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@communism
-				}
-			}
-			if = {
-				limit = {
-					has_government = neutrality
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@neutrality
-				}
+			set_variable = {
+				var = civil_war_size_var
+				value = party_popularity@fascism
 			}
 			subtract_from_variable = {
 				var = civil_war_size_var
@@ -220,4 +198,3 @@ mms_civil_war_category = {
 		}
 	}
 }
-
