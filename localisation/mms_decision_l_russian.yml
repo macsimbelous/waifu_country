@@ -1,15 +1,21 @@
 ﻿l_russian:
 #decisions
 #mms_workouts_shamiko_category
-mms_workouts_shamiko_category:0 "Тренировки Шамико"
-mms_workouts_shamiko_category_desc:0 "Атака: §G[?mms_shamiko_attack]§!\nЗашита: §G[?mms_shamiko_defence]§!\nСкорость: §G[?mms_shamiko_speed]§!\nТренировок: §G[?mms_shamiko_workouts_count]§! из §G10§!"
-mms_train_shamiko_attack:0 "Тренировать атаку"
-mms_train_shamiko_protection:0 "Тренировать зашиту"
-mms_train_shamiko_speed:0 "Тренировать скорость"
-mms_workouts_shamiko_final:0 "Завершить тренировки"
-mms_workouts_shamiko_final_tt:0 "Максимальное число тренировок"
-mms_workouts_shamiko_not_final_tt:0 "Не максимальное число тренировок"
-mms_train_shamiko_run_tt:0 "Нет активной тренировки"
+ mms_workouts_shamiko_category:0 "Тренировки Шамико"
+ mms_workouts_shamiko_category_desc:0 "Атака: §G[?mms_shamiko_attack]§!\nЗашита: §G[?mms_shamiko_defence]§!\nСкорость: §G[?mms_shamiko_speed]§!\nТренировок: §G[?mms_shamiko_workouts_count]§! из §G10§!"
+ mms_train_shamiko_attack:0 "Тренировать атаку"
+ mms_train_shamiko_protection:0 "Тренировать зашиту"
+ mms_train_shamiko_speed:0 "Тренировать скорость"
+ mms_workouts_shamiko_final:0 "Завершить тренировки"
+ mms_workouts_shamiko_final_tt:0 "Максимальное число тренировок"
+ mms_workouts_shamiko_not_final_tt:0 "Не максимальное число тренировок"
+ mms_train_shamiko_run_tt:0 "Нет активной тренировки"
+
+#mms_civil_war_category
+ mms_civil_war_category:0 "§RГражданская война!§!"
+ mms_fascist_rise_decision:0 "Фашистский мятеж"
+ mms_democratic_rise_decision:0 "Восстание демократов"
+ mms_communism_rise_decision:0 "Коммунистическая революция"
 
 
 
