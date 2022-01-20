@@ -85,11 +85,13 @@ recruit_character = MAH_homura_akemi
 recruit_character = MAH_subaru_nakajima
 recruit_character = MAH_vivio
 recruit_character = MAH_fate_testarossa
-recruit_character = MAH_akane_isshiki
 recruit_character = MAH_saki_uno
 recruit_character = MAH_hayato_juumonji
+recruit_character = MAH_frill
+recruit_character = MAH_mia_cyrus
 #admirals
 recruit_character = MAH_sakuyo_mikage
+recruit_character = MAH_akane_isshiki
 
 #agents
 create_operative_leader = {

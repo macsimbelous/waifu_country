@@ -556,12 +556,12 @@ characters = {
 			}
 		}
 	}
-	MAH_cavalri = {
-		name = MMS_cavalri
+	MAH_mia_cyrus = {
+		name = MAH_mia_cyrus
 		portraits = {
 			army = {
-				#small = MAH_cavalri
-				large = "gfx/leaders/MMS/Dullahan.dds"
+				small = MAH_mia_cyrus
+				large = "gfx/leaders/MMS/mia_cyrus.dds"
 			}
 		}
 		corps_commander = {
@@ -579,7 +579,7 @@ characters = {
 		advisor = {
 			slot = theorist
 			ledger = army
-			idea_token = MMS_cavalri
+			idea_token = MAH_mia_cyrus
 			cost = 150
 			allowed = {
 				original_tag = MAH
@@ -627,6 +627,27 @@ characters = {
 			army = {
 				small = GFX_idea_mah_saki_uno
 				large = "gfx/leaders/MAH/saki_uno.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_frill = {
+		name = MAH_frill
+		portraits = {
+			army = {
+				small = GFX_idea_mah_frill
+				large = "gfx/leaders/MAH/frill.dds"
 			}
 		}
 		corps_commander = {

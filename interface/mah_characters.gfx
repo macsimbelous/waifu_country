@@ -87,6 +87,14 @@ spriteTypes = {
                 name = "GFX_idea_mah_saki_uno"
                 texturefile = "gfx/leaders/MAH/saki_uno_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mah_frill"
+                texturefile = "gfx/leaders/MAH/frill_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_mia_cyrus"
+                texturefile = "gfx/leaders/MAH/mia_cyrus_idea.dds"
+        }
 }
 
 
