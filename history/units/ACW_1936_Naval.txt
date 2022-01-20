@@ -43,7 +43,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_submarine_2
-			creator = "HEN" 
+			creator = "ACW" 
 			version_name = "Anime Class"
 		}
 		requested_factories = 2
