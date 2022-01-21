@@ -297,7 +297,7 @@ wfc_integration_category = {
 		icon = GFX_decision_generic_brainwash
 		available = {
 			FROM = {
-				compliance > 90
+				compliance > 75
 				resistance < 5
 			}
 			if = {
@@ -476,12 +476,19 @@ wfl_campaigning_for_volunteers_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				temp_mp = mtth:wfc_volunteers_base
+				country_popularity = max_available_manpower_k
 			}
 			multiply_temp_variable = {
-				temp_mp = num_owned_states
+				country_popularity = 5
 			}
-			add_manpower = temp_mp
+			add_manpower = country_popularity
+			# set_temp_variable = {
+			# 	temp_mp = mtth:wfc_volunteers_base
+			# }
+			# multiply_temp_variable = {
+			# 	temp_mp = num_owned_states
+			# }
+			# add_manpower = temp_mp
 		}
 	}
 }

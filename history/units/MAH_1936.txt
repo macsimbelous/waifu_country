@@ -55,9 +55,33 @@ division_template = {
 		}
 	}
 }
-
 division_template = {
-	name = "Maho Infantry Division"
+	name = "Maho Brigade"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+	}
+}
+division_template = {
+	name = "Maho Division"
 	regiments = {
 		infantry = {
 			x = 0
@@ -98,6 +122,18 @@ division_template = {
 		infantry = {
 			x = 1
 			y = 4
+		}
+		artillery_brigade = {
+			x = 2
+			y = 0
+		}
+		artillery_brigade = {
+			x = 2
+			y = 1
+		}
+		anti_air_brigade = {
+			x = 2
+			y = 2
 		}
 	}
 	support = {
@@ -185,7 +221,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Maho light tank"
+	name = "Maho Light Tank"
 	regiments = {
 		light_armor = {
 			x = 0
@@ -243,50 +279,74 @@ division_template = {
 units = {
 	division = {
 		location = 12473
-		division_template = "Maho Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Maho Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 12473
-		division_template = "Maho Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Maho Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 4206
-		division_template = "Maho Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Maho Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 4206
-		division_template = "Maho Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Maho Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 12473
+		division_template = "Maho Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 12473
+		division_template = "Maho Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4206
+		division_template = "Maho Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4206
+		division_template = "Maho Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
-		division_template = "Maho Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 4111
-		division_template = "Maho Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-	}
-	#tanks
-	division = {
-		location = 4111
-		division_template = "Maho light tank"
+		division_template = "Maho Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
-		division_template = "Maho light tank"
+		division_template = "Maho Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	#tanks
+	division = {
+		location = 4111
+		division_template = "Maho Light Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4111
+		division_template = "Maho Light Tank"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
@@ -294,19 +354,37 @@ units = {
 	division = {
 		location = 4206
 		division_template = "Maho Cavalry"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Cavalry"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Cavalry"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4206
+		division_template = "Maho Cavalry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4111
+		division_template = "Maho Cavalry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4111
+		division_template = "Maho Cavalry"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 }
@@ -337,7 +415,7 @@ instant_effect = {
 			creator = "MAH"
 		}
 		requested_factories = 1
-		progress = 0.24
+		progress = 0.34
 		efficiency = 100
 	}
 }

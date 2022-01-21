@@ -55,7 +55,32 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Anime Infantry Division"
+	name = "Anime Brigade"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+	}
+}
+division_template = {
+	name = "Anime Division"
 	regiments = {
 		infantry = {
 			x = 0
@@ -96,6 +121,18 @@ division_template = {
 		infantry = {
 			x = 1
 			y = 4
+		}
+		artillery_brigade = {
+			x = 2
+			y = 0
+		}
+		artillery_brigade = {
+			x = 2
+			y = 1
+		}
+		anti_air_brigade = {
+			x = 2
+			y = 2
 		}
 	}
 	support = {
@@ -181,7 +218,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Anime light tank"
+	name = "Anime Light Tank"
 	regiments = {
 		light_armor = {
 			x = 0
@@ -237,171 +274,219 @@ division_template = {
 }
 units = {
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Anime Infantry Division"
 		location = 9716
-		division_template = "Anime Infantry Division"
-		start_experience_factor = 0.2
+		division_template = "Anime Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9716
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	#mountainers
@@ -420,14 +505,14 @@ units = {
 	#tanks
 	division = {
 		location = 9716
-		division_template = "Anime light tank"
-		start_experience_factor = 0.5
+		division_template = "Anime Light Tank"
+		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
 	division = {
 		location = 9716
-		division_template = "Anime light tank"
-		start_experience_factor = 0.5
+		division_template = "Anime Light Tank"
+		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
 }
@@ -474,7 +559,7 @@ instant_effect = {
 			creator = "ACW"
 		}
 		requested_factories = 1
-		progress = 0.24
+		progress = 0.34
 		efficiency = 80
 	}
 	add_equipment_production = {

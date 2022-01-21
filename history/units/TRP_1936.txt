@@ -57,7 +57,33 @@ division_template = {
 }
 
 division_template = {
-	name = "Trap Infantry Division"
+	name = "Trap Brigade"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+	}
+}
+
+division_template = {
+	name = "Trap Division"
 	regiments = {
 		infantry = {
 			x = 0
@@ -98,6 +124,18 @@ division_template = {
 		infantry = {
 			x = 1
 			y = 4
+		}
+		artillery_brigade = {
+			x = 2
+			y = 0
+		}
+		artillery_brigade = {
+			x = 2
+			y = 1
+		}
+		anti_air_brigade = {
+			x = 2
+			y = 2
 		}
 	}
 	support = {
@@ -243,68 +281,68 @@ division_template = {
 units = {
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
+		division_template = "Trap Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
+		division_template = "Trap Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
+		division_template = "Trap Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
+		division_template = "Trap Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
+		division_template = "Trap Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
+		division_template = "Trap Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
+		division_template = "Trap Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
+		division_template = "Trap Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
-		start_experience_factor = 0.3
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
-		division_template = "Trap Infantry Division"
-		start_experience_factor = 0.3
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Mountaineers"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	#tanks

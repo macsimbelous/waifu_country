@@ -40,6 +40,16 @@ MEH_unit_production = {
 		id = infantry
 		value = 70
 	}
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 70
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mechanized
+		value = 50
+	}
 	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
