@@ -499,17 +499,6 @@ characters = {
 				large = "gfx/leaders/MAH/vivio.dds"
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_vivio
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				wfc_popular_figurehead
-			}
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -663,6 +652,256 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MAH_honey_kisaragi = {
+		name = MAH_honey_kisaragi
+		portraits = {
+			army = {
+				small = GFX_idea_mah_honey_kisaragi
+				large = "gfx/leaders/MAH/honey_kisaragi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				commando
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_mai_tokiha = {
+		name = MAH_mai_tokiha
+		portraits = {
+			army = {
+				small = GFX_idea_mah_mai_tokiha
+				large = "gfx/leaders/MAH/mai_tokiha.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_lena_sayers = {
+		name = MAH_lena_sayers
+		portraits = {
+			army = {
+				small = GFX_idea_mah_lena_sayers
+				large = "gfx/leaders/MAH/lena_sayers.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/MAH/lena_sayers_civilian.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_maron_kusakabe = {
+		name = MAH_maron_kusakabe
+		portraits = {
+			army = {
+				small = GFX_idea_mah_maron_kusakabe
+				large = "gfx/leaders/MAH/maron_kusakabe.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				trickster
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_nagisa_misumi = {
+		name = MAH_nagisa_misumi
+		portraits = {
+			army = {
+				small = GFX_idea_mah_nagisa_misumi
+				large = "gfx/leaders/MAH/nagisa_misumi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				commando
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_honoka_yukishiro = {
+		name = MAH_honoka_yukishiro
+		portraits = {
+			army = {
+				small = GFX_idea_mah_honoka_yukishiro
+				large = "gfx/leaders/MAH/honoka_yukishiro.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_himeno_awayuki = {
+		name = MAH_himeno_awayuki
+		portraits = {
+			army = {
+				small = GFX_idea_mah_himeno_awayuki
+				large = "gfx/leaders/MAH/himeno_awayuki.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				trait_engineer
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_sakura_kinomoto = {
+		name = MAH_sakura_kinomoto
+		portraits = {
+			army = {
+				small = GFX_idea_mah_sakura_kinomoto
+				large = "gfx/leaders/MAH/sakura_kinomoto.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				organizer
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_mint_aizawa = {
+		name = MAH_mint_aizawa
+		portraits = {
+			army = {
+				small = GFX_idea_mah_mint_aizawa
+				large = "gfx/leaders/MAH/mint_aizawa.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				organizer
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_zakuro_fujiwara = {
+		name = MAH_zakuro_fujiwara
+		portraits = {
+			army = {
+				small = GFX_idea_mah_zakuro_fujiwara
+				large = "gfx/leaders/MAH/zakuro_fujiwara.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				desert_fox
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	MAH_komugi_yoshida = {
+		name = MAH_komugi_yoshida
+		portraits = {
+			army = {
+				small = GFX_idea_mah_komugi_yoshida
+				large = "gfx/leaders/MAH/komugi_yoshida.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_komugi_yoshida
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				wfc_minister_of_health
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
 	#admural
 	MAH_sakuyo_mikage = {
 		name = MAH_sakuyo_mikage
@@ -728,7 +967,67 @@ characters = {
 			}
 		}
 	}
+	MAH_utena_tenjou = {
+		name = MAH_utena_tenjou
+		portraits = {
+			navy = {
+				small = GFX_idea_mah_utena_tenjou
+				large = "gfx/leaders/MAH/utena_tenjou.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 6
+		}
+	}
+	MAH_lucia_nanami = {
+		name = MAH_lucia_nanami
+		portraits = {
+			navy = {
+				small = GFX_idea_mah_lucia_nanami
+				large = "gfx/leaders/MAH/lucia_nanami.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+				seawolf
+				silent_hunter
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 6
+		}
+	}
 	#advisors
+	MAH_kobato_hanato = {
+		name = MAH_kobato_hanato
+		portraits = {
+			army = {
+				small = GFX_idea_mah_kobato_hanato
+				large = "gfx/leaders/MAH/kobato_hanato.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_kobato_hanato
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				wfc_popular_figurehead
+			}
+		}
+	}
 	MAH_Hitomi_Tsukishiro = {
 		name = MAH_Hitomi_Tsukishiro
 		portraits = {

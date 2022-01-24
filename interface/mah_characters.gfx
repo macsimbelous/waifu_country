@@ -95,6 +95,62 @@ spriteTypes = {
                 name = "GFX_idea_mah_mia_cyrus"
                 texturefile = "gfx/leaders/MAH/mia_cyrus_idea.dds"
         }
+        spriteType = {
+                name = "GFX_idea_mah_honey_kisaragi"
+                texturefile = "gfx/leaders/MAH/honey_kisaragi_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_utena_tenjou"
+                texturefile = "gfx/leaders/MAH/utena_tenjou_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_mai_tokiha"
+                texturefile = "gfx/leaders/MAH/mai_tokiha_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_lena_sayers"
+                texturefile = "gfx/leaders/MAH/lena_sayers_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_kobato_hanato"
+                texturefile = "gfx/leaders/MAH/kobato_hanato_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_maron_kusakabe"
+                texturefile = "gfx/leaders/MAH/maron_kusakabe_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_nagisa_misumi"
+                texturefile = "gfx/leaders/MAH/nagisa_misumi_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_honoka_yukishiro"
+                texturefile = "gfx/leaders/MAH/honoka_yukishiro_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_lucia_nanami"
+                texturefile = "gfx/leaders/MAH/lucia_nanami_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_himeno_awayuki"
+                texturefile = "gfx/leaders/MAH/himeno_awayuki_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_sakura_kinomoto"
+                texturefile = "gfx/leaders/MAH/sakura_kinomoto_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_mint_aizawa"
+                texturefile = "gfx/leaders/MAH/mint_aizawa_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_zakuro_fujiwara"
+                texturefile = "gfx/leaders/MAH/zakuro_fujiwara_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_komugi_yoshida"
+                texturefile = "gfx/leaders/MAH/komugi_yoshida_idea.dds"
+        }
 }
 
 

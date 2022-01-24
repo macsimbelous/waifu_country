@@ -69,9 +69,6 @@ recruit_character = MAH_Asuka_Ootorii
 recruit_character = MAH_Nanoha_Takamachi
 recruit_character = MAH_Usagi_Tsukino
 recruit_character = MAH_Momo_Chiyoda
-#advisors
-recruit_character = MAH_Hitomi_Tsukishiro
-recruit_character = MAH_head_int
 #marshal
 #generals
 recruit_character = MAH_Madoka_Kaname
@@ -91,9 +88,26 @@ recruit_character = MAH_saki_uno
 recruit_character = MAH_hayato_juumonji
 recruit_character = MAH_frill
 recruit_character = MAH_mia_cyrus
+recruit_character = MAH_honey_kisaragi
+recruit_character = MAH_mai_tokiha
+recruit_character = MAH_lena_sayers
+recruit_character = MAH_maron_kusakabe
+recruit_character = MAH_nagisa_misumi
+recruit_character = MAH_honoka_yukishiro
+recruit_character = MAH_himeno_awayuki
+recruit_character = MAH_sakura_kinomoto
+recruit_character = MAH_mint_aizawa
+recruit_character = MAH_zakuro_fujiwara
+recruit_character = MAH_komugi_yoshida
 #admirals
 recruit_character = MAH_sakuyo_mikage
 recruit_character = MAH_akane_isshiki
+recruit_character = MAH_utena_tenjou
+recruit_character = MAH_lucia_nanami
+#advisors
+recruit_character = MAH_kobato_hanato
+recruit_character = MAH_Hitomi_Tsukishiro
+recruit_character = MAH_head_int
 
 #agents
 create_operative_leader = {

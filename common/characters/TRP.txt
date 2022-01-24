@@ -763,6 +763,28 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	TRP_jun_hiiragi = {
+		name = TRP_jun_hiiragi
+		portraits = {
+			army = {
+				small = GFX_idea_trp_jun_hiiragi
+				large = "gfx/leaders/TRP/jun_hiiragi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				panzer_leader
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
 	#admirals
 	TRP_ranma_saotome = {
 		name = TRP_ranma_saotome

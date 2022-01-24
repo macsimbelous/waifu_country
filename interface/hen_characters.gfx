@@ -120,6 +120,14 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/ai_kagano_idea.dds"
         }
         spriteType = {
+                name = "GFX_portrait_hen_ai_kagano"
+                texturefile = "gfx/leaders/HEN/ai_kagano.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_hen_ai_kagano_civilian"
+                texturefile = "gfx/leaders/HEN/ai_kagano_civilian.dds"
+        }
+        spriteType = {
                 name = "GFX_idea_hen_rin"
                 texturefile = "gfx/leaders/HEN/rin_idea.dds"
         }

@@ -143,6 +143,10 @@ spriteTypes = {
 		name = "GFX_idea_trp_tiger_traps"
 		texturefile = "gfx/leaders/TRP/tiger_traps_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_jun_hiiragi"
+		texturefile = "gfx/leaders/TRP/jun_hiiragi_idea.dds"
+	}
 }
 
 

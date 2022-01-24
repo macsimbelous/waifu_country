@@ -754,7 +754,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_ai_kagano
-				large = "gfx/leaders/HEN/ai_kagano.dds"
+				large = GFX_portrait_hen_ai_kagano
+			}
+			civilian = {
+				large = GFX_portrait_hen_ai_kagano_civilian
 			}
 		}
 		corps_commander = {
