@@ -3,31 +3,42 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		complete_effect = {
-			generate_character = {
-				token_base = wfc_test_char
-				# name = wfc_test_char
-				# portraits = {
-				# 	army = {
-				# 		large = "gfx/leaders/ACW/anastasia_romanova.dds"
-				# 		small = GFX_idea_acw_anastasia_romanova
-				# 	}
-				# 	civilian = {
-				# 		large = "gfx/leaders/ACW/anastasia_romanova.dds"
-				# 	}
-				# }
-				# corps_commander = {
-				# 	traits = {
-				# 		organizer
-				# 		trait_engineer
-				# 		adaptable
-				# 	}
-				# 	attack_skill = 4
-				# 	defense_skill = 4
-				# 	planning_skill = 4
-				# 	logistics_skill = 5
-				# 	skill = 5
-				# 	legacy_id = -1
-				# }
+			# generate_character = {
+			# 	token_base = wfc_test_char
+			# 	name = wfc_test_char
+			# 	portraits = {
+			# 		army = {
+			# 			large = "gfx/leaders/ACW/anastasia_romanova.dds"
+			# 			small = GFX_idea_acw_anastasia_romanova
+			# 		}
+			# 		civilian = {
+			# 			large = "gfx/leaders/ACW/anastasia_romanova.dds"
+			# 		}
+			# 	}
+			# 	corps_commander = {
+			# 		traits = {
+			# 			organizer
+			# 			trait_engineer
+			# 			adaptable
+			# 		}
+			# 		attack_skill = 4
+			# 		defense_skill = 4
+			# 		planning_skill = 4
+			# 		logistics_skill = 5
+			# 		skill = 5
+			# 		legacy_id = -1
+			# 	}
+			# }
+			ROM = {
+				retire_country_leader = yes
+				set_country_leader_name = {
+					name = ACW_anastasia_romanova
+				}
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/anastasia_romanova.dds"
+				}
+				add_country_leader_trait = wfc_anime_tyan
+				add_country_leader_trait = wfc_peoples_favorite
 			}
 		}
 	}
@@ -38,7 +49,6 @@ wfc_test_category = {
 			# wfc_test_char = {
 			# 	is_unit_leader = yes
 			# }
-			
 		}
 		complete_effect = {
 			add_political_power = 1000

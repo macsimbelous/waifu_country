@@ -1693,6 +1693,78 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	ACW_snow = {
+		name = ACW_snow
+		portraits = {
+			army = {
+				small = GFX_idea_acw_snow
+				large = GFX_portrait_acw_snow
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				trickster
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	ACW_alicia = {
+		name = ACW_alicia
+		portraits = {
+			army = {
+				small = GFX_idea_acw_alicia
+				large = GFX_portrait_acw_alicia
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				commando
+				urban_assault_specialist
+			}
+			skill = 4
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	ACW_isht_karin_orte = {
+		name = ACW_isht_karin_orte
+		portraits = {
+			army = {
+				small = GFX_idea_acw_isht_karin_orte
+				large = GFX_portrait_acw_isht_karin_orte
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 6
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	######################
 	#### NAVY LEADRES ####
 	######################

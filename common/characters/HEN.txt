@@ -417,6 +417,7 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				naval_invader
+				commando
 			}
 			skill = 4
 			attack_skill = 4
@@ -789,6 +790,48 @@ characters = {
 			}
 			skill = 4
 			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	HEN_alice_erzan = {
+		name = HEN_alice_erzan
+		portraits = {
+			army = {
+				small = GFX_idea_hen_alice_erzan
+				large = GFX_portrait_hen_alice_erzan
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				skilled_staffer
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+	HEN_frey_ringitt = {
+		name = HEN_frey_ringitt
+		portraits = {
+			army = {
+				small = GFX_idea_hen_frey_ringitt
+				large = GFX_portrait_hen_frey_ringitt
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				jungle_rat
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4

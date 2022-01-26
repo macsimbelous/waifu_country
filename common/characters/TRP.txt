@@ -321,6 +321,7 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				organizer
+				skilled_staffer
 			}
 			skill = 4
 			attack_skill = 4
@@ -355,6 +356,7 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				naval_invader
+				commando
 			}
 			skill = 4
 			attack_skill = 4
@@ -518,6 +520,7 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				naval_invader
+				commando
 			}
 			skill = 4
 			attack_skill = 4
@@ -732,6 +735,7 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				infantry_leader
+				skilled_staffer
 			}
 			skill = 4
 			attack_skill = 4
