@@ -151,6 +151,62 @@ spriteTypes = {
                 name = "GFX_idea_mah_komugi_yoshida"
                 texturefile = "gfx/leaders/MAH/komugi_yoshida_idea.dds"
         }
+        spriteType = {
+                name = "GFX_portrait_mah_amanogawa_kirara"
+                texturefile = "gfx/leaders/MAH/amanogawa_kirara.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_amanogawa_kirara"
+                texturefile = "gfx/leaders/MAH/amanogawa_kirara_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_mah_ichinose_minori"
+                texturefile = "gfx/leaders/MAH/ichinose_minori.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_ichinose_minori"
+                texturefile = "gfx/leaders/MAH/ichinose_minori_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_mah_laura_la_mer"
+                texturefile = "gfx/leaders/MAH/laura_la_mer.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_laura_la_mer"
+                texturefile = "gfx/leaders/MAH/laura_la_mer_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_mah_momozono_love"
+                texturefile = "gfx/leaders/MAH/momozono_love.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_momozono_love"
+                texturefile = "gfx/leaders/MAH/momozono_love_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_mah_natsuumi_manatsu"
+                texturefile = "gfx/leaders/MAH/natsuumi_manatsu.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_natsuumi_manatsu"
+                texturefile = "gfx/leaders/MAH/natsuumi_manatsu_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_mah_shiratori_yuriko"
+                texturefile = "gfx/leaders/MAH/shiratori_yuriko.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_shiratori_yuriko"
+                texturefile = "gfx/leaders/MAH/shiratori_yuriko_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_mah_takizawa_asuka"
+                texturefile = "gfx/leaders/MAH/takizawa_asuka.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_takizawa_asuka"
+                texturefile = "gfx/leaders/MAH/takizawa_asuka_idea.dds"
+        }
 }
 
 
