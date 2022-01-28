@@ -2163,7 +2163,7 @@ characters = {
 				wfc_silent_workhorse
 			}
 			ai_will_do = {
-				factor = 2
+				factor = 5
 			}
 		}
 	}

@@ -2519,6 +2519,29 @@ prospect_for_resources = {
 }
 
 wfc_puppets_category = {
+	wfc_create_intelligence_agency_decision = {
+		fire_only_once = yes
+		cost = 100
+		days_remove = 30
+		visible = {
+			has_intelligence_agency = no
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		remove_effect = {
+			create_intelligence_agency = {
+				icon = GFX_intelligence_agency_logo_generic_8
+				name = "Intelligence Agency"
+			}
+		}
+	}
 	wfc_create_puppet_decision = {
 		name = wfc_create_puppet_decision.t
 		available = {
