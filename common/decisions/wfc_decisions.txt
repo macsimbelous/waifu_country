@@ -3,22 +3,23 @@ wfc_world_conquest_category = {
 		#war_with_target_on_complete = yes
 		war_with_target_on_remove = yes
 		available = {
-			#has_war = no
-			FROM = {
-				OR = {
-					is_neighbor_of = ROOT
-					any_neighbor_country = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				FROM = {
+					NOT = {
+						has_government = democratic
 					}
 				}
-				NOT = {
-					OR = {
-						is_in_faction_with = ROOT
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				FROM = {
+					NOT = {
+						has_government = communism
 					}
 				}
 			}
@@ -236,6 +237,17 @@ wfc_world_conquest_category = {
 					}
 				}
 				add = -1
+			}
+			modifier = {
+				original_tag = MMS
+				FROM = {
+					OR = {
+						original_tag = PER
+						original_tag = AFG
+						#original_tag = PAK
+					}
+				}
+				add = 10
 			}
 			# modifier = {
 			# 	FROM = {
@@ -2501,6 +2513,107 @@ prospect_for_resources = {
 					amount = var:res_count
 				}
 				#}
+			}
+		}
+	}
+}
+
+wfc_puppets_category = {
+	wfc_create_puppet_decision = {
+		name = wfc_create_puppet_decision.t
+		available = {
+			#has_war = no
+			has_intelligence_agency = yes
+			ic_ratio = {
+				tag = FROM
+				ratio > 1.5
+			}
+			strength_ratio = {
+				tag = FROM
+				ratio > 1.5
+			}
+			if = {
+				limit = {
+					is_ai = no
+				}
+				FROM = {
+					has_war = no
+					has_opinion = {
+						target = ROOT
+						value > 49
+					}
+				}
+			}
+			else = {
+				FROM = {
+					has_war = no
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+						is_major = yes
+					}
+				}
+			}
+		}
+		#target_array = neighbors
+		target_trigger = {
+			FROM = {
+				exists = yes
+				OR = {
+					any_neighbor_country = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+						is_major = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		cost = 100
+		#cost = mtth:acw_puppet_cost
+		#days_re_enable = 180
+		days_remove = 30
+		modifier = {
+			political_power_gain = -1
+		}
+		remove_effect = {
+			set_autonomy = {
+				target = FROM
+				#autonomy_state = autonomy_federation_subject
+				autonomy_state = autonomy_dominion
+			}
+			add_named_threat = {
+				threat = 5
+				name = wfc_create_puppet_threat
 			}
 		}
 	}

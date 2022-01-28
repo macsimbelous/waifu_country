@@ -151,3 +151,8 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_develop_tungsten_deposits:0 "Разработать месторождения вольфрама в §G[FROM.GetName]§!"
  wfc_develop_tungsten_deposits_tt:0 "В регионе §G[FROM.GetName]§! будут разработаны месторождения вольфрама"
  wfc_develop_deposits_desc:0 "Будет добавлено случайное колтчество ресурсов от 3 до 25."
+
+#wfc_puppets_category
+ wfc_puppets_category:0 "Подчинение слабых стран"
+ wfc_create_puppet_decision.t:0 "Подчинить §Y[From.GetNameDef]§!"
+ wfc_create_puppet_threat:0 "Независимая страна стала марионеткой"
