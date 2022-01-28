@@ -156,6 +156,13 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	wfc_peoples_favorite_minister = {
+		random = no
+		sprite = 13
+		stability_factor = 0.3
+		war_support_factor = -0.15
+		puppet_cost_factor = -0.5
+	}
 	wfc_popular_figurehead = {
 		sprite = 13
 		stability_factor = 0.15
