@@ -171,4 +171,12 @@ spriteTypes = {
                 name = "GFX_idea_meh_yurizaki_mira"
                 texturefile = "gfx/leaders/MEH/yurizaki_mira_idea.dds"
         }
+        spriteType = {
+                name = "GFX_portrait_meh_norimaki_arale"
+                texturefile = "gfx/leaders/MEH/norimaki_arale.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_norimaki_arale"
+                texturefile = "gfx/leaders/MEH/norimaki_arale_idea.dds"
+        }
 }

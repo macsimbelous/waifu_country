@@ -1,0 +1,44 @@
+ACW_historical = {
+	name = "ACW historical plan"
+	desc = "Essentially historical behaviour for ACW"
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_collectivist_ethos
+		wfc_nationalism_focus
+	}
+	research = {
+		infantry_weapons = 50
+		infantry_tech = 15
+		artillery = 8
+		support_tech = 6.5
+	}
+	traits = {
+		captain_of_industry = 5
+		fascist_demagogue = 10
+		princess_of_terror = 5
+		war_industrialist = 5
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1
+		}
+	}
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 111
+	}
+}
+

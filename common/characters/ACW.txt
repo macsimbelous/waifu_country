@@ -241,6 +241,17 @@ characters = {
 				large = "gfx/leaders/ACW/Mamako_Oosuki.dds"
 			}
 		}
+		advisor = {
+			slot = army_chief
+			idea_token = ACW_Mamako_Oosuki
+			cost = 100
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+		}
 		field_marshal = {
 			traits = {
 				wfc_exp_trait
@@ -1013,17 +1024,6 @@ characters = {
 			planning_skill = 5
 			logistics_skill = 5
 		}
-		advisor = {
-			slot = army_chief
-			idea_token = ACW_Yuno_Gasai
-			cost = 50
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				army_chief_offensive_1
-			}
-		}
 	}
 	ACW_Byleth_Eisner = {
 		name = ACW_Byleth_Eisner
@@ -1117,7 +1117,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				organizer
+				skilled_staffer
 			}
 			skill = 5
 			attack_skill = 4

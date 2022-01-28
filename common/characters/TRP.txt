@@ -204,6 +204,40 @@ characters = {
 			}
 		}
 	}
+	TRP_birdy_cephon_altera = {
+		name = TRP_birdy_cephon_altera
+		portraits = {
+			army = {
+				small = GFX_idea_trp_birdy_cephon_altera
+				large = "gfx/leaders/TRP/Birdy_Cephon_Altera.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				commando
+				offensive_doctrine
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief 
+			idea_token = TRP_birdy_cephon_altera
+			cost = 50
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+		}
+	}
 	#general
 	TRP_oboro_tsukimigusa = {
 		name = TRP_oboro_tsukimigusa
@@ -456,37 +490,6 @@ characters = {
 			}
 		}
 	}
-	TRP_birdy_cephon_altera = {
-		name = TRP_birdy_cephon_altera
-		portraits = {
-			army = {
-				small = GFX_idea_trp_birdy_cephon_altera
-				large = "gfx/leaders/TRP/Birdy_Cephon_Altera.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait commando
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
-		advisor = {
-			slot = army_chief 
-			idea_token = TRP_birdy_cephon_altera
-			cost = 50
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				army_chief_offensive_1
-			}
-		}
-	}
 	TRP_souji_mitsuka = {
 		name = TRP_souji_mitsuka
 		portraits = {
@@ -702,7 +705,7 @@ characters = {
 		}
 	}
 	TRP_hacka_doll_no_3 = {
-		name = TTRP_hacka_doll_no_3
+		name = TRP_hacka_doll_no_3
 		portraits = {
 			army = {
 				small = GFX_idea_trp_hacka_doll_no_3

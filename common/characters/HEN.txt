@@ -163,6 +163,20 @@ characters = {
 				large = "gfx/leaders/HEN/Olga_Discordia.dds"
 			}
 		}
+		advisor = {
+			slot = army_chief
+			idea_token = HEN_Olga_Discordia
+			cost = 50
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		field_marshal = {
 			traits = {
 				wfc_exp_trait
@@ -605,6 +619,7 @@ characters = {
 				wfc_exp_trait
 				organizer
 				logistics_skill
+				skilled_staffer
 			}
 		}
 	}
@@ -614,20 +629,6 @@ characters = {
 			army = {
 				small = "gfx/leaders/HEN/claudia_le_van_tyne_idea.dds"
 				large = "gfx/leaders/HEN/Claudia_le_Van_Tyne.dds"
-			}
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = HEN_Claudia_le_Van_Tyne
-			cost = 50
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				army_chief_offensive_1
-			}
-			ai_will_do = {
-				factor = 1
 			}
 		}
 		corps_commander = {

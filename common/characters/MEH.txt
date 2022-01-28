@@ -876,6 +876,26 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MEH_norimaki_arale = {
+		name = MEH_norimaki_arale
+		portraits = {
+			army = {
+				small = GFX_idea_meh_norimaki_arale
+				large = GFX_portrait_meh_norimaki_arale
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	#admirals
 	MEH_Ashigara_ARP = {
 		name = MEH_Ashigara_ARP
