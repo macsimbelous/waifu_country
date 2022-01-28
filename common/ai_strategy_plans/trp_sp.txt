@@ -1,8 +1,8 @@
-ACW_historical = {
-	name = "ACW historical plan"
-	desc = "Essentially historical behaviour for ACW"
+TRP_historical = {
+	name = "TRP historical plan"
+	desc = "Essentially historical behaviour for TRP"
 	allowed = {
-		original_tag = ACW
+		original_tag = TRP
 	}
 	enable = {
 		is_historical_focus_on = yes

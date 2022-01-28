@@ -1,8 +1,8 @@
-ACW_historical = {
-	name = "ACW historical plan"
-	desc = "Essentially historical behaviour for ACW"
+MAH_historical = {
+	name = "MAH historical plan"
+	desc = "Essentially historical behaviour for MAH"
 	allowed = {
-		original_tag = ACW
+		original_tag = MAH
 	}
 	enable = {
 		is_historical_focus_on = yes

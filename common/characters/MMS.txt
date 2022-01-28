@@ -240,7 +240,7 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = MMS_ripine
+			idea_token = MMS_ishtar
 			cost = 100
 			allowed = {
 				original_tag = MMS
@@ -538,41 +538,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 5
-			legacy_id = -1
-		}
-	}
-	MMS_tiamat = {
-		name = MMS_tiamat
-		portraits = {
-			army = {
-				small = GFX_idea_mms_tiamat
-				large = "gfx/leaders/MMS/Tiamat.dds"
-			}
-		}
-		advisor = {
-			slot = theorist
-			idea_token = MMS_tiamat
-			ledger = army
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				mass_assault_expert
-			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				skilled_staffer
-				infantry_leader
-				#expert_delegator
-			}
-			skill = 9
-			attack_skill = 9
-			defense_skill = 9
-			planning_skill = 9
-			logistics_skill = 9
 			legacy_id = -1
 		}
 	}
