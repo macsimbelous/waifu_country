@@ -756,7 +756,7 @@ trp_south_american_federation = {
 			# ROOT = {
 			# 	is_neighbor_of = ECU
 			# }
-			VEN = {
+			ECU = {
 				OR = {
 					is_neighbor_of = ROOT
 					any_neighbor_country = {
@@ -863,7 +863,7 @@ trp_south_american_federation = {
 			}
 		}
 		available = {
-			VEN = {
+			BOL = {
 				NOT = {
 					is_in_faction_with = ROOT
 				}
@@ -912,7 +912,7 @@ trp_south_american_federation = {
 			}
 		}
 		available = {
-			VEN = {
+			BRA = {
 				NOT = {
 					is_in_faction_with = ROOT
 				}
@@ -964,7 +964,7 @@ trp_south_american_federation = {
 			# ROOT = {
 			# 	is_neighbor_of = CHL
 			# }
-			VEN = {
+			CHL = {
 				OR = {
 					is_neighbor_of = ROOT
 					any_neighbor_country = {
@@ -1025,7 +1025,7 @@ trp_south_american_federation = {
 			# ROOT = {
 			# 	is_neighbor_of = ARG
 			# }
-			VEN = {
+			ARG = {
 				OR = {
 					is_neighbor_of = ROOT
 					any_neighbor_country = {
@@ -1086,7 +1086,7 @@ trp_south_american_federation = {
 			# ROOT = {
 			# 	is_neighbor_of = PAR
 			# }
-			VEN = {
+			PAR = {
 				OR = {
 					is_neighbor_of = ROOT
 					any_neighbor_country = {
@@ -1147,7 +1147,7 @@ trp_south_american_federation = {
 			# ROOT = {
 			# 	is_neighbor_of = URG
 			# }
-			VEN = {
+			URG = {
 				OR = {
 					is_neighbor_of = ROOT
 					any_neighbor_country = {
@@ -1209,7 +1209,7 @@ trp_south_american_federation = {
 			# ROOT = {
 			# 	is_neighbor_of = PAN
 			# }
-			VEN = {
+			PAN = {
 				OR = {
 					is_neighbor_of = ROOT
 					any_neighbor_country = {
@@ -1319,8 +1319,17 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				VEN = {
-					is_puppet_of = ROOT
+				OR = {
+					# VEN
+					custom_trigger_tooltip = {
+						tooltip = trp_form_country_ven_required_states_tt
+						controls_state = 488
+						controls_state = 307
+						controls_state = 489
+					}
+					VEN = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1374,8 +1383,17 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				COL = {
-					is_puppet_of = ROOT
+				OR = {
+					# COL
+					custom_trigger_tooltip = {
+						tooltip = trp_form_country_col_required_states_tt
+						controls_state = 493
+						controls_state = 306
+						controls_state = 486
+					}
+					COL = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1426,8 +1444,14 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				ECU = {
-					is_puppet_of = ROOT
+				OR = {
+					AND = {
+						controls_state = 305
+						controls_state = 649
+					}
+					ECU = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1482,8 +1506,19 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				PRU = {
-					is_puppet_of = ROOT
+				OR = {
+					# PRU
+					custom_trigger_tooltip = {
+						tooltip = trp_form_country_pru_required_states_tt
+						controls_state = 490
+						controls_state = 491
+						controls_state = 303
+						controls_state = 492
+						controls_state = 494
+					}
+					PRU = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1538,8 +1573,16 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				BOL = {
-					is_puppet_of = ROOT
+				OR = {
+					# BOL
+					custom_trigger_tooltip = {
+						tooltip = trp_form_country_bol_required_states_tt
+						controls_state = 302
+						controls_state = 487
+					}
+					BOL = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1599,8 +1642,24 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				BRA = {
-					is_puppet_of = ROOT
+				OR = {
+					# BRA
+					custom_trigger_tooltip = {
+						tooltip = trp_form_country_bra_required_states_tt
+						controls_state = 496
+						controls_state = 497
+						controls_state = 498
+						controls_state = 499
+						controls_state = 500
+						controls_state = 501
+						controls_state = 502
+						controls_state = 503
+						controls_state = 504
+						controls_state = 505
+					}
+					BRA = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1661,8 +1720,17 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				CHL = {
-					is_puppet_of = ROOT
+				OR = {
+					# CHL
+					custom_trigger_tooltip = {
+						tooltip = trp_form_country_chl_required_states_tt
+						controls_state = 506
+						controls_state = 279
+						controls_state = 507
+					}
+					CHL = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1719,8 +1787,20 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				ARG = {
-					is_puppet_of = ROOT
+				OR = {
+					# ARG
+					custom_trigger_tooltip = {
+						tooltip = trp_form_country_arg_required_states_tt
+						controls_state = 278
+						controls_state = 508
+						controls_state = 509
+						controls_state = 510
+						controls_state = 511
+						controls_state = 512
+					}
+					ARG = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1776,8 +1856,16 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				PAR = {
-					is_puppet_of = ROOT
+				OR = {
+					# PAR
+					custom_trigger_tooltip = {
+						tooltip = trp_form_country_par_required_states_tt
+						controls_state = 301
+						controls_state = 688
+					}
+					PAR = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}
@@ -1824,8 +1912,11 @@ trp_south_american_federation = {
 				limit = {
 					is_ai = no
 				}
-				URG = {
-					is_puppet_of = ROOT
+				OR = {
+					controls_state = 300
+					URG = {
+						is_puppet_of = ROOT
+					}
 				}
 			}
 		}

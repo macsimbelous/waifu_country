@@ -932,18 +932,38 @@ mah_crystal_empire_category = {
 					controls_state = 291
 				}
 				IRQ = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 2
+			if = {
+				limit = {
+					is_ai = no
+				}
+				OR = {
+					# Iraq
+					custom_trigger_tooltip = {
+						tooltip = form_country_iraq_required_states_tt
+						controls_state = 676
+						controls_state = 675
+						controls_state = 291
+					}
+					IRQ = {
+						is_puppet_of = ROOT
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 3
 			political_power_gain = -0.5
 		}
 		remove_effect = {
@@ -1004,18 +1024,56 @@ mah_crystal_empire_category = {
 					controls_state = 800
 				}
 				TUR = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 9
+			num_of_civilian_factories_available_for_projects > 20
+			if = {
+				limit = {
+					is_ai = no
+				}
+				OR = {
+					# Turkey
+					custom_trigger_tooltip = {
+						tooltip = form_country_turkey_required_states_tt
+						controls_state = 797
+						controls_state = 341
+						controls_state = 340
+						controls_state = 339
+						controls_state = 342
+						controls_state = 343
+						controls_state = 347
+						controls_state = 49
+						controls_state = 798
+						controls_state = 346
+						controls_state = 345
+						controls_state = 356
+						controls_state = 348
+						controls_state = 344
+						controls_state = 355
+						controls_state = 349
+						controls_state = 350
+						controls_state = 354
+						controls_state = 353
+						controls_state = 352
+						controls_state = 800
+					}
+					TUR = {
+						is_puppet_of = ROOT
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
 		}
 		modifier = {
-			civilian_factory_use = 10
+			civilian_factory_use = 21
 			political_power_gain = -1
 		}
 		remove_effect = {
@@ -1137,18 +1195,38 @@ mah_crystal_empire_category = {
 					controls_state = 678
 				}
 				SAU = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 2
+			if = {
+				limit = {
+					is_ai = no
+				}
+				OR = {
+					# Saudi Arabia
+					custom_trigger_tooltip = {
+						tooltip = form_country_saudi_required_states_tt
+						controls_state = 292
+						controls_state = 679
+						controls_state = 678
+					}
+					SAU = {
+						is_puppet_of = ROOT
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 3
 			political_power_gain = -0.5
 		}
 		remove_effect = {
@@ -1187,24 +1265,50 @@ mah_crystal_empire_category = {
 					controls_state = 659
 				}
 				YEM = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 			OR = {
 				controls_state = 294
 				OMA = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 2
+			if = {
+				limit = {
+					is_ai = no
+				}
+				OR = {
+					AND = {
+						controls_state = 293
+						controls_state = 659
+					}
+					YEM = {
+						is_puppet_of = ROOT
+					}
+				}
+				OR = {
+					controls_state = 294
+					OMA = {
+						is_puppet_of = ROOT
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 3
 			political_power_gain = -0.5
 		}
 		remove_effect = {
@@ -1240,30 +1344,62 @@ mah_crystal_empire_category = {
 			OR = {
 				controls_state = 656
 				KUW = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 			OR = {
 				controls_state = 765
 				QAT = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 			OR = {
 				controls_state = 658
 				UAE = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 2
+			if = {
+				limit = {
+					is_ai = no
+				}
+				OR = {
+					controls_state = 656
+					KUW = {
+						is_puppet_of = ROOT
+					}
+				}
+				OR = {
+					controls_state = 765
+					QAT = {
+						is_puppet_of = ROOT
+					}
+				}
+				OR = {
+					controls_state = 658
+					UAE = {
+						is_puppet_of = ROOT
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 3
 			political_power_gain = -0.5
 		}
 		remove_effect = {
@@ -1328,18 +1464,41 @@ mah_crystal_empire_category = {
 					controls_state = 453
 				}
 				EGY = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 6
+			num_of_civilian_factories_available_for_projects > 5
+			if = {
+				limit = {
+					is_ai = no
+				}
+				OR = {
+					# Egypt
+					custom_trigger_tooltip = {
+						tooltip = mah_form_crystal_empire_egypt_required_states_tt
+						controls_state = 452
+						controls_state = 447
+						controls_state = 446
+						controls_state = 456
+						controls_state = 457
+						controls_state = 453
+					}
+					EGY = {
+						is_puppet_of = ROOT
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
 		}
 		modifier = {
-			civilian_factory_use = 7
+			civilian_factory_use = 6
 			political_power_gain = -0.75
 		}
 		remove_effect = {
