@@ -357,6 +357,14 @@ mah_crystal_empire_category = {
 		war_with_on_remove = TUR
 		visible = {
 			country_exists = TUR
+			TUR = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -377,6 +385,7 @@ mah_crystal_empire_category = {
 				controls_state = 679
 				controls_state = 678
 			}
+			NOT = { is_in_faction_with = TUR }
 		}
 		ai_will_do = {
 			factor = 2
@@ -404,12 +413,21 @@ mah_crystal_empire_category = {
 		war_with_on_remove = IRQ
 		visible = {
 			country_exists = IRQ
+			IRQ = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = mah_substantiate_claims_tt
 				has_country_flag = mah_substantiate_claims_flag
 			}
+			NOT = { is_in_faction_with = IRQ }
 		}
 		ai_will_do = {
 			factor = 2
@@ -437,19 +455,36 @@ mah_crystal_empire_category = {
 		war_with_on_remove = SAU
 		visible = {
 			country_exists = SAU
+			SAU = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = mah_substantiate_claims_tt
 				has_country_flag = mah_substantiate_claims_flag
 			}
-			# Iraq
-			custom_trigger_tooltip = {
-				tooltip = form_country_iraq_required_states_tt
-				controls_state = 676
-				controls_state = 675
-				controls_state = 291
+			OR = {
+				# Iraq
+				custom_trigger_tooltip = {
+					tooltip = form_country_iraq_required_states_tt
+					controls_state = 676
+					controls_state = 675
+					controls_state = 291
+				}
+				IRQ = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
 			}
+			NOT = { is_in_faction_with = SAU }
 		}
 		ai_will_do = {
 			factor = 2
@@ -477,19 +512,36 @@ mah_crystal_empire_category = {
 		war_with_on_remove = OMA
 		visible = {
 			country_exists = OMA
+			OMA = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = mah_substantiate_claims_tt
 				has_country_flag = mah_substantiate_claims_flag
 			}
-			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				controls_state = 292
-				controls_state = 679
-				controls_state = 678
+			OR = {
+				# Saudi Arabia
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
+				}
+				SAU = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
 			}
+			NOT = { is_in_faction_with = OMA }
 		}
 		ai_will_do = {
 			factor = 3
@@ -518,19 +570,36 @@ mah_crystal_empire_category = {
 		war_with_on_remove = YEM
 		visible = {
 			country_exists = YEM
+			YEM = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = mah_substantiate_claims_tt
 				has_country_flag = mah_substantiate_claims_flag
 			}
-			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				controls_state = 292
-				controls_state = 679
-				controls_state = 678
+			OR = {
+				# Saudi Arabia
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
+				}
+				SAU = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
 			}
+			NOT = { is_in_faction_with = YEM }
 		}
 		ai_will_do = {
 			factor = 3
@@ -562,19 +631,35 @@ mah_crystal_empire_category = {
 			has_equipment = {
 				infantry_equipment > 99999
 			}
-			# Iraq
-			custom_trigger_tooltip = {
-				tooltip = form_country_iraq_required_states_tt
-				controls_state = 676
-				controls_state = 675
-				controls_state = 291
+			OR = {
+				# Iraq
+				custom_trigger_tooltip = {
+					tooltip = form_country_iraq_required_states_tt
+					controls_state = 676
+					controls_state = 675
+					controls_state = 291
+				}
+				IRQ = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
 			}
-			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				controls_state = 292
-				controls_state = 679
-				controls_state = 678
+			OR = {
+				# Saudi Arabia
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
+				}
+				SAU = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
 			}
 			ENG = {
 				controls_state = 656
@@ -606,6 +691,14 @@ mah_crystal_empire_category = {
 		war_with_on_remove = KUW
 		visible = {
 			country_exists = KUW
+			KUW = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -613,21 +706,38 @@ mah_crystal_empire_category = {
 				has_country_flag = mah_substantiate_claims_flag
 			}
 			OR = {
-				# Iraq
-				custom_trigger_tooltip = {
-					tooltip = form_country_iraq_required_states_tt
-					controls_state = 676
-					controls_state = 675
-					controls_state = 291
+				OR = {
+					# Iraq
+					custom_trigger_tooltip = {
+						tooltip = form_country_iraq_required_states_tt
+						controls_state = 676
+						controls_state = 675
+						controls_state = 291
+					}
+					IRQ = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
 				}
-				# Saudi Arabia
-				custom_trigger_tooltip = {
-					tooltip = form_country_saudi_required_states_tt
-					controls_state = 292
-					controls_state = 679
-					controls_state = 678
+				OR = {
+					# Saudi Arabia
+					custom_trigger_tooltip = {
+						tooltip = form_country_saudi_required_states_tt
+						controls_state = 292
+						controls_state = 679
+						controls_state = 678
+					}
+					SAU = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
 				}
 			}
+			NOT = { is_in_faction_with = KUW }
 		}
 		ai_will_do = {
 			factor = 2
@@ -655,19 +765,36 @@ mah_crystal_empire_category = {
 		war_with_on_remove = QAT
 		visible = {
 			country_exists = QAT
+			QAT = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = mah_substantiate_claims_tt
 				has_country_flag = mah_substantiate_claims_flag
 			}
-			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				controls_state = 292
-				controls_state = 679
-				controls_state = 678
+			OR = {
+				# Saudi Arabia
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
+				}
+				SAU = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
 			}
+			NOT = { is_in_faction_with = QAT }
 		}
 		ai_will_do = {
 			factor = 2
@@ -695,19 +822,36 @@ mah_crystal_empire_category = {
 		war_with_on_remove = UAE
 		visible = {
 			country_exists = UAE
+			UAE = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = mah_substantiate_claims_tt
 				has_country_flag = mah_substantiate_claims_flag
 			}
-			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				controls_state = 292
-				controls_state = 679
-				controls_state = 678
+			OR = {
+				# Saudi Arabia
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
+				}
+				SAU = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
 			}
+			NOT = { is_in_faction_with = UAE }
 		}
 		ai_will_do = {
 			factor = 2
@@ -735,6 +879,14 @@ mah_crystal_empire_category = {
 		war_with_on_remove = EGY
 		visible = {
 			country_exists = EGY
+			EGY = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -745,6 +897,7 @@ mah_crystal_empire_category = {
 			has_equipment = {
 				infantry_equipment > 24999
 			}
+			NOT = { is_in_faction_with = EGY }
 		}
 		ai_will_do = {
 			factor = 2
