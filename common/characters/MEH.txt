@@ -896,6 +896,27 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	MEH_violet_evergarden = {
+		name = MEH_violet_evergarden
+		portraits = {
+			army = {
+				small = GFX_idea_meh_violet_evergarden
+				large = GFX_portrait_meh_violet_evergarden
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+				commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	#admirals
 	MEH_Ashigara_ARP = {
 		name = MEH_Ashigara_ARP

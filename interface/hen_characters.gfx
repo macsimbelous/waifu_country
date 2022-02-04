@@ -151,4 +151,20 @@ spriteTypes = {
                 name = "GFX_portrait_hen_frey_ringitt"
                 texturefile = "gfx/leaders/HEN/frey_ringitt.dds"
         }
+        spriteType = {
+                name = "GFX_idea_hen_lilia_eberwein"
+                texturefile = "gfx/leaders/HEN/lilia_eberwein_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_hen_lilia_eberwein"
+                texturefile = "gfx/leaders/HEN/lilia_eberwein.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_hen_catue_dragundaala"
+                texturefile = "gfx/leaders/HEN/catue_dragundaala_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_hen_catue_dragundaala"
+                texturefile = "gfx/leaders/HEN/catue_dragundaala.dds"
+        }
 }

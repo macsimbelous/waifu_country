@@ -838,6 +838,46 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	HEN_lilia_eberwein = {
+		name = HEN_lilia_eberwein
+		portraits = {
+			army = {
+				small = GFX_idea_hen_lilia_eberwein
+				large = GFX_portrait_hen_lilia_eberwein
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	HEN_catue_dragundaala = {
+		name = HEN_catue_dragundaala
+		portraits = {
+			army = {
+				small = GFX_idea_hen_catue_dragundaala
+				large = GFX_portrait_hen_catue_dragundaala
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				jungle_rat
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	#admerals
 	HEN_Kaname = {
 		name = HEN_Kaname

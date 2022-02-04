@@ -179,4 +179,12 @@ spriteTypes = {
                 name = "GFX_idea_meh_norimaki_arale"
                 texturefile = "gfx/leaders/MEH/norimaki_arale_idea.dds"
         }
+        spriteType = {
+                name = "GFX_portrait_meh_violet_evergarden"
+                texturefile = "gfx/leaders/MEH/violet_evergarden.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_violet_evergarden"
+                texturefile = "gfx/leaders/MEH/violet_evergarden_idea.dds"
+        }
 }
