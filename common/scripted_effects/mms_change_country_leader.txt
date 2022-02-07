@@ -64,14 +64,14 @@ mms_change_country_leader = {
 			10 = {
 				create_country_leader = {
 					name = "Sofia Nire"
-					picture = "gfx/leaders/MMS/generic/Rhea.dds"
+					picture = "gfx/leaders/MMS/generic/MMS_land_07.dds"
 					ideology = fascism_ideology
 				}
 			}
 			10 = {
 				create_country_leader = {
 					name = "Alice Saigo"
-					picture = "gfx/leaders/MMS/generic/Rias_gremory.dds"
+					picture = "gfx/leaders/MMS/generic/MMS_land_08.dds"
 					ideology = fascism_ideology
 				}
 			}
@@ -141,14 +141,14 @@ mms_change_country_leader = {
 			10 = {
 				create_country_leader = {
 					name = "Sofia Nire"
-					picture = "gfx/leaders/MMS/generic/Rhea.dds"
+					picture = "gfx/leaders/MMS/generic/MMS_land_07.dds"
 					ideology = stalinism
 				}
 			}
 			10 = {
 				create_country_leader = {
 					name = "Alice Saigo"
-					picture = "gfx/leaders/MMS/generic/Rias_gremory.dds"
+					picture = "gfx/leaders/MMS/generic/MMS_land_08.dds"
 					ideology = stalinism
 				}
 			}
@@ -218,14 +218,14 @@ mms_change_country_leader = {
 			10 = {
 				create_country_leader = {
 					name = "Sofia Nire"
-					picture = "gfx/leaders/MMS/generic/Rhea.dds"
+					picture = "gfx/leaders/MMS/generic/MMS_land_07.dds"
 					ideology = liberalism
 				}
 			}
 			10 = {
 				create_country_leader = {
 					name = "Alice Saigo"
-					picture = "gfx/leaders/MMS/generic/Rias_gremory.dds"
+					picture = "gfx/leaders/MMS/generic/MMS_land_08.dds"
 					ideology = liberalism
 				}
 			}
@@ -292,14 +292,14 @@ mms_change_country_leader = {
 			10 = {
 				create_country_leader = {
 					name = "Sofia Nire"
-					picture = "gfx/leaders/MMS/generic/Rhea.dds"
+					picture = "gfx/leaders/MMS/generic/MMS_land_07.dds"
 					ideology = despotism
 				}
 			}
 			10 = {
 				create_country_leader = {
 					name = "Alice Saigo"
-					picture = "gfx/leaders/MMS/generic/Rias_gremory.dds"
+					picture = "gfx/leaders/MMS/generic/MMS_land_08.dds"
 					ideology = despotism
 				}
 			}
