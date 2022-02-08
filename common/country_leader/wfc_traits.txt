@@ -332,4 +332,8 @@ leader_traits = {
 		monthly_population = 0.25
 		experience_loss_factor = -0.25
 	}
+	wfc_governor-general = {
+		random = no
+		autonomy_gain = -0.25
+	}
 }

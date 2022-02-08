@@ -903,6 +903,15 @@ wfc_subjects_category = {
 			}
 		}
 		visible = {
+			FROM = {
+				NOT = {
+					is_capital = yes
+				}
+				OWNER = {
+					is_puppet_of = ROOT
+					has_autonomy_state = autonomy_federation_subject
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 0

@@ -1,309 +1,133 @@
 mah_change_country_leader = {
 	#Лидеры марионеток
-	if = {
-		limit = {
-			has_government = fascism
-		}
-		random_list = {
-			10 = {
-				create_country_leader = {
-					name = "Olga Araki"
-					picture = "gfx/leaders/MAH/generic/MAH_land_01.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Mary Lazarev"
-					picture = "gfx/leaders/MAH/generic/MAH_land_02.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Victoria Wagner"
-					picture = "gfx/leaders/MAH/generic/MAH_land_03.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Maki Kuroki"
-					picture = "gfx/leaders/MAH/generic/MAH_land_04.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Hanako Nakamuta"
-					picture = "gfx/leaders/MAH/generic/MAH_land_05.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Asuka Ivanov"
-					picture = "gfx/leaders/MAH/generic/MAH_land_06.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Ludmila Hasegawa"
-					picture = "gfx/leaders/MAH/generic/MAH_land_07.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Svetlana Kataoka"
-					picture = "gfx/leaders/MAH/generic/MAH_land_08.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Sofia Nire"
-					picture = "gfx/leaders/MAH/generic/MAH_land_09.dds"
-					ideology = fascism_ideology
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Alice Saigo"
-					picture = "gfx/leaders/MAH/generic/MAH_naval_01.dds"
-					ideology = fascism_ideology
-				}
+	retire_country_leader = yes
+	random_list = {
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_01.dds"
 			}
 		}
-	}
-	else_if = {
-		limit = {
-			has_government = communism
-		}
-		random_list = {
-			10 = {
-				create_country_leader = {
-					name = "Olga Araki"
-					picture = "gfx/leaders/MAH/generic/MAH_land_01.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Mary Lazarev"
-					picture = "gfx/leaders/MAH/generic/MAH_land_02.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Victoria Wagner"
-					picture = "gfx/leaders/MAH/generic/MAH_land_03.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Maki Kuroki"
-					picture = "gfx/leaders/MAH/generic/MAH_land_04.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Hanako Nakamuta"
-					picture = "gfx/leaders/MAH/generic/MAH_land_05.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Asuka Ivanov"
-					picture = "gfx/leaders/MAH/generic/MAH_land_06.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Ludmila Hasegawa"
-					picture = "gfx/leaders/MAH/generic/MAH_land_07.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Svetlana Kataoka"
-					picture = "gfx/leaders/MAH/generic/MAH_land_08.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Sofia Nire"
-					picture = "gfx/leaders/MAH/generic/MAH_land_09.dds"
-					ideology = stalinism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Alice Saigo"
-					picture = "gfx/leaders/MAH/generic/MAH_naval_01.dds"
-					ideology = stalinism
-				}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_02.dds"
 			}
 		}
-	}
-	else_if = {
-		limit = {
-			has_government = democratic
-		}
-		random_list = {
-			10 = {
-				create_country_leader = {
-					name = "Olga Araki"
-					picture = "gfx/leaders/MAH/generic/MAH_land_01.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Mary Lazarev"
-					picture = "gfx/leaders/MAH/generic/MAH_land_02.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Victoria Wagner"
-					picture = "gfx/leaders/MAH/generic/MAH_land_03.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Maki Kuroki"
-					picture = "gfx/leaders/MAH/generic/MAH_land_04.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Hanako Nakamuta"
-					picture = "gfx/leaders/MAH/generic/MAH_land_05.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Asuka Ivanov"
-					picture = "gfx/leaders/MAH/generic/MAH_land_06.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Ludmila Hasegawa"
-					picture = "gfx/leaders/MAH/generic/MAH_land_07.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Svetlana Kataoka"
-					picture = "gfx/leaders/MAH/generic/MAH_land_08.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Sofia Nire"
-					picture = "gfx/leaders/MAH/generic/MAH_land_09.dds"
-					ideology = liberalism
-				}
-			}
-			10 = {
-				create_country_leader = {
-					name = "Alice Saigo"
-					picture = "gfx/leaders/MAH/generic/MAH_naval_01.dds"
-					ideology = liberalism
-				}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_03.dds"
 			}
 		}
-	}
-	else = {
-		random_list = {
-			10 = {
-				create_country_leader = {
-					name = "Olga Araki"
-					picture = "gfx/leaders/MAH/generic/MAH_land_01.dds"
-					ideology = despotism
-				}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_04.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Mary Lazarev"
-					picture = "gfx/leaders/MAH/generic/MAH_land_02.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_05.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Victoria Wagner"
-					picture = "gfx/leaders/MAH/generic/MAH_land_03.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_06.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Maki Kuroki"
-					picture = "gfx/leaders/MAH/generic/MAH_land_04.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_07.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Hanako Nakamuta"
-					picture = "gfx/leaders/MAH/generic/MAH_land_05.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_08.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Asuka Ivanov"
-					picture = "gfx/leaders/MAH/generic/MAH_land_06.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_land_09.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Ludmila Hasegawa"
-					picture = "gfx/leaders/MAH/generic/MAH_land_07.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_01.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Svetlana Kataoka"
-					picture = "gfx/leaders/MAH/generic/MAH_land_08.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_02.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Sofia Nire"
-					picture = "gfx/leaders/MAH/generic/MAH_land_09.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_03.dds"
 			}
-			10 = {
-				create_country_leader = {
-					name = "Alice Saigo"
-					picture = "gfx/leaders/MAH/generic/MAH_naval_01.dds"
-					ideology = despotism
-				}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_04.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_05.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_06.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_07.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_08.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_09.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_10.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_naval_11.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_operative_01.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_operative_02.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_operative_03.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_operative_04.dds"
+			}
+		}
+		4 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MAH/generic/MAH_operative_05.dds"
 			}
 		}
 	}
 	add_country_leader_trait = wfc_anime_tyan
+	add_country_leader_trait = wfc_governor-general
 }

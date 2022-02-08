@@ -1,837 +1,236 @@
 acw_change_country_leader = {
 	#Лидеры марионеток
+	retire_country_leader = yes
 	if = {
 		limit = {
 			original_tag = SOV
 		}
 		if = {
 			limit = {
-				has_government = communism
+				has_government = neutrality
 			}
-			create_country_leader = {
-				name = "Alisa Illinichina Amiella"
-				desc = "Alisa_Illinichina_Amiella_DESC"
-				picture = "Alisa_Illinichina_Amiella.dds"
-				expire = "1965.1.1"
-				ideology = stalinism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = fascism
-			}
-			create_country_leader = {
-				name = "Alisa Illinichina Amiella"
-				desc = "Alisa_Illinichina_Amiella_DESC"
-				picture = "Alisa_Illinichina_Amiella.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			create_country_leader = {
-				name = "Alisa Illinichina Amiella"
-				desc = "Alisa_Illinichina_Amiella_DESC"
-				picture = "Alisa_Illinichina_Amiella.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else = {
-			retire_country_leader = yes
 			set_country_leader_name = {
 				name = ACW_anastasia_romanova
 			}
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/ACW/anastasia_romanova.dds"
 			}
-			add_country_leader_trait = wfc_anime_tyan
-			add_country_leader_trait = wfc_peoples_favorite
+		}
+		else = {
+			set_country_leader_name = {
+				name = ACW_alisa_illinichina_amiella
+			}
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/SOV/Alisa_Illinichina_Amiella.dds"
+			}
 		}
 	}
 	else_if = {
 		limit = {
 			original_tag = GER
 		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			create_country_leader = {
-				name = "Prinz Eugen"
-				desc = "Prinz_Eugen_DESC"
-				picture = "Prinz_Eugen.dds"
-				expire = "1965.1.1"
-				ideology = stalinism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_name = {
+			name = ACW_prinz_eugen
 		}
-		else_if = {
-			limit = {
-				has_government = fascism
-			}
-			create_country_leader = {
-				name = "Prinz Eugen"
-				desc = "Prinz_Eugen_DESC"
-				picture = "Prinz_Eugen.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			create_country_leader = {
-				name = "Prinz Eugen"
-				desc = "Prinz_Eugen_DESC"
-				picture = "Prinz_Eugen.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else = {
-			create_country_leader = {
-				name = "Prinz Eugen"
-				desc = "Prinz_Eugen_DESC"
-				picture = "Prinz_Eugen.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_portrait = {
+			portrait = "gfx/leaders/GER/Prinz_Eugen.dds"
 		}
 	}
 	else_if = {
 		limit = {
 			original_tag = FRA
 		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			create_country_leader = {
-				name = "Charlotte Dunois"
-				desc = "Charlotte_Dunois_DESC"
-				picture = "Charlotte_Dunois.dds"
-				expire = "1965.1.1"
-				ideology = stalinism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_name = {
+			name = ACW_charlotte_dunois
 		}
-		else_if = {
-			limit = {
-				has_government = fascism
-			}
-			create_country_leader = {
-				name = "Charlotte Dunois"
-				desc = "Charlotte_Dunois_DESC"
-				picture = "Charlotte_Dunois.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			create_country_leader = {
-				name = "Charlotte Dunois"
-				desc = "Charlotte_Dunois_DESC"
-				picture = "Charlotte_Dunois.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else = {
-			create_country_leader = {
-				name = "Charlotte Dunois"
-				desc = "Charlotte_Dunois_DESC"
-				picture = "Charlotte_Dunois.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_portrait = {
+			portrait = "gfx/leaders/FRA/Charlotte_Dunois.dds"
 		}
 	}
 	else_if = {
 		limit = {
 			original_tag = USA
 		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			create_country_leader = {
-				name = "Kei"
-				desc = "Kei_DESC"
-				picture = "Kei.dds"
-				expire = "1965.1.1"
-				ideology = stalinism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_name = {
+			name = ACW_kei
 		}
-		else_if = {
-			limit = {
-				has_government = fascism
-			}
-			create_country_leader = {
-				name = "Kei"
-				desc = "Kei_DESC"
-				picture = "Kei.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			create_country_leader = {
-				name = "Kei"
-				desc = "Kei_DESC"
-				picture = "Kei.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else = {
-			create_country_leader = {
-				name = "Kei"
-				desc = "Kei_DESC"
-				picture = "Kei.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_portrait = {
+			portrait = "gfx/leaders/USA/Kei.dds"
 		}
 	}
 	else_if = {
 		limit = {
 			original_tag = JAP
 		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			create_country_leader = {
-				name = "Miki Hoshii"
-				desc = "Miki_Hoshii_DESC"
-				picture = "Miki_Hoshii.dds"
-				expire = "1965.1.1"
-				ideology = stalinism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_name = {
+			name = ACW_miki_hoshii
 		}
-		else_if = {
-			limit = {
-				has_government = fascism
-			}
-			create_country_leader = {
-				name = "Miki Hoshii"
-				desc = "Miki_Hoshii_DESC"
-				picture = "Miki_Hoshii.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			create_country_leader = {
-				name = "Miki Hoshii"
-				desc = "Miki_Hoshii_DESC"
-				picture = "Miki_Hoshii.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else = {
-			create_country_leader = {
-				name = "Miki Hoshii"
-				desc = "Miki_Hoshii_DESC"
-				picture = "Miki_Hoshii.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_portrait = {
+			portrait = "gfx/leaders/JAP/Miki_Hoshii.dds"
 		}
 	}
 	else_if = {
 		limit = {
 			original_tag = ITA
 		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			create_country_leader = {
-				name = "Erica Blandelli"
-				desc = "Erica_Blandelli_DESC"
-				picture = "Erica_Blandelli.dds"
-				expire = "1965.1.1"
-				ideology = stalinism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_name = {
+			name = ACW_erica_blandelli
 		}
-		else_if = {
-			limit = {
-				has_government = fascism
-			}
-			create_country_leader = {
-				name = "Erica Blandelli"
-				desc = "Erica_Blandelli_DESC"
-				picture = "Erica_Blandelli.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			create_country_leader = {
-				name = "Erica Blandelli"
-				desc = "Erica_Blandelli_DESC"
-				picture = "Erica_Blandelli.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else = {
-			create_country_leader = {
-				name = "Erica Blandelli"
-				desc = "Erica_Blandelli_DESC"
-				picture = "Erica_Blandelli.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_portrait = {
+			portrait = "gfx/leaders/ITA/Erica_Blandelli.dds"
 		}
 	}
 	else_if = {
 		limit = {
 			original_tag = ENG
 		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			create_country_leader = {
-				name = "Satellizer el Bridget"
-				desc = "Satellizer_el_Bridget_DESC"
-				picture = "Satellizer_el_Bridget.dds"
-				expire = "1965.1.1"
-				ideology = stalinism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_name = {
+			name = ACW_satellizer_el_bridget
 		}
-		else_if = {
-			limit = {
-				has_government = fascism
-			}
-			create_country_leader = {
-				name = "Satellizer el Bridget"
-				desc = "Satellizer_el_Bridget_DESC"
-				picture = "Satellizer_el_Bridget.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			create_country_leader = {
-				name = "Satellizer el Bridget"
-				desc = "Satellizer_el_Bridget_DESC"
-				picture = "Satellizer_el_Bridget.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else = {
-			create_country_leader = {
-				name = "Satellizer el Bridget"
-				desc = "Satellizer_el_Bridget_DESC"
-				picture = "Satellizer_el_Bridget.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_portrait = {
+			portrait = "gfx/leaders/ENG/Satellizer_el_Bridget.dds"
 		}
 	}
 	else_if = {
 		limit = {
 			original_tag = POL
 		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			create_country_leader = {
-				name = "Irina Jelavic"
-				desc = "Irina_Jelavic_DESC"
-				picture = "Irina_Jelavic.dds"
-				expire = "1965.1.1"
-				ideology = stalinism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_name = {
+			name = ACW_irina_jelavic
 		}
-		else_if = {
-			limit = {
-				has_government = fascism
-			}
-			create_country_leader = {
-				name = "Irina Jelavic"
-				desc = "Irina_Jelavic_DESC"
-				picture = "Irina_Jelavic.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			create_country_leader = {
-				name = "Irina Jelavic"
-				desc = "Irina_Jelavic_DESC"
-				picture = "Irina_Jelavic.dds"
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
-		}
-		else = {
-			create_country_leader = {
-				name = "Irina Jelavic"
-				desc = "Irina_Jelavic_DESC"
-				picture = "Irina_Jelavic.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					wfc_dictator
-					wfc_patron_of_the_military_industrial_complex
-				}
-			}
+		set_country_leader_portrait = {
+			portrait = "gfx/leaders/POL/Irina_Jelavic.dds"
 		}
 	}
 	else = {
-		if = {
-			limit = {
-				has_government = fascism
-			}
-			random_list = {
-				10 = {
-					create_country_leader = {
-						name = "Olga Araki"
-						picture = "gfx/leaders/ACW/generic/ACW_land_01.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Mary Lazarev"
-						picture = "gfx/leaders/ACW/generic/ACW_land_02.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Victoria Wagner"
-						picture = "gfx/leaders/ACW/generic/ACW_land_03.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Maki Kuroki"
-						picture = "gfx/leaders/ACW/generic/ACW_land_04.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Hanako Nakamuta"
-						picture = "gfx/leaders/ACW/generic/ACW_land_05.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Asuka Ivanov"
-						picture = "gfx/leaders/ACW/generic/ACW_land_06.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Ludmila Hasegawa"
-						picture = "gfx/leaders/ACW/generic/ACW_land_07.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Svetlana Kataoka"
-						picture = "gfx/leaders/ACW/generic/ACW_land_08.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Sofia Nire"
-						picture = "gfx/leaders/ACW/generic/ACW_land_09.dds"
-						ideology = fascism_ideology
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Alice Saigo"
-						picture = "gfx/leaders/ACW/generic/ACW_land_10.dds"
-						ideology = fascism_ideology
-					}
+		random_list = {
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_01.dds"
 				}
 			}
-		}
-		else_if = {
-			limit = {
-				has_government = communism
-			}
-			random_list = {
-				10 = {
-					create_country_leader = {
-						name = "Olga Araki"
-						picture = "gfx/leaders/ACW/generic/ACW_land_01.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Mary Lazarev"
-						picture = "gfx/leaders/ACW/generic/ACW_land_02.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Victoria Wagner"
-						picture = "gfx/leaders/ACW/generic/ACW_land_03.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Maki Kuroki"
-						picture = "gfx/leaders/ACW/generic/ACW_land_04.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Hanako Nakamuta"
-						picture = "gfx/leaders/ACW/generic/ACW_land_05.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Asuka Ivanov"
-						picture = "gfx/leaders/ACW/generic/ACW_land_06.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Ludmila Hasegawa"
-						picture = "gfx/leaders/ACW/generic/ACW_land_07.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Svetlana Kataoka"
-						picture = "gfx/leaders/ACW/generic/ACW_land_08.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Sofia Nire"
-						picture = "gfx/leaders/ACW/generic/ACW_land_09.dds"
-						ideology = stalinism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Alice Saigo"
-						picture = "gfx/leaders/ACW/generic/ACW_land_10.dds"
-						ideology = stalinism
-					}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_02.dds"
 				}
 			}
-		}
-		else_if = {
-			limit = {
-				has_government = democratic
-			}
-			random_list = {
-				10 = {
-					create_country_leader = {
-						name = "Olga Araki"
-						picture = "gfx/leaders/ACW/generic/ACW_land_01.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Mary Lazarev"
-						picture = "gfx/leaders/ACW/generic/ACW_land_02.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Victoria Wagner"
-						picture = "gfx/leaders/ACW/generic/ACW_land_03.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Maki Kuroki"
-						picture = "gfx/leaders/ACW/generic/ACW_land_04.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Hanako Nakamuta"
-						picture = "gfx/leaders/ACW/generic/ACW_land_05.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Asuka Ivanov"
-						picture = "gfx/leaders/ACW/generic/ACW_land_06.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Ludmila Hasegawa"
-						picture = "gfx/leaders/ACW/generic/ACW_land_07.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Svetlana Kataoka"
-						picture = "gfx/leaders/ACW/generic/ACW_land_08.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Sofia Nire"
-						picture = "gfx/leaders/ACW/generic/ACW_land_09.dds"
-						ideology = liberalism
-					}
-				}
-				10 = {
-					create_country_leader = {
-						name = "Alice Saigo"
-						picture = "gfx/leaders/ACW/generic/ACW_land_10.dds"
-						ideology = liberalism
-					}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_03.dds"
 				}
 			}
-		}
-		else = {
-			random_list = {
-				10 = {
-					create_country_leader = {
-						name = "Olga Araki"
-						picture = "gfx/leaders/ACW/generic/ACW_land_01.dds"
-						ideology = despotism
-					}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_04.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Mary Lazarev"
-						picture = "gfx/leaders/ACW/generic/ACW_land_02.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_05.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Victoria Wagner"
-						picture = "gfx/leaders/ACW/generic/ACW_land_03.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_06.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Maki Kuroki"
-						picture = "gfx/leaders/ACW/generic/ACW_land_04.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_07.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Hanako Nakamuta"
-						picture = "gfx/leaders/ACW/generic/ACW_land_05.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_08.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Asuka Ivanov"
-						picture = "gfx/leaders/ACW/generic/ACW_land_06.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_09.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Ludmila Hasegawa"
-						picture = "gfx/leaders/ACW/generic/ACW_land_07.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_10.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Svetlana Kataoka"
-						picture = "gfx/leaders/ACW/generic/ACW_land_08.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_11.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Sofia Nire"
-						picture = "gfx/leaders/ACW/generic/ACW_land_09.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_12.dds"
 				}
-				10 = {
-					create_country_leader = {
-						name = "Alice Saigo"
-						picture = "gfx/leaders/ACW/generic/ACW_land_10.dds"
-						ideology = despotism
-					}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_13.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_14.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_15.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_16.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_17.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_18.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_19.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_20.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_21.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_22.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_23.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_24.dds"
+				}
+			}
+			4 = {
+				set_country_leader_portrait = {
+					portrait = "gfx/leaders/ACW/generic/ACW_land_25.dds"
 				}
 			}
 		}
 	}
 	add_country_leader_trait = wfc_anime_tyan
+	add_country_leader_trait = wfc_governor-general
 }
