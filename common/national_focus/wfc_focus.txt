@@ -2012,9 +2012,17 @@ focus_tree = {
 			focus = wfc_internationalism_focus
 		}
 		available = {
-			OR = {
+			if = {
+				limit = {
+					is_puppet = yes
+				}
 				has_government = fascism
-				has_government = neutrality
+			}
+			else = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
 			}
 		}
 		x = -2
@@ -2050,9 +2058,17 @@ focus_tree = {
 			focus = wfc_nationalism_focus
 		}
 		available = {
-			OR = {
+			if = {
+				limit = {
+					is_puppet = yes
+				}
 				has_government = communism
-				has_government = neutrality
+			}
+			else = {
+				OR = {
+					has_government = communism
+					has_government = neutrality
+				}
 			}
 		}
 		x = 0
@@ -2219,9 +2235,17 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
-			OR = {
+			if = {
+				limit = {
+					is_puppet = yes
+				}
 				has_government = democratic
-				has_government = neutrality
+			}
+			else = {
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
 			}
 		}
 		ai_will_do = {
