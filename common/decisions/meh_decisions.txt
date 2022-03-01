@@ -101,7 +101,14 @@ meh_modernization_category = {
 		cost = 100
 		days_remove = 60
 		ai_will_do = {
-			factor = 10
+			base = 1
+			modifier = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+				add = 10
+			}
 		}
 		complete_effect = {
 			set_country_flag = meh_warmaind_selected_flag
@@ -111,6 +118,7 @@ meh_modernization_category = {
 				remove_idea = meh_warmind
 				add_idea = meh_warmind_agr
 			}
+			set_country_flag = mah_warmind_complete_flag
 		}
 	}
 	meh_upgrade_warmind_def = {
@@ -131,7 +139,14 @@ meh_modernization_category = {
 		cost = 100
 		days_remove = 60
 		ai_will_do = {
-			factor = 10
+			base = 1
+			modifier = {
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+				add = 10
+			}
 		}
 		complete_effect = {
 			set_country_flag = meh_warmaind_selected_flag
@@ -141,6 +156,7 @@ meh_modernization_category = {
 				remove_idea = meh_warmind
 				add_idea = meh_warmind_def
 			}
+			set_country_flag = mah_warmind_complete_flag
 		}
 	}
 	meh_upgrade_ai = {

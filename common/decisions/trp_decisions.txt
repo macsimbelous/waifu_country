@@ -662,7 +662,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -711,7 +715,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -772,7 +780,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -821,7 +833,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -870,7 +886,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -919,7 +939,7 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 3
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -980,7 +1000,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1041,7 +1065,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1102,7 +1130,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1163,7 +1195,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1225,7 +1261,11 @@ trp_south_american_federation = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				has_war = yes
+				add = -1
+			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2

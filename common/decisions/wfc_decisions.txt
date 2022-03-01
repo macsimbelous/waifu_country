@@ -249,6 +249,15 @@ wfc_world_conquest_category = {
 				}
 				add = 10
 			}
+			modifier = {
+				original_tag = MAH
+				FROM = {
+					OR = {
+						original_tag = USA
+					}
+				}
+				add = 10
+			}
 			# modifier = {
 			# 	FROM = {
 			# 		OVERLORD = {

@@ -44,6 +44,9 @@ autonomy_state = {
 			}
 		}
 	}
+	use_for_peace_conference_weight = {
+		factor = 100
+	}
 	can_take_level = {
 		always = no
 	}
