@@ -118,7 +118,7 @@ meh_modernization_category = {
 				remove_idea = meh_warmind
 				add_idea = meh_warmind_agr
 			}
-			set_country_flag = mah_warmind_complete_flag
+			set_country_flag = meh_warmind_complete_flag
 		}
 	}
 	meh_upgrade_warmind_def = {
@@ -156,7 +156,7 @@ meh_modernization_category = {
 				remove_idea = meh_warmind
 				add_idea = meh_warmind_def
 			}
-			set_country_flag = mah_warmind_complete_flag
+			set_country_flag = meh_warmind_complete_flag
 		}
 	}
 	meh_upgrade_ai = {

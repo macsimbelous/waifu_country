@@ -18,7 +18,9 @@ state={
 		add_core_of = MAH
 
 	}
-
+	resources = {
+		steel = 12
+	}
 	provinces={
 		1056 1072 1088 7140 7671 10087 12473 
 	}

@@ -250,7 +250,7 @@ wfc_world_conquest_category = {
 				add = 10
 			}
 			modifier = {
-				original_tag = MAH
+				original_tag = MEH
 				FROM = {
 					OR = {
 						original_tag = USA

@@ -48,9 +48,9 @@ wfc_world_conquest_category = {
 		}
 		if = {
 			limit = {
-				original_tag = MAH
+				original_tag = MEH
 			}
-			has_country_flag = mah_warmind_complete_flag
+			has_country_flag = meh_warmind_complete_flag
 		}
 		# if = {
 		# 	limit = {

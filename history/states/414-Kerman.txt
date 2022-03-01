@@ -5,7 +5,9 @@ state={
 	manpower = 4860130
 	
 	state_category = large_city
-
+	resources = {
+		steel = 12
+	}
 	history={
 		owner = MMS
 		buildings = {
