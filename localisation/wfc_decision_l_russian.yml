@@ -61,6 +61,7 @@ wfl_faction_decision_4.t:0 "Помощь §Y[FROM.GetNameDef]§!"
 # wfl_create_puppet_decision_tt_green:0 "Инвестиций в §Y[FROM.GetName]§! §G[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
 
 #gacha
+wfl_gacha_category:0 "Гача"
 wfl_gacha_decision.t:0 "Испытать удачу"
 
 #wfc_integration_category
