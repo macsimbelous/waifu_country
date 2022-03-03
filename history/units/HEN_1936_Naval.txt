@@ -51,8 +51,16 @@ instant_effect = {
 			creator = "HEN" 
 			version_name = "Hentai Class"
 		}
+		requested_factories = 2
+		progress = 0.90
+		#amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "HEN" 
+		}
 		requested_factories = 1
 		progress = 0.90
-		amount = 1
 	}
 }

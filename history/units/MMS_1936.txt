@@ -115,26 +115,6 @@ division_template = {
 			x = 1
 			y = 3
 		}
-		infantry = {
-			x = 0
-			y = 4
-		}
-		infantry = {
-			x = 1
-			y = 4
-		}
-		artillery_brigade = {
-			x = 2
-			y = 0
-		}
-		artillery_brigade = {
-			x = 2
-			y = 1
-		}
-		anti_air_brigade = {
-			x = 2
-			y = 2
-		}
 	}
 	support = {
 		artillery = {
@@ -419,5 +399,72 @@ units = {
 		division_template = "MonMusu Light Tank"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1
+	}
+}
+###starting production###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MMS"
+		}
+		requested_factories = 3
+		progress = 0.87
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MMS"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "MMS"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "MMS"
+		}
+		requested_factories = 1
+		progress = 0.34
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_2
+			creator = "MMS"
+			version_name = "MonMusu-1"
+		}
+		requested_factories = 1
+		progress = 0.7
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "MMS"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = "MMS"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
 	}
 }

@@ -115,26 +115,6 @@ division_template = {
 			x = 1
 			y = 3
 		}
-		infantry = {
-			x = 0
-			y = 4
-		}
-		infantry = {
-			x = 1
-			y = 4
-		}
-		artillery_brigade = {
-			x = 2
-			y = 0
-		}
-		artillery_brigade = {
-			x = 2
-			y = 1
-		}
-		anti_air_brigade = {
-			x = 2
-			y = 2
-		}
 	}
 	support = {
 		artillery = {
@@ -547,5 +527,32 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.4
 		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "HEN"
+		}
+		requested_factories = 1
+		progress = 0.34
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "HEN"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = "HEN"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
 	}
 }

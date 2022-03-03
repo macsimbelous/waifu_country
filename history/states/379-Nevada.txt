@@ -17,6 +17,11 @@ state={
 		owner = MEH
 		buildings = {
 			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 6
+			7827 = {
+				supply_node = 1
+			}
 		}
 		add_core_of = MEH
 	}

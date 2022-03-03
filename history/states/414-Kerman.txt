@@ -12,8 +12,11 @@ state={
 		owner = MMS
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 3
+			industrial_complex = 4
 			arms_factory = 4
+			7990 = {
+				supply_node = 1
+			}
 		}
 		victory_points = {
 			10913 1 

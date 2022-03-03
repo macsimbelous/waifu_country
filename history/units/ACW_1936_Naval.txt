@@ -48,6 +48,14 @@ instant_effect = {
 		}
 		requested_factories = 2
 		progress = 0.90
-		amount = 32
+		#amount = 32
+	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "ACW" 
+		}
+		requested_factories = 1
+		progress = 0.90
 	}
 }
