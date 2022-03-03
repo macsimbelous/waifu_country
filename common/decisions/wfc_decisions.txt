@@ -895,7 +895,7 @@ wfc_subjects_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 	}
 	wfc_buy_out_state = {

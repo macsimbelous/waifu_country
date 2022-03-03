@@ -1110,6 +1110,13 @@ characters = {
 					has_government = fascism
 				}
 			}
+			ai_will_do = {
+				base = 0
+				modifier = {
+					has_government = democratic
+					add = 5
+				}
+			}
 			traits = {
 				wfc_peoples_favorite_minister
 			}

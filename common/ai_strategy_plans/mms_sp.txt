@@ -12,8 +12,8 @@ MMS_historical = {
 	}
 	ai_national_focuses = {
 		wfc_political_effort
-		wfc_collectivist_ethos
-		wfc_nationalism_focus
+		wfc_liberty_ethos
+		wfc_neutrality_focus
 	}
 	research = {
 		infantry_weapons = 50
@@ -24,7 +24,6 @@ MMS_historical = {
 	traits = {
 		wfc_silent_workhorse = 20
 		wfc_captain_of_industry = 5
-		fascist_demagogue = 10
 		princess_of_terror = 10
 		war_industrialist = 10
 	}

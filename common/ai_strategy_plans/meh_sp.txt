@@ -12,8 +12,8 @@ MEH_historical = {
 	}
 	ai_national_focuses = {
 		wfc_political_effort
-		wfc_liberty_ethos
-		wfc_neutrality_focus
+		wfc_collectivist_ethos
+		wfc_nationalism_focus
 	}
 	research = {
 		infantry_weapons = 50
@@ -25,6 +25,7 @@ MEH_historical = {
 		wfc_silent_workhorse = 20
 		wfc_captain_of_industry = 5
 		wfc_intelligence_princess = 5
+		fascist_demagogue =  10
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)
 	# Recommended around 1.0. Useful for relation between plans
