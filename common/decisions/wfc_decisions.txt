@@ -698,7 +698,8 @@ wfc_subjects_category = {
 			FROM = {
 				set_country_flag = wfc_change_focus_tree_flag
 				load_focus_tree = {
-					tree = wfc_focus
+					#tree = wfc_focus
+					tree = generic_focus
 					keep_completed = no
 				}
 			}
@@ -888,7 +889,8 @@ wfc_subjects_category = {
 				hidden_effect = {
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
-						tree = wfc_focus
+						#tree = wfc_focus
+						tree = generic_focus
 						keep_completed = no
 					}
 				}
