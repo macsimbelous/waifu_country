@@ -1285,14 +1285,14 @@ wfc_subjects_category = {
 		complete_effect = {
 			FROM = {
 				add_ideas = wfc_acw_assistance
-				if = {
-					limit = {
-						NOT = {
-							has_idea = wfc_acw_puppet
-						}
-					}
-					add_ideas = wfc_acw_puppet
-				}
+				# if = {
+				# 	limit = {
+				# 		NOT = {
+				# 			has_idea = wfc_acw_puppet
+				# 		}
+				# 	}
+				# 	add_ideas = wfc_acw_puppet
+				# }
 			}
 		}
 	}

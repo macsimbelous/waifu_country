@@ -900,6 +900,41 @@ wfc_subjects_category = {
 			factor = 100
 		}
 	}
+	wfc_puppets_economic_assistance = {
+		name = acw_puppets_economic_assistance
+		# visible = {
+		# 	FROM = {
+		# 		is_puppet_of = ACW
+		# 	}
+		# }
+		ai_will_do = {
+			factor = 200
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				NOT = {
+					has_idea = wfc_economic_assistance
+				}
+			}
+		}
+		fire_only_once = no
+		cost = 100
+		#days_re_enable = 45
+		complete_effect = {
+			FROM = {
+				add_ideas = wfc_economic_assistance
+				# if = {
+				# 	limit = {
+				# 		NOT = {
+				# 			has_idea = wfc_acw_puppet
+				# 		}
+				# 	}
+				# 	add_ideas = wfc_acw_puppet
+				# }
+			}
+		}
+	}
 	wfc_buy_out_state = {
 		icon = GFX_decision_eng_trade_unions_support
 		available = {

@@ -101,6 +101,28 @@ ideas = {
 				autonomy_gain = -0.5
 			}
 		}
+		wfc_economic_assistance = {
+			picture = wfc_acw_assistance
+			removal_cost = -1
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				OR = {
+					is_puppet = yes
+					is_subject = yes
+				}
+			}
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.15
+				#waifuism_drift = 0.1
+				opinion_gain_monthly_same_ideology_factor = 0.2
+				autonomy_gain = -0.5
+			}
+		}
 		wfc_acw_puppet = {
 			available = {
 				OR = {
