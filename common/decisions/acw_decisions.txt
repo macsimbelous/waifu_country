@@ -1261,7 +1261,8 @@ acw_overseas_puppets_category = {
 wfc_subjects_category = {
 	acw_puppets_economic_assistance = {
 		allowed = {
-			original_tag = ACW
+			#original_tag = ACW
+			always = no
 		}
 		# visible = {
 		# 	FROM = {

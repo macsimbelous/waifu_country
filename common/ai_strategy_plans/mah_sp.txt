@@ -11,9 +11,9 @@ MAH_historical = {
 		always = no
 	}
 	ai_national_focuses = {
-		wfc_political_effort
-		wfc_liberty_ethos
-		wfc_interventionism_focus
+		political_effort
+		liberty_ethos
+		interventionism_focus
 	}
 	research = {
 		infantry_weapons = 50

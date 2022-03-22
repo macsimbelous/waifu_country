@@ -31,6 +31,10 @@ characters = {
 			}
 			ai_will_do = {
 				factor = 0
+				modifier = {
+					is_historical_focus_on = yes
+					factor = 100
+				}
 			}
 		}
 		country_leader = {

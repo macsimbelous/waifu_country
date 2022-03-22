@@ -11,9 +11,9 @@ ACW_historical = {
 		always = no
 	}
 	ai_national_focuses = {
-		wfc_political_effort
-		wfc_liberty_ethos
-		wfc_neutrality_focus
+		political_effort
+		liberty_ethos
+		neutrality_focus
 	}
 	research = {
 		infantry_weapons = 50

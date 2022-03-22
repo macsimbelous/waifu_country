@@ -901,7 +901,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_puppets_economic_assistance = {
-		name = acw_puppets_economic_assistance
+		#name = acw_puppets_economic_assistance
 		# visible = {
 		# 	FROM = {
 		# 		is_puppet_of = ACW
