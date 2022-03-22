@@ -702,6 +702,7 @@ wfc_subjects_category = {
 					tree = generic_focus
 					keep_completed = no
 				}
+				add_ideas = wfc_economic_assistance
 			}
 			if = {
 				limit = {
