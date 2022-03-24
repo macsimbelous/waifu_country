@@ -644,6 +644,9 @@ trp_south_american_federation = {
 		days_remove = 60
 		war_with_on_remove = VEN
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = VEN
 			VEN = {
 				NOT = {
@@ -697,6 +700,9 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = COL
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = COL
 			COL = {
 				NOT = {
@@ -750,6 +756,9 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = ECU
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = ECU
 			ECU = {
 				NOT = {
@@ -815,6 +824,9 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = PRU
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = PRU
 			PRU = {
 				NOT = {
@@ -868,6 +880,9 @@ trp_south_american_federation = {
 		days_remove = 60
 		war_with_on_remove = BOL
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = BOL
 			BOL = {
 				NOT = {
@@ -921,6 +936,9 @@ trp_south_american_federation = {
 		days_remove = 60
 		war_with_on_remove = BRA
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = BRA
 			BRA = {
 				NOT = {
@@ -970,6 +988,9 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = CHL
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = CHL
 			CHL = {
 				NOT = {
@@ -1035,6 +1056,9 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = ARG
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = ARG
 			ARG = {
 				NOT = {
@@ -1100,6 +1124,9 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = PAR
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = PAR
 			PAR = {
 				NOT = {
@@ -1165,6 +1192,9 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = URG
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = URG
 			URG = {
 				NOT = {
@@ -1230,6 +1260,9 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = PAN
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			country_exists = PAN
 			has_country_flag = trp_south_american_federation_formed_flag
 			PAN = {
@@ -1337,6 +1370,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				# VEN
 				custom_trigger_tooltip = {
@@ -1401,6 +1437,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				# COL
 				custom_trigger_tooltip = {
@@ -1465,6 +1504,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				AND = {
 					controls_state = 305
@@ -1522,6 +1564,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				# PRU
 				custom_trigger_tooltip = {
@@ -1592,6 +1637,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				# BOL
 				custom_trigger_tooltip = {
@@ -1653,6 +1701,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				# BRA
 				custom_trigger_tooltip = {
@@ -1738,6 +1789,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				# CHL
 				custom_trigger_tooltip = {
@@ -1802,6 +1856,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				# ARG
 				custom_trigger_tooltip = {
@@ -1875,6 +1932,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				# PAR
 				custom_trigger_tooltip = {
@@ -1936,6 +1996,9 @@ trp_south_american_federation = {
 		fire_only_once = yes
 		days_remove = 60
 		visible = {
+			NOT = {
+				has_country_flag = trp_south_american_federation_formed_flag
+			}
 			OR = {
 				controls_state = 300
 				URG = {
