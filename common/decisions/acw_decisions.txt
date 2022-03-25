@@ -2,7 +2,7 @@ acw_government_category = {
 	acw_create_minprom_decision = {
 		name = acw_create_minprom_decision.t
 		ai_will_do = {
-			factor = 5
+			factor = 100
 		}
 		fire_only_once = yes
 		cost = 100
@@ -31,7 +31,7 @@ acw_government_category = {
 	acw_create_minoboron_decision = {
 		name = acw_create_minoboron_decision.t
 		ai_will_do = {
-			factor = 5
+			factor = 100
 		}
 		fire_only_once = yes
 		cost = 100
@@ -88,7 +88,7 @@ acw_government_category = {
 	acw_create_minscience_decision = {
 		name = acw_create_minscience_decision.t
 		ai_will_do = {
-			factor = 5
+			factor = 100
 		}
 		fire_only_once = yes
 		cost = 100
@@ -116,7 +116,7 @@ acw_government_category = {
 	acw_create_KGB_decision = {
 		name = acw_create_KGB_decision.t
 		ai_will_do = {
-			factor = 5
+			factor = 50
 		}
 		fire_only_once = yes
 		cost = 100
@@ -149,7 +149,7 @@ acw_government_category = {
 	acw_create_mintrans_decision = {
 		name = acw_create_mintrans_decision.t
 		ai_will_do = {
-			factor = 5
+			factor = 50
 		}
 		fire_only_once = yes
 		cost = 100
@@ -176,7 +176,7 @@ acw_government_category = {
 	acw_create_minpropagand_decision = {
 		name = acw_create_minpropagand_decision.t
 		ai_will_do = {
-			factor = 5
+			factor = 50
 		}
 		fire_only_once = yes
 		cost = 100
@@ -204,7 +204,7 @@ acw_government_category = {
 	acw_create_colonial_office_decision = {
 		name = acw_create_colonial_office_decision.t
 		ai_will_do = {
-			factor = 5
+			factor = 100
 		}
 		fire_only_once = yes
 		cost = 100
