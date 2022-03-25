@@ -1260,9 +1260,6 @@ trp_south_american_federation = {
 		days_remove = 30
 		war_with_on_remove = PAN
 		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
 			country_exists = PAN
 			has_country_flag = trp_south_american_federation_formed_flag
 			PAN = {
