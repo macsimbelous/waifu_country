@@ -1330,6 +1330,16 @@ mah_crystal_empire_category = {
 				add_core_of = ROOT
 				remove_core_of = YEM
 			}
+			if = {
+				limit = {
+					OMA = {
+						is_puppet_of = ROOT
+					}
+				}
+				annex_country = {
+					target = OMA
+				}
+			}
 			294 = {
 				add_core_of = ROOT
 				remove_core_of = OMA
