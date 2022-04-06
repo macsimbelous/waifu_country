@@ -100,7 +100,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				production_speed_buildings_factor = 0.2
-				consumer_goods_factor = -0.1
+				#consumer_goods_factor = -0.1
 			}
 		}
 		meh_improved_layout = {
@@ -145,6 +145,7 @@ ideas = {
 				political_power_factor = 0.1
 				research_speed_factor = 0.1
 				stability_factor = 0.2
+				consumer_goods_factor = -0.05
 			}
 		}
 		meh_ai_2 = {
@@ -160,6 +161,7 @@ ideas = {
 				political_power_factor = 0.3
 				research_speed_factor = 0.2
 				stability_factor = 0.3
+				consumer_goods_factor = -0.1
 			}
 		}
 		meh_warmind = {

@@ -40,10 +40,5 @@ MEH_historical = {
 			factor = 1
 		}
 	}
-	ai_strategy = {
-		type = template_prio
-		id = medium_armor
-		value = 111
-	}
 }
 

@@ -21,7 +21,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		x = 8
 		y = 0
-		cost = 1
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -330,7 +330,45 @@ focus_tree = {
 			factor = 5
 		}
 	}
-
+	focus = {
+		id = meh_construct_naval_dockyard
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = {
+			focus = meh_upgrade_robo_factory
+		}
+		relative_position_id = meh_upgrade_robo_factory
+		x = 0
+		y = 1
+		cost = 24
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			controls_state = 386
+			controls_state = 385
+		}
+		completion_reward = {
+			386 = {
+				add_extra_state_shared_building_slots = 10
+				add_building_construction = {
+					type = dockyard
+					level = 10
+					instant_build = yes
+				}
+			}
+			385 = {
+				add_extra_state_shared_building_slots = 10
+				add_building_construction = {
+					type = dockyard
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
 	focus = {
 		id = meh_extra_tech_slot
 		icon = GFX_focus_research
@@ -434,7 +472,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	focus = {
 		id = meh_cooperation_focus
 		icon = GFX_goal_generic_national_unity		#icon = GFX_goal_tripartite_pact
@@ -450,7 +487,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 		}
-		x = 8
+		x = 9
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
@@ -598,30 +635,328 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = meh_militarism
-		icon = GFX_goal_generic_political_pressure
+		id = meh_attack_usa
+		icon = GFX_focus_generic_strike_at_democracy3
 		prerequisite = {
 			focus = meh_exterminatus_focus
 		}
 		x = 0
 		y = 1
 		relative_position_id = meh_exterminatus_focus
-		cost = 10
+		cost = 5
+		will_lead_to_war_with = USA
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available_if_capitulated = yes
+		available = {
+			has_government = fascism
+		}
 		completion_reward = {
-			if = {
-				limit = {
-					has_idea = neutrality_idea
+			USA = {
+				every_owned_state = {
+					add_claim_by = MEH
 				}
-				remove_ideas = neutrality_idea
 			}
-			add_ideas = militarism_focus
-			army_experience = 20
-			set_rule = {
-				can_send_volunteers = yes
+			declare_war_on = {
+				target = USA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = meh_attack_mex
+		icon = GFX_focus_attack_mexico
+		prerequisite = {
+			focus = meh_attack_usa
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_attack_usa
+		cost = 5
+		will_lead_to_war_with = MEX
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			has_war_with = MEX
+		}
+		available = {
+			OR = {
+				NOT = {
+					country_exists = USA
+				}
+				custom_trigger_tooltip = {
+					tooltip = meh_usa_under_control_tt
+					controls_state = 386
+					controls_state = 385
+					controls_state = 387
+					controls_state = 388
+					controls_state = 381
+					controls_state = 380
+					controls_state = 377
+					controls_state = 382
+					controls_state = 376
+					controls_state = 389
+					controls_state = 390
+					controls_state = 384
+					controls_state = 383
+					controls_state = 374
+					controls_state = 391
+					controls_state = 392
+					controls_state = 373
+					controls_state = 372
+					controls_state = 375
+					controls_state = 371
+					controls_state = 394
+					controls_state = 395
+					controls_state = 370
+					controls_state = 393
+					controls_state = 396
+					controls_state = 369
+					controls_state = 368
+					controls_state = 367
+					controls_state = 261
+					controls_state = 816
+					controls_state = 362
+					controls_state = 363
+					controls_state = 364
+					controls_state = 365
+					controls_state = 366
+					controls_state = 358
+					controls_state = 360
+					controls_state = 361
+					controls_state = 359
+					controls_state = 357
+				}
+			}
+		}
+		completion_reward = {
+			MEX = {
+				every_owned_state = {
+					add_claim_by = MEH
+				}
+			}
+			declare_war_on = {
+				target = MEX
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = meh_attack_can
+		icon = GFX_focus_attack_canada
+		prerequisite = {
+			focus = meh_attack_usa
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_attack_usa
+		cost = 5
+		will_lead_to_war_with = CAN
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			has_war_with = CAN
+		}
+		available = {
+			OR = {
+				NOT = {
+					country_exists = USA
+				}
+				custom_trigger_tooltip = {
+					tooltip = meh_usa_under_control_tt
+					controls_state = 386
+					controls_state = 385
+					controls_state = 387
+					controls_state = 388
+					controls_state = 381
+					controls_state = 380
+					controls_state = 377
+					controls_state = 382
+					controls_state = 376
+					controls_state = 389
+					controls_state = 390
+					controls_state = 384
+					controls_state = 383
+					controls_state = 374
+					controls_state = 391
+					controls_state = 392
+					controls_state = 373
+					controls_state = 372
+					controls_state = 375
+					controls_state = 371
+					controls_state = 394
+					controls_state = 395
+					controls_state = 370
+					controls_state = 393
+					controls_state = 396
+					controls_state = 369
+					controls_state = 368
+					controls_state = 367
+					controls_state = 261
+					controls_state = 816
+					controls_state = 362
+					controls_state = 363
+					controls_state = 364
+					controls_state = 365
+					controls_state = 366
+					controls_state = 358
+					controls_state = 360
+					controls_state = 361
+					controls_state = 359
+					controls_state = 357
+				}
+			}
+		}
+		completion_reward = {
+			CAN = {
+				every_owned_state = {
+					add_claim_by = MEH
+				}
+			}
+			declare_war_on = {
+				target = MEX
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = meh_attack_world
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = meh_attack_mex
+		}
+		prerequisite = {
+			focus = meh_attack_can
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_attack_mex
+		cost = 10
+		will_lead_to_war_with = MEX
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			OR = {
+				NOT = {
+					country_exists = USA
+				}
+				custom_trigger_tooltip = {
+					tooltip = meh_usa_under_control_tt
+					controls_state = 386
+					controls_state = 385
+					controls_state = 387
+					controls_state = 388
+					controls_state = 381
+					controls_state = 380
+					controls_state = 377
+					controls_state = 382
+					controls_state = 376
+					controls_state = 389
+					controls_state = 390
+					controls_state = 384
+					controls_state = 383
+					controls_state = 374
+					controls_state = 391
+					controls_state = 392
+					controls_state = 373
+					controls_state = 372
+					controls_state = 375
+					controls_state = 371
+					controls_state = 394
+					controls_state = 395
+					controls_state = 370
+					controls_state = 393
+					controls_state = 396
+					controls_state = 369
+					controls_state = 368
+					controls_state = 367
+					controls_state = 261
+					controls_state = 816
+					controls_state = 362
+					controls_state = 363
+					controls_state = 364
+					controls_state = 365
+					controls_state = 366
+					controls_state = 358
+					controls_state = 360
+					controls_state = 361
+					controls_state = 359
+					controls_state = 357
+				}
+			}
+			OR = {
+				NOT = {
+					country_exists = MEX
+				}
+				custom_trigger_tooltip = {
+					tooltip = meh_mex_under_control_tt
+					controls_state = 484
+					controls_state = 483
+					controls_state = 482
+					controls_state = 481
+					controls_state = 480
+					controls_state = 478
+					controls_state = 479
+					controls_state = 485
+					controls_state = 277
+					controls_state = 477
+					controls_state = 476
+					controls_state = 475
+					controls_state = 474
+				}
+			}
+			OR = {
+				NOT = {
+					country_exists = CAN
+				}
+				custom_trigger_tooltip = {
+					tooltip = meh_can_under_control_tt
+					controls_state = 471
+					controls_state = 473
+					controls_state = 740
+					controls_state = 472
+					controls_state = 470
+					controls_state = 469
+					controls_state = 683
+					controls_state = 467
+					controls_state = 682
+					controls_state = 276
+					controls_state = 466
+					controls_state = 468
+					controls_state = 465
+					controls_state = 464
+				}
+			}
+			# controls_state = 332
+			# controls_state = 463
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					NOT = {
+						owner = {
+							tag = MEH
+						}
+					}
+				}
+				add_claim_by = MEH
+			}
+			every_other_country = {
+				MEH = {
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
+					}
+				}
 			}
 		}
 	}
@@ -662,7 +997,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = meh_exterminatus_focus
 		}
-		x = 11
+		x = 12
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
@@ -737,42 +1072,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = meh_military_youth
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = {
-			focus = meh_militarism
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_militarism
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = military_youth_focus
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = {
-					has_government = communism
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.2
-				}
-			}
-		}
-	}
-	focus = {
 		id = meh_deterrence
 		icon = GFX_goal_generic_defence
 		prerequisite = {
@@ -807,24 +1106,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = volunteer_corps_focus
-		}
-	}
-	focus = {
-		id = meh_paramilitarism
-		icon = GFX_goal_generic_military_sphere
-		prerequisite = {
-			focus = meh_military_youth
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_military_youth
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = paramilitarism_focus
 		}
 	}
 	focus = {
@@ -946,12 +1227,11 @@ focus_tree = {
 		id = meh_ideological_fanaticism
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = {
-			focus = meh_paramilitarism
 			focus = meh_political_commissars
 		}
-		x = 1
-		y = 2
-		relative_position_id = meh_paramilitarism
+		x = 0
+		y = 1
+		relative_position_id = meh_political_commissars
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

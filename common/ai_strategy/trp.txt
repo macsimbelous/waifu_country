@@ -81,12 +81,12 @@ TRP_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 5
+		value = 10
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = carrier
-		value = 0
+		value = 5
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -96,12 +96,12 @@ TRP_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
-		value = 5
+		value = 10
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
-		value = 100
+		value = 1
 	}
 	ai_strategy = {
 		type = equipment_production_factor
