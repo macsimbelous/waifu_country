@@ -1,6 +1,9 @@
 MEH_unit_production = {
-	enable = {
+	allowed = {
 		original_tag = MEH
+	}
+	enable = {
+		always = yes
 	}
 	abort = {
 		always = no
@@ -80,22 +83,22 @@ MEH_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 10
+		value = 30
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = carrier
-		value = 5
+		value = 20
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = 10
+		value = 30
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
-		value = 10
+		value = 30
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -140,8 +143,10 @@ MEH_unit_production = {
 }
 
 MEH_template_design_1 = {
-	enable = {
+	allowed = {
 		original_tag = MEH
+	}
+	enable = {
 		date < 1940.1.1
 	}
 	abort = {
@@ -190,8 +195,10 @@ MEH_template_design_1 = {
 }
 
 MEH_template_design_2 = {
-	enable = {
+	allowed = {
 		original_tag = MEH
+	}
+	enable = {
 		date > 1940.1.1
 	}
 	ai_strategy = {
@@ -242,8 +249,10 @@ MEH_template_design_2 = {
 }
 
 prio_invasions = {
-	enable = {
+	allowed = {
 		original_tag = MEH
+	}
+	enable = {
 		OR = {
 			has_tech = landing_craft
 			has_tech = mtg_landing_craft
@@ -287,9 +296,11 @@ prio_invasions = {
 }
 
 MEH_naval_role_ratios_historical = {
-	enable = {
-		has_dlc = "Man the Guns"
+	allowed = {
 		original_tag = MEH
+	}
+	enable = {
+		always = yes
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -353,9 +364,11 @@ MEH_naval_role_ratios_historical = {
 }
 
 MEH_naval_role_ratios_anti_submarines = {
+	allowed = {
+		original_tag = MEH
+	}
 	enable = {
 		has_dlc = "Man the Guns"
-		original_tag = MEH
 		anti_submarine_strategy_required_trigger = yes
 	}
 	abort = {

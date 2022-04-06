@@ -10,8 +10,11 @@
 # protect
 # influence
 MMS_unit_production = {
-	enable = {
+	allowed = {
 		original_tag = MMS
+	}
+	enable = {
+		always = yes
 	}
 	abort = {
 		always = no
@@ -81,22 +84,22 @@ MMS_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 10
+		value = 30
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = carrier
-		value = 5
+		value = 20
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = 10
+		value = 30
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
-		value = 10
+		value = 30
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -141,8 +144,10 @@ MMS_unit_production = {
 }
 
 MMS_template_design_1 = {
-	enable = {
+	allowed = {
 		original_tag = MMS
+	}
+	enable = {
 		date < 1940.1.1
 	}
 	abort = {
@@ -191,8 +196,10 @@ MMS_template_design_1 = {
 }
 
 MMS_template_design_2 = {
-	enable = {
+	allowed = {
 		original_tag = MMS
+	}
+	enable = {
 		date > 1940.1.1
 	}
 	ai_strategy = {
@@ -242,8 +249,10 @@ MMS_template_design_2 = {
 	}
 }
 MMS_template_design_3 = {
-	enable = {
+	allowed = {
 		original_tag = MMS
+	}
+	enable = {
 		date > 1944.1.1
 	}
 	ai_strategy = {
@@ -294,8 +303,10 @@ MMS_template_design_3 = {
 }
 
 prio_invasions = {
-	enable = {
+	allowed = {
 		original_tag = MMS
+	}
+	enable = {
 		OR = {
 			has_tech = landing_craft
 			has_tech = mtg_landing_craft
@@ -324,9 +335,11 @@ prio_invasions = {
 }
 
 MMS_naval_role_ratios_historical = {
+	allowed = {
+		original_tag = MMS
+	}
 	enable = {
 		has_dlc = "Man the Guns"
-		original_tag = MMS
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -390,9 +403,11 @@ MMS_naval_role_ratios_historical = {
 }
 
 MMS_naval_role_ratios_anti_submarines = {
+	allowed = {
+		original_tag = MMS
+	}
 	enable = {
 		has_dlc = "Man the Guns"
-		original_tag = MMS
 		anti_submarine_strategy_required_trigger = yes
 	}
 	abort = {
