@@ -1,0 +1,1031 @@
+focus_tree = {
+	id = meh_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEH
+		}
+	}
+	default = no
+	# reset_on_civilwar = no
+	# initial_show_position = {
+	# 	focus = meh_industrial_effort
+	# }
+	continuous_focus_position = {
+		x = 60
+		y = 1000
+	}
+	focus = {
+		id = meh_upgrade_ai
+		icon = GFX_goal_generic_production
+		x = 8
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = meh_ai
+				add_idea = meh_ai_2
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_create_warmind
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = {
+			focus = meh_upgrade_ai
+		}
+		relative_position_id = meh_upgrade_ai
+		x = -6
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = meh_warmind
+			set_country_flag = meh_warmind_flag
+		}
+		ai_will_do = {
+			factor = 3
+		}
+	}
+	focus = {
+		id = meh_upgrade_warmind_def
+		icon = GFX_goal_generic_defence
+		prerequisite = {
+			focus = meh_create_warmind
+		}
+		mutually_exclusive = {
+			focus = meh_upgrade_warmind_agr
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_create_warmind
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			base = 1
+			modifier = {
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+				add = 10
+			}
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = meh_warmind
+				add_idea = meh_warmind_def
+			}
+			set_country_flag = meh_warmind_complete_flag
+		}
+	}
+	focus = {
+		id = meh_upgrade_warmind_agr
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+			focus = meh_create_warmind
+		}
+		mutually_exclusive = {
+			focus = meh_upgrade_warmind_def
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_create_warmind
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			base = 1
+			modifier = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+				add = 10
+			}
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = meh_warmind
+				add_idea = meh_warmind_agr
+			}
+			set_country_flag = meh_warmind_complete_flag
+		}
+	}
+	focus = {
+		id = meh_create_rocketry
+		icon = GFX_focus_rocketry
+		prerequisite = {
+			focus = meh_create_construction_robots
+		}
+		prerequisite = {
+			focus = meh_upgrade_warmind_def
+			focus = meh_upgrade_warmind_agr
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_upgrade_warmind_agr
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			has_tech = experimental_rockets
+			any_owned_state = {
+				free_building_slots = {
+					building = rocket_site
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			custom_effect_tooltip = meh_kosmos_available_tt
+			set_country_flag = meh_create_rocketry_flag
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = rocket_site
+						size > 0
+						include_locked = yes
+					}
+					is_in_home_area = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = rocket_site
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = rocketry
+			}
+		}
+	}
+	focus = {
+		id = meh_create_nuclear_reactor
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = meh_create_rocketry
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_create_rocketry
+		cost = 24
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		available = {
+			has_tech = nuclear_reactor
+			any_owned_state = {
+				free_building_slots = {
+					building = nuclear_reactor
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = nuclear_reactor
+						size > 0
+						include_locked = yes
+					}
+					is_in_home_area = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = nuclear_reactor
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				category = nuclear
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_create_robo_factory
+		icon = GFX_goal_generic_construction
+		prerequisite = {
+			focus = meh_upgrade_ai
+		}
+		relative_position_id = meh_upgrade_ai
+		x = -3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = meh_robo_factory_dm
+			}
+			set_country_flag = meh_robo_factory_flag
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_create_construction_robots
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {
+			focus = meh_create_robo_factory
+		}
+		relative_position_id = meh_create_robo_factory
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = meh_construction_robots
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_improved_layout
+		icon = GFX_focus_spa_the_spanish_miracle
+		prerequisite = {
+			focus = meh_create_construction_robots
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_create_construction_robots
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = meh_improved_layout
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	focus = {
+		id = meh_upgrade_robo_factory
+		icon = GFX_goal_generic_production
+		prerequisite = {
+			focus = meh_improved_layout
+		}
+		relative_position_id = meh_improved_layout
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = meh_upgrade_robo_factory_tt
+			add_to_variable = {
+				meh_robo_factory_production = 5000
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = meh_extra_tech_slot
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = meh_upgrade_ai
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_upgrade_ai
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		available = {
+			num_of_factories > 50
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_nuclear_effort
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = meh_extra_tech_slot
+		}
+		x = -2
+		y = 1
+		relative_position_id = meh_extra_tech_slot
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				category = nuclear
+			}
+		}
+		ai_will_do = {
+			factor = 4
+		}
+	}
+	focus = {
+		id = meh_extra_tech_slot_2
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = meh_extra_tech_slot
+		}
+		available = {
+			num_of_factories > 100
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = meh_extra_tech_slot
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = meh_secret_weapons
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = {
+			focus = meh_extra_tech_slot
+		}
+		x = 2
+		y = 1
+		relative_position_id = meh_extra_tech_slot
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = meh_cooperation_focus
+		icon = GFX_goal_generic_national_unity		#icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = meh_upgrade_ai
+		}
+		mutually_exclusive = {
+			focus = meh_neutrality_focus
+		}
+		mutually_exclusive = {
+			focus = meh_exterminatus_focus
+		}
+		available = {
+			is_puppet = no
+		}
+		x = 8
+		y = 1
+		relative_position_id = meh_upgrade_ai
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 20
+				has_idea = SOV_russian_political_influence
+			}
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.025
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.025
+			}
+		}
+	}
+	focus = {
+		id = meh_exterminatus_focus
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = meh_upgrade_ai
+		}
+		mutually_exclusive = {
+			focus = meh_cooperation_focus
+		}
+		mutually_exclusive = {
+			focus = meh_cooperation_focus
+		}
+		available = {
+			is_puppet = no
+		}
+		x = 5
+		y = 1
+		relative_position_id = meh_upgrade_ai
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_timed_idea = {
+				idea = wfc_nationalism
+				days = 720
+			}
+			set_rule = {
+				can_join_factions = no
+			}
+		}
+	}
+	focus = {
+		id = meh_internationalism_focus
+		icon = GFX_goal_support_communism		#icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = meh_cooperation_focus
+		}
+		mutually_exclusive = {
+			focus = meh_liberty_ethos
+		}
+		available = {
+			if = {
+				limit = {
+					is_puppet = yes
+				}
+				has_government = communism
+			}
+			else = {
+				OR = {
+					has_government = communism
+					has_government = neutrality
+				}
+			}
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_cooperation_focus
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 20
+				has_idea = SOV_russian_political_influence
+			}
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_timed_idea = {
+				idea = wfc_internationalism
+				days = 720
+			}
+		}
+	}
+	focus = {
+		id = meh_liberty_ethos
+		icon = GFX_goal_support_democracy
+		prerequisite = {
+			focus = meh_cooperation_focus
+		}
+		mutually_exclusive = {
+			focus = meh_internationalism_focus
+		}
+		available = {
+			OR = {
+				has_government = democratic
+				has_government = neutrality
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_cooperation_focus
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = liberty_ethos_focus
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = meh_militarism
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+			focus = meh_exterminatus_focus
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_exterminatus_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = neutrality_idea
+				}
+				remove_ideas = neutrality_idea
+			}
+			add_ideas = militarism_focus
+			army_experience = 20
+			set_rule = {
+				can_send_volunteers = yes
+			}
+		}
+	}
+	focus = {
+		id = meh_political_correctness
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = {
+			focus = meh_internationalism_focus
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_internationalism_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = neutrality_idea
+				}
+				remove_ideas = neutrality_idea
+			}
+			add_political_power = 200
+			add_ideas = idea_political_correctness
+		}
+	}
+	focus = {
+		id = meh_neutrality_focus
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+			focus = meh_upgrade_ai
+		}
+		mutually_exclusive = {
+			focus = meh_cooperation_focus
+		}
+		mutually_exclusive = {
+			focus = meh_exterminatus_focus
+		}
+		x = 11
+		y = 1
+		relative_position_id = meh_upgrade_ai
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		available = {
+			has_government = neutrality
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_idea = neutrality_idea
+					}
+				}
+				add_ideas = neutrality_idea
+			}
+			add_political_power = 150
+			add_timed_idea = {
+				idea = wfc_neutrality_influence
+				days = 720
+			}
+		}
+	}
+	focus = {
+		id = meh_interventionism_focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+			focus = meh_liberty_ethos
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_liberty_ethos
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		available = {
+			if = {
+				limit = {
+					is_puppet = yes
+				}
+				has_government = democratic
+			}
+			else = {
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = neutrality_idea
+				}
+				remove_ideas = neutrality_idea
+			}
+			set_rule = {
+				can_send_volunteers = yes
+			}
+			add_political_power = 150
+			add_timed_idea = {
+				idea = meh_democratic_influence
+				days = 720
+			}
+		}
+	}
+	focus = {
+		id = meh_military_youth
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = {
+			focus = meh_militarism
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_militarism
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = military_youth_focus
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+				}
+			}
+		}
+	}
+	focus = {
+		id = meh_deterrence
+		icon = GFX_goal_generic_defence
+		prerequisite = {
+			focus = meh_neutrality_focus
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_neutrality_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = deterrence
+		}
+	}
+	focus = {
+		id = meh_volunteer_corps
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = meh_interventionism_focus
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_interventionism_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = volunteer_corps_focus
+		}
+	}
+	focus = {
+		id = meh_paramilitarism
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = {
+			focus = meh_military_youth
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_military_youth
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = paramilitarism_focus
+		}
+	}
+	focus = {
+		id = meh_indoctrination_focus
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = meh_political_correctness
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_political_correctness
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = indoctrination_focus
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = meh_foreign_expeditions
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = {
+			focus = meh_volunteer_corps
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_volunteer_corps
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = foreign_expeditions_focus
+		}
+	}
+	focus = {
+		id = meh_why_we_fight
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = meh_foreign_expeditions
+			focus = meh_deterrence
+		}
+		available = {
+			OR = {
+				threat > 0.75
+				has_defensive_war = yes
+			}
+		}
+		continue_if_invalid = yes
+		x = 1
+		y = 1
+		relative_position_id = meh_foreign_expeditions
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = why_we_fight_focus
+			custom_effect_tooltip = why_we_fight_effect
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = neutrality_idea
+						}
+					}
+					set_rule = {
+						can_create_factions = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = meh_political_commissars
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = {
+			focus = meh_indoctrination_focus
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_indoctrination_focus
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = political_commissars_focus
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+				}
+			}
+			add_political_power = 200
+		}
+	}
+	focus = {
+		id = meh_ideological_fanaticism
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = {
+			focus = meh_paramilitarism
+			focus = meh_political_commissars
+		}
+		x = 1
+		y = 2
+		relative_position_id = meh_paramilitarism
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = ideological_fanaticism_focus
+			set_rule = {
+				can_create_factions = yes
+			}
+			hidden_effect = {
+				set_rule = {
+					can_use_kamikaze_pilots = yes
+				}
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
+		}
+	}
+	focus = {
+		id = meh_technology_sharing
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = {
+			focus = meh_ideological_fanaticism
+			focus = meh_why_we_fight
+		}
+		available = {
+			has_war = yes
+			is_in_faction = yes
+			OR = {
+				num_of_factories > 50
+				any_other_country = {
+					is_in_faction_with = ROOT
+					num_of_factories > 50
+				}
+			}
+		}
+		x = 2
+		y = 1
+		relative_position_id = meh_ideological_fanaticism
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = {
+					original_research_slots < 3
+				}
+				add_research_slot = 1
+			}
+			if = {
+				limit = {
+					original_research_slots > 2
+				}
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 1
+					uses = 1
+					category = electronics
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1
+					uses = 1
+					category = industry
+				}
+				add_tech_bonus = {
+					name = infantry_artillery_bonus					#@#
+					bonus = 1
+					uses = 1
+					category = infantry_weapons
+					category = artillery
+				}
+			}
+		}
+	}
+}

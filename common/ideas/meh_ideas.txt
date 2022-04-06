@@ -103,6 +103,19 @@ ideas = {
 				consumer_goods_factor = -0.1
 			}
 		}
+		meh_improved_layout = {
+			picture = generic_central_management
+			allowed = {
+				original_tag = MEH
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				global_building_slots_factor = 0.2
+			}
+		}
 		meh_sputnik_v_kosmose = {
 			allowed = {
 				original_tag = MEH

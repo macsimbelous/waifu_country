@@ -11,6 +11,9 @@ meh_kosmos_category = {
 		original_tag = MEH
 	}
 	visible = {
+		has_country_flag = meh_create_rocketry_flag
+	}
+	available = {
 		has_tech = advanced_rocket_engines
 	}
 	priority = 9
