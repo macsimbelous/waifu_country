@@ -83,8 +83,8 @@ set_politics = {
 
 set_popularities = {
 	democratic = 20	##Демократия
-	neutrality = 30	##Нейтралитет
-	communism = 25	##Коммунизм
+	neutrality = 35	##Нейтралитет
+	communism = 20	##Коммунизм
 	fascism = 25	##Фашизм
 }
 
