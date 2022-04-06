@@ -51,6 +51,11 @@ wfc_world_conquest_category = {
 				original_tag = MEH
 			}
 			has_country_flag = meh_warmind_complete_flag
+			OR = {
+				has_government = neutrality
+				has_government = communism
+				has_completed_focus = meh_attack_world
+			}
 		}
 		# if = {
 		# 	limit = {
