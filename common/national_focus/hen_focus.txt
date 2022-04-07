@@ -1333,20 +1333,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = hen_neutrality_focus
 		}
-		available = {
-			if = {
-				limit = {
-					is_puppet = yes
-				}
-				has_government = communism
-			}
-			else = {
-				OR = {
-					has_government = communism
-					has_government = neutrality
-				}
-			}
-		}
 		x = -3
 		y = 1
 		relative_position_id = hen_conquest_of_japan
@@ -1604,12 +1590,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = hen_internationalism_focus
 		}
-		available = {
-			OR = {
-				has_government = democratic
-				has_government = neutrality
-			}
-		}
 		x = 2
 		y = 1
 		relative_position_id = hen_conquest_of_japan
@@ -1675,9 +1655,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
-		available = {
-			has_government = neutrality
-		}
 		ai_will_do = {
 			factor = 5
 		}
