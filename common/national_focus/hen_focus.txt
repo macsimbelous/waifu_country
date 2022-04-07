@@ -1365,7 +1365,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = hen_internationalism_focus
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1409,6 +1409,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			build_railway = {
+				level = 1
 				path = {
 					4725
 					7763
@@ -1422,6 +1423,7 @@ focus_tree = {
 				}
 			}
 			build_railway = {
+				level = 1
 				path = {
 					4797
 					12540
@@ -1434,6 +1436,7 @@ focus_tree = {
 				}
 			}
 			build_railway = {
+				level = 2
 				path = {
 					12189
 					7266
@@ -1509,7 +1512,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_investment_in_soviet_infrastructure
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_RESEARCH
@@ -1557,7 +1560,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_technology_sharing_sov
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_RESEARCH
@@ -1619,7 +1622,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = hen_internationalism_focus
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1633,6 +1636,9 @@ focus_tree = {
 			}
 			add_political_power = 200
 			add_ideas = idea_political_correctness
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 	focus = {
@@ -1764,7 +1770,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_political_correctness
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1772,6 +1778,9 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = indoctrination_focus
 			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 	focus = {
@@ -1842,7 +1851,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_indoctrination_focus
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1855,6 +1864,9 @@ focus_tree = {
 			}
 			add_political_power = 200
 		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
 		id = hen_ideological_fanaticism2
@@ -1865,7 +1877,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_political_commissars
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1882,6 +1894,9 @@ focus_tree = {
 			}
 			custom_effect_tooltip = kamikaze_focus_tooltip
 		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
 		id = hen_seduce_stalin
@@ -1895,7 +1910,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = hen_alliance_with_sov
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
