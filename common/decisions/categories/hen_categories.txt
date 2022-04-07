@@ -3,7 +3,8 @@ hen_japan_conquest = {
 	#icon = spr_the_inevitable_civil_war
 	#picture = GFX_decision_cat_tentakles_decisions
 	allowed = {
-		original_tag = HEN
+		#original_tag = HEN
+		always = no
 	}
 }
 
