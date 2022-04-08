@@ -51,9 +51,9 @@ instant_effect = {
 			creator = "MEH" 
 			version_name = "Iona Class"
 		}
-		requested_factories = 1
+		requested_factories = 5
 		progress = 0.90
-		#amount = 1
+		amount = 999
 	}
 	add_equipment_production = {
 		equipment = {
