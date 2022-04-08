@@ -1,0 +1,27 @@
+state={
+	id=838
+	name="STATE_838"
+	manpower = 324110
+	
+	state_category = wasteland
+
+	history={
+		owner = MEH
+		buildings = {
+			infrastructure = 1
+			#industrial_complex = 1
+			7827 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = MEH
+		victory_points = {
+			7827 1
+		}
+	}
+
+
+	provinces={
+		1862 7756 7827 10591
+	}
+}

@@ -74,3 +74,89 @@ news_event = {
 		name = wfc_news.7.a			
 	}
 }
+#Захваты городов за Мехалэнд
+# The Fall of Washington
+news_event = {
+	id = wfc_news.101
+	title = wfc_news.101.t
+	desc = wfc_news.101.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		361 = { is_controlled_by = MEH }
+		361 = { is_owned_by = USA }
+		MEH = { has_war_with = USA }
+		NOT = { has_global_flag = meh_fall_of_washington }
+	}
+	
+	immediate = {
+		set_global_flag = meh_fall_of_washington
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = MEH
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = MEH }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}
+
+# The Fall of New York
+news_event = {
+	id = wfc_news.102
+	title = wfc_news.102.t
+	desc = wfc_news.102.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		358 = { is_controlled_by = MEH }
+		358 = { is_owned_by = USA }
+		MEH = { has_war_with = USA }
+		NOT = { has_global_flag = meh_fall_of_new_york }
+	}
+	
+	immediate = {
+		set_global_flag = meh_fall_of_new_york
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = MEH
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = MEH }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}

@@ -1937,6 +1937,62 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = hen_invite_prc
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = {
+			focus = hen_seduce_stalin
+		}
+		x = -2
+		y = 1
+		relative_position_id = hen_seduce_stalin
+		cost = 10
+		available = {
+			has_country_flag = hen_world_conquest_enabled_flag
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			SOV = {
+				add_to_faction = PRC
+			}
+		}
+	}
+	focus = {
+		id = hen_transfert_sahalin_and_kuril
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = {
+			focus = hen_seduce_stalin
+		}
+		x = 0
+		y = 1
+		relative_position_id = hen_seduce_stalin
+		cost = 5
+		available = {
+			has_full_control_of_state = 537
+			has_full_control_of_state = 555
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			SOV = {
+				transfer_state = 537
+				transfer_state = 555
+			}
+			537 = {
+				add_core_of = SOV
+				remove_core_of = JAP
+				remove_core_of = HEN
+			}
+			555 = {
+				add_core_of = SOV
+				remove_core_of = JAP
+				remove_core_of = HEN
+			}
+		}
+	}
+	focus = {
 		id = hen_preparation_for_conquest
 		icon = GFX_focus_generic_military_mission
 		prerequisite = {
@@ -2223,6 +2279,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = hen_hen_stockpile_up
 		cost = 1
+		will_lead_to_war_with = JAP
 		available = {
 			NOT = {
 				is_in_faction_with = JAP
@@ -2233,45 +2290,12 @@ focus_tree = {
 		}
 		will_lead_to_war_with = JAP
 		completion_reward = {
+			add_ideas = hen_attack_jap_bonus
 			declare_war_on = {
 				target = JAP
 				type = annex_everything
 			}
 		}
 	}
-	focus = {
-		id = hen_transfert_sahalin_and_kuril
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		prerequisite = {
-			focus = hen_declare_war_jap
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_declare_war_jap
-		cost = 5
-		available = {
-			has_full_control_of_state = 537
-			has_full_control_of_state = 555
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		will_lead_to_war_with = GXC
-		completion_reward = {
-			SOV = {
-				transfer_state = 537
-				transfer_state = 555
-			}
-			537 = {
-				add_core_of = SOV
-				remove_core_of = JAP
-				remove_core_of = HEN
-			}
-			555 = {
-				add_core_of = SOV
-				remove_core_of = JAP
-				remove_core_of = HEN
-			}
-		}
-	}
+
 }

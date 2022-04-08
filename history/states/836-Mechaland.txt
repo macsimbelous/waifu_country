@@ -1,0 +1,31 @@
+state={
+	id=836
+	name="STATE_836"
+	provinces={
+		9671 3678 6699 1601 3677 9637 6694 1432 3840 6861 6876 986 3784 4518 11763 7667 6881 11876 9911
+	}
+	manpower = 3437900
+	
+	state_category = megalopolis
+
+	history= {
+		owner = MEH
+		add_core_of = MEH
+		victory_points = {
+			9671 25
+		}
+		victory_points = {
+			9637 50 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 5
+			dockyard = 2
+			air_base = 10
+			9671 = {
+				naval_base = 4
+			}
+		}
+	}
+}

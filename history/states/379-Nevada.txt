@@ -2,31 +2,32 @@
 state={
 	id=379
 	name="STATE_379"
-	manpower = 5910570
+	manpower = 3610570
 	
-	state_category = metropolis
+	state_category = wasteland
 	
 	resources={
 		steel=70 # was: 136
 		tungsten=32 # was: 62
 		aluminium=25 # was: 44
-		chromium = 8
+		
 	}
 
 	history={
 		owner = MEH
 		buildings = {
-			infrastructure = 3
-			arms_factory = 4
-			industrial_complex = 6
-			7827 = {
-				supply_node = 1
-			}
+			infrastructure = 1
+			#arms_factory = 1
+			#industrial_complex = 6
+
 		}
 		add_core_of = MEH
+		victory_points = {
+			4816 1
+		}
 	}
 
 	provinces={
-		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 
+		4521 4799 4816 7879 12399 12425 
 	}
 }
