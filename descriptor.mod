@@ -1,9 +1,9 @@
-version="26"
+version="27"
 tags={
 	"Alternative History"
 }
 name="Waifu Country"
 replace_path="gfx/loadingscreens"
 replace_path="common/bookmarks"
-supported_version="1.11.9"
+supported_version="1.11.10"
 remote_file_id="2607558655"
