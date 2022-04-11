@@ -583,9 +583,9 @@ ideas = {
 			available = {
 				#has_completed_focus = wfc_main_battle_tank
 				OR = {
-					has_tech = advanced_heavy_tank
-					has_tech = advanced_medium_tank
-					has_tech = advanced_light_tank
+					has_tech = advanced_heavy_tank_chassis
+					has_tech = advanced_medium_tank_chassis
+					has_tech = advanced_light_tank_chassis
 				}
 			}
 			ai_will_do = {
@@ -629,7 +629,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					has_tech = advanced_light_tank
+					has_tech = advanced_light_tank_chassis
 				}
 			}
 			research_bonus = {
@@ -664,7 +664,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					has_tech = advanced_medium_tank
+					has_tech = advanced_medium_tank_chassis
 				}
 			}
 			research_bonus = {
@@ -700,7 +700,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					has_tech = advanced_heavy_tank
+					has_tech = advanced_heavy_tank_chassis
 				}
 			}
 			research_bonus = {
