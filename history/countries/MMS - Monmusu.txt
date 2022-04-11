@@ -228,12 +228,12 @@ create_equipment_variant = {
 # 		instant_build = yes
 # 	}
 # }
-build_railway = {
-	path = { 7982 12863 10913 12809 12852 7990 }
-}
-build_railway = {
-	path = { 7982 2039 13082 10782 }
-}
-build_railway = {
-	path = { 7982 4959 12832 }
-}
+# build_railway = {
+# 	path = { 7982 12863 10913 12809 12852 7990 }
+# }
+# build_railway = {
+# 	path = { 7982 2039 13082 10782 }
+# }
+# build_railway = {
+# 	path = { 7982 4959 12832 }
+# }

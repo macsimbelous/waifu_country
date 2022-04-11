@@ -202,15 +202,15 @@ create_equipment_variant = {
 # 		instant_build = yes
 # 	}
 # }
-build_railway = {
-	path = { 4980 5008 1979 }
-}
-build_railway = {
-	path = { 1979 10934 5214 5083 }
-}
-build_railway = {
-	path = { 1979 12965 10960 }
-}
-build_railway = {
-	path = { 1979 8172 8175 2142 }
-}
+# build_railway = {
+# 	path = { 4980 5008 1979 }
+# }
+# build_railway = {
+# 	path = { 1979 10934 5214 5083 }
+# }
+# build_railway = {
+# 	path = { 1979 12965 10960 }
+# }
+# build_railway = {
+# 	path = { 1979 8172 8175 2142 }
+# }

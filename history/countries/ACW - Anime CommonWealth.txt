@@ -346,6 +346,6 @@ create_equipment_variant = {
 	}
 	icon = "gfx/interface/technologies/improved_light_tank.dds"
 }
-build_railway = {
-	path = { 3707 9683 6743 6727 }
-}
+# build_railway = {
+# 	path = { 3707 9683 6743 6727 }
+# }
