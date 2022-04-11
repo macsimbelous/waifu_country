@@ -10,9 +10,9 @@ state={
 		buildings = {
 			infrastructure = 1
 			#industrial_complex = 1
-			7827 = {
-				supply_node = 1
-			}
+			# 7827 = {
+			# 	supply_node = 1
+			# }
 		}
 		add_core_of = MEH
 		victory_points = {

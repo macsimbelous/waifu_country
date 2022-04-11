@@ -54,4 +54,90 @@ wfc_test_category = {
 			add_political_power = 1000
 		}
 	}
+	wfc_test_3 = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			build_railway = {
+				level = 1
+				start_province = 7982
+				target_province = 7990
+			}
+			build_railway = {
+				level = 2
+				start_province = 7990
+				target_province = 10737
+			}
+			build_railway = {
+				level = 2
+				start_province = 7982
+				target_province = 4755
+			}
+			build_railway = {
+				level = 2
+				start_province = 7990
+				target_province = 7602
+			}
+			build_railway = {
+				level = 2
+				start_province = 2065
+				target_province = 5098
+			}
+			421 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 5098
+					instant_build = yes
+				}
+			}
+			419 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 4755
+					instant_build = yes
+				}
+			}
+		}
+	}
+	wfc_test_4 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = MMS
+		}
+		complete_effect = {
+			annex_country = {
+				target = PER
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = AFG
+				transfer_troops = yes
+			}
+		}
+	}
+	wfc_test_5 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = MEH
+		}
+		complete_effect = {
+			build_railway = {
+				level = 5
+				start_province = 9671
+				target_province = 4969
+			}
+			493 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 4969
+					instant_build = yes
+				}
+			}
+		}
+	}
 }

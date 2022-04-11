@@ -585,6 +585,7 @@ ideas = {
 				OR = {
 					has_tech = advanced_heavy_tank
 					has_tech = advanced_medium_tank
+					has_tech = advanced_light_tank
 				}
 			}
 			ai_will_do = {
@@ -663,10 +664,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					OR = {
-						has_tech = advanced_heavy_tank
-						has_tech = advanced_medium_tank
-					}
+					has_tech = advanced_medium_tank
 				}
 			}
 			research_bonus = {
@@ -702,10 +700,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					OR = {
-						has_tech = advanced_heavy_tank
-						has_tech = advanced_medium_tank
-					}
+					has_tech = advanced_heavy_tank
 				}
 			}
 			research_bonus = {

@@ -16,9 +16,9 @@ state={
 			arms_factory = 4
 			industrial_complex = 3
 			#dockyard = 3
-			10782 = {
-				supply_node = 1
-			}
+			# 10782 = {
+			# 	supply_node = 1
+			# }
 		}
 		add_core_of = MMS
 	}

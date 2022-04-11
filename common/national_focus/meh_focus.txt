@@ -543,7 +543,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			add_timed_idea = {
-				idea = wfc_nationalism
+				idea = nationalism
 				days = 720
 			}
 			set_rule = {
@@ -580,7 +580,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			add_timed_idea = {
-				idea = wfc_internationalism
+				idea = internationalism
 				days = 720
 			}
 			set_rule = {
@@ -669,7 +669,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = liberty_ethos_focus
 			add_timed_idea = {
-				idea = wfc_democratic_influence
+				idea = democratic_influence
 				days = 720
 			}
 			add_political_power = 150
@@ -1042,7 +1042,7 @@ focus_tree = {
 			}
 			add_political_power = 150
 			add_timed_idea = {
-				idea = wfc_neutrality_influence
+				idea = neutrality_influence
 				days = 720
 			}
 		}

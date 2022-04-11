@@ -14,15 +14,15 @@ state = {
 				naval_base = 3
 				coastal_bunker = 3
 			}
-			1979 = {
-				supply_node = 1
-			}
-			10960 = {
-				supply_node = 1
-			}
-			5083 = {
-				supply_node = 1
-			}
+			# 1979 = {
+			# 	supply_node = 1
+			# }
+			# 10960 = {
+			# 	supply_node = 1
+			# }
+			# 5083 = {
+			# 	supply_node = 1
+			# }
 			dockyard = 2
 			industrial_complex = 7
 			arms_factory = 3

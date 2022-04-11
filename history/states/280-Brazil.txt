@@ -13,9 +13,9 @@ state={
 			infrastructure = 3
 			arms_factory = 3
 			industrial_complex = 3
-			2142 = {
-				supply_node = 1
-			}
+			# 2142 = {
+			# 	supply_node = 1
+			# }
 		}
 		add_core_of = TRP
 

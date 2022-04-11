@@ -259,6 +259,22 @@ wfc_transfer_of_the_capital_category = {
 	}
 }
 
+wfc_railway_construction_category = {
+	priority = 6
+	icon = generic_economy
+	picture = GFX_wfl_economy_category
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+		}
+	}
+}
+
 wfc_test_category = {
 	priority = 20
 	allowed = {

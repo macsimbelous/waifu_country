@@ -10,9 +10,9 @@ state = {
 			industrial_complex = 6
 			air_base = 4
 			arms_factory = 6
-			11652 = {
-				supply_node = 1
-			}
+			# 11652 = {
+			# 	supply_node = 1
+			# }
 		}
 		victory_points = {
 			3741

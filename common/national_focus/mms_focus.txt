@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 	initial_show_position = {
-		focus = mms_industrial_effort
+		focus = mms_political_effort
 	}
 	continuous_focus_position = {
 		x = 60
@@ -1977,7 +1977,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_timed_idea = {
-				idea = wfc_collectivist_ethos_focus
+				idea = collectivist_ethos_focus
 				days = 1095
 			}
 			add_political_power = 150
@@ -2024,7 +2024,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			add_timed_idea = {
-				idea = wfc_nationalism
+				idea = nationalism
 				days = 720
 			}
 		}
@@ -2070,7 +2070,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			add_timed_idea = {
-				idea = wfc_internationalism
+				idea = internationalism
 				days = 720
 			}
 		}
@@ -2193,7 +2193,7 @@ focus_tree = {
 			}
 			add_political_power = 150
 			add_timed_idea = {
-				idea = wfc_neutrality_influence
+				idea = neutrality_influence
 				days = 720
 			}
 		}
@@ -2244,7 +2244,7 @@ focus_tree = {
 			}
 			add_political_power = 150
 			add_timed_idea = {
-				idea = wfc_democratic_influence
+				idea = democratic_influence
 				days = 720
 			}
 		}
@@ -2616,7 +2616,7 @@ focus_tree = {
 		relative_position_id = mms_expansion_of_living_space
 		x = 1
 		y = 1
-		cost = 70
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2721,12 +2721,72 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = mms_attack_mah
-		icon = GFX_goal_generic_major_war
+		id = mms_expansion_of_the_supply_network
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
 			focus = mms_colonization_per_and_afg
 		}
 		relative_position_id = mms_colonization_per_and_afg
+		x = 0
+		y = 1
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			build_railway = {
+				level = 1
+				start_province = 7982
+				target_province = 7990
+			}
+			build_railway = {
+				level = 2
+				start_province = 7990
+				target_province = 10737
+			}
+			build_railway = {
+				level = 2
+				start_province = 7982
+				target_province = 4755
+			}
+			build_railway = {
+				level = 2
+				start_province = 7990
+				target_province = 7602
+			}
+			build_railway = {
+				level = 2
+				start_province = 2065
+				target_province = 5098
+			}
+			421 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 5098
+					instant_build = yes
+				}
+			}
+			419 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 4755
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = mms_attack_mah
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = mms_expansion_of_the_supply_network
+		}
+		relative_position_id = mms_expansion_of_the_supply_network
 		x = -3
 		y = 1
 		cost = 10
@@ -2793,9 +2853,9 @@ focus_tree = {
 		id = mms_attack_sov
 		icon = GFX_focus_attack_soviet
 		prerequisite = {
-			focus = mms_colonization_per_and_afg
+			focus = mms_expansion_of_the_supply_network
 		}
-		relative_position_id = mms_colonization_per_and_afg
+		relative_position_id = mms_expansion_of_the_supply_network
 		x = -1
 		y = 1
 		cost = 10
@@ -2809,6 +2869,16 @@ focus_tree = {
 		available = {
 			NOT = {
 				is_in_faction_with = SOV
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				SOV = {
+					NOT = {
+						has_government = communism
+					}
+				}
 			}
 			SOV = {
 				OR = {
@@ -2840,9 +2910,9 @@ focus_tree = {
 		id = mms_attack_raj
 		icon = GFX_focus_attack_india
 		prerequisite = {
-			focus = mms_colonization_per_and_afg
+			focus = mms_expansion_of_the_supply_network
 		}
-		relative_position_id = mms_colonization_per_and_afg
+		relative_position_id = mms_expansion_of_the_supply_network
 		x = 1
 		y = 1
 		cost = 10
@@ -2891,9 +2961,9 @@ focus_tree = {
 		id = mms_attack_pak
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = mms_colonization_per_and_afg
+			focus = mms_expansion_of_the_supply_network
 		}
-		relative_position_id = mms_colonization_per_and_afg
+		relative_position_id = mms_expansion_of_the_supply_network
 		x = 3
 		y = 1
 		cost = 10
