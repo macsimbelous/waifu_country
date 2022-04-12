@@ -3,7 +3,7 @@ state={
 	id=280
 	name="STATE_280"
 	
-	state_category = city
+	state_category = town
 	resources = {
 		steel = 12
 	}
@@ -11,7 +11,7 @@ state={
 		owner = TRP
 		buildings = {
 			infrastructure = 3
-			arms_factory = 3
+			#arms_factory = 3
 			industrial_complex = 3
 			# 2142 = {
 			# 	supply_node = 1
@@ -24,6 +24,6 @@ state={
 	provinces={
 		2142 2147 2204 8175 11010 12939 
 	}
-	manpower=1200000
+	manpower=648159
 	buildings_max_level_factor=1.000
 }

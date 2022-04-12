@@ -1,0 +1,24 @@
+state = {
+	id = 840
+	name = "STATE_840"
+	manpower = 1500000
+	state_category = city
+	resources = {
+		#aluminium = 24
+	}
+	history = {
+		owner = TRP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = TRP
+		victory_points = {
+			1979 10 
+		}
+	}
+	provinces = {
+		5232 1979 8172 2035 10956
+	}
+}
