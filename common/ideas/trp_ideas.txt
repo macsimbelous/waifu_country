@@ -83,23 +83,61 @@ ideas = {
 			}
 		}
 		trp_transformation_of_nature = {
-		removal_cost = -1
-		
-		allowed = {
-			original_tag = TRP
+			removal_cost = -1
+			allowed = {
+				original_tag = TRP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SOV_transformation_of_nature
+			modifier = {
+				consumer_goods_factor = -0.04
+				global_building_slots = 0.1
+			}
 		}
-
-		allowed_civil_war = {
-			always = yes
+		trp_trap_socialism_idea = {
+			allowed = {
+				original_tag = TRP
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				foreign_subversive_activites = -0.75
+			}
 		}
-
-		picture = SOV_transformation_of_nature
-
-		modifier = {
-			consumer_goods_factor = -0.04
-			global_building_slots = 0.1
+		trp_communism_with_a_human_face_idea = {
+			allowed = {
+				original_tag = TRP
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			removal_cost = -1
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		trp_beacon_of_liberty = {
+			allowed = {
+				original_tag = TRP
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			picture = generic_democratic_drift_bonus
+			removal_cost = -1
+			modifier = {
+				democratic_drift = 0.1
+				drift_defence_factor = 0.3
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.1
+				research_speed_factor = 0.07
+			}
 		}
 	}
-	}
-
 }

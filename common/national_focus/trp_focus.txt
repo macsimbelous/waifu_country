@@ -627,9 +627,6 @@
 			add_ideas = trp_minprom_idea
 		}
 	}
-
-
-
 	focus = {
 		id = trp_the_academy_of_sciences
 		icon = GFX_focus_research
@@ -701,7 +698,6 @@
 	focus = {
 		id = trp_no_time_for_peace
 		icon = GFX_focus_rocketry
-
 		prerequisite = {
 			focus = trp_academy_up
 		}
@@ -729,7 +725,6 @@
 	focus = {
 		id = trp_transformation_of_nature
 		icon = GFX_goal_generic_soviet_construction
-
 		prerequisite = {
 			focus = trp_academy_up
 		}
@@ -737,7 +732,6 @@
 		y = 1
 		relative_position_id = trp_academy_up
 		cost = 10
-
 		available = {
 		}
 		search_filters = {
@@ -747,258 +741,48 @@
 			add_ideas = trp_transformation_of_nature
 		}
 	}
+
+	##################################
+	######## POLITICAL DIRECTION #####
+	##################################
 	focus = {
-		id = trp_political_effort
-		icon = GFX_goal_generic_demand_territory
-		x = 12
+		id = trp_strengthen_the_dictatorship
+		icon = GFX_focus_generic_military_dictatorship
+		x = 10
 		y = 0
-		cost = 1
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_political_power = 150
-		}
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	focus = {
-		id = trp_collectivist_ethos
-		icon = GFX_goal_generic_national_unity		#icon = GFX_goal_tripartite_pact
-		prerequisite = {
-			focus = trp_political_effort
-		}
-		mutually_exclusive = {
-			focus = trp_liberty_ethos
-		}
-		available = {
-			OR = {
-				has_government = fascism
-				has_government = communism
-				has_government = neutrality
-			}
-		}
-		x = -1
-		y = 1
-		relative_position_id = trp_political_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 20
-				has_idea = SOV_russian_political_influence
-			}
-		}
-		completion_reward = {
-			add_timed_idea = {
-				idea = collectivist_ethos_focus
-				days = 1095
-			}
-			add_political_power = 150
-		}
-	}
-	focus = {
-		id = trp_nationalism_focus
-		icon = GFX_goal_support_fascism		#icon = GFX_goal_tripartite_pact
-		prerequisite = {
-			focus = trp_collectivist_ethos
-		}
-		mutually_exclusive = {
-			focus = trp_internationalism_focus
-		}
-		available = {
-			if = {
-				limit = {
-					is_puppet = yes
-				}
-				has_government = fascism
-			}
-			else = {
-				OR = {
-					has_government = fascism
-					has_government = neutrality
-				}
-			}
-		}
-		x = -2
-		y = 1
-		relative_position_id = trp_collectivist_ethos
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 10
-				has_idea = SOV_russian_political_influence
-			}
-		}
-		completion_reward = {
-			add_political_power = 150
-			add_timed_idea = {
-				idea = nationalism
-				days = 720
-			}
-		}
-	}
-	focus = {
-		id = trp_internationalism_focus
-		icon = GFX_goal_support_communism		#icon = GFX_goal_tripartite_pact
-		prerequisite = {
-			focus = trp_collectivist_ethos
-		}
-		mutually_exclusive = {
-			focus = trp_nationalism_focus
-		}
-		available = {
-			if = {
-				limit = {
-					is_puppet = yes
-				}
-				has_government = communism
-			}
-			else = {
-				OR = {
-					has_government = communism
-					has_government = neutrality
-				}
-			}
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_collectivist_ethos
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 20
-				has_idea = SOV_russian_political_influence
-			}
-		}
-		completion_reward = {
-			add_political_power = 150
-			add_timed_idea = {
-				idea = internationalism
-				days = 720
-			}
-		}
-	}
-	focus = {
-		id = trp_liberty_ethos
-		icon = GFX_goal_support_democracy
-		prerequisite = {
-			focus = trp_political_effort
-		}
-		mutually_exclusive = {
-			focus = trp_collectivist_ethos
-		}
-		available = {
-			OR = {
-				has_government = democratic
-				has_government = neutrality
-			}
-		}
-		x = 1
-		y = 1
-		relative_position_id = trp_political_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_ideas = liberty_ethos_focus
-			add_political_power = 150
-		}
-	}
-	focus = {
-		id = trp_militarism
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = {
-			focus = trp_nationalism_focus
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_nationalism_focus
 		cost = 10
+		mutually_exclusive = {
+			focus = trp_support_the_opposition
+		}
+		ai_will_do = {
+			factor = 90
+		}
+		available_if_capitulated = yes
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available_if_capitulated = yes
 		completion_reward = {
-			if = {
-				limit = {
-					has_idea = neutrality_idea
-				}
-				remove_ideas = neutrality_idea
+			add_political_power = 100
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
 			}
-			add_ideas = militarism_focus
-			army_experience = 20
-			set_rule = {
-				can_send_volunteers = yes
-			}
-		}
-	}
-	focus = {
-		id = trp_political_correctness
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = {
-			focus = trp_internationalism_focus
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_internationalism_focus
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			if = {
-				limit = {
-					has_idea = neutrality_idea
-				}
-				remove_ideas = neutrality_idea
-			}
-			add_political_power = 200
-			add_ideas = idea_political_correctness
 		}
 	}
 	focus = {
 		id = trp_neutrality_focus
 		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = {
-			focus = trp_liberty_ethos
-		}
-		mutually_exclusive = {
-			focus = trp_interventionism_focus
+			focus = trp_strengthen_the_dictatorship
 		}
 		x = 0
 		y = 1
-		relative_position_id = trp_liberty_ethos
+		relative_position_id = trp_strengthen_the_dictatorship
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
-		available = {
-			has_government = neutrality
-		}
 		ai_will_do = {
 			factor = 5
 		}
@@ -1013,65 +797,534 @@
 			}
 			add_political_power = 150
 			add_timed_idea = {
-				idea = neutrality_influence
+				idea = wfc_neutrality_influence
 				days = 720
 			}
 		}
 	}
 	focus = {
-		id = trp_interventionism_focus
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = {
-			focus = trp_liberty_ethos
-		}
+		id = trp_support_the_opposition
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 18
+		y = 0
+		cost = 10
 		mutually_exclusive = {
-			focus = trp_neutrality_focus
+			focus = trp_strengthen_the_dictatorship
 		}
-		x = 2
-		y = 1
-		relative_position_id = trp_liberty_ethos
-		cost = 5
+		ai_will_do = {
+			factor = 90
+		}
+		available_if_capitulated = yes
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available_if_capitulated = yes
-		available = {
-			if = {
-				limit = {
-					is_puppet = yes
-				}
-				has_government = democratic
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
 			}
-			else = {
-				OR = {
+		}
+	}
+	focus = {
+		id = trp_go_left
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = {
+			focus = trp_support_the_opposition
+		}
+		mutually_exclusive = {
+			focus = trp_go_democratic
+			focus = trp_go_right
+		}
+		x = -2
+		y = 1
+		relative_position_id = trp_support_the_opposition
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_political_power = 100
+			every_other_country = {
+				limit = {
+					has_government = communism
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_increase
+				}
+			}
+			every_other_country = {
+				limit = {
 					has_government = democratic
-					has_government = neutrality
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_decrease
+				}
+			}
+			every_other_country = {
+				limit = {
+					has_government = fascism
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_decrease
+				}
+			}
+		}
+	}
+	focus = {
+		id = trp_communist_support
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = {
+			focus = trp_go_left
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_go_left
+		cost = 10
+		ai_will_do = {
+			factor = 80
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			#add_ideas = communist_influence
+			add_timed_idea = {
+				idea = communist_influence
+				days = 1095
+			}
+		}
+	}
+	focus = {
+		id = trp_trap_socialism
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = {
+			focus = trp_communist_support
+		}
+		x = -2
+		y = 1
+		relative_position_id = trp_communist_support
+		cost = 10
+		ai_will_do = {
+			factor = 80
+		}
+		available = {
+			has_government = communism
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_MANPOWER
+			FOCUS_FILTER_STABILITY
+		}
+		completion_reward = {
+			add_ideas = trp_trap_socialism_idea
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = trp_communism_with_a_human_face
+		icon = GFX_goal_support_communism
+		prerequisite = {
+			focus = trp_trap_socialism
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_trap_socialism
+		cost = 10
+		ai_will_do = {
+			factor = 50
+		}
+		available = {
+			has_government = communism
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			add_ideas = trp_communism_with_a_human_face_idea
+		}
+	}
+	focus = {
+		id = trp_propagand_communism_in_south_america
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = trp_communism_with_a_human_face
+		}
+		relative_position_id = trp_communism_with_a_human_face
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			every_other_country = {
+				limit = {
+					any_owned_state = {
+						is_capital = yes
+						is_on_continent = south_america
+					}
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
 				}
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
-		completion_reward = {
-			if = {
-				limit = {
-					has_idea = neutrality_idea
+	}
+	focus = {
+		id = trp_join_comintern
+		icon = GFX_goal_support_communism
+		prerequisite = {
+			focus = trp_communist_support
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_communist_support
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			communism > 0.3
+			SOV_comintern_joinable = yes
+			is_in_faction = no
+			NOT = {
+				any_other_country = {
+					is_in_faction_with = SOV
+					has_war_with = TRP
 				}
-				remove_ideas = neutrality_idea
 			}
-			set_rule = {
-				can_send_volunteers = yes
-			}
-			add_political_power = 150
-			add_timed_idea = {
-				idea = democratic_influence
-				days = 720
+		}
+		bypass = {
+			is_in_faction_with = SOV
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			SOV = {
+				add_to_faction = TRP
+				# country_event = {
+				# 	hours = 1
+				# 	id = czech.1
+				# }
 			}
 		}
 	}
 	focus = {
-		id = trp_military_youth
-		icon = GFX_goal_generic_more_territorial_claims
+		id = trp_the_venezuela_question
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = {
+			focus = trp_join_comintern
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_join_comintern
+		cost = 10
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = VEN
+				type = annex_everything
+			}
+			VEN = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = trp_the_peru_question
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = {
+			focus = trp_the_venezuela_question
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_the_venezuela_question
+		cost = 10
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = PRU
+				type = annex_everything
+			}
+			PRU = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = trp_go_democratic
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = {
+			focus = trp_support_the_opposition
+		}
+		mutually_exclusive = {
+			focus = trp_go_right
+			focus = trp_go_left
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_support_the_opposition
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			every_other_country = {
+				limit = {
+					has_government = communism
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = small_decrease
+				}
+			}
+			every_other_country = {
+				limit = {
+					has_government = democratic
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_increase
+				}
+			}
+			every_other_country = {
+				limit = {
+					has_government = fascism
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_decrease
+				}
+			}
+		}
+	}
+	focus = {
+		id = trp_democratic_support
+		icon = GFX_goal_support_democracy
+		prerequisite = {
+			focus = trp_go_democratic
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_go_democratic
+		cost = 10
+		ai_will_do = {
+			factor = 80
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = democratic_influence
+		}
+	}
+	focus = {
+		id = trp_beacon_of_liberty
+		icon = GFX_goal_support_democracy
+		prerequisite = {
+			focus = trp_democratic_support
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_democratic_support
+		cost = 2
+		ai_will_do = {
+			factor = 70
+		}
+		available = {
+			has_government = democratic
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			#add_ideas = trp_beacon_of_liberty
+			swap_ideas = {
+				remove_idea = democratic_influence
+				add_idea = trp_beacon_of_liberty
+			}
+		}
+	}
+	focus = {
+		id = trp_defensive_preparations
+		icon = GFX_goal_generic_small_arms
+		prerequisite = {
+			focus = trp_beacon_of_liberty
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_beacon_of_liberty
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			threat > 0.1
+		}
+		bypass = {
+			OR = {
+				has_idea = extensive_conscription
+				has_idea = service_by_requirement
+				has_idea = all_adults_serve
+				has_idea = scraping_the_barrel
+			}
+		}
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}
+	}
+	focus = {
+		id = trp_go_right
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = {
+			focus = trp_support_the_opposition
+		}
+		mutually_exclusive = {
+			focus = trp_go_democratic
+			focus = trp_go_left
+		}
+		x = 2
+		y = 1
+		relative_position_id = trp_support_the_opposition
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			every_other_country = {
+				limit = {
+					has_government = fascism
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_increase
+				}
+			}
+			every_other_country = {
+				limit = {
+					has_government = democratic
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_decrease
+				}
+			}
+			every_other_country = {
+				limit = {
+					has_government = communism
+					#num_of_factories > 30
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_decrease
+				}
+			}
+		}
+	}
+	focus = {
+		id = trp_trap_fascism
+		icon = GFX_goal_support_fascism
+		prerequisite = {
+			focus = trp_go_right
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_go_right
+		cost = 10
+		ai_will_do = {
+			factor = 80
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_timed_idea = {
+				idea = fascist_influence
+				days = 1095
+			}
+		}
+	}
+	focus = {
+		id = trp_militarism
+		icon = GFX_focus_generic_military_mission
+		prerequisite = {
+			focus = trp_trap_fascism
+		}
+		x = 2
+		y = 1
+		relative_position_id = trp_trap_fascism
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = militarism_focus
+			army_experience = 20
+			set_rule = {
+				can_send_volunteers = yes
+			}
+		}
+	}
+	focus = {
+		id = trp_aggressive_wars
+		icon = GFX_goal_generic_political_pressure
 		prerequisite = {
 			focus = trp_militarism
 		}
@@ -1079,298 +1332,125 @@
 		y = 1
 		relative_position_id = trp_militarism
 		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = military_youth_focus
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = {
-					has_government = communism
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.2
-				}
-			}
-		}
-	}
-	focus = {
-		id = trp_deterrence
-		icon = GFX_goal_generic_defence
-		prerequisite = {
-			focus = trp_neutrality_focus
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_neutrality_focus
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = deterrence
-		}
-	}
-	focus = {
-		id = trp_volunteer_corps
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = {
-			focus = trp_interventionism_focus
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_interventionism_focus
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = volunteer_corps_focus
-		}
-	}
-	focus = {
-		id = trp_paramilitarism
-		icon = GFX_goal_generic_military_sphere
-		prerequisite = {
-			focus = trp_military_youth
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_military_youth
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = paramilitarism_focus
-		}
-	}
-	focus = {
-		id = trp_indoctrination_focus
-		icon = GFX_goal_generic_propaganda
-		prerequisite = {
-			focus = trp_political_correctness
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_political_correctness
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = indoctrination_focus
-			add_political_power = 150
-		}
-	}
-	focus = {
-		id = trp_foreign_expeditions
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = {
-			focus = trp_volunteer_corps
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_volunteer_corps
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = foreign_expeditions_focus
-		}
-	}
-	focus = {
-		id = trp_why_we_fight
-		icon = GFX_goal_generic_propaganda
-		prerequisite = {
-			focus = trp_foreign_expeditions
-			focus = trp_deterrence
+		ai_will_do = {
+			factor = 90
 		}
 		available = {
-			OR = {
-				threat > 0.75
-				has_defensive_war = yes
-			}
-		}
-		continue_if_invalid = yes
-		x = -2
-		y = 1
-		relative_position_id = trp_foreign_expeditions
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			fascism > 0.5
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = why_we_fight_focus
-			custom_effect_tooltip = why_we_fight_effect
-			hidden_effect = {
-				if = {
-					limit = {
-						NOT = {
-							has_idea = neutrality_idea
-						}
-					}
-					set_rule = {
-						can_create_factions = yes
-					}
-				}
-			}
+			add_ideas = FRA_army_of_aggression_focus
 		}
 	}
 	focus = {
-		id = trp_political_commissars
-		icon = GFX_goal_generic_forceful_treaty
+		id = trp_german_ally
+		icon = GFX_goal_generic_military_deal
 		prerequisite = {
-			focus = trp_indoctrination_focus
-		}
-		available = {
+			focus = trp_trap_fascism
 		}
 		x = 0
 		y = 1
-		relative_position_id = trp_indoctrination_focus
+		relative_position_id = trp_trap_fascism
 		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = political_commissars_focus
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = {
-					has_government = communism
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.2
-				}
-			}
-			add_political_power = 200
-		}
-	}
-	focus = {
-		id = trp_ideological_fanaticism
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = {
-			focus = trp_paramilitarism
-			focus = trp_political_commissars
-		}
-		x = 1
-		y = 1
-		relative_position_id = trp_paramilitarism
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = ideological_fanaticism_focus
-			set_rule = {
-				can_create_factions = yes
-			}
-			hidden_effect = {
-				set_rule = {
-					can_use_kamikaze_pilots = yes
-				}
-			}
-			custom_effect_tooltip = kamikaze_focus_tooltip
-		}
-	}
-	focus = {
-		id = trp_technology_sharing
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = {
-			focus = trp_ideological_fanaticism
-			focus = trp_why_we_fight
+		ai_will_do = {
+			factor = 100
 		}
 		available = {
-			has_war = yes
-			is_in_faction = yes
-			OR = {
-				num_of_factories > 50
+			is_in_faction = no
+			GER = {
+				has_government = fascism
+			}
+			GER = {
+				exists = yes
+			}
+			GER = {
+				is_subject = no
+			}
+			has_army_manpower = {
+				size > 299999
+			}
+			NOT = {
 				any_other_country = {
-					is_in_faction_with = ROOT
-					num_of_factories > 50
+					is_in_faction_with = GER
+					has_war_with = CZE
 				}
 			}
 		}
-		x = 2
-		y = 1
-		relative_position_id = trp_ideological_fanaticism
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-			FOCUS_FILTER_RESEARCH
+		bypass = {
+			is_in_faction_with = GER
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			if = {
-				limit = {
-					original_research_slots < 3
-				}
-				add_research_slot = 1
-			}
-			if = {
-				limit = {
-					original_research_slots > 2
-				}
-				add_tech_bonus = {
-					name = electronics_bonus
-					bonus = 1
-					uses = 1
-					category = electronics
-				}
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1
-					uses = 1
-					category = industry
-				}
-				add_tech_bonus = {
-					name = infantry_artillery_bonus					#@#
-					bonus = 1
-					uses = 1
-					category = infantry_weapons
-					category = artillery
+			GER = {
+				country_event = {
+					hours = 1
+					id = czech.16
 				}
 			}
 		}
 	}
+	focus = {
+		id = trp_the_colonies_question
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = {
+			focus = trp_german_ally
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_german_ally
+		cost = 10
+		ai_will_do = {
+			factor = 90
+		}
+		completion_reward = {
+			transfer_state = 687
+			transfer_state = 309
+			transfer_state = 310
+			ENG = {
+				create_wargoal = {
+					target = ROOT
+					type = take_state_focus
+					generator = { 687 }
+				}
+			}
+			HOL = {
+				create_wargoal = {
+					target = ROOT
+					type = take_state_focus
+					generator = { 309 }
+				}
+			}
+			FRA = {
+				create_wargoal = {
+					target = ROOT
+					type = take_state_focus
+					generator = { 310 }
+				}
+			}
+			# GER = {
+			# 	country_event = {
+			# 		hours = 1
+			# 		id = czech.10
+			# 	}
+			# }
+		}
+	}
+	########################
+	#rev in SA
+	########################
 	focus = {
 		id = trp_revolution_in_south_america
 		icon = GFX_focus_por_latin_american_communism
 		prerequisite = {
-			focus = mms_expansion_of_living_space
+			focus = trp_propagand_communism_in_south_america
 		}
-		x = 21
-		y = 0
+		prerequisite = {
+			focus = trp_the_peru_question
+		}
+		relative_position_id = trp_propagand_communism_in_south_america
+		x = 1
+		y = 1
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1389,7 +1469,7 @@
 			focus = trp_revolution_in_south_america
 		}
 		relative_position_id = trp_revolution_in_south_america
-		x = -4
+		x = -2
 		y = 1
 		cost = 10
 		search_filters = {
@@ -1397,17 +1477,41 @@
 		}
 		will_lead_to_war_with = BRA
 		bypass = {
-			has_war_with = BRA
-		}
-		completion_reward = {
-			BRA = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			OR = {
+				has_war_with = BRA
+				is_in_faction_with = BRA
+				BRA = {
+					has_government = communism
+				}
+				BRA = {
+					is_puppet_of = ROOT
 				}
 			}
-			declare_war_on = {
-				target = BRA
-				type = annex_everything
+		}
+		completion_reward = {
+			random_list = {
+				50 = {
+					modifier = {
+						communism > 0.3
+						factor = 1.5
+					}
+					modifier = {
+						communism > 0.4
+						factor = 1.75
+					}
+					set_autonomy = {
+						target = BRA
+						autonomy_state = autonomy_dominion
+					}
+				}
+				50 = {
+					BRA = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1427,19 +1531,43 @@
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		will_lead_to_war_with = BRA
+		will_lead_to_war_with = URG
 		bypass = {
-			has_war_with = BRA
-		}
-		completion_reward = {
-			BRA = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			OR = {
+				has_war_with = URG
+				is_in_faction_with = URG
+				URG = {
+					has_government = communism
+				}
+				URG = {
+					is_puppet_of = ROOT
 				}
 			}
-			declare_war_on = {
-				target = BRA
-				type = annex_everything
+		}
+		completion_reward = {
+			random_list = {
+				50 = {
+					modifier = {
+						communism > 0.3
+						factor = 1.5
+					}
+					modifier = {
+						communism > 0.4
+						factor = 1.75
+					}
+					set_autonomy = {
+						target = URG
+						autonomy_state = autonomy_dominion
+					}
+				}
+				50 = {
+					URG = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1453,7 +1581,7 @@
 			focus = trp_revolution_in_south_america
 		}
 		relative_position_id = trp_revolution_in_south_america
-		x = -2
+		x = 0
 		y = 1
 		cost = 10
 		search_filters = {
@@ -1461,49 +1589,41 @@
 		}
 		will_lead_to_war_with = BOL
 		bypass = {
-			has_war_with = BOL
-		}
-		completion_reward = {
-			BOL = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			OR = {
+				has_war_with = BOL
+				is_in_faction_with = BOL
+				BOL = {
+					has_government = communism
+				}
+				BOL = {
+					is_puppet_of = ROOT
 				}
 			}
-			declare_war_on = {
-				target = BOL
-				type = annex_everything
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	focus = {
-		id = trp_attack_pru
-		icon = GFX_goal_generic_major_war
-		prerequisite = {
-			focus = trp_revolution_in_south_america
-		}
-		relative_position_id = trp_revolution_in_south_america
-		x = 0
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		will_lead_to_war_with = PRU
-		bypass = {
-			has_war_with = PRU
 		}
 		completion_reward = {
-			PRU = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			random_list = {
+				50 = {
+					modifier = {
+						communism > 0.3
+						factor = 1.5
+					}
+					modifier = {
+						communism > 0.4
+						factor = 1.75
+					}
+					set_autonomy = {
+						target = BOL
+						autonomy_state = autonomy_dominion
+					}
 				}
-			}
-			declare_war_on = {
-				target = PRU
-				type = annex_everything
+				50 = {
+					BOL = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1525,17 +1645,41 @@
 		}
 		will_lead_to_war_with = COL
 		bypass = {
-			has_war_with = COL
-		}
-		completion_reward = {
-			COL = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			OR = {
+				has_war_with = COL
+				is_in_faction_with = COL
+				COL = {
+					has_government = communism
+				}
+				COL = {
+					is_puppet_of = ROOT
 				}
 			}
-			declare_war_on = {
-				target = COL
-				type = annex_everything
+		}
+		completion_reward = {
+			random_list = {
+				50 = {
+					modifier = {
+						communism > 0.3
+						factor = 1.5
+					}
+					modifier = {
+						communism > 0.4
+						factor = 1.75
+					}
+					set_autonomy = {
+						target = COL
+						autonomy_state = autonomy_dominion
+					}
+				}
+				50 = {
+					COL = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1546,11 +1690,10 @@
 		id = trp_attack_ecu
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = trp_attack_pru
 			focus = trp_attack_col
 		}
-		relative_position_id = trp_attack_pru
-		x = 1
+		relative_position_id = trp_attack_col
+		x = 0
 		y = 1
 		cost = 10
 		search_filters = {
@@ -1558,49 +1701,41 @@
 		}
 		will_lead_to_war_with = ECU
 		bypass = {
-			has_war_with = ECU
-		}
-		completion_reward = {
-			ECU = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			OR = {
+				has_war_with = ECU
+				is_in_faction_with = ECU
+				ECU = {
+					has_government = communism
+				}
+				ECU = {
+					is_puppet_of = ROOT
 				}
 			}
-			declare_war_on = {
-				target = ECU
-				type = annex_everything
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	focus = {
-		id = trp_attack_ven
-		icon = GFX_goal_generic_major_war
-		prerequisite = {
-			focus = trp_revolution_in_south_america
-		}
-		relative_position_id = trp_revolution_in_south_america
-		x = 4
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		will_lead_to_war_with = VEN
-		bypass = {
-			has_war_with = VEN
 		}
 		completion_reward = {
-			VEN = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			random_list = {
+				50 = {
+					modifier = {
+						communism > 0.3
+						factor = 1.5
+					}
+					modifier = {
+						communism > 0.4
+						factor = 1.75
+					}
+					set_autonomy = {
+						target = ECU
+						autonomy_state = autonomy_dominion
+					}
 				}
-			}
-			declare_war_on = {
-				target = VEN
-				type = annex_everything
+				50 = {
+					ECU = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1623,17 +1758,41 @@
 		}
 		will_lead_to_war_with = PAR
 		bypass = {
-			has_war_with = PAR
-		}
-		completion_reward = {
-			PAR = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			OR = {
+				has_war_with = PAR
+				is_in_faction_with = PAR
+				PAR = {
+					has_government = communism
+				}
+				PAR = {
+					is_puppet_of = ROOT
 				}
 			}
-			declare_war_on = {
-				target = PAR
-				type = annex_everything
+		}
+		completion_reward = {
+			random_list = {
+				50 = {
+					modifier = {
+						communism > 0.3
+						factor = 1.5
+					}
+					modifier = {
+						communism > 0.4
+						factor = 1.75
+					}
+					set_autonomy = {
+						target = PAR
+						autonomy_state = autonomy_dominion
+					}
+				}
+				50 = {
+					PAR = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1658,17 +1817,41 @@
 		}
 		will_lead_to_war_with = ARG
 		bypass = {
-			has_war_with = ARG
-		}
-		completion_reward = {
-			ARG = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			OR = {
+				has_war_with = ARG
+				is_in_faction_with = ARG
+				ARG = {
+					has_government = communism
+				}
+				ARG = {
+					is_puppet_of = ROOT
 				}
 			}
-			declare_war_on = {
-				target = ARG
-				type = annex_everything
+		}
+		completion_reward = {
+			random_list = {
+				50 = {
+					modifier = {
+						communism > 0.3
+						factor = 1.5
+					}
+					modifier = {
+						communism > 0.4
+						factor = 1.75
+					}
+					set_autonomy = {
+						target = ARG
+						autonomy_state = autonomy_dominion
+					}
+				}
+				50 = {
+					ARG = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1690,17 +1873,41 @@
 		}
 		will_lead_to_war_with = CHL
 		bypass = {
-			has_war_with = CHL
-		}
-		completion_reward = {
-			CHL = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			OR = {
+				has_war_with = CHL
+				is_in_faction_with = CHL
+				CHL = {
+					has_government = communism
+				}
+				CHL = {
+					is_puppet_of = ROOT
 				}
 			}
-			declare_war_on = {
-				target = CHL
-				type = annex_everything
+		}
+		completion_reward = {
+			random_list = {
+				50 = {
+					modifier = {
+						communism > 0.3
+						factor = 1.5
+					}
+					modifier = {
+						communism > 0.4
+						factor = 1.75
+					}
+					set_autonomy = {
+						target = CHL
+						autonomy_state = autonomy_dominion
+					}
+				}
+				50 = {
+					CHL = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1708,7 +1915,7 @@
 		}
 	}
 	focus = {
-		id = trp_annex_colonies
+		id = trp_uprisings_in_the_colonies
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = trp_attack_chl
@@ -1716,20 +1923,53 @@
 		prerequisite = {
 			focus = trp_attack_ecu
 		}
-		prerequisite = {
-			focus = trp_attack_ven
-		}
 		relative_position_id = trp_attack_chl
-		x = 3
+		x = 1
 		y = 1
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			transfer_state = 687
-			transfer_state = 309
-			transfer_state = 310
+			set_autonomy = {
+				target = GYA
+				autonomy_state = autonomy_dominion
+			}
+			GYA = {
+				transfer_state = 687
+			}
+			set_autonomy = {
+				target = SUR
+				autonomy_state = autonomy_dominion
+			}
+			SUR = {
+				transfer_state = 309
+			}
+			set_autonomy = {
+				target = CAY
+				autonomy_state = autonomy_dominion
+			}
+			CAY = {
+				transfer_state = 310
+			}
+			ENG = {
+				create_wargoal = {
+					target = GYA
+					type = annex_everything
+				}
+			}
+			HOL = {
+				create_wargoal = {
+					target = SUR
+					type = annex_everything
+				}
+			}
+			FRA = {
+				create_wargoal = {
+					target = CAY
+					type = annex_everything
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
