@@ -1,7 +1,8 @@
 ﻿l_english:
 
 #urbanize
-wfl_urbanisation_decision:0 "Urbanization of regions"
+ wfc_urbanisation_decision:0 "Urbanization §Y[From.GetName]§!"
+ wfc_urbanisation_decision_desc:0 "Raise the level of urbanization of the region §Y[From.GetName]§!"
 
 #immigrants
 wfl_immigration_category:0 "Immigration"

@@ -6,11 +6,13 @@ wfl_infiltration_decision.t:0 "Инфильтрация в §Y[From.GetName]§!"
 wfl_infiltration_decision.t_desc:0 "В регион §Y[From.GetName]§! не обходимо распростронить аниме культуру"
 
 #urbanize
-wfl_urbanisation_decision:0 "Урбанизация регионов"
-wfl_urbanisation_category:0 "Урбанизация"
-wfl_urbanisation_category_desc:0 "Следуя достижениям в строительстве и государственном промышленном управлении, мы считаем, что обладаем средствами, необходимыми для улучшения и расширения потенциала наших регионов."
-wfl_urbanisation_state.t:0 "Урбанизировать §Y[From.GetName]§!"
-wfl_urbanisation_state.t_desc:0 "Повысить уровень урбанизации региона §Y[From.GetName]§!"
+ wfc_urbanisation_decision:0 "Урбанизировать §Y[From.GetName]§!"
+ wfc_urbanisation_decision_desc:0 "Повысить уровень урбанизации региона §Y[From.GetName]§!"
+ wfl_urbanisation_decision:0 "Урбанизация регионов"
+ wfl_urbanisation_category:0 "Урбанизация"
+ wfl_urbanisation_category_desc:0 "Следуя достижениям в строительстве и государственном промышленном управлении, мы считаем, что обладаем средствами, необходимыми для улучшения и расширения потенциала наших регионов."
+ wfl_urbanisation_state.t:0 "Урбанизировать §Y[From.GetName]§!"
+ wfl_urbanisation_state.t_desc:0 "Повысить уровень урбанизации региона §Y[From.GetName]§!"
 #immigrants
 wfl_immigration_category:0 "Иммиграция"
 wfl_immigration_category_desc:0 "Привлечение иммигрантов"

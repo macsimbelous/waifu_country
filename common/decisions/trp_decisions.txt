@@ -1487,7 +1487,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					VEN = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1554,7 +1557,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					COL = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1615,7 +1621,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					ECU = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1685,7 +1694,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					PRU = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1752,7 +1764,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					BOL = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1832,7 +1847,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					BRA = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1906,7 +1924,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					CHL = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1979,7 +2000,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					ARG = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -2047,7 +2071,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					PAR = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -2101,7 +2128,10 @@ trp_south_american_federation = {
 			if = {
 				limit = {
 					URG = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
