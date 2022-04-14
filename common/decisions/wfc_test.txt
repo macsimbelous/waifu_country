@@ -140,4 +140,159 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_6 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = MEH
+		}
+		complete_effect = {
+			836 = {
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+	}
 }

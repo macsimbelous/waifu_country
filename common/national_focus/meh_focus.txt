@@ -134,7 +134,7 @@ focus_tree = {
 		relative_position_id = meh_create_warmind
 		x = -4
 		y = 2
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = meh_upgrade_warmind_def
 			focus = meh_upgrade_warmind_agr
@@ -162,7 +162,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = meh_army_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -186,7 +186,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = meh_army_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -210,7 +210,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = meh_equipment_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -234,7 +234,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = meh_army_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -257,7 +257,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = meh_doctrine_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -281,7 +281,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = meh_equipment_effort_2
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -305,7 +305,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = meh_mechanization_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -358,7 +358,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = meh_equipment_effort_3
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -383,7 +383,7 @@ focus_tree = {
 		relative_position_id = meh_create_warmind
 		x = 0
 		y = 2
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = meh_upgrade_warmind_def
 			focus = meh_upgrade_warmind_agr
@@ -481,7 +481,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = meh_aviation_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -513,7 +513,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = meh_aviation_effort
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -540,7 +540,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = meh_bomber_focus
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -637,7 +637,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = meh_aviation_effort_2
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -661,7 +661,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = meh_aviation_effort_2
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -705,11 +705,11 @@ focus_tree = {
 	}
 	focus = {
 		id = meh_naval_effort
-		icon = GFX_goal_generic_construct_naval_dockyard
+		icon = GFX_goal_generic_build_navy
 		relative_position_id = meh_create_warmind
 		x = 4
 		y = 2
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = meh_upgrade_warmind_def
 			focus = meh_upgrade_warmind_agr
@@ -718,231 +718,49 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		available_if_capitulated = yes
-		available = {
-			any_state = {
-				is_coastal = yes
-				is_controlled_by = ROOT
-			}
-		}
-		complete_tooltip = {
-			navy_experience = 25
-			add_extra_state_shared_building_slots = 3
-			add_building_construction = {
-				type = dockyard
-				level = 3
-				instant_build = yes
-			}
-		}
 		completion_reward = {
 			navy_experience = 25
-			if = {
+			random_owned_controlled_state = {
 				limit = {
-					NOT = {
-						any_owned_state = {
-							dockyard > 0
-							free_building_slots = {
-								building = dockyard
-								size > 2
-								include_locked = yes
-							}
-						}
-					}
-					any_owned_state = {
-						is_coastal = yes
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
 					}
 				}
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 2
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = dockyard
-						level = 3
-						instant_build = yes
-					}
-				}
-				set_country_flag = naval_effort_built
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = naval_effort_built
-					}
-					any_owned_state = {
-						dockyard > 0
-						free_building_slots = {
-							building = dockyard
-							size > 2
-							include_locked = yes
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						dockyard > 0
-						free_building_slots = {
-							building = dockyard
-							size > 2
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = dockyard
-						level = 3
-						instant_build = yes
-					}
-				}
-				set_country_flag = naval_effort_built
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = naval_effort_built
-					}
-					NOT = {
-						any_owned_state = {
-							free_building_slots = {
-								building = dockyard
-								size > 2
-								include_locked = yes
-							}
-						}
-					}
-				}
-				random_state = {
-					limit = {
-						controller = {
-							tag = ROOT
-						}
-						free_building_slots = {
-							building = dockyard
-							size > 2
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = dockyard
-						level = 3
-						instant_build = yes
-					}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
 				}
 			}
 		}
-	}
-	focus = {
-		id = meh_flexible_navy
-		icon = GFX_goal_generic_build_navy
-		prerequisite = {
-			focus = meh_naval_effort
-		}
-		mutually_exclusive = {
-			focus = meh_large_navy
-		}
-		x = -1
-		y = 1
-		relative_position_id = meh_naval_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = sub_op_bonus
-				bonus = 1
-				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
-			}
 		}
 	}
-	focus = {
-		id = meh_large_navy
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = {
-			focus = meh_naval_effort
-		}
-		mutually_exclusive = {
-			focus = meh_flexible_navy
-		}
-		x = 1
-		y = 1
-		relative_position_id = meh_naval_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = fleet_in_being_bonus
-				cost_reduction = 0.25
-				uses = 2
-				category = fleet_in_being_tree
-			}
-		}
-	}
+
 	focus = {
 		id = meh_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		prerequisite = {
-			focus = meh_flexible_navy
-			focus = meh_large_navy
+			focus = meh_naval_effort
 		}
-		x = 0
+		mutually_exclusive = {
+			focus = meh_destroyer_effort
+		}
+		x = -1
 		y = 1
-		relative_position_id = meh_flexible_navy
-		cost = 10
+		relative_position_id = meh_naval_effort
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -955,68 +773,24 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = meh_cruiser_effort
-		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = {
-			focus = meh_large_navy
-			focus = meh_flexible_navy
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_large_navy
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = cr_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 1
-				category = cl_tech
-				category = ca_tech
-			}
-		}
-	}
-	focus = {
 		id = meh_destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
 		prerequisite = {
+			focus = meh_naval_effort
+		}
+		mutually_exclusive = {
 			focus = meh_submarine_effort
 		}
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = meh_submarine_effort
-		cost = 10
+		relative_position_id = meh_naval_effort
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -1028,6 +802,149 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = meh_doctrine_navy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = {
+			focus = meh_destroyer_effort
+			focus = meh_submarine_effort
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_submarine_effort
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = naval_doctrine_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	focus = {
+		id = meh_submarine_effort_2
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = {
+			focus = meh_submarine_effort
+		}
+		prerequisite = {
+			focus = meh_doctrine_navy
+		}
+		x = 0
+		y = 2
+		relative_position_id = meh_submarine_effort
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	focus = {
+		id = meh_destroyer_effort_2
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = {
+			focus = meh_destroyer_effort
+		}
+		prerequisite = {
+			focus = meh_doctrine_navy
+		}
+		x = 0
+		y = 2
+		relative_position_id = meh_destroyer_effort
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+	focus = {
+		id = meh_doctrine_navy_2
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = {
+			focus = meh_submarine_effort_2
+			focus = meh_destroyer_effort_2
+		}
+		x = 0
+		y = 2
+		relative_position_id = meh_doctrine_navy
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = naval_doctrine_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	focus = {
+		id = meh_cruiser_effort
+		icon = GFX_goal_generic_navy_cruiser
+		prerequisite = {
+			focus = meh_doctrine_navy_2
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_doctrine_navy_2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 2
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+
 	focus = {
 		id = meh_capital_ships_effort
 		icon = GFX_goal_generic_navy_battleship
@@ -1044,23 +961,14 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
 		}
 		completion_reward = {
-			navy_experience = 25
+			navy_experience = 50
 			add_tech_bonus = {
 				name = capital_ships_bonus
 				bonus = 1
 				ahead_reduction = 2
-				uses = 1
+				uses = 3
 				category = bc_tech
 				category = bb_tech
 				category = cv_tech
@@ -1087,6 +995,12 @@ focus_tree = {
 				modifier = meh_robo_factory_dm
 			}
 			set_country_flag = meh_robo_factory_flag
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -1109,6 +1023,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = meh_construction_robots
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = construction_tech
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -1123,7 +1043,7 @@ focus_tree = {
 		relative_position_id = meh_create_construction_robots
 		x = -2
 		y = 1
-		cost = 24
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -1158,7 +1078,7 @@ focus_tree = {
 		relative_position_id = meh_create_construction_robots
 		x = 0
 		y = 1
-		cost = 24
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -1193,7 +1113,7 @@ focus_tree = {
 		relative_position_id = meh_create_construction_robots
 		x = 2
 		y = 1
-		cost = 24
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -1230,7 +1150,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = meh_construct_industrial_complex
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
@@ -1238,9 +1158,16 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = meh_improved_layout
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 2
+				category = concentrated_industry_category
+				category = dispersed_industry_category
+			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 	}
 	focus = {
@@ -1262,6 +1189,12 @@ focus_tree = {
 			custom_effect_tooltip = meh_upgrade_robo_factory_tt
 			add_to_variable = {
 				meh_robo_factory_production = 5000
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
 			}
 		}
 		ai_will_do = {
@@ -1374,6 +1307,35 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = meh_expansion_of_construction_sites
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = meh_improved_layout
+		}
+		relative_position_id = meh_improved_layout
+		x = 2
+		y = 1
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			837 = {
+				urbanize_state = yes
+			}
+			838 = {
+				urbanize_state = yes
+			}
+			379 = {
+				urbanize_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
 		id = meh_extra_tech_slot
 		icon = GFX_focus_research
 		prerequisite = {
@@ -1420,7 +1382,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 4
+			factor = 10
 		}
 	}
 	focus = {
@@ -1447,11 +1409,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
+			factor = 10
 		}
 	}
 	focus = {
@@ -1509,7 +1467,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	focus = {
@@ -1736,102 +1694,150 @@ focus_tree = {
 			fascism > 0.3
 		}
 		completion_reward = {
-			839 = {
+			836 = {
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH
+					prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
 				}
 			}
 		}
