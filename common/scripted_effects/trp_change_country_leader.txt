@@ -2,127 +2,157 @@ trp_change_country_leader = {
 	#Лидеры марионеток
 	retire_country_leader = yes
 	random_list = {
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_01.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_02.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_03.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_04.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_05.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_06.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_07.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_08.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_09.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_10.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_land_11.dds"
 			}
 		}
-		4 = {
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/TRP/generic/TRP_naval_01.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/TRP/generic/TRP_naval_02.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/TRP/generic/TRP_naval_03.dds"
+			}
+		}
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_04.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_05.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_06.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_07.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_08.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_09.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_10.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_11.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_12.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_13.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_naval_14.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_operative_01.dds"
 			}
 		}
-		4 = {
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/TRP/generic/TRP_operative_02.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/TRP/generic/TRP_operative_03.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/TRP/generic/TRP_operative_04.dds"
+			}
+		}
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_operative_05.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TRP/generic/TRP_operative_06.dds"
 			}

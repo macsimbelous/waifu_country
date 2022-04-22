@@ -2,127 +2,187 @@ mms_change_country_leader = {
 	#Лидеры марионеток
 	retire_country_leader = yes
 	random_list = {
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_01.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_02.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_03.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_04.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_05.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_06.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_07.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_08.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_09.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_10.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_11.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_12.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_13.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_14.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_15.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_16.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_17.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_land_18.dds"
 			}
 		}
-		4 = {
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_land_19.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_land_20.dds"
+			}
+		}
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_naval_01.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_naval_02.dds"
 			}
 		}
-		4 = {
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_03.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_04.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_05.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_06.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_07.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_08.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_09.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_10.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_11.dds"
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/MMS/generic/MMS_naval_12.dds"
+			}
+		}
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_operative_01.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_operative_02.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_operative_03.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_operative_05.dds"
 			}
 		}
-		4 = {
+		1 = {
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MMS/generic/MMS_operative_06.dds"
 			}
