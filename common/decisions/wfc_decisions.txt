@@ -68,6 +68,70 @@ wfc_world_conquest_category = {
 			modifier = {
 				if = {
 					limit = {
+						original_tag = MMS
+					}
+					has_country_leader_with_trait = defeatist
+				}
+				add = -100
+			}
+			modifier = {
+				if = {
+					limit = {
+						original_tag = HEN
+					}
+					NOT = {
+						has_country_flag = hen_world_conquest_enabled_flag
+					}
+				}
+				add = -100
+			}
+			modifier = {
+				if = {
+					limit = {
+						original_tag = ACW
+					}
+					NOT = {
+						has_idea = acw_minoboron_idea
+					}
+				}
+				add = -100
+			}
+			modifier = {
+				if = {
+					limit = {
+						original_tag = MAH
+					}
+					NOT = {
+						has_country_flag = mah_crystal_empire_formed_flag
+					}
+				}
+				add = -100
+			}
+			modifier = {
+				if = {
+					limit = {
+						original_tag = TRP
+					}
+					NOT = {
+						has_country_flag = trp_south_american_federation_formed_flag
+					}
+				}
+				add = -100
+			}
+			modifier = {
+				if = {
+					limit = {
+						original_tag = MEH
+					}
+					NOT = {
+						has_country_flag = meh_warmind_complete_flag
+					}
+				}
+				add = -100
+			}
+			modifier = {
+				if = {
+					limit = {
 						has_government = fascism
 					}
 					FROM = {
