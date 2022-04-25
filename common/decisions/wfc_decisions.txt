@@ -92,28 +92,6 @@ wfc_world_conquest_category = {
 			modifier = {
 				if = {
 					limit = {
-						original_tag = MAH
-					}
-					NOT = {
-						has_country_flag = mah_crystal_empire_formed_flag
-					}
-				}
-				add = -5
-			}
-			modifier = {
-				if = {
-					limit = {
-						original_tag = TRP
-					}
-					NOT = {
-						has_country_flag = trp_south_american_federation_formed_flag
-					}
-				}
-				add = -5
-			}
-			modifier = {
-				if = {
-					limit = {
 						original_tag = MEH
 					}
 					NOT = {

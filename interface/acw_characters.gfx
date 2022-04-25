@@ -4,6 +4,10 @@ spriteTypes = {
                 texturefile = "gfx/leaders/ACW/5pb_idea.dds"
 	}
         spriteType = {
+                name = "GFX_portrait_acw_5pb"
+                texturefile = "gfx/leaders/ACW/5pb.dds"
+        }
+        spriteType = {
                 name = "GFX_idea_acw_aika_sumeragi"
                 texturefile = "gfx/leaders/ACW/aika_sumeragi_idea.dds"
 	}
