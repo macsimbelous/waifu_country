@@ -432,6 +432,9 @@ mms_expansion_of_living_space_category = {
 			}
 		}
 	}
+}
+
+economy_decisions = {
 	mms_expansion_of_the_supply_network = {
 		icon = generic_construction
 		fire_only_once = yes

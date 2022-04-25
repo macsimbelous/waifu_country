@@ -48,3 +48,6 @@ trp_cloning_level_up_decision.t:0 "Expand production of clones"
  trp_integration_par_decision:0 "Integration [PAR.GetName]"
  trp_integration_urg_decision:0 "Integration [URG.GetName]"
 
+#economy_decisions
+ trp_expansion_of_the_supply_network:0 "Railway network expansion"
+ trp_railway_to_panama:0 "Railroad to Panama"

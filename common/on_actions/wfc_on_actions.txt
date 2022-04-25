@@ -109,7 +109,7 @@ on_actions = {
 			MEH = {
 				#robofactory
 				set_variable = {
-					meh_robo_factory_production = 10000
+					meh_robo_factory_production = 5000
 				}
 				#Бюджет
 				set_variable = {
