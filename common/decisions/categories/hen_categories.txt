@@ -3,8 +3,22 @@ hen_japan_conquest = {
 	#icon = spr_the_inevitable_civil_war
 	#picture = GFX_decision_cat_tentakles_decisions
 	allowed = {
-		#original_tag = HEN
-		always = no
+		original_tag = HEN
+		#always = no
+	}
+}
+
+hen_internationalism_category = {
+	priority = 19
+	icon = GFX_decision_category_generic_communism
+	allowed = {
+		original_tag = HEN
+	}
+	visible = {
+		OR = {
+			has_government = neutrality
+			has_government = communism
+		}
 	}
 }
 

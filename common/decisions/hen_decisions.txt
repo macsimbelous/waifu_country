@@ -93,8 +93,16 @@ hen_japan_conquest = {
 			add_war_support = 0.1
 			JAP = {
 				every_owned_state = {
-					#add_claim_by = HEN
+					limit = {
+						is_core_of = JAP
+					}
 					add_core_of = HEN
+				}
+				every_owned_state = {
+					limit = {
+						NOT = { is_core_of = JAP }
+					}
+					add_claim_by = HEN
 				}
 			}
 		}
@@ -117,30 +125,6 @@ hen_japan_conquest = {
 			declare_war_on = {
 				target = JAP
 				type = annex_everything
-			}
-		}
-	}
-	hen_join_comintern = {
-		#icon = generic_construction
-		available = {
-			has_government = communism
-		}
-		visible = {
-			NOT = {
-				OR = {
-					has_country_flag = hen_world_conquest_enabled_flag
-					is_in_faction_with = SOV
-				}
-			}
-		}
-		fire_only_once = yes
-		cost = 50
-		ai_will_do = {
-			factor = 15
-		}
-		complete_effect = {
-			SOV = {
-				add_to_faction = HEN
 			}
 		}
 	}
@@ -172,19 +156,253 @@ hen_japan_conquest = {
 			}
 		}
 	}
-	hen_transfert_sahalin = {
-		#icon = generic_construction
-		visible = {
-			has_government = communism
-			is_in_faction_with = SOV
-		}
+}
+
+hen_internationalism_category = {
+	hen_visit_to_sov = {
+		#icon = decision_category_generic_foreign_policy
+		fire_only_once = yes
+		cost = 50
 		available = {
-			has_full_control_of_state = 537
+			SOV = {
+				has_government = communism
+			}
+		}
+		complete_effect = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = small_increase
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = HEN
+					modifier = small_increase
+				}
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	hen_investment_in_soviet_infrastructure = {
+		icon = generic_construction
+		fire_only_once = yes
+		cost = 50
+		days_remove = 120
+		available = {
+			SOV = {
+				has_government = communism
+			}
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			build_railway = {
+				level = 1
+				path = {
+					4725
+					7763
+					12657
+					10678
+					7851
+					12543
+					10559
+					7725
+					4677
+				}
+			}
+			build_railway = {
+				level = 1
+				path = {
+					4797
+					12540
+					10661
+					10549
+					1813
+					1876
+					12621
+					12691
+				}
+			}
+			build_railway = {
+				level = 2
+				path = {
+					12189
+					7266
+					3963
+					1325
+					9589
+					9604
+				}
+			}
+			409 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					province = 9604
+					level = 3
+					instant_build = yes
+				}
+			}
+			408 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			655 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			560 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			657 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			561 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			563 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = SOV
+				modifier = small_increase
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = HEN
+					modifier = small_increase
+				}
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	hen_technology_sharing_sov = {
+		fire_only_once = yes
+		cost = 50
+		available = {
+			SOV = {
+				has_government = communism
+			}
+		}
+		complete_effect = {
+			SOV = {
+				add_tech_bonus = {
+					name = ss_bonus
+					bonus = 1
+					ahead_reduction = 2
+					uses = 1
+					category = ss_tech
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1
+					uses = 2
+					category = industry
+				}
+			}
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 2
+				category = armor
+			}
+			add_opinion_modifier = {
+				target = SOV
+				modifier = small_increase
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = HEN
+					modifier = small_increase
+				}
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	hen_join_comintern = {
+		#icon = generic_construction
+		available = {
+			has_government = communism
+			SOV = {
+				has_government = communism
+				is_faction_leader = yes
+			}
+		}
+		visible = {
+			NOT = {
+				is_in_faction_with = SOV
+			}
 		}
 		fire_only_once = yes
 		cost = 50
 		ai_will_do = {
 			factor = 15
+		}
+		complete_effect = {
+			SOV = {
+				add_to_faction = HEN
+			}
+		}
+	}
+	hen_transfert_sahalin = {
+		#icon = generic_construction
+		fire_only_once = yes
+		cost = 50
+		available = {
+			has_government = communism
+			is_in_faction_with = SOV
+			has_full_control_of_state = 537
 		}
 		complete_effect = {
 			SOV = {
@@ -195,6 +413,55 @@ hen_japan_conquest = {
 				remove_core_of = JAP
 				remove_core_of = HEN
 			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	hen_seduce_stalin = {
+		icon = decision_SOV_the_centre
+		fire_only_once = yes
+		cost = 50
+		available = {
+			has_government = communism
+			is_in_faction_with = SOV
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				producer = SOV
+				amount = 10000
+			}
+			add_opinion_modifier = {
+				target = SOV
+				modifier = large_increase
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = HEN
+					modifier = large_increase
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	hen_invite_prc = {
+		#icon = generic_construction
+		fire_only_once = yes
+		cost = 50
+		available = {
+			has_government = communism
+			is_in_faction_with = SOV
+		}
+		complete_effect = {
+			SOV = {
+				add_to_faction = PRC
+			}
+		}
+		ai_will_do = {
+			factor = 15
 		}
 	}
 }

@@ -272,17 +272,27 @@ on_actions = {
 				HEN = {
 					set_country_flag = hen_world_conquest_enabled_flag
 					remove_ideas = hen_attack_jap_bonus
-					transfer_state = 529
-					transfer_state = 530
-					transfer_state = 531
-					transfer_state = 532
-					transfer_state = 535
-					transfer_state = 282
-					transfer_state = 534
-					transfer_state = 533
-					transfer_state = 536
-					transfer_state = 537
-					transfer_state = 555
+					# transfer_state = 529
+					# transfer_state = 530
+					# transfer_state = 531
+					# transfer_state = 532
+					# transfer_state = 535
+					# transfer_state = 282
+					# transfer_state = 534
+					# transfer_state = 533
+					# transfer_state = 536
+					# transfer_state = 537
+					# transfer_state = 555
+				}
+				JAP = {
+					every_owned_state = {
+						limit = {
+							is_core_of = JAP
+						}
+						HEN = {
+							transfer_state = PREV
+						}
+					}
 				}
 			}
 			if = {

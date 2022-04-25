@@ -1,9 +1,9 @@
 meh_modernization_category = {
 	meh_create_robo_factory = {
 		icon = generic_construction
-		allowed = {
-			always = no
-		}
+		# allowed = {
+		# 	always = no
+		# }
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -26,9 +26,9 @@ meh_modernization_category = {
 	}
 	meh_upgrade_robo_factory = {
 		icon = generic_construction
-		allowed = {
-			always = no
-		}
+		# allowed = {
+		# 	always = no
+		# }
 		available = {
 			num_of_civilian_factories_available_for_projects > 9
 		}
@@ -54,9 +54,9 @@ meh_modernization_category = {
 	}
 	meh_create_construction_robots = {
 		icon = generic_construction
-		allowed = {
-			always = no
-		}
+		# allowed = {
+		# 	always = no
+		# }
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -75,9 +75,9 @@ meh_modernization_category = {
 	}
 	meh_create_warmind = {
 		icon = generic_construction
-		allowed = {
-			always = no
-		}
+		# allowed = {
+		# 	always = no
+		# }
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -97,9 +97,9 @@ meh_modernization_category = {
 	}
 	meh_upgrade_warmind_agr = {
 		icon = generic_construction
-		allowed = {
-			always = no
-		}
+		# allowed = {
+		# 	always = no
+		# }
 		available = {
 			num_of_civilian_factories_available_for_projects > 9
 			has_idea = meh_warmind
@@ -138,9 +138,9 @@ meh_modernization_category = {
 	}
 	meh_upgrade_warmind_def = {
 		icon = generic_construction
-		allowed = {
-			always = no
-		}
+		# allowed = {
+		# 	always = no
+		# }
 		available = {
 			num_of_civilian_factories_available_for_projects > 9
 			has_idea = meh_warmind
@@ -179,9 +179,9 @@ meh_modernization_category = {
 	}
 	meh_upgrade_ai = {
 		icon = generic_construction
-		allowed = {
-			always = no
-		}
+		# allowed = {
+		# 	always = no
+		# }
 		available = {
 			num_of_civilian_factories_available_for_projects > 9
 		}
