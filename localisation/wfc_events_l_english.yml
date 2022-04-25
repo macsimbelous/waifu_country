@@ -1,4 +1,19 @@
 ﻿l_english:
+#wfc_event.1
+ wfc_event.1.t:0 "Communist demonstrations!"
+ wfc_event.1.d:0 "Communist demonstrations!"
+ wfc_event.1.a:0 "§GSupport!§!"
+ wfc_event.1.b:0 "§RSuppress!§!"
+ wfc_event.1.c:0 "Ignore."
+
+#wfc_event.2
+ wfc_event.2.t:0 "Nationalist demonstrations!"
+ wfc_event.2.d:0 "Nationalist demonstrations!"
+
+#wfc_event.3
+ wfc_event.3.t:0 "Democrat Demonstrations!"
+ wfc_event.3.d:0 "Democrat Demonstrations!"
+
 #News
 wfc_news.3.t:0 "Mass cloning!"
 wfc_news.3.d:0 "[TRP.GetName]'s vain attempts to solve the demographic problem forced the government to adopt a mass cloning program."

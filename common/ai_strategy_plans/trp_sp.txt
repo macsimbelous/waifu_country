@@ -11,9 +11,9 @@ TRP_historical = {
 		always = no
 	}
 	ai_national_focuses = {
-		trp_support_the_opposition
-		trp_go_left
-		trp_communist_support
+		political_effort
+		collectivist_ethos
+		internationalism_focus
 	}
 	research = {
 		infantry_weapons = 50

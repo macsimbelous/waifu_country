@@ -351,6 +351,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_tur_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 60
@@ -407,6 +408,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_irq_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -449,6 +451,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_sau_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -506,6 +509,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_oma_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -563,6 +567,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_yem_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = no
 		days_re_enable = 180
@@ -685,6 +690,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_kuw_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -759,6 +765,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_qat_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -816,6 +823,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_uae_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -873,6 +881,7 @@ mah_crystal_empire_category = {
 		}
 	}
 	mah_conquest_of_egy_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30

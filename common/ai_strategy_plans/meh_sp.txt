@@ -11,17 +11,9 @@ MEH_historical = {
 		always = no
 	}
 	ai_national_focuses = {
-		meh_upgrade_ai
-		meh_exterminatus_focus
-		meh_create_robo_factory
-		meh_create_construction_robots
-		meh_construct_industrial_complex
-		meh_construct_arms_factory
-		meh_construct_naval_dockyard
-		meh_improved_layout
-		meh_upgrade_robo_factory
-		meh_create_warmind
-		meh_upgrade_warmind_agr
+		political_effort
+		collectivist_ethos
+		nationalism_focus
 	}
 	research = {
 		infantry_weapons = 50

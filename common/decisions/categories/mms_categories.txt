@@ -15,6 +15,7 @@ mms_workouts_shamiko_category = {
 		has_country_leader_with_trait = defeatist
 	}
 }
+
 mms_civil_war_category = {
 	priority = 12
 	#icon = decision_generic_ignite_civil_war
@@ -25,3 +26,17 @@ mms_civil_war_category = {
 	}
 }
 
+mms_expansion_of_living_space_category = {
+	priority = 11
+	#icon = decision_generic_ignite_civil_war
+	picture = GFX_mms_workouts_shamiko_category
+	#visible_when_empty = yes
+	allowed = {
+		original_tag = MMS
+	}
+	available = {
+		NOT = {
+			has_country_leader_with_trait = defeatist
+		}
+	}
+}

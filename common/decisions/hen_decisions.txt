@@ -108,7 +108,7 @@ hen_japan_conquest = {
 		}
 	}
 	hen_declare_war_jap = {
-		#icon = generic_construction
+		icon = generic_ignite_civil_war
 		available = {
 			has_country_flag = hen_stockpile_up_flag
 			has_country_flag = hen_seduce_politics_flag
@@ -185,7 +185,11 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 15
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
 		}
 	}
 	hen_investment_in_soviet_infrastructure = {
@@ -312,7 +316,11 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 15
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
 		}
 	}
 	hen_technology_sharing_sov = {
@@ -367,7 +375,11 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 15
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
 		}
 	}
 	hen_join_comintern = {
@@ -387,7 +399,11 @@ hen_internationalism_category = {
 		fire_only_once = yes
 		cost = 50
 		ai_will_do = {
-			factor = 15
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
 		}
 		complete_effect = {
 			SOV = {
@@ -415,7 +431,11 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 15
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
 		}
 	}
 	hen_seduce_stalin = {
@@ -444,7 +464,11 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 15
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
 		}
 	}
 	hen_invite_prc = {
@@ -461,7 +485,11 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 15
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
 		}
 	}
 }

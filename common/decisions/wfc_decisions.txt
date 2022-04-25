@@ -1,5 +1,6 @@
 wfc_world_conquest_category = {
 	wfc_world_conquest_decision = {
+		icon = generic_ignite_civil_war
 		#war_with_target_on_complete = yes
 		war_with_target_on_remove = yes
 		available = {

@@ -1,15 +1,15 @@
 ﻿l_english:
 
 #mms_workouts_shamiko_category
-mms_workouts_shamiko_category:0 "Shamiko's workouts"
-mms_workouts_shamiko_category_desc:0 "Attack: §G[?mms_shamiko_attack]§!\nDefence: §G[?mms_shamiko_defence]§!\nSpeed: §G[?mms_shamiko_speed]§!\nWorkouts: §G[?mms_shamiko_workouts_count]§! out of §G10§!"
-mms_train_shamiko_attack:0 "Train attack"
-mms_train_shamiko_protection:0 "Train defense"
-mms_train_shamiko_speed:0 "Train speed"
-mms_workouts_shamiko_final:0 "Finish training"
-mms_workouts_shamiko_final_tt:0 "Maximum number of workouts"
-mms_workouts_shamiko_not_final_tt:0 "Not the maximum number of workouts"
-mms_train_shamiko_run_tt:0 "No active workout"
+ mms_workouts_shamiko_category:0 "Shamiko's workouts"
+ mms_workouts_shamiko_category_desc:0 "Attack: §G[?mms_shamiko_attack]§!\nDefence: §G[?mms_shamiko_defence]§!\nSpeed: §G[?mms_shamiko_speed]§!\nWorkouts: §G[?mms_shamiko_workouts_count]§! out of §G10§!"
+ mms_train_shamiko_attack:0 "Train attack"
+ mms_train_shamiko_protection:0 "Train defense"
+ mms_train_shamiko_speed:0 "Train speed"
+ mms_workouts_shamiko_final:0 "Finish training"
+ mms_workouts_shamiko_final_tt:0 "Maximum number of workouts"
+ mms_workouts_shamiko_not_final_tt:0 "Not the maximum number of workouts"
+ mms_train_shamiko_run_tt:0 "No active workout"
 
 #mms_civil_war_category
  mms_civil_war_category:0 "§RCivil War!§!"
@@ -17,5 +17,11 @@ mms_train_shamiko_run_tt:0 "No active workout"
  mms_democratic_rise_decision:0 "Rise of the Democrats"
  mms_communism_rise_decision:0 "Communist Revolution"
 
-
+#mms_expansion_of_living_space_category
+ mms_expansion_of_living_space_category:0 "Expansion of living space"
+ mms_add_claims_to_per_and_afg:0 "Substantiate claims"
+ mms_attack_per:0 "Capture §R[PER.GetName]§!"
+ mms_attack_afg:0 "Capture §R[AFG.GetName]§!"
+ mms_colonization_per_and_afg:0 "Colonization of Iran and Afghanistan"
+ mms_expansion_of_the_supply_network:0 "Railway network expansion"
 

@@ -17,5 +17,13 @@
  mms_democratic_rise_decision:0 "Восстание демократов"
  mms_communism_rise_decision:0 "Коммунистическая революция"
 
+#mms_expansion_of_living_space_category
+ mms_expansion_of_living_space_category:0 "Расширение зизненного пространства"
+ mms_add_claims_to_per_and_afg:0 "Обосновать притензии"
+ mms_attack_per:0 "Захватить §R[PER.GetName]§!"
+ mms_attack_afg:0 "Захватить §R[AFG.GetName]§!"
+ mms_colonization_per_and_afg:0 "Колонизация Ирана и Авганистана"
+ mms_expansion_of_the_supply_network:0 "Расширение железнодорожной сеть"
+
 
 

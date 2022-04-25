@@ -16,7 +16,7 @@ trp_cloning_category = {
 			factor = 10
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 25
 		days_remove = 180
 		remove_effect = {
 			set_country_flag = trp_cloning_level_1
@@ -46,7 +46,7 @@ trp_cloning_category = {
 			}
 		}
 		fire_only_once = no
-		cost = 150
+		cost = 100
 		days_re_enable = 60
 		days_remove = 30
 		remove_effect = {
@@ -66,7 +66,7 @@ trp_cloning_category = {
 			}
 		}
 		fire_only_once = yes
-		cost = 300
+		cost = 25
 		days_remove = 90
 		available = {
 			num_of_civilian_factories_available_for_projects > 2
@@ -91,7 +91,7 @@ trp_cloning_category = {
 			}
 		}
 		fire_only_once = yes
-		cost = 300
+		cost = 25
 		days_remove = 120
 		available = {
 			num_of_civilian_factories_available_for_projects > 5
@@ -116,7 +116,7 @@ trp_cloning_category = {
 			}
 		}
 		fire_only_once = yes
-		cost = 300
+		cost = 25
 		days_remove = 150
 		available = {
 			num_of_civilian_factories_available_for_projects > 8
@@ -141,7 +141,7 @@ trp_cloning_category = {
 			}
 		}
 		fire_only_once = yes
-		cost = 300
+		cost = 25
 		days_remove = 180
 		available = {
 			num_of_civilian_factories_available_for_projects > 11
@@ -639,6 +639,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_ven_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 60
@@ -702,6 +703,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_col_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -765,6 +767,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_ecu_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -840,6 +843,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_pru_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -903,6 +907,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_bol_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 60
@@ -966,6 +971,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_bra_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 60
@@ -1025,6 +1031,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_chl_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -1100,6 +1107,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_arg_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -1175,6 +1183,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_par_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -1250,6 +1259,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_urg_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
@@ -1325,6 +1335,7 @@ trp_south_american_federation = {
 		}
 	}
 	trp_conquest_of_pan_decision = {
+		icon = generic_ignite_civil_war
 		cost = 100
 		fire_only_once = yes
 		days_remove = 30
