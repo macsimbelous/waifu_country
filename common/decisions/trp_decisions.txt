@@ -671,13 +671,6 @@ trp_south_american_federation = {
 				has_war = yes
 				add = -1
 			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
-			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -734,13 +727,6 @@ trp_south_american_federation = {
 			modifier = {
 				has_war = yes
 				add = -1
-			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
 			}
 		}
 		modifier = {
@@ -811,13 +797,6 @@ trp_south_american_federation = {
 				has_war = yes
 				add = -1
 			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
-			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -874,13 +853,6 @@ trp_south_american_federation = {
 			modifier = {
 				has_war = yes
 				add = -1
-			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
 			}
 		}
 		modifier = {
@@ -939,13 +911,6 @@ trp_south_american_federation = {
 				has_war = yes
 				add = -1
 			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
-			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -999,13 +964,6 @@ trp_south_american_federation = {
 		}
 		ai_will_do = {
 			factor = 3
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
-			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1074,13 +1032,6 @@ trp_south_american_federation = {
 			modifier = {
 				has_war = yes
 				add = -1
-			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
 			}
 		}
 		modifier = {
@@ -1151,13 +1102,6 @@ trp_south_american_federation = {
 				has_war = yes
 				add = -1
 			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
-			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1227,13 +1171,6 @@ trp_south_american_federation = {
 				has_war = yes
 				add = -1
 			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
-			}
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1302,13 +1239,6 @@ trp_south_american_federation = {
 			modifier = {
 				has_war = yes
 				add = -1
-			}
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-				add = -100
 			}
 		}
 		modifier = {
