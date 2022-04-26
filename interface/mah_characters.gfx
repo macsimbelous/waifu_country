@@ -1,156 +1,317 @@
 spriteTypes = {
-        spriteType = {
-                name = "GFX_idea_mah_arika_yumemiya"
-                texturefile = "gfx/leaders/MAH/arika_yumemiya_idea.dds"
-        }
+        #agents
         spriteType = {
                 name = "GFX_idea_mah_hitomi_tsukishiro"
                 texturefile = "gfx/leaders/MAH/hitomi_tsukishiro_idea.dds"
         }
         spriteType = {
+                name = "GFX_Hitomi_Tsukishiro"
+                texturefile = "gfx/leaders/MAH/Hitomi_Tsukishiro.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_arika_yumemiya"
+                texturefile = "gfx/leaders/MAH/arika_yumemiya_idea.dds"
+        }
+	spriteType = {
+		name = "GFX_portrait_arika_yumemiya"
+		texturefile = "gfx/leaders/MAH/arika_yumemiya.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_illyasviel_von_einzbern"
                 texturefile = "gfx/leaders/MAH/illyasviel_von_einzbern_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_illyasviel_von_einzbern"
+		texturefile = "gfx/leaders/MAH/illyasviel_von_einzbern.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_madoka_kaname"
                 texturefile = "gfx/leaders/MAH/madoka_kaname_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_Madoka_Kaname"
+		texturefile = "gfx/leaders/MAH/Madoka_Kaname.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_momo_chiyoda"
                 texturefile = "gfx/leaders/MAH/momo_chiyoda_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_Momo_Chiyoda"
+		texturefile = "gfx/leaders/MAH/Momo_Chiyoda.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_nanoha_takamachi"
                 texturefile = "gfx/leaders/MAH/nanoha_takamachi_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_Nanoha_Takamachi"
+		texturefile = "gfx/leaders/MAH/Nanoha_Takamachi.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_asuka_ootorii"
                 texturefile = "gfx/leaders/MAH/asuka_ootorii_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_asuka_ootorii"
+		texturefile = "gfx/leaders/MAH/asuka_ootorii.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_usagi_tsukino"
                 texturefile = "gfx/leaders/MAH/usagi_tsukino_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_usagi_tsukino"
+		texturefile = "gfx/leaders/MAH/usagi_tsukino.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_ami_mizuno"
                 texturefile = "gfx/leaders/MAH/ami_mizuno_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_ami_mizuno"
+		texturefile = "gfx/leaders/MAH/ami_mizuno.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_makoto_kino"
                 texturefile = "gfx/leaders/MAH/makoto_kino_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_makoto_kino"
+		texturefile = "gfx/leaders/MAH/makoto_kino.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_minako_aino"
                 texturefile = "gfx/leaders/MAH/minako_aino_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_minako_aino"
+		texturefile = "gfx/leaders/MAH/minako_aino.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_rei_hino"
                 texturefile = "gfx/leaders/MAH/rei_hino_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_rei_hino"
+		texturefile = "gfx/leaders/MAH/rei_hino.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_chisato_yonamine"
                 texturefile = "gfx/leaders/MAH/chisato_yonamine_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_chisato_yonamine"
+		texturefile = "gfx/leaders/MAH/chisato_yonamine.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_kurumi_mugen"
                 texturefile = "gfx/leaders/MAH/kurumi_mugen_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_kurumi_mugen"
+		texturefile = "gfx/leaders/MAH/kurumi_mugen.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_homura_akemi"
                 texturefile = "gfx/leaders/MAH/homura_akemi_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_homura_akemi"
+		texturefile = "gfx/leaders/MAH/homura_akemi.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_subaru_nakajima"
                 texturefile = "gfx/leaders/MAH/subaru_nakajima_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_subaru_nakajima"
+		texturefile = "gfx/leaders/MAH/subaru_nakajima.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_vivio"
                 texturefile = "gfx/leaders/MAH/vivio_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_vivio"
+		texturefile = "gfx/leaders/MAH/vivio.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_fate_testarossa"
                 texturefile = "gfx/leaders/MAH/fate_testarossa_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_fate_testarossa"
+		texturefile = "gfx/leaders/MAH/fate_testarossa.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_akane_isshiki"
                 texturefile = "gfx/leaders/MAH/akane_isshiki_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_akane_isshiki"
+		texturefile = "gfx/leaders/MAH/akane_isshiki.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_hayato_juumonji"
                 texturefile = "gfx/leaders/MAH/hayato_juumonji_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_hayato_juumonji"
+		texturefile = "gfx/leaders/MAH/hayato_juumonji.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_sakuyo_mikage"
                 texturefile = "gfx/leaders/MAH/sakuyo_mikage_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_sakuyo_mikage"
+		texturefile = "gfx/leaders/MAH/sakuyo_mikage.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_sakuyo_mikage_civ"
+		texturefile = "gfx/leaders/MAH/sakuyo_mikage_civ.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_saki_uno"
                 texturefile = "gfx/leaders/MAH/saki_uno_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_saki_uno"
+		texturefile = "gfx/leaders/MAH/saki_uno.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_frill"
                 texturefile = "gfx/leaders/MAH/frill_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_frill"
+		texturefile = "gfx/leaders/MAH/frill.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_mia_cyrus"
                 texturefile = "gfx/leaders/MAH/mia_cyrus_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_mia_cyrus"
+		texturefile = "gfx/leaders/MAH/mia_cyrus.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_honey_kisaragi"
                 texturefile = "gfx/leaders/MAH/honey_kisaragi_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_honey_kisaragi"
+		texturefile = "gfx/leaders/MAH/honey_kisaragi.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_utena_tenjou"
                 texturefile = "gfx/leaders/MAH/utena_tenjou_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_utena_tenjou"
+		texturefile = "gfx/leaders/MAH/utena_tenjou.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_mai_tokiha"
                 texturefile = "gfx/leaders/MAH/mai_tokiha_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_mai_tokiha"
+		texturefile = "gfx/leaders/MAH/mai_tokiha.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_lena_sayers"
                 texturefile = "gfx/leaders/MAH/lena_sayers_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_lena_sayers"
+		texturefile = "gfx/leaders/MAH/lena_sayers.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_lena_sayers_civilian"
+		texturefile = "gfx/leaders/MAH/lena_sayers_civilian.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_kobato_hanato"
                 texturefile = "gfx/leaders/MAH/kobato_hanato_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_kobato_hanato"
+		texturefile = "gfx/leaders/MAH/kobato_hanato.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_maron_kusakabe"
                 texturefile = "gfx/leaders/MAH/maron_kusakabe_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_maron_kusakabe"
+		texturefile = "gfx/leaders/MAH/maron_kusakabe.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_nagisa_misumi"
                 texturefile = "gfx/leaders/MAH/nagisa_misumi_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_nagisa_misumi"
+		texturefile = "gfx/leaders/MAH/nagisa_misumi.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_honoka_yukishiro"
                 texturefile = "gfx/leaders/MAH/honoka_yukishiro_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_honoka_yukishiro"
+		texturefile = "gfx/leaders/MAH/honoka_yukishiro.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_lucia_nanami"
                 texturefile = "gfx/leaders/MAH/lucia_nanami_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_lucia_nanami"
+		texturefile = "gfx/leaders/MAH/lucia_nanami.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_himeno_awayuki"
                 texturefile = "gfx/leaders/MAH/himeno_awayuki_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_himeno_awayuki"
+		texturefile = "gfx/leaders/MAH/himeno_awayuki.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_sakura_kinomoto"
                 texturefile = "gfx/leaders/MAH/sakura_kinomoto_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_sakura_kinomoto"
+		texturefile = "gfx/leaders/MAH/sakura_kinomoto.dds"
+	}
         spriteType = {
                 name = "GFX_idea_mah_mint_aizawa"
                 texturefile = "gfx/leaders/MAH/mint_aizawa_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_mint_aizawa"
+		texturefile = "gfx/leaders/MAH/mint_aizawa.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_zakuro_fujiwara"
                 texturefile = "gfx/leaders/MAH/zakuro_fujiwara_idea.dds"
         }
         spriteType = {
+		name = "GFX_portrait_zakuro_fujiwara"
+		texturefile = "gfx/leaders/MAH/zakuro_fujiwara.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_mah_komugi_yoshida"
                 texturefile = "gfx/leaders/MAH/komugi_yoshida_idea.dds"
         }
+        spriteType = {
+		name = "GFX_portrait_komugi_yoshida"
+		texturefile = "gfx/leaders/MAH/komugi_yoshida.dds"
+	}
         spriteType = {
                 name = "GFX_portrait_mah_amanogawa_kirara"
                 texturefile = "gfx/leaders/MAH/amanogawa_kirara.dds"
@@ -207,6 +368,127 @@ spriteTypes = {
                 name = "GFX_idea_mah_takizawa_asuka"
                 texturefile = "gfx/leaders/MAH/takizawa_asuka_idea.dds"
         }
+        #generic
+	spriteType = {
+		name = "GFX_portrait_mah_land_01"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_02"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_03"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_04"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_05"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_06"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_07"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_08"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_09"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_01"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_02"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_03"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_04"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_05"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_06"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_07"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_08"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_09"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_10"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_10.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_naval_11"
+		texturefile = "gfx/leaders/MAH/generic/mah_naval_11.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_01"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_02"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_03"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_04"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_05"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_06"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_07"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_08"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_09"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_operative_10"
+		texturefile = "gfx/leaders/MAH/generic/mah_operative_10.dds"
+	}
 }
 
 

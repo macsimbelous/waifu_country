@@ -4,10 +4,10 @@ characters = {
 		name = ACW_Erza
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ACW/Erza.dds"
+				large = GFX_portrait_erza
 			}
 			army = {
-				large = "gfx/leaders/ACW/Erza.dds"
+				large = GFX_portrait_erza
 				small = GFX_idea_acw_erza
 			}
 		}
@@ -63,10 +63,10 @@ characters = {
 		name = ACW_Asuka
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ACW/Asuka_lider.dds"
+				large = GFX_portrait_asuka_lider
 			}
 			army = {
-				large = "gfx/leaders/ACW/Asuka.dds"
+				large = GFX_portrait_asuka
 				small = GFX_idea_acw_asuka_lider
 			}
 		}
@@ -120,11 +120,11 @@ characters = {
 		name = ACW_Aurora_Suya_Rhys_Kaymin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ACW/Aurora_Suya_Rhys_Kaymin.dds"
+				large = GFX_portrait_aurora_suya_rhys_kaymin
 			}
 			army = {
-				large = "gfx/leaders/ACW/Aurora_Suya_Rhys_Kaymin.dds"
-				small = "gfx/leaders/ACW/aurora_suya_rhys_kaymin_idea.dds"
+				large = GFX_portrait_aurora_suya_rhys_kaymin
+				small = GFX_idea_acw_aurora_suya_rhys_kaymin
 			}
 		}
 		country_leader = {
@@ -143,10 +143,10 @@ characters = {
 		name = ACW_Anastasia
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ACW/Anastasia.dds"
+				large = GFX_portrait_anastasia
 			}
 			army = {
-				large = "gfx/leaders/ACW/Anastasia_general.dds"
+				large = GFX_portrait_anastasia_general
 				small = GFX_idea_acw_anastasia
 			}
 		}
@@ -203,8 +203,8 @@ characters = {
 		name = ACW_Lightning
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/lightning_idea.dds"
-				large = "gfx/leaders/ACW/Lightning.dds"
+				small = GFX_idea_acw_lightning
+				large = GFX_portrait_lightning
 			}
 		}
 		advisor = {
@@ -237,8 +237,8 @@ characters = {
 		name = ACW_Mamako_Oosuki
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/mamako_oosuki_idea.dds"
-				large = "gfx/leaders/ACW/Mamako_Oosuki.dds"
+				small = GFX_idea_acw_mamako_oosuki
+				large = GFX_portrait_mamako_oosuki
 			}
 		}
 		advisor = {
@@ -273,10 +273,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_anastasia_romanova
-				large = "gfx/leaders/ACW/anastasia_romanova.dds"
+				large = GFX_portrait_anastasia_romanova
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/anastasia_romanova.dds"
+				large = GFX_portrait_anastasia_romanova
 			}
 		}
 		allowed_civil_war = {
@@ -299,8 +299,8 @@ characters = {
 		name = ACW_Saint_Martha
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/saint_martha_idea.dds"
-				large = "gfx/leaders/ACW/Saint_Martha.dds"
+				small = GFX_idea_acw_saint_martha
+				large = GFX_portrait_saint_martha
 			}
 		}
 		corps_commander = {
@@ -319,8 +319,8 @@ characters = {
 		name = ACW_Nishizumi_Miho
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/nishizumi_miho_idea.dds"
-				large = "gfx/leaders/ACW/Nishizumi_Miho.dds"
+				small = GFX_idea_acw_nishizumi_miho
+				large = GFX_portrait_nishizumi_miho
 			}
 		}
 		corps_commander = {
@@ -340,8 +340,8 @@ characters = {
 		name = ACW_Asuna_Yuuki
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/asuna_yuuki_idea.dds"
-				large = "gfx/leaders/ACW/Asuna_Yuuki.dds"
+				small = GFX_idea_acw_asuna_yuuki
+				large = GFX_portrait_asuna_yuuki
 			}
 		}
 		corps_commander = {
@@ -374,8 +374,8 @@ characters = {
 		name = ACW_Mash_Kyrielight
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/mash_kyrielight_idea.dds"
-				large = "gfx/leaders/ACW/Mash_Kyrielight.dds"
+				small = GFX_idea_acw_mash_kyrielight
+				large = GFX_portrait_mash_kyrielight
 			}
 		}
 		corps_commander = {
@@ -395,8 +395,8 @@ characters = {
 		name = ACW_Maple
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/maple_idea.dds"
-				large = "gfx/leaders/ACW/Maple.dds"
+				small = GFX_idea_acw_maple
+				large = GFX_portrait_maple
 			}
 		}
 		corps_commander = {
@@ -416,8 +416,8 @@ characters = {
 		name = ACW_Yoko_Littner
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/yoko_littner_idea.dds"
-				large = "gfx/leaders/ACW/Yoko_Littner.dds"
+				small = GFX_idea_acw_yoko_littner
+				large = GFX_portrait_yoko_littner
 			}
 		}
 		corps_commander = {
@@ -438,8 +438,8 @@ characters = {
 		name = ACW_Kallen_Stadtfeld
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/kallen_stadtfeld_idea.dds"
-				large = "gfx/leaders/ACW/Kallen_Stadtfeld.dds"
+				small = GFX_idea_acw_kallen_stadtfeld
+				large = GFX_portrait_kallen_stadtfeld
 			}
 		}
 		advisor = {
@@ -471,8 +471,8 @@ characters = {
 		name = ACW_Saki_Rukino
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/saki_rukino_idea.dds"
-				large = "gfx/leaders/ACW/Saki_Rukino.dds"
+				small = GFX_idea_acw_saki_rukino
+				large = GFX_portrait_saki_rukino
 			}
 		}
 		corps_commander = {
@@ -492,8 +492,8 @@ characters = {
 		name = ACW_Kurumi_Tokisaki
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/kurumi_tokisaki_idea.dds"
-				large = "gfx/leaders/ACW/Kurumi_Tokisaki.dds"
+				small = GFX_idea_acw_kurumi_tokisaki
+				large = GFX_portrait_kurumi_tokisaki
 			}
 		}
 		corps_commander = {
@@ -513,8 +513,8 @@ characters = {
 		name = ACW_Sanya_V_Litvyak
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/sanya_v_litvyak_idea.dds"
-				large = "gfx/leaders/ACW/Sanya_V_Litvyak.dds"
+				small = GFX_idea_acw_sanya_v_litvyak
+				large = GFX_portrait_sanya_v_litvyak
 			}
 		}
 		corps_commander = {
@@ -544,8 +544,8 @@ characters = {
 		name = ACW_Isuzu_Sento
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/isuzu_sento_idea.dds"
-				large = "gfx/leaders/ACW/Isuzu_Sento.dds"
+				small = GFX_idea_acw_isuzu_sento
+				large = GFX_portrait_isuzu_sento
 			}
 		}
 		corps_commander = {
@@ -566,8 +566,8 @@ characters = {
 		name = ACW_Volemia
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/volemia_idea.dds"
-				large = "gfx/leaders/ACW/Volemia.dds"
+				small = GFX_idea_acw_volemia
+				large = GFX_portrait_volemia
 			}
 		}
 		corps_commander = {
@@ -586,8 +586,8 @@ characters = {
 		name = ACW_Camilla
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/camilla_idea.dds"
-				large = "gfx/leaders/ACW/Camilla.dds"
+				small = GFX_idea_acw_camilla
+				large = GFX_portrait_camilla
 			}
 		}
 		corps_commander = {
@@ -607,8 +607,8 @@ characters = {
 		name = ACW_Sinon
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/sinon_idea.dds"
-				large = "gfx/leaders/ACW/Sinon.dds"
+				small = GFX_idea_acw_sinon
+				large = GFX_portrait_sinon
 			}
 		}
 		corps_commander = {
@@ -628,8 +628,8 @@ characters = {
 		name = ACW_Kaname_Chidori
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/kaname_chidori_idea.dds"
-				large = "gfx/leaders/ACW/Kaname_Chidori.dds"
+				small = GFX_idea_acw_kaname_chidori
+				large = GFX_portrait_kaname_chidori
 			}
 		}
 		corps_commander = {
@@ -649,8 +649,8 @@ characters = {
 		name = ACW_Yoshiko_Tsushima
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/yoshiko_tsushima_idea.dds"
-				large = "gfx/leaders/ACW/Yoshiko_Tsushima.dds"
+				small = GFX_idea_acw_yoshiko_tsushima
+				large = GFX_portrait_yoshiko_tsushima
 			}
 		}
 		corps_commander = {
@@ -669,8 +669,8 @@ characters = {
 		name = ACW_Ranko_Kanzaki
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/ranko_kanzaki_idea.dds"
-				large = "gfx/leaders/ACW/Ranko_Kanzaki.dds"
+				small = GFX_idea_acw_ranko_kanzaki
+				large = GFX_portrait_ranko_kanzaki
 			}
 		}
 		corps_commander = {
@@ -690,8 +690,8 @@ characters = {
 		name = ACW_Elma
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/elma_idea.dds"
-				large = "gfx/leaders/ACW/Elma.dds"
+				small = GFX_idea_acw_elma
+				large = GFX_portrait_elma
 			}
 		}
 		corps_commander = {
@@ -724,8 +724,8 @@ characters = {
 		name = ACW_Ako_Tamaki
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/ako_tamaki_idea.dds"
-				large = "gfx/leaders/ACW/Ako_Tamaki.dds"
+				small = GFX_idea_acw_ako_tamaki
+				large = GFX_portrait_ako_tamaki
 			}
 		}
 		corps_commander = {
@@ -744,8 +744,8 @@ characters = {
 		name = ACW_Celica
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/celica_idea.dds"
-				large = "gfx/leaders/ACW/Celica.dds"
+				small = GFX_idea_acw_celica
+				large = GFX_portrait_celica
 			}
 		}
 		corps_commander = {
@@ -766,8 +766,8 @@ characters = {
 		name = ACW_Cryska_Barchenowa
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/cryska_barchenowa_idea.dds"
-				large = "gfx/leaders/ACW/Cryska_Barchenowa.dds"
+				small = GFX_idea_acw_cryska_barchenowa
+				large = GFX_portrait_cryska_barchenowa
 			}
 		}
 		corps_commander = {
@@ -786,8 +786,8 @@ characters = {
 		name = ACW_Fiora
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/fiora_idea.dds"
-				large = "gfx/leaders/ACW/Fiora.dds"
+				small = GFX_idea_acw_fiora
+				large = GFX_portrait_fiora
 			}
 		}
 		corps_commander = {
@@ -807,8 +807,8 @@ characters = {
 		name = ACW_Haruhi_Suzumiya
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/haruhi_suzumiya_idea.dds"
-				large = "gfx/leaders/ACW/Haruhi_Suzumiya.dds"
+				small = GFX_idea_acw_haruhi_suzumiya
+				large = GFX_portrait_haruhi_suzumiya
 			}
 		}
 		corps_commander = {
@@ -828,8 +828,8 @@ characters = {
 		name = ACW_Kiana_Kaslana
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/kiana_kaslana_idea.dds"
-				large = "gfx/leaders/ACW/Kiana_Kaslana.dds"
+				small = GFX_idea_acw_kiana_kaslana
+				large = GFX_portrait_kiana_kaslana
 			}
 		}
 		corps_commander = {
@@ -848,8 +848,8 @@ characters = {
 		name = ACW_Konoko
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/konoko_idea.dds"
-				large = "gfx/leaders/ACW/Konoko.dds"
+				small = GFX_idea_acw_konoko
+				large = GFX_portrait_konoko
 			}
 		}
 		corps_commander = {
@@ -868,8 +868,8 @@ characters = {
 		name = ACW_Lina_Inverse
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/lina_inverse_idea.dds"
-				large = "gfx/leaders/ACW/Lina_Inverse.dds"
+				small = GFX_idea_acw_lina_inverse
+				large = GFX_portrait_lina_inverse
 			}
 		}
 		corps_commander = {
@@ -901,8 +901,8 @@ characters = {
 		name = ACW_Neptune
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/neptune_idea.dds"
-				large = "gfx/leaders/ACW/Neptune.dds"
+				small = GFX_idea_acw_neptune
+				large = GFX_portrait_neptune
 			}
 		}
 		corps_commander = {
@@ -922,8 +922,8 @@ characters = {
 		name = ACW_Ryuuko_Matoi
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/ryuuko_matoi_idea.dds"
-				large = "gfx/leaders/ACW/Ryuuko_Matoi.dds"
+				small = GFX_idea_acw_ryuuko_matoi
+				large = GFX_portrait_ryuuko_matoi
 			}
 		}
 		corps_commander = {
@@ -955,8 +955,8 @@ characters = {
 		name = ACW_Satellizer_el_Bridget
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/satellizer_el_bridget_idea.dds"
-				large = "gfx/leaders/ACW/Satellizer_el_Bridget.dds"
+				small = GFX_idea_acw_satellizer_el_bridget
+				large = GFX_portrait_satellizer_el_bridget
 			}
 		}
 		corps_commander = {
@@ -975,8 +975,8 @@ characters = {
 		name = ACW_Siluca_Meletes
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/siluca_meletes_idea.dds"
-				large = "gfx/leaders/ACW/Siluca_Meletes.dds"
+				small = GFX_idea_acw_siluca_meletes
+				large = GFX_portrait_siluca_meletes
 			}
 		}
 		corps_commander = {
@@ -1008,8 +1008,8 @@ characters = {
 		name = ACW_Yuno_Gasai
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/yuno_gasai_idea.dds"
-				large = "gfx/leaders/ACW/Yuno_Gasai.dds"
+				small = GFX_idea_acw_yuno_gasai
+				large = GFX_portrait_yuno_gasai
 			}
 		}
 		corps_commander = {
@@ -1029,8 +1029,8 @@ characters = {
 		name = ACW_Byleth_Eisner
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/byleth_eisner_idea.dds"
-				large = "gfx/leaders/ACW/Byleth_Eisner.dds"
+				small = GFX_idea_acw_byleth_eisner
+				large = GFX_portrait_byleth_eisner
 			}
 		}
 		corps_commander = {
@@ -1050,8 +1050,8 @@ characters = {
 		name = ACW_Eula
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/eula_idea.dds"
-				large = "gfx/leaders/ACW/Eula.dds"
+				small = GFX_idea_acw_eula
+				large = GFX_portrait_eula
 			}
 		}
 		corps_commander = {
@@ -1070,8 +1070,8 @@ characters = {
 		name = ACW_5pb
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/5pb_idea.dds"
-				large = "gfx/leaders/ACW/5pb.dds"
+				small = GFX_idea_acw_5pb
+				large = GFX_portrait_5pb
 			}
 		}
 		corps_commander = {
@@ -1090,8 +1090,8 @@ characters = {
 		name = ACW_Blanc
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/blanc_idea.dds"
-				large = "gfx/leaders/ACW/Blanc.dds"
+				small = GFX_idea_acw_blanc
+				large = GFX_portrait_blanc
 			}
 		}
 		corps_commander = {
@@ -1110,8 +1110,8 @@ characters = {
 		name = ACW_Compa
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/compa_idea.dds"
-				large = "gfx/leaders/ACW/Compa.dds"
+				small = GFX_idea_acw_compa
+				large = GFX_portrait_compa
 			}
 		}
 		corps_commander = {
@@ -1142,8 +1142,8 @@ characters = {
 		name = ACW_Djeeta
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/djeeta_idea.dds"
-				large = "gfx/leaders/ACW/Djeeta.dds"
+				small = GFX_idea_acw_djeeta
+				large = GFX_portrait_djeeta
 			}
 		}
 		corps_commander = {
@@ -1162,8 +1162,8 @@ characters = {
 		name = ACW_Ellis
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/ellis_idea.dds"
-				large = "gfx/leaders/ACW/Ellis.dds"
+				small = GFX_idea_acw_ellis
+				large = GFX_portrait_ellis
 			}
 		}
 		corps_commander = {
@@ -1182,8 +1182,8 @@ characters = {
 		name = ACW_Escha_Malier
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/escha_malier_idea.dds"
-				large = "gfx/leaders/ACW/Escha_Malier.dds"
+				small = GFX_idea_acw_escha_malier
+				large = GFX_portrait_escha_malier
 			}
 		}
 		corps_commander = {
@@ -1202,8 +1202,8 @@ characters = {
 		name = ACW_Fujimaru_Ritsuka
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/fujimaru_ritsuka_idea.dds"
-				large = "gfx/leaders/ACW/Fujimaru_Ritsuka.dds"
+				small = GFX_idea_acw_fujimaru_ritsuka
+				large = GFX_portrait_fujimaru_ritsuka
 			}
 		}
 		corps_commander = {
@@ -1222,8 +1222,8 @@ characters = {
 		name = ACW_Honoka_Kousaka
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/honoka_kousaka_idea.dds"
-				large = "gfx/leaders/ACW/Honoka_Kousaka.dds"
+				small = GFX_idea_acw_honoka_kousaka
+				large = GFX_portrait_honoka_kousaka
 			}
 		}
 		corps_commander = {
@@ -1242,8 +1242,8 @@ characters = {
 		name = ACW_IF
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/if_idea.dds"
-				large = "gfx/leaders/ACW/IF.dds"
+				small = GFX_idea_acw_if
+				large = GFX_portrait_if
 			}
 		}
 		corps_commander = {
@@ -1262,8 +1262,8 @@ characters = {
 		name = ACW_Kasumi
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/kasumi_idea.dds"
-				large = "gfx/leaders/ACW/Kasumi.dds"
+				small = GFX_idea_acw_kasumi
+				large = GFX_portrait_kasumi
 			}
 		}
 		corps_commander = {
@@ -1282,8 +1282,8 @@ characters = {
 		name = ACW_Merurulince_Rede_Arls
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/merurulince_rede_arls_idea.dds"
-				large = "gfx/leaders/ACW/Merurulince_Rede_Arls.dds"
+				small = GFX_idea_acw_merurulince_rede_arl
+				large = GFX_portrait_merurulince_rede_arls
 			}
 		}
 		corps_commander = {
@@ -1302,8 +1302,8 @@ characters = {
 		name = ACW_Miho_Nishizumi
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/miho_nishizumi_idea.dds"
-				large = "gfx/leaders/ACW/Miho_Nishizumi.dds"
+				small = GFX_idea_acw_miho_nishizumi
+				large = GFX_portrait_miho_nishizumi
 			}
 		}
 		corps_commander = {
@@ -1322,8 +1322,8 @@ characters = {
 		name = ACW_Misato_Katsuragi
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/misato_katsuragi_idea.dds"
-				large = "gfx/leaders/ACW/Misato_Katsuragi.dds"
+				small = GFX_idea_acw_misato_katsuragi
+				large = GFX_portrait_misato_katsuragi
 			}
 		}
 		corps_commander = {
@@ -1342,8 +1342,8 @@ characters = {
 		name = ACW_Naru_Narusegawa
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/naru_narusegawa_idea.dds"
-				large = "gfx/leaders/ACW/Naru_Narusegawa.dds"
+				small = GFX_idea_acw_naru_narusegawa
+				large = GFX_portrait_naru_narusegawa
 			}
 		}
 		corps_commander = {
@@ -1362,8 +1362,8 @@ characters = {
 		name = ACW_Noire
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/noire_idea.dds"
-				large = "gfx/leaders/ACW/Noire.dds"
+				small = GFX_idea_acw_noire
+				large = GFX_portrait_noire
 			}
 		}
 		corps_commander = {
@@ -1382,8 +1382,8 @@ characters = {
 		name = ACW_Rei_Ayanami
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/rei_ayanami_idea.dds"
-				large = "gfx/leaders/ACW/Rei_Ayanami.dds"
+				small = GFX_idea_acw_rei_ayanami
+				large = GFX_portrait_rei_ayanami
 			}
 		}
 		corps_commander = {
@@ -1402,8 +1402,8 @@ characters = {
 		name = ACW_Ryza
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/ryza_idea.dds"
-				large = "gfx/leaders/ACW/Ryza.dds"
+				small = GFX_idea_acw_ryza
+				large = GFX_portrait_ryza
 			}
 		}
 		corps_commander = {
@@ -1422,8 +1422,8 @@ characters = {
 		name = ACW_Selesia_Upitiria
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/selesia_upitiria_idea.dds"
-				large = "gfx/leaders/ACW/Selesia_Upitiria.dds"
+				small = GFX_idea_acw_selesia_upitiria
+				large = GFX_portrait_selesia_upitiria
 			}
 		}
 		corps_commander = {
@@ -1454,8 +1454,8 @@ characters = {
 		name = ACW_Sophie_Neuenmuller
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/sophie_neuenmuller_idea.dds"
-				large = "gfx/leaders/ACW/Sophie_Neuenmuller.dds"
+				small = GFX_idea_acw_sophie_neuenmuller
+				large = GFX_portrait_sophie_neuenmuller
 			}
 		}
 		corps_commander = {
@@ -1474,8 +1474,8 @@ characters = {
 		name = ACW_Vert
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/vert_idea.dds"
-				large = "gfx/leaders/ACW/Vert.dds"
+				small = GFX_idea_acw_vert
+				large = GFX_portrait_vert
 			}
 		}
 		corps_commander = {
@@ -1494,8 +1494,8 @@ characters = {
 		name = ACW_Yukina_Himeragi
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/yukina_himeragi_idea.dds"
-				large = "gfx/leaders/ACW/Yukina_Himeragi.dds"
+				small = GFX_idea_acw_yukina_himeragi
+				large = GFX_portrait_yukina_himeragi
 			}
 		}
 		corps_commander = {
@@ -1514,8 +1514,8 @@ characters = {
 		name = ACW_Yuna
 		portraits = {
 			army = {
-				small = "gfx/leaders/ACW/yuna_idea.dds"
-				large = "gfx/leaders/ACW/Yuna.dds"
+				small = GFX_idea_acw_yuna
+				large = GFX_portrait_yuna
 			}
 		}
 		corps_commander = {
@@ -1535,7 +1535,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_noelle
-				large = "gfx/leaders/ACW/noelle.dds"
+				large = GFX_portrait_noelle
 			}
 		}
 		allowed_civil_war = {
@@ -1557,8 +1557,8 @@ characters = {
 		name = ACW_Eruza_Guranhirute
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_eruza_guranhirute"
-				large = "gfx/leaders/ACW/eruza_guranhirute.dds"
+				small = GFX_idea_acw_eruza_guranhirute
+				large = GFX_portrait_eruza_guranhirute
 			}
 		}
 		allowed_civil_war = {
@@ -1594,8 +1594,8 @@ characters = {
 		name = ACW_Aoi_Sakurai
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_aoi_sakurai"
-				large = "gfx/leaders/ACW/lucy_yamagami.dds"
+				small = GFX_idea_acw_aoi_sakurai
+				large = GFX_portrait_lucy_yamagami
 			}
 		}
 		allowed_civil_war = {
@@ -1629,7 +1629,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kawashima_mizuki
-				large = "gfx/leaders/ACW/kawashima_mizuki.dds"
+				large = GFX_portrait_kawashima_mizuki
 			}
 		}
 		allowed_civil_war = {
@@ -1652,7 +1652,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_natasha_cioara
-				large = "gfx/leaders/ACW/natasha_cioara.dds"
+				large = GFX_portrait_natasha_cioara
 			}
 		}
 		allowed_civil_war = {
@@ -1676,7 +1676,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kitagawa_marin
-				large = "gfx/leaders/ACW/kitagawa_marin.dds"
+				large = GFX_portrait_kitagawa_marin
 			}
 		}
 		allowed_civil_war = {
@@ -1765,6 +1765,29 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	ACW_rin_toosaka = {
+		name = ACW_rin_toosaka
+		portraits = {
+			army = {
+				small = GFX_idea_acw_rin_toosaka
+				large = GFX_portrait_rin_toosaka
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	######################
 	#### NAVY LEADRES ####
 	######################
@@ -1772,12 +1795,12 @@ characters = {
 		name = ACW_Yamato_Kancol
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/yamato_kancol_idea.dds"
-				large = "gfx/leaders/ACW/Yamato_Kancol.dds"
+				small = GFX_idea_acw_yamato_kancol
+				large = GFX_portrait_yamato_kancol
 			}
 			army = {
-				small = "gfx/leaders/ACW/yamato_kancol_idea.dds"
-				large = "gfx/leaders/ACW/Yamato_Kancol.dds"
+				small = GFX_idea_acw_yamato_kancol
+				large = GFX_portrait_yamato_kancol
 			}
 		}
 		advisor = {
@@ -1809,10 +1832,8 @@ characters = {
 		name = ACW_Atago_Azur_Lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/atago_azur_lane_idea.dds"
-			}
-			army = {
-				large = "gfx/leaders/ACW/Atago_Azur_Lane.dds"
+				small = GFX_idea_acw_atago_azur_lane
+				large = GFX_portrait_atago_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1830,8 +1851,8 @@ characters = {
 		name = ACW_Avrora_Azur_Lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/avrora_azur_lane_idea.dds"
-				large = "gfx/leaders/ACW/Avrora_Azur_Lane.dds"
+				small = GFX_idea_acw_avrora_azur_lane
+				large = GFX_portrait_avrora_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1860,10 +1881,10 @@ characters = {
 		name = ACW_Belfast
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/belfast_idea.dds"
+				small = GFX_idea_acw_belfast
 			}
 			army = {
-				large = "gfx/leaders/ACW/Belfast.dds"
+				large = GFX_portrait_belfast
 			}
 		}
 		navy_leader = {
@@ -1881,8 +1902,8 @@ characters = {
 		name = ACW_Marblehead
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/marblehead_azur_lane_idea.dds"
-				large = "gfx/leaders/ACW/Marblehead_Azur_Lane.dds"
+				small = GFX_idea_acw_marblehead_azur_lane
+				large = GFX_portrait_marblehead_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1913,10 +1934,8 @@ characters = {
 		name = ACW_Saint_Louis_Azur_Lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/saint_louis_azur_lane_idea.dds"
-			}
-			army = {
-				large = "gfx/leaders/ACW/Saint_Louis_Azur_Lane.dds"
+				small = GFX_idea_acw_saint_louis_azur_lane
+				large = GFX_portrait_saint_louis_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1934,10 +1953,8 @@ characters = {
 		name = ACW_Takao_Azur_Lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/takao_azur_lane_idea.dds"
-			}
-			army = {
-				large = "gfx/leaders/ACW/Takao_Azur_Lane.dds"
+				small = GFX_idea_acw_takao_azur_lane
+				large = GFX_portrait_takao_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1955,10 +1972,8 @@ characters = {
 		name = ACW_Tosa_Azur_Lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/tosa_azur_lane_idea.dds"
-			}
-			army = {
-				large = "gfx/leaders/ACW/Tosa_Azur_Lane.dds"
+				small = GFX_idea_acw_tosa_azur_lane
+				large = GFX_portrait_tosa_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1976,11 +1991,11 @@ characters = {
 		name = ACW_Sovetskaya_Rossiya
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/sovetskaya_rossiya_idea.dds"
+				small = GFX_idea_acw_sovetskaya_rossiya
 			}
 			army = {
-				large = "gfx/leaders/ACW/Sovetskaya_Rossiya.dds"
-				small = "gfx/leaders/ACW/sovetskaya_rossiya_idea.dds"
+				large = GFX_portrait_sovetskaya_rossiya
+				small = GFX_idea_acw_sovetskaya_rossiya
 			}
 		}
 		navy_leader = {
@@ -1998,10 +2013,8 @@ characters = {
 		name = ACW_Shima_Tateishi
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/shima_tateishi_idea.dds"
-			}
-			army = {
-				large = "gfx/leaders/ACW/Shima_Tateishi.dds"
+				small = GFX_idea_acw_shima_tateishi
+				large = GFX_portrait_shima_tateishi
 			}
 		}
 		navy_leader = {
@@ -2019,10 +2032,8 @@ characters = {
 		name = ACW_Akeno_Misaki
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/akeno_misaki_idea.dds"
-			}
-			army = {
-				large = "gfx/leaders/ACW/Akeno_Misaki.dds"
+				small = GFX_idea_acw_akeno_misaki
+				large = GFX_portrait_akeno_misaki
 			}
 		}
 		navy_leader = {
@@ -2040,10 +2051,8 @@ characters = {
 		name = ACW_Beidou
 		portraits = {
 			navy = {
-				small = "gfx/leaders/ACW/beidou_idea.dds"
-			}
-			army = {
-				large = "gfx/leaders/ACW/Beidou.dds"
+				small = GFX_idea_acw_beidou
+				large = GFX_portrait_beidou
 			}
 		}
 		navy_leader = {
@@ -2068,6 +2077,25 @@ characters = {
 			}
 		}
 	}
+	ACW_ulrich_von_hutten = {
+		name = ACW_ulrich_von_hutten
+		portraits = {
+			navy = {
+				small = GFX_idea_acw_ulrich_von_hutten
+				large = GFX_portrait_ulrich_von_hutten
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
+		}
+	}
 	#political advisors
 	ACW_Minami_Nitta = {
 		name = ACW_Minami_Nitta
@@ -2076,7 +2104,7 @@ characters = {
 				small = GFX_idea_acw_minami_nitta
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/minami_nitta.dds"
+				large = GFX_portrait_minami_nitta
 			}
 		}
 		allowed_civil_war = {
@@ -2109,7 +2137,7 @@ characters = {
 		name = ACW_Ange_le_Carre
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_ange_le_carre"
+				small = GFX_idea_acw_ange_le_carre
 			}
 		}
 		allowed_civil_war = {
@@ -2134,10 +2162,10 @@ characters = {
 		name = ACW_Niko_Yazawa
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_niko_yazawa"
+				small = GFX_idea_acw_niko_yazawa
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/Niko_Yazawa.dds"
+				large = GFX_portrait_niko_yazawa
 			}
 		}
 		allowed_civil_war = {
@@ -2171,10 +2199,10 @@ characters = {
 		name = ACW_Mikumo_Guynemer
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_mikumo_guynemer"
+				small = GFX_idea_acw_mikumo_guynemer
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/mikumo_guynemer.dds"
+				large = GFX_portrait_mikumo_guynemer
 			}
 		}
 		allowed_civil_war = {
@@ -2196,10 +2224,10 @@ characters = {
 		name = ACW_Asuka_Tanaka
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_asuka_tanaka"
+				small = GFX_idea_acw_asuka_tanaka
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/asuka_tanaka.dds"
+				large = GFX_portrait_asuka_tanaka
 			}
 		}
 		allowed_civil_war = {
@@ -2221,10 +2249,10 @@ characters = {
 		name = ACW_Lucy_Yamagami
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_lucy_yamagami"
+				small = GFX_idea_acw_lucy_yamagami
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/lucy_yamagami.dds"
+				large = GFX_portrait_lucy_yamagami
 			}
 		}
 		allowed_civil_war = {
@@ -2246,10 +2274,10 @@ characters = {
 		name = ACW_Megumin
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_megumin"
+				small = GFX_idea_acw_megumin
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/megumin.dds"
+				large = GFX_portrait_megumin
 			}
 		}
 		allowed_civil_war = {
@@ -2275,10 +2303,10 @@ characters = {
 		name = ACW_Ayame_Himuro
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_ayame_himuro"
+				small = GFX_idea_acw_ayame_himuro
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/Ayame_Himuro.dds"
+				large = GFX_portrait_ayame_himuro
 			}
 		}
 		allowed_civil_war = {
@@ -2304,10 +2332,10 @@ characters = {
 		name = generic_head_of_intelligence
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_ayame_himuro"
+				small = GFX_idea_acw_ayame_himuro
 			}
 			civilian = {
-				large = "gfx/leaders/ACW/Ayame_Himuro.dds"
+				large = GFX_portrait_ayame_himuro
 			}
 		}
 		allowed_civil_war = {

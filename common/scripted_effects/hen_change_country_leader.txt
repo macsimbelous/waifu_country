@@ -4,97 +4,112 @@ hen_change_country_leader = {
 	random_list = {
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_01.dds"
+				portrait = GFX_portrait_hen_land_01
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_02.dds"
+				portrait = GFX_portrait_hen_land_02
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_03.dds"
+				portrait = GFX_portrait_hen_land_03
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_04.dds"
+				portrait = GFX_portrait_hen_land_04
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_05.dds"
+				portrait = GFX_portrait_hen_land_05
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_06.dds"
+				portrait = GFX_portrait_hen_land_06
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_07.dds"
+				portrait = GFX_portrait_hen_land_07
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_08.dds"
+				portrait = GFX_portrait_hen_land_08
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_land_09.dds"
+				portrait = GFX_portrait_hen_land_09
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_naval_01.dds"
+				portrait = GFX_portrait_hen_land_10
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_naval_02.dds"
+				portrait = GFX_portrait_hen_land_11
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_naval_03.dds"
+				portrait = GFX_portrait_hen_land_12
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_naval_04.dds"
+				portrait = GFX_portrait_hen_naval_01
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_operative_01.dds"
+				portrait = GFX_portrait_hen_naval_02
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_operative_02.dds"
+				portrait = GFX_portrait_hen_naval_03
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_operative_03.dds"
+				portrait = GFX_portrait_hen_naval_04
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_operative_04.dds"
+				portrait = GFX_portrait_hen_operative_01
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_operative_05.dds"
+				portrait = GFX_portrait_hen_operative_02
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/HEN/generic/HEN_operative_06.dds"
+				portrait = GFX_portrait_hen_operative_03
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_hen_operative_04
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_hen_operative_05
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_hen_operative_06
 			}
 		}
 	}

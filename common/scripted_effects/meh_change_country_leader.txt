@@ -4,112 +4,117 @@ meh_change_country_leader = {
 	random_list = {
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_01.dds"
+				portrait = GFX_portrait_meh_land_01
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_02.dds"
+				portrait = GFX_portrait_meh_land_02
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_04.dds"
+				portrait = GFX_portrait_meh_land_04
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_05.dds"
+				portrait = GFX_portrait_meh_land_05
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_06.dds"
+				portrait = GFX_portrait_meh_land_06
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_07.dds"
+				portrait = GFX_portrait_meh_land_07
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_08.dds"
+				portrait = GFX_portrait_meh_land_08
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_09.dds"
+				portrait = GFX_portrait_meh_land_09
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_10.dds"
+				portrait = GFX_portrait_meh_land_10
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_11.dds"
+				portrait = GFX_portrait_meh_land_11
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_12.dds"
+				portrait = GFX_portrait_meh_land_12
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_13.dds"
+				portrait = GFX_portrait_meh_land_13
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_14.dds"
+				portrait = GFX_portrait_meh_land_14
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_land_15.dds"
+				portrait = GFX_portrait_meh_land_15
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_naval_01.dds"
+				portrait = GFX_portrait_meh_land_16
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_naval_02.dds"
+				portrait = GFX_portrait_meh_naval_01
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_naval_03.dds"
+				portrait = GFX_portrait_meh_naval_02
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_naval_04.dds"
+				portrait = GFX_portrait_meh_naval_03
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_operative_01.dds"
+				portrait = GFX_portrait_meh_naval_04
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_operative_03.dds"
+				portrait = GFX_portrait_meh_operative_01
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_operative_04.dds"
+				portrait = GFX_portrait_meh_operative_03
 			}
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/MEH/generic/MEH_operative_05.dds"
+				portrait = GFX_portrait_meh_operative_04
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_meh_operative_05
 			}
 		}
 	}

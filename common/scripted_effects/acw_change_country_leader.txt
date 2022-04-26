@@ -13,7 +13,7 @@ acw_change_country_leader = {
 				name = ACW_anastasia_romanova
 			}
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/ACW/anastasia_romanova.dds"
+				portrait = GFX_portrait_anastasia_romanova
 			}
 		}
 		else = {
@@ -21,7 +21,7 @@ acw_change_country_leader = {
 				name = ACW_alisa_illinichina_amiella
 			}
 			set_country_leader_portrait = {
-				portrait = "gfx/leaders/SOV/Alisa_Illinichina_Amiella.dds"
+				portrait = GFX_portrait_alisa_illinichina_amiella
 			}
 		}
 	}
@@ -33,7 +33,7 @@ acw_change_country_leader = {
 			name = ACW_prinz_eugen
 		}
 		set_country_leader_portrait = {
-			portrait = "gfx/leaders/GER/Prinz_Eugen.dds"
+			portrait = GFX_portrait_prinz_eugen
 		}
 	}
 	else_if = {
@@ -44,7 +44,7 @@ acw_change_country_leader = {
 			name = ACW_charlotte_dunois
 		}
 		set_country_leader_portrait = {
-			portrait = "gfx/leaders/FRA/Charlotte_Dunois.dds"
+			portrait = GFX_portrait_charlotte_dunois
 		}
 	}
 	else_if = {
@@ -55,7 +55,7 @@ acw_change_country_leader = {
 			name = ACW_kei
 		}
 		set_country_leader_portrait = {
-			portrait = "gfx/leaders/USA/Kei.dds"
+			portrait = GFX_portrait_kei
 		}
 	}
 	else_if = {
@@ -66,7 +66,7 @@ acw_change_country_leader = {
 			name = ACW_miki_hoshii
 		}
 		set_country_leader_portrait = {
-			portrait = "gfx/leaders/JAP/Miki_Hoshii.dds"
+			portrait = GFX_portrait_miki_hoshii
 		}
 	}
 	else_if = {
@@ -77,7 +77,7 @@ acw_change_country_leader = {
 			name = ACW_erica_blandelli
 		}
 		set_country_leader_portrait = {
-			portrait = "gfx/leaders/ITA/Erica_Blandelli.dds"
+			portrait = GFX_portrait_erica_blandelli
 		}
 	}
 	else_if = {
@@ -88,7 +88,7 @@ acw_change_country_leader = {
 			name = ACW_satellizer_el_bridget
 		}
 		set_country_leader_portrait = {
-			portrait = "gfx/leaders/ENG/Satellizer_el_Bridget.dds"
+			portrait = GFX_portrait_satellizer_el_bridget
 		}
 	}
 	else_if = {
@@ -99,359 +99,359 @@ acw_change_country_leader = {
 			name = ACW_irina_jelavic
 		}
 		set_country_leader_portrait = {
-			portrait = "gfx/leaders/POL/Irina_Jelavic.dds"
+			portrait = GFX_portrait_irina_jelavic
 		}
 	}
 	else = {
 		random_list = {
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_01.dds"
+					portrait = GFX_portrait_acw_land_01
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_02.dds"
+					portrait = GFX_portrait_acw_land_02
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_03.dds"
+					portrait = GFX_portrait_acw_land_03
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_04.dds"
+					portrait = GFX_portrait_acw_land_04
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_05.dds"
+					portrait = GFX_portrait_acw_land_05
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_06.dds"
+					portrait = GFX_portrait_acw_land_06
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_07.dds"
+					portrait = GFX_portrait_acw_land_07
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_08.dds"
+					portrait = GFX_portrait_acw_land_08
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_09.dds"
+					portrait = GFX_portrait_acw_land_09
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_10.dds"
+					portrait = GFX_portrait_acw_land_10
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_11.dds"
+					portrait = GFX_portrait_acw_land_11
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_12.dds"
+					portrait = GFX_portrait_acw_land_12
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_13.dds"
+					portrait = GFX_portrait_acw_land_13
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_14.dds"
+					portrait = GFX_portrait_acw_land_14
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_15.dds"
+					portrait = GFX_portrait_acw_land_15
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_16.dds"
+					portrait = GFX_portrait_acw_land_16
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_17.dds"
+					portrait = GFX_portrait_acw_land_17
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_18.dds"
+					portrait = GFX_portrait_acw_land_18
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_19.dds"
+					portrait = GFX_portrait_acw_land_19
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_20.dds"
+					portrait = GFX_portrait_acw_land_20
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_21.dds"
+					portrait = GFX_portrait_acw_land_21
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_22.dds"
+					portrait = GFX_portrait_acw_land_22
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_23.dds"
+					portrait = GFX_portrait_acw_land_23
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_24.dds"
+					portrait = GFX_portrait_acw_land_24
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_25.dds"
+					portrait = GFX_portrait_acw_land_25
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_land_26.dds"
+					portrait = GFX_portrait_acw_land_26
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_01.dds"
+					portrait = GFX_portrait_acw_naval_01
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_02.dds"
+					portrait = GFX_portrait_acw_naval_02
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_03.dds"
+					portrait = GFX_portrait_acw_naval_03
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_04.dds"
+					portrait = GFX_portrait_acw_naval_04
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_05.dds"
+					portrait = GFX_portrait_acw_naval_05
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_06.dds"
+					portrait = GFX_portrait_acw_naval_06
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_07.dds"
+					portrait = GFX_portrait_acw_naval_07
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_08.dds"
+					portrait = GFX_portrait_acw_naval_08
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_09.dds"
+					portrait = GFX_portrait_acw_naval_09
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_10.dds"
+					portrait = GFX_portrait_acw_naval_10
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_11.dds"
+					portrait = GFX_portrait_acw_naval_11
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_12.dds"
+					portrait = GFX_portrait_acw_naval_12
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_13.dds"
+					portrait = GFX_portrait_acw_naval_13
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_14.dds"
+					portrait = GFX_portrait_acw_naval_14
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_15.dds"
+					portrait = GFX_portrait_acw_naval_15
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_16.dds"
+					portrait = GFX_portrait_acw_naval_16
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_17.dds"
+					portrait = GFX_portrait_acw_naval_17
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_18.dds"
+					portrait = GFX_portrait_acw_naval_18
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_19.dds"
+					portrait = GFX_portrait_acw_naval_19
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_20.dds"
+					portrait = GFX_portrait_acw_naval_20
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_21.dds"
+					portrait = GFX_portrait_acw_naval_21
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_22.dds"
+					portrait = GFX_portrait_acw_naval_22
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_naval_23.dds"
+					portrait = GFX_portrait_acw_naval_23
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_01.dds"
+					portrait = GFX_portrait_acw_operative_01
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_02.dds"
+					portrait = GFX_portrait_acw_operative_02
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_03.dds"
+					portrait = GFX_portrait_acw_operative_03
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_04.dds"
+					portrait = GFX_portrait_acw_operative_04
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_05.dds"
+					portrait = GFX_portrait_acw_operative_05
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_06.dds"
+					portrait = GFX_portrait_acw_operative_06
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_07.dds"
+					portrait = GFX_portrait_acw_operative_07
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_08.dds"
+					portrait = GFX_portrait_acw_operative_08
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_09.dds"
+					portrait = GFX_portrait_acw_operative_09
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_10.dds"
+					portrait = GFX_portrait_acw_operative_10
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_11.dds"
+					portrait = GFX_portrait_acw_operative_11
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_12.dds"
+					portrait = GFX_portrait_acw_operative_12
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_13.dds"
+					portrait = GFX_portrait_acw_operative_13
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_14.dds"
+					portrait = GFX_portrait_acw_operative_14
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_15.dds"
+					portrait = GFX_portrait_acw_operative_15
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_16.dds"
+					portrait = GFX_portrait_acw_operative_16
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_17.dds"
+					portrait = GFX_portrait_acw_operative_17
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_18.dds"
+					portrait = GFX_portrait_acw_operative_18
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_19.dds"
+					portrait = GFX_portrait_acw_operative_19
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_20.dds"
+					portrait = GFX_portrait_acw_operative_20
 				}
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/generic/ACW_operative_21.dds"
+					portrait = GFX_portrait_acw_operative_21
 				}
 			}
 

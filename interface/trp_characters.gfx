@@ -4,178 +4,420 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/aoi_futaba_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_Aoi_Futaba"
+		texturefile = "gfx/leaders/TRP/Aoi_Futaba.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_aoi_hyoudou"
 		texturefile = "gfx/leaders/TRP/aoi_hyoudou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Aoi_Hyoudou"
+		texturefile = "gfx/leaders/TRP/Aoi_Hyoudou.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_astolfo"
 		texturefile = "gfx/leaders/TRP/astolfo_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Astolfo"
+		texturefile = "gfx/leaders/TRP/Astolfo.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_birdy_cephon_altera"
 		texturefile = "gfx/leaders/TRP/birdy_cephon_altera_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Birdy_Cephon_Altera"
+		texturefile = "gfx/leaders/TRP/Birdy_Cephon_Altera.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_felix_argyle"
 		texturefile = "gfx/leaders/TRP/felix_argyle_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Felix_Argyle"
+		texturefile = "gfx/leaders/TRP/Felix_Argyle.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_fish_eye"
 		texturefile = "gfx/leaders/TRP/fish_eye_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Fish_Eye"
+		texturefile = "gfx/leaders/TRP/Fish_Eye.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_gasper_vladi"
 		texturefile = "gfx/leaders/TRP/gasper_vladi_idea.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_Gasper_Vladi"
+		texturefile = "gfx/leaders/TRP/Gasper_Vladi.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_trp_hacka_doll_no_3"
 		texturefile = "gfx/leaders/TRP/hacka_doll_3_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Hacka_Doll_3"
+		texturefile = "gfx/leaders/TRP/Hacka_Doll_3.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_hamaji_yakumo"
 		texturefile = "gfx/leaders/TRP/hamaji_yakumo_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Hamaji_Yakumo"
+		texturefile = "gfx/leaders/TRP/Hamaji_Yakumo.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_hideri_kanzaki"
 		texturefile = "gfx/leaders/TRP/hideri_kanzaki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Hideri_Kanzaki"
+		texturefile = "gfx/leaders/TRP/Hideri_Kanzaki.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_hime_arikawa"
 		texturefile = "gfx/leaders/TRP/hime_arikawa_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Hime_Arikawa"
+		texturefile = "gfx/leaders/TRP/Hime_Arikawa.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_hitoshi_sugoroku"
 		texturefile = "gfx/leaders/TRP/hitoshi_sugoroku_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Hitoshi_Sugoroku"
+		texturefile = "gfx/leaders/TRP/Hitoshi_Sugoroku.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_kaguya_arikawa"
 		texturefile = "gfx/leaders/TRP/kaguya_arikawa_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Kaguya_Arikawa"
+		texturefile = "gfx/leaders/TRP/Kaguya_Arikawa.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_kaoru_hanase"
 		texturefile = "gfx/leaders/TRP/kaoru_hanase_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Kaoru_Hanase"
+		texturefile = "gfx/leaders/TRP/Kaoru_Hanase.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_mariya_shidou"
 		texturefile = "gfx/leaders/TRP/mariya_shidou_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Mariya_Shidou"
+		texturefile = "gfx/leaders/TRP/Mariya_Shidou.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_mitsunaga_oda"
 		texturefile = "gfx/leaders/TRP/mitsunaga_oda_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Mitsunaga_Oda"
+		texturefile = "gfx/leaders/TRP/Mitsunaga_Oda.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_mizuho_miyanokouji"
 		texturefile = "gfx/leaders/TRP/mizuho_miyanokouji_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Mizuho_Miyanokouji"
+		texturefile = "gfx/leaders/TRP/Mizuho_Miyanokouji.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_oboro_tsukimigusa"
 		texturefile = "gfx/leaders/TRP/oboro_tsukimigusa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Oboro_Tsukimigusa"
+		texturefile = "gfx/leaders/TRP/Oboro_Tsukimigusa.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_ranga"
 		texturefile = "gfx/leaders/TRP/ranga_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Ranga"
+		texturefile = "gfx/leaders/TRP/Ranga.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_ranma_saotome"
 		texturefile = "gfx/leaders/TRP/ranma_saotome_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Ranma_Saotome"
+		texturefile = "gfx/leaders/TRP/Ranma_Saotome.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_ringo_tsukimiya"
 		texturefile = "gfx/leaders/TRP/ringo_tsukimiya_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Ringo_Tsukimiya"
+		texturefile = "gfx/leaders/TRP/Ringo_Tsukimiya.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_ritsu_souma"
 		texturefile = "gfx/leaders/TRP/ritsu_souma_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Ritsu_Souma"
+		texturefile = "gfx/leaders/TRP/Ritsu_Souma.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_russell"
 		texturefile = "gfx/leaders/TRP/russell_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Russell"
+		texturefile = "gfx/leaders/TRP/Russell.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_ryou_akizuki"
 		texturefile = "gfx/leaders/TRP/ryou_akizuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_Ryou_Akizuki"
+		texturefile = "gfx/leaders/TRP/Ryou_Akizuki.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_saki_mizushima"
 		texturefile = "gfx/leaders/TRP/saki_mizushima_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_Saki_Mizushima"
+		texturefile = "gfx/leaders/TRP/Saki_Mizushima.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_souji_mitsuka"
 		texturefile = "gfx/leaders/TRP/souji_mitsuka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Souji_Mitsuka"
+		texturefile = "gfx/leaders/TRP/Souji_Mitsuka.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_sylvia"
 		texturefile = "gfx/leaders/TRP/sylvia_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Sylvia"
+		texturefile = "gfx/leaders/TRP/Sylvia.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_tama_kyan"
 		texturefile = "gfx/leaders/TRP/tama_kyan_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Tama_Kyan"
+		texturefile = "gfx/leaders/TRP/Tama_Kyan.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_taroumaru_seike"
 		texturefile = "gfx/leaders/TRP/taroumaru_seike_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Taroumaru_Seike"
+		texturefile = "gfx/leaders/TRP/Taroumaru_Seike.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_tetora"
 		texturefile = "gfx/leaders/TRP/tetora_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Tetora"
+		texturefile = "gfx/leaders/TRP/Tetora.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_xianming_lin"
 		texturefile = "gfx/leaders/TRP/xianming_lin_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Xianming_Lin"
+		texturefile = "gfx/leaders/TRP/Xianming_Lin.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_youta_tsunashi"
 		texturefile = "gfx/leaders/TRP/youta_tsunashi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Youta_Tsunashi"
+		texturefile = "gfx/leaders/TRP/Youta_Tsunashi.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_ukikaze"
 		texturefile = "gfx/leaders/TRP/yukikaze_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Yukikaze"
+		texturefile = "gfx/leaders/TRP/Yukikaze.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_mare_bello_fiore"
 		texturefile = "gfx/leaders/TRP/mare_bello_fiore_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mare_bello_fiore"
+		texturefile = "gfx/leaders/TRP/mare_bello_fiore.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_shirota_mitsuki"
 		texturefile = "gfx/leaders/TRP/shirota_mitsuki_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_shirota_mitsuki"
+		texturefile = "gfx/leaders/TRP/shirota_mitsuki.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_trp_tiger_traps"
 		texturefile = "gfx/leaders/TRP/tiger_traps_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_tiger_traps"
+		texturefile = "gfx/leaders/TRP/tiger_traps.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_jun_hiiragi"
 		texturefile = "gfx/leaders/TRP/jun_hiiragi_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_jun_hiiragi"
+		texturefile = "gfx/leaders/TRP/jun_hiiragi.dds"
+	}
+	#generic
+	spriteType = {
+		name = "GFX_portrait_trp_land_01"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_02"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_03"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_04"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_05"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_06"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_07"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_08"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_09"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_10"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_10.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_11"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_11.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_01"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_02"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_03"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_04"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_05"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_06"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_07"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_08"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_09"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_10"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_10.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_11"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_11.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_12"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_12.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_13"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_naval_14"
+		texturefile = "gfx/leaders/TRP/generic/trp_naval_14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_operative_01"
+		texturefile = "gfx/leaders/TRP/generic/trp_operative_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_operative_02"
+		texturefile = "gfx/leaders/TRP/generic/trp_operative_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_operative_03"
+		texturefile = "gfx/leaders/TRP/generic/trp_operative_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_operative_04"
+		texturefile = "gfx/leaders/TRP/generic/trp_operative_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_operative_05"
+		texturefile = "gfx/leaders/TRP/generic/trp_operative_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_operative_06"
+		texturefile = "gfx/leaders/TRP/generic/trp_operative_06.dds"
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

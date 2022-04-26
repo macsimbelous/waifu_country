@@ -153,6 +153,7 @@ recruit_character = ACW_kitagawa_marin
 recruit_character = ACW_snow
 recruit_character = ACW_alicia
 recruit_character = ACW_isht_karin_orte
+recruit_character = ACW_rin_toosaka
 #Admirals
 recruit_character = ACW_Yamato_Kancol
 recruit_character = ACW_Atago_Azur_Lane
@@ -166,10 +167,11 @@ recruit_character = ACW_Sovetskaya_Rossiya
 recruit_character = ACW_Shima_Tateishi
 recruit_character = ACW_Akeno_Misaki
 recruit_character = ACW_Beidou
+recruit_character = ACW_ulrich_von_hutten
 #Agents
 create_operative_leader = {
 	name = "Niko Yazawa"
-	GFX = GFX_Niko_Yazawa
+	GFX = GFX_portrait_niko_yazawa
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	female = yes
@@ -186,7 +188,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Rosaria"
-	GFX = GFX_Rosaria
+	GFX = GFX_portrait_rosaria
 	traits = {
 		operative_infiltrator
 		operative_demolition_expert
@@ -201,7 +203,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Reina Prowler"
-	GFX = GFX_Reina_Prowler
+	GFX = GFX_portrait_reina_prowler
 	traits = {
 		operative_infiltrator
 		operative_safe_cracker
@@ -216,7 +218,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Sheryl Nome"
-	GFX = GFX_Sheryl_Nome
+	GFX = GFX_portrait_sheryl_nome
 	traits = {
 		operative_seducer
 		operative_natural_orator
@@ -230,7 +232,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Ange le Carré"
-	GFX = GFX_Ange_le_Carre
+	GFX = GFX_portrait_ange_le_carre
 	traits = {
 		operative_commando
 		operative_demolition_expert
@@ -244,7 +246,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Makoto Kikuchi"
-	GFX = GFX_Makoto_Kikuchi
+	GFX = GFX_portrait_makoto_kikuchi
 	traits = {
 		operative_commando
 		operative_demolition_expert
@@ -259,7 +261,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Tomoko Kuroki"
-	GFX = GFX_Tomoko_Kuroki
+	GFX = GFX_portrait_tomoko_kuroki
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
@@ -269,7 +271,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Aika Sumeragi"
-	GFX = GFX_Aika_Sumeragi
+	GFX = GFX_portrait_aika_sumeragi
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
@@ -279,7 +281,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Aoba Suzukaze"
-	GFX = GFX_Aoba_Suzukaze
+	GFX = GFX_portrait_aoba_suzukaze
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
@@ -289,7 +291,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Ayame Himuro"
-	GFX = GFX_Ayame_Himuro
+	GFX = GFX_portrait_ayame_himuro
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
@@ -303,7 +305,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Shiki"
-	GFX = GFX_Shiki
+	GFX = GFX_portrait_shiki
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
