@@ -2,11 +2,10 @@
 state={
 	id=528
 	name="STATE_528" # Kyushu
-	manpower = 39069000
+	manpower = 19069000
 	state_category = megalopolis
 	resources={
-		chromium=52 # was: 88
-		steel = 12
+
 	}
 
 	history={
@@ -23,19 +22,7 @@ state={
 				naval_base = 6
 				coastal_bunker = 3
 			}
-			4102 = {
-				coastal_bunker = 3
-				naval_base = 2
-			}
 			1025 = {
-				coastal_bunker = 3
-				bunker = 5
-			}
-			10092 = {
-				coastal_bunker = 3
-				bunker = 5
-			}
-			12032 = {
 				coastal_bunker = 3
 				bunker = 5
 			}
@@ -43,15 +30,13 @@ state={
 		victory_points = {
 			1025 10 
 		}
+
 		victory_points = {
-			4102 50 
-		}
-		victory_points = {
-			9950 30
+			9950 50
 		}
 	}
 
 	provinces={
-		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032 
+		1025 1158 4027 4164 7110 9950 10011 10020  
 	}
 }
