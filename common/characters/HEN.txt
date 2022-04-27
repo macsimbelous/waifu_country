@@ -5,10 +5,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_takumi_musashino
-				large = "gfx/leaders/HEN/Takumi_Musashino.dds"
+				large = GFX_portrait_hen_takumi_musashino
 			}
 			civilian = {
-				large = "gfx/leaders/HEN/Takumi_Musashino.dds"
+				large = GFX_portrait_hen_takumi_musashino
 			}
 		}
 		advisor = {
@@ -53,11 +53,11 @@ characters = {
 		name = HEN_mind_flayer
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HEN/mind_flayer.dds"
+				large = GFX_portrait_hen_mind_flayer
 			}
 			army = {
 				small = GFX_idea_hen_mind_flayer
-				large = "gfx/leaders/HEN/mind_flayer_general.dds"
+				large = GFX_portrait_hen_mind_flayer_general
 			}
 		}
 		advisor = {
@@ -99,10 +99,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_mari_setogaya
-				large = "gfx/leaders/HEN/Mari_Setogaya.dds"
+				large = GFX_portrait_hen_mari_setogaya
 			}
 			civilian = {
-				large = "gfx/leaders/HEN/Mari_Setogaya.dds"
+				large = GFX_portrait_hen_mari_setogaya
 			}
 		}
 		advisor = {
@@ -143,7 +143,7 @@ characters = {
 		name = HEN_Sheliss_Elleness_Zurbach
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HEN/Sheliss_Elleness_Zurbach.dds"
+				large = GFX_portrait_hen_sheliss_elleness_zurbach
 			}
 		}
 		country_leader = {
@@ -163,8 +163,8 @@ characters = {
 		name = HEN_Olga_Discordia
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/olga_discordia_idea.dds"
-				large = "gfx/leaders/HEN/Olga_Discordia.dds"
+				small = GFX_idea_hen_olga_discordia
+				large = GFX_portrait_hen_olga_discordia
 			}
 		}
 		advisor = {
@@ -202,8 +202,8 @@ characters = {
 		name = HEN_Celestine_Lucullus
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/celestine_lucullus_idea.dds"
-				large = "gfx/leaders/HEN/Celestine_Lucullus.dds"
+				small = GFX_idea_hen_celestine_lucullus
+				large = GFX_portrait_hen_celestine_lucullus
 			}
 		}
 		field_marshal = {
@@ -230,10 +230,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_saori_asamiya
-				large = "gfx/leaders/HEN/Saori_Asamiya.dds"
+				large = GFX_portrait_hen_saori_asamiya
 			}
 			civilian = {
-				large = "gfx/leaders/HEN/Saori_Asamiya.dds"
+				large = GFX_portrait_hen_saori_asamiya
 			}
 		}
 		corps_commander = {
@@ -254,8 +254,8 @@ characters = {
 		name = HEN_Mistiora_Arte
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/mistiora_arte_idea.dds"
-				large = "gfx/leaders/HEN/Mistiora_Arte.dds"
+				small = GFX_idea_hen_mistiora_arte
+				large = GFX_portrait_hen_mistiora_arte
 			}
 		}
 		corps_commander = {
@@ -287,8 +287,8 @@ characters = {
 		name = HEN_Iris_Arcadia
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/iris_arcadia_idea.dds"
-				large = "gfx/leaders/HEN/Iris_Arcadia.dds"
+				small = GFX_idea_hen_iris_arcadia
+				large = GFX_portrait_hen_iris_arcadia
 			}
 		}
 		corps_commander = {
@@ -308,8 +308,8 @@ characters = {
 		name = HEN_Homare_Nao
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/homare_nao_idea.dds"
-				large = "gfx/leaders/HEN/Homare_Nao.dds"
+				small = GFX_idea_hen_homare_nao
+				large = GFX_portrait_hen_homare_nao
 			}
 		}
 		corps_commander = {
@@ -347,8 +347,8 @@ characters = {
 		name = HEN_Igawa_Asagi
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/igawa_asagi_idea.dds"
-				large = "gfx/leaders/HEN/Igawa_Asagi.dds"
+				small = GFX_idea_hen_igawa_asagi
+				large = GFX_portrait_hen_igawa_asagi
 			}
 		}
 		advisor = {
@@ -383,8 +383,8 @@ characters = {
 		name = HEN_Anri_Sogahara
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/anri_sogahara_idea.dds"
-				large = "gfx/leaders/HEN/Anri_Sogahara.dds"
+				small = GFX_idea_hen_anri_sogahara
+				large = GFX_portrait_hen_anri_sogahara
 			}
 		}
 		advisor = {
@@ -416,8 +416,8 @@ characters = {
 		name = HEN_Rina_Komiya
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/rina_komiya_idea.dds"
-				large = "gfx/leaders/HEN/Rina_Komiya.dds"
+				small = GFX_idea_hen_rina_komiya
+				large = GFX_portrait_hen_rina_komiya
 			}
 		}
 		advisor = {
@@ -449,8 +449,8 @@ characters = {
 		name = HEN_Anna_Komiya
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/anna_komiya_idea.dds"
-				large = "gfx/leaders/HEN/Anna_Komiya.dds"
+				small = GFX_idea_hen_anna_komiya
+				large = GFX_portrait_hen_anna_komiya
 			}
 		}
 		corps_commander = {
@@ -470,8 +470,8 @@ characters = {
 		name = HEN_Ruma
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/ruma_idea.dds"
-				large = "gfx/leaders/HEN/Ruma.dds"
+				small = GFX_idea_hen_ruma
+				large = GFX_portrait_hen_ruma
 			}
 		}
 		advisor = {
@@ -505,8 +505,8 @@ characters = {
 		name = HEN_Yuuki_Kawaragi
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/yuuki_kawaragi_idea.dds"
-				large = "gfx/leaders/HEN/Yuuki_Kawaragi.dds"
+				small = GFX_idea_hen_yuuki_kawaragi
+				large = GFX_portrait_hen_yuuki_kawaragi
 			}
 		}
 		corps_commander = {
@@ -526,8 +526,8 @@ characters = {
 		name = HEN_Tsubasa_Kamijo
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/tsubasa_kamijo_idea.dds"
-				large = "gfx/leaders/HEN/Tsubasa_Kamijo.dds"
+				small = GFX_idea_hen_tsubasa_kamijo
+				large = GFX_portrait_hen_tsubasa_kamijo
 			}
 		}
 		advisor = {
@@ -558,8 +558,8 @@ characters = {
 		name = HEN_Prim_Fiorire
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/prim_fiorire_idea.dds"
-				large = "gfx/leaders/HEN/Prim_Fiorire.dds"
+				small = GFX_idea_hen_prim_fiorire
+				large = GFX_portrait_hen_prim_fiorire
 			}
 		}
 		corps_commander = {
@@ -593,8 +593,8 @@ characters = {
 		name = HEN_Cloe
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/cloe_idea.dds"
-				large = "gfx/leaders/HEN/Cloe.dds"
+				small = GFX_idea_hen_cloe
+				large = GFX_portrait_hen_cloe
 			}
 		}
 		advisor = {
@@ -631,8 +631,8 @@ characters = {
 		name = HEN_Claudia_le_Van_Tyne
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/claudia_le_van_tyne_idea.dds"
-				large = "gfx/leaders/HEN/Claudia_le_Van_Tyne.dds"
+				small = GFX_idea_hen_claudia_le_van_tyne
+				large = GFX_portrait_hen_claudia_le_van_tyne
 			}
 		}
 		corps_commander = {
@@ -651,8 +651,8 @@ characters = {
 		name = HEN_Alicia_Arcturus
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/alicia_arcturus_idea.dds"
-				large = "gfx/leaders/HEN/Alicia_Arcturus.dds"
+				small = GFX_idea_hen_alicia_arcturus
+				large = GFX_portrait_hen_alicia_arcturus
 			}
 		}
 		advisor = {
@@ -683,8 +683,8 @@ characters = {
 		name = HEN_Sill_Plain
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/sill_plain_idea.dds"
-				large = "gfx/leaders/HEN/Sill_Plain.dds"
+				small = GFX_idea_hen_sill_plain
+				large = GFX_portrait_hen_sill_plain
 			}
 		}
 		advisor = {
@@ -717,8 +717,8 @@ characters = {
 		name = HEN_risa
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/risa_idea.dds"
-				large = "gfx/leaders/HEN/risa.dds"
+				small = GFX_idea_hen_risa
+				large = GFX_portrait_hen_risa
 			}
 		}
 		corps_commander = {
@@ -738,8 +738,8 @@ characters = {
 		name = HEN_kasumi_nanakura
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/kasumi_nanakura_idea.dds"
-				large = "gfx/leaders/HEN/kasumi_nanakura.dds"
+				small = GFX_idea_hen_kasumi_nanakura
+				large = GFX_portrait_hen_kasumi_nanakura
 			}
 		}
 		corps_commander = {
@@ -784,7 +784,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_rin
-				large = "gfx/leaders/HEN/rin.dds"
+				large = GFX_portrait_hen_rin
 			}
 		}
 		corps_commander = {
@@ -887,10 +887,10 @@ characters = {
 		name = HEN_Kaname
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/kaname_idea.dds"
+				small = GFX_idea_hen_kaname
 			}
 			army = {
-				large = "gfx/leaders/HEN/Kaname.dds"
+				large = GFX_portrait_hen_kaname
 			}
 		}
 		navy_leader = {
@@ -921,8 +921,8 @@ characters = {
 		name = HEN_Suomi
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/suomi_idea.dds"
-				large = "gfx/leaders/HEN/Suomi.dds"
+				small = GFX_idea_hen_suomi
+				large = GFX_portrait_hen_suomi
 			}
 		}
 		advisor = {
@@ -957,8 +957,8 @@ characters = {
 		name = HEN_Akiho_Taniguchi
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/akiho_taniguchi_idea.dds"
-				large = "gfx/leaders/HEN/Akiho_Taniguchi.dds"
+				small = GFX_idea_hen_akiho_taniguchi
+				large = GFX_portrait_hen_akiho_taniguchi
 			}
 		}
 		navy_leader = {
@@ -979,8 +979,8 @@ characters = {
 		name = HEN_Mika_Amano
 		portraits = {
 			army = {
-				small = "gfx/leaders/HEN/mika_amano_idea.dds"
-				large = "gfx/leaders/HEN/Mika_Amano.dds"
+				small = GFX_idea_hen_mika_amano
+				large = GFX_portrait_hen_mika_amano
 			}
 		}
 		advisor = {
@@ -1005,10 +1005,10 @@ characters = {
 		name = generic_head_of_intelligence
 		portraits = {
 			army = {
-				small = "GFX_idea_acw_mika_amano"
+				small = GFX_idea_acw_mika_amano
 			}
 			civilian = {
-				large = "gfx/leaders/HEN/Mika_Amano.dds"
+				large = GFX_portrait_hen_mika_amano
 			}
 		}
 		allowed_civil_war = {

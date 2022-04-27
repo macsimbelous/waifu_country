@@ -7,7 +7,7 @@ characters = {
 				small = GFX_idea_mms_velvet_crowe
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/Velvet_Crowe.dds"
+				large = GFX_portrait_mms_velvet_crowe
 			}
 		}
 		advisor = {
@@ -52,7 +52,7 @@ characters = {
 				small = GFX_idea_mms_yuuko_yoshida
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/yuuko_yoshida.dds"
+				large = GFX_portrait_mms_yuuko_yoshida
 			}
 		}
 		country_leader = {
@@ -75,7 +75,7 @@ characters = {
 				small = GFX_idea_mms_maou
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/Maou.dds"
+				large = GFX_portrait_mms_maou
 			}
 		}
 		advisor = {
@@ -120,7 +120,7 @@ characters = {
 				small = GFX_idea_mms_holo
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/Holo.dds"
+				large = GFX_portrait_mms_holo
 			}
 		}
 		advisor = {
@@ -163,8 +163,8 @@ characters = {
 		name = MMS_fino_bloodstone
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_fino_bloodstone"
-				large = "gfx/leaders/MMS/Fino_Bloodstone.dds"
+				small = GFX_idea_mms_fino_bloodstone
+				large = GFX_portrait_mms_fino_bloodstone
 			}
 		}
 		field_marshal = {
@@ -185,10 +185,8 @@ characters = {
 		name = MMS_rhea
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_rhea"
-			}
-			army = {
-				large = "gfx/leaders/MMS/Rhea.dds"
+				small = GFX_idea_mms_rhea
+				large = GFX_portrait_mms_rhea
 			}
 		}
 		field_marshal = {
@@ -209,7 +207,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_shiraori
-				large = "gfx/leaders/MMS/Shiraori.dds"
+				large = GFX_portrait_mms_shiraori
 			}
 		}
 		field_marshal = {
@@ -235,7 +233,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_ishtar
-				large = "gfx/leaders/MMS/Ishtar.dds"
+				large = GFX_portrait_mms_ishtar
 			}
 		}
 		advisor = {
@@ -268,7 +266,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_tiamat
-				large = "gfx/leaders/MMS/Tiamat.dds"
+				large = GFX_portrait_mms_tiamat
 			}
 		}
 		advisor = {
@@ -303,8 +301,8 @@ characters = {
 		name = MMS_lilith
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_lilith"
-				large = "gfx/leaders/MMS/Lilith.dds"
+				small = GFX_idea_mms_lilith
+				large = GFX_portrait_mms_lilith
 			}
 		}
 		corps_commander = {
@@ -338,8 +336,8 @@ characters = {
 		name = MMS_rose
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_rose"
-				large = "gfx/leaders/MMS/Rose.dds"
+				small = GFX_idea_mms_rose
+				large = GFX_portrait_mms_rose
 			}
 		}
 		advisor = {
@@ -371,8 +369,8 @@ characters = {
 		name = MMS_morrah
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_morrah"
-				large = "gfx/leaders/MMS/Morrah.dds"
+				small = GFX_idea_mms_morrah
+				large = GFX_portrait_mms_morrah
 			}
 		}
 		corps_commander = {
@@ -393,7 +391,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_ripine
-				large = "gfx/leaders/MMS/Ripine.dds"
+				large = GFX_portrait_mms_ripine
 			}
 		}
 		corps_commander = {
@@ -414,7 +412,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_dullahan
-				large = "gfx/leaders/MMS/Dullahan.dds"
+				large = GFX_portrait_mms_dullahan
 			}
 		}
 		corps_commander = {
@@ -447,7 +445,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_milla_maxwell
-				large = "gfx/leaders/MMS/Milla_Maxwell.dds"
+				large = GFX_portrait_mms_milla_maxwell
 			}
 		}
 		advisor = {
@@ -481,7 +479,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_astaroth
-				large = "gfx/leaders/MMS/Astaroth.dds"
+				large = GFX_portrait_mms_astaroth
 			}
 		}
 		corps_commander = {
@@ -503,7 +501,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_laharl
-				large = "gfx/leaders/MMS/Laharl_girl.dds"
+				large = GFX_portrait_mms_laharl_girl
 			}
 		}
 		corps_commander = {
@@ -524,8 +522,8 @@ characters = {
 		name = MMS_desco
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_desco"
-				large = "gfx/leaders/MMS/Desco.dds"
+				small = GFX_idea_mms_desco
+				large = GFX_portrait_mms_desco
 			}
 		}
 		corps_commander = {
@@ -545,10 +543,8 @@ characters = {
 		name = MMS_corrin
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_corrin"
-			}
-			army = {
-				large = "gfx/leaders/MMS/Corrin.dds"
+				small = GFX_idea_mms_corrin
+				large = GFX_portrait_mms_corrin
 			}
 		}
 		corps_commander = {
@@ -568,10 +564,8 @@ characters = {
 		name = MMS_lucy
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_lucy"
-			}
-			army = {
-				large = "gfx/leaders/MMS/Lucy.dds"
+				small = GFX_idea_mms_lucy
+				large = GFX_portrait_mms_lucy
 			}
 		}
 		corps_commander = {
@@ -592,8 +586,8 @@ characters = {
 		name = MMS_makina_hoshimura
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_makina_hoshimura"
-				large = "gfx/leaders/MMS/Makina_Hoshimura.dds"
+				small = GFX_idea_mms_makina_hoshimura
+				large = GFX_portrait_mms_makina_hoshimura
 			}
 		}
 		advisor = {
@@ -630,10 +624,10 @@ characters = {
 		name = MMS_saya_kisaragi
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_saya_kisaragi"
+				small = GFX_idea_mms_saya_kisaragi
 			}
 			army = {
-				large = "gfx/leaders/MMS/Saya_Kisaragi.dds"
+				large = GFX_portrait_mms_saya_kisaragi
 			}
 		}
 		corps_commander = {
@@ -652,8 +646,8 @@ characters = {
 		name = MMS_02
 		portraits = {
 			army = {
-				small = GFX_idea_mms_02
-				large = "gfx/leaders/MMS/Zero_Two.dds"
+				small = GFX_idea_mms_zero_two
+				large = GFX_portrait_mms_zero_two
 			}
 		}
 		corps_commander = {
@@ -673,8 +667,8 @@ characters = {
 		name = MMS_vignette_april_tsukinose
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_vignette_april_tsukinose"
-				large = "gfx/leaders/MMS/Vignette_April_Tsukinose.dds"
+				small = GFX_idea_mms_vignette_april_tsukinose
+				large = GFX_portrait_mms_vignette_april_tsukinose
 			}
 		}
 		corps_commander = {
@@ -707,8 +701,8 @@ characters = {
 		name = MMS_satanichia_mcdowell_kurumizawa
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_satanichia_mcdowell_kurumizawa"
-				large = "gfx/leaders/MMS/Satanichia_McDowell_Kurumizawa.dds"
+				small = GFX_idea_mms_satanichia_mcdowell_kurumizawa
+				large = GFX_portrait_mms_satanichia_mcdowell_kurumizawa
 			}
 		}
 		advisor = {
@@ -740,7 +734,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_arnice
-				large = "gfx/leaders/MMS/Arnice.dds"
+				large = GFX_portrait_mms_arnice
 			}
 		}
 		corps_commander = {
@@ -760,7 +754,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_saya_otonashi
-				large = "gfx/leaders/MMS/Saya_Otonashi.dds"
+				large = GFX_portrait_mms_saya_otonashi
 			}
 		}
 		corps_commander = {
@@ -779,8 +773,8 @@ characters = {
 		name = MMS_marie_von_eisenberg
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_marie_von_eisenberg"
-				large = "gfx/leaders/MMS/Marie_Von_Eisenberg.dds"
+				small = GFX_idea_mms_marie_von_eisenberg
+				large = GFX_portrait_mms_marie_von_eisenberg
 			}
 		}
 		advisor = {
@@ -810,8 +804,8 @@ characters = {
 		name = MMS_kurari_rose
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_kurari_rose"
-				large = "gfx/leaders/MMS/Kurari_Rose.dds"
+				small = GFX_idea_mms_kurari_rose
+				large = GFX_portrait_mms_kurari_rose
 			}
 		}
 		advisor = {
@@ -843,7 +837,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_heine
-				large = "gfx/leaders/MMS/Heine.dds"
+				large = GFX_portrait_mms_heine
 			}
 		}
 		advisor = {
@@ -875,7 +869,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_freyja
-				large = "gfx/leaders/MMS/freyja.dds"
+				large = GFX_portrait_mms_freyja
 			}
 		}
 		corps_commander = {
@@ -895,10 +889,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_saphentite_neikes
-				large = "gfx/leaders/MMS/saphentite_neikes.dds"
+				large = GFX_portrait_mms_saphentite_neikes
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/saphentite_neikes.dds"
+				large = GFX_portrait_mms_saphentite_neikes
 			}
 		}
 		advisor = {
@@ -929,10 +923,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_miia
-				large = "gfx/leaders/MMS/miia.dds"
+				large = GFX_portrait_mms_miia
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/miia.dds"
+				large = GFX_portrait_mms_miia
 			}
 		}
 		corps_commander = {
@@ -952,10 +946,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_asmodeus
-				large = "gfx/leaders/MMS/asmodeus.dds"
+				large = GFX_portrait_mms_asmodeus
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/asmodeus.dds"
+				large = GFX_portrait_mms_asmodeus
 			}
 		}
 		corps_commander = {
@@ -975,8 +969,8 @@ characters = {
 		name = MMS_yamato_wg
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_yamato_wg"
-				large = "gfx/leaders/MMS/Yamato_WG.dds"
+				small = GFX_idea_mms_yamato_wg
+				large = GFX_portrait_mms_yamato_wg
 			}
 		}
 		advisor = {
@@ -1009,8 +1003,8 @@ characters = {
 		name = MMS_purifier
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_purifier"
-				large = "gfx/leaders/MMS/Purifier.dds"
+				small = GFX_idea_mms_purifier
+				large = GFX_portrait_mms_purifier
 			}
 		}
 		advisor = {
@@ -1042,10 +1036,10 @@ characters = {
 		name = MMS_tester
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_tester"
+				small = GFX_idea_mms_tester
 			}
 			army = {
-				large = "gfx/leaders/MMS/Tester.dds"
+				large = GFX_portrait_mms_tester
 			}
 		}
 		navy_leader = {
@@ -1067,11 +1061,11 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_meroune_lorelei
-				large = "gfx/leaders/MMS/meroune_lorelei.dds"
+				large = GFX_portrait_mms_meroune_lorelei
 			}
 			navy = {
 				small = GFX_idea_mms_meroune_lorelei
-				large = "gfx/leaders/MMS/meroune_lorelei.dds"
+				large = GFX_portrait_mms_meroune_lorelei
 			}
 		}
 		navy_leader = {
@@ -1094,8 +1088,8 @@ characters = {
 		name = MMS_belldandy
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_belldandy"
-				large = "gfx/leaders/MMS/Belldandy.dds"
+				small = GFX_idea_mms_belldandy
+				large = GFX_portrait_mms_belldandy
 			}
 		}
 		advisor = {
@@ -1126,10 +1120,10 @@ characters = {
 		name = MMS_shigure
 		portraits = {
 			army = {
-				small = "GFX_idea_mms_shigure"
+				small = GFX_idea_mms_shigure
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/Shigure.dds"
+				large = GFX_portrait_mms_shigure
 			}
 		}
 		advisor = {
@@ -1154,7 +1148,7 @@ characters = {
 				small = GFX_idea_mms_shigure
 			}
 			civilian = {
-				large = "gfx/leaders/MMS/Shigure.dds"
+				large = GFX_portrait_mms_shigure
 			}
 		}
 		advisor = {

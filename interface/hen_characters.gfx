@@ -4,7 +4,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/akiho_taniguchi_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Akiho_Taniguchi"
+		name = "GFX_portrait_hen_akiho_taniguchi"
 		texturefile = "gfx/leaders/HEN/Akiho_Taniguchi.dds"
 	}
         spriteType = {
@@ -12,7 +12,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/alicia_arcturus_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Alicia_Arcturus"
+		name = "GFX_portrait_hen_alicia_arcturus"
 		texturefile = "gfx/leaders/HEN/Alicia_Arcturus.dds"
 	}
         spriteType = {
@@ -20,7 +20,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/anna_komiya_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Anna_Komiya"
+		name = "GFX_portrait_hen_anna_komiya"
 		texturefile = "gfx/leaders/HEN/Anna_Komiya.dds"
 	}
         spriteType = {
@@ -28,7 +28,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/anri_sogahara_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Anri_Sogahara"
+		name = "GFX_portrait_hen_anri_sogahara"
 		texturefile = "gfx/leaders/HEN/Anri_Sogahara.dds"
 	}
         spriteType = {
@@ -36,7 +36,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/celestine_lucullus_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Celestine_Lucullus"
+		name = "GFX_portrait_hen_celestine_lucullus"
 		texturefile = "gfx/leaders/HEN/Celestine_Lucullus.dds"
 	}
         spriteType = {
@@ -44,7 +44,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/claudia_le_van_tyne_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Claudia_le_Van_Tyne"
+		name = "GFX_portrait_hen_claudia_le_van_tyne"
 		texturefile = "gfx/leaders/HEN/Claudia_le_Van_Tyne.dds"
 	}
         spriteType = {
@@ -52,7 +52,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/cloe_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Cloe"
+		name = "GFX_portrait_hen_cloe"
 		texturefile = "gfx/leaders/HEN/Cloe.dds"
 	}
         spriteType = {
@@ -60,7 +60,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/homare_nao_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Homare_Nao"
+		name = "GFX_portrait_hen_homare_nao"
 		texturefile = "gfx/leaders/HEN/Homare_Nao.dds"
 	}
         spriteType = {
@@ -68,7 +68,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/igawa_asagi_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Igawa_Asagi"
+		name = "GFX_portrait_hen_igawa_asagi"
 		texturefile = "gfx/leaders/HEN/Igawa_Asagi.dds"
 	}
         spriteType = {
@@ -76,7 +76,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/iris_arcadia_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Iris_Arcadia"
+		name = "GFX_portrait_hen_iris_arcadia"
 		texturefile = "gfx/leaders/HEN/Iris_Arcadia.dds"
 	}
         spriteType = {
@@ -84,7 +84,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/kaname_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Kaname"
+		name = "GFX_portrait_hen_kaname"
 		texturefile = "gfx/leaders/HEN/Kaname.dds"
 	}
         spriteType = {
@@ -92,7 +92,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/mako_mitsuki_idea.dds"
         }
         spriteType = {
-                name = "GFX_Mako_Mitsuki"
+                name = "GFX_portrait_hen_mako_mitsuki"
                 texturefile = "gfx/leaders/HEN/Mako_Mitsuki.dds"
         }
         spriteType = {
@@ -100,7 +100,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/mari_setogaya_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Mari_Setogaya"
+		name = "GFX_portrait_hen_mari_setogaya"
 		texturefile = "gfx/leaders/HEN/Mari_Setogaya.dds"
 	}
         spriteType = {
@@ -108,7 +108,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/mika_amano_idea.dds"
         }
         spriteType = {
-                name = "GFX_Mika_Amano"
+                name = "GFX_portrait_hen_mika_amano"
                 texturefile = "gfx/leaders/HEN/Mika_Amano.dds"
         }
         spriteType = {
@@ -116,7 +116,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/mistiora_arte_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Mistiora_Arte"
+		name = "GFX_portrait_hen_mistiora_arte"
 		texturefile = "gfx/leaders/HEN/Mistiora_Arte.dds"
 	}
         spriteType = {
@@ -124,7 +124,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/olga_discordia_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Olga_Discordia"
+		name = "GFX_portrait_hen_olga_discordia"
 		texturefile = "gfx/leaders/HEN/Olga_Discordia.dds"
 	}
         spriteType = {
@@ -132,7 +132,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/prim_fiorire_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Prim_Fiorire"
+		name = "GFX_portrait_hen_prim_fiorire"
 		texturefile = "gfx/leaders/HEN/Prim_Fiorire.dds"
 	}
         spriteType = {
@@ -140,7 +140,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/rina_komiya_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Rina_Komiya"
+		name = "GFX_portrait_hen_rina_komiya"
 		texturefile = "gfx/leaders/HEN/Rina_Komiya.dds"
 	}
         spriteType = {
@@ -148,7 +148,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/ruma_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Ruma"
+		name = "GFX_portrait_hen_ruma"
 		texturefile = "gfx/leaders/HEN/Ruma.dds"
 	}
         spriteType = {
@@ -156,7 +156,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/saori_asamiya_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Saori_Asamiya"
+		name = "GFX_portrait_hen_saori_asamiya"
 		texturefile = "gfx/leaders/HEN/Saori_Asamiya.dds"
 	}
         spriteType = {
@@ -164,7 +164,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/sheliss_elleness_zurbach_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Sheliss_Elleness_Zurbach"
+		name = "GFX_portrait_hen_sheliss_elleness_zurbach"
 		texturefile = "gfx/leaders/HEN/Sheliss_Elleness_Zurbach.dds"
 	}
         spriteType = {
@@ -172,7 +172,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/sill_plain_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Sill_Plain"
+		name = "GFX_portrait_hen_sill_plain"
 		texturefile = "gfx/leaders/HEN/Sill_Plain.dds"
 	}
         spriteType = {
@@ -180,7 +180,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/suomi_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Suomi"
+		name = "GFX_portrait_hen_suomi"
 		texturefile = "gfx/leaders/HEN/Suomi.dds"
 	}
         spriteType = {
@@ -188,7 +188,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/takumi_musashino_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Takumi_Musashino"
+		name = "GFX_portrait_hen_takumi_musashino"
 		texturefile = "gfx/leaders/HEN/Takumi_Musashino.dds"
 	}
         spriteType = {
@@ -196,7 +196,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/tsubasa_kamijo_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Tsubasa_Kamijo"
+		name = "GFX_portrait_hen_tsubasa_kamijo"
 		texturefile = "gfx/leaders/HEN/Tsubasa_Kamijo.dds"
 	}
         spriteType = {
@@ -204,7 +204,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/yuriya_komiya_idea.dds"
         }
         spriteType = {
-                name = "GFX_Yuriya_Komiya"
+                name = "GFX_portrait_hen_yuriya_komiya"
                 texturefile = "gfx/leaders/HEN/Yuriya_Komiya.dds"
         }
         spriteType = {
@@ -212,7 +212,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/yuuki_kawaragi_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_Yuuki_Kawaragi"
+		name = "GFX_portrait_hen_yuuki_kawaragi"
 		texturefile = "gfx/leaders/HEN/Yuuki_Kawaragi.dds"
 	}
         spriteType = {
@@ -220,7 +220,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/risa_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_risa"
+		name = "GFX_portrait_hen_risa"
 		texturefile = "gfx/leaders/HEN/risa.dds"
 	}
         spriteType = {
@@ -228,7 +228,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/kasumi_nanakura_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_kasumi_nanakura"
+		name = "GFX_portrait_hen_kasumi_nanakura"
 		texturefile = "gfx/leaders/HEN/kasumi_nanakura.dds"
 	}
         spriteType = {
@@ -248,7 +248,7 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/rin_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_rin"
+		name = "GFX_portrait_hen_rin"
 		texturefile = "gfx/leaders/HEN/rin.dds"
 	}
         spriteType = {
@@ -256,11 +256,11 @@ spriteTypes = {
                 texturefile = "gfx/leaders/HEN/mind_flayer_idea.dds"
         }
         spriteType = {
-		name = "GFX_portrait_mind_flayer"
+		name = "GFX_portrait_hen_mind_flayer"
 		texturefile = "gfx/leaders/HEN/mind_flayer.dds"
 	}
         spriteType = {
-		name = "GFX_portrait_mind_flayer_general"
+		name = "GFX_portrait_hen_mind_flayer_general"
 		texturefile = "gfx/leaders/HEN/mind_flayer_general.dds"
 	}
         spriteType = {

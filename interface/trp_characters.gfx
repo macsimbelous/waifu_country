@@ -4,7 +4,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/aoi_futaba_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_Aoi_Futaba"
+		name = "GFX_portrait_trp_aoi_futaba"
 		texturefile = "gfx/leaders/TRP/Aoi_Futaba.dds"
 	}
 	spriteType = {
@@ -12,7 +12,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/aoi_hyoudou_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Aoi_Hyoudou"
+		name = "GFX_portrait_trp_aoi_hyoudou"
 		texturefile = "gfx/leaders/TRP/Aoi_Hyoudou.dds"
 	}
 	spriteType = {
@@ -20,7 +20,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/astolfo_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Astolfo"
+		name = "GFX_portrait_trp_astolfo"
 		texturefile = "gfx/leaders/TRP/Astolfo.dds"
 	}
 	spriteType = {
@@ -28,7 +28,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/birdy_cephon_altera_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Birdy_Cephon_Altera"
+		name = "GFX_portrait_trp_birdy_cephon_altera"
 		texturefile = "gfx/leaders/TRP/Birdy_Cephon_Altera.dds"
 	}
 	spriteType = {
@@ -36,7 +36,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/felix_argyle_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Felix_Argyle"
+		name = "GFX_portrait_trp_felix_argyle"
 		texturefile = "gfx/leaders/TRP/Felix_Argyle.dds"
 	}
 	spriteType = {
@@ -44,7 +44,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/fish_eye_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Fish_Eye"
+		name = "GFX_portrait_trp_fish_eye"
 		texturefile = "gfx/leaders/TRP/Fish_Eye.dds"
 	}
 	spriteType = {
@@ -52,7 +52,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/gasper_vladi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_Gasper_Vladi"
+		name = "GFX_portrait_trp_gasper_vladi"
 		texturefile = "gfx/leaders/TRP/Gasper_Vladi.dds"
 	}
 	spriteType = {
@@ -60,7 +60,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/hacka_doll_3_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Hacka_Doll_3"
+		name = "GFX_portrait_trp_hacka_doll_3"
 		texturefile = "gfx/leaders/TRP/Hacka_Doll_3.dds"
 	}
 	spriteType = {
@@ -68,7 +68,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/hamaji_yakumo_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Hamaji_Yakumo"
+		name = "GFX_portrait_trp_hamaji_yakumo"
 		texturefile = "gfx/leaders/TRP/Hamaji_Yakumo.dds"
 	}
 	spriteType = {
@@ -76,7 +76,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/hideri_kanzaki_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Hideri_Kanzaki"
+		name = "GFX_portrait_trp_hideri_kanzaki"
 		texturefile = "gfx/leaders/TRP/Hideri_Kanzaki.dds"
 	}
 	spriteType = {
@@ -84,7 +84,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/hime_arikawa_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Hime_Arikawa"
+		name = "GFX_portrait_trp_hime_arikawa"
 		texturefile = "gfx/leaders/TRP/Hime_Arikawa.dds"
 	}
 	spriteType = {
@@ -92,7 +92,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/hitoshi_sugoroku_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Hitoshi_Sugoroku"
+		name = "GFX_portrait_trp_hitoshi_sugoroku"
 		texturefile = "gfx/leaders/TRP/Hitoshi_Sugoroku.dds"
 	}
 	spriteType = {
@@ -100,7 +100,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/kaguya_arikawa_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Kaguya_Arikawa"
+		name = "GFX_portrait_trp_kaguya_arikawa"
 		texturefile = "gfx/leaders/TRP/Kaguya_Arikawa.dds"
 	}
 	spriteType = {
@@ -108,7 +108,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/kaoru_hanase_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Kaoru_Hanase"
+		name = "GFX_portrait_trp_kaoru_hanase"
 		texturefile = "gfx/leaders/TRP/Kaoru_Hanase.dds"
 	}
 	spriteType = {
@@ -116,7 +116,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/mariya_shidou_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Mariya_Shidou"
+		name = "GFX_portrait_trp_mariya_shidou"
 		texturefile = "gfx/leaders/TRP/Mariya_Shidou.dds"
 	}
 	spriteType = {
@@ -124,7 +124,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/mitsunaga_oda_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Mitsunaga_Oda"
+		name = "GFX_portrait_trp_mitsunaga_oda"
 		texturefile = "gfx/leaders/TRP/Mitsunaga_Oda.dds"
 	}
 	spriteType = {
@@ -132,7 +132,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/mizuho_miyanokouji_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Mizuho_Miyanokouji"
+		name = "GFX_portrait_trp_mizuho_miyanokouji"
 		texturefile = "gfx/leaders/TRP/Mizuho_Miyanokouji.dds"
 	}
 	spriteType = {
@@ -140,7 +140,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/oboro_tsukimigusa_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Oboro_Tsukimigusa"
+		name = "GFX_portrait_trp_oboro_tsukimigusa"
 		texturefile = "gfx/leaders/TRP/Oboro_Tsukimigusa.dds"
 	}
 	spriteType = {
@@ -148,7 +148,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/ranga_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ranga"
+		name = "GFX_portrait_trp_ranga"
 		texturefile = "gfx/leaders/TRP/Ranga.dds"
 	}
 	spriteType = {
@@ -156,7 +156,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/ranma_saotome_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ranma_Saotome"
+		name = "GFX_portrait_trp_ranma_saotome"
 		texturefile = "gfx/leaders/TRP/Ranma_Saotome.dds"
 	}
 	spriteType = {
@@ -164,7 +164,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/ringo_tsukimiya_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ringo_Tsukimiya"
+		name = "GFX_portrait_trp_ringo_tsukimiya"
 		texturefile = "gfx/leaders/TRP/Ringo_Tsukimiya.dds"
 	}
 	spriteType = {
@@ -172,7 +172,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/ritsu_souma_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ritsu_Souma"
+		name = "GFX_portrait_trp_ritsu_souma"
 		texturefile = "gfx/leaders/TRP/Ritsu_Souma.dds"
 	}
 	spriteType = {
@@ -180,7 +180,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/russell_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Russell"
+		name = "GFX_portrait_trp_russell"
 		texturefile = "gfx/leaders/TRP/Russell.dds"
 	}
 	spriteType = {
@@ -188,7 +188,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/ryou_akizuki_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_Ryou_Akizuki"
+		name = "GFX_portrait_trp_ryou_akizuki"
 		texturefile = "gfx/leaders/TRP/Ryou_Akizuki.dds"
 	}
 	spriteType = {
@@ -196,7 +196,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/saki_mizushima_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_Saki_Mizushima"
+		name = "GFX_portrait_trp_saki_mizushima"
 		texturefile = "gfx/leaders/TRP/Saki_Mizushima.dds"
 	}
 	spriteType = {
@@ -204,7 +204,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/souji_mitsuka_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Souji_Mitsuka"
+		name = "GFX_portrait_trp_souji_mitsuka"
 		texturefile = "gfx/leaders/TRP/Souji_Mitsuka.dds"
 	}
 	spriteType = {
@@ -212,7 +212,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/sylvia_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Sylvia"
+		name = "GFX_portrait_trp_sylvia"
 		texturefile = "gfx/leaders/TRP/Sylvia.dds"
 	}
 	spriteType = {
@@ -220,7 +220,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/tama_kyan_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Tama_Kyan"
+		name = "GFX_portrait_trp_tama_kyan"
 		texturefile = "gfx/leaders/TRP/Tama_Kyan.dds"
 	}
 	spriteType = {
@@ -228,7 +228,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/taroumaru_seike_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Taroumaru_Seike"
+		name = "GFX_portrait_trp_taroumaru_seike"
 		texturefile = "gfx/leaders/TRP/Taroumaru_Seike.dds"
 	}
 	spriteType = {
@@ -236,7 +236,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/tetora_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Tetora"
+		name = "GFX_portrait_trp_tetora"
 		texturefile = "gfx/leaders/TRP/Tetora.dds"
 	}
 	spriteType = {
@@ -244,7 +244,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/xianming_lin_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Xianming_Lin"
+		name = "GFX_portrait_trp_xianming_lin"
 		texturefile = "gfx/leaders/TRP/Xianming_Lin.dds"
 	}
 	spriteType = {
@@ -252,7 +252,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/youta_tsunashi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Youta_Tsunashi"
+		name = "GFX_portrait_trp_youta_tsunashi"
 		texturefile = "gfx/leaders/TRP/Youta_Tsunashi.dds"
 	}
 	spriteType = {
@@ -260,7 +260,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/yukikaze_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Yukikaze"
+		name = "GFX_portrait_trp_yukikaze"
 		texturefile = "gfx/leaders/TRP/Yukikaze.dds"
 	}
 	spriteType = {
@@ -268,7 +268,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/mare_bello_fiore_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_mare_bello_fiore"
+		name = "GFX_portrait_trp_mare_bello_fiore"
 		texturefile = "gfx/leaders/TRP/mare_bello_fiore.dds"
 	}
 	spriteType = {
@@ -276,7 +276,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/shirota_mitsuki_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_shirota_mitsuki"
+		name = "GFX_portrait_trp_shirota_mitsuki"
 		texturefile = "gfx/leaders/TRP/shirota_mitsuki.dds"
 	}
 	spriteType = {
@@ -284,7 +284,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/tiger_traps_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_tiger_traps"
+		name = "GFX_portrait_trp_tiger_traps"
 		texturefile = "gfx/leaders/TRP/tiger_traps.dds"
 	}
 	spriteType = {
@@ -292,7 +292,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/jun_hiiragi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_jun_hiiragi"
+		name = "GFX_portrait_trp_jun_hiiragi"
 		texturefile = "gfx/leaders/TRP/jun_hiiragi.dds"
 	}
 	#generic

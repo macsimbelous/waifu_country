@@ -15,61 +15,93 @@ spriteTypes = {
                 name = "GFX_idea_waifu_influence"
                 texturefile = "gfx/interface/ideas/idea_jap_supremacy_of_will.dds"
         }
+        #ACW
         spriteType = {
-                name = "GFX_idea_wfc_acw_assistance"
+                name = "GFX_idea_acw_minpropagand_idea"
+                texturefile = "gfx/interface/ideas/idea_usa_magic.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_minprom_idea"
+                texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_minscience_idea"
+                texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_nii_idea"
+                texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_mintrans_idea"
+                texturefile = "gfx/interface/ideas/idea_generic_build_infrastructure.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_stavka_idea"
+                texturefile = "gfx/interface/ideas/idea_saf_soviet_advisers.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_minoboron_idea"
+                texturefile = "gfx/interface/ideas/idea_saf_soviet_advisers.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_core_states_to_pp"
+                texturefile = "gfx/interface/ideas/idea_generic_political_support.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_colonial_office"
+                texturefile = "gfx/interface/ideas/idea_por_colonial_assimilation.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_ACW_economic_integration"
                 texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_ACW_economic_assistance"
+                texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_acw_winry_rockbell"
+                texturefile = "gfx/interface/ideas/idea_acw_winry_rockbell.dds"
         }
         spriteType = {
                 name = "GFX_idea_wfc_acw_puppet"
                 texturefile = "gfx/interface/ideas/idea_ast_classify_aliens.dds"
         }
-        #generic ministri
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_army_female_01"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_army_female_01.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_army_female_02"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_army_female_02.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_army_female_03"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_army_female_03.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_female_01"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_female_01.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_female_02"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_female_02.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_female_03"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_female_03.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_female_04"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_female_04.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_female_05"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_female_05.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_navy_female_01"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_navy_female_01.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_navy_female_02"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_navy_female_02.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_navy_female_03"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_navy_female_03.dds"
-        # }
-        # spriteType = {
-        #         name = "GFX_idea_wfc_generic_navy_female_04"
-        #         texturefile = "gfx/interface/ideas/idea_wfc_generic_navy_female_04.dds"
-        # }
+        spriteType = {
+                name = "GFX_idea_wfc_acw_assistance"
+                texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
+        }
+        #TRP
+        spriteType = {
+		name = "GFX_idea_TRP_revolution"
+		texturefile = "gfx/interface/ideas/home_of_the_revolution.dds"
+	}
+        #MMS
+        spriteType = {
+                name = "GFX_idea_mms_the_nation_of_monmusu"
+                texturefile = "gfx/interface/ideas/air_war_plans_division_focus.dds"
+        }
+        #MEH
+        spriteType = {
+                name = "GFX_idea_meh_super_factory"
+                texturefile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_sputnik"
+                texturefile = "gfx/interface/ideas/idea_generic_flexible_foreign_policy2.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_rocket_factory"
+                texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_3.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_meh_sputnik_v_kosmose"
+                texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_1.dds"
+        }
+        #HEN
+        spriteType = {
+                name = "GFX_idea_hen_the_nation_of_hentai"
+                texturefile = "gfx/interface/ideas/idea_jap_supremacy_of_will.dds"
+        }
 }

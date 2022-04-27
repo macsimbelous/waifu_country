@@ -4,10 +4,10 @@ characters = {
 		name = ACW_Erza
 		portraits = {
 			civilian = {
-				large = GFX_portrait_erza
+				large = GFX_portrait_acw_erza
 			}
 			army = {
-				large = GFX_portrait_erza
+				large = GFX_portrait_acw_erza
 				small = GFX_idea_acw_erza
 			}
 		}
@@ -63,10 +63,10 @@ characters = {
 		name = ACW_Asuka
 		portraits = {
 			civilian = {
-				large = GFX_portrait_asuka_lider
+				large = GFX_portrait_acw_asuka_lider
 			}
 			army = {
-				large = GFX_portrait_asuka
+				large = GFX_portrait_acw_asuka
 				small = GFX_idea_acw_asuka_lider
 			}
 		}
@@ -120,10 +120,10 @@ characters = {
 		name = ACW_Aurora_Suya_Rhys_Kaymin
 		portraits = {
 			civilian = {
-				large = GFX_portrait_aurora_suya_rhys_kaymin
+				large = GFX_portrait_acw_aurora_suya_rhys_kaymin
 			}
 			army = {
-				large = GFX_portrait_aurora_suya_rhys_kaymin
+				large = GFX_portrait_acw_aurora_suya_rhys_kaymin
 				small = GFX_idea_acw_aurora_suya_rhys_kaymin
 			}
 		}
@@ -143,10 +143,10 @@ characters = {
 		name = ACW_Anastasia
 		portraits = {
 			civilian = {
-				large = GFX_portrait_anastasia
+				large = GFX_portrait_acw_anastasia
 			}
 			army = {
-				large = GFX_portrait_anastasia_general
+				large = GFX_portrait_acw_anastasia_general
 				small = GFX_idea_acw_anastasia
 			}
 		}
@@ -204,7 +204,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_lightning
-				large = GFX_portrait_lightning
+				large = GFX_portrait_acw_lightning
 			}
 		}
 		advisor = {
@@ -238,7 +238,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_mamako_oosuki
-				large = GFX_portrait_mamako_oosuki
+				large = GFX_portrait_acw_mamako_oosuki
 			}
 		}
 		advisor = {
@@ -273,10 +273,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_anastasia_romanova
-				large = GFX_portrait_anastasia_romanova
+				large = GFX_portrait_acw_anastasia_romanova
 			}
 			civilian = {
-				large = GFX_portrait_anastasia_romanova
+				large = GFX_portrait_acw_anastasia_romanova
 			}
 		}
 		allowed_civil_war = {
@@ -300,7 +300,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_saint_martha
-				large = GFX_portrait_saint_martha
+				large = GFX_portrait_acw_saint_martha
 			}
 		}
 		corps_commander = {
@@ -320,7 +320,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_nishizumi_miho
-				large = GFX_portrait_nishizumi_miho
+				large = GFX_portrait_acw_nishizumi_miho
 			}
 		}
 		corps_commander = {
@@ -341,7 +341,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_asuna_yuuki
-				large = GFX_portrait_asuna_yuuki
+				large = GFX_portrait_acw_asuna_yuuki
 			}
 		}
 		corps_commander = {
@@ -375,7 +375,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_mash_kyrielight
-				large = GFX_portrait_mash_kyrielight
+				large = GFX_portrait_acw_mash_kyrielight
 			}
 		}
 		corps_commander = {
@@ -396,7 +396,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_maple
-				large = GFX_portrait_maple
+				large = GFX_portrait_acw_maple
 			}
 		}
 		corps_commander = {
@@ -417,7 +417,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_yoko_littner
-				large = GFX_portrait_yoko_littner
+				large = GFX_portrait_acw_yoko_littner
 			}
 		}
 		corps_commander = {
@@ -439,7 +439,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kallen_stadtfeld
-				large = GFX_portrait_kallen_stadtfeld
+				large = GFX_portrait_acw_kallen_stadtfeld
 			}
 		}
 		advisor = {
@@ -472,7 +472,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_saki_rukino
-				large = GFX_portrait_saki_rukino
+				large = GFX_portrait_acw_saki_rukino
 			}
 		}
 		corps_commander = {
@@ -493,7 +493,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kurumi_tokisaki
-				large = GFX_portrait_kurumi_tokisaki
+				large = GFX_portrait_acw_kurumi_tokisaki
 			}
 		}
 		corps_commander = {
@@ -514,7 +514,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_sanya_v_litvyak
-				large = GFX_portrait_sanya_v_litvyak
+				large = GFX_portrait_acw_sanya_v_litvyak
 			}
 		}
 		corps_commander = {
@@ -545,7 +545,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_isuzu_sento
-				large = GFX_portrait_isuzu_sento
+				large = GFX_portrait_acw_isuzu_sento
 			}
 		}
 		corps_commander = {
@@ -567,7 +567,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_volemia
-				large = GFX_portrait_volemia
+				large = GFX_portrait_acw_volemia
 			}
 		}
 		corps_commander = {
@@ -587,7 +587,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_camilla
-				large = GFX_portrait_camilla
+				large = GFX_portrait_acw_camilla
 			}
 		}
 		corps_commander = {
@@ -608,7 +608,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_sinon
-				large = GFX_portrait_sinon
+				large = GFX_portrait_acw_sinon
 			}
 		}
 		corps_commander = {
@@ -629,7 +629,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kaname_chidori
-				large = GFX_portrait_kaname_chidori
+				large = GFX_portrait_acw_kaname_chidori
 			}
 		}
 		corps_commander = {
@@ -650,7 +650,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_yoshiko_tsushima
-				large = GFX_portrait_yoshiko_tsushima
+				large = GFX_portrait_acw_yoshiko_tsushima
 			}
 		}
 		corps_commander = {
@@ -670,7 +670,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ranko_kanzaki
-				large = GFX_portrait_ranko_kanzaki
+				large = GFX_portrait_acw_ranko_kanzaki
 			}
 		}
 		corps_commander = {
@@ -691,7 +691,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_elma
-				large = GFX_portrait_elma
+				large = GFX_portrait_acw_elma
 			}
 		}
 		corps_commander = {
@@ -725,7 +725,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ako_tamaki
-				large = GFX_portrait_ako_tamaki
+				large = GFX_portrait_acw_ako_tamaki
 			}
 		}
 		corps_commander = {
@@ -745,7 +745,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_celica
-				large = GFX_portrait_celica
+				large = GFX_portrait_acw_celica
 			}
 		}
 		corps_commander = {
@@ -767,7 +767,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_cryska_barchenowa
-				large = GFX_portrait_cryska_barchenowa
+				large = GFX_portrait_acw_cryska_barchenowa
 			}
 		}
 		corps_commander = {
@@ -787,7 +787,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_fiora
-				large = GFX_portrait_fiora
+				large = GFX_portrait_acw_fiora
 			}
 		}
 		corps_commander = {
@@ -808,7 +808,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_haruhi_suzumiya
-				large = GFX_portrait_haruhi_suzumiya
+				large = GFX_portrait_acw_haruhi_suzumiya
 			}
 		}
 		corps_commander = {
@@ -829,7 +829,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kiana_kaslana
-				large = GFX_portrait_kiana_kaslana
+				large = GFX_portrait_acw_kiana_kaslana
 			}
 		}
 		corps_commander = {
@@ -849,7 +849,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_konoko
-				large = GFX_portrait_konoko
+				large = GFX_portrait_acw_konoko
 			}
 		}
 		corps_commander = {
@@ -869,7 +869,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_lina_inverse
-				large = GFX_portrait_lina_inverse
+				large = GFX_portrait_acw_lina_inverse
 			}
 		}
 		corps_commander = {
@@ -902,7 +902,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_neptune
-				large = GFX_portrait_neptune
+				large = GFX_portrait_acw_neptune
 			}
 		}
 		corps_commander = {
@@ -923,7 +923,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ryuuko_matoi
-				large = GFX_portrait_ryuuko_matoi
+				large = GFX_portrait_acw_ryuuko_matoi
 			}
 		}
 		corps_commander = {
@@ -956,7 +956,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_satellizer_el_bridget
-				large = GFX_portrait_satellizer_el_bridget
+				large = GFX_portrait_acw_satellizer_el_bridget
 			}
 		}
 		corps_commander = {
@@ -976,7 +976,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_siluca_meletes
-				large = GFX_portrait_siluca_meletes
+				large = GFX_portrait_acw_siluca_meletes
 			}
 		}
 		corps_commander = {
@@ -1009,7 +1009,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_yuno_gasai
-				large = GFX_portrait_yuno_gasai
+				large = GFX_portrait_acw_yuno_gasai
 			}
 		}
 		corps_commander = {
@@ -1030,7 +1030,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_byleth_eisner
-				large = GFX_portrait_byleth_eisner
+				large = GFX_portrait_acw_byleth_eisner
 			}
 		}
 		corps_commander = {
@@ -1051,7 +1051,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_eula
-				large = GFX_portrait_eula
+				large = GFX_portrait_acw_eula
 			}
 		}
 		corps_commander = {
@@ -1071,7 +1071,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_5pb
-				large = GFX_portrait_5pb
+				large = GFX_portrait_acw_5pb
 			}
 		}
 		corps_commander = {
@@ -1091,7 +1091,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_blanc
-				large = GFX_portrait_blanc
+				large = GFX_portrait_acw_blanc
 			}
 		}
 		corps_commander = {
@@ -1111,7 +1111,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_compa
-				large = GFX_portrait_compa
+				large = GFX_portrait_acw_compa
 			}
 		}
 		corps_commander = {
@@ -1143,7 +1143,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_djeeta
-				large = GFX_portrait_djeeta
+				large = GFX_portrait_acw_djeeta
 			}
 		}
 		corps_commander = {
@@ -1163,7 +1163,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ellis
-				large = GFX_portrait_ellis
+				large = GFX_portrait_acw_ellis
 			}
 		}
 		corps_commander = {
@@ -1183,7 +1183,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_escha_malier
-				large = GFX_portrait_escha_malier
+				large = GFX_portrait_acw_escha_malier
 			}
 		}
 		corps_commander = {
@@ -1203,7 +1203,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_fujimaru_ritsuka
-				large = GFX_portrait_fujimaru_ritsuka
+				large = GFX_portrait_acw_fujimaru_ritsuka
 			}
 		}
 		corps_commander = {
@@ -1223,7 +1223,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_honoka_kousaka
-				large = GFX_portrait_honoka_kousaka
+				large = GFX_portrait_acw_honoka_kousaka
 			}
 		}
 		corps_commander = {
@@ -1243,7 +1243,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_if
-				large = GFX_portrait_if
+				large = GFX_portrait_acw_if
 			}
 		}
 		corps_commander = {
@@ -1263,7 +1263,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kasumi
-				large = GFX_portrait_kasumi
+				large = GFX_portrait_acw_kasumi
 			}
 		}
 		corps_commander = {
@@ -1283,7 +1283,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_merurulince_rede_arl
-				large = GFX_portrait_merurulince_rede_arls
+				large = GFX_portrait_acw_merurulince_rede_arls
 			}
 		}
 		corps_commander = {
@@ -1303,7 +1303,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_miho_nishizumi
-				large = GFX_portrait_miho_nishizumi
+				large = GFX_portrait_acw_miho_nishizumi
 			}
 		}
 		corps_commander = {
@@ -1323,7 +1323,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_misato_katsuragi
-				large = GFX_portrait_misato_katsuragi
+				large = GFX_portrait_acw_misato_katsuragi
 			}
 		}
 		corps_commander = {
@@ -1343,7 +1343,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_naru_narusegawa
-				large = GFX_portrait_naru_narusegawa
+				large = GFX_portrait_acw_naru_narusegawa
 			}
 		}
 		corps_commander = {
@@ -1363,7 +1363,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_noire
-				large = GFX_portrait_noire
+				large = GFX_portrait_acw_noire
 			}
 		}
 		corps_commander = {
@@ -1383,7 +1383,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_rei_ayanami
-				large = GFX_portrait_rei_ayanami
+				large = GFX_portrait_acw_rei_ayanami
 			}
 		}
 		corps_commander = {
@@ -1403,7 +1403,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ryza
-				large = GFX_portrait_ryza
+				large = GFX_portrait_acw_ryza
 			}
 		}
 		corps_commander = {
@@ -1423,7 +1423,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_selesia_upitiria
-				large = GFX_portrait_selesia_upitiria
+				large = GFX_portrait_acw_selesia_upitiria
 			}
 		}
 		corps_commander = {
@@ -1455,7 +1455,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_sophie_neuenmuller
-				large = GFX_portrait_sophie_neuenmuller
+				large = GFX_portrait_acw_sophie_neuenmuller
 			}
 		}
 		corps_commander = {
@@ -1475,7 +1475,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_vert
-				large = GFX_portrait_vert
+				large = GFX_portrait_acw_vert
 			}
 		}
 		corps_commander = {
@@ -1495,7 +1495,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_yukina_himeragi
-				large = GFX_portrait_yukina_himeragi
+				large = GFX_portrait_acw_yukina_himeragi
 			}
 		}
 		corps_commander = {
@@ -1515,7 +1515,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_yuna
-				large = GFX_portrait_yuna
+				large = GFX_portrait_acw_yuna
 			}
 		}
 		corps_commander = {
@@ -1535,7 +1535,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_noelle
-				large = GFX_portrait_noelle
+				large = GFX_portrait_acw_noelle
 			}
 		}
 		allowed_civil_war = {
@@ -1558,7 +1558,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_eruza_guranhirute
-				large = GFX_portrait_eruza_guranhirute
+				large = GFX_portrait_acw_eruza_guranhirute
 			}
 		}
 		allowed_civil_war = {
@@ -1595,7 +1595,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_aoi_sakurai
-				large = GFX_portrait_lucy_yamagami
+				large = GFX_portrait_acw_lucy_yamagami
 			}
 		}
 		allowed_civil_war = {
@@ -1629,7 +1629,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kawashima_mizuki
-				large = GFX_portrait_kawashima_mizuki
+				large = GFX_portrait_acw_kawashima_mizuki
 			}
 		}
 		allowed_civil_war = {
@@ -1652,7 +1652,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_natasha_cioara
-				large = GFX_portrait_natasha_cioara
+				large = GFX_portrait_acw_natasha_cioara
 			}
 		}
 		allowed_civil_war = {
@@ -1676,7 +1676,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kitagawa_marin
-				large = GFX_portrait_kitagawa_marin
+				large = GFX_portrait_acw_kitagawa_marin
 			}
 		}
 		allowed_civil_war = {
@@ -1770,7 +1770,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_rin_toosaka
-				large = GFX_portrait_rin_toosaka
+				large = GFX_portrait_acw_rin_toosaka
 			}
 		}
 		allowed_civil_war = {
@@ -1788,6 +1788,110 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	ACW_charlotte_dunois = {
+		name = ACW_charlotte_dunois
+		portraits = {
+			army = {
+				small = GFX_idea_acw_charlotte_dunois
+				large = GFX_portrait_acw_charlotte_dunois
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_erica_blandelli = {
+		name = ACW_erica_blandelli
+		portraits = {
+			army = {
+				small = GFX_idea_acw_erica_blandelli
+				large = GFX_portrait_acw_erica_blandelli
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_miki_hoshii = {
+		name = ACW_miki_hoshii
+		portraits = {
+			army = {
+				small = GFX_idea_acw_miki_hoshii
+				large = GFX_portrait_acw_miki_hoshii
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ACW_irina_jelavic = {
+		name = ACW_irina_jelavic
+		portraits = {
+			army = {
+				small = GFX_idea_acw_irina_jelavic
+				large = GFX_portrait_acw_irina_jelavic
+			}
+		}
+	}
+	ACW_alisa_illinichina_amiella = {
+		name = ACW_alisa_illinichina_amiella
+		portraits = {
+			army = {
+				small = GFX_idea_acw_alisa_illinichina_amiella
+				large = GFX_portrait_acw_alisa_illinichina_amiella
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ACW_kei = {
+		name = ACW_kei
+		portraits = {
+			army = {
+				small = GFX_idea_acw_kei
+				large = GFX_portrait_acw_kei
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
 	######################
 	#### NAVY LEADRES ####
 	######################
@@ -1796,11 +1900,11 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_yamato_kancol
-				large = GFX_portrait_yamato_kancol
+				large = GFX_portrait_acw_yamato_kancol
 			}
 			army = {
 				small = GFX_idea_acw_yamato_kancol
-				large = GFX_portrait_yamato_kancol
+				large = GFX_portrait_acw_yamato_kancol
 			}
 		}
 		advisor = {
@@ -1833,7 +1937,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_atago_azur_lane
-				large = GFX_portrait_atago_azur_lane
+				large = GFX_portrait_acw_atago_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1852,7 +1956,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_avrora_azur_lane
-				large = GFX_portrait_avrora_azur_lane
+				large = GFX_portrait_acw_avrora_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1884,7 +1988,7 @@ characters = {
 				small = GFX_idea_acw_belfast
 			}
 			army = {
-				large = GFX_portrait_belfast
+				large = GFX_portrait_acw_belfast
 			}
 		}
 		navy_leader = {
@@ -1903,7 +2007,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_marblehead_azur_lane
-				large = GFX_portrait_marblehead_azur_lane
+				large = GFX_portrait_acw_marblehead_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1935,7 +2039,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_saint_louis_azur_lane
-				large = GFX_portrait_saint_louis_azur_lane
+				large = GFX_portrait_acw_saint_louis_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1954,7 +2058,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_takao_azur_lane
-				large = GFX_portrait_takao_azur_lane
+				large = GFX_portrait_acw_takao_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1973,7 +2077,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_tosa_azur_lane
-				large = GFX_portrait_tosa_azur_lane
+				large = GFX_portrait_acw_tosa_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1994,7 +2098,7 @@ characters = {
 				small = GFX_idea_acw_sovetskaya_rossiya
 			}
 			army = {
-				large = GFX_portrait_sovetskaya_rossiya
+				large = GFX_portrait_acw_sovetskaya_rossiya
 				small = GFX_idea_acw_sovetskaya_rossiya
 			}
 		}
@@ -2014,7 +2118,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_shima_tateishi
-				large = GFX_portrait_shima_tateishi
+				large = GFX_portrait_acw_shima_tateishi
 			}
 		}
 		navy_leader = {
@@ -2033,7 +2137,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_akeno_misaki
-				large = GFX_portrait_akeno_misaki
+				large = GFX_portrait_acw_akeno_misaki
 			}
 		}
 		navy_leader = {
@@ -2052,7 +2156,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_beidou
-				large = GFX_portrait_beidou
+				large = GFX_portrait_acw_beidou
 			}
 		}
 		navy_leader = {
@@ -2082,7 +2186,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_ulrich_von_hutten
-				large = GFX_portrait_ulrich_von_hutten
+				large = GFX_portrait_acw_ulrich_von_hutten
 			}
 		}
 		navy_leader = {
@@ -2096,6 +2200,28 @@ characters = {
 			coordination_skill = 5
 		}
 	}
+	ACW_prinz_eugen = {
+		name = ACW_prinz_eugen
+		portraits = {
+			navy = {
+				small = GFX_idea_acw_prinz_eugen
+			}
+			army = {
+				large = GFX_portrait_acw_prinz_eugen
+				small = GFX_idea_acw_prinz_eugen
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
 	#political advisors
 	ACW_Minami_Nitta = {
 		name = ACW_Minami_Nitta
@@ -2104,7 +2230,7 @@ characters = {
 				small = GFX_idea_acw_minami_nitta
 			}
 			civilian = {
-				large = GFX_portrait_minami_nitta
+				large = GFX_portrait_acw_minami_nitta
 			}
 		}
 		allowed_civil_war = {
@@ -2165,7 +2291,7 @@ characters = {
 				small = GFX_idea_acw_niko_yazawa
 			}
 			civilian = {
-				large = GFX_portrait_niko_yazawa
+				large = GFX_portrait_acw_niko_yazawa
 			}
 		}
 		allowed_civil_war = {
@@ -2202,7 +2328,7 @@ characters = {
 				small = GFX_idea_acw_mikumo_guynemer
 			}
 			civilian = {
-				large = GFX_portrait_mikumo_guynemer
+				large = GFX_portrait_acw_mikumo_guynemer
 			}
 		}
 		allowed_civil_war = {
@@ -2227,7 +2353,7 @@ characters = {
 				small = GFX_idea_acw_asuka_tanaka
 			}
 			civilian = {
-				large = GFX_portrait_asuka_tanaka
+				large = GFX_portrait_acw_asuka_tanaka
 			}
 		}
 		allowed_civil_war = {
@@ -2252,7 +2378,7 @@ characters = {
 				small = GFX_idea_acw_lucy_yamagami
 			}
 			civilian = {
-				large = GFX_portrait_lucy_yamagami
+				large = GFX_portrait_acw_lucy_yamagami
 			}
 		}
 		allowed_civil_war = {
@@ -2277,7 +2403,7 @@ characters = {
 				small = GFX_idea_acw_megumin
 			}
 			civilian = {
-				large = GFX_portrait_megumin
+				large = GFX_portrait_acw_megumin
 			}
 		}
 		allowed_civil_war = {
@@ -2306,7 +2432,7 @@ characters = {
 				small = GFX_idea_acw_ayame_himuro
 			}
 			civilian = {
-				large = GFX_portrait_ayame_himuro
+				large = GFX_portrait_acw_ayame_himuro
 			}
 		}
 		allowed_civil_war = {
@@ -2335,7 +2461,7 @@ characters = {
 				small = GFX_idea_acw_ayame_himuro
 			}
 			civilian = {
-				large = GFX_portrait_ayame_himuro
+				large = GFX_portrait_acw_ayame_himuro
 			}
 		}
 		allowed_civil_war = {

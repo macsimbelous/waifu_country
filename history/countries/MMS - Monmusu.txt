@@ -137,7 +137,7 @@ recruit_character = MMS_shigure2
 #Agents
 create_operative_leader = {
 	name = "Rias Gremory"
-	GFX = GFX_Rias_Gremory
+	GFX = GFX_portrait_mms_rias_gremory
 	traits = {
 		operative_seducer
 	}
@@ -150,7 +150,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Mio Naruse"
-	GFX = GFX_Mio_Naruse
+	GFX = GFX_portrait_mms_mio_naruse
 	traits = {
 		operative_commando
 	}
@@ -163,7 +163,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Sakura Minamoto"
-	GFX = GFX_Sakura_Minamoto
+	GFX = GFX_portrait_mms_sakura_minamoto
 	traits = {
 		operative_infiltrator
 		operative_natural_orator
@@ -177,7 +177,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Shigure"
-	GFX = GFX_Shigure
+	GFX = GFX_portrait_mms_shigure
 	traits = {
 		operative_safe_cracker
 		operative_demolition_expert

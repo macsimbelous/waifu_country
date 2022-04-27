@@ -119,7 +119,7 @@ recruit_character = HEN_head_int
 #agents
 create_operative_leader = {
 	name = "Mika Amano"
-	GFX = GFX_Mika_Amano
+	GFX = GFX_portrait_hen_mika_amano
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
@@ -132,7 +132,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Yuriya Komiya"
-	GFX = GFX_Yuriya_Komiya
+	GFX = GFX_portrait_hen_yuriya_komiya
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
@@ -146,7 +146,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Mako Mitsuki"
-	GFX = GFX_Mako_Mitsuki
+	GFX = GFX_portrait_hen_mako_mitsuki
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {

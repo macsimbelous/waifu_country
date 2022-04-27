@@ -7,7 +7,7 @@ characters = {
 				small = GFX_idea_trp_astolfo
 			}
 			civilian = {
-				large = "gfx/leaders/TRP/Astolfo.dds"
+				large = GFX_portrait_trp_astolfo
 			}
 		}
 		advisor = {
@@ -68,7 +68,7 @@ characters = {
 				small = GFX_idea_trp_hideri_kanzaki
 			}
 			civilian = {
-				large = "gfx/leaders/TRP/Hideri_Kanzaki.dds"
+				large = GFX_portrait_trp_hideri_kanzaki
 			}
 		}
 		advisor = {
@@ -112,7 +112,7 @@ characters = {
 				small = GFX_idea_trp_tetora
 			}
 			civilian = {
-				large = "gfx/leaders/TRP/Tetora.dds"
+				large = GFX_portrait_trp_tetora
 			}
 		}
 		advisor = {
@@ -153,10 +153,10 @@ characters = {
 		name = TRP_ringo_tsukimiya
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_ringo_tsukimiya"
+				small = GFX_idea_trp_ringo_tsukimiya
 			}
 			civilian = {
-				large = "gfx/leaders/TRP/Ringo_Tsukimiya.dds"
+				large = GFX_portrait_trp_ringo_tsukimiya
 			}
 		}
 		country_leader = {
@@ -176,10 +176,8 @@ characters = {
 		name = TRP_felix_argyle
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_felix_argyle"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Felix_Argyle.dds"
+				small = GFX_idea_trp_felix_argyle
+				large = GFX_portrait_trp_felix_argyle
 			}
 		}
 		field_marshal = {
@@ -213,7 +211,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_birdy_cephon_altera
-				large = "gfx/leaders/TRP/Birdy_Cephon_Altera.dds"
+				large = GFX_portrait_trp_birdy_cephon_altera
 			}
 		}
 		field_marshal = {
@@ -247,10 +245,10 @@ characters = {
 		name = TRP_oboro_tsukimigusa
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_oboro_tsukimigusa"
+				small = GFX_idea_trp_oboro_tsukimigusa
 			}
 			army = {
-				large = "gfx/leaders/TRP/Oboro_Tsukimigusa.dds"
+				large = GFX_portrait_trp_oboro_tsukimigusa
 			}
 		}
 		corps_commander = {
@@ -280,10 +278,10 @@ characters = {
 		name = TRP_hitoshi_sugoroku
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_hitoshi_sugoroku"
+				small = GFX_idea_trp_hitoshi_sugoroku
 			}
 			army = {
-				large = "gfx/leaders/TRP/Hitoshi_Sugoroku.dds"
+				large = GFX_portrait_trp_hitoshi_sugoroku
 			}
 		}
 		corps_commander = {
@@ -318,7 +316,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_kaoru_hanase
-				large = "gfx/leaders/TRP/Kaoru_Hanase.dds"
+				large = GFX_portrait_trp_kaoru_hanase
 			}
 		}
 		corps_commander = {
@@ -352,10 +350,8 @@ characters = {
 		name = TRP_aoi_hyoudou
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_aoi_hyoudou"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Aoi_Hyoudou.dds"
+				small = GFX_idea_trp_aoi_hyoudou
+				large = GFX_portrait_trp_aoi_hyoudou
 			}
 		}
 		corps_commander = {
@@ -387,10 +383,8 @@ characters = {
 		name = TRP_kaguya_arikawa
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_kaguya_arikawa"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Kaguya_Arikawa.dds"
+				small = GFX_idea_trp_kaguya_arikawa
+				large = GFX_portrait_trp_kaguya_arikawa
 			}
 		}
 		corps_commander = {
@@ -411,10 +405,8 @@ characters = {
 		name = TRP_tama_kyan
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_tama_kyan"
-			}
-			army = {
-				large = "gfx/leaders/TRP/Tama_Kyan.dds"
+				small = GFX_idea_trp_tama_kyan
+				large = GFX_portrait_trp_tama_kyan
 			}
 		}
 		corps_commander = {
@@ -435,7 +427,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_hime_arikawa
-				large = "gfx/leaders/TRP/Hime_Arikawa.dds"
+				large = GFX_portrait_trp_hime_arikawa
 			}
 		}
 		corps_commander = {
@@ -469,7 +461,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_sylvia
-				large = "gfx/leaders/TRP/Sylvia.dds"
+				large = GFX_portrait_trp_sylvia
 			}
 		}
 		corps_commander = {
@@ -502,7 +494,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_souji_mitsuka
-				large = "gfx/leaders/TRP/Souji_Mitsuka.dds"
+				large = GFX_portrait_trp_souji_mitsuka
 			}
 		}
 		corps_commander = {
@@ -523,7 +515,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_ranga
-				large = "gfx/leaders/TRP/Ranga.dds"
+				large = GFX_portrait_trp_ranga
 			}
 		}
 		corps_commander = {
@@ -545,7 +537,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_ukikaze
-				large = "gfx/leaders/TRP/Yukikaze.dds"
+				large = GFX_portrait_trp_yukikaze
 			}
 		}
 		corps_commander = {
@@ -577,7 +569,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_mitsunaga_oda
-				large = "gfx/leaders/TRP/Mitsunaga_Oda.dds"
+				large = GFX_portrait_trp_mitsunaga_oda
 			}
 		}
 		corps_commander = {
@@ -598,7 +590,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_ritsu_souma
-				large = "gfx/leaders/TRP/Ritsu_Souma.dds"
+				large = GFX_portrait_trp_ritsu_souma
 			}
 		}
 		corps_commander = {
@@ -619,7 +611,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_xianming_lin
-				large = "gfx/leaders/TRP/Xianming_Lin.dds"
+				large = GFX_portrait_trp_xianming_lin
 			}
 		}
 		corps_commander = {
@@ -654,7 +646,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_mizuho_miyanokouji
-				large = "gfx/leaders/TRP/Mizuho_Miyanokouji.dds"
+				large = GFX_portrait_trp_mizuho_miyanokouji
 			}
 		}
 		corps_commander = {
@@ -674,7 +666,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_youta_tsunashi
-				large = "gfx/leaders/TRP/Youta_Tsunashi.dds"
+				large = GFX_portrait_trp_youta_tsunashi
 			}
 		}
 		corps_commander = {
@@ -695,7 +687,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_fish_eye
-				large = "gfx/leaders/TRP/Fish_Eye.dds"
+				large = GFX_portrait_trp_fish_eye
 			}
 		}
 		corps_commander = {
@@ -716,7 +708,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_hacka_doll_no_3
-				large = "gfx/leaders/TRP/Hacka_Doll_3.dds"
+				large = GFX_portrait_trp_hacka_doll_3
 			}
 		}
 		corps_commander = {
@@ -738,7 +730,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_shirota_mitsuki
-				large = "gfx/leaders/TRP/shirota_mitsuki.dds"
+				large = GFX_portrait_trp_shirota_mitsuki
 			}
 		}
 		corps_commander = {
@@ -760,7 +752,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_tiger_traps
-				large = "gfx/leaders/TRP/tiger_traps.dds"
+				large = GFX_portrait_trp_tiger_traps
 			}
 		}
 		corps_commander = {
@@ -782,7 +774,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_jun_hiiragi
-				large = "gfx/leaders/TRP/jun_hiiragi.dds"
+				large = GFX_portrait_trp_jun_hiiragi
 			}
 		}
 		corps_commander = {
@@ -804,8 +796,8 @@ characters = {
 		name = TRP_ranma_saotome
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_ranma_saotome"
-				large = "gfx/leaders/TRP/Ranma_Saotome.dds"
+				small = GFX_idea_trp_ranma_saotome
+				large = GFX_portrait_trp_ranma_saotome
 			}
 		}
 		navy_leader = {
@@ -826,7 +818,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_hamaji_yakumo
-				large = "gfx/leaders/TRP/Hamaji_Yakumo.dds"
+				large = GFX_portrait_trp_hamaji_yakumo
 			}
 		}
 		navy_leader = {
@@ -846,8 +838,8 @@ characters = {
 		name = TRP_taroumaru_seike
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_taroumaru_seike"
-				large = "gfx/leaders/TRP/Taroumaru_Seike.dds"
+				small = GFX_idea_trp_taroumaru_seike
+				large = GFX_portrait_trp_taroumaru_seike
 			}
 		}
 		navy_leader = {
@@ -879,7 +871,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_mariya_shidou
-				large = "gfx/leaders/TRP/Mariya_Shidou.dds"
+				large = GFX_portrait_trp_mariya_shidou
 			}
 		}
 		navy_leader = {
@@ -901,7 +893,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_russell
-				large = "gfx/leaders/TRP/Russell.dds"
+				large = GFX_portrait_trp_russell
 			}
 		}
 		navy_leader = {
@@ -937,7 +929,7 @@ characters = {
 				small = GFX_idea_trp_mare_bello_fiore
 			}
 			civilian = {
-				large = "gfx/leaders/TRP/mare_bello_fiore.dds"
+				large = GFX_portrait_trp_mare_bello_fiore
 			}
 		}
 		advisor = {
@@ -956,7 +948,8 @@ characters = {
 		name = TRP_aoi_futaba
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_aoi_futaba"
+				small = GFX_idea_trp_aoi_futaba
+				large = GFX_portrait_trp_aoi_futaba
 			}
 		}
 		advisor = {
@@ -978,7 +971,7 @@ characters = {
 		name = TRP_aoi_futaba
 		portraits = {
 			army = {
-				small = "GFX_idea_trp_aoi_futaba"
+				small = GFX_idea_trp_aoi_futaba
 			}
 		}
 		advisor = {

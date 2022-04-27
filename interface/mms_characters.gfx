@@ -4,7 +4,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/arnice_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Arnice"
+		name = "GFX_portrait_mms_arnice"
 		texturefile = "gfx/leaders/MMS/Arnice.dds"
 	}
 	spriteType = {
@@ -12,7 +12,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/astaroth_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Astaroth"
+		name = "GFX_portrait_mms_astaroth"
 		texturefile = "gfx/leaders/MMS/Astaroth.dds"
 	}
 	spriteType = {
@@ -20,7 +20,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/belldandy_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Belldandy"
+		name = "GFX_portrait_mms_belldandy"
 		texturefile = "gfx/leaders/MMS/Belldandy.dds"
 	}
 	spriteType = {
@@ -28,7 +28,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/corrin_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Corrin"
+		name = "GFX_portrait_mms_Corrin"
 		texturefile = "gfx/leaders/MMS/Corrin.dds"
 	}
 	spriteType = {
@@ -36,7 +36,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/desco_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Desco"
+		name = "GFX_portrait_mms_desco"
 		texturefile = "gfx/leaders/MMS/Desco.dds"
 	}
 	spriteType = {
@@ -44,7 +44,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/dullahan_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Dullahan"
+		name = "GFX_portrait_mms_dullahan"
 		texturefile = "gfx/leaders/MMS/Dullahan.dds"
 	}
 	spriteType = {
@@ -52,7 +52,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/fino_bloodstone_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Fino_Bloodstone"
+		name = "GFX_portrait_mms_fino_bloodstone"
 		texturefile = "gfx/leaders/MMS/Fino_Bloodstone.dds"
 	}
 	spriteType = {
@@ -60,7 +60,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/heine_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Heine"
+		name = "GFX_portrait_mms_heine"
 		texturefile = "gfx/leaders/MMS/Heine.dds"
 	}
 	spriteType = {
@@ -68,7 +68,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/holo_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Holo"
+		name = "GFX_portrait_mms_holo"
 		texturefile = "gfx/leaders/MMS/Holo.dds"
 	}
 	spriteType = {
@@ -76,7 +76,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/ishtar_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ishtar"
+		name = "GFX_portrait_mms_ishtar"
 		texturefile = "gfx/leaders/MMS/Ishtar.dds"
 	}
 	spriteType = {
@@ -84,7 +84,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/kurari_rose_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Kurari_Rose"
+		name = "GFX_portrait_mms_kurari_rose"
 		texturefile = "gfx/leaders/MMS/Kurari_Rose.dds"
 	}
 	spriteType = {
@@ -92,7 +92,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/laharl_girl_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Laharl_girl"
+		name = "GFX_portrait_mms_laharl_girl"
 		texturefile = "gfx/leaders/MMS/Laharl_girl.dds"
 	}
 	spriteType = {
@@ -100,7 +100,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/lilith_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Lilith"
+		name = "GFX_portrait_mms_lilith"
 		texturefile = "gfx/leaders/MMS/Lilith.dds"
 	}
 	spriteType = {
@@ -108,7 +108,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/lucy_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Lucy"
+		name = "GFX_portrait_mms_lucy"
 		texturefile = "gfx/leaders/MMS/Lucy.dds"
 	}
 	spriteType = {
@@ -116,7 +116,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/makina_hoshimura_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Makina_Hoshimura"
+		name = "GFX_portrait_mms_makina_hoshimura"
 		texturefile = "gfx/leaders/MMS/Makina_Hoshimura.dds"
 	}
 	spriteType = {
@@ -124,7 +124,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/maou_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Maou"
+		name = "GFX_portrait_mms_maou"
 		texturefile = "gfx/leaders/MMS/Maou.dds"
 	}
 	spriteType = {
@@ -132,7 +132,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/marie_von_eisenberg_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Marie_Von_Eisenberg"
+		name = "GFX_portrait_mms_marie_von_eisenberg"
 		texturefile = "gfx/leaders/MMS/Marie_Von_Eisenberg.dds"
 	}
 	spriteType = {
@@ -140,7 +140,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/milla_maxwell_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Milla_Maxwell"
+		name = "GFX_portrait_mms_milla_maxwell"
 		texturefile = "gfx/leaders/MMS/Milla_Maxwell.dds"
 	}
 	spriteType = {
@@ -148,7 +148,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/mio_naruse_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_Mio_Naruse"
+		name = "GFX_portrait_mms_mio_naruse"
 		texturefile = "gfx/leaders/MMS/Mio_Naruse.dds"
 	}
 	spriteType = {
@@ -156,7 +156,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/morrah_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Morrah"
+		name = "GFX_portrait_mms_morrah"
 		texturefile = "gfx/leaders/MMS/Morrah.dds"
 	}
 	spriteType = {
@@ -164,7 +164,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/purifier_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Purifier"
+		name = "GFX_portrait_mms_purifier"
 		texturefile = "gfx/leaders/MMS/Purifier.dds"
 	}
 	spriteType = {
@@ -172,7 +172,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/rhea_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Rhea"
+		name = "GFX_portrait_mms_rhea"
 		texturefile = "gfx/leaders/MMS/Rhea.dds"
 	}
 	spriteType = {
@@ -180,7 +180,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/rias_gremory_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_Rias_Gremory"
+		name = "GFX_portrait_mms_rias_gremory"
 		texturefile = "gfx/leaders/MMS/Rias_Gremory.dds"
 	}
 	spriteType = {
@@ -188,7 +188,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/ripine_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ripine"
+		name = "GFX_portrait_mms_ripine"
 		texturefile = "gfx/leaders/MMS/Ripine.dds"
 	}
 	spriteType = {
@@ -196,7 +196,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/rose_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Rose"
+		name = "GFX_portrait_mms_rose"
 		texturefile = "gfx/leaders/MMS/Rose.dds"
 	}
 	spriteType = {
@@ -204,7 +204,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/sakura_minamoto_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_Sakura_Minamoto"
+		name = "GFX_portrait_mms_sakura_minamoto"
 		texturefile = "gfx/leaders/MMS/Sakura_Minamoto.dds"
 	}
 	spriteType = {
@@ -212,7 +212,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/satanichia_mcdowell_kurumizawa_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Satanichia_McDowell_Kurumizawa"
+		name = "GFX_portrait_mms_satanichia_mcdowell_kurumizawa"
 		texturefile = "gfx/leaders/MMS/Satanichia_McDowell_Kurumizawa.dds"
 	}
 	spriteType = {
@@ -220,7 +220,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/saya_kisaragi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Saya_Kisaragi"
+		name = "GFX_portrait_mms_saya_kisaragi"
 		texturefile = "gfx/leaders/MMS/Saya_Kisaragi.dds"
 	}
 	spriteType = {
@@ -228,7 +228,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/saya_otonashi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Saya_Otonashi"
+		name = "GFX_portrait_mms_saya_otonashi"
 		texturefile = "gfx/leaders/MMS/Saya_Otonashi.dds"
 	}
 	spriteType = {
@@ -236,7 +236,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/yuuko_yoshida_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_yuuko_yoshida"
+		name = "GFX_portrait_mms_yuuko_yoshida"
 		texturefile = "gfx/leaders/MMS/yuuko_yoshida.dds"
 	}
 	spriteType = {
@@ -244,7 +244,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/shigure_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_Shigure"
+		name = "GFX_portrait_mms_shigure"
 		texturefile = "gfx/leaders/MMS/Shigure.dds"
 	}
 	spriteType = {
@@ -252,7 +252,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/shiraori_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Shiraori"
+		name = "GFX_portrait_mms_shiraori"
 		texturefile = "gfx/leaders/MMS/Shiraori.dds"
 	}
 	spriteType = {
@@ -260,7 +260,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/tester_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Tester"
+		name = "GFX_portrait_mms_tester"
 		texturefile = "gfx/leaders/MMS/Tester.dds"
 	}
 	spriteType = {
@@ -268,7 +268,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/tiamat_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Tiamat"
+		name = "GFX_portrait_mms_tiamat"
 		texturefile = "gfx/leaders/MMS/Tiamat.dds"
 	}
 	spriteType = {
@@ -276,7 +276,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/velvet_crowe_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Velvet_Crowe"
+		name = "GFX_portrait_mms_velvet_crowe"
 		texturefile = "gfx/leaders/MMS/Velvet_Crowe.dds"
 	}
 	spriteType = {
@@ -284,7 +284,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/vignette_april_tsukinose_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Vignette_April_Tsukinose"
+		name = "GFX_portrait_mms_vignette_april_tsukinose"
 		texturefile = "gfx/leaders/MMS/Vignette_April_Tsukinose.dds"
 	}
 	spriteType = {
@@ -292,7 +292,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/yamato_wg_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Yamato_WG"
+		name = "GFX_portrait_mms_yamato_wg"
 		texturefile = "gfx/leaders/MMS/Yamato_WG.dds"
 	}
 	spriteType = {
@@ -300,7 +300,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/zero_two_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Zero_Two"
+		name = "GFX_portrait_mms_zero_two"
 		texturefile = "gfx/leaders/MMS/Zero_Two.dds"
 	}
 	spriteType = {
@@ -308,7 +308,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/freyja_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_freyja"
+		name = "GFX_portrait_mms_freyja"
 		texturefile = "gfx/leaders/MMS/freyja.dds"
 	}
 	spriteType = {
@@ -316,7 +316,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/saphentite_neikes_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_saphentite_neikes"
+		name = "GFX_portrait_mms_saphentite_neikes"
 		texturefile = "gfx/leaders/MMS/saphentite_neikes.dds"
 	}
 	spriteType = {
@@ -324,7 +324,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/miia_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_miia"
+		name = "GFX_portrait_mms_miia"
 		texturefile = "gfx/leaders/MMS/miia.dds"
 	}
 	spriteType = {
@@ -332,7 +332,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/meroune_lorelei_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_meroune_lorelei"
+		name = "GFX_portrait_mms_meroune_lorelei"
 		texturefile = "gfx/leaders/MMS/meroune_lorelei.dds"
 	}
 	spriteType = {
@@ -340,7 +340,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/asmodeus_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_asmodeus"
+		name = "GFX_portrait_mms_asmodeus"
 		texturefile = "gfx/leaders/MMS/asmodeus.dds"
 	}
 	#generic

@@ -119,7 +119,7 @@ recruit_character = MAH_head_int
 #agents
 create_operative_leader = {
 	name = "Hitomi Tsukishiro"
-	GFX = GFX_Hitomi_Tsukishiro
+	GFX = GFX_portrait_mah_hitomi_tsukishiro
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {

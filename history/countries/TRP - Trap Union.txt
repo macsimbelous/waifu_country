@@ -110,7 +110,7 @@ recruit_character = TRP_aoi_futaba2
 #agents
 create_operative_leader = {
 	name = "Saki Mizushima"
-	GFX = GFX_Saki_Mizushima
+	GFX = GFX_portrait_trp_saki_mizushima
 	traits = {
 		operative_natural_orator
 	}
@@ -123,7 +123,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Ryou Akizuki"
-	GFX = GFX_Ryou_Akizuki
+	GFX = GFX_portrait_trp_ryou_akizuki
 	traits = {
 		operative_seducer
 	}
@@ -136,7 +136,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Gasper Vladi"
-	GFX = GFX_Gasper_Vladi
+	GFX = GFX_portrait_trp_gasper_vladi
 	traits = {
 		operative_seducer
 		operative_double_agent
@@ -151,7 +151,7 @@ create_operative_leader = {
 
 create_operative_leader = {
 	name = "Aoi Futaba"
-	GFX = GFX_Aoi_Futaba
+	GFX = GFX_portrait_trp_aoi_futaba
 	traits = {
 		operative_seducer
 		operative_linguist

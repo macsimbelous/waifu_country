@@ -7,7 +7,7 @@ characters = {
 				small = GFX_idea_mah_asuka_ootorii
 			}
 			civilian = {
-				large = "gfx/leaders/MAH/asuka_ootorii.dds"
+				large = GFX_portrait_mah_asuka_ootorii
 			}
 		}
 		advisor = {
@@ -52,7 +52,7 @@ characters = {
 				small = GFX_idea_mah_nanoha_takamachi
 			}
 			civilian = {
-				large = "gfx/leaders/MAH/Nanoha_Takamachi.dds"
+				large = GFX_portrait_mah_nanoha_takamachi
 			}
 		}
 		advisor = {
@@ -96,7 +96,7 @@ characters = {
 				small = GFX_idea_mah_usagi_tsukino
 			}
 			civilian = {
-				large = "gfx/leaders/MAH/usagi_tsukino.dds"
+				large = GFX_portrait_mah_usagi_tsukino
 			}
 		}
 		advisor = {
@@ -141,10 +141,10 @@ characters = {
 		name = MAH_Momo_Chiyoda
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_momo_chiyoda"
+				small = GFX_idea_mah_momo_chiyoda
 			}
 			civilian = {
-				large = "gfx/leaders/MAH/Momo_Chiyoda.dds"
+				large = GFX_portrait_mah_momo_chiyoda
 			}
 		}
 		country_leader = {
@@ -166,7 +166,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_illyasviel_von_einzbern
-				large = "gfx/leaders/MAH/illyasviel_von_einzbern.dds"
+				large = GFX_portrait_mah_illyasviel_von_einzbern
 			}
 		}
 		field_marshal = {
@@ -201,7 +201,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_madoka_kaname
-				large = "gfx/leaders/MAH/Madoka_Kaname.dds"
+				large = GFX_portrait_mah_madoka_kaname
 			}
 		}
 		corps_commander = {
@@ -235,7 +235,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_arika_yumemiya
-				large = "gfx/leaders/MAH/arika_yumemiya.dds"
+				large = GFX_portrait_mah_arika_yumemiya
 			}
 		}
 		corps_commander = {
@@ -271,7 +271,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_ami_mizuno
-				large = "gfx/leaders/MAH/ami_mizuno.dds"
+				large = GFX_portrait_mah_ami_mizuno
 			}
 		}
 		advisor = {
@@ -306,7 +306,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_makoto_kino
-				large = "gfx/leaders/MAH/makoto_kino.dds"
+				large = GFX_portrait_mah_makoto_kino
 			}
 		}
 		advisor = {
@@ -338,7 +338,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_minako_aino
-				large = "gfx/leaders/MAH/minako_aino.dds"
+				large = GFX_portrait_mah_minako_aino
 			}
 		}
 		corps_commander = {
@@ -359,7 +359,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_rei_hino
-				large = "gfx/leaders/MAH/rei_hino.dds"
+				large = GFX_portrait_mah_rei_hino
 			}
 		}
 		advisor = {
@@ -394,7 +394,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_chisato_yonamine
-				large = "gfx/leaders/MAH/chisato_yonamine.dds"
+				large = GFX_portrait_mah_chisato_yonamine
 			}
 		}
 		corps_commander = {
@@ -414,8 +414,8 @@ characters = {
 		name = MAH_kurumi_mugen
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_kurumi_mugen"
-				large = "gfx/leaders/MAH/kurumi_mugen.dds"
+				small = GFX_idea_mah_kurumi_mugen
+				large = GFX_portrait_mah_kurumi_mugen
 			}
 		}
 		corps_commander = {
@@ -448,7 +448,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_homura_akemi
-				large = "gfx/leaders/MAH/homura_akemi.dds"
+				large = GFX_portrait_mah_homura_akemi
 			}
 		}
 		advisor = {
@@ -480,7 +480,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_subaru_nakajima
-				large = "gfx/leaders/MAH/subaru_nakajima.dds"
+				large = GFX_portrait_mah_subaru_nakajima
 			}
 		}
 		corps_commander = {
@@ -501,7 +501,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_vivio
-				large = "gfx/leaders/MAH/vivio.dds"
+				large = GFX_portrait_mah_vivio
 			}
 		}
 		corps_commander = {
@@ -522,7 +522,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_fate_testarossa
-				large = "gfx/leaders/MAH/fate_testarossa.dds"
+				large = GFX_portrait_mah_fate_testarossa
 			}
 		}
 		corps_commander = {
@@ -555,7 +555,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_mia_cyrus
-				large = "gfx/leaders/MAH/mia_cyrus.dds"
+				large = GFX_portrait_mah_mia_cyrus
 			}
 		}
 		corps_commander = {
@@ -588,7 +588,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_hayato_juumonji
-				large = "gfx/leaders/MAH/hayato_juumonji.dds"
+				large = GFX_portrait_mah_hayato_juumonji
 			}
 		}
 		advisor = {
@@ -620,7 +620,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_saki_uno
-				large = "gfx/leaders/MAH/saki_uno.dds"
+				large = GFX_portrait_mah_saki_uno
 			}
 		}
 		corps_commander = {
@@ -641,7 +641,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_frill
-				large = "gfx/leaders/MAH/frill.dds"
+				large = GFX_portrait_mah_frill
 			}
 		}
 		corps_commander = {
@@ -662,7 +662,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_honey_kisaragi
-				large = "gfx/leaders/MAH/honey_kisaragi.dds"
+				large = GFX_portrait_mah_honey_kisaragi
 			}
 		}
 		corps_commander = {
@@ -683,7 +683,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_mai_tokiha
-				large = "gfx/leaders/MAH/mai_tokiha.dds"
+				large = GFX_portrait_mah_mai_tokiha
 			}
 		}
 		corps_commander = {
@@ -704,10 +704,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_lena_sayers
-				large = "gfx/leaders/MAH/lena_sayers.dds"
+				large = GFX_portrait_mah_lena_sayers
 			}
 			civilian = {
-				large = "gfx/leaders/MAH/lena_sayers_civilian.dds"
+				large = GFX_portrait_mah_lena_sayers_civilian
 			}
 		}
 		corps_commander = {
@@ -728,7 +728,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_maron_kusakabe
-				large = "gfx/leaders/MAH/maron_kusakabe.dds"
+				large = GFX_portrait_mah_maron_kusakabe
 			}
 		}
 		corps_commander = {
@@ -749,7 +749,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_nagisa_misumi
-				large = "gfx/leaders/MAH/nagisa_misumi.dds"
+				large = GFX_portrait_mah_nagisa_misumi
 			}
 		}
 		corps_commander = {
@@ -771,7 +771,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_honoka_yukishiro
-				large = "gfx/leaders/MAH/honoka_yukishiro.dds"
+				large = GFX_portrait_mah_honoka_yukishiro
 			}
 		}
 		corps_commander = {
@@ -793,7 +793,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_himeno_awayuki
-				large = "gfx/leaders/MAH/himeno_awayuki.dds"
+				large = GFX_portrait_mah_himeno_awayuki
 			}
 		}
 		corps_commander = {
@@ -815,7 +815,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_sakura_kinomoto
-				large = "gfx/leaders/MAH/sakura_kinomoto.dds"
+				large = GFX_portrait_mah_sakura_kinomoto
 			}
 		}
 		corps_commander = {
@@ -836,7 +836,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_mint_aizawa
-				large = "gfx/leaders/MAH/mint_aizawa.dds"
+				large = GFX_portrait_mah_mint_aizawa
 			}
 		}
 		corps_commander = {
@@ -858,7 +858,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_zakuro_fujiwara
-				large = "gfx/leaders/MAH/zakuro_fujiwara.dds"
+				large = GFX_portrait_mah_zakuro_fujiwara
 			}
 		}
 		corps_commander = {
@@ -880,7 +880,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_komugi_yoshida
-				large = "gfx/leaders/MAH/komugi_yoshida.dds"
+				large = GFX_portrait_mah_komugi_yoshida
 			}
 		}
 		advisor = {
@@ -1038,10 +1038,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_mah_sakuyo_mikage
-				large = "gfx/leaders/MAH/sakuyo_mikage.dds"
+				large = GFX_portrait_mah_sakuyo_mikage
 			}
 			civilian = {
-				large = "gfx/leaders/MAH/sakuyo_mikage_civ.dds"
+				large = GFX_portrait_mah_sakuyo_mikage_civ
 			}
 		}
 		navy_leader = {
@@ -1071,7 +1071,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_mah_akane_isshiki
-				large = "gfx/leaders/MAH/akane_isshiki.dds"
+				large = GFX_portrait_mah_akane_isshiki
 			}
 		}
 		navy_leader = {
@@ -1102,7 +1102,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_mah_utena_tenjou
-				large = "gfx/leaders/MAH/utena_tenjou.dds"
+				large = GFX_portrait_mah_utena_tenjou
 			}
 		}
 		navy_leader = {
@@ -1121,7 +1121,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_mah_lucia_nanami
-				large = "gfx/leaders/MAH/lucia_nanami.dds"
+				large = GFX_portrait_mah_lucia_nanami
 			}
 		}
 		navy_leader = {
@@ -1162,7 +1162,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_kobato_hanato
-				large = "gfx/leaders/MAH/kobato_hanato.dds"
+				large = GFX_portrait_mah_kobato_hanato
 			}
 		}
 		advisor = {
@@ -1182,7 +1182,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mah_hitomi_tsukishiro
-				large = "gfx/leaders/MAH/Hitomi_Tsukishiro.dds"
+				large = GFX_portrait_mah_hitomi_tsukishiro
 			}
 		}
 		advisor = {
@@ -1204,8 +1204,8 @@ characters = {
 		name = MAH_Hitomi_Tsukishiro
 		portraits = {
 			army = {
-				small = "GFX_idea_mah_hitomi_tsukishiro"
-				large = "gfx/leaders/MAH/Hitomi_Tsukishiro.dds"
+				small = GFX_idea_mah_hitomi_tsukishiro
+				large = GFX_portrait_mah_hitomi_tsukishiro
 			}
 		}
 		advisor = {

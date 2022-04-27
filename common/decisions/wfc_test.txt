@@ -42,7 +42,7 @@ wfc_test_category = {
 			}
 		}
 	}
-	wfc_test_2 = {
+	wfc_test_add_pp_cp = {
 		fire_only_once = no
 		cost = 0
 		available = {
@@ -52,6 +52,7 @@ wfc_test_category = {
 		}
 		complete_effect = {
 			add_political_power = 1000
+			add_command_power = 100
 		}
 	}
 	wfc_test_3 = {
@@ -292,6 +293,16 @@ wfc_test_category = {
 					prioritize_location = 4518
 					allow_spawning_on_enemy_provs = yes
 				}
+			}
+		}
+	}
+	wfc_test_create_kgb = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			create_intelligence_agency = {
+				icon = GFX_intelligence_agency_logo_generic_8
+				name = "KKGGBB"
 			}
 		}
 	}

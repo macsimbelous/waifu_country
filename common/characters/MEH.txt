@@ -4,11 +4,11 @@ characters = {
 		name = MEH_KOS_MOS
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_kos-mos"
-				large = "gfx/leaders/MEH/KOS-MOS.dds"
+				small = GFX_idea_meh_kos-mos
+				large = GFX_portrait_meh_kos-mos
 			}
 			civilian = {
-				large = "gfx/leaders/MEH/KOS-MOS.dds"
+				large = GFX_portrait_meh_kos-mos
 			}
 		}
 		field_marshal = {
@@ -43,10 +43,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_fiora_mechon
-				large = "gfx/leaders/MEH/Fiora_Mechon.dds"
+				large = GFX_portrait_meh_fiora_mechon
 			}
 			civilian = {
-				large = "gfx/leaders/MEH/Fiora_Mechon.dds"
+				large = GFX_portrait_meh_fiora_mechon
 			}
 		}
 		advisor = {
@@ -100,10 +100,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_mythra
-				large = "gfx/leaders/MEH/Mythra.dds"
+				large = GFX_portrait_meh_mythra
 			}
 			civilian = {
-				large = "gfx/leaders/MEH/Mythra.dds"
+				large = GFX_portrait_meh_mythra
 			}
 		}
 		advisor = {
@@ -161,10 +161,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_histoire
-				large = "gfx/leaders/MEH/Histoire.dds"
+				large = GFX_portrait_meh_histoire
 			}
 			civilian = {
-				large = "gfx/leaders/MEH/Histoire.dds"
+				large = GFX_portrait_meh_histoire
 			}
 		}
 		advisor = {
@@ -206,8 +206,8 @@ characters = {
 		name = MEH_Iris_Heart
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_iris_heart"
-				large = "gfx/leaders/MEH/Iris_Heart.dds"
+				small = GFX_idea_meh_iris_heart
+				large = GFX_portrait_meh_iris_heart
 			}
 		}
 		field_marshal = {
@@ -247,10 +247,10 @@ characters = {
 		name = MEH_Alisa_Boskonovich
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_alisa_boskonovich"
+				small = GFX_idea_meh_alisa_boskonovich
 			}
 			army = {
-				large = "gfx/leaders/MEH/Alisa_Boskonovich.dds"
+				large = GFX_portrait_meh_alisa_boskonovich
 			}
 		}
 		corps_commander = {
@@ -270,10 +270,10 @@ characters = {
 		name = MEH_Risa
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_risa"
+				small = GFX_idea_meh_risa
 			}
 			army = {
-				large = "gfx/leaders/MEH/Risa.dds"
+				large = GFX_portrait_meh_risa
 			}
 		}
 		corps_commander = {
@@ -314,8 +314,8 @@ characters = {
 		name = MEH_2B
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_2b"
-				large = "gfx/leaders/MEH/2B.dds"
+				small = GFX_idea_meh_2b
+				large = GFX_portrait_meh_2b
 			}
 		}
 		corps_commander = {
@@ -336,10 +336,10 @@ characters = {
 		name = MEH_Cibo
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_cibo"
+				small = GFX_idea_meh_cibo
 			}
 			army = {
-				large = "gfx/leaders/MEH/Cibo.dds"
+				large = GFX_portrait_meh_cibo
 			}
 		}
 		corps_commander = {
@@ -370,8 +370,8 @@ characters = {
 		name = MEH_A2
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_a2"
-				large = "gfx/leaders/MEH/A2.dds"
+				small = GFX_idea_meh_a2
+				large = GFX_portrait_meh_a2
 			}
 		}
 		corps_commander = {
@@ -399,33 +399,12 @@ characters = {
 			}
 		}
 	}
-	MEH_Svetlana_Sakura = {
-		name = MEH_Svetlana_Sakura
-		portraits = {
-			army = {
-				small = "GFX_idea_meh_svetlana_sakura"
-				large = "gfx/leaders/MEH/Svetlana_Sakura.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				cavalry_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
-	}
 	MEH_Alexandra_Frolova = {
 		name = MEH_Alexandra_Frolova
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_alexandra_frolova"
-				large = "gfx/leaders/MEH/Alexandra_Frolova.dds"
+				small = GFX_idea_meh_alexandra_frolova
+				large = GFX_portrait_meh_alexandra_frolova
 			}
 		}
 		corps_commander = {
@@ -457,8 +436,8 @@ characters = {
 		name = MEH_EDI
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_edi"
-				large = "gfx/leaders/MEH/EDI.dds"
+				small = GFX_idea_meh_edi
+				large = GFX_portrait_meh_edi
 			}
 		}
 		corps_commander = {
@@ -492,8 +471,8 @@ characters = {
 		name = MEH_Pyra
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_pyra"
-				large = "gfx/leaders/MEH/Pyra.dds"
+				small = GFX_idea_meh_pyra
+				large = GFX_portrait_meh_pyra
 			}
 		}
 		corps_commander = {
@@ -528,8 +507,8 @@ characters = {
 		name = MEH_Rozen_S_Series
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_rozen_s_series"
-				large = "gfx/leaders/MEH/Rozen_S_Series.dds"
+				small = GFX_idea_meh_rozen_s_series
+				large = GFX_portrait_meh_rozen_s_series
 			}
 		}
 		corps_commander = {
@@ -561,8 +540,8 @@ characters = {
 		name = MEH_Clarion
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_clarion"
-				large = "gfx/leaders/MEH/Clarion.dds"
+				small = GFX_idea_meh_clarion
+				large = GFX_portrait_meh_clarion
 			}
 		}
 		corps_commander = {
@@ -578,35 +557,14 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	MEH_Maki_Ivanova = {
-		name = MEH_Maki_Ivanova
-		portraits = {
-			army = {
-				small = "GFX_idea_meh_maki_ivanova"
-				large = "gfx/leaders/MEH/Maki_Ivanova.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				cavalry_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
-	}
 	MEH_Pneuma = {
 		name = MEH_Pneuma
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_pneuma"
+				small = GFX_idea_meh_pneuma
 			}
 			army = {
-				large = "gfx/leaders/MEH/Pneuma.dds"
+				large = GFX_portrait_meh_pneuma
 			}
 		}
 		corps_commander = {
@@ -637,8 +595,8 @@ characters = {
 		name = MEH_Hatsune_Miku
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_hatsune_miku"
-				large = "gfx/leaders/MEH/Hatsune_Miku.dds"
+				small = GFX_idea_meh_hatsune_miku
+				large = GFX_portrait_meh_hatsune_miku
 			}
 		}
 		corps_commander = {
@@ -659,7 +617,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_hana
-				large = "gfx/leaders/MEH/Hana.dds"
+				large = GFX_portrait_meh_hana
 			}
 		}
 		advisor = {
@@ -692,8 +650,8 @@ characters = {
 		name = MEH_Automaton
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_automaton"
-				large = "gfx/leaders/MEH/Automaton.dds"
+				small = GFX_idea_meh_automaton
+				large = GFX_portrait_meh_automaton
 			}
 		}
 		corps_commander = {
@@ -713,8 +671,8 @@ characters = {
 		name = MEH_Phantom_Queen_Ex_Xecty
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_phantom_queen_ex-xecty"
-				large = "gfx/leaders/MEH/Phantom_Queen_Ex-Xecty.dds"
+				small = GFX_idea_meh_phantom_queen_ex-xecty
+				large = GFX_portrait_meh_phantom_queen_ex-xecty
 			}
 		}
 		corps_commander = {
@@ -745,8 +703,8 @@ characters = {
 		name = MEH_MHMD_02_Haruko
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_mhmd-02_haruko"
-				large = "gfx/leaders/MEH/MHMD-02_Haruko.dds"
+				small = GFX_idea_meh_mhmd-02_haruko
+				large = GFX_portrait_meh_mhmd-02_haruko
 			}
 		}
 		corps_commander = {
@@ -765,10 +723,10 @@ characters = {
 		name = MEH_T_Elos
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_t-elos"
+				small = GFX_idea_meh_t-elos
 			}
 			army = {
-				large = "gfx/leaders/MEH/T-Elos.dds"
+				large = GFX_portrait_meh_t-elos
 			}
 		}
 		corps_commander = {
@@ -790,7 +748,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_aino
-				large = "gfx/leaders/MEH/Aino.dds"
+				large = GFX_portrait_meh_aino
 			}
 		}
 		corps_commander = {
@@ -812,7 +770,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_rose
-				large = "gfx/leaders/MEH/Rose.dds"
+				large = GFX_portrait_meh_rose
 			}
 		}
 		corps_commander = {
@@ -832,7 +790,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_elizabeth
-				large = "gfx/leaders/MEH/Elizabeth.dds"
+				large = GFX_portrait_meh_elizabeth
 			}
 		}
 		corps_commander = {
@@ -863,7 +821,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_vivy
-				large = "gfx/leaders/MEH/Vivy.dds"
+				large = GFX_portrait_meh_vivy
 			}
 		}
 		corps_commander = {
@@ -912,7 +870,7 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				infantry_leader
-				commando
+				skilled_staffer
 			}
 			skill = 4
 			attack_skill = 4
@@ -926,8 +884,8 @@ characters = {
 		name = MEH_Ashigara_ARP
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_ashigara_arp"
-				large = "gfx/leaders/MEH/Ashigara_ARP.dds"
+				small = GFX_idea_meh_ashigara_arp
+				large = GFX_portrait_meh_ashigara_arp
 			}
 		}
 		navy_leader = {
@@ -946,8 +904,8 @@ characters = {
 		name = MEH_Takao_ARP
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_takao_arp"
-				large = "gfx/leaders/MEH/Takao_ARP.dds"
+				small = GFX_idea_meh_takao_arp
+				large = GFX_portrait_meh_takao_arp
 			}
 		}
 		advisor = {
@@ -977,10 +935,10 @@ characters = {
 		name = MEH_I_410
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_i-410"
+				small = GFX_idea_meh_i-410
 			}
 			army = {
-				large = "gfx/leaders/MEH/I-410.dds"
+				large = GFX_portrait_meh_i-410
 			}
 		}
 		navy_leader = {
@@ -1013,8 +971,8 @@ characters = {
 		name = MEH_Haruna_ARP
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_haruna"
-				large = "gfx/leaders/MEH/Haruna.dds"
+				small = GFX_idea_meh_haruna
+				large = GFX_portrait_meh_haruna
 			}
 		}
 		navy_leader = {
@@ -1034,7 +992,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_kirishima
-				large = "gfx/leaders/MEH/Kirishima.dds"
+				large = GFX_portrait_meh_kirishima
 			}
 		}
 		navy_leader = {
@@ -1053,8 +1011,8 @@ characters = {
 		name = MEH_Kongou_ARP
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_kongou_arp"
-				large = "gfx/leaders/MEH/Kongou_ARP.dds"
+				small = GFX_idea_meh_kongou_arp
+				large = GFX_portrait_meh_kongou_arp
 			}
 		}
 		advisor = {
@@ -1085,8 +1043,8 @@ characters = {
 		name = MEH_Atago_ARP
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_atago_arp"
-				large = "gfx/leaders/MEH/Atago_ARP.dds"
+				small = GFX_idea_meh_atago_arp
+				large = GFX_portrait_meh_atago_arp
 			}
 		}
 		navy_leader = {
@@ -1105,8 +1063,8 @@ characters = {
 		name = MEH_Caseal
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_caseal"
-				large = "gfx/leaders/MEH/Caseal.dds"
+				small = GFX_idea_meh_caseal
+				large = GFX_portrait_meh_caseal
 			}
 		}
 		navy_leader = {
@@ -1125,8 +1083,8 @@ characters = {
 		name = MEH_Hiei_ARP
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_hiei_arp"
-				large = "gfx/leaders/MEH/Hiei_ARP.dds"
+				small = GFX_idea_meh_hiei_arp
+				large = GFX_portrait_meh_hiei_arp
 			}
 		}
 		navy_leader = {
@@ -1161,7 +1119,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_yurizaki_mira
-				large = "gfx/leaders/MEH/Yurizaki_Mira.dds"
+				large = GFX_portrait_meh_yurizaki_mira
 			}
 		}
 		advisor = {
@@ -1183,8 +1141,8 @@ characters = {
 		name = MEH_Yurizaki_Mira
 		portraits = {
 			army = {
-				small = "GFX_idea_meh_yurizaki_mira"
-				large = "gfx/leaders/MEH/Yurizaki_Mira.dds"
+				small = GFX_idea_meh_yurizaki_mira
+				large = GFX_portrait_meh_yurizaki_mira
 			}
 		}
 		advisor = {
