@@ -306,4 +306,56 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_change_gov_n = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = neutrality
+			}
+		}
+	}
+	wfc_change_gov_d = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = democratic
+			}
+		}
+	}
+	wfc_change_gov_c = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+		}
+	}
+	wfc_change_gov_f = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+	}
 }
