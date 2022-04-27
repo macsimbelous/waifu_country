@@ -43,15 +43,52 @@
 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
 		}
 	}
+	fleet = {
+		name = "Guro Fleet"
+		naval_base = 9950
+		task_force = {
+			name = "1st Destroyer Flotilla"
+			location = 9950
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+		}
+		task_force = {
+			name = "2nd Destroyer Flotilla"
+			location = 9950
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+		}
+	}
 }
 instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "HEN" 
+			version_name = "New Hentai Destroyer"
+		}
+		requested_factories = 1
+		progress = 0.90
+	}
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_submarine_2
 			creator = "HEN" 
 			version_name = "Hentai Class"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.90
 		#amount = 1
 	}

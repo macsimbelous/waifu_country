@@ -205,20 +205,12 @@ division_template = {
 			y = 1
 		}
 		light_armor = {
-			x = 0
-			y = 2
-		}
-		light_armor = {
 			x = 1
 			y = 0
 		}
 		light_armor = {
 			x = 1
 			y = 1
-		}
-		light_armor = {
-			x = 1
-			y = 2
 		}
 		motorized = {
 			x = 2
@@ -251,146 +243,20 @@ division_template = {
 units = {
 	division = {
 		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
+		division_template = "Hentai Division"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.4
+		division_template = "Hentai Division"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		location = 9950
-		division_template = "Hentai Brigade"
-		start_experience_factor = 0.3
+		division_template = "Hentai Division"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {

@@ -187,6 +187,11 @@ mms_change_country_leader = {
 				portrait = GFX_portrait_mms_operative_06
 			}
 		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_mms_operative_07
+			}
+		}
 	}
 	add_country_leader_trait = wfc_anime_tyan
 	add_country_leader_trait = wfc_governor-general

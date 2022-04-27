@@ -360,6 +360,10 @@ spriteTypes = {
 		name = "GFX_portrait_hen_naval_04"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_04.dds"
 	}
+        spriteType = {
+		name = "GFX_portrait_hen_naval_05"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_05.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_hen_operative_01"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_01.dds"

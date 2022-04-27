@@ -39,6 +39,14 @@ set_technology = {
 	improved_light_tank_chassis = 1
 	engine_tech_1 = 1
 	engine_tech_2 = 1
+	#esminec#
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	sonar = 1
+	smoke_generator = 1
+	basic_depth_charges = 1
 }
 
 JAP = {
@@ -171,6 +179,39 @@ create_equipment_variant = {
 		rear_1_custom_slot = ship_torpedo_sub_2
 	}
 }
+# Destroyers #
+create_equipment_variant = {
+	name = "Hentai Destroyer"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		mid_1_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_depth_charge_1
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "New Hentai Destroyer"
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		mid_1_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_depth_charge_1
+	}
+}
+
 create_equipment_variant = {
 	name = "HLT-1"
 	type = light_tank_chassis_2

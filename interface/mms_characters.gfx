@@ -496,4 +496,8 @@ spriteTypes = {
 		name = "GFX_portrait_mms_operative_06"
 		texturefile = "gfx/leaders/MMS/generic/mms_operative_06.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_07"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_07.dds"
+	}
 }
