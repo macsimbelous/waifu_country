@@ -236,10 +236,10 @@ wfc_world_conquest_category = {
 				has_government = neutrality
 				add = 1
 			}
-			modifier = {
-				has_war = yes
-				add = -1
-			}
+			# modifier = {
+			# 	has_war = yes
+			# 	add = -1
+			# }
 			modifier = {
 				strength_ratio = {
 					tag = FROM
@@ -256,13 +256,11 @@ wfc_world_conquest_category = {
 			}
 			modifier = {
 				is_in_faction = yes
-				is_faction_leader = yes
-				add = 1
+				add = -10
 			}
 			modifier = {
-				is_in_faction = yes
-				is_faction_leader = no
-				add = -10
+				is_faction_leader = yes
+				add = 11
 			}
 			modifier = {
 				FROM = {
@@ -272,17 +270,6 @@ wfc_world_conquest_category = {
 					}
 				}
 				add = -1
-			}
-			modifier = {
-				original_tag = MMS
-				FROM = {
-					OR = {
-						original_tag = PER
-						original_tag = AFG
-						#original_tag = PAK
-					}
-				}
-				add = 10
 			}
 			modifier = {
 				original_tag = MEH
