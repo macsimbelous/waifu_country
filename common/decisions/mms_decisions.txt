@@ -161,6 +161,7 @@ mms_civil_war_category = {
 		days_mission_timeout = 180
 		available = {
 			fascism < 0.2
+			has_stability > 0.5
 		}
 		activation = {
 			has_government = communism
@@ -204,6 +205,7 @@ mms_civil_war_category = {
 		days_mission_timeout = 180
 		available = {
 			democratic < 0.2
+			has_stability > 0.5
 		}
 		activation = {
 			has_government = fascism
@@ -247,6 +249,7 @@ mms_civil_war_category = {
 		days_mission_timeout = 180
 		available = {
 			communism < 0.2
+			has_stability > 0.5
 		}
 		activation = {
 			has_government = democratic

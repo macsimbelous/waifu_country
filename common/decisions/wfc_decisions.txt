@@ -256,11 +256,11 @@ wfc_world_conquest_category = {
 			}
 			modifier = {
 				is_in_faction = yes
-				add = -10
+				add = -5
 			}
 			modifier = {
 				is_faction_leader = yes
-				add = 11
+				add = 6
 			}
 			modifier = {
 				FROM = {
