@@ -775,6 +775,9 @@ wfc_subjects_category = {
 			factor = -100
 		}
 		complete_effect = {
+			FROM = {
+				set_country_flag = wfc_federation_subject_flag
+			}
 			set_autonomy = {
 				target = FROM
 				autonomy_state = autonomy_federation_subject

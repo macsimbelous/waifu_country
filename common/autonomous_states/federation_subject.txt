@@ -33,16 +33,17 @@ autonomy_state = {
 		always = yes
 	}
 	allowed = {
-		OVERLORD = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-			}
-		}
+		has_country_flag = wfc_federation_subject_flag
+		# OVERLORD = {
+		# 	OR = {
+		# 		original_tag = ACW
+		# 		original_tag = HEN
+		# 		original_tag = MAH
+		# 		original_tag = TRP
+		# 		original_tag = MEH
+		# 		original_tag = MMS
+		# 	}
+		# }
 	}
 	use_for_peace_conference_weight = {
 		base = 0
