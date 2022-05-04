@@ -2249,7 +2249,7 @@ prospect_for_resources = {
 				original_tag = MMS
 			}
 		}
-		cost = 100
+		cost = 50
 		fire_only_once = no
 		days_re_enable = 30
 		days_remove = 30

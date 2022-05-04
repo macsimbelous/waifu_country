@@ -358,4 +358,31 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_acw_war_rom = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			FRA = {
+				diplomatic_relation = {
+					country = ROM
+					relation = guarantee
+					active = no
+				}
+			}
+			CZE = {
+				diplomatic_relation = {
+					country = ROM
+					relation = guarantee
+					active = no
+				}
+			}
+			declare_war_on = {
+				target = ROM
+				type = annex_everything
+			}
+		}
+	}
 }

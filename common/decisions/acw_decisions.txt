@@ -5,7 +5,7 @@ acw_government_category = {
 			factor = 100
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		#days_re_enable = 30
 		days_remove = 30
 		available = {
@@ -34,7 +34,7 @@ acw_government_category = {
 			factor = 100
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		days_remove = 30
 		available = {
 			custom_trigger_tooltip = {
@@ -61,7 +61,7 @@ acw_government_category = {
 			factor = 100
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = acw_minoboron_idea
 		}
@@ -91,7 +91,7 @@ acw_government_category = {
 			factor = 100
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		days_remove = 30
 		available = {
 			custom_trigger_tooltip = {
@@ -119,7 +119,7 @@ acw_government_category = {
 			factor = 50
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		days_remove = 30
 		available = {
 			custom_trigger_tooltip = {
@@ -152,7 +152,7 @@ acw_government_category = {
 			factor = 50
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		days_remove = 30
 		available = {
 			custom_trigger_tooltip = {
@@ -179,7 +179,7 @@ acw_government_category = {
 			factor = 50
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		days_remove = 30
 		available = {
 			custom_trigger_tooltip = {
@@ -207,7 +207,7 @@ acw_government_category = {
 			factor = 100
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		available = {
 			num_subjects > 3
 			custom_trigger_tooltip = {

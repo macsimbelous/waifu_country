@@ -45,7 +45,17 @@ autonomy_state = {
 		}
 	}
 	use_for_peace_conference_weight = {
-		factor = -100
+		base = 0
+		modifier = {
+			add = 10
+			FROM = {
+				has_wargoal_against = { target = ROOT type = puppet_wargoal_focus }
+			}
+		}
+		modifier = {
+			factor = 2
+			tag = ENG	
+		}
 	}
 	can_take_level = {
 		always = no
