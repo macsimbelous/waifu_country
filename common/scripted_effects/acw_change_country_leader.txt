@@ -196,46 +196,6 @@ acw_change_country_leader = {
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_land_19
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_land_20
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_land_21
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_land_22
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_land_23
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_land_24
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_land_25
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_land_26
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
 					portrait = GFX_portrait_acw_naval_01
 				}
 			}
@@ -311,46 +271,6 @@ acw_change_country_leader = {
 			}
 			1 = {
 				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_naval_16
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_naval_17
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_naval_18
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_naval_19
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_naval_20
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_naval_21
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_naval_22
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_naval_23
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
 					portrait = GFX_portrait_acw_operative_01
 				}
 			}
@@ -419,42 +339,6 @@ acw_change_country_leader = {
 					portrait = GFX_portrait_acw_operative_14
 				}
 			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_operative_15
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_operative_16
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_operative_17
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_operative_18
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_operative_19
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_operative_20
-				}
-			}
-			1 = {
-				set_country_leader_portrait = {
-					portrait = GFX_portrait_acw_operative_21
-				}
-			}
-
 		}
 	}
 	add_country_leader_trait = wfc_anime_tyan

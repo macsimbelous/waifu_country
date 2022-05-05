@@ -408,6 +408,10 @@ spriteTypes = {
 		name = "GFX_portrait_meh_land_16"
 		texturefile = "gfx/leaders/MEH/generic/meh_land_16.dds"
 	}
+        spriteType = {
+		name = "GFX_portrait_meh_land_17"
+		texturefile = "gfx/leaders/MEH/generic/meh_land_17.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_meh_naval_01"
 		texturefile = "gfx/leaders/MEH/generic/meh_naval_01.dds"

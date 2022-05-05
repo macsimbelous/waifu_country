@@ -341,6 +341,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/generic/trp_land_11.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_trp_land_12"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_12.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_trp_naval_01"
 		texturefile = "gfx/leaders/TRP/generic/trp_naval_01.dds"
 	}

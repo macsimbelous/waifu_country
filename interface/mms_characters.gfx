@@ -425,6 +425,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/generic/mms_land_20.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_mms_land_21"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_21.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_mms_naval_01"
 		texturefile = "gfx/leaders/MMS/generic/mms_naval_01.dds"
 	}

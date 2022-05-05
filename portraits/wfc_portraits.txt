@@ -19,14 +19,6 @@ ACW = {
 			"GFX_portrait_acw_land_16"
 			"GFX_portrait_acw_land_17"
 			"GFX_portrait_acw_land_18"
-			"GFX_portrait_acw_land_19"
-			"GFX_portrait_acw_land_20"
-			"GFX_portrait_acw_land_21"
-			"GFX_portrait_acw_land_22"
-			"GFX_portrait_acw_land_23"
-			"GFX_portrait_acw_land_24"
-			"GFX_portrait_acw_land_25"
-			"GFX_portrait_acw_land_26"
 		}
 	}
 	navy = {
@@ -46,14 +38,6 @@ ACW = {
 			"GFX_portrait_acw_naval_13"
 			"GFX_portrait_acw_naval_14"
 			"GFX_portrait_acw_naval_15"
-			"GFX_portrait_acw_naval_16"
-			"GFX_portrait_acw_naval_17"
-			"GFX_portrait_acw_naval_18"
-			"GFX_portrait_acw_naval_19"
-			"GFX_portrait_acw_naval_20"
-			"GFX_portrait_acw_naval_21"
-			"GFX_portrait_acw_naval_22"
-			"GFX_portrait_acw_naval_23"
 		}
 	}
 	operative = {
@@ -72,13 +56,6 @@ ACW = {
 			"GFX_portrait_acw_operative_12"
 			"GFX_portrait_acw_operative_13"
 			"GFX_portrait_acw_operative_14"
-			"GFX_portrait_acw_operative_15"
-			"GFX_portrait_acw_operative_16"
-			"GFX_portrait_acw_operative_17"
-			"GFX_portrait_acw_operative_18"
-			"GFX_portrait_acw_operative_19"
-			"GFX_portrait_acw_operative_20"
-			"GFX_portrait_acw_operative_21"
 		}
 		male = {
 			"GFX_portrait_acw_operative_01"
@@ -95,13 +72,6 @@ ACW = {
 			"GFX_portrait_acw_operative_12"
 			"GFX_portrait_acw_operative_13"
 			"GFX_portrait_acw_operative_14"
-			"GFX_portrait_acw_operative_15"
-			"GFX_portrait_acw_operative_16"
-			"GFX_portrait_acw_operative_17"
-			"GFX_portrait_acw_operative_18"
-			"GFX_portrait_acw_operative_19"
-			"GFX_portrait_acw_operative_20"
-			"GFX_portrait_acw_operative_21"
 		}
 	}
 }
@@ -222,6 +192,7 @@ TRP = {
 			"GFX_portrait_trp_land_09"
 			"GFX_portrait_trp_land_10"
 			"GFX_portrait_trp_land_11"
+			"GFX_portrait_trp_land_12"
 		}
 	}
 	navy = {
@@ -280,6 +251,7 @@ MEH = {
 			"GFX_portrait_meh_land_14"
 			"GFX_portrait_meh_land_15"
 			"GFX_portrait_meh_land_16"
+			"GFX_portrait_meh_land_17"
 		}
 	}
 	navy = {
@@ -332,6 +304,7 @@ MMS = {
 			"GFX_portrait_mms_land_18"
 			"GFX_portrait_mms_land_19"
 			"GFX_portrait_mms_land_20"
+			"GFX_portrait_mms_land_21"
 		}
 	}
 	navy = {
