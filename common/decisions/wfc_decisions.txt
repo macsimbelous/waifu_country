@@ -1399,7 +1399,7 @@ wfc_subjects_category = {
 				}
 			}
 		}
-		cost = 300
+		cost = 100
 		fire_only_once = no
 		complete_effect = {
 			transfer_state = FROM
