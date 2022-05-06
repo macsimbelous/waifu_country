@@ -775,9 +775,54 @@ wfc_subjects_category = {
 			factor = -100
 		}
 		complete_effect = {
-			FROM = {
-				set_country_flag = wfc_federation_subject_flag
+			if = {
+				limit = {
+					original_tag = ACW
+				}
+				FROM = {
+					set_country_flag = acw_federation_subject_flag
+				}
 			}
+			else_if = {
+				limit = {
+					original_tag = HEN
+				}
+				FROM = {
+					set_country_flag = hen_federation_subject_flag
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MAH
+				}
+				FROM = {
+					set_country_flag = mah_federation_subject_flag
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MEH
+				}
+				FROM = {
+					set_country_flag = meh_federation_subject_flag
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MMS
+				}
+				FROM = {
+					set_country_flag = mms_federation_subject_flag
+				}
+			}
+			else = {
+				FROM = {
+					set_country_flag = trp_federation_subject_flag
+				}
+			}
+			# FROM = {
+			# 	set_country_flag = wfc_federation_subject_flag
+			# }
 			set_autonomy = {
 				target = FROM
 				autonomy_state = autonomy_federation_subject
@@ -882,7 +927,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_change_country_leader = {
-		cost = 100
+		cost = 50
 		available = {
 			FROM = {
 				is_puppet = yes
@@ -890,12 +935,60 @@ wfc_subjects_category = {
 		}
 		target_array = subjects
 		target_trigger = {
-			FROM = {
-				NOT = {
-					OR = {
-						has_country_leader_with_trait = wfc_anime_tyan
+			if = {
+				limit = {
+					original_tag = TRP
+				}
+				FROM = {
+					NOT = {
 						has_country_leader_with_trait = wfc_trap
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MEH
+				}
+				FROM = {
+					NOT = {
 						has_country_leader_with_trait = wfc_android
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MAH
+				}
+				FROM = {
+					NOT = {
+						has_country_leader_with_trait = wfc_maho
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = HEN
+				}
+				FROM = {
+					NOT = {
+						has_country_leader_with_trait = wfc_hentai
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MMS
+				}
+				FROM = {
+					NOT = {
+						has_country_leader_with_trait = wfc_monster
+					}
+				}
+			}
+			else = {
+				FROM = {
+					NOT = {
+						has_country_leader_with_trait = wfc_anime_tyan
 					}
 				}
 			}
@@ -954,7 +1047,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_change_focus_tree = {
-		cost = 100
+		cost = 50
 		available = {
 			FROM = {
 				is_puppet = yes
@@ -964,24 +1057,17 @@ wfc_subjects_category = {
 		target_trigger = {
 			FROM = {
 				NOT = {
-					OR = {
-						original_tag = ACW
-						original_tag = HEN
-						original_tag = MAH
-						original_tag = MEH
-						original_tag = MMS
-						original_tag = TRP
-					}
-				}
-			}
-		}
-		visible = {
-			FROM = {
-				NOT = {
 					has_country_flag = wfc_change_focus_tree_flag
 				}
 			}
 		}
+		# visible = {
+		# 	FROM = {
+		# 		NOT = {
+		# 			has_country_flag = wfc_change_focus_tree_flag
+		# 		}
+		# 	}
+		# }
 		complete_effect = {
 			FROM = {
 				custom_effect_tooltip = wfc_change_focus_tree_tt
@@ -996,7 +1082,7 @@ wfc_subjects_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			factor = -100
 		}
 	}
 	wfc_puppets_economic_assistance = {
@@ -1018,7 +1104,7 @@ wfc_subjects_category = {
 			}
 		}
 		fire_only_once = no
-		cost = 100
+		cost = 50
 		#days_re_enable = 45
 		complete_effect = {
 			FROM = {
@@ -1032,6 +1118,247 @@ wfc_subjects_category = {
 				# 	add_ideas = wfc_acw_puppet
 				# }
 			}
+		}
+	}
+	wfc_convert_to_federal_subject = {
+		cost = 100
+		available = {
+			FROM = {
+				is_puppet_of = ROOT
+				OR = {
+					has_autonomy_state = autonomy_integrated_puppet
+					has_autonomy_state = autonomy_collaboration_government
+					has_autonomy_state = autonomy_personal_union
+					has_autonomy_state = autonomy_reichskommissariat
+					check_variable = {
+						var = autonomy_ratio
+						value = 0.2
+						compare = less_than_or_equals
+					}
+				}
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			always = yes
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					original_tag = ACW
+				}
+				FROM = {
+					set_country_flag = acw_federation_subject_flag
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = HEN
+				}
+				FROM = {
+					set_country_flag = hen_federation_subject_flag
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MAH
+				}
+				FROM = {
+					set_country_flag = mah_federation_subject_flag
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MEH
+				}
+				FROM = {
+					set_country_flag = meh_federation_subject_flag
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = MMS
+				}
+				FROM = {
+					set_country_flag = mms_federation_subject_flag
+				}
+			}
+			else = {
+				FROM = {
+					set_country_flag = trp_federation_subject_flag
+				}
+			}
+			set_autonomy = {
+				target = FROM
+				autonomy_state = autonomy_federation_subject
+			}
+			FROM = {
+				if = {
+					limit = {
+						NOT = {
+							OR = {
+								original_tag = ACW
+								original_tag = HEN
+								original_tag = MAH
+								original_tag = TRP
+								original_tag = MMS
+								original_tag = MEH
+							}
+						}
+					}
+					if = {
+						limit = {
+							NOT = {
+								has_country_flag = wfc_change_focus_tree_flag
+							}
+						}
+						set_country_flag = wfc_change_focus_tree_flag
+						load_focus_tree = {
+							#tree = wfc_focus
+							tree = generic_focus
+							keep_completed = no
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_idea = wfc_economic_assistance
+						}
+					}
+					add_ideas = wfc_economic_assistance
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							OR = {
+								original_tag = ACW
+								original_tag = HEN
+								original_tag = MAH
+								original_tag = TRP
+								original_tag = MMS
+								original_tag = MEH
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						original_tag = TRP
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_country_leader_with_trait = wfc_trap
+								}
+							}
+						}
+						FROM = {
+							hidden_effect = {
+								trp_change_country_leader = yes
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						original_tag = MEH
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_country_leader_with_trait = wfc_android
+								}
+							}
+						}
+						FROM = {
+							hidden_effect = {
+								meh_change_country_leader = yes
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						original_tag = MAH
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_country_leader_with_trait = wfc_maho
+								}
+							}
+						}
+						FROM = {
+							hidden_effect = {
+								mah_change_country_leader = yes
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						original_tag = MMS
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_country_leader_with_trait = wfc_monster
+								}
+							}
+						}
+						FROM = {
+							hidden_effect = {
+								mms_change_country_leader = yes
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						original_tag = HEN
+					}
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_country_leader_with_trait = wfc_hentai
+								}
+							}
+						}
+						FROM = {
+							hidden_effect = {
+								hen_change_country_leader = yes
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = {
+							FROM = {
+								NOT = {
+									has_country_leader_with_trait = wfc_anime_tyan
+								}
+							}
+						}
+						FROM = {
+							hidden_effect = {
+								acw_change_country_leader = yes
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
 		}
 	}
 	wfc_buy_out_state = {
@@ -2795,11 +3122,12 @@ wfc_puppets_category = {
 		}
 	}
 }
+
 wfc_railway_construction_category = {
 	wfc_railway_from_na_to_sa_decision = {
 		fire_only_once = yes
 		cost = 100
-		days_remove = 240  #15 * 16
+		days_remove = 240		#15 * 16
 		visible = {
 			836 = {
 				OR = {

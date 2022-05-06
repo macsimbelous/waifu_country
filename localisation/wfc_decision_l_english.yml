@@ -24,10 +24,13 @@ wfc_integration_decision.t:0 "Integrate §Y[From.GetName]§!"
 wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of our culture in §Y[From.GetName]§!"
 
 #create_subject
-wfc_subjects_category:0 "Subjects"
-wfc_create_subject_decision:0 "Create subject §Y[From.GetNameDef]§!"
-wfc_change_country_leader:0 "Change leader §Y[From.GetNameDef]§!"
-wfc_buy_out_state:0 "Buy out §Y[From.GetName]§!"
+ wfc_subjects_category:0 "Subjects"
+ wfc_create_subject_decision:0 "Create subject §Y[From.GetNameDef]§!"
+ wfc_change_country_leader:0 "Change leader §Y[From.GetNameDef]§!"
+ wfc_change_focus_tree:0 "Replace focus tree §Y[From.GetNameDef]§!"
+ wfc_change_focus_tree_tt:0 "National focuses will be replaced with §Gwaifu countries§ focuses!"
+ wfc_convert_to_federal_subject:0 "Transform §Y[From.GetName]§! into a federal subject"
+ wfc_buy_out_state:0 "Buy out §Y[From.GetName]§!"
 
 #wfc_world_conquest_category
 wfc_world_conquest_category:0 "Conquest of the world"
@@ -51,10 +54,6 @@ wfc_economy_synthetic_refinery_decision.t:0 "Refinery investments"
 wfc_economy_nuclear_reactor_decision.t:0 "Investments in nuclear power plants"
 wfc_economy_infrastructure_decision.t:0 "Investment in infrastructure"
 wfc_invest_run_tt:0 "No active investment projects"
-
-#wfc_change_focus_tree
-wfc_change_focus_tree:0 "Replace focus tree"
-wfc_change_focus_tree_tt:0 "National focuses will be replaced with §Gwaifu countries§ focuses!"
 
 #wfc_budget_category
 wfc_budget_category:0 "Budget"

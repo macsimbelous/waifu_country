@@ -1,12 +1,20 @@
 ﻿l_english:
 #traits
+ #basic country leader traits
+  wfc_hentai:0 "Hentai"
+  wfc_monster:0 "Monster"
+  wfc_maho:0 "Mahou shoujo"
+  wfc_android:0 "Android"
+  wfc_anime_tyan:0 "Anime girl"
+  wfc_trap:0 "Trap"
+
 wfc_idol:0 "Idol"
 wfc_patron_of_intelligence:0 "Patron saint of intelligence"
 wfc_tsundere:0 "Tsundere"
 wfc_patron_of_the_military_industrial_complex:0 "The patron saint of the military-industrial complex"
 wfc_dictator:0 "Dictator"
 wfc_patron_of_industry:0 "Patron of the industry"
-wfc_android:0 "Android"
+
 wfc_patron_of_science:0 "Patron saint of science"
 wfc_superweapon:0 "Super weapon"
 wfc_empress:0 "The Empress"
@@ -24,8 +32,7 @@ wfc_war_industrialist:0 "Military tycoon"
 wfc_submarine_manufacturer:0 "Submarine developer"
 wfc_carrier_manufacturer:0 "Aircraft Carrier Developer"
 wfc_battlefleet_designer:0 "Surface warship developer"
-wfc_anime_tyan:0 "Anime girl"
-wfc_trap:0 "Trap"
+
 wfc_atom_concern_trait:0 "Atomic concern"
 wfc_tyan_militarist:0 "§YMilitarist§!"
 wfc_defender:0 "Defender"

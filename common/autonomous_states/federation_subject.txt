@@ -33,7 +33,40 @@ autonomy_state = {
 		always = yes
 	}
 	allowed = {
-		has_country_flag = wfc_federation_subject_flag
+		if = {
+			limit = {
+				OVERLORD = { original_tag = ACW }
+			}
+			has_country_flag = acw_federation_subject_flag
+		}
+		else_if = {
+			limit = {
+				OVERLORD = { original_tag = HEN }
+			}
+			has_country_flag = hen_federation_subject_flag
+		}
+		else_if = {
+			limit = {
+				OVERLORD = { original_tag = MAH }
+			}
+			has_country_flag = mah_federation_subject_flag
+		}
+		else_if = {
+			limit = {
+				OVERLORD = { original_tag = MEH }
+			}
+			has_country_flag = meh_federation_subject_flag
+		}
+		else_if = {
+			limit = {
+				OVERLORD = { original_tag = MMS }
+			}
+			has_country_flag = mms_federation_subject_flag
+		}
+		else = {
+			has_country_flag = trp_federation_subject_flag
+		}
+		#has_country_flag = wfc_federation_subject_flag
 		# OVERLORD = {
 		# 	OR = {
 		# 		original_tag = ACW

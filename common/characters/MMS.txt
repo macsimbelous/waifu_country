@@ -35,7 +35,7 @@ characters = {
 		country_leader = {
 			ideology = fascism_ideology
 			traits = {
-				wfc_anime_tyan
+				wfc_monster
 				wfc_tyan_militarist
 				wfc_patron_of_the_military_industrial_complex
 				wfc_demon_lord
@@ -58,7 +58,7 @@ characters = {
 		country_leader = {
 			ideology = despotism
 			traits = {
-				wfc_anime_tyan
+				wfc_monster
 				wfc_defender
 				wfc_patron_of_intelligence
 				wfc_demon_lord
@@ -103,7 +103,7 @@ characters = {
 		country_leader = {
 			ideology = leninism
 			traits = {
-				wfc_anime_tyan
+				wfc_monster
 				wfc_revolutionary
 				wfc_patron_of_industry
 				wfc_demon_lord
@@ -148,7 +148,7 @@ characters = {
 		country_leader = {
 			ideology = liberalism
 			traits = {
-				wfc_anime_tyan
+				wfc_monster
 				wfc_peoples_favorite
 				wfc_patron_of_science
 				wfc_demon_lord
