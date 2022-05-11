@@ -189,7 +189,18 @@ create_operative_leader = {
 		MMS
 	}
 }
-
+MMS_velvet_crowe = {
+	set_character_flag = mms_country_leader_flag
+}
+MMS_yuuko_yoshida = {
+	set_character_flag = mms_country_leader_flag
+}
+MMS_maou = {
+	set_character_flag = mms_country_leader_flag
+}
+MMS_holo = {
+	set_character_flag = mms_country_leader_flag
+}
 ### Variants ###
 # Submarines #
 create_equipment_variant = {

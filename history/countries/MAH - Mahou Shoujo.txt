@@ -126,7 +126,18 @@ create_operative_leader = {
 		MAH
 	}
 }
-
+MAH_Asuka_Ootorii = {
+	set_character_flag = mah_country_leader_flag
+}
+MAH_Nanoha_Takamachi = {
+	set_character_flag = mah_country_leader_flag
+}
+MAH_Usagi_Tsukino = {
+	set_character_flag = mah_country_leader_flag
+}
+MAH_Momo_Chiyoda = {
+	set_character_flag = mah_country_leader_flag
+}
 ### Variants ###
 # Submarines #
 create_equipment_variant = {

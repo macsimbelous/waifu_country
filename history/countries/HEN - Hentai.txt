@@ -165,7 +165,18 @@ create_operative_leader = {
 		operative_infiltrator
 	}
 }
-
+HEN_Takumi_Musashino = {
+	set_character_flag = hen_country_leader_flag
+}
+HEN_mind_flayer = {
+	set_character_flag = hen_country_leader_flag
+}
+HEN_Mari_Setogaya = {
+	set_character_flag = hen_country_leader_flag
+}
+HEN_Sheliss_Elleness_Zurbach = {
+	set_character_flag = hen_country_leader_flag
+}
 ### Variants ###
 # Submarines #
 create_equipment_variant = {

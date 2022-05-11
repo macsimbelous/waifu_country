@@ -162,4 +162,5 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_puppets_economic_assistance:0 "Предоставить экономическую помошь §Y[From.GetNameDef]§!"
 
 #political_actions
- wfc_retire_leader:0 "§G[MMS.GetLeader]§! уйдёт в отставку"
+ wfc_retire_leader:0 "§G[ROOT.GetLeader]§! уйдёт в отставку"
+ wfc_retire_leader_tt:0 "§YПроизойдут досрочные выборы§!"

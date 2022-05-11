@@ -205,7 +205,18 @@ create_operative_leader = {
 		operative_natural_orator
 	}
 }
-
+MEH_KOS_MOS = {
+	set_character_flag = meh_country_leader_flag
+}
+MEH_Fiora_Mechon = {
+	set_character_flag = meh_country_leader_flag
+}
+MEH_Mythra = {
+	set_character_flag = meh_country_leader_flag
+}
+MEH_Histoire = {
+	set_character_flag = meh_country_leader_flag
+}
 ### Variants ###
 create_equipment_variant = {
 	name = "MLT-1"

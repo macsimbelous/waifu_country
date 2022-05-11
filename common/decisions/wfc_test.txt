@@ -55,6 +55,18 @@ wfc_test_category = {
 			add_command_power = 100
 		}
 	}
+	wfc_test_add_stability = {
+		fire_only_once = no
+		cost = 0
+		available = {
+			# wfc_test_char = {
+			# 	is_unit_leader = yes
+			# }
+		}
+		complete_effect = {
+			add_stability = 0.2
+		}
+	}
 	wfc_test_3 = {
 		fire_only_once = no
 		cost = 0

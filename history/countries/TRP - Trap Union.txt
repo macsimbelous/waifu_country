@@ -162,7 +162,18 @@ create_operative_leader = {
 		TRP
 	}
 }
-
+TRP_astolfo = {
+	set_character_flag = trp_country_leader_flag
+}
+TRP_hideri_kanzaki = {
+	set_character_flag = trp_country_leader_flag
+}
+TRP_tetora = {
+	set_character_flag = trp_country_leader_flag
+}
+TRP_ringo_tsukimiya = {
+	set_character_flag = trp_country_leader_flag
+}
 ### Variants ###
 # Submarines #
 create_equipment_variant = {

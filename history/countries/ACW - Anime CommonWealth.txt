@@ -336,7 +336,18 @@ create_operative_leader = {
 		operative_seducer
 	}
 }
-
+ACW_Erza = {
+	set_character_flag = acw_country_leader_flag
+}
+ACW_Asuka = {
+	set_character_flag = acw_country_leader_flag
+}
+ACW_Aurora_Suya_Rhys_Kaymin = {
+	set_character_flag = acw_country_leader_flag
+}
+ACW_Anastasia = {
+	set_character_flag = acw_country_leader_flag
+}
 ### Variants ###
 # Submarines #
 create_equipment_variant = {
