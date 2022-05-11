@@ -344,6 +344,18 @@ spriteTypes = {
 		name = "GFX_portrait_hen_land_12"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_12.dds"
 	}
+        spriteType = {
+		name = "GFX_portrait_hen_land_13"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_14"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_15"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_15.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_hen_naval_01"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_01.dds"
@@ -363,6 +375,10 @@ spriteTypes = {
         spriteType = {
 		name = "GFX_portrait_hen_naval_05"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_05.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_hen_naval_06"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_06.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_operative_01"

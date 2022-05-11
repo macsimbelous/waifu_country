@@ -132,6 +132,11 @@ meh_change_country_leader = {
 				portrait = GFX_portrait_meh_operative_05
 			}
 		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_meh_operative_06
+			}
+		}
 	}
 	add_country_leader_trait = wfc_android
 	add_country_leader_trait = wfc_governor-general
