@@ -112,3 +112,6 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_create_puppet_decision.t:0 "Subdue §Y[From.GetNameDef]§!"
  wfc_create_puppet_threat:0 "An independent country has become a puppet"
  wfc_puppets_economic_assistance:0 "Submit economic aid §Y[From.GetNameDef]§!"
+
+#political_actions
+ wfc_retire_leader:0 "§G[MMS.GetLeader]§! is retiring"

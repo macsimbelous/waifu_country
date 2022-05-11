@@ -180,6 +180,44 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MMS_belldandy = {
+		name = MMS_belldandy
+		portraits = {
+			army = {
+				small = GFX_idea_mms_belldandy
+				large = GFX_portrait_mms_belldandy
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_belldandy
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			available = {
+				NOT = {
+					OR = {
+						has_government = fascism
+						has_country_leader = {
+							character = MMS_belldandy
+							ruling_only = yes
+						}
+					}
+				}
+			}
+			ai_will_do = {
+				base = 0
+				modifier = {
+					has_government = democratic
+					add = 5
+				}
+			}
+			traits = {
+				wfc_peoples_favorite_minister
+			}
+		}
+	}
 	#marshal
 	MMS_fino_bloodstone = {
 		name = MMS_fino_bloodstone
@@ -632,7 +670,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait trait_engineer
+				wfc_exp_trait
+				trait_engineer
 			}
 			skill = 4
 			attack_skill = 4
@@ -654,7 +693,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait infantry_leader
+				wfc_exp_trait
+				infantry_leader
 			}
 			skill = 4
 			attack_skill = 4
@@ -695,7 +735,9 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait infantry_leader organizer
+				wfc_exp_trait
+				infantry_leader
+				organizer
 			}
 			skill = 4
 			attack_skill = 4
@@ -741,7 +783,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait trickster
+				wfc_exp_trait
+				trickster
 			}
 			skill = 4
 			attack_skill = 4
@@ -761,7 +804,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait commando
+				wfc_exp_trait
+				commando
 			}
 			skill = 4
 			attack_skill = 4
@@ -781,7 +825,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait infantry_leader
+				wfc_exp_trait
+				infantry_leader
 			}
 			skill = 4
 			attack_skill = 4
@@ -812,7 +857,9 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait trait_engineer cavalry_leader
+				wfc_exp_trait
+				trait_engineer
+				cavalry_leader
 			}
 			skill = 4
 			attack_skill = 4
@@ -844,7 +891,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait trait_engineer
+				wfc_exp_trait
+				trait_engineer
 			}
 			skill = 4
 			attack_skill = 4
@@ -876,7 +924,9 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait cavalry_leader skilled_staffer
+				wfc_exp_trait
+				cavalry_leader
+				skilled_staffer
 			}
 			skill = 4
 			attack_skill = 4
@@ -896,7 +946,9 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait cavalry_leader trickster
+				wfc_exp_trait
+				cavalry_leader
+				trickster
 			}
 			skill = 4
 			attack_skill = 4
@@ -930,7 +982,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait organizer
+				wfc_exp_trait
+				organizer
 			}
 			skill = 4
 			attack_skill = 4
@@ -953,7 +1006,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait infantry_leader
+				wfc_exp_trait
+				infantry_leader
 			}
 			skill = 4
 			attack_skill = 4
@@ -976,7 +1030,9 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait infantry_leader skilled_staffer
+				wfc_exp_trait
+				infantry_leader
+				skilled_staffer
 			}
 			skill = 4
 			attack_skill = 4
@@ -1106,38 +1162,6 @@ characters = {
 		}
 	}
 	#advisors
-	MMS_belldandy = {
-		name = MMS_belldandy
-		portraits = {
-			army = {
-				small = GFX_idea_mms_belldandy
-				large = GFX_portrait_mms_belldandy
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_belldandy
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			available = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			ai_will_do = {
-				base = 0
-				modifier = {
-					has_government = democratic
-					add = 5
-				}
-			}
-			traits = {
-				wfc_peoples_favorite_minister
-			}
-		}
-	}
 	MMS_shigure = {
 		name = MMS_shigure
 		portraits = {

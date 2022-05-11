@@ -160,3 +160,6 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_create_puppet_decision.t:0 "Подчинить §Y[From.GetNameDef]§!"
  wfc_create_puppet_threat:0 "Независимая страна стала марионеткой"
  wfc_puppets_economic_assistance:0 "Предоставить экономическую помошь §Y[From.GetNameDef]§!"
+
+#political_actions
+ wfc_retire_leader:0 "§G[MMS.GetLeader]§! уйдёт в отставку"
