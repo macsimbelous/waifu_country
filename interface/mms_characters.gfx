@@ -343,6 +343,14 @@ spriteTypes = {
 		name = "GFX_portrait_mms_asmodeus"
 		texturefile = "gfx/leaders/MMS/asmodeus.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_drippler"
+		texturefile = "gfx/leaders/MMS/drippler_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_drippler"
+		texturefile = "gfx/leaders/MMS/drippler.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01"
@@ -429,6 +437,22 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/generic/mms_land_21.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_mms_land_22"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_22.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_23"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_23.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_24"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_24.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_25"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_25.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_mms_naval_01"
 		texturefile = "gfx/leaders/MMS/generic/mms_naval_01.dds"
 	}
@@ -477,6 +501,18 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/generic/mms_naval_12.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_mms_naval_13"
+		texturefile = "gfx/leaders/MMS/generic/mms_naval_13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_naval_14"
+		texturefile = "gfx/leaders/MMS/generic/mms_naval_14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_naval_15"
+		texturefile = "gfx/leaders/MMS/generic/mms_naval_15.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_mms_operative_01"
 		texturefile = "gfx/leaders/MMS/generic/mms_operative_01.dds"
 	}
@@ -503,5 +539,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_mms_operative_07"
 		texturefile = "gfx/leaders/MMS/generic/mms_operative_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_08"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_09"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_10"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_10.dds"
 	}
 }

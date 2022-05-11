@@ -1574,11 +1574,6 @@ mah_make_friends_with_shamiko_category = {
 		available = {
 			neutrality > 0.3
 			MMS = {
-				has_country_leader = {
-					character = MMS_yuuko_yoshida
-					ruling_only = yes
-					#name = "Yuuko Yoshida"
-				}
 				neutrality > 0.3
 			}
 		}

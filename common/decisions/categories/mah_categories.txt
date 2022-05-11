@@ -19,13 +19,17 @@ mah_make_friends_with_shamiko_category = {
 		original_tag = MAH
 	}
 	visible = {
+		has_country_leader = {
+			character = MAH_Momo_Chiyoda
+			ruling_only = yes
+			#name = "Yuuko Yoshida"
+		}
 		MMS = {
 			has_country_leader = {
 				character = MMS_yuuko_yoshida
 				ruling_only = yes
 				#name = "Yuuko Yoshida"
 			}
-			neutrality > 0.3
 		}
 	}
 }

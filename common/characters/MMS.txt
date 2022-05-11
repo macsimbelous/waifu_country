@@ -158,6 +158,28 @@ characters = {
 			id = -1
 		}
 	}
+	#lider 2
+	MMS_drippler = {
+		name = MMS_drippler
+		portraits = {
+			army = {
+				small = GFX_idea_mms_drippler
+				large = GFX_portrait_mms_drippler
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
 	#marshal
 	MMS_fino_bloodstone = {
 		name = MMS_fino_bloodstone
