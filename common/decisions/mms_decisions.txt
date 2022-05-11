@@ -135,9 +135,10 @@ mms_workouts_shamiko_category = {
 		fire_only_once = yes
 		complete_effect = {
 			remove_country_leader_trait = defeatist
-			add_country_leader_trait = wfc_empress
+			remove_country_leader_trait = wfc_defender
+			#add_country_leader_trait = wfc_empress
 			#add_country_leader_trait = warmonger
-			#add_country_leader_trait = wfc_Tyan_militarist
+			add_country_leader_trait = wfc_Tyan_militarist
 			divide_variable = {
 				mms_shamiko_attack = 100
 			}
@@ -613,6 +614,47 @@ political_actions = {
 						wfc_monster
 						wfc_revolutionary
 						wfc_patron_of_the_military_industrial_complex
+						wfc_demon_lord
+					}
+				}
+			}
+		}
+	}
+	mms_retire_yuuko_yoshida = {
+		allowed = {
+			original_tag = MMS
+		}
+		visible = {
+			has_government = neutrality
+		}
+		available = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			neutrality > 0.8
+			has_stability > 0.8
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			remove_country_leader_role = {
+				character = MMS_yuuko_yoshida
+				ideology = despotism
+			}
+			add_country_leader_role = {
+				character = MMS_suu
+				promote_leader = yes
+				country_leader = {
+					ideology = despotism
+					expire = "1965.1.1.1"
+					traits = {
+						wfc_monster
+						wfc_Tyan_militarist
+						wfc_patron_of_intelligence
 						wfc_demon_lord
 					}
 				}

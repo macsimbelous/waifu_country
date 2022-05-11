@@ -218,6 +218,25 @@ characters = {
 			}
 		}
 	}
+	MMS_suu = {
+		name = MMS_suu
+		portraits = {
+			army = {
+				small = GFX_idea_mms_suu
+				large = GFX_portrait_mms_suu
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	#marshal
 	MMS_fino_bloodstone = {
 		name = MMS_fino_bloodstone

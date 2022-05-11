@@ -351,6 +351,14 @@ spriteTypes = {
 		name = "GFX_portrait_mms_drippler"
 		texturefile = "gfx/leaders/MMS/drippler.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_suu"
+		texturefile = "gfx/leaders/MMS/suu_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_suu"
+		texturefile = "gfx/leaders/MMS/suu.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01"
