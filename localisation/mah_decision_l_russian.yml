@@ -25,6 +25,14 @@
  mah_integration_kuw_qat_uae_decision:0 "Интегрировать §Y[KUW.GetName]§!, §Y[QAT.GetName]§! и §Y[UAE.GetName]§!"
  mah_integration_egy_decision:0 "Интегрировать §Y[EGY.GetName]§!"
  mah_substantiate_claims_tt:0 "Притензии обоснованы"
+ mah_buy_out_aden_decision:0 "Выкупить §Y[659.GetName]§!"
+ mah_buy_out_kuwait_decision:0 "Выкупить §Y[656.GetName]§!"
+ mah_buy_out_qat_decision:0 "Выкупить §Y[765.GetName]§!"
+ mah_buy_out_uae_decision:0 "Выкупить §Y[658.GetName]§!"
+ mah_buy_out_egy_decision:0 "Выкупить §Y[EGY.GetName]§!"
+ mah_buy_out_cyp_decision:0 "Выкупить §Y[183.GetName]§!"
+ mah_conquest_of_cyp_decision:0 "Завоевать §Y[CYP.GetName]§!"
+
 #mah_make_friends_with_shamiko_category
 mah_make_friends_with_shamiko_category:0 "Подружится с Шамико"
 mah_make_friends_with_shamiko_decision:0 "Предложить дружбу Шамико"

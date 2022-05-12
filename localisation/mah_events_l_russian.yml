@@ -1,13 +1,60 @@
 ﻿l_russian:
 
 #mah_event.1
-mah_event.1.t:0 "Выкуп ближневосточных колоний!"
-mah_event.1.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас:\n§Y[656.GetName]§!\n§Y[765.GetName]§!\n§Y[658.GetName]§!\n§Y[659.GetName]§!\n§Y[EGY.GetName]§!"
-mah_event.1.a:0 "§RСогласится§!"
-mah_event.1.b:0 "§RОтказать§!"
+ mah_event.1.t:0 "Выкуп ближневосточных колоний!"
+ mah_event.1.d:0 "Государство §Y[MAH.GetName]§! хочет выкупить у нас:\n§Y[656.GetName]§!\n§Y[765.GetName]§!\n§Y[658.GetName]§!\n§Y[659.GetName]§!\n§Y[EGY.GetName]§!"
+ mah_event.1.a:0 "§RСогласится§!"
+ mah_event.1.b:0 "§RОтказать§!"
 #mah_event.2
-mah_event.2.t:0 "Предложение дружбы!"
-mah_event.2.d:0 "Государство [FROM.GetName] предлагает нам забыть былую вражду и подружится."
-mah_event.2.c:0 "Будем дружить."
-mah_event.2.e:0 "Никакой дружбы с §Y[FROM.GetName]§!."
+ mah_event.2.t:0 "Предложение дружбы!"
+ mah_event.2.d:0 "Государство [FROM.GetName] предлагает нам забыть былую вражду и подружится."
+ mah_event.2.c:0 "Будем дружить."
+ mah_event.2.e:0 "Никакой дружбы с §Y[FROM.GetName]§!."
+
+#mah_event.3
+ mah_event.3.t:0 "Предложение о выкупе Кувейта."
+ mah_event.3.d:0 "[MAH.GetName] жулает выкупить [656.GetName]."
+ mah_event.3.c:0 "Согласиться"
+ mah_event.3.e:0 "Отказать"
+
+#mah_event.4
+ mah_event.4.t:0 "Предложение о выкупе Катара."
+ mah_event.4.d:0 "[MAH.GetName] жулает выкупить [765.GetName]."
+ mah_event.4.c:0 "Согласиться"
+ mah_event.4.e:0 "Отказать"
+
+#mah_event.5
+ mah_event.5.t:0 "Предложение о выкупе Объединённых арабских эмиратов."
+ mah_event.5.d:0 "[MAH.GetName] жулает выкупить [658.GetName]."
+ mah_event.5.c:0 "Согласиться"
+ mah_event.5.e:0 "Отказать"
+
+#mah_event.6
+ mah_event.6.t:0 "Предложение о выкупе Адена."
+ mah_event.6.d:0 "[MAH.GetName] жулает выкупить [659.GetName]."
+ mah_event.6.c:0 "Согласиться"
+ mah_event.6.e:0 "Отказать"
+
+#mah_event.7
+ mah_event.7.t:0 "Предложение о выкупе Египта."
+ mah_event.7.d:0 "[MAH.GetName] жулает выкупить [EGY.GetName]."
+ mah_event.7.c:0 "Согласиться"
+ mah_event.7.e:0 "Отказать"
+
+#mah_event.8
+ mah_event.8.t:0 "Предложение о выкупе Кипра."
+ mah_event.8.d:0 "[MAH.GetName] жулает выкупить [183.GetName]."
+ mah_event.8.c:0 "Согласиться"
+ mah_event.8.e:0 "Отказать"
+
+#mah_event.9
+ mah_event.9.t:0 "Соглашение достигнуто!"
+ mah_event.9.d:0 "После долгих переговоров [FROM.GetName] согласилось продать нам эти територии."
+ mah_event.9.a:0 "Миленько"
+
+#mah_event.10
+ mah_event.10.t:0 "Провал переговоров!"
+ mah_event.10.d:0 "Усилия наших дипломатов были тщетны [FROM.GetName] не согласилось продать нам эти територии."
+ mah_event.10.a:0 "Предпримем ешё одну попытку"
+ mah_event.10.b:0 "Они пожалеют об этом"
 

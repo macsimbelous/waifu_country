@@ -120,3 +120,433 @@ country_event = {
 		name = mah_event.2.e
 	}
 }
+
+country_event = {
+	id = mah_event.3
+	title = mah_event.3.t
+	desc = mah_event.3.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.1.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				has_government = neutrality
+				add = 100
+			}
+			modifier = {
+				has_government = democratic
+				MAH = {
+					has_government = democratic
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = fascism
+				MAH = {
+					has_government = fascism
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = communism
+				MAH = {
+					has_government = communism
+				}
+				add = 100
+			}
+		}
+		add_political_power = 300
+		MAH = {
+			transfer_state = 656
+			country_event = mah_event.9
+		}
+	}
+	option = {
+		name = mah_event.1.b
+		ai_chance = {
+			base = 1
+		}
+		MAH = {
+			# create_wargoal = {
+			# 	target = PREV
+			# 	type = take_claimed_state
+			# }
+			hidden_effect = {
+				add_state_claim = 656
+			}
+			country_event = mah_event.10
+		}
+	}
+}
+
+country_event = {
+	id = mah_event.4
+	title = mah_event.4.t
+	desc = mah_event.4.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.1.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				has_government = neutrality
+				add = 100
+			}
+			modifier = {
+				has_government = democratic
+				MAH = {
+					has_government = democratic
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = fascism
+				MAH = {
+					has_government = fascism
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = communism
+				MAH = {
+					has_government = communism
+				}
+				add = 100
+			}
+		}
+		add_political_power = 300
+		MAH = {
+			transfer_state = 765
+			country_event = mah_event.9
+		}
+	}
+	option = {
+		name = mah_event.1.b
+		ai_chance = {
+			base = 1
+		}
+		MAH = {
+			# create_wargoal = {
+			# 	target = PREV
+			# 	type = take_claimed_state
+			# }
+			hidden_effect = {
+				add_state_claim = 765
+			}
+			country_event = mah_event.10
+		}
+	}
+}
+
+country_event = {
+	id = mah_event.5
+	title = mah_event.5.t
+	desc = mah_event.5.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.1.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				has_government = neutrality
+				add = 100
+			}
+			modifier = {
+				has_government = democratic
+				MAH = {
+					has_government = democratic
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = fascism
+				MAH = {
+					has_government = fascism
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = communism
+				MAH = {
+					has_government = communism
+				}
+				add = 100
+			}
+		}
+		add_political_power = 300
+		MAH = {
+			transfer_state = 658
+			country_event = mah_event.9
+		}
+	}
+	option = {
+		name = mah_event.1.b
+		ai_chance = {
+			base = 1
+		}
+		MAH = {
+			# create_wargoal = {
+			# 	target = PREV
+			# 	type = take_claimed_state
+			# }
+			hidden_effect = {
+				add_state_claim = 658
+			}
+			country_event = mah_event.10
+		}
+	}
+}
+
+country_event = {
+	id = mah_event.6
+	title = mah_event.6.t
+	desc = mah_event.6.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.1.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				has_government = neutrality
+				add = 100
+			}
+			modifier = {
+				has_government = democratic
+				MAH = {
+					has_government = democratic
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = fascism
+				MAH = {
+					has_government = fascism
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = communism
+				MAH = {
+					has_government = communism
+				}
+				add = 100
+			}
+		}
+		add_political_power = 300
+		MAH = {
+			transfer_state = 659
+			country_event = mah_event.9
+		}
+	}
+	option = {
+		name = mah_event.1.b
+		ai_chance = {
+			base = 1
+		}
+		MAH = {
+			# create_wargoal = {
+			# 	target = PREV
+			# 	type = take_claimed_state
+			# }
+			hidden_effect = {
+				add_state_claim = 659
+			}
+			country_event = mah_event.10
+		}
+	}
+}
+
+country_event = {
+	id = mah_event.7
+	title = mah_event.7.t
+	desc = mah_event.7.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.1.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				has_government = neutrality
+				add = 100
+			}
+			modifier = {
+				has_government = democratic
+				MAH = {
+					has_government = democratic
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = fascism
+				MAH = {
+					has_government = fascism
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = communism
+				MAH = {
+					has_government = communism
+				}
+				add = 100
+			}
+		}
+		add_political_power = 300
+		EGY = {
+			transfer_state = 452
+			transfer_state = 552
+			transfer_state = 447
+			transfer_state = 446
+			transfer_state = 456
+			transfer_state = 457
+			transfer_state = 453
+		}
+		MAH = {
+			set_autonomy = {
+				target = EGY
+				#autonomy_state = autonomy_federation_subject
+				autonomy_state = autonomy_dominion
+			}
+			country_event = mah_event.9
+		}
+	}
+	option = {
+		name = mah_event.1.b
+		ai_chance = {
+			base = 1
+		}
+		MAH = {
+			# create_wargoal = {
+			# 	target = PREV
+			# 	type = take_claimed_state
+			# }
+			hidden_effect = {
+				add_state_claim = 452
+				add_state_claim = 552
+				add_state_claim = 447
+				add_state_claim = 446
+				add_state_claim = 456
+				add_state_claim = 457
+				add_state_claim = 453
+			}
+			country_event = mah_event.10
+		}
+	}
+}
+
+country_event = {
+	id = mah_event.8
+	title = mah_event.8.t
+	desc = mah_event.8.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.1.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				has_government = neutrality
+				add = 100
+			}
+			modifier = {
+				has_government = democratic
+				MAH = {
+					has_government = democratic
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = fascism
+				MAH = {
+					has_government = fascism
+				}
+				add = 100
+			}
+			modifier = {
+				has_government = communism
+				MAH = {
+					has_government = communism
+				}
+				add = 100
+			}
+		}
+		add_political_power = 300
+		MAH = {
+			transfer_state = 183
+			country_event = mah_event.9
+		}
+	}
+	option = {
+		name = mah_event.1.b
+		ai_chance = {
+			base = 1
+		}
+		MAH = {
+			# create_wargoal = {
+			# 	target = PREV
+			# 	type = take_claimed_state
+			# }
+			hidden_effect = {
+				add_state_claim = 183
+			}
+			country_event = mah_event.10
+		}
+	}
+}
+
+country_event = {
+	id = mah_event.9
+	title = mah_event.9.t
+	desc = mah_event.9.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.9.a
+	}
+}
+
+country_event = {
+	id = mah_event.10
+	title = mah_event.10.t
+	desc = mah_event.10.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.10.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				has_government = neutrality
+				add = 100
+			}
+			modifier = {
+				has_government = democratic
+				add = 100
+			}
+		}
+	}
+	option = {
+		name = mah_event.10.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				has_government = fascism
+				add = 100
+			}
+			modifier = {
+				has_government = communism
+				add = 100
+			}
+		}
+		create_wargoal = {
+			target = FROM
+			type = take_claimed_state
+		}
+	}
+}

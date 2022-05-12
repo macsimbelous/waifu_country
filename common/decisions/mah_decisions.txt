@@ -69,6 +69,7 @@ mah_crystal_empire_category = {
 			controls_state = 293
 			controls_state = 659
 			controls_state = 294
+			controls_state = 183
 		}
 		ai_will_do = {
 			factor = 10
@@ -255,6 +256,9 @@ mah_crystal_empire_category = {
 				#add_core_of = ROOT
 				wfc_coring_state = yes
 			}
+			183 = {
+				wfc_coring_state = yes
+			}
 			hidden_effect = {
 				transfer_state = 797
 				transfer_state = 341
@@ -295,6 +299,7 @@ mah_crystal_empire_category = {
 				transfer_state = 293
 				transfer_state = 659
 				transfer_state = 294
+				transfer_state = 183
 			}
 		}
 	}
@@ -386,7 +391,9 @@ mah_crystal_empire_category = {
 				controls_state = 679
 				controls_state = 678
 			}
-			NOT = { is_in_faction_with = TUR }
+			NOT = {
+				is_in_faction_with = TUR
+			}
 		}
 		ai_will_do = {
 			factor = 2
@@ -429,7 +436,9 @@ mah_crystal_empire_category = {
 				tooltip = mah_substantiate_claims_tt
 				has_country_flag = mah_substantiate_claims_flag
 			}
-			NOT = { is_in_faction_with = IRQ }
+			NOT = {
+				is_in_faction_with = IRQ
+			}
 		}
 		ai_will_do = {
 			factor = 2
@@ -487,7 +496,9 @@ mah_crystal_empire_category = {
 					}
 				}
 			}
-			NOT = { is_in_faction_with = SAU }
+			NOT = {
+				is_in_faction_with = SAU
+			}
 		}
 		ai_will_do = {
 			factor = 2
@@ -545,7 +556,9 @@ mah_crystal_empire_category = {
 					}
 				}
 			}
-			NOT = { is_in_faction_with = OMA }
+			NOT = {
+				is_in_faction_with = OMA
+			}
 		}
 		ai_will_do = {
 			factor = 3
@@ -563,6 +576,42 @@ mah_crystal_empire_category = {
 			create_wargoal = {
 				target = OMA
 				type = annex_everything
+			}
+		}
+	}
+	mah_buy_out_aden_decision = {
+		cost = 300
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			NOT = {
+				controls_state = 659
+			}
+		}
+		available = {
+			659 = {
+				NOT = {
+					is_core_of = OWNER
+				}
+				any_neighbor_state = {
+					OWNER = {
+						OR = {
+							original_tag = MAH
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			659 = {
+				OWNER = {
+					country_event = mah_event.6
+				}
 			}
 		}
 	}
@@ -604,7 +653,9 @@ mah_crystal_empire_category = {
 					}
 				}
 			}
-			NOT = { is_in_faction_with = YEM }
+			NOT = {
+				is_in_faction_with = YEM
+			}
 		}
 		ai_will_do = {
 			factor = 3
@@ -628,6 +679,9 @@ mah_crystal_empire_category = {
 	mah_british_colonies_in_the_middle_east_decision = {
 		cost = 100
 		fire_only_once = yes
+		allowed = {
+			always = no
+		}
 		available = {
 			NOT = {
 				has_war_with = ENG
@@ -689,6 +743,42 @@ mah_crystal_empire_category = {
 			}
 		}
 	}
+	mah_buy_out_kuwait_decision = {
+		cost = 300
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			NOT = {
+				controls_state = 656
+			}
+		}
+		available = {
+			656 = {
+				NOT = {
+					is_core_of = OWNER
+				}
+				any_neighbor_state = {
+					OWNER = {
+						OR = {
+							original_tag = MAH
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			656 = {
+				OWNER = {
+					country_event = mah_event.3
+				}
+			}
+		}
+	}
 	mah_conquest_of_kuw_decision = {
 		icon = generic_ignite_civil_war
 		cost = 100
@@ -743,7 +833,9 @@ mah_crystal_empire_category = {
 					}
 				}
 			}
-			NOT = { is_in_faction_with = KUW }
+			NOT = {
+				is_in_faction_with = KUW
+			}
 		}
 		ai_will_do = {
 			factor = 2
@@ -761,6 +853,42 @@ mah_crystal_empire_category = {
 			create_wargoal = {
 				target = KUW
 				type = annex_everything
+			}
+		}
+	}
+	mah_buy_out_qat_decision = {
+		cost = 300
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			NOT = {
+				controls_state = 765
+			}
+		}
+		available = {
+			765 = {
+				NOT = {
+					is_core_of = OWNER
+				}
+				any_neighbor_state = {
+					OWNER = {
+						OR = {
+							original_tag = MAH
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			765 = {
+				OWNER = {
+					country_event = mah_event.4
+				}
 			}
 		}
 	}
@@ -801,7 +929,9 @@ mah_crystal_empire_category = {
 					}
 				}
 			}
-			NOT = { is_in_faction_with = QAT }
+			NOT = {
+				is_in_faction_with = QAT
+			}
 		}
 		ai_will_do = {
 			factor = 2
@@ -819,6 +949,42 @@ mah_crystal_empire_category = {
 			create_wargoal = {
 				target = QAT
 				type = annex_everything
+			}
+		}
+	}
+	mah_buy_out_uae_decision = {
+		cost = 300
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			NOT = {
+				controls_state = 658
+			}
+		}
+		available = {
+			658 = {
+				NOT = {
+					is_core_of = OWNER
+				}
+				any_neighbor_state = {
+					OWNER = {
+						OR = {
+							original_tag = MAH
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			658 = {
+				OWNER = {
+					country_event = mah_event.5
+				}
 			}
 		}
 	}
@@ -859,7 +1025,9 @@ mah_crystal_empire_category = {
 					}
 				}
 			}
-			NOT = { is_in_faction_with = UAE }
+			NOT = {
+				is_in_faction_with = UAE
+			}
 		}
 		ai_will_do = {
 			factor = 2
@@ -877,6 +1045,42 @@ mah_crystal_empire_category = {
 			create_wargoal = {
 				target = UAE
 				type = annex_everything
+			}
+		}
+	}
+	mah_buy_out_egy_decision = {
+		cost = 300
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			NOT = {
+				# Egypt
+				custom_trigger_tooltip = {
+					tooltip = mah_form_crystal_empire_egypt_required_states_tt
+					controls_state = 452
+					controls_state = 447
+					controls_state = 446
+					controls_state = 456
+					controls_state = 457
+					controls_state = 453
+				}
+			}
+		}
+		available = {
+			446 = {
+				NOT = {
+					is_core_of = OWNER
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			446 = {
+				OWNER = {
+					country_event = mah_event.7
+				}
 			}
 		}
 	}
@@ -906,7 +1110,9 @@ mah_crystal_empire_category = {
 			has_equipment = {
 				infantry_equipment > 24999
 			}
-			NOT = { is_in_faction_with = EGY }
+			NOT = {
+				is_in_faction_with = EGY
+			}
 		}
 		ai_will_do = {
 			factor = 2
@@ -923,6 +1129,78 @@ mah_crystal_empire_category = {
 		remove_effect = {
 			create_wargoal = {
 				target = EGY
+				type = annex_everything
+			}
+		}
+	}
+	mah_buy_out_cyp_decision = {
+		cost = 300
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			NOT = {
+				controls_state = 183
+			}
+		}
+		available = {
+			183 = {
+				NOT = {
+					is_core_of = OWNER
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			183 = {
+				OWNER = {
+					country_event = mah_event.8
+				}
+			}
+		}
+	}
+	mah_conquest_of_cyp_decision = {
+		icon = generic_ignite_civil_war
+		cost = 100
+		fire_only_once = yes
+		days_remove = 30
+		war_with_on_remove = CYP
+		visible = {
+			country_exists = CYP
+			CYP = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mah_substantiate_claims_tt
+				has_country_flag = mah_substantiate_claims_flag
+			}
+			NOT = {
+				is_in_faction_with = CYP
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = CYP
 				type = annex_everything
 			}
 		}

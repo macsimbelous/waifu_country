@@ -10,4 +10,49 @@ mah_event.2.d:0 "The state [FROM.GetName] invites us to forget the former enmity
 mah_event.2.c:0 "Let's be friends."
 mah_event.2.e:0 "No friendship with §Y[FROM.GetName]§!!"
 
+#mah_event.3
+ mah_event.3.t:0 ""
+ mah_event.3.d:0 ""
+ mah_event.3.c:0 ""
+ mah_event.3.e:0 ""
 
+#mah_event.4
+ mah_event.4.t:0 ""
+ mah_event.4.d:0 ""
+ mah_event.4.c:0 ""
+ mah_event.4.e:0 ""
+
+#mah_event.5
+ mah_event.5.t:0 ""
+ mah_event.5.d:0 ""
+ mah_event.5.c:0 ""
+ mah_event.5.e:0 ""
+
+#mah_event.6
+ mah_event.6.t:0 ""
+ mah_event.6.d:0 ""
+ mah_event.6.c:0 ""
+ mah_event.6.e:0 ""
+
+#mah_event.7
+ mah_event.7.t:0 ""
+ mah_event.7.d:0 ""
+ mah_event.7.c:0 ""
+ mah_event.7.e:0 ""
+
+#mah_event.8
+ mah_event.8.t:0 ""
+ mah_event.8.d:0 ""
+ mah_event.8.c:0 ""
+ mah_event.8.e:0 ""
+
+#mah_event.9
+ mah_event.9.t:0 "Соглашение достигнуто!"
+ mah_event.9.d:0 "После долгих переговоров [FROM.GetName] согласилось продать нам эти територии."
+ mah_event.9.a:0 "Миленько"
+
+#mah_event.10
+ mah_event.10.t:0 "Провал переговоров!"
+ mah_event.10.d:0 "Усилия наших дипломатов были тщетны [FROM.GetName] не согласилось продать нам эти територии."
+ mah_event.10.a:0 "Предпримем ешё одну попытку"
+ mah_event.10.b:0 "Они пожалеют об этом"
