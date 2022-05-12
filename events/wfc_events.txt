@@ -285,12 +285,18 @@ country_event = {
 			original_tag = MEH
 		}
 	}
-	option = {
-		name = wfc_event.4.a
+	immediate = {
 		add_timed_idea = {
 			idea = democratic_influence
 			days = 720
 		}
+	}
+	option = {
+		name = wfc_event.4.a
+		# add_timed_idea = {
+		# 	idea = democratic_influence
+		# 	days = 720
+		# }
 		ai_chance = {
 			base = 100
 		}
@@ -302,6 +308,7 @@ country_event = {
 	desc = wfc_event.5.d
 	picture = GFX_report_event_generic_sign_treaty3
 	fire_only_once = yes
+	hidden = yes
 	trigger = {
 		#is_ai = yes
 		has_completed_focus = neutrality_focus
@@ -314,12 +321,18 @@ country_event = {
 			original_tag = MEH
 		}
 	}
-	option = {
-		name = wfc_event.5.a
+	immediate = {
 		add_timed_idea = {
-			idea = neutrality_influence
+			idea = democratic_influence
 			days = 720
 		}
+	}
+	option = {
+		name = wfc_event.5.a
+		# add_timed_idea = {
+		# 	idea = neutrality_influence
+		# 	days = 720
+		# }
 		ai_chance = {
 			base = 100
 		}
