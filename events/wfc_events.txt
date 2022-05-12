@@ -267,3 +267,61 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = wfc_event.4
+	title = wfc_event.4.t
+	desc = wfc_event.4.d
+	picture = GFX_report_event_generic_sign_treaty3
+	fire_only_once = yes
+	trigger = {
+		is_ai = yes
+		has_completed_focus = interventionism_focus
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MMS
+			original_tag = MEH
+		}
+	}
+	option = {
+		name = wfc_event.4.a
+		add_timed_idea = {
+			idea = democratic_influence
+			days = 720
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {
+	id = wfc_event.5
+	title = wfc_event.5.t
+	desc = wfc_event.5.d
+	picture = GFX_report_event_generic_sign_treaty3
+	fire_only_once = yes
+	trigger = {
+		is_ai = yes
+		has_completed_focus = neutrality_focus
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MMS
+			original_tag = MEH
+		}
+	}
+	option = {
+		name = wfc_event.5.a
+		add_timed_idea = {
+			idea = neutrality_influence
+			days = 720
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
