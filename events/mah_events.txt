@@ -166,6 +166,7 @@ country_event = {
 		}
 		add_political_power = 300
 		MAH = {
+			add_political_power = -300
 			transfer_state = 656
 			country_event = mah_event.9
 		}
@@ -233,6 +234,7 @@ country_event = {
 		}
 		add_political_power = 300
 		MAH = {
+			add_political_power = -300
 			transfer_state = 765
 			country_event = mah_event.9
 		}
@@ -300,6 +302,7 @@ country_event = {
 		}
 		add_political_power = 300
 		MAH = {
+			add_political_power = -300
 			transfer_state = 658
 			country_event = mah_event.9
 		}
@@ -367,6 +370,7 @@ country_event = {
 		}
 		add_political_power = 300
 		MAH = {
+			add_political_power = -300
 			transfer_state = 659
 			country_event = mah_event.9
 		}
@@ -443,6 +447,7 @@ country_event = {
 			transfer_state = 453
 		}
 		MAH = {
+			add_political_power = -300
 			set_autonomy = {
 				target = EGY
 				#autonomy_state = autonomy_federation_subject
@@ -520,6 +525,7 @@ country_event = {
 		}
 		add_political_power = 300
 		MAH = {
+			add_political_power = -300
 			transfer_state = 183
 			country_event = mah_event.9
 		}
