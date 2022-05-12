@@ -35,6 +35,15 @@ on_actions = {
 				set_variable = {
 					wfc_subsidies_count = 0
 				}
+				if = {
+					limit = {
+						is_historical_focus_on = yes
+					}
+					add_timed_idea = {
+						idea = neutrality_influence
+						days = 720
+					}
+				}
 			}
 			HEN = {
 				set_variable = {
@@ -104,6 +113,15 @@ on_actions = {
 				}
 				set_variable = {
 					wfc_subsidies_count = 0
+				}
+				if = {
+					limit = {
+						is_historical_focus_on = yes
+					}
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 720
+					}
 				}
 			}
 			MEH = {
@@ -193,6 +211,15 @@ on_actions = {
 				}
 				set_variable = {
 					mms_shamiko_workouts_count = 0
+				}
+				if = {
+					limit = {
+						is_historical_focus_on = yes
+					}
+					add_timed_idea = {
+						idea = neutrality_influence
+						days = 720
+					}
 				}
 			}
 			TRP = {
