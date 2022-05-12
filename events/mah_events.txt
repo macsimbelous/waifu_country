@@ -133,28 +133,35 @@ country_event = {
 			base = 0
 			modifier = {
 				has_government = neutrality
-				add = 100
+				add = 4
 			}
 			modifier = {
 				has_government = democratic
 				MAH = {
 					has_government = democratic
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = fascism
 				MAH = {
 					has_government = fascism
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = communism
 				MAH = {
 					has_government = communism
 				}
-				add = 100
+				add = 6
+			}
+			modifier = {
+				has_opinion = {
+					target = MAH
+					value > 49
+				}
+				add = 6
 			}
 		}
 		add_political_power = 300
@@ -166,7 +173,7 @@ country_event = {
 	option = {
 		name = mah_event.1.b
 		ai_chance = {
-			base = 1
+			base = 4
 		}
 		MAH = {
 			# create_wargoal = {
@@ -193,28 +200,35 @@ country_event = {
 			base = 0
 			modifier = {
 				has_government = neutrality
-				add = 100
+				add = 4
 			}
 			modifier = {
 				has_government = democratic
 				MAH = {
 					has_government = democratic
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = fascism
 				MAH = {
 					has_government = fascism
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = communism
 				MAH = {
 					has_government = communism
 				}
-				add = 100
+				add = 6
+			}
+			modifier = {
+				has_opinion = {
+					target = MAH
+					value > 49
+				}
+				add = 6
 			}
 		}
 		add_political_power = 300
@@ -226,7 +240,7 @@ country_event = {
 	option = {
 		name = mah_event.1.b
 		ai_chance = {
-			base = 1
+			base = 4
 		}
 		MAH = {
 			# create_wargoal = {
@@ -253,28 +267,35 @@ country_event = {
 			base = 0
 			modifier = {
 				has_government = neutrality
-				add = 100
+				add = 4
 			}
 			modifier = {
 				has_government = democratic
 				MAH = {
 					has_government = democratic
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = fascism
 				MAH = {
 					has_government = fascism
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = communism
 				MAH = {
 					has_government = communism
 				}
-				add = 100
+				add = 6
+			}
+			modifier = {
+				has_opinion = {
+					target = MAH
+					value > 49
+				}
+				add = 6
 			}
 		}
 		add_political_power = 300
@@ -286,7 +307,7 @@ country_event = {
 	option = {
 		name = mah_event.1.b
 		ai_chance = {
-			base = 1
+			base = 4
 		}
 		MAH = {
 			# create_wargoal = {
@@ -313,28 +334,35 @@ country_event = {
 			base = 0
 			modifier = {
 				has_government = neutrality
-				add = 100
+				add = 4
 			}
 			modifier = {
 				has_government = democratic
 				MAH = {
 					has_government = democratic
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = fascism
 				MAH = {
 					has_government = fascism
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = communism
 				MAH = {
 					has_government = communism
 				}
-				add = 100
+				add = 6
+			}
+			modifier = {
+				has_opinion = {
+					target = MAH
+					value > 49
+				}
+				add = 6
 			}
 		}
 		add_political_power = 300
@@ -346,7 +374,7 @@ country_event = {
 	option = {
 		name = mah_event.1.b
 		ai_chance = {
-			base = 1
+			base = 4
 		}
 		MAH = {
 			# create_wargoal = {
@@ -373,28 +401,35 @@ country_event = {
 			base = 0
 			modifier = {
 				has_government = neutrality
-				add = 100
+				add = 4
 			}
 			modifier = {
 				has_government = democratic
 				MAH = {
 					has_government = democratic
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = fascism
 				MAH = {
 					has_government = fascism
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = communism
 				MAH = {
 					has_government = communism
 				}
-				add = 100
+				add = 6
+			}
+			modifier = {
+				has_opinion = {
+					target = MAH
+					value > 49
+				}
+				add = 6
 			}
 		}
 		add_political_power = 300
@@ -419,7 +454,7 @@ country_event = {
 	option = {
 		name = mah_event.1.b
 		ai_chance = {
-			base = 1
+			base = 4
 		}
 		MAH = {
 			# create_wargoal = {
@@ -452,28 +487,35 @@ country_event = {
 			base = 0
 			modifier = {
 				has_government = neutrality
-				add = 100
+				add = 4
 			}
 			modifier = {
 				has_government = democratic
 				MAH = {
 					has_government = democratic
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = fascism
 				MAH = {
 					has_government = fascism
 				}
-				add = 100
+				add = 6
 			}
 			modifier = {
 				has_government = communism
 				MAH = {
 					has_government = communism
 				}
-				add = 100
+				add = 6
+			}
+			modifier = {
+				has_opinion = {
+					target = MAH
+					value > 49
+				}
+				add = 6
 			}
 		}
 		add_political_power = 300
@@ -485,7 +527,7 @@ country_event = {
 	option = {
 		name = mah_event.1.b
 		ai_chance = {
-			base = 1
+			base = 4
 		}
 		MAH = {
 			# create_wargoal = {

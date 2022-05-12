@@ -1006,11 +1006,54 @@ acw_puppets_category = {
 			political_power_gain = -1
 		}
 		remove_effect = {
-			set_autonomy = {
-				target = FROM
-				#autonomy_state = autonomy_federation_subject
-				autonomy_state = autonomy_dominion
+			random_list = {
+				60 = {
+					set_autonomy = {
+						target = FROM
+						#autonomy_state = autonomy_federation_subject
+						autonomy_state = autonomy_dominion
+					}
+					add_named_threat = {
+						threat = 5
+						name = wfc_create_puppet_threat
+					}
+				}
+				40 = {
+					modifier = {
+						factor = 0
+						FROM = {
+							has_government = fascism
+						}
+					}
+					FROM = {
+						create_wargoal = {
+							target = ROOT
+							type = puppet_wargoal_focus
+						}
+					}
+				}
+				40 = {
+					modifier = {
+						factor = 0
+						FROM = {
+							NOT = {
+								has_government = fascism
+							}
+						}
+					}
+					FROM = {
+						declare_war_on = {
+							target = ROOT
+							type = annex_everything
+						}
+					}
+				}
 			}
+			# set_autonomy = {
+			# 	target = FROM
+			# 	#autonomy_state = autonomy_federation_subject
+			# 	autonomy_state = autonomy_dominion
+			# }
 			#puppet = FROM
 			# FROM = {
 			# 	add_ideas = {
@@ -1061,10 +1104,10 @@ acw_puppets_category = {
 			# 		}
 			# 	}
 			# }
-			add_named_threat = {
-				threat = 5
-				name = acw_create_puppet_threat
-			}
+			# add_named_threat = {
+			# 	threat = 5
+			# 	name = acw_create_puppet_threat
+			# }
 		}
 	}
 }

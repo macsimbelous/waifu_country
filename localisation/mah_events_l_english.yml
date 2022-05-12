@@ -11,48 +11,48 @@ mah_event.2.c:0 "Let's be friends."
 mah_event.2.e:0 "No friendship with §Y[FROM.GetName]§!!"
 
 #mah_event.3
- mah_event.3.t:0 ""
- mah_event.3.d:0 ""
- mah_event.3.c:0 ""
- mah_event.3.e:0 ""
+ mah_event.3.t:0 "Offer to buy Kuwait."
+ mah_event.3.d:0 "[MAH.GetName] wishes to redeem [656.GetName]."
+ mah_event.3.c:0 "Agree"
+ mah_event.3.e:0 "Refuse"
 
 #mah_event.4
- mah_event.4.t:0 ""
- mah_event.4.d:0 ""
- mah_event.4.c:0 ""
- mah_event.4.e:0 ""
+ mah_event.4.t:0 "Offer to buy Qatar."
+ mah_event.4.d:0 "[MAH.GetName] wishes to redeem [765.GetName]."
+ mah_event.4.c:0 "Agree"
+ mah_event.4.e:0 "Refuse"
 
 #mah_event.5
- mah_event.5.t:0 ""
- mah_event.5.d:0 ""
- mah_event.5.c:0 ""
- mah_event.5.e:0 ""
+ mah_event.5.t:0 "Offer to buy out the United Arab Emirates."
+ mah_event.5.d:0 "[MAH.GetName] wishes to redeem [658.GetName]."
+ mah_event.5.c:0 "Agree"
+ mah_event.5.e:0 "Refuse"
 
 #mah_event.6
- mah_event.6.t:0 ""
- mah_event.6.d:0 ""
- mah_event.6.c:0 ""
- mah_event.6.e:0 ""
+ mah_event.6.t:0 "Offer to buy Aden."
+ mah_event.6.d:0 "[MAH.GetName] wishes to redeem [659.GetName]."
+ mah_event.6.c:0 "Agree"
+ mah_event.6.e:0 "Refuse"
 
 #mah_event.7
- mah_event.7.t:0 ""
- mah_event.7.d:0 ""
- mah_event.7.c:0 ""
- mah_event.7.e:0 ""
+ mah_event.7.t:0 "Offer to buy Egypt."
+ mah_event.7.d:0 "[MAH.GetName] wishes to redeem [EGY.GetName]."
+ mah_event.7.c:0 "Agree"
+ mah_event.7.e:0 "Refuse"
 
 #mah_event.8
- mah_event.8.t:0 ""
- mah_event.8.d:0 ""
- mah_event.8.c:0 ""
- mah_event.8.e:0 ""
+ mah_event.8.t:0 "Proposal for the redemption of Cyprus."
+ mah_event.8.d:0 "[MAH.GetName] wishes to redeem [183.GetName]."
+ mah_event.8.c:0 "Agree"
+ mah_event.8.e:0 "Refuse"
 
 #mah_event.9
- mah_event.9.t:0 "Соглашение достигнуто!"
- mah_event.9.d:0 "После долгих переговоров [FROM.GetName] согласилось продать нам эти територии."
- mah_event.9.a:0 "Миленько"
+ mah_event.9.t:0 "Agreement reached!"
+ mah_event.9.d:0 "After long negotiations, [FROM.GetName] agreed to sell us these territories."
+ mah_event.9.a:0 "Cute"
 
 #mah_event.10
- mah_event.10.t:0 "Провал переговоров!"
- mah_event.10.d:0 "Усилия наших дипломатов были тщетны [FROM.GetName] не согласилось продать нам эти територии."
- mah_event.10.a:0 "Предпримем ешё одну попытку"
- mah_event.10.b:0 "Они пожалеют об этом"
+ mah_event.10.t:0 "Failed negotiations!"
+ mah_event.10.d:0 "The efforts of our diplomats were in vain [FROM.GetName] did not agree to sell us these territories."
+ mah_event.10.a:0 "Let's make one more try"
+ mah_event.10.b:0 "They will regret it"

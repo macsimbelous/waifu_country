@@ -1205,6 +1205,61 @@ mah_crystal_empire_category = {
 			}
 		}
 	}
+	mah_integration_cyp_decision = {
+		cost = 100
+		fire_only_once = yes
+		days_remove = 60
+		visible = {
+			OR = {
+				controls_state = 183
+				CYP = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			if = {
+				limit = {
+					is_ai = no
+				}
+				controls_state = 183
+				# OR = {
+				# 	controls_state = 183
+				# 	CYP = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		modifier = {
+			civilian_factory_use = 3
+			political_power_gain = -0.5
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					CYP = {
+						is_puppet_of = ROOT
+					}
+				}
+				annex_country = {
+					target = CYP
+					transfer_troops = yes
+				}
+			}
+			183 = {
+				add_core_of = ROOT
+				remove_core_of = CYP
+			}
+		}
+	}
 	mah_integration_irq_decision = {
 		cost = 100
 		fire_only_once = yes
@@ -1232,18 +1287,25 @@ mah_crystal_empire_category = {
 				limit = {
 					is_ai = no
 				}
-				OR = {
-					# Iraq
-					custom_trigger_tooltip = {
-						tooltip = form_country_iraq_required_states_tt
-						controls_state = 676
-						controls_state = 675
-						controls_state = 291
-					}
-					IRQ = {
-						is_puppet_of = ROOT
-					}
+				# Iraq
+				custom_trigger_tooltip = {
+					tooltip = form_country_iraq_required_states_tt
+					controls_state = 676
+					controls_state = 675
+					controls_state = 291
 				}
+				# OR = {
+				# 	# Iraq
+				# 	custom_trigger_tooltip = {
+				# 		tooltip = form_country_iraq_required_states_tt
+				# 		controls_state = 676
+				# 		controls_state = 675
+				# 		controls_state = 291
+				# 	}
+				# 	IRQ = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
 			}
 		}
 		ai_will_do = {
@@ -1262,6 +1324,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = IRQ
+					transfer_troops = yes
 				}
 			}
 			676 = {
@@ -1324,36 +1387,61 @@ mah_crystal_empire_category = {
 				limit = {
 					is_ai = no
 				}
-				OR = {
-					# Turkey
-					custom_trigger_tooltip = {
-						tooltip = form_country_turkey_required_states_tt
-						controls_state = 797
-						controls_state = 341
-						controls_state = 340
-						controls_state = 339
-						controls_state = 342
-						controls_state = 343
-						controls_state = 347
-						controls_state = 49
-						controls_state = 798
-						controls_state = 346
-						controls_state = 345
-						controls_state = 356
-						controls_state = 348
-						controls_state = 344
-						controls_state = 355
-						controls_state = 349
-						controls_state = 350
-						controls_state = 354
-						controls_state = 353
-						controls_state = 352
-						controls_state = 800
-					}
-					TUR = {
-						is_puppet_of = ROOT
-					}
+				# Turkey
+				custom_trigger_tooltip = {
+					tooltip = form_country_turkey_required_states_tt
+					controls_state = 797
+					controls_state = 341
+					controls_state = 340
+					controls_state = 339
+					controls_state = 342
+					controls_state = 343
+					controls_state = 347
+					controls_state = 49
+					controls_state = 798
+					controls_state = 346
+					controls_state = 345
+					controls_state = 356
+					controls_state = 348
+					controls_state = 344
+					controls_state = 355
+					controls_state = 349
+					controls_state = 350
+					controls_state = 354
+					controls_state = 353
+					controls_state = 352
+					controls_state = 800
 				}
+				# OR = {
+				# 	# Turkey
+				# 	custom_trigger_tooltip = {
+				# 		tooltip = form_country_turkey_required_states_tt
+				# 		controls_state = 797
+				# 		controls_state = 341
+				# 		controls_state = 340
+				# 		controls_state = 339
+				# 		controls_state = 342
+				# 		controls_state = 343
+				# 		controls_state = 347
+				# 		controls_state = 49
+				# 		controls_state = 798
+				# 		controls_state = 346
+				# 		controls_state = 345
+				# 		controls_state = 356
+				# 		controls_state = 348
+				# 		controls_state = 344
+				# 		controls_state = 355
+				# 		controls_state = 349
+				# 		controls_state = 350
+				# 		controls_state = 354
+				# 		controls_state = 353
+				# 		controls_state = 352
+				# 		controls_state = 800
+				# 	}
+				# 	TUR = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
 			}
 		}
 		ai_will_do = {
@@ -1372,6 +1460,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = TUR
+					transfer_troops = yes
 				}
 			}
 			# Turkey
@@ -1495,18 +1584,25 @@ mah_crystal_empire_category = {
 				limit = {
 					is_ai = no
 				}
-				OR = {
-					# Saudi Arabia
-					custom_trigger_tooltip = {
-						tooltip = form_country_saudi_required_states_tt
-						controls_state = 292
-						controls_state = 679
-						controls_state = 678
-					}
-					SAU = {
-						is_puppet_of = ROOT
-					}
+				# Saudi Arabia
+				custom_trigger_tooltip = {
+					tooltip = form_country_saudi_required_states_tt
+					controls_state = 292
+					controls_state = 679
+					controls_state = 678
 				}
+				# OR = {
+				# 	# Saudi Arabia
+				# 	custom_trigger_tooltip = {
+				# 		tooltip = form_country_saudi_required_states_tt
+				# 		controls_state = 292
+				# 		controls_state = 679
+				# 		controls_state = 678
+				# 	}
+				# 	SAU = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
 			}
 		}
 		ai_will_do = {
@@ -1525,6 +1621,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = SAU
+					transfer_troops = yes
 				}
 			}
 			292 = {
@@ -1574,21 +1671,24 @@ mah_crystal_empire_category = {
 				limit = {
 					is_ai = no
 				}
-				OR = {
-					AND = {
-						controls_state = 293
-						controls_state = 659
-					}
-					YEM = {
-						is_puppet_of = ROOT
-					}
-				}
-				OR = {
-					controls_state = 294
-					OMA = {
-						is_puppet_of = ROOT
-					}
-				}
+				controls_state = 293
+				controls_state = 659
+				controls_state = 294
+				# OR = {
+				# 	AND = {
+				# 		controls_state = 293
+				# 		controls_state = 659
+				# 	}
+				# 	YEM = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
+				# OR = {
+				# 	controls_state = 294
+				# 	OMA = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
 			}
 		}
 		ai_will_do = {
@@ -1607,6 +1707,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = YEM
+					transfer_troops = yes
 				}
 			}
 			293 = {
@@ -1625,6 +1726,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = OMA
+					transfer_troops = yes
 				}
 			}
 			294 = {
@@ -1672,24 +1774,27 @@ mah_crystal_empire_category = {
 				limit = {
 					is_ai = no
 				}
-				OR = {
-					controls_state = 656
-					KUW = {
-						is_puppet_of = ROOT
-					}
-				}
-				OR = {
-					controls_state = 765
-					QAT = {
-						is_puppet_of = ROOT
-					}
-				}
-				OR = {
-					controls_state = 658
-					UAE = {
-						is_puppet_of = ROOT
-					}
-				}
+				controls_state = 656
+				controls_state = 765
+				controls_state = 658
+				# OR = {
+				# 	controls_state = 656
+				# 	KUW = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
+				# OR = {
+				# 	controls_state = 765
+				# 	QAT = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
+				# OR = {
+				# 	controls_state = 658
+				# 	UAE = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
 			}
 		}
 		ai_will_do = {
@@ -1708,6 +1813,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = KUW
+					transfer_troops = yes
 				}
 			}
 			if = {
@@ -1718,6 +1824,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = QAT
+					transfer_troops = yes
 				}
 			}
 			if = {
@@ -1728,6 +1835,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = UAE
+					transfer_troops = yes
 				}
 			}
 			656 = {
@@ -1774,21 +1882,31 @@ mah_crystal_empire_category = {
 				limit = {
 					is_ai = no
 				}
-				OR = {
-					# Egypt
-					custom_trigger_tooltip = {
-						tooltip = mah_form_crystal_empire_egypt_required_states_tt
-						controls_state = 452
-						controls_state = 447
-						controls_state = 446
-						controls_state = 456
-						controls_state = 457
-						controls_state = 453
-					}
-					EGY = {
-						is_puppet_of = ROOT
-					}
+				# Egypt
+				custom_trigger_tooltip = {
+					tooltip = mah_form_crystal_empire_egypt_required_states_tt
+					controls_state = 452
+					controls_state = 447
+					controls_state = 446
+					controls_state = 456
+					controls_state = 457
+					controls_state = 453
 				}
+				# OR = {
+				# 	# Egypt
+				# 	custom_trigger_tooltip = {
+				# 		tooltip = mah_form_crystal_empire_egypt_required_states_tt
+				# 		controls_state = 452
+				# 		controls_state = 447
+				# 		controls_state = 446
+				# 		controls_state = 456
+				# 		controls_state = 457
+				# 		controls_state = 453
+				# 	}
+				# 	EGY = {
+				# 		is_puppet_of = ROOT
+				# 	}
+				# }
 			}
 		}
 		ai_will_do = {
@@ -1807,6 +1925,7 @@ mah_crystal_empire_category = {
 				}
 				annex_country = {
 					target = EGY
+					transfer_troops = yes
 				}
 			}
 			# Egypt
