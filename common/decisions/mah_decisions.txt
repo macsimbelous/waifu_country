@@ -605,7 +605,43 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 0
+			modifier = {
+				659 = {
+					OWNER = {
+						has_government = democratic
+					}
+				}
+				has_government = democratic
+				add = 10
+			}
+			modifier = {
+				659 = {
+					OWNER = {
+						has_government = communism
+					}
+				}
+				has_government = communism
+				add = 10
+			}
+			modifier = {
+				659 = {
+					OWNER = {
+						has_government = fascism
+					}
+				}
+				has_government = fascism
+				add = 10
+			}
+			modifier = {
+				659 = {
+					OWNER = {
+						has_government = neutrality
+					}
+				}
+				has_government = neutrality
+				add = 10
+			}
 		}
 		complete_effect = {
 			659 = {
@@ -769,7 +805,43 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 0
+			modifier = {
+				656 = {
+					OWNER = {
+						has_government = democratic
+					}
+				}
+				has_government = democratic
+				add = 10
+			}
+			modifier = {
+				656 = {
+					OWNER = {
+						has_government = communism
+					}
+				}
+				has_government = communism
+				add = 10
+			}
+			modifier = {
+				656 = {
+					OWNER = {
+						has_government = fascism
+					}
+				}
+				has_government = fascism
+				add = 10
+			}
+			modifier = {
+				656 = {
+					OWNER = {
+						has_government = neutrality
+					}
+				}
+				has_government = neutrality
+				add = 10
+			}
 		}
 		complete_effect = {
 			656 = {
@@ -882,7 +954,43 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 0
+			modifier = {
+				765 = {
+					OWNER = {
+						has_government = democratic
+					}
+				}
+				has_government = democratic
+				add = 10
+			}
+			modifier = {
+				765 = {
+					OWNER = {
+						has_government = communism
+					}
+				}
+				has_government = communism
+				add = 10
+			}
+			modifier = {
+				765 = {
+					OWNER = {
+						has_government = fascism
+					}
+				}
+				has_government = fascism
+				add = 10
+			}
+			modifier = {
+				765 = {
+					OWNER = {
+						has_government = neutrality
+					}
+				}
+				has_government = neutrality
+				add = 10
+			}
 		}
 		complete_effect = {
 			765 = {
@@ -978,7 +1086,43 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 0
+			modifier = {
+				658 = {
+					OWNER = {
+						has_government = democratic
+					}
+				}
+				has_government = democratic
+				add = 10
+			}
+			modifier = {
+				658 = {
+					OWNER = {
+						has_government = communism
+					}
+				}
+				has_government = communism
+				add = 10
+			}
+			modifier = {
+				658 = {
+					OWNER = {
+						has_government = fascism
+					}
+				}
+				has_government = fascism
+				add = 10
+			}
+			modifier = {
+				658 = {
+					OWNER = {
+						has_government = neutrality
+					}
+				}
+				has_government = neutrality
+				add = 10
+			}
 		}
 		complete_effect = {
 			658 = {
@@ -1074,7 +1218,43 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 0
+			modifier = {
+				446 = {
+					OWNER = {
+						has_government = democratic
+					}
+				}
+				has_government = democratic
+				add = 10
+			}
+			modifier = {
+				446 = {
+					OWNER = {
+						has_government = communism
+					}
+				}
+				has_government = communism
+				add = 10
+			}
+			modifier = {
+				446 = {
+					OWNER = {
+						has_government = fascism
+					}
+				}
+				has_government = fascism
+				add = 10
+			}
+			modifier = {
+				446 = {
+					OWNER = {
+						has_government = neutrality
+					}
+				}
+				has_government = neutrality
+				add = 10
+			}
 		}
 		complete_effect = {
 			446 = {
@@ -1150,7 +1330,43 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 0
+			modifier = {
+				183 = {
+					OWNER = {
+						has_government = democratic
+					}
+				}
+				has_government = democratic
+				add = 10
+			}
+			modifier = {
+				183 = {
+					OWNER = {
+						has_government = communism
+					}
+				}
+				has_government = communism
+				add = 10
+			}
+			modifier = {
+				183 = {
+					OWNER = {
+						has_government = fascism
+					}
+				}
+				has_government = fascism
+				add = 10
+			}
+			modifier = {
+				183 = {
+					OWNER = {
+						has_government = neutrality
+					}
+				}
+				has_government = neutrality
+				add = 10
+			}
 		}
 		complete_effect = {
 			183 = {

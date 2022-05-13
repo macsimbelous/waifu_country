@@ -2,6 +2,12 @@ wfc_test_category = {
 	wfc_test_1 = {
 		fire_only_once = no
 		cost = 0
+		available = {
+			has_collaboration = {
+				target = ROM
+				value > 0.5
+			}
+		}
 		complete_effect = {
 			# generate_character = {
 			# 	token_base = wfc_test_char
@@ -405,11 +411,23 @@ wfc_test_category = {
 				set_variable = {
 					collaboration_formed_by = 1
 				}
-
 			}
 			set_autonomy = {
 				target = ROM
 				autonomy_state = autonomy_collaboration_government
+			}
+		}
+	}
+	wfc_test_7 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			add_collaboration = {
+				target = ROM
+				value = 0.25
 			}
 		}
 	}

@@ -132,6 +132,10 @@ country_event = {
 		ai_chance = {
 			base = 0
 			modifier = {
+				is_in_faction_with = MAH
+				add = 5
+			}
+			modifier = {
 				has_government = neutrality
 				add = 4
 			}
@@ -199,6 +203,10 @@ country_event = {
 		name = mah_event.1.a
 		ai_chance = {
 			base = 0
+			modifier = {
+				is_in_faction_with = MAH
+				add = 5
+			}
 			modifier = {
 				has_government = neutrality
 				add = 4
@@ -268,6 +276,10 @@ country_event = {
 		ai_chance = {
 			base = 0
 			modifier = {
+				is_in_faction_with = MAH
+				add = 5
+			}
+			modifier = {
 				has_government = neutrality
 				add = 4
 			}
@@ -336,6 +348,10 @@ country_event = {
 		ai_chance = {
 			base = 0
 			modifier = {
+				is_in_faction_with = MAH
+				add = 5
+			}
+			modifier = {
 				has_government = neutrality
 				add = 4
 			}
@@ -403,6 +419,10 @@ country_event = {
 		name = mah_event.1.a
 		ai_chance = {
 			base = 0
+			modifier = {
+				is_in_faction_with = MAH
+				add = 5
+			}
 			modifier = {
 				has_government = neutrality
 				add = 4
@@ -490,6 +510,10 @@ country_event = {
 		name = mah_event.1.a
 		ai_chance = {
 			base = 0
+			modifier = {
+				is_in_faction_with = MAH
+				add = 5
+			}
 			modifier = {
 				has_government = neutrality
 				add = 4
