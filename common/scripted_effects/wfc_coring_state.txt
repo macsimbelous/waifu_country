@@ -241,4 +241,10 @@ wfc_subsidies_change = {
 	multiply_variable = {
 		wfc_subsidies_to_nuclear = wfc_subsidies_to_nuclear_count
 	}
+	set_variable = {
+		wfc_political_power_to_subsidies = -0.02
+	}
+	multiply_variable = {
+		wfc_political_power_to_subsidies = wfc_subsidies_count
+	}
 }

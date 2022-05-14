@@ -29,6 +29,7 @@ acw_puppets_category = {
 	priority = 9
 	allowed = {
 		original_tag = ACW
+		always = no
 	}
 	visible = {
 		#has_government = democratic
