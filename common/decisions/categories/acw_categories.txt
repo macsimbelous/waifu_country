@@ -31,7 +31,7 @@ acw_puppets_category = {
 		original_tag = ACW
 	}
 	visible = {
-		has_government = democratic
+		#has_government = democratic
 		has_country_flag = acw_minprom_flag
 		has_country_flag = acw_KGB_flag
 	}

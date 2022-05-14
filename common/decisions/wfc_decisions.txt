@@ -3002,9 +3002,10 @@ prospect_for_resources = {
 wfc_puppets_category = {
 	wfc_create_intelligence_agency_decision = {
 		fire_only_once = yes
-		cost = 100
+		cost = 0
 		days_remove = 30
 		visible = {
+			is_ai = yes
 			has_intelligence_agency = no
 		}
 		available = {

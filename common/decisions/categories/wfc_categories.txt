@@ -221,9 +221,9 @@ wfc_puppets_category = {
 			original_tag = MMS
 		}
 	}
-	visible = {
-		has_government = democratic
-	}
+	# visible = {
+	# 	has_government = democratic
+	# }
 }
 
 wfc_construction_phase_category = {
