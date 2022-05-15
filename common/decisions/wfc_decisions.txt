@@ -3189,9 +3189,20 @@ wfc_puppets_category = {
 						is_major = yes
 						factor = 2
 					}
-					set_autonomy = {
-						target = FROM
-						autonomy_state = autonomy_dominion
+					if = {
+						limit = {
+							has_government = fascism
+						}
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_reichsprotectorate
+						}
+					}
+					else = {
+						set_autonomy = {
+							target = FROM
+							autonomy_state = autonomy_dominion
+						}
 					}
 					add_named_threat = {
 						threat = 5
