@@ -3129,6 +3129,12 @@ wfc_puppets_category = {
 				50 = {
 					modifier = {
 						FROM = {
+							has_stability < 0.5
+						}
+						factor = 1.2
+					}
+					modifier = {
+						FROM = {
 							has_opinion = {
 								target = ROOT
 								value > 49
@@ -3210,6 +3216,12 @@ wfc_puppets_category = {
 					}
 				}
 				50 = {
+					modifier = {
+						FROM = {
+							has_stability > 0.5
+						}
+						factor = 1.2
+					}
 					modifier = {
 						FROM = {
 							is_major = yes
