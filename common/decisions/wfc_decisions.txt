@@ -3037,7 +3037,6 @@ wfc_puppets_category = {
 	}
 	wfc_create_puppet_decision = {
 		name = wfc_create_puppet_decision.t
-		desc = wfc_create_puppet_decision.t_desc
 		available = {
 			#has_war = no
 			has_intelligence_agency = yes

@@ -110,7 +110,7 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_puppets_category:0 "Submission of weak countries"
  wfc_create_intelligence_agency_decision:0 "Create an intelligence agency"
  wfc_create_puppet_decision.t:0 "Subdue §Y[From.GetNameDef]§!"
- wfc_create_puppet_decision.t_desc:0 "The success of the operation depends on a number of factors:\n Intelligence network\n Collaboration government\n Relationships\n Stability\n Status of our country\n Status of the target country\nIf the target country was a puppet then the former master will get a reason to war against us."
+ wfc_create_puppet_decision_desc:0 "The success of the operation depends on a number of factors:\n Intelligence network\n Collaboration government\n Relationships\n Stability\n Status of our country\n Status of the target country\nIf the target country was a puppet then the former master will get a reason to war against us."
  wfc_create_puppet_threat:0 "An independent country has become a puppet"
  wfc_puppets_economic_assistance:0 "Submit economic aid §Y[From.GetNameDef]§!"
 
