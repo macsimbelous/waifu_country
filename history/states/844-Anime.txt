@@ -2,11 +2,8 @@
 state={
 	id=844
 	name="STATE_844" # Kyushu
-	manpower = 10000000
+	manpower = 100000
 	state_category = town
-	resources={
-		steel = 12
-	}
 
 	history={
 		owner = ACW

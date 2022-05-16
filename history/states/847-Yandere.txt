@@ -2,11 +2,9 @@
 state={
 	id=847
 	name="STATE_847" # Kyushu
-	manpower = 10000000
+	manpower = 1000000
 	state_category = town
-	resources={
-		steel = 12
-	}
+
 
 	history={
 		owner = ACW
@@ -14,7 +12,8 @@ state={
 		#add_core_of = JAP
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
+			arms_factory = 3
 		}
 		victory_points = {
 			11887 10 

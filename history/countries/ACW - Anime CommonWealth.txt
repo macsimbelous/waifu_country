@@ -16,33 +16,33 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	motorised_infantry = 1
-	tech_recon = 1
+	#tech_recon = 1
 	tech_support = 1
 	tech_engineers = 1
 	#tech_military_police = 1
 	tech_mountaineers = 1
-	tech_maintenance_company = 1
+	#tech_maintenance_company = 1
 	gw_artillery = 1
-	interwar_artillery = 1
-	interwar_antiair = 1
+	#interwar_artillery = 1
+	#interwar_antiair = 1
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
 	#####
-	basic_torpedo = 1
-	basic_naval_mines = 1
-	submarine_mine_laying = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
+	# basic_torpedo = 1
+	# basic_naval_mines = 1
+	# submarine_mine_laying = 1
+	# early_ship_hull_submarine = 1
+	# basic_ship_hull_submarine = 1
 	basic_machine_tools = 1
 	construction1 = 1
 	electronic_mechanical_engineering = 1
 	#####
-	gwtank_chassis = 1
-	basic_light_tank_chassis = 1
-	improved_light_tank_chassis = 1
-	engine_tech_1 = 1
-	engine_tech_2 = 1
+	# gwtank_chassis = 1
+	# basic_light_tank_chassis = 1
+	# improved_light_tank_chassis = 1
+	# engine_tech_1 = 1
+	# engine_tech_2 = 1
 }
 
 #ideas
@@ -350,35 +350,35 @@ ACW_Anastasia = {
 }
 ### Variants ###
 # Submarines #
-create_equipment_variant = {
-	name = "Anime Class"
-	type = ship_hull_submarine_2
-	#name_group = ENG_SS_HISTORICAL
-	parent_version = 0
-	modules = {
-		fixed_ship_torpedo_slot = ship_torpedo_sub_2
-		fixed_ship_engine_slot = sub_ship_engine_2
-		rear_1_custom_slot = ship_torpedo_sub_2
-	}
-}
+# create_equipment_variant = {
+# 	name = "Anime Class"
+# 	type = ship_hull_submarine_2
+# 	#name_group = ENG_SS_HISTORICAL
+# 	parent_version = 0
+# 	modules = {
+# 		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+# 		fixed_ship_engine_slot = sub_ship_engine_2
+# 		rear_1_custom_slot = ship_torpedo_sub_2
+# 	}
+# }
 
-create_equipment_variant = {
-	name = "ALT-1"
-	type = light_tank_chassis_2
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_small_cannon_2
-		turret_type_slot = tank_light_two_man_tank_turret
-		suspension_type_slot = tank_christie_suspension
-		armor_type_slot = tank_welded_armor
-		engine_type_slot = tank_gasoline_engine
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 10
-		tank_nsb_armor_upgrade = 2
-	}
-	icon = "gfx/interface/technologies/improved_light_tank.dds"
-}
+# create_equipment_variant = {
+# 	name = "ALT-1"
+# 	type = light_tank_chassis_2
+# 	parent_version = 0
+# 	modules = {
+# 		main_armament_slot = tank_small_cannon_2
+# 		turret_type_slot = tank_light_two_man_tank_turret
+# 		suspension_type_slot = tank_christie_suspension
+# 		armor_type_slot = tank_welded_armor
+# 		engine_type_slot = tank_gasoline_engine
+# 	}
+# 	upgrades = {
+# 		tank_nsb_engine_upgrade = 10
+# 		tank_nsb_armor_upgrade = 2
+# 	}
+# 	icon = "gfx/interface/technologies/improved_light_tank.dds"
+# }
 # build_railway = {
 # 	path = { 3707 9683 6743 6727 }
 # }

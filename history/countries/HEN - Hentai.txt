@@ -34,11 +34,11 @@ set_technology = {
 	early_ship_hull_submarine = 1
 	basic_ship_hull_submarine = 1
 	#####
-	gwtank_chassis = 1
-	basic_light_tank_chassis = 1
-	improved_light_tank_chassis = 1
-	engine_tech_1 = 1
-	engine_tech_2 = 1
+	# gwtank_chassis = 1
+	# basic_light_tank_chassis = 1
+	# improved_light_tank_chassis = 1
+	# engine_tech_1 = 1
+	# engine_tech_2 = 1
 	#esminec#
 	early_ship_hull_light = 1
 	basic_ship_hull_light = 1
@@ -223,20 +223,20 @@ create_equipment_variant = {
 	}
 }
 
-create_equipment_variant = {
-	name = "HLT-1"
-	type = light_tank_chassis_2
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_small_cannon_2
-		turret_type_slot = tank_light_two_man_tank_turret
-		suspension_type_slot = tank_christie_suspension
-		armor_type_slot = tank_welded_armor
-		engine_type_slot = tank_gasoline_engine
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 10
-		tank_nsb_armor_upgrade = 2
-	}
-	icon = "gfx/interface/technologies/improved_light_tank.dds"
-}
+# create_equipment_variant = {
+# 	name = "HLT-1"
+# 	type = light_tank_chassis_2
+# 	parent_version = 0
+# 	modules = {
+# 		main_armament_slot = tank_small_cannon_2
+# 		turret_type_slot = tank_light_two_man_tank_turret
+# 		suspension_type_slot = tank_christie_suspension
+# 		armor_type_slot = tank_welded_armor
+# 		engine_type_slot = tank_gasoline_engine
+# 	}
+# 	upgrades = {
+# 		tank_nsb_engine_upgrade = 10
+# 		tank_nsb_armor_upgrade = 2
+# 	}
+# 	icon = "gfx/interface/technologies/improved_light_tank.dds"
+# }

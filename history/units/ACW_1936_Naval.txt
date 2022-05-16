@@ -1,61 +1,61 @@
-﻿units = {
-	fleet = {
-		name = "Anime Fleet"			
-		naval_base = 6727
-		task_force = {				
-			name = "1st Submarine Flotilla"			
-			location = 6727
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+﻿# units = {
+# 	fleet = {
+# 		name = "Anime Fleet"			
+# 		naval_base = 6727
+# 		task_force = {				
+# 			name = "1st Submarine Flotilla"			
+# 			location = 6727
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
 
-		}
-		task_force = {				
-			name = "2nd Submarine Flotilla"			
-			location = 6727
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
-			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 		}
+# 		task_force = {				
+# 			name = "2nd Submarine Flotilla"			
+# 			location = 6727
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
+# 			ship = {  definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ACW version_name = "Anime Class" } } }
 
-		}	
-	}
-}
+# 		}	
+# 	}
+# }
 
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_submarine_2
-			creator = "ACW" 
-			version_name = "Anime Class"
-		}
-		requested_factories = 2
-		progress = 0.90
-		#amount = 32
-	}
-	add_equipment_production = {
-		equipment = {
-			type = convoy_1
-			creator = "ACW" 
-		}
-		requested_factories = 1
-		progress = 0.90
-	}
-}
+# instant_effect = {
+# 	add_equipment_production = {
+# 		equipment = {
+# 			type = ship_hull_submarine_2
+# 			creator = "ACW" 
+# 			version_name = "Anime Class"
+# 		}
+# 		requested_factories = 2
+# 		progress = 0.90
+# 		#amount = 32
+# 	}
+# 	add_equipment_production = {
+# 		equipment = {
+# 			type = convoy_1
+# 			creator = "ACW" 
+# 		}
+# 		requested_factories = 1
+# 		progress = 0.90
+# 	}
+# }
