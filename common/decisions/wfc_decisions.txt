@@ -3126,7 +3126,7 @@ wfc_puppets_category = {
 		}
 		remove_effect = {
 			random_list = {
-				50 = {
+				25 = {
 					modifier = {
 						FROM = {
 							has_stability < 0.5
@@ -3175,7 +3175,7 @@ wfc_puppets_category = {
 							target = FROM
 							value > 0.5
 						}
-						factor = 1.7
+						factor = 1.5
 					}
 					modifier = {
 						ic_ratio = {
@@ -3193,7 +3193,36 @@ wfc_puppets_category = {
 					}
 					modifier = {
 						is_major = yes
-						factor = 2
+						factor = 1.5
+					}
+					if = {
+						limit = {
+							FROM = {
+								OR = {
+									is_puppet = yes
+									is_subject = yes
+								}
+							}
+						}
+						FROM = {
+							OVERLORD = {
+								if = {
+									limit = {
+										has_government = fascism
+									}
+									create_wargoal = {
+										target = ROOT
+										type = annex_everything
+									}
+								}
+								else = {
+									create_wargoal = {
+										target = ROOT
+										type = puppet_wargoal_focus
+									}
+								}
+							}
+						}
 					}
 					if = {
 						limit = {
@@ -3215,7 +3244,7 @@ wfc_puppets_category = {
 						name = wfc_create_puppet_threat
 					}
 				}
-				50 = {
+				75 = {
 					modifier = {
 						FROM = {
 							has_stability > 0.5
@@ -3243,35 +3272,24 @@ wfc_puppets_category = {
 						}
 						factor = 1.5
 					}
-					random_list = {
-						1 = {
-							modifier = {
-								factor = 0
-								FROM = {
-									has_government = fascism
-								}
-							}
+					if = {
+						limit = {
 							FROM = {
-								create_wargoal = {
-									target = ROOT
-									type = puppet_wargoal_focus
-								}
+								has_government = fascism
 							}
 						}
-						1 = {
-							modifier = {
-								factor = 0
-								FROM = {
-									NOT = {
-										has_government = fascism
-									}
-								}
+						FROM = {
+							create_wargoal = {
+								target = ROOT
+								type = annex_everything
 							}
-							FROM = {
-								declare_war_on = {
-									target = ROOT
-									type = annex_everything
-								}
+						}
+					}
+					else = {
+						FROM = {
+							create_wargoal = {
+								target = ROOT
+								type = puppet_wargoal_focus
 							}
 						}
 					}
@@ -3290,11 +3308,21 @@ wfc_puppets_category = {
 	}
 }
 
-wfc_railway_construction_category = {
+economy_decisions = {
 	wfc_railway_from_na_to_sa_decision = {
 		fire_only_once = yes
 		cost = 100
 		days_remove = 240		#15 * 16
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
 		visible = {
 			836 = {
 				OR = {
@@ -3412,6 +3440,113 @@ wfc_railway_construction_category = {
 					province = 4969
 					instant_build = yes
 				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	wfc_railway_from_damask_to_bagdad_decision = {
+		fire_only_once = yes
+		cost = 100
+		days_remove = 64  #4 * 16
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
+		visible = {
+			554 = {
+				OR = {
+					is_controlled_by_ROOT_or_ally = yes
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			680 = {
+				OR = {
+					is_controlled_by_ROOT_or_ally = yes
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			675 = {
+				OR = {
+					is_controlled_by_ROOT_or_ally = yes
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			291 = {
+				OR = {
+					is_controlled_by_ROOT_or_ally = yes
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			build_railway = {
+				level = 1
+				start_province = 4111
+				target_province = 2097
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	wfc_railway_expand_to_s_arabia_decision = {
+		fire_only_once = yes
+		cost = 100
+		days_remove = 48  #3 * 16
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+			}
+		}
+		visible = {
+			679 = {
+				OR = {
+					is_controlled_by_ROOT_or_ally = yes
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			292 = {
+				OR = {
+					is_controlled_by_ROOT_or_ally = yes
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			build_railway = {
+				level = 1
+				start_province = 12758
+				target_province = 12727
+			}
+			build_railway = {
+				level = 1
+				start_province = 12758
+				target_province = 12883
 			}
 		}
 		ai_will_do = {

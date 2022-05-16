@@ -274,7 +274,7 @@ wfc_railway_construction_category = {
 }
 
 wfc_test_category = {
-	priority = 20
+	priority = 50
 	allowed = {
 		OR = {
 			original_tag = ACW

@@ -1,0 +1,27 @@
+
+state={
+	id=846
+	name="STATE_846" # Kyushu
+	manpower = 10000000
+	state_category = town
+	resources={
+		steel = 12
+	}
+
+	history={
+		owner = ACW
+		add_core_of = ACW
+		#add_core_of = JAP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			9771 10 
+		}
+	}
+
+	provinces={
+		9771
+	}
+}

@@ -431,4 +431,110 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_8_plus = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			add_to_variable = {
+				wfc_test_var_1 = 1
+			}
+		}
+	}
+	wfc_test_8_reset = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			set_variable = {
+				wfc_test_var_1 = 0
+			}
+		}
+	}
+	wfc_test_9 = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			random_list = {
+				25 = {
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 0
+						}
+						factor = 1.2
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 1
+						}
+						factor = 1.3
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 2
+						}
+						factor = 1.1
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 3
+						}
+						factor = 1.2
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 4
+						}
+						factor = 1.3
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 5
+						}
+						factor = 1.3
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 6
+						}
+						factor = 1.5
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 7
+						}
+						factor = 1.2
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 8
+						}
+						factor = 1.3
+					}
+					modifier = {
+						check_variable = {
+							wfc_test_var_1 > 9
+						}
+						factor = 1.5
+					}
+					add_command_power = 100
+				}
+				75 = {
+					add_command_power = -100
+				}
+			}
+		}
+	}
+	wfc_test_10 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = MAH
+		}
+		complete_effect = {
+			build_railway = {
+				level = 1
+				start_province = 4111
+				target_province = 2097
+			}
+		}
+	}
 }

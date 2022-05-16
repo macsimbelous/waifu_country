@@ -164,3 +164,8 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
 #political_actions
  wfc_retire_leader:0 "§G[ROOT.GetLeader]§! уйдёт в отставку"
  wfc_retire_leader_tt:0 "§YПроизойдут досрочные выборы§!"
+
+#economy_decisions
+ wfc_railway_from_na_to_sa_decision:0 "Железная дорога из северной америки в южную"
+ wfc_railway_from_damask_to_bagdad_decision:0 "Железная дорога из Дамаска в Багдад"
+ wfc_railway_expand_to_s_arabia_decision:0 "Расширение железной дороги Саудовской Аравии"

@@ -116,3 +116,8 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
 #political_actions
  wfc_retire_leader:0 "§G[ROOT.GetLeader]§! is retiring"
  wfc_retire_leader_tt:0 "§YEarly elections will take place§!"
+
+#economy_decisions
+ wfc_railway_from_na_to_sa_decision:0 "Railroad from North America to South America"
+ wfc_railway_from_damask_to_bagdad_decision:0 "Railway from Damascus to Baghdad"
+ wfc_railway_expand_to_s_arabia_decision:0 "Saudi Arabia Railway Expansion"
