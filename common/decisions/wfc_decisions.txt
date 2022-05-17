@@ -3042,6 +3042,7 @@ wfc_puppets_category = {
 		name = wfc_create_puppet_decision.t
 		available = {
 			#has_war = no
+			is_puppet = no
 			has_intelligence_agency = yes
 			ic_ratio = {
 				tag = FROM
@@ -3124,6 +3125,15 @@ wfc_puppets_category = {
 					has_government = neutrality
 				}
 				add = 95
+			}
+			modifier = {
+				FROM = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				add = -100
 			}
 		}
 		fire_only_once = no
