@@ -229,30 +229,6 @@ acw_government_category = {
 			add_ideas = acw_colonial_office
 		}
 	}
-	acw_create_great_animeland = {
-		available = {
-			#num_of_controlled_states > 30
-			custom_trigger_tooltip = {
-				tooltip = acw_create_great_animeland_tt
-				check_variable = {
-					owned_states > 49
-				}
-			}
-			#has_war = no
-			#has_stability > 0.9
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		fire_only_once = yes
-		cost = 100
-		complete_effect = {
-			set_country_flag = acw_great_animeland_flag
-			set_cosmetic_tag = ACW_EMP
-			add_country_leader_trait = wfc_empress
-			add_political_power = 1000
-		}
-	}
 }
 
 acw_concert_decisions = {
@@ -1936,6 +1912,771 @@ political_actions = {
 						add_country_leader_trait = wfc_empress
 					}
 				}
+			}
+		}
+	}
+}
+
+acw_create_great_animeland_category = {
+	acw_create_great_animeland = {
+		fire_only_once = yes
+		cost = 0
+		available = {
+			#num_of_controlled_states > 30
+			# custom_trigger_tooltip = {
+			# 	tooltip = acw_create_great_animeland_tt
+			# 	check_variable = {
+			# 		owned_states > 49
+			# 	}
+			# }
+			#has_war = no
+			#has_stability > 0.9
+			is_subject = no
+			#Animeland
+			custom_trigger_tooltip = {
+				tooltip = acw_form_animeland_required_states_tt
+				controls_state = 844
+				controls_state = 845
+				controls_state = 846
+				controls_state = 847
+			}
+			#Bulgaria
+			custom_trigger_tooltip = {
+				tooltip = acw_form_bulgaria_required_states_tt
+				#controls_state = 48
+				48 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 801
+				801 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 212
+				212 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 211
+				211 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			#Romania
+			custom_trigger_tooltip = {
+				tooltip = acw_form_romania_required_states_tt
+				#controls_state = 46
+				46 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 76
+				76 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 77
+				77 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 79
+				79 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 81
+				81 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 82
+				82 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 83
+				83 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 84
+				84 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			#Yugoslavia 
+			custom_trigger_tooltip = {
+				tooltip = acw_form_yugoslavia_required_states_tt
+				#controls_state = 102
+				102 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 103
+				103 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 109
+				109 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 104
+				104 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 804
+				804 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 105
+				105 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 107
+				107 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 45
+				45 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 764
+				764 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 108
+				108 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 802
+				802 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 803
+				803 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 106
+				106 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			# Hungary
+			custom_trigger_tooltip = {
+				tooltip = acw_form_hungary_required_states_tt
+				#controls_state = 155
+				155 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 43
+				43 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 154
+				154 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			#Albania
+			custom_trigger_tooltip = {
+				tooltip = acw_form_albania_required_states_tt
+				#controls_state = 44
+				44 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				#controls_state = 805
+				805 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			#controls_state = 163
+			custom_trigger_tooltip = {
+				tooltip = acw_form_163_required_states_tt
+				163 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			#controls_state = 736
+			custom_trigger_tooltip = {
+				tooltip = acw_form_736_required_states_tt
+				736 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		complete_effect = {
+			set_country_flag = acw_great_animeland_flag
+			set_cosmetic_tag = ACW_EMP
+			#add_country_leader_trait = wfc_empress
+			#add_political_power = 1000
+			# Bulgaria
+			if = {
+				limit = {
+					BUL = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				annex_country = {
+					target = BUL
+					transfer_troops = yes
+				}
+			}
+			custom_effect_tooltip = acw_form_bulgaria_coring_states_tt
+			hidden_effect = {
+				48 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 48
+				801 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 801
+				212 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 212
+				211 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 211
+			}
+			#Romania
+			if = {
+				limit = {
+					ROM = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				annex_country = {
+					target = ROM
+					transfer_troops = yes
+				}
+			}
+			custom_effect_tooltip = acw_form_romania_coring_states_tt
+			hidden_effect = {
+				46 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 46
+				76 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 76
+				77 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 77
+				79 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 79
+				81 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 81
+				82 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 82
+				83 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 83
+				84 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 84
+			}
+			# Yugoslavia
+			if = {
+				limit = {
+					YUG = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				annex_country = {
+					target = YUG
+					transfer_troops = yes
+				}
+			}
+			custom_effect_tooltip = acw_form_yugoslavia_coring_states_tt
+			hidden_effect = {
+				102 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 102
+				103 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 103
+				109 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 109
+				104 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 104
+				804 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 804
+				105 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 105
+				107 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 107
+				45 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 45
+				764 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 764
+				108 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 108
+				802 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 802
+				803 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 803
+				106 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 106
+			}
+			# Hungary
+			if = {
+				limit = {
+					HUN = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				annex_country = {
+					target = HUN
+					transfer_troops = yes
+				}
+			}
+			custom_effect_tooltip = acw_form_hungary_coring_states_tt
+			hidden_effect = {
+				155 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 155
+				43 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 43
+				154 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 154
+			}
+			#Albania
+			if = {
+				limit = {
+					ALB = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				annex_country = {
+					target = ALB
+					transfer_troops = yes
+				}
+			}
+			custom_effect_tooltip = acw_form_albania_coring_states_tt
+			hidden_effect = {
+				44 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 44
+				805 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 805
+			}
+			custom_effect_tooltip = acw_form_163_coring_states_tt
+			hidden_effect = {
+				163 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 163
+			}
+			custom_effect_tooltip = acw_form_736_coring_states_tt
+			hidden_effect = {
+				736 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 736
+			}
+		}
+	}
+	acw_conquest_of_bul_decision = {
+		icon = generic_ignite_civil_war
+		cost = 100
+		fire_only_once = yes
+		days_remove = 60
+		war_with_on_remove = BUL
+		visible = {
+			NOT = {
+				has_country_flag = acw_great_animeland_flag
+			}
+			country_exists = BUL
+			BUL = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 6
+			modifier = {
+				has_war = yes
+				add = -5
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			hidden_effect = {
+				BUL = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = BUL
+				type = annex_everything
+			}
+		}
+	}
+	acw_conquest_of_rom_decision = {
+		icon = generic_ignite_civil_war
+		cost = 100
+		fire_only_once = yes
+		days_remove = 60
+		war_with_on_remove = ROM
+		visible = {
+			NOT = {
+				has_country_flag = acw_great_animeland_flag
+			}
+			country_exists = ROM
+			ROM = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 6
+			modifier = {
+				has_war = yes
+				add = -5
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			hidden_effect = {
+				ROM = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = ROM
+				type = annex_everything
+			}
+		}
+	}
+	acw_conquest_of_yug_decision = {
+		icon = generic_ignite_civil_war
+		cost = 100
+		fire_only_once = yes
+		days_remove = 60
+		war_with_on_remove = YUG
+		visible = {
+			NOT = {
+				has_country_flag = acw_great_animeland_flag
+			}
+			country_exists = YUG
+			YUG = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 6
+			modifier = {
+				has_war = yes
+				add = -5
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			hidden_effect = {
+				YUG = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = YUG
+				type = annex_everything
+			}
+		}
+	}
+	acw_conquest_of_hun_decision = {
+		icon = generic_ignite_civil_war
+		cost = 100
+		fire_only_once = yes
+		days_remove = 30
+		war_with_on_remove = HUN
+		visible = {
+			NOT = {
+				has_country_flag = acw_great_animeland_flag
+			}
+			country_exists = HUN
+			HUN = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			HUN = {
+				OR = {
+					is_neighbor_of = ROOT
+					any_neighbor_country = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			base = 6
+			modifier = {
+				has_war = yes
+				add = -5
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			hidden_effect = {
+				HUN = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = HUN
+				type = annex_everything
+			}
+		}
+	}
+	acw_conquest_of_alb_decision = {
+		icon = generic_ignite_civil_war
+		cost = 100
+		fire_only_once = yes
+		days_remove = 60
+		war_with_on_remove = ALB
+		visible = {
+			NOT = {
+				has_country_flag = acw_great_animeland_flag
+			}
+			country_exists = ALB
+			ALB = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			ALB = {
+				OR = {
+					is_neighbor_of = ROOT
+					any_neighbor_country = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			base = 6
+			modifier = {
+				has_war = yes
+				add = -5
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			hidden_effect = {
+				ALB = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = ALB
+				type = annex_everything
+			}
+		}
+	}
+	acw_conquest_of_ita_decision = {
+		icon = generic_ignite_civil_war
+		cost = 100
+		fire_only_once = yes
+		days_remove = 60
+		war_with_on_remove = ITA
+		visible = {
+			NOT = {
+				has_country_flag = acw_great_animeland_flag
+			}
+			country_exists = ITA
+			ITA = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			ITA = {
+				OR = {
+					is_neighbor_of = ROOT
+					any_neighbor_country = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			base = 6
+			modifier = {
+				has_war = yes
+				add = -5
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			hidden_effect = {
+				ITA = {
+					every_owned_state = {
+						limit = {
+							is_core_of = YUG
+						}
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = ITA
+				type = take_claimed_state
 			}
 		}
 	}

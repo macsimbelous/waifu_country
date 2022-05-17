@@ -3018,6 +3018,9 @@ wfc_puppets_category = {
 		visible = {
 			is_ai = yes
 			has_intelligence_agency = no
+			NOT = {
+				tag = ACW
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4

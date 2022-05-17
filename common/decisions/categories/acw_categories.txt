@@ -54,9 +54,17 @@ acw_overseas_puppets_category = {
 }
 
 acw_faction_category = {
-	priority = 9
+	priority = 10
 	icon = decision_category_generic_propaganda
 	picture = GFX_decision_cat_picture_chi_political_support
+	allowed = {
+		original_tag = ACW
+	}
+}
+
+acw_create_great_animeland_category = {
+	priority = 25
+	icon = generic_form_nation
 	allowed = {
 		original_tag = ACW
 	}
