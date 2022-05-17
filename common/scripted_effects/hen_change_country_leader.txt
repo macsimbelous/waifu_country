@@ -114,6 +114,11 @@ hen_change_country_leader = {
 		}
 		1 = {
 			set_country_leader_portrait = {
+				portrait = GFX_portrait_hen_naval_08
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
 				portrait = GFX_portrait_hen_operative_01
 			}
 		}
