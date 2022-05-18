@@ -47,7 +47,8 @@ set_technology = {
 
 #ideas
 add_ideas = {
-	free_trade
+	#free_trade
+	export_focus
 	volunteer_only
 	civilian_economy
 	ACW_anime_economic
