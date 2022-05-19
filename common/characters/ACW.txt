@@ -2486,5 +2486,19 @@ characters = {
 			}
 		}
 	}
-
+	#Agents
+	ACW_yor_forger = {
+		name = ACW_yor_forger
+		portraits = {
+			army = {
+				small = GFX_idea_acw_yor_forger
+			}
+			civilian = {
+				large = GFX_portrait_acw_yor_forger
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+	}
 }

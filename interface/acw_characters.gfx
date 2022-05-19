@@ -898,6 +898,14 @@ spriteTypes = {
 		name = "GFX_portrait_acw_kei"
 		texturefile = "gfx/leaders/ACW/Kei.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_acw_yor_forger"
+		texturefile = "gfx/leaders/ACW/yor_forger_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_yor_forger"
+		texturefile = "gfx/leaders/ACW/yor_forger.dds"
+	}
 	#generics
 	spriteType = {
 		name = "GFX_portrait_acw_land_01"

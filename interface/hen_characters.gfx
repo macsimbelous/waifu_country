@@ -356,6 +356,18 @@ spriteTypes = {
 		name = "GFX_portrait_hen_land_15"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_15.dds"
 	}
+        spriteType = {
+		name = "GFX_portrait_hen_land_16"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_17"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_17.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_18"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_18.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_hen_naval_01"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_01.dds"
@@ -388,6 +400,10 @@ spriteTypes = {
 		name = "GFX_portrait_hen_naval_08"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_08.dds"
 	}
+        spriteType = {
+		name = "GFX_portrait_hen_naval_09"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_09.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_hen_operative_01"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_01.dds"
@@ -411,5 +427,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_hen_operative_06"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_06.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_hen_operative_07"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_07.dds"
 	}
 }

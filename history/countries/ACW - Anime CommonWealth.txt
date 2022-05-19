@@ -189,8 +189,6 @@ create_operative_leader = {
 	traits = {
 		operative_infiltrator
 		operative_natural_orator
-		operative_seducer
-		operative_safe_cracker
 	}
 }
 
@@ -198,8 +196,6 @@ create_operative_leader = {
 	name = "Rosaria"
 	GFX = GFX_portrait_acw_rosaria
 	traits = {
-		operative_infiltrator
-		operative_demolition_expert
 		operative_commando
 	}
 	bypass_recruitment = no
@@ -213,7 +209,6 @@ create_operative_leader = {
 	name = "Reina Prowler"
 	GFX = GFX_portrait_acw_reina_prowler
 	traits = {
-		operative_infiltrator
 		operative_safe_cracker
 		operative_demolition_expert
 	}
@@ -242,7 +237,7 @@ create_operative_leader = {
 	name = "Ange le Carré"
 	GFX = GFX_portrait_acw_ange_le_carre
 	traits = {
-		operative_commando
+		operative_infiltrator
 		operative_demolition_expert
 	}
 	bypass_recruitment = no
@@ -258,7 +253,6 @@ create_operative_leader = {
 	traits = {
 		operative_commando
 		operative_demolition_expert
-		operative_safe_cracker
 	}
 	bypass_recruitment = no
 	available_to_spy_master = yes
@@ -284,6 +278,9 @@ create_operative_leader = {
 	available_to_spy_master = yes
 	nationalities = {
 		ACW
+	}
+	traits = {
+		operative_commando
 	}
 }
 
@@ -337,6 +334,21 @@ create_operative_leader = {
 		operative_seducer
 	}
 }
+recruit_character = ACW_yor_forger
+create_operative_leader = {
+	name = ACW_yor_forger
+	GFX = GFX_portrait_acw_yor_forger
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+	traits = {
+		operative_commando
+		operative_demolition_expert
+	}
+}
+
 ACW_Erza = {
 	set_character_flag = acw_country_leader_flag
 }
