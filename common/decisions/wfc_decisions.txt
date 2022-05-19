@@ -3395,6 +3395,12 @@ wfc_puppets_category = {
 							}
 						}
 					}
+					FROM = {
+						add_opinion_modifier = {
+							target = ROOT
+							modifier = medium_decrease
+						}
+					}
 				}
 			}
 			# set_autonomy = {
