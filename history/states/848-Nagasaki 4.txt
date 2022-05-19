@@ -1,0 +1,51 @@
+
+state={
+	id=848
+	name="STATE_848" # Kyushu
+	manpower = 9069000
+	state_category = megalopolis
+	resources={
+
+	}
+
+	history={
+		owner = HEN
+		add_core_of = HEN
+		#add_core_of = JAP
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			dockyard = 3
+			arms_factory = 5
+			industrial_complex = 6
+			9950 = {
+				naval_base = 6
+				coastal_bunker = 3
+			}
+			7110 = {
+			 	bunker = 5
+			}
+			4164 = {
+			 	bunker = 5
+			}
+			10020 = {
+			 	bunker = 5
+			}
+			4027 = {
+			 	bunker = 5
+			}
+		}
+		victory_points = {
+			10020 10 
+		}
+
+		victory_points = {
+			9950 50
+		}
+	}
+
+	provinces={
+		1158 4027 4164 7110 9950 10011 10020  
+	}
+	local_supplies=10.0
+}
