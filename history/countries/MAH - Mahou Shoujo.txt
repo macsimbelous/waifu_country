@@ -32,6 +32,15 @@ set_technology = {
 	submarine_mine_laying = 1
 	early_ship_hull_submarine = 1
 	basic_ship_hull_submarine = 1
+	#esminec#
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	sonar = 1
+	smoke_generator = 1
+	basic_depth_charges = 1
+	#ind
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	#####
@@ -115,7 +124,6 @@ recruit_character = MAH_lucia_nanami
 recruit_character = MAH_kobato_hanato
 recruit_character = MAH_Hitomi_Tsukishiro
 recruit_character = MAH_head_int
-
 #agents
 create_operative_leader = {
 	name = "Hitomi Tsukishiro"
@@ -126,18 +134,23 @@ create_operative_leader = {
 		MAH
 	}
 }
+
 MAH_Asuka_Ootorii = {
 	set_character_flag = mah_country_leader_flag
 }
+
 MAH_Nanoha_Takamachi = {
 	set_character_flag = mah_country_leader_flag
 }
+
 MAH_Usagi_Tsukino = {
 	set_character_flag = mah_country_leader_flag
 }
+
 MAH_Momo_Chiyoda = {
 	set_character_flag = mah_country_leader_flag
 }
+
 ### Variants ###
 # Submarines #
 create_equipment_variant = {
@@ -151,6 +164,24 @@ create_equipment_variant = {
 		rear_1_custom_slot = ship_torpedo_sub_2
 	}
 }
+
+# Destroyers #
+create_equipment_variant = {
+	name = "Maho Destroyer"
+	type = ship_hull_light_2
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		mid_1_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_depth_charge_1
+	}
+}
+
 # create_equipment_variant = {
 # 	name = "Maho-1"
 # 	type = light_tank_chassis_2

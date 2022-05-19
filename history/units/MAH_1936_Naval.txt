@@ -43,6 +43,34 @@
 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MAH version_name = "Maho Class" } } }
 		}
 	}
+	fleet = {
+		name = "Maho Fleet"
+		naval_base = 4206
+		task_force = {
+			name = "1st Destroyer Flotilla"
+			location = 4206
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+		}
+		task_force = {
+			name = "2nd Destroyer Flotilla"
+			location = 4206
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAH version_name = "Maho Destroyer" } } }
+		}
+	}
 }
 instant_effect = {
 	add_equipment_production = {

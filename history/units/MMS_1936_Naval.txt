@@ -43,6 +43,34 @@
 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
 		}
 	}
+	fleet = {
+		name = "MonMusu Fleet"
+		naval_base = 7982
+		task_force = {
+			name = "1st Destroyer Flotilla"
+			location = 7982
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+		}
+		task_force = {
+			name = "2nd Destroyer Flotilla"
+			location = 7982
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
+		}
+	}
 }
 instant_effect = {
 	add_equipment_production = {

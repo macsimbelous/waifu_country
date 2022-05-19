@@ -43,6 +43,34 @@
 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
 		}
 	}
+	fleet = {
+		name = "Takao Fleet"
+		naval_base = 4980
+		task_force = {
+			name = "1st Destroyer Flotilla"
+			location = 4980
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+		}
+		task_force = {
+			name = "2nd Destroyer Flotilla"
+			location = 4980
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
+		}
+	}
 }
 instant_effect = {
 	add_equipment_production = {
