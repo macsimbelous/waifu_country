@@ -2348,6 +2348,9 @@ acw_create_great_animeland_category = {
 					}
 				}
 			}
+			NOT = {
+				has_war_with = BUL
+			}
 		}
 		ai_will_do = {
 			base = 6
@@ -2397,6 +2400,9 @@ acw_create_great_animeland_category = {
 						is_subject_of = ROOT
 					}
 				}
+			}
+			NOT = {
+				has_war_with = ROM
 			}
 		}
 		ai_will_do = {
@@ -2448,6 +2454,9 @@ acw_create_great_animeland_category = {
 					}
 				}
 			}
+			NOT = {
+				has_war_with = YUG
+			}
 		}
 		ai_will_do = {
 			base = 6
@@ -2497,6 +2506,9 @@ acw_create_great_animeland_category = {
 						is_subject_of = ROOT
 					}
 				}
+			}
+			NOT = {
+				has_war_with = HUN
 			}
 		}
 		available = {
@@ -2564,6 +2576,9 @@ acw_create_great_animeland_category = {
 					}
 				}
 			}
+			NOT = {
+				has_war_with = ALB
+			}
 		}
 		available = {
 			ALB = {
@@ -2629,6 +2644,9 @@ acw_create_great_animeland_category = {
 						is_subject_of = ROOT
 					}
 				}
+			}
+			NOT = {
+				has_war_with = ITA
 			}
 		}
 		available = {

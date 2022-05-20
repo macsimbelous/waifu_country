@@ -274,11 +274,19 @@ wfc_world_conquest_category = {
 			modifier = {
 				original_tag = MEH
 				FROM = {
-					OR = {
-						original_tag = USA
-					}
+					original_tag = USA
 				}
 				add = 10
+			}
+			modifier = {
+				original_tag = MMS
+				FROM = {
+					OR = {
+						original_tag = PER
+						original_tag = AFG
+					}
+				}
+				add = 200
 			}
 			# modifier = {
 			# 	FROM = {
@@ -3124,7 +3132,7 @@ wfc_puppets_category = {
 					has_government = democratic
 					has_government = neutrality
 				}
-				add = 95
+				add = 5
 			}
 			modifier = {
 				FROM = {
@@ -3133,7 +3141,7 @@ wfc_puppets_category = {
 						is_subject = yes
 					}
 				}
-				add = -100
+				add = -10
 			}
 		}
 		fire_only_once = no
@@ -3298,12 +3306,10 @@ wfc_puppets_category = {
 						threat = 5
 						name = wfc_create_puppet_threat
 					}
-					set_variable = { wfc_target_puppet = FROM.id }
-
-							country_event = wfc_event.6 
-	
-					
-					
+					set_variable = {
+						wfc_target_puppet = FROM.id
+					}
+					country_event = wfc_event.6
 				}
 				75 = {
 					modifier = {
@@ -3407,9 +3413,10 @@ wfc_puppets_category = {
 							modifier = medium_decrease
 						}
 					}
-					set_variable = { wfc_target_puppet = FROM.id }
-
-							country_event = wfc_event.7 
+					set_variable = {
+						wfc_target_puppet = FROM.id
+					}
+					country_event = wfc_event.7
 				}
 			}
 			# set_autonomy = {
