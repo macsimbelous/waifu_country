@@ -14,6 +14,16 @@
  wfc_event.3.t:0 "Democrat Demonstrations!"
  wfc_event.3.d:0 "Democrat Demonstrations!"
 
+#wfc_event.6
+ wfc_event.6.t:0 "§GSuccessful operation!§!"
+ wfc_event.6.d:0 "The special operation to establish control over the government of the state [?wfc_target_puppet.GetName] was completed successfully."
+ wfc_event.6.a:0 "Reward those involved."
+
+#wfc_event.7
+ wfc_event.7.t:0 "§ROperation failed!§!"
+ wfc_event.7.d:0 "During the special operation to establish control over the government of the state [?wfc_target_puppet.GetName] unforeseen circumstances arose that prevented the successful completion of the operation."
+ wfc_event.7.a:0 "It is necessary to find out the reasons for the failure."
+
 #News
 wfc_news.3.t:0 "Mass cloning!"
 wfc_news.3.d:0 "[TRP.GetName]'s vain attempts to solve the demographic problem forced the government to adopt a mass cloning program."

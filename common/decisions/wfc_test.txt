@@ -537,4 +537,21 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_annex_yug = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+			country_exists = YUG
+		}
+		complete_effect = {
+			annex_country = {
+				target = YUG
+				transfer_troops = yes
+			}
+			every_owned_state = {
+				add_core_of = ROOT
+			}
+		}
+	}
 }

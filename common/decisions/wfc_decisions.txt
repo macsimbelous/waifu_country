@@ -3298,6 +3298,12 @@ wfc_puppets_category = {
 						threat = 5
 						name = wfc_create_puppet_threat
 					}
+					set_variable = { wfc_target_puppet = FROM.id }
+
+							country_event = wfc_event.6 
+	
+					
+					
 				}
 				75 = {
 					modifier = {
@@ -3401,6 +3407,9 @@ wfc_puppets_category = {
 							modifier = medium_decrease
 						}
 					}
+					set_variable = { wfc_target_puppet = FROM.id }
+
+							country_event = wfc_event.7 
 				}
 			}
 			# set_autonomy = {
