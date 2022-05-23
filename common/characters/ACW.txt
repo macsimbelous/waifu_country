@@ -1575,7 +1575,8 @@ characters = {
 				princess_of_terror
 			}
 			modifier = {
-				compliance_growth = 0.15
+				#compliance_growth = 0.15
+				resistance_decay = 0.15
 			}
 		}
 		corps_commander = {

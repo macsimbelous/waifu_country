@@ -238,7 +238,7 @@ acw_concert_decisions = {
 			factor = 1
 		}
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		days_remove = 30
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -274,7 +274,7 @@ acw_concert_decisions = {
 			every_other_country = {
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = large_increase
+					modifier = small_increase
 				}
 			}
 			custom_effect_tooltip = acw_world_tour_tt
@@ -294,6 +294,18 @@ acw_concert_decisions = {
 					}
 				}
 			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = acw_concert_run_tt
+			# 	NOT = {
+			# 		has_country_flag = acw_concert_run_flag
+			# 	}
+			# }
+			# custom_trigger_tooltip = {
+			# 	tooltip = acw_love_laika_is_busy_tt
+			# 	NOT = {
+			# 		has_country_flag = acw_love_laika_is_busy_flag
+			# 	}
+			# }
 		}
 		visible = {
 			has_idea = acw_idols_agency_idea
@@ -320,7 +332,7 @@ acw_concert_decisions = {
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
 			clr_country_flag = acw_love_laika_is_busy_flag
-			add_stability = 0.05
+			#add_stability = 0.05
 		}
 	}
 	acw_love_laika_tour_decision = {
@@ -353,16 +365,13 @@ acw_concert_decisions = {
 		}
 		modifier = {
 			#stability_factor = 0.1
-			political_power_gain = -0.1
+			political_power_factor = -0.1
+			#compliance_growth = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_tour_run_flag
 			clr_country_flag = acw_love_laika_is_busy_flag
 			random_other_country = {
-				add_timed_idea = {
-					idea = democratic_influence
-					days = 30
-				}
 				add_opinion_modifier = {
 					target = ACW
 					modifier = acw_idols_tour_opinion
@@ -387,11 +396,7 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				has_stability < 0.6
-				add = 3
-			}
+			base = 1
 		}
 		fire_only_once = no
 		cost = 25
@@ -403,12 +408,12 @@ acw_concert_decisions = {
 			set_country_flag = acw_muse_is_busy_flag
 		}
 		modifier = {
-			stability_factor = 0.1
+			production_speed_buildings_factor = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
 			clr_country_flag = acw_muse_is_busy_flag
-			add_stability = 0.05
+			#add_stability = 0.05
 		}
 	}
 	acw_muse_tour_decision = {
@@ -440,17 +445,12 @@ acw_concert_decisions = {
 			set_country_flag = acw_muse_is_busy_flag
 		}
 		modifier = {
-			#stability_factor = 0.1
-			political_power_gain = -0.1
+			political_power_factor = -0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_tour_run_flag
 			clr_country_flag = acw_muse_is_busy_flag
 			random_other_country = {
-				add_timed_idea = {
-					idea = democratic_influence
-					days = 30
-				}
 				add_opinion_modifier = {
 					target = ACW
 					modifier = acw_idols_tour_opinion
@@ -475,11 +475,7 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				has_stability < 0.6
-				add = 3
-			}
+			base = 1
 		}
 		fire_only_once = no
 		cost = 25
@@ -491,12 +487,13 @@ acw_concert_decisions = {
 			set_country_flag = acw_aqours_is_busy_flag
 		}
 		modifier = {
-			stability_factor = 0.1
+			#stability_factor = 0.1
+			industrial_capacity_dockyard = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
 			clr_country_flag = acw_aqours_is_busy_flag
-			add_stability = 0.05
+			#add_stability = 0.05
 		}
 	}
 	acw_aqours_tour_decision = {
@@ -528,17 +525,13 @@ acw_concert_decisions = {
 			set_country_flag = acw_aqours_is_busy_flag
 		}
 		modifier = {
-			#stability_factor = 0.1
-			political_power_gain = -0.1
+			political_power_factor = -0.1
+			#compliance_growth = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_tour_run_flag
 			clr_country_flag = acw_aqours_is_busy_flag
 			random_other_country = {
-				add_timed_idea = {
-					idea = democratic_influence
-					days = 30
-				}
 				add_opinion_modifier = {
 					target = ACW
 					modifier = acw_idols_tour_opinion
@@ -563,11 +556,7 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				has_stability < 0.6
-				add = 3
-			}
+			base = 1
 		}
 		fire_only_once = no
 		cost = 25
@@ -579,12 +568,13 @@ acw_concert_decisions = {
 			set_country_flag = acw_765_production_is_busy_flag
 		}
 		modifier = {
-			stability_factor = 0.1
+			#stability_factor = 0.1
+			industrial_capacity_factory = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
 			clr_country_flag = acw_765_production_is_busy_flag
-			add_stability = 0.05
+			#add_stability = 0.05
 		}
 	}
 	acw_765_production_tour_decision = {
@@ -616,17 +606,13 @@ acw_concert_decisions = {
 			set_country_flag = acw_765_production_is_busy_flag
 		}
 		modifier = {
-			#stability_factor = 0.1
-			political_power_gain = -0.1
+			political_power_factor = -0.1
+			#compliance_growth = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_tour_run_flag
 			clr_country_flag = acw_765_production_is_busy_flag
 			random_other_country = {
-				add_timed_idea = {
-					idea = democratic_influence
-					days = 30
-				}
 				add_opinion_modifier = {
 					target = ACW
 					modifier = acw_idols_tour_opinion
@@ -651,10 +637,10 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 0
+			base = 1
 			modifier = {
-				has_stability < 0.6
-				add = 3
+				has_war = yes
+				add = 1
 			}
 		}
 		fire_only_once = no
@@ -667,12 +653,13 @@ acw_concert_decisions = {
 			set_country_flag = acw_ranko_kanzaki_is_busy_flag
 		}
 		modifier = {
-			stability_factor = 0.1
+			experience_gain_army_factor = 0.1
+			experience_gain_air_factor = 0.1
+			experience_gain_navy_factor = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
 			clr_country_flag = acw_ranko_kanzaki_is_busy_flag
-			add_stability = 0.05
 		}
 	}
 	acw_ranko_kanzaki_tour_decision = {
@@ -704,17 +691,12 @@ acw_concert_decisions = {
 			set_country_flag = acw_ranko_kanzaki_is_busy_flag
 		}
 		modifier = {
-			#stability_factor = 0.1
-			political_power_gain = -0.1
+			political_power_factor = -0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_tour_run_flag
 			clr_country_flag = acw_ranko_kanzaki_is_busy_flag
 			random_other_country = {
-				add_timed_idea = {
-					idea = democratic_influence
-					days = 30
-				}
 				add_opinion_modifier = {
 					target = ACW
 					modifier = acw_idols_tour_opinion
@@ -739,11 +721,7 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				has_stability < 0.6
-				add = 3
-			}
+			factor = 1
 		}
 		fire_only_once = no
 		cost = 25
@@ -755,12 +733,13 @@ acw_concert_decisions = {
 			set_country_flag = acw_kaede_takagaki_is_busy_flag
 		}
 		modifier = {
-			stability_factor = 0.1
+			#stability_factor = 0.1
+			research_speed_factor = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
 			clr_country_flag = acw_kaede_takagaki_is_busy_flag
-			add_stability = 0.05
+			#add_stability = 0.05
 		}
 	}
 	acw_kaede_takagaki_tour_decision = {
@@ -792,17 +771,12 @@ acw_concert_decisions = {
 			set_country_flag = acw_kaede_takagaki_is_busy_flag
 		}
 		modifier = {
-			#stability_factor = 0.1
-			political_power_gain = -0.1
+			political_power_factor = -0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_tour_run_flag
 			clr_country_flag = acw_kaede_takagaki_is_busy_flag
 			random_other_country = {
-				#add_timed_idea = {
-				#	idea = waifu_influence
-				#	days = 30
-				#}
 				add_opinion_modifier = {
 					target = ACW
 					modifier = acw_idols_tour_opinion
@@ -829,8 +803,8 @@ acw_concert_decisions = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				has_stability < 0.6
-				add = 3
+				has_war_support < 0.5
+				add = 5
 			}
 		}
 		fire_only_once = no
@@ -843,12 +817,15 @@ acw_concert_decisions = {
 			set_country_flag = acw_sheryl_nome_is_busy_flag
 		}
 		modifier = {
-			stability_factor = 0.1
+			#stability_factor = 0.1
+			#war_stability_factor = 0.1
+			war_support_factor = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
 			clr_country_flag = acw_sheryl_nome_is_busy_flag
-			add_stability = 0.05
+			#add_stability = 0.05
+			#add_war_support = 0.05
 		}
 	}
 	acw_sheryl_nome_tour_decision = {
@@ -880,21 +857,65 @@ acw_concert_decisions = {
 			set_country_flag = acw_sheryl_nome_is_busy_flag
 		}
 		modifier = {
-			#stability_factor = 0.1
-			political_power_gain = -0.1
+			political_power_factor = -0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_tour_run_flag
 			clr_country_flag = acw_sheryl_nome_is_busy_flag
 			random_other_country = {
-				add_timed_idea = {
-					idea = democratic_influence
-					days = 30
-				}
 				add_opinion_modifier = {
 					target = ACW
 					modifier = acw_idols_tour_opinion
 				}
+			}
+		}
+	}
+	acw_festival_in_states_decision = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_festival_in_states_tt
+				NOT = {
+					has_country_flag = acw_festival_in_states_flag
+				}
+			}
+			FROM = {
+				resistance < 10
+			}
+		}
+		visible = {
+			has_idea = acw_idols_agency_idea
+			FROM = {
+				is_owned_by = ROOT
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		state_target = yes
+		on_map_mode = map_only
+		target_array = owned_states
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		cost = 25
+		fire_only_once = no
+		days_remove = 30
+		days_re_enable = 60
+		complete_effect = {
+			set_country_flag = acw_festival_in_states_flag
+		}
+		remove_effect = {
+			clr_country_flag = acw_festival_in_states_flag
+			FROM = {
+				add_compliance = 10
 			}
 		}
 	}

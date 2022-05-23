@@ -554,4 +554,59 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_11 = {
+		fire_only_once = no
+		cost = 0
+		available = {
+			BUL = {
+				has_stability < 0.5
+			}
+			BUL = {
+				has_opinion = {
+					target = ROOT
+					value > 49
+				}
+			}
+			network_strength = {
+				target = BUL
+				value > 0.2
+			}
+			network_strength = {
+				target = BUL
+				value > 0.5
+			}
+			network_national_coverage = {
+				target = BUL
+				value > 0.2
+			}
+			network_national_coverage = {
+				target = BUL
+				value > 0.5
+			}
+			has_collaboration = {
+				target = BUL
+				value > 0.2
+			}
+			has_collaboration = {
+				target = BUL
+				value > 0.5
+			}
+		}
+		complete_effect = {
+			add_political_power = 100
+		}
+	}
+	wfc_test_12 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			set_autonomy = {
+				target = BUL
+				autonomy_state = autonomy_reichsprotectorate
+			}
+		}
+	}
 }

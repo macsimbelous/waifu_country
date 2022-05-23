@@ -169,9 +169,10 @@ ideas = {
 				decryption_power = 15
 				foreign_subversive_activites = -0.75
 				resistance_damage_to_garrison_on_our_occupied_states = 0.25
+				resistance_damage_to_garrison = -0.25
+				resistance_decay = 0.05
 				#political_power_factor = 0.1
 				political_power_gain = 0.1
-				resistance_damage_to_garrison = -0.25
 			}
 		}
 		acw_minprom_idea = {
@@ -190,9 +191,9 @@ ideas = {
 				consumer_goods_factor = -0.05
 				conversion_cost_civ_to_mil_factor = -0.25
 				conversion_cost_mil_to_civ_factor = -0.25
+				global_building_slots_factor = 0.2
 				#political_power_factor = 0.1
 				political_power_gain = 0.1
-				global_building_slots_factor = 0.2
 			}
 		}
 		acw_minpropagand_idea = {
@@ -210,6 +211,7 @@ ideas = {
 				war_stability_factor = 0.1
 				justify_war_goal_time = -0.25
 				army_morale_factor = 0.15
+				compliance_growth = 0.05
 				#political_power_factor = 0.1
 				political_power_gain = 0.1
 			}
