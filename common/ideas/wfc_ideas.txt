@@ -863,6 +863,9 @@ ideas = {
 			traits = {
 				industrial_concern
 			}
+			ai_will_do = {
+				factor = 5
+			}
 		}
 		wfc_electronics_concern = {
 			picture = generic_electronics_concern_1

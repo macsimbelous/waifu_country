@@ -2374,7 +2374,7 @@ acw_create_great_animeland_category = {
 			}
 		}
 		ai_will_do = {
-			base = 6
+			base = 7
 			modifier = {
 				has_war = yes
 				add = -5
