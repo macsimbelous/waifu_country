@@ -49,13 +49,13 @@ set_technology = {
 	basic_depth_charges = 1
 }
 
-JAP = {
-	diplomatic_relation = {
-		country = HEN
-		relation = military_access
-		active = yes
-	}
-}
+# JAP = {
+# 	diplomatic_relation = {
+# 		country = HEN
+# 		relation = military_access
+# 		active = yes
+# 	}
+# }
 
 set_research_slots = 4
 set_convoys = 150

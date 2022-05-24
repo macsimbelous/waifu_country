@@ -963,7 +963,7 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
-				naval_liason naval_lineage
+				naval_lineage
 			}
 			skill = 4
 			attack_skill = 4
