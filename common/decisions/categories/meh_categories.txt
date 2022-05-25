@@ -36,3 +36,14 @@ meh_cyborgization_category = {
 		original_tag = MEH
 	}
 }
+
+meh_exterminatus_category = {
+	priority = 8
+	icon = decision_generic_ignite_civil_war
+	allowed = {
+		original_tag = MEH
+	}
+	visible = {
+		has_government = fascism
+	}
+}

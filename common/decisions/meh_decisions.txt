@@ -230,7 +230,9 @@ meh_modernization_category = {
 				set_global_flag = wfc_perimetr_flag
 				add_ideas = meh_perimetr_idea
 			}
-			country_event = { id = meh_event.1 }
+			country_event = {
+				id = meh_event.1
+			}
 		}
 	}
 }
@@ -702,6 +704,151 @@ political_actions = {
 					}
 					1 = {
 						add_country_leader_trait = wfc_superweapon
+					}
+				}
+			}
+		}
+	}
+}
+
+meh_exterminatus_category = {
+	meh_ignite_exterminatus = {
+		icon = generic_ignite_civil_war
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = meh_warmind_complete_tt
+				has_country_flag = meh_warmind_complete_flag
+			}
+			custom_trigger_tooltip = {
+				tooltip = meh_usa_under_control_tt
+				386 = { is_controlled_by_ROOT_or_subject = yes }
+				385 = { is_controlled_by_ROOT_or_subject = yes }
+				387 = { is_controlled_by_ROOT_or_subject = yes }
+				388 = { is_controlled_by_ROOT_or_subject = yes }
+				381 = { is_controlled_by_ROOT_or_subject = yes }
+				380 = { is_controlled_by_ROOT_or_subject = yes }
+				377 = { is_controlled_by_ROOT_or_subject = yes }
+				382 = { is_controlled_by_ROOT_or_subject = yes }
+				376 = { is_controlled_by_ROOT_or_subject = yes }
+				389 = { is_controlled_by_ROOT_or_subject = yes }
+				390 = { is_controlled_by_ROOT_or_subject = yes }
+				384 = { is_controlled_by_ROOT_or_subject = yes }
+				383 = { is_controlled_by_ROOT_or_subject = yes }
+				374 = { is_controlled_by_ROOT_or_subject = yes }
+				391 = { is_controlled_by_ROOT_or_subject = yes }
+				392 = { is_controlled_by_ROOT_or_subject = yes }
+				373 = { is_controlled_by_ROOT_or_subject = yes }
+				372 = { is_controlled_by_ROOT_or_subject = yes }
+				375 = { is_controlled_by_ROOT_or_subject = yes }
+				371 = { is_controlled_by_ROOT_or_subject = yes }
+				394 = { is_controlled_by_ROOT_or_subject = yes }
+				395 = { is_controlled_by_ROOT_or_subject = yes }
+				370 = { is_controlled_by_ROOT_or_subject = yes }
+				393 = { is_controlled_by_ROOT_or_subject = yes }
+				396 = { is_controlled_by_ROOT_or_subject = yes }
+				369 = { is_controlled_by_ROOT_or_subject = yes }
+				368 = { is_controlled_by_ROOT_or_subject = yes }
+				367 = { is_controlled_by_ROOT_or_subject = yes }
+				261 = { is_controlled_by_ROOT_or_subject = yes }
+				816 = { is_controlled_by_ROOT_or_subject = yes }
+				362 = { is_controlled_by_ROOT_or_subject = yes }
+				363 = { is_controlled_by_ROOT_or_subject = yes }
+				364 = { is_controlled_by_ROOT_or_subject = yes }
+				365 = { is_controlled_by_ROOT_or_subject = yes }
+				366 = { is_controlled_by_ROOT_or_subject = yes }
+				358 = { is_controlled_by_ROOT_or_subject = yes }
+				360 = { is_controlled_by_ROOT_or_subject = yes }
+				361 = { is_controlled_by_ROOT_or_subject = yes }
+				359 = { is_controlled_by_ROOT_or_subject = yes }
+				357 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = meh_mex_under_control_tt
+				484 = { is_controlled_by_ROOT_or_subject = yes }
+				483 = { is_controlled_by_ROOT_or_subject = yes }
+				482 = { is_controlled_by_ROOT_or_subject = yes }
+				481 = { is_controlled_by_ROOT_or_subject = yes }
+				480 = { is_controlled_by_ROOT_or_subject = yes }
+				478 = { is_controlled_by_ROOT_or_subject = yes }
+				479 = { is_controlled_by_ROOT_or_subject = yes }
+				485 = { is_controlled_by_ROOT_or_subject = yes }
+				277 = { is_controlled_by_ROOT_or_subject = yes }
+				477 = { is_controlled_by_ROOT_or_subject = yes }
+				476 = { is_controlled_by_ROOT_or_subject = yes }
+				475 = { is_controlled_by_ROOT_or_subject = yes }
+				474 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = meh_can_under_control_tt
+				471 = { is_controlled_by_ROOT_or_subject = yes }
+				473 = { is_controlled_by_ROOT_or_subject = yes }
+				740 = { is_controlled_by_ROOT_or_subject = yes }
+				472 = { is_controlled_by_ROOT_or_subject = yes }
+				470 = { is_controlled_by_ROOT_or_subject = yes }
+				469 = { is_controlled_by_ROOT_or_subject = yes }
+				683 = { is_controlled_by_ROOT_or_subject = yes }
+				467 = { is_controlled_by_ROOT_or_subject = yes }
+				682 = { is_controlled_by_ROOT_or_subject = yes }
+				276 = { is_controlled_by_ROOT_or_subject = yes }
+				466 = { is_controlled_by_ROOT_or_subject = yes }
+				468 = { is_controlled_by_ROOT_or_subject = yes }
+				465 = { is_controlled_by_ROOT_or_subject = yes }
+				464 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					is_in_faction = yes
+				}
+				if = {
+					limit = {
+						is_faction_leader = yes
+					}
+					dismantle_faction = yes
+				}
+				else = {
+					leave_faction = yes
+				}
+			}
+			create_faction = meh_exterminatus
+			every_other_country = {
+				limit = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				ROOT = {
+					add_to_faction = PREV
+				}
+			}
+			every_state = {
+				limit = {
+					NOT = {
+						owner = {
+							tag = ROOT
+						}
+					}
+				}
+				add_claim_by = ROOT
+			}
+			every_other_country = {
+				limit = {
+					NOT = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				ROOT = {
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
 					}
 				}
 			}
