@@ -3129,12 +3129,9 @@ wfc_puppets_category = {
 			}
 		}
 		ai_will_do = {
-			base = 5
+			base = 1
 			modifier = {
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
+				has_government = democratic
 				add = 5
 			}
 			modifier = {
@@ -3144,7 +3141,7 @@ wfc_puppets_category = {
 						is_subject = yes
 					}
 				}
-				add = -10
+				add = -6
 			}
 		}
 		fire_only_once = no
@@ -3250,7 +3247,9 @@ wfc_puppets_category = {
 					modifier = {
 						has_government = democratic
 						FROM = {
-							NOT = { has_government = democratic }
+							NOT = {
+								has_government = democratic
+							}
 						}
 						factor = 1.3
 					}

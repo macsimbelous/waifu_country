@@ -407,27 +407,56 @@ mms_expansion_of_living_space_category = {
 		days_remove = 180
 		fire_only_once = yes
 		available = {
-			# Iran
-			custom_trigger_tooltip = {
-				tooltip = form_country_iran_required_states_tt
-				controls_state = 419
-				controls_state = 421
-				controls_state = 420
-				controls_state = 417
-				controls_state = 413
-				controls_state = 266
-				controls_state = 418
-				controls_state = 411
-				controls_state = 412
-				controls_state = 416
-				controls_state = 414
-				controls_state = 410
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# Iran
+				custom_trigger_tooltip = {
+					tooltip = form_country_iran_required_states_tt
+					419 = { is_controlled_by_ROOT_or_subject = yes }
+					421 = { is_controlled_by_ROOT_or_subject = yes }
+					420 = { is_controlled_by_ROOT_or_subject = yes }
+					417 = { is_controlled_by_ROOT_or_subject = yes }
+					413 = { is_controlled_by_ROOT_or_subject = yes }
+					266 = { is_controlled_by_ROOT_or_subject = yes }
+					418 = { is_controlled_by_ROOT_or_subject = yes }
+					411 = { is_controlled_by_ROOT_or_subject = yes }
+					412 = { is_controlled_by_ROOT_or_subject = yes }
+					416 = { is_controlled_by_ROOT_or_subject = yes }
+					414 = { is_controlled_by_ROOT_or_subject = yes }
+					410 = { is_controlled_by_ROOT_or_subject = yes }
+				}
+				# Afghanistan
+				custom_trigger_tooltip = {
+					tooltip = form_country_afghanistan_required_states_tt
+					415 = { is_controlled_by_ROOT_or_subject = yes }
+					267 = { is_controlled_by_ROOT_or_subject = yes }
+				}
 			}
-			# Afghanistan
-			custom_trigger_tooltip = {
-				tooltip = form_country_afghanistan_required_states_tt
-				controls_state = 415
-				controls_state = 267
+			else = {
+				# Iran
+				custom_trigger_tooltip = {
+					tooltip = form_country_iran_required_states_tt
+					controls_state = 419
+					controls_state = 421
+					controls_state = 420
+					controls_state = 417
+					controls_state = 413
+					controls_state = 266
+					controls_state = 418
+					controls_state = 411
+					controls_state = 412
+					controls_state = 416
+					controls_state = 414
+					controls_state = 410
+				}
+				# Afghanistan
+				custom_trigger_tooltip = {
+					tooltip = form_country_afghanistan_required_states_tt
+					controls_state = 415
+					controls_state = 267
+				}
 			}
 		}
 		ai_will_do = {

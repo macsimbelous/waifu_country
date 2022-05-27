@@ -1961,159 +1961,218 @@ acw_create_great_animeland_category = {
 				controls_state = 846
 				controls_state = 847
 			}
-			#Bulgaria
-			custom_trigger_tooltip = {
-				tooltip = acw_form_bulgaria_required_states_tt
-				#controls_state = 48
-				48 = {
-					is_controlled_by_ROOT_or_subject = yes
+			if = {
+				limit = {
+					is_ai = yes
 				}
-				#controls_state = 801
-				801 = {
-					is_controlled_by_ROOT_or_subject = yes
+				#Bulgaria
+				custom_trigger_tooltip = {
+					tooltip = acw_form_bulgaria_required_states_tt
+					#controls_state = 48
+					48 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 801
+					801 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 212
+					212 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 211
+					211 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
 				}
-				#controls_state = 212
-				212 = {
-					is_controlled_by_ROOT_or_subject = yes
+				#Romania
+				custom_trigger_tooltip = {
+					tooltip = acw_form_romania_required_states_tt
+					#controls_state = 46
+					46 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 76
+					76 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 77
+					77 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 79
+					79 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 81
+					81 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 82
+					82 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 83
+					83 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 84
+					84 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
 				}
-				#controls_state = 211
-				211 = {
-					is_controlled_by_ROOT_or_subject = yes
+				#Yugoslavia 
+				custom_trigger_tooltip = {
+					tooltip = acw_form_yugoslavia_required_states_tt
+					#controls_state = 102
+					102 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 103
+					103 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 109
+					109 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 104
+					104 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 804
+					804 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 105
+					105 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 107
+					107 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 45
+					45 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 764
+					764 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 108
+					108 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 802
+					802 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 803
+					803 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 106
+					106 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				# Hungary
+				custom_trigger_tooltip = {
+					tooltip = acw_form_hungary_required_states_tt
+					#controls_state = 155
+					155 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 43
+					43 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 154
+					154 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#Albania
+				custom_trigger_tooltip = {
+					tooltip = acw_form_albania_required_states_tt
+					#controls_state = 44
+					44 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+					#controls_state = 805
+					805 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#controls_state = 163
+				custom_trigger_tooltip = {
+					tooltip = acw_form_163_required_states_tt
+					163 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
+				}
+				#controls_state = 736
+				custom_trigger_tooltip = {
+					tooltip = acw_form_736_required_states_tt
+					736 = {
+						is_controlled_by_ROOT_or_subject = yes
+					}
 				}
 			}
-			#Romania
-			custom_trigger_tooltip = {
-				tooltip = acw_form_romania_required_states_tt
-				#controls_state = 46
-				46 = {
-					is_controlled_by_ROOT_or_subject = yes
+			else = {
+				#Bulgaria
+				custom_trigger_tooltip = {
+					tooltip = acw_form_bulgaria_required_states_tt
+					controls_state = 48
+					controls_state = 801
+					controls_state = 212
+					controls_state = 211
 				}
-				#controls_state = 76
-				76 = {
-					is_controlled_by_ROOT_or_subject = yes
+				#Romania
+				custom_trigger_tooltip = {
+					tooltip = acw_form_romania_required_states_tt
+					controls_state = 46
+					controls_state = 76
+					controls_state = 77
+					controls_state = 79
+					controls_state = 81
+					controls_state = 82
+					controls_state = 83
+					controls_state = 84
 				}
-				#controls_state = 77
-				77 = {
-					is_controlled_by_ROOT_or_subject = yes
+				#Yugoslavia 
+				custom_trigger_tooltip = {
+					tooltip = acw_form_yugoslavia_required_states_tt
+					controls_state = 102
+					controls_state = 103
+					controls_state = 109
+					controls_state = 104
+					controls_state = 804
+					controls_state = 105
+					controls_state = 107
+					controls_state = 45
+					controls_state = 764
+					controls_state = 108
+					controls_state = 802
+					controls_state = 803
+					controls_state = 106
 				}
-				#controls_state = 79
-				79 = {
-					is_controlled_by_ROOT_or_subject = yes
+				# Hungary
+				custom_trigger_tooltip = {
+					tooltip = acw_form_hungary_required_states_tt
+					controls_state = 155
+					controls_state = 43
+					controls_state = 154
 				}
-				#controls_state = 81
-				81 = {
-					is_controlled_by_ROOT_or_subject = yes
+				#Albania
+				custom_trigger_tooltip = {
+					tooltip = acw_form_albania_required_states_tt
+					controls_state = 44
+					controls_state = 805
 				}
-				#controls_state = 82
-				82 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 83
-				83 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 84
-				84 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			#Yugoslavia 
-			custom_trigger_tooltip = {
-				tooltip = acw_form_yugoslavia_required_states_tt
-				#controls_state = 102
-				102 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 103
-				103 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 109
-				109 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 104
-				104 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 804
-				804 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 105
-				105 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 107
-				107 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 45
-				45 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 764
-				764 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 108
-				108 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 802
-				802 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 803
-				803 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 106
-				106 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			# Hungary
-			custom_trigger_tooltip = {
-				tooltip = acw_form_hungary_required_states_tt
-				#controls_state = 155
-				155 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 43
-				43 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 154
-				154 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			#Albania
-			custom_trigger_tooltip = {
-				tooltip = acw_form_albania_required_states_tt
-				#controls_state = 44
-				44 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-				#controls_state = 805
-				805 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			#controls_state = 163
-			custom_trigger_tooltip = {
-				tooltip = acw_form_163_required_states_tt
-				163 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
-			#controls_state = 736
-			custom_trigger_tooltip = {
-				tooltip = acw_form_736_required_states_tt
-				736 = {
-					is_controlled_by_ROOT_or_subject = yes
-				}
+				controls_state = 163
+				controls_state = 736
 			}
 		}
 		ai_will_do = {
