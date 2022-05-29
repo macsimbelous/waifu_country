@@ -822,6 +822,7 @@ acw_concert_decisions = {
 			#war_stability_factor = 0.1
 			#war_support_factor = 0.1
 			war_support_weekly = 0.1
+			weekly_manpower = 500
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
