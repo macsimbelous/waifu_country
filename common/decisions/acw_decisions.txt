@@ -327,7 +327,8 @@ acw_concert_decisions = {
 			set_country_flag = acw_love_laika_is_busy_flag
 		}
 		modifier = {
-			stability_factor = 0.1
+			#stability_factor = 0.1
+			stability_weekly = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
@@ -819,7 +820,8 @@ acw_concert_decisions = {
 		modifier = {
 			#stability_factor = 0.1
 			#war_stability_factor = 0.1
-			war_support_factor = 0.1
+			#war_support_factor = 0.1
+			war_support_weekly = 0.1
 		}
 		remove_effect = {
 			clr_country_flag = acw_concert_run_flag
