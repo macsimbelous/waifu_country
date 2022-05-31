@@ -89,6 +89,16 @@ meh_change_country_leader = {
 		}
 		1 = {
 			set_country_leader_portrait = {
+				portrait = GFX_portrait_meh_land_19
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_meh_land_20
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
 				portrait = GFX_portrait_meh_naval_01
 			}
 		}
@@ -119,6 +129,16 @@ meh_change_country_leader = {
 		}
 		1 = {
 			set_country_leader_portrait = {
+				portrait = GFX_portrait_meh_naval_07
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_meh_naval_08
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
 				portrait = GFX_portrait_meh_operative_01
 			}
 		}
@@ -140,6 +160,11 @@ meh_change_country_leader = {
 		1 = {
 			set_country_leader_portrait = {
 				portrait = GFX_portrait_meh_operative_06
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_meh_operative_07
 			}
 		}
 	}
