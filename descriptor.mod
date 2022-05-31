@@ -1,4 +1,4 @@
-version="47"
+version="48"
 tags={
 	"Alternative History"
 }
