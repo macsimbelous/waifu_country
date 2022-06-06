@@ -1,4 +1,4 @@
-﻿capital = 848
+﻿capital = 842
 oob = "HEN_1936"
 set_naval_oob = "HEN_1936_Naval"
 #research and industry stuff
@@ -176,6 +176,10 @@ HEN_Mari_Setogaya = {
 }
 HEN_Sheliss_Elleness_Zurbach = {
 	set_character_flag = hen_country_leader_flag
+}
+set_province_name = {
+    id = 11925
+    name = hen_vp_11925_name
 }
 ### Variants ###
 # Submarines #
