@@ -466,4 +466,65 @@ MAH_naval_role_ratios_anti_submarines = {
 	}
 }
 
-
+MAH_conquer_me = {
+	allowed = {
+		original_tag = MAH
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "TUR"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
+MAH_protect_sov = {
+	allowed = {
+		original_tag = MAH
+	}
+	enable = {
+		has_government = communism
+		SOV = {
+			has_government = communism
+		}
+	}
+	abort = {
+		OR = {
+			NOT = {
+				has_government = communism
+			}
+			SOV = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = protect
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}

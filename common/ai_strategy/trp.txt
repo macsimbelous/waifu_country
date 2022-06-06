@@ -248,6 +248,7 @@ TRP_template_design_2 = {
 		value = 10
 	}
 }
+
 TRP_template_design_3 = {
 	allowed = {
 		original_tag = TRP
@@ -466,4 +467,66 @@ TRP_naval_role_ratios_anti_submarines = {
 	}
 }
 
+TRP_conquer_sa = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BRA"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "BRA"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
 
+TRP_protect_sov = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		has_government = communism
+		SOV = {
+			has_government = communism
+		}
+	}
+	abort = {
+		OR = {
+			NOT = {
+				has_government = communism
+			}
+			SOV = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = protect
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}

@@ -248,6 +248,7 @@ HEN_template_design_2 = {
 		value = 10
 	}
 }
+
 HEN_template_design_3 = {
 	allowed = {
 		original_tag = HEN
@@ -466,4 +467,66 @@ HEN_naval_role_ratios_anti_submarines = {
 	}
 }
 
+HEN_conquer_jap = {
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		has_country_flag = hen_world_conquest_enabled_flag
+	}
+	ai_strategy = {
+		type = conquer
+		id = "JAP"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "JAP"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
 
+HEN_protect_sov = {
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		has_government = communism
+		SOV = {
+			has_government = communism
+		}
+	}
+	abort = {
+		OR = {
+			NOT = {
+				has_government = communism
+			}
+			SOV = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = protect
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}

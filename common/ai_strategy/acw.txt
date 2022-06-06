@@ -248,6 +248,7 @@ ACW_template_design_2 = {
 		value = 10
 	}
 }
+
 ACW_template_design_3 = {
 	allowed = {
 		original_tag = ACW
@@ -465,4 +466,81 @@ ACW_naval_role_ratios_anti_submarines = {
 	}
 }
 
+ACW_conquer_balkan = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ROM"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "ROM"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "YUG"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "YUG"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
 
+ACW_protect_europe = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		NOT = {
+			has_government = fascism
+		}
+	}
+	abort = {
+		has_government = fascism
+	}
+	ai_strategy = {
+		type = protect
+		id = "CZE"
+		value = 100
+	}
+	ai_strategy = {
+		type = protect
+		id = "POL"
+		value = 100
+	}
+	ai_strategy = {
+		type = protect
+		id = "FRA"
+		value = 100
+	}
+	ai_strategy = {
+		type = protect
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}

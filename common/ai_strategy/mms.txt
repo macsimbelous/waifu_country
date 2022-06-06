@@ -465,5 +465,75 @@ MMS_naval_role_ratios_anti_submarines = {
 		value = -10
 	}
 }
-
-
+MMS_conquer_per_afg = {
+	allowed = {
+		original_tag = MMS
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AFG"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "AFG"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "PER"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
+MMS_protect_sov = {
+	allowed = {
+		original_tag = MMS
+	}
+	enable = {
+		has_government = communism
+		SOV = {
+			has_government = communism
+		}
+	}
+	abort = {
+		OR = {
+			NOT = {
+				has_government = communism
+			}
+			SOV = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = protect
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}

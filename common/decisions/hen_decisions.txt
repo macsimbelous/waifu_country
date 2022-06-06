@@ -86,7 +86,7 @@ hen_japan_conquest = {
 		cost = 50
 		days_remove = 60
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 		remove_effect = {
 			set_country_flag = hen_add_claim_to_jap_flag

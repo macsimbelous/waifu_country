@@ -6,6 +6,11 @@ hen_japan_conquest = {
 		original_tag = HEN
 		#always = no
 	}
+	visible = {
+		NOT = {
+			has_country_flag = hen_world_conquest_enabled_flag
+		}
+	}
 }
 
 hen_internationalism_category = {

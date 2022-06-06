@@ -426,3 +426,65 @@ MEH_naval_role_ratios_anti_submarines = {
 		value = -10
 	}
 }
+MEH_conquer_usa = {
+	allowed = {
+		original_tag = MEH
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "USA"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
+MEH_protect_sov = {
+	allowed = {
+		original_tag = MEH
+	}
+	enable = {
+		has_government = communism
+		SOV = {
+			has_government = communism
+		}
+	}
+	abort = {
+		OR = {
+			NOT = {
+				has_government = communism
+			}
+			SOV = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = protect
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}

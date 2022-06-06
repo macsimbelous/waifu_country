@@ -396,7 +396,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -441,7 +441,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -501,7 +501,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -561,7 +561,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -694,7 +694,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -771,7 +771,24 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 3
+			modifier = {
+				ENG = {
+					has_opinion = {
+						target = ROOT
+						value > 49
+					}
+				}
+				add = 5
+			}
+			modifier = {
+				is_in_faction_with = ENG
+				add = 5
+			}
+			modifier = {
+				has_government = democratic
+				add = 5
+			}
 		}
 		complete_effect = {
 			ENG = {
@@ -910,7 +927,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1042,7 +1059,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1174,7 +1191,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1295,7 +1312,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2
@@ -1403,7 +1420,7 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
 		modifier = {
 			industrial_capacity_factory = 0.2

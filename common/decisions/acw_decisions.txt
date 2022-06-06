@@ -261,6 +261,7 @@ acw_concert_decisions = {
 		fire_only_once = yes
 		cost = 300
 		days_remove = 120
+		days_re_enable = 245
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -353,7 +354,11 @@ acw_concert_decisions = {
 			has_country_flag = acw_world_tour_flag
 		}
 		ai_will_do = {
-			factor = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 1
+			}
 		}
 		fire_only_once = no
 		cost = 100
@@ -397,7 +402,11 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 3
+			}
 		}
 		fire_only_once = no
 		cost = 25
@@ -434,7 +443,11 @@ acw_concert_decisions = {
 			has_country_flag = acw_world_tour_flag
 		}
 		ai_will_do = {
-			factor = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 1
+			}
 		}
 		fire_only_once = no
 		cost = 100
@@ -476,7 +489,11 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 3
+			}
 		}
 		fire_only_once = no
 		cost = 25
@@ -514,7 +531,11 @@ acw_concert_decisions = {
 			has_country_flag = acw_world_tour_flag
 		}
 		ai_will_do = {
-			factor = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 1
+			}
 		}
 		fire_only_once = no
 		cost = 100
@@ -557,7 +578,15 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 3
+			}
+			modifier = {
+				has_war = yes
+				add = 3
+			}
 		}
 		fire_only_once = no
 		cost = 25
@@ -595,7 +624,11 @@ acw_concert_decisions = {
 			has_country_flag = acw_world_tour_flag
 		}
 		ai_will_do = {
-			factor = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 1
+			}
 		}
 		fire_only_once = no
 		cost = 100
@@ -638,10 +671,10 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
 			modifier = {
 				has_war = yes
-				add = 1
+				add = 3
 			}
 		}
 		fire_only_once = no
@@ -680,7 +713,11 @@ acw_concert_decisions = {
 			has_country_flag = acw_world_tour_flag
 		}
 		ai_will_do = {
-			factor = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 1
+			}
 		}
 		fire_only_once = no
 		cost = 100
@@ -722,7 +759,11 @@ acw_concert_decisions = {
 			has_idea = acw_idols_agency_idea
 		}
 		ai_will_do = {
-			factor = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 3
+			}
 		}
 		fire_only_once = no
 		cost = 25
@@ -760,7 +801,11 @@ acw_concert_decisions = {
 			has_country_flag = acw_world_tour_flag
 		}
 		ai_will_do = {
-			factor = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 1
+			}
 		}
 		fire_only_once = no
 		cost = 100
@@ -807,6 +852,10 @@ acw_concert_decisions = {
 				has_war_support < 0.5
 				add = 5
 			}
+			modifier = {
+				has_war = yes
+				add = 5
+			}
 		}
 		fire_only_once = no
 		cost = 25
@@ -848,7 +897,11 @@ acw_concert_decisions = {
 			has_country_flag = acw_world_tour_flag
 		}
 		ai_will_do = {
-			factor = 1
+			base = 0
+			modifier = {
+				has_political_power > 300
+				add = 1
+			}
 		}
 		fire_only_once = no
 		cost = 100
@@ -896,7 +949,13 @@ acw_concert_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			base = 0
+			modifier = {
+				FROM = {
+					compliance < 80
+				}
+				add = 2
+			}
 		}
 		state_target = yes
 		on_map_mode = map_only
