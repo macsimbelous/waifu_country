@@ -110,10 +110,13 @@ hen_japan_conquest = {
 	hen_declare_war_jap = {
 		icon = generic_ignite_civil_war
 		available = {
-			has_country_flag = hen_stockpile_up_flag
-			has_country_flag = hen_seduce_politics_flag
-			has_country_flag = hen_demoralize_jap_flag
-			has_country_flag = hen_add_claim_to_jap_flag
+			custom_trigger_tooltip = {
+				tooltip = hen_japan_conquest_prepare_complete_tt
+				has_country_flag = hen_stockpile_up_flag
+				has_country_flag = hen_seduce_politics_flag
+				has_country_flag = hen_demoralize_jap_flag
+				has_country_flag = hen_add_claim_to_jap_flag
+			}
 		}
 		fire_only_once = yes
 		cost = 50
@@ -139,10 +142,11 @@ hen_japan_conquest = {
 		}
 		visible = {
 			NOT = {
-				OR = {
-					has_country_flag = hen_world_conquest_enabled_flag
-					is_in_faction_with = ENG
-				}
+				is_in_faction_with = ENG
+				# OR = {
+				# 	has_country_flag = hen_world_conquest_enabled_flag
+				# 	is_in_faction_with = ENG
+				# }
 			}
 		}
 		fire_only_once = yes
