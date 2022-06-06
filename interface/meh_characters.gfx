@@ -456,6 +456,10 @@ spriteTypes = {
 		name = "GFX_portrait_meh_naval_08"
 		texturefile = "gfx/leaders/MEH/generic/meh_naval_08.dds"
 	}
+        spriteType = {
+		name = "GFX_portrait_meh_naval_09"
+		texturefile = "gfx/leaders/MEH/generic/meh_naval_09.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_meh_operative_01"
 		texturefile = "gfx/leaders/MEH/generic/meh_operative_01.dds"
