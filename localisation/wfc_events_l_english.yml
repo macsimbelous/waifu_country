@@ -45,7 +45,25 @@ wfc_news.7.t:0 "The first artificial satellite of the Earth!"
 wfc_news.7.d:0 "[MEH.GetNameDef] announces the launch of the first artificial Earth satellite into space! According to preliminary data, the launch vehicle told the satellite the required orbital speed of about 8000 meters per second. At present, the satellite describes elliptical trajectories around the Earth, and its flight can be observed in the rays of the rising and setting Sun with the help of the simplest optical instruments (binoculars, telescopes, etc.). The successful launch of the first man-made satellite of the Earth makes a major contribution to the treasury of world science and culture. A scientific experiment carried out at such a high altitude is of great importance for the knowledge of the properties of outer space and the study of the Earth as a planet of our solar system."
 wfc_news.7.a:0 "This is the beginning of a new era!"
 
- 
+#wfc_news.8
+ wfc_news.8.t:0 "Machine War!"
+ wfc_news.8.d:0 "[USA.GetName] have announced that they will no longer tolerate the existence of ungodly machines."
+ wfc_news.8.a:0 "There is no place for soulless machines in our world."
+ wfc_news.8.b:0 "They will regret it."
+
+#wfc_news.9
+ wfc_news.9.t:0 "Exterminatus"
+ wfc_news.9.d:0 "Humanity must be wiped off the face of the earth."
+ wfc_news.9.a:0 "May the Lord help us."
+ wfc_news.9.b:0 "§RKill all people!§!"
+
+#wfc_news.101
+ wfc_news.101.t:0 "Fall of Washington"
+ wfc_news.101.d:0 "The fighting in the Washington area ended today as the last pockets of resistance were destroyed by the 'Mech forces advancing along the Potomac River. \n\nA thick curtain of smoke nearly obscured the city. The fires were partly caused by intelligence officers, who until the last moment burned secret documents. A squad of elite mech troops took over the White House after a brief firefight with security officers, but the president himself appears to have been evacuated a few days ago.\n\nThe fall of the American capital clearly demonstrated the fearsome power of the girl's mech war machine."
+
+#wfc_news.102
+ wfc_news.102.t:0 "Fall of New York"
+ wfc_news.102.d:0 "After prolonged street fighting, which was carried out mainly by armed irregular units, the German attack aircraft managed to capture New York. \n\nThe makeshift anti-tank barriers on 5th Avenue proved useless, and motorized infantry took Manhattan district by district.\n\nFor several days now, fires have been raging in the eastern part of the city, from which a bright glow shines at night. \n\nThe Statue of Liberty is decapitated by a random artillery shell, and it is still unknown which side the shot came from."
 
 
 

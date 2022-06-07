@@ -240,6 +240,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MEH/Mythra.dds"
 	}
         spriteType = {
+		name = "GFX_portrait_meh_mythra_leader"
+		texturefile = "gfx/leaders/MEH/mythra_leader.dds"
+	}
+        spriteType = {
                 name = "GFX_idea_meh_phantom_queen_ex-xecty"
                 texturefile = "gfx/leaders/MEH/phantom_queen_ex-xecty_idea.dds"
         }

@@ -1,5 +1,4 @@
 add_namespace = meh_event
-
 country_event = {
 	id = meh_event.1
 	title = meh_event.1.t
@@ -12,5 +11,61 @@ country_event = {
 			factor = 75
 		}
 		#add_ideas = ROA_apocalypse_idea
+	}
+}
+
+country_event = {
+	id = meh_event.2
+	title = meh_event.2.t
+	desc = meh_event.2.d
+	#picture = GFX_meh_event_01
+	is_triggered_only = yes
+	option = {
+		name = meh_event.2.a
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			every_owned_state = {
+				add_claim_by = USA
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+		USA = {
+			declare_war_on = {
+				target = MEH
+				type = annex_everything
+			}
+		}
+		news_event = wfc_news.8
+	}
+	option = {
+		name = meh_event.2.b
+		ai_chance = {
+			factor = 0
+		}
+		if = {
+			limit = {
+				MEX = {
+					is_puppet_of = MEH
+				}
+			}
+			release_puppet = MEX
+		}
+		MEX = {
+			transfer_state = 483
+			transfer_state = 482
+			transfer_state = 480
+			transfer_state = 479
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.5
+			}
+		}
 	}
 }

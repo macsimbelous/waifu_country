@@ -1,65 +1,52 @@
 add_namespace = wfc_news
-
 news_event = {
 	id = wfc_news.3
 	title = wfc_news.3.t
 	desc = wfc_news.3.d
 	picture = GFX_wfc_news_event_003
-	
 	major = yes
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = wfc_news.3.a
-
 	}
 }
+
 news_event = {
 	id = wfc_news.4
 	title = wfc_news.4.t
 	desc = wfc_news.4.d
 	picture = GFX_wfc_news_event_004
-	
 	major = yes
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = wfc_news.4.a
-
 	}
 }
+
 news_event = {
 	id = wfc_news.5
 	title = wfc_news.5.t
 	desc = wfc_news.5.d
 	picture = GFX_wfc_news_event_005
-	
 	major = yes
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = wfc_news.5.a
-
 	}
 }
+
 news_event = {
 	id = wfc_news.6
 	title = wfc_news.6.t
 	desc = wfc_news.6.d
 	picture = GFX_wfc_news_event_006
-	
 	major = yes
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = wfc_news.6.a
-
 	}
 }
+
 #kosmos
 #RAKETA PERVAYA!!!!
 news_event = {
@@ -71,9 +58,62 @@ news_event = {
 	is_triggered_only = yes
 	fire_for_sender = no
 	option = {
-		name = wfc_news.7.a			
+		name = wfc_news.7.a
 	}
 }
+
+news_event = {
+	id = wfc_news.8
+	title = wfc_news.8.t
+	desc = wfc_news.8.d
+	picture = GFX_wfc_news_event_machine_war
+	major = yes
+	is_triggered_only = yes
+	fire_for_sender = no
+	option = {
+		name = wfc_news.8.a
+		trigger = {
+			NOT = {
+				tag = MEH
+			}
+		}
+	}
+	option = {
+		name = wfc_news.8.b
+		trigger = {
+			OR = {
+				tag = MEH
+				is_puppet_of = MEH
+				is_in_faction_with = MEH
+			}
+		}
+	}
+}
+
+news_event = {
+	id = wfc_news.9
+	title = wfc_news.9.t
+	desc = wfc_news.9.d
+	picture = GFX_wfc_news_event_exterminatus
+	major = yes
+	is_triggered_only = yes
+	fire_for_sender = no
+	option = {
+		name = wfc_news.9.a
+		trigger = {
+			NOT = {
+				tag = MEH
+			}
+		}
+	}
+	option = {
+		name = wfc_news.9.b
+		trigger = {
+			tag = MEH
+		}
+	}
+}
+
 #Захваты городов за Мехалэнд
 # The Fall of Washington
 news_event = {
@@ -81,24 +121,27 @@ news_event = {
 	title = wfc_news.101.t
 	desc = wfc_news.101.d
 	picture = GFX_news_event_soldiers_marching
-	
 	major = yes
-	
 	trigger = {
-		361 = { is_controlled_by = MEH }
-		361 = { is_owned_by = USA }
-		MEH = { has_war_with = USA }
-		NOT = { has_global_flag = meh_fall_of_washington }
+		361 = {
+			is_controlled_by = MEH
+		}
+		361 = {
+			is_owned_by = USA
+		}
+		MEH = {
+			has_war_with = USA
+		}
+		NOT = {
+			has_global_flag = meh_fall_of_washington
+		}
 	}
-	
 	immediate = {
 		set_global_flag = meh_fall_of_washington
 	}
-	
 	mean_time_to_happen = {
 		days = 2
 	}
-	
 	option = {
 		name = news.145.a
 		trigger = {
@@ -110,11 +153,15 @@ news_event = {
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = MEH }
+		trigger = {
+			TAG = MEH
+		}
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = USA }
+		trigger = {
+			TAG = USA
+		}
 	}
 }
 
@@ -124,24 +171,27 @@ news_event = {
 	title = wfc_news.102.t
 	desc = wfc_news.102.d
 	picture = GFX_news_event_soldiers_marching
-	
 	major = yes
-	
 	trigger = {
-		358 = { is_controlled_by = MEH }
-		358 = { is_owned_by = USA }
-		MEH = { has_war_with = USA }
-		NOT = { has_global_flag = meh_fall_of_new_york }
+		358 = {
+			is_controlled_by = MEH
+		}
+		358 = {
+			is_owned_by = USA
+		}
+		MEH = {
+			has_war_with = USA
+		}
+		NOT = {
+			has_global_flag = meh_fall_of_new_york
+		}
 	}
-	
 	immediate = {
 		set_global_flag = meh_fall_of_new_york
 	}
-	
 	mean_time_to_happen = {
 		days = 2
 	}
-	
 	option = {
 		name = news.145.a
 		trigger = {
@@ -153,10 +203,14 @@ news_event = {
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = MEH }
+		trigger = {
+			TAG = MEH
+		}
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = USA }
+		trigger = {
+			TAG = USA
+		}
 	}
 }

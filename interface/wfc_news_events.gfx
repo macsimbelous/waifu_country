@@ -15,6 +15,14 @@ spriteTypes = {
 		name = "GFX_wfc_news_event_006"
 		texturefile = "gfx/event_pictures/wfc_news_event_006.dds"
 	}
+	spriteType = {
+		name = "GFX_wfc_news_event_machine_war"
+		texturefile = "gfx/event_pictures/wfc_news_event_machine_war.dds"
+	}
+	spriteType = {
+		name = "GFX_wfc_news_event_exterminatus"
+		texturefile = "gfx/event_pictures/wfc_news_event_exterminatus.dds"
+	}
 	#kosmos
 	spriteType = {
 		name = "GFX_news_event_doroga_v_kosmos"

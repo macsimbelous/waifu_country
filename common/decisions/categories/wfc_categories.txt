@@ -291,3 +291,10 @@ wfc_test_category = {
 		is_ai = no
 	}
 }
+
+wfc_machine_war_category = {
+	priority = 1
+	allowed = {
+		original_tag = USA
+	}
+}

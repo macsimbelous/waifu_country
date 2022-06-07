@@ -3673,3 +3673,61 @@ economy_decisions = {
 		}
 	}
 }
+
+wfc_machine_war_category = {
+	wfc_machine_war_for_mex_decision = {
+		icon = generic_ignite_civil_war
+		fire_only_once = yes
+		cost = 50
+		available = {
+			OR = {
+				483 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				482 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				480 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				479 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			MEH = {
+				country_event = meh_event.2
+			}
+		}
+	}
+	wfc_machine_war_for_ideology_decision = {
+		icon = generic_ignite_civil_war
+		fire_only_once = yes
+		cost = 50
+		days_remove = 60
+		war_with_on_remove = MEH
+		available = {
+			has_government = democratic
+			MEH = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = MEH
+				type = annex_everything
+			}
+			news_event = wfc_news.8
+		}
+	}
+}
