@@ -1129,7 +1129,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_convert_to_federal_subject = {
-		cost = 100
+		cost = 50
 		# visible = {
 		# 	FROM = {
 		# 		NOT = {
@@ -1376,6 +1376,82 @@ wfc_subjects_category = {
 							}
 						}
 					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	wfc_delete_units_in_federal_subject = {
+		cost = 50
+		visible = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+				num_divisions > 0
+			}
+		}
+		available = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+				num_divisions > 0
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_delete_units_in_federal_subject_tt
+			hidden_effect = {
+				FROM = {
+					for_each_loop = {
+						array = controlled_states
+						delete_unit = {
+							state = v
+							disband = yes
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	wfc_transfer_navy_from_federal_subject = {
+		cost = 50
+		visible = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+				check_variable = {
+					num_ships > 0
+				}
+			}
+		}
+		available = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+				custom_trigger_tooltip = {
+					tooltip = wfc_transfer_navy_from_federal_subject_tt
+					check_variable = {
+						num_ships > 0
+					}
+				}
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+			}
+		}
+		complete_effect = {
+			FROM = {
+				transfer_navy = {
+					target = ROOT
 				}
 			}
 		}

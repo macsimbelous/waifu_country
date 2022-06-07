@@ -30,6 +30,11 @@ wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of 
  wfc_change_focus_tree:0 "Replace focus tree §Y[From.GetNameDef]§!"
  wfc_change_focus_tree_tt:0 "National focuses will be replaced with §Gwaifu countries§ focuses!"
  wfc_convert_to_federal_subject:0 "Transform §Y[From.GetName]§! into a federal subject"
+ wfc_autonomy_ratio_less_than_or_equals_0_2:0 "Minimum level of autonomy"
+ wfc_delete_units_in_federal_subject:0 "Disband the army of §Y[From.GetNameDef]§!"
+ wfc_delete_units_in_federal_subject_tt:0 "All divisions will be disbanded"
+ wfc_transfer_navy_from_federal_subject:0 "Resubordinate fleet of §Y[From.GetNameDef]§!"
+ wfc_transfer_navy_from_federal_subject_tt:0 "There is at least one ship"
  wfc_buy_out_state:0 "Buy out §Y[From.GetName]§!"
 
 #wfc_world_conquest_category

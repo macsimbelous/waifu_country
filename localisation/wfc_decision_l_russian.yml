@@ -78,6 +78,11 @@ wfc_integration_decision.t_desc:0 "Не обходимо закрепить ра
  wfc_change_focus_tree:0 "Заменить дерево фокусов §Y[From.GetNameDef]§!"
  wfc_change_focus_tree_tt:0 "Национальные фокусы будут заменены на фокусы §Gвайфу стран§!"
  wfc_convert_to_federal_subject:0 "Преобразовать §Y[From.GetNameDef]§! в субъект федерации"
+ wfc_autonomy_ratio_less_than_or_equals_0_2:0 "Минимальный уровень автономии"
+ wfc_delete_units_in_federal_subject:0 "Распустить армию §Y[From.GetNameDef]§!"
+ wfc_delete_units_in_federal_subject_tt:0 "Все дивизии будут расформированы"
+ wfc_transfer_navy_from_federal_subject:0 "Переподчинить флот §Y[From.GetNameDef]§!"
+ wfc_transfer_navy_from_federal_subject_tt:0 "Есть хотя бы оди корабыль"
  wfc_buy_out_state:0 "Выкупить §Y[From.GetName]§!"
 
 #wfc_world_conquest_category

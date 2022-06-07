@@ -607,6 +607,50 @@ wfc_test_category = {
 				target = BUL
 				autonomy_state = autonomy_reichsprotectorate
 			}
+			set_autonomy = {
+				target = YUG
+				autonomy_state = autonomy_federation_subject 
+			}
+			ROM = { set_country_flag = acw_federation_subject_flag }
+			set_autonomy = {
+				target = ROM
+				autonomy_state = autonomy_federation_subject 
+			}
+		}
+	}
+	wfc_test_13 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					is_puppet_of = ROOT
+				}
+				for_each_loop = {
+					array = owned_states
+					delete_unit = {
+						state = v
+						disband = yes
+					}
+				}
+			}
+		}
+	}
+	wfc_test_14 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = HEN
+		}
+		complete_effect = {
+			JAP = {
+				transfer_navy = {
+					target = HEN
+				}
+			}
 		}
 	}
 }
