@@ -298,9 +298,9 @@ wfc_world_conquest_category = {
 			# }
 		}
 		fire_only_once = no
-		cost = 100
+		cost = 0
 		#days_re_enable = 30
-		days_remove = 30
+		days_remove = 60
 		remove_effect = {
 			# declare_war_on = {
 			# 	target = FROM
