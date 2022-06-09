@@ -683,6 +683,14 @@ wfc_test_category = {
 							wfc_count_dokyard_2 = building_level@dockyard
 						}
 					}
+					add_offsite_building = {
+						type = dockyard
+						level = wfc_count_dokyard_prev_2
+					}
+					set_variable = {
+						wfc_count_dokyard_prev_2 = wfc_count_dokyard_2
+					}
+					###########
 					add_to_temp_variable = {
 						wfc_count_dokyard = wfc_count_dokyard_2
 					}
