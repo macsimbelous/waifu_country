@@ -306,6 +306,9 @@ mah_crystal_empire_category = {
 	mah_substantiate_claims_decision = {
 		cost = 100
 		fire_only_once = yes
+		allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 10
 		}
@@ -373,10 +376,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			# Iraq
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
@@ -408,6 +411,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				TUR = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = TUR
 				type = annex_everything
@@ -418,7 +428,7 @@ mah_crystal_empire_category = {
 		icon = generic_ignite_civil_war
 		cost = 25
 		fire_only_once = yes
-		days_remove = 30
+		days_remove = 630
 		war_with_on_remove = IRQ
 		visible = {
 			country_exists = IRQ
@@ -432,10 +442,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			NOT = {
 				is_in_faction_with = IRQ
 			}
@@ -453,6 +463,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				IRQ = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = IRQ
 				type = annex_everything
@@ -477,10 +494,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			OR = {
 				# Iraq
 				custom_trigger_tooltip = {
@@ -513,6 +530,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				SAU = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = SAU
 				type = annex_everything
@@ -537,10 +561,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			OR = {
 				# Saudi Arabia
 				custom_trigger_tooltip = {
@@ -573,6 +597,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				OMA = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = OMA
 				type = annex_everything
@@ -606,6 +637,14 @@ mah_crystal_empire_category = {
 		}
 		ai_will_do = {
 			base = 1
+			modifier = {
+				659 = {
+					OWNER = {
+						is_in_faction_with = ROOT
+					}
+				}
+				add = 5
+			}
 			modifier = {
 				659 = {
 					OWNER = {
@@ -670,10 +709,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			OR = {
 				# Saudi Arabia
 				custom_trigger_tooltip = {
@@ -706,6 +745,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				YEM = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = YEM
 				type = annex_everything
@@ -826,6 +872,14 @@ mah_crystal_empire_category = {
 			modifier = {
 				656 = {
 					OWNER = {
+						is_in_faction_with = ROOT
+					}
+				}
+				add = 5
+			}
+			modifier = {
+				656 = {
+					OWNER = {
 						has_government = democratic
 					}
 				}
@@ -886,10 +940,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			OR = {
 				OR = {
 					# Iraq
@@ -939,6 +993,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				KUW = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = KUW
 				type = annex_everything
@@ -972,6 +1033,14 @@ mah_crystal_empire_category = {
 		}
 		ai_will_do = {
 			base = 1
+			modifier = {
+				765 = {
+					OWNER = {
+						is_in_faction_with = ROOT
+					}
+				}
+				add = 5
+			}
 			modifier = {
 				765 = {
 					OWNER = {
@@ -1035,10 +1104,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			OR = {
 				# Saudi Arabia
 				custom_trigger_tooltip = {
@@ -1071,6 +1140,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				QAT = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = QAT
 				type = annex_everything
@@ -1104,6 +1180,14 @@ mah_crystal_empire_category = {
 		}
 		ai_will_do = {
 			base = 1
+			modifier = {
+				658 = {
+					OWNER = {
+						is_in_faction_with = ROOT
+					}
+				}
+				add = 5
+			}
 			modifier = {
 				658 = {
 					OWNER = {
@@ -1167,10 +1251,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			OR = {
 				# Saudi Arabia
 				custom_trigger_tooltip = {
@@ -1203,6 +1287,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				UAE = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = UAE
 				type = annex_everything
@@ -1236,6 +1327,14 @@ mah_crystal_empire_category = {
 		}
 		ai_will_do = {
 			base = 1
+			modifier = {
+				446 = {
+					OWNER = {
+						is_in_faction_with = ROOT
+					}
+				}
+				add = 5
+			}
 			modifier = {
 				446 = {
 					OWNER = {
@@ -1299,10 +1398,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			num_divisions > 19
 			has_equipment = {
 				infantry_equipment > 24999
@@ -1324,6 +1423,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				EGY = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = EGY
 				type = annex_everything
@@ -1348,6 +1454,14 @@ mah_crystal_empire_category = {
 		}
 		ai_will_do = {
 			base = 1
+			modifier = {
+				183 = {
+					OWNER = {
+						is_in_faction_with = ROOT
+					}
+				}
+				add = 5
+			}
 			modifier = {
 				183 = {
 					OWNER = {
@@ -1411,10 +1525,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = mah_substantiate_claims_tt
-				has_country_flag = mah_substantiate_claims_flag
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mah_substantiate_claims_tt
+			# 	has_country_flag = mah_substantiate_claims_flag
+			# }
 			NOT = {
 				is_in_faction_with = CYP
 			}
@@ -1432,6 +1546,13 @@ mah_crystal_empire_category = {
 			add_war_support = 0.05
 		}
 		remove_effect = {
+			hidden_effect = {
+				CYP = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = CYP
 				type = annex_everything
