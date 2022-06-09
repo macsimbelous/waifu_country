@@ -376,6 +376,72 @@ on_actions = {
 			}
 		}
 	}
+	# on_monthly = {
+	# 	effect = {
+	# 		if = {
+	# 			limit = {
+	# 				OR = {
+	# 					original_tag = ACW
+	# 					original_tag = HEN
+	# 					original_tag = MAH
+	# 					original_tag = TRP
+	# 					original_tag = MMS
+	# 					original_tag = MEH
+	# 				}
+	# 			}
+	# 			set_temp_variable = {
+	# 				wfc_count_dokyard = 0
+	# 			}
+	# 			for_each_scope_loop = {
+	# 				array = subjects
+	# 				if = {
+	# 					limit = {
+	# 						has_autonomy_state = autonomy_federation_subject
+	# 					}
+	# 					set_temp_variable = {
+	# 						wfc_count_dokyard_2 = 0
+	# 					}
+	# 					for_each_scope_loop = {
+	# 						array = owned_states
+	# 						add_to_temp_variable = {
+	# 							wfc_count_dokyard_2 = building_level@dockyard
+	# 						}
+	# 					}
+	# 					add_to_temp_variable = {
+	# 						wfc_count_dokyard = wfc_count_dokyard_2
+	# 					}
+	# 					set_temp_variable = {
+	# 						wfc_temp_var = 0
+	# 					}
+	# 					subtract_from_temp_variable = {
+	# 						wfc_temp_var = wfc_count_dokyard_2
+	# 					}
+	# 					add_offsite_building = {
+	# 						type = dockyard
+	# 						level = wfc_temp_var
+	# 					}
+	# 				}
+	# 			}
+	# 			set_temp_variable = {
+	# 				wfc_count_dokyard_temp = 0
+	# 			}
+	# 			subtract_from_temp_variable = {
+	# 				wfc_count_dokyard_temp = wfc_count_dokyard_prev
+	# 			}
+	# 			add_offsite_building = {
+	# 				type = dockyard
+	# 				level = wfc_count_dokyard_temp
+	# 			}
+	# 			set_variable = {
+	# 				wfc_count_dokyard_prev = wfc_count_dokyard
+	# 			}
+	# 			add_offsite_building = {
+	# 				type = dockyard
+	# 				level = wfc_count_dokyard
+	# 			}
+	# 		}
+	# 	}
+	# }
 	# on_startup = {
 	# 	effect = {
 	# 		ACW = {

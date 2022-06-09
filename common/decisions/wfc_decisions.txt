@@ -1477,6 +1477,7 @@ wfc_subjects_category = {
 				NOT = {
 					is_capital = yes
 				}
+				is_core_of = OWNER
 				OWNER = {
 					is_puppet_of = ROOT
 					has_autonomy_state = autonomy_federation_subject
@@ -1498,6 +1499,56 @@ wfc_subjects_category = {
 			}
 		}
 		cost = 100
+		fire_only_once = no
+		complete_effect = {
+			transfer_state = FROM
+			FROM = {
+				set_resistance = 1
+				set_compliance = 95
+			}
+		}
+	}
+	wfc_buy_out_state_2 = {
+		name = wfc_buy_out_state
+		icon = GFX_decision_eng_trade_unions_support
+		available = {
+			FROM = {
+				NOT = {
+					is_capital = yes
+				}
+				OWNER = {
+					is_puppet_of = ROOT
+					has_autonomy_state = autonomy_federation_subject
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				NOT = {
+					is_capital = yes
+					is_core_of = OWNER
+				}
+				OWNER = {
+					is_puppet_of = ROOT
+					has_autonomy_state = autonomy_federation_subject
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		state_target = yes
+		on_map_mode = map_only
+		#target_array = owned_controlled_states
+		#target_array = states
+		target_trigger = {
+			FROM = {
+				OWNER = {
+					is_puppet_of = ROOT
+				}
+			}
+		}
+		cost = 50
 		fire_only_once = no
 		complete_effect = {
 			transfer_state = FROM

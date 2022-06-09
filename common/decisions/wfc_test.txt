@@ -607,14 +607,19 @@ wfc_test_category = {
 				target = BUL
 				autonomy_state = autonomy_reichsprotectorate
 			}
+			YUG = {
+				set_country_flag = acw_federation_subject_flag
+			}
 			set_autonomy = {
 				target = YUG
-				autonomy_state = autonomy_federation_subject 
+				autonomy_state = autonomy_federation_subject
 			}
-			ROM = { set_country_flag = acw_federation_subject_flag }
+			ROM = {
+				set_country_flag = acw_federation_subject_flag
+			}
 			set_autonomy = {
 				target = ROM
-				autonomy_state = autonomy_federation_subject 
+				autonomy_state = autonomy_federation_subject
 			}
 		}
 	}
@@ -650,6 +655,82 @@ wfc_test_category = {
 				transfer_navy = {
 					target = HEN
 				}
+			}
+		}
+	}
+	wfc_test_15 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			set_temp_variable = {
+				wfc_count_dokyard = 0
+			}
+			for_each_scope_loop = {
+				array = subjects
+				if = {
+					limit = {
+						has_autonomy_state = autonomy_federation_subject
+					}
+					set_temp_variable = {
+						wfc_count_dokyard_2 = 0
+					}
+					for_each_scope_loop = {
+						array = owned_states
+						add_to_temp_variable = {
+							wfc_count_dokyard_2 = building_level@dockyard
+						}
+					}
+					add_to_temp_variable = {
+						wfc_count_dokyard = wfc_count_dokyard_2
+					}
+					set_temp_variable = {
+						wfc_temp_var = 0
+					}
+					subtract_from_temp_variable = {
+						wfc_temp_var = wfc_count_dokyard_2
+					}
+					add_offsite_building = {
+						type = dockyard
+						level = wfc_temp_var
+					}
+				}
+			}
+			set_temp_variable = {
+				wfc_count_dokyard_temp = 0
+			}
+			subtract_from_temp_variable = {
+				wfc_count_dokyard_temp = wfc_count_dokyard_prev
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = wfc_count_dokyard_temp
+			}
+			set_variable = {
+				wfc_count_dokyard_prev = wfc_count_dokyard
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = wfc_count_dokyard
+			}
+		}
+	}
+	wfc_test_16 = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			add_offsite_building = {
+				type = dockyard
+				level = 100
+			}
+			add_offsite_building = {
+				type = arms_factory
+				level = 100
 			}
 		}
 	}
