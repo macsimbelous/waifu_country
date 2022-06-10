@@ -1578,9 +1578,17 @@ wfc_subjects_category = {
 		cost = 50
 		days_remove = 30
 		fire_only_once = no
-		visible = {
+		available = {
 			FROM = {
 				is_puppet = yes
+			}
+		}
+		visible = {
+			FROM = {
+				OR = {
+					is_puppet = yes
+					is_subject = yes
+				}
 				num_of_naval_factories > 0
 			}
 		}
