@@ -1600,7 +1600,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					CYP = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1673,7 +1676,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					IRQ = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1809,7 +1815,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					TUR = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -1970,7 +1979,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					SAU = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -2007,6 +2019,16 @@ mah_crystal_empire_category = {
 						is_puppet_of = ROOT
 						is_subject_of = ROOT
 					}
+					controls_state = 659
+				}
+				AND = {
+					YEM = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+					controls_state = 659
 				}
 			}
 			OR = {
@@ -2056,7 +2078,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					YEM = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -2075,7 +2100,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					OMA = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -2162,7 +2190,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					KUW = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -2173,7 +2204,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					QAT = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -2184,7 +2218,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					UAE = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {
@@ -2274,7 +2311,10 @@ mah_crystal_empire_category = {
 			if = {
 				limit = {
 					EGY = {
-						is_puppet_of = ROOT
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				annex_country = {

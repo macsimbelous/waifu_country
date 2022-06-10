@@ -66,7 +66,7 @@ wfc_world_conquest_category = {
 			}
 		}
 		ai_will_do = {
-			base = 0
+			base = 2
 			modifier = {
 				if = {
 					limit = {
@@ -76,7 +76,7 @@ wfc_world_conquest_category = {
 						has_country_flag = hen_world_conquest_enabled_flag
 					}
 				}
-				add = -5
+				add = -100
 			}
 			modifier = {
 				if = {
@@ -87,7 +87,7 @@ wfc_world_conquest_category = {
 						has_idea = acw_minoboron_idea
 					}
 				}
-				add = -5
+				add = -100
 			}
 			modifier = {
 				if = {
@@ -98,18 +98,7 @@ wfc_world_conquest_category = {
 						has_country_flag = meh_warmind_complete_flag
 					}
 				}
-				add = -5
-			}
-			modifier = {
-				if = {
-					limit = {
-						has_government = fascism
-					}
-					FROM = {
-						has_government = fascism
-					}
-				}
-				add = -3
+				add = -100
 			}
 			modifier = {
 				if = {
@@ -180,17 +169,6 @@ wfc_world_conquest_category = {
 			modifier = {
 				if = {
 					limit = {
-						has_government = communism
-					}
-					FROM = {
-						has_government = communism
-					}
-				}
-				add = -3
-			}
-			modifier = {
-				if = {
-					limit = {
 						has_government = democratic
 					}
 					FROM = {
@@ -219,21 +197,6 @@ wfc_world_conquest_category = {
 						has_government = neutrality
 					}
 				}
-				add = 1
-			}
-			modifier = {
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					FROM = {
-						has_government = democratic
-					}
-				}
-				add = -3
-			}
-			modifier = {
-				has_government = neutrality
 				add = 1
 			}
 			# modifier = {
@@ -279,23 +242,19 @@ wfc_world_conquest_category = {
 				add = 10
 			}
 			modifier = {
-				original_tag = MMS
+				original_tag = MEH
 				FROM = {
-					OR = {
-						original_tag = PER
-						original_tag = AFG
-					}
+					original_tag = CAN
 				}
-				add = 200
+				add = 5
 			}
-			# modifier = {
-			# 	FROM = {
-			# 		OVERLORD = {
-			# 			is_major = yes
-			# 		}
-			# 	}
-			# 	add = -1
-			# }
+			modifier = {
+				original_tag = MEH
+				FROM = {
+					original_tag = MEX
+				}
+				add = 7
+			}
 		}
 		fire_only_once = no
 		cost = 0
@@ -1145,14 +1104,14 @@ wfc_subjects_category = {
 					has_autonomy_state = autonomy_collaboration_government
 					has_autonomy_state = autonomy_personal_union
 					has_autonomy_state = autonomy_reichskommissariat
-					custom_trigger_tooltip = {
-						tooltip = wfc_autonomy_ratio_less_than_or_equals_0_2
-						check_variable = {
-							var = autonomy_ratio
-							value = 0.2
-							compare = less_than_or_equals
-						}
-					}
+					# custom_trigger_tooltip = {
+					# 	tooltip = wfc_autonomy_ratio_less_than_or_equals_0_2
+					# 	check_variable = {
+					# 		var = autonomy_ratio
+					# 		value = 0.2
+					# 		compare = less_than_or_equals
+					# 	}
+					# }
 				}
 			}
 		}
