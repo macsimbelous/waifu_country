@@ -1581,6 +1581,7 @@ wfc_subjects_category = {
 		visible = {
 			FROM = {
 				is_puppet = yes
+				num_of_naval_factories > 0
 			}
 		}
 		target_array = subjects
