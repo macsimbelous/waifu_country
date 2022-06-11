@@ -818,7 +818,8 @@ meh_exterminatus_category = {
 					leave_faction = yes
 				}
 			}
-			create_faction = meh_exterminatus
+			#create_faction = meh_exterminatus
+			add_ideas = meh_exterminatus_idea
 			every_other_country = {
 				limit = {
 					OR = {
@@ -827,7 +828,10 @@ meh_exterminatus_category = {
 					}
 				}
 				ROOT = {
-					add_to_faction = PREV
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
 				}
 			}
 			every_state = {
