@@ -68,134 +68,86 @@ wfc_world_conquest_category = {
 		ai_will_do = {
 			base = 2
 			modifier = {
-				if = {
-					limit = {
-						original_tag = HEN
-					}
-					NOT = {
-						has_country_flag = hen_world_conquest_enabled_flag
-					}
+				original_tag = HEN
+				NOT = {
+					has_country_flag = hen_world_conquest_enabled_flag
 				}
 				add = -100
 			}
 			modifier = {
-				if = {
-					limit = {
-						original_tag = ACW
-					}
-					NOT = {
-						has_idea = acw_minoboron_idea
-					}
+				original_tag = ACW
+				NOT = {
+					has_idea = acw_minoboron_idea
 				}
 				add = -100
 			}
 			modifier = {
-				if = {
-					limit = {
-						original_tag = MEH
-					}
-					NOT = {
-						has_country_flag = meh_warmind_complete_flag
-					}
+				original_tag = MEH
+				NOT = {
+					has_country_flag = meh_warmind_complete_flag
 				}
-				add = -100
+				add = -3000
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = fascism
-					}
-					FROM = {
-						has_government = communism
-					}
+				has_government = fascism
+				FROM = {
+					has_government = communism
 				}
 				add = 2
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = fascism
-					}
-					FROM = {
-						has_government = democratic
-					}
+				has_government = fascism
+				FROM = {
+					has_government = democratic
 				}
 				add = 2
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = fascism
-					}
-					FROM = {
-						has_government = neutrality
-					}
+				has_government = fascism
+				FROM = {
+					has_government = neutrality
 				}
 				add = 1
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = communism
-					}
-					FROM = {
-						has_government = fascism
-					}
+				has_government = communism
+				FROM = {
+					has_government = fascism
 				}
 				add = 2
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = communism
-					}
-					FROM = {
-						has_government = democratic
-					}
+				has_government = communism
+				FROM = {
+					has_government = democratic
 				}
 				add = 1
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = communism
-					}
-					FROM = {
-						has_government = neutrality
-					}
+				has_government = communism
+				FROM = {
+					has_government = neutrality
 				}
 				add = 1
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					FROM = {
-						has_government = communism
-					}
+				has_government = democratic
+				FROM = {
+					has_government = communism
 				}
 				add = 2
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					FROM = {
-						has_government = fascism
-					}
+				has_government = democratic
+				FROM = {
+					has_government = fascism
 				}
 				add = 1
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					FROM = {
-						has_government = neutrality
-					}
+				has_government = democratic
+				FROM = {
+					has_government = neutrality
 				}
 				add = 1
 			}
