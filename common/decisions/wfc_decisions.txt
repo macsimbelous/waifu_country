@@ -255,6 +255,11 @@ wfc_world_conquest_category = {
 				}
 				add = 7
 			}
+			modifier = {
+				original_tag = MEH
+				has_idea = meh_exterminatus_idea
+				add = 2000
+			}
 		}
 		fire_only_once = no
 		cost = 0
