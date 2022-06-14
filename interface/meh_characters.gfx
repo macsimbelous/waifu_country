@@ -496,4 +496,8 @@ spriteTypes = {
 		name = "GFX_portrait_meh_operative_07"
 		texturefile = "gfx/leaders/MEH/generic/meh_operative_07.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_meh_operative_08"
+		texturefile = "gfx/leaders/MEH/generic/meh_operative_08.dds"
+	}
 }
