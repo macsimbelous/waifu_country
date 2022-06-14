@@ -1,50 +1,63 @@
 wfc_test_category = {
-	wfc_test_1 = {
+	wfc_test_change_gov_n = {
 		fire_only_once = no
 		cost = 0
-		available = {
-			has_collaboration = {
-				target = ROM
-				value > 0.5
+		complete_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = neutrality
 			}
 		}
+	}
+	wfc_test_change_gov_d = {
+		fire_only_once = no
+		cost = 0
 		complete_effect = {
-			# generate_character = {
-			# 	token_base = wfc_test_char
-			# 	name = wfc_test_char
-			# 	portraits = {
-			# 		army = {
-			# 			large = "gfx/leaders/ACW/anastasia_romanova.dds"
-			# 			small = GFX_idea_acw_anastasia_romanova
-			# 		}
-			# 		civilian = {
-			# 			large = "gfx/leaders/ACW/anastasia_romanova.dds"
-			# 		}
-			# 	}
-			# 	corps_commander = {
-			# 		traits = {
-			# 			organizer
-			# 			trait_engineer
-			# 			adaptable
-			# 		}
-			# 		attack_skill = 4
-			# 		defense_skill = 4
-			# 		planning_skill = 4
-			# 		logistics_skill = 5
-			# 		skill = 5
-			# 		legacy_id = -1
-			# 	}
-			# }
-			ROM = {
-				retire_country_leader = yes
-				set_country_leader_name = {
-					name = ACW_anastasia_romanova
-				}
-				set_country_leader_portrait = {
-					portrait = "gfx/leaders/ACW/anastasia_romanova.dds"
-				}
-				add_country_leader_trait = wfc_anime_tyan
-				add_country_leader_trait = wfc_governor-general
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = democratic
+			}
+		}
+	}
+	wfc_test_change_gov_c = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+		}
+	}
+	wfc_test_change_gov_f = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+	}
+	wfc_test_create_kgb = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			create_intelligence_agency = {
+				icon = GFX_intelligence_agency_logo_generic_8
+				name = "KKGGBB"
 			}
 		}
 	}
@@ -73,90 +86,21 @@ wfc_test_category = {
 			add_stability = 0.2
 		}
 	}
-	wfc_test_3 = {
+	wfc_test_1 = {
 		fire_only_once = no
 		cost = 0
-		complete_effect = {
-			build_railway = {
-				level = 1
-				start_province = 7982
-				target_province = 7990
-			}
-			build_railway = {
-				level = 2
-				start_province = 7990
-				target_province = 10737
-			}
-			build_railway = {
-				level = 2
-				start_province = 7982
-				target_province = 4755
-			}
-			build_railway = {
-				level = 2
-				start_province = 7990
-				target_province = 7602
-			}
-			build_railway = {
-				level = 2
-				start_province = 2065
-				target_province = 5098
-			}
-			421 = {
-				add_building_construction = {
-					type = supply_node
-					level = 1
-					province = 5098
-					instant_build = yes
-				}
-			}
-			419 = {
-				add_building_construction = {
-					type = supply_node
-					level = 1
-					province = 4755
-					instant_build = yes
+		available = {
+			48 = {
+				OR = {
+					OWNER = {
+						is_puppet_of = ROOT
+					}
+					is_controlled_by = ROOT
 				}
 			}
 		}
-	}
-	wfc_test_4 = {
-		fire_only_once = no
-		cost = 0
-		visible = {
-			tag = MMS
-		}
 		complete_effect = {
-			annex_country = {
-				target = PER
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = AFG
-				transfer_troops = yes
-			}
-		}
-	}
-	wfc_test_5 = {
-		fire_only_once = no
-		cost = 0
-		visible = {
-			tag = MEH
-		}
-		complete_effect = {
-			build_railway = {
-				level = 5
-				start_province = 9671
-				target_province = 4969
-			}
-			493 = {
-				add_building_construction = {
-					type = supply_node
-					level = 1
-					province = 4969
-					instant_build = yes
-				}
-			}
+			add_political_power = 100
 		}
 	}
 	wfc_test_6 = {
@@ -314,68 +258,7 @@ wfc_test_category = {
 			}
 		}
 	}
-	wfc_test_create_kgb = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			create_intelligence_agency = {
-				icon = GFX_intelligence_agency_logo_generic_8
-				name = "KKGGBB"
-			}
-		}
-	}
-	wfc_change_gov_n = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.6
-			}
-			set_politics = {
-				ruling_party = neutrality
-			}
-		}
-	}
-	wfc_change_gov_d = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.6
-			}
-			set_politics = {
-				ruling_party = democratic
-			}
-		}
-	}
-	wfc_change_gov_c = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.6
-			}
-			set_politics = {
-				ruling_party = communism
-			}
-		}
-	}
-	wfc_change_gov_f = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.6
-			}
-			set_politics = {
-				ruling_party = fascism
-			}
-		}
-	}
+
 	wfc_acw_war_rom = {
 		fire_only_once = no
 		cost = 0
@@ -418,125 +301,6 @@ wfc_test_category = {
 			}
 		}
 	}
-	wfc_test_7 = {
-		fire_only_once = no
-		cost = 0
-		visible = {
-			tag = ACW
-		}
-		complete_effect = {
-			add_collaboration = {
-				target = ROM
-				value = 0.25
-			}
-		}
-	}
-	wfc_test_8_plus = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			add_to_variable = {
-				wfc_test_var_1 = 1
-			}
-		}
-	}
-	wfc_test_8_reset = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			set_variable = {
-				wfc_test_var_1 = 0
-			}
-		}
-	}
-	wfc_test_9 = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			random_list = {
-				25 = {
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 0
-						}
-						factor = 1.2
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 1
-						}
-						factor = 1.3
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 2
-						}
-						factor = 1.1
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 3
-						}
-						factor = 1.2
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 4
-						}
-						factor = 1.3
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 5
-						}
-						factor = 1.3
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 6
-						}
-						factor = 1.5
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 7
-						}
-						factor = 1.2
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 8
-						}
-						factor = 1.3
-					}
-					modifier = {
-						check_variable = {
-							wfc_test_var_1 > 9
-						}
-						factor = 1.5
-					}
-					add_command_power = 100
-				}
-				75 = {
-					add_command_power = -100
-				}
-			}
-		}
-	}
-	wfc_test_10 = {
-		fire_only_once = no
-		cost = 0
-		visible = {
-			tag = MAH
-		}
-		complete_effect = {
-			build_railway = {
-				level = 1
-				start_province = 4111
-				target_province = 2097
-			}
-		}
-	}
 	wfc_annex_yug = {
 		fire_only_once = no
 		cost = 0
@@ -552,48 +316,6 @@ wfc_test_category = {
 			every_owned_state = {
 				add_core_of = ROOT
 			}
-		}
-	}
-	wfc_test_11 = {
-		fire_only_once = no
-		cost = 0
-		available = {
-			BUL = {
-				has_stability < 0.5
-			}
-			BUL = {
-				has_opinion = {
-					target = ROOT
-					value > 49
-				}
-			}
-			network_strength = {
-				target = BUL
-				value > 0.2
-			}
-			network_strength = {
-				target = BUL
-				value > 0.5
-			}
-			network_national_coverage = {
-				target = BUL
-				value > 0.2
-			}
-			network_national_coverage = {
-				target = BUL
-				value > 0.5
-			}
-			has_collaboration = {
-				target = BUL
-				value > 0.2
-			}
-			has_collaboration = {
-				target = BUL
-				value > 0.5
-			}
-		}
-		complete_effect = {
-			add_political_power = 100
 		}
 	}
 	wfc_test_12 = {
