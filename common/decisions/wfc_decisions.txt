@@ -3853,6 +3853,9 @@ wfc_machine_war_category = {
 		fire_only_once = yes
 		cost = 50
 		available = {
+			NOT = {
+				is_in_faction_with = MEH
+			}
 			OR = {
 				483 = {
 					OR = {
