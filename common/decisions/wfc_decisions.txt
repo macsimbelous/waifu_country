@@ -77,14 +77,28 @@ wfc_world_conquest_category = {
 			modifier = {
 				original_tag = ACW
 				NOT = {
-					has_idea = acw_minoboron_idea
+					has_country_flag = acw_great_animeland_flag
 				}
-				add = -100
+				add = -3000
 			}
 			modifier = {
 				original_tag = MEH
 				NOT = {
 					has_country_flag = meh_warmind_complete_flag
+				}
+				add = -3000
+			}
+			modifier = {
+				original_tag = MAH
+				NOT = {
+					has_country_flag = mah_crystal_empire_formed_flag
+				}
+				add = -3000
+			}
+			modifier = {
+				original_tag = TRP
+				NOT = {
+					has_country_flag = trp_south_american_federation_formed_flag
 				}
 				add = -3000
 			}
@@ -151,10 +165,10 @@ wfc_world_conquest_category = {
 				}
 				add = 1
 			}
-			# modifier = {
-			# 	has_war = yes
-			# 	add = -1
-			# }
+			modifier = {
+				has_war = yes
+				add = -2
+			}
 			modifier = {
 				strength_ratio = {
 					tag = FROM
