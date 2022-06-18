@@ -1,0 +1,26 @@
+wfc_is_controlled_by_root_or_federation_subject = {
+	custom_trigger_tooltip = {
+		tooltip = wfc_is_controlled_by_root_or_federation_subject_tt
+		CONTROLLER = {
+			OR = {
+				tag = ROOT
+				AND = {
+					is_subject_of = ROOT
+					has_autonomy_state = autonomy_federation_subject
+				}
+			}
+		}
+	}
+}
+
+wfc_is_controlled_by_root_or_puppet = {
+	custom_trigger_tooltip = {
+		tooltip = wfc_is_controlled_by_root_or_puppet_tt
+		CONTROLLER = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}

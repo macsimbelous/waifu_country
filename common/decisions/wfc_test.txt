@@ -91,12 +91,17 @@ wfc_test_category = {
 		cost = 0
 		available = {
 			48 = {
-				OR = {
-					OWNER = {
-						is_puppet_of = ROOT
-					}
-					is_controlled_by = ROOT
-				}
+				# OR = {
+				# 	is_controlled_by = ROOT
+				# 	OWNER = {
+				# 		AND = {
+				# 			is_puppet_of = ROOT
+				# 			has_autonomy_state = autonomy_federation_subject
+				# 		} 
+				# 	}
+					
+				# }
+				wfc_is_controlled_by_root_or_federation_subject = yes
 			}
 		}
 		complete_effect = {
@@ -258,7 +263,6 @@ wfc_test_category = {
 			}
 		}
 	}
-
 	wfc_acw_war_rom = {
 		fire_only_once = no
 		cost = 0
