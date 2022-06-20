@@ -5,7 +5,7 @@ wfc_is_controlled_by_root_or_federation_subject = {
 			OR = {
 				tag = ROOT
 				AND = {
-					is_subject_of = ROOT
+					is_puppet_of = ROOT
 					has_autonomy_state = autonomy_federation_subject
 				}
 			}
@@ -19,7 +19,7 @@ wfc_is_controlled_by_root_or_puppet = {
 		CONTROLLER = {
 			OR = {
 				tag = ROOT
-				is_subject_of = ROOT
+				is_puppet_of = ROOT
 			}
 		}
 	}

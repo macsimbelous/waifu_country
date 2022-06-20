@@ -166,3 +166,7 @@ meh_exterminatus:0 "§RExterminatus§!"
  VICTORY_POINTS_9756:0 "Animepolis"
  meh_vp_9671_name:0 "Mechapolis"
  hen_vp_11925_name:0 "Hentaipolis"
+
+#Triggers
+ wfc_is_controlled_by_root_or_federation_subject_tt:0 "Controlled by §G[ROOT.GetName]§! or §Gsubject of the Federation§!"
+ wfc_is_controlled_by_root_or_puppet_tt:0 "Controlled by §G[ROOT.GetName]§! or §Gpuppet§!"

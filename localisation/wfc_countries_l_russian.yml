@@ -167,3 +167,7 @@ meh_exterminatus:0 "§RЭкстерминатус§!"
  VICTORY_POINTS_9756:0 "Анимеполис"
  meh_vp_9671_name:0 "Мехаполис"
  hen_vp_11925_name:0 "Хентайполис"
+
+#Triggers
+ wfc_is_controlled_by_root_or_federation_subject_tt:0 "Контролирует §G[ROOT.GetName]§! или §Gсубъект федерации§!"
+ wfc_is_controlled_by_root_or_puppet_tt:0 "Контролирует §G[ROOT.GetName]§! или §Gмарионетка§!"

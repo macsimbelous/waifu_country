@@ -6,70 +6,117 @@ mah_crystal_empire_category = {
 			# Maho
 			custom_trigger_tooltip = {
 				tooltip = mah_form_crystal_empire_maho_required_states_tt
-				controls_state = 677
-				controls_state = 680
-				controls_state = 553
-				controls_state = 554
-				controls_state = 799
-				controls_state = 454
-				controls_state = 455
+				#controls_state = 677
+				677 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 680
+				680 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 553
+				553 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 554
+				554 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 799
+				799 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 454
+				454 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 455
+				455 = { wfc_is_controlled_by_root_or_federation_subject = yes }
 			}
 			# Turkey
 			custom_trigger_tooltip = {
 				tooltip = form_country_turkey_required_states_tt
-				controls_state = 797
-				controls_state = 341
-				controls_state = 340
-				controls_state = 339
-				controls_state = 342
-				controls_state = 343
-				controls_state = 347
-				controls_state = 49
-				controls_state = 798
-				controls_state = 346
-				controls_state = 345
-				controls_state = 356
-				controls_state = 348
-				controls_state = 344
-				controls_state = 355
-				controls_state = 349
-				controls_state = 350
-				controls_state = 354
-				controls_state = 353
-				controls_state = 352
-				controls_state = 800
+				#controls_state = 797
+				797 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 341
+				341 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 340
+				340 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 339
+				339 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 342
+				342 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 343
+				343 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 347
+				347 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 49
+				49 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 798
+				798 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 346
+				346 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 345
+				345 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 356
+				356 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 348
+				348 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 344
+				344 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 355
+				355 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 349
+				349 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 350
+				350 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 354
+				354 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 353
+				353 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 352
+				352 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 800
+				800 = { wfc_is_controlled_by_root_or_federation_subject = yes }
 			}
 			# Iraq
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
-				controls_state = 676
-				controls_state = 675
-				controls_state = 291
+				#controls_state = 676
+				676 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 675
+				675 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 291
+				291 = { wfc_is_controlled_by_root_or_federation_subject = yes }
 			}
 			# Saudi Arabia
 			custom_trigger_tooltip = {
 				tooltip = form_country_saudi_required_states_tt
-				controls_state = 292
-				controls_state = 679
-				controls_state = 678
+				#controls_state = 292
+				292 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 679
+				679 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 678
+				678 = { wfc_is_controlled_by_root_or_federation_subject = yes }
 			}
 			# Egypt
 			custom_trigger_tooltip = {
 				tooltip = mah_form_crystal_empire_egypt_required_states_tt
-				controls_state = 452
-				controls_state = 447
-				controls_state = 446
-				controls_state = 456
-				controls_state = 457
-				controls_state = 453
+				#controls_state = 452
+				452 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 447
+				447 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 446
+				446 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 456
+				456 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 457
+				457 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				#controls_state = 453
+				453 = { wfc_is_controlled_by_root_or_federation_subject = yes }
 			}
-			controls_state = 656
-			controls_state = 765
-			controls_state = 658
-			controls_state = 293
-			controls_state = 659
-			controls_state = 294
-			controls_state = 183
+			#controls_state = 656
+			656 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			#controls_state = 765
+			765 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			#controls_state = 658
+			658 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			#controls_state = 293
+			293 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			#controls_state = 659
+			659 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			#controls_state = 294
+			294 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			#controls_state = 183
+			183 = { wfc_is_controlled_by_root_or_federation_subject = yes }
 		}
 		ai_will_do = {
 			factor = 10

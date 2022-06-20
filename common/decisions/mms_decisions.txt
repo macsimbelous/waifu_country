@@ -414,24 +414,24 @@ mms_expansion_of_living_space_category = {
 				# Iran
 				custom_trigger_tooltip = {
 					tooltip = form_country_iran_required_states_tt
-					419 = { is_controlled_by_ROOT_or_subject = yes }
-					421 = { is_controlled_by_ROOT_or_subject = yes }
-					420 = { is_controlled_by_ROOT_or_subject = yes }
-					417 = { is_controlled_by_ROOT_or_subject = yes }
-					413 = { is_controlled_by_ROOT_or_subject = yes }
-					266 = { is_controlled_by_ROOT_or_subject = yes }
-					418 = { is_controlled_by_ROOT_or_subject = yes }
-					411 = { is_controlled_by_ROOT_or_subject = yes }
-					412 = { is_controlled_by_ROOT_or_subject = yes }
-					416 = { is_controlled_by_ROOT_or_subject = yes }
-					414 = { is_controlled_by_ROOT_or_subject = yes }
-					410 = { is_controlled_by_ROOT_or_subject = yes }
+					419 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					421 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					420 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					417 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					413 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					266 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					418 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					411 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					412 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					416 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					414 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					410 = { wfc_is_controlled_by_root_or_federation_subject = yes }
 				}
 				# Afghanistan
 				custom_trigger_tooltip = {
 					tooltip = form_country_afghanistan_required_states_tt
-					415 = { is_controlled_by_ROOT_or_subject = yes }
-					267 = { is_controlled_by_ROOT_or_subject = yes }
+					415 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					267 = { wfc_is_controlled_by_root_or_federation_subject = yes }
 				}
 			}
 			else = {
