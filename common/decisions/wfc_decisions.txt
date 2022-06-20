@@ -3282,9 +3282,9 @@ prospect_for_resources = {
 			}
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
 			modifier = {
-				add = 10
+				add = 5
 				OR = {
 					steel < 0
 					aluminium < 0
