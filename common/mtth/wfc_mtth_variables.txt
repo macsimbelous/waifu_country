@@ -288,6 +288,6 @@ trp_discrediting_cost = {
 	base = 0
 	modifier = {
 		is_ai = no
-		add = 100
+		add = 50
 	}
 }

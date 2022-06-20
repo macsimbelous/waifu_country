@@ -46,7 +46,7 @@ trp_cloning_category = {
 			}
 		}
 		fire_only_once = no
-		cost = 100
+		cost = 50
 		days_re_enable = 60
 		days_remove = 30
 		remove_effect = {
@@ -201,7 +201,7 @@ trp_discrediting_decisions = {
 						has_government = fascism
 					}
 					add_timed_idea = {
-						idea = fascism_discrediting
+						idea = wfc_fascism_discrediting
 						days = 180
 					}
 				}
@@ -210,7 +210,7 @@ trp_discrediting_decisions = {
 						has_government = communism
 					}
 					add_timed_idea = {
-						idea = communism_discrediting
+						idea = wfc_communism_discrediting
 						days = 180
 					}
 				}
@@ -219,7 +219,7 @@ trp_discrediting_decisions = {
 						has_government = democratic
 					}
 					add_timed_idea = {
-						idea = democratic_discrediting
+						idea = wfc_democratic_discrediting
 						days = 180
 					}
 				}
@@ -228,7 +228,7 @@ trp_discrediting_decisions = {
 						has_government = neutrality
 					}
 					add_timed_idea = {
-						idea = neutrality_discrediting
+						idea = wfc_neutrality_discrediting
 						days = 180
 					}
 				}

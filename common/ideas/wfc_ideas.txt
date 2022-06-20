@@ -36,45 +36,45 @@ ideas = {
 				monthly_population = 0.1
 			}
 		}
-		fascism_discrediting = {
+		wfc_fascism_discrediting = {
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
-			picture = spr_the_popular_front
+			picture = SPR_anti_fascist_crusade
 			modifier = {
 				fascism_drift = -0.1
 				stability_factor = -0.3
 			}
 		}
-		communism_discrediting = {
+		wfc_communism_discrediting = {
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
-			picture = spr_the_popular_front
+			picture = anti_soviet_pact
 			modifier = {
 				communism_drift = -0.1
 				stability_factor = -0.3
 			}
 		}
-		democratic_discrediting = {
+		wfc_democratic_discrediting = {
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
-			picture = spr_the_popular_front
+			picture = ast_classify_aliens
 			modifier = {
 				democratic_drift = -0.1
 				stability_factor = -0.3
 			}
 		}
-		neutrality_discrediting = {
+		wfc_neutrality_discrediting = {
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
-			picture = spr_the_popular_front
+			picture = generic_king_handled
 			modifier = {
 				neutrality_drift = -0.1
 				stability_factor = -0.3

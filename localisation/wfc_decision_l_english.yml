@@ -99,7 +99,9 @@ wfc_transfer_of_the_capital_category:0 "Transfer of the capital"
 wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName]§! region"
 
 #prospect_for_resources
- wfc_geological_exploration:0 "Geological exploration"
+ wfc_geological_exploration:0 "Geological exploration of its territory"
+ wfc_geological_exploration_in_puppet:0 "Geological exploration in the regions"
+ wfc_not_geological_exploration_tt:0 "Resource exploration has not been carried out"
  wfc_develop_steel_deposits:0 "Develop iron deposits in §G[FROM.GetName]§!"
  wfc_develop_steel_deposits_tt:0 "Iron deposits will be developed in the §G[FROM.GetName]§! region"
  wfc_develop_aluminium_deposits:0 "Develop aluminium deposits in §G[FROM.GetName]§!"
@@ -111,6 +113,11 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_develop_tungsten_deposits:0 "Develop tungsten deposits in §G[FROM.GetName]§!"
  wfc_develop_tungsten_deposits_tt:0 "Tungsten deposits will be developed in the §G[FROM.GetName]§! region"
  wfc_develop_deposits_desc:0 "A random amount of resources from 3 to 25 will be added."
+ wfc_develop_steel_deposits_in_puppet:0 "Mining iron deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
+ wfc_develop_aluminium_deposits_in_puppet:0 "Mining aluminum deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
+ wfc_develop_oil_deposits_in_puppet:0 "Mining oil deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
+ wfc_develop_chromium_deposits_in_puppet:0 "Mining chromium deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
+ wfc_develop_tungsten_deposits_in_puppet:0 "Mining tungsten deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
 
 #wfc_puppets_category
  wfc_puppets_category:0 "Submission of weak countries"
