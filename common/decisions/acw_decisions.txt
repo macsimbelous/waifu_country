@@ -1542,7 +1542,7 @@ acw_faction_category = {
 		ai_will_do = {
 			factor = 2
 		}
-		cost = 100
+		cost = 25
 		fire_only_once = no
 		days_re_enable = 365
 		complete_effect = {
@@ -1596,7 +1596,7 @@ acw_faction_category = {
 		ai_will_do = {
 			factor = 2
 		}
-		cost = 100
+		cost = 25
 		fire_only_once = no
 		days_re_enable = 365
 		complete_effect = {
@@ -1650,7 +1650,7 @@ acw_faction_category = {
 		ai_will_do = {
 			factor = 2
 		}
-		cost = 100
+		cost = 25
 		fire_only_once = no
 		days_re_enable = 365
 		complete_effect = {
@@ -1704,7 +1704,7 @@ acw_faction_category = {
 		ai_will_do = {
 			factor = 2
 		}
-		cost = 100
+		cost = 25
 		fire_only_once = no
 		days_re_enable = 365
 		complete_effect = {
@@ -1758,7 +1758,7 @@ acw_faction_category = {
 		ai_will_do = {
 			factor = 2
 		}
-		cost = 100
+		cost = 25
 		fire_only_once = no
 		days_re_enable = 365
 		complete_effect = {
