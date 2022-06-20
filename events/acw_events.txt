@@ -53,7 +53,15 @@ country_event = {
 			LIMIT = {
 				is_in_faction = yes
 			}
-			leave_faction = yes
+			if = {
+				limit = {
+					is_faction_leader = yes
+				}
+				dismantle_faction = yes
+			}
+			else = {
+				leave_faction = yes
+			}
 		}
 		FROM = {
 			add_to_faction = ROOT
