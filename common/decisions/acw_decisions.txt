@@ -2033,7 +2033,7 @@ acw_create_great_animeland_category = {
 					#controls_state = 48
 					48 = {
 						is_controlled_by_ROOT_or_subject = yes
- 					}
+					}
 					#controls_state = 801
 					801 = {
 						is_controlled_by_ROOT_or_subject = yes
@@ -2187,86 +2187,150 @@ acw_create_great_animeland_category = {
 				custom_trigger_tooltip = {
 					tooltip = acw_form_bulgaria_required_states_tt
 					#controls_state = 48
-					48 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					48 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 801
-					801 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					801 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 212
-					212 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					212 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 211
-					211 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					211 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 				}
 				#Romania
 				custom_trigger_tooltip = {
 					tooltip = acw_form_romania_required_states_tt
 					#controls_state = 46
-					46 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					46 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 76
-					76 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					76 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 77
-					77 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					77 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 79
-					79 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					79 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 81
-					81 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					81 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 82
-					82 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					82 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 83
-					83 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					83 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 84
-					84 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					84 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 				}
 				#Yugoslavia 
 				custom_trigger_tooltip = {
 					tooltip = acw_form_yugoslavia_required_states_tt
 					#controls_state = 102
-					102 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					102 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 103
-					103 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					103 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 109
-					109 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					109 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 104
-					104 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					104 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 804
-					804 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					804 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 105
-					105 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					105 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 107
-					107 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					107 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 45
-					45 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					45 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 764
-					764 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					764 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 108
-					108 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					108 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 802
-					802 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					802 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 803
-					803 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					803 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 106
-					106 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					106 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 				}
 				# Hungary
 				custom_trigger_tooltip = {
 					tooltip = acw_form_hungary_required_states_tt
 					#controls_state = 155
-					155 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					155 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 43
-					43 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					43 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 154
-					154 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					154 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 				}
 				#Albania
 				custom_trigger_tooltip = {
 					tooltip = acw_form_albania_required_states_tt
 					#controls_state = 44
-					44 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					44 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 					#controls_state = 805
-					805 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					805 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 				}
 				#controls_state = 163
-				163 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				163 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
 				#controls_state = 736
-				736 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				736 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
 			}
 		}
 		ai_will_do = {
@@ -2870,6 +2934,116 @@ acw_create_great_animeland_category = {
 				target = ITA
 				type = take_claimed_state
 			}
+		}
+	}
+	acw_create_bul_provinces_decision = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = BUL
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = BUL
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
+	acw_create_rom_provinces_decision = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = ROM
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = ROM
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
+	acw_create_yug_provinces_decision = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = YUG
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = YUG
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
+	acw_create_hun_provinces_decision = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = HUN
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = HUN
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
+	acw_create_alb_provinces_decision = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = ALB
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = ALB
+			}
+			wfc_instantiate_federation_subject = yes
 		}
 	}
 }

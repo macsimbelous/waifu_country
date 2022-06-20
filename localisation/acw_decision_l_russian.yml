@@ -94,3 +94,8 @@
  acw_conquest_of_hun_decision:0 "Завоевать §YВенгрию§!"
  acw_conquest_of_alb_decision:0 "Завоевать §YАлбанию§!"
  acw_conquest_of_ita_decision:0 "Завоевать §YИталию§!"
+ acw_create_bul_provinces_decision:0 "Сформировать субъект §Y[BUL.GetName]§!"
+ acw_create_rom_provinces_decision:0 "Сформировать субъект §Y[ROM.GetName]§!"
+ acw_create_yug_provinces_decision:0 "Сформировать субъект §Y[YUG.GetName]§!"
+ acw_create_hun_provinces_decision:0 "Сформировать субъект §Y[HUN.GetName]§!"
+ acw_create_alb_provinces_decision:0 "Сформировать субъект §Y[ALB.GetName]§!"

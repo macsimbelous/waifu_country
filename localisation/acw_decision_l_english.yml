@@ -94,3 +94,8 @@ acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will 
  acw_conquest_of_hun_decision:0 "Conquer §YHungary§!"
  acw_conquest_of_alb_decision:0 "Conquer §YAlbania§!"
  acw_conquest_of_ita_decision:0 "Conquer §YItaly§!"
+ acw_create_bul_provinces_decision:0 "Create subject §Y[BUL.GetName]§!"
+ acw_create_rom_provinces_decision:0 "Create subject §Y[ROM.GetName]§!"
+ acw_create_yug_provinces_decision:0 "Create subject §Y[YUG.GetName]§!"
+ acw_create_hun_provinces_decision:0 "Create subject §Y[HUN.GetName]§!"
+ acw_create_alb_provinces_decision:0 "Create subject §Y[ALB.GetName]§!"
