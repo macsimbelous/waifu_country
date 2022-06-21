@@ -3046,4 +3046,114 @@ acw_create_great_animeland_category = {
 			wfc_instantiate_federation_subject = yes
 		}
 	}
+	acw_reorganize_bul_provinces_decision = {
+		icon = generic_decision
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			BUL = {
+				is_puppet_of = ROOT
+				NOT = {
+					has_autonomy_state = autonomy_federation_subject
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = BUL
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
+	acw_reorganize_rom_provinces_decision = {
+		icon = generic_decision
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = ROM
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = ROM
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
+	acw_reorganize_yug_provinces_decision = {
+		icon = generic_decision
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = YUG
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = YUG
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
+	acw_reorganize_hun_provinces_decision = {
+		icon = generic_decision
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = HUN
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = HUN
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
+	acw_reorganize_alb_provinces_decision = {
+		icon = generic_decision
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			any_controlled_state = {
+				is_core_of = ALB
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = ALB
+			}
+			wfc_instantiate_federation_subject = yes
+		}
+	}
 }
