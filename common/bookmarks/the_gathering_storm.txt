@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		"ACW" = {
 			history = "ACW_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				free_trade
 				volunteer_only
@@ -20,7 +20,7 @@ bookmarks = {
 		}
 		"HEN" = {
 			history = "HEN_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				limited_conscription
 				partial_economic_mobilisation
@@ -31,8 +31,8 @@ bookmarks = {
 			}
 		}
 		"MAH" = {
-			history = "ASN_GATHERING_STORM_DESC"
-			ideology = fascism
+			history = "MAH_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				mah_the_nation_of_mahou_shoujo
 			}
@@ -40,21 +40,9 @@ bookmarks = {
 
 			}
 		}
-		"TRP" = {
-			history = "AUN_GATHERING_STORM_DESC"
-			ideology = communism
-			focuses = {
-
-			}
-			ideas = {
-				TRP_revolution
-				partial_economic_mobilisation
-				trp_childless_idea
-			}
-		}
 		"MEH"={
 			history = "MEH_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				meh_ai
 				meh_super_factory
@@ -66,13 +54,25 @@ bookmarks = {
 		}
 		"MMS"={
 			history = "MMS_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = neutrality
 			ideas = {
 				mms_the_nation_of_monmusu
 			}
 			focuses = {
 
 			}	
+		}
+		"TRP" = {
+			history = "TRP_GATHERING_STORM_DESC"
+			ideology = neutrality
+			focuses = {
+
+			}
+			ideas = {
+				TRP_revolution
+				partial_economic_mobilisation
+				trp_childless_idea
+			}
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
@@ -87,21 +87,6 @@ bookmarks = {
 				SOV_behead_the_snake
 				SOV_the_supreme_soviet
 				SOV_reconvene_the_zemsky_sobor
-			}	
-		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			available = { NOT = { has_dlc = "No Step Back" } }
-			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
-			}
-			focuses = {
-				SOV_behead_the_snake
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
 			}	
 		}
 		"---"={
