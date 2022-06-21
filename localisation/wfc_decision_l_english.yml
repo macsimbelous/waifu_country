@@ -19,9 +19,12 @@ wfl_gacha_category:0 "Gacha"
 wfl_gacha_decision.t:0 "Try your luck"
 
 #wfc_integration_category
-wfc_integration_category:0 "Integration"
-wfc_integration_decision.t:0 "Integrate §Y[From.GetName]§!"
-wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of our culture in §Y[From.GetName]§!"
+ wfc_integration_category:0 "Integration"
+ wfc_integration_decision.t:0 "Integrate §Y[From.GetName]§!"
+ wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of our culture in §Y[From.GetName]§!"
+ wfc_integration_decision_2_desc:0 "To integrate the region §Y[From.GetName]§! we need manpower in the amount of §G10%§! from the population of the region."
+ wfc_integration_manpower_country_minus_tt:0 "Human resources in the amount of §G10%§ will be used! from the population of the region §Y[From.GetName]§!"
+ wfc_integration_manpower_state_plus_tt:0 "The region's population will increase by §G10%§!"
 
 #create_subject
  wfc_subjects_category:0 "Subjects"
@@ -37,7 +40,10 @@ wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of 
  wfc_transfer_navy_from_federal_subject_tt:0 "There is at least one ship"
  wfc_buy_out_state:0 "Buy out §Y[From.GetName]§!"
  wfc_buy_dokyard_from_puppet:0 "Buy shipyard from §Y[From.GetName]§!"
-  wfc_governor_general_will_be_appointed_tt:0 "§YGovernor general§! will be appointed"
+ wfc_governor_general_will_be_appointed_tt:0 "§YGovernor general§! will be appointed"
+ wfc_harmonize_conscription_laws:0 "Harmonize conscription laws"
+ wfc_conscription_of_recruits_in_the_subjects_of_the_federation:0 "Call for recruits in the subjects of the federation"
+ wfc_conscription_of_recruits_in_the_subjects_of_the_federation_tt:0 "Recruits will be called"
 
 #wfc_world_conquest_category
 wfc_world_conquest_category:0 "Conquest of the world"
@@ -48,8 +54,7 @@ wfc_preparation_for_war_category:0 "Preparing for a warrior"
 wfc_border_defense:0 "Strengthening the border"
 
 #test
-wfl_test_category:0 "Тестовая категория"
-wfl_test_category_desc:0 "415 - §G[?neutrality.GetName]§!"
+ wfс_test_category:0 "Тестовая категория"
 
 #wfc_economy_category
 wfc_economy_category:0 "Economy"

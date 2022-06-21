@@ -276,6 +276,9 @@ wfc_integration_category = {
 		#icon = generic_nationalism
 		#icon = generic_form_nation
 		icon = GFX_decision_generic_brainwash
+		allowed = {
+			always = no
+		}
 		available = {
 			FROM = {
 				compliance > 75
@@ -387,6 +390,81 @@ wfc_integration_category = {
 			FROM = {
 				add_core_of = ROOT
 				#wfc_coring_state = yes
+			}
+		}
+	}
+	wfc_integration_decision_2 = {
+		name = wfc_integration_decision.t
+		icon = GFX_decision_generic_brainwash
+		available = {
+			FROM = {
+				compliance > 75
+				resistance < 5
+				set_temp_variable = {
+					temp_var = state_population_k
+				}
+				multiply_temp_variable = {
+					temp_var = 100
+				}
+			}
+			has_manpower > temp_var
+		}
+		visible = {
+			FROM = {
+				is_owned_by = ROOT
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 3000
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 30
+		modifier = {
+			stability_factor = -0.05
+			political_power_gain = -0.1
+		}
+		complete_effect = {
+			set_temp_variable = {
+				temp_var = state_population_k
+			}
+			multiply_temp_variable = {
+				temp_var = 100
+			}
+			set_temp_variable = {
+				temp_var2 = temp_var
+			}
+			subtract_from_temp_variable = {
+				temp_var2 = temp_var
+			}
+			custom_effect_tooltip = wfc_integration_manpower_country_minus_tt
+			hidden_effect = {
+				add_manpower = temp_var2
+			}
+			FROM = {
+				custom_effect_tooltip = wfc_integration_manpower_state_plus_tt
+				hidden_effect = {
+					add_manpower = temp_var
+				}
+			}
+		}
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
 			}
 		}
 	}
@@ -1601,6 +1679,138 @@ wfc_subjects_category = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	wfc_harmonize_conscription_laws = {
+		priority = 3
+		cost = 50
+		visible = {
+			any_other_country = {
+				is_puppet_of = ROOT
+				has_autonomy_state = autonomy_federation_subject
+				NOT = {
+					wfc_same_conscription = yes
+				}
+			}
+		}
+		complete_effect = {
+			for_each_scope_loop = {
+				array = subjects
+				if = {
+					limit = {
+						has_autonomy_state = autonomy_federation_subject
+					}
+					if = {
+						limit = {
+							ROOT = {
+								has_idea = disarmed_nation
+							}
+						}
+						add_ideas = disarmed_nation
+					}
+					else_if = {
+						limit = {
+							ROOT = {
+								has_idea = volunteer_only
+							}
+						}
+						add_ideas = volunteer_only
+					}
+					else_if = {
+						limit = {
+							ROOT = {
+								has_idea = limited_conscription
+							}
+						}
+						add_ideas = limited_conscription
+					}
+					else_if = {
+						limit = {
+							ROOT = {
+								has_idea = extensive_conscription
+							}
+						}
+						add_ideas = extensive_conscription
+					}
+					else_if = {
+						limit = {
+							ROOT = {
+								has_idea = service_by_requirement
+							}
+						}
+						add_ideas = service_by_requirement
+					}
+					else_if = {
+						limit = {
+							ROOT = {
+								has_idea = all_adults_serve
+							}
+						}
+						add_ideas = all_adults_serve
+					}
+					else_if = {
+						limit = {
+							ROOT = {
+								has_idea = scraping_the_barrel
+							}
+						}
+						add_ideas = scraping_the_barrel
+					}
+				}
+			}
+		}
+	}
+	wfc_conscription_of_recruits_in_the_subjects_of_the_federation = {
+		priority = 2
+		cost = 100
+		visible = {
+			any_other_country = {
+				is_puppet_of = ROOT
+				has_autonomy_state = autonomy_federation_subject
+			}
+		}
+		available = {
+			any_other_country = {
+				is_puppet_of = ROOT
+				has_autonomy_state = autonomy_federation_subject
+				has_manpower > 10000
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_conscription_of_recruits_in_the_subjects_of_the_federation_tt
+			hidden_effect = {
+				set_temp_variable = {
+					wfc_count_recruits = 0
+				}
+				for_each_scope_loop = {
+					array = subjects
+					if = {
+						limit = {
+							has_autonomy_state = autonomy_federation_subject
+						}
+						set_temp_variable = {
+							temp_var = manpower_k
+						}
+						multiply_temp_variable = {
+							temp_var = 1000
+						}
+						divide_temp_variable = {
+							temp_var = 2
+						}
+						add_to_temp_variable = {
+							wfc_count_recruits = temp_var
+						}
+						set_temp_variable = {
+							temp_var2 = temp_var
+						}
+						subtract_from_temp_variable = {
+							temp_var2 = temp_var
+						}
+						add_manpower = temp_var2
+					}
+				}
+				add_manpower = wfc_count_recruits
+			}
 		}
 	}
 }

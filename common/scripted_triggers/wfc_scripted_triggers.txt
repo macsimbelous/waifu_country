@@ -24,3 +24,68 @@ wfc_is_controlled_by_root_or_puppet = {
 		}
 	}
 }
+
+wfc_same_conscription = {
+	custom_trigger_tooltip = {
+		tooltip = wfc_same_conscription_tt
+		if = {
+			limit = {
+				ROOT = {
+					has_idea = disarmed_nation
+				}
+			}
+			has_idea = disarmed_nation
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_idea = volunteer_only
+				}
+			}
+			has_idea = volunteer_only
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_idea = limited_conscription
+				}
+			}
+			has_idea = limited_conscription
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_idea = extensive_conscription
+				}
+			}
+			has_idea = extensive_conscription
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_idea = service_by_requirement
+				}
+			}
+			has_idea = service_by_requirement
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_idea = all_adults_serve
+				}
+			}
+			has_idea = all_adults_serve
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_idea = scraping_the_barrel
+				}
+			}
+			has_idea = scraping_the_barrel
+		}
+		else = {
+			always = no
+		}
+	}
+}

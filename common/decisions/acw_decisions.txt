@@ -3434,6 +3434,7 @@ acw_create_great_animeland_category = {
 		visible = {
 			BUL = {
 				is_subject_of = ROOT
+				has_autonomy_state = autonomy_dominion
 			}
 		}
 		available = {
@@ -3485,6 +3486,7 @@ acw_create_great_animeland_category = {
 		visible = {
 			ROM = {
 				is_subject_of = ROOT
+				has_autonomy_state = autonomy_dominion
 			}
 		}
 		available = {
@@ -3536,6 +3538,7 @@ acw_create_great_animeland_category = {
 		visible = {
 			YUG = {
 				is_subject_of = ROOT
+				has_autonomy_state = autonomy_dominion
 			}
 		}
 		available = {
@@ -3587,6 +3590,7 @@ acw_create_great_animeland_category = {
 		visible = {
 			HUN = {
 				is_subject_of = ROOT
+				has_autonomy_state = autonomy_dominion
 			}
 		}
 		available = {
@@ -3638,6 +3642,7 @@ acw_create_great_animeland_category = {
 		visible = {
 			ALB = {
 				is_subject_of = ROOT
+				has_autonomy_state = autonomy_dominion
 			}
 		}
 		available = {
