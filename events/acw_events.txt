@@ -22,10 +22,26 @@ country_event = {
 	option = {
 		name = acw_event.13.c
 		ai_chance = {
-			base = 75
+			base = 0
+			modifier = {
+				is_in_faction = no
+				add = 10
+			}
 			modifier = {
 				is_faction_leader = yes
-				add = -200
+				add = -1
+			}
+			modifier = {
+				is_faction_leader = yes
+				num_faction_members < 2
+				add = 1
+			}
+			modifier = {
+				has_opinion = {
+					target = ACW
+					value > 49
+				}
+				add = 10
 			}
 			modifier = {
 				original_tag = MMS
@@ -37,7 +53,15 @@ country_event = {
 			LIMIT = {
 				is_in_faction = yes
 			}
-			leave_faction = yes
+			if = {
+				limit = {
+					is_faction_leader = yes
+				}
+				dismantle_faction = yes
+			}
+			else = {
+				leave_faction = yes
+			}
 		}
 		FROM = {
 			add_to_faction = ROOT
@@ -45,16 +69,7 @@ country_event = {
 	}
 	option = {
 		ai_chance = {
-			base = 0
-			modifier = {
-				is_faction_leader = yes
-				add = 200
-			}
-			modifier = {
-				original_tag = MMS
-				is_in_faction_with = MAH
-				add = 200
-			}
+			base = 1
 		}
 		name = acw_event.13.e
 	}
