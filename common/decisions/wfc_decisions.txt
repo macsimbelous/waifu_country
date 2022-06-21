@@ -789,17 +789,16 @@ wfc_subjects_category = {
 				limit = {
 					FROM = {
 						NOT = {
-							OR = {
-								original_tag = ACW
-								original_tag = HEN
-								original_tag = MAH
-								original_tag = TRP
-								original_tag = MMS
-								original_tag = MEH
-							}
+							original_tag = ACW
+							original_tag = HEN
+							original_tag = MAH
+							original_tag = TRP
+							original_tag = MMS
+							original_tag = MEH
 						}
 					}
 				}
+				custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
 				if = {
 					limit = {
 						original_tag = ACW
@@ -932,6 +931,7 @@ wfc_subjects_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -1185,17 +1185,16 @@ wfc_subjects_category = {
 				limit = {
 					FROM = {
 						NOT = {
-							OR = {
-								original_tag = ACW
-								original_tag = HEN
-								original_tag = MAH
-								original_tag = TRP
-								original_tag = MMS
-								original_tag = MEH
-							}
+							original_tag = ACW
+							original_tag = HEN
+							original_tag = MAH
+							original_tag = TRP
+							original_tag = MMS
+							original_tag = MEH
 						}
 					}
 				}
+				custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
 				if = {
 					limit = {
 						original_tag = TRP
@@ -2778,6 +2777,7 @@ prospect_for_resources = {
 		fire_only_once = no
 		days_re_enable = 30
 		days_remove = 30
+		priority = 3
 		available = {
 			has_tech = excavation1
 			any_owned_state = {
@@ -3207,6 +3207,7 @@ prospect_for_resources = {
 				original_tag = MMS
 			}
 		}
+		priority = 2
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 30

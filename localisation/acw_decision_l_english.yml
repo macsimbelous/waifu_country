@@ -99,3 +99,8 @@ acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will 
  acw_create_yug_provinces_decision:0 "Create subject §Y[YUG.GetName]§!"
  acw_create_hun_provinces_decision:0 "Create subject §Y[HUN.GetName]§!"
  acw_create_alb_provinces_decision:0 "Create subject §Y[ALB.GetName]§!"
+ acw_reorganize_bul_provinces_decision:0 "Reorganize §Y[BUL.GetName]§! in §Bsubject of the Federation§!"
+ acw_reorganize_rom_provinces_decision:0 "Reorganize §Y[ROM.GetName]§! in §Bsubject of the Federation§!"
+ acw_reorganize_yug_provinces_decision:0 "Reorganize §Y[YUG.GetName]§! in §Bsubject of the Federation§!"
+ acw_reorganize_hun_provinces_decision:0 "Reorganize §Y[HUN.GetName]§! in §Bsubject of the Federation§!"
+ acw_reorganize_alb_provinces_decision:0 "Reorganize §Y[ALB.GetName]§! in §Bsubject of the Federation§!"

@@ -99,3 +99,8 @@
  acw_create_yug_provinces_decision:0 "Сформировать субъект §Y[YUG.GetName]§!"
  acw_create_hun_provinces_decision:0 "Сформировать субъект §Y[HUN.GetName]§!"
  acw_create_alb_provinces_decision:0 "Сформировать субъект §Y[ALB.GetName]§!"
+ acw_reorganize_bul_provinces_decision:0 "Реорганизовать §Y[BUL.GetName]§! в §Bсубъект федерации§!"
+ acw_reorganize_rom_provinces_decision:0 "Реорганизовать §Y[ROM.GetName]§! в §Bсубъект федерации§!"
+ acw_reorganize_yug_provinces_decision:0 "Реорганизовать §Y[YUG.GetName]§! в §Bсубъект федерации§!"
+ acw_reorganize_hun_provinces_decision:0 "Реорганизовать §Y[HUN.GetName]§! в §Bсубъект федерации§!"
+ acw_reorganize_alb_provinces_decision:0 "Реорганизовать §Y[ALB.GetName]§! в §Bсубъект федерации§!"

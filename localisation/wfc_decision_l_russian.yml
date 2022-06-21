@@ -85,6 +85,7 @@ wfc_integration_decision.t_desc:0 "Не обходимо закрепить ра
  wfc_transfer_navy_from_federal_subject_tt:0 "Есть хотя бы оди корабыль"
  wfc_buy_out_state:0 "Выкупить §Y[From.GetName]§!"
  wfc_buy_dokyard_from_puppet:0 "Купить верфь у §Y[From.GetName]§!"
+ wfc_governor_general_will_be_appointed_tt:0 "Будет назначен §Yгенерал-губернатор§!"
 
 #wfc_world_conquest_category
 wfc_world_conquest_category:0 "Завоевание мира"
