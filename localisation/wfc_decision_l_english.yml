@@ -44,6 +44,9 @@ wfl_gacha_decision.t:0 "Try your luck"
  wfc_harmonize_conscription_laws:0 "Harmonize conscription laws"
  wfc_conscription_of_recruits_in_the_subjects_of_the_federation:0 "Call for recruits in the subjects of the federation"
  wfc_conscription_of_recruits_in_the_subjects_of_the_federation_tt:0 "Recruits will be called"
+ wfc_take_non_national_territories_from_federal_subject:0 "Take non-national territories from subject §Y[From.GetName]§!"
+ wfc_open_buy_out_state_decisions:0 "Display decisions to buy out state from subjects"
+ wfc_close_buy_out_state_decisions:0 "Hide decisions to buy territory from subjects"
 
 #wfc_world_conquest_category
 wfc_world_conquest_category:0 "Conquest of the world"

@@ -1469,6 +1469,38 @@ wfc_subjects_category = {
 			factor = 200
 		}
 	}
+	wfc_open_buy_out_state_decisions = {
+		icon = GFX_decision_eng_trade_unions_support
+		cost = 0
+		fire_only_once = no
+		priority = 5
+		visible = {
+			NOT = {
+				has_country_flag = wfc_buy_out_state_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_country_flag = wfc_buy_out_state_flag
+		}
+	}
+	wfc_close_buy_out_state_decisions = {
+		icon = GFX_decision_eng_trade_unions_support
+		cost = 0
+		fire_only_once = no
+		priority = 5
+		visible = {
+			has_country_flag = wfc_buy_out_state_flag
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			clr_country_flag = wfc_buy_out_state_flag
+		}
+	}
 	wfc_buy_out_state = {
 		icon = GFX_decision_eng_trade_unions_support
 		available = {
@@ -1483,6 +1515,7 @@ wfc_subjects_category = {
 			}
 		}
 		visible = {
+			has_country_flag = wfc_buy_out_state_flag
 			FROM = {
 				NOT = {
 					is_capital = yes
@@ -1533,6 +1566,7 @@ wfc_subjects_category = {
 			}
 		}
 		visible = {
+			has_country_flag = wfc_buy_out_state_flag
 			FROM = {
 				NOT = {
 					is_capital = yes
@@ -1578,7 +1612,10 @@ wfc_subjects_category = {
 					is_core_of = OWNER
 				}
 				OWNER = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 					NOT = {
 						has_autonomy_state = autonomy_dominion
 						has_autonomy_state = autonomy_federation_subject
@@ -1587,13 +1624,17 @@ wfc_subjects_category = {
 			}
 		}
 		visible = {
+			has_country_flag = wfc_buy_out_state_flag
 			FROM = {
 				NOT = {
 					is_capital = yes
 					is_core_of = OWNER
 				}
 				OWNER = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 					NOT = {
 						has_autonomy_state = autonomy_dominion
 						has_autonomy_state = autonomy_federation_subject
@@ -1611,7 +1652,10 @@ wfc_subjects_category = {
 		target_trigger = {
 			FROM = {
 				OWNER = {
-					is_puppet_of = ROOT
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 		}
@@ -1827,6 +1871,47 @@ wfc_subjects_category = {
 				}
 				add_manpower = wfc_count_recruits
 			}
+		}
+	}
+	wfc_take_non_national_territories_from_federal_subject = {
+		cost = 50
+		visible = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+				any_controlled_state = {
+					NOT = {
+						is_core_of = FROM
+					}
+				}
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+				any_controlled_state = {
+					NOT = {
+						is_core_of = FROM
+					}
+				}
+			}
+		}
+		complete_effect = {
+			FROM = {
+				every_controlled_state = {
+					limit = {
+						NOT = {
+							is_core_of = FROM
+						}
+					}
+					ROOT = {
+						set_state_controller = PREV
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 }
@@ -3105,6 +3190,9 @@ prospect_for_resources = {
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
 				}
+				OWNER = {
+					tag = ROOT
+				}
 			}
 		}
 		ai_will_do = {
@@ -3172,6 +3260,9 @@ prospect_for_resources = {
 				has_state_flag = wfc_exploration_aluminium_flag
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
+				}
+				OWNER = {
+					tag = ROOT
 				}
 			}
 		}
@@ -3241,6 +3332,9 @@ prospect_for_resources = {
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
 				}
+				OWNER = {
+					tag = ROOT
+				}
 			}
 		}
 		ai_will_do = {
@@ -3309,6 +3403,9 @@ prospect_for_resources = {
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
 				}
+				OWNER = {
+					tag = ROOT
+				}
 			}
 		}
 		ai_will_do = {
@@ -3376,6 +3473,9 @@ prospect_for_resources = {
 				has_state_flag = wfc_exploration_tungsten_flag
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
+				}
+				OWNER = {
+					tag = ROOT
 				}
 			}
 		}
@@ -3550,6 +3650,9 @@ prospect_for_resources = {
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
 				}
+				OWNER = {
+					is_puppet_of = ROOT
+				}
 			}
 		}
 		ai_will_do = {
@@ -3622,6 +3725,9 @@ prospect_for_resources = {
 				has_state_flag = wfc_exploration_aluminium_flag
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
+				}
+				OWNER = {
+					is_puppet_of = ROOT
 				}
 			}
 		}
@@ -3696,6 +3802,9 @@ prospect_for_resources = {
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
 				}
+				OWNER = {
+					is_puppet_of = ROOT
+				}
 			}
 		}
 		ai_will_do = {
@@ -3769,6 +3878,9 @@ prospect_for_resources = {
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
 				}
+				OWNER = {
+					is_puppet_of = ROOT
+				}
 			}
 		}
 		ai_will_do = {
@@ -3841,6 +3953,9 @@ prospect_for_resources = {
 				has_state_flag = wfc_exploration_tungsten_flag
 				NOT = {
 					has_state_flag = wfc_resource_development_completed_flag
+				}
+				OWNER = {
+					is_puppet_of = ROOT
 				}
 			}
 		}
