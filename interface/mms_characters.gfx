@@ -359,6 +359,26 @@ spriteTypes = {
 		name = "GFX_portrait_mms_suu"
 		texturefile = "gfx/leaders/MMS/suu.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_touka_kuroitsu"
+		texturefile = "gfx/leaders/MMS/touka_kuroitsu_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_touka_kuroitsu"
+		texturefile = "gfx/leaders/MMS/touka_kuroitsu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_touka_kuroitsu_civilian"
+		texturefile = "gfx/leaders/MMS/touka_kuroitsu_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_wolf_bete"
+		texturefile = "gfx/leaders/MMS/wolf_bete_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_wolf_bete"
+		texturefile = "gfx/leaders/MMS/wolf_bete.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01"

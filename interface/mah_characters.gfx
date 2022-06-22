@@ -368,6 +368,22 @@ spriteTypes = {
                 name = "GFX_idea_mah_takizawa_asuka"
                 texturefile = "gfx/leaders/MAH/takizawa_asuka_idea.dds"
         }
+        spriteType = {
+                name = "GFX_portrait_mah_yuto_higaya"
+                texturefile = "gfx/leaders/MAH/yuto_higaya.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_yuto_higaya"
+                texturefile = "gfx/leaders/MAH/yuto_higaya_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_mah_reo_shikishima"
+                texturefile = "gfx/leaders/MAH/reo_shikishima.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_mah_reo_shikishima"
+                texturefile = "gfx/leaders/MAH/reo_shikishima_idea.dds"
+        }
         #generic
 	spriteType = {
 		name = "GFX_portrait_mah_land_01"

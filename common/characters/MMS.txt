@@ -422,7 +422,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = MMS_rose
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MMS
 			}
@@ -510,7 +510,7 @@ characters = {
 			slot = high_command
 			idea_token = MMS_dullahan
 			ledger = army
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MMS
 			}
@@ -1061,6 +1061,28 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MMS_wolf_bete = {
+		name = MMS_wolf_bete
+		portraits = {
+			army = {
+				small = GFX_idea_mms_wolf_bete
+				large = GFX_portrait_mms_wolf_bete
+			}
+			civilian = {
+				large = GFX_portrait_mms_wolf_bete
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#admirals
 	MMS_yamato_wg = {
 		name = MMS_yamato_wg
@@ -1107,7 +1129,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = MMS_purifier
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MMS
 			}
@@ -1228,6 +1250,39 @@ characters = {
 			}
 			traits = {
 				head_of_intelligence
+			}
+		}
+	}
+	MMS_touka_kuroitsu = {
+		name = MMS_touka_kuroitsu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_mms_touka_kuroitsu_civilian
+			}
+			army = {
+				small = GFX_idea_mms_touka_kuroitsu
+				large = GFX_portrait_mms_touka_kuroitsu
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_touka_kuroitsu
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfc_monster_maker
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					add = 100
+					OR = {
+						has_government = fascism
+						has_government = communism
+					}
+				}
 			}
 		}
 	}

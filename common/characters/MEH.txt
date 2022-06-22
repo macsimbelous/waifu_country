@@ -230,7 +230,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MEH_Iris_Heart
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MEH
 			}
@@ -690,7 +690,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = MEH_Phantom_Queen_Ex_Xecty
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MEH
 			}

@@ -102,7 +102,7 @@
   ACW_Beidou:0 "Beidou"
   ACW_ulrich_von_hutten:0 "Ulrich von Hutten"
 
-#Agents
+ #Agents
   ACW_yor_forger:0 "Yor Forger"
 
 #HEN
@@ -196,6 +196,8 @@
   MAH_natsuumi_manatsu:0 "Natsuumi Manatsu"
   MAH_shiratori_yuriko:0 "Shiratori Yuriko"
   MAH_takizawa_asuka:0 "Takizawa Asuka"
+  MAH_yuto_higaya:0 "Yuto Higaya"
+  MAH_reo_shikishima:0 "Reo Shikishima"
 
  #admirals
   MAH_sakuyo_mikage:0 "Sakuyo Mikage"
@@ -291,6 +293,7 @@
   MMS_saphentite_neikes:0 "Saphentite Neikes"
   MMS_miia:0 "Miia"
   MMS_asmodeus:0 "Asmodeus"
+  MMS_wolf_bete:0 "Wolf Bete"
  #Admirals
   MMS_yamato_wg:0 "Yamato WG"
   MMS_purifier:0 "Purifier"
@@ -298,6 +301,8 @@
   MMS_meroune_lorelei:0 "Meroune Lorelei"
  #advisors
   MMS_shigure:0 "Shigure"
+  MMS_touka_kuroitsu:0 "Touka Kuroitsu"
+
 #TRP
  #leaders
   TRP_astolfo:0 "Astolfo"

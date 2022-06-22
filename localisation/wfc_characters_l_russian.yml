@@ -102,7 +102,7 @@
   ACW_Beidou:0 "Бэйдоу"
   ACW_ulrich_von_hutten:0 "Ульрих фон Гуттен"
 
-#Agents
+ #Agents
   ACW_yor_forger:0 "Йор Форджер"
 
 #HEN
@@ -148,6 +148,7 @@
   HEN_Sill_Plain:0 "Силл Плейн"
  #advisors
   HEN_Mika_Amano:0 "Мика Амано"
+
 #MAH
  #leaders
   MAH_Asuka_Ootorii:0 "Асука Отории"
@@ -196,12 +197,15 @@
   MAH_natsuumi_manatsu:0 "Манацу Нацуми"
   MAH_shiratori_yuriko:0 "Юрико Сиратори"
   MAH_takizawa_asuka:0 "Асука Такидзава"
+  MAH_yuto_higaya:0 "Юто Хигая"
+  MAH_reo_shikishima:0 "Рэо Сикасима"
 
  #admirals
   MAH_sakuyo_mikage:0 "Сакуё Микагэ"
   MAH_akane_isshiki:0 "Аканэ Иссики"
   MAH_utena_tenjou:0 "Утэна Тэндзё"
   MAH_lucia_nanami:0 "Лючия Нанами"
+
 #MEH
  #lider
   MEH_KOS_MOS:0 "KOS-MOS"
@@ -248,6 +252,7 @@
   MEH_Hiei_ARP:0 "Хиэй ARP"
  #advisor
   MEH_Yurizaki_Mira:0 "Мира Юризаки"
+
 #MMS
  #lider
   MMS_velvet_crowe:0 "Вельвет Крау"
@@ -291,6 +296,7 @@
   MMS_saphentite_neikes:0 "Сафентит Нейкс"
   MMS_miia:0 "Мия"
   MMS_asmodeus:0 "Асмодеус"
+  MMS_wolf_bete:0 "Вулф Бейт"
  #Admirals
   MMS_yamato_wg:0 "Ямато WG"
   MMS_purifier:0 "Пурифайер"
@@ -298,6 +304,8 @@
   MMS_meroune_lorelei:0 "Мероуна Лорелей"
  #advisors
   MMS_shigure:0 "Сигурэ"
+  MMS_touka_kuroitsu:0 "Тока Куроицу"
+
 #TRP
  #leaders
   TRP_astolfo:0 "Астольф"

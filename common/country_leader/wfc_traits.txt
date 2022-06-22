@@ -275,6 +275,11 @@ leader_traits = {
 			}
 		}
 	}
+	wfc_monster_maker = {
+		random = no
+		sprite = 13
+		conscription = 0.02
+	}
 	wfc_submarine_manufacturer = {
 		random = no
 		equipment_bonus = {

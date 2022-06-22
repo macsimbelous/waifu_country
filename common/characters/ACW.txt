@@ -531,7 +531,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = ACW_Sanya_V_Litvyak
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
@@ -1974,7 +1974,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = ACW_Avrora_Azur_Lane
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
@@ -2174,7 +2174,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = ACW_Beidou
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}

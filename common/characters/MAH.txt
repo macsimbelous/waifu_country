@@ -254,7 +254,7 @@ characters = {
 			slot = high_command
 			idea_token = MAH_Arika_Yumemiya
 			ledger = army
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MAH
 			}
@@ -594,7 +594,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = MAH_hayato_juumonji
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MAH
 			}
@@ -1032,6 +1032,50 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MAH_yuto_higaya = {
+		name = MAH_yuto_higaya
+		portraits = {
+			army = {
+				small = GFX_idea_mah_yuto_higaya
+				large = GFX_portrait_mah_yuto_higaya
+			}
+			civilian = {
+				large = GFX_portrait_mah_yuto_higaya
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MAH_reo_shikishima = {
+		name = MAH_reo_shikishima
+		portraits = {
+			army = {
+				small = GFX_idea_mah_reo_shikishima
+				large = GFX_portrait_mah_reo_shikishima
+			}
+			civilian = {
+				large = GFX_portrait_mah_reo_shikishima
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
 	#admural
 	MAH_sakuyo_mikage = {
 		name = MAH_sakuyo_mikage
@@ -1057,7 +1101,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = MAH_sakuyo_mikage
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = MAH
 			}

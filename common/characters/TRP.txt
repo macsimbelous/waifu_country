@@ -555,7 +555,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = TRP_yukikaze
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = TRP
 			}
