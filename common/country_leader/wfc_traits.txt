@@ -279,6 +279,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		conscription = 0.02
+		research_speed_factor = 0.1
 	}
 	wfc_submarine_manufacturer = {
 		random = no

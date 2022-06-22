@@ -1478,6 +1478,10 @@ wfc_subjects_category = {
 			NOT = {
 				has_country_flag = wfc_buy_out_state_flag
 			}
+			any_other_country = {
+				is_puppet_of = ROOT
+				has_autonomy_state = autonomy_federation_subject
+			}
 		}
 		ai_will_do = {
 			factor = 0
