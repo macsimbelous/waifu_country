@@ -48,6 +48,11 @@ country_event = {
 				is_in_faction_with = MAH
 				add = -200
 			}
+			modifier = {
+				original_tag = MAH
+				is_in_faction_with = MMS
+				add = -200
+			}
 		}
 		IF = {
 			LIMIT = {

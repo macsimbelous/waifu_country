@@ -682,7 +682,6 @@ economy_decisions = {
 		}
 	}
 	wfc_urbanisation_decision = {
-		name = wfc_integration_decision.t
 		icon = generic_construction
 		cost = 25
 		fire_only_once = no
@@ -1437,6 +1436,10 @@ wfc_subjects_category = {
 					num_ships > 0
 				}
 			}
+			has_built = {
+				type = naval_base
+				value > 0
+			}
 		}
 		available = {
 			FROM = {
@@ -1639,6 +1642,9 @@ wfc_subjects_category = {
 				}
 				num_of_naval_factories > 0
 			}
+			any_owned_state = {
+				is_coastal = yes
+			}
 		}
 		target_array = subjects
 		target_trigger = {
@@ -1692,6 +1698,9 @@ wfc_subjects_category = {
 					wfc_same_conscription = yes
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 1
 		}
 		complete_effect = {
 			for_each_scope_loop = {
@@ -1774,6 +1783,13 @@ wfc_subjects_category = {
 				is_puppet_of = ROOT
 				has_autonomy_state = autonomy_federation_subject
 				has_manpower > 10000
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_manpower < 1000
+				add = 2000
 			}
 		}
 		complete_effect = {
