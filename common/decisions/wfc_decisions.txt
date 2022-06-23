@@ -1412,11 +1412,19 @@ wfc_subjects_category = {
 		complete_effect = {
 			custom_effect_tooltip = wfc_delete_units_in_federal_subject_tt
 			hidden_effect = {
-				FROM = {
-					for_each_loop = {
-						array = controlled_states
+				# FROM = {
+				# 	for_each_loop = {
+				# 		array = controlled_states
+				# 		delete_unit = {
+				# 			state = v
+				# 			disband = yes
+				# 		}
+				# 	}
+				# }
+				every_state = {
+					FROM = {
 						delete_unit = {
-							state = v
+							state = PREV
 							disband = yes
 						}
 					}
@@ -1436,10 +1444,11 @@ wfc_subjects_category = {
 					num_ships > 0
 				}
 			}
-			has_built = {
-				type = naval_base
-				value > 0
-			}
+			# has_built = {
+			# 	type = naval_base
+			# 	value > 0
+			# }
+			naval_base > 0
 		}
 		available = {
 			FROM = {

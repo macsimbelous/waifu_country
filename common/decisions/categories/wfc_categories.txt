@@ -192,7 +192,7 @@ wfc_economy_category = {
 }
 
 wfc_budget_category = {
-	priority = 11
+	priority = 7
 	icon = generic_economy
 	picture = GFX_wfc_budget_category
 	allowed = {

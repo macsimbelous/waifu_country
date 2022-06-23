@@ -68,4 +68,9 @@ acw_create_great_animeland_category = {
 	allowed = {
 		original_tag = ACW
 	}
+	visible = {
+		NOT = {
+			has_country_flag = acw_great_animeland_flag
+		}
+	}
 }

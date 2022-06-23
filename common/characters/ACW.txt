@@ -2241,7 +2241,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Minami_Nitta
-			cost = 150
+			cost = 50
 			allowed = {
 				original_tag = ACW
 			}
