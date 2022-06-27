@@ -483,12 +483,12 @@ wfl_immigration_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				has_political_power > 1500
+				has_political_power > 300
 				add = 1
 			}
 		}
 		fire_only_once = no
-		cost = 200
+		cost = 50
 		days_re_enable = 60
 		days_remove = 30
 		modifier = {
