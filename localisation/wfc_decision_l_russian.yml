@@ -54,9 +54,10 @@ wfl_gacha_decision.t:0 "Испытать удачу"
  wfc_harmonize_conscription_laws:0 "Согласовать законы о призыве"
  wfc_conscription_of_recruits_in_the_subjects_of_the_federation:0 "Призвать новобранцев в субъектах федерации"
  wfc_conscription_of_recruits_in_the_subjects_of_the_federation_tt:0 "Будет проведён призыв мовобранцев"
- wfc_take_non_national_territories_from_federal_subject:0 "Забрать не национальные територии у субъекта §Y[From.GetName]§!"
+ wfc_take_non_national_territories_from_federal_subject:0 "Выкупить не национальные територии у субъекта §Y[From.GetName]§!"
  wfc_open_buy_out_state_decisions:0 "Отобразить решения для выкупа територии у субъектов"
  wfc_close_buy_out_state_decisions:0 "Скрыть решения для выкупа територии у субъектов"
+ wfc_take_control_of_the_occupied_territories_from_federal_subject:0 "Взять контроль над оккупированными не национальными териториями у субъекта §Y[From.GetName]§!"
 
 #wfc_world_conquest_category
  wfc_world_conquest_category:0 "Завоевание мира"

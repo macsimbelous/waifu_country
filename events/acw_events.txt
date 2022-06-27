@@ -44,6 +44,12 @@ country_event = {
 				add = 10
 			}
 			modifier = {
+				ACW = {
+					is_major = yes
+				}
+				add = 1
+			}
+			modifier = {
 				original_tag = MMS
 				is_in_faction_with = MAH
 				add = -200

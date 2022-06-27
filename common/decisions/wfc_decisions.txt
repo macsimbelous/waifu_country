@@ -1751,9 +1751,7 @@ wfc_subjects_category = {
 			any_other_country = {
 				is_puppet_of = ROOT
 				has_autonomy_state = autonomy_federation_subject
-				NOT = {
-					wfc_same_conscription = yes
-				}
+				wfc_same_conscription = no
 			}
 		}
 		ai_will_do = {
@@ -1887,13 +1885,60 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_take_non_national_territories_from_federal_subject = {
-		cost = 50
+		cost = 100
 		visible = {
 			FROM = {
 				has_autonomy_state = autonomy_federation_subject
+				any_owned_state = {
+					NOT = {
+						is_core_of = FROM
+					}
+				}
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+				any_owned_state = {
+					NOT = {
+						is_core_of = FROM
+					}
+				}
+			}
+		}
+		complete_effect = {
+			FROM = {
+				every_owned_state = {
+					limit = {
+						NOT = {
+							is_core_of = FROM
+						}
+					}
+					ROOT = {
+						set_state_controller = PREV
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	wfc_take_control_of_the_occupied_territories_from_federal_subject = {
+		cost = 25
+		visible = {
+			FROM = {
+				has_autonomy_state = autonomy_federation_subject
+				#num_occupied_states > 0
 				any_controlled_state = {
 					NOT = {
 						is_core_of = FROM
+					}
+					OWNER = {
+						NOT = {
+							tag = FROM
+						}
 					}
 				}
 			}
@@ -1906,6 +1951,11 @@ wfc_subjects_category = {
 					NOT = {
 						is_core_of = FROM
 					}
+					OWNER = {
+						NOT = {
+							tag = FROM
+						}
+					}
 				}
 			}
 		}
@@ -1915,6 +1965,11 @@ wfc_subjects_category = {
 					limit = {
 						NOT = {
 							is_core_of = FROM
+						}
+						OWNER = {
+							NOT = {
+								tag = FROM
+							}
 						}
 					}
 					ROOT = {

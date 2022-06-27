@@ -1509,38 +1509,54 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				HEN = {
-					has_government = democratic
-				}
+			HEN = {
+				has_same_ideology = yes
 			}
-			else_if = {
-				limit = {
-					has_government = communism
-				}
-				HEN = {
-					has_government = communism
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = fascism
-				}
-				HEN = {
-					has_government = fascism
-				}
-			}
-			else = {
-				HEN = {
-					has_government = neutrality
-				}
-			}
+			# if = {
+			# 	limit = {
+			# 		has_government = democratic
+			# 	}
+			# 	HEN = {
+			# 		has_government = democratic
+			# 	}
+			# }
+			# else_if = {
+			# 	limit = {
+			# 		has_government = communism
+			# 	}
+			# 	HEN = {
+			# 		has_government = communism
+			# 	}
+			# }
+			# else_if = {
+			# 	limit = {
+			# 		has_government = fascism
+			# 	}
+			# 	HEN = {
+			# 		has_government = fascism
+			# 	}
+			# }
+			# else = {
+			# 	HEN = {
+			# 		has_government = neutrality
+			# 	}
+			# }
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				HEN = {
+					has_opinion = {
+						target = ROOT
+						value > 49
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				is_major = yes
+				add = 10
+			}
 		}
 		cost = 25
 		fire_only_once = no
@@ -1563,38 +1579,25 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				MAH = {
-					has_government = democratic
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = communism
-				}
-				MAH = {
-					has_government = communism
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = fascism
-				}
-				MAH = {
-					has_government = fascism
-				}
-			}
-			else = {
-				MAH = {
-					has_government = neutrality
-				}
+			MAH = {
+				has_same_ideology = yes
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				HEN = {
+					has_opinion = {
+						target = ROOT
+						value > 49
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				is_major = yes
+				add = 10
+			}
 		}
 		cost = 25
 		fire_only_once = no
@@ -1617,38 +1620,25 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				MEH = {
-					has_government = democratic
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = communism
-				}
-				MEH = {
-					has_government = communism
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = fascism
-				}
-				MEH = {
-					has_government = fascism
-				}
-			}
-			else = {
-				MEH = {
-					has_government = neutrality
-				}
+			MEH = {
+				has_same_ideology = yes
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				HEN = {
+					has_opinion = {
+						target = ROOT
+						value > 49
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				is_major = yes
+				add = 10
+			}
 		}
 		cost = 25
 		fire_only_once = no
@@ -1671,38 +1661,25 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				MMS = {
-					has_government = democratic
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = communism
-				}
-				MMS = {
-					has_government = communism
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = fascism
-				}
-				MMS = {
-					has_government = fascism
-				}
-			}
-			else = {
-				MMS = {
-					has_government = neutrality
-				}
+			MMS = {
+				has_same_ideology = yes
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				HEN = {
+					has_opinion = {
+						target = ROOT
+						value > 49
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				is_major = yes
+				add = 10
+			}
 		}
 		cost = 25
 		fire_only_once = no
@@ -1725,38 +1702,25 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				TRP = {
-					has_government = democratic
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = communism
-				}
-				TRP = {
-					has_government = communism
-				}
-			}
-			else_if = {
-				limit = {
-					has_government = fascism
-				}
-				TRP = {
-					has_government = fascism
-				}
-			}
-			else = {
-				TRP = {
-					has_government = neutrality
-				}
+			TRP = {
+				has_same_ideology = yes
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			base = 2
+			modifier = {
+				HEN = {
+					has_opinion = {
+						target = ROOT
+						value > 49
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				is_major = yes
+				add = 10
+			}
 		}
 		cost = 25
 		fire_only_once = no
@@ -1774,6 +1738,7 @@ acw_faction_category = {
 		}
 		visible = {
 			has_country_flag = acw_waifu_power_is_exist_flag
+			has_capitulated = no
 		}
 		available = {
 			is_faction_leader = yes
