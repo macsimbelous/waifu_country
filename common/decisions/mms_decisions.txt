@@ -348,6 +348,12 @@ mms_expansion_of_living_space_category = {
 		ai_will_do = {
 			factor = 5
 		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
 		complete_effect = {
 			set_country_flag = mms_prepare_war_flag
 		}
@@ -390,6 +396,12 @@ mms_expansion_of_living_space_category = {
 		}
 		ai_will_do = {
 			factor = 5
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
 		}
 		complete_effect = {
 			set_country_flag = mms_prepare_war_flag

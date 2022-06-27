@@ -1987,6 +1987,9 @@ wfc_subjects_category = {
 wfc_preparation_for_war_category = {
 	wfc_border_defense = {
 		icon = generic_construction
+		visible = {
+			has_war = no
+		}
 		available = {
 			has_war = no
 			num_of_civilian_factories_available_for_projects > 4

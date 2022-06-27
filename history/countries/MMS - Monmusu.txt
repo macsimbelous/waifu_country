@@ -52,6 +52,7 @@ set_technology = {
 	early_ship_hull_submarine = 1
 	basic_ship_hull_submarine = 1
 	#esminec#
+	basic_fire_control_system = 1
 	early_ship_hull_light = 1
 	basic_ship_hull_light = 1
 	basic_battery = 1
@@ -146,6 +147,7 @@ recruit_character = MMS_touka_kuroitsu
 recruit_character = MMS_wolf_bete
 
 #Agents
+recruit_character = MMS_rias_gremory
 create_operative_leader = {
 	name = "Rias Gremory"
 	GFX = GFX_portrait_mms_rias_gremory

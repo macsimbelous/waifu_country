@@ -2748,21 +2748,24 @@ acw_create_great_animeland_category = {
 		cost = 25
 		fire_only_once = yes
 		visible = {
-			any_controlled_state = {
-				is_core_of = BUL
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
+			controls_state = 801
+			controls_state = 212
+			controls_state = 211
+			# any_controlled_state = {
+			# 	is_core_of = BUL
+			# 	NOT = {
+			# 		is_core_of = ROOT
+			# 	}
+			# }
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				controls_state = 801
-				controls_state = 212
-				controls_state = 211
-				add = 2000
-			}
+			base = 2000
+			# modifier = {
+			# 	controls_state = 801
+			# 	controls_state = 212
+			# 	controls_state = 211
+			# 	add = 2000
+			# }
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -2776,26 +2779,34 @@ acw_create_great_animeland_category = {
 		cost = 25
 		fire_only_once = yes
 		visible = {
-			any_controlled_state = {
-				is_core_of = ROM
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
+			controls_state = 46
+			controls_state = 76
+			controls_state = 77
+			controls_state = 79
+			controls_state = 81
+			controls_state = 82
+			controls_state = 83
+			controls_state = 84
+			# any_controlled_state = {
+			# 	is_core_of = ROM
+			# 	NOT = {
+			# 		is_core_of = ROOT
+			# 	}
+			# }
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				controls_state = 46
-				controls_state = 76
-				controls_state = 77
-				controls_state = 79
-				controls_state = 81
-				controls_state = 82
-				controls_state = 83
-				controls_state = 84
-				add = 2000
-			}
+			base = 2000
+			# modifier = {
+			# 	controls_state = 46
+			# 	controls_state = 76
+			# 	controls_state = 77
+			# 	controls_state = 79
+			# 	controls_state = 81
+			# 	controls_state = 82
+			# 	controls_state = 83
+			# 	controls_state = 84
+			# 	add = 2000
+			# }
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -2809,31 +2820,44 @@ acw_create_great_animeland_category = {
 		cost = 25
 		fire_only_once = yes
 		visible = {
-			any_controlled_state = {
-				is_core_of = YUG
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
+			controls_state = 102
+			controls_state = 103
+			controls_state = 109
+			controls_state = 104
+			controls_state = 804
+			controls_state = 105
+			controls_state = 107
+			controls_state = 45
+			controls_state = 764
+			controls_state = 108
+			controls_state = 802
+			controls_state = 803
+			controls_state = 106
+			# any_controlled_state = {
+			# 	is_core_of = YUG
+			# 	NOT = {
+			# 		is_core_of = ROOT
+			# 	}
+			# }
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				controls_state = 102
-				controls_state = 103
-				controls_state = 109
-				controls_state = 104
-				controls_state = 804
-				controls_state = 105
-				controls_state = 107
-				controls_state = 45
-				controls_state = 764
-				controls_state = 108
-				controls_state = 802
-				controls_state = 803
-				controls_state = 106
-				add = 2000
-			}
+			base = 2000
+			# modifier = {
+			# 	controls_state = 102
+			# 	controls_state = 103
+			# 	controls_state = 109
+			# 	controls_state = 104
+			# 	controls_state = 804
+			# 	controls_state = 105
+			# 	controls_state = 107
+			# 	controls_state = 45
+			# 	controls_state = 764
+			# 	controls_state = 108
+			# 	controls_state = 802
+			# 	controls_state = 803
+			# 	controls_state = 106
+			# 	add = 2000
+			# }
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -2847,21 +2871,24 @@ acw_create_great_animeland_category = {
 		cost = 25
 		fire_only_once = yes
 		visible = {
-			any_controlled_state = {
-				is_core_of = HUN
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
+			controls_state = 155
+			controls_state = 43
+			controls_state = 154
+			# any_controlled_state = {
+			# 	is_core_of = HUN
+			# 	NOT = {
+			# 		is_core_of = ROOT
+			# 	}
+			# }
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				controls_state = 155
-				controls_state = 43
-				controls_state = 154
-				add = 2000
-			}
+			base = 2000
+			# modifier = {
+			# 	controls_state = 155
+			# 	controls_state = 43
+			# 	controls_state = 154
+			# 	add = 2000
+			# }
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -2875,20 +2902,22 @@ acw_create_great_animeland_category = {
 		cost = 25
 		fire_only_once = yes
 		visible = {
-			any_controlled_state = {
-				is_core_of = ALB
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
+			controls_state = 44
+			controls_state = 805
+			# any_controlled_state = {
+			# 	is_core_of = ALB
+			# 	NOT = {
+			# 		is_core_of = ROOT
+			# 	}
+			# }
 		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				controls_state = 44
-				controls_state = 805
-				add = 2000
-			}
+			base = 2000
+			# modifier = {
+			# 	controls_state = 44
+			# 	controls_state = 805
+			# 	add = 2000
+			# }
 		}
 		complete_effect = {
 			set_temp_variable = {

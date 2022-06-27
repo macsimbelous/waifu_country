@@ -315,6 +315,18 @@ units = {
 	# 	start_equipment_factor = 0.3
 	# }
 }
+air_wings = {
+	414 = { 
+		fighter_equipment_1 = {
+			owner = MMS 
+			amount = 200
+		}
+		tac_bomber_equipment_1 = {
+			owner = MMS
+			amount = 50
+		}
+	}
+}
 ###starting production###
 instant_effect = {
 	add_equipment_production = {

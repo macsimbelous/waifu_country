@@ -28,7 +28,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/corrin_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_mms_Corrin"
+		name = "GFX_portrait_mms_corrin"
 		texturefile = "gfx/leaders/MMS/Corrin.dds"
 	}
 	spriteType = {
@@ -180,8 +180,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/rias_gremory_idea.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_mms_rias_gremory_civilian"
+		texturefile = "gfx/leaders/MMS/rias_gremory_civilian.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_mms_rias_gremory"
-		texturefile = "gfx/leaders/MMS/Rias_Gremory.dds"
+		texturefile = "gfx/leaders/MMS/rias_gremory.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mms_ripine"
