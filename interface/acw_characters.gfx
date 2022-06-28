@@ -833,6 +833,22 @@ spriteTypes = {
 		name = "GFX_portrait_acw_ulrich_von_hutten"
 		texturefile = "gfx/leaders/ACW/ulrich_von_hutten.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_acw_mona_megistus"
+		texturefile = "gfx/leaders/ACW/mona_megistus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_mona_megistus_civilian"
+		texturefile = "gfx/leaders/ACW/mona_megistus_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_mona_megistus_army"
+		texturefile = "gfx/leaders/ACW/mona_megistus_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_mona_megistus_navy"
+		texturefile = "gfx/leaders/ACW/mona_megistus_navy.dds"
+	}
 	#other country
 	spriteType = {
 		name = "GFX_idea_acw_satellizer_el_bridget"

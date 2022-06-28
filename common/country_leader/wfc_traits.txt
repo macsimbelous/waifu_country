@@ -354,4 +354,12 @@ leader_traits = {
 		random = no
 		autonomy_gain = -0.25
 	}
+	wfc_astrologist_trait = {
+		sprite = 13
+		random = no
+		stability_factor = 0.05
+		war_support_factor = 0.05
+		political_power_factor = 0.05
+		recon_factor = 0.1
+	}
 }

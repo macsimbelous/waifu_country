@@ -294,7 +294,7 @@ characters = {
 			planning_skill = 5
 			logistics_skill = 4
 		}
-	}                                                                                      
+	}
 	ACW_Saint_Martha = {
 		name = ACW_Saint_Martha
 		portraits = {
@@ -1544,7 +1544,9 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				unyielding_defender defense_skill infantry_leader
+				unyielding_defender
+				defense_skill
+				infantry_leader
 			}
 			skill = 6
 			attack_skill = 5
@@ -1578,11 +1580,17 @@ characters = {
 				#compliance_growth = 0.15
 				resistance_decay = 0.15
 			}
+			available = {
+				has_government = fascism
+			}
 		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				offensive_doctrine offensive_skill commando trickster
+				offensive_doctrine
+				offensive_skill
+				commando
+				trickster
 			}
 			skill = 4
 			attack_skill = 5
@@ -1616,7 +1624,8 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				logistics_skill organizer
+				logistics_skill
+				organizer
 			}
 			skill = 4
 			attack_skill = 4
@@ -1639,7 +1648,9 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				inflexible_strategist media_personality trickster
+				inflexible_strategist
+				media_personality
+				trickster
 			}
 			skill = 4
 			attack_skill = 4
@@ -1944,7 +1955,6 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
-				
 			}
 			skill = 4
 			attack_skill = 4
@@ -2260,7 +2270,6 @@ characters = {
 			}
 		}
 	}
-
 	ACW_Ange_le_Carre = {
 		name = ACW_Ange_le_Carre
 		portraits = {
@@ -2427,6 +2436,40 @@ characters = {
 			}
 		}
 	}
+	ACW_mona_megistus = {
+		name = ACW_mona_megistus
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_acw_mona_megistus_civilian
+			}
+			army = {
+				large = GFX_portrait_acw_mona_megistus_army
+				small = GFX_idea_acw_mona_megistus
+			}
+			navy = {
+				large = GFX_portrait_acw_mona_megistus_navy
+				small = GFX_idea_acw_mona_megistus
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_mona_megistus
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_astrologist_trait
+			}
+			available = {
+				has_government = neutrality
+			}
+		}
+	}
 	ACW_Ayame_Himuro = {
 		name = ACW_Ayame_Himuro
 		portraits = {
@@ -2456,6 +2499,7 @@ characters = {
 			}
 		}
 	}
+	#Agents
 	ACW_head_int = {
 		name = generic_head_of_intelligence
 		portraits = {
@@ -2487,7 +2531,6 @@ characters = {
 			}
 		}
 	}
-	#Agents
 	ACW_yor_forger = {
 		name = ACW_yor_forger
 		portraits = {
