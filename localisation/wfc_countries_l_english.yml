@@ -185,4 +185,4 @@
  wfc_is_controlled_by_root_or_puppet_tt:0 "Controlled by §G[ROOT.GetName]§! or §Gpuppet§!"
 
 #Effects
- wfc_instantiate_federation_subject_tt:0 "A federation subject §Y[country_to_initiate.GetName]§! will be formed."
+ wfc_instantiate_federation_subject_tt:0 "A federation subject §Y[?country_to_initiate.GetName]§! will be formed."
