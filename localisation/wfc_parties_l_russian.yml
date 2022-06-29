@@ -1,8 +1,5 @@
 ﻿l_russian:
-
- ####################
- ## Hentai ###
- ####################
+## Hentai ###
  HEN_fascism_party:0 "Партия тентаклей"
  HEN_fascism_party_long:0 "Партия тентаклей"
  HEN_communism_party:0 "ПСР"
@@ -11,9 +8,8 @@
  HEN_democratic_party_long:0 "Партия шестливого секса" 
  HEN_neutrality_party:0 "ПСЛ"
  HEN_neutrality_party_long:0 "Партия свободной любви"
- ####################
- #### AnimeLand #####
- ####################
+
+#### AnimeLand #####
  ACW_fascism_party:0 "Партия Цундере"
  ACW_fascism_party_long:0 "Партия Цундере"
  ACW_communism_party:0 "Партия Яндере"
@@ -22,10 +18,10 @@
  ACW_democratic_party_long:0 "Партия Моэ" 
  ACW_neutrality_party:0 "Партия Кудере"
  ACW_neutrality_party_long:0 "Партия Кудере"
+ ACW_neutrality_party_queens_party_long:0 "Партия королевы"
+ ACW_neutrality_party_queens_party:0 "Партия королевы"
 
- ####################
- #### Trap ###
- ####################
+#### Trap ###
  TRP_fascism_party:0 "ППТ"
  TRP_fascism_party_long:0 "Партия превосходства трапов"
  TRP_communism_party:0 "ПТС"

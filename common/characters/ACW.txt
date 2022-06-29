@@ -2402,6 +2402,9 @@ characters = {
 			allowed = {
 				original_tag = ACW
 			}
+			available = {
+				has_government = fascism
+			}
 			traits = {
 				wfc_war_industrialist
 			}
@@ -2467,6 +2470,7 @@ characters = {
 			}
 			available = {
 				has_government = neutrality
+				#has_completed_focus = acw_focus_neutrality_3
 			}
 		}
 	}
