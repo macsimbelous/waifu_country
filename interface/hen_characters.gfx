@@ -295,6 +295,18 @@ spriteTypes = {
                 name = "GFX_portrait_hen_catue_dragundaala"
                 texturefile = "gfx/leaders/HEN/catue_dragundaala.dds"
         }
+        spriteType = {
+                name = "GFX_idea_hen_soul_eater"
+                texturefile = "gfx/leaders/HEN/soul_eater_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_hen_soul_eater_civilian"
+                texturefile = "gfx/leaders/HEN/soul_eater_civilian.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_hen_soul_eater_army"
+                texturefile = "gfx/leaders/HEN/soul_eater_army.dds"
+        }
         #generic
         spriteType = {
 		name = "GFX_portrait_hen_land_01"

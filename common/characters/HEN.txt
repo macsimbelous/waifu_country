@@ -882,6 +882,28 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	HEN_soul_eater = {
+		name = HEN_soul_eater
+		portraits = {
+			civilian = {
+				large = GFX_portrait_hen_soul_eater_civilian
+			}
+			army = {
+				small = GFX_idea_hen_soul_eater
+				large = GFX_portrait_hen_soul_eater_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	#admerals
 	HEN_Kaname = {
 		name = HEN_Kaname
