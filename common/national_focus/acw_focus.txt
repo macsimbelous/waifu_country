@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 0
+			add = 10
 			tag = ACW
 		}
 	}
@@ -24,6 +24,8 @@ focus_tree = {
 		cost = 5
 		mutually_exclusive = {
 			focus = acw_focus_unite_democratic_opposition
+			focus = acw_focus_form_the_popular_front
+			focus = acw_focus_friendship_treaty_with_germany
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -87,7 +89,7 @@ focus_tree = {
 		relative_position_id = acw_focus_state_council
 		x = 2
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = acw_focus_state_council
 		}
@@ -114,7 +116,7 @@ focus_tree = {
 		prerequisite = {
 			focus = acw_focus_army_reform
 		}
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -212,6 +214,9 @@ focus_tree = {
 			# 		value = 200
 			# 	}
 			# }
+			set_rule = {
+				can_create_factions = yes
+			}
 		}
 	}
 	focus = {
@@ -344,6 +349,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		ai_will_do = {
+			factor = 10
+		}
 		bypass = {
 			ALB = {
 				OR = {
@@ -446,8 +454,50 @@ focus_tree = {
 			}
 		}
 	}
-
-	
+	focus = {
+		id = acw_focus_attack_ita
+		icon = GFX_focus_attack_italy
+		prerequisite = {
+			focus = acw_focus_attack_hun
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_attack_hun
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			ITA = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+				}
+			}
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = ITA
+			}
+		}
+		completion_reward = {
+			ITA = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_core_of = YUG
+							is_core_of = ALB
+						}
+					}
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = ITA
+				type = take_claimed_state
+			}
+		}
+	}
 	focus = {
 		id = acw_defensive_lines
 		prerequisite = {
@@ -512,6 +562,8 @@ focus_tree = {
 		cost = 5
 		mutually_exclusive = {
 			focus = acw_focus_state_council
+			focus = acw_focus_form_the_popular_front
+			focus = acw_focus_friendship_treaty_with_germany
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -683,7 +735,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = acw_focus_economic_development
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -1004,6 +1056,9 @@ focus_tree = {
 			add_to_faction = YUG
 			add_to_faction = HUN
 			add_to_faction = ALB
+			set_rule = {
+				can_create_factions = yes
+			}
 		}
 	}
 	focus = {
@@ -1058,6 +1113,1306 @@ focus_tree = {
 			ALB = {
 				add_ideas = wfc_economic_assistance
 			}
+		}
+	}
+	#communist
+	focus = {
+		id = acw_focus_form_the_popular_front
+		icon = GFX_goal_support_communism
+		mutually_exclusive = {
+			focus = acw_focus_state_council
+			focus = acw_focus_unite_democratic_opposition
+			focus = acw_focus_friendship_treaty_with_germany
+		}
+		x = 17
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 2
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 200
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = ACW_Erza
+		}
+	}
+	focus = {
+		id = acw_focus_reform_the_labour_laws
+		icon = GFX_goal_generic_production
+		prerequisite = {
+			focus = acw_focus_form_the_popular_front
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_form_the_popular_front
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			has_government = communism
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_open_up_the_universities
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = acw_focus_reform_the_labour_laws
+		}
+		x = 2
+		y = 1
+		relative_position_id = acw_focus_reform_the_labour_laws
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			num_of_factories > 50
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = acw_focus_referendum
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = {
+			focus = acw_focus_reform_the_labour_laws
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_reform_the_labour_laws
+		cost = 5
+		ai_will_do = {
+			factor = 2
+		}
+		available = {
+			communism > 40
+		}
+		bypass = {
+			has_government = communism
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_the_fate_of_queens
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		prerequisite = {
+			focus = acw_focus_referendum
+		}
+		x = -2
+		y = 1
+		relative_position_id = acw_focus_referendum
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			neutrality < 10
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = wtt_japan.31
+		}
+	}
+	focus = {
+		id = acw_focus_rebuild_the_civil_service
+		icon = GFX_goal_generic_national_unity
+		prerequisite = {
+			focus = acw_focus_the_fate_of_queens
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_the_fate_of_queens
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = acw_focus_finish_the_fight
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		prerequisite = {
+			focus = acw_focus_rebuild_the_civil_service
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_rebuild_the_civil_service
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			country_exists = MAN
+			MAN = {
+				has_government = fascism
+			}
+		}
+		bypass = {
+			OR = {
+				has_wargoal_against = MAN
+				has_war_with = MAN
+				MAN = {
+					exists = no
+				}
+				MAN = {
+					not = {
+						has_government = fascism
+					}
+				}
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = MAN
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = MAN
+				type = puppet_wargoal_focus
+				expire = 0
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_red_brigades
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+			focus = acw_focus_referendum
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_referendum
+		cost = 5
+		ai_will_do = {
+			factor = 3
+		}
+		available = {
+			has_government = communism
+			has_civil_war = no
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			add_ideas = JAP_red_brigades
+		}
+	}
+	focus = {
+		id = acw_focus_communist_volunteers
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = {
+			focus = acw_focus_red_brigades
+		}
+		x = 0
+		y = 2
+		relative_position_id = acw_focus_red_brigades
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_government = communism
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			add_ideas = JAP_communist_volunteers
+		}
+	}
+	focus = {
+		id = acw_focus_nationalize_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = acw_focus_referendum
+		}
+		x = 2
+		y = 1
+		relative_position_id = acw_focus_referendum
+		cost = 5
+		ai_will_do = {
+			factor = 3
+		}
+		available = {
+			has_civil_war = no
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		complete_tooltip = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 2
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					ROOT = {
+						has_full_control_of_state = PREV
+					}
+					is_core_of = ROOT
+					not = {
+						OR = {
+							state = 646
+							state = 645
+							state = 555
+						}
+					}
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = acw_focus_zaibatsus_factories
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_people_owned_mines
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = acw_focus_nationalize_industry
+		}
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_nationalize_industry
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_ideas = JAP_people_owned_mines
+		}
+	}
+	focus = {
+		id = acw_focus_public_works
+		icon = GFX_goal_generic_construction
+		prerequisite = {
+			focus = acw_focus_nationalize_industry
+		}
+		x = 1
+		y = 1
+		relative_position_id = acw_focus_nationalize_industry
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_steel_and_aluminium_plant
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {
+			focus = acw_focus_people_owned_mines
+		}
+		prerequisite = {
+			focus = acw_focus_public_works
+		}
+		x = 0
+		y = 2
+		relative_position_id = acw_focus_nationalize_industry
+		cost = 5
+		ai_will_do = {
+			factor = 2
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			845 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 15
+				}
+				add_resource = {
+					type = aluminium
+					amount = 23
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_join_comintern
+		icon = GFX_focus_generic_join_comintern
+		prerequisite = {
+			focus = acw_focus_finish_the_fight
+		}
+		prerequisite = {
+			focus = acw_focus_communist_volunteers
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_communist_volunteers
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_government = communism
+			is_subject = no
+			SOV_comintern_joinable = yes
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					SOV = {
+						is_faction_leader = yes
+						has_government = communism
+					}
+				}
+				SOV = {
+					country_event = generic.2
+				}
+			}
+			else_if = {
+				limit = {
+					SOV = {
+						is_in_faction = yes
+						is_faction_leader = no
+						has_government = communism
+					}
+				}
+				random_country = {
+					limit = {
+						is_in_faction_with = SOV
+						is_faction_leader = yes
+					}
+					country_event = generic.2
+				}
+			}
+			else = {
+				set_rule = {
+					can_create_factions = yes
+				}
+				create_faction = acw_focus_the_new_international
+				SOV = {
+					country_event = generic.5
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_revolution_in_bulgaria
+		icon = GFX_focus_generic_attack_bulgaria
+		prerequisite = {
+			focus = acw_focus_join_comintern
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_join_comintern
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			BUL = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_government = communism
+				}
+			}
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = BUL
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = BUL
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_revolution_in_yug
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = acw_focus_revolution_in_bulgaria
+		}
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_revolution_in_bulgaria
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			YUG = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_government = communism
+				}
+			}
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = YUG
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = YUG
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_revolution_in_alb
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = acw_focus_revolution_in_yug
+		}
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_revolution_in_yug
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			ALB = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_government = communism
+				}
+			}
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = ALB
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = ALB
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_revolution_in_romania
+		icon = GFX_focus_generic_attack_romania
+		prerequisite = {
+			focus = acw_focus_revolution_in_bulgaria
+		}
+		x = 1
+		y = 1
+		relative_position_id = acw_focus_revolution_in_bulgaria
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			ROM = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_government = communism
+				}
+			}
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = ROM
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = ROM
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_revolution_in_hun
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = acw_focus_revolution_in_yug
+			focus = acw_focus_revolution_in_romania
+		}
+		x = 1
+		y = 1
+		relative_position_id = acw_focus_revolution_in_yug
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			HUN = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_government = communism
+				}
+			}
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = HUN
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = HUN
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_revolution_in_ita
+		icon = GFX_focus_attack_italy
+		prerequisite = {
+			focus = acw_focus_revolution_in_hun
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_revolution_in_hun
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			ITA = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_government = communism
+				}
+			}
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = ITA
+			}
+		}
+		completion_reward = {
+			ITA = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_core_of = YUG
+							is_core_of = ALB
+						}
+					}
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = ITA
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	#fascism
+	focus = {
+		id = acw_focus_friendship_treaty_with_germany
+		icon = GFX_focus_chi_mission_to_germany
+		mutually_exclusive = {
+			focus = acw_focus_state_council
+			focus = acw_focus_unite_democratic_opposition
+			focus = acw_focus_form_the_popular_front
+		}
+		x = 25
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 2
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = small_increase
+			}
+			GER = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = small_increase
+				}
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = ACW_Asuka
+		}
+	}
+	focus = {
+		id = acw_focus_militarism
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+			focus = acw_focus_friendship_treaty_with_germany
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_friendship_treaty_with_germany
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = militarism_focus
+			army_experience = 20
+			set_rule = {
+				can_send_volunteers = yes
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_invite_german_officers
+		icon = GFX_focus_generic_military_mission
+		prerequisite = {
+			focus = acw_focus_militarism
+		}
+		available = {
+			NOT = {
+				has_war_with = GER
+			}
+		}
+		x = -2
+		y = 1
+		relative_position_id = acw_focus_militarism
+		cost = 5
+		ai_will_do = {
+			base = 10
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_ideas = TUR_german_advisors
+		}
+	}
+	focus = {
+		id = acw_focus_fascist_youth_union
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = {
+			focus = acw_focus_militarism
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_militarism
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_ideas = military_youth_focus
+		}
+	}
+	focus = {
+		id = acw_focus_anti_communist_pogroms
+		icon = GFX_goal_anti_comintern_pact
+		prerequisite = {
+			focus = acw_focus_fascist_youth_union
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_fascist_youth_union
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.15
+			}
+			add_stability = -0.1
+		}
+	}
+	focus = {
+		id = acw_focus_fascist_coup
+		icon = GFX_focus_SOV_womens_fascist_movement
+		prerequisite = {
+			focus = acw_focus_anti_communist_pogroms
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_anti_communist_pogroms
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = yes
+		available = {
+			fascism > 40
+		}
+		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_military_academy
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = acw_focus_fascist_coup
+		}
+		x = -2
+		y = 1
+		relative_position_id = acw_focus_fascist_coup
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			num_of_factories > 50
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = acw_focus_join_the_axis
+		icon = GFX_focus_ger_reichskommisariats
+		prerequisite = {
+			focus = acw_focus_fascist_coup
+		}
+		available = {
+			NOT = {
+				has_war_with = GER
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_fascist_coup
+		cost = 10
+		ai_will_do = {
+			base = 10
+		}
+		bypass = {
+			is_in_faction_with = GER
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			GER = {
+				country_event = {
+					id = generic.2
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_conquest_of_the_balkans
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = acw_focus_join_the_axis
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_join_the_axis
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			hidden_effect = {
+				BUL = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				YUG = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				ROM = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				HUN = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				ALB = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				ITA = {
+					every_owned_state = {
+						limit = {
+							OR = {
+								is_core_of = YUG
+								is_core_of = ALB
+							}
+						}
+						add_claim_by = ROOT
+					}
+				}
+			}
+			declare_war_on = {
+				target = BUL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ROM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = YUG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HUN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ALB
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					NOT = {
+						is_in_faction_with = ITA
+					}
+				}
+				declare_war_on = {
+					target = ITA
+					type = take_claimed_state
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_production_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = acw_focus_fascist_coup
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_fascist_coup
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			democratic > 30
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_infrastructure_effort_2
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = acw_focus_production_effort
+		}
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_production_effort
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_infrastructure_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 3
+		}
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_modernize_steel_plant_3
+		icon = GFX_focus_generic_steel
+		relative_position_id = acw_focus_production_effort
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_production_effort
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			845 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 15
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_tungsten_plant
+		icon = GFX_focus_generic_tungsten
+		prerequisite = {
+			focus = acw_focus_infrastructure_effort_2
+		}
+		prerequisite = {
+			focus = acw_focus_modernize_steel_plant_3
+		}
+		x = 0
+		y = 2
+		relative_position_id = acw_focus_production_effort
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			846 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = tungsten
+					amount = 9
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 }

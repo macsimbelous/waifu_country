@@ -904,6 +904,28 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	HEN_brainjacker = {
+		name = HEN_brainjacker
+		portraits = {
+			civilian = {
+				large = GFX_portrait_hen_brainjacker
+			}
+			army = {
+				small = GFX_idea_hen_brainjacker
+				large = GFX_portrait_hen_brainjacker
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
 	#admerals
 	HEN_Kaname = {
 		name = HEN_Kaname

@@ -41,7 +41,7 @@ characters = {
 				wfc_dictator
 				wfc_patron_of_industry
 			}
-			expire = "1953.3.1.1"
+			expire = "1953.3.1"
 			id = -1
 		}
 		field_marshal = {
@@ -100,7 +100,7 @@ characters = {
 				wfc_patron_of_the_military_industrial_complex
 				wfc_tsundere
 			}
-			expire = "1953.3.1.1"
+			expire = "1953.3.1"
 			id = -1
 		}
 		field_marshal = {
@@ -135,7 +135,7 @@ characters = {
 				wfc_patron_of_intelligence
 				wfc_empress
 			}
-			expire = "1953.3.1.1"
+			expire = "1953.3.1"
 			id = -1
 		}
 	}
@@ -180,14 +180,13 @@ characters = {
 				wfc_patron_of_science
 				wfc_idol
 			}
-			expire = "1953.3.1.1"
+			expire = "1953.3.1"
 			id = -1
 		}
 		field_marshal = {
 			traits = {
 				wfc_exp_trait
 				organizer
-				logistics_skill
 				logistics_wizard
 			}
 			skill = 4
@@ -257,7 +256,6 @@ characters = {
 				wfc_exp_trait
 				infantry_expert
 				offensive_doctrine
-				logistics_skill
 				logistics_wizard
 			}
 			skill = 6
@@ -1545,7 +1543,6 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				unyielding_defender
-				defense_skill
 				infantry_leader
 			}
 			skill = 6
@@ -1588,7 +1585,6 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				offensive_doctrine
-				offensive_skill
 				commando
 				trickster
 			}
@@ -1624,7 +1620,6 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				logistics_skill
 				organizer
 			}
 			skill = 4
