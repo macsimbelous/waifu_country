@@ -22,6 +22,9 @@ focus_tree = {
 		x = 2
 		y = 0
 		cost = 5
+		mutually_exclusive = {
+			focus = acw_focus_unite_democratic_opposition
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -42,7 +45,7 @@ focus_tree = {
 			focus = acw_focus_state_council
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 		available_if_capitulated = yes
 		completion_reward = {
@@ -60,7 +63,7 @@ focus_tree = {
 			focus = acw_focus_revise_industrial_policy
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 		available_if_capitulated = yes
 		completion_reward = {
@@ -409,8 +412,6 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = acw_focus_attack_yug
-		}
-		prerequisite = {
 			focus = acw_focus_attack_romania
 		}
 		x = 1
@@ -499,6 +500,563 @@ focus_tree = {
 						limit_to_border = yes
 					}
 				}
+			}
+		}
+	}
+	#democrat
+	focus = {
+		id = acw_focus_unite_democratic_opposition
+		icon = GFX_goal_support_democracy
+		x = 9
+		y = 0
+		cost = 5
+		mutually_exclusive = {
+			focus = acw_focus_state_council
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			#country_event = acw_event.1
+		}
+	}
+	focus = {
+		id = acw_focus_expose_corrupt_officials
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = acw_focus_unite_democratic_opposition
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_unite_democratic_opposition
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			add_stability = -0.05
+			#country_event = acw_event.1
+		}
+	}
+	focus = {
+		id = acw_focus_protests
+		icon = GFX_goal_generic_demand_territory
+		relative_position_id = acw_focus_expose_corrupt_officials
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_expose_corrupt_officials
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			add_stability = -0.1
+			#country_event = acw_event.1
+		}
+	}
+	focus = {
+		id = acw_focus_new_constitution
+		icon = GFX_focus_generic_treaty
+		relative_position_id = acw_focus_protests
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_protests
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			add_stability = -0.1
+			#country_event = acw_event.1
+		}
+	}
+	focus = {
+		id = acw_focus_general_election
+		icon = GFX_goal_support_democracy
+		relative_position_id = acw_focus_new_constitution
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_new_constitution
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			democratic > 30
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_economic_development
+		icon = GFX_focus_generic_industry_3
+		relative_position_id = acw_focus_general_election
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_general_election
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			democratic > 30
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_infrastructure_effort
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = acw_focus_economic_development
+		}
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_economic_development
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_infrastructure_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 3
+		}
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_modernize_steel_plant_2
+		icon = GFX_focus_generic_steel
+		relative_position_id = acw_focus_economic_development
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_economic_development
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			845 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 15
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_national_university
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = acw_focus_infrastructure_effort
+		}
+		prerequisite = {
+			focus = acw_focus_modernize_steel_plant_2
+		}
+		x = 0
+		y = 2
+		relative_position_id = acw_focus_economic_development
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		available = {
+			num_of_factories > 50
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = acw_focus_beacon_of_freedom
+		icon = GFX_goal_support_democracy
+		relative_position_id = acw_focus_general_election
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = acw_focus_general_election
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			num_of_factories > 50
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = democratic_influence
+		}
+	}
+	focus = {
+		id = acw_focus_promote_democracy_in_bulgaria
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = acw_focus_beacon_of_freedom
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_beacon_of_freedom
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			BUL = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 360
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_promote_democracy_in_yug
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = acw_focus_promote_democracy_in_bulgaria
+		}
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_promote_democracy_in_bulgaria
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			YUG = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 360
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_promote_democracy_in_alb
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = acw_focus_promote_democracy_in_yug
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_promote_democracy_in_yug
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			ALB = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 360
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_promote_democracy_in_romania
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = acw_focus_promote_democracy_in_bulgaria
+		}
+		x = 1
+		y = 1
+		relative_position_id = acw_focus_promote_democracy_in_bulgaria
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			ROM = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 360
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_promote_democracy_in_hun
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = acw_focus_promote_democracy_in_yug
+			focus = acw_focus_promote_democracy_in_romania
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_promote_democracy_in_romania
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			HUN = {
+				add_timed_idea = {
+					idea = democratic_influence
+					days = 360
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_create_faction_anime_federation
+		icon = GFX_goal_anschluss
+		prerequisite = {
+			focus = acw_focus_promote_democracy_in_alb
+		}
+		prerequisite = {
+			focus = acw_focus_promote_democracy_in_hun
+		}
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_promote_democracy_in_hun
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			BUL = {
+				exists = yes
+				has_government = democratic
+			}
+			ROM = {
+				exists = yes
+				has_government = democratic
+			}
+			YUG = {
+				exists = yes
+				has_government = democratic
+			}
+			HUN = {
+				exists = yes
+				has_government = democratic
+			}
+			ALB = {
+				exists = yes
+				has_government = democratic
+			}
+		}
+		completion_reward = {
+			create_faction = acw_anime_federation
+			add_to_faction = BUL
+			add_to_faction = ROM
+			add_to_faction = YUG
+			add_to_faction = HUN
+			add_to_faction = ALB
+		}
+	}
+	focus = {
+		id = acw_focus_economic_integration
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = {
+			focus = acw_focus_create_faction_anime_federation
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_create_faction_anime_federation
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			num_of_factories > 75
+		}
+		completion_reward = {
+			set_autonomy = {
+				target = YUG
+				autonomy_state = autonomy_dominion
+			}
+			set_autonomy = {
+				target = ROM
+				autonomy_state = autonomy_dominion
+			}
+			set_autonomy = {
+				target = BUL
+				autonomy_state = autonomy_dominion
+			}
+			set_autonomy = {
+				target = HUN
+				autonomy_state = autonomy_dominion
+			}
+			set_autonomy = {
+				target = ALB
+				autonomy_state = autonomy_dominion
+			}
+			YUG = {
+				add_ideas = wfc_economic_assistance
+			}
+			ROM = {
+				add_ideas = wfc_economic_assistance
+			}
+			BUL = {
+				add_ideas = wfc_economic_assistance
+			}
+			HUN = {
+				add_ideas = wfc_economic_assistance
+			}
+			ALB = {
+				add_ideas = wfc_economic_assistance
 			}
 		}
 	}
