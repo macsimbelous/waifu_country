@@ -24,6 +24,7 @@ hen_internationalism_category = {
 			has_government = neutrality
 			has_government = communism
 		}
+		neutrality < 0.5
 	}
 }
 
