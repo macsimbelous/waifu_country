@@ -135,6 +135,8 @@ recruit_character = MMS_freyja
 recruit_character = MMS_saphentite_neikes
 recruit_character = MMS_miia
 recruit_character = MMS_asmodeus
+recruit_character = MMS_dobrynya_nikitich
+recruit_character = MMS_koyanskaya
 #Admirals
 recruit_character = MMS_yamato_wg
 recruit_character = MMS_purifier
@@ -187,12 +189,24 @@ create_operative_leader = {
 		MMS
 	}
 }
-
 create_operative_leader = {
 	name = "Shigure"
-	GFX = GFX_portrait_mms_shigure
+	GFX = GFX_portrait_mms_shigure_operative
 	traits = {
 		operative_safe_cracker
+		operative_well_groomed
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		MMS
+	}
+}
+create_operative_leader = {
+	name = "Koyanskaya"
+	GFX = GFX_portrait_mms_koyanskaya
+	traits = {
+		operative_escape_artist
 		operative_demolition_expert
 	}
 	bypass_recruitment = no
@@ -201,6 +215,7 @@ create_operative_leader = {
 		MMS
 	}
 }
+
 MMS_velvet_crowe = {
 	set_character_flag = mms_country_leader_flag
 }

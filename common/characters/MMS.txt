@@ -1083,6 +1083,29 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	MMS_dobrynya_nikitich = {
+		name = MMS_dobrynya_nikitich
+		portraits = {
+			army = {
+				small = GFX_idea_mms_dobrynya_nikitich
+				large = GFX_portrait_mms_dobrynya_nikitich
+			}
+			civilian = {
+				large = GFX_portrait_mms_dobrynya_nikitich
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				cavalry_leader
+			}
+			skill = 3
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 	#admirals
 	MMS_yamato_wg = {
 		name = MMS_yamato_wg
@@ -1208,9 +1231,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_shigure
+				large = GFX_portrait_mms_shigure_operative
 			}
 			civilian = {
-				large = GFX_portrait_mms_shigure
+				large = GFX_portrait_mms_shigure_civilian
 			}
 		}
 		advisor = {
@@ -1233,9 +1257,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_shigure
+				large = GFX_portrait_mms_shigure_operative
 			}
 			civilian = {
-				large = GFX_portrait_mms_shigure
+				large = GFX_portrait_mms_shigure_civilian
 			}
 		}
 		advisor = {
@@ -1295,6 +1320,18 @@ characters = {
 			army = {
 				small = GFX_idea_mms_rias_gremory
 				large = GFX_portrait_mms_rias_gremory
+			}
+		}
+	}
+	MMS_koyanskaya = {
+		name = MMS_koyanskaya
+		portraits = {
+			civilian = {
+				large = GFX_portrait_mms_koyanskaya
+			}
+			army = {
+				small = GFX_idea_mms_koyanskaya
+				large = GFX_portrait_mms_koyanskaya
 			}
 		}
 	}

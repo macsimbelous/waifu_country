@@ -248,8 +248,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/shigure_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_mms_shigure"
-		texturefile = "gfx/leaders/MMS/Shigure.dds"
+		name = "GFX_portrait_mms_shigure_operative"
+		texturefile = "gfx/leaders/MMS/shigure_operative.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_shigure_civilian"
+		texturefile = "gfx/leaders/MMS/shigure_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mms_shiraori"
@@ -382,6 +386,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_mms_wolf_bete"
 		texturefile = "gfx/leaders/MMS/wolf_bete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_dobrynya_nikitich"
+		texturefile = "gfx/leaders/MMS/dobrynya_nikitich_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_dobrynya_nikitich"
+		texturefile = "gfx/leaders/MMS/dobrynya_nikitich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_koyanskaya"
+		texturefile = "gfx/leaders/MMS/koyanskaya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_koyanskaya"
+		texturefile = "gfx/leaders/MMS/koyanskaya.dds"
 	}
 	#generic
 	spriteType = {
