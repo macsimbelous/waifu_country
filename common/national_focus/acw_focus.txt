@@ -660,7 +660,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			democratic > 30
+			democratic > 0.3
 		}
 		available_if_capitulated = yes
 		completion_reward = {
@@ -1207,7 +1207,7 @@ focus_tree = {
 			factor = 2
 		}
 		available = {
-			communism > 40
+			communism > 0.4
 		}
 		bypass = {
 			has_government = communism
@@ -2049,7 +2049,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
-			fascism > 40
+			fascism > 0.4
 		}
 		completion_reward = {
 			set_politics = {
