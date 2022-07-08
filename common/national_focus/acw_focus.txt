@@ -1283,38 +1283,79 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			country_exists = MAN
-			MAN = {
-				has_government = fascism
-			}
+			communism > 0.6
 		}
-		bypass = {
-			OR = {
-				has_wargoal_against = MAN
-				has_war_with = MAN
-				MAN = {
-					exists = no
-				}
-				MAN = {
-					not = {
-						has_government = fascism
-					}
-				}
-			}
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		will_lead_to_war_with = MAN
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		completion_reward = {
-			create_wargoal = {
-				target = MAN
-				type = puppet_wargoal_focus
-				expire = 0
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@fascism
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_fascism_flag
 			}
+			remove_fascist_spirits_effect = yes
+			custom_effect_tooltip = ban_fascist_party_tt
+			#3333
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@democratic
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_democratic_flag				
+			}
+			remove_democratic_spirits_effect = yes 
+			custom_effect_tooltip = ban_democratic_party_tt
+			#######
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@neutrality
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_neutrality_flag				
+			}
+			#remove_neutrality_spirits_effect = yes 
+			custom_effect_tooltip = ban_neutrality_party_tt
+			####
+			add_stability = ban_ideology_var
 		}
 	}
 	focus = {
@@ -1628,9 +1669,6 @@ focus_tree = {
 	focus = {
 		id = acw_focus_join_comintern
 		icon = GFX_focus_generic_join_comintern
-		prerequisite = {
-			focus = acw_focus_finish_the_fight
-		}
 		prerequisite = {
 			focus = acw_focus_communist_volunteers
 		}
