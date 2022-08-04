@@ -1,4 +1,25 @@
 wfc_test_category = {
+	wfc_test_load_focus = {
+		fire_only_once = yes
+		cost = 0
+		complete_effect = {
+			ACW = {
+				load_focus_tree = acw_focus
+			}
+			HEN = {
+				load_focus_tree = hen_focus
+			}
+			MEH = {
+				load_focus_tree = meh_focus
+			}
+			MMS = {
+				load_focus_tree = mms_focus
+			}
+			TRP = {
+				load_focus_tree = trp_focus
+			}
+		}
+	}
 	wfc_test_change_gov_n = {
 		fire_only_once = no
 		cost = 0
