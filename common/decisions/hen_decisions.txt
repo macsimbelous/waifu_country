@@ -189,10 +189,14 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
 			modifier = {
 				is_historical_focus_on = yes
 				add = 100
+			}
+			modifier = {
+				communism > 0.25
+				add = 5
 			}
 		}
 	}
@@ -320,10 +324,14 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
 			modifier = {
 				is_historical_focus_on = yes
 				add = 100
+			}
+			modifier = {
+				communism > 0.25
+				add = 5
 			}
 		}
 	}
@@ -379,10 +387,14 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
 			modifier = {
 				is_historical_focus_on = yes
 				add = 100
+			}
+			modifier = {
+				communism > 0.25
+				add = 5
 			}
 		}
 	}
@@ -403,11 +415,7 @@ hen_internationalism_category = {
 		fire_only_once = yes
 		cost = 50
 		ai_will_do = {
-			base = 1
-			modifier = {
-				is_historical_focus_on = yes
-				add = 100
-			}
+			factor = 100
 		}
 		complete_effect = {
 			SOV = {
@@ -435,11 +443,7 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			base = 1
-			modifier = {
-				is_historical_focus_on = yes
-				add = 100
-			}
+			factor = 5
 		}
 	}
 	hen_seduce_stalin = {
@@ -468,11 +472,7 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			base = 1
-			modifier = {
-				is_historical_focus_on = yes
-				add = 100
-			}
+			factor = 5
 		}
 	}
 	hen_invite_prc = {
@@ -489,11 +489,7 @@ hen_internationalism_category = {
 			}
 		}
 		ai_will_do = {
-			base = 1
-			modifier = {
-				is_historical_focus_on = yes
-				add = 100
-			}
+			factor = 1
 		}
 	}
 }
