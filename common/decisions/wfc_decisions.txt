@@ -1886,6 +1886,9 @@ wfc_subjects_category = {
 	}
 	wfc_take_non_national_territories_from_federal_subject = {
 		cost = 100
+		allowed = {
+			always = no
+		}
 		visible = {
 			FROM = {
 				has_autonomy_state = autonomy_federation_subject
