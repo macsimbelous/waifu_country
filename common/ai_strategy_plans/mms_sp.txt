@@ -11,10 +11,10 @@ MMS_historical = {
 		always = no
 	}
 	ai_national_focuses = {
-		political_effort
-		liberty_ethos
-		neutrality_focus
-		deterrence
+		wfc_political_effort
+		wfc_liberty_ethos
+		wfc_neutrality_focus
+		wfc_deterrence
 	}
 	research = {
 		infantry_weapons = 50

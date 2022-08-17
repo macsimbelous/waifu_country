@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 0
+			add = 10
 			tag = HEN
 		}
 	}
@@ -14,13 +14,18 @@ focus_tree = {
 	# }
 	continuous_focus_position = {
 		x = 60
-		y = 1000
+		y = 800
 	}
+	shared_focus = wfc_army_effort
+	shared_focus = wfc_aviation_effort
+	shared_focus = wfc_naval_effort
+	shared_focus = wfc_industrial_effort
+	shared_focus = wfc_political_effort
 	focus = {
 		id = hen_friendship_with_japan
 		icon = GFX_focus_chi_collaboration_with_the_japanese
 		x = 13
-		y = 0
+		y = 8
 		cost = 10
 		mutually_exclusive = {
 			focus = hen_conquest_of_japan
@@ -30,6 +35,9 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
+		available = {
+			has_government = fascism
+		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -39,12 +47,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				date < 1939.1.1
-				num_of_controlled_states < 2
-			}
+			factor = 1
 		}
 	}
 	focus = {
@@ -322,7 +325,7 @@ focus_tree = {
 		id = hen_conquest_of_japan
 		icon = GFX_focus_attack_japan
 		x = 21
-		y = 0
+		y = 8
 		cost = 10
 		mutually_exclusive = {
 			focus = hen_friendship_with_japan
@@ -332,6 +335,13 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
+		available = {
+			OR = {
+				has_government = communism
+				has_government = neutrality
+				has_government = democratic
+			}
+		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -341,984 +351,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				date < 1939.1.1
-				num_of_controlled_states < 2
-			}
-		}
-	}
-	focus = {
-		id = hen_industrial_effort
-		icon = GFX_goal_generic_production
-		x = 3
-		y = 0
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 1
-				uses = 1
-				category = industry
-			}
-		}
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				date < 1939.1.1
-				num_of_controlled_states < 2
-			}
-		}
-	}
-	focus = {
-		id = hen_construction_effort
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = {
-			focus = hen_industrial_effort
-		}
-		x = -1
-		y = 1
-		relative_position_id = hen_industrial_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				has_government = democratic
-				factor = 3
-			}
-		}
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = hen_construction_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = industrial_complex
-						size < 1
-						include_locked = yes
-					}
-				}
-			}
-		}
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_production_effort
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = {
-			focus = hen_industrial_effort
-		}
-		x = 1
-		y = 1
-		relative_position_id = hen_industrial_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				OR = {
-					has_government = fascism
-					has_government = communism
-				}
-				factor = 3
-			}
-		}
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = production_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = arms_factory
-						size < 1
-						include_locked = yes
-					}
-				}
-			}
-		}
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_construction_effort_2
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = {
-			focus = hen_construction_effort
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_construction_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				has_government = democratic
-				factor = 3
-			}
-		}
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = construction_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = industrial_complex
-						size < 1
-						include_locked = yes
-					}
-				}
-			}
-		}
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_production_effort_2
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = {
-			focus = hen_production_effort
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_production_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				OR = {
-					has_government = fascism
-					has_government = communism
-				}
-				factor = 3
-			}
-		}
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = production_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = arms_factory
-						size < 1
-						include_locked = yes
-					}
-				}
-			}
-		}
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_infrastructure_effort
-		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = {
-			focus = hen_construction_effort_2
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_construction_effort_2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = hen_infrastructure_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = infrastructure
-						size < 1
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 3
-		}
-		complete_tooltip = {
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 1
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_production_effort_3
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = {
-			focus = hen_production_effort_2
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_production_effort_2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				OR = {
-					has_government = fascism
-					has_government = communism
-				}
-				factor = 3
-			}
-		}
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = production_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = arms_factory
-						size < 1
-						include_locked = yes
-					}
-				}
-			}
-		}
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_generic_force_excavation
-		icon = GFX_goal_generic_construction2
-		prerequisite = {
-			focus = hen_infrastructure_effort
-		}
-		x = -2
-		y = 1
-		relative_position_id = hen_infrastructure_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			random_owned_state = {
-				limit = {
-					is_in_home_area = yes
-				}
-				custom_effect_tooltip = hen_generic_force_excavation_tt
-				hidden_effect = {
-					random_list = {
-						40 = {
-							add_resource = {
-								type = steel
-								amount = 32
-							}
-						}
-						30 = {
-							add_resource = {
-								type = aluminium
-								amount = 32
-							}
-						}
-						10 = {
-							add_resource = {
-								type = oil
-								amount = 16
-							}
-						}
-						10 = {
-							add_resource = {
-								type = tungsten
-								amount = 24
-							}
-						}
-						10 = {
-							add_resource = {
-								type = chromium
-								amount = 24
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_excavation_tech
-		icon = GFX_goal_generic_construct_civilian
-		prerequisite = {
-			focus = hen_generic_force_excavation
-		}
-		prerequisite = {
-			focus = hen_infrastructure_effort_2
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_generic_force_excavation
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 1
-				uses = 1
-				category = excavation_tech
-			}
-		}
-		ai_will_do = {
 			factor = 1
-		}
-	}
-	focus = {
-		id = hen_infrastructure_effort_2
-		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = {
-			focus = hen_infrastructure_effort
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_infrastructure_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = infrastructure_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = infrastructure
-						size < 1
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 3
-		}
-		complete_tooltip = {
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 1
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_synthetic_refinery_effort
-		icon = GFX_goal_generic_oil_refinery
-		prerequisite = {
-			focus = hen_infrastructure_effort_2
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_infrastructure_effort_2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = no
-		available = {
-			has_tech = synth_oil_experiments
-		}
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = synthetic_refinery
-				level = 1
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = synthetic_refinery
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = synthetic_refinery
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 3
-		}
-	}
-	focus = {
-		id = hen_construction_effort_3
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = {
-			focus = hen_infrastructure_effort
-		}
-		x = 2
-		y = 1
-		relative_position_id = hen_infrastructure_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				has_government = democratic
-				factor = 3
-			}
-		}
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = construction_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = industrial_complex
-						size < 2
-						include_locked = yes
-					}
-				}
-			}
-		}
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
-			}
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 1
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_urbanisation
-		icon = GFX_focus_spa_the_spanish_miracle
-		prerequisite = {
-			focus = hen_construction_effort_3
-		}
-		prerequisite = {
-			focus = hen_infrastructure_effort_2
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_construction_effort_3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 1
-				uses = 1
-				category = construction_tech
-			}
-			random_owned_state = {
-				limit = {
-					is_island_state = no
-				}
-				urbanize_state = yes
-			}
-		}
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	focus = {
-		id = hen_extra_tech_slot
-		icon = GFX_focus_research
-		# prerequisite = {
-		# 	focus = hen_infrastructure_effort_2
-		# }
-		x = 8
-		y = 0
-		#relative_position_id = hen_infrastructure_effort_2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		available = {
-			num_of_factories > 50
-		}
-		completion_reward = {
-			add_research_slot = 1
-		}
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	focus = {
-		id = hen_nuclear_effort
-		icon = GFX_focus_wonderweapons
-		prerequisite = {
-			focus = hen_extra_tech_slot
-		}
-		x = -2
-		y = 1
-		relative_position_id = hen_extra_tech_slot
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = nuclear_bonus
-				ahead_reduction = 2
-				category = nuclear
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}
-	}
-	focus = {
-		id = hen_extra_tech_slot_2
-		icon = GFX_focus_research
-		prerequisite = {
-			focus = hen_extra_tech_slot
-		}
-		available = {
-			num_of_factories > 100
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		x = 0
-		y = 1
-		relative_position_id = hen_extra_tech_slot
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = hen_secret_weapons
-		icon = GFX_goal_generic_secret_weapon
-		prerequisite = {
-			focus = hen_extra_tech_slot
-		}
-		x = 2
-		y = 1
-		relative_position_id = hen_extra_tech_slot
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = secret_bonus
-				bonus = 1
-				uses = 4
-				category = electronics
-				category = nuclear
-				category = rocketry
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
 		}
 	}
 	focus = {
@@ -1339,6 +372,9 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_government = communism
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -1600,6 +636,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			has_government = democratic
+		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 5
@@ -1659,6 +698,9 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_government = neutrality
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -2253,7 +1295,9 @@ focus_tree = {
 				}
 				every_owned_state = {
 					limit = {
-						NOT = { is_core_of = JAP }
+						NOT = {
+							is_core_of = JAP
+						}
 					}
 					add_claim_by = HEN
 				}
@@ -2297,5 +1341,4 @@ focus_tree = {
 			}
 		}
 	}
-
 }

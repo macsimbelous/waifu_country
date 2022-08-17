@@ -10,17 +10,22 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 	initial_show_position = {
-		focus = acw_focus_state_council
+		focus = wfc_political_effort
 	}
 	continuous_focus_position = {
 		x = 60
-		y = 1200
+		y = 800
 	}
+	shared_focus = wfc_army_effort
+	shared_focus = wfc_aviation_effort
+	shared_focus = wfc_naval_effort
+	shared_focus = wfc_industrial_effort
+	shared_focus = wfc_political_effort
 	focus = {
 		id = acw_focus_state_council
 		icon = GFX_focus_generic_self_management
-		x = 2
-		y = 0
+		x = 12
+		y = 8
 		cost = 5
 		mutually_exclusive = {
 			focus = acw_focus_unite_democratic_opposition
@@ -31,9 +36,15 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
+		available = {
+			has_government = neutrality
+		}
 		completion_reward = {
 			add_political_power = 150
 			country_event = acw_event.1
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	focus = {
@@ -557,8 +568,8 @@ focus_tree = {
 	focus = {
 		id = acw_focus_unite_democratic_opposition
 		icon = GFX_goal_support_democracy
-		x = 9
-		y = 0
+		x = 19
+		y = 8
 		cost = 5
 		mutually_exclusive = {
 			focus = acw_focus_state_council
@@ -569,12 +580,18 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
+		available = {
+			has_government = democratic
+		}
 		completion_reward = {
 			add_popularity = {
 				ideology = democratic
 				popularity = 0.05
 			}
 			#country_event = acw_event.1
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	focus = {
@@ -1121,11 +1138,14 @@ focus_tree = {
 			focus = acw_focus_unite_democratic_opposition
 			focus = acw_focus_friendship_treaty_with_germany
 		}
-		x = 17
-		y = 0
+		x = 27
+		y = 8
 		cost = 5
+		available = {
+			has_government = communism
+		}
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1948,11 +1968,14 @@ focus_tree = {
 			focus = acw_focus_unite_democratic_opposition
 			focus = acw_focus_form_the_popular_front
 		}
-		x = 25
-		y = 0
+		x = 35
+		y = 8
 		cost = 5
+		available = {
+			has_government = fascism
+		}
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

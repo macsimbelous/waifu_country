@@ -3,20 +3,25 @@
 	country = {
 		factor = 0
 		modifier = {
-			add = 0
+			add = 10
 			tag = TRP
 		}
 	}
 	default = no
 	continuous_focus_position = {
-		x = 55
-		y = 1500
+		x = 60
+		y = 800
 	}
+	shared_focus = wfc_army_effort
+	shared_focus = wfc_aviation_effort
+	shared_focus = wfc_naval_effort
+	shared_focus = wfc_industrial_effort
+	shared_focus = wfc_political_effort
 	focus = {
 		id = trp_infrastructure_effort_nsb
 		icon = GFX_goal_generic_construction
-		x = 1
-		y = 0
+		x = 10
+		y = 8
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -620,8 +625,8 @@
 	focus = {
 		id = trp_the_academy_of_sciences
 		icon = GFX_focus_research
-		x = 6
-		y = 0
+		x = 27
+		y = 8
 		#relative_position_id = trp_finish_the_five_year_plan
 		cost = 10
 		available = {
@@ -731,23 +736,25 @@
 			add_ideas = trp_transformation_of_nature
 		}
 	}
-
 	##################################
 	######## POLITICAL DIRECTION #####
 	##################################
 	focus = {
 		id = trp_strengthen_the_dictatorship
 		icon = GFX_focus_generic_military_dictatorship
-		x = 10
-		y = 0
+		x = 15
+		y = 8
 		cost = 10
 		mutually_exclusive = {
 			focus = trp_support_the_opposition
 		}
 		ai_will_do = {
-			factor = 90
+			factor = 0
 		}
 		available_if_capitulated = yes
+		available = {
+			has_government = neutrality
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -795,18 +802,25 @@
 	focus = {
 		id = trp_support_the_opposition
 		icon = GFX_goal_generic_intelligence_exchange
-		x = 18
-		y = 0
+		x = 20
+		y = 8
 		cost = 10
 		mutually_exclusive = {
 			focus = trp_strengthen_the_dictatorship
 		}
 		ai_will_do = {
-			factor = 90
+			factor = 1
 		}
 		available_if_capitulated = yes
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			OR = {
+				has_government = communism
+				has_government = fascism
+				has_government = democratic
+			}
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -836,6 +850,9 @@
 		available_if_capitulated = yes
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_government = communism
 		}
 		completion_reward = {
 			add_popularity = {
@@ -1092,6 +1109,9 @@
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_WAR_SUPPORT
 		}
+		available = {
+			has_government = democratic
+		}
 		completion_reward = {
 			add_political_power = 100
 			add_popularity = {
@@ -1228,6 +1248,9 @@
 			factor = 1
 		}
 		available_if_capitulated = yes
+		available = {
+			has_government = fascism
+		}
 		completion_reward = {
 			add_popularity = {
 				ideology = fascism
@@ -1401,21 +1424,27 @@
 				create_wargoal = {
 					target = ROOT
 					type = take_state_focus
-					generator = { 687 }
+					generator = {
+						687
+					}
 				}
 			}
 			HOL = {
 				create_wargoal = {
 					target = ROOT
 					type = take_state_focus
-					generator = { 309 }
+					generator = {
+						309
+					}
 				}
 			}
 			FRA = {
 				create_wargoal = {
 					target = ROOT
 					type = take_state_focus
-					generator = { 310 }
+					generator = {
+						310
+					}
 				}
 			}
 			# GER = {

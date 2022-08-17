@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 0
+			add = 10
 			tag = MEH
 		}
 	}
@@ -14,13 +14,18 @@ focus_tree = {
 	# }
 	continuous_focus_position = {
 		x = 60
-		y = 1350
+		y = 800
 	}
+	shared_focus = wfc_army_effort
+	shared_focus = wfc_aviation_effort
+	shared_focus = wfc_naval_effort
+	shared_focus = wfc_industrial_effort
+	shared_focus = wfc_political_effort
 	focus = {
 		id = meh_upgrade_ai
 		icon = GFX_goal_generic_production
-		x = 18
-		y = 0
+		x = 25
+		y = 8
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1484,6 +1489,10 @@ focus_tree = {
 		}
 		available = {
 			is_puppet = no
+			OR = {
+				has_government = communism
+				has_government = democratic
+			}
 		}
 		x = 11
 		y = 1
@@ -1494,7 +1503,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 5
+			factor = 1
 			modifier = {
 				factor = 20
 				has_idea = SOV_russian_political_influence
@@ -1526,6 +1535,7 @@ focus_tree = {
 		}
 		available = {
 			is_puppet = no
+			has_government = fascism
 		}
 		x = 7
 		y = 1
@@ -1536,7 +1546,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
 		completion_reward = {
 			add_political_power = 150
@@ -1568,6 +1578,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
+		available = {
+			has_government = communism
+		}
 		ai_will_do = {
 			factor = 5
 			modifier = {
@@ -1661,6 +1674,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
+		available = {
+			has_government = democratic
+		}
 		ai_will_do = {
 			factor = 5
 		}
@@ -2192,7 +2208,7 @@ focus_tree = {
 			has_government = neutrality
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
 		completion_reward = {
 			if = {
