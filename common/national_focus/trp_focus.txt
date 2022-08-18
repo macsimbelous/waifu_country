@@ -754,6 +754,7 @@
 		available_if_capitulated = yes
 		available = {
 			has_government = neutrality
+			neutrality > 0.5
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
