@@ -385,7 +385,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 5
-		will_lead_to_war_with = 656.OWNER
 		prerequisite = {
 			focus = mah_conquest_of_yem_and_oma
 		}
