@@ -41,6 +41,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 5
+		will_lead_to_war_with = IRQ
 		prerequisite = {
 			focus = mah_unification_of_the_middle_east
 		}
@@ -229,6 +230,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 5
+		will_lead_to_war_with = TUR
 		prerequisite = {
 			focus = mah_expand_supply_to_tur_border
 		}
@@ -257,6 +259,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		cost = 5
+		will_lead_to_war_with = SAU
 		prerequisite = {
 			focus = mah_conquest_of_irq
 		}
@@ -346,6 +349,8 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 5
+		will_lead_to_war_with = OMA
+		will_lead_to_war_with = YEM
 		prerequisite = {
 			focus = mah_expand_supply_to_sau
 		}
@@ -380,6 +385,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 5
+		will_lead_to_war_with = 656.OWNER
 		prerequisite = {
 			focus = mah_conquest_of_yem_and_oma
 		}
