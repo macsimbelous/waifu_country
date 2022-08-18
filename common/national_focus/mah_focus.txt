@@ -17,4 +17,439 @@ focus_tree = {
 	shared_focus = wfc_naval_effort
 	shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
+	focus = {
+		id = mah_unification_of_the_middle_east
+		icon = GFX_focus_generic_home_defense
+		x = 15
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = mah_conquest_of_irq
+		icon = GFX_goal_generic_major_war
+		relative_position_id = mah_unification_of_the_middle_east
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mah_unification_of_the_middle_east
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			IRQ = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = IRQ
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = mah_production_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {
+			focus = mah_conquest_of_irq
+		}
+		x = 1
+		y = 1
+		relative_position_id = mah_conquest_of_irq
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 2
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_expand_supply_to_tur_border
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = mah_production_effort
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = mah_production_effort
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			676 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			675 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			291 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			build_railway = {
+				level = 1
+				start_province = 4111
+				target_province = 2097
+			}
+			build_railway = {
+				level = 1
+				start_province = 1056
+				target_province = 1634
+			}
+			680 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 1634
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_conquest_of_tur
+		icon = GFX_goal_generic_major_war
+		relative_position_id = mah_expand_supply_to_tur_border
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mah_expand_supply_to_tur_border
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_army_manpower = { size > 499999 } 
+		}
+		completion_reward = {
+			TUR = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = TUR
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = mah_conquest_of_sau
+		icon = GFX_goal_generic_major_war
+		relative_position_id = mah_conquest_of_irq
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mah_conquest_of_irq
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			676 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			675 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			291 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			SAU = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = SAU
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = mah_expand_supply_to_sau
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = mah_conquest_of_sau
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = mah_conquest_of_sau
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			292 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			678 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			679 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			build_railway = {
+				level = 1
+				start_province = 12758
+				target_province = 5006
+			}
+			679 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 5006
+					instant_build = yes
+				}
+			}
+			build_railway = {
+				level = 1
+				start_province = 12758
+				target_province = 12740
+			}
+			678 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 12740
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_conquest_of_yem_and_oma
+		icon = GFX_goal_generic_major_war
+		relative_position_id = mah_expand_supply_to_sau
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mah_expand_supply_to_sau
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			OMA = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = OMA
+				type = annex_everything
+			}
+			YEM = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = YEM
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = mah_british_colonies_in_the_middle_east
+		icon = GFX_goal_generic_major_war
+		relative_position_id = mah_conquest_of_yem_and_oma
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mah_conquest_of_yem_and_oma
+		}
+		prerequisite = {
+			focus = mah_conquest_of_tur
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_state_claim = 656
+			add_state_claim = 765
+			add_state_claim = 658
+			add_state_claim = 659
+			add_state_claim = 453
+			add_state_claim = 457
+			add_state_claim = 456
+			add_state_claim = 552
+			add_state_claim = 446
+			add_state_claim = 447
+			add_state_claim = 452
+			add_state_claim = 183
+			656 = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV.OWNER
+						type = annex_everything
+					}
+				}				
+			}
+			765 = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV.OWNER
+						type = annex_everything
+					}
+				}				
+			}
+			658 = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV.OWNER
+						type = annex_everything
+					}
+				}				
+			}
+			659 = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV.OWNER
+						type = annex_everything
+					}
+				}				
+			}
+			446 = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV.OWNER
+						type = annex_everything
+					}
+				}				
+			}
+			183 = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV.OWNER
+						type = annex_everything
+					}
+				}				
+			}
+		}
+	}
 }
