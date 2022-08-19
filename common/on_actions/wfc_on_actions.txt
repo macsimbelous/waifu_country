@@ -372,7 +372,205 @@ on_actions = {
 				MMS = {
 					transfer_state = 415
 					transfer_state = 267
+				}
+			}
+			if = {
+				limit = {
+					tag = TUR
+					MAH = {
+						has_war_with = TUR
 					}
+				}
+				TUR = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = ENG
+					MAH = {
+						has_war_with = ENG
+					}
+				}
+				ENG = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = EGY
+					MAH = {
+						has_war_with = EGY
+					}
+				}
+				EGY = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = IRQ
+					MAH = {
+						has_war_with = IRQ
+					}
+				}
+				IRQ = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = SAU
+					MAH = {
+						has_war_with = SAU
+					}
+				}
+				SAU = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = OMA
+					MAH = {
+						has_war_with = OMA
+					}
+				}
+				OMA = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = YEM
+					MAH = {
+						has_war_with = YEM
+					}
+				}
+				YEM = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = QAT
+					MAH = {
+						has_war_with = QAT
+					}
+				}
+				QAT = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = KUW
+					MAH = {
+						has_war_with = KUW
+					}
+				}
+				KUW = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = UAE
+					MAH = {
+						has_war_with = UAE
+					}
+				}
+				UAE = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = CYP
+					MAH = {
+						has_war_with = CYP
+					}
+				}
+				CYP = {
+					every_owned_state = {
+						limit = {
+							is_claimed_by = MAH
+						}
+						MAH = {
+							transfer_state = PREV
+						}
+					}
+				}
 			}
 		}
 	}
