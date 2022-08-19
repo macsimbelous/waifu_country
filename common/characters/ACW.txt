@@ -646,6 +646,9 @@ characters = {
 	ACW_Yoshiko_Tsushima = {
 		name = ACW_Yoshiko_Tsushima
 		portraits = {
+			civilian = {
+				large = GFX_portrait_acw_yoshiko_tsushima_civilian
+			}
 			army = {
 				small = GFX_idea_acw_yoshiko_tsushima
 				large = GFX_portrait_acw_yoshiko_tsushima
@@ -2229,6 +2232,44 @@ characters = {
 			coordination_skill = 4
 		}
 	}
+	ACW_baltimore = {
+		name = ACW_baltimore
+		portraits = {
+			navy = {
+				small = GFX_idea_acw_baltimore
+				large = GFX_portrait_acw_baltimore
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+	ACW_new_jersey = {
+		name = ACW_new_jersey
+		portraits = {
+			navy = {
+				small = GFX_idea_acw_new_jersey
+				large = GFX_portrait_acw_new_jersey_navy
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+	}
 	#political advisors
 	ACW_Minami_Nitta = {
 		name = ACW_Minami_Nitta
@@ -2495,6 +2536,35 @@ characters = {
 			}
 			ai_will_do = {
 				factor = 2
+			}
+		}
+	}
+	ACW_mineru_wachi = {
+		name = ACW_mineru_wachi
+		portraits = {
+			army = {
+				small = GFX_idea_acw_mineru_wachi
+			}
+			civilian = {
+				large = GFX_portrait_acw_mineru_wachi_civilian
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = ACW_Ayame_Himuro
+			cost = 100
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_girl_scientist
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

@@ -245,6 +245,7 @@ TRP = {
 			"GFX_portrait_trp_operative_04"
 			"GFX_portrait_trp_operative_05"
 			"GFX_portrait_trp_operative_06"
+			"GFX_portrait_trp_operative_07"
 		}
 	}
 }
@@ -369,7 +370,7 @@ MMS = {
 			"GFX_portrait_mms_operative_03"
 			"GFX_portrait_mms_operative_04"
 			"GFX_portrait_mms_operative_05"
-			# "GFX_portrait_mms_operative_06"
+			"GFX_portrait_mms_operative_06"
 			# "GFX_portrait_mms_operative_07"
 			# "GFX_portrait_mms_operative_08"
 			# "GFX_portrait_mms_operative_09"
@@ -382,12 +383,13 @@ MMS = {
 			# "GFX_portrait_mms_operative_03"
 			# "GFX_portrait_mms_operative_04"
 			# "GFX_portrait_mms_operative_05"
-			"GFX_portrait_mms_operative_06"
+			# "GFX_portrait_mms_operative_06"
 			"GFX_portrait_mms_operative_07"
 			"GFX_portrait_mms_operative_08"
 			"GFX_portrait_mms_operative_09"
 			"GFX_portrait_mms_operative_10"
 			"GFX_portrait_mms_operative_11"
+			"GFX_portrait_mms_operative_12"
 		}
 	}
 }

@@ -436,4 +436,8 @@ spriteTypes = {
 		name = "GFX_portrait_trp_operative_06"
 		texturefile = "gfx/leaders/TRP/generic/trp_operative_06.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_trp_operative_07"
+		texturefile = "gfx/leaders/TRP/generic/trp_operative_07.dds"
+	}
 }

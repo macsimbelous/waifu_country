@@ -177,6 +177,8 @@ recruit_character = ACW_Akeno_Misaki
 recruit_character = ACW_Beidou
 recruit_character = ACW_ulrich_von_hutten
 recruit_character = ACW_prinz_eugen
+recruit_character = ACW_baltimore
+recruit_character = ACW_new_jersey
 #Agents
 create_operative_leader = {
 	name = "Niko Yazawa"

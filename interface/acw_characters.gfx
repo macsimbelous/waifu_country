@@ -650,6 +650,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/Yoshiko_Tsushima.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_acw_yoshiko_tsushima_civilian"
+		texturefile = "gfx/leaders/ACW/yoshiko_tsushima_civilian.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_acw_yukina_himeragi"
 		texturefile = "gfx/leaders/ACW/yukina_himeragi_idea.dds"
 	}
@@ -848,6 +852,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_mona_megistus_navy"
 		texturefile = "gfx/leaders/ACW/mona_megistus_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_baltimore"
+		texturefile = "gfx/leaders/ACW/baltimore_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_baltimore"
+		texturefile = "gfx/leaders/ACW/baltimore.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_new_jersey"
+		texturefile = "gfx/leaders/ACW/new_jersey_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_new_jersey_navy"
+		texturefile = "gfx/leaders/ACW/new_jersey_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_mineru_wachi"
+		texturefile = "gfx/leaders/ACW/mineru_wachi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_mineru_wachi_civilian"
+		texturefile = "gfx/leaders/ACW/mineru_wachi_civilian.dds"
 	}
 	#other country
 	spriteType = {
