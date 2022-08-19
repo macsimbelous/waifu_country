@@ -315,6 +315,26 @@ spriteTypes = {
                 name = "GFX_portrait_hen_brainjacker"
                 texturefile = "gfx/leaders/HEN/brainjacker.dds"
         }
+        spriteType = {
+                name = "GFX_idea_hen_sakura_igawa"
+                texturefile = "gfx/leaders/HEN/sakura_igawa_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_hen_sakura_igawa_civilian"
+                texturefile = "gfx/leaders/HEN/sakura_igawa_civilian.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_hen_sakura_igawa_army"
+                texturefile = "gfx/leaders/HEN/sakura_igawa_army.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_hen_yukikaze_mizuki"
+                texturefile = "gfx/leaders/HEN/yukikaze_mizuki_idea.dds"
+        }
+        spriteType = {
+                name = "GFX_portrait_hen_yukikaze_mizuki_army"
+                texturefile = "gfx/leaders/HEN/yukikaze_mizuki_army.dds"
+        }
         #generic
         spriteType = {
 		name = "GFX_portrait_hen_land_01"

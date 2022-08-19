@@ -362,4 +362,10 @@ leader_traits = {
 		political_power_factor = 0.05
 		recon_factor = 0.1
 	}
+	wfc_walking_toxic_gas_emitter = {
+		sprite = 14
+		random = no
+		research_speed_factor = 0.2
+		stability_factor = -0.1
+	}
 }

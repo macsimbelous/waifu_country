@@ -926,6 +926,47 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	HEN_sakura_igawa = {
+		name = HEN_sakura_igawa
+		portraits = {
+			civilian = {
+				large = GFX_portrait_hen_sakura_igawa_civilian
+			}
+			army = {
+				small = GFX_idea_hen_sakura_igawa
+				large = GFX_portrait_hen_sakura_igawa_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	HEN_yukikaze_mizuki = {
+		name = HEN_yukikaze_mizuki
+		portraits = {
+			army = {
+				small = GFX_idea_hen_yukikaze_mizuki
+				large = GFX_portrait_hen_yukikaze_mizuki_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 	#admerals
 	HEN_Kaname = {
 		name = HEN_Kaname

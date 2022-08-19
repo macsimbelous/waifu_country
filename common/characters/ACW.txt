@@ -2555,13 +2555,16 @@ characters = {
 		advisor = {
 			slot = theorist
 			ledger = army
-			idea_token = ACW_Ayame_Himuro
-			cost = 100
+			idea_token = ACW_mineru_wachi
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
 			traits = {
-				wfc_girl_scientist
+				wfc_walking_toxic_gas_emitter
+			}
+			research_bonus = {
+				synth_resources = 0.1
 			}
 			ai_will_do = {
 				factor = 1
