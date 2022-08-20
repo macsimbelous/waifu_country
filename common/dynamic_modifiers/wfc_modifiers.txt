@@ -40,6 +40,7 @@ wfc_subsidies_dm = {
 	industrial_capacity_dockyard = wfc_subsidies_to_dockyard
 	research_speed_factor = wfc_subsidies_to_research
 	nuclear_production_factor = wfc_subsidies_to_nuclear
+	local_resources_factor = wfc_subsidies_to_resources
 	political_power_factor = wfc_political_power_to_subsidies
 }
 

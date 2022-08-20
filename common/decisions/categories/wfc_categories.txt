@@ -180,6 +180,7 @@ wfc_economy_category = {
 	icon = generic_economy
 	picture = GFX_wfl_economy_category
 	allowed = {
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN

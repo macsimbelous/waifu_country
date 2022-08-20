@@ -33,6 +33,12 @@ on_actions = {
 					wfc_subsidies_to_nuclear = 0
 				}
 				set_variable = {
+					wfc_subsidies_to_resources_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources = 0
+				}
+				set_variable = {
 					wfc_political_power_to_subsidies = 0
 				}
 				set_variable = {
@@ -80,6 +86,12 @@ on_actions = {
 					wfc_subsidies_to_nuclear = 0
 				}
 				set_variable = {
+					wfc_subsidies_to_resources_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources = 0
+				}
+				set_variable = {
 					wfc_political_power_to_subsidies = 0
 				}
 				set_variable = {
@@ -116,6 +128,12 @@ on_actions = {
 				}
 				set_variable = {
 					wfc_subsidies_to_nuclear = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources = 0
 				}
 				set_variable = {
 					wfc_political_power_to_subsidies = 0
@@ -170,6 +188,12 @@ on_actions = {
 					wfc_subsidies_to_nuclear = 0
 				}
 				set_variable = {
+					wfc_subsidies_to_resources_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources = 0
+				}
+				set_variable = {
 					wfc_political_power_to_subsidies = 0
 				}
 				set_variable = {
@@ -207,6 +231,12 @@ on_actions = {
 				}
 				set_variable = {
 					wfc_subsidies_to_nuclear = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources = 0
 				}
 				set_variable = {
 					wfc_political_power_to_subsidies = 0
@@ -267,6 +297,12 @@ on_actions = {
 				}
 				set_variable = {
 					wfc_subsidies_to_nuclear = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_resources = 0
 				}
 				set_variable = {
 					wfc_political_power_to_subsidies = 0

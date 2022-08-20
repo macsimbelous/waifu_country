@@ -86,6 +86,8 @@ wfc_subsidies_to_research_up_decision:0 "Subsidize research"
 wfc_subsidies_to_research_down_decision:0 "Reduce research subsidies"
 wfc_subsidies_to_nuclear_up_decision:0 "Subsidize atomic weapons"
 wfc_subsidies_to_nuclear_down_decision:0 "Reduce subsidies to nuclear weapons"
+wfc_subsidies_to_resources_up_decision:0 "Subsidize resource extraction"
+wfc_subsidies_to_resources_down_decision:0 "Reduce resource extraction subsidies"
 
 #wfc_construction_phase_category
 wfc_construction_phase_category:0 "Construction phase"
