@@ -2048,13 +2048,13 @@ acw_create_great_animeland_category = {
 			custom_trigger_tooltip = {
 				tooltip = acw_form_yugoslavia_required_states_tt
 				#controls_state = 102
-				102 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
-				}
+				# 102 = {
+				# 	wfc_is_controlled_by_root_or_federation_subject = yes
+				# }
 				#controls_state = 103
-				103 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
-				}
+				# 103 = {
+				# 	wfc_is_controlled_by_root_or_federation_subject = yes
+				# }
 				#controls_state = 109
 				109 = {
 					wfc_is_controlled_by_root_or_federation_subject = yes
@@ -2128,17 +2128,17 @@ acw_create_great_animeland_category = {
 			# 		wfc_is_controlled_by_root_or_federation_subject = yes
 			# 	}
 			# }
-			44 = {
-				wfc_is_controlled_by_root_or_federation_subject = yes
-			}
+			# 44 = {
+			# 	wfc_is_controlled_by_root_or_federation_subject = yes
+			# }
 			#controls_state = 163
-			163 = {
-				wfc_is_controlled_by_root_or_federation_subject = yes
-			}
+			# 163 = {
+			# 	wfc_is_controlled_by_root_or_federation_subject = yes
+			# }
 			#controls_state = 736
-			736 = {
-				wfc_is_controlled_by_root_or_federation_subject = yes
-			}
+			# 736 = {
+			# 	wfc_is_controlled_by_root_or_federation_subject = yes
+			# }
 		}
 		ai_will_do = {
 			factor = 200
@@ -2249,14 +2249,14 @@ acw_create_great_animeland_category = {
 			}
 			custom_effect_tooltip = acw_form_yugoslavia_coring_states_tt
 			hidden_effect = {
-				102 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 102
-				103 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 103
+				# 102 = {
+				# 	add_core_of = ROOT
+				# }
+				# transfer_state = 102
+				# 103 = {
+				# 	add_core_of = ROOT
+				# }
+				# transfer_state = 103
 				109 = {
 					add_core_of = ROOT
 				}
@@ -2333,45 +2333,45 @@ acw_create_great_animeland_category = {
 				transfer_state = 154
 			}
 			#Albania
-			if = {
-				limit = {
-					ALB = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = ALB
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_albania_coring_states_tt
-			hidden_effect = {
-				44 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 44
-				805 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 805
-			}
-			custom_effect_tooltip = acw_form_163_coring_states_tt
-			hidden_effect = {
-				163 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 163
-			}
-			custom_effect_tooltip = acw_form_736_coring_states_tt
-			hidden_effect = {
-				736 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 736
-			}
+			# if = {
+			# 	limit = {
+			# 		ALB = {
+			# 			OR = {
+			# 				is_puppet_of = ROOT
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 	}
+			# 	annex_country = {
+			# 		target = ALB
+			# 		transfer_troops = yes
+			# 	}
+			# }
+			# custom_effect_tooltip = acw_form_albania_coring_states_tt
+			# hidden_effect = {
+			# 	44 = {
+			# 		add_core_of = ROOT
+			# 	}
+			# 	transfer_state = 44
+			# 	805 = {
+			# 		add_core_of = ROOT
+			# 	}
+			# 	transfer_state = 805
+			# }
+			# custom_effect_tooltip = acw_form_163_coring_states_tt
+			# hidden_effect = {
+			# 	163 = {
+			# 		add_core_of = ROOT
+			# 	}
+			# 	transfer_state = 163
+			# }
+			# custom_effect_tooltip = acw_form_736_coring_states_tt
+			# hidden_effect = {
+			# 	736 = {
+			# 		add_core_of = ROOT
+			# 	}
+			# 	transfer_state = 736
+			# }
 		}
 	}
 	acw_conquest_of_bul_decision = {
@@ -2608,6 +2608,9 @@ acw_create_great_animeland_category = {
 		fire_only_once = yes
 		days_remove = 60
 		war_with_on_remove = ALB
+		allowed = {
+			always = no
+		}
 		visible = {
 			NOT = {
 				has_country_flag = acw_great_animeland_flag
@@ -2677,6 +2680,9 @@ acw_create_great_animeland_category = {
 		fire_only_once = yes
 		days_remove = 60
 		war_with_on_remove = ITA
+		allowed = {
+			always = no
+		}
 		visible = {
 			NOT = {
 				has_country_flag = acw_great_animeland_flag
