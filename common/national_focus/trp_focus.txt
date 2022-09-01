@@ -20,7 +20,7 @@
 	focus = {
 		id = trp_infrastructure_effort_nsb
 		icon = GFX_goal_generic_construction
-		x = 10
+		x = 16
 		y = 8
 		cost = 5
 		ai_will_do = {
@@ -622,193 +622,17 @@
 			add_ideas = trp_minprom_idea
 		}
 	}
-	focus = {
-		id = trp_the_academy_of_sciences
-		icon = GFX_focus_research
-		x = 27
-		y = 8
-		#relative_position_id = trp_finish_the_five_year_plan
-		cost = 10
-		available = {
-		}
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = trp_secret_weapons
-		icon = GFX_goal_generic_secret_weapon
-		prerequisite = {
-			focus = trp_the_academy_of_sciences
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_the_academy_of_sciences
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = secret_bonus
-				bonus = 1
-				uses = 4
-				category = electronics
-				category = nuclear
-				category = rocketry
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}
-	}
-	focus = {
-		id = trp_academy_up
-		icon = GFX_focus_research2
-		prerequisite = {
-			focus = trp_secret_weapons
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_secret_weapons
-		cost = 5
-		available = {
-			num_of_factories > 50
-		}
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = trp_no_time_for_peace
-		icon = GFX_focus_rocketry
-		prerequisite = {
-			focus = trp_academy_up
-		}
-		x = -1
-		y = 1
-		relative_position_id = trp_academy_up
-		cost = 10
-		available = {
-		}
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-			FOCUS_FILTER_RESEARCH
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = trp_no_time_for_peace
-				bonus = 1
-				uses = 2
-				category = nuclear
-				category = rocketry
-			}
-			#add_ideas = trp_no_time_for_peace_idea
-		}
-	}
-	focus = {
-		id = trp_transformation_of_nature
-		icon = GFX_goal_generic_soviet_construction
-		prerequisite = {
-			focus = trp_academy_up
-		}
-		x = 1
-		y = 1
-		relative_position_id = trp_academy_up
-		cost = 10
-		available = {
-		}
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		completion_reward = {
-			add_ideas = trp_transformation_of_nature
-		}
-	}
+
 	##################################
 	######## POLITICAL DIRECTION #####
 	##################################
-	focus = {
-		id = trp_strengthen_the_dictatorship
-		icon = GFX_focus_generic_military_dictatorship
-		x = 15
-		y = 8
-		cost = 10
-		mutually_exclusive = {
-			focus = trp_support_the_opposition
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		available_if_capitulated = yes
-		available = {
-			has_government = neutrality
-			neutrality > 0.5
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {
-			add_political_power = 100
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.05
-			}
-		}
-	}
-	focus = {
-		id = trp_neutrality_focus
-		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = {
-			focus = trp_strengthen_the_dictatorship
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_strengthen_the_dictatorship
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						has_idea = neutrality_idea
-					}
-				}
-				add_ideas = neutrality_idea
-			}
-			add_political_power = 150
-			add_timed_idea = {
-				idea = wfc_neutrality_influence
-				days = 720
-			}
-		}
-	}
+
 	focus = {
 		id = trp_support_the_opposition
 		icon = GFX_goal_generic_intelligence_exchange
-		x = 20
+		x = 24
 		y = 8
 		cost = 10
-		mutually_exclusive = {
-			focus = trp_strengthen_the_dictatorship
-		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -893,40 +717,16 @@
 			}
 		}
 	}
-	focus = {
-		id = trp_communist_support
-		icon = GFX_focus_generic_soviet_politics
-		prerequisite = {
-			focus = trp_go_left
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_go_left
-		cost = 10
-		ai_will_do = {
-			factor = 80
-		}
-		available_if_capitulated = yes
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {
-			#add_ideas = communist_influence
-			add_timed_idea = {
-				idea = communist_influence
-				days = 1095
-			}
-		}
-	}
+
 	focus = {
 		id = trp_trap_socialism
 		icon = GFX_focus_generic_soviet_politics
 		prerequisite = {
-			focus = trp_communist_support
+			focus = trp_join_comintern
 		}
-		x = -2
+		x = 0
 		y = 1
-		relative_position_id = trp_communist_support
+		relative_position_id = trp_join_comintern
 		cost = 10
 		ai_will_do = {
 			factor = 80
@@ -969,46 +769,16 @@
 			add_ideas = trp_communism_with_a_human_face_idea
 		}
 	}
-	focus = {
-		id = trp_propagand_communism_in_south_america
-		icon = GFX_goal_generic_propaganda
-		prerequisite = {
-			focus = trp_communism_with_a_human_face
-		}
-		relative_position_id = trp_communism_with_a_human_face
-		x = 0
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {
-			every_other_country = {
-				limit = {
-					any_owned_state = {
-						is_capital = yes
-						is_on_continent = south_america
-					}
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.1
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+
 	focus = {
 		id = trp_join_comintern
 		icon = GFX_goal_support_communism
 		prerequisite = {
-			focus = trp_communist_support
+			focus = trp_go_left
 		}
 		x = 0
 		y = 1
-		relative_position_id = trp_communist_support
+		relative_position_id = trp_go_left
 		cost = 10
 		ai_will_do = {
 			factor = 100
@@ -1038,56 +808,8 @@
 			}
 		}
 	}
-	focus = {
-		id = trp_the_venezuela_question
-		icon = GFX_goal_generic_war_with_comintern
-		prerequisite = {
-			focus = trp_join_comintern
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_join_comintern
-		cost = 10
-		ai_will_do = {
-			factor = 80
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = VEN
-				type = annex_everything
-			}
-			VEN = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
-		}
-	}
-	focus = {
-		id = trp_the_peru_question
-		icon = GFX_goal_generic_war_with_comintern
-		prerequisite = {
-			focus = trp_the_venezuela_question
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_the_venezuela_question
-		cost = 10
-		ai_will_do = {
-			factor = 80
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = PRU
-				type = annex_everything
-			}
-			PRU = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
-		}
-	}
+
+
 	focus = {
 		id = trp_go_democratic
 		icon = GFX_focus_generic_the_giant_wakes
@@ -1152,36 +874,44 @@
 		}
 	}
 	focus = {
-		id = trp_democratic_support
+		id = trp_join_allies
 		icon = GFX_goal_support_democracy
 		prerequisite = {
 			focus = trp_go_democratic
 		}
+
 		x = 0
 		y = 1
 		relative_position_id = trp_go_democratic
-		cost = 10
-		ai_will_do = {
-			factor = 80
-		}
-		available_if_capitulated = yes
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available_if_capitulated = yes
+		available = {
+			has_government = democratic
+			ENG = {
+				has_government = democratic
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
 		completion_reward = {
-			add_political_power = 100
-			add_ideas = democratic_influence
+			ENG = {
+				add_to_faction = TRP
+			}
 		}
 	}
 	focus = {
 		id = trp_beacon_of_liberty
 		icon = GFX_goal_support_democracy
 		prerequisite = {
-			focus = trp_democratic_support
+			focus = trp_join_allies
 		}
 		x = 0
 		y = 1
-		relative_position_id = trp_democratic_support
+		relative_position_id = trp_join_allies
 		cost = 2
 		ai_will_do = {
 			factor = 70
@@ -1315,49 +1045,6 @@
 		}
 	}
 	focus = {
-		id = trp_militarism
-		icon = GFX_focus_generic_military_mission
-		prerequisite = {
-			focus = trp_trap_fascism
-		}
-		x = 2
-		y = 1
-		relative_position_id = trp_trap_fascism
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = militarism_focus
-			army_experience = 20
-			set_rule = {
-				can_send_volunteers = yes
-			}
-		}
-	}
-	focus = {
-		id = trp_aggressive_wars
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = {
-			focus = trp_militarism
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_militarism
-		cost = 10
-		ai_will_do = {
-			factor = 90
-		}
-		available = {
-			fascism > 0.5
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = FRA_army_of_aggression_focus
-		}
-	}
-	focus = {
 		id = trp_german_ally
 		icon = GFX_goal_generic_military_deal
 		prerequisite = {
@@ -1387,7 +1074,7 @@
 			NOT = {
 				any_other_country = {
 					is_in_faction_with = GER
-					has_war_with = CZE
+					has_war_with = TRP
 				}
 			}
 		}
@@ -1397,22 +1084,44 @@
 		available_if_capitulated = yes
 		completion_reward = {
 			GER = {
-				country_event = {
-					hours = 1
-					id = czech.16
-				}
+				add_to_faction = TRP
+				# country_event = {
+				# 	hours = 1
+				# 	id = czech.16
+				# }
 			}
 		}
 	}
 	focus = {
-		id = trp_the_colonies_question
-		icon = GFX_goal_generic_territory_or_war
+		id = trp_aggressive_wars
+		icon = GFX_goal_generic_political_pressure
 		prerequisite = {
 			focus = trp_german_ally
 		}
 		x = 0
 		y = 1
 		relative_position_id = trp_german_ally
+		cost = 10
+		ai_will_do = {
+			factor = 90
+		}
+		available = {
+			fascism > 0.5
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = FRA_army_of_aggression_focus
+		}
+	}
+	focus = {
+		id = trp_the_colonies_question
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = {
+			focus = trp_aggressive_wars
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_aggressive_wars
 		cost = 10
 		ai_will_do = {
 			factor = 90
@@ -1460,17 +1169,12 @@
 	#rev in SA
 	########################
 	focus = {
-		id = trp_revolution_in_south_america
-		icon = GFX_focus_por_latin_american_communism
-		prerequisite = {
-			focus = trp_propagand_communism_in_south_america
-		}
-		prerequisite = {
-			focus = trp_the_peru_question
-		}
-		relative_position_id = trp_propagand_communism_in_south_america
-		x = 1
-		y = 1
+		id = trp_conquest_of_south_america
+		icon = GFX_focus_por_recover_latin_america
+
+		#relative_position_id = trp_propagand_communism_in_south_america
+		x = 11
+		y = 8
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1486,9 +1190,9 @@
 		id = trp_attack_bra
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = trp_revolution_in_south_america
+			focus = trp_conquest_of_south_america
 		}
-		relative_position_id = trp_revolution_in_south_america
+		relative_position_id = trp_conquest_of_south_america
 		x = -2
 		y = 1
 		cost = 10
@@ -1598,9 +1302,9 @@
 		id = trp_attack_bol
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = trp_revolution_in_south_america
+			focus = trp_conquest_of_south_america
 		}
-		relative_position_id = trp_revolution_in_south_america
+		relative_position_id = trp_conquest_of_south_america
 		x = 0
 		y = 1
 		cost = 10
@@ -1654,9 +1358,9 @@
 		id = trp_attack_col
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = trp_revolution_in_south_america
+			focus = trp_conquest_of_south_america
 		}
-		relative_position_id = trp_revolution_in_south_america
+		relative_position_id = trp_conquest_of_south_america
 		x = 2
 		y = 1
 		cost = 10
@@ -1707,12 +1411,37 @@
 		}
 	}
 	focus = {
-		id = trp_attack_ecu
+		id = trp_atack_ven
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = trp_attack_col
 		}
+		x = 0
+		y = 1
 		relative_position_id = trp_attack_col
+		cost = 10
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = VEN
+				type = annex_everything
+			}
+			VEN = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = trp_attack_ecu
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = trp_atack_ven
+		}
+		relative_position_id = trp_atack_ven
 		x = 0
 		y = 1
 		cost = 10
@@ -1760,6 +1489,31 @@
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	focus = {
+		id = trp_atack_pru
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = trp_attack_ecu
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_attack_ecu
+		cost = 10
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = PRU
+				type = annex_everything
+			}
+			PRU = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
 		}
 	}
 	focus = {
@@ -1941,7 +1695,7 @@
 			focus = trp_attack_chl
 		}
 		prerequisite = {
-			focus = trp_attack_ecu
+			focus = trp_atack_pru
 		}
 		relative_position_id = trp_attack_chl
 		x = 1

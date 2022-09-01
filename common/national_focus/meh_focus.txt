@@ -24,7 +24,7 @@ focus_tree = {
 	focus = {
 		id = meh_upgrade_ai
 		icon = GFX_goal_generic_production
-		x = 25
+		x = 18
 		y = 8
 		cost = 10
 		search_filters = {
@@ -48,7 +48,7 @@ focus_tree = {
 			focus = meh_upgrade_ai
 		}
 		relative_position_id = meh_upgrade_ai
-		x = -12
+		x = -8
 		y = 1
 		cost = 10
 		search_filters = {
@@ -131,853 +131,6 @@ focus_tree = {
 				add_idea = meh_warmind_agr
 			}
 			set_country_flag = meh_warmind_complete_flag
-		}
-	}
-	focus = {
-		id = meh_army_effort
-		icon = GFX_goal_generic_allies_build_infantry
-		relative_position_id = meh_create_warmind
-		x = -4
-		y = 2
-		cost = 5
-		prerequisite = {
-			focus = meh_upgrade_warmind_def
-			focus = meh_upgrade_warmind_agr
-		}
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			army_experience = 5
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-	focus = {
-		id = meh_equipment_effort
-		icon = GFX_goal_generic_small_arms
-		prerequisite = {
-			focus = meh_army_effort
-		}
-		x = -1
-		y = 1
-		relative_position_id = meh_army_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 1
-				uses = 1
-				category = infantry_weapons
-				category = artillery
-			}
-		}
-	}
-	focus = {
-		id = meh_doctrine_effort
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = {
-			focus = meh_army_effort
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_army_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			army_experience = 5
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-	focus = {
-		id = meh_equipment_effort_2
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = {
-			focus = meh_equipment_effort
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_equipment_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 1
-				uses = 1
-				category = infantry_weapons
-				category = artillery
-			}
-		}
-	}
-	focus = {
-		id = meh_mechanization_effort
-		icon = GFX_goal_generic_build_tank
-		prerequisite = {
-			focus = meh_army_effort
-		}
-		x = 1
-		y = 1
-		relative_position_id = meh_army_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				ahead_reduction = 2
-				uses = 1
-				category = motorized_equipment
-			}
-		}
-	}
-	focus = {
-		id = meh_doctrine_effort_2
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = {
-			focus = meh_doctrine_effort
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_doctrine_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			army_experience = 5
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-	focus = {
-		id = meh_equipment_effort_3
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = {
-			focus = meh_equipment_effort_2
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_equipment_effort_2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				ahead_reduction = 2
-				uses = 1
-				category = infantry_weapons
-				category = artillery
-			}
-		}
-	}
-	focus = {
-		id = meh_armor_effort
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = {
-			focus = meh_mechanization_effort
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_mechanization_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1
-				uses = 2
-				category = armor
-			}
-		}
-	}
-	focus = {
-		id = meh_armor_effort_2
-		icon = GFX_focus_generic_army_tanks2
-		prerequisite = {
-			focus = meh_armor_effort
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_armor_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = modern_armor
-				bonus = 1
-				ahead_reduction = 2
-				uses = 1
-				category = armor
-			}
-		}
-	}
-	focus = {
-		id = meh_special_forces
-		icon = GFX_goal_generic_special_forces
-		prerequisite = {
-			focus = meh_equipment_effort_3
-		}
-		prerequisite = {
-			focus = meh_doctrine_effort_2
-		}
-		prerequisite = {
-			focus = meh_armor_effort_2
-		}
-		x = 1
-		y = 1
-		relative_position_id = meh_equipment_effort_3
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 1
-				uses = 2
-				technology = paratroopers
-				technology = paratroopers2
-				technology = marines
-				technology = marines2
-				technology = tech_mountaineers
-				technology = tech_mountaineers2
-			}
-		}
-	}
-	focus = {
-		id = meh_aviation_effort
-		icon = GFX_goal_generic_build_airforce
-		relative_position_id = meh_create_warmind
-		x = 0
-		y = 2
-		cost = 5
-		prerequisite = {
-			focus = meh_upgrade_warmind_def
-			focus = meh_upgrade_warmind_agr
-		}
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		complete_tooltip = {
-			air_experience = 25
-			if = {
-				limit = {
-					has_country_flag = aviation_effort_AB
-				}
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
-			}
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = air_doctrine
-			}
-		}
-		completion_reward = {
-			air_experience = 25
-			if = {
-				limit = {
-					capital_scope = {
-						NOT = {
-							free_building_slots = {
-								building = air_base
-								size > 1
-							}
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
-					add_building_construction = {
-						type = air_base
-						level = 2
-						instant_build = yes
-					}
-					ROOT = {
-						set_country_flag = aviation_effort_AB
-					}
-				}
-			}
-			if = {
-				limit = {
-					capital_scope = {
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
-				}
-				capital_scope = {
-					add_building_construction = {
-						type = air_base
-						level = 2
-						instant_build = yes
-					}
-					ROOT = {
-						set_country_flag = aviation_effort_AB
-					}
-				}
-			}
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-	focus = {
-		id = meh_fighter_focus
-		icon = GFX_goal_generic_air_fighter
-		prerequisite = {
-			focus = meh_aviation_effort
-		}
-		mutually_exclusive = {
-			focus = meh_bomber_focus
-		}
-		x = -1
-		y = 1
-		relative_position_id = meh_aviation_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
-		}
-	}
-	focus = {
-		id = meh_bomber_focus
-		icon = GFX_goal_generic_air_bomber
-		prerequisite = {
-			focus = meh_aviation_effort
-		}
-		mutually_exclusive = {
-			focus = meh_fighter_focus
-		}
-		x = 1
-		y = 1
-		relative_position_id = meh_aviation_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = bomber_bonus
-				bonus = 1
-				uses = 2
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				technology = strategic_bomber3
-				category = tactical_bomber
-			}
-		}
-	}
-	focus = {
-		id = meh_aviation_effort_2
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = {
-			focus = meh_bomber_focus
-			focus = meh_fighter_focus
-		}
-		x = -1
-		y = 1
-		relative_position_id = meh_bomber_focus
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		complete_tooltip = {
-			air_experience = 25
-			if = {
-				limit = {
-					has_country_flag = meh_aviation_effort_2_AB
-				}
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
-			}
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = air_doctrine
-			}
-		}
-		completion_reward = {
-			air_experience = 25
-			if = {
-				limit = {
-					capital_scope = {
-						OR = {
-							NOT = {
-								is_controlled_by = ROOT
-							}
-							NOT = {
-								free_building_slots = {
-									building = air_base
-									size > 1
-								}
-							}
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
-					add_building_construction = {
-						type = air_base
-						level = 2
-						instant_build = yes
-					}
-					ROOT = {
-						set_country_flag = meh_aviation_effort_2_AB
-					}
-				}
-			}
-			if = {
-				limit = {
-					capital_scope = {
-						is_controlled_by = ROOT
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
-				}
-				capital_scope = {
-					add_building_construction = {
-						type = air_base
-						level = 2
-						instant_build = yes
-					}
-					ROOT = {
-						set_country_flag = meh_aviation_effort_2_AB
-					}
-				}
-			}
-			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-	focus = {
-		id = meh_CAS_effort
-		icon = GFX_goal_generic_CAS
-		prerequisite = {
-			focus = meh_aviation_effort_2
-		}
-		x = -1
-		y = 1
-		relative_position_id = meh_aviation_effort_2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 1
-				category = cas_bomber
-			}
-		}
-	}
-	focus = {
-		id = meh_NAV_effort
-		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = {
-			focus = meh_aviation_effort_2
-		}
-		x = 1
-		y = 1
-		relative_position_id = meh_aviation_effort_2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = nav_bomber_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 1
-				category = naval_bomber
-			}
-		}
-	}
-	focus = {
-		id = meh_jet_fighter_focus
-		icon = GFX_goal_generic_air_fighter
-		prerequisite = {
-			focus = meh_aviation_effort_2
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_aviation_effort_2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available = {
-			has_tech = jet_engines
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 2
-				category = jet_technology
-			}
-		}
-	}
-	focus = {
-		id = meh_naval_effort
-		icon = GFX_goal_generic_build_navy
-		relative_position_id = meh_create_warmind
-		x = 4
-		y = 2
-		cost = 5
-		prerequisite = {
-			focus = meh_upgrade_warmind_def
-			focus = meh_upgrade_warmind_agr
-		}
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			navy_experience = 25
-			random_owned_controlled_state = {
-				limit = {
-					is_coastal = yes
-					free_building_slots = {
-						building = dockyard
-						size > 2
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = meh_submarine_effort
-		icon = GFX_goal_generic_navy_submarine
-		prerequisite = {
-			focus = meh_naval_effort
-		}
-		mutually_exclusive = {
-			focus = meh_destroyer_effort
-		}
-		x = -1
-		y = 1
-		relative_position_id = meh_naval_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = ss_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 1
-				category = ss_tech
-			}
-		}
-	}
-	focus = {
-		id = meh_destroyer_effort
-		icon = GFX_goal_generic_wolf_pack
-		prerequisite = {
-			focus = meh_naval_effort
-		}
-		mutually_exclusive = {
-			focus = meh_submarine_effort
-		}
-		x = 1
-		y = 1
-		relative_position_id = meh_naval_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = dd_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 1
-				category = dd_tech
-			}
-		}
-	}
-	focus = {
-		id = meh_doctrine_navy
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = {
-			focus = meh_destroyer_effort
-			focus = meh_submarine_effort
-		}
-		x = 1
-		y = 1
-		relative_position_id = meh_submarine_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = naval_doctrine_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = naval_doctrine
-			}
-		}
-	}
-	focus = {
-		id = meh_submarine_effort_2
-		icon = GFX_goal_generic_navy_submarine
-		prerequisite = {
-			focus = meh_submarine_effort
-		}
-		prerequisite = {
-			focus = meh_doctrine_navy
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_submarine_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = ss_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 1
-				category = ss_tech
-			}
-		}
-	}
-	focus = {
-		id = meh_destroyer_effort_2
-		icon = GFX_goal_generic_wolf_pack
-		prerequisite = {
-			focus = meh_destroyer_effort
-		}
-		prerequisite = {
-			focus = meh_doctrine_navy
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_destroyer_effort
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = dd_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 1
-				category = dd_tech
-			}
-		}
-	}
-	focus = {
-		id = meh_doctrine_navy_2
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = {
-			focus = meh_submarine_effort_2
-			focus = meh_destroyer_effort_2
-		}
-		x = 0
-		y = 2
-		relative_position_id = meh_doctrine_navy
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = naval_doctrine_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = naval_doctrine
-			}
-		}
-	}
-	focus = {
-		id = meh_cruiser_effort
-		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = {
-			focus = meh_doctrine_navy_2
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_doctrine_navy_2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				name = cr_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 2
-				category = cl_tech
-				category = ca_tech
-			}
-		}
-	}
-
-	focus = {
-		id = meh_capital_ships_effort
-		icon = GFX_goal_generic_navy_battleship
-		prerequisite = {
-			focus = meh_cruiser_effort
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_cruiser_effort
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			navy_experience = 50
-			add_tech_bonus = {
-				name = capital_ships_bonus
-				bonus = 1
-				ahead_reduction = 2
-				uses = 3
-				category = bc_tech
-				category = bb_tech
-				category = cv_tech
-			}
 		}
 	}
 	focus = {
@@ -1341,141 +494,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = meh_extra_tech_slot
-		icon = GFX_focus_research
-		prerequisite = {
-			focus = meh_upgrade_ai
-		}
-		x = 2
-		y = 1
-		relative_position_id = meh_upgrade_ai
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		available = {
-			num_of_factories > 50
-		}
-		completion_reward = {
-			add_research_slot = 1
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	focus = {
-		id = meh_nuclear_effort
-		icon = GFX_focus_wonderweapons
-		prerequisite = {
-			focus = meh_extra_tech_slot
-		}
-		x = -2
-		y = 1
-		relative_position_id = meh_extra_tech_slot
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = nuclear_bonus
-				ahead_reduction = 2
-				uses = 2
-				category = nuclear
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	focus = {
-		id = meh_rocket_effort
-		icon = GFX_focus_rocketry
-		prerequisite = {
-			focus = meh_extra_tech_slot
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_extra_tech_slot
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = jet_rocket_bonus
-				ahead_reduction = 2
-				uses = 2
-				category = rocketry
-				category = jet_technology
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	focus = {
-		id = meh_extra_tech_slot_2
-		icon = GFX_focus_research
-		prerequisite = {
-			focus = meh_nuclear_effort
-		}
-		prerequisite = {
-			focus = meh_rocket_effort
-		}
-		prerequisite = {
-			focus = meh_electronics_effort
-		}
-		available = {
-			num_of_factories > 100
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		x = 0
-		y = 2
-		relative_position_id = meh_extra_tech_slot
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = meh_electronics_effort
-		icon = GFX_goal_generic_radar
-		prerequisite = {
-			focus = meh_extra_tech_slot
-		}
-		x = 2
-		y = 1
-		relative_position_id = meh_extra_tech_slot
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = electronics_bonus
-				bonus = 1
-				uses = 2
-				category = electronics
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	focus = {
 		id = meh_cooperation_focus
 		icon = GFX_goal_generic_national_unity		#icon = GFX_goal_tripartite_pact
 		prerequisite = {
@@ -1494,7 +512,7 @@ focus_tree = {
 				has_government = democratic
 			}
 		}
-		x = 11
+		x = 6
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
@@ -1504,10 +522,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 20
-				has_idea = SOV_russian_political_influence
-			}
 		}
 		completion_reward = {
 			add_political_power = 150
@@ -1537,7 +551,7 @@ focus_tree = {
 			is_puppet = no
 			has_government = fascism
 		}
-		x = 7
+		x = 2
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
@@ -1562,57 +576,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = meh_internationalism_focus
-		icon = GFX_goal_support_communism		#icon = GFX_goal_tripartite_pact
+		id = meh_join_comintern
+		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = {
 			focus = meh_cooperation_focus
 		}
 		mutually_exclusive = {
-			focus = meh_liberty_ethos
-		}
-		x = -1
-		y = 1
-		relative_position_id = meh_cooperation_focus
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		available = {
-			has_government = communism
-		}
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 20
-				has_idea = SOV_russian_political_influence
-			}
-		}
-		completion_reward = {
-			add_political_power = 150
-			add_timed_idea = {
-				idea = internationalism
-				days = 720
-			}
-			set_rule = {
-				can_join_factions = yes
-			}
-			set_rule = {
-				can_create_factions = yes
-			}
-			custom_effect_tooltip = kamikaze_focus_tooltip
-			hidden_effect = {
-				set_rule = {
-					can_use_kamikaze_pilots = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = meh_join_comintern
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		prerequisite = {
-			focus = meh_internationalism_focus
+			focus = meh_join_allies
 		}
 		available = {
 			has_government = communism
@@ -1621,9 +591,9 @@ focus_tree = {
 				is_faction_leader = yes
 			}
 		}
-		x = 0
+		x = -1
 		y = 1
-		relative_position_id = meh_internationalism_focus
+		relative_position_id = meh_cooperation_focus
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1634,6 +604,9 @@ focus_tree = {
 			SOV = {
 				add_to_faction = MEH
 			}
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 	focus = {
@@ -1656,15 +629,18 @@ focus_tree = {
 				type = puppet_wargoal_focus
 			}
 		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
-		id = meh_liberty_ethos
+		id = meh_join_allies
 		icon = GFX_goal_support_democracy
 		prerequisite = {
 			focus = meh_cooperation_focus
 		}
 		mutually_exclusive = {
-			focus = meh_internationalism_focus
+			focus = meh_join_comintern
 		}
 		x = 1
 		y = 1
@@ -1676,19 +652,16 @@ focus_tree = {
 		available_if_capitulated = yes
 		available = {
 			has_government = democratic
+			ENG = {
+				has_government = democratic
+			}
 		}
 		ai_will_do = {
 			factor = 5
 		}
 		completion_reward = {
-			add_ideas = liberty_ethos_focus
-			add_timed_idea = {
-				idea = democratic_influence
-				days = 720
-			}
-			add_political_power = 150
-			set_rule = {
-				can_join_factions = yes
+			ENG = {
+				add_to_faction = MEH
 			}
 		}
 	}
@@ -2196,7 +1169,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = meh_exterminatus_focus
 		}
-		x = 14
+		x = 9
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
@@ -2228,202 +1201,49 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = meh_interventionism_focus
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = {
-			focus = meh_liberty_ethos
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_liberty_ethos
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		available = {
-			if = {
-				limit = {
-					is_puppet = yes
-				}
-				has_government = democratic
-			}
-			else = {
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					has_idea = neutrality_idea
-				}
-				remove_ideas = neutrality_idea
-			}
-			set_rule = {
-				can_send_volunteers = yes
-			}
-			add_political_power = 150
-		}
-	}
-	focus = {
-		id = meh_deterrence
-		icon = GFX_goal_generic_defence
+		id = meh_defensive_lines
 		prerequisite = {
 			focus = meh_neutrality_focus
 		}
+		icon = GFX_goal_generic_construct_military
+		relative_position_id = meh_neutrality_focus
 		x = 0
 		y = 1
-		relative_position_id = meh_neutrality_focus
 		cost = 10
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_INDUSTRY
 		}
-		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = deterrence
-		}
-	}
-	focus = {
-		id = meh_volunteer_corps
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = {
-			focus = meh_interventionism_focus
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_interventionism_focus
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = volunteer_corps_focus
-		}
-	}
-	focus = {
-		id = meh_foreign_expeditions
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = {
-			focus = meh_volunteer_corps
-		}
-		x = 0
-		y = 1
-		relative_position_id = meh_volunteer_corps
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = foreign_expeditions_focus
-		}
-	}
-	focus = {
-		id = meh_why_we_fight
-		icon = GFX_goal_generic_propaganda
-		prerequisite = {
-			focus = meh_foreign_expeditions
-			focus = meh_deterrence
-		}
-		available = {
-			OR = {
-				threat > 0.75
-				has_defensive_war = yes
-			}
-		}
-		continue_if_invalid = yes
-		x = 1
-		y = 1
-		relative_position_id = meh_foreign_expeditions
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = why_we_fight_focus
-			set_rule = {
-				can_join_factions = yes
-			}
-			custom_effect_tooltip = why_we_fight_effect
-			hidden_effect = {
-				if = {
-					limit = {
-						NOT = {
-							has_idea = neutrality_idea
-						}
-					}
-					set_rule = {
-						can_create_factions = yes
+			custom_effect_tooltip = meh_defensive_lines_tt
+			every_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
 					}
 				}
 			}
-		}
-	}
-	focus = {
-		id = meh_technology_sharing
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = {
-			focus = meh_internationalism_focus
-			focus = meh_why_we_fight
-		}
-		available = {
-			has_war = yes
-			is_in_faction = yes
-			OR = {
-				num_of_factories > 50
-				any_other_country = {
-					is_in_faction_with = ROOT
-					num_of_factories > 50
-				}
-			}
-		}
-		x = 1
-		y = 5
-		relative_position_id = meh_internationalism_focus
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			if = {
-				limit = {
-					original_research_slots < 3
-				}
-				add_research_slot = 1
-			}
-			if = {
-				limit = {
-					original_research_slots > 2
-				}
-				add_tech_bonus = {
-					name = electronics_bonus
-					bonus = 1
-					uses = 1
-					category = electronics
-				}
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1
-					uses = 1
-					category = industry
-				}
-				add_tech_bonus = {
-					name = infantry_artillery_bonus					#@#
-					bonus = 1
-					uses = 1
-					category = infantry_weapons
-					category = artillery
+			838 = {
+				add_building_construction = {
+					type = radar_station
+					level = 6
+					instant_build = yes
 				}
 			}
 		}

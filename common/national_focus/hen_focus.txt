@@ -24,7 +24,7 @@ focus_tree = {
 	focus = {
 		id = hen_friendship_with_japan
 		icon = GFX_focus_chi_collaboration_with_the_japanese
-		x = 13
+		x = 12
 		y = 8
 		cost = 10
 		mutually_exclusive = {
@@ -51,128 +51,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = hen_nationalism_focus
-		icon = GFX_goal_support_fascism
+		id = hen_visit_to_japan
+		icon = GFX_focus_generic_diplomatic_treaty
 		prerequisite = {
 			focus = hen_friendship_with_japan
 		}
 		x = 0
 		y = 1
 		relative_position_id = hen_friendship_with_japan
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_political_power = 150
-			add_timed_idea = {
-				idea = nationalism
-				days = 720
-			}
-		}
-	}
-	focus = {
-		id = hen_militarism
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = {
-			focus = hen_nationalism_focus
-		}
-		x = -1
-		y = 1
-		relative_position_id = hen_nationalism_focus
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = militarism_focus
-			army_experience = 20
-			set_rule = {
-				can_send_volunteers = yes
-			}
-		}
-	}
-	focus = {
-		id = hen_military_youth
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = {
-			focus = hen_militarism
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_militarism
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = military_youth_focus
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
-		}
-	}
-	focus = {
-		id = hen_paramilitarism
-		icon = GFX_goal_generic_military_sphere
-		prerequisite = {
-			focus = hen_military_youth
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_military_youth
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = paramilitarism_focus
-		}
-	}
-	focus = {
-		id = hen_ideological_fanaticism
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = {
-			focus = hen_paramilitarism
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_paramilitarism
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = ideological_fanaticism_focus
-			set_rule = {
-				can_create_factions = yes
-			}
-			hidden_effect = {
-				set_rule = {
-					can_use_kamikaze_pilots = yes
-				}
-			}
-			custom_effect_tooltip = kamikaze_focus_tooltip
-		}
-	}
-	focus = {
-		id = hen_visit_to_japan
-		icon = GFX_focus_generic_diplomatic_treaty
-		prerequisite = {
-			focus = hen_nationalism_focus
-		}
-		x = 1
-		y = 1
-		relative_position_id = hen_nationalism_focus
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -291,14 +177,11 @@ focus_tree = {
 		id = hen_conquest_of_gxc
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = hen_ideological_fanaticism
-		}
-		prerequisite = {
 			focus = hen_alliance_with_japan
 		}
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = hen_ideological_fanaticism
+		relative_position_id = hen_alliance_with_japan
 		cost = 10
 		available = {
 			NOT = {
@@ -324,7 +207,7 @@ focus_tree = {
 	focus = {
 		id = hen_conquest_of_japan
 		icon = GFX_focus_attack_japan
-		x = 21
+		x = 17
 		y = 8
 		cost = 10
 		mutually_exclusive = {
@@ -352,60 +235,29 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	focus = {
-		id = hen_internationalism_focus
-		icon = GFX_goal_support_communism		#icon = GFX_goal_tripartite_pact
-		prerequisite = {
-			focus = hen_conquest_of_japan
-		}
-		mutually_exclusive = {
-			focus = hen_liberty_ethos
-		}
-		mutually_exclusive = {
-			focus = hen_neutrality_focus
-		}
-		x = -3
-		y = 1
-		relative_position_id = hen_conquest_of_japan
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available = {
-			has_government = communism
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
 			modifier = {
-				factor = 20
-				has_idea = SOV_russian_political_influence
-			}
-		}
-		completion_reward = {
-			add_political_power = 150
-			add_timed_idea = {
-				idea = internationalism
-				days = 720
+				is_historical_focus_on = yes
+				add = 5
 			}
 		}
 	}
 	focus = {
 		id = hen_visit_to_sov
 		icon = GFX_focus_generic_diplomatic_treaty
-		prerequisite = {
-			focus = hen_internationalism_focus
-		}
-		x = -1
-		y = 1
-		relative_position_id = hen_internationalism_focus
+		# prerequisite = {
+		# 	focus = hen_internationalism_focus
+		# }
+		x = 9
+		y = 8
+		#relative_position_id = hen_internationalism_focus
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available_if_capitulated = yes
+		available = {
+			communism > 0.3
+		}
 		completion_reward = {
 			add_opinion_modifier = {
 				target = SOV
@@ -423,7 +275,11 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 10
+			}
 		}
 	}
 	focus = {
@@ -618,339 +474,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = hen_liberty_ethos
-		icon = GFX_goal_support_democracy
-		prerequisite = {
-			focus = hen_conquest_of_japan
-		}
-		mutually_exclusive = {
-			focus = hen_neutrality_focus
-		}
-		mutually_exclusive = {
-			focus = hen_internationalism_focus
-		}
-		x = 2
-		y = 1
-		relative_position_id = hen_conquest_of_japan
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available = {
-			has_government = democratic
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			add_ideas = liberty_ethos_focus
-			add_timed_idea = {
-				idea = democratic_influence
-				days = 720
-			}
-			add_political_power = 150
-		}
-	}
-	focus = {
-		id = hen_political_correctness
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = {
-			focus = hen_internationalism_focus
-		}
-		x = 1
-		y = 1
-		relative_position_id = hen_internationalism_focus
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			if = {
-				limit = {
-					has_idea = neutrality_idea
-				}
-				remove_ideas = neutrality_idea
-			}
-			add_political_power = 200
-			add_ideas = idea_political_correctness
-		}
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	focus = {
-		id = hen_neutrality_focus
-		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = {
-			focus = hen_conquest_of_japan
-		}
-		mutually_exclusive = {
-			focus = hen_liberty_ethos
-		}
-		mutually_exclusive = {
-			focus = hen_internationalism_focus
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_conquest_of_japan
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available = {
-			has_government = neutrality
-			neutrality > 0.5
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						has_idea = neutrality_idea
-					}
-				}
-				add_ideas = neutrality_idea
-			}
-			add_political_power = 150
-			add_timed_idea = {
-				idea = neutrality_influence
-				days = 720
-			}
-		}
-	}
-	focus = {
-		id = hen_interventionism_focus
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = {
-			focus = hen_liberty_ethos
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_liberty_ethos
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		available = {
-			if = {
-				limit = {
-					is_puppet = yes
-				}
-				has_government = democratic
-			}
-			else = {
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					has_idea = neutrality_idea
-				}
-				remove_ideas = neutrality_idea
-			}
-			set_rule = {
-				can_send_volunteers = yes
-			}
-			add_political_power = 150
-		}
-	}
-	focus = {
-		id = hen_deterrence
-		icon = GFX_goal_generic_defence
-		prerequisite = {
-			focus = hen_neutrality_focus
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_neutrality_focus
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-			FOCUS_FILTER_INDUSTRY
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = deterrence
-		}
-	}
-	focus = {
-		id = hen_volunteer_corps
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = {
-			focus = hen_interventionism_focus
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_interventionism_focus
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = volunteer_corps_focus
-		}
-	}
-	focus = {
-		id = hen_indoctrination_focus
-		icon = GFX_goal_generic_propaganda
-		prerequisite = {
-			focus = hen_political_correctness
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_political_correctness
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = indoctrination_focus
-			add_political_power = 150
-		}
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	focus = {
-		id = hen_foreign_expeditions
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = {
-			focus = hen_volunteer_corps
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_volunteer_corps
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = foreign_expeditions_focus
-		}
-	}
-	focus = {
-		id = hen_why_we_fight
-		icon = GFX_goal_generic_propaganda
-		prerequisite = {
-			focus = hen_foreign_expeditions
-			focus = hen_deterrence
-		}
-		available = {
-			OR = {
-				threat > 0.75
-				has_defensive_war = yes
-			}
-		}
-		continue_if_invalid = yes
-		x = 0
-		y = 3
-		relative_position_id = hen_deterrence
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = why_we_fight_focus
-			custom_effect_tooltip = why_we_fight_effect
-			hidden_effect = {
-				if = {
-					limit = {
-						NOT = {
-							has_idea = neutrality_idea
-						}
-					}
-					set_rule = {
-						can_create_factions = yes
-					}
-				}
-			}
-		}
-	}
-	focus = {
-		id = hen_political_commissars
-		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = {
-			focus = hen_indoctrination_focus
-		}
-		available = {
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_indoctrination_focus
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = political_commissars_focus
-			add_popularity = {
-				ideology = communism
-				popularity = 0.2
-			}
-			add_political_power = 200
-		}
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	focus = {
-		id = hen_ideological_fanaticism2
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = {
-			focus = hen_political_commissars
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_political_commissars
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = ideological_fanaticism_focus
-			set_rule = {
-				can_create_factions = yes
-			}
-			hidden_effect = {
-				set_rule = {
-					can_use_kamikaze_pilots = yes
-				}
-			}
-			custom_effect_tooltip = kamikaze_focus_tooltip
-		}
-		ai_will_do = {
-			factor = 5
-		}
-	}
-	focus = {
 		id = hen_seduce_stalin
 		icon = GFX_focus_fra_loyalty_stalin
 		prerequisite = {
 			focus = hen_alliance_with_sov
 		}
-		prerequisite = {
-			focus = hen_ideological_fanaticism2
-		}
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = hen_alliance_with_sov
 		cost = 5
@@ -1039,12 +568,11 @@ focus_tree = {
 		id = hen_preparation_for_conquest
 		icon = GFX_focus_generic_military_mission
 		prerequisite = {
-			focus = hen_why_we_fight
-			focus = hen_seduce_stalin
+			focus = hen_conquest_of_japan
 		}
 		x = 0
-		y = 2
-		relative_position_id = hen_why_we_fight
+		y = 1
+		relative_position_id = hen_conquest_of_japan
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
