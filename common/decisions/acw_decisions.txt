@@ -2523,6 +2523,12 @@ acw_create_great_animeland_category = {
 			hidden_effect = {
 				YUG = {
 					every_owned_state = {
+						limit = {
+							NOT = {
+								state = 102
+								state = 103
+							}
+						}
 						add_claim_by = ROOT
 					}
 				}

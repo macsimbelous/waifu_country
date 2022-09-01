@@ -241,6 +241,7 @@ meh_kosmos_category = {
 	meh_create_rocket_factory_decision = {
 		icon = generic_construction
 		available = {
+			rocket_site > 0
 			num_of_civilian_factories_available_for_projects > 14
 		}
 		fire_only_once = yes

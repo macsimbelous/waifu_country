@@ -2,6 +2,7 @@ meh_modernization_category = {
 	priority = 11
 	allowed = {
 		original_tag = MEH
+		always = no
 	}
 }
 meh_kosmos_category = {

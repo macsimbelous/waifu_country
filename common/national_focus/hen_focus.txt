@@ -36,7 +36,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
-			has_government = fascism
+			
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -219,11 +219,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
-			OR = {
-				has_government = communism
-				has_government = neutrality
-				has_government = democratic
-			}
+
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -237,7 +233,7 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				is_historical_focus_on = yes
-				add = 5
+				add = 100
 			}
 		}
 	}
@@ -393,6 +389,20 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_opinion_modifier = {
+				target = SOV
+				modifier = small_increase
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = HEN
+					modifier = small_increase
+				}
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -437,6 +447,20 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 				category = armor
+			}
+			add_opinion_modifier = {
+				target = SOV
+				modifier = small_increase
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = HEN
+					modifier = small_increase
+				}
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
 			}
 		}
 		ai_will_do = {
@@ -769,7 +793,7 @@ focus_tree = {
 		completion_reward = {
 			add_collaboration = {
 				target = JAP
-				value = 0.75
+				value = 0.5
 			}
 		}
 		ai_will_do = {
@@ -791,6 +815,11 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
+			JAP = {
+				add_stability = -0.3
+				add_political_power = -300
+				add_war_support = -0.3
+			}
 			add_collaboration = {
 				target = JAP
 				value = 0.75
@@ -815,6 +844,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
+			add_war_support = 0.1
 			JAP = {
 				every_owned_state = {
 					limit = {

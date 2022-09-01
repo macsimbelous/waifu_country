@@ -33,6 +33,7 @@ mms_expansion_of_living_space_category = {
 	#visible_when_empty = yes
 	allowed = {
 		original_tag = MMS
+		always = no
 	}
 	visible = {
 		NOT = {

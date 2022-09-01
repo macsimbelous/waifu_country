@@ -134,6 +134,43 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = meh_focus_create_perimetr
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = meh_upgrade_warmind_def
+			focus = meh_upgrade_warmind_agr
+		}
+		x = 0
+		y = 2
+		relative_position_id = meh_create_warmind
+		cost = 24
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		available = {
+			has_tech = advanced_rocket_engines
+			rocket_site > 0
+			has_tech = nukes
+			nuclear_reactor > 0
+			custom_trigger_tooltip = {
+				tooltip = meh_1_sputnik_tt
+				has_country_flag = meh_1_sputnik
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = meh_perimetr_tt
+			set_global_flag = wfc_perimetr_flag
+			add_ideas = meh_perimetr_idea
+			country_event = {
+				id = meh_event.1
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
 		id = meh_create_robo_factory
 		icon = GFX_goal_generic_construction
 		prerequisite = {

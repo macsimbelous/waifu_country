@@ -21,7 +21,6 @@ focus_tree = {
 	shared_focus = wfc_naval_effort
 	shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
-
 	focus = {
 		id = mms_expansion_of_living_space
 		icon = GFX_focus_jap_strike_south
@@ -30,6 +29,13 @@ focus_tree = {
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			OR = {
+				has_government = neutrality
+				has_government = communism
+				has_government = fascism
+			}
 		}
 		completion_reward = {
 			add_war_support = 0.05
@@ -46,6 +52,10 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 10
+			modifier = {
+				has_country_leader_with_trait = defeatist
+				add = -10
+			}
 		}
 	}
 	focus = {
@@ -146,40 +156,74 @@ focus_tree = {
 		relative_position_id = mms_attack_per
 		x = 1
 		y = 1
-		cost = 20
+		cost = 26
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			OR = {
-				has_war = no
-				AND = {
-					# Iran
-					custom_trigger_tooltip = {
-						tooltip = form_country_iran_required_states_tt
-						controls_state = 419
-						controls_state = 421
-						controls_state = 420
-						controls_state = 417
-						controls_state = 413
-						controls_state = 266
-						controls_state = 418
-						controls_state = 411
-						controls_state = 412
-						controls_state = 416
-						controls_state = 414
-						controls_state = 410
-					}
-					# Afghanistan
-					custom_trigger_tooltip = {
-						tooltip = form_country_afghanistan_required_states_tt
-						controls_state = 415
-						controls_state = 267
-					}
+			# Iran
+			custom_trigger_tooltip = {
+				tooltip = form_country_iran_required_states_tt
+				419 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				421 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				420 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				417 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				413 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				266 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				418 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				411 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				412 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				416 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				414 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				410 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+			}
+			# Afghanistan
+			custom_trigger_tooltip = {
+				tooltip = form_country_afghanistan_required_states_tt
+				415 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
+				}
+				267 = {
+					wfc_is_controlled_by_root_or_federation_subject = yes
 				}
 			}
 		}
 		completion_reward = {
+			hidden_effect = {
+				annex_country = {
+					target = PER
+				}
+				annex_country = {
+					target = AFG
+				}
+			}
+			412 = {
+				add_manpower = -1000000
+			}
 			every_controlled_state = {
 				limit = {
 					OR = {
@@ -187,6 +231,7 @@ focus_tree = {
 						is_core_of = AFG
 					}
 				}
+				add_manpower = 91000
 				add_core_of = MMS
 				hidden_effect = {
 					MMS = {

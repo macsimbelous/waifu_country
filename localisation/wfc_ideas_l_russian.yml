@@ -12,6 +12,7 @@ wfc_tantacle_attack:0 "Атака тентаклей"
 Is_Flat_Justice:0 "Быстрое правосудие"
 wfc_economic_assistance:0 "Экономическая помощь §G[FROM.OVERLORD.GetNameDef]§!"
 
+
 wfc_industrial_concern:0 "Индустриальный концерн"
 wfc_electronics_concern:0 "Электронный концерн"
 wfc_atom_concern:0 "Атомный концерн"
@@ -21,7 +22,8 @@ wfc_jet_aircraft_manufacturer:0 "Разработчик реактивной а�
 
 wfc_subsidies_dm:0 "Бюджетные субсидии"
 
-
+#HEN
+ hen_general_staff_idea:0 "Генеральный штаб"
 ###########
  Anime_Physics:0 "Аниме физика"
  Anime_Physics_desc:0 "Один удар!"

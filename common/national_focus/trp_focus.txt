@@ -717,7 +717,44 @@
 			}
 		}
 	}
-
+	focus = {
+		id = trp_join_comintern
+		icon = GFX_goal_support_communism
+		prerequisite = {
+			focus = trp_go_left
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_go_left
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			communism > 0.3
+			SOV_comintern_joinable = yes
+			is_in_faction = no
+			NOT = {
+				any_other_country = {
+					is_in_faction_with = SOV
+					has_war_with = TRP
+				}
+			}
+		}
+		bypass = {
+			is_in_faction_with = SOV
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			SOV = {
+				add_to_faction = TRP
+				# country_event = {
+				# 	hours = 1
+				# 	id = czech.1
+				# }
+			}
+		}
+	}
 	focus = {
 		id = trp_trap_socialism
 		icon = GFX_focus_generic_soviet_politics
@@ -770,44 +807,7 @@
 		}
 	}
 
-	focus = {
-		id = trp_join_comintern
-		icon = GFX_goal_support_communism
-		prerequisite = {
-			focus = trp_go_left
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_go_left
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		available = {
-			communism > 0.3
-			SOV_comintern_joinable = yes
-			is_in_faction = no
-			NOT = {
-				any_other_country = {
-					is_in_faction_with = SOV
-					has_war_with = TRP
-				}
-			}
-		}
-		bypass = {
-			is_in_faction_with = SOV
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			SOV = {
-				add_to_faction = TRP
-				# country_event = {
-				# 	hours = 1
-				# 	id = czech.1
-				# }
-			}
-		}
-	}
+
 
 
 	focus = {
@@ -1113,58 +1113,7 @@
 			add_ideas = FRA_army_of_aggression_focus
 		}
 	}
-	focus = {
-		id = trp_the_colonies_question
-		icon = GFX_goal_generic_territory_or_war
-		prerequisite = {
-			focus = trp_aggressive_wars
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_aggressive_wars
-		cost = 10
-		ai_will_do = {
-			factor = 90
-		}
-		completion_reward = {
-			transfer_state = 687
-			transfer_state = 309
-			transfer_state = 310
-			ENG = {
-				create_wargoal = {
-					target = ROOT
-					type = take_state_focus
-					generator = {
-						687
-					}
-				}
-			}
-			HOL = {
-				create_wargoal = {
-					target = ROOT
-					type = take_state_focus
-					generator = {
-						309
-					}
-				}
-			}
-			FRA = {
-				create_wargoal = {
-					target = ROOT
-					type = take_state_focus
-					generator = {
-						310
-					}
-				}
-			}
-			# GER = {
-			# 	country_event = {
-			# 		hours = 1
-			# 		id = czech.10
-			# 	}
-			# }
-		}
-	}
+
 	########################
 	#rev in SA
 	########################
@@ -1705,43 +1654,34 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			set_autonomy = {
-				target = GYA
-				autonomy_state = autonomy_dominion
-			}
-			GYA = {
-				transfer_state = 687
-			}
-			set_autonomy = {
-				target = SUR
-				autonomy_state = autonomy_dominion
-			}
-			SUR = {
-				transfer_state = 309
-			}
-			set_autonomy = {
-				target = CAY
-				autonomy_state = autonomy_dominion
-			}
-			CAY = {
-				transfer_state = 310
-			}
+			transfer_state = 687
+			transfer_state = 309
+			transfer_state = 310
 			ENG = {
 				create_wargoal = {
-					target = GYA
-					type = annex_everything
+					target = ROOT
+					type = take_state_focus
+					generator = {
+						687
+					}
 				}
 			}
 			HOL = {
 				create_wargoal = {
-					target = SUR
-					type = annex_everything
+					target = ROOT
+					type = take_state_focus
+					generator = {
+						309
+					}
 				}
 			}
 			FRA = {
 				create_wargoal = {
-					target = CAY
-					type = annex_everything
+					target = ROOT
+					type = take_state_focus
+					generator = {
+						310
+					}
 				}
 			}
 		}
