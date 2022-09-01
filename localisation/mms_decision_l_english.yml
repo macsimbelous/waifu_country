@@ -18,11 +18,11 @@
  mms_communism_rise_decision:0 "Communist Revolution"
 
 #mms_expansion_of_living_space_category
- mms_expansion_of_living_space_category:0 "Expansion of living space"
- mms_add_claims_to_per_and_afg:0 "Substantiate claims"
- mms_attack_per:0 "Capture §R[PER.GetName]§!"
- mms_attack_afg:0 "Capture §R[AFG.GetName]§!"
- mms_colonization_per_and_afg:0 "Colonization of Iran and Afghanistan"
+#  mms_expansion_of_living_space_category:0 "Expansion of living space"
+#  mms_add_claims_to_per_and_afg:0 "Substantiate claims"
+#  mms_attack_per:0 "Capture §R[PER.GetName]§!"
+#  mms_attack_afg:0 "Capture §R[AFG.GetName]§!"
+#  mms_colonization_per_and_afg:0 "Colonization of Iran and Afghanistan"
 
 #economy_decisions
  mms_expansion_of_the_supply_network:0 "Railway network expansion"
