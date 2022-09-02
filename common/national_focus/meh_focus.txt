@@ -1184,14 +1184,60 @@ focus_tree = {
 				}
 				add_claim_by = MEH
 			}
+			if = {
+				limit = {
+					is_in_faction = yes
+				}
+				if = {
+					limit = {
+						is_faction_leader = yes
+					}
+					dismantle_faction = yes
+				}
+				else = {
+					leave_faction = yes
+				}
+			}
 			every_other_country = {
-				MEH = {
+				limit = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				ROOT = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+			every_state = {
+				limit = {
+					NOT = {
+						owner = {
+							tag = ROOT
+						}
+					}
+				}
+				add_claim_by = ROOT
+			}
+			every_other_country = {
+				limit = {
+					NOT = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				ROOT = {
 					declare_war_on = {
 						target = PREV
 						type = annex_everything
 					}
 				}
 			}
+			add_ideas = meh_exterminatus_idea
+			news_event = wfc_news.9
 		}
 	}
 	focus = {
