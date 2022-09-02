@@ -4297,7 +4297,7 @@ wfc_puppets_category = {
 		}
 		remove_effect = {
 			random_list = {
-				25 = {
+				10 = {
 					modifier = {
 						FROM = {
 							has_stability < 0.5
@@ -4316,16 +4316,30 @@ wfc_puppets_category = {
 					modifier = {
 						network_strength = {
 							target = FROM
-							value > 0.5
+							value > 50
+						}
+						factor = 1.5
+					}
+					modifier = {
+						network_strength = {
+							target = FROM
+							value > 75
+						}
+						factor = 2
+					}
+					modifier = {
+						network_national_coverage = {
+							target = FROM
+							value > 50
 						}
 						factor = 1.5
 					}
 					modifier = {
 						network_national_coverage = {
 							target = FROM
-							value > 0.5
+							value > 75
 						}
-						factor = 1.5
+						factor = 2
 					}
 					modifier = {
 						has_collaboration = {
@@ -4449,7 +4463,7 @@ wfc_puppets_category = {
 					}
 					country_event = wfc_event.6
 				}
-				75 = {
+				90 = {
 					modifier = {
 						FROM = {
 							has_stability > 0.7

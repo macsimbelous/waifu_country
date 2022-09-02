@@ -111,27 +111,25 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		available = {
+			network_strength = {
+				target = BUL
+				value > 50
+			}
+			network_strength = {
+				target = BUL
+				value > 75
+			}
+			network_national_coverage = {
+				target = BUL
+				value > 50
+			}
+			network_national_coverage = {
+				target = BUL
+				value > 75
+			}
 		}
 		complete_effect = {
-			generate_character = {
-				token_base = generic_army_chief_off
-				name = reimu_name
-				portraits={
-					army={
-						large = GFX_portrait_acw_new_jersey_navy
-						small = GFX_idea_acw_new_jersey
-					}
-				}
-				corps_commander={
-					traits = { maid_group mark_reimu trait_reckless infantry_leader commando }
-					attack_skill = 5
-					defense_skill = 4
-					planning_skill = 4
-					logistics_skill = 4
-					skill = 5
-					legacy_id=-1
-				}
-			}
+			add_political_power = 100
 		}
 	}
 	wfc_test_6 = {
