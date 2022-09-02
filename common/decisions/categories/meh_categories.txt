@@ -43,6 +43,7 @@ meh_exterminatus_category = {
 	icon = decision_generic_ignite_civil_war
 	allowed = {
 		original_tag = MEH
+		always = no
 	}
 	visible = {
 		has_government = fascism
