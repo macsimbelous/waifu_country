@@ -926,11 +926,11 @@
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		completion_reward = {
-			#add_ideas = trp_beacon_of_liberty
-			swap_ideas = {
-				remove_idea = democratic_influence
-				add_idea = trp_beacon_of_liberty
-			}
+			add_ideas = trp_beacon_of_liberty
+			# swap_ideas = {
+			# 	remove_idea = democratic_influence
+			# 	add_idea = trp_beacon_of_liberty
+			# }
 		}
 	}
 	focus = {
