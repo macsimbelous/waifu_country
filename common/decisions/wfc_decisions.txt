@@ -722,6 +722,12 @@ economy_decisions = {
 			}
 			FROM = {
 				is_owned_by = ROOT
+				is_fully_controlled_by = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					size < 1
+					include_locked = no
+				}
 				NOT = {
 					OR = {
 						has_state_category = small_island
