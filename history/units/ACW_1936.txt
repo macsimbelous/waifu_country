@@ -257,19 +257,19 @@ units = {
 		location = 9756
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.3
 	}
 	division = {
 		location = 9756
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.3
 	}
 	division = {
 		location = 9756
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.3
 	}
 	# division = {
 	# 	location = 9756
