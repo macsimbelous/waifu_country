@@ -2,6 +2,7 @@ trp_south_american_federation = {
 	priority = 20
 	allowed = {
 		original_tag = TRP
+		always = no
 	}
 }
 trp_cloning_category = {

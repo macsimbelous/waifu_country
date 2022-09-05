@@ -20,7 +20,7 @@ focus_tree = {
 	focus = {
 		id = mah_unification_of_the_middle_east
 		icon = GFX_focus_generic_home_defense
-		x = 15
+		x = 10
 		y = 8
 		cost = 5
 		search_filters = {
@@ -35,40 +35,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = mah_conquest_of_irq
-		icon = GFX_goal_generic_major_war
-		relative_position_id = mah_unification_of_the_middle_east
-		x = 0
-		y = 1
-		cost = 5
-		will_lead_to_war_with = IRQ
-		prerequisite = {
-			focus = mah_unification_of_the_middle_east
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {
-			IRQ = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
-			create_wargoal = {
-				target = IRQ
-				type = annex_everything
-			}
-		}
-	}
-	focus = {
 		id = mah_production_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {
-			focus = mah_conquest_of_irq
+			focus = mah_unification_of_the_middle_east
 		}
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = mah_conquest_of_irq
+		relative_position_id = mah_unification_of_the_middle_east
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -179,75 +153,27 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = mah_expand_supply_to_tur_border
-		icon = GFX_goal_generic_construct_infrastructure
+		id = mah_conquest_of_irq
+		icon = GFX_goal_generic_major_war
 		relative_position_id = mah_production_effort
 		x = 0
 		y = 1
-		cost = 10
+		cost = 5
+		will_lead_to_war_with = IRQ
 		prerequisite = {
 			focus = mah_production_effort
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available = {
-			676 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			675 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			291 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-		}
 		completion_reward = {
-			build_railway = {
-				level = 1
-				start_province = 4111
-				target_province = 2097
-			}
-			build_railway = {
-				level = 1
-				start_province = 1056
-				target_province = 1634
-			}
-			680 = {
-				add_building_construction = {
-					type = supply_node
-					level = 1
-					province = 1634
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = mah_conquest_of_tur
-		icon = GFX_goal_generic_major_war
-		relative_position_id = mah_expand_supply_to_tur_border
-		x = 0
-		y = 1
-		cost = 5
-		will_lead_to_war_with = TUR
-		prerequisite = {
-			focus = mah_expand_supply_to_tur_border
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available = {
-			has_army_manpower = { size > 499999 } 
-		}
-		completion_reward = {
-			TUR = {
+			IRQ = {
 				every_owned_state = {
 					add_claim_by = ROOT
 				}
 			}
 			create_wargoal = {
-				target = TUR
+				target = IRQ
 				type = annex_everything
 			}
 		}
@@ -256,7 +182,7 @@ focus_tree = {
 		id = mah_conquest_of_sau
 		icon = GFX_goal_generic_major_war
 		relative_position_id = mah_conquest_of_irq
-		x = -1
+		x = 0
 		y = 1
 		cost = 5
 		will_lead_to_war_with = SAU
@@ -379,7 +305,38 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = mah_british_colonies_in_the_middle_east
+		id = mah_focus_colonial_agreement
+		icon = GFX_focus_generic_diplomatic_treaty
+		relative_position_id = mah_conquest_of_yem_and_oma
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mah_conquest_of_yem_and_oma
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_in_faction_with = ENG
+		}
+		bypass = {
+			controls_state = 656
+			controls_state = 765
+			controls_state = 658
+			controls_state = 659
+		}
+		completion_reward = {
+			ENG = {
+				country_event = mah_event.11
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = mah_focus_attack_british_colonies_in_the_middle_east
 		icon = GFX_goal_generic_major_war
 		relative_position_id = mah_conquest_of_yem_and_oma
 		x = 1
@@ -388,72 +345,504 @@ focus_tree = {
 		prerequisite = {
 			focus = mah_conquest_of_yem_and_oma
 		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			controls_state = 656
+			controls_state = 765
+			controls_state = 658
+			controls_state = 659
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					is_in_faction_with = ENG
+				}
+				leave_faction = yes
+			}
+			add_state_claim = 656
+			add_state_claim = 765
+			add_state_claim = 658
+			add_state_claim = 659
+			create_wargoal = {
+				target = ENG
+				type = take_claimed_state
+			}
+			hidden_effect = {
+				656 = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV.OWNER
+							type = annex_everything
+						}
+					}
+				}
+				765 = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV.OWNER
+							type = annex_everything
+						}
+					}
+				}
+				658 = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV.OWNER
+							type = annex_everything
+						}
+					}
+				}
+				659 = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV.OWNER
+							type = annex_everything
+						}
+					}
+				}
+				446 = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV.OWNER
+							type = annex_everything
+						}
+					}
+				}
+				183 = {
+					ROOT = {
+						create_wargoal = {
+							target = PREV.OWNER
+							type = annex_everything
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_focus_crystal_empire
+		icon = GFX_focus_rom_royal_dictatorship
+		relative_position_id = mah_focus_colonial_agreement
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = mah_focus_attack_british_colonies_in_the_middle_east
+			focus = mah_focus_colonial_agreement
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			# Maho
+			custom_trigger_tooltip = {
+				tooltip = mah_form_crystal_empire_maho_required_states_tt
+				#controls_state = 677
+				677 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 680
+				680 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 553
+				553 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 554
+				554 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 799
+				# 799 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				#controls_state = 454
+				454 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 455
+				455 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Iraq
+			custom_trigger_tooltip = {
+				tooltip = form_country_iraq_required_states_tt
+				#controls_state = 676
+				676 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 675
+				675 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 291
+				291 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Saudi Arabia
+			custom_trigger_tooltip = {
+				tooltip = form_country_saudi_required_states_tt
+				#controls_state = 292
+				292 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 679
+				679 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 678
+				678 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			#controls_state = 656
+			656 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			#controls_state = 765
+			765 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			#controls_state = 658
+			658 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			#controls_state = 293
+			293 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			#controls_state = 659
+			659 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			#controls_state = 294
+			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			set_cosmetic_tag = MAH_CRY_EMP
+			set_country_flag = mah_crystal_empire_formed_flag
+			custom_effect_tooltip = form_country_iraq_coring_states_tt
+			hidden_effect = {
+				676 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
+				675 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
+				291 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
+			}
+			# Saudi Arabia
+			custom_effect_tooltip = form_country_saudi_coring_states_tt
+			hidden_effect = {
+				292 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
+				679 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
+				678 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
+			}
+			656 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			765 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			658 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			293 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			659 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			294 = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+			hidden_effect = {
+				transfer_state = 676
+				transfer_state = 675
+				transfer_state = 291
+				transfer_state = 292
+				transfer_state = 679
+				transfer_state = 678
+				transfer_state = 656
+				transfer_state = 765
+				transfer_state = 658
+				transfer_state = 293
+				transfer_state = 659
+				transfer_state = 294
+			}
+		}
+	}
+	focus = {
+		id = mah_expanding_the_sphere_of_influence
+		icon = GFX_focus_generic_home_defense
+		x = 13
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_flag = mah_crystal_empire_formed_flag
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = mah_expand_supply_to_tur_border
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = mah_expanding_the_sphere_of_influence
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = mah_expanding_the_sphere_of_influence
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			676 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			675 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			291 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			build_railway = {
+				level = 1
+				start_province = 4111
+				target_province = 2097
+			}
+			build_railway = {
+				level = 1
+				start_province = 1056
+				target_province = 1634
+			}
+			680 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 1634
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_conquest_of_tur
+		icon = GFX_focus_generic_attack_turkey
+		relative_position_id = mah_expand_supply_to_tur_border
+		x = -1
+		y = 1
+		cost = 5
+		will_lead_to_war_with = TUR
+		prerequisite = {
+			focus = mah_expand_supply_to_tur_border
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_army_manpower = {
+				size > 499999
+			}
+		}
+		completion_reward = {
+			add_state_claim = 344
+			add_state_claim = 345
+			if = {
+				limit = {
+					TUR = {
+						controls_state = 799
+					}
+				}
+				add_state_claim = 799
+			}
+			create_wargoal = {
+				target = TUR
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = mah_focus_fate_of_turkish_territories
+		icon = GFX_focus_generic_treaty
+		relative_position_id = mah_conquest_of_tur
+		x = 0
+		y = 1
+		cost = 5
+		will_lead_to_war_with = TUR
 		prerequisite = {
 			focus = mah_conquest_of_tur
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			# Turkey
+			custom_trigger_tooltip = {
+				tooltip = form_country_turkey_required_states_tt
+				#controls_state = 797
+				797 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 341
+				341 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 340
+				340 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 339
+				339 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 342
+				342 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 343
+				343 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 347
+				347 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 49
+				49 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 798
+				798 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 346
+				346 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 345
+				345 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 356
+				356 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 348
+				348 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 344
+				344 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 355
+				355 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 349
+				349 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 350
+				350 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 354
+				354 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 353
+				353 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 352
+				352 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 800
+				800 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+		}
 		completion_reward = {
-			add_state_claim = 656
-			add_state_claim = 765
-			add_state_claim = 658
-			add_state_claim = 659
-			add_state_claim = 453
-			add_state_claim = 457
-			add_state_claim = 456
-			add_state_claim = 552
-			add_state_claim = 446
-			add_state_claim = 447
-			add_state_claim = 452
-			add_state_claim = 183
-			656 = {
-				ROOT = {
-					create_wargoal = {
-						target = PREV.OWNER
-						type = annex_everything
-					}
-				}				
+			set_temp_variable = {
+				country_to_initiate = KUR
 			}
-			765 = {
-				ROOT = {
-					create_wargoal = {
-						target = PREV.OWNER
-						type = annex_everything
-					}
-				}				
+			wfc_instantiate_federation_subject = yes
+			set_temp_variable = {
+				country_to_initiate = TUR
 			}
-			658 = {
-				ROOT = {
-					create_wargoal = {
-						target = PREV.OWNER
-						type = annex_everything
-					}
-				}				
+			wfc_instantiate_federation_subject = yes
+			transfer_state = 344
+			transfer_state = 345
+			hidden_effect = {
+				transfer_state = 799
 			}
-			659 = {
-				ROOT = {
-					create_wargoal = {
-						target = PREV.OWNER
-						type = annex_everything
-					}
-				}				
+		}
+	}
+	focus = {
+		id = mah_focus_attack_mms
+		icon = GFX_goal_generic_major_war
+		relative_position_id = mah_expand_supply_to_tur_border
+		x = 1
+		y = 1
+		cost = 5
+		will_lead_to_war_with = MMS
+		prerequisite = {
+			focus = mah_expand_supply_to_tur_border
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_army_manpower = {
+				size > 499999
 			}
-			446 = {
-				ROOT = {
-					create_wargoal = {
-						target = PREV.OWNER
-						type = annex_everything
-					}
-				}				
-			}
-			183 = {
-				ROOT = {
-					create_wargoal = {
-						target = PREV.OWNER
-						type = annex_everything
-					}
-				}				
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = MMS
+				type = puppet_wargoal_focus
 			}
 		}
 	}

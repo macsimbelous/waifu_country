@@ -622,4 +622,42 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = mah_event.11
+	title = mah_event.1.t
+	desc = mah_event.1.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.1.a
+		ai_chance = {
+			base = 100
+		}
+		add_political_power = 300
+		MAH = {
+			add_political_power = -300
+			transfer_state = 183
+			country_event = mah_event.9
+		}
+	}
+	option = {
+		name = mah_event.1.b
+		ai_chance = {
+			base = 0
+		}
+		MAH = {
+			country_event = mah_event.12
+		}
+	}
+}
+country_event = {
+	id = mah_event.12
+	title = mah_event.10.t
+	desc = mah_event.10.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.12.a
+	}
+}
 
