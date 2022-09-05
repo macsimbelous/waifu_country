@@ -4175,6 +4175,9 @@ wfc_puppets_category = {
 		fire_only_once = yes
 		cost = 0
 		days_remove = 30
+		allowed = {
+			always = no
+		}
 		visible = {
 			is_ai = yes
 			has_intelligence_agency = no
@@ -4280,17 +4283,24 @@ wfc_puppets_category = {
 		ai_will_do = {
 			base = 1
 			modifier = {
-				has_government = democratic
-				add = 5
-			}
-			modifier = {
 				FROM = {
 					OR = {
 						is_puppet = yes
 						is_subject = yes
 					}
 				}
-				add = -6
+				add = -0.5
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 2
+				}
+				add = 1
+			}
+			modifier = {
+				is_major = yes
+				add = 1
 			}
 		}
 		fire_only_once = no
@@ -4445,21 +4455,22 @@ wfc_puppets_category = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							has_government = fascism
-						}
-						set_autonomy = {
-							target = FROM
-							autonomy_state = autonomy_reichsprotectorate
-						}
-					}
-					else = {
-						set_autonomy = {
-							target = FROM
-							autonomy_state = autonomy_dominion
-						}
-					}
+					# if = {
+					# 	limit = {
+					# 		has_government = fascism
+					# 	}
+					# 	set_autonomy = {
+					# 		target = FROM
+					# 		autonomy_state = autonomy_reichsprotectorate
+					# 	}
+					# }
+					# else = {
+					# 	set_autonomy = {
+					# 		target = FROM
+					# 		autonomy_state = autonomy_dominion
+					# 	}
+					# }
+					puppet = FROM
 					add_named_threat = {
 						threat = 5
 						name = wfc_create_puppet_threat
