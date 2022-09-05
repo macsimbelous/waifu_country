@@ -21,7 +21,6 @@ focus_tree = {
 	shared_focus = wfc_naval_effort
 	shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
-
 	focus = {
 		id = acw_focus_revise_industrial_policy
 		icon = GFX_focus_generic_industry_3
@@ -47,7 +46,6 @@ focus_tree = {
 		x = 18
 		y = 8
 		cost = 5
-
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -792,7 +790,6 @@ focus_tree = {
 	focus = {
 		id = acw_focus_join_comintern
 		icon = GFX_focus_generic_join_comintern
-
 		x = 27
 		y = 8
 		#relative_position_id = acw_focus_communist_volunteers
@@ -1060,8 +1057,6 @@ focus_tree = {
 			}
 		}
 	}
-
-
 	focus = {
 		id = acw_focus_path_to_empire
 		icon = GFX_focus_generic_strike_at_democracy1
@@ -1189,16 +1184,86 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		bypass = {
-			YUG = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
+			#Yugoslavia 
+			custom_trigger_tooltip = {
+				tooltip = acw_form_yugoslavia_required_states_tt
+				#controls_state = 102
+				# 102 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				#controls_state = 103
+				# 103 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				#controls_state = 109
+				109 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 104
+				104 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 804
+				804 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 105
+				105 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 107
+				107 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 45
+				45 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 764
+				764 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 108
+				108 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 802
+				802 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 803
+				803 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 106
+				106 = {
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 		}
 		available = {
 			NOT = {
 				is_in_faction_with = YUG
+			}
+			#Bulgaria
+			custom_trigger_tooltip = {
+				tooltip = acw_form_bulgaria_required_states_tt
+				#controls_state = 48
+				48 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 801
+				801 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 212
+				212 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 211
+				211 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 		}
 		completion_reward = {
@@ -1213,7 +1278,6 @@ focus_tree = {
 			}
 		}
 	}
-
 	focus = {
 		id = acw_focus_attack_romania
 		icon = GFX_focus_generic_attack_romania
@@ -1228,16 +1292,66 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		bypass = {
-			ROM = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
+			#Romania
+			custom_trigger_tooltip = {
+				tooltip = acw_form_romania_required_states_tt
+				#controls_state = 46
+				46 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 76
+				76 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 77
+				77 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 79
+				79 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 81
+				81 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 82
+				82 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 83
+				83 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 84
+				84 = {
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 		}
 		available = {
 			NOT = {
 				is_in_faction_with = ROM
+			}
+			#Bulgaria
+			custom_trigger_tooltip = {
+				tooltip = acw_form_bulgaria_required_states_tt
+				#controls_state = 48
+				48 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 801
+				801 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 212
+				212 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 211
+				211 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 		}
 		completion_reward = {
@@ -1267,16 +1381,120 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		bypass = {
-			HUN = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
+			# Hungary
+			custom_trigger_tooltip = {
+				tooltip = acw_form_hungary_required_states_tt
+				#controls_state = 155
+				155 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 43
+				43 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 154
+				154 = {
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 		}
 		available = {
 			NOT = {
 				is_in_faction_with = HUN
+			}
+			OR = {
+				#Romania
+				custom_trigger_tooltip = {
+					tooltip = acw_form_romania_required_states_tt
+					#controls_state = 46
+					46 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 76
+					76 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 77
+					77 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 79
+					79 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 81
+					81 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 82
+					82 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 83
+					83 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 84
+					84 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				#Yugoslavia 
+				custom_trigger_tooltip = {
+					tooltip = acw_form_yugoslavia_required_states_tt
+					#controls_state = 102
+					# 102 = {
+					# 	wfc_is_controlled_by_root_or_puppet = yes
+					# }
+					#controls_state = 103
+					# 103 = {
+					# 	wfc_is_controlled_by_root_or_puppet = yes
+					# }
+					#controls_state = 109
+					109 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 104
+					104 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 804
+					804 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 105
+					105 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 107
+					107 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 45
+					45 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 764
+					764 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 108
+					108 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 802
+					802 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 803
+					803 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					#controls_state = 106
+					106 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
 			}
 		}
 		completion_reward = {
@@ -1322,19 +1540,19 @@ focus_tree = {
 				tooltip = acw_form_bulgaria_required_states_tt
 				#controls_state = 48
 				48 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 801
 				801 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 212
 				212 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 211
 				211 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 			#Romania
@@ -1342,35 +1560,35 @@ focus_tree = {
 				tooltip = acw_form_romania_required_states_tt
 				#controls_state = 46
 				46 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 76
 				76 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 77
 				77 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 79
 				79 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 81
 				81 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 82
 				82 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 83
 				83 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 84
 				84 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 			#Yugoslavia 
@@ -1378,55 +1596,55 @@ focus_tree = {
 				tooltip = acw_form_yugoslavia_required_states_tt
 				#controls_state = 102
 				# 102 = {
-				# 	wfc_is_controlled_by_root_or_federation_subject = yes
+				# 	wfc_is_controlled_by_root_or_puppet = yes
 				# }
 				#controls_state = 103
 				# 103 = {
-				# 	wfc_is_controlled_by_root_or_federation_subject = yes
+				# 	wfc_is_controlled_by_root_or_puppet = yes
 				# }
 				#controls_state = 109
 				109 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 104
 				104 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 804
 				804 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 105
 				105 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 107
 				107 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 45
 				45 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 764
 				764 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 108
 				108 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 802
 				802 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 803
 				803 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 106
 				106 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 			# Hungary
@@ -1434,15 +1652,15 @@ focus_tree = {
 				tooltip = acw_form_hungary_required_states_tt
 				#controls_state = 155
 				155 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 43
 				43 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 154
 				154 = {
-					wfc_is_controlled_by_root_or_federation_subject = yes
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 		}

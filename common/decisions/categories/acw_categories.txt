@@ -67,6 +67,7 @@ acw_create_great_animeland_category = {
 	icon = generic_form_nation
 	allowed = {
 		original_tag = ACW
+		always = no
 	}
 	visible = {
 		NOT = {

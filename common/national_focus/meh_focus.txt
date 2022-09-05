@@ -1081,99 +1081,84 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			is_subject = no
-			OR = {
-				NOT = {
-					country_exists = USA
-				}
-				custom_trigger_tooltip = {
-					tooltip = meh_usa_under_control_tt
-					controls_state = 386
-					controls_state = 385
-					controls_state = 387
-					controls_state = 388
-					controls_state = 381
-					controls_state = 380
-					controls_state = 377
-					controls_state = 382
-					controls_state = 376
-					controls_state = 389
-					controls_state = 390
-					controls_state = 384
-					controls_state = 383
-					controls_state = 374
-					controls_state = 391
-					controls_state = 392
-					controls_state = 373
-					controls_state = 372
-					controls_state = 375
-					controls_state = 371
-					controls_state = 394
-					controls_state = 395
-					controls_state = 370
-					controls_state = 393
-					controls_state = 396
-					controls_state = 369
-					controls_state = 368
-					controls_state = 367
-					controls_state = 261
-					controls_state = 816
-					controls_state = 362
-					controls_state = 363
-					controls_state = 364
-					controls_state = 365
-					controls_state = 366
-					controls_state = 358
-					controls_state = 360
-					controls_state = 361
-					controls_state = 359
-					controls_state = 357
-				}
+			custom_trigger_tooltip = {
+				tooltip = meh_usa_under_control_tt
+				386 = { wfc_is_controlled_by_root_or_puppet = yes }
+				385 = { wfc_is_controlled_by_root_or_puppet = yes }
+				387 = { wfc_is_controlled_by_root_or_puppet = yes }
+				388 = { wfc_is_controlled_by_root_or_puppet = yes }
+				381 = { wfc_is_controlled_by_root_or_puppet = yes }
+				380 = { wfc_is_controlled_by_root_or_puppet = yes }
+				377 = { wfc_is_controlled_by_root_or_puppet = yes }
+				382 = { wfc_is_controlled_by_root_or_puppet = yes }
+				376 = { wfc_is_controlled_by_root_or_puppet = yes }
+				389 = { wfc_is_controlled_by_root_or_puppet = yes }
+				390 = { wfc_is_controlled_by_root_or_puppet = yes }
+				384 = { wfc_is_controlled_by_root_or_puppet = yes }
+				383 = { wfc_is_controlled_by_root_or_puppet = yes }
+				374 = { wfc_is_controlled_by_root_or_puppet = yes }
+				391 = { wfc_is_controlled_by_root_or_puppet = yes }
+				392 = { wfc_is_controlled_by_root_or_puppet = yes }
+				373 = { wfc_is_controlled_by_root_or_puppet = yes }
+				372 = { wfc_is_controlled_by_root_or_puppet = yes }
+				375 = { wfc_is_controlled_by_root_or_puppet = yes }
+				371 = { wfc_is_controlled_by_root_or_puppet = yes }
+				394 = { wfc_is_controlled_by_root_or_puppet = yes }
+				395 = { wfc_is_controlled_by_root_or_puppet = yes }
+				370 = { wfc_is_controlled_by_root_or_puppet = yes }
+				393 = { wfc_is_controlled_by_root_or_puppet = yes }
+				396 = { wfc_is_controlled_by_root_or_puppet = yes }
+				369 = { wfc_is_controlled_by_root_or_puppet = yes }
+				368 = { wfc_is_controlled_by_root_or_puppet = yes }
+				367 = { wfc_is_controlled_by_root_or_puppet = yes }
+				261 = { wfc_is_controlled_by_root_or_puppet = yes }
+				816 = { wfc_is_controlled_by_root_or_puppet = yes }
+				362 = { wfc_is_controlled_by_root_or_puppet = yes }
+				363 = { wfc_is_controlled_by_root_or_puppet = yes }
+				364 = { wfc_is_controlled_by_root_or_puppet = yes }
+				365 = { wfc_is_controlled_by_root_or_puppet = yes }
+				366 = { wfc_is_controlled_by_root_or_puppet = yes }
+				358 = { wfc_is_controlled_by_root_or_puppet = yes }
+				360 = { wfc_is_controlled_by_root_or_puppet = yes }
+				361 = { wfc_is_controlled_by_root_or_puppet = yes }
+				359 = { wfc_is_controlled_by_root_or_puppet = yes }
+				357 = { wfc_is_controlled_by_root_or_puppet = yes }
+				463 = { wfc_is_controlled_by_root_or_puppet = yes }
 			}
-			OR = {
-				NOT = {
-					country_exists = MEX
-				}
-				custom_trigger_tooltip = {
-					tooltip = meh_mex_under_control_tt
-					controls_state = 484
-					controls_state = 483
-					controls_state = 482
-					controls_state = 481
-					controls_state = 480
-					controls_state = 478
-					controls_state = 479
-					controls_state = 485
-					controls_state = 277
-					controls_state = 477
-					controls_state = 476
-					controls_state = 475
-					controls_state = 474
-				}
+			custom_trigger_tooltip = {
+				tooltip = meh_mex_under_control_tt
+				484 = { wfc_is_controlled_by_root_or_puppet = yes }
+				483 = { wfc_is_controlled_by_root_or_puppet = yes }
+				482 = { wfc_is_controlled_by_root_or_puppet = yes }
+				481 = { wfc_is_controlled_by_root_or_puppet = yes }
+				480 = { wfc_is_controlled_by_root_or_puppet = yes }
+				478 = { wfc_is_controlled_by_root_or_puppet = yes }
+				479 = { wfc_is_controlled_by_root_or_puppet = yes }
+				485 = { wfc_is_controlled_by_root_or_puppet = yes }
+				277 = { wfc_is_controlled_by_root_or_puppet = yes }
+				477 = { wfc_is_controlled_by_root_or_puppet = yes }
+				476 = { wfc_is_controlled_by_root_or_puppet = yes }
+				475 = { wfc_is_controlled_by_root_or_puppet = yes }
+				474 = { wfc_is_controlled_by_root_or_puppet = yes }
 			}
-			OR = {
-				NOT = {
-					country_exists = CAN
-				}
-				custom_trigger_tooltip = {
-					tooltip = meh_can_under_control_tt
-					controls_state = 471
-					controls_state = 473
-					controls_state = 740
-					controls_state = 472
-					controls_state = 470
-					controls_state = 469
-					controls_state = 683
-					controls_state = 467
-					controls_state = 682
-					controls_state = 276
-					controls_state = 466
-					controls_state = 468
-					controls_state = 465
-					controls_state = 464
-				}
+			custom_trigger_tooltip = {
+				tooltip = meh_can_under_control_tt
+				471 = { wfc_is_controlled_by_root_or_puppet = yes }
+				473 = { wfc_is_controlled_by_root_or_puppet = yes }
+				740 = { wfc_is_controlled_by_root_or_puppet = yes }
+				472 = { wfc_is_controlled_by_root_or_puppet = yes }
+				470 = { wfc_is_controlled_by_root_or_puppet = yes }
+				469 = { wfc_is_controlled_by_root_or_puppet = yes }
+				683 = { wfc_is_controlled_by_root_or_puppet = yes }
+				467 = { wfc_is_controlled_by_root_or_puppet = yes }
+				682 = { wfc_is_controlled_by_root_or_puppet = yes }
+				276 = { wfc_is_controlled_by_root_or_puppet = yes }
+				466 = { wfc_is_controlled_by_root_or_puppet = yes }
+				468 = { wfc_is_controlled_by_root_or_puppet = yes }
+				465 = { wfc_is_controlled_by_root_or_puppet = yes }
+				464 = { wfc_is_controlled_by_root_or_puppet = yes }
 			}
-			# controls_state = 332
-			# controls_state = 463
+			332 = { wfc_is_controlled_by_root_or_puppet = yes }
 		}
 		completion_reward = {
 			every_state = {
