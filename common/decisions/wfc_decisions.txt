@@ -1721,12 +1721,12 @@ wfc_subjects_category = {
 			FROM = {
 				random_owned_controlled_state = {
 					limit = {
-						is_coastal = yes
+						#is_coastal = yes
+						dockyard > 0
 					}
-					add_building_construction = {
+					remove_building = {
 						type = dockyard
-						level = -1
-						instant_build = yes
+						level = 1
 					}
 				}
 			}
