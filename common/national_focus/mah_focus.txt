@@ -319,12 +319,66 @@ focus_tree = {
 		}
 		available = {
 			is_in_faction_with = ENG
+			ENG = {
+				656 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				765 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				658 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				659 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Iraq
+			custom_trigger_tooltip = {
+				tooltip = form_country_iraq_required_states_tt
+				676 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				675 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				291 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Saudi Arabia
+			custom_trigger_tooltip = {
+				tooltip = form_country_saudi_required_states_tt
+				292 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				679 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				678 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			293 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		bypass = {
-			controls_state = 656
-			controls_state = 765
-			controls_state = 658
-			controls_state = 659
+			656 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			765 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			658 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			659 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		completion_reward = {
 			ENG = {
@@ -348,11 +402,53 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			# Iraq
+			custom_trigger_tooltip = {
+				tooltip = form_country_iraq_required_states_tt
+				676 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				675 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				291 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Saudi Arabia
+			custom_trigger_tooltip = {
+				tooltip = form_country_saudi_required_states_tt
+				292 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				679 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				678 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			293 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
 		bypass = {
-			controls_state = 656
-			controls_state = 765
-			controls_state = 658
-			controls_state = 659
+			656 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			765 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			658 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			659 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		completion_reward = {
 			if = {
@@ -418,6 +514,13 @@ focus_tree = {
 						}
 					}
 				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_government = democratic
+				add = -1
 			}
 		}
 	}

@@ -636,7 +636,10 @@ country_event = {
 		add_political_power = 300
 		MAH = {
 			add_political_power = -300
-			transfer_state = 183
+			transfer_state = 656
+			transfer_state = 765
+			transfer_state = 658
+			transfer_state = 659
 			country_event = mah_event.9
 		}
 	}
