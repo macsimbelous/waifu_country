@@ -412,48 +412,12 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = TUR
-					MAH = {
-						has_war_with = TUR
-					}
-				}
-				TUR = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
 					tag = ENG
 					MAH = {
 						has_war_with = ENG
 					}
 				}
 				ENG = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = EGY
-					MAH = {
-						has_war_with = EGY
-					}
-				}
-				EGY = {
 					every_owned_state = {
 						limit = {
 							is_claimed_by = MAH
@@ -580,24 +544,6 @@ on_actions = {
 					}
 				}
 				UAE = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = CYP
-					MAH = {
-						has_war_with = CYP
-					}
-				}
-				CYP = {
 					every_owned_state = {
 						limit = {
 							is_claimed_by = MAH

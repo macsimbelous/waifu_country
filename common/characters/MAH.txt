@@ -1221,6 +1221,28 @@ characters = {
 			}
 		}
 	}
+	MAH_lisa_minci = {
+		name = MAH_lisa_minci
+		portraits = {
+			civilian = {
+				large = GFX_portrait_mah_lisa_minci_civilian
+			}
+			army = {
+				small = GFX_idea_mah_lisa_minci
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_lisa_minci
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				wfc_librarian_trait
+			}
+		}
+	}
 	MAH_Hitomi_Tsukishiro = {
 		name = MAH_Hitomi_Tsukishiro
 		portraits = {
