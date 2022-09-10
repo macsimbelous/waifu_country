@@ -1249,7 +1249,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		available = {
 			has_government = neutrality
-			neutrality > 0.5
+			OR = {
+				neutrality > 0.5
+				has_idea = neutrality_influence
+			}
 		}
 		ai_will_do = {
 			factor = 1
