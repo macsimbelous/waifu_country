@@ -403,6 +403,22 @@ spriteTypes = {
 		name = "GFX_portrait_mms_koyanskaya"
 		texturefile = "gfx/leaders/MMS/koyanskaya.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_kuraishi_eriko"
+		texturefile = "gfx/leaders/MMS/kuraishi_eriko_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_kuraishi_eriko_civilian"
+		texturefile = "gfx/leaders/MMS/kuraishi_eriko_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_serafall_leviathan"
+		texturefile = "gfx/leaders/MMS/serafall_leviathan_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_serafall_leviathan_civilian"
+		texturefile = "gfx/leaders/MMS/serafall_leviathan_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01"

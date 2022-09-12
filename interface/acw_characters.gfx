@@ -466,14 +466,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/Neptune.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_acw_nishizumi_miho"
-		texturefile = "gfx/leaders/ACW/nishizumi_miho_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_acw_nishizumi_miho"
-		texturefile = "gfx/leaders/ACW/Nishizumi_Miho.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_acw_noire"
 		texturefile = "gfx/leaders/ACW/noire_idea.dds"
 	}

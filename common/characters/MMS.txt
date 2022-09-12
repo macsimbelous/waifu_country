@@ -388,6 +388,7 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				skilled_staffer
+				aggressive_assaulter
 			}
 			skill = 4
 			attack_skill = 4
@@ -395,20 +396,6 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_lilith
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				princess_of_terror
-			}
-			modifier = {
-				resistance_decay = 0.15
-			}
 		}
 	}
 	MMS_rose = {
@@ -687,18 +674,6 @@ characters = {
 				}
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
 	}
 	MMS_saya_kisaragi = {
 		name = MMS_saya_kisaragi
@@ -751,19 +726,6 @@ characters = {
 				small = GFX_idea_mms_vignette_april_tsukinose
 				large = GFX_portrait_mms_vignette_april_tsukinose
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
-				organizer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = political_advisor
@@ -874,19 +836,6 @@ characters = {
 				wfc_captain_of_industry
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-				cavalry_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
 	}
 	MMS_kurari_rose = {
 		name = MMS_kurari_rose
@@ -907,18 +856,6 @@ characters = {
 			traits = {
 				wfc_girl_scientist
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_heine = {
@@ -998,18 +935,6 @@ characters = {
 			traits = {
 				wfc_minister_of_health
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_miia = {
@@ -1104,6 +1029,31 @@ characters = {
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+		}
+	}
+	MMS_kuraishi_eriko = {
+		name = MMS_kuraishi_eriko
+		portraits = {
+			army = {
+				small = GFX_idea_mms_kuraishi_eriko
+			}
+			civilian = {
+				large = GFX_portrait_mms_kuraishi_eriko_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_kuraishi_eriko
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				resistance_decay = 0.15
+			}
 		}
 	}
 	#admirals
@@ -1308,6 +1258,28 @@ characters = {
 						has_government = communism
 					}
 				}
+			}
+		}
+	}
+	MMS_serafall_leviathan = {
+		name = MMS_serafall_leviathan
+		portraits = {
+			civilian = {
+				large = GFX_portrait_mms_serafall_leviathan_civilian
+			}
+			army = {
+				small = GFX_idea_mms_serafall_leviathan
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_serafall_leviathan
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				staunch_monarchist
 			}
 		}
 	}

@@ -277,9 +277,6 @@ characters = {
 				large = GFX_portrait_acw_anastasia_romanova
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -309,27 +306,6 @@ characters = {
 			skill = 4
 			attack_skill = 6
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 4
-		}
-	}
-	ACW_Nishizumi_Miho = {
-		name = ACW_Nishizumi_Miho
-		portraits = {
-			army = {
-				small = GFX_idea_acw_nishizumi_miho
-				large = GFX_portrait_acw_nishizumi_miho
-			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				panzer_leader
-				trait_engineer
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
 		}
@@ -514,17 +490,6 @@ characters = {
 				small = GFX_idea_acw_sanya_v_litvyak
 				large = GFX_portrait_acw_sanya_v_litvyak
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
 		}
 		advisor = {
 			slot = air_chief
@@ -1115,27 +1080,15 @@ characters = {
 				large = GFX_portrait_acw_compa
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				skilled_staffer
-			}
-			skill = 5
-			attack_skill = 4
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 6
-		}
 		advisor = {
-			slot = high_command
-			ledger = army
+			slot = political_advisor
 			idea_token = ACW_Compa
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
 			traits = {
-				army_logistics_1
+				wfc_minister_of_health
 			}
 		}
 	}
@@ -1427,17 +1380,6 @@ characters = {
 				large = GFX_portrait_acw_selesia_upitiria
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
-		}
 		advisor = {
 			slot = theorist
 			ledger = air
@@ -1539,9 +1481,6 @@ characters = {
 				large = GFX_portrait_acw_noelle
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -1563,9 +1502,6 @@ characters = {
 				large = GFX_portrait_acw_eruza_guranhirute
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Eruza_Guranhirute
@@ -1584,19 +1520,6 @@ characters = {
 				has_government = fascism
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				offensive_doctrine
-				commando
-				trickster
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 3
-		}
 	}
 	ACW_Aoi_Sakurai = {
 		name = ACW_Aoi_Sakurai
@@ -1605,9 +1528,6 @@ characters = {
 				small = GFX_idea_acw_aoi_sakurai
 				large = GFX_portrait_acw_lucy_yamagami
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		advisor = {
 			slot = political_advisor
@@ -1620,17 +1540,6 @@ characters = {
 				wfc_infrastructure_developer
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 5
-		}
 	}
 	ACW_kawashima_mizuki = {
 		name = ACW_kawashima_mizuki
@@ -1639,9 +1548,6 @@ characters = {
 				small = GFX_idea_acw_kawashima_mizuki
 				large = GFX_portrait_acw_kawashima_mizuki
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		corps_commander = {
 			traits = {
@@ -1665,9 +1571,6 @@ characters = {
 				large = GFX_portrait_acw_natasha_cioara
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -1689,9 +1592,6 @@ characters = {
 				large = GFX_portrait_acw_kitagawa_marin
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -1710,9 +1610,6 @@ characters = {
 				small = GFX_idea_acw_snow
 				large = GFX_portrait_acw_snow
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		corps_commander = {
 			traits = {
@@ -1734,9 +1631,6 @@ characters = {
 				small = GFX_idea_acw_alicia
 				large = GFX_portrait_acw_alicia
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		corps_commander = {
 			traits = {
@@ -1760,9 +1654,6 @@ characters = {
 				large = GFX_portrait_acw_isht_karin_orte
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -1782,9 +1673,6 @@ characters = {
 				small = GFX_idea_acw_rin_toosaka
 				large = GFX_portrait_acw_rin_toosaka
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		corps_commander = {
 			traits = {
@@ -2281,9 +2169,6 @@ characters = {
 				large = GFX_portrait_acw_minami_nitta
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Minami_Nitta
@@ -2313,9 +2198,6 @@ characters = {
 				small = GFX_idea_acw_ange_le_carre
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Ange_le_Carre
@@ -2340,9 +2222,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_acw_niko_yazawa
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		advisor = {
 			slot = political_advisor
@@ -2378,9 +2257,6 @@ characters = {
 				large = GFX_portrait_acw_mikumo_guynemer
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Mikumo_Guynemer
@@ -2403,9 +2279,6 @@ characters = {
 				large = GFX_portrait_acw_asuka_tanaka
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_Asuka_Tanaka
@@ -2427,9 +2300,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_acw_lucy_yamagami
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		advisor = {
 			slot = political_advisor
@@ -2455,9 +2325,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_acw_megumin
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		advisor = {
 			slot = theorist
@@ -2491,9 +2358,6 @@ characters = {
 				small = GFX_idea_acw_mona_megistus
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ACW_mona_megistus
@@ -2520,9 +2384,6 @@ characters = {
 				large = GFX_portrait_acw_ayame_himuro
 			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
 		advisor = {
 			slot = theorist
 			ledger = army
@@ -2548,9 +2409,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_acw_mineru_wachi_civilian
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		advisor = {
 			slot = theorist
@@ -2581,9 +2439,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_acw_ayame_himuro
 			}
-		}
-		allowed_civil_war = {
-			always = yes
 		}
 		advisor = {
 			slot = political_advisor
