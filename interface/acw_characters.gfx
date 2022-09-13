@@ -794,16 +794,24 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/avrora_azur_lane_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_avrora_azur_lane"
-		texturefile = "gfx/leaders/ACW/Avrora_Azur_Lane.dds"
+		name = "GFX_portrait_acw_avrora_azur_lane_navy"
+		texturefile = "gfx/leaders/ACW/avrora_azur_lane_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_avrora_azur_lane_civilian"
+		texturefile = "gfx/leaders/ACW/avrora_azur_lane_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_beidou"
 		texturefile = "gfx/leaders/ACW/beidou_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_beidou"
-		texturefile = "gfx/leaders/ACW/Beidou.dds"
+		name = "GFX_portrait_acw_beidou_navy"
+		texturefile = "gfx/leaders/ACW/beidou_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_beidou_civilian"
+		texturefile = "gfx/leaders/ACW/beidou_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_belfast"
@@ -941,6 +949,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_yor_forger"
 		texturefile = "gfx/leaders/ACW/yor_forger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_nishikino_maki"
+		texturefile = "gfx/leaders/ACW/nishikino_maki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_nishikino_maki_operative"
+		texturefile = "gfx/leaders/ACW/nishikino_maki_operative.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_nishikino_maki_civilian"
+		texturefile = "gfx/leaders/ACW/nishikino_maki_civilian.dds"
 	}
 	#generics
 	spriteType = {

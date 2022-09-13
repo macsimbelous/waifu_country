@@ -955,6 +955,16 @@ wfc_subjects_category = {
 		}
 		target_array = subjects
 		target_trigger = {
+			FROM = {
+				NOT = {
+					original_tag = TRP
+					original_tag = MEH
+					original_tag = MAH
+					original_tag = HEN
+					original_tag = MMS
+					original_tag = ACW
+				}
+			}
 			if = {
 				limit = {
 					original_tag = TRP

@@ -179,6 +179,7 @@ recruit_character = ACW_ulrich_von_hutten
 recruit_character = ACW_prinz_eugen
 recruit_character = ACW_baltimore
 recruit_character = ACW_new_jersey
+
 #Agents
 create_operative_leader = {
 	name = "Niko Yazawa"
@@ -199,7 +200,7 @@ create_operative_leader = {
 	name = "Rosaria"
 	GFX = GFX_portrait_acw_rosaria
 	traits = {
-		operative_commando
+		operative_master_interrogator
 	}
 	bypass_recruitment = no
 	available_to_spy_master = yes
@@ -254,8 +255,7 @@ create_operative_leader = {
 	name = "Makoto Kikuchi"
 	GFX = GFX_portrait_acw_makoto_kikuchi
 	traits = {
-		operative_commando
-		operative_demolition_expert
+		operative_tough
 	}
 	bypass_recruitment = no
 	available_to_spy_master = yes
@@ -271,6 +271,9 @@ create_operative_leader = {
 	available_to_spy_master = yes
 	nationalities = {
 		ACW
+	}
+	traits = {
+		operative_well_groomed
 	}
 }
 
@@ -295,19 +298,8 @@ create_operative_leader = {
 	nationalities = {
 		ACW
 	}
-}
-
-create_operative_leader = {
-	name = "Ayame Himuro"
-	GFX = GFX_portrait_acw_ayame_himuro
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		ACW
-	}
 	traits = {
-		operative_linguist
-		operative_safe_cracker
+		operative_escape_artist
 	}
 }
 
@@ -348,7 +340,21 @@ create_operative_leader = {
 	}
 	traits = {
 		operative_commando
-		operative_demolition_expert
+		operative_tough
+	}
+}
+recruit_character = ACW_nishikino_maki
+create_operative_leader = {
+	name = ACW_nishikino_maki
+	GFX = GFX_portrait_acw_nishikino_maki_operative
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+	traits = {
+		operative_natural_orator
+		operative_well_groomed
 	}
 }
 

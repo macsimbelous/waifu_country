@@ -1854,7 +1854,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_avrora_azur_lane
-				large = GFX_portrait_acw_avrora_azur_lane
+				large = GFX_portrait_acw_avrora_azur_lane_navy
+			}
+			civilian = {
+				large = GFX_portrait_acw_avrora_azur_lane_civilian
 			}
 		}
 		navy_leader = {
@@ -2054,7 +2057,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_beidou
-				large = GFX_portrait_acw_beidou
+				large = GFX_portrait_acw_beidou_navy
+			}
+			civilian = {
+				large = GFX_portrait_acw_beidou_civilian
 			}
 		}
 		navy_leader = {
@@ -2468,8 +2474,17 @@ characters = {
 				large = GFX_portrait_acw_yor_forger
 			}
 		}
-		allowed_civil_war = {
-			always = yes
+	}
+	ACW_nishikino_maki = {
+		name = ACW_nishikino_maki
+		portraits = {
+			army = {
+				small = GFX_idea_acw_nishikino_maki
+				large = GFX_portrait_acw_nishikino_maki_operative
+			}
+			civilian = {
+				large = GFX_portrait_acw_nishikino_maki_civilian
+			}
 		}
 	}
 }
