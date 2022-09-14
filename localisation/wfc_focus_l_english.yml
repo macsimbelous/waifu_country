@@ -246,16 +246,17 @@
  meh_focus_create_perimetr:0 "Create §RPerimeter§! System"
 
 #MMS
-  mms_focus:0 "Focuses [MMS.GetName]"
-  mms_expansion_of_living_space:0 "Living Space Expansion"
-  mms_attack_per:0 "Obtain §R[PER.GetName]§!"
-  mms_attack_afg:0 "Obtain §R[AFG.GetName]§!"
-  mms_colonization_per_and_afg:0 "Colonization of Iran and Afghanistan"
-  mms_expansion_of_the_supply_network:0 "Expansion Rail Network"
-  mms_attack_mah:0 "Obtain §R[MAH.GetName]§!"
-  mms_attack_sov:0 "Obtain §R[SOV.GetName]§!"
-  mms_attack_raj:0 "Obtain §R[RAJ.GetName]§!"
-  mms_attack_pak:0 "Obtain §R[PAK.GetName]§!"
+ mms_focus:0 "Focuses [MMS.GetName]"
+ mms_expansion_of_living_space:0 "Living Space Expansion"
+ mms_attack_per:0 "Obtain §R[PER.GetName]§!"
+ mms_attack_afg:0 "Obtain §R[AFG.GetName]§!"
+ mms_colonization_per_and_afg:0 "Colonization of Iran and Afghanistan"
+ mms_expansion_of_the_supply_network:0 "Expansion Rail Network"
+ mms_attack_mah:0 "Obtain §R[MAH.GetName]§!"
+ mms_attack_sov:0 "Obtain §R[SOV.GetName]§!"
+ mms_attack_raj:0 "Obtain §R[RAJ.GetName]§!"
+ mms_attack_pak:0 "Obtain §R[PAK.GetName]§!"
+ mms_expansion_of_the_supply_network_in_afg:0 "Railroad at [415.GetName]"
 
 #TRP
  trp_focus:0 "Focuses [TRP.GetName]"
