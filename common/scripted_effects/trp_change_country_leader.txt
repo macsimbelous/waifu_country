@@ -182,6 +182,16 @@ trp_change_country_leader = {
 				portrait = GFX_portrait_trp_operative_07
 			}
 		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_trp_operative_08
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_trp_operative_09
+			}
+		}
 	}
 	add_country_leader_trait = wfc_trap
 	add_country_leader_trait = wfc_governor-general

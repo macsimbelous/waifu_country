@@ -110,6 +110,7 @@ HEN = {
 			"GFX_portrait_hen_naval_07"
 			"GFX_portrait_hen_naval_08"
 			"GFX_portrait_hen_naval_09"
+			"GFX_portrait_hen_naval_10"
 		}
 	}
 	operative = {
@@ -234,7 +235,7 @@ TRP = {
 			"GFX_portrait_trp_operative_01"
 			"GFX_portrait_trp_operative_02"
 			"GFX_portrait_trp_operative_03"
-			# "GFX_portrait_trp_operative_04"
+			"GFX_portrait_trp_operative_04"
 			# "GFX_portrait_trp_operative_05"
 			# "GFX_portrait_trp_operative_06"
 		}
@@ -242,10 +243,12 @@ TRP = {
 			# "GFX_portrait_trp_operative_01"
 			# "GFX_portrait_trp_operative_02"
 			# "GFX_portrait_trp_operative_03"
-			"GFX_portrait_trp_operative_04"
+			# "GFX_portrait_trp_operative_04"
 			"GFX_portrait_trp_operative_05"
 			"GFX_portrait_trp_operative_06"
 			"GFX_portrait_trp_operative_07"
+			"GFX_portrait_trp_operative_08"
+			"GFX_portrait_trp_operative_09"
 		}
 	}
 }
@@ -361,6 +364,7 @@ MMS = {
 			"GFX_portrait_mms_naval_13"
 			"GFX_portrait_mms_naval_14"
 			"GFX_portrait_mms_naval_15"
+			"GFX_portrait_mms_naval_16"
 		}
 	}
 	operative = {

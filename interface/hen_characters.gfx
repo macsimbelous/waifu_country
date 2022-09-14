@@ -1,478 +1,626 @@
 spriteTypes = {
-        spriteType = {
-                name = "GFX_idea_hen_akiho_taniguchi"
-                texturefile = "gfx/leaders/HEN/akiho_taniguchi_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_akiho_taniguchi"
+		texturefile = "gfx/leaders/HEN/akiho_taniguchi_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_akiho_taniguchi"
 		texturefile = "gfx/leaders/HEN/Akiho_Taniguchi.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_alicia_arcturus"
-                texturefile = "gfx/leaders/HEN/alicia_arcturus_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_alicia_arcturus"
+		texturefile = "gfx/leaders/HEN/alicia_arcturus_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_alicia_arcturus"
 		texturefile = "gfx/leaders/HEN/Alicia_Arcturus.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_anna_komiya"
-                texturefile = "gfx/leaders/HEN/anna_komiya_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_anna_komiya"
+		texturefile = "gfx/leaders/HEN/anna_komiya_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_anna_komiya"
 		texturefile = "gfx/leaders/HEN/Anna_Komiya.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_anri_sogahara"
-                texturefile = "gfx/leaders/HEN/anri_sogahara_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_anri_sogahara"
+		texturefile = "gfx/leaders/HEN/anri_sogahara_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_anri_sogahara"
 		texturefile = "gfx/leaders/HEN/Anri_Sogahara.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_celestine_lucullus"
-                texturefile = "gfx/leaders/HEN/celestine_lucullus_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_celestine_lucullus"
+		texturefile = "gfx/leaders/HEN/celestine_lucullus_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_celestine_lucullus"
 		texturefile = "gfx/leaders/HEN/Celestine_Lucullus.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_claudia_le_van_tyne"
-                texturefile = "gfx/leaders/HEN/claudia_le_van_tyne_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_claudia_le_van_tyne"
+		texturefile = "gfx/leaders/HEN/claudia_le_van_tyne_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_claudia_le_van_tyne"
 		texturefile = "gfx/leaders/HEN/Claudia_le_Van_Tyne.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_cloe"
-                texturefile = "gfx/leaders/HEN/cloe_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_cloe"
+		texturefile = "gfx/leaders/HEN/cloe_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_cloe"
 		texturefile = "gfx/leaders/HEN/Cloe.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_homare_nao"
-                texturefile = "gfx/leaders/HEN/homare_nao_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_homare_nao"
+		texturefile = "gfx/leaders/HEN/homare_nao_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_homare_nao"
 		texturefile = "gfx/leaders/HEN/Homare_Nao.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_igawa_asagi"
-                texturefile = "gfx/leaders/HEN/igawa_asagi_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_igawa_asagi"
+		texturefile = "gfx/leaders/HEN/igawa_asagi_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_igawa_asagi"
 		texturefile = "gfx/leaders/HEN/Igawa_Asagi.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_iris_arcadia"
-                texturefile = "gfx/leaders/HEN/iris_arcadia_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_iris_arcadia"
+		texturefile = "gfx/leaders/HEN/iris_arcadia_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_iris_arcadia"
 		texturefile = "gfx/leaders/HEN/Iris_Arcadia.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_kaname"
-                texturefile = "gfx/leaders/HEN/kaname_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_kaname"
+		texturefile = "gfx/leaders/HEN/kaname_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_kaname"
 		texturefile = "gfx/leaders/HEN/Kaname.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_mako_mitsuki"
-                texturefile = "gfx/leaders/HEN/mako_mitsuki_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_mako_mitsuki"
-                texturefile = "gfx/leaders/HEN/Mako_Mitsuki.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_mari_setogaya"
-                texturefile = "gfx/leaders/HEN/mari_setogaya_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_mako_mitsuki"
+		texturefile = "gfx/leaders/HEN/mako_mitsuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_mako_mitsuki"
+		texturefile = "gfx/leaders/HEN/Mako_Mitsuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_mari_setogaya"
+		texturefile = "gfx/leaders/HEN/mari_setogaya_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_mari_setogaya"
 		texturefile = "gfx/leaders/HEN/Mari_Setogaya.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_mika_amano"
-                texturefile = "gfx/leaders/HEN/mika_amano_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_mika_amano"
-                texturefile = "gfx/leaders/HEN/Mika_Amano.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_mistiora_arte"
-                texturefile = "gfx/leaders/HEN/mistiora_arte_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_mika_amano"
+		texturefile = "gfx/leaders/HEN/mika_amano_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_mika_amano"
+		texturefile = "gfx/leaders/HEN/Mika_Amano.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_mistiora_arte"
+		texturefile = "gfx/leaders/HEN/mistiora_arte_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_mistiora_arte"
 		texturefile = "gfx/leaders/HEN/Mistiora_Arte.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_olga_discordia"
-                texturefile = "gfx/leaders/HEN/olga_discordia_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_olga_discordia"
+		texturefile = "gfx/leaders/HEN/olga_discordia_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_olga_discordia"
 		texturefile = "gfx/leaders/HEN/Olga_Discordia.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_prim_fiorire"
-                texturefile = "gfx/leaders/HEN/prim_fiorire_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_prim_fiorire"
+		texturefile = "gfx/leaders/HEN/prim_fiorire_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_prim_fiorire"
 		texturefile = "gfx/leaders/HEN/Prim_Fiorire.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_rina_komiya"
-                texturefile = "gfx/leaders/HEN/rina_komiya_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_rina_komiya"
+		texturefile = "gfx/leaders/HEN/rina_komiya_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_rina_komiya"
 		texturefile = "gfx/leaders/HEN/Rina_Komiya.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_ruma"
-                texturefile = "gfx/leaders/HEN/ruma_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_ruma"
+		texturefile = "gfx/leaders/HEN/ruma_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_ruma"
 		texturefile = "gfx/leaders/HEN/Ruma.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_saori_asamiya"
-                texturefile = "gfx/leaders/HEN/saori_asamiya_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_saori_asamiya"
+		texturefile = "gfx/leaders/HEN/saori_asamiya_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_saori_asamiya"
 		texturefile = "gfx/leaders/HEN/Saori_Asamiya.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_sheliss_elleness_zurbach"
-                texturefile = "gfx/leaders/HEN/sheliss_elleness_zurbach_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_sheliss_elleness_zurbach"
+		texturefile = "gfx/leaders/HEN/sheliss_elleness_zurbach_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_sheliss_elleness_zurbach"
 		texturefile = "gfx/leaders/HEN/Sheliss_Elleness_Zurbach.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_sill_plain"
-                texturefile = "gfx/leaders/HEN/sill_plain_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_sill_plain"
+		texturefile = "gfx/leaders/HEN/sill_plain_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_sill_plain"
 		texturefile = "gfx/leaders/HEN/Sill_Plain.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_suomi"
-                texturefile = "gfx/leaders/HEN/suomi_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_suomi"
+		texturefile = "gfx/leaders/HEN/suomi_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_suomi"
 		texturefile = "gfx/leaders/HEN/Suomi.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_takumi_musashino"
-                texturefile = "gfx/leaders/HEN/takumi_musashino_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_takumi_musashino"
+		texturefile = "gfx/leaders/HEN/takumi_musashino_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_takumi_musashino"
 		texturefile = "gfx/leaders/HEN/Takumi_Musashino.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_tsubasa_kamijo"
-                texturefile = "gfx/leaders/HEN/tsubasa_kamijo_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_tsubasa_kamijo"
+		texturefile = "gfx/leaders/HEN/tsubasa_kamijo_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_tsubasa_kamijo"
 		texturefile = "gfx/leaders/HEN/Tsubasa_Kamijo.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_yuriya_komiya"
-                texturefile = "gfx/leaders/HEN/yuriya_komiya_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_yuriya_komiya"
-                texturefile = "gfx/leaders/HEN/Yuriya_Komiya.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_yuuki_kawaragi"
-                texturefile = "gfx/leaders/HEN/yuuki_kawaragi_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_yuriya_komiya"
+		texturefile = "gfx/leaders/HEN/yuriya_komiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_yuriya_komiya"
+		texturefile = "gfx/leaders/HEN/Yuriya_Komiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_yuuki_kawaragi"
+		texturefile = "gfx/leaders/HEN/yuuki_kawaragi_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_yuuki_kawaragi"
 		texturefile = "gfx/leaders/HEN/Yuuki_Kawaragi.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_risa"
-                texturefile = "gfx/leaders/HEN/risa_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_risa"
+		texturefile = "gfx/leaders/HEN/risa_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_risa"
 		texturefile = "gfx/leaders/HEN/risa.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_kasumi_nanakura"
-                texturefile = "gfx/leaders/HEN/kasumi_nanakura_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_kasumi_nanakura"
+		texturefile = "gfx/leaders/HEN/kasumi_nanakura_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_kasumi_nanakura"
 		texturefile = "gfx/leaders/HEN/kasumi_nanakura.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_ai_kagano"
-                texturefile = "gfx/leaders/HEN/ai_kagano_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_ai_kagano"
-                texturefile = "gfx/leaders/HEN/ai_kagano.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_ai_kagano_civilian"
-                texturefile = "gfx/leaders/HEN/ai_kagano_civilian.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_rin"
-                texturefile = "gfx/leaders/HEN/rin_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_ai_kagano"
+		texturefile = "gfx/leaders/HEN/ai_kagano_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_ai_kagano"
+		texturefile = "gfx/leaders/HEN/ai_kagano.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_ai_kagano_civilian"
+		texturefile = "gfx/leaders/HEN/ai_kagano_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_rin"
+		texturefile = "gfx/leaders/HEN/rin_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_rin"
 		texturefile = "gfx/leaders/HEN/rin.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_mind_flayer"
-                texturefile = "gfx/leaders/HEN/mind_flayer_idea.dds"
-        }
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_mind_flayer"
+		texturefile = "gfx/leaders/HEN/mind_flayer_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_mind_flayer"
 		texturefile = "gfx/leaders/HEN/mind_flayer.dds"
 	}
-        spriteType = {
+	spriteType = {
 		name = "GFX_portrait_hen_mind_flayer_general"
 		texturefile = "gfx/leaders/HEN/mind_flayer_general.dds"
 	}
-        spriteType = {
-                name = "GFX_idea_hen_alice_erzan"
-                texturefile = "gfx/leaders/HEN/alice_erzan_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_alice_erzan"
-                texturefile = "gfx/leaders/HEN/alice_erzan.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_frey_ringitt"
-                texturefile = "gfx/leaders/HEN/frey_ringitt_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_frey_ringitt"
-                texturefile = "gfx/leaders/HEN/frey_ringitt.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_lilia_eberwein"
-                texturefile = "gfx/leaders/HEN/lilia_eberwein_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_lilia_eberwein"
-                texturefile = "gfx/leaders/HEN/lilia_eberwein.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_catue_dragundaala"
-                texturefile = "gfx/leaders/HEN/catue_dragundaala_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_catue_dragundaala"
-                texturefile = "gfx/leaders/HEN/catue_dragundaala.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_soul_eater"
-                texturefile = "gfx/leaders/HEN/soul_eater_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_soul_eater_civilian"
-                texturefile = "gfx/leaders/HEN/soul_eater_civilian.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_soul_eater_army"
-                texturefile = "gfx/leaders/HEN/soul_eater_army.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_brainjacker"
-                texturefile = "gfx/leaders/HEN/brainjacker_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_brainjacker"
-                texturefile = "gfx/leaders/HEN/brainjacker.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_sakura_igawa"
-                texturefile = "gfx/leaders/HEN/sakura_igawa_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_sakura_igawa_civilian"
-                texturefile = "gfx/leaders/HEN/sakura_igawa_civilian.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_sakura_igawa_army"
-                texturefile = "gfx/leaders/HEN/sakura_igawa_army.dds"
-        }
-        spriteType = {
-                name = "GFX_idea_hen_yukikaze_mizuki"
-                texturefile = "gfx/leaders/HEN/yukikaze_mizuki_idea.dds"
-        }
-        spriteType = {
-                name = "GFX_portrait_hen_yukikaze_mizuki_army"
-                texturefile = "gfx/leaders/HEN/yukikaze_mizuki_army.dds"
-        }
-        #generic
-        spriteType = {
+	spriteType = {
+		name = "GFX_idea_hen_alice_erzan"
+		texturefile = "gfx/leaders/HEN/alice_erzan_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_alice_erzan"
+		texturefile = "gfx/leaders/HEN/alice_erzan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_frey_ringitt"
+		texturefile = "gfx/leaders/HEN/frey_ringitt_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_frey_ringitt"
+		texturefile = "gfx/leaders/HEN/frey_ringitt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_lilia_eberwein"
+		texturefile = "gfx/leaders/HEN/lilia_eberwein_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_lilia_eberwein"
+		texturefile = "gfx/leaders/HEN/lilia_eberwein.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_catue_dragundaala"
+		texturefile = "gfx/leaders/HEN/catue_dragundaala_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_catue_dragundaala"
+		texturefile = "gfx/leaders/HEN/catue_dragundaala.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_soul_eater"
+		texturefile = "gfx/leaders/HEN/soul_eater_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_soul_eater_civilian"
+		texturefile = "gfx/leaders/HEN/soul_eater_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_soul_eater_army"
+		texturefile = "gfx/leaders/HEN/soul_eater_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_brainjacker"
+		texturefile = "gfx/leaders/HEN/brainjacker_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_brainjacker"
+		texturefile = "gfx/leaders/HEN/brainjacker.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_sakura_igawa"
+		texturefile = "gfx/leaders/HEN/sakura_igawa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_sakura_igawa_civilian"
+		texturefile = "gfx/leaders/HEN/sakura_igawa_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_sakura_igawa_army"
+		texturefile = "gfx/leaders/HEN/sakura_igawa_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_yukikaze_mizuki"
+		texturefile = "gfx/leaders/HEN/yukikaze_mizuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_yukikaze_mizuki_army"
+		texturefile = "gfx/leaders/HEN/yukikaze_mizuki_army.dds"
+	}
+	#generic
+	spriteType = {
+		name = "GFX_portrait_hen_land_01_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_01_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_01"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_02_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_02_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_land_02"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_02.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_land_03_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_03_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_03"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_04_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_04_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_land_04"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_04.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_land_05_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_05_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_05"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_06_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_06_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_land_06"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_06.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_land_07_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_07_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_07"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_08_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_08_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_land_08"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_08.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_land_09_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_09_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_09"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_09.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_land_10_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_10_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_10"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_10.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_11_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_11_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_land_11"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_11.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_land_12_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_12_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_12"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_12.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_land_13_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_13_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_13"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_14_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_14_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_land_14"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_14.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_land_15_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_15_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_15"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_15.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_land_16_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_16_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_16"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_17_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_17_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_land_17"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_17.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_land_18_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_18_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_18"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_18.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_land_19_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_19_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_land_19"
 		texturefile = "gfx/leaders/HEN/generic/hen_land_19.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_naval_01_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_01_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_naval_01"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_01.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_naval_02_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_02_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_naval_02"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_naval_03_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_03_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_naval_03"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_03.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_naval_04_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_04_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_naval_04"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_04.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_naval_05_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_05_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_naval_05"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_05.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_naval_06_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_06_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_naval_06"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_06.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_naval_07_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_07_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_naval_07"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_07.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_naval_08_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_08_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_naval_08"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_08.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_naval_09_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_09_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_naval_09"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_naval_10_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_10_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_naval_10"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_10.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_operative_01_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_01_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_operative_01"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_01.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_operative_02_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_02_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_operative_02"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_operative_03_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_03_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_operative_03"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_03.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_operative_04_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_04_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_operative_04"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_operative_05_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_05_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_hen_operative_05"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_05.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_operative_06_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_06_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_operative_06"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_06.dds"
 	}
-        spriteType = {
+	spriteType = {
+		name = "GFX_portrait_hen_operative_07_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_07_idea.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_operative_07"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_07.dds"
 	}
