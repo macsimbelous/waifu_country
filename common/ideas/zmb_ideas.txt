@@ -44,6 +44,7 @@ ideas = {
 				army_org_factor = 0.5
 				army_org_regain = 0.5
 				army_morale_factor = 0.5
+				experience_loss_factor = -1
 				planning_speed = -0.5
 				stability_factor = 1
 				war_support_factor = 1

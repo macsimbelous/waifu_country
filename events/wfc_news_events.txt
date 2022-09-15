@@ -113,7 +113,23 @@ news_event = {
 		}
 	}
 }
-
+news_event = {
+	id = wfc_news.10
+	title = wfc_news.10.t
+	desc = wfc_news.10.d
+	picture = GFX_wfc_news_event_the_zombie_apocalypse
+	major = yes
+	is_triggered_only = yes
+	fire_for_sender = no
+	option = {
+		name = wfc_news.9.a
+		trigger = {
+			NOT = {
+				tag = MEH
+			}
+		}
+	}
+}
 #Захваты городов за Мехалэнд
 # The Fall of Washington
 news_event = {

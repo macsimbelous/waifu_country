@@ -1,4 +1,19 @@
 spriteTypes = {
+	#ACW
+	spriteType = {
+		name = "GFX_acw_event_10"
+		texturefile = "gfx/event_pictures/acw_event_10.dds"
+	}
+	spriteType = {
+		name = "GFX_acw_event_13"
+		texturefile = "gfx/event_pictures/acw_event_13.dds"
+	}
+	#HEN
+	spriteType = {
+		name = "GFX_hen_event_01"
+		texturefile = "gfx/event_pictures/hen_event_01.dds"
+	}
+	#MEH
 	#kosmos
 	spriteType = {
 		name = "GFX_report_event_kosmos_2"

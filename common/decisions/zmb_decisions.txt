@@ -33,6 +33,9 @@ zmb_zombi_attack_category = {
 		target_trigger = {
 			FROM = {
 				is_neighbor_of = ROOT
+				NOT = {
+					has_war_with = ROOT
+				}
 			}
 		}
 		ai_will_do = {

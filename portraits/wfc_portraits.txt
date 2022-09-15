@@ -75,6 +75,7 @@ ACW = {
 		}
 	}
 }
+
 HEN = {
 	army = {
 		male = {
@@ -134,6 +135,7 @@ HEN = {
 		}
 	}
 }
+
 MAH = {
 	army = {
 		male = {
@@ -175,7 +177,6 @@ MAH = {
 			# "GFX_portrait_mah_operative_08"
 			# "GFX_portrait_mah_operative_09"
 			# "GFX_portrait_mah_operative_10"
-
 		}
 		male = {
 			# "GFX_portrait_mah_operative_01"
@@ -188,10 +189,10 @@ MAH = {
 			"GFX_portrait_mah_operative_08"
 			"GFX_portrait_mah_operative_09"
 			"GFX_portrait_mah_operative_10"
-
 		}
 	}
 }
+
 TRP = {
 	army = {
 		male = {
@@ -252,6 +253,7 @@ TRP = {
 		}
 	}
 }
+
 MEH = {
 	army = {
 		male = {
@@ -315,6 +317,7 @@ MEH = {
 		}
 	}
 }
+
 MMS = {
 	army = {
 		male = {
@@ -394,6 +397,49 @@ MMS = {
 			"GFX_portrait_mms_operative_10"
 			"GFX_portrait_mms_operative_11"
 			"GFX_portrait_mms_operative_12"
+		}
+	}
+}
+
+ZMB = {
+	political = {
+		communism = {
+			male = {
+				"GFX_portrait_mms_land_06"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_portrait_mms_land_06"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_portrait_mms_land_06"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_portrait_mms_land_06"
+			}
+		}
+	}
+	army = {
+		male = {
+			"GFX_portrait_mms_land_06"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_portrait_mms_land_06"
+		}
+	}
+	operative = {
+		female = {
+			"GFX_portrait_mms_land_06"
+		}
+		male = {
+			"GFX_portrait_mms_land_06"
 		}
 	}
 }

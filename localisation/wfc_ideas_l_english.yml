@@ -23,6 +23,14 @@ wfc_subsidies_dm:0 "Budget subsidies"
 
 #HEN
  hen_general_staff_idea:0 "General Staff"
+ hen_the_nation_of_hentai:0 "A nation of hentai"
+ hen_attack_jap_bonus:0 "Plan for the capture of Japan"
+ #mins
+ hen_homare_nao:0 "Homare Nao"
+ hen_kaname:0 "Kaname"
+ hen_mistiora_arte:0 "Mistiora Arte"
+ hen_iris_arcadia:0 "Iris Arcadia"
+ hen_olga_discordia:0 "Olga Discordia"
 
 ###########
  Anime_Physics:0 "Anime physics"
@@ -33,5 +41,66 @@ wfc_subsidies_dm:0 "Budget subsidies"
 #ZMB
  zmb_mob_law:0 "Eat all the living"
  zmb_zombie_army:0 "Zombie Army"
+
+#ACW
+#Ministers
+acw_winry_rockbell_manufacturer:0 "Winry Rockbell Workshop"
+
+#ideas
+acw_minprom_idea:0 "Ministry of Industry"
+acw_minpropagand_idea:0 "Ministry of Propaganda"
+acw_Slice_of_Life:0 "Slice of life"
+acw_Is_Flat_Justice:0 "High Tension"
+acw_Anime_fanat:0 "Fanatical anime"
+acw_anime_physics:0 "Anime physics"
+acw_tantacle_attack:0 "Tentacles attack"
+acw_infrastructure_plan:0 "Infrastructure development plan"
+acw_stavka_idea:0 "High Command Headquarters"
+acw_spy_princesses_idea:0 "Spy princesses"
+acw_spy_princesses_idea_desc:0 "Cute but very dangerous spy princesses."
+acw_mintrans_idea:0 "Ministry of transportation"
+acw_minoboron_idea:0 "Ministry of Defence"
+acw_minscience_idea:0 "Ministry of Science"
+acw_nii_idea:0 "Research institutes"
+acw_KGB_idea:0 "§RKGB§!"
+#acw_core_states_to_pp:0 "Increase in political power for each national region(§G0.01§!)"
+acw_colonial_office:0 "Ministry of Colonies"
+ACW_anime_economic:0 "Anime economy"
+
+#toolltip
+acw_subject_autonomy_mod_tt:0 "Increase in the autonomy of the subjects §G-0.5"
+
+#MAH
+ mah_the_nation_of_mahou_shoujo:0 "§BFairy§! Nation"
+
+#MEH
+meh_super_factory:0 "Automated production"
+meh_ai:0 "Artificial intelligence"
+meh_ai_2:0 "Improved artificial intelligence"
+meh_sputnik_v_kosmose:0 "Sputnik"
+meh_rocket_factory:0 "Rocket factory"
+meh_sputnik:0 "Sputnik constellation"
+meh_robo_factory:0 "Robot factory"
+meh_robo_factory_dm:0 "Robot factory"
+meh_robo_factory_tt:0 "Produces new robots weekly and adds them to human resources"
+meh_warmind:0 "Warmind"
+meh_warmind_agr:0 "Warmind (§Boffensive§!)"
+meh_warmind_def:0 "Warmind (§Rdefensive§!)"
+meh_perimetr_idea:0 "System §RPerimeter§! (§RDead Hand§!)"
+meh_construction_robots:0 "Construction robots"
+
+#developer
+meh_heavy_tank_designer:0 "Heavy Tank Developer"
+meh_submarine_company:0 "Submarine developer" 
+
+#MMS
+mms_power_shamiko:0 "§RMighty Shamiko§!"
+mms_the_nation_of_monmusu:0 "§YMonster nation§!"
+mms_necromancy:0 "Necromancy"
+
+#TRP
+TRP_revolution:0 "Homeland of the trap revolution!"
+trp_cloning_idea:0 "Cloning"
+trp_childless_idea:0 "Childless"
 
 
