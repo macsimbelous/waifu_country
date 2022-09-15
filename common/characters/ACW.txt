@@ -315,7 +315,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_asuna_yuuki
-				large = GFX_portrait_acw_asuna_yuuki
+				large = GFX_portrait_acw_asuna_yuuki_army
+			}
+			civilian = {
+				large = GFX_portrait_acw_asuna_yuuki_civilian
 			}
 		}
 		corps_commander = {

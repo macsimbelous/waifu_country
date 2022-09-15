@@ -174,8 +174,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/asuna_yuuki_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_asuna_yuuki"
-		texturefile = "gfx/leaders/ACW/Asuna_Yuuki.dds"
+		name = "GFX_portrait_acw_asuna_yuuki_army"
+		texturefile = "gfx/leaders/ACW/asuna_yuuki_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_asuna_yuuki_civilian"
+		texturefile = "gfx/leaders/ACW/asuna_yuuki_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_blanc"
