@@ -1,0 +1,115 @@
+spriteTypes = {
+	#generic
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_01_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_01_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_01"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_02_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_02_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_02"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_03_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_03_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_03"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_04_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_04_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_04"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_05_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_05_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_05"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_06_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_06_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_06"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_07_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_07_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_07"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_08_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_08_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_08"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_09_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_09_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_09"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_10_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_10_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_10"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_10.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_11_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_11_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_11"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_11.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_12_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_12_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_12"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_12.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_13_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_13_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_13"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_14_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_14_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_14"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_14.dds"
+	}
+}
