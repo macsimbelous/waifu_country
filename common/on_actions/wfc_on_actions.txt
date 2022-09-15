@@ -556,6 +556,24 @@ on_actions = {
 			}
 		}
 	}
+	on_weekly_ZMB = {
+		effect = {
+			every_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ZMB
+					NOT = {
+						is_core_of = ZMB
+					}
+				}
+				# for_each_loop = {
+				# 	array = core_countries
+				# 	value = temp_tag
+				# 	remove_core_of = temp_var:temp_tag
+				# }
+				add_core_of = ZMB
+			}
+		}
+	}
 	# on_monthly = {
 	# 	effect = {
 	# 		if = {

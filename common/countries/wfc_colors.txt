@@ -22,3 +22,7 @@ MMS = {
 	color = rgb { 252 65 7 }
 	color_ui = rgb { 169  65  7 }
 }
+ZMB = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 255 0 0 }
+}

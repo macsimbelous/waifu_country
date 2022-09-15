@@ -1,0 +1,50 @@
+zmb_zombi_spawn_category = {
+	zmb_zombi_spawn_decision = {
+		icon = generic_ignite_civil_war
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 7
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			every_controlled_state = {
+				create_unit = {
+					division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ZMB
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+	}
+}
+
+zmb_zombi_attack_category = {
+	zmb_zombi_attack_decision = {
+		icon = generic_ignite_civil_war
+		war_with_target_on_complete = yes
+		# visible = {
+		# 	FROM = {
+		# 		is_neighbor_of = ROOT
+		# 	}
+		# }
+		#target_array = neighbors
+		target_trigger = {
+			FROM = {
+				is_neighbor_of = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+ideas = {
+	mobilization_laws = { 
+		law = yes
+		use_list_view = yes
+		
+		zmb_mob_law = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			#picture = CRN_mob_law
+			
+			visible = {
+				tag = ZMB
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				conscription = 1
+				training_time_factor = -1
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	country = {
+		zmb_zombie_army = {
+			allowed = {
+				original_tag = ZMB
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = air_war_plans_division_focus
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.5
+				army_attack_factor = 0.5
+				army_speed_factor = -0.5
+				army_org_factor = 0.5
+				army_org_regain = 0.5
+				army_morale_factor = 0.5
+				planning_speed = -0.5
+				stability_factor = 1
+				war_support_factor = 1
+				war_stability_factor = 1
+				consumer_goods_factor = -1
+				foreign_subversive_activites = -1
+				ai_focus_aggressive_factor = 2
+				justify_war_goal_time = -1
+			}
+			rule = {
+				can_force_government = no
+				can_puppet = no
+				can_create_factions = no
+				can_join_factions = no
+			}
+		}
+	}
+
+}

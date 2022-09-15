@@ -541,4 +541,88 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_rise_zombi = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = MMS
+		}
+		available = {
+			has_full_control_of_state = 267
+		}
+		complete_effect = {
+			ZMB = {
+				#set_state_controller = 267
+				transfer_state = 267
+				load_oob = ZMB_1936
+				267 = {
+					add_core_of = ZMB
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ZMB
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+				declare_war_on = {
+					target = MMS
+					type = annex_everything
+				}
+			}
+		}
+	}
 }
