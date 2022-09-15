@@ -179,19 +179,19 @@ create_operative_leader = {
 	}
 }
 
-create_operative_leader = {
-	name = "Sakura Minamoto"
-	GFX = GFX_portrait_mms_sakura_minamoto
-	traits = {
-		operative_infiltrator
-		operative_natural_orator
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		MMS
-	}
-}
+# create_operative_leader = {
+# 	name = "Sakura Minamoto"
+# 	GFX = GFX_portrait_mms_sakura_minamoto
+# 	traits = {
+# 		operative_infiltrator
+# 		operative_natural_orator
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		MMS
+# 	}
+# }
 create_operative_leader = {
 	name = "Shigure"
 	GFX = GFX_portrait_mms_shigure_operative

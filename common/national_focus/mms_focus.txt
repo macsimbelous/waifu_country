@@ -322,6 +322,19 @@ focus_tree = {
 						factor = 1.5
 					}
 					add_ideas = mms_necromancy
+					create_operative_leader = {
+						name = "Sakura Minamoto"
+						GFX = GFX_portrait_mms_sakura_minamoto
+						traits = {
+							operative_infiltrator
+							operative_natural_orator
+						}
+						bypass_recruitment = no
+						available_to_spy_master = yes
+						nationalities = {
+							MMS ZMB
+						}
+					}
 				}
 				40 = {
 					custom_effect_tooltip = mms_rise_of_the_dead_tt

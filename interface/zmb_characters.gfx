@@ -1,4 +1,12 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_zmb_sakura_minamoto_small"
+		texturefile = "gfx/leaders/MMS/sakura_minamoto_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_sakura_minamoto"
+		texturefile = "gfx/leaders/MMS/Sakura_Minamoto.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_zmb_zombi_01_small"
@@ -111,5 +119,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_zmb_zombi_14"
 		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_15_small"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_15_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zmb_zombi_15"
+		texturefile = "gfx/leaders/ZMB/generic/zmb_zombi_15.dds"
 	}
 }

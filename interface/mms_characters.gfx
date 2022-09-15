@@ -184,8 +184,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/rias_gremory_civilian.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_mms_rias_gremory"
-		texturefile = "gfx/leaders/MMS/rias_gremory.dds"
+		name = "GFX_portrait_mms_rias_gremory_army"
+		texturefile = "gfx/leaders/MMS/rias_gremory_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mms_ripine"
