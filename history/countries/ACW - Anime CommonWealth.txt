@@ -237,19 +237,19 @@ create_operative_leader = {
 	}
 }
 
-create_operative_leader = {
-	name = "Ange le Carré"
-	GFX = GFX_portrait_acw_ange_le_carre
-	traits = {
-		operative_infiltrator
-		operative_demolition_expert
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		ACW
-	}
-}
+# create_operative_leader = {
+# 	name = "Ange le Carré"
+# 	GFX = GFX_portrait_acw_ange_le_carre
+# 	traits = {
+# 		operative_infiltrator
+# 		operative_demolition_expert
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		ACW
+# 	}
+# }
 
 create_operative_leader = {
 	name = "Makoto Kikuchi"

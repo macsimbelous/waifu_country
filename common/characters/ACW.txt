@@ -44,20 +44,20 @@ characters = {
 			expire = "1953.3.1"
 			id = -1
 		}
-		field_marshal = {
-			traits = {
-				wfc_exp_trait
-				skilled_staffer
-				expert_delegator
-				war_hero
-				fast_planner
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 4
-		}
+		# field_marshal = {
+		# 	traits = {
+		# 		wfc_exp_trait
+		# 		skilled_staffer
+		# 		expert_delegator
+		# 		war_hero
+		# 		fast_planner
+		# 	}
+		# 	skill = 4
+		# 	attack_skill = 4
+		# 	defense_skill = 4
+		# 	planning_skill = 5
+		# 	logistics_skill = 4
+		# }
 	}
 	ACW_Asuka = {
 		name = ACW_Asuka
@@ -182,18 +182,6 @@ characters = {
 			}
 			expire = "1953.3.1"
 			id = -1
-		}
-		field_marshal = {
-			traits = {
-				wfc_exp_trait
-				organizer
-				logistics_wizard
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 5
 		}
 	}
 	#Army
