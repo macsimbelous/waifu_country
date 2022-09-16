@@ -159,19 +159,19 @@ create_operative_leader = {
 	}
 }
 
-create_operative_leader = {
-	name = "Aoi Futaba"
-	GFX = GFX_portrait_trp_aoi_futaba
-	traits = {
-		operative_seducer
-		operative_linguist
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		TRP
-	}
-}
+# create_operative_leader = {
+# 	name = "Aoi Futaba"
+# 	GFX = GFX_portrait_trp_aoi_futaba
+# 	traits = {
+# 		operative_seducer
+# 		operative_linguist
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		TRP
+# 	}
+# }
 TRP_astolfo = {
 	set_character_flag = trp_country_leader_flag
 }

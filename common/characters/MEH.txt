@@ -11,21 +11,20 @@ characters = {
 				large = GFX_portrait_meh_kos-mos
 			}
 		}
-		field_marshal = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
-				bearer_of_artillery
-				defensive_doctrine
-				unyielding_defender
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 5
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
+		# field_marshal = {
+		# 	traits = {
+		# 		wfc_exp_trait
+		# 		infantry_leader
+		# 		bearer_of_artillery
+		# 		defensive_doctrine
+		# 		unyielding_defender
+		# 	}
+		# 	skill = 4
+		# 	attack_skill = 4
+		# 	defense_skill = 5
+		# 	planning_skill = 4
+		# 	logistics_skill = 4
+		# }
 		country_leader = {
 			ideology = despotism
 			traits = {
@@ -34,8 +33,7 @@ characters = {
 				wfc_patron_of_intelligence
 				wfc_superweapon
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MEH_Fiora_Mechon = {
@@ -71,18 +69,17 @@ characters = {
 				factor = 0
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				panzer_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
+		# corps_commander = {
+		# 	traits = {
+		# 		wfc_exp_trait
+		# 		panzer_leader
+		# 	}
+		# 	skill = 4
+		# 	attack_skill = 4
+		# 	defense_skill = 4
+		# 	planning_skill = 4
+		# 	logistics_skill = 4
+		# }
 		country_leader = {
 			ideology = liberalism
 			traits = {
@@ -91,8 +88,7 @@ characters = {
 				wfc_patron_of_science
 				freedom_fighter
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MEH_Mythra = {
@@ -142,7 +138,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		country_leader = {
 			ideology = fascism_ideology
@@ -152,8 +147,7 @@ characters = {
 				wfc_patron_of_the_military_industrial_complex
 				wfc_dictator
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MEH_Histoire = {
@@ -197,8 +191,7 @@ characters = {
 				wfc_patron_of_industry
 				wfc_dictator
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	#marshal
@@ -288,27 +281,6 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Risa
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				princess_of_terror
-			}
-			modifier = {
-				resistance_decay = 0.15
-			}
-			ai_will_do = {
-				base = 1
-				modifier = {
-					has_government = fascism
-					add = 2
-				}
-			}
-		}
 	}
 	MEH_2B = {
 		name = MEH_2B
@@ -354,17 +326,6 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Cibo
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				wfc_war_industrialist
-			}
-		}
 	}
 	MEH_A2 = {
 		name = MEH_A2
@@ -407,18 +368,6 @@ characters = {
 				large = GFX_portrait_meh_alexandra_frolova
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
-			legacy_id = -1
-		}
 		advisor = {
 			slot = theorist
 			idea_token = MEH_Alexandra_Frolova
@@ -439,17 +388,6 @@ characters = {
 				small = GFX_idea_meh_edi
 				large = GFX_portrait_meh_edi
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait trait_engineer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
@@ -511,28 +449,25 @@ characters = {
 				large = GFX_portrait_meh_rozen_s_series
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				panzer_leader
-			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
-			legacy_id = -1
-		}
 		advisor = {
-			slot = high_command
+			slot = political_advisor
 			idea_token = MEH_Rozen_S_Series
-			ledger = army
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				army_armored_1
+				princess_of_terror
+			}
+			modifier = {
+				resistance_decay = 0.15
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 2
+				}
 			}
 		}
 	}
@@ -544,17 +479,19 @@ characters = {
 				large = GFX_portrait_meh_clarion
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				commando
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Clarion
+			cost = 150
+			allowed = {
+				original_tag = MEH
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 5
+			}
 		}
 	}
 	MEH_Pneuma = {
@@ -579,17 +516,6 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Pneuma
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				wfc_popular_figurehead
-			}
-		}
 	}
 	MEH_Hatsune_Miku = {
 		name = MEH_Hatsune_Miku
@@ -599,17 +525,15 @@ characters = {
 				large = GFX_portrait_meh_hatsune_miku
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trickster
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Hatsune_Miku
+			allowed = {
+				original_tag = MEH
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				wfc_popular_figurehead
+			}
 		}
 	}
 	MEH_Hana = {
@@ -621,7 +545,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = theorist
+			slot = high_command
 			idea_token = MEH_Hana
 			ledger = army
 			cost = 50
@@ -629,7 +553,7 @@ characters = {
 				original_tag = MEH
 			}
 			traits = {
-				military_theorist
+				army_armored_1
 			}
 		}
 		corps_commander = {
@@ -675,18 +599,6 @@ characters = {
 				large = GFX_portrait_meh_phantom_queen_ex-xecty
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
 		advisor = {
 			slot = air_chief
 			idea_token = MEH_Phantom_Queen_Ex_Xecty
@@ -707,16 +619,16 @@ characters = {
 				large = GFX_portrait_meh_mhmd-02_haruko
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait logistics_skill infantry_leader
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_MHMD_02_Haruko
+			cost = 150
+			allowed = {
+				original_tag = MEH
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				wfc_captain_of_industry
+			}
 		}
 	}
 	MEH_T_Elos = {
@@ -805,14 +717,15 @@ characters = {
 			legacy_id = -1
 		}
 		advisor = {
-			slot = political_advisor
+			slot = theorist
 			idea_token = MEH_Elizabeth
-			cost = 150
+			ledger = army
+			cost = 50
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				wfc_captain_of_industry
+				military_theorist
 			}
 		}
 	}
@@ -928,7 +841,6 @@ characters = {
 			defense_skill = 5
 			maneuvering_skill = 5
 			coordination_skill = 5
-			legacy_id = -1
 		}
 	}
 	MEH_I_410 = {
@@ -984,7 +896,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Kirishima_ARP = {
@@ -1067,16 +978,16 @@ characters = {
 				large = GFX_portrait_meh_caseal
 			}
 		}
-		navy_leader = {
-			traits = {
-				wfc_exp_navy_trait
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Caseal
+			cost = 150
+			allowed = {
+				original_tag = MEH
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
-			legacy_id = -1
+			traits = {
+				wfc_war_industrialist
+			}
 		}
 	}
 	MEH_Hiei_ARP = {
@@ -1097,20 +1008,6 @@ characters = {
 			maneuvering_skill = 4
 			coordination_skill = 4
 			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Hiei_ARP
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				wfc_silent_workhorse
-			}
-			ai_will_do = {
-				factor = 5
-			}
 		}
 	}
 	#advisor

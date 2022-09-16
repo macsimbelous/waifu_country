@@ -45,7 +45,7 @@ characters = {
 				wfc_patron_of_industry
 				wfc_dictator
 			}
-			expire = "1965.1.1.1"
+			expire = "1965.1.1"
 			id = -1
 		}
 	}
@@ -90,24 +90,43 @@ characters = {
 				wfc_patron_of_the_military_industrial_complex
 				wfc_dictator
 			}
-			expire = "1965.1.1.1"
+			expire = "1965.1.1"
 			id = -1
 		}
 	}
-	HEN_Mari_Setogaya = {
-		name = HEN_Mari_Setogaya
+	HEN_Sheliss_Elleness_Zurbach = {
+		name = HEN_Sheliss_Elleness_Zurbach
+		portraits = {
+			civilian = {
+				large = GFX_portrait_hen_sheliss_elleness_zurbach
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				wfc_hentai
+				wfc_defender
+				wfc_patron_of_intelligence
+				wfc_empress
+			}
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+	HEN_Celestine_Lucullus = {
+		name = HEN_Celestine_Lucullus
 		portraits = {
 			army = {
-				small = GFX_idea_hen_mari_setogaya
-				large = GFX_portrait_hen_mari_setogaya
+				small = GFX_idea_hen_celestine_lucullus
+				large = GFX_portrait_hen_celestine_lucullus
 			}
 			civilian = {
-				large = GFX_portrait_hen_mari_setogaya
+				large = GFX_portrait_hen_celestine_lucullus
 			}
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = HEN_Mari_Setogaya
+			idea_token = HEN_Celestine_Lucullus
 			cost = 150
 			allowed = {
 				original_tag = HEN
@@ -115,7 +134,7 @@ characters = {
 			available = {
 				NOT = {
 					has_country_leader = {
-						character = HEN_Mari_Setogaya
+						character = HEN_Celestine_Lucullus
 						ruling_only = yes
 					}
 				}
@@ -135,27 +154,7 @@ characters = {
 				wfc_patron_of_science
 				freedom_fighter
 			}
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
-	HEN_Sheliss_Elleness_Zurbach = {
-		name = HEN_Sheliss_Elleness_Zurbach
-		portraits = {
-			civilian = {
-				large = GFX_portrait_hen_sheliss_elleness_zurbach
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			traits = {
-				wfc_hentai
-				wfc_defender
-				wfc_patron_of_intelligence
-				wfc_empress
-			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	#marshal
@@ -198,33 +197,32 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	HEN_Celestine_Lucullus = {
-		name = HEN_Celestine_Lucullus
+
+	#genarals
+	HEN_Mari_Setogaya = {
+		name = HEN_Mari_Setogaya
 		portraits = {
 			army = {
-				small = GFX_idea_hen_celestine_lucullus
-				large = GFX_portrait_hen_celestine_lucullus
+				small = GFX_idea_hen_mari_setogaya
+				large = GFX_portrait_hen_mari_setogaya
 			}
 		}
-		field_marshal = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
-				defensive_doctrine
-				skilled_staffer
-				expert_delegator
-				inspirational_leader
-				unyielding_defender
+		advisor = {
+			slot = theorist
+			idea_token = HEN_Mari_Setogaya
+			ledger = air
+			cost = 50
+			allowed = {
+				original_tag = HEN
 			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 6
-			planning_skill = 5
-			logistics_skill = 5
-			legacy_id = -1
+			traits = {
+				air_warfare_theorist
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
-	#genarals
 	HEN_Saori_Asamiya = {
 		name = HEN_Saori_Asamiya
 		portraits = {
@@ -236,17 +234,15 @@ characters = {
 				large = GFX_portrait_hen_saori_asamiya
 			}
 		}
-		corps_commander = {
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Saori_Asamiya
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
 			traits = {
-				wfc_exp_trait
-				infantry_leader
-				logistics_skill
+				wfc_war_industrialist
 			}
 		}
 	}
@@ -268,18 +264,6 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				organizer
-				logistics_skill
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Mistiora_Arte
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				wfc_war_industrialist
 			}
 		}
 	}
@@ -399,18 +383,6 @@ characters = {
 				wfc_girl_scientist
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				panzer_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
 	}
 	HEN_Rina_Komiya = {
 		name = HEN_Rina_Komiya
@@ -418,17 +390,6 @@ characters = {
 			army = {
 				small = GFX_idea_hen_rina_komiya
 				large = GFX_portrait_hen_rina_komiya
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Rina_Komiya
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				wfc_popular_figurehead
 			}
 		}
 		corps_commander = {
@@ -482,23 +443,8 @@ characters = {
 				original_tag = HEN
 			}
 			traits = {
-				princess_of_terror
+				wfc_popular_figurehead
 			}
-			modifier = {
-				resistance_decay = 0.15
-			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	HEN_Yuuki_Kawaragi = {
@@ -530,21 +476,6 @@ characters = {
 				large = GFX_portrait_hen_tsubasa_kamijo
 			}
 		}
-		advisor = {
-			slot = theorist
-			idea_token = HEN_Tsubasa_Kamijo
-			ledger = air
-			cost = 50
-			allowed = {
-				original_tag = HEN
-			}
-			traits = {
-				air_warfare_theorist
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
 		corps_commander = {
 			skill = 5
 			attack_skill = 5
@@ -561,18 +492,6 @@ characters = {
 				small = GFX_idea_hen_prim_fiorire
 				large = GFX_portrait_hen_prim_fiorire
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				cavalry_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = political_advisor
@@ -622,7 +541,6 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				organizer
-				logistics_skill
 				skilled_staffer
 			}
 		}
@@ -666,18 +584,6 @@ characters = {
 				air_chief_ground_support_3
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
 	}
 	HEN_Sill_Plain = {
 		name = HEN_Sill_Plain
@@ -700,17 +606,6 @@ characters = {
 			ai_will_do = {
 				factor = 5
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait infantry_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	HEN_risa = {
@@ -787,17 +682,19 @@ characters = {
 				large = GFX_portrait_hen_rin
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trickster
-				infantry_leader
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_rin
+			cost = 150
+			allowed = {
+				original_tag = HEN
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				resistance_decay = 0.15
+			}
 		}
 	}
 	HEN_alice_erzan = {
@@ -981,7 +878,7 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
-				naval_lineage
+				navy_media_personality
 			}
 			skill = 5
 			attack_skill = 5
@@ -1027,7 +924,7 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
+				wfc_exp_navy_trait bold
 			}
 			skill = 4
 			attack_skill = 4

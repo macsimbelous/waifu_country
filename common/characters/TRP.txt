@@ -47,7 +47,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		country_leader = {
 			ideology = leninism
@@ -57,8 +56,7 @@ characters = {
 				wfc_patron_of_industry
 				wfc_dictator
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	TRP_hideri_kanzaki = {
@@ -101,8 +99,7 @@ characters = {
 				wfc_patron_of_the_military_industrial_complex
 				fascist_militia_leader
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	TRP_tetora = {
@@ -145,8 +142,7 @@ characters = {
 				wfc_patron_of_science
 				liberal_democratic_paragon
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	TRP_ringo_tsukimiya = {
@@ -167,8 +163,7 @@ characters = {
 				wfc_patron_of_intelligence
 				wfc_empress
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	#marshal
@@ -191,7 +186,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
@@ -226,10 +220,9 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
-			slot = army_chief 
+			slot = army_chief
 			idea_token = TRP_birdy_cephon_altera
 			cost = 50
 			allowed = {
@@ -246,21 +239,8 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_oboro_tsukimigusa
-			}
-			army = {
 				large = GFX_portrait_trp_oboro_tsukimigusa
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait infantry_leader
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = political_advisor
@@ -279,22 +259,8 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_hitoshi_sugoroku
-			}
-			army = {
 				large = GFX_portrait_trp_hitoshi_sugoroku
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trickster
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = political_advisor
@@ -319,18 +285,6 @@ characters = {
 				large = GFX_portrait_trp_kaoru_hanase
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				skilled_staffer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = TRP_kaoru_hanase
@@ -353,19 +307,6 @@ characters = {
 				small = GFX_idea_trp_aoi_hyoudou
 				large = GFX_portrait_trp_aoi_hyoudou
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-				skilled_staffer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = political_advisor
@@ -398,7 +339,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_tama_kyan = {
@@ -419,7 +359,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_hime_arikawa = {
@@ -428,6 +367,21 @@ characters = {
 			army = {
 				small = GFX_idea_trp_hime_arikawa
 				large = GFX_portrait_trp_hime_arikawa
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = TRP_hime_arikawa
+			cost = 50
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_infantry_1
+			}
+			ai_will_do = {
+				factor = 2
 			}
 		}
 		corps_commander = {
@@ -441,19 +395,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
-		}
-		advisor = {
-			slot = theorist
-			ledger = air
-			idea_token = TRP_hime_arikawa
-			cost = 50
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				air_warfare_theorist
-			}
 		}
 	}
 	TRP_sylvia = {
@@ -463,18 +404,6 @@ characters = {
 				small = GFX_idea_trp_sylvia
 				large = GFX_portrait_trp_sylvia
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
@@ -507,7 +436,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_ranga = {
@@ -529,7 +457,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_yukikaze = {
@@ -550,18 +477,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
-		}
-		advisor = {
-			slot = air_chief
-			idea_token = TRP_yukikaze
-			cost = 50
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				air_chief_ground_support_3
-			}
 		}
 	}
 	TRP_mitsunaga_oda = {
@@ -582,7 +497,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_ritsu_souma = {
@@ -593,17 +507,17 @@ characters = {
 				large = GFX_portrait_trp_ritsu_souma
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
+		advisor = {
+			slot = theorist
+			ledger = air
+			idea_token = TRP_ritsu_souma
+			cost = 50
+			allowed = {
+				original_tag = TRP
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				air_warfare_theorist
+			}
 		}
 	}
 	TRP_xianming_lin = {
@@ -616,29 +530,15 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait commando infantry_leader
+				wfc_exp_trait
+				commando
+				infantry_leader
 			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 6
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
-		}
-		advisor = {
-			slot = high_command
-			ledger = army
-			idea_token = TRP_xianming_lin
-			cost = 50
-			allowed = {
-				original_tag = TRP
-			}
-			traits = {
-				army_infantry_1
-			}
-			ai_will_do = {
-				factor = 2
-			}
 		}
 	}
 	TRP_mizuho_miyanokouji = {
@@ -651,14 +551,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait panzer_leader
+				wfc_exp_trait
+				panzer_leader
 			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_youta_tsunashi = {
@@ -669,17 +569,16 @@ characters = {
 				large = GFX_portrait_trp_youta_tsunashi
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
+		advisor = {
+			slot = air_chief
+			idea_token = TRP_youta_tsunashi
+			cost = 50
+			allowed = {
+				original_tag = TRP
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				air_chief_ground_support_3
+			}
 		}
 	}
 	TRP_fish_eye = {
@@ -700,7 +599,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_hacka_doll_no_3 = {
@@ -722,7 +620,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_shirota_mitsuki = {
@@ -744,7 +641,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 5
-			legacy_id = -1
 		}
 	}
 	TRP_tiger_traps = {
@@ -766,7 +662,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_jun_hiiragi = {
@@ -788,7 +683,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	#admirals
@@ -803,14 +697,13 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
-				old_guard_navy
+				bold
 			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_hamaji_yakumo = {
@@ -831,7 +724,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_taroumaru_seike = {
@@ -851,7 +743,6 @@ characters = {
 			defense_skill = 5
 			maneuvering_skill = 5
 			coordination_skill = 5
-			legacy_id = -1
 		}
 		advisor = {
 			slot = navy_chief
@@ -883,7 +774,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	TRP_russell = {
@@ -898,13 +788,13 @@ characters = {
 			traits = {
 				wfc_exp_navy_trait
 				navy_career_officer
+				old_guard_navy
 			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist

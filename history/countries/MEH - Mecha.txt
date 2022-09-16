@@ -192,20 +192,20 @@ create_operative_leader = {
 	}
 }
 
-create_operative_leader = {
-	name = "Yurizaki Mira"
-	GFX = GFX_portrait_meh_yurizaki_mira
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	female = yes
-	nationalities = {
-		MEH
-	}
-	traits = {
-		operative_seducer
-		operative_natural_orator
-	}
-}
+# create_operative_leader = {
+# 	name = "Yurizaki Mira"
+# 	GFX = GFX_portrait_meh_yurizaki_mira
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	female = yes
+# 	nationalities = {
+# 		MEH
+# 	}
+# 	traits = {
+# 		operative_seducer
+# 		operative_natural_orator
+# 	}
+# }
 MEH_KOS_MOS = {
 	set_character_flag = meh_country_leader_flag
 }

@@ -41,8 +41,7 @@ characters = {
 				wfc_dictator
 				great_war_hero
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MAH_Nanoha_Takamachi = {
@@ -85,8 +84,7 @@ characters = {
 				wfc_patron_of_industry
 				wfc_dictator
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MAH_Usagi_Tsukino = {
@@ -133,8 +131,7 @@ characters = {
 				wfc_patron_of_science
 				freedom_fighter
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MAH_Momo_Chiyoda = {
@@ -156,8 +153,7 @@ characters = {
 				wfc_empress
 				great_war_hero
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	#marshal
@@ -191,7 +187,7 @@ characters = {
 				army_chief_offensive_1
 			}
 			ai_will_do = {
-				factor = 2
+				factor = 1
 			}
 		}
 	}
@@ -236,7 +232,7 @@ characters = {
 			legacy_id = -1
 			traits = {
 				wfc_exp_trait
-				infantry_leader defense_skill
+				infantry_leader
 			}
 		}
 		advisor = {

@@ -192,19 +192,19 @@ create_operative_leader = {
 # 		MMS
 # 	}
 # }
-create_operative_leader = {
-	name = "Shigure"
-	GFX = GFX_portrait_mms_shigure_operative
-	traits = {
-		operative_safe_cracker
-		operative_well_groomed
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		MMS
-	}
-}
+# create_operative_leader = {
+# 	name = "Shigure"
+# 	GFX = GFX_portrait_mms_shigure_operative
+# 	traits = {
+# 		operative_safe_cracker
+# 		operative_well_groomed
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		MMS
+# 	}
+# }
 create_operative_leader = {
 	name = "Koyanskaya"
 	GFX = GFX_portrait_mms_koyanskaya

@@ -41,8 +41,7 @@ characters = {
 				wfc_demon_lord
 				anti_communist_crusader
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MMS_yuuko_yoshida = {
@@ -64,8 +63,7 @@ characters = {
 				wfc_demon_lord
 				defeatist
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MMS_maou = {
@@ -109,8 +107,7 @@ characters = {
 				wfc_demon_lord
 				technocrat
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	MMS_holo = {
@@ -154,8 +151,7 @@ characters = {
 				wfc_demon_lord
 				economist
 			}
-			expire = "1965.1.1.1"
-			id = -1
+			expire = "1965.1.1"
 		}
 	}
 	#lider 2
@@ -416,19 +412,6 @@ characters = {
 			traits = {
 				air_chief_ground_support_3
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				politically_connected
-				infantry_leader
-			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
-			legacy_id = -1
 		}
 	}
 	MMS_morrah = {
@@ -761,18 +744,6 @@ characters = {
 			traits = {
 				air_warfare_theorist
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trickster
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_arnice = {
