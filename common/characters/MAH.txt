@@ -204,29 +204,18 @@ characters = {
 				large = GFX_portrait_mah_madoka_kaname
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-				skilled_staffer
-			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 6
-			logistics_skill = 5
-			legacy_id = -1
-		}
 		advisor = {
-			slot = theorist
+			slot = political_advisor
 			idea_token = MAH_Madoka_Kaname
-			ledger = army
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
 			traits = {
-				military_theorist
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 5
 			}
 		}
 	}
@@ -274,20 +263,6 @@ characters = {
 				large = GFX_portrait_mah_ami_mizuno
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_ami_mizuno
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				wfc_silent_workhorse
-			}
-			ai_will_do = {
-				factor = 5
-			}
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -307,17 +282,6 @@ characters = {
 			army = {
 				small = GFX_idea_mah_makoto_kino
 				large = GFX_portrait_mah_makoto_kino
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_makoto_kino
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				wfc_captain_of_industry
 			}
 		}
 		corps_commander = {
@@ -362,20 +326,6 @@ characters = {
 				large = GFX_portrait_mah_rei_hino
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_rei_hino
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				princess_of_terror
-			}
-			modifier = {
-				resistance_decay = 0.15
-			}
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -418,18 +368,6 @@ characters = {
 				large = GFX_portrait_mah_kurumi_mugen
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
 		advisor = {
 			slot = theorist
 			idea_token = MAH_kurumi_mugen
@@ -451,17 +389,6 @@ characters = {
 				large = GFX_portrait_mah_homura_akemi
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_homura_akemi
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				wfc_war_industrialist
-			}
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -473,6 +400,18 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAH_homura_akemi
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				military_theorist
+			}
 		}
 	}
 	MAH_subaru_nakajima = {
@@ -537,18 +476,6 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 		}
-		advisor = {
-			slot = theorist
-			idea_token = MAH_fate_testarossa
-			ledger = air
-			cost = 50
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				air_warfare_theorist
-			}
-		}
 	}
 	MAH_mia_cyrus = {
 		name = MAH_mia_cyrus
@@ -558,28 +485,15 @@ characters = {
 				large = GFX_portrait_mah_mia_cyrus
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				cavalry_leader
-			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 6
-			logistics_skill = 5
-			legacy_id = -1
-		}
 		advisor = {
-			slot = theorist
-			ledger = army
+			slot = political_advisor
 			idea_token = MAH_mia_cyrus
 			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
 			traits = {
-				blitzkrieg_theorist
+				wfc_war_industrialist
 			}
 		}
 	}
@@ -601,18 +515,6 @@ characters = {
 			traits = {
 				air_chief_ground_support_3
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
-			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 6
-			logistics_skill = 5
-			legacy_id = -1
 		}
 	}
 	MAH_saki_uno = {
@@ -644,17 +546,17 @@ characters = {
 				large = GFX_portrait_mah_frill
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
+		advisor = {
+			slot = theorist
+			idea_token = MAH_frill
+			ledger = air
+			cost = 50
+			allowed = {
+				original_tag = MAH
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				air_warfare_theorist
+			}
 		}
 	}
 	MAH_honey_kisaragi = {
@@ -765,6 +667,18 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = MAH_nagisa_misumi
+			cost = 150
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
 	}
 	MAH_honoka_yukishiro = {
 		name = MAH_honoka_yukishiro
@@ -818,17 +732,16 @@ characters = {
 				large = GFX_portrait_mah_sakura_kinomoto
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_sakura_kinomoto
+			cost = 150
+			allowed = {
+				original_tag = MAH
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				wfc_captain_of_industry
+			}
 		}
 	}
 	MAH_mint_aizawa = {
@@ -839,18 +752,19 @@ characters = {
 				large = GFX_portrait_mah_mint_aizawa
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
-				cavalry_leader
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_mint_aizawa
+			cost = 150
+			allowed = {
+				original_tag = MAH
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				princess_of_terror
+			}
+			modifier = {
+				resistance_decay = 0.15
+			}
 		}
 	}
 	MAH_zakuro_fujiwara = {
@@ -893,18 +807,6 @@ characters = {
 			traits = {
 				wfc_minister_of_health
 			}
-		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MAH_amanogawa_kirara = {
