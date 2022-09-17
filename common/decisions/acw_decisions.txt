@@ -1739,6 +1739,12 @@ acw_faction_category = {
 		visible = {
 			has_country_flag = acw_waifu_power_is_exist_flag
 			has_capitulated = no
+			FROM = {
+				NOT = {
+					is_puppet_of = ROOT
+				}
+				is_in_faction_with = ROOT
+			}
 		}
 		available = {
 			is_faction_leader = yes
