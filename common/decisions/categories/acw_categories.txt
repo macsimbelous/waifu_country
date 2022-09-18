@@ -60,6 +60,9 @@ acw_faction_category = {
 	allowed = {
 		original_tag = ACW
 	}
+	visible = {
+		is_puppet = no
+	}
 }
 
 acw_create_great_animeland_category = {

@@ -1500,7 +1500,7 @@ acw_faction_category = {
 	}
 	acw_invite_hen_faction = {
 		visible = {
-			has_country_flag = acw_waifu_power_is_exist_flag
+			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
 				is_faction_leader = yes
 				NOT = {
@@ -1570,7 +1570,7 @@ acw_faction_category = {
 	}
 	acw_invite_mah_faction = {
 		visible = {
-			has_country_flag = acw_waifu_power_is_exist_flag
+			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
 				is_faction_leader = yes
 				NOT = {
@@ -1611,7 +1611,7 @@ acw_faction_category = {
 	}
 	acw_invite_meh_faction = {
 		visible = {
-			has_country_flag = acw_waifu_power_is_exist_flag
+			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
 				is_faction_leader = yes
 				NOT = {
@@ -1652,7 +1652,7 @@ acw_faction_category = {
 	}
 	acw_invite_mms_faction = {
 		visible = {
-			has_country_flag = acw_waifu_power_is_exist_flag
+			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
 				is_faction_leader = yes
 				NOT = {
@@ -1693,7 +1693,7 @@ acw_faction_category = {
 	}
 	acw_invite_trp_faction = {
 		visible = {
-			has_country_flag = acw_waifu_power_is_exist_flag
+			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
 				is_faction_leader = yes
 				NOT = {
@@ -1733,11 +1733,9 @@ acw_faction_category = {
 		}
 	}
 	acw_economic_assistance_to_faction_members = {
-		allowed = {
-			original_tag = ACW
-		}
 		visible = {
-			has_country_flag = acw_waifu_power_is_exist_flag
+			#has_country_flag = acw_waifu_power_is_exist_flag
+			is_faction_leader = yes
 			has_capitulated = no
 			FROM = {
 				NOT = {
@@ -1747,7 +1745,6 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			is_faction_leader = yes
 			num_of_civilian_factories_available_for_projects > 30
 		}
 		target_array = faction_members
@@ -1760,8 +1757,8 @@ acw_faction_category = {
 			}
 		}
 		fire_only_once = no
-		cost = 100
-		days_remove = 180
+		cost = 50
+		days_remove = 90
 		#days_re_enable = 45
 		# modifier = {
 		# 	civilian_factory_use = 10
