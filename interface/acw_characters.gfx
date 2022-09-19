@@ -1232,6 +1232,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/generic/acw_naval_15.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_acw_naval_16_small"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_16_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_16"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_16.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_acw_operative_01_small"
 		texturefile = "gfx/leaders/ACW/generic/acw_operative_01_idea.dds"
 	}
