@@ -51,7 +51,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = democratic
-			num_of_factories > 50
+			num_of_factories > 30
 		}
 		available_if_capitulated = yes
 		completion_reward = {
@@ -185,37 +185,55 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		available = {
-			BUL = {
-				exists = yes
-				has_government = democratic
-			}
-			ROM = {
-				exists = yes
-				has_government = democratic
-			}
-			YUG = {
-				exists = yes
-				has_government = democratic
-			}
-			HUN = {
-				exists = yes
-				has_government = democratic
-			}
-			ALB = {
-				exists = yes
-				has_government = democratic
-			}
-		}
 		completion_reward = {
-			create_faction = acw_anime_federation
-			add_to_faction = BUL
-			add_to_faction = ROM
-			add_to_faction = YUG
-			add_to_faction = HUN
-			add_to_faction = ALB
 			set_rule = {
 				can_create_factions = yes
+			}
+			create_faction = acw_anime_federation
+			if = {
+				limit = {
+					BUL = {
+						exists = yes
+						has_government = democratic
+					}
+				}
+				add_to_faction = BUL
+			}
+			if = {
+				limit = {
+					ROM = {
+						exists = yes
+						has_government = democratic
+					}
+				}
+				add_to_faction = ROM
+			}
+			if = {
+				limit = {
+					YUG = {
+						exists = yes
+						has_government = democratic
+					}
+				}
+				add_to_faction = YUG
+			}
+			if = {
+				limit = {
+					HUN = {
+						exists = yes
+						has_government = democratic
+					}
+				}
+				add_to_faction = HUN
+			}
+			if = {
+				limit = {
+					ALB = {
+						exists = yes
+						has_government = democratic
+					}
+				}
+				add_to_faction = ALB
 			}
 		}
 	}
@@ -233,43 +251,83 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			num_of_factories > 75
+			is_faction_leader = yes
 		}
 		completion_reward = {
-			set_autonomy = {
-				target = YUG
-				autonomy_state = autonomy_dominion
+			if = {
+				limit = {
+					YUG = {
+						is_in_faction_with = ROOT
+					}
+				}
+				puppet = YUG
+				# set_autonomy = {
+				# 	target = YUG
+				# 	autonomy_state = autonomy_dominion
+				# }
+				YUG = {
+					add_ideas = wfc_economic_assistance
+				}
 			}
-			set_autonomy = {
-				target = ROM
-				autonomy_state = autonomy_dominion
+			if = {
+				limit = {
+					ROM = {
+						is_in_faction_with = ROOT
+					}
+				}
+				puppet = ROM
+				# set_autonomy = {
+				# 	target = ROM
+				# 	autonomy_state = autonomy_dominion
+				# }
+				ROM = {
+					add_ideas = wfc_economic_assistance
+				}
 			}
-			set_autonomy = {
-				target = BUL
-				autonomy_state = autonomy_dominion
+			if = {
+				limit = {
+					BUL = {
+						is_in_faction_with = ROOT
+					}
+				}
+				puppet = BUL
+				# set_autonomy = {
+				# 	target = BUL
+				# 	autonomy_state = autonomy_dominion
+				# }
+				BUL = {
+					add_ideas = wfc_economic_assistance
+				}
 			}
-			set_autonomy = {
-				target = HUN
-				autonomy_state = autonomy_dominion
+			if = {
+				limit = {
+					HUN = {
+						is_in_faction_with = ROOT
+					}
+				}
+				puppet = HUN
+				# set_autonomy = {
+				# 	target = HUN
+				# 	autonomy_state = autonomy_dominion
+				# }
+				HUN = {
+					add_ideas = wfc_economic_assistance
+				}
 			}
-			set_autonomy = {
-				target = ALB
-				autonomy_state = autonomy_dominion
-			}
-			YUG = {
-				add_ideas = wfc_economic_assistance
-			}
-			ROM = {
-				add_ideas = wfc_economic_assistance
-			}
-			BUL = {
-				add_ideas = wfc_economic_assistance
-			}
-			HUN = {
-				add_ideas = wfc_economic_assistance
-			}
-			ALB = {
-				add_ideas = wfc_economic_assistance
+			if = {
+				limit = {
+					ALB = {
+						is_in_faction_with = ROOT
+					}
+				}
+				puppet = ALB
+				# set_autonomy = {
+				# 	target = ALB
+				# 	autonomy_state = autonomy_dominion
+				# }
+				ALB = {
+					add_ideas = wfc_economic_assistance
+				}
 			}
 		}
 	}
