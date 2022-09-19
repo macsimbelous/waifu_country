@@ -93,6 +93,21 @@ bookmarks = {
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_the_supreme_soviet
+				SOV_reconvene_the_zemsky_sobor
+			}	
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
 				trotskyite_plot_nsb
