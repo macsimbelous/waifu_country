@@ -30,6 +30,16 @@ state={
 		victory_points = {
 			11925 50 
 		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 7
+				arms_factory = 6
+				dockyard = 4
+				11925 = {
+					naval_base = 10
+				}
+			}
+		}
 	}
 
 	provinces={

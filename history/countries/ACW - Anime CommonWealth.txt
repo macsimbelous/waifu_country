@@ -1,15 +1,11 @@
 ﻿capital = 845
 set_stability = 0.3
 set_war_support = 0.3
-set_convoys = 150
-set_research_slots = 4
+set_convoys = 0
+set_research_slots = 3
 oob = "ACW_1936"
 set_naval_oob = "ACW_1936_Naval"
 #create_faction = WaifuPower
-set_rule = {
-	#can_use_kamikaze_pilots = yes
-	can_create_factions = yes
-}
 
 set_technology = {
 	basic_train = 1
@@ -68,7 +64,59 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+1939.1.1 = {
+	set_war_support = 0.7
+	set_stability = 0.7
+	add_political_power = 2000
+	add_command_power = 200
+	oob = "ACW_1939"
+	#adding ministers
+	add_ideas = {
+		#laws
+		partial_economic_mobilisation
+		limited_conscription
+	}
+		
+	set_technology = {
+		CAS1 = 1
+		tactical_bomber1 = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		interwar_antiair = 1
+		artillery1 = 1
+		infantry_weapons2 = 1
+		improved_infantry_weapons = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		paratroopers = 1
+		gwtank_chassis = 1
+		basic_medium_tank_chassis = 1 
 
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		fuel_refining2 = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+		excavation1 = 1
+		excavation2 = 1
+	}
+}
 #recruit_character = ACW_GER_puppet_leader_neutrality
 #leaders
 recruit_character = ACW_Erza

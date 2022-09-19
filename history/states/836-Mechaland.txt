@@ -24,6 +24,16 @@ state={
 				naval_base = 4
 			}
 		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 7
+				arms_factory = 6
+				dockyard = 4
+				9671 = {
+					naval_base = 10
+				}
+			}
+		}
 	}
 	local_supplies=10.0
 }

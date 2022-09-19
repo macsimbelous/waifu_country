@@ -18,7 +18,12 @@ state={
 			# }
 		}
 		add_core_of = TRP
-
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+				arms_factory = 3
+			}
+		}
 	}
 
 	provinces={

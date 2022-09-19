@@ -71,11 +71,64 @@ set_politics = {
 add_ideas = {
 	limited_exports
 	volunteer_only
-	partial_economic_mobilisation
+	civilian_economy
 	TRP_revolution
 	trp_childless_idea
 }
+1939.1.1 = {
+	set_war_support = 0.7
+	set_stability = 0.7
+	add_political_power = 2000
+	add_command_power = 200
+	oob = "TRP_1939"
+	#adding ministers
+	add_ideas = {
+		#laws
+		partial_economic_mobilisation
+		limited_conscription
+	}
+		
+	set_technology = {
+		CAS1 = 1
+		fighter1 = 1
+		tactical_bomber1 = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		interwar_antiair = 1
+		artillery1 = 1
+		infantry_weapons2 = 1
+		improved_infantry_weapons = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		paratroopers = 1
+		gwtank_chassis = 1
+		basic_medium_tank_chassis = 1 
 
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		fuel_refining2 = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+		excavation1 = 1
+		excavation2 = 1
+	}
+}
 #leaders
 recruit_character = TRP_astolfo
 recruit_character = TRP_hideri_kanzaki
