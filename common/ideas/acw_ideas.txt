@@ -53,7 +53,7 @@ ideas = {
 				production_speed_rail_way_factor = 0.1
 				production_speed_supply_node_factor = 0.1
 				#political_power_factor = 0.1
-				political_power_gain = 0.1
+				#political_power_gain = 0.1
 			}
 		}
 		acw_stavka_idea = {
@@ -106,7 +106,7 @@ ideas = {
 				training_time_army_factor = -0.2
 				send_volunteer_divisions_required = -0.5
 				#political_power_factor = 0.1
-				political_power_gain = 0.1
+				#political_power_gain = 0.1
 				land_doctrine_cost_factor = -0.1
 				air_doctrine_cost_factor = -0.1
 				naval_doctrine_cost_factor = -0.1
@@ -172,7 +172,7 @@ ideas = {
 				resistance_damage_to_garrison = -0.25
 				resistance_decay = 0.05
 				#political_power_factor = 0.1
-				political_power_gain = 0.1
+				#political_power_gain = 0.1
 			}
 		}
 		acw_minprom_idea = {
@@ -193,7 +193,7 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = -0.25
 				global_building_slots_factor = 0.2
 				#political_power_factor = 0.1
-				political_power_gain = 0.1
+				#political_power_gain = 0.1
 			}
 		}
 		acw_minpropagand_idea = {
@@ -213,7 +213,7 @@ ideas = {
 				army_morale_factor = 0.15
 				compliance_growth = 0.05
 				#political_power_factor = 0.1
-				political_power_gain = 0.1
+				#political_power_gain = 0.1
 			}
 		}
 		acw_colonial_office = {
@@ -227,7 +227,7 @@ ideas = {
 					subjects_autonomy_gain = -0.25
 				}
 				#political_power_factor = 0.1
-				political_power_gain = 0.1
+				#political_power_gain = 0.1
 			}
 		}
 		acw_minscience_idea = {
@@ -242,7 +242,7 @@ ideas = {
 			modifier = {
 				research_speed_factor = 0.1
 				#political_power_factor = 0.1
-				political_power_gain = 0.1
+				#political_power_gain = 0.1
 			}
 		}
 		acw_nii_idea = {
@@ -273,6 +273,38 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = -0.2
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
+			}
+		}
+		acw_archaic_government = {
+			allowed = {
+				original_tag = ACW
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = chi_incompetent_officers
+			removal_cost = -1
+			modifier = {
+				#political_power_gain = 0.4
+				political_power_factor = -0.1
+				stability_factor = -0.05
+				war_stability_factor = -0.05
+			}
+		}
+		acw_new_government = {
+			allowed = {
+				original_tag = ACW
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_pp_unity_bonus
+			removal_cost = -1
+			modifier = {
+				#political_power_gain = 0.4
+				political_power_factor = 0.4
+				stability_factor = 0.05
+				war_stability_factor = 0.05
 			}
 		}
 	}

@@ -34,6 +34,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		available = {
+			has_completed_focus = acw_focus_complete_the_reform
+		}
 		available_if_capitulated = yes
 		completion_reward = {
 			country_event = acw_event.2
@@ -50,6 +53,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
+			has_completed_focus = acw_focus_complete_the_reform
 			has_government = democratic
 			num_of_factories > 30
 		}
@@ -1202,6 +1206,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			has_completed_focus = acw_focus_complete_the_reform
 			has_government = communism
 			is_subject = no
 			SOV_comintern_joinable = yes
@@ -1818,6 +1823,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			available = {
+				has_completed_focus = acw_focus_complete_the_reform
+			}
 			OR = {
 				has_government = neutrality
 				has_government = fascism
@@ -2764,6 +2772,207 @@ focus_tree = {
 				target = ITA
 				type = puppet_wargoal_focus
 			}
+		}
+	}
+	focus = {
+		id = acw_focus_government_reform
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 33
+		y = 8
+		#relative_position_id = acw_focus_communist_volunteers
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = acw_focus_create_minprom
+		icon = GFX_goal_generic_construct_civ_factory
+		x = -2
+		y = 1
+		relative_position_id = acw_focus_government_reform
+		prerequisite = {
+			focus = acw_focus_government_reform
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = acw_minprom_idea
+			set_country_flag = acw_minprom_flag
+		}
+	}
+	focus = {
+		id = acw_focus_create_minscience
+		icon = GFX_focus_research2
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_create_minprom
+		prerequisite = {
+			focus = acw_focus_create_minprom
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = acw_minscience_idea
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = acw_focus_create_mintrans
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 1
+		relative_position_id = acw_focus_create_minprom
+		prerequisite = {
+			focus = acw_focus_create_minprom
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = acw_mintrans_idea
+		}
+	}
+	focus = {
+		id = acw_focus_create_minoboron
+		icon = GFX_focus_usa_build_the_pentagon
+		x = 2
+		y = 1
+		relative_position_id = acw_focus_government_reform
+		prerequisite = {
+			focus = acw_focus_government_reform
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = acw_minoboron_idea
+		}
+	}
+	focus = {
+		id = acw_focus_create_kgb
+		icon = GFX_focus_SOV_military_purge
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_create_minoboron
+		prerequisite = {
+			focus = acw_focus_create_minoboron
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_country_flag = acw_KGB_flag
+			add_ideas = acw_KGB_idea
+			create_intelligence_agency = {
+				icon = GFX_intelligence_agency_logo_generic_8
+				name = "KGB"
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_create_minpropagand
+		icon = GFX_goal_generic_propaganda
+		x = 1
+		y = 1
+		relative_position_id = acw_focus_create_minoboron
+		prerequisite = {
+			focus = acw_focus_create_minoboron
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = acw_minpropagand_idea
+			news_event = wfc_news.6
+		}
+	}
+	focus = {
+		id = acw_focus_complete_the_reform
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		x = 0
+		y = 3
+		relative_position_id = acw_focus_government_reform
+		prerequisite = {
+			focus = acw_focus_create_minscience
+		}
+		prerequisite = {
+			focus = acw_focus_create_mintrans
+		}
+		prerequisite = {
+			focus = acw_focus_create_kgb
+		}
+		prerequisite = {
+			focus = acw_focus_create_minpropagand
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = acw_archaic_government
+				add_idea = acw_new_government
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_stavka
+		icon = GFX_focus_generic_military_mission
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_complete_the_reform
+		prerequisite = {
+			focus = acw_focus_complete_the_reform
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = acw_create_stavka_decision_tt
+				check_variable = {
+					num_battalions > 1999
+				}
+			}
+			has_deployed_air_force_size = {
+				size > 999
+			}
+		}
+		completion_reward = {
+			add_ideas = acw_stavka_idea
+		}
+	}
+	focus = {
+		id = acw_focus_colonial_office
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 1
+		y = 1
+		relative_position_id = acw_focus_complete_the_reform
+		prerequisite = {
+			focus = acw_focus_complete_the_reform
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			num_subjects > 3
+		}
+		completion_reward = {
+			add_ideas = acw_colonial_office
 		}
 	}
 }

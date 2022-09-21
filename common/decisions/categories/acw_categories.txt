@@ -5,6 +5,7 @@ acw_government_category = {
 	#visible_when_empty = yes
 	allowed = {
 		original_tag = ACW
+		always = no
 	}
 	visible = {
 		#has_country_flag = wfl_elections_flag
