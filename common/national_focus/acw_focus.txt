@@ -25,8 +25,8 @@ focus_tree = {
 		id = acw_focus_revise_industrial_policy
 		icon = GFX_focus_generic_industry_3
 		#relative_position_id = acw_focus_state_council
-		x = 12
-		y = 8
+		x = 25
+		y = 5
 		cost = 5
 		# prerequisite = {
 		# 	focus = acw_focus_state_council
@@ -47,7 +47,7 @@ focus_tree = {
 		id = acw_focus_beacon_of_freedom
 		icon = GFX_goal_support_democracy
 		#relative_position_id = acw_focus_general_election
-		x = 21
+		x = 14
 		y = 8
 		cost = 5
 		search_filters = {
@@ -848,7 +848,7 @@ focus_tree = {
 	focus = {
 		id = acw_focus_join_comintern
 		icon = GFX_focus_generic_join_comintern
-		x = 23
+		x = 17
 		y = 8
 		#relative_position_id = acw_focus_communist_volunteers
 		cost = 5
@@ -903,8 +903,8 @@ focus_tree = {
 	focus = {
 		id = acw_focus_path_to_empire
 		icon = GFX_focus_generic_strike_at_democracy1
-		x = 17
-		y = 8
+		x = 33
+		y = 0
 		#relative_position_id = acw_focus_queens_party
 		cost = 5
 		search_filters = {
@@ -1874,7 +1874,7 @@ focus_tree = {
 		#relative_position_id = acw_focus_communist_volunteers
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -1891,7 +1891,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		completion_reward = {
 			add_ideas = acw_minprom_idea
@@ -1909,7 +1909,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		completion_reward = {
 			add_ideas = acw_minscience_idea
@@ -1927,7 +1927,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		completion_reward = {
 			add_ideas = acw_mintrans_idea
@@ -1944,7 +1944,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		completion_reward = {
 			add_ideas = acw_minoboron_idea
@@ -1961,7 +1961,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		completion_reward = {
 			set_country_flag = acw_KGB_flag
@@ -1983,7 +1983,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		completion_reward = {
 			add_ideas = acw_minpropagand_idea
@@ -2010,7 +2010,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -2030,7 +2030,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -2058,7 +2058,7 @@ focus_tree = {
 		}
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		available = {
 			num_subjects > 3
