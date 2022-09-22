@@ -39,6 +39,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
+			add_ideas = ACW_anime_economic
 			country_event = acw_event.2
 		}
 	}
@@ -46,7 +47,7 @@ focus_tree = {
 		id = acw_focus_beacon_of_freedom
 		icon = GFX_goal_support_democracy
 		#relative_position_id = acw_focus_general_election
-		x = 18
+		x = 21
 		y = 8
 		cost = 5
 		search_filters = {
@@ -55,7 +56,8 @@ focus_tree = {
 		available = {
 			has_completed_focus = acw_focus_complete_the_reform
 			has_government = democratic
-			num_of_factories > 30
+			num_of_factories > 50
+			is_subject = no
 		}
 		available_if_capitulated = yes
 		completion_reward = {
@@ -182,502 +184,150 @@ focus_tree = {
 		prerequisite = {
 			focus = acw_focus_promote_democracy_in_hun
 		}
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = acw_focus_promote_democracy_in_hun
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			is_in_faction = no
+		}
+		bypass = {
+			is_faction_leader = yes
+		}
 		completion_reward = {
 			set_rule = {
 				can_create_factions = yes
 			}
 			create_faction = acw_anime_federation
-			if = {
-				limit = {
-					BUL = {
-						exists = yes
-						has_government = democratic
-					}
-				}
-				add_to_faction = BUL
-			}
-			if = {
-				limit = {
-					ROM = {
-						exists = yes
-						has_government = democratic
-					}
-				}
-				add_to_faction = ROM
-			}
-			if = {
-				limit = {
-					YUG = {
-						exists = yes
-						has_government = democratic
-					}
-				}
-				add_to_faction = YUG
-			}
-			if = {
-				limit = {
-					HUN = {
-						exists = yes
-						has_government = democratic
-					}
-				}
-				add_to_faction = HUN
-			}
-			if = {
-				limit = {
-					ALB = {
-						exists = yes
-						has_government = democratic
-					}
-				}
-				add_to_faction = ALB
-			}
 		}
 	}
 	focus = {
-		id = acw_focus_economic_integration
-		icon = GFX_focus_generic_diplomatic_treaty
+		id = acw_focus_join_allies
+		icon = GFX_goal_anschluss
 		prerequisite = {
-			focus = acw_focus_create_faction_anime_federation
+			focus = acw_focus_promote_democracy_in_alb
+		}
+		prerequisite = {
+			focus = acw_focus_promote_democracy_in_hun
 		}
 		x = 0
 		y = 1
-		relative_position_id = acw_focus_create_faction_anime_federation
+		relative_position_id = acw_focus_promote_democracy_in_hun
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			is_faction_leader = yes
+			ENG = {
+				exists = yes
+				has_government = democratic
+				is_faction_leader = yes
+			}
+		}
+		bypass = {
+			is_in_faction_with = ENG
+		}
+		completion_reward = {
+			ENG = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_invite_balkans
+		icon = GFX_goal_anschluss
+		prerequisite = {
+			focus = acw_focus_join_allies
+			focus = acw_focus_create_faction_anime_federation
+		}
+		x = -1
+		y = 1
+		relative_position_id = acw_focus_join_allies
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_in_faction = yes
 		}
 		completion_reward = {
 			if = {
 				limit = {
-					YUG = {
-						is_in_faction_with = ROOT
+					BUL = {
+						exists = yes
+						has_government = democratic
+						NOT = {
+							is_in_faction_with = ROOT
+						}
 					}
 				}
-				puppet = YUG
-				# set_autonomy = {
-				# 	target = YUG
-				# 	autonomy_state = autonomy_dominion
-				# }
-				YUG = {
-					add_ideas = wfc_economic_assistance
+				#add_to_faction = BUL
+				BUL = {
+					country_event = generic.5
 				}
 			}
 			if = {
 				limit = {
 					ROM = {
-						is_in_faction_with = ROOT
+						exists = yes
+						has_government = democratic
+						NOT = {
+							is_in_faction_with = ROOT
+						}
 					}
 				}
-				puppet = ROM
-				# set_autonomy = {
-				# 	target = ROM
-				# 	autonomy_state = autonomy_dominion
-				# }
+				#add_to_faction = ROM
 				ROM = {
-					add_ideas = wfc_economic_assistance
+					country_event = generic.5
 				}
 			}
 			if = {
 				limit = {
-					BUL = {
-						is_in_faction_with = ROOT
+					YUG = {
+						exists = yes
+						has_government = democratic
+						NOT = {
+							is_in_faction_with = ROOT
+						}
 					}
 				}
-				puppet = BUL
-				# set_autonomy = {
-				# 	target = BUL
-				# 	autonomy_state = autonomy_dominion
-				# }
-				BUL = {
-					add_ideas = wfc_economic_assistance
+				#add_to_faction = YUG
+				YUG = {
+					country_event = generic.5
 				}
 			}
 			if = {
 				limit = {
 					HUN = {
-						is_in_faction_with = ROOT
+						exists = yes
+						has_government = democratic
+						NOT = {
+							is_in_faction_with = ROOT
+						}
 					}
 				}
-				puppet = HUN
-				# set_autonomy = {
-				# 	target = HUN
-				# 	autonomy_state = autonomy_dominion
-				# }
+				#add_to_faction = HUN
 				HUN = {
-					add_ideas = wfc_economic_assistance
+					country_event = generic.5
 				}
 			}
 			if = {
 				limit = {
 					ALB = {
-						is_in_faction_with = ROOT
+						exists = yes
+						has_government = democratic
+						NOT = {
+							is_in_faction_with = ROOT
+						}
 					}
 				}
-				puppet = ALB
-				# set_autonomy = {
-				# 	target = ALB
-				# 	autonomy_state = autonomy_dominion
-				# }
+				#add_to_faction = ALB
 				ALB = {
-					add_ideas = wfc_economic_assistance
+					country_event = generic.5
 				}
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_great_animeland_dem
-		icon = GFX_focus_generic_strike_at_democracy1
-		prerequisite = {
-			focus = acw_focus_economic_integration
-		}
-		x = 0
-		y = 1
-		relative_position_id = acw_focus_economic_integration
-		cost = 1
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			has_country_flag = acw_great_animeland_flag
-		}
-		available = {
-			is_subject = no
-			#Animeland
-			custom_trigger_tooltip = {
-				tooltip = acw_form_animeland_required_states_tt
-				controls_state = 844
-				controls_state = 845
-				controls_state = 846
-				controls_state = 847
-			}
-			#Bulgaria
-			custom_trigger_tooltip = {
-				tooltip = acw_form_bulgaria_required_states_tt
-				#controls_state = 48
-				48 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 801
-				801 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 212
-				212 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 211
-				211 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			#Romania
-			custom_trigger_tooltip = {
-				tooltip = acw_form_romania_required_states_tt
-				#controls_state = 46
-				46 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 76
-				76 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 77
-				77 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 79
-				79 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 81
-				81 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 82
-				82 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 83
-				83 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 84
-				84 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			#Yugoslavia 
-			custom_trigger_tooltip = {
-				tooltip = acw_form_yugoslavia_required_states_tt
-				#controls_state = 102
-				# 102 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 103
-				# 103 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 109
-				109 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 104
-				104 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 804
-				804 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 105
-				105 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 107
-				107 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 45
-				45 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 764
-				764 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 108
-				108 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 802
-				802 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 803
-				803 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 106
-				106 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# Hungary
-			custom_trigger_tooltip = {
-				tooltip = acw_form_hungary_required_states_tt
-				#controls_state = 155
-				155 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 43
-				43 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 154
-				154 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
-		completion_reward = {
-			set_country_flag = acw_great_animeland_flag
-			set_cosmetic_tag = ACW_EMP
-			#add_country_leader_trait = wfc_empress
-			#add_political_power = 1000
-			# Bulgaria
-			if = {
-				limit = {
-					BUL = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = BUL
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_bulgaria_coring_states_tt
-			hidden_effect = {
-				48 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 48
-				801 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 801
-				212 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 212
-				211 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 211
-			}
-			#Romania
-			if = {
-				limit = {
-					ROM = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = ROM
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_romania_coring_states_tt
-			hidden_effect = {
-				46 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 46
-				76 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 76
-				77 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 77
-				79 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 79
-				81 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 81
-				82 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 82
-				83 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 83
-				84 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 84
-			}
-			# Yugoslavia
-			if = {
-				limit = {
-					YUG = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = YUG
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_yugoslavia_coring_states_tt
-			hidden_effect = {
-				# 102 = {
-				# 	add_core_of = ROOT
-				# }
-				# transfer_state = 102
-				# 103 = {
-				# 	add_core_of = ROOT
-				# }
-				# transfer_state = 103
-				109 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 109
-				104 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 104
-				804 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 804
-				105 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 105
-				107 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 107
-				45 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 45
-				764 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 764
-				108 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 108
-				802 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 802
-				803 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 803
-				106 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 106
-			}
-			# Hungary
-			if = {
-				limit = {
-					HUN = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = HUN
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_hungary_coring_states_tt
-			hidden_effect = {
-				155 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 155
-				43 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 43
-				154 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 154
 			}
 		}
 	}
@@ -1198,7 +848,7 @@ focus_tree = {
 	focus = {
 		id = acw_focus_join_comintern
 		icon = GFX_focus_generic_join_comintern
-		x = 27
+		x = 23
 		y = 8
 		#relative_position_id = acw_focus_communist_volunteers
 		cost = 5
@@ -1251,571 +901,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_focus_revolution_in_bulgaria
-		icon = GFX_focus_generic_attack_bulgaria
-		prerequisite = {
-			focus = acw_focus_join_comintern
-		}
-		x = 0
-		y = 1
-		relative_position_id = acw_focus_join_comintern
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			BUL = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_government = communism
-				}
-			}
-		}
-		available = {
-			NOT = {
-				is_in_faction_with = BUL
-			}
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = BUL
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_revolution_in_yug
-		icon = GFX_goal_generic_major_war
-		prerequisite = {
-			focus = acw_focus_revolution_in_bulgaria
-		}
-		x = -1
-		y = 1
-		relative_position_id = acw_focus_revolution_in_bulgaria
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			YUG = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_government = communism
-				}
-			}
-		}
-		available = {
-			NOT = {
-				is_in_faction_with = YUG
-			}
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = YUG
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_revolution_in_romania
-		icon = GFX_focus_generic_attack_romania
-		prerequisite = {
-			focus = acw_focus_revolution_in_bulgaria
-		}
-		x = 1
-		y = 1
-		relative_position_id = acw_focus_revolution_in_bulgaria
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			ROM = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_government = communism
-				}
-			}
-		}
-		available = {
-			NOT = {
-				is_in_faction_with = ROM
-			}
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = ROM
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_revolution_in_hun
-		icon = GFX_goal_generic_major_war
-		prerequisite = {
-			focus = acw_focus_revolution_in_yug
-			focus = acw_focus_revolution_in_romania
-		}
-		x = 1
-		y = 1
-		relative_position_id = acw_focus_revolution_in_yug
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			HUN = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_government = communism
-				}
-			}
-		}
-		available = {
-			NOT = {
-				is_in_faction_with = HUN
-			}
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = HUN
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_great_animeland_com
-		icon = GFX_focus_generic_strike_at_democracy1
-		prerequisite = {
-			focus = acw_focus_revolution_in_hun
-		}
-		x = 0
-		y = 1
-		relative_position_id = acw_focus_revolution_in_hun
-		cost = 1
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			has_country_flag = acw_great_animeland_flag
-		}
-		available = {
-			is_subject = no
-			#Animeland
-			custom_trigger_tooltip = {
-				tooltip = acw_form_animeland_required_states_tt
-				controls_state = 844
-				controls_state = 845
-				controls_state = 846
-				controls_state = 847
-			}
-			#Bulgaria
-			custom_trigger_tooltip = {
-				tooltip = acw_form_bulgaria_required_states_tt
-				#controls_state = 48
-				48 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 801
-				801 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 212
-				212 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 211
-				211 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			#Romania
-			custom_trigger_tooltip = {
-				tooltip = acw_form_romania_required_states_tt
-				#controls_state = 46
-				46 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 76
-				76 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 77
-				77 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 79
-				79 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 81
-				81 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 82
-				82 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 83
-				83 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 84
-				84 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			#Yugoslavia 
-			custom_trigger_tooltip = {
-				tooltip = acw_form_yugoslavia_required_states_tt
-				#controls_state = 102
-				# 102 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 103
-				# 103 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 109
-				109 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 104
-				104 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 804
-				804 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 105
-				105 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 107
-				107 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 45
-				45 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 764
-				764 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 108
-				108 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 802
-				802 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 803
-				803 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 106
-				106 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# Hungary
-			custom_trigger_tooltip = {
-				tooltip = acw_form_hungary_required_states_tt
-				#controls_state = 155
-				155 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 43
-				43 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 154
-				154 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
-		completion_reward = {
-			set_country_flag = acw_great_animeland_flag
-			set_cosmetic_tag = ACW_EMP
-			#add_country_leader_trait = wfc_empress
-			#add_political_power = 1000
-			# Bulgaria
-			if = {
-				limit = {
-					BUL = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = BUL
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_bulgaria_coring_states_tt
-			hidden_effect = {
-				48 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 48
-				801 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 801
-				212 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 212
-				211 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 211
-			}
-			#Romania
-			if = {
-				limit = {
-					ROM = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = ROM
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_romania_coring_states_tt
-			hidden_effect = {
-				46 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 46
-				76 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 76
-				77 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 77
-				79 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 79
-				81 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 81
-				82 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 82
-				83 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 83
-				84 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 84
-			}
-			# Yugoslavia
-			if = {
-				limit = {
-					YUG = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = YUG
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_yugoslavia_coring_states_tt
-			hidden_effect = {
-				# 102 = {
-				# 	add_core_of = ROOT
-				# }
-				# transfer_state = 102
-				# 103 = {
-				# 	add_core_of = ROOT
-				# }
-				# transfer_state = 103
-				109 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 109
-				104 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 104
-				804 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 804
-				105 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 105
-				107 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 107
-				45 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 45
-				764 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 764
-				108 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 108
-				802 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 802
-				803 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 803
-				106 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 106
-			}
-			# Hungary
-			if = {
-				limit = {
-					HUN = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = HUN
-					transfer_troops = yes
-				}
-			}
-			custom_effect_tooltip = acw_form_hungary_coring_states_tt
-			hidden_effect = {
-				155 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 155
-				43 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 43
-				154 = {
-					add_core_of = ROOT
-				}
-				transfer_state = 154
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_revolution_in_alb
-		icon = GFX_goal_generic_major_war
-		prerequisite = {
-			focus = acw_focus_great_animeland_com
-		}
-		x = -2
-		y = 1
-		relative_position_id = acw_focus_great_animeland_com
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			ALB = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_government = communism
-				}
-			}
-		}
-		available = {
-			NOT = {
-				is_in_faction_with = ALB
-			}
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = ALB
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_revolution_in_ita
-		icon = GFX_focus_attack_italy
-		prerequisite = {
-			focus = acw_focus_great_animeland_com
-		}
-		x = 0
-		y = 1
-		relative_position_id = acw_focus_great_animeland_com
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			ITA = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_government = communism
-				}
-			}
-		}
-		available = {
-			NOT = {
-				is_in_faction_with = ITA
-			}
-		}
-		completion_reward = {
-			ITA = {
-				every_owned_state = {
-					limit = {
-						OR = {
-							is_core_of = YUG
-							is_core_of = ALB
-						}
-					}
-					add_claim_by = ROOT
-				}
-			}
-			create_wargoal = {
-				target = ITA
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = {
 		id = acw_focus_path_to_empire
 		icon = GFX_focus_generic_strike_at_democracy1
-		x = 22
+		x = 17
 		y = 8
 		#relative_position_id = acw_focus_queens_party
 		cost = 5
@@ -1823,13 +911,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			available = {
-				has_completed_focus = acw_focus_complete_the_reform
-			}
-			OR = {
-				has_government = neutrality
-				has_government = fascism
-			}
+			has_completed_focus = acw_focus_complete_the_reform
+			is_subject = no
 		}
 		completion_reward = {
 			add_war_support = 0.1

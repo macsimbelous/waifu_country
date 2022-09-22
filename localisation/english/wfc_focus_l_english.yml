@@ -1,4 +1,5 @@
 ﻿l_english:
+#generic
  wfc_focus:0 "National Focus [ROOT.GetName]"
  wfc_army_effort:0 "Army Effort"
  wfc_army_effort_desc:0 "Despite the increasing possibilities of aerial and naval warfare, ground combat is still key in tomorrow's wars. With preparation, we can avoid reliving the hell of the trenches."
@@ -168,8 +169,18 @@
  acw_focus_attack_gre:0 "Occupy Greece"
  acw_focus_attack_ita:0 "Occupy Italy"
  acw_focus_tungsten_plant:0 "Tungsten Plant"
- acw_focus_great_animeland_com:0 "Proclaim Great Animeland"
- acw_focus_great_animeland_dem:0 "Proclaim Great Animeland"
+ acw_focus_join_allies:0 "Join an Ally"
+ acw_focus_invite_balkans:0 "Invite Balkan countries"
+ acw_focus_government_reform:0 "Government Reform"
+ acw_focus_create_minprom:0 "Ministry of Industry"
+ acw_focus_create_minscience:0 "Ministry of Science"
+ acw_focus_create_mintrans:0 "Ministry of Transport"
+ acw_focus_create_minoboron:0 "Ministry of Defense"
+ acw_focus_create_kgb:0 "National Security"
+ acw_focus_create_minpropagand:0 "Ministry of Propaganda"
+ acw_focus_complete_the_reform:0 "Complete the reform"
+ acw_focus_stavka:0 "High Command Headquarters"
+ acw_focus_colonial_office:0 "Colonial Office"
 
 #HEN
  hen_focus:0 "Hentalia Focuses"

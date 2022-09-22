@@ -9,9 +9,9 @@ bookmarks = {
 			history = "ACW_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				partial_economic_mobilisation
 				acw_archaic_government
-				ACW_anime_economic
+				limited_conscription
+				partial_economic_mobilisation
 			}
 			focuses = {
 				acw_focus_government_reform

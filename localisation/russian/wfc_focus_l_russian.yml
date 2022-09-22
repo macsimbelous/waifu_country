@@ -1,5 +1,5 @@
 ﻿l_russian:
-
+#generic
  wfc_focus:0 "Фокусы [ROOT.GetName]"
  wfc_army_effort:0 "Развитие армии"
  wfc_army_effort_desc:0 "Несмотря на все новые возможности ведения боевых действий на море и в воздухе, сухопутные войска остаются ключевым элементом войны. При должной подготовке мы сумеем избежать прежнего ада в траншеях."
@@ -167,8 +167,18 @@
  acw_focus_attack_gre:0 "Захватить Грецию"
  acw_focus_attack_ita:0 "Захватить Италию"
  acw_focus_tungsten_plant:0 "Производство вольфрама"
- acw_focus_great_animeland_com:0 "Провозгласить Великую Анимеляндию"
- acw_focus_great_animeland_dem:0 "Провозгласить Великую Анимеляндию"
+ acw_focus_join_allies:0 "Присоединиться к Союзника"
+ acw_focus_invite_balkans:0 "Пригласить балканские страны"
+ acw_focus_government_reform:0 "Реформа правительства"
+ acw_focus_create_minprom:0 "Министерство промышленности"
+ acw_focus_create_minscience:0 "Министерство науки"
+ acw_focus_create_mintrans:0 "Министерство транспорта"
+ acw_focus_create_minoboron:0 "Министерство обороны"
+ acw_focus_create_kgb:0 "Государственная безопасность"
+ acw_focus_create_minpropagand:0 "Министерство пропаганды"
+ acw_focus_complete_the_reform:0 "Завершить реформу"
+ acw_focus_stavka:0 "Ставка верховного командования"
+ acw_focus_colonial_office:0 "Министерство колоний"
 
 #HEN
  hen_focus:0 "Фокусы Хенталии"
