@@ -1811,7 +1811,6 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
-				bold
 				navy_career_officer
 			}
 			skill = 5
@@ -1832,6 +1831,7 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				bold
 			}
 			skill = 4
 			attack_skill = 4
@@ -1854,12 +1854,15 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				ironside
+				big_guns_expert
+				marksman
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 6
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
 		}
 		advisor = {
 			slot = navy_chief
@@ -1869,7 +1872,7 @@ characters = {
 				original_tag = ACW
 			}
 			traits = {
-				navy_chief_decisive_battle_3
+				navy_chief_decisive_battle_1
 			}
 		}
 	}
@@ -2057,6 +2060,9 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				bold
+				superior_tactician
+				concealment_expert
 			}
 			skill = 5
 			attack_skill = 6
@@ -2350,10 +2356,10 @@ characters = {
 				large = GFX_portrait_acw_mona_megistus_army
 				small = GFX_idea_acw_mona_megistus
 			}
-			navy = {
-				large = GFX_portrait_acw_mona_megistus_navy
-				small = GFX_idea_acw_mona_megistus
-			}
+			# navy = {
+			# 	large = GFX_portrait_acw_mona_megistus_navy
+			# 	small = GFX_idea_acw_mona_megistus
+			# }
 		}
 		advisor = {
 			slot = political_advisor

@@ -879,6 +879,8 @@ characters = {
 			traits = {
 				wfc_exp_navy_trait
 				navy_media_personality
+				superior_tactician
+				concealment_expert
 			}
 			skill = 5
 			attack_skill = 5
@@ -946,6 +948,7 @@ characters = {
 			traits = {
 				wfc_exp_navy_trait
 				naval_lineage
+				fleet_protector
 			}
 			skill = 4
 			attack_skill = 4

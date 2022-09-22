@@ -737,12 +737,15 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				ironside
+				big_guns_expert
+				marksman
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 5
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 		}
 		advisor = {
 			slot = navy_chief

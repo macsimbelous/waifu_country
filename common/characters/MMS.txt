@@ -1052,7 +1052,9 @@ characters = {
 			traits = {
 				wfc_exp_navy_trait
 				blue_water_expert
+				ironside
 				big_guns_expert
+				marksman
 			}
 			skill = 4
 			attack_skill = 4
@@ -1070,21 +1072,11 @@ characters = {
 				large = GFX_portrait_mms_purifier
 			}
 		}
-		advisor = {
-			slot = navy_chief
-			idea_token = MMS_purifier
-			cost = 50
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				navy_chief_decisive_battle_3
-			}
-		}
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
 				green_water_expert
+				fleet_protector
 				destroyer_leader
 			}
 			skill = 4
@@ -1100,23 +1092,32 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_tester
-			}
-			army = {
 				large = GFX_portrait_mms_tester
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MMS_tester
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				navy_chief_decisive_battle_1
 			}
 		}
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
-				arctic_water_expert
-				cruiser_captain
+				ironside
+				big_guns_expert
+				marksman
 			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_meroune_lorelei = {

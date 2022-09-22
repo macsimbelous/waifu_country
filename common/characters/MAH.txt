@@ -989,6 +989,9 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				ironside
+				big_guns_expert
+				marksman
 			}
 			skill = 5
 			attack_skill = 6
@@ -1004,7 +1007,7 @@ characters = {
 				original_tag = MAH
 			}
 			traits = {
-				navy_chief_decisive_battle_3
+				navy_chief_decisive_battle_1
 			}
 		}
 	}

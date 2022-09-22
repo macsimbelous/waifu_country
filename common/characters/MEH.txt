@@ -821,20 +821,12 @@ characters = {
 				large = GFX_portrait_meh_takao_arp
 			}
 		}
-		advisor = {
-			slot = navy_chief
-			idea_token = MEH_Takao_ARP
-			cost = 50
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				navy_anti_submarine_1
-			}
-		}
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				seawolf
+				fly_swatter
+				cruiser_captain
 			}
 			skill = 5
 			attack_skill = 6
@@ -856,6 +848,7 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				seawolf
 				silent_hunter
 				torpedo_expert
 			}
@@ -887,9 +880,23 @@ characters = {
 				large = GFX_portrait_meh_haruna
 			}
 		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MEH_Haruna_ARP
+			cost = 50
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_chief_decisive_battle_1
+			}
+		}
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				ironside
+				big_guns_expert
+				marksman
 			}
 			skill = 4
 			attack_skill = 4
@@ -941,6 +948,9 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
+				ironside
+				big_guns_expert
+				marksman
 			}
 			skill = 4
 			attack_skill = 4

@@ -1110,6 +1110,10 @@ focus_tree = {
 		completion_reward = {
 			YUG = {
 				every_owned_state = {
+					limit = {
+						state = 102
+						state = 103
+					}
 					add_claim_by = ROOT
 				}
 			}
@@ -1198,6 +1202,11 @@ focus_tree = {
 		completion_reward = {
 			ROM = {
 				every_owned_state = {
+					limit = {
+						state = 80
+						state = 78
+						state = 766
+					}
 					add_claim_by = ROOT
 				}
 			}
@@ -2027,7 +2036,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = acw_create_stavka_decision_tt
 				check_variable = {
-					num_battalions > 1999
+					num_battalions > 999
 				}
 			}
 			has_deployed_air_force_size = {
