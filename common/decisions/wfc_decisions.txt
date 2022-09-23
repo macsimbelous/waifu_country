@@ -4181,41 +4181,12 @@ prospect_for_resources = {
 }
 
 wfc_puppets_category = {
-	wfc_create_intelligence_agency_decision = {
-		fire_only_once = yes
-		cost = 0
-		days_remove = 30
-		allowed = {
-			always = no
-		}
-		visible = {
-			is_ai = yes
-			has_intelligence_agency = no
-			NOT = {
-				tag = ACW
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 4
-		}
-		modifier = {
-			civilian_factory_use = 5
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		remove_effect = {
-			create_intelligence_agency = {
-				icon = GFX_intelligence_agency_logo_generic_8
-				name = "Intelligence Agency"
-			}
-		}
-	}
 	wfc_create_puppet_decision = {
 		name = wfc_create_puppet_decision.t
 		available = {
 			#has_war = no
 			is_puppet = no
+			is_major = yes
 			has_intelligence_agency = yes
 			ic_ratio = {
 				tag = FROM
@@ -4227,6 +4198,8 @@ wfc_puppets_category = {
 			}
 			FROM = {
 				has_war = no
+				is_major = no
+				is_subject = no
 			}
 			# if = {
 			# 	limit = {
@@ -4248,6 +4221,8 @@ wfc_puppets_category = {
 		}
 		visible = {
 			FROM = {
+				is_major = no
+				is_subject = no
 				OR = {
 					any_neighbor_country = {
 						OR = {
