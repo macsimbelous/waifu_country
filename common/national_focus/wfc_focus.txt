@@ -1729,7 +1729,7 @@ shared_focus = {
 	icon = GFX_goal_generic_demand_territory
 	x = 19
 	y = 0
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -1758,7 +1758,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = wfc_political_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -1806,7 +1806,7 @@ shared_focus = {
 	x = -2
 	y = 1
 	relative_position_id = wfc_collectivist_ethos
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -1868,7 +1868,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_collectivist_ethos
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -1918,7 +1918,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = wfc_political_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -1956,7 +1956,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_nationalism_focus
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -1985,7 +1985,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_internationalism_focus
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2014,7 +2014,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_liberty_ethos
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2063,7 +2063,7 @@ shared_focus = {
 	x = 2
 	y = 1
 	relative_position_id = wfc_liberty_ethos
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2102,7 +2102,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_militarism
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2139,7 +2139,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_neutrality_focus
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 		FOCUS_FILTER_INDUSTRY
@@ -2159,7 +2159,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_interventionism_focus
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2178,7 +2178,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_military_youth
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2197,7 +2197,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_political_correctness
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2217,7 +2217,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_volunteer_corps
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2244,7 +2244,7 @@ shared_focus = {
 	x = -2
 	y = 1
 	relative_position_id = wfc_foreign_expeditions
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2278,7 +2278,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_indoctrination_focus
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2317,7 +2317,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = wfc_paramilitarism
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2357,7 +2357,7 @@ shared_focus = {
 	x = 2
 	y = 1
 	relative_position_id = wfc_ideological_fanaticism
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 		FOCUS_FILTER_RESEARCH
