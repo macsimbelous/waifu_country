@@ -31,11 +31,14 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			OR = {
-				has_government = neutrality
-				has_government = communism
-				has_government = fascism
+			NOT = {
+				has_country_leader_with_trait = defeatist
 			}
+			# OR = {
+			# 	has_government = neutrality
+			# 	has_government = communism
+			# 	has_government = fascism
+			# }
 		}
 		completion_reward = {
 			add_war_support = 0.05

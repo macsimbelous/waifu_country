@@ -207,7 +207,7 @@ recruit_character = MMS_kuraishi_eriko
 recruit_character = MMS_rias_gremory
 create_operative_leader = {
 	name = "Rias Gremory"
-	GFX = GFX_portrait_mms_rias_gremory
+	GFX = GFX_portrait_mms_rias_gremory_army
 	traits = {
 		operative_seducer
 	}

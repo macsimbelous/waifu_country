@@ -1452,10 +1452,11 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_transfer_navy_from_federal_subject = {
-		cost = 50
+		cost = 100
 		visible = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				is_puppet = yes
+				# has_autonomy_state = autonomy_federation_subject
 				check_variable = {
 					num_ships > 0
 				}
@@ -1480,7 +1481,8 @@ wfc_subjects_category = {
 		target_array = subjects
 		target_trigger = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				is_puppet = yes
+				#has_autonomy_state = autonomy_federation_subject
 			}
 		}
 		complete_effect = {
