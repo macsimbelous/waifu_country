@@ -631,6 +631,7 @@ focus_tree = {
 		completion_reward = {
 			set_cosmetic_tag = MAH_CRY_EMP
 			set_country_flag = mah_crystal_empire_formed_flag
+			set_major = yes
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
 			hidden_effect = {
 				676 = {

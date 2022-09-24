@@ -1937,6 +1937,7 @@
 		completion_reward = {
 			set_cosmetic_tag = TRP_SAF
 			set_country_flag = trp_south_american_federation_formed_flag
+			set_major = yes
 			hidden_effect = {
 				transfer_state = 493
 				transfer_state = 306

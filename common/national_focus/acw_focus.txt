@@ -1517,6 +1517,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = acw_great_animeland_flag
 			set_cosmetic_tag = ACW_EMP
+			set_major = yes
 			#add_country_leader_trait = wfc_empress
 			#add_political_power = 1000
 			# Bulgaria

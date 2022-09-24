@@ -965,6 +965,9 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			hidden_effect = {
+				set_major = yes
+			}
 			MEX = {
 				every_owned_state = {
 					add_claim_by = MEH
@@ -1047,6 +1050,9 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			hidden_effect = {
+				set_major = yes
+			}
 			CAN = {
 				every_owned_state = {
 					add_claim_by = MEH
