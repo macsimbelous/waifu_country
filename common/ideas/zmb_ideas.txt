@@ -53,6 +53,7 @@ ideas = {
 				foreign_subversive_activites = -1
 				ai_focus_aggressive_factor = 2
 				justify_war_goal_time = -1
+				supply_consumption_factor = -1
 			}
 			rule = {
 				can_force_government = no
