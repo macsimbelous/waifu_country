@@ -3264,6 +3264,7 @@ prospect_for_resources = {
 		days_re_enable = 30
 		days_remove = 30
 		priority = 3
+		fixed_random_seed = no
 		available = {
 			has_tech = excavation1
 			any_owned_state = {

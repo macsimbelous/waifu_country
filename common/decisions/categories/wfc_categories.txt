@@ -142,6 +142,7 @@ wfl_perimetr_category = {
 wfl_gacha_category = {
 	priority = 1
 	allowed = {
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
@@ -241,6 +242,9 @@ wfc_construction_phase_category = {
 			original_tag = MEH
 			original_tag = MMS
 		}
+	}
+	visible = {
+		owns_state > 20
 	}
 }
 

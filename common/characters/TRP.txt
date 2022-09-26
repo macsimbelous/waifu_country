@@ -332,7 +332,6 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				naval_invader
-				commando
 			}
 			skill = 4
 			attack_skill = 4
@@ -675,8 +674,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				panzer_leader
-				trait_engineer
+				trait_mountaineer
 			}
 			skill = 4
 			attack_skill = 6

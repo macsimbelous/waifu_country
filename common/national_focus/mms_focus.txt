@@ -275,49 +275,52 @@ focus_tree = {
 			412 = {
 				add_manpower = -1000000
 			}
-			415 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			267 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			419 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			421 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			413 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			420 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			417 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			411 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			266 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			418 = {
-				add_manpower = 91000
-				add_core_of = MMS
-			}
-			416 = {
-				add_manpower = 91000
-				add_core_of = MMS
+			custom_effect_tooltip = mms_colonization_per_and_afg_flag_tt
+			hidden_effect = {
+				415 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				267 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				419 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				421 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				413 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				420 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				417 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				411 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				266 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				418 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
+				416 = {
+					add_manpower = 91000
+					add_core_of = MMS
+				}
 			}
 		}
 		ai_will_do = {
@@ -334,6 +337,8 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 20
+		cancelable = no
+		available_if_capitulated = yes
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -349,15 +354,15 @@ focus_tree = {
 				60 = {
 					modifier = {
 						has_idea = MMS_kurari_rose
-						factor = 1.5
+						factor = 1.6
 					}
 					modifier = {
 						has_idea = MMS_touka_kuroitsu
-						factor = 1.5
+						factor = 1.6
 					}
 					modifier = {
 						has_idea = MMS_saphentite_neikes
-						factor = 1.5
+						factor = 1.6
 					}
 					add_ideas = mms_necromancy
 					create_operative_leader = {
@@ -370,7 +375,8 @@ focus_tree = {
 						bypass_recruitment = no
 						available_to_spy_master = yes
 						nationalities = {
-							MMS ZMB
+							MMS
+							ZMB
 						}
 					}
 				}

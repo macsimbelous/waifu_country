@@ -729,8 +729,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				jungle_rat
-				infantry_leader
+				trait_mountaineer
 			}
 			skill = 4
 			attack_skill = 5
