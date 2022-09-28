@@ -1163,6 +1163,14 @@ focus_tree = {
 				468 = { wfc_is_controlled_by_root_or_puppet = yes }
 				465 = { wfc_is_controlled_by_root_or_puppet = yes }
 				464 = { wfc_is_controlled_by_root_or_puppet = yes }
+				864 = { wfc_is_controlled_by_root_or_puppet = yes }
+				865 = { wfc_is_controlled_by_root_or_puppet = yes }
+				867 = { wfc_is_controlled_by_root_or_puppet = yes }
+				866 = { wfc_is_controlled_by_root_or_puppet = yes }
+				862 = { wfc_is_controlled_by_root_or_puppet = yes }
+				863 = { wfc_is_controlled_by_root_or_puppet = yes }
+				861 = { wfc_is_controlled_by_root_or_puppet = yes }
+				860 = { wfc_is_controlled_by_root_or_puppet = yes }
 			}
 			332 = { wfc_is_controlled_by_root_or_puppet = yes }
 		}

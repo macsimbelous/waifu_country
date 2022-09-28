@@ -229,14 +229,37 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			292 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			678 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			679 = {
-				wfc_is_controlled_by_root_or_puppet = yes
+			# Saudi Arabia
+			custom_trigger_tooltip = {
+				tooltip = form_country_saudi_required_states_tt
+				292 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				678 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				679 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+
+				854 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				855 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				856 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				857 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				858 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				859 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 		}
 		completion_reward = {
