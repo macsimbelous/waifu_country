@@ -1,0 +1,376 @@
+peace_ai_desires = {
+	wfc_take_claims = {
+		peace_action_type = take_state
+		enable = {
+			ROOT.FROM.FROM.FROM = {
+				is_claimed_by = ROOT.FROM
+			}
+			ROOT.FROM = {
+				OR = {
+					tag = ACW
+					tag = MAH
+					tag = MEH
+					tag = MMS
+					tag = HEN
+					tag = TRP
+				}
+			}
+		}
+		ai_desire = 400
+	}
+	acw_take_claims = {
+		peace_action_type = take_state
+		enable = {
+			ROOT.FROM.FROM.FROM = {
+				OR = {
+					#yug
+					state = 109
+					state = 104
+					state = 804
+					state = 105
+					state = 45
+					state = 764
+					state = 107
+					state = 108
+					state = 802
+					state = 803
+					state = 106
+					#hun
+					state = 155
+					state = 43
+					state = 154
+					#rom
+					state = 82
+					state = 83
+					state = 76
+					state = 84
+					state = 81
+					state = 79
+					state = 46
+					state = 77
+					#bul
+					state = 48
+					state = 801
+					state = 212
+					state = 211
+				}
+			}
+			ROOT.FROM = {
+				tag = ACW
+			}
+		}
+		ai_desire = 100
+	}
+	hen_take_claims = {
+		peace_action_type = take_state
+		enable = {
+			ROOT.FROM.FROM.FROM = {
+				OR = {
+					#jap
+					state = 537
+					state = 555
+					state = 536
+					state = 533
+					state = 534
+					state = 282
+					state = 535
+					state = 532
+					state = 531
+					state = 530
+					state = 529
+					state = 528
+					state = 526
+					state = 645
+					state = 648
+					state = 524
+					state = 609
+					#state = 745
+					#state = 527
+					#state = 525
+					state = 647
+					state = 684
+					state = 646
+					state = 633
+				}
+			}
+			ROOT.FROM = {
+				tag = HEN
+			}
+		}
+		ai_desire = 100
+	}
+	hen_korea_puppet = {
+        peace_action_type = puppet
+        enable = {
+            ROOT.FROM = { tag = KOR }
+            ROOT.FROM.FROM.FROM = { is_core_of = KOR }
+            tag = HEN
+        }
+        ai_desire = 150
+    }
+	hen_puppet_japan = {
+        peace_action_type = { puppet }
+        enable = {
+            FROM.FROM.FROM = {
+                state = 745
+            }
+            ROOT = {
+                original_tag = HEN
+            }
+        }
+        ai_desire = 150
+    }
+	mah_take_claims = {
+		peace_action_type = take_state
+		enable = {
+			ROOT.FROM.FROM.FROM = {
+				OR = {
+					#irq
+					state = 676
+					state = 675
+					state = 291
+					#sau
+					state = 855
+					state = 679
+					state = 856
+					state = 854
+					state = 857
+					state = 292
+					state = 858
+					state = 859
+					state = 678
+					#yem
+					state = 293
+					state = 659
+					state = 906
+					#oma
+					state = 294
+					#colons
+					state = 656
+					state = 765
+					state = 658
+					state = 183
+				}
+			}
+			ROOT.FROM = {
+				tag = MAH
+			}
+		}
+		ai_desire = 100
+	}
+	mah_egypt_puppet = {
+        peace_action_type = puppet
+        enable = {
+            ROOT.FROM = { tag = EGY }
+            ROOT.FROM.FROM.FROM = { is_core_of = EGY }
+            tag = MAH
+        }
+        ai_desire = 150
+    }
+	mah_turkey_puppet = {
+        peace_action_type = puppet
+        enable = {
+            ROOT.FROM = { tag = TUR }
+            ROOT.FROM.FROM.FROM = { is_core_of = TUR }
+            tag = MAH
+        }
+        ai_desire = 150
+    }
+	meh_take_claims = {
+		peace_action_type = take_state
+		enable = {
+			ROOT.FROM.FROM.FROM = {
+				OR = {
+					#usa
+					state = 650
+					state = 463
+					state = 386
+					state = 385
+					state = 387
+					state = 388
+					state = 381
+					state = 380
+					state = 377
+					state = 382
+					state = 376
+					state = 389
+					state = 390
+					state = 384
+					state = 383
+					state = 374
+					state = 375
+					state = 391
+					state = 392
+					state = 373
+					state = 372
+					state = 371
+					state = 394
+					state = 395
+					state = 396
+					state = 393
+					state = 261
+					state = 369
+					state = 368
+					state = 370
+					state = 367
+					state = 366
+					state = 365
+					state = 364
+					state = 363
+					state = 362
+					state = 716
+					state = 361
+					state = 360
+					state = 359
+					state = 358
+					state = 357
+					state = 686
+					state = 685
+					state = 629
+					state = 638
+					state = 632
+					state = 631
+					state = 642
+					state = 727
+					state = 630
+					#can
+					state = 739
+					state = 740
+					state = 864
+					state = 471
+					state = 473
+					state = 472
+					state = 470
+					state = 865
+					state = 469
+					state = 683
+					state = 867
+					state = 467
+					state = 866
+					state = 682
+					state = 276
+					state = 862
+					state = 466
+					state = 861
+					state = 863
+					state = 860
+					state = 468
+					state = 465
+					state = 464
+					state = 332
+					state = 331
+					#mex
+					state = 484
+					state = 483
+					state = 482
+					state = 481
+					state = 480
+					state = 479
+					state = 478
+					state = 485
+					state = 277
+					state = 477
+					state = 476
+					state = 475
+					state = 474
+				}
+			}
+			ROOT.FROM = {
+				tag = MEH
+			}
+		}
+		ai_desire = 100
+	}
+	mms_take_claims = {
+		peace_action_type = take_state
+		enable = {
+			ROOT.FROM.FROM.FROM = {
+				OR = {
+					#afg
+					state = 267
+					state = 415
+					#per
+					state = 419
+					state = 420
+					state = 421
+					state = 413
+					state = 417
+					state = 411
+					state = 266
+					state = 418
+					state = 416
+				}
+			}
+			ROOT.FROM = {
+				tag = MMS
+			}
+		}
+		ai_desire = 100
+	}
+	trp_take_claims = {
+		peace_action_type = take_state
+		enable = {
+			ROOT.FROM.FROM.FROM = {
+				OR = {
+					#ven
+					state = 488
+					state = 307
+					state = 489
+					#col
+					state = 493
+					state = 306
+					state = 486
+					#ecu
+					state = 305
+					state = 649
+					#pru
+					state = 490
+					state = 491
+					state = 303
+					state = 494
+					state = 492
+					#bol
+					state = 487
+					state = 302
+					#chl
+					state = 506
+					state = 279
+					state = 507
+					#arg
+					state = 512
+					state = 511
+					state = 278
+					state = 510
+					state = 509
+					state = 508
+					#urg
+					state = 300
+					#bra
+					state = 502
+					state = 503
+					state = 501
+					state = 504
+					state = 505
+					state = 496
+					state = 500
+					state = 499
+					state = 498
+					state = 497
+					#colons
+					state = 310
+					state = 309
+					state = 687
+					state = 691
+					state = 695
+					state = 299
+				}
+			}
+			ROOT.FROM = {
+				tag = TRP
+			}
+		}
+		ai_desire = 100
+	}
+}
+
+
