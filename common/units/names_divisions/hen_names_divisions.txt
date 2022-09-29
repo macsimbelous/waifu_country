@@ -1,37 +1,38 @@
-﻿ACW_INF_01 = {
-	name = "Anime Division"
+﻿HEN_INF_01 = {
+	name = "Rifle Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
-	fallback_name = "%dya Animeshnaya Strelkovaya Diviziya"
+	fallback_name = "%dya Hentainaya Strelkovaya Diviziya"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered = {
+	ordered =
+	{
 		5 = { "%dya 'Vitebskaya' Strelk. Div." }
 		6 = { "%dya 'Orlovskaya' Strelk. Div." }
 		7 = { "%dya 'Chernigovskaya' Strelk. Div." }
 		8 = { "%dya 'Minskaya' Strelk. Div." }
 		16 = { "%dya 'Ul'yanovskaya' Strelk. Div." }
-		18 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		18 = { "%dya Hentainaya Strelk. Div." }
 		21 = { "%dya 'Permskaya' Strelk. Div." }
 		22 = { "%dya 'Krasnodarskaya' Strelk. Div." }
 		23 = { "%dya 'Har'kovskaya' Strelk. Div." }
 		24 = { "%dya 'Samaro-Ul'yanov.' Strelk. Div." }
-		38 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		49 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		38 = { "%dya Hentainaya Strelk. Div." }
+		49 = { "%dya Hentainaya Strelk. Div." }
 		51 = { "%dya 'Perekopskaya' Strelk. Div." }
 		2 = { "%dya 'Belorusskaya' Strelk. Div." }
 		15 = { "%dya 'Sivashskaya' Strelk. Div." }
 		31 = { "%dya 'Stalingradskaya' Strelk. Div." }
-		37 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		37 = { "%dya Hentainaya Strelk. Div." }
 		56 = { "%dya 'Moskva' Strelk. Div." }
 		57 = { "%dya 'Ural'skaya' Strelk. Div." }
 		17 = { "%dya 'Gor'kovskaya' Strelk. Div." }
@@ -50,398 +51,398 @@
 		12 = { "%dya 'Amur' Strelk. Div." }
 		46 = { "%dya 'Dnepropetrovskaya' Strelk. Div." }
 		80 = { "%dya 'Donbassa' Strelk. Div." }
-		81 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		81 = { "%dya Hentainaya Strelk. Div." }
 		84 = { "%dya 'Tul'skogo' Strelk. Div." }
 		95 = { "%dya 'Moldavskaya' Strelk. Div." }
 		1 = { "%dya 'Moskva Proletarskaya' Motostrelk. Div." }
-		43 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		99 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		100 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		43 = { "%dya Hentainaya Strelk. Div." }
+		99 = { "%dya Hentainaya Strelk. Div." }
+		100 = { "%dya Hentainaya Strelk. Div." }
 		25 = { "%dya 'Chapaevskaya' Strelk. Div." }
 		40 = { "%dya 'Bogucharskaya' Strelk. Div." }
-		41 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		41 = { "%dya Hentainaya Strelk. Div." }
 		55 = { "%dya 'Kurskaya' Strelk. Div." }
 		62 = { "%dya 'Turkestanskaya' Strelk. Div." }
-		75 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		53 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		65 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		85 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		59 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		66 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		69 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		78 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		75 = { "%dya Hentainaya Strelk. Div." }
+		53 = { "%dya Hentainaya Strelk. Div." }
+		65 = { "%dya Hentainaya Strelk. Div." }
+		85 = { "%dya Hentainaya Strelk. Div." }
+		59 = { "%dya Hentainaya Strelk. Div." }
+		66 = { "%dya Hentainaya Strelk. Div." }
+		69 = { "%dya Hentainaya Strelk. Div." }
+		78 = { "%dya Hentainaya Strelk. Div." }
 		82 = { "%dya Motostrelkovaya Diviziya" }
-		94 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		94 = { "%dya Hentainaya Strelk. Div." }
 		61 = { "%dya 'Turkestanskaya' Strelk. Div." }
 		32 = { "%dya 'Saratovskaya' Strelk. Div." }
 		34 = { "%dya 'Srednevolzhskaya' Strelk. Div." }
 		35 = { "%dya 'Sibirskaya' Strelk. Div." }
 		36 = { "%dya 'Zabajkal'skaya'Strelk. Div." }
-		70 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		71 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		54 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		64 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		73 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		70 = { "%dya Hentainaya Strelk. Div." }
+		71 = { "%dya Hentainaya Strelk. Div." }
+		54 = { "%dya Hentainaya Strelk. Div." }
+		64 = { "%dya Hentainaya Strelk. Div." }
+		73 = { "%dya Hentainaya Strelk. Div." }
 		26 = { "%dya 'Zlatoustovskaya' Strelk. Div." }
-		52 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		87 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		11 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		52 = { "%dya Hentainaya Strelk. Div." }
+		87 = { "%dya Hentainaya Strelk. Div." }
+		11 = { "%dya Hentainaya Strelk. Div." }
 		45 = { "%dya 'Volynskaya' Strelk. Div." }
-		97 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		98 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		108 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		116 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		111 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		67 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		97 = { "%dya Hentainaya Strelk. Div." }
+		98 = { "%dya Hentainaya Strelk. Div." }
+		108 = { "%dya Hentainaya Strelk. Div." }
+		116 = { "%dya Hentainaya Strelk. Div." }
+		111 = { "%dya Hentainaya Strelk. Div." }
+		67 = { "%dya Hentainaya Strelk. Div." }
 		93 = { "%dya 'Vostochno-Sibir.' Strelk. Div." }
-		92 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		92 = { "%dya Hentainaya Strelk. Div." }
 		50 = { "%dya 'Tamanskaya' Strelk. Div." }
-		105 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		105 = { "%dya Hentainaya Strelk. Div." }
 		86 = { "%dya 'Kazanskaya' Strelk. Div." }
-		90 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		104 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		118 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		126 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		127 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		129 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		130 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		132 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		133 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		134 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		135 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		136 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		137 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		139 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		140 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		141 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		142 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		143 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		144 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		145 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		146 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		148 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		149 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		150 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		151 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		152 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		155 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		156 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		157 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		158 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		159 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		160 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		162 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		164 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		166 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		168 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		169 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		170 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		171 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		172 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		173 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		176 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		178 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		180 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		182 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		186 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		187 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		114 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		120 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		91 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		102 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		107 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		115 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		117 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		119 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		121 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		123 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		124 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		125 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		88 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		89 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		110 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		112 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		113 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		122 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		42 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		106 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		128 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		153 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		154 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		161 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		165 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		167 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		174 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		175 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		177 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		179 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		181 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		183 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		184 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		188 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		189 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		190 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		191 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		193 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		195 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		90 = { "%dya Hentainaya Strelk. Div." }
+		104 = { "%dya Hentainaya Strelk. Div." }
+		118 = { "%dya Hentainaya Strelk. Div." }
+		126 = { "%dya Hentainaya Strelk. Div." }
+		127 = { "%dya Hentainaya Strelk. Div." }
+		129 = { "%dya Hentainaya Strelk. Div." }
+		130 = { "%dya Hentainaya Strelk. Div." }
+		132 = { "%dya Hentainaya Strelk. Div." }
+		133 = { "%dya Hentainaya Strelk. Div." }
+		134 = { "%dya Hentainaya Strelk. Div." }
+		135 = { "%dya Hentainaya Strelk. Div." }
+		136 = { "%dya Hentainaya Strelk. Div." }
+		137 = { "%dya Hentainaya Strelk. Div." }
+		139 = { "%dya Hentainaya Strelk. Div." }
+		140 = { "%dya Hentainaya Strelk. Div." }
+		141 = { "%dya Hentainaya Strelk. Div." }
+		142 = { "%dya Hentainaya Strelk. Div." }
+		143 = { "%dya Hentainaya Strelk. Div." }
+		144 = { "%dya Hentainaya Strelk. Div." }
+		145 = { "%dya Hentainaya Strelk. Div." }
+		146 = { "%dya Hentainaya Strelk. Div." }
+		148 = { "%dya Hentainaya Strelk. Div." }
+		149 = { "%dya Hentainaya Strelk. Div." }
+		150 = { "%dya Hentainaya Strelk. Div." }
+		151 = { "%dya Hentainaya Strelk. Div." }
+		152 = { "%dya Hentainaya Strelk. Div." }
+		155 = { "%dya Hentainaya Strelk. Div." }
+		156 = { "%dya Hentainaya Strelk. Div." }
+		157 = { "%dya Hentainaya Strelk. Div." }
+		158 = { "%dya Hentainaya Strelk. Div." }
+		159 = { "%dya Hentainaya Strelk. Div." }
+		160 = { "%dya Hentainaya Strelk. Div." }
+		162 = { "%dya Hentainaya Strelk. Div." }
+		164 = { "%dya Hentainaya Strelk. Div." }
+		166 = { "%dya Hentainaya Strelk. Div." }
+		168 = { "%dya Hentainaya Strelk. Div." }
+		169 = { "%dya Hentainaya Strelk. Div." }
+		170 = { "%dya Hentainaya Strelk. Div." }
+		171 = { "%dya Hentainaya Strelk. Div." }
+		172 = { "%dya Hentainaya Strelk. Div." }
+		173 = { "%dya Hentainaya Strelk. Div." }
+		176 = { "%dya Hentainaya Strelk. Div." }
+		178 = { "%dya Hentainaya Strelk. Div." }
+		180 = { "%dya Hentainaya Strelk. Div." }
+		182 = { "%dya Hentainaya Strelk. Div." }
+		186 = { "%dya Hentainaya Strelk. Div." }
+		187 = { "%dya Hentainaya Strelk. Div." }
+		114 = { "%dya Hentainaya Strelk. Div." }
+		120 = { "%dya Hentainaya Strelk. Div." }
+		91 = { "%dya Hentainaya Strelk. Div." }
+		102 = { "%dya Hentainaya Strelk. Div." }
+		107 = { "%dya Hentainaya Strelk. Div." }
+		115 = { "%dya Hentainaya Strelk. Div." }
+		117 = { "%dya Hentainaya Strelk. Div." }
+		119 = { "%dya Hentainaya Strelk. Div." }
+		121 = { "%dya Hentainaya Strelk. Div." }
+		123 = { "%dya Hentainaya Strelk. Div." }
+		124 = { "%dya Hentainaya Strelk. Div." }
+		125 = { "%dya Hentainaya Strelk. Div." }
+		88 = { "%dya Hentainaya Strelk. Div." }
+		89 = { "%dya Hentainaya Strelk. Div." }
+		110 = { "%dya Hentainaya Strelk. Div." }
+		112 = { "%dya Hentainaya Strelk. Div." }
+		113 = { "%dya Hentainaya Strelk. Div." }
+		122 = { "%dya Hentainaya Strelk. Div." }
+		42 = { "%dya Hentainaya Strelk. Div." }
+		106 = { "%dya Hentainaya Strelk. Div." }
+		128 = { "%dya Hentainaya Strelk. Div." }
+		153 = { "%dya Hentainaya Strelk. Div." }
+		154 = { "%dya Hentainaya Strelk. Div." }
+		161 = { "%dya Hentainaya Strelk. Div." }
+		165 = { "%dya Hentainaya Strelk. Div." }
+		167 = { "%dya Hentainaya Strelk. Div." }
+		174 = { "%dya Hentainaya Strelk. Div." }
+		175 = { "%dya Hentainaya Strelk. Div." }
+		177 = { "%dya Hentainaya Strelk. Div." }
+		179 = { "%dya Hentainaya Strelk. Div." }
+		181 = { "%dya Hentainaya Strelk. Div." }
+		183 = { "%dya Hentainaya Strelk. Div." }
+		184 = { "%dya Hentainaya Strelk. Div." }
+		188 = { "%dya Hentainaya Strelk. Div." }
+		189 = { "%dya Hentainaya Strelk. Div." }
+		190 = { "%dya Hentainaya Strelk. Div." }
+		191 = { "%dya Hentainaya Strelk. Div." }
+		193 = { "%dya Hentainaya Strelk. Div." }
+		195 = { "%dya Hentainaya Strelk. Div." }
 		196 = { "%dya 'Dnepropetrov.' Strelk. Div." }
 		197 = { "%dya 'Kievskaya' Strelk. Div." }
-		199 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		200 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		206 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		214 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		217 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		222 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		227 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		228 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		229 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		232 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		233 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		235 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		237 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		238 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		201 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		203 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		207 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		211 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		223 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		224 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		225 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		226 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		230 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		231 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		234 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		241 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		243 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		244 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		245 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		246 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		247 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		248 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		249 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		250 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		251 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		252 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		253 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		254 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		255 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		256 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		257 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		258 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		259 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		260 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		261 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		262 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		263 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		264 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		265 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		266 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		267 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		268 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		269 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		270 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		271 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		272 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		273 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		274 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		275 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		276 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		277 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		278 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		279 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		280 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		281 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		282 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		283 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		284 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		285 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		286 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		287 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		288 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		289 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		290 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		291 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		292 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		293 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		294 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		295 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		296 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		297 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		298 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		299 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		300 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		301 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		303 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		304 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		305 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		306 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		307 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		308 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		310 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		311 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		312 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		313 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		314 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		315 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		316 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		317 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		318 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		319 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		320 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		321 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		322 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		323 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		324 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		325 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		326 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		327 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		328 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		329 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		330 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		332 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		333 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		334 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		335 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		336 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		337 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		339 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		340 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		341 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		342 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		343 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		344 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		345 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		346 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		348 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		349 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		350 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		351 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		352 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		353 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		354 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		355 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		356 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		357 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		358 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		359 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		360 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		361 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		362 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		364 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		365 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		366 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		367 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		368 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		369 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		370 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		371 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		372 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		373 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		374 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		375 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		376 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		377 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		378 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		379 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		380 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		381 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		382 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		383 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		384 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		386 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		387 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		388 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		389 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		390 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		391 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		393 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		395 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		396 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		397 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		399 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		400 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		402 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		404 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		405 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		406 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		407 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		408 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		409 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		411 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		412 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		413 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		414 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		415 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		416 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		417 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		422 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		445 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		410 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		418 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		419 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		420 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		421 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		423 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		424 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		425 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		426 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		427 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		428 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		429 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		430 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		432 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		433 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		434 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		435 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		436 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		437 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		439 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		440 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		441 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		442 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		443 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		444 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		446 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		448 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		449 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		450 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		451 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		452 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		453 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		454 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		455 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		456 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		457 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		458 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		459 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		460 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		461 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		462 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		464 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		465 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		466 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		467 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		468 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		469 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		470 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		471 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		472 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		473 = { "%dya Animeshnaya Strelkovaya Diviziya" }
-		474 = { "%dya Animeshnaya Strelkovaya Diviziya" }
+		199 = { "%dya Hentainaya Strelk. Div." }
+		200 = { "%dya Hentainaya Strelk. Div." }
+		206 = { "%dya Hentainaya Strelk. Div." }
+		214 = { "%dya Hentainaya Strelk. Div." }
+		217 = { "%dya Hentainaya Strelk. Div." }
+		222 = { "%dya Hentainaya Strelk. Div." }
+		227 = { "%dya Hentainaya Strelk. Div." }
+		228 = { "%dya Hentainaya Strelk. Div." }
+		229 = { "%dya Hentainaya Strelk. Div." }
+		232 = { "%dya Hentainaya Strelk. Div." }
+		233 = { "%dya Hentainaya Strelk. Div." }
+		235 = { "%dya Hentainaya Strelk. Div." }
+		237 = { "%dya Hentainaya Strelk. Div." }
+		238 = { "%dya Hentainaya Strelk. Div." }
+		201 = { "%dya Hentainaya Strelk. Div." }
+		203 = { "%dya Hentainaya Strelk. Div." }
+		207 = { "%dya Hentainaya Strelk. Div." }
+		211 = { "%dya Hentainaya Strelk. Div." }
+		223 = { "%dya Hentainaya Strelk. Div." }
+		224 = { "%dya Hentainaya Strelk. Div." }
+		225 = { "%dya Hentainaya Strelk. Div." }
+		226 = { "%dya Hentainaya Strelk. Div." }
+		230 = { "%dya Hentainaya Strelk. Div." }
+		231 = { "%dya Hentainaya Strelk. Div." }
+		234 = { "%dya Hentainaya Strelk. Div." }
+		241 = { "%dya Hentainaya Strelk. Div." }
+		243 = { "%dya Hentainaya Strelk. Div." }
+		244 = { "%dya Hentainaya Strelk. Div." }
+		245 = { "%dya Hentainaya Strelk. Div." }
+		246 = { "%dya Hentainaya Strelk. Div." }
+		247 = { "%dya Hentainaya Strelk. Div." }
+		248 = { "%dya Hentainaya Strelk. Div." }
+		249 = { "%dya Hentainaya Strelk. Div." }
+		250 = { "%dya Hentainaya Strelk. Div." }
+		251 = { "%dya Hentainaya Strelk. Div." }
+		252 = { "%dya Hentainaya Strelk. Div." }
+		253 = { "%dya Hentainaya Strelk. Div." }
+		254 = { "%dya Hentainaya Strelk. Div." }
+		255 = { "%dya Hentainaya Strelk. Div." }
+		256 = { "%dya Hentainaya Strelk. Div." }
+		257 = { "%dya Hentainaya Strelk. Div." }
+		258 = { "%dya Hentainaya Strelk. Div." }
+		259 = { "%dya Hentainaya Strelk. Div." }
+		260 = { "%dya Hentainaya Strelk. Div." }
+		261 = { "%dya Hentainaya Strelk. Div." }
+		262 = { "%dya Hentainaya Strelk. Div." }
+		263 = { "%dya Hentainaya Strelk. Div." }
+		264 = { "%dya Hentainaya Strelk. Div." }
+		265 = { "%dya Hentainaya Strelk. Div." }
+		266 = { "%dya Hentainaya Strelk. Div." }
+		267 = { "%dya Hentainaya Strelk. Div." }
+		268 = { "%dya Hentainaya Strelk. Div." }
+		269 = { "%dya Hentainaya Strelk. Div." }
+		270 = { "%dya Hentainaya Strelk. Div." }
+		271 = { "%dya Hentainaya Strelk. Div." }
+		272 = { "%dya Hentainaya Strelk. Div." }
+		273 = { "%dya Hentainaya Strelk. Div." }
+		274 = { "%dya Hentainaya Strelk. Div." }
+		275 = { "%dya Hentainaya Strelk. Div." }
+		276 = { "%dya Hentainaya Strelk. Div." }
+		277 = { "%dya Hentainaya Strelk. Div." }
+		278 = { "%dya Hentainaya Strelk. Div." }
+		279 = { "%dya Hentainaya Strelk. Div." }
+		280 = { "%dya Hentainaya Strelk. Div." }
+		281 = { "%dya Hentainaya Strelk. Div." }
+		282 = { "%dya Hentainaya Strelk. Div." }
+		283 = { "%dya Hentainaya Strelk. Div." }
+		284 = { "%dya Hentainaya Strelk. Div." }
+		285 = { "%dya Hentainaya Strelk. Div." }
+		286 = { "%dya Hentainaya Strelk. Div." }
+		287 = { "%dya Hentainaya Strelk. Div." }
+		288 = { "%dya Hentainaya Strelk. Div." }
+		289 = { "%dya Hentainaya Strelk. Div." }
+		290 = { "%dya Hentainaya Strelk. Div." }
+		291 = { "%dya Hentainaya Strelk. Div." }
+		292 = { "%dya Hentainaya Strelk. Div." }
+		293 = { "%dya Hentainaya Strelk. Div." }
+		294 = { "%dya Hentainaya Strelk. Div." }
+		295 = { "%dya Hentainaya Strelk. Div." }
+		296 = { "%dya Hentainaya Strelk. Div." }
+		297 = { "%dya Hentainaya Strelk. Div." }
+		298 = { "%dya Hentainaya Strelk. Div." }
+		299 = { "%dya Hentainaya Strelk. Div." }
+		300 = { "%dya Hentainaya Strelk. Div." }
+		301 = { "%dya Hentainaya Strelk. Div." }
+		303 = { "%dya Hentainaya Strelk. Div." }
+		304 = { "%dya Hentainaya Strelk. Div." }
+		305 = { "%dya Hentainaya Strelk. Div." }
+		306 = { "%dya Hentainaya Strelk. Div." }
+		307 = { "%dya Hentainaya Strelk. Div." }
+		308 = { "%dya Hentainaya Strelk. Div." }
+		310 = { "%dya Hentainaya Strelk. Div." }
+		311 = { "%dya Hentainaya Strelk. Div." }
+		312 = { "%dya Hentainaya Strelk. Div." }
+		313 = { "%dya Hentainaya Strelk. Div." }
+		314 = { "%dya Hentainaya Strelk. Div." }
+		315 = { "%dya Hentainaya Strelk. Div." }
+		316 = { "%dya Hentainaya Strelk. Div." }
+		317 = { "%dya Hentainaya Strelk. Div." }
+		318 = { "%dya Hentainaya Strelk. Div." }
+		319 = { "%dya Hentainaya Strelk. Div." }
+		320 = { "%dya Hentainaya Strelk. Div." }
+		321 = { "%dya Hentainaya Strelk. Div." }
+		322 = { "%dya Hentainaya Strelk. Div." }
+		323 = { "%dya Hentainaya Strelk. Div." }
+		324 = { "%dya Hentainaya Strelk. Div." }
+		325 = { "%dya Hentainaya Strelk. Div." }
+		326 = { "%dya Hentainaya Strelk. Div." }
+		327 = { "%dya Hentainaya Strelk. Div." }
+		328 = { "%dya Hentainaya Strelk. Div." }
+		329 = { "%dya Hentainaya Strelk. Div." }
+		330 = { "%dya Hentainaya Strelk. Div." }
+		332 = { "%dya Hentainaya Strelk. Div." }
+		333 = { "%dya Hentainaya Strelk. Div." }
+		334 = { "%dya Hentainaya Strelk. Div." }
+		335 = { "%dya Hentainaya Strelk. Div." }
+		336 = { "%dya Hentainaya Strelk. Div." }
+		337 = { "%dya Hentainaya Strelk. Div." }
+		339 = { "%dya Hentainaya Strelk. Div." }
+		340 = { "%dya Hentainaya Strelk. Div." }
+		341 = { "%dya Hentainaya Strelk. Div." }
+		342 = { "%dya Hentainaya Strelk. Div." }
+		343 = { "%dya Hentainaya Strelk. Div." }
+		344 = { "%dya Hentainaya Strelk. Div." }
+		345 = { "%dya Hentainaya Strelk. Div." }
+		346 = { "%dya Hentainaya Strelk. Div." }
+		348 = { "%dya Hentainaya Strelk. Div." }
+		349 = { "%dya Hentainaya Strelk. Div." }
+		350 = { "%dya Hentainaya Strelk. Div." }
+		351 = { "%dya Hentainaya Strelk. Div." }
+		352 = { "%dya Hentainaya Strelk. Div." }
+		353 = { "%dya Hentainaya Strelk. Div." }
+		354 = { "%dya Hentainaya Strelk. Div." }
+		355 = { "%dya Hentainaya Strelk. Div." }
+		356 = { "%dya Hentainaya Strelk. Div." }
+		357 = { "%dya Hentainaya Strelk. Div." }
+		358 = { "%dya Hentainaya Strelk. Div." }
+		359 = { "%dya Hentainaya Strelk. Div." }
+		360 = { "%dya Hentainaya Strelk. Div." }
+		361 = { "%dya Hentainaya Strelk. Div." }
+		362 = { "%dya Hentainaya Strelk. Div." }
+		364 = { "%dya Hentainaya Strelk. Div." }
+		365 = { "%dya Hentainaya Strelk. Div." }
+		366 = { "%dya Hentainaya Strelk. Div." }
+		367 = { "%dya Hentainaya Strelk. Div." }
+		368 = { "%dya Hentainaya Strelk. Div." }
+		369 = { "%dya Hentainaya Strelk. Div." }
+		370 = { "%dya Hentainaya Strelk. Div." }
+		371 = { "%dya Hentainaya Strelk. Div." }
+		372 = { "%dya Hentainaya Strelk. Div." }
+		373 = { "%dya Hentainaya Strelk. Div." }
+		374 = { "%dya Hentainaya Strelk. Div." }
+		375 = { "%dya Hentainaya Strelk. Div." }
+		376 = { "%dya Hentainaya Strelk. Div." }
+		377 = { "%dya Hentainaya Strelk. Div." }
+		378 = { "%dya Hentainaya Strelk. Div." }
+		379 = { "%dya Hentainaya Strelk. Div." }
+		380 = { "%dya Hentainaya Strelk. Div." }
+		381 = { "%dya Hentainaya Strelk. Div." }
+		382 = { "%dya Hentainaya Strelk. Div." }
+		383 = { "%dya Hentainaya Strelk. Div." }
+		384 = { "%dya Hentainaya Strelk. Div." }
+		386 = { "%dya Hentainaya Strelk. Div." }
+		387 = { "%dya Hentainaya Strelk. Div." }
+		388 = { "%dya Hentainaya Strelk. Div." }
+		389 = { "%dya Hentainaya Strelk. Div." }
+		390 = { "%dya Hentainaya Strelk. Div." }
+		391 = { "%dya Hentainaya Strelk. Div." }
+		393 = { "%dya Hentainaya Strelk. Div." }
+		395 = { "%dya Hentainaya Strelk. Div." }
+		396 = { "%dya Hentainaya Strelk. Div." }
+		397 = { "%dya Hentainaya Strelk. Div." }
+		399 = { "%dya Hentainaya Strelk. Div." }
+		400 = { "%dya Hentainaya Strelk. Div." }
+		402 = { "%dya Hentainaya Strelk. Div." }
+		404 = { "%dya Hentainaya Strelk. Div." }
+		405 = { "%dya Hentainaya Strelk. Div." }
+		406 = { "%dya Hentainaya Strelk. Div." }
+		407 = { "%dya Hentainaya Strelk. Div." }
+		408 = { "%dya Hentainaya Strelk. Div." }
+		409 = { "%dya Hentainaya Strelk. Div." }
+		411 = { "%dya Hentainaya Strelk. Div." }
+		412 = { "%dya Hentainaya Strelk. Div." }
+		413 = { "%dya Hentainaya Strelk. Div." }
+		414 = { "%dya Hentainaya Strelk. Div." }
+		415 = { "%dya Hentainaya Strelk. Div." }
+		416 = { "%dya Hentainaya Strelk. Div." }
+		417 = { "%dya Hentainaya Strelk. Div." }
+		422 = { "%dya Hentainaya Strelk. Div." }
+		445 = { "%dya Hentainaya Strelk. Div." }
+		410 = { "%dya Hentainaya Strelk. Div." }
+		418 = { "%dya Hentainaya Strelk. Div." }
+		419 = { "%dya Hentainaya Strelk. Div." }
+		420 = { "%dya Hentainaya Strelk. Div." }
+		421 = { "%dya Hentainaya Strelk. Div." }
+		423 = { "%dya Hentainaya Strelk. Div." }
+		424 = { "%dya Hentainaya Strelk. Div." }
+		425 = { "%dya Hentainaya Strelk. Div." }
+		426 = { "%dya Hentainaya Strelk. Div." }
+		427 = { "%dya Hentainaya Strelk. Div." }
+		428 = { "%dya Hentainaya Strelk. Div." }
+		429 = { "%dya Hentainaya Strelk. Div." }
+		430 = { "%dya Hentainaya Strelk. Div." }
+		432 = { "%dya Hentainaya Strelk. Div." }
+		433 = { "%dya Hentainaya Strelk. Div." }
+		434 = { "%dya Hentainaya Strelk. Div." }
+		435 = { "%dya Hentainaya Strelk. Div." }
+		436 = { "%dya Hentainaya Strelk. Div." }
+		437 = { "%dya Hentainaya Strelk. Div." }
+		439 = { "%dya Hentainaya Strelk. Div." }
+		440 = { "%dya Hentainaya Strelk. Div." }
+		441 = { "%dya Hentainaya Strelk. Div." }
+		442 = { "%dya Hentainaya Strelk. Div." }
+		443 = { "%dya Hentainaya Strelk. Div." }
+		444 = { "%dya Hentainaya Strelk. Div." }
+		446 = { "%dya Hentainaya Strelk. Div." }
+		448 = { "%dya Hentainaya Strelk. Div." }
+		449 = { "%dya Hentainaya Strelk. Div." }
+		450 = { "%dya Hentainaya Strelk. Div." }
+		451 = { "%dya Hentainaya Strelk. Div." }
+		452 = { "%dya Hentainaya Strelk. Div." }
+		453 = { "%dya Hentainaya Strelk. Div." }
+		454 = { "%dya Hentainaya Strelk. Div." }
+		455 = { "%dya Hentainaya Strelk. Div." }
+		456 = { "%dya Hentainaya Strelk. Div." }
+		457 = { "%dya Hentainaya Strelk. Div." }
+		458 = { "%dya Hentainaya Strelk. Div." }
+		459 = { "%dya Hentainaya Strelk. Div." }
+		460 = { "%dya Hentainaya Strelk. Div." }
+		461 = { "%dya Hentainaya Strelk. Div." }
+		462 = { "%dya Hentainaya Strelk. Div." }
+		464 = { "%dya Hentainaya Strelk. Div." }
+		465 = { "%dya Hentainaya Strelk. Div." }
+		466 = { "%dya Hentainaya Strelk. Div." }
+		467 = { "%dya Hentainaya Strelk. Div." }
+		468 = { "%dya Hentainaya Strelk. Div." }
+		469 = { "%dya Hentainaya Strelk. Div." }
+		470 = { "%dya Hentainaya Strelk. Div." }
+		471 = { "%dya Hentainaya Strelk. Div." }
+		472 = { "%dya Hentainaya Strelk. Div." }
+		473 = { "%dya Hentainaya Strelk. Div." }
+		474 = { "%dya Hentainaya Strelk. Div." }
 	}
 }
 
-ACW_CAV_01 = {
+HEN_CAV_01 = {
 	name = "Cavalry Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Kavaleriyskaya Diviziya"
 
@@ -567,17 +568,17 @@ ACW_CAV_01 = {
 	}
 }
 
-ACW_MOT_01 = {
+HEN_MOT_01 = {
 	name = "Motor Rifle Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ACW_INF_01 }
+	link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Motostrelkovaya Diviziya"
 
@@ -631,17 +632,18 @@ ACW_MOT_01 = {
 	}
 }
 
-ACW_MEC_01 = {
+HEN_MEC_01 = 
+{
 	name = "Mechanized Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized" "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ACW_INF_01 }
+	link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Mekhanizirovanaya Diviziya"
 
@@ -683,17 +685,18 @@ ACW_MEC_01 = {
 	}
 }
 
-ACW_ARM_01 = {
+HEN_ARM_01 = 
+{
 	name = "Tank Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Tankovaya Diviziya"
 
@@ -775,17 +778,18 @@ ACW_ARM_01 = {
 	}
 }
 
-ACW_ARM_02 = {
+HEN_ARM_02 = 
+{
 	name = "Tank Corps"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Tankovaya Korpus"
 
@@ -867,17 +871,18 @@ ACW_ARM_02 = {
 	}
 }
 
-ACW_ARM_03 = {
+HEN_ARM_03 = 
+{
 	name = "Guard Tank Corps"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { has_war = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Gvardeiskaya Tankovaya Korpus"
 
@@ -959,17 +964,18 @@ ACW_ARM_03 = {
 	}
 }
 
-ACW_ARM_04 = {
+HEN_ARM_04 = 
+{
 	name = "Tank Brigade"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Tankovaya Brigada"
 
@@ -1051,17 +1057,18 @@ ACW_ARM_04 = {
 	}
 }
 
-ACW_PAR_01 = {
+HEN_PAR_01 = 
+{
 	name = "Paratrooper Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Vozdushno-Desantnaya Div."
 
@@ -1108,17 +1115,18 @@ ACW_PAR_01 = {
 	}
 }
 
-ACW_MAR_01 = {
+HEN_MAR_01 = 
+{
 	name = "Marine Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Diviziya Morskoi Pekhoty"
 
@@ -1139,17 +1147,18 @@ ACW_MAR_01 = {
 	}
 }
 
-ACW_MNT_01 = {
+HEN_MNT_01 = 
+{
 	name = "Mountain Rifle Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ACW_INF_01 }
+	link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Gornostrelkovaya Diviziya"
 
@@ -1182,17 +1191,18 @@ ACW_MNT_01 = {
 	}
 }
 
-ACW_GAR_01 = {
+HEN_GAR_01 = 
+{
 	name = "Garrison Division"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya NKVD Pogranichnaya Diviziya"
 
@@ -1282,17 +1292,18 @@ ACW_GAR_01 = {
 	}
 }
 
-ACW_GRD_01 = {
+HEN_GRD_01 = 
+{
 	name = "Guards Rifles"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Gvardyeiskaya Strelk. Div."
 
@@ -1432,17 +1443,18 @@ ACW_GRD_01 = {
 	}
 }
 
-ACW_GMC_01 = {
+HEN_GMC_01 = 
+{
 	name = "Guards Mechanized"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized" "motorized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Gvds. Mekhanizirovanaya Korpus"
 
@@ -1462,17 +1474,18 @@ ACW_GMC_01 = {
 	}
 }
 
-ACW_GTC_01 = {
+HEN_GTC_01 = 
+{
 	name = "Guards Tanks"
 
-	for_countries = { ACW }
+	for_countries = { HEN }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ACW_INF_01 }
+	#link_numbering_with = { HEN_INF_01 }
 
 	fallback_name = "%dya Gvds. Tankovaya Korpus"
 

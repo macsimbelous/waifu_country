@@ -1,9 +1,9 @@
 ﻿##### USSR NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-ACW_DD_HISTORICAL = {
+MEH_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -38,10 +38,10 @@ ACW_DD_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-ACW_CL_HISTORICAL = {
+MEH_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -66,10 +66,10 @@ ACW_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-ACW_CA_HISTORICAL = {
+MEH_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -92,10 +92,10 @@ ACW_CA_HISTORICAL = {
 }
 
 ### MINELAYER NAMES###
-ACW_MINELAYERS_HISTORICAL = {
+MEH_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -118,10 +118,10 @@ ACW_MINELAYERS_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-ACW_BB_HISTORICAL = {
+MEH_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -143,10 +143,10 @@ ACW_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-ACW_BC_HISTORICAL = {
+MEH_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -169,10 +169,10 @@ ACW_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-ACW_CV_HISTORICAL = {
+MEH_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -193,10 +193,10 @@ ACW_CV_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-ACW_SS_SHCHUKA = {
+MEH_SS_SHCHUKA = {
 	name = NAME_THEME_HISTORICAL_SHCHUKAS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -299,10 +299,10 @@ ACW_SS_SHCHUKA = {
 	}
 }
 
-ACW_SS_STALINETS = {
+MEH_SS_STALINETS = {
 	name = NAME_THEME_HISTORICAL_STALINETS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -340,10 +340,10 @@ ACW_SS_STALINETS = {
 	}
 }
 
-ACW_SS_LENINETS = {
+MEH_SS_LENINETS = {
 	name = NAME_THEME_HISTORICAL_LENINETS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -381,10 +381,10 @@ ACW_SS_LENINETS = {
 	}
 }
 
-ACW_SS_CLASS_K = {
+MEH_SS_CLASS_K = {
 	name = NAME_THEME_HISTORICAL_CLASS_K
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	type = ship
 	ship_types = { ship_hull_cruiser_submarine submarine }
@@ -425,10 +425,10 @@ ACW_SS_CLASS_K = {
 }
 
 ### THEME: SOVIET REGIONS ###
-ACW_STATES = {
+MEH_STATES = {
 	name = NAME_THEME_STATES
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -450,10 +450,10 @@ ACW_STATES = {
 }
 
 ## THEME: SOVIET CITIES ###
-ACW_CITIES = {
+MEH_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -474,10 +474,10 @@ ACW_CITIES = {
 }
 
 ## THEME: FAMOUS SOVIET LEADERS ###
-ACW_LEADERS = {
+MEH_LEADERS = {
 	name = NAME_THEME_LEADERS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		NOT = { 
@@ -496,10 +496,10 @@ ACW_LEADERS = {
 }
 
 ## THEME: RUSSIAN RIVERS ###
-ACW_RIVERS = {
+MEH_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	type = ship
 
@@ -520,10 +520,10 @@ ACW_RIVERS = {
 ###########################
 
 ### REGULAR DESTROYER NAMES###
-ACW_DD_IMPERIAL = {
+MEH_DD_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_DD
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = {
 		OR = { 
@@ -560,10 +560,10 @@ ACW_DD_IMPERIAL = {
 }
 
 ### DESTROYER ESCORT NAMES###
-ACW_DE_IMPERIAL = {
+MEH_DE_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_DE
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -589,10 +589,10 @@ ACW_DE_IMPERIAL = {
 }
 
 ### CRUISER NAMES###
-ACW_CL_IMPERIAL = {
+MEH_CL_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CL
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -616,10 +616,10 @@ ACW_CL_IMPERIAL = {
 
 
 ### HEAVY CRUISER NAMES###
-ACW_CA_IMPERIAL = {
+MEH_CA_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CA
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -643,10 +643,10 @@ ACW_CA_IMPERIAL = {
 }
 
 ### MINELAYER NAMES###
-ACW_MINELAYERS_IMPERIAL = {
+MEH_MINELAYERS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_MINELAYERS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -668,10 +668,10 @@ ACW_MINELAYERS_IMPERIAL = {
 }
 
 ### MINESWEEPER NAMES###
-ACW_MINESWEEPERS_IMPERIAL = {
+MEH_MINESWEEPERS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_MINESWEEPERS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -694,10 +694,10 @@ ACW_MINESWEEPERS_IMPERIAL = {
 }
 
 ### CAPITAL SHIP NAMES ###
-ACW_BBBC_IMPERIAL = {
+MEH_BBBC_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CAPITAL
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -720,10 +720,10 @@ ACW_BBBC_IMPERIAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-ACW_CV_IMPERIAL = {
+MEH_CV_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CARRIERS
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -744,10 +744,10 @@ ACW_CV_IMPERIAL = {
 }
 
 ### SUBMARINES ###
-ACW_SS_IMPERIAL = {
+MEH_SS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_SUBMARINES
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -771,10 +771,10 @@ ACW_SS_IMPERIAL = {
 }
 
 ### THEME: IMPERIAL RUSSIAN CITIES ###
-ACW_IMPERIAL_CITIES = {
+MEH_IMPERIAL_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
@@ -793,10 +793,10 @@ ACW_IMPERIAL_CITIES = {
 }
 
 ## THEME: IMPERIAL RUSSIAN GOVERNORATES ###
-ACW_IMPERIAL_GOVERNORATES = {
+MEH_IMPERIAL_GOVERNORATES = {
 	name = NAME_THEME_GOVERNORATES
 
-	for_countries = { ACW }
+	for_countries = { MEH }
 
 	can_use = { 
 		OR = { 
