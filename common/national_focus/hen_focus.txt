@@ -36,7 +36,9 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
-			
+			JAP = {
+				has_same_ideology = yes
+			}
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -75,10 +77,10 @@ focus_tree = {
 					modifier = large_increase
 				}
 			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
+			# add_popularity = {
+			# 	ideology = fascism
+			# 	popularity = 0.05
+			# }
 		}
 	}
 	focus = {
@@ -160,10 +162,8 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available = {
-			has_government = fascism
 			JAP = {
-				has_government = fascism
-				is_faction_leader = yes
+				has_same_ideology = yes
 			}
 		}
 		available_if_capitulated = yes
@@ -209,7 +209,7 @@ focus_tree = {
 		icon = GFX_focus_attack_japan
 		x = 17
 		y = 8
-		cost = 10
+		cost = 5
 		mutually_exclusive = {
 			focus = hen_friendship_with_japan
 		}

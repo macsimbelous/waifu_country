@@ -84,7 +84,7 @@ peace_ai_desires = {
 					state = 648
 					state = 524
 					state = 609
-					#state = 745
+					state = 745
 					#state = 527
 					#state = 525
 					state = 647
@@ -108,18 +108,18 @@ peace_ai_desires = {
         }
         ai_desire = 150
     }
-	hen_puppet_japan = {
-        peace_action_type = { puppet }
-        enable = {
-            FROM.FROM.FROM = {
-                state = 745
-            }
-            ROOT = {
-                original_tag = HEN
-            }
-        }
-        ai_desire = 150
-    }
+	# hen_puppet_japan = {
+    #     peace_action_type = { puppet }
+    #     enable = {
+    #         FROM.FROM.FROM = {
+    #             state = 745
+    #         }
+    #         ROOT = {
+    #             original_tag = HEN
+    #         }
+    #     }
+    #     ai_desire = 150
+    # }
 	mah_take_claims = {
 		peace_action_type = take_state
 		enable = {
