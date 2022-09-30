@@ -31,35 +31,27 @@ set_technology = {
 	tech_mountaineers = 1
 	motorised_infantry = 1
 	gw_artillery = 1
-	interwar_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	fighter1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	electronic_mechanical_engineering = 1
-	mechanical_computing = 1
-	radio = 1
-	radio_detection = 1
+	iw_small_airframe = 1
+	aa_lmg = 1
+	iw_medium_airframe = 1
+	early_bombs = 1
 	basic_machine_tools = 1
 	fuel_silos = 1
-	#####
-	basic_torpedo = 1
-	basic_naval_mines = 1
-	submarine_mine_laying = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	#esminec#
-	basic_fire_control_system = 1
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	basic_battery = 1
-	basic_light_battery = 1
-	sonar = 1
-	smoke_generator = 1
-	basic_depth_charges = 1
+	# #####
+	# basic_torpedo = 1
+	# basic_naval_mines = 1
+	# submarine_mine_laying = 1
+	# early_ship_hull_submarine = 1
+	# basic_ship_hull_submarine = 1
+	# #esminec#
+	# basic_fire_control_system = 1
+	# early_ship_hull_light = 1
+	# basic_ship_hull_light = 1
+	# basic_battery = 1
+	# basic_light_battery = 1
+	# sonar = 1
+	# smoke_generator = 1
+	# basic_depth_charges = 1
 	#mtg_transport = 1
 	#####
 	# gwtank_chassis = 1
@@ -95,22 +87,23 @@ set_popularities = {
 	communism = 20	##Коммунизм
 	fascism = 25	##Фашизм
 }
+
 1939.1.1 = {
 	set_war_support = 0.7
 	set_stability = 0.7
 	add_political_power = 2000
 	add_command_power = 200
 	oob = "MMS_1939"
+	set_naval_oob = "MMS_1939_Naval"
 	#adding ministers
 	add_ideas = {
 		#laws
 		partial_economic_mobilisation
 		limited_conscription
 	}
-		
 	set_technology = {
-		CAS1 = 1
-		tactical_bomber1 = 1
+		basic_small_airframe = 1
+		basic_medium_airframe = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
@@ -121,14 +114,12 @@ set_popularities = {
 		support_weapons2 = 1
 		paratroopers = 1
 		gwtank_chassis = 1
-		basic_medium_tank_chassis = 1 
-
+		basic_medium_tank_chassis = 1
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
-
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
@@ -146,8 +137,24 @@ set_popularities = {
 		dispersed_industry4 = 1
 		excavation1 = 1
 		excavation2 = 1
+		#####
+		basic_torpedo = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		#esminec#
+		basic_fire_control_system = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		sonar = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
 	}
 }
+
 recruit_character = MMS_velvet_crowe
 recruit_character = MMS_yuuko_yoshida
 recruit_character = MMS_maou
@@ -189,7 +196,6 @@ recruit_character = MMS_miia
 recruit_character = MMS_asmodeus
 recruit_character = MMS_dobrynya_nikitich
 recruit_character = MMS_koyanskaya
-
 #Admirals
 recruit_character = MMS_yamato_wg
 recruit_character = MMS_purifier
@@ -202,7 +208,6 @@ recruit_character = MMS_touka_kuroitsu
 recruit_character = MMS_wolf_bete
 recruit_character = MMS_serafall_leviathan
 recruit_character = MMS_kuraishi_eriko
-
 #Agents
 recruit_character = MMS_rias_gremory
 create_operative_leader = {
@@ -274,42 +279,92 @@ create_operative_leader = {
 MMS_velvet_crowe = {
 	set_character_flag = mms_country_leader_flag
 }
+
 MMS_yuuko_yoshida = {
 	set_character_flag = mms_country_leader_flag
 }
+
 MMS_maou = {
 	set_character_flag = mms_country_leader_flag
 }
+
 MMS_holo = {
 	set_character_flag = mms_country_leader_flag
 }
+
 ### Variants ###
-# Submarines #
-create_equipment_variant = {
-	name = "MonMusu Class"
-	type = ship_hull_submarine_2
-	#name_group = ENG_SS_HISTORICAL
-	parent_version = 0
-	modules = {
-		fixed_ship_torpedo_slot = ship_torpedo_sub_2
-		fixed_ship_engine_slot = sub_ship_engine_2
-		rear_1_custom_slot = ship_torpedo_sub_2
+1939.1.1 = {
+	# Submarines #
+	create_equipment_variant = {
+		name = "MonMusu Class"
+		type = ship_hull_submarine_2
+		#name_group = ENG_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	# Destroyers #
+	create_equipment_variant = {
+		name = "MonMusu Destroyer"
+		type = ship_hull_light_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
 	}
 }
-# Destroyers #
 create_equipment_variant = {
-	name = "MonMusu Destroyer"
-	type = ship_hull_light_2
-	parent_version = 0
+	name = "Monster F-15" #
+	type = small_plane_airframe_0
 	modules = {
-		fixed_ship_battery_slot = ship_light_battery_2
-		fixed_ship_anti_air_slot = ship_anti_air_1
-		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-		fixed_ship_radar_slot = ship_sonar_1
-		fixed_ship_engine_slot = light_ship_engine_2
-		fixed_ship_torpedo_slot = ship_torpedo_1
-		mid_1_custom_slot = ship_torpedo_1
-		rear_1_custom_slot = ship_depth_charge_1
+		fixed_main_weapon_slot = light_mg_4x
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Monster B-3" #
+	type = medium_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = medium_bomb_bay
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		engine_type_slot = engine_2_2x
+		special_type_slot_1 = lmg_defense_turret
+	}
+	#icon = "GFX_SOV_early_bomber_medium"
+}
+1939.1.1 = {
+	create_equipment_variant = {
+		name = "Monster F-16" #
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Monster B-4" #
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		#icon = "GFX_SOV_early_bomber_medium"
 	}
 }
 # create_equipment_variant = {

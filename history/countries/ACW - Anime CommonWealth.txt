@@ -21,9 +21,10 @@ set_technology = {
 	gw_artillery = 1
 	#interwar_artillery = 1
 	#interwar_antiair = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
+	iw_small_airframe = 1
+	aa_lmg = 1
+	iw_medium_airframe = 1
+	early_bombs = 1
 	#####
 	# basic_torpedo = 1
 	# basic_naval_mines = 1
@@ -79,8 +80,8 @@ set_politics = {
 	}
 		
 	set_technology = {
-		CAS1 = 1
-		tactical_bomber1 = 1
+		basic_small_airframe = 1
+		basic_medium_airframe = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
@@ -420,6 +421,50 @@ ACW_Anastasia = {
 	set_character_flag = acw_country_leader_flag
 }
 ### Variants ###
+create_equipment_variant = {
+	name = "A-15" #
+	type = small_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = light_mg_4x
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "AB-3" #
+	type = medium_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = medium_bomb_bay
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		engine_type_slot = engine_2_2x
+		special_type_slot_1 = lmg_defense_turret
+	}
+	#icon = "GFX_SOV_early_bomber_medium"
+}
+1939.1.1 = {
+	create_equipment_variant = {
+		name = "A-16" #
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "AB-4" #
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		#icon = "GFX_SOV_early_bomber_medium"
+	}
+}
 # Submarines #
 # create_equipment_variant = {
 # 	name = "Anime Class"

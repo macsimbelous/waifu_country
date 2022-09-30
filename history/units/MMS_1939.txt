@@ -1,5 +1,7 @@
 division_template = {
 	name = "MonMusu Garrison"
+	division_names_group = MMS_CAV_01
+	template_counter = 5
 	regiments = {
 		cavalry = {
 			x = 0
@@ -22,6 +24,7 @@ division_template = {
 
 division_template = {
 	name = "MonMusu Cavalry"
+	division_names_group = MMS_CAV_01
 	regiments = {
 		cavalry = {
 			x = 0
@@ -51,6 +54,9 @@ division_template = {
 }
 division_template = {
 	name = "MonMusu Brigade"
+	division_names_group = MMS_INF_01
+	priority = 0
+	template_counter = 7
 	regiments = {
 		infantry = {
 			x = 0
@@ -68,14 +74,18 @@ division_template = {
 			x = 1
 			y = 1
 		}
-		infantry = {
+	}
+	support = {
+		engineer = {
 			x = 0
-			y = 2
+			y = 1
 		}
 	}
 }
 division_template = {
 	name = "MonMusu Division"
+	division_names_group = MMS_INF_01
+	priority = 1
 	regiments = {
 		infantry = {
 			x = 0
@@ -108,6 +118,14 @@ division_template = {
 		infantry = {
 			x = 1
 			y = 3
+		}
+		infantry = {
+			x = 0
+			y = 4
+		}
+		infantry = {
+			x = 1
+			y = 4
 		}
 	}
 	support = {
@@ -127,39 +145,20 @@ division_template = {
 }
 division_template = {
 	name = "MonMusu Mountaineers"
+	division_names_group = MMS_MNT_01
 	regiments = {
-		mountaineers = {
-			x = 0
-			y = 0
-		}
-		mountaineers = {
-			x = 1
-			y = 0
-		}
-		mountaineers = {
-			x = 0
-			y = 1
-		}
-		mountaineers = {
-			x = 1
-			y = 1
-		}
-		mountaineers = {
-			x = 0
-			y = 2
-		}
-		mountaineers = {
-			x = 1
-			y = 2
-		}
-		mountaineers = {
-			x = 0
-			y = 3
-		}
-		mountaineers = {
-			x = 1
-			y = 3
-		}
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
 	}
 	support = {
 		artillery = {
@@ -471,14 +470,8 @@ units = {
 }
 air_wings = {
 	414 = { 
-		fighter_equipment_1 = {
-			owner = MMS 
-			amount = 400
-		}
-		tac_bomber_equipment_1 = {
-			owner = MMS
-			amount = 100
-		}
+		small_plane_airframe_1 = { owner = "MMS" amount = 400 version_name = "Monster F-16" }
+		medium_plane_airframe_1 =  { owner = "MMS" amount = 100 version_name = "Monster B-4"}
 	}
 }
 ###starting production###
@@ -512,21 +505,24 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = fighter_equipment_1
-			creator = "MMS"
+			type = small_plane_airframe_1
+			creator = "MMS" 
+			version_name = "Monster F-16"
 		}
-		requested_factories = 2
-		progress = 0.34
-		efficiency = 80
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 100
 	}
+
 	add_equipment_production = {
 		equipment = {
-			type = tac_bomber_equipment_1
-			creator = "MMS"
+			type = medium_plane_airframe_1
+			creator = "MMS" 
+			version_name = "Monster B-4"
 		}
-		requested_factories = 2
-		progress = 0.34
-		efficiency = 80
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
 	}
 	# add_equipment_production = {
 	# 	equipment = {

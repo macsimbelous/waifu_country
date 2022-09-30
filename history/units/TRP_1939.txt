@@ -1,5 +1,7 @@
 ﻿division_template = {
 	name = "Trap Garrison"
+	division_names_group = TRP_CAV_01
+	template_counter = 5
 	regiments = {
 		cavalry = {
 			x = 0
@@ -22,6 +24,7 @@
 
 division_template = {
 	name = "Trap Cavalry"
+	division_names_group = TRP_CAV_01
 	regiments = {
 		cavalry = {
 			x = 0
@@ -52,6 +55,9 @@ division_template = {
 
 division_template = {
 	name = "Trap Brigade"
+	division_names_group = TRP_INF_01
+	priority = 0
+	template_counter = 7
 	regiments = {
 		infantry = {
 			x = 0
@@ -69,15 +75,19 @@ division_template = {
 			x = 1
 			y = 1
 		}
-		infantry = {
+	}
+	support = {
+		engineer = {
 			x = 0
-			y = 2
+			y = 1
 		}
 	}
 }
 
 division_template = {
 	name = "Trap Division"
+	division_names_group = TRP_INF_01
+	priority = 1
 	regiments = {
 		infantry = {
 			x = 0
@@ -110,6 +120,14 @@ division_template = {
 		infantry = {
 			x = 1
 			y = 3
+		}
+		infantry = {
+			x = 0
+			y = 4
+		}
+		infantry = {
+			x = 1
+			y = 4
 		}
 	}
 	support = {
@@ -130,39 +148,20 @@ division_template = {
 
 division_template = {
 	name = "Trap Mountaineers"
+	division_names_group = TRP_MNT_01
 	regiments = {
-		mountaineers = {
-			x = 0
-			y = 0
-		}
-		mountaineers = {
-			x = 1
-			y = 0
-		}
-		mountaineers = {
-			x = 0
-			y = 1
-		}
-		mountaineers = {
-			x = 1
-			y = 1
-		}
-		mountaineers = {
-			x = 0
-			y = 2
-		}
-		mountaineers = {
-			x = 1
-			y = 2
-		}
-		mountaineers = {
-			x = 0
-			y = 3
-		}
-		mountaineers = {
-			x = 1
-			y = 3
-		}
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
 	}
 	support = {
 		artillery = {
@@ -375,7 +374,12 @@ units = {
 	# 	start_equipment_factor = 1.0
 	# }
 }
-
+air_wings = {
+	495 = { 
+		small_plane_airframe_1 = { owner = "TRP" amount = 400 version_name = "Trap F-16" }
+		medium_plane_airframe_1 =  { owner = "TRP" amount = 100 version_name = "Trap B-4"}
+	}
+}
 ###starting production###
 instant_effect = {
 	add_equipment_production = {

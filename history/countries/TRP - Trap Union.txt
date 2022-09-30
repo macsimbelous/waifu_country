@@ -18,25 +18,25 @@ set_technology = {
 	#tech_military_police = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
-	interwar_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	#####
-	basic_torpedo = 1
-	basic_naval_mines = 1
-	submarine_mine_laying = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	#esminec#
-	basic_fire_control_system = 1
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	basic_battery = 1
-	basic_light_battery = 1
-	sonar = 1
-	smoke_generator = 1
-	basic_depth_charges = 1
+	iw_small_airframe = 1
+	aa_lmg = 1
+	iw_medium_airframe = 1
+	early_bombs = 1
+	# #####
+	# basic_torpedo = 1
+	# basic_naval_mines = 1
+	# submarine_mine_laying = 1
+	# early_ship_hull_submarine = 1
+	# basic_ship_hull_submarine = 1
+	# #esminec#
+	# basic_fire_control_system = 1
+	# early_ship_hull_light = 1
+	# basic_ship_hull_light = 1
+	# basic_battery = 1
+	# basic_light_battery = 1
+	# sonar = 1
+	# smoke_generator = 1
+	# basic_depth_charges = 1
 	#####
 	trench_warfare = 1
 	support_weapons = 1
@@ -75,23 +75,23 @@ add_ideas = {
 	TRP_revolution
 	trp_childless_idea
 }
+
 1939.1.1 = {
 	set_war_support = 0.7
 	set_stability = 0.7
 	add_political_power = 2000
 	add_command_power = 200
 	oob = "TRP_1939"
+	set_naval_oob = "TRP_1939_Naval"
 	#adding ministers
 	add_ideas = {
 		#laws
 		partial_economic_mobilisation
 		limited_conscription
 	}
-		
 	set_technology = {
-		CAS1 = 1
-		fighter1 = 1
-		tactical_bomber1 = 1
+		basic_small_airframe = 1
+		basic_medium_airframe = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
@@ -102,14 +102,12 @@ add_ideas = {
 		support_weapons2 = 1
 		paratroopers = 1
 		gwtank_chassis = 1
-		basic_medium_tank_chassis = 1 
-
+		basic_medium_tank_chassis = 1
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
-
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
@@ -127,8 +125,24 @@ add_ideas = {
 		dispersed_industry4 = 1
 		excavation1 = 1
 		excavation2 = 1
+		#####
+		basic_torpedo = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		#esminec#
+		basic_fire_control_system = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		sonar = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
 	}
 }
+
 #leaders
 recruit_character = TRP_astolfo
 recruit_character = TRP_hideri_kanzaki
@@ -169,7 +183,6 @@ recruit_character = TRP_russell
 recruit_character = TRP_mare_bello_fiore
 recruit_character = TRP_aoi_futaba
 recruit_character = TRP_aoi_futaba2
-
 #agents
 create_operative_leader = {
 	name = "Saki Mizushima"
@@ -228,42 +241,92 @@ create_operative_leader = {
 TRP_astolfo = {
 	set_character_flag = trp_country_leader_flag
 }
+
 TRP_hideri_kanzaki = {
 	set_character_flag = trp_country_leader_flag
 }
+
 TRP_tetora = {
 	set_character_flag = trp_country_leader_flag
 }
+
 TRP_ringo_tsukimiya = {
 	set_character_flag = trp_country_leader_flag
 }
+
 ### Variants ###
-# Submarines #
-create_equipment_variant = {
-	name = "Trap Class"
-	type = ship_hull_submarine_2
-	#name_group = ENG_SS_HISTORICAL
-	parent_version = 0
-	modules = {
-		fixed_ship_torpedo_slot = ship_torpedo_sub_2
-		fixed_ship_engine_slot = sub_ship_engine_2
-		rear_1_custom_slot = ship_torpedo_sub_2
+1939.1.1 = {
+	# Submarines #
+	create_equipment_variant = {
+		name = "Trap Class"
+		type = ship_hull_submarine_2
+		#name_group = ENG_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	# Destroyers #
+	create_equipment_variant = {
+		name = "Trap Destroyer"
+		type = ship_hull_light_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
 	}
 }
-# Destroyers #
 create_equipment_variant = {
-	name = "Trap Destroyer"
-	type = ship_hull_light_2
-	parent_version = 0
+	name = "Trap F-15" #
+	type = small_plane_airframe_0
 	modules = {
-		fixed_ship_battery_slot = ship_light_battery_2
-		fixed_ship_anti_air_slot = ship_anti_air_1
-		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-		fixed_ship_radar_slot = ship_sonar_1
-		fixed_ship_engine_slot = light_ship_engine_2
-		fixed_ship_torpedo_slot = ship_torpedo_1
-		mid_1_custom_slot = ship_torpedo_1
-		rear_1_custom_slot = ship_depth_charge_1
+		fixed_main_weapon_slot = light_mg_4x
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Trap B-3" #
+	type = medium_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = medium_bomb_bay
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		engine_type_slot = engine_2_2x
+		special_type_slot_1 = lmg_defense_turret
+	}
+	#icon = "GFX_SOV_early_bomber_medium"
+}
+1939.1.1 = {
+	create_equipment_variant = {
+		name = "Trap F-16" #
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Trap B-4" #
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		#icon = "GFX_SOV_early_bomber_medium"
 	}
 }
 # create_equipment_variant = {
