@@ -570,7 +570,7 @@ characters = {
 				wfc_exp_trait
 				trickster
 				commando
-				trait_mountaineer
+				urban_assault_specialist
 			}
 			skill = 4
 			attack_skill = 6
@@ -634,7 +634,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				cavalry_leader
+				trait_mountaineer
 				trait_engineer
 			}
 			skill = 4
@@ -1032,16 +1032,17 @@ characters = {
 				large = GFX_portrait_acw_5pb
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				cavalry_leader
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_5pb
+			cost = 50
+			allowed = {
+				original_tag = ACW
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				air_chief_night_operations_3
+			}
 		}
 	}
 	ACW_Blanc = {
@@ -1112,16 +1113,17 @@ characters = {
 				large = GFX_portrait_acw_ellis
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Ellis
+			cost = 50
+			allowed = {
+				original_tag = ACW
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				air_chief_ground_support_3
+			}
 		}
 	}
 	ACW_Escha_Malier = {
@@ -1152,16 +1154,17 @@ characters = {
 				large = GFX_portrait_acw_fujimaru_ritsuka
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				trait_engineer
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Fujimaru_Ritsuka
+			cost = 50
+			allowed = {
+				original_tag = ACW
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				air_tactical_bombing_3
+			}
 		}
 	}
 	ACW_Honoka_Kousaka = {
@@ -1272,16 +1275,17 @@ characters = {
 				large = GFX_portrait_acw_misato_katsuragi
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				organizer
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Misato_Katsuragi
+			cost = 50
+			allowed = {
+				original_tag = ACW
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				air_strategic_bombing_3
+			}
 		}
 	}
 	ACW_Naru_Narusegawa = {
@@ -1312,16 +1316,17 @@ characters = {
 				large = GFX_portrait_acw_noire
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				infantry_leader
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Noire
+			cost = 50
+			allowed = {
+				original_tag = ACW
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				air_close_air_support_3
+			}
 		}
 	}
 	ACW_Rei_Ayanami = {
@@ -1413,16 +1418,17 @@ characters = {
 				large = GFX_portrait_acw_vert
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
-				cavalry_leader
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Vert
+			cost = 50
+			allowed = {
+				original_tag = ACW
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				air_naval_strike_3
+			}
 		}
 	}
 	ACW_Yukina_Himeragi = {
@@ -1686,15 +1692,17 @@ characters = {
 				large = GFX_portrait_acw_charlotte_dunois
 			}
 		}
-		corps_commander = {
-			traits = {
-				wfc_exp_trait
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_charlotte_dunois
+			cost = 50
+			allowed = {
+				original_tag = ACW
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				air_air_superiority_3
+			}
 		}
 	}
 	ACW_erica_blandelli = {
