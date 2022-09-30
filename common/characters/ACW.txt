@@ -1041,7 +1041,7 @@ characters = {
 				original_tag = ACW
 			}
 			traits = {
-				air_chief_night_operations_3
+				air_bomber_interception_3
 			}
 		}
 	}
@@ -1114,7 +1114,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = high_command
+			slot = air_chief
 			ledger = army
 			idea_token = ACW_Ellis
 			cost = 50
