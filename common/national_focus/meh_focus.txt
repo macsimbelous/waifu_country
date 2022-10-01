@@ -516,10 +516,10 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			837 = {
+			911 = {
 				urbanize_state = yes
 			}
-			838 = {
+			912 = {
 				urbanize_state = yes
 			}
 			379 = {
