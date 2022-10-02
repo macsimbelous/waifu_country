@@ -1,4 +1,90 @@
 ACW = {
+	political = {
+		communism = {
+			male = {
+				"GFX_portrait_acw_land_01"
+				"GFX_portrait_acw_land_02"
+				"GFX_portrait_acw_land_03"
+				"GFX_portrait_acw_land_04"
+				"GFX_portrait_acw_land_05"
+				"GFX_portrait_acw_land_06"
+				"GFX_portrait_acw_land_07"
+				"GFX_portrait_acw_land_08"
+				"GFX_portrait_acw_land_09"
+				"GFX_portrait_acw_land_10"
+				"GFX_portrait_acw_land_11"
+				"GFX_portrait_acw_land_12"
+				"GFX_portrait_acw_land_13"
+				"GFX_portrait_acw_land_14"
+				"GFX_portrait_acw_land_15"
+				"GFX_portrait_acw_land_16"
+				"GFX_portrait_acw_land_17"
+				"GFX_portrait_acw_land_18"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_portrait_acw_naval_01"
+				"GFX_portrait_acw_naval_02"
+				"GFX_portrait_acw_naval_03"
+				"GFX_portrait_acw_naval_04"
+				"GFX_portrait_acw_naval_05"
+				"GFX_portrait_acw_naval_06"
+				"GFX_portrait_acw_naval_07"
+				"GFX_portrait_acw_naval_08"
+				"GFX_portrait_acw_naval_09"
+				"GFX_portrait_acw_naval_10"
+				"GFX_portrait_acw_naval_11"
+				"GFX_portrait_acw_naval_12"
+				"GFX_portrait_acw_naval_13"
+				"GFX_portrait_acw_naval_14"
+				"GFX_portrait_acw_naval_15"
+				"GFX_portrait_acw_naval_16"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_portrait_acw_land_01"
+				"GFX_portrait_acw_land_02"
+				"GFX_portrait_acw_land_03"
+				"GFX_portrait_acw_land_04"
+				"GFX_portrait_acw_land_05"
+				"GFX_portrait_acw_land_06"
+				"GFX_portrait_acw_land_07"
+				"GFX_portrait_acw_land_08"
+				"GFX_portrait_acw_land_09"
+				"GFX_portrait_acw_land_10"
+				"GFX_portrait_acw_land_11"
+				"GFX_portrait_acw_land_12"
+				"GFX_portrait_acw_land_13"
+				"GFX_portrait_acw_land_14"
+				"GFX_portrait_acw_land_15"
+				"GFX_portrait_acw_land_16"
+				"GFX_portrait_acw_land_17"
+				"GFX_portrait_acw_land_18"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_portrait_acw_naval_01"
+				"GFX_portrait_acw_naval_02"
+				"GFX_portrait_acw_naval_03"
+				"GFX_portrait_acw_naval_04"
+				"GFX_portrait_acw_naval_05"
+				"GFX_portrait_acw_naval_06"
+				"GFX_portrait_acw_naval_07"
+				"GFX_portrait_acw_naval_08"
+				"GFX_portrait_acw_naval_09"
+				"GFX_portrait_acw_naval_10"
+				"GFX_portrait_acw_naval_11"
+				"GFX_portrait_acw_naval_12"
+				"GFX_portrait_acw_naval_13"
+				"GFX_portrait_acw_naval_14"
+				"GFX_portrait_acw_naval_15"
+				"GFX_portrait_acw_naval_16"
+			}
+		}
+	}
 	army = {
 		male = {
 			"GFX_portrait_acw_land_01"
@@ -78,6 +164,82 @@ ACW = {
 }
 
 HEN = {
+	political = {
+		communism = {
+			male = {
+				"GFX_portrait_hen_land_01"
+				"GFX_portrait_hen_land_02"
+				"GFX_portrait_hen_land_03"
+				"GFX_portrait_hen_land_04"
+				"GFX_portrait_hen_land_05"
+				"GFX_portrait_hen_land_06"
+				"GFX_portrait_hen_land_07"
+				"GFX_portrait_hen_land_08"
+				"GFX_portrait_hen_land_09"
+				"GFX_portrait_hen_land_10"
+				"GFX_portrait_hen_land_11"
+				"GFX_portrait_hen_land_12"
+				"GFX_portrait_hen_land_13"
+				"GFX_portrait_hen_land_14"
+				"GFX_portrait_hen_land_15"
+				"GFX_portrait_hen_land_16"
+				"GFX_portrait_hen_land_17"
+				"GFX_portrait_hen_land_18"
+				"GFX_portrait_hen_land_19"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_portrait_hen_naval_01"
+				"GFX_portrait_hen_naval_02"
+				"GFX_portrait_hen_naval_03"
+				"GFX_portrait_hen_naval_04"
+				"GFX_portrait_hen_naval_05"
+				"GFX_portrait_hen_naval_06"
+				"GFX_portrait_hen_naval_07"
+				"GFX_portrait_hen_naval_08"
+				"GFX_portrait_hen_naval_09"
+				"GFX_portrait_hen_naval_10"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_portrait_hen_land_01"
+				"GFX_portrait_hen_land_02"
+				"GFX_portrait_hen_land_03"
+				"GFX_portrait_hen_land_04"
+				"GFX_portrait_hen_land_05"
+				"GFX_portrait_hen_land_06"
+				"GFX_portrait_hen_land_07"
+				"GFX_portrait_hen_land_08"
+				"GFX_portrait_hen_land_09"
+				"GFX_portrait_hen_land_10"
+				"GFX_portrait_hen_land_11"
+				"GFX_portrait_hen_land_12"
+				"GFX_portrait_hen_land_13"
+				"GFX_portrait_hen_land_14"
+				"GFX_portrait_hen_land_15"
+				"GFX_portrait_hen_land_16"
+				"GFX_portrait_hen_land_17"
+				"GFX_portrait_hen_land_18"
+				"GFX_portrait_hen_land_19"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_portrait_hen_naval_01"
+				"GFX_portrait_hen_naval_02"
+				"GFX_portrait_hen_naval_03"
+				"GFX_portrait_hen_naval_04"
+				"GFX_portrait_hen_naval_05"
+				"GFX_portrait_hen_naval_06"
+				"GFX_portrait_hen_naval_07"
+				"GFX_portrait_hen_naval_08"
+				"GFX_portrait_hen_naval_09"
+				"GFX_portrait_hen_naval_10"
+			}
+		}
+	}
 	army = {
 		male = {
 			"GFX_portrait_hen_land_01"
@@ -138,6 +300,64 @@ HEN = {
 }
 
 MAH = {
+	political = {
+		communism = {
+			male = {
+				"GFX_portrait_mah_land_01"
+				"GFX_portrait_mah_land_02"
+				"GFX_portrait_mah_land_03"
+				"GFX_portrait_mah_land_04"
+				"GFX_portrait_mah_land_05"
+				"GFX_portrait_mah_land_06"
+				"GFX_portrait_mah_land_07"
+				"GFX_portrait_mah_land_08"
+				"GFX_portrait_mah_land_09"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_portrait_mah_naval_01"
+				"GFX_portrait_mah_naval_02"
+				"GFX_portrait_mah_naval_03"
+				"GFX_portrait_mah_naval_04"
+				"GFX_portrait_mah_naval_05"
+				"GFX_portrait_mah_naval_06"
+				"GFX_portrait_mah_naval_07"
+				"GFX_portrait_mah_naval_08"
+				"GFX_portrait_mah_naval_09"
+				"GFX_portrait_mah_naval_10"
+				"GFX_portrait_mah_naval_11"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_portrait_mah_land_01"
+				"GFX_portrait_mah_land_02"
+				"GFX_portrait_mah_land_03"
+				"GFX_portrait_mah_land_04"
+				"GFX_portrait_mah_land_05"
+				"GFX_portrait_mah_land_06"
+				"GFX_portrait_mah_land_07"
+				"GFX_portrait_mah_land_08"
+				"GFX_portrait_mah_land_09"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_portrait_mah_naval_01"
+				"GFX_portrait_mah_naval_02"
+				"GFX_portrait_mah_naval_03"
+				"GFX_portrait_mah_naval_04"
+				"GFX_portrait_mah_naval_05"
+				"GFX_portrait_mah_naval_06"
+				"GFX_portrait_mah_naval_07"
+				"GFX_portrait_mah_naval_08"
+				"GFX_portrait_mah_naval_09"
+				"GFX_portrait_mah_naval_10"
+				"GFX_portrait_mah_naval_11"
+			}
+		}
+	}
 	army = {
 		male = {
 			"GFX_portrait_mah_land_01"
@@ -195,6 +415,82 @@ MAH = {
 }
 
 TRP = {
+	political = {
+		communism = {
+			male = {
+				"GFX_portrait_trp_land_01"
+				"GFX_portrait_trp_land_02"
+				"GFX_portrait_trp_land_03"
+				"GFX_portrait_trp_land_04"
+				"GFX_portrait_trp_land_05"
+				"GFX_portrait_trp_land_06"
+				"GFX_portrait_trp_land_07"
+				"GFX_portrait_trp_land_08"
+				"GFX_portrait_trp_land_09"
+				"GFX_portrait_trp_land_10"
+				"GFX_portrait_trp_land_11"
+				"GFX_portrait_trp_land_12"
+				"GFX_portrait_trp_land_13"
+				"GFX_portrait_trp_land_14"
+				"GFX_portrait_trp_land_15"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_portrait_trp_naval_01"
+				"GFX_portrait_trp_naval_02"
+				"GFX_portrait_trp_naval_03"
+				"GFX_portrait_trp_naval_04"
+				"GFX_portrait_trp_naval_05"
+				"GFX_portrait_trp_naval_06"
+				"GFX_portrait_trp_naval_07"
+				"GFX_portrait_trp_naval_08"
+				"GFX_portrait_trp_naval_09"
+				"GFX_portrait_trp_naval_10"
+				"GFX_portrait_trp_naval_11"
+				"GFX_portrait_trp_naval_12"
+				"GFX_portrait_trp_naval_13"
+				"GFX_portrait_trp_naval_14"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_portrait_trp_land_01"
+				"GFX_portrait_trp_land_02"
+				"GFX_portrait_trp_land_03"
+				"GFX_portrait_trp_land_04"
+				"GFX_portrait_trp_land_05"
+				"GFX_portrait_trp_land_06"
+				"GFX_portrait_trp_land_07"
+				"GFX_portrait_trp_land_08"
+				"GFX_portrait_trp_land_09"
+				"GFX_portrait_trp_land_10"
+				"GFX_portrait_trp_land_11"
+				"GFX_portrait_trp_land_12"
+				"GFX_portrait_trp_land_13"
+				"GFX_portrait_trp_land_14"
+				"GFX_portrait_trp_land_15"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_portrait_trp_naval_01"
+				"GFX_portrait_trp_naval_02"
+				"GFX_portrait_trp_naval_03"
+				"GFX_portrait_trp_naval_04"
+				"GFX_portrait_trp_naval_05"
+				"GFX_portrait_trp_naval_06"
+				"GFX_portrait_trp_naval_07"
+				"GFX_portrait_trp_naval_08"
+				"GFX_portrait_trp_naval_09"
+				"GFX_portrait_trp_naval_10"
+				"GFX_portrait_trp_naval_11"
+				"GFX_portrait_trp_naval_12"
+				"GFX_portrait_trp_naval_13"
+				"GFX_portrait_trp_naval_14"
+			}
+		}
+	}
 	army = {
 		male = {
 			"GFX_portrait_trp_land_01"
@@ -256,6 +552,86 @@ TRP = {
 }
 
 MEH = {
+	political = {
+		communism = {
+			male = {
+				"GFX_portrait_meh_land_01"
+				"GFX_portrait_meh_land_02"
+				"GFX_portrait_meh_land_03"
+				"GFX_portrait_meh_land_04"
+				"GFX_portrait_meh_land_05"
+				"GFX_portrait_meh_land_06"
+				"GFX_portrait_meh_land_07"
+				"GFX_portrait_meh_land_08"
+				"GFX_portrait_meh_land_09"
+				"GFX_portrait_meh_land_10"
+				"GFX_portrait_meh_land_11"
+				"GFX_portrait_meh_land_12"
+				"GFX_portrait_meh_land_13"
+				"GFX_portrait_meh_land_14"
+				"GFX_portrait_meh_land_15"
+				"GFX_portrait_meh_land_16"
+				"GFX_portrait_meh_land_17"
+				"GFX_portrait_meh_land_18"
+				"GFX_portrait_meh_land_19"
+				"GFX_portrait_meh_land_20"
+				"GFX_portrait_meh_land_21"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_portrait_meh_naval_01"
+				"GFX_portrait_meh_naval_02"
+				"GFX_portrait_meh_naval_03"
+				"GFX_portrait_meh_naval_04"
+				"GFX_portrait_meh_naval_05"
+				"GFX_portrait_meh_naval_06"
+				"GFX_portrait_meh_naval_07"
+				"GFX_portrait_meh_naval_08"
+				"GFX_portrait_meh_naval_09"
+				"GFX_portrait_meh_naval_10"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_portrait_meh_land_01"
+				"GFX_portrait_meh_land_02"
+				"GFX_portrait_meh_land_03"
+				"GFX_portrait_meh_land_04"
+				"GFX_portrait_meh_land_05"
+				"GFX_portrait_meh_land_06"
+				"GFX_portrait_meh_land_07"
+				"GFX_portrait_meh_land_08"
+				"GFX_portrait_meh_land_09"
+				"GFX_portrait_meh_land_10"
+				"GFX_portrait_meh_land_11"
+				"GFX_portrait_meh_land_12"
+				"GFX_portrait_meh_land_13"
+				"GFX_portrait_meh_land_14"
+				"GFX_portrait_meh_land_15"
+				"GFX_portrait_meh_land_16"
+				"GFX_portrait_meh_land_17"
+				"GFX_portrait_meh_land_18"
+				"GFX_portrait_meh_land_19"
+				"GFX_portrait_meh_land_20"
+				"GFX_portrait_meh_land_21"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_portrait_meh_naval_01"
+				"GFX_portrait_meh_naval_02"
+				"GFX_portrait_meh_naval_03"
+				"GFX_portrait_meh_naval_04"
+				"GFX_portrait_meh_naval_05"
+				"GFX_portrait_meh_naval_06"
+				"GFX_portrait_meh_naval_07"
+				"GFX_portrait_meh_naval_08"
+				"GFX_portrait_meh_naval_09"
+				"GFX_portrait_meh_naval_10"
+			}
+		}
+	}
 	army = {
 		male = {
 			"GFX_portrait_meh_land_01"
@@ -320,6 +696,110 @@ MEH = {
 }
 
 MMS = {
+	political = {
+		communism = {
+			male = {
+				"GFX_portrait_mms_land_01"
+				"GFX_portrait_mms_land_02"
+				"GFX_portrait_mms_land_03"
+				"GFX_portrait_mms_land_04"
+				"GFX_portrait_mms_land_05"
+				"GFX_portrait_mms_land_06"
+				"GFX_portrait_mms_land_07"
+				"GFX_portrait_mms_land_08"
+				"GFX_portrait_mms_land_09"
+				"GFX_portrait_mms_land_10"
+				"GFX_portrait_mms_land_11"
+				"GFX_portrait_mms_land_12"
+				"GFX_portrait_mms_land_13"
+				"GFX_portrait_mms_land_14"
+				"GFX_portrait_mms_land_15"
+				"GFX_portrait_mms_land_16"
+				"GFX_portrait_mms_land_17"
+				"GFX_portrait_mms_land_18"
+				"GFX_portrait_mms_land_19"
+				"GFX_portrait_mms_land_20"
+				"GFX_portrait_mms_land_21"
+				"GFX_portrait_mms_land_22"
+				"GFX_portrait_mms_land_23"
+				"GFX_portrait_mms_land_24"
+				"GFX_portrait_mms_land_25"
+				"GFX_portrait_mms_land_26"
+				"GFX_portrait_mms_land_27"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_portrait_mms_naval_01"
+				"GFX_portrait_mms_naval_02"
+				"GFX_portrait_mms_naval_03"
+				"GFX_portrait_mms_naval_04"
+				"GFX_portrait_mms_naval_05"
+				"GFX_portrait_mms_naval_06"
+				"GFX_portrait_mms_naval_07"
+				"GFX_portrait_mms_naval_08"
+				"GFX_portrait_mms_naval_09"
+				"GFX_portrait_mms_naval_10"
+				"GFX_portrait_mms_naval_11"
+				"GFX_portrait_mms_naval_12"
+				"GFX_portrait_mms_naval_13"
+				"GFX_portrait_mms_naval_14"
+				"GFX_portrait_mms_naval_15"
+				"GFX_portrait_mms_naval_16"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_portrait_mms_land_01"
+				"GFX_portrait_mms_land_02"
+				"GFX_portrait_mms_land_03"
+				"GFX_portrait_mms_land_04"
+				"GFX_portrait_mms_land_05"
+				"GFX_portrait_mms_land_06"
+				"GFX_portrait_mms_land_07"
+				"GFX_portrait_mms_land_08"
+				"GFX_portrait_mms_land_09"
+				"GFX_portrait_mms_land_10"
+				"GFX_portrait_mms_land_11"
+				"GFX_portrait_mms_land_12"
+				"GFX_portrait_mms_land_13"
+				"GFX_portrait_mms_land_14"
+				"GFX_portrait_mms_land_15"
+				"GFX_portrait_mms_land_16"
+				"GFX_portrait_mms_land_17"
+				"GFX_portrait_mms_land_18"
+				"GFX_portrait_mms_land_19"
+				"GFX_portrait_mms_land_20"
+				"GFX_portrait_mms_land_21"
+				"GFX_portrait_mms_land_22"
+				"GFX_portrait_mms_land_23"
+				"GFX_portrait_mms_land_24"
+				"GFX_portrait_mms_land_25"
+				"GFX_portrait_mms_land_26"
+				"GFX_portrait_mms_land_27"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_portrait_mms_naval_01"
+				"GFX_portrait_mms_naval_02"
+				"GFX_portrait_mms_naval_03"
+				"GFX_portrait_mms_naval_04"
+				"GFX_portrait_mms_naval_05"
+				"GFX_portrait_mms_naval_06"
+				"GFX_portrait_mms_naval_07"
+				"GFX_portrait_mms_naval_08"
+				"GFX_portrait_mms_naval_09"
+				"GFX_portrait_mms_naval_10"
+				"GFX_portrait_mms_naval_11"
+				"GFX_portrait_mms_naval_12"
+				"GFX_portrait_mms_naval_13"
+				"GFX_portrait_mms_naval_14"
+				"GFX_portrait_mms_naval_15"
+				"GFX_portrait_mms_naval_16"
+			}
+		}
+	}
 	army = {
 		male = {
 			"GFX_portrait_mms_land_01"
