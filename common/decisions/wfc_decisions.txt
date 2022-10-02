@@ -4845,38 +4845,21 @@ wfc_machine_war_category = {
 			NOT = {
 				is_in_faction_with = MEH
 			}
+			controls_state = 375
+			controls_state = 376
+			controls_state = 377
 			OR = {
 				483 = {
-					OR = {
-						is_owned_by = MEH
-						OWNER = {
-							is_puppet_of = MEH
-						}
-					}
+					is_owned_by = MEH
 				}
 				482 = {
-					OR = {
-						is_owned_by = MEH
-						OWNER = {
-							is_puppet_of = MEH
-						}
-					}
+					is_owned_by = MEH
 				}
 				480 = {
-					OR = {
-						is_owned_by = MEH
-						OWNER = {
-							is_puppet_of = MEH
-						}
-					}
+					is_owned_by = MEH
 				}
 				479 = {
-					OR = {
-						is_owned_by = MEH
-						OWNER = {
-							is_puppet_of = MEH
-						}
-					}
+					is_owned_by = MEH
 				}
 			}
 		}
