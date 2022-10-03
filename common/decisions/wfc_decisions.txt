@@ -3892,7 +3892,9 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			controls_state = FROM
+			FROM = {
+				is_fully_controlled_by = OWNER
+			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -3968,7 +3970,9 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			controls_state = FROM
+			FROM = {
+				is_fully_controlled_by = OWNER
+			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -4044,7 +4048,9 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			controls_state = FROM
+			FROM = {
+				is_fully_controlled_by = OWNER
+			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -4120,7 +4126,9 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			controls_state = FROM
+			FROM = {
+				is_fully_controlled_by = OWNER
+			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
