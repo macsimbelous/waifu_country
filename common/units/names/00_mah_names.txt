@@ -4,93 +4,99 @@
 		prefix = ""
 		generic = { "Podvodnaya Lodka" }
 		unique = {
-			"Shch-201" "Shch-202" "Shch-203" "Shch-204" "Shch-205" "Shch-206" "Shch-207" 
-			"Shch-306" "Shch-307" "Shch-309" "Shch-310" "Shch-311" "Shch-312" "S-1" "S-2" "S-3" "Sch-126" "Sch-127" "Sch-128" "Sch-129" "Sch-130" 
-			"Sch-131" "Sch-132" "Sch-133" "Sch-134" "Sch-208" "Sch-209" "Sch-210" "Sch-211" "Sch-212" "Sch-213" "Sch-214" "Sch-215" 
-			"Sch-313" "Sch-314" "Sch-315" "Sch-316" "Sch-317" "Sch-318" "Sch-319" "Sch-320" "Sch-321" "Sch-322" "Sch-323" "Sch-324" 
-			"Sch-401" "Sch-402" "Sch-403" "Sch-404" "Sch-421" "Sch-422" "Sch-423" 
-			"S-4" "S-5" "S-6" "S-7" "S-8" "S-9" "S-10" "S-11" "S-12" "S-13" "S-14" "S-15" "S-16" "S-17" "S-18" "S-19" "S-20" "S-21" "S-22" "S-23" "S-24" "S-25" "S-26" "S-27" "S-28" 
-			"S-29" "S-30" "S-31" "S-32" "S-33" "S-34" "S-35" "S-36" "S-37" "S-38" "S-51" "S-52" "S-53" "S-54" "S-55" "S-56" "S-101" "S-102" "S-103" "S-104" 
-			"K-1" "K-2" "K-3" "K-21" "K-22" "K-23" "K-51" "K-52" "K-53" "K-54" "K-55" "K-56" 
-			"Sch-135" "Sch-136" "Sch-137" "Sch-138" "Sch-216" "Sch-405" "Sch-406" "Sch-407" "Sch-408" "Sch-411" "Sch-412" "Sch-413" "Sch-414" 
-			"S-47" "S-48" "S-49" "S-58" "S-59" "S-60" 		
-			# Fictional (and older) names start here
-			"S-61" "S-62" "S-63" "S-64" "S-65" "S-66" "S-67" "S-68" "S-69" "S-70" 
-			"Sch-415" "Sch-416" "Sch-417" "Sch-418" "Sch-419" "Sch-420" "Sch-424" "Sch-425" "Sch-426" "Sch-427" "Sch-428" "Sch-429" "Sch-430"
-			"D-1" "D-2" "D-3" "D-4" "D-5" "D-6" "Shch-301" "Shch-302" "Shch-303" "Shch-304" 
-			"Shch-101" "Shch-102" "Shch-103" "Shch-104" "Shch-105" "Shch-106" "Shch-107" "Shch-108" "Shch-109" "Shch-110" "Shch-111" "Shch-112" "Shch-113" "Shch-114" "Shch-115" "Shch-116" 
-			"Shch-117" "Shch-118" "Shch-119" "Shch-120" "Shch-305" "Shch-308" "Shch-121" "Shch-122" "Shch-123" "Shch-124" "Shch-125" 
+			"Maho S-1" "Maho S-2" "Maho S-3" "Maho S-4" "Maho S-5" "Maho S-6" "Maho S-7" "Maho S-8" "Maho S-9" "Maho S-10" "Maho S-11" "Maho S-12" "Maho S-13" "Maho S-14" "Maho S-15" "Maho S-16" "Maho S-17" "Maho S-18"
+			"Maho S-19" "Maho S-20" "Maho S-21" "Maho S-22" "Maho S-23" "Maho S-24" "Maho S-25" "Maho S-26" "Maho S-27" "Maho S-28" "Maho S-29" "Maho S-30" "Maho S-31" "Maho S-32" "Maho S-33" "Maho S-34" "Maho S-35"
+			"Maho S-36" "Maho S-37" "Maho S-38" "Maho S-39" "Maho S-40" "Maho S-41" "Maho S-42" "Maho S-43" "Maho S-44" "Maho S-45" "Maho S-46" "Maho S-47" "Maho S-48" "Maho S-49" "Maho S-50" "Maho S-51" "Maho S-52"
+			"Maho S-53" "Maho S-54" "Maho S-55" "Maho S-56" "Maho S-57" "Maho S-58" "Maho S-59" "Maho S-60" "Maho S-61" "Maho S-62" "Maho S-63" "Maho S-64" "Maho S-65" "Maho S-66" "Maho S-67" "Maho S-68" "Maho S-69"
+			"Maho S-70" "Maho S-71" "Maho S-72" "Maho S-73" "Maho S-74" "Maho S-75" "Maho S-76" "Maho S-77" "Maho S-78" "Maho S-79" "Maho S-80" "Maho S-81" "Maho S-82" "Maho S-83" "Maho S-84" "Maho S-85" "Maho S-86"
+			"Maho S-87" "Maho S-88" "Maho S-89" "Maho S-90" "Maho S-91" "Maho S-92" "Maho S-93" "Maho S-94" "Maho S-95" "Maho S-96" "Maho S-97" "Maho S-98" "Maho S-99" "Maho S-100" "Maho S-101" "Maho S-102"
+			"Maho S-103" "Maho S-104" "Maho S-105" "Maho S-106" "Maho S-107" "Maho S-108" "Maho S-109" "Maho S-110" "Maho S-111" "Maho S-112" "Maho S-113" "Maho S-114" "Maho S-115" "Maho S-116" "Maho S-117"
+			"Maho S-118" "Maho S-119" "Maho S-120" "Maho S-121" "Maho S-122" "Maho S-123" "Maho S-124" "Maho S-125" "Maho S-126" "Maho S-127" "Maho S-128" "Maho S-129" "Maho S-130" "Maho S-131" "Maho S-132"
+			"Maho S-133" "Maho S-134" "Maho S-135" "Maho S-136" "Maho S-137" "Maho S-138" "Maho S-139" "Maho S-140" "Maho S-141" "Maho S-142" "Maho S-143" "Maho S-144" "Maho S-145" "Maho S-146" "Maho S-147"
+			"Maho S-148" "Maho S-149" "Maho S-150" "Maho S-151" "Maho S-152" "Maho S-153" "Maho S-154" "Maho S-155" "Maho S-156" "Maho S-157" "Maho S-158" "Maho S-159" "Maho S-160" "Maho S-161" "Maho S-162"
+			"Maho S-163" "Maho S-164" "Maho S-165" "Maho S-166" "Maho S-167" "Maho S-168" "Maho S-169" "Maho S-170" "Maho S-171" "Maho S-172" "Maho S-173" "Maho S-174" "Maho S-175" "Maho S-176" "Maho S-177"
+			"Maho S-178" "Maho S-179" "Maho S-180" "Maho S-181" "Maho S-182" "Maho S-183" "Maho S-184" "Maho S-185" "Maho S-186" "Maho S-187" "Maho S-188" "Maho S-189" "Maho S-190" "Maho S-191" "Maho S-192"
+			"Maho S-193" "Maho S-194" "Maho S-195" "Maho S-196" "Maho S-197" "Maho S-198" "Maho S-199" "Maho S-200" "Maho S-201" "Maho S-202" "Maho S-203" "Maho S-204" "Maho S-205" "Maho S-206" "Maho S-207"
+			"Maho S-208" "Maho S-209" "Maho S-210" "Maho S-211" "Maho S-212" "Maho S-213" "Maho S-214" "Maho S-215" "Maho S-216" "Maho S-217" "Maho S-218" "Maho S-219" "Maho S-220" "Maho S-221" "Maho S-222"
+			"Maho S-223" "Maho S-224" "Maho S-225" "Maho S-226" "Maho S-227" "Maho S-228" "Maho S-229" "Maho S-230" "Maho S-231" "Maho S-232" "Maho S-233" "Maho S-234" "Maho S-235" "Maho S-236" "Maho S-237"
+			"Maho S-238" "Maho S-239" "Maho S-240" "Maho S-241" "Maho S-242" "Maho S-243" "Maho S-244" "Maho S-245" "Maho S-246" "Maho S-247" "Maho S-248" "Maho S-249" "Maho S-250" "Maho S-251" "Maho S-252"
+			"Maho S-253" "Maho S-254" "Maho S-255" "Maho S-256" "Maho S-257" "Maho S-258" "Maho S-259" "Maho S-260" "Maho S-261" "Maho S-262" "Maho S-263" "Maho S-264" "Maho S-265" "Maho S-266" "Maho S-267"
+			"Maho S-268" "Maho S-269" "Maho S-270" "Maho S-271" "Maho S-272" "Maho S-273" "Maho S-274" "Maho S-275" "Maho S-276" "Maho S-277" "Maho S-278" "Maho S-279" "Maho S-280" "Maho S-281" "Maho S-282"
+			"Maho S-283" "Maho S-284" "Maho S-285" "Maho S-286" "Maho S-287" "Maho S-288" "Maho S-289" "Maho S-290" "Maho S-291" "Maho S-292" "Maho S-293" "Maho S-294" "Maho S-295" "Maho S-296" "Maho S-297"
+			"Maho S-298" "Maho S-299" "Maho S-300" "Maho S-301" "Maho S-302" "Maho S-303" "Maho S-304" "Maho S-305" "Maho S-306" "Maho S-307" "Maho S-308" "Maho S-309" "Maho S-310" "Maho S-311" "Maho S-312"
+			"Maho S-313" "Maho S-314" "Maho S-315" "Maho S-316" "Maho S-317" "Maho S-318" "Maho S-319" "Maho S-320" "Maho S-321" "Maho S-322" "Maho S-323" "Maho S-324" "Maho S-325" "Maho S-326" "Maho S-327"
+			"Maho S-328" "Maho S-329" "Maho S-330" "Maho S-331" "Maho S-332" "Maho S-333" "Maho S-334" "Maho S-335" "Maho S-336" "Maho S-337" "Maho S-338" "Maho S-339" "Maho S-340" "Maho S-341" "Maho S-342"
+			"Maho S-343" "Maho S-344" "Maho S-345" "Maho S-346" "Maho S-347" "Maho S-348" "Maho S-349" "Maho S-350" "Maho S-351" "Maho S-352" "Maho S-353" "Maho S-354" "Maho S-355" "Maho S-356" "Maho S-357"
+			"Maho S-358" "Maho S-359" "Maho S-360" "Maho S-361" "Maho S-362" "Maho S-363" "Maho S-364" "Maho S-365" "Maho S-366" "Maho S-367" "Maho S-368" "Maho S-369" "Maho S-370" "Maho S-371" "Maho S-372"
+			"Maho S-373" "Maho S-374" "Maho S-375" "Maho S-376" "Maho S-377" "Maho S-378" "Maho S-379" "Maho S-380" "Maho S-381" "Maho S-382" "Maho S-383" "Maho S-384" "Maho S-385" "Maho S-386" "Maho S-387"
+			"Maho S-388" "Maho S-389" "Maho S-390" "Maho S-391" "Maho S-392" "Maho S-393" "Maho S-394" "Maho S-395" "Maho S-396" "Maho S-397" "Maho S-398" "Maho S-399" "Maho S-400" "Maho S-401" "Maho S-402"
+			"Maho S-403" "Maho S-404" "Maho S-405" "Maho S-406" "Maho S-407" "Maho S-408" "Maho S-409" "Maho S-410" "Maho S-411" "Maho S-412" "Maho S-413" "Maho S-414" "Maho S-415" "Maho S-416" "Maho S-417"
+			"Maho S-418" "Maho S-419" "Maho S-420" "Maho S-421" "Maho S-422" "Maho S-423" "Maho S-424" "Maho S-425" "Maho S-426" "Maho S-427" "Maho S-428" "Maho S-429" "Maho S-430" "Maho S-431" "Maho S-432"
+			"Maho S-433" "Maho S-434" "Maho S-435" "Maho S-436" "Maho S-437" "Maho S-438" "Maho S-439" "Maho S-440" "Maho S-441" "Maho S-442" "Maho S-443" "Maho S-444" "Maho S-445" "Maho S-446" "Maho S-447"
+			"Maho S-448" "Maho S-449" "Maho S-450" "Maho S-451" "Maho S-452" "Maho S-453" "Maho S-454" "Maho S-455" "Maho S-456" "Maho S-457" "Maho S-458" "Maho S-459" "Maho S-460" "Maho S-461" "Maho S-462"
+			"Maho S-463" "Maho S-464" "Maho S-465" "Maho S-466" "Maho S-467" "Maho S-468" "Maho S-469" "Maho S-470" "Maho S-471" "Maho S-472" "Maho S-473" "Maho S-474" "Maho S-475" "Maho S-476" "Maho S-477"
+			"Maho S-478" "Maho S-479" "Maho S-480" "Maho S-481" "Maho S-482" "Maho S-483" "Maho S-484" "Maho S-485" "Maho S-486" "Maho S-487" "Maho S-488" "Maho S-489" "Maho S-490" "Maho S-491" "Maho S-492"
+			"Maho S-493" "Maho S-494" "Maho S-495" "Maho S-496" "Maho S-497" "Maho S-498" "Maho S-499" "Maho S-500"
 		}
 	}
 	destroyer = {
 		prefix = ""
 		generic = { "Esminets" }
 		unique = {
-			# Starting with Leningrad class 
-			"Leningrad" "Moskva" "Kharkov" "Minsk" "Tbilisi" "Baku" "Tashkent" 
 			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
 			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
 			"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
 			"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
 			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
-			"Smetlivy" "Sergo Ordzhonikidze" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
-			"Kiyev" "Yerevan" "Stalinabad" "Petrozavodsk" "Ochakov" "Perekop" "Ashkhabad" "Alma-Ata" 			
+			"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
 			"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
-			# Fictional (and older) names start here
-			"Garibaldi" "Zheleznyakov" "Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" "Tiflis" "Vitse Admiral Drozd" 
+			"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
 			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
 			"Okhranyayushchy" "Ozabochenny"
-			"Volodarsky" "Uritsky" "Engels" "Artyom" "Stalin" "Lenin" "Voykov" "Spartak" "Kuybyshev" "Karl Liebknecht" "Karl Marx" "Kalinin" "Dzerzhinsky" "Zheleznyakov" "Nezamozhnik" "Shaumyan" 
 		}
 	}
 	light_cruiser = {
 		prefix = ""
 		generic = { "Legkiy Kreyser" }
 		unique = {
-			"Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Ordzhonikidze" "Sverdlov" "Frunze" "Murmansk" "Komintern" "Krasny Krym" "Chervona Ukrayna" "Krasny Kavkaz" 
- 			# Fictional (postwar) names start here
-			"Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" "Admiral Senyavin" 
-			"Dmitry Pozharsky" "Oktyabrskaya Revolutsiya" "Mikhail Kutuzov" "Grozny" "Profintern" "Grozneft" "Azneft" "Vitse Admiral Drozd" 
-			"Admiral Zozulya" "Vladivostok" "Sevastopol" "Admiral Isakov" "Admiral Makarov" "Marshal Voroshilov" "Admiral Oktyabrskiy" "Admiral Isachenkov" "Marshal Budyonny" 
-			"Vasily Chapayev" "Admiral Yumashev" "Nikolayev" "Ochakov" "Kerch" "Azov" "Tashkent" "Tallin" "Admiral Lobov" "Komsomolets" "Admiral Gorshkov" 
+			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
+			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
+			"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
+			"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
+			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
+			"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
+			"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
+			"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
+			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
+			"Okhranyayushchy" "Ozabochenny"
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
 		generic = { "Tyazhely Kreyser" }
 		unique = {
-			"Kirov" "Voroshilov" "Maxim Gorky" "Molotov" "Kaganovich" "Kalinin" "Tallin" "Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov"
-			# Fictional (postwar) names start here
- 			"Komsomolets" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" 
-			"Admiral Senyavin" "Dmitry Pozharsky" "Oktyabrskaya Revolutsiya" "Murmansk" "Mikhail Kutuzov" "Grozny" "Admiral Fokin" "Admiral Golovko" "Khabarovsk"
+
 		}
 	}
 	battle_cruiser = {
 		prefix = ""
 		generic = { "Linejnyj Kreyser" }
 		unique = {
-			"Kronshtadt" "Sevastopol"
-			# Fictional names start here			
-			"Stalingrad" "Moskva" "Kirov" "Frunze" "Kalinin" "Oktyabrskaya Revolutsiya" "Dzerzhinsky" 		
-			"Admiral Ushakov" "Admiral Lazarev" "Admiral Nakhimov""Yuri Andropov" "Admiral Kuznetsov" 
+ 
 		}
 	}
 	battleship = {
 		prefix = ""
 		generic = { "Linkor" }
 		unique = {
-			"Arkhangelsk" "Novorossysk" "Sovyetsky Soyuz" "Sovyetskaya Ukrayna" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya"
-			"Oktyabrskaya Revolutsiya" "Marat" "Frunze" "Parizhskaya Kommuna" 				
-			# Fictional names start here
-			 "Murmansk" "Vladivostok" "Karl Marx" "Vladimir Lenin" "Iosif Stalin" "Volya" "Engels" "Aleksandr Nevsky" "Admiral Kuznetsov"  
+ 
 		}
 	}
 	carrier = {
 		prefix = ""
 		generic = { "Avianosets" }
 		unique = {
-			# Fictional names start here
-			"Moskva" "Leningrad" "Oryol" "Kiyev" "Minsk" "Novorossysk" "Kharkov" "Baku" "Riga" "Ulyanovsk" "Tblisi" "Admiral Gorshkov" "Leonid Brezhnev""Admiral Kuznetsov" 
+
 		}
 	}
 air_wing_names_template = AIR_WING_NAME_ACW_FALLBACK

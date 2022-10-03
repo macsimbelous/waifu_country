@@ -4,93 +4,95 @@
 		prefix = ""
 		generic = { "Podvodnaya Lodka" }
 		unique = {
-			"Shch-201" "Shch-202" "Shch-203" "Shch-204" "Shch-205" "Shch-206" "Shch-207" 
-			"Shch-306" "Shch-307" "Shch-309" "Shch-310" "Shch-311" "Shch-312" "S-1" "S-2" "S-3" "Sch-126" "Sch-127" "Sch-128" "Sch-129" "Sch-130" 
-			"Sch-131" "Sch-132" "Sch-133" "Sch-134" "Sch-208" "Sch-209" "Sch-210" "Sch-211" "Sch-212" "Sch-213" "Sch-214" "Sch-215" 
-			"Sch-313" "Sch-314" "Sch-315" "Sch-316" "Sch-317" "Sch-318" "Sch-319" "Sch-320" "Sch-321" "Sch-322" "Sch-323" "Sch-324" 
-			"Sch-401" "Sch-402" "Sch-403" "Sch-404" "Sch-421" "Sch-422" "Sch-423" 
-			"S-4" "S-5" "S-6" "S-7" "S-8" "S-9" "S-10" "S-11" "S-12" "S-13" "S-14" "S-15" "S-16" "S-17" "S-18" "S-19" "S-20" "S-21" "S-22" "S-23" "S-24" "S-25" "S-26" "S-27" "S-28" 
-			"S-29" "S-30" "S-31" "S-32" "S-33" "S-34" "S-35" "S-36" "S-37" "S-38" "S-51" "S-52" "S-53" "S-54" "S-55" "S-56" "S-101" "S-102" "S-103" "S-104" 
-			"K-1" "K-2" "K-3" "K-21" "K-22" "K-23" "K-51" "K-52" "K-53" "K-54" "K-55" "K-56" 
-			"Sch-135" "Sch-136" "Sch-137" "Sch-138" "Sch-216" "Sch-405" "Sch-406" "Sch-407" "Sch-408" "Sch-411" "Sch-412" "Sch-413" "Sch-414" 
-			"S-47" "S-48" "S-49" "S-58" "S-59" "S-60" 		
-			# Fictional (and older) names start here
-			"S-61" "S-62" "S-63" "S-64" "S-65" "S-66" "S-67" "S-68" "S-69" "S-70" 
-			"Sch-415" "Sch-416" "Sch-417" "Sch-418" "Sch-419" "Sch-420" "Sch-424" "Sch-425" "Sch-426" "Sch-427" "Sch-428" "Sch-429" "Sch-430"
-			"D-1" "D-2" "D-3" "D-4" "D-5" "D-6" "Shch-301" "Shch-302" "Shch-303" "Shch-304" 
-			"Shch-101" "Shch-102" "Shch-103" "Shch-104" "Shch-105" "Shch-106" "Shch-107" "Shch-108" "Shch-109" "Shch-110" "Shch-111" "Shch-112" "Shch-113" "Shch-114" "Shch-115" "Shch-116" 
-			"Shch-117" "Shch-118" "Shch-119" "Shch-120" "Shch-305" "Shch-308" "Shch-121" "Shch-122" "Shch-123" "Shch-124" "Shch-125" 
+			"MS-1" "MS-2" "MS-3" "MS-4" "MS-5" "MS-6" "MS-7" "MS-8" "MS-9" "MS-10" "MS-11" "MS-12" "MS-13" "MS-14" "MS-15" "MS-16" "MS-17" "MS-18"
+			"MS-19" "MS-20" "MS-21" "MS-22" "MS-23" "MS-24" "MS-25" "MS-26" "MS-27" "MS-28" "MS-29" "MS-30" "MS-31" "MS-32" "MS-33" "MS-34" "MS-35"
+			"MS-36" "MS-37" "MS-38" "MS-39" "MS-40" "MS-41" "MS-42" "MS-43" "MS-44" "MS-45" "MS-46" "MS-47" "MS-48" "MS-49" "MS-50" "MS-51" "MS-52"
+			"MS-53" "MS-54" "MS-55" "MS-56" "MS-57" "MS-58" "MS-59" "MS-60" "MS-61" "MS-62" "MS-63" "MS-64" "MS-65" "MS-66" "MS-67" "MS-68" "MS-69"
+			"MS-70" "MS-71" "MS-72" "MS-73" "MS-74" "MS-75" "MS-76" "MS-77" "MS-78" "MS-79" "MS-80" "MS-81" "MS-82" "MS-83" "MS-84" "MS-85" "MS-86"
+			"MS-87" "MS-88" "MS-89" "MS-90" "MS-91" "MS-92" "MS-93" "MS-94" "MS-95" "MS-96" "MS-97" "MS-98" "MS-99" "MS-100" "MS-101" "MS-102"
+			"MS-103" "MS-104" "MS-105" "MS-106" "MS-107" "MS-108" "MS-109" "MS-110" "MS-111" "MS-112" "MS-113" "MS-114" "MS-115" "MS-116" "MS-117"
+			"MS-118" "MS-119" "MS-120" "MS-121" "MS-122" "MS-123" "MS-124" "MS-125" "MS-126" "MS-127" "MS-128" "MS-129" "MS-130" "MS-131" "MS-132"
+			"MS-133" "MS-134" "MS-135" "MS-136" "MS-137" "MS-138" "MS-139" "MS-140" "MS-141" "MS-142" "MS-143" "MS-144" "MS-145" "MS-146" "MS-147"
+			"MS-148" "MS-149" "MS-150" "MS-151" "MS-152" "MS-153" "MS-154" "MS-155" "MS-156" "MS-157" "MS-158" "MS-159" "MS-160" "MS-161" "MS-162"
+			"MS-163" "MS-164" "MS-165" "MS-166" "MS-167" "MS-168" "MS-169" "MS-170" "MS-171" "MS-172" "MS-173" "MS-174" "MS-175" "MS-176" "MS-177"
+			"MS-178" "MS-179" "MS-180" "MS-181" "MS-182" "MS-183" "MS-184" "MS-185" "MS-186" "MS-187" "MS-188" "MS-189" "MS-190" "MS-191" "MS-192"
+			"MS-193" "MS-194" "MS-195" "MS-196" "MS-197" "MS-198" "MS-199" "MS-200" "MS-201" "MS-202" "MS-203" "MS-204" "MS-205" "MS-206" "MS-207"
+			"MS-208" "MS-209" "MS-210" "MS-211" "MS-212" "MS-213" "MS-214" "MS-215" "MS-216" "MS-217" "MS-218" "MS-219" "MS-220" "MS-221" "MS-222"
+			"MS-223" "MS-224" "MS-225" "MS-226" "MS-227" "MS-228" "MS-229" "MS-230" "MS-231" "MS-232" "MS-233" "MS-234" "MS-235" "MS-236" "MS-237"
+			"MS-238" "MS-239" "MS-240" "MS-241" "MS-242" "MS-243" "MS-244" "MS-245" "MS-246" "MS-247" "MS-248" "MS-249" "MS-250" "MS-251" "MS-252"
+			"MS-253" "MS-254" "MS-255" "MS-256" "MS-257" "MS-258" "MS-259" "MS-260" "MS-261" "MS-262" "MS-263" "MS-264" "MS-265" "MS-266" "MS-267"
+			"MS-268" "MS-269" "MS-270" "MS-271" "MS-272" "MS-273" "MS-274" "MS-275" "MS-276" "MS-277" "MS-278" "MS-279" "MS-280" "MS-281" "MS-282"
+			"MS-283" "MS-284" "MS-285" "MS-286" "MS-287" "MS-288" "MS-289" "MS-290" "MS-291" "MS-292" "MS-293" "MS-294" "MS-295" "MS-296" "MS-297"
+			"MS-298" "MS-299" "MS-300" "MS-301" "MS-302" "MS-303" "MS-304" "MS-305" "MS-306" "MS-307" "MS-308" "MS-309" "MS-310" "MS-311" "MS-312"
+			"MS-313" "MS-314" "MS-315" "MS-316" "MS-317" "MS-318" "MS-319" "MS-320" "MS-321" "MS-322" "MS-323" "MS-324" "MS-325" "MS-326" "MS-327"
+			"MS-328" "MS-329" "MS-330" "MS-331" "MS-332" "MS-333" "MS-334" "MS-335" "MS-336" "MS-337" "MS-338" "MS-339" "MS-340" "MS-341" "MS-342"
+			"MS-343" "MS-344" "MS-345" "MS-346" "MS-347" "MS-348" "MS-349" "MS-350" "MS-351" "MS-352" "MS-353" "MS-354" "MS-355" "MS-356" "MS-357"
+			"MS-358" "MS-359" "MS-360" "MS-361" "MS-362" "MS-363" "MS-364" "MS-365" "MS-366" "MS-367" "MS-368" "MS-369" "MS-370" "MS-371" "MS-372"
+			"MS-373" "MS-374" "MS-375" "MS-376" "MS-377" "MS-378" "MS-379" "MS-380" "MS-381" "MS-382" "MS-383" "MS-384" "MS-385" "MS-386" "MS-387"
+			"MS-388" "MS-389" "MS-390" "MS-391" "MS-392" "MS-393" "MS-394" "MS-395" "MS-396" "MS-397" "MS-398" "MS-399" "MS-400" "MS-401" "MS-402"
+			"MS-403" "MS-404" "MS-405" "MS-406" "MS-407" "MS-408" "MS-409" "MS-410" "MS-411" "MS-412" "MS-413" "MS-414" "MS-415" "MS-416" "MS-417"
+			"MS-418" "MS-419" "MS-420" "MS-421" "MS-422" "MS-423" "MS-424" "MS-425" "MS-426" "MS-427" "MS-428" "MS-429" "MS-430" "MS-431" "MS-432"
+			"MS-433" "MS-434" "MS-435" "MS-436" "MS-437" "MS-438" "MS-439" "MS-440" "MS-441" "MS-442" "MS-443" "MS-444" "MS-445" "MS-446" "MS-447"
+			"MS-448" "MS-449" "MS-450" "MS-451" "MS-452" "MS-453" "MS-454" "MS-455" "MS-456" "MS-457" "MS-458" "MS-459" "MS-460" "MS-461" "MS-462"
+			"MS-463" "MS-464" "MS-465" "MS-466" "MS-467" "MS-468" "MS-469" "MS-470" "MS-471" "MS-472" "MS-473" "MS-474" "MS-475" "MS-476" "MS-477"
+			"MS-478" "MS-479" "MS-480" "MS-481" "MS-482" "MS-483" "MS-484" "MS-485" "MS-486" "MS-487" "MS-488" "MS-489" "MS-490" "MS-491" "MS-492"
+			"MS-493" "MS-494" "MS-495" "MS-496" "MS-497" "MS-498" "MS-499" "MS-500"
 		}
 	}
 	destroyer = {
 		prefix = ""
 		generic = { "Esminets" }
 		unique = {
-			# Starting with Leningrad class 
-			"Leningrad" "Moskva" "Kharkov" "Minsk" "Tbilisi" "Baku" "Tashkent" 
 			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
 			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
 			"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
 			"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
 			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
-			"Smetlivy" "Sergo Ordzhonikidze" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
-			"Kiyev" "Yerevan" "Stalinabad" "Petrozavodsk" "Ochakov" "Perekop" "Ashkhabad" "Alma-Ata" 			
+			"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
 			"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
-			# Fictional (and older) names start here
-			"Garibaldi" "Zheleznyakov" "Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" "Tiflis" "Vitse Admiral Drozd" 
+			"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
 			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
 			"Okhranyayushchy" "Ozabochenny"
-			"Volodarsky" "Uritsky" "Engels" "Artyom" "Stalin" "Lenin" "Voykov" "Spartak" "Kuybyshev" "Karl Liebknecht" "Karl Marx" "Kalinin" "Dzerzhinsky" "Zheleznyakov" "Nezamozhnik" "Shaumyan" 
 		}
 	}
 	light_cruiser = {
 		prefix = ""
 		generic = { "Legkiy Kreyser" }
 		unique = {
-			"Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Ordzhonikidze" "Sverdlov" "Frunze" "Murmansk" "Komintern" "Krasny Krym" "Chervona Ukrayna" "Krasny Kavkaz" 
- 			# Fictional (postwar) names start here
-			"Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" "Admiral Senyavin" 
-			"Dmitry Pozharsky" "Oktyabrskaya Revolutsiya" "Mikhail Kutuzov" "Grozny" "Profintern" "Grozneft" "Azneft" "Vitse Admiral Drozd" 
-			"Admiral Zozulya" "Vladivostok" "Sevastopol" "Admiral Isakov" "Admiral Makarov" "Marshal Voroshilov" "Admiral Oktyabrskiy" "Admiral Isachenkov" "Marshal Budyonny" 
-			"Vasily Chapayev" "Admiral Yumashev" "Nikolayev" "Ochakov" "Kerch" "Azov" "Tashkent" "Tallin" "Admiral Lobov" "Komsomolets" "Admiral Gorshkov" 
+			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
+			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
+			"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
+			"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
+			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
+			"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
+			"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
+			"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
+			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
+			"Okhranyayushchy" "Ozabochenny"
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
 		generic = { "Tyazhely Kreyser" }
 		unique = {
-			"Kirov" "Voroshilov" "Maxim Gorky" "Molotov" "Kaganovich" "Kalinin" "Tallin" "Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov"
-			# Fictional (postwar) names start here
- 			"Komsomolets" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" 
-			"Admiral Senyavin" "Dmitry Pozharsky" "Oktyabrskaya Revolutsiya" "Murmansk" "Mikhail Kutuzov" "Grozny" "Admiral Fokin" "Admiral Golovko" "Khabarovsk"
 		}
 	}
 	battle_cruiser = {
 		prefix = ""
 		generic = { "Linejnyj Kreyser" }
 		unique = {
-			"Kronshtadt" "Sevastopol"
-			# Fictional names start here			
-			"Stalingrad" "Moskva" "Kirov" "Frunze" "Kalinin" "Oktyabrskaya Revolutsiya" "Dzerzhinsky" 		
-			"Admiral Ushakov" "Admiral Lazarev" "Admiral Nakhimov""Yuri Andropov" "Admiral Kuznetsov" 
 		}
 	}
 	battleship = {
 		prefix = ""
 		generic = { "Linkor" }
 		unique = {
-			"Arkhangelsk" "Novorossysk" "Sovyetsky Soyuz" "Sovyetskaya Ukrayna" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya"
-			"Oktyabrskaya Revolutsiya" "Marat" "Frunze" "Parizhskaya Kommuna" 				
-			# Fictional names start here
-			 "Murmansk" "Vladivostok" "Karl Marx" "Vladimir Lenin" "Iosif Stalin" "Volya" "Engels" "Aleksandr Nevsky" "Admiral Kuznetsov"  
 		}
 	}
 	carrier = {
 		prefix = ""
 		generic = { "Avianosets" }
 		unique = {
-			# Fictional names start here
-			"Moskva" "Leningrad" "Oryol" "Kiyev" "Minsk" "Novorossysk" "Kharkov" "Baku" "Riga" "Ulyanovsk" "Tblisi" "Admiral Gorshkov" "Leonid Brezhnev""Admiral Kuznetsov" 
 		}
 	}
 air_wing_names_template = AIR_WING_NAME_ACW_FALLBACK

@@ -4,93 +4,95 @@
 		prefix = ""
 		generic = { "Podvodnaya Lodka" }
 		unique = {
-			"Shch-201" "Shch-202" "Shch-203" "Shch-204" "Shch-205" "Shch-206" "Shch-207" 
-			"Shch-306" "Shch-307" "Shch-309" "Shch-310" "Shch-311" "Shch-312" "S-1" "S-2" "S-3" "Sch-126" "Sch-127" "Sch-128" "Sch-129" "Sch-130" 
-			"Sch-131" "Sch-132" "Sch-133" "Sch-134" "Sch-208" "Sch-209" "Sch-210" "Sch-211" "Sch-212" "Sch-213" "Sch-214" "Sch-215" 
-			"Sch-313" "Sch-314" "Sch-315" "Sch-316" "Sch-317" "Sch-318" "Sch-319" "Sch-320" "Sch-321" "Sch-322" "Sch-323" "Sch-324" 
-			"Sch-401" "Sch-402" "Sch-403" "Sch-404" "Sch-421" "Sch-422" "Sch-423" 
-			"S-4" "S-5" "S-6" "S-7" "S-8" "S-9" "S-10" "S-11" "S-12" "S-13" "S-14" "S-15" "S-16" "S-17" "S-18" "S-19" "S-20" "S-21" "S-22" "S-23" "S-24" "S-25" "S-26" "S-27" "S-28" 
-			"S-29" "S-30" "S-31" "S-32" "S-33" "S-34" "S-35" "S-36" "S-37" "S-38" "S-51" "S-52" "S-53" "S-54" "S-55" "S-56" "S-101" "S-102" "S-103" "S-104" 
-			"K-1" "K-2" "K-3" "K-21" "K-22" "K-23" "K-51" "K-52" "K-53" "K-54" "K-55" "K-56" 
-			"Sch-135" "Sch-136" "Sch-137" "Sch-138" "Sch-216" "Sch-405" "Sch-406" "Sch-407" "Sch-408" "Sch-411" "Sch-412" "Sch-413" "Sch-414" 
-			"S-47" "S-48" "S-49" "S-58" "S-59" "S-60" 		
-			# Fictional (and older) names start here
-			"S-61" "S-62" "S-63" "S-64" "S-65" "S-66" "S-67" "S-68" "S-69" "S-70" 
-			"Sch-415" "Sch-416" "Sch-417" "Sch-418" "Sch-419" "Sch-420" "Sch-424" "Sch-425" "Sch-426" "Sch-427" "Sch-428" "Sch-429" "Sch-430"
-			"D-1" "D-2" "D-3" "D-4" "D-5" "D-6" "Shch-301" "Shch-302" "Shch-303" "Shch-304" 
-			"Shch-101" "Shch-102" "Shch-103" "Shch-104" "Shch-105" "Shch-106" "Shch-107" "Shch-108" "Shch-109" "Shch-110" "Shch-111" "Shch-112" "Shch-113" "Shch-114" "Shch-115" "Shch-116" 
-			"Shch-117" "Shch-118" "Shch-119" "Shch-120" "Shch-305" "Shch-308" "Shch-121" "Shch-122" "Shch-123" "Shch-124" "Shch-125" 
+			"Mecha S-1" "Mecha S-2" "Mecha S-3" "Mecha S-4" "Mecha S-5" "Mecha S-6" "Mecha S-7" "Mecha S-8" "Mecha S-9" "Mecha S-10" "Mecha S-11" "Mecha S-12" "Mecha S-13" "Mecha S-14" "Mecha S-15" "Mecha S-16" "Mecha S-17" "Mecha S-18"
+			"Mecha S-19" "Mecha S-20" "Mecha S-21" "Mecha S-22" "Mecha S-23" "Mecha S-24" "Mecha S-25" "Mecha S-26" "Mecha S-27" "Mecha S-28" "Mecha S-29" "Mecha S-30" "Mecha S-31" "Mecha S-32" "Mecha S-33" "Mecha S-34" "Mecha S-35"
+			"Mecha S-36" "Mecha S-37" "Mecha S-38" "Mecha S-39" "Mecha S-40" "Mecha S-41" "Mecha S-42" "Mecha S-43" "Mecha S-44" "Mecha S-45" "Mecha S-46" "Mecha S-47" "Mecha S-48" "Mecha S-49" "Mecha S-50" "Mecha S-51" "Mecha S-52"
+			"Mecha S-53" "Mecha S-54" "Mecha S-55" "Mecha S-56" "Mecha S-57" "Mecha S-58" "Mecha S-59" "Mecha S-60" "Mecha S-61" "Mecha S-62" "Mecha S-63" "Mecha S-64" "Mecha S-65" "Mecha S-66" "Mecha S-67" "Mecha S-68" "Mecha S-69"
+			"Mecha S-70" "Mecha S-71" "Mecha S-72" "Mecha S-73" "Mecha S-74" "Mecha S-75" "Mecha S-76" "Mecha S-77" "Mecha S-78" "Mecha S-79" "Mecha S-80" "Mecha S-81" "Mecha S-82" "Mecha S-83" "Mecha S-84" "Mecha S-85" "Mecha S-86"
+			"Mecha S-87" "Mecha S-88" "Mecha S-89" "Mecha S-90" "Mecha S-91" "Mecha S-92" "Mecha S-93" "Mecha S-94" "Mecha S-95" "Mecha S-96" "Mecha S-97" "Mecha S-98" "Mecha S-99" "Mecha S-100" "Mecha S-101" "Mecha S-102"
+			"Mecha S-103" "Mecha S-104" "Mecha S-105" "Mecha S-106" "Mecha S-107" "Mecha S-108" "Mecha S-109" "Mecha S-110" "Mecha S-111" "Mecha S-112" "Mecha S-113" "Mecha S-114" "Mecha S-115" "Mecha S-116" "Mecha S-117"
+			"Mecha S-118" "Mecha S-119" "Mecha S-120" "Mecha S-121" "Mecha S-122" "Mecha S-123" "Mecha S-124" "Mecha S-125" "Mecha S-126" "Mecha S-127" "Mecha S-128" "Mecha S-129" "Mecha S-130" "Mecha S-131" "Mecha S-132"
+			"Mecha S-133" "Mecha S-134" "Mecha S-135" "Mecha S-136" "Mecha S-137" "Mecha S-138" "Mecha S-139" "Mecha S-140" "Mecha S-141" "Mecha S-142" "Mecha S-143" "Mecha S-144" "Mecha S-145" "Mecha S-146" "Mecha S-147"
+			"Mecha S-148" "Mecha S-149" "Mecha S-150" "Mecha S-151" "Mecha S-152" "Mecha S-153" "Mecha S-154" "Mecha S-155" "Mecha S-156" "Mecha S-157" "Mecha S-158" "Mecha S-159" "Mecha S-160" "Mecha S-161" "Mecha S-162"
+			"Mecha S-163" "Mecha S-164" "Mecha S-165" "Mecha S-166" "Mecha S-167" "Mecha S-168" "Mecha S-169" "Mecha S-170" "Mecha S-171" "Mecha S-172" "Mecha S-173" "Mecha S-174" "Mecha S-175" "Mecha S-176" "Mecha S-177"
+			"Mecha S-178" "Mecha S-179" "Mecha S-180" "Mecha S-181" "Mecha S-182" "Mecha S-183" "Mecha S-184" "Mecha S-185" "Mecha S-186" "Mecha S-187" "Mecha S-188" "Mecha S-189" "Mecha S-190" "Mecha S-191" "Mecha S-192"
+			"Mecha S-193" "Mecha S-194" "Mecha S-195" "Mecha S-196" "Mecha S-197" "Mecha S-198" "Mecha S-199" "Mecha S-200" "Mecha S-201" "Mecha S-202" "Mecha S-203" "Mecha S-204" "Mecha S-205" "Mecha S-206" "Mecha S-207"
+			"Mecha S-208" "Mecha S-209" "Mecha S-210" "Mecha S-211" "Mecha S-212" "Mecha S-213" "Mecha S-214" "Mecha S-215" "Mecha S-216" "Mecha S-217" "Mecha S-218" "Mecha S-219" "Mecha S-220" "Mecha S-221" "Mecha S-222"
+			"Mecha S-223" "Mecha S-224" "Mecha S-225" "Mecha S-226" "Mecha S-227" "Mecha S-228" "Mecha S-229" "Mecha S-230" "Mecha S-231" "Mecha S-232" "Mecha S-233" "Mecha S-234" "Mecha S-235" "Mecha S-236" "Mecha S-237"
+			"Mecha S-238" "Mecha S-239" "Mecha S-240" "Mecha S-241" "Mecha S-242" "Mecha S-243" "Mecha S-244" "Mecha S-245" "Mecha S-246" "Mecha S-247" "Mecha S-248" "Mecha S-249" "Mecha S-250" "Mecha S-251" "Mecha S-252"
+			"Mecha S-253" "Mecha S-254" "Mecha S-255" "Mecha S-256" "Mecha S-257" "Mecha S-258" "Mecha S-259" "Mecha S-260" "Mecha S-261" "Mecha S-262" "Mecha S-263" "Mecha S-264" "Mecha S-265" "Mecha S-266" "Mecha S-267"
+			"Mecha S-268" "Mecha S-269" "Mecha S-270" "Mecha S-271" "Mecha S-272" "Mecha S-273" "Mecha S-274" "Mecha S-275" "Mecha S-276" "Mecha S-277" "Mecha S-278" "Mecha S-279" "Mecha S-280" "Mecha S-281" "Mecha S-282"
+			"Mecha S-283" "Mecha S-284" "Mecha S-285" "Mecha S-286" "Mecha S-287" "Mecha S-288" "Mecha S-289" "Mecha S-290" "Mecha S-291" "Mecha S-292" "Mecha S-293" "Mecha S-294" "Mecha S-295" "Mecha S-296" "Mecha S-297"
+			"Mecha S-298" "Mecha S-299" "Mecha S-300" "Mecha S-301" "Mecha S-302" "Mecha S-303" "Mecha S-304" "Mecha S-305" "Mecha S-306" "Mecha S-307" "Mecha S-308" "Mecha S-309" "Mecha S-310" "Mecha S-311" "Mecha S-312"
+			"Mecha S-313" "Mecha S-314" "Mecha S-315" "Mecha S-316" "Mecha S-317" "Mecha S-318" "Mecha S-319" "Mecha S-320" "Mecha S-321" "Mecha S-322" "Mecha S-323" "Mecha S-324" "Mecha S-325" "Mecha S-326" "Mecha S-327"
+			"Mecha S-328" "Mecha S-329" "Mecha S-330" "Mecha S-331" "Mecha S-332" "Mecha S-333" "Mecha S-334" "Mecha S-335" "Mecha S-336" "Mecha S-337" "Mecha S-338" "Mecha S-339" "Mecha S-340" "Mecha S-341" "Mecha S-342"
+			"Mecha S-343" "Mecha S-344" "Mecha S-345" "Mecha S-346" "Mecha S-347" "Mecha S-348" "Mecha S-349" "Mecha S-350" "Mecha S-351" "Mecha S-352" "Mecha S-353" "Mecha S-354" "Mecha S-355" "Mecha S-356" "Mecha S-357"
+			"Mecha S-358" "Mecha S-359" "Mecha S-360" "Mecha S-361" "Mecha S-362" "Mecha S-363" "Mecha S-364" "Mecha S-365" "Mecha S-366" "Mecha S-367" "Mecha S-368" "Mecha S-369" "Mecha S-370" "Mecha S-371" "Mecha S-372"
+			"Mecha S-373" "Mecha S-374" "Mecha S-375" "Mecha S-376" "Mecha S-377" "Mecha S-378" "Mecha S-379" "Mecha S-380" "Mecha S-381" "Mecha S-382" "Mecha S-383" "Mecha S-384" "Mecha S-385" "Mecha S-386" "Mecha S-387"
+			"Mecha S-388" "Mecha S-389" "Mecha S-390" "Mecha S-391" "Mecha S-392" "Mecha S-393" "Mecha S-394" "Mecha S-395" "Mecha S-396" "Mecha S-397" "Mecha S-398" "Mecha S-399" "Mecha S-400" "Mecha S-401" "Mecha S-402"
+			"Mecha S-403" "Mecha S-404" "Mecha S-405" "Mecha S-406" "Mecha S-407" "Mecha S-408" "Mecha S-409" "Mecha S-410" "Mecha S-411" "Mecha S-412" "Mecha S-413" "Mecha S-414" "Mecha S-415" "Mecha S-416" "Mecha S-417"
+			"Mecha S-418" "Mecha S-419" "Mecha S-420" "Mecha S-421" "Mecha S-422" "Mecha S-423" "Mecha S-424" "Mecha S-425" "Mecha S-426" "Mecha S-427" "Mecha S-428" "Mecha S-429" "Mecha S-430" "Mecha S-431" "Mecha S-432"
+			"Mecha S-433" "Mecha S-434" "Mecha S-435" "Mecha S-436" "Mecha S-437" "Mecha S-438" "Mecha S-439" "Mecha S-440" "Mecha S-441" "Mecha S-442" "Mecha S-443" "Mecha S-444" "Mecha S-445" "Mecha S-446" "Mecha S-447"
+			"Mecha S-448" "Mecha S-449" "Mecha S-450" "Mecha S-451" "Mecha S-452" "Mecha S-453" "Mecha S-454" "Mecha S-455" "Mecha S-456" "Mecha S-457" "Mecha S-458" "Mecha S-459" "Mecha S-460" "Mecha S-461" "Mecha S-462"
+			"Mecha S-463" "Mecha S-464" "Mecha S-465" "Mecha S-466" "Mecha S-467" "Mecha S-468" "Mecha S-469" "Mecha S-470" "Mecha S-471" "Mecha S-472" "Mecha S-473" "Mecha S-474" "Mecha S-475" "Mecha S-476" "Mecha S-477"
+			"Mecha S-478" "Mecha S-479" "Mecha S-480" "Mecha S-481" "Mecha S-482" "Mecha S-483" "Mecha S-484" "Mecha S-485" "Mecha S-486" "Mecha S-487" "Mecha S-488" "Mecha S-489" "Mecha S-490" "Mecha S-491" "Mecha S-492"
+			"Mecha S-493" "Mecha S-494" "Mecha S-495" "Mecha S-496" "Mecha S-497" "Mecha S-498" "Mecha S-499" "Mecha S-500"
 		}
 	}
 	destroyer = {
 		prefix = ""
 		generic = { "Esminets" }
 		unique = {
-			# Starting with Leningrad class 
-			"Leningrad" "Moskva" "Kharkov" "Minsk" "Tbilisi" "Baku" "Tashkent" 
 			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
 			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
 			"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
 			"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
 			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
-			"Smetlivy" "Sergo Ordzhonikidze" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
-			"Kiyev" "Yerevan" "Stalinabad" "Petrozavodsk" "Ochakov" "Perekop" "Ashkhabad" "Alma-Ata" 			
+			"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
 			"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
-			# Fictional (and older) names start here
-			"Garibaldi" "Zheleznyakov" "Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" "Tiflis" "Vitse Admiral Drozd" 
+			"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
 			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
 			"Okhranyayushchy" "Ozabochenny"
-			"Volodarsky" "Uritsky" "Engels" "Artyom" "Stalin" "Lenin" "Voykov" "Spartak" "Kuybyshev" "Karl Liebknecht" "Karl Marx" "Kalinin" "Dzerzhinsky" "Zheleznyakov" "Nezamozhnik" "Shaumyan" 
 		}
 	}
 	light_cruiser = {
 		prefix = ""
 		generic = { "Legkiy Kreyser" }
 		unique = {
-			"Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Ordzhonikidze" "Sverdlov" "Frunze" "Murmansk" "Komintern" "Krasny Krym" "Chervona Ukrayna" "Krasny Kavkaz" 
- 			# Fictional (postwar) names start here
-			"Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" "Admiral Senyavin" 
-			"Dmitry Pozharsky" "Oktyabrskaya Revolutsiya" "Mikhail Kutuzov" "Grozny" "Profintern" "Grozneft" "Azneft" "Vitse Admiral Drozd" 
-			"Admiral Zozulya" "Vladivostok" "Sevastopol" "Admiral Isakov" "Admiral Makarov" "Marshal Voroshilov" "Admiral Oktyabrskiy" "Admiral Isachenkov" "Marshal Budyonny" 
-			"Vasily Chapayev" "Admiral Yumashev" "Nikolayev" "Ochakov" "Kerch" "Azov" "Tashkent" "Tallin" "Admiral Lobov" "Komsomolets" "Admiral Gorshkov" 
+			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
+			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
+			"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
+			"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
+			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
+			"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
+			"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
+			"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
+			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
+			"Okhranyayushchy" "Ozabochenny"
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
 		generic = { "Tyazhely Kreyser" }
 		unique = {
-			"Kirov" "Voroshilov" "Maxim Gorky" "Molotov" "Kaganovich" "Kalinin" "Tallin" "Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov"
-			# Fictional (postwar) names start here
- 			"Komsomolets" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" 
-			"Admiral Senyavin" "Dmitry Pozharsky" "Oktyabrskaya Revolutsiya" "Murmansk" "Mikhail Kutuzov" "Grozny" "Admiral Fokin" "Admiral Golovko" "Khabarovsk"
 		}
 	}
 	battle_cruiser = {
 		prefix = ""
 		generic = { "Linejnyj Kreyser" }
 		unique = {
-			"Kronshtadt" "Sevastopol"
-			# Fictional names start here			
-			"Stalingrad" "Moskva" "Kirov" "Frunze" "Kalinin" "Oktyabrskaya Revolutsiya" "Dzerzhinsky" 		
-			"Admiral Ushakov" "Admiral Lazarev" "Admiral Nakhimov""Yuri Andropov" "Admiral Kuznetsov" 
 		}
 	}
 	battleship = {
 		prefix = ""
 		generic = { "Linkor" }
 		unique = {
-			"Arkhangelsk" "Novorossysk" "Sovyetsky Soyuz" "Sovyetskaya Ukrayna" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya"
-			"Oktyabrskaya Revolutsiya" "Marat" "Frunze" "Parizhskaya Kommuna" 				
-			# Fictional names start here
-			 "Murmansk" "Vladivostok" "Karl Marx" "Vladimir Lenin" "Iosif Stalin" "Volya" "Engels" "Aleksandr Nevsky" "Admiral Kuznetsov"  
 		}
 	}
 	carrier = {
 		prefix = ""
 		generic = { "Avianosets" }
 		unique = {
-			# Fictional names start here
-			"Moskva" "Leningrad" "Oryol" "Kiyev" "Minsk" "Novorossysk" "Kharkov" "Baku" "Riga" "Ulyanovsk" "Tblisi" "Admiral Gorshkov" "Leonid Brezhnev""Admiral Kuznetsov" 
 		}
 	}
 air_wing_names_template = AIR_WING_NAME_ACW_FALLBACK

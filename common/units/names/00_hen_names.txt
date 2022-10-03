@@ -4,93 +4,99 @@
 		prefix = ""
 		generic = { "Podvodnaya Lodka" }
 		unique = {
-			"Shch-201" "Shch-202" "Shch-203" "Shch-204" "Shch-205" "Shch-206" "Shch-207" 
-			"Shch-306" "Shch-307" "Shch-309" "Shch-310" "Shch-311" "Shch-312" "S-1" "S-2" "S-3" "Sch-126" "Sch-127" "Sch-128" "Sch-129" "Sch-130" 
-			"Sch-131" "Sch-132" "Sch-133" "Sch-134" "Sch-208" "Sch-209" "Sch-210" "Sch-211" "Sch-212" "Sch-213" "Sch-214" "Sch-215" 
-			"Sch-313" "Sch-314" "Sch-315" "Sch-316" "Sch-317" "Sch-318" "Sch-319" "Sch-320" "Sch-321" "Sch-322" "Sch-323" "Sch-324" 
-			"Sch-401" "Sch-402" "Sch-403" "Sch-404" "Sch-421" "Sch-422" "Sch-423" 
-			"S-4" "S-5" "S-6" "S-7" "S-8" "S-9" "S-10" "S-11" "S-12" "S-13" "S-14" "S-15" "S-16" "S-17" "S-18" "S-19" "S-20" "S-21" "S-22" "S-23" "S-24" "S-25" "S-26" "S-27" "S-28" 
-			"S-29" "S-30" "S-31" "S-32" "S-33" "S-34" "S-35" "S-36" "S-37" "S-38" "S-51" "S-52" "S-53" "S-54" "S-55" "S-56" "S-101" "S-102" "S-103" "S-104" 
-			"K-1" "K-2" "K-3" "K-21" "K-22" "K-23" "K-51" "K-52" "K-53" "K-54" "K-55" "K-56" 
-			"Sch-135" "Sch-136" "Sch-137" "Sch-138" "Sch-216" "Sch-405" "Sch-406" "Sch-407" "Sch-408" "Sch-411" "Sch-412" "Sch-413" "Sch-414" 
-			"S-47" "S-48" "S-49" "S-58" "S-59" "S-60" 		
-			# Fictional (and older) names start here
-			"S-61" "S-62" "S-63" "S-64" "S-65" "S-66" "S-67" "S-68" "S-69" "S-70" 
-			"Sch-415" "Sch-416" "Sch-417" "Sch-418" "Sch-419" "Sch-420" "Sch-424" "Sch-425" "Sch-426" "Sch-427" "Sch-428" "Sch-429" "Sch-430"
-			"D-1" "D-2" "D-3" "D-4" "D-5" "D-6" "Shch-301" "Shch-302" "Shch-303" "Shch-304" 
-			"Shch-101" "Shch-102" "Shch-103" "Shch-104" "Shch-105" "Shch-106" "Shch-107" "Shch-108" "Shch-109" "Shch-110" "Shch-111" "Shch-112" "Shch-113" "Shch-114" "Shch-115" "Shch-116" 
-			"Shch-117" "Shch-118" "Shch-119" "Shch-120" "Shch-305" "Shch-308" "Shch-121" "Shch-122" "Shch-123" "Shch-124" "Shch-125" 
+			"Dildo-1" "Dildo-2" "Dildo-3" "Dildo-4" "Dildo-5" "Dildo-6" "Dildo-7" "Dildo-8" "Dildo-9" "Dildo-10" "Dildo-11" "Dildo-12" "Dildo-13" "Dildo-14" "Dildo-15" "Dildo-16" "Dildo-17" "Dildo-18"
+			"Dildo-19" "Dildo-20" "Dildo-21" "Dildo-22" "Dildo-23" "Dildo-24" "Dildo-25" "Dildo-26" "Dildo-27" "Dildo-28" "Dildo-29" "Dildo-30" "Dildo-31" "Dildo-32" "Dildo-33" "Dildo-34" "Dildo-35"
+			"Dildo-36" "Dildo-37" "Dildo-38" "Dildo-39" "Dildo-40" "Dildo-41" "Dildo-42" "Dildo-43" "Dildo-44" "Dildo-45" "Dildo-46" "Dildo-47" "Dildo-48" "Dildo-49" "Dildo-50" "Dildo-51" "Dildo-52"
+			"Dildo-53" "Dildo-54" "Dildo-55" "Dildo-56" "Dildo-57" "Dildo-58" "Dildo-59" "Dildo-60" "Dildo-61" "Dildo-62" "Dildo-63" "Dildo-64" "Dildo-65" "Dildo-66" "Dildo-67" "Dildo-68" "Dildo-69"
+			"Dildo-70" "Dildo-71" "Dildo-72" "Dildo-73" "Dildo-74" "Dildo-75" "Dildo-76" "Dildo-77" "Dildo-78" "Dildo-79" "Dildo-80" "Dildo-81" "Dildo-82" "Dildo-83" "Dildo-84" "Dildo-85" "Dildo-86"
+			"Dildo-87" "Dildo-88" "Dildo-89" "Dildo-90" "Dildo-91" "Dildo-92" "Dildo-93" "Dildo-94" "Dildo-95" "Dildo-96" "Dildo-97" "Dildo-98" "Dildo-99" "Dildo-100" "Dildo-101" "Dildo-102"
+			"Dildo-103" "Dildo-104" "Dildo-105" "Dildo-106" "Dildo-107" "Dildo-108" "Dildo-109" "Dildo-110" "Dildo-111" "Dildo-112" "Dildo-113" "Dildo-114" "Dildo-115" "Dildo-116" "Dildo-117"
+			"Dildo-118" "Dildo-119" "Dildo-120" "Dildo-121" "Dildo-122" "Dildo-123" "Dildo-124" "Dildo-125" "Dildo-126" "Dildo-127" "Dildo-128" "Dildo-129" "Dildo-130" "Dildo-131" "Dildo-132"
+			"Dildo-133" "Dildo-134" "Dildo-135" "Dildo-136" "Dildo-137" "Dildo-138" "Dildo-139" "Dildo-140" "Dildo-141" "Dildo-142" "Dildo-143" "Dildo-144" "Dildo-145" "Dildo-146" "Dildo-147"
+			"Dildo-148" "Dildo-149" "Dildo-150" "Dildo-151" "Dildo-152" "Dildo-153" "Dildo-154" "Dildo-155" "Dildo-156" "Dildo-157" "Dildo-158" "Dildo-159" "Dildo-160" "Dildo-161" "Dildo-162"
+			"Dildo-163" "Dildo-164" "Dildo-165" "Dildo-166" "Dildo-167" "Dildo-168" "Dildo-169" "Dildo-170" "Dildo-171" "Dildo-172" "Dildo-173" "Dildo-174" "Dildo-175" "Dildo-176" "Dildo-177"
+			"Dildo-178" "Dildo-179" "Dildo-180" "Dildo-181" "Dildo-182" "Dildo-183" "Dildo-184" "Dildo-185" "Dildo-186" "Dildo-187" "Dildo-188" "Dildo-189" "Dildo-190" "Dildo-191" "Dildo-192"
+			"Dildo-193" "Dildo-194" "Dildo-195" "Dildo-196" "Dildo-197" "Dildo-198" "Dildo-199" "Dildo-200" "Dildo-201" "Dildo-202" "Dildo-203" "Dildo-204" "Dildo-205" "Dildo-206" "Dildo-207"
+			"Dildo-208" "Dildo-209" "Dildo-210" "Dildo-211" "Dildo-212" "Dildo-213" "Dildo-214" "Dildo-215" "Dildo-216" "Dildo-217" "Dildo-218" "Dildo-219" "Dildo-220" "Dildo-221" "Dildo-222"
+			"Dildo-223" "Dildo-224" "Dildo-225" "Dildo-226" "Dildo-227" "Dildo-228" "Dildo-229" "Dildo-230" "Dildo-231" "Dildo-232" "Dildo-233" "Dildo-234" "Dildo-235" "Dildo-236" "Dildo-237"
+			"Dildo-238" "Dildo-239" "Dildo-240" "Dildo-241" "Dildo-242" "Dildo-243" "Dildo-244" "Dildo-245" "Dildo-246" "Dildo-247" "Dildo-248" "Dildo-249" "Dildo-250" "Dildo-251" "Dildo-252"
+			"Dildo-253" "Dildo-254" "Dildo-255" "Dildo-256" "Dildo-257" "Dildo-258" "Dildo-259" "Dildo-260" "Dildo-261" "Dildo-262" "Dildo-263" "Dildo-264" "Dildo-265" "Dildo-266" "Dildo-267"
+			"Dildo-268" "Dildo-269" "Dildo-270" "Dildo-271" "Dildo-272" "Dildo-273" "Dildo-274" "Dildo-275" "Dildo-276" "Dildo-277" "Dildo-278" "Dildo-279" "Dildo-280" "Dildo-281" "Dildo-282"
+			"Dildo-283" "Dildo-284" "Dildo-285" "Dildo-286" "Dildo-287" "Dildo-288" "Dildo-289" "Dildo-290" "Dildo-291" "Dildo-292" "Dildo-293" "Dildo-294" "Dildo-295" "Dildo-296" "Dildo-297"
+			"Dildo-298" "Dildo-299" "Dildo-300" "Dildo-301" "Dildo-302" "Dildo-303" "Dildo-304" "Dildo-305" "Dildo-306" "Dildo-307" "Dildo-308" "Dildo-309" "Dildo-310" "Dildo-311" "Dildo-312"
+			"Dildo-313" "Dildo-314" "Dildo-315" "Dildo-316" "Dildo-317" "Dildo-318" "Dildo-319" "Dildo-320" "Dildo-321" "Dildo-322" "Dildo-323" "Dildo-324" "Dildo-325" "Dildo-326" "Dildo-327"
+			"Dildo-328" "Dildo-329" "Dildo-330" "Dildo-331" "Dildo-332" "Dildo-333" "Dildo-334" "Dildo-335" "Dildo-336" "Dildo-337" "Dildo-338" "Dildo-339" "Dildo-340" "Dildo-341" "Dildo-342"
+			"Dildo-343" "Dildo-344" "Dildo-345" "Dildo-346" "Dildo-347" "Dildo-348" "Dildo-349" "Dildo-350" "Dildo-351" "Dildo-352" "Dildo-353" "Dildo-354" "Dildo-355" "Dildo-356" "Dildo-357"
+			"Dildo-358" "Dildo-359" "Dildo-360" "Dildo-361" "Dildo-362" "Dildo-363" "Dildo-364" "Dildo-365" "Dildo-366" "Dildo-367" "Dildo-368" "Dildo-369" "Dildo-370" "Dildo-371" "Dildo-372"
+			"Dildo-373" "Dildo-374" "Dildo-375" "Dildo-376" "Dildo-377" "Dildo-378" "Dildo-379" "Dildo-380" "Dildo-381" "Dildo-382" "Dildo-383" "Dildo-384" "Dildo-385" "Dildo-386" "Dildo-387"
+			"Dildo-388" "Dildo-389" "Dildo-390" "Dildo-391" "Dildo-392" "Dildo-393" "Dildo-394" "Dildo-395" "Dildo-396" "Dildo-397" "Dildo-398" "Dildo-399" "Dildo-400" "Dildo-401" "Dildo-402"
+			"Dildo-403" "Dildo-404" "Dildo-405" "Dildo-406" "Dildo-407" "Dildo-408" "Dildo-409" "Dildo-410" "Dildo-411" "Dildo-412" "Dildo-413" "Dildo-414" "Dildo-415" "Dildo-416" "Dildo-417"
+			"Dildo-418" "Dildo-419" "Dildo-420" "Dildo-421" "Dildo-422" "Dildo-423" "Dildo-424" "Dildo-425" "Dildo-426" "Dildo-427" "Dildo-428" "Dildo-429" "Dildo-430" "Dildo-431" "Dildo-432"
+			"Dildo-433" "Dildo-434" "Dildo-435" "Dildo-436" "Dildo-437" "Dildo-438" "Dildo-439" "Dildo-440" "Dildo-441" "Dildo-442" "Dildo-443" "Dildo-444" "Dildo-445" "Dildo-446" "Dildo-447"
+			"Dildo-448" "Dildo-449" "Dildo-450" "Dildo-451" "Dildo-452" "Dildo-453" "Dildo-454" "Dildo-455" "Dildo-456" "Dildo-457" "Dildo-458" "Dildo-459" "Dildo-460" "Dildo-461" "Dildo-462"
+			"Dildo-463" "Dildo-464" "Dildo-465" "Dildo-466" "Dildo-467" "Dildo-468" "Dildo-469" "Dildo-470" "Dildo-471" "Dildo-472" "Dildo-473" "Dildo-474" "Dildo-475" "Dildo-476" "Dildo-477"
+			"Dildo-478" "Dildo-479" "Dildo-480" "Dildo-481" "Dildo-482" "Dildo-483" "Dildo-484" "Dildo-485" "Dildo-486" "Dildo-487" "Dildo-488" "Dildo-489" "Dildo-490" "Dildo-491" "Dildo-492"
+			"Dildo-493" "Dildo-494" "Dildo-495" "Dildo-496" "Dildo-497" "Dildo-498" "Dildo-499" "Dildo-500"
 		}
 	}
 	destroyer = {
 		prefix = ""
 		generic = { "Esminets" }
 		unique = {
-			# Starting with Leningrad class 
-			"Leningrad" "Moskva" "Kharkov" "Minsk" "Tbilisi" "Baku" "Tashkent" 
 			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
 			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
 			"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
 			"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
 			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
-			"Smetlivy" "Sergo Ordzhonikidze" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
-			"Kiyev" "Yerevan" "Stalinabad" "Petrozavodsk" "Ochakov" "Perekop" "Ashkhabad" "Alma-Ata" 			
+			"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
 			"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
-			# Fictional (and older) names start here
-			"Garibaldi" "Zheleznyakov" "Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" "Tiflis" "Vitse Admiral Drozd" 
+			"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
 			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
 			"Okhranyayushchy" "Ozabochenny"
-			"Volodarsky" "Uritsky" "Engels" "Artyom" "Stalin" "Lenin" "Voykov" "Spartak" "Kuybyshev" "Karl Liebknecht" "Karl Marx" "Kalinin" "Dzerzhinsky" "Zheleznyakov" "Nezamozhnik" "Shaumyan" 
 		}
 	}
 	light_cruiser = {
 		prefix = ""
 		generic = { "Legkiy Kreyser" }
 		unique = {
-			"Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Ordzhonikidze" "Sverdlov" "Frunze" "Murmansk" "Komintern" "Krasny Krym" "Chervona Ukrayna" "Krasny Kavkaz" 
- 			# Fictional (postwar) names start here
-			"Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" "Admiral Senyavin" 
-			"Dmitry Pozharsky" "Oktyabrskaya Revolutsiya" "Mikhail Kutuzov" "Grozny" "Profintern" "Grozneft" "Azneft" "Vitse Admiral Drozd" 
-			"Admiral Zozulya" "Vladivostok" "Sevastopol" "Admiral Isakov" "Admiral Makarov" "Marshal Voroshilov" "Admiral Oktyabrskiy" "Admiral Isachenkov" "Marshal Budyonny" 
-			"Vasily Chapayev" "Admiral Yumashev" "Nikolayev" "Ochakov" "Kerch" "Azov" "Tashkent" "Tallin" "Admiral Lobov" "Komsomolets" "Admiral Gorshkov" 
+			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
+			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
+			"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
+			"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
+			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
+			"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
+			"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
+			"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
+			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
+			"Okhranyayushchy" "Ozabochenny"
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
 		generic = { "Tyazhely Kreyser" }
 		unique = {
-			"Kirov" "Voroshilov" "Maxim Gorky" "Molotov" "Kaganovich" "Kalinin" "Tallin" "Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov"
-			# Fictional (postwar) names start here
- 			"Komsomolets" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" 
-			"Admiral Senyavin" "Dmitry Pozharsky" "Oktyabrskaya Revolutsiya" "Murmansk" "Mikhail Kutuzov" "Grozny" "Admiral Fokin" "Admiral Golovko" "Khabarovsk"
+			"Admiral Kaname" "Admiral Suomi" "Admiral Akiho Taniguchi"
 		}
 	}
 	battle_cruiser = {
 		prefix = ""
 		generic = { "Linejnyj Kreyser" }
 		unique = {
-			"Kronshtadt" "Sevastopol"
-			# Fictional names start here			
-			"Stalingrad" "Moskva" "Kirov" "Frunze" "Kalinin" "Oktyabrskaya Revolutsiya" "Dzerzhinsky" 		
-			"Admiral Ushakov" "Admiral Lazarev" "Admiral Nakhimov""Yuri Andropov" "Admiral Kuznetsov" 
+			"Admiral Kaname" "Admiral Suomi" "Admiral Akiho Taniguchi"
 		}
 	}
 	battleship = {
 		prefix = ""
 		generic = { "Linkor" }
 		unique = {
-			"Arkhangelsk" "Novorossysk" "Sovyetsky Soyuz" "Sovyetskaya Ukrayna" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya"
-			"Oktyabrskaya Revolutsiya" "Marat" "Frunze" "Parizhskaya Kommuna" 				
-			# Fictional names start here
-			 "Murmansk" "Vladivostok" "Karl Marx" "Vladimir Lenin" "Iosif Stalin" "Volya" "Engels" "Aleksandr Nevsky" "Admiral Kuznetsov"  
+			"Admiral Kaname" "Admiral Suomi" "Admiral Akiho Taniguchi"
 		}
 	}
 	carrier = {
 		prefix = ""
 		generic = { "Avianosets" }
 		unique = {
-			# Fictional names start here
-			"Moskva" "Leningrad" "Oryol" "Kiyev" "Minsk" "Novorossysk" "Kharkov" "Baku" "Riga" "Ulyanovsk" "Tblisi" "Admiral Gorshkov" "Leonid Brezhnev""Admiral Kuznetsov" 
+			"Admiral Kaname" "Admiral Suomi" "Admiral Akiho Taniguchi"
 		}
 	}
 air_wing_names_template = AIR_WING_NAME_ACW_FALLBACK
