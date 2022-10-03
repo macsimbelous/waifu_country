@@ -4842,6 +4842,7 @@ wfc_machine_war_category = {
 		fire_only_once = yes
 		cost = 50
 		available = {
+			is_puppet = no
 			NOT = {
 				is_in_faction_with = MEH
 			}
@@ -4879,6 +4880,7 @@ wfc_machine_war_category = {
 		days_remove = 60
 		war_with_on_remove = MEH
 		available = {
+			is_puppet = no
 			has_government = democratic
 			MEH = {
 				OR = {
