@@ -310,7 +310,7 @@ create_equipment_variant = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = empty
 	}
-	obsolete = yes
+	#obsolete = yes
 }
 create_equipment_variant = {
 	name = "Mecha B-3" #
@@ -332,7 +332,7 @@ create_equipment_variant = {
 			engine_type_slot = engine_1_1x
 			special_type_slot_1 = empty
 		}
-		obsolete = yes
+		#obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Macha B-4" #
