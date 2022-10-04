@@ -2326,6 +2326,13 @@ wfc_budget_category = {
 				add = 13
 			}
 		}
+		visible = {
+			check_variable = {
+				var = wfc_subsidies_to_building_count
+				value = 0
+				compare = greater_than
+			}
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = wfc_subsidies_count_down_tt
@@ -2401,6 +2408,13 @@ wfc_budget_category = {
 			modifier = {
 				has_government = fascism
 				add = 13
+			}
+		}
+		visible = {
+			check_variable = {
+				var = wfc_subsidies_to_factory_count
+				value = 0
+				compare = greater_than
 			}
 		}
 		available = {
@@ -2480,6 +2494,13 @@ wfc_budget_category = {
 				add = 13
 			}
 		}
+		visible = {
+			check_variable = {
+				var = wfc_subsidies_to_dockyard_count
+				value = 0
+				compare = greater_than
+			}
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = wfc_subsidies_count_down_tt
@@ -2557,6 +2578,13 @@ wfc_budget_category = {
 				add = 13
 			}
 		}
+		visible = {
+			check_variable = {
+				var = wfc_subsidies_to_research_count
+				value = 0
+				compare = greater_than
+			}
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = wfc_subsidies_count_down_tt
@@ -2630,6 +2658,13 @@ wfc_budget_category = {
 			modifier = {
 				num_of_nukes > 20
 				add = 13
+			}
+		}
+		visible = {
+			check_variable = {
+				var = wfc_subsidies_to_nuclear_count
+				value = 0
+				compare = greater_than
 			}
 		}
 		available = {
@@ -2713,6 +2748,13 @@ wfc_budget_category = {
 				tungsten > 99
 				chromium > 99
 				add = 13
+			}
+		}
+		visible = {
+			check_variable = {
+				var = wfc_subsidies_to_resources_count
+				value = 0
+				compare = greater_than
 			}
 		}
 		available = {
@@ -3892,7 +3934,9 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			controls_state = FROM
+			FROM = {
+				is_fully_controlled_by = OWNER
+			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -3968,7 +4012,9 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			controls_state = FROM
+			FROM = {
+				is_fully_controlled_by = OWNER
+			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -4044,7 +4090,9 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			controls_state = FROM
+			FROM = {
+				is_fully_controlled_by = OWNER
+			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -4120,7 +4168,9 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			controls_state = FROM
+			FROM = {
+				is_fully_controlled_by = OWNER
+			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
 		}

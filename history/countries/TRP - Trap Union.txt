@@ -286,7 +286,7 @@ TRP_ringo_tsukimiya = {
 	}
 }
 create_equipment_variant = {
-	name = "Trap F-15" #
+	name = "Trap F-15"
 	type = small_plane_airframe_0
 	modules = {
 		fixed_main_weapon_slot = light_mg_4x
