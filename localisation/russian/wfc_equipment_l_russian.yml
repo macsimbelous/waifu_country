@@ -1,0 +1,245 @@
+﻿l_russian:
+ UNIT_GENERIC_NAME_ACW:0 "$NR$ $NAME$"
+
+ ACW_EQUIPMENT_VERSION_1:0 "А"
+ ACW_EQUIPMENT_VERSION_2:0 "А-1"
+ ACW_EQUIPMENT_VERSION_3:0 "А-2"
+ ACW_EQUIPMENT_VERSION_4:0 "АМ"
+ ACW_EQUIPMENT_VERSION_5:0 "Б"
+ ACW_EQUIPMENT_VERSION_6:0 "Б-1"
+ ACW_EQUIPMENT_VERSION_7:0 "Б-2"
+ ACW_EQUIPMENT_VERSION_8:0 "Б-М"
+ ACW_EQUIPMENT_VERSION_9:0 "В"
+ ACW_EQUIPMENT_VERSION_10:0 "В-1"
+ ACW_EQUIPMENT_VERSION_11:0 "В-2"
+ ACW_EQUIPMENT_VERSION_12:0 "ВМ"
+ ACW_EQUIPMENT_VERSION_13:0 "Г"
+ ACW_EQUIPMENT_VERSION_14:0 "Г-1"
+ ACW_EQUIPMENT_VERSION_15:0 "Г-2"
+ ACW_EQUIPMENT_VERSION_16:0 "ГМ"
+
+
+ ACW_gw_tank_equipment:0 "T-18"
+ ACW_gw_tank_equipment_short:0 "T-18"
+
+ ACW_light_tank_equipment_1:0 "Т-26"
+ ACW_light_tank_equipment_1_short:0 "Т-26"
+
+ ACW_light_tank_equipment_2:0 "БТ-7"
+ ACW_light_tank_equipment_2_short:0 "БТ-7"
+
+ ACW_light_tank_artillery_equipment_1:0 "СУ-1"
+ ACW_light_tank_artillery_equipment_1_short:0 "СУ-1"
+ ACW_light_tank_artillery_equipment_2:0 "СУ-26"
+ ACW_light_tank_artillery_equipment_2_short:0 "СУ-26"
+ ACW_light_tank_artillery_equipment_3:0 "СУ-76"
+ ACW_light_tank_artillery_equipment_3_short:0 "СУ-76"
+
+ ACW_light_tank_equipment_3:0 "Т-60"
+ ACW_light_tank_equipment_3_short:0 "Т-60"
+
+ ACW_light_tank_destroyer_equipment_1:1 "AT-1"
+ ACW_light_tank_destroyer_equipment_1_short:1 "AT-1"
+ #ACW_light_tank_destroyer_equipment_1_desc:0 ""
+ ACW_light_tank_destroyer_equipment_2:1 "СУ-5"
+ ACW_light_tank_destroyer_equipment_2_short:1 "СУ-5"
+ #ACW_light_tank_destroyer_equipment_2_desc:0 ""
+ ACW_light_tank_destroyer_equipment_3:0 "ЗИС-30"
+ ACW_light_tank_destroyer_equipment_3_short:0 "ЗИС-30"
+ #ACW_light_tank_destroyer_equipment_3_desc:0 ""
+
+ ACW_light_tank_aa_equipment_1:0 "ЗСУ-12.7"
+ ACW_light_tank_aa_equipment_1_short:0 "ЗСУ-12.7"
+ #ACW_light_tank_aa_equipment_1_desc:0 ""
+ ACW_light_tank_aa_equipment_2:0 "ЗСУ-12.7-2"
+ ACW_light_tank_aa_equipment_2_short:0 "ЗСУ-12.7-2"
+ #ACW_light_tank_aa_equipment_2_desc:0 ""
+ ACW_light_tank_aa_equipment_3:0 "ЗСУ-37"
+ ACW_light_tank_aa_equipment_3_short:0 "ЗСУ-37"
+ #ACW_light_tank_aa_equipment_3_desc:0 ""
+
+ ACW_medium_tank_equipment_1:1 "Т-32"
+ ACW_medium_tank_equipment_1_short:1 "Т-32"
+
+ ACW_medium_tank_equipment_2:0 "T-34"
+ ACW_medium_tank_equipment_2_short:0 "T-34"
+
+ ACW_medium_tank_equipment_3:0 "Т-44"
+ ACW_medium_tank_equipment_3_short:0 "Т-44"
+
+ ACW_medium_tank_artillery_equipment_1:0 "СУ-76-32"
+ ACW_medium_tank_artillery_equipment_1_short:0 "СУ-76-32"
+ #ACW_medium_tank_artillery_equipment_1_desc:0 ""
+ ACW_medium_tank_artillery_equipment_2:0 "СУ-122"
+ ACW_medium_tank_artillery_equipment_2_short:0 "СУ-122"
+ #ACW_medium_tank_artillery_equipment_2_desc:0 ""
+ ACW_medium_tank_artillery_equipment_3:0 "СУ-152-44"
+ ACW_medium_tank_artillery_equipment_3_short:0 "СУ-152-44"
+ #ACW_medium_tank_artillery_equipment_3_desc:0 ""
+
+ ACW_medium_tank_destroyer_equipment_1:0 "СУ-85-32"
+ ACW_medium_tank_destroyer_equipment_1_short:0 "СУ-85-32"
+ #ACW_medium_tank_destroyer_equipment_1_desc:0 ""
+ ACW_medium_tank_destroyer_equipment_2:0 "СУ-85"
+ ACW_medium_tank_destroyer_equipment_2_short:0 "СУ-85"
+ #ACW_medium_tank_destroyer_equipment_2_desc:0 ""
+ ACW_medium_tank_destroyer_equipment_3:0 "СУ-100"
+ ACW_medium_tank_destroyer_equipment_3_short:0 "СУ-100"
+ #ACW_medium_tank_destroyer_equipment_3_desc:0 ""
+
+ ACW_medium_tank_aa_equipment_1:0 "ЗСУ-37-32"
+ ACW_medium_tank_aa_equipment_1_short:0 "ЗСУ-37-32"
+ #ACW_medium_tank_aa_equipment_1_desc:0 ""
+ ACW_medium_tank_aa_equipment_2:0 "ЗСУ-37-34"
+ ACW_medium_tank_aa_equipment_2_short:0 "ЗСУ-37-34"
+ #ACW_medium_tank_aa_equipment_2_desc:0 ""
+ ACW_medium_tank_aa_equipment_3:0 "ЗСУ-57-44"
+ ACW_medium_tank_aa_equipment_3_short:0 "ЗСУ-57-44"
+ #ACW_medium_tank_aa_equipment_3_desc:0 ""
+
+ ACW_heavy_tank_equipment_1:0 "Т-35"
+ ACW_heavy_tank_equipment_1_short:0 "Т-35"
+
+ ACW_heavy_tank_equipment_2:0 "КВ-1"
+ ACW_heavy_tank_equipment_2_short:0 "КВ-1"
+
+ ACW_heavy_tank_equipment_3:0 "ИС"
+ ACW_heavy_tank_equipment_3_short:0 "ИС"
+
+ ACW_heavy_tank_artillery_equipment_1:0 "СУ-14"
+ ACW_heavy_tank_artillery_equipment_1_short:0 "СУ-14"
+ #ACW_heavy_tank_artillery_equipment_1_desc:0 ""
+ ACW_heavy_tank_artillery_equipment_2:1 "КВ-2"
+ ACW_heavy_tank_artillery_equipment_2_short:1 "КВ-2"
+ #ACW_heavy_tank_artillery_equipment_2_desc:0 ""
+ ACW_heavy_tank_artillery_equipment_3:0 "ИСУ-152"
+ ACW_heavy_tank_artillery_equipment_3_short:0 "ИСУ-152"
+ #ACW_heavy_tank_artillery_equipment_3_desc:0 ""
+
+ ACW_heavy_tank_destroyer_equipment_1:0 "СМК"
+ ACW_heavy_tank_destroyer_equipment_1_short:0 "СМК"
+ #ACW_heavy_tank_destroyer_equipment_1_desc:0 ""
+ ACW_heavy_tank_destroyer_equipment_2:1 "СУ-152"
+ ACW_heavy_tank_destroyer_equipment_2_short:1 "СУ-152"
+ #ACW_heavy_tank_destroyer_equipment_2_desc:0 ""
+ ACW_heavy_tank_destroyer_equipment_3:0 "ИСУ-122"
+ ACW_heavy_tank_destroyer_equipment_3_short:0 "ИСУ-122"
+ #ACW_heavy_tank_destroyer_equipment_3_desc:0 ""
+
+ ACW_heavy_tank_aa_equipment_1:0 "ЗСУ-12.7-4"
+ ACW_heavy_tank_aa_equipment_1_short:0 "ЗСУ-12.7-4"
+ #ACW_heavy_tank_aa_equipment_1_desc:0 ""
+ ACW_heavy_tank_aa_equipment_2:1 "ЗСУ-37-2"
+ ACW_heavy_tank_aa_equipment_2_short:1 "ЗСУ-37-2"
+ #ACW_heavy_tank_aa_equipment_2_desc:0 ""
+ ACW_heavy_tank_aa_equipment_3:0 "ИСУ-57-2"
+ ACW_heavy_tank_aa_equipment_3_short:0 "ИСУ-57-2"
+ #ACW_heavy_tank_aa_equipment_3_desc:0 ""
+
+ ACW_super_heavy_tank_equipment_1:0 "ИС-7"
+ ACW_super_heavy_tank_equipment_1_short:0 "ИС-7"
+
+ ACW_super_heavy_tank_artillery_equipment_1:0 "ИСУ-203"
+ ACW_super_heavy_tank_artillery_equipment_1_short:0 "ИСУ-203"
+ #ACW_super_heavy_tank_artillery_equipment_1_desc:0 ""
+
+ ACW_super_heavy_tank_destroyer_equipment_1:0 "ИСУ-130"
+ ACW_super_heavy_tank_destroyer_equipment_1_short:0 "ИСУ-130"
+ #ACW_super_heavy_tank_destroyer_equipment_1_desc:0 ""
+
+ ACW_super_heavy_tank_aa_equipment_1:0 "ИСУ-57-4"
+ ACW_super_heavy_tank_aa_equipment_1_short:0 "ИСУ-57-4"
+ #ACW_super_heavy_tank_aa_equipment_1_desc:0 ""
+
+ ACW_modern_tank_equipment_1:0 "Т-54"
+ ACW_modern_tank_equipment_1_short:0 "Т-54"
+
+ ACW_modern_tank_artillery_equipment_1:0 "СУ-152-54"
+ ACW_modern_tank_artillery_equipment_1_short:0 "СУ-152-54"
+ #ACW_modern_tank_artillery_equipment_1_desc:0 ""
+
+ ACW_modern_tank_destroyer_equipment_1:0 "СУ-122-54"
+ ACW_modern_tank_destroyer_equipment_1_short:0 "СУ-122-54"
+ #ACW_modern_tank_destroyer_equipment_1_desc:0 ""
+
+ ACW_modern_tank_aa_equipment_1:0 "ЗСУ-57-2"
+ ACW_modern_tank_aa_equipment_1_short:0 "ЗСУ-57-2"
+ #ACW_modern_tank_aa_equipment_1_desc:0 ""
+
+ ACW_mechanized_equipment_1:0 "БТР-41"
+ ACW_mechanized_equipment_1_short:0 "БТР-41"
+ ACW_mechanized_equipment_2:0 "БТР-43"
+ ACW_mechanized_equipment_2_short:0 "БТР-43"
+ ACW_mechanized_equipment_3:0 "БТР-152"
+ ACW_mechanized_equipment_3_short:0 "БТР-152"
+
+
+#anti-tank
+
+ ACW_anti_tank_equipment_1:0 "37-мм пушка 1-К обр. 1930"
+ ACW_anti_tank_equipment_1_short:0 "1-К"
+ ACW_anti_tank_equipment_2:0 "45-мм пушка М-42 обр. 1942 года"
+ ACW_anti_tank_equipment_3:0 "76,2-мм пушка ЗиС-3"
+
+
+#anti-air
+
+ ACW_anti_air_equipment_1:0 "37-мм зенитка обр. 1939"
+ ACW_anti_air_equipment_1_short:0 "37-мм зенитка обр. 1939"
+ ACW_anti_air_equipment_2:0 "25-мм зенитка обр. 1940"
+ ACW_anti_air_equipment_3:0 "100-мм зенитка КС-19"
+
+ #artillery
+
+ ACW_artillery_equipment_1:0 "76-мм пушка обр. 1936"
+ ACW_artillery_equipment_1_short:0 "76-мм пушка обр. 1936"
+ ACW_artillery_equipment_2:0 "107-мм пушка обр. 1940"
+ ACW_artillery_equipment_3:0 "152-мм пушка обр. 1943"
+
+
+ ACW_rocket_artillery_equipment_1:0 "M-8-6"
+ ACW_rocket_artillery_equipment_1_short:0 "M-8-6"
+ ACW_rocket_artillery_equipment_2:0 "M-20-4"
+ ACW_rocket_artillery_equipment_2_short:0 "M-20-4"
+
+ ACW_gw_armored_car_equipment:0 "БА-20"
+ ACW_gw_armored_car_equipment_short:0 "БА-20"
+ ACW_armored_car_equipment_1:0 "БА-10"
+ ACW_armored_car_equipment_1_short:0 "БА-10"
+ ACW_armored_car_equipment_2:0 "БА-64"
+ ACW_armored_car_equipment_2_short:0 "БА-64"
+ ACW_armored_car_at_equipment:0 "БА-64Е-37"
+ ACW_armored_car_at_equipment_short:0 "БА-64Е-37"
+
+ # small arms
+
+ ACW_infantry_equipment_0:0 "Винтовка Мосина обр. 1891/30"
+ ACW_infantry_equipment_0_short:0 "Винтовка Мосина"
+ ACW_infantry_equipment_1:0 "СВТ-38/40"
+ ACW_infantry_equipment_1_short:0 "СВТ-38/40"
+ ACW_infantry_equipment_2:0 "ППШ-41"
+ ACW_infantry_equipment_2_short:0 "ППШ-41"
+ ACW_infantry_equipment_3:0 "ППС-43"
+ ACW_infantry_equipment_3_short:0 "ППС-43"
+ ACW_infantry_at:0 "ПТРД"
+ ACW_infantry_at2:0 "РПГ-43"
+ ACW_support_weapons:0 "Пулемет Максима и 90-мм миномет"
+ ACW_support_weapons2:0 "ДП и 50-мм миномет обр. 1938"
+ ACW_support_weapons3:0 "ДС-39 и 82-мм миномет обр. 1941"
+ ACW_support_weapons4:0 "СГ-43 и 120-мм миномет обр. 1943"
+
+
+ ACW_motorized_rocket_equipment_1:0 "БМ-13 «Катюша»"
+ ACW_motorized_rocket_equipment_1_short:0 "«Катюша»"
+
+ ACW_amphibious_tank_equipment_1:0 "T-40"
+ ACW_amphibious_tank_equipment_2:0 "ПТ-76"
+
+ ACW_train_equipment_1:0 "Тип FD"
+ ACW_train_equipment_2:0 "Тип «L»"
+ ACW_train_equipment_3:0 "Тип PR-43"
+
+ ACW_railway_gun_equipment_1:0 "TM-3-12"
+
+
+
