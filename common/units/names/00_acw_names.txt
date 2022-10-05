@@ -232,31 +232,31 @@ air_wing_names_template = AIR_WING_NAME_ACW_FALLBACK
 	infantry = {
 		prefix = ""
 		generic = { "Strelkovaya Diviziya" }
-		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		generic_pattern = "UNIT_GENERIC_NAME_ACW"
 		unique = {}
 	}
 	motorized = {
 		prefix = ""
 		generic = { "Motostrelkovaya Diviziya" }
-		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		generic_pattern = "UNIT_GENERIC_NAME_ACW"
 		unique = {}
 	}
 	mountaineers = {
 		prefix = ""
 		generic = { "Gornostrelkovaya Diviziya" }
-		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		generic_pattern = "UNIT_GENERIC_NAME_ACW"
 		unique = {}
 	}
 	cavalry = {
 		prefix = ""
 		generic = { "Kavaleryskaya Diviziya" }
-		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		generic_pattern = "UNIT_GENERIC_NAME_ACW"
 		unique = {}
 	}
 	light_armor = {
 		prefix = ""
 		generic = { "Mekhanizirovanaya Korpus" }
-		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		generic_pattern = "UNIT_GENERIC_NAME_ACW"
 		unique = {}
 	}
 }
