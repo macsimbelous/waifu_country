@@ -568,32 +568,9 @@ focus_tree = {
 					}
 				}
 			}
-			OR = {
-				has_war = no
-				AND = {
-					# Iran
-					custom_trigger_tooltip = {
-						tooltip = form_country_iran_required_states_tt
-						controls_state = 419
-						controls_state = 421
-						controls_state = 420
-						controls_state = 417
-						controls_state = 413
-						controls_state = 266
-						controls_state = 418
-						controls_state = 411
-						controls_state = 412
-						controls_state = 416
-						controls_state = 414
-						controls_state = 410
-					}
-					# Afghanistan
-					custom_trigger_tooltip = {
-						tooltip = form_country_afghanistan_required_states_tt
-						controls_state = 415
-						controls_state = 267
-					}
-				}
+			has_war = no
+			has_army_manpower = {
+				size > 999999
 			}
 		}
 		completion_reward = {
@@ -648,6 +625,10 @@ focus_tree = {
 					}
 				}
 			}
+			has_war = no
+			has_army_manpower = {
+				size > 999999
+			}
 		}
 		completion_reward = {
 			add_state_claim = 584
@@ -695,6 +676,10 @@ focus_tree = {
 					}
 				}
 			}
+			has_war = no
+			has_army_manpower = {
+				size > 999999
+			}
 		}
 		completion_reward = {
 			RAJ = {
@@ -734,6 +719,10 @@ focus_tree = {
 		available = {
 			NOT = {
 				is_in_faction_with = PAK
+			}
+			has_war = no
+			has_army_manpower = {
+				size > 999999
 			}
 		}
 		completion_reward = {

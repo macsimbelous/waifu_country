@@ -571,6 +571,7 @@ focus_tree = {
 		icon = GFX_focus_generic_tungsten
 		prerequisite = {
 			focus = acw_focus_dockyard_effort
+			focus = acw_focus_modernize_steel_plant_3
 		}
 		prerequisite = {
 			focus = acw_focus_modernize_steel_plant_3
@@ -1019,6 +1020,7 @@ focus_tree = {
 			focus = acw_focus_people_owned_mines
 		}
 		prerequisite = {
+			focus = acw_focus_people_owned_mines
 			focus = acw_focus_synthetic_refinery
 		}
 		x = 0
