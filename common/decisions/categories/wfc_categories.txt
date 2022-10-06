@@ -56,12 +56,7 @@ wfc_world_conquest_category = {
 			}
 			has_idea = meh_exterminatus_idea
 		}
-		# if = {
-		# 	limit = {
-		# 		is_ai = yes
-		# 	}
-		# 	date > 1937.1.1
-		# }
+		date > 1945.1.1
 	}
 }
 
