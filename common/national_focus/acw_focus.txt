@@ -938,7 +938,7 @@ focus_tree = {
 		relative_position_id = acw_focus_nationalize_industry
 		cost = 5
 		available = {
-			has_tech = rubber_processing
+			has_tech = synth_oil_experiments
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY

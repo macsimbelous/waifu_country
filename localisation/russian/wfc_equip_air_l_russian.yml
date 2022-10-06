@@ -1,3 +1,20 @@
 ﻿l_russian:
- ACW_small_plane_airframe_0:0 "AF-10"
+#ACW
+ #small_airframe_0
+  ACW_small_plane_airframe_0:0 "АИ-10"
+  ACW_small_plane_airframe_0_short:0 "АИ-10"
+  ACW_small_plane_cas_airframe_0:0 "АШ-15"
+  ACW_small_plane_cas_airframe_0_short:0 "АШ-15"
+  ACW_small_plane_naval_bomber_airframe_0:0 "АМБ-12"
+  ACW_small_plane_naval_bomber_airframe_0_short:0 "АМБ-12"
+  ACW_small_plane_suicide_airframe_0:0 "АК-13"
+  ACW_small_plane_suicide_airframe_0_short:0 "АК-13"
+  ACW_cv_small_plane_airframe_0:0 "АПИ-10"
+  ACW_cv_small_plane_airframe_0_short:0 "АПИ-10"
+  ACW_cv_small_plane_cas_airframe_0:0 "АПШ-15"
+  ACW_cv_small_plane_cas_airframe_0_short:0 "АПШ-15"
+  ACW_cv_small_plane_naval_bomber_airframe_0:0 "АПМБ-12"
+  ACW_cv_small_plane_naval_bomber_airframe_0_short:0 "АПМБ-12"
+  ACW_cv_small_plane_suicide_airframe_0:0 "АПК-13"
+  ACW_cv_small_plane_suicide_airframe_0_short:0 "АПК-13"
 
