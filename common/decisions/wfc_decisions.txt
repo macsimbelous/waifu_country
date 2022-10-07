@@ -1469,7 +1469,8 @@ wfc_subjects_category = {
 		}
 		available = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				is_puppet = yes
+				#has_autonomy_state = autonomy_federation_subject
 				custom_trigger_tooltip = {
 					tooltip = wfc_transfer_navy_from_federal_subject_tt
 					check_variable = {
