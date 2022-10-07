@@ -357,7 +357,8 @@ leader_traits = {
 	}
 	wfc_governor-general = {
 		random = no
-		autonomy_gain = -0.25
+		autonomy_gain = -0.5
+		production_speed_buildings_factor = 0.1
 	}
 	wfc_astrologist_trait = {
 		sprite = 13

@@ -866,7 +866,7 @@ wfc_subjects_category = {
 					tree = generic_focus
 					keep_completed = no
 				}
-				add_ideas = wfc_economic_assistance
+				#add_ideas = wfc_economic_assistance
 			}
 			if = {
 				limit = {
@@ -1123,6 +1123,9 @@ wfc_subjects_category = {
 		# 		is_puppet_of = ACW
 		# 	}
 		# }
+		allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 200
 		}
@@ -1265,14 +1268,14 @@ wfc_subjects_category = {
 						}
 					}
 				}
-				if = {
-					limit = {
-						NOT = {
-							has_idea = wfc_economic_assistance
-						}
-					}
-					add_ideas = wfc_economic_assistance
-				}
+				# if = {
+				# 	limit = {
+				# 		NOT = {
+				# 			has_idea = wfc_economic_assistance
+				# 		}
+				# 	}
+				# 	add_ideas = wfc_economic_assistance
+				# }
 			}
 			if = {
 				limit = {
