@@ -241,7 +241,6 @@ focus_tree = {
 				679 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-
 				854 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
@@ -342,18 +341,28 @@ focus_tree = {
 		}
 		available = {
 			is_in_faction_with = ENG
-			ENG = {
-				656 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+			656 = {
+				CONTROLLER = {
+					tag = ENG
+					is_puppet_of = ENG
 				}
-				765 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+			}
+			765 = {
+				CONTROLLER = {
+					tag = ENG
+					is_puppet_of = ENG
 				}
-				658 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+			}
+			658 = {
+				CONTROLLER = {
+					tag = ENG
+					is_puppet_of = ENG
 				}
-				659 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+			}
+			659 = {
+				CONTROLLER = {
+					tag = ENG
+					is_puppet_of = ENG
 				}
 			}
 			# Iraq
