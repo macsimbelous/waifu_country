@@ -2170,6 +2170,25 @@ characters = {
 			coordination_skill = 4
 		}
 	}
+	ACW_st._louis = {
+		name = ACW_st._louis
+		portraits = {
+			navy = {
+				small = GFX_idea_acw_st._louis
+				large = GFX_portrait_acw_st._louis_navy
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
 	#political advisors
 	ACW_Minami_Nitta = {
 		name = ACW_Minami_Nitta

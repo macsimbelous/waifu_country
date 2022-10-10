@@ -881,7 +881,6 @@ spriteTypes = {
 		name = "GFX_portrait_acw_mineru_wachi_civilian"
 		texturefile = "gfx/leaders/ACW/mineru_wachi_civilian.dds"
 	}
-	#other country
 	spriteType = {
 		name = "GFX_idea_acw_satellizer_el_bridget"
 		texturefile = "gfx/leaders/ACW/satellizer_el_bridget_idea.dds"
@@ -965,6 +964,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_nishikino_maki_civilian"
 		texturefile = "gfx/leaders/ACW/nishikino_maki_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_st._louis"
+		texturefile = "gfx/leaders/ACW/st._louis_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_st._louis_navy"
+		texturefile = "gfx/leaders/ACW/st._louis_navy.dds"
 	}
 	#generics
 	spriteType = {
@@ -1238,6 +1245,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_naval_16"
 		texturefile = "gfx/leaders/ACW/generic/acw_naval_16.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_17_small"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_17_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_17"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_17.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_acw_operative_01_small"
