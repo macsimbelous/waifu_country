@@ -517,6 +517,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MEH/generic/meh_land_21.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_meh_land_22_small"
+		texturefile = "gfx/leaders/MEH/generic/meh_land_22_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_meh_land_22"
+		texturefile = "gfx/leaders/MEH/generic/meh_land_22.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_meh_naval_01_small"
 		texturefile = "gfx/leaders/MEH/generic/meh_naval_01_idea.dds"
 	}

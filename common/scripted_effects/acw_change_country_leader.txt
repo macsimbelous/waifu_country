@@ -276,6 +276,11 @@ acw_change_country_leader = {
 			}
 			1 = {
 				set_country_leader_portrait = {
+					portrait = GFX_portrait_acw_naval_17
+				}
+			}
+			1 = {
+				set_country_leader_portrait = {
 					portrait = GFX_portrait_acw_operative_01
 				}
 			}
