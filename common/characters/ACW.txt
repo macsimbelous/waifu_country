@@ -2170,12 +2170,12 @@ characters = {
 			coordination_skill = 4
 		}
 	}
-	ACW_st._louis = {
-		name = ACW_st._louis
+	ACW_st_louis = {
+		name = ACW_st_louis
 		portraits = {
 			navy = {
-				small = GFX_idea_acw_st._louis
-				large = GFX_portrait_acw_st._louis_navy
+				small = GFX_idea_acw_st_louis
+				large = GFX_portrait_acw_st_louis_navy
 			}
 		}
 		navy_leader = {

@@ -1,3 +1,33 @@
 ﻿l_russian:
- ACW_ship_hull_light_1:0 "Тип «Светлана»"
- ACW_ship_hull_light_1_desc:0 "Эсминцы типа «Светлана» — улучшенная версия предыдущего типа. Они оснащены пушечным и зенитным вооружением, соответствующим их размерам, имеют невысокую дальность действия, но хорошую скорость и мощное торпедное вооружение."
+#ACW
+ #ship_hull_light
+  ACW_ship_hull_light_1:0 "Тип «Светлана»"
+  ACW_ship_hull_light_2:0 "Тип «Лиза»"
+  ACW_ship_hull_light_3:0 "Тип «Кандакия»"
+  ACW_ship_hull_light_4:0 "Тип «Мила»"
+
+ #ship_hull_cruiser
+  ACW_ship_hull_cruiser_1:0 "Тип «Шима»"
+  ACW_ship_hull_cruiser_2:0 "Тип «Паола»"
+  ACW_ship_hull_cruiser_3:0 "Тип «Барбара»"
+  ACW_ship_hull_cruiser_4:0 "Тип «Риза»"
+
+ #ship_hull_heavy
+  ACW_ship_hull_heavy_1:0 "Тип «Саки»"
+  ACW_ship_hull_heavy_2:0 "Тип «Ноэль»"
+  ACW_ship_hull_super_heavy_1:0 "Тип «Кокоми»"
+  ACW_ship_hull_heavy_3:0 "Тип «Вермэил»"
+  ACW_ship_hull_heavy_4:0 "Тип «Мона»"
+
+ #ship_hull_carrier
+  ACW_ship_hull_carrier_conversion_bb:0 "Тип «Юно»"
+  ACW_ship_hull_carrier_conversion_ca:0 "Тип «Верт»"
+  ACW_ship_hull_carrier_1:0 "Тип «Силука»"
+  ACW_ship_hull_carrier_2:0 "Тип «Шики»"
+  ACW_ship_hull_carrier_3:0 "Тип «Саня»"
+
+ #ship_hull_submarine
+  ACW_ship_hull_submarine_1:0 "Тип «Наташа»"
+  ACW_ship_hull_submarine_2:0 "Тип «Люси»"
+  ACW_ship_hull_submarine_3:0 "Тип «Лорелей»"
+  ACW_ship_hull_submarine_4:0 "Тип «Ёр»"

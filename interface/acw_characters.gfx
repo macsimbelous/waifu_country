@@ -966,12 +966,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/nishikino_maki_civilian.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_acw_st._louis"
-		texturefile = "gfx/leaders/ACW/st._louis_idea.dds"
+		name = "GFX_idea_acw_st_louis"
+		texturefile = "gfx/leaders/ACW/st_louis_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_st._louis_navy"
-		texturefile = "gfx/leaders/ACW/st._louis_navy.dds"
+		name = "GFX_portrait_acw_st_louis_navy"
+		texturefile = "gfx/leaders/ACW/st_louis_navy.dds"
 	}
 	#generics
 	spriteType = {
