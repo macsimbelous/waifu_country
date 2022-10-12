@@ -29,5 +29,171 @@
  #ship_hull_submarine
   ACW_ship_hull_submarine_1:0 "Тип «Наташа»"
   ACW_ship_hull_submarine_2:0 "Тип «Люси»"
-  ACW_ship_hull_submarine_3:0 "Тип «Лорелей»"
+  ACW_ship_hull_submarine_3:0 "Тип «Юна»"
   ACW_ship_hull_submarine_4:0 "Тип «Ёр»"
+
+#HEN
+ #ship_hull_light
+  HEN_ship_hull_light_1:0 "Тип «Ай»"
+  HEN_ship_hull_light_2:0 "Тип «Рума»"
+  HEN_ship_hull_light_3:0 "Тип «Хлоя»"
+  HEN_ship_hull_light_4:0 "Тип «Сакура»"
+
+ #ship_hull_cruiser
+  HEN_ship_hull_cruiser_1:0 "Тип «Саори»"
+  HEN_ship_hull_cruiser_2:0 "Тип «Алиса»"
+  HEN_ship_hull_cruiser_3:0 "Тип «Анна»"
+  HEN_ship_hull_cruiser_4:0 "Тип «Риза»"
+
+ #ship_hull_heavy
+  HEN_ship_hull_heavy_1:0 "Тип «Лилия»"
+  HEN_ship_hull_heavy_2:0 "Тип «Катюа»"
+  HEN_ship_hull_super_heavy_1:0 "Тип «Пожиратель душ»"
+  HEN_ship_hull_heavy_3:0 "Тип «Юкикадзэ»"
+  HEN_ship_hull_heavy_4:0 "Тип «Касуми»"
+
+ #ship_hull_carrier
+  HEN_ship_hull_carrier_conversion_bb:0 "Тип «Фрей»"
+  HEN_ship_hull_carrier_conversion_ca:0 "Тип «Прим»"
+  HEN_ship_hull_carrier_1:0 "Тип «Рин»"
+  HEN_ship_hull_carrier_2:0 "Тип «Цубаса»"
+  HEN_ship_hull_carrier_3:0 "Тип «Мозговик»"
+
+ #ship_hull_submarine
+  HEN_ship_hull_submarine_1:0 "Тип «Канамэ»"
+  HEN_ship_hull_submarine_2:0 "Тип «Суоми»"
+  HEN_ship_hull_submarine_3:0 "Тип «Силл»"
+  HEN_ship_hull_submarine_4:0 "Тип «Хомаре»"
+
+#MAH
+ #ship_hull_light
+  MAH_ship_hull_light_1:0 "Тип «Сакуё»"
+  MAH_ship_hull_light_2:0 "Тип «Манацу»"
+  MAH_ship_hull_light_3:0 "Тип «Минт»"
+  MAH_ship_hull_light_4:0 "Тип «Миа»"
+
+ #ship_hull_cruiser
+  MAH_ship_hull_cruiser_1:0 "Тип «Аканэ»"
+  MAH_ship_hull_cruiser_2:0 "Тип «Хани»"
+  MAH_ship_hull_cruiser_3:0 "Тип «Май»"
+  MAH_ship_hull_cruiser_4:0 "Тип «Ами»"
+
+ #ship_hull_heavy
+  MAH_ship_hull_heavy_1:0 "Тип «Арика»"
+  MAH_ship_hull_heavy_2:0 "Тип «Мадока»"
+  MAH_ship_hull_super_heavy_1:0 "Тип «Асука»"
+  MAH_ship_hull_heavy_3:0 "Тип «Дзакуро»"
+  MAH_ship_hull_heavy_4:0 "Тип «Лена»"
+
+ #ship_hull_carrier
+  MAH_ship_hull_carrier_conversion_bb:0 "Тип «Иллиясфиль»"
+  MAH_ship_hull_carrier_conversion_ca:0 "Тип «Хаято»"
+  MAH_ship_hull_carrier_1:0 "Тип «Фейт»"
+  MAH_ship_hull_carrier_2:0 "Тип «Фрилл»"
+  MAH_ship_hull_carrier_3:0 "Тип «Нагиса»"
+
+ #ship_hull_submarine
+  MAH_ship_hull_submarine_1:0 "Тип «Лючия»"
+  MAH_ship_hull_submarine_2:0 "Тип «Химэно»"
+  MAH_ship_hull_submarine_3:0 "Тип «Лав»"
+  MAH_ship_hull_submarine_4:0 "Тип «Хонока»"
+
+#MEH
+ #ship_hull_light
+  MEH_ship_hull_light_1:0 "Тип «Касил»"
+  MEH_ship_hull_light_2:0 "Тип «Роза»"
+  MEH_ship_hull_light_3:0 "Тип «Хана»"
+  MEH_ship_hull_light_4:0 "Тип «Кларион»"
+
+ #ship_hull_cruiser
+  MEH_ship_hull_cruiser_1:0 "Тип «Сузи»"
+  MEH_ship_hull_cruiser_2:0 "Тип «Мику»"
+  MEH_ship_hull_cruiser_3:0 "Тип «2B»"
+  MEH_ship_hull_cruiser_4:0 "Тип «Алиса»"
+
+ #ship_hull_heavy
+  MEH_ship_hull_heavy_1:0 "Тип «Ашигара»"
+  MEH_ship_hull_heavy_2:0 "Тип «A2»"
+  MEH_ship_hull_super_heavy_1:0 "Тип «Харуна»"
+  MEH_ship_hull_heavy_3:0 "Тип «Пура»"
+  MEH_ship_hull_heavy_4:0 "Тип «Такао»"
+
+ #ship_hull_carrier
+  MEH_ship_hull_carrier_conversion_bb:0 "Тип «Сибо»"
+  MEH_ship_hull_carrier_conversion_ca:0 "Тип «Александра»"
+  MEH_ship_hull_carrier_1:0 "Тип «Истуар»"
+  MEH_ship_hull_carrier_2:0 "Тип «Конго»"
+  MEH_ship_hull_carrier_3:0 "Тип «Пневма»"
+
+ #ship_hull_submarine
+  MEH_ship_hull_submarine_1:0 "Тип «Элизабет»"
+  MEH_ship_hull_submarine_2:0 "Тип «Виви»"
+  MEH_ship_hull_submarine_3:0 "Тип «Айно»"
+  MEH_ship_hull_submarine_4:0 "Тип «Ирис»"
+
+#MMS
+ #ship_hull_light
+  MMS_ship_hull_light_1:0 "Тип «Мия»"
+  MMS_ship_hull_light_2:0 "Тип «Люси»"
+  MMS_ship_hull_light_3:0 "Тип «Суу»"
+  MMS_ship_hull_light_4:0 "Тип «Рипин»"
+
+ #ship_hull_cruiser
+  MMS_ship_hull_cruiser_1:0 "Тип «Лилит»"
+  MMS_ship_hull_cruiser_2:0 "Тип «Фино»"
+  MMS_ship_hull_cruiser_3:0 "Тип «Астарот»"
+  MMS_ship_hull_cruiser_4:0 "Тип «Арнис»"
+
+ #ship_hull_heavy
+  MMS_ship_hull_heavy_1:0 "Тип «Пурифайер»"
+  MMS_ship_hull_heavy_2:0 "Тип «Коррин»"
+  MMS_ship_hull_super_heavy_1:0 "Тип «Деско»"
+  MMS_ship_hull_heavy_3:0 "Тип «Вельвет»"
+  MMS_ship_hull_heavy_4:0 "Тип «Левиафан»"
+
+ #ship_hull_carrier
+  MMS_ship_hull_carrier_conversion_bb:0 "Тип «Хайне»"
+  MMS_ship_hull_carrier_conversion_ca:0 "Тип «Тестер»"
+  MMS_ship_hull_carrier_1:0 "Тип «Асмодеус»"
+  MMS_ship_hull_carrier_2:0 "Тип «Фрея»"
+  MMS_ship_hull_carrier_3:0 "Тип «Тиамат»"
+
+ #ship_hull_submarine
+  MMS_ship_hull_submarine_1:0 "Тип «Вулф»"
+  MMS_ship_hull_submarine_2:0 "Тип «Милла»"
+  MMS_ship_hull_submarine_3:0 "Тип «Лорелей»"
+  MMS_ship_hull_submarine_4:0 "Тип «Макина»"
+
+#TRP
+ #ship_hull_light
+  TRP_ship_hull_light_1:0 "Тип «Ранма»"
+  TRP_ship_hull_light_2:0 "Тип «Маре»"
+  TRP_ship_hull_light_3:0 "Тип «Оборо»"
+  TRP_ship_hull_light_4:0 "Тип «Аой»"
+
+ #ship_hull_cruiser
+  TRP_ship_hull_cruiser_1:0 "Тип «Тама»"
+  TRP_ship_hull_cruiser_2:0 "Тип «Ранга»"
+  TRP_ship_hull_cruiser_3:0 "Тип «Сяньмин»"
+  TRP_ship_hull_cruiser_4:0 "Тип «Джун»"
+
+ #ship_hull_heavy
+  TRP_ship_hull_heavy_1:0 "Тип «Хитоши»"
+  TRP_ship_hull_heavy_2:0 "Тип «Химэ»"
+  TRP_ship_hull_super_heavy_1:0 "Тип «Феликс»"
+  TRP_ship_hull_heavy_3:0 "Тип «Юкикадзэ»"
+  TRP_ship_hull_heavy_4:0 "Тип «Мария»"
+
+ #ship_hull_carrier
+  TRP_ship_hull_carrier_conversion_bb:0 "Тип «Хамадзи»"
+  TRP_ship_hull_carrier_conversion_ca:0 "Тип «Каору»"
+  TRP_ship_hull_carrier_1:0 "Тип «Сильвия»"
+  TRP_ship_hull_carrier_2:0 "Тип «Сэйкэ»"
+  TRP_ship_hull_carrier_3:0 "Тип «Астольф"
+
+ #ship_hull_submarine
+  TRP_ship_hull_submarine_1:0 "Тип «Кагуя»"
+  TRP_ship_hull_submarine_2:0 "Тип «Бёрди»"
+  TRP_ship_hull_submarine_3:0 "Тип «Содзи»"
+  TRP_ship_hull_submarine_4:0 "Тип «Рассел»"
+

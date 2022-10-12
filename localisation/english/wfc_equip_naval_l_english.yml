@@ -1,0 +1,198 @@
+﻿l_english:
+#ACW
+ #ship_hull_light
+  ACW_ship_hull_light_1:0 "Svetlana-class"
+  ACW_ship_hull_light_2:0 "Lisa-class"
+  ACW_ship_hull_light_3:0 "Kandakia-class"
+  ACW_ship_hull_light_4:0 "Mila-class"
+
+ #ship_hull_cruiser
+  ACW_ship_hull_cruiser_1:0 "Shima-class"
+  ACW_ship_hull_cruiser_2:0 "Paola-class"
+  ACW_ship_hull_cruiser_3:0 "Barbara-class"
+  ACW_ship_hull_cruiser_4:0 "Ryza-class"
+
+ #ship_hull_heavy
+  ACW_ship_hull_heavy_1:0 "Saki-class"
+  ACW_ship_hull_heavy_2:0 "Noel-class"
+  ACW_ship_hull_super_heavy_1:0 "Kokomi-class"
+  ACW_ship_hull_heavy_3:0 "Vermael-class"
+  ACW_ship_hull_heavy_4:0 "Mona-class"
+
+ #ship_hull_carrier
+  ACW_ship_hull_carrier_conversion_bb:0 "Uno-class"
+  ACW_ship_hull_carrier_conversion_ca:0 "Vert-class"
+  ACW_ship_hull_carrier_1:0 "Silooka-class"
+  ACW_ship_hull_carrier_2:0 "Shiki-class"
+  ACW_ship_hull_carrier_3:0 "Sanya-class"
+
+ #ship_hull_submarine
+  ACW_ship_hull_submarine_1:0 "Natasha-class"
+  ACW_ship_hull_submarine_2:0 "Lucy-class"
+  ACW_ship_hull_submarine_3:0 "Yuna-class"
+  ACW_ship_hull_submarine_4:0 "Yor-class"
+
+#HEN
+ #ship_hull_light
+  HEN_ship_hull_light_1:0 "Ai-class"
+  HEN_ship_hull_light_2:0 "Ruma-class"
+  HEN_ship_hull_light_3:0 "Chloe-class"
+  HEN_ship_hull_light_4:0 "Sakura-class"
+
+ #ship_hull_cruiser
+  HEN_ship_hull_cruiser_1:0 "Saori-class"
+  HEN_ship_hull_cruiser_2:0 "Alice-class"
+  HEN_ship_hull_cruiser_3:0 "Anna-class"
+  HEN_ship_hull_cruiser_4:0 "Ryza-class"
+
+ #ship_hull_heavy
+  HEN_ship_hull_heavy_1:0 "Lily-class"
+  HEN_ship_hull_heavy_2:0 "Katua-class"
+  HEN_ship_hull_super_heavy_1:0 "Soul Eater Type"
+  HEN_ship_hull_heavy_3:0 "Yukikaze-class"
+  HEN_ship_hull_heavy_4:0 "Kasumi-class"
+
+ #ship_hull_carrier
+  HEN_ship_hull_carrier_conversion_bb:0 "Frey-class"
+  HEN_ship_hull_carrier_conversion_ca:0 "Type Prim"
+  HEN_ship_hull_carrier_1:0 "Rin-class"
+  HEN_ship_hull_carrier_2:0 "Tsubasa-class"
+  HEN_ship_hull_carrier_3:0 "Brain Carrier Type"
+
+ #ship_hull_submarine
+  HEN_ship_hull_submarine_1:0 "Kaname-class"
+  HEN_ship_hull_submarine_2:0 "Suomi-class"
+  HEN_ship_hull_submarine_3:0 "Sill-class"
+  HEN_ship_hull_submarine_4:0 "Homare-class"
+
+#MAH
+ #ship_hull_light
+  MAH_ship_hull_light_1:0 "Sakuyo-class"
+  MAH_ship_hull_light_2:0 "Manatsu-class"
+  MAH_ship_hull_light_3:0 "Mint-class"
+  MAH_ship_hull_light_4:0 "Mia-class"
+
+ #ship_hull_cruiser
+  MAH_ship_hull_cruiser_1:0 "Akane-class"
+  MAH_ship_hull_cruiser_2:0 "Honey-class"
+  MAH_ship_hull_cruiser_3:0 "May-class"
+  MAH_ship_hull_cruiser_4:0 "Ami-class"
+
+ #ship_hull_heavy
+  MAH_ship_hull_heavy_1:0 "Arika-class"
+  MAH_ship_hull_heavy_2:0 "Madoka-class"
+  MAH_ship_hull_super_heavy_1:0 "Asuka-class"
+  MAH_ship_hull_heavy_3:0 "Zakuro-class"
+  MAH_ship_hull_heavy_4:0 "Lena-class"
+
+ #ship_hull_carrier
+  MAH_ship_hull_carrier_conversion_bb:0 "Class Illyasviel"
+  MAH_ship_hull_carrier_conversion_ca:0 "Hayato-class"
+  MAH_ship_hull_carrier_1:0 "Fate Type"
+  MAH_ship_hull_carrier_2:0 "Frill Class"
+  MAH_ship_hull_carrier_3:0 "Nagisa-class"
+
+ #ship_hull_submarine
+  MAH_ship_hull_submarine_1:0 "Lucia-class"
+  MAH_ship_hull_submarine_2:0 "Himeno-class"
+  MAH_ship_hull_submarine_3:0 "Love-class"
+  MAH_ship_hull_submarine_4:0 "Honoka-class"
+
+#MEH
+ #ship_hull_light
+  MEH_ship_hull_light_1:0 "Kasil-class"
+  MEH_ship_hull_light_2:0 "Rose-class"
+  MEH_ship_hull_light_3:0 "Hana-class"
+  MEH_ship_hull_light_4:0 "Clarion-class"
+
+ #ship_hull_cruiser
+  MEH_ship_hull_cruiser_1:0 "Susie-class"
+  MEH_ship_hull_cruiser_2:0 "Miku-class"
+  MEH_ship_hull_cruiser_3:0 "Type 2B"
+  MEH_ship_hull_cruiser_4:0 "Alice-class"
+
+ #ship_hull_heavy
+  MEH_ship_hull_heavy_1:0 "Ashigara-class"
+  MEH_ship_hull_heavy_2:0 "A2 class"
+  MEH_ship_hull_super_heavy_1:0 "Haruna-class"
+  MEH_ship_hull_heavy_3:0 "Pura-class"
+  MEH_ship_hull_heavy_4:0 "Takao-class"
+
+ #ship_hull_carrier
+  MEH_ship_hull_carrier_conversion_bb:0 "Cybo-class"
+  MEH_ship_hull_carrier_conversion_ca:0 "Alexandra-class"
+  MEH_ship_hull_carrier_1:0 "Istoire-class"
+  MEH_ship_hull_carrier_2:0 "Congo-class"
+  MEH_ship_hull_carrier_3:0 "Pneuma-class"
+
+ #ship_hull_submarine
+  MEH_ship_hull_submarine_1:0 "Class Elizabeth"
+  MEH_ship_hull_submarine_2:0 "Vivi-class"
+  MEH_ship_hull_submarine_3:0 "Aino-class"
+  MEH_ship_hull_submarine_4:0 "Iris-class"
+
+#MMS
+ #ship_hull_light
+  MMS_ship_hull_light_1:0 "Miya-class"
+  MMS_ship_hull_light_2:0 "Lucy-class"
+  MMS_ship_hull_light_3:0 "Suu-class"
+  MMS_ship_hull_light_4:0 "Repin-class"
+
+ #ship_hull_cruiser
+  MMS_ship_hull_cruiser_1:0 "Lilith-class"
+  MMS_ship_hull_cruiser_2:0 "Fino-class"
+  MMS_ship_hull_cruiser_3:0 "Astaroth-class"
+  MMS_ship_hull_cruiser_4:0 "Arnis-class"
+
+ #ship_hull_heavy
+  MMS_ship_hull_heavy_1:0 "Purifier-class"
+  MMS_ship_hull_heavy_2:0 "Corrin-class"
+  MMS_ship_hull_super_heavy_1:0 "Deco-class"
+  MMS_ship_hull_heavy_3:0 "Velvet class"
+  MMS_ship_hull_heavy_4:0 "Leviathan-class"
+
+ #ship_hull_carrier
+  MMS_ship_hull_carrier_conversion_bb:0 "Heine-class"
+  MMS_ship_hull_carrier_conversion_ca:0 "Tester type"
+  MMS_ship_hull_carrier_1:0 "Asmodeus-class"
+  MMS_ship_hull_carrier_2:0 "Freya-class"
+  MMS_ship_hull_carrier_3:0 "Tiamat-class"
+
+ #ship_hull_submarine
+  MMS_ship_hull_submarine_1:0 "Wolf-class"
+  MMS_ship_hull_submarine_2:0 "Milla-class"
+  MMS_ship_hull_submarine_3:0 "Lorelei class"
+  MMS_ship_hull_submarine_4:0 "Makina-class"
+
+#TRP
+ #ship_hull_light
+  TRP_ship_hull_light_1:0 "Ranma-class"
+  TRP_ship_hull_light_2:0 "Mare-class"
+  TRP_ship_hull_light_3:0 "Oboro-class"
+  TRP_ship_hull_light_4:0 "Aoi-class"
+
+ #ship_hull_cruiser
+  TRP_ship_hull_cruiser_1:0 "Tama-class"
+  TRP_ship_hull_cruiser_2:0 "Rank-class"
+  TRP_ship_hull_cruiser_3:0 "Xianming-class"
+  TRP_ship_hull_cruiser_4:0 "Jun-class"
+
+ #ship_hull_heavy
+  TRP_ship_hull_heavy_1:0 "Hitoshi-class"
+  TRP_ship_hull_heavy_2:0 "Hime-class"
+  TRP_ship_hull_super_heavy_1:0 "Felix-class"
+  TRP_ship_hull_heavy_3:0 "Yukikaze-class"
+  TRP_ship_hull_heavy_4:0 "Maria-class"
+
+ #ship_hull_carrier
+  TRP_ship_hull_carrier_conversion_bb:0 "Hamaji-class"
+  TRP_ship_hull_carrier_conversion_ca:0 "Kaoru-class"
+  TRP_ship_hull_carrier_1:0 "Sylvia-class"
+  TRP_ship_hull_carrier_2:0 "Seike-class"
+  TRP_ship_hull_carrier_3:0 "Astolf-class"
+
+ #ship_hull_submarine
+  TRP_ship_hull_submarine_1:0 "Kaguya-class"
+  TRP_ship_hull_submarine_2:0 "Birdie-class"
+  TRP_ship_hull_submarine_3:0 "Soji-class"
+  TRP_ship_hull_submarine_4:0 "Russell Class"
