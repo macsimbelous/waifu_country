@@ -362,15 +362,10 @@ shared_focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = fighter_bonus
-			bonus = 1
+			bonus = 1.0
 			uses = 2
-			technology = early_fighter
-			technology = fighter1
-			technology = fighter2
-			technology = fighter3
-			technology = heavy_fighter1
-			technology = heavy_fighter2
-			technology = heavy_fighter3
+			category = light_fighter
+			category = cat_heavy_fighter
 		}
 	}
 }
@@ -395,11 +390,9 @@ shared_focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = bomber_bonus
-			bonus = 1
+			bonus = 1.0
 			uses = 2
-			technology = strategic_bomber1
-			technology = strategic_bomber2
-			technology = strategic_bomber3
+			category = cat_strategic_bomber
 			category = tactical_bomber
 		}
 	}
@@ -510,9 +503,6 @@ shared_focus = {
 	prerequisite = {
 		focus = wfc_aviation_effort_2
 	}
-	prerequisite = {
-		focus = wfc_motorization_effort
-	}
 	x = -1
 	y = 1
 	relative_position_id = wfc_aviation_effort_2
@@ -524,7 +514,7 @@ shared_focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = CAS_bonus
-			bonus = 1
+			bonus = 1.0
 			ahead_reduction = 2
 			uses = 1
 			category = cas_bomber
@@ -537,9 +527,6 @@ shared_focus = {
 	icon = GFX_focus_rocketry
 	prerequisite = {
 		focus = wfc_aviation_effort_2
-	}
-	prerequisite = {
-		focus = wfc_infrastructure_effort
 	}
 	x = 0
 	y = 2
@@ -560,10 +547,6 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 0.25
-			always = yes
-		}
 	}
 }
 
@@ -573,9 +556,7 @@ shared_focus = {
 	prerequisite = {
 		focus = wfc_aviation_effort_2
 	}
-	prerequisite = {
-		focus = wfc_flexible_navy
-	}
+
 	x = 1
 	y = 1
 	relative_position_id = wfc_aviation_effort_2
@@ -587,7 +568,7 @@ shared_focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			name = nav_bomber_bonus
-			bonus = 1
+			bonus = 1.0
 			ahead_reduction = 2
 			uses = 1
 			category = naval_bomber
