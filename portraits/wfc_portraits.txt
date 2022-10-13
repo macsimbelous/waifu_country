@@ -322,6 +322,7 @@ MAH = {
 				"GFX_portrait_mah_land_07"
 				"GFX_portrait_mah_land_08"
 				"GFX_portrait_mah_land_09"
+				"GFX_portrait_mah_land_10"
 			}
 		}
 		democratic = {
@@ -350,6 +351,7 @@ MAH = {
 				"GFX_portrait_mah_land_07"
 				"GFX_portrait_mah_land_08"
 				"GFX_portrait_mah_land_09"
+				"GFX_portrait_mah_land_10"
 			}
 		}
 		neutrality = {
@@ -379,6 +381,7 @@ MAH = {
 			"GFX_portrait_mah_land_07"
 			"GFX_portrait_mah_land_08"
 			"GFX_portrait_mah_land_09"
+			"GFX_portrait_mah_land_10"
 		}
 	}
 	navy = {
@@ -586,6 +589,8 @@ MEH = {
 				"GFX_portrait_meh_land_19"
 				"GFX_portrait_meh_land_20"
 				"GFX_portrait_meh_land_21"
+				"GFX_portrait_meh_land_22"
+				"GFX_portrait_meh_land_23"
 			}
 		}
 		democratic = {
@@ -625,6 +630,8 @@ MEH = {
 				"GFX_portrait_meh_land_19"
 				"GFX_portrait_meh_land_20"
 				"GFX_portrait_meh_land_21"
+				"GFX_portrait_meh_land_22"
+				"GFX_portrait_meh_land_23"
 			}
 		}
 		neutrality = {
@@ -666,6 +673,7 @@ MEH = {
 			"GFX_portrait_meh_land_20"
 			"GFX_portrait_meh_land_21"
 			"GFX_portrait_meh_land_22"
+			"GFX_portrait_meh_land_23"
 		}
 	}
 	navy = {
