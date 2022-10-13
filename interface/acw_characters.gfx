@@ -973,6 +973,14 @@ spriteTypes = {
 		name = "GFX_portrait_acw_st_louis_navy"
 		texturefile = "gfx/leaders/ACW/st_louis_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_acw_eleonore_bonnefoi"
+		texturefile = "gfx/leaders/ACW/eleonore_bonnefoi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_eleonore_bonnefoi_civilian"
+		texturefile = "gfx/leaders/ACW/eleonore_bonnefoi_civilian.dds"
+	}
 	#generics
 	spriteType = {
 		name = "GFX_portrait_acw_land_01_small"

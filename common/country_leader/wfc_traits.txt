@@ -152,11 +152,8 @@ leader_traits = {
 		sprite = 14
 		random = no
 		#production_speed_rocket_site_factor = 0.2
-		production_speed_nuclear_reactor_factor = 0.15
-		nuclear_production_factor = 0.15
-		ai_will_do = {
-			factor = 1
-		}
+		#production_speed_nuclear_reactor_factor = 0.15
+		#nuclear_production_factor = 0.15
 	}
 	wfc_girl_scientist = {
 		sprite = 14
@@ -382,5 +379,13 @@ leader_traits = {
 		research_speed_factor = 0.1
 		crypto_strength = 1
 		decryption_power = 5
+	}
+	wfc_pharmacist = {
+		sprite = 13
+		random = no
+		stability_factor = 0.1
+		research_speed_factor = 0.1
+		monthly_population = 0.05
+		experience_loss_factor = -0.05
 	}
 }

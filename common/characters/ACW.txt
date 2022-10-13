@@ -2512,4 +2512,27 @@ characters = {
 			}
 		}
 	}
+	ACW_eleonore_bonnefoi = {
+		name = ACW_eleonore_bonnefoi
+		portraits = {
+			army = {
+				small = GFX_idea_acw_eleonore_bonnefoi
+			}
+			civilian = {
+				large = GFX_portrait_acw_eleonore_bonnefoi_civilian
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = ACW_eleonore_bonnefoi
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				wfc_pharmacist
+			}
+		}
+	}
 }
