@@ -407,18 +407,6 @@ characters = {
 				large = GFX_portrait_acw_kallen_stadtfeld
 			}
 		}
-		advisor = {
-			slot = theorist
-			idea_token = ACW_Kallen_Stadtfeld
-			ledger = army
-			cost = 50
-			allowed = {
-				original_tag = ACW
-			}
-			traits = {
-				military_theorist
-			}
-		}
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
@@ -1929,12 +1917,12 @@ characters = {
 			slot = theorist
 			ledger = navy
 			idea_token = ACW_Marblehead
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
 			traits = {
-				naval_theorist
+				submarine_specialist
 			}
 		}
 	}
@@ -2008,7 +1996,7 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
+				wfc_exp_navy_trait ironside big_guns_expert
 			}
 			skill = 4
 			attack_skill = 4
@@ -2180,13 +2168,25 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
+				wfc_exp_navy_trait air_controller
 			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
 			maneuvering_skill = 2
 			coordination_skill = 2
+		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = ACW_st_louis
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				naval_aviation_pioneer
+			}
 		}
 	}
 	#political advisors
