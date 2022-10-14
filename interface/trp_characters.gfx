@@ -417,6 +417,22 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/generic/trp_land_15.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_trp_land_16_small"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_16_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_16"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_17_small"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_17_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_17"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_17.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_trp_naval_01_small"
 		texturefile = "gfx/leaders/TRP/generic/trp_naval_01_idea.dds"
 	}

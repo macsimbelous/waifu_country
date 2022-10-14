@@ -79,6 +79,16 @@ trp_change_country_leader = {
 		}
 		1 = {
 			set_country_leader_portrait = {
+				portrait = GFX_portrait_trp_land_16
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_trp_land_17
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
 				portrait = GFX_portrait_trp_naval_01
 			}
 		}
