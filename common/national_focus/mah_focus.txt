@@ -62,6 +62,9 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = {
+						state = 799
+					}
 					free_building_slots = {
 						building = arms_factory
 						size > 0
@@ -634,6 +637,24 @@ focus_tree = {
 				678 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
+				855 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				854 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				857 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				859 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				856 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				858 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			#controls_state = 656
 			656 = {
@@ -664,6 +685,34 @@ focus_tree = {
 			set_cosmetic_tag = MAH_CRY_EMP
 			set_country_flag = mah_crystal_empire_formed_flag
 			set_major = yes
+			hidden_effect = {
+				transfer_state = 676
+				transfer_state = 675
+				transfer_state = 291
+				transfer_state = 292
+				transfer_state = 679
+				transfer_state = 678
+				transfer_state = 656
+				transfer_state = 765
+				transfer_state = 658
+				transfer_state = 293
+				transfer_state = 659
+				transfer_state = 294
+				transfer_state = 854
+				transfer_state = 855
+				transfer_state = 856
+				transfer_state = 857
+				transfer_state = 858
+				transfer_state = 859
+				if = {
+					limit = {
+						906 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					transfer_state = 906
+				}
+			}
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
 			hidden_effect = {
 				676 = {
@@ -694,6 +743,24 @@ focus_tree = {
 					#add_core_of = ROOT
 					wfc_coring_state = yes
 				}
+				855 = {
+					wfc_coring_state = yes
+				}
+				854 = {
+					wfc_coring_state = yes
+				}
+				857 = {
+					wfc_coring_state = yes
+				}
+				859 = {
+					wfc_coring_state = yes
+				}
+				856 = {
+					wfc_coring_state = yes
+				}
+				858 = {
+					wfc_coring_state = yes
+				}
 			}
 			656 = {
 				#add_core_of = ROOT
@@ -719,19 +786,16 @@ focus_tree = {
 				#add_core_of = ROOT
 				wfc_coring_state = yes
 			}
-			hidden_effect = {
-				transfer_state = 676
-				transfer_state = 675
-				transfer_state = 291
-				transfer_state = 292
-				transfer_state = 679
-				transfer_state = 678
-				transfer_state = 656
-				transfer_state = 765
-				transfer_state = 658
-				transfer_state = 293
-				transfer_state = 659
-				transfer_state = 294
+			if = {
+				limit = {
+					906 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				906 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
 			}
 		}
 	}
