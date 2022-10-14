@@ -1280,4 +1280,26 @@ characters = {
 			}
 		}
 	}
+	MMS_shion = {
+		name = MMS_shion
+		portraits = {
+			army = {
+				small = GFX_idea_mms_shion
+			}
+			civilian = {
+				large = GFX_portrait_mms_shion_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_shion
+			cost = 150
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				wfc_trait_secretary
+			}
+		}
+	}
 }

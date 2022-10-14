@@ -419,6 +419,14 @@ spriteTypes = {
 		name = "GFX_portrait_mms_serafall_leviathan_civilian"
 		texturefile = "gfx/leaders/MMS/serafall_leviathan_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_shion"
+		texturefile = "gfx/leaders/MMS/shion_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_shion_civilian"
+		texturefile = "gfx/leaders/MMS/shion_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"
