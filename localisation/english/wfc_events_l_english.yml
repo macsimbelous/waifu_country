@@ -60,6 +60,12 @@ wfc_news.7.a:0 "This is the beginning of a new era!"
 #wfc_news.10
  wfc_news.10.t:0 "The Zombie Apocalypse!"
  wfc_news.10.d:0 "The zombie apocalypse has begun."
+ wfc_news.10.b:0 "Are these zombies machines?"
+
+#wfc_news.11
+ wfc_news.11.t:0 "End of the war!"
+ wfc_news.11.d:0 "[ENG.GetName] and [MAH.GetName] have signed a dimensional agreement."
+ wfc_news.11.a:0 "Pretty!"
 
 #wfc_news.101
  wfc_news.101.t:0 "Fall of Washington"

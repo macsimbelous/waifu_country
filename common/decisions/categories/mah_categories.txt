@@ -34,3 +34,10 @@ mah_make_friends_with_shamiko_category = {
 		}
 	}
 }
+mah_peace_agreement_with_britain_category = {
+	icon = decision_category_generic_political_actions
+	priority = 18
+	allowed = {
+		original_tag = MAH
+	}
+}
