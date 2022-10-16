@@ -699,6 +699,9 @@ country_event = {
 				transfer_state = 183
 			}
 			puppet = EGY
+			EGY = {
+				mah_change_country_leader = yes
+			}
 			every_state = {
 				limit = {
 					is_core_of = EGY
