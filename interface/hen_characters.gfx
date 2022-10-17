@@ -585,6 +585,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_11.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_naval_12_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_12_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_naval_12"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_12.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_operative_01_small"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_01_idea.dds"
 	}
