@@ -129,6 +129,24 @@ news_event = {
 			}
 		}
 	}
+	option = {
+		name = wfc_news.10.b
+		trigger = {
+			tag = MEH
+		}
+	}
+}
+news_event = {
+	id = wfc_news.11
+	title = wfc_news.11.t
+	desc = wfc_news.11.d
+	picture = GFX_news_event_generic_sign_treaty1
+	major = yes
+	is_triggered_only = yes
+	fire_for_sender = no
+	option = {
+		name = wfc_news.11.a
+	}
 }
 #Захваты городов за Мехалэнд
 # The Fall of Washington

@@ -59,3 +59,19 @@ mah_event.2.e:0 "No friendship with §Y[FROM.GetName]§!!"
 
 #mah_event.12
  mah_event.12.a:0 "Solve the problem in a different way"
+
+#mah_event.13
+ mah_event.13.t:0 "Offer of Peace"
+ mah_event.13.d:0 "The State of [MAH.GetName] has offered to sign a peace agreement."
+ mah_event.13.a:0 "Stop fighting"
+ mah_event.13.b:0 "We will fight to the end"
+
+#mah_event.14
+ mah_event.14.t:0 "Britain agreed"
+ mah_event.14.d:0 "The brother government has agreed to sign our proposed peace treaty."
+ mah_event.14.a:0 "Pretty"
+
+#mah_event.15
+ mah_event.15.t:0 "Britain refused"
+ mah_event.15.d:0 "The fraternal government has refused our proposed peace treaty."
+ mah_event.15.a:0 "They will regret it"

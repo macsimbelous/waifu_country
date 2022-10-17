@@ -663,4 +663,88 @@ country_event = {
 		name = mah_event.12.a
 	}
 }
-
+country_event = {
+	id = mah_event.13
+	title = mah_event.13.t
+	desc = mah_event.13.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.13.a
+		ai_chance = {
+			base = 100
+		}
+		white_peace = MAH
+		every_other_country = {
+			limit = {
+				is_in_faction_with = ENG
+			}
+			white_peace = MAH
+		}
+		MAH = {
+			transfer_state = 656
+			transfer_state = 765
+			transfer_state = 658
+			transfer_state = 659
+			if = {
+				limit = {
+					controls_state = 906
+				}
+				transfer_state = 906
+			}
+			if = {
+				limit = {
+					controls_state = 183
+				}
+				transfer_state = 183
+			}
+			puppet = EGY
+			EGY = {
+				mah_change_country_leader = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = EGY
+				}
+				EGY = {
+					transfer_state = PREV
+				}
+			}
+			country_event = mah_event.14
+		}
+		#news_event = wfc_news.11
+		news_event = {
+			id = wfc_news.11
+			random_days = 7
+		}
+	}
+	option = {
+		name = mah_event.13.b
+		ai_chance = {
+			base = 0
+		}
+		MAH = {
+			country_event = mah_event.15
+		}
+	}
+}
+country_event = {
+	id = mah_event.14
+	title = mah_event.14.t
+	desc = mah_event.14.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.14.a
+	}
+}
+country_event = {
+	id = mah_event.15
+	title = mah_event.15.t
+	desc = mah_event.15.d
+	picture = GFX_report_event_generic_sign_treaty3
+	is_triggered_only = yes
+	option = {
+		name = mah_event.15.a
+	}
+}
