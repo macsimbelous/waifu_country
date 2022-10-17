@@ -1,0 +1,16 @@
+focus_tree = {
+	id = wfc_puppet_focus
+	country = {
+		factor = 0
+	}
+	default = no
+	continuous_focus_position = {
+		x = 60
+		y = 1100
+	}
+	shared_focus = wfc_army_effort
+	shared_focus = wfc_aviation_effort
+	shared_focus = wfc_naval_effort
+	shared_focus = wfc_industrial_effort
+	shared_focus = wfc_political_effort
+}

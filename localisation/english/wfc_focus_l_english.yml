@@ -90,8 +90,6 @@
  wfc_political_effort_desc:0 "To bring about change in the world, we need to be able to bring about change in our own country. Strengthening our political position should come first."
  wfc_collectivist_ethos:0 "Collectivist Ethos"
  wfc_collectivist_ethos_desc:0 "Our enemies may divide and conquer lesser nations, but our people will stand united. All for one and one for all."
- wfc_liberty_ethos:0 "Liberty Ethos"
- wfc_liberty_ethos_desc:0 "In this time of ideological fanatics who seek to suffocate the human spirit, we will safeguard individual liberties and freedom."
  wfc_militarism:0 "Militarism"
  wfc_militarism_desc:0 "Those who view the military as a necessary evil are doomed to hesitate in the face of war. We will ingrain militarism into our culture to become a people of soldiers."
  wfc_political_correctness:0 "Political Correctness"
@@ -129,6 +127,10 @@
  wfc_air_innovation_2_desc:0 "Every advantage we can gain in the skies is precious. We should focus all of our efforts on developing our fighters."
  wfc_naval_air_effort:0 "Naval Air Effort"
  wfc_naval_air_effort_desc:0 "The efficacy of air strikes against naval targets was demonstrated by the Americans already back in 1921. We should not neglect this branch of the Air Force if we intend to wage war on a naval power."
+ wfc_focus_individualism:0 "Individualism"
+ wfc_focus_authoritarianism:0 "Authoritarianism"
+ wfc_focus_democracy:0 "Democracy"
+ wfc_focus_democracy_desc:0 "In this time of ideological fanatics who seek to suffocate the human spirit, we will safeguard individual liberties and freedom."
  
 #ACW
  acw_focus:0 "Animeland Focuses"
@@ -315,3 +317,6 @@
  trp_focus_south_american_federation:0 "South American Trap Federation"
  trp_annex_the_colonies:0 "Annex Colonies"
  trp_annex_the_colonies_tt:0 "The owners of these regions will have a casus belli against us"
+
+#Pupet
+ wfc_puppet_focus:0 "Focus puppets"

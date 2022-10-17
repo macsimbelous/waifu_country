@@ -862,8 +862,8 @@ wfc_subjects_category = {
 			FROM = {
 				set_country_flag = wfc_change_focus_tree_flag
 				load_focus_tree = {
-					#tree = wfc_focus
-					tree = generic_focus
+					tree = wfc_puppet_focus
+					#tree = generic_focus
 					keep_completed = no
 				}
 				#add_ideas = wfc_economic_assistance
@@ -1105,8 +1105,8 @@ wfc_subjects_category = {
 				hidden_effect = {
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
-						#tree = wfc_focus
-						tree = generic_focus
+						tree = wfc_puppet_focus
+						#tree = generic_focus
 						keep_completed = no
 					}
 				}
@@ -1262,8 +1262,8 @@ wfc_subjects_category = {
 						}
 						set_country_flag = wfc_change_focus_tree_flag
 						load_focus_tree = {
-							#tree = wfc_focus
-							tree = generic_focus
+							tree = wfc_puppet_focus
+							#tree = generic_focus
 							keep_completed = no
 						}
 					}

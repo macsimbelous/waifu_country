@@ -12,8 +12,11 @@ MAH_historical = {
 	}
 	ai_national_focuses = {
 		wfc_political_effort
-		wfc_liberty_ethos
+		wfc_focus_individualism
+		wfc_focus_democracy
 		wfc_interventionism_focus
+		wfc_volunteer_corps
+		wfc_foreign_expeditions
 	}
 	research = {
 		infantry_weapons = 50

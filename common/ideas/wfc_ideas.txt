@@ -250,6 +250,14 @@ ideas = {
 				neutrality_acceptance = 85
 			}
 		}
+		wfc_idea_individualism = {
+			name = collectivist_ethos_focus
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				communism_drift = -0.01
+				fascism_drift = -0.01
+			}
+		}
 	}
 	aircraft_manufacturer = {
 		designer = yes
