@@ -330,8 +330,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/kallen_stadtfeld_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_kallen_stadtfeld"
-		texturefile = "gfx/leaders/ACW/Kallen_Stadtfeld.dds"
+		name = "GFX_portrait_acw_kallen_stadtfeld_army"
+		texturefile = "gfx/leaders/ACW/kallen_stadtfeld_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_kallen_stadtfeld_civilian"
+		texturefile = "gfx/leaders/ACW/kallen_stadtfeld_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_kaname_chidori"

@@ -404,7 +404,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_kallen_stadtfeld
-				large = GFX_portrait_acw_kallen_stadtfeld
+				large = GFX_portrait_acw_kallen_stadtfeld_army
+			}
+			civilian = {
+				large = GFX_portrait_acw_kallen_stadtfeld_civilian
 			}
 		}
 		corps_commander = {
