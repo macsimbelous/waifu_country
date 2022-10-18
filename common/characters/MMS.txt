@@ -165,7 +165,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				skilled_staffer
 			}
 			skill = 4
@@ -173,7 +172,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
 		}
 	}
 	MMS_belldandy = {
@@ -224,7 +222,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 			}
 			skill = 4
 			attack_skill = 4
@@ -244,7 +241,6 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				wfc_exp_trait
 				aggressive_assaulter
 				cavalry_leader
 			}
@@ -253,7 +249,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_rhea = {
@@ -266,7 +261,6 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -274,7 +268,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 5
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_shiraori = {
@@ -300,7 +293,6 @@ characters = {
 			defense_skill = 6
 			planning_skill = 7
 			logistics_skill = 6
-			legacy_id = -1
 		}
 	}
 	MMS_ishtar = {
@@ -324,7 +316,6 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 				offensive_doctrine
 			}
@@ -333,7 +324,6 @@ characters = {
 			defense_skill = 7
 			planning_skill = 7
 			logistics_skill = 7
-			legacy_id = -1
 		}
 	}
 	MMS_tiamat = {
@@ -358,17 +348,15 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				wfc_exp_trait
 				skilled_staffer
 				infantry_leader
 				#expert_delegator
 			}
-			skill = 9
-			attack_skill = 9
-			defense_skill = 9
-			planning_skill = 9
-			logistics_skill = 9
-			legacy_id = -1
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
 		}
 	}
 	#general
@@ -382,7 +370,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				skilled_staffer
 				aggressive_assaulter
 			}
@@ -391,7 +378,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_rose = {
@@ -424,7 +410,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				naval_invader
 			}
 			skill = 4
@@ -432,7 +417,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_ripine = {
@@ -445,7 +429,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				commando
 				trait_mountaineer
 			}
@@ -454,7 +437,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
 		}
 	}
 	MMS_dullahan = {
@@ -467,7 +449,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				cavalry_leader
 			}
 			skill = 5
@@ -475,7 +456,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 6
 			logistics_skill = 5
-			legacy_id = -1
 		}
 		advisor = {
 			slot = high_command
@@ -521,7 +501,6 @@ characters = {
 			defense_skill = 6
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
 		}
 	}
 	MMS_astaroth = {
@@ -534,7 +513,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				trait_engineer
 			}
@@ -543,7 +521,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_laharl_female = {
@@ -556,7 +533,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				skilled_staffer
 			}
@@ -565,7 +541,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_desco = {
@@ -578,7 +553,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 			}
 			skill = 5
@@ -586,7 +560,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 5
-			legacy_id = -1
 		}
 	}
 	MMS_corrin = {
@@ -599,7 +572,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 			}
 			skill = 4
@@ -607,7 +579,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_lucy = {
@@ -620,7 +591,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				trickster
 			}
@@ -629,7 +599,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_makina_hoshimura = {
@@ -671,7 +640,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -679,7 +647,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_02 = {
@@ -696,9 +663,7 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 			}
 		}
@@ -757,7 +722,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				commando
 			}
 			skill = 4
@@ -765,7 +729,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_saya_otonashi = {
@@ -778,7 +741,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -786,7 +748,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_marie_von_eisenberg = {
@@ -852,7 +813,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				cavalry_leader
 				skilled_staffer
 			}
@@ -861,7 +821,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_freyja = {
@@ -874,7 +833,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				cavalry_leader
 				trickster
 			}
@@ -883,7 +841,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_saphentite_neikes = {
@@ -930,7 +887,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_asmodeus = {
@@ -946,7 +902,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				skilled_staffer
 			}
@@ -955,7 +910,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_wolf_bete = {
@@ -971,7 +925,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 			}
 			skill = 1
 			attack_skill = 2
@@ -993,7 +946,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				cavalry_leader
 			}
 			skill = 3
@@ -1051,7 +1003,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 				blue_water_expert
 				ironside
 				big_guns_expert
@@ -1062,7 +1013,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	MMS_purifier = {
@@ -1085,7 +1035,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 5
-			legacy_id = -1
 		}
 	}
 	MMS_tester = {
@@ -1109,7 +1058,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 				ironside
 				big_guns_expert
 				marksman

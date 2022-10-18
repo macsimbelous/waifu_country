@@ -182,7 +182,6 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				offensive_doctrine
 				harsh_leader
@@ -197,7 +196,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-
 	#genarals
 	HEN_Mari_Setogaya = {
 		name = HEN_Mari_Setogaya
@@ -262,7 +260,6 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 			traits = {
-				wfc_exp_trait
 				organizer
 			}
 		}
@@ -277,7 +274,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -352,7 +348,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				commando
 			}
 			skill = 5
@@ -394,7 +389,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				naval_invader
 				commando
 			}
@@ -422,7 +416,6 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 			}
 		}
@@ -463,7 +456,6 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 			traits = {
-				wfc_exp_trait
 				trickster
 			}
 		}
@@ -539,7 +531,6 @@ characters = {
 			logistics_skill = 6
 			legacy_id = -1
 			traits = {
-				wfc_exp_trait
 				organizer
 				skilled_staffer
 			}
@@ -555,7 +546,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait cavalry_leader
+				cavalry_leader
 			}
 			skill = 5
 			attack_skill = 6
@@ -639,7 +630,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 			}
 			skill = 4
@@ -663,7 +653,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				commando
 				infantry_leader
 			}
@@ -707,7 +696,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				skilled_staffer
 				infantry_leader
 			}
@@ -728,7 +716,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				trait_mountaineer
 			}
 			skill = 4
@@ -748,7 +735,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				cavalry_leader
 			}
 			skill = 4
@@ -768,7 +754,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				jungle_rat
 			}
 			skill = 4
@@ -791,7 +776,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 			}
 			skill = 4
 			attack_skill = 5
@@ -835,7 +819,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait commando
+				commando
 			}
 			skill = 4
 			attack_skill = 4
@@ -854,7 +838,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait trickster
+				trickster
 			}
 			skill = 4
 			attack_skill = 4
@@ -869,8 +853,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_kaname
-			}
-			army = {
 				large = GFX_portrait_hen_kaname
 			}
 		}
@@ -925,7 +907,7 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait bold
+				bold
 			}
 			skill = 4
 			attack_skill = 4
@@ -945,7 +927,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 				naval_lineage
 				fleet_protector
 			}

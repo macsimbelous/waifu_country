@@ -231,7 +231,6 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 		}
@@ -282,7 +281,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 5
@@ -303,7 +301,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				cavalry_leader
 			}
 			skill = 4
@@ -324,7 +321,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				skilled_staffer
 			}
 			skill = 4
@@ -345,7 +341,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				commando
 			}
 			skill = 4
@@ -387,7 +382,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 			}
 			skill = 4
@@ -420,7 +414,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				naval_invader
 			}
 			skill = 4
@@ -462,7 +455,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				organizer
 			}
 			skill = 5
@@ -523,7 +515,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -565,7 +556,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				commando
 			}
 			skill = 4
@@ -586,7 +576,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -631,7 +620,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				trickster
 			}
 			skill = 4
@@ -652,7 +640,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				commando
 			}
@@ -686,7 +673,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				naval_invader
 			}
@@ -708,7 +694,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				trait_engineer
 				skilled_staffer
 			}
@@ -773,7 +758,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				desert_fox
 			}
@@ -815,7 +799,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -836,7 +819,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				trait_mountaineer
 			}
 			skill = 4
@@ -857,7 +839,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -878,7 +859,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -899,7 +879,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -920,7 +899,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 			}
 			skill = 4
 			attack_skill = 5
@@ -943,7 +921,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 			}
 			skill = 2
 			attack_skill = 2
@@ -965,7 +942,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 			}
 			skill = 2
 			attack_skill = 4
@@ -1021,7 +997,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 			}
 			skill = 5
 			attack_skill = 6
@@ -1071,7 +1046,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 				seawolf
 				silent_hunter
 			}
@@ -1092,7 +1066,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 			}
 			skill = 5
 			attack_skill = 6

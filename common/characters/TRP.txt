@@ -38,7 +38,6 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				wfc_exp_trait
 				cavalry_leader
 				cavalry_expert
 			}
@@ -210,7 +209,6 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				commando
 				offensive_doctrine
@@ -350,7 +348,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				trait_engineer
 			}
 			skill = 4
@@ -385,7 +382,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				trickster
 				infantry_leader
 			}
@@ -427,7 +423,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 			}
 			skill = 4
@@ -447,7 +442,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				naval_invader
 				commando
 			}
@@ -468,7 +462,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				organizer
 			}
 			skill = 5
@@ -488,7 +481,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 			}
 			skill = 4
@@ -529,7 +521,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				commando
 				infantry_leader
 			}
@@ -550,7 +541,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 			}
 			skill = 4
@@ -590,7 +580,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				cavalry_leader
 			}
 			skill = 4
@@ -610,7 +599,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				panzer_leader
 				armor_officer
 			}
@@ -631,7 +619,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				infantry_leader
 				skilled_staffer
 			}
@@ -673,7 +660,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				wfc_exp_trait
 				trait_mountaineer
 			}
 			skill = 4
@@ -714,7 +700,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 				naval_lineage
 			}
 			skill = 4
@@ -767,7 +752,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 				navy_media_personality
 			}
 			skill = 4
@@ -787,7 +771,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-				wfc_exp_navy_trait
 				navy_career_officer
 				old_guard_navy
 			}
