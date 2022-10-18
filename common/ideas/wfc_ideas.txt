@@ -251,7 +251,6 @@ ideas = {
 			}
 		}
 		wfc_idea_individualism = {
-			name = collectivist_ethos_focus
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				communism_drift = -0.01
