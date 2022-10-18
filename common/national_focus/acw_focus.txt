@@ -19,14 +19,14 @@ focus_tree = {
 	shared_focus = wfc_army_effort
 	shared_focus = wfc_aviation_effort
 	shared_focus = wfc_naval_effort
-	shared_focus = wfc_industrial_effort
+	#shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
 	focus = {
 		id = acw_focus_revise_industrial_policy
 		icon = GFX_focus_generic_industry_3
 		#relative_position_id = acw_focus_state_council
-		x = 25
-		y = 5
+		x = 19
+		y = 7
 		cost = 5
 		# prerequisite = {
 		# 	focus = acw_focus_state_council
@@ -40,6 +40,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = ACW_anime_economic
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
 			country_event = acw_event.2
 		}
 	}
@@ -47,8 +53,8 @@ focus_tree = {
 		id = acw_focus_beacon_of_freedom
 		icon = GFX_goal_support_democracy
 		#relative_position_id = acw_focus_general_election
-		x = 14
-		y = 8
+		x = 33
+		y = 0
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1132,8 +1138,8 @@ focus_tree = {
 	focus = {
 		id = acw_focus_join_comintern
 		icon = GFX_focus_generic_join_comintern
-		x = 17
-		y = 8
+		x = 31
+		y = 0
 		#relative_position_id = acw_focus_communist_volunteers
 		cost = 5
 		ai_will_do = {
@@ -1187,7 +1193,7 @@ focus_tree = {
 	focus = {
 		id = acw_focus_path_to_empire
 		icon = GFX_focus_generic_strike_at_democracy1
-		x = 33
+		x = 29
 		y = 0
 		#relative_position_id = acw_focus_queens_party
 		cost = 5
@@ -2073,7 +2079,7 @@ focus_tree = {
 	focus = {
 		id = acw_focus_government_reform
 		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 27
+		x = 23
 		y = 0
 		#relative_position_id = acw_focus_communist_volunteers
 		cost = 5
@@ -2172,7 +2178,7 @@ focus_tree = {
 			add_ideas = acw_KGB_idea
 			create_intelligence_agency = {
 				icon = GFX_intelligence_agency_logo_generic_8
-				name = "KGB"
+				name = "KGBA"
 			}
 		}
 	}
@@ -2226,7 +2232,7 @@ focus_tree = {
 	focus = {
 		id = acw_focus_stavka
 		icon = GFX_focus_generic_military_mission
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = acw_focus_complete_the_reform
 		prerequisite = {
@@ -2252,9 +2258,167 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = acw_focus_academy_of_sciences
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = acw_focus_complete_the_reform
+		}
+		available = {
+			num_of_factories > 50
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_complete_the_reform
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = acw_focus_rocket_effort
+		icon = GFX_focus_rocketry
+		prerequisite = {
+			focus = acw_focus_academy_of_sciences
+		}
+		x = -2
+		y = 1
+		relative_position_id = acw_focus_academy_of_sciences
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 2
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = acw_focus_nuclear_effort
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = acw_focus_academy_of_sciences
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_academy_of_sciences
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				category = nuclear
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = acw_focus_focus_electronics_effort
+		icon = GFX_goal_generic_radar
+		prerequisite = {
+			focus = acw_focus_academy_of_sciences
+		}
+		x = 2
+		y = 1
+		relative_position_id = acw_focus_academy_of_sciences
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 1
+				uses = 2
+				category = electronics
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = acw_focus_extra_tech_slot_2
+		icon = GFX_focus_research2
+		prerequisite = {
+			focus = acw_focus_nuclear_effort
+		}
+		prerequisite = {
+			focus = acw_focus_rocket_effort
+		}
+		prerequisite = {
+			focus = acw_focus_focus_electronics_effort
+		}
+		available = {
+			num_of_factories > 75
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_nuclear_effort
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = acw_focus_secret_weapons
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = {
+			focus = acw_focus_extra_tech_slot_2
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_extra_tech_slot_2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
 		id = acw_focus_colonial_office
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = acw_focus_complete_the_reform
 		prerequisite = {

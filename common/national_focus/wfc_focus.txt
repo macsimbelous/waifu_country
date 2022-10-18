@@ -1709,6 +1709,12 @@ shared_focus = {
 	icon = GFX_goal_generic_demand_territory
 	x = 19
 	y = 0
+	offset = {
+		x = -4
+		trigger = {
+			original_tag = ACW
+		}
+	}
 	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL

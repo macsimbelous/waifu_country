@@ -21,6 +21,8 @@ ACW = {
 				"GFX_portrait_acw_land_17"
 				"GFX_portrait_acw_land_18"
 				"GFX_portrait_acw_land_19"
+				"GFX_portrait_acw_land_20"
+				"GFX_portrait_acw_land_21"
 			}
 		}
 		democratic = {
@@ -41,6 +43,8 @@ ACW = {
 				"GFX_portrait_acw_naval_14"
 				"GFX_portrait_acw_naval_15"
 				"GFX_portrait_acw_naval_16"
+				"GFX_portrait_acw_naval_17"
+				"GFX_portrait_acw_naval_18"
 			}
 		}
 		fascism = {
@@ -64,6 +68,8 @@ ACW = {
 				"GFX_portrait_acw_land_17"
 				"GFX_portrait_acw_land_18"
 				"GFX_portrait_acw_land_19"
+				"GFX_portrait_acw_land_20"
+				"GFX_portrait_acw_land_21"
 			}
 		}
 		neutrality = {
@@ -84,6 +90,8 @@ ACW = {
 				"GFX_portrait_acw_naval_14"
 				"GFX_portrait_acw_naval_15"
 				"GFX_portrait_acw_naval_16"
+				"GFX_portrait_acw_naval_17"
+				"GFX_portrait_acw_naval_18"
 			}
 		}
 	}
@@ -108,6 +116,8 @@ ACW = {
 			"GFX_portrait_acw_land_17"
 			"GFX_portrait_acw_land_18"
 			"GFX_portrait_acw_land_19"
+			"GFX_portrait_acw_land_20"
+			"GFX_portrait_acw_land_21"
 		}
 	}
 	navy = {
@@ -129,6 +139,7 @@ ACW = {
 			"GFX_portrait_acw_naval_15"
 			"GFX_portrait_acw_naval_16"
 			"GFX_portrait_acw_naval_17"
+			"GFX_portrait_acw_naval_18"
 		}
 	}
 	operative = {
@@ -140,7 +151,7 @@ ACW = {
 			"GFX_portrait_acw_operative_05"
 			"GFX_portrait_acw_operative_06"
 			"GFX_portrait_acw_operative_07"
-			# "GFX_portrait_acw_operative_08"
+			 "GFX_portrait_acw_operative_08"
 			# "GFX_portrait_acw_operative_09"
 			# "GFX_portrait_acw_operative_10"
 			# "GFX_portrait_acw_operative_11"
@@ -156,13 +167,15 @@ ACW = {
 			# "GFX_portrait_acw_operative_05"
 			# "GFX_portrait_acw_operative_06"
 			# "GFX_portrait_acw_operative_07"
-			"GFX_portrait_acw_operative_08"
+			#"GFX_portrait_acw_operative_08"
 			"GFX_portrait_acw_operative_09"
 			"GFX_portrait_acw_operative_10"
 			"GFX_portrait_acw_operative_11"
 			"GFX_portrait_acw_operative_12"
 			"GFX_portrait_acw_operative_13"
 			"GFX_portrait_acw_operative_14"
+			"GFX_portrait_acw_operative_15"
+			"GFX_portrait_acw_operative_16"
 		}
 	}
 }
@@ -757,6 +770,11 @@ MMS = {
 				"GFX_portrait_mms_land_25"
 				"GFX_portrait_mms_land_26"
 				"GFX_portrait_mms_land_27"
+				"GFX_portrait_mms_land_28"
+				"GFX_portrait_mms_land_29"
+				"GFX_portrait_mms_land_30"
+				"GFX_portrait_mms_land_31"
+				"GFX_portrait_mms_land_32"
 			}
 		}
 		democratic = {
@@ -808,6 +826,11 @@ MMS = {
 				"GFX_portrait_mms_land_25"
 				"GFX_portrait_mms_land_26"
 				"GFX_portrait_mms_land_27"
+				"GFX_portrait_mms_land_28"
+				"GFX_portrait_mms_land_29"
+				"GFX_portrait_mms_land_30"
+				"GFX_portrait_mms_land_31"
+				"GFX_portrait_mms_land_32"
 			}
 		}
 		neutrality = {
@@ -860,6 +883,11 @@ MMS = {
 			"GFX_portrait_mms_land_25"
 			"GFX_portrait_mms_land_26"
 			"GFX_portrait_mms_land_27"
+			"GFX_portrait_mms_land_28"
+			"GFX_portrait_mms_land_29"
+			"GFX_portrait_mms_land_30"
+			"GFX_portrait_mms_land_31"
+			"GFX_portrait_mms_land_32"
 		}
 	}
 	navy = {
@@ -909,6 +937,7 @@ MMS = {
 			"GFX_portrait_mms_operative_10"
 			"GFX_portrait_mms_operative_11"
 			"GFX_portrait_mms_operative_12"
+			"GFX_portrait_mms_operative_13"
 		}
 	}
 }
