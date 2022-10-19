@@ -13,3 +13,43 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = hen_event.2
+	title = hen_event.2.t
+	desc = hen_event.2.d
+	picture = GFX_hen_event_01
+	is_triggered_only = yes
+	option = {
+		name = hen_event.2.a
+		ai_chance = {
+			factor = 0
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 10000
+		}
+		add_political_power = -100
+	}
+	option = {
+		name = hen_event.2.b
+		ai_chance = {
+			factor = 0
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 20000
+		}
+		add_political_power = -200
+	}
+	option = {
+		name = hen_event.2.c
+		ai_chance = {
+			factor = 1
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 30000
+		}
+		add_political_power = -300
+	}
+}

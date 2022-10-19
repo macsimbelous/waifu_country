@@ -113,6 +113,19 @@ ideas = {
 				command_power_gain_mult = 0.05
 			}
 		}
+		hen_idea_preparation_for_war = {
+			picture = GFX_idea_SOV_fourth_five_year_plan
+			removal_cost = -1
+			allowed = {
+				original_tag = HEN
+			}
+			available = {
+				has_war = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.2
+				training_time_army_factor = -0.2
+			}
+		}
 	}
-
 }
