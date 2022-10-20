@@ -114,7 +114,7 @@ ideas = {
 			}
 		}
 		hen_idea_preparation_for_war = {
-			picture = GFX_idea_SOV_fourth_five_year_plan
+			picture = SOV_fourth_five_year_plan
 			removal_cost = -1
 			allowed = {
 				original_tag = HEN
