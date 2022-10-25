@@ -553,10 +553,6 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				has_government = democratic
-				add = -1
-			}
 		}
 	}
 	focus = {
