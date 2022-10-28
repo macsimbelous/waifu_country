@@ -392,12 +392,12 @@ leader_traits = {
 		sprite = 13
 		random = no
 		stability_factor = 0.05
-		surrender_limit = -0.1
+		surrender_limit = 0.1
 		political_power_factor = 0.05
-		political_advisor_cost_factor = 0.1
-		economy_cost_factor = 0.1
-		theorist_cost_factor = 0.1
-		trade_laws_cost_factor = 0.1
-		mobilization_laws_cost_factor = 0.1
+		political_advisor_cost_factor = -0.1
+		economy_cost_factor = -0.1
+		theorist_cost_factor = -0.1
+		trade_laws_cost_factor = -0.1
+		mobilization_laws_cost_factor = -0.1
 	}
 }
