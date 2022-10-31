@@ -1,14 +1,27 @@
 ACW_historical = {
 	name = "ACW historical plan"
-	desc = "Essentially historical behaviour for ACW"
+	desc = ""
 	allowed = {
 		original_tag = ACW
 	}
 	enable = {
-		is_historical_focus_on = yes
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = ACW_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = ACW_AI_RANDOM_HISTORICAL
+			has_game_rule = {
+				rule = ACW_ai_behavior
+				option = HISTORICAL
+			}
+		}
 	}
 	abort = {
-		always = no
+		is_subject = yes
 	}
 	ai_national_focuses = {
 		wfc_political_effort
@@ -18,15 +31,134 @@ ACW_historical = {
 		wfc_deterrence
 	}
 	research = {
-		infantry_weapons = 50
-		infantry_tech = 15
-		artillery = 8
-		support_tech = 6.5
 	}
 	traits = {
 		wfc_silent_workhorse = 200
 		wfc_captain_of_industry = 5
 		wfc_intelligence_princess = 5
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1
+		}
+	}
+}
+ACW_democratic = {
+	name = "ACW DEMOCRATIC plan"
+	desc = ""
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		OR = {
+			has_country_flag = ACW_AI_RANDOM_DEMOCRATIC
+			has_game_rule = {
+				rule = ACW_ai_behavior
+				option = DEMOCRATIC
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_focus_individualism
+		wfc_focus_democracy
+		wfc_interventionism_focus
+	}
+	research = {
+	}
+	traits = {
+		wfc_silent_workhorse = 200
+		wfc_captain_of_industry = 5
+		wfc_intelligence_princess = 5
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}
+ACW_communist = {
+	name = "ACW COMMUNIST plan"
+	desc = ""
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		OR = {
+			has_country_flag = ACW_AI_RANDOM_COMMUNIST
+			has_game_rule = {
+				rule = ACW_ai_behavior
+				option = COMMUNIST
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_collectivist_ethos
+		wfc_internationalism_focus
+		wfc_political_correctness
+		wfc_indoctrination_focus
+		wfc_political_commissars
+	}
+	research = {
+	}
+	traits = {
+		wfc_silent_workhorse = 200
+		wfc_captain_of_industry = 5
+		wfc_war_industrialist = 2
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1
+		}
+	}
+}
+ACW_fascist = {
+	name = "ACW FASCIST plan"
+	desc = ""
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		OR = {
+			has_country_flag = ACW_AI_RANDOM_FASCIST
+			has_game_rule = {
+				rule = ACW_ai_behavior
+				option = FASCIST
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_collectivist_ethos
+		wfc_nationalism_focus
+		wfc_militarism
+		wfc_military_youth
+		wfc_paramilitarism
+	}
+	research = {
+	}
+	traits = {
+		wfc_silent_workhorse = 200
+		fascist_demagogue = 100
 		wfc_war_industrialist = 2
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)

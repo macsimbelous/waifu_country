@@ -1853,7 +1853,7 @@ shared_focus = {
 
 shared_focus = {
 	id = wfc_internationalism_focus
-	icon = GFX_goal_support_communism	#icon = GFX_goal_tripartite_pact
+	icon = GFX_goal_support_communism
 	prerequisite = {
 		focus = wfc_collectivist_ethos
 	}
