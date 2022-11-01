@@ -7,213 +7,142 @@ mah_crystal_empire_category = {
 			custom_trigger_tooltip = {
 				tooltip = mah_form_crystal_empire_maho_required_states_tt
 				#controls_state = 677
-				677 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				677 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 680
-				680 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				680 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 553
-				553 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				553 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 554
-				554 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				554 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 799
-				799 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				# 799 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 454
-				454 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				454 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 455
-				455 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-			}
-			# Turkey
-			custom_trigger_tooltip = {
-				tooltip = form_country_turkey_required_states_tt
-				#controls_state = 797
-				797 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 341
-				341 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 340
-				340 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 339
-				339 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 342
-				342 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 343
-				343 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 347
-				347 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 49
-				49 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 798
-				798 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 346
-				346 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 345
-				345 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 356
-				356 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 348
-				348 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 344
-				344 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 355
-				355 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 349
-				349 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 350
-				350 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 354
-				354 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 353
-				353 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 352
-				352 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 800
-				800 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				455 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# Iraq
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
 				#controls_state = 676
-				676 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				676 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 675
-				675 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				675 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 291
-				291 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				291 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# Saudi Arabia
 			custom_trigger_tooltip = {
 				tooltip = form_country_saudi_required_states_tt
 				#controls_state = 292
-				292 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				292 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 679
-				679 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				679 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 678
-				678 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-			}
-			# Egypt
-			custom_trigger_tooltip = {
-				tooltip = mah_form_crystal_empire_egypt_required_states_tt
-				#controls_state = 452
-				452 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 447
-				447 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 446
-				446 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 456
-				456 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 457
-				457 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-				#controls_state = 453
-				453 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				678 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				855 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				854 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				857 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				859 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				856 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				858 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			#controls_state = 656
-			656 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			656 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 765
-			765 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			765 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 658
-			658 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			658 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 293
-			293 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			293 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 659
-			659 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			659 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 294
-			294 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-			#controls_state = 183
-			183 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1000
 		}
 		complete_effect = {
 			set_cosmetic_tag = MAH_CRY_EMP
 			set_country_flag = mah_crystal_empire_formed_flag
-			# Turkey
-			custom_effect_tooltip = form_country_turkey_coring_states_tt
+			set_major = yes
 			hidden_effect = {
-				341 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				340 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				339 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				342 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				343 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				347 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				49 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				346 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				345 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				356 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				348 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				344 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				355 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				349 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				798 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				350 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				354 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				353 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				352 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				800 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				799 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				797 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
+				transfer_state = 676
+				transfer_state = 675
+				transfer_state = 291
+				transfer_state = 292
+				transfer_state = 679
+				transfer_state = 678
+				transfer_state = 656
+				transfer_state = 765
+				transfer_state = 658
+				transfer_state = 293
+				transfer_state = 659
+				transfer_state = 294
+				transfer_state = 854
+				transfer_state = 855
+				transfer_state = 856
+				transfer_state = 857
+				transfer_state = 858
+				transfer_state = 859
+				if = {
+					limit = {
+						906 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					transfer_state = 906
 				}
 			}
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
@@ -246,36 +175,22 @@ mah_crystal_empire_category = {
 					#add_core_of = ROOT
 					wfc_coring_state = yes
 				}
-			}
-			# Egypt
-			custom_effect_tooltip = mah_form_egypt_coring_states_tt
-			hidden_effect = {
-				452 = {
-					#add_core_of = ROOT
+				855 = {
 					wfc_coring_state = yes
 				}
-				447 = {
-					#add_core_of = ROOT
+				854 = {
 					wfc_coring_state = yes
 				}
-				446 = {
-					#add_core_of = ROOT
+				857 = {
 					wfc_coring_state = yes
 				}
-				456 = {
-					#add_core_of = ROOT
+				859 = {
 					wfc_coring_state = yes
 				}
-				457 = {
-					#add_core_of = ROOT
+				856 = {
 					wfc_coring_state = yes
 				}
-				453 = {
-					#add_core_of = ROOT
-					wfc_coring_state = yes
-				}
-				552 = {
-					#add_core_of = ROOT
+				858 = {
 					wfc_coring_state = yes
 				}
 			}
@@ -303,468 +218,15 @@ mah_crystal_empire_category = {
 				#add_core_of = ROOT
 				wfc_coring_state = yes
 			}
-			183 = {
-				wfc_coring_state = yes
-			}
-			hidden_effect = {
-				transfer_state = 797
-				transfer_state = 341
-				transfer_state = 340
-				transfer_state = 339
-				transfer_state = 342
-				transfer_state = 343
-				transfer_state = 347
-				transfer_state = 49
-				transfer_state = 798
-				transfer_state = 346
-				transfer_state = 345
-				transfer_state = 356
-				transfer_state = 348
-				transfer_state = 344
-				transfer_state = 355
-				transfer_state = 349
-				transfer_state = 350
-				transfer_state = 354
-				transfer_state = 353
-				transfer_state = 352
-				transfer_state = 800
-				transfer_state = 676
-				transfer_state = 675
-				transfer_state = 291
-				transfer_state = 292
-				transfer_state = 679
-				transfer_state = 678
-				transfer_state = 452
-				transfer_state = 447
-				transfer_state = 446
-				transfer_state = 456
-				transfer_state = 457
-				transfer_state = 453
-				transfer_state = 656
-				transfer_state = 765
-				transfer_state = 658
-				transfer_state = 293
-				transfer_state = 659
-				transfer_state = 294
-				transfer_state = 183
-			}
-		}
-	}
-	mah_substantiate_claims_decision = {
-		cost = 100
-		fire_only_once = yes
-		allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		complete_effect = {
-			set_country_flag = mah_substantiate_claims_flag
-			custom_effect_tooltip = mah_substantiate_claims_decision_tt
-			hidden_effect = {
-				add_state_claim = 797
-				add_state_claim = 341
-				add_state_claim = 340
-				add_state_claim = 339
-				add_state_claim = 342
-				add_state_claim = 343
-				add_state_claim = 347
-				add_state_claim = 49
-				add_state_claim = 798
-				add_state_claim = 346
-				add_state_claim = 345
-				add_state_claim = 356
-				add_state_claim = 348
-				add_state_claim = 344
-				add_state_claim = 355
-				add_state_claim = 349
-				add_state_claim = 350
-				add_state_claim = 354
-				add_state_claim = 353
-				add_state_claim = 352
-				add_state_claim = 800
-				add_state_claim = 676
-				add_state_claim = 675
-				add_state_claim = 291
-				add_state_claim = 292
-				add_state_claim = 679
-				add_state_claim = 678
-				add_state_claim = 452
-				add_state_claim = 447
-				add_state_claim = 446
-				add_state_claim = 456
-				add_state_claim = 457
-				add_state_claim = 453
-				add_state_claim = 656
-				add_state_claim = 765
-				add_state_claim = 658
-				add_state_claim = 293
-				add_state_claim = 659
-				add_state_claim = 294
-			}
-		}
-	}
-	mah_conquest_of_tur_decision = {
-		icon = generic_ignite_civil_war
-		cost = 25
-		fire_only_once = yes
-		days_remove = 60
-		war_with_on_remove = TUR
-		visible = {
-			country_exists = TUR
-			TUR = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
+			if = {
+				limit = {
+					906 = {
+						wfc_is_controlled_by_root_or_puppet = yes
 					}
 				}
-			}
-		}
-		available = {
-			# custom_trigger_tooltip = {
-			# 	tooltip = mah_substantiate_claims_tt
-			# 	has_country_flag = mah_substantiate_claims_flag
-			# }
-			# Iraq
-			custom_trigger_tooltip = {
-				tooltip = form_country_iraq_required_states_tt
-				controls_state = 676
-				controls_state = 675
-				controls_state = 291
-			}
-			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				controls_state = 292
-				controls_state = 679
-				controls_state = 678
-			}
-			NOT = {
-				is_in_faction_with = TUR
-			}
-			has_army_manpower = { size > 499999 } 
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			build_railway = {
-				level = 1
-				start_province = 4111
-				target_province = 2097
-			}
-			build_railway = {
-				level = 1
-				start_province = 1056
-				target_province = 1634
-			}
-			680 = {
-				add_building_construction = {
-					type = supply_node
-					level = 1
-					province = 1634
-					instant_build = yes
-				}
-			}
-			hidden_effect = {
-				TUR = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = TUR
-				type = annex_everything
-			}
-		}
-	}
-	mah_conquest_of_irq_decision = {
-		icon = generic_ignite_civil_war
-		cost = 25
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = IRQ
-		visible = {
-			country_exists = IRQ
-			IRQ = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# custom_trigger_tooltip = {
-			# 	tooltip = mah_substantiate_claims_tt
-			# 	has_country_flag = mah_substantiate_claims_flag
-			# }
-			NOT = {
-				is_in_faction_with = IRQ
-			}
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				IRQ = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = IRQ
-				type = annex_everything
-			}
-		}
-	}
-	mah_conquest_of_sau_decision = {
-		icon = generic_ignite_civil_war
-		cost = 25
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = SAU
-		visible = {
-			country_exists = SAU
-			SAU = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# custom_trigger_tooltip = {
-			# 	tooltip = mah_substantiate_claims_tt
-			# 	has_country_flag = mah_substantiate_claims_flag
-			# }
-			OR = {
-				# Iraq
-				custom_trigger_tooltip = {
-					tooltip = form_country_iraq_required_states_tt
-					controls_state = 676
-					controls_state = 675
-					controls_state = 291
-				}
-				IRQ = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-			NOT = {
-				is_in_faction_with = SAU
-			}
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				SAU = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = SAU
-				type = annex_everything
-			}
-		}
-	}
-	mah_conquest_of_oma_decision = {
-		icon = generic_ignite_civil_war
-		cost = 25
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = OMA
-		visible = {
-			country_exists = OMA
-			OMA = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# custom_trigger_tooltip = {
-			# 	tooltip = mah_substantiate_claims_tt
-			# 	has_country_flag = mah_substantiate_claims_flag
-			# }
-			OR = {
-				# Saudi Arabia
-				custom_trigger_tooltip = {
-					tooltip = form_country_saudi_required_states_tt
-					controls_state = 292
-					controls_state = 679
-					controls_state = 678
-				}
-				SAU = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-			NOT = {
-				is_in_faction_with = OMA
-			}
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			build_railway = {
-				level = 1
-				start_province = 12758
-				target_province = 12740
-			}
-			678 = {
-				add_building_construction = {
-					type = supply_node
-					level = 1
-					province = 12740
-					instant_build = yes
-				}
-			}
-			hidden_effect = {
-				OMA = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = OMA
-				type = annex_everything
-			}
-		}
-	}
-	mah_buy_out_aden_decision = {
-		cost = 100
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			NOT = {
-				controls_state = 659
-			}
-		}
-		available = {
-			659 = {
-				NOT = {
-					is_core_of = OWNER
-				}
-				any_neighbor_state = {
-					OWNER = {
-						OR = {
-							original_tag = MAH
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			base = 1
-			modifier = {
-				659 = {
-					OWNER = {
-						is_in_faction_with = ROOT
-					}
-				}
-				add = 5
-			}
-			modifier = {
-				659 = {
-					OWNER = {
-						has_government = democratic
-					}
-				}
-				has_government = democratic
-				add = 10
-			}
-			modifier = {
-				659 = {
-					OWNER = {
-						has_government = communism
-					}
-				}
-				has_government = communism
-				add = 10
-			}
-			modifier = {
-				659 = {
-					OWNER = {
-						has_government = fascism
-					}
-				}
-				has_government = fascism
-				add = 10
-			}
-			modifier = {
-				659 = {
-					OWNER = {
-						has_government = neutrality
-					}
-				}
-				has_government = neutrality
-				add = 10
-			}
-		}
-		complete_effect = {
-			659 = {
-				OWNER = {
-					country_event = mah_event.6
+				906 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
 				}
 			}
 		}
@@ -774,9 +236,13 @@ mah_crystal_empire_category = {
 		cost = 25
 		fire_only_once = no
 		days_re_enable = 180
-		days_remove = 30
+		days_remove = 35
 		war_with_on_remove = YEM
 		visible = {
+			has_completed_focus = mah_conquest_of_yem_and_oma
+			NOT = {
+				has_war_with = YEM
+			}
 			country_exists = YEM
 			YEM = {
 				NOT = {
@@ -850,170 +316,6 @@ mah_crystal_empire_category = {
 			}
 		}
 	}
-	mah_british_colonies_in_the_middle_east_decision = {
-		cost = 100
-		fire_only_once = yes
-		allowed = {
-			always = no
-		}
-		available = {
-			NOT = {
-				has_war_with = ENG
-			}
-			has_political_power > 1100
-			has_equipment = {
-				infantry_equipment > 99999
-			}
-			OR = {
-				# Iraq
-				custom_trigger_tooltip = {
-					tooltip = form_country_iraq_required_states_tt
-					controls_state = 676
-					controls_state = 675
-					controls_state = 291
-				}
-				IRQ = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-			OR = {
-				# Saudi Arabia
-				custom_trigger_tooltip = {
-					tooltip = form_country_saudi_required_states_tt
-					controls_state = 292
-					controls_state = 679
-					controls_state = 678
-				}
-				SAU = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-			ENG = {
-				controls_state = 656
-				controls_state = 765
-				controls_state = 658
-				controls_state = 659
-				controls_state = 452
-				#Egypt
-				controls_state = 447
-				controls_state = 446
-				controls_state = 456
-				controls_state = 457
-				controls_state = 453
-			}
-		}
-		ai_will_do = {
-			base = 3
-			modifier = {
-				ENG = {
-					has_opinion = {
-						target = ROOT
-						value > 49
-					}
-				}
-				add = 5
-			}
-			modifier = {
-				is_in_faction_with = ENG
-				add = 5
-			}
-			modifier = {
-				has_government = democratic
-				add = 5
-			}
-		}
-		complete_effect = {
-			ENG = {
-				country_event = mah_event.1
-			}
-		}
-	}
-	mah_buy_out_kuwait_decision = {
-		cost = 100
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			NOT = {
-				controls_state = 656
-			}
-		}
-		available = {
-			656 = {
-				NOT = {
-					is_core_of = OWNER
-				}
-				any_neighbor_state = {
-					OWNER = {
-						OR = {
-							original_tag = MAH
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			base = 1
-			modifier = {
-				656 = {
-					OWNER = {
-						is_in_faction_with = ROOT
-					}
-				}
-				add = 5
-			}
-			modifier = {
-				656 = {
-					OWNER = {
-						has_government = democratic
-					}
-				}
-				has_government = democratic
-				add = 10
-			}
-			modifier = {
-				656 = {
-					OWNER = {
-						has_government = communism
-					}
-				}
-				has_government = communism
-				add = 10
-			}
-			modifier = {
-				656 = {
-					OWNER = {
-						has_government = fascism
-					}
-				}
-				has_government = fascism
-				add = 10
-			}
-			modifier = {
-				656 = {
-					OWNER = {
-						has_government = neutrality
-					}
-				}
-				has_government = neutrality
-				add = 10
-			}
-		}
-		complete_effect = {
-			656 = {
-				OWNER = {
-					country_event = mah_event.3
-				}
-			}
-		}
-	}
 	mah_conquest_of_kuw_decision = {
 		icon = generic_ignite_civil_war
 		cost = 25
@@ -1029,6 +331,9 @@ mah_crystal_empire_category = {
 						is_subject_of = ROOT
 					}
 				}
+			}
+			NOT = {
+				has_war_with = KUW
 			}
 		}
 		available = {
@@ -1098,86 +403,6 @@ mah_crystal_empire_category = {
 			}
 		}
 	}
-	mah_buy_out_qat_decision = {
-		cost = 100
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			NOT = {
-				controls_state = 765
-			}
-		}
-		available = {
-			765 = {
-				NOT = {
-					is_core_of = OWNER
-				}
-				any_neighbor_state = {
-					OWNER = {
-						OR = {
-							original_tag = MAH
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			base = 1
-			modifier = {
-				765 = {
-					OWNER = {
-						is_in_faction_with = ROOT
-					}
-				}
-				add = 5
-			}
-			modifier = {
-				765 = {
-					OWNER = {
-						has_government = democratic
-					}
-				}
-				has_government = democratic
-				add = 10
-			}
-			modifier = {
-				765 = {
-					OWNER = {
-						has_government = communism
-					}
-				}
-				has_government = communism
-				add = 10
-			}
-			modifier = {
-				765 = {
-					OWNER = {
-						has_government = fascism
-					}
-				}
-				has_government = fascism
-				add = 10
-			}
-			modifier = {
-				765 = {
-					OWNER = {
-						has_government = neutrality
-					}
-				}
-				has_government = neutrality
-				add = 10
-			}
-		}
-		complete_effect = {
-			765 = {
-				OWNER = {
-					country_event = mah_event.4
-				}
-			}
-		}
-	}
 	mah_conquest_of_qat_decision = {
 		icon = generic_ignite_civil_war
 		cost = 25
@@ -1193,6 +418,9 @@ mah_crystal_empire_category = {
 						is_subject_of = ROOT
 					}
 				}
+			}
+			NOT = {
+				has_war_with = QAT
 			}
 		}
 		available = {
@@ -1245,86 +473,6 @@ mah_crystal_empire_category = {
 			}
 		}
 	}
-	mah_buy_out_uae_decision = {
-		cost = 100
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			NOT = {
-				controls_state = 658
-			}
-		}
-		available = {
-			658 = {
-				NOT = {
-					is_core_of = OWNER
-				}
-				any_neighbor_state = {
-					OWNER = {
-						OR = {
-							original_tag = MAH
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			base = 1
-			modifier = {
-				658 = {
-					OWNER = {
-						is_in_faction_with = ROOT
-					}
-				}
-				add = 5
-			}
-			modifier = {
-				658 = {
-					OWNER = {
-						has_government = democratic
-					}
-				}
-				has_government = democratic
-				add = 10
-			}
-			modifier = {
-				658 = {
-					OWNER = {
-						has_government = communism
-					}
-				}
-				has_government = communism
-				add = 10
-			}
-			modifier = {
-				658 = {
-					OWNER = {
-						has_government = fascism
-					}
-				}
-				has_government = fascism
-				add = 10
-			}
-			modifier = {
-				658 = {
-					OWNER = {
-						has_government = neutrality
-					}
-				}
-				has_government = neutrality
-				add = 10
-			}
-		}
-		complete_effect = {
-			658 = {
-				OWNER = {
-					country_event = mah_event.5
-				}
-			}
-		}
-	}
 	mah_conquest_of_uae_decision = {
 		icon = generic_ignite_civil_war
 		cost = 25
@@ -1340,6 +488,9 @@ mah_crystal_empire_category = {
 						is_subject_of = ROOT
 					}
 				}
+			}
+			NOT = {
+				has_war_with = UAE
 			}
 		}
 		available = {
@@ -1389,1062 +540,6 @@ mah_crystal_empire_category = {
 			create_wargoal = {
 				target = UAE
 				type = annex_everything
-			}
-		}
-	}
-	mah_buy_out_egy_decision = {
-		cost = 100
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			NOT = {
-				# Egypt
-				custom_trigger_tooltip = {
-					tooltip = mah_form_crystal_empire_egypt_required_states_tt
-					controls_state = 452
-					controls_state = 447
-					controls_state = 446
-					controls_state = 456
-					controls_state = 457
-					controls_state = 453
-				}
-			}
-		}
-		available = {
-			446 = {
-				NOT = {
-					is_core_of = OWNER
-				}
-			}
-		}
-		ai_will_do = {
-			base = 1
-			modifier = {
-				446 = {
-					OWNER = {
-						is_in_faction_with = ROOT
-					}
-				}
-				add = 5
-			}
-			modifier = {
-				446 = {
-					OWNER = {
-						has_government = democratic
-					}
-				}
-				has_government = democratic
-				add = 10
-			}
-			modifier = {
-				446 = {
-					OWNER = {
-						has_government = communism
-					}
-				}
-				has_government = communism
-				add = 10
-			}
-			modifier = {
-				446 = {
-					OWNER = {
-						has_government = fascism
-					}
-				}
-				has_government = fascism
-				add = 10
-			}
-			modifier = {
-				446 = {
-					OWNER = {
-						has_government = neutrality
-					}
-				}
-				has_government = neutrality
-				add = 10
-			}
-		}
-		complete_effect = {
-			446 = {
-				OWNER = {
-					country_event = mah_event.7
-				}
-			}
-		}
-	}
-	mah_conquest_of_egy_decision = {
-		icon = generic_ignite_civil_war
-		cost = 25
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = EGY
-		visible = {
-			country_exists = EGY
-			EGY = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# custom_trigger_tooltip = {
-			# 	tooltip = mah_substantiate_claims_tt
-			# 	has_country_flag = mah_substantiate_claims_flag
-			# }
-			num_divisions > 19
-			has_equipment = {
-				infantry_equipment > 24999
-			}
-			NOT = {
-				is_in_faction_with = EGY
-			}
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				EGY = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = EGY
-				type = annex_everything
-			}
-		}
-	}
-	mah_buy_out_cyp_decision = {
-		cost = 100
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			NOT = {
-				controls_state = 183
-			}
-		}
-		available = {
-			183 = {
-				NOT = {
-					is_core_of = OWNER
-				}
-			}
-		}
-		ai_will_do = {
-			base = 1
-			modifier = {
-				183 = {
-					OWNER = {
-						is_in_faction_with = ROOT
-					}
-				}
-				add = 5
-			}
-			modifier = {
-				183 = {
-					OWNER = {
-						has_government = democratic
-					}
-				}
-				has_government = democratic
-				add = 10
-			}
-			modifier = {
-				183 = {
-					OWNER = {
-						has_government = communism
-					}
-				}
-				has_government = communism
-				add = 10
-			}
-			modifier = {
-				183 = {
-					OWNER = {
-						has_government = fascism
-					}
-				}
-				has_government = fascism
-				add = 10
-			}
-			modifier = {
-				183 = {
-					OWNER = {
-						has_government = neutrality
-					}
-				}
-				has_government = neutrality
-				add = 10
-			}
-		}
-		complete_effect = {
-			183 = {
-				OWNER = {
-					country_event = mah_event.8
-				}
-			}
-		}
-	}
-	mah_conquest_of_cyp_decision = {
-		icon = generic_ignite_civil_war
-		cost = 25
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = CYP
-		visible = {
-			country_exists = CYP
-			CYP = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# custom_trigger_tooltip = {
-			# 	tooltip = mah_substantiate_claims_tt
-			# 	has_country_flag = mah_substantiate_claims_flag
-			# }
-			NOT = {
-				is_in_faction_with = CYP
-			}
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				CYP = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = CYP
-				type = annex_everything
-			}
-		}
-	}
-	mah_integration_cyp_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			OR = {
-				controls_state = 183
-				CYP = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			if = {
-				limit = {
-					is_ai = no
-				}
-				controls_state = 183
-				# OR = {
-				# 	controls_state = 183
-				# 	CYP = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 3
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					CYP = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = CYP
-					transfer_troops = yes
-				}
-			}
-			183 = {
-				add_core_of = ROOT
-				remove_core_of = CYP
-			}
-		}
-	}
-	mah_integration_irq_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			OR = {
-				# Iraq
-				custom_trigger_tooltip = {
-					tooltip = form_country_iraq_required_states_tt
-					controls_state = 676
-					controls_state = 675
-					controls_state = 291
-				}
-				IRQ = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# Iraq
-				custom_trigger_tooltip = {
-					tooltip = form_country_iraq_required_states_tt
-					controls_state = 676
-					controls_state = 675
-					controls_state = 291
-				}
-				# OR = {
-				# 	# Iraq
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = form_country_iraq_required_states_tt
-				# 		controls_state = 676
-				# 		controls_state = 675
-				# 		controls_state = 291
-				# 	}
-				# 	IRQ = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 3
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					IRQ = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = IRQ
-					transfer_troops = yes
-				}
-			}
-			676 = {
-				add_core_of = ROOT
-				remove_core_of = IRQ
-				remove_core_of = KUR
-			}
-			675 = {
-				add_core_of = ROOT
-				remove_core_of = IRQ
-			}
-			291 = {
-				add_core_of = ROOT
-				remove_core_of = IRQ
-			}
-		}
-	}
-	mah_integration_tur_decision = {
-		cost = 200
-		fire_only_once = yes
-		days_remove = 120
-		visible = {
-			OR = {
-				# Turkey
-				custom_trigger_tooltip = {
-					tooltip = form_country_turkey_required_states_tt
-					controls_state = 797
-					controls_state = 341
-					controls_state = 340
-					controls_state = 339
-					controls_state = 342
-					controls_state = 343
-					controls_state = 347
-					controls_state = 49
-					controls_state = 798
-					controls_state = 346
-					controls_state = 345
-					controls_state = 356
-					controls_state = 348
-					controls_state = 344
-					controls_state = 355
-					controls_state = 349
-					controls_state = 350
-					controls_state = 354
-					controls_state = 353
-					controls_state = 352
-					controls_state = 800
-				}
-				TUR = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 20
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# Turkey
-				custom_trigger_tooltip = {
-					tooltip = form_country_turkey_required_states_tt
-					controls_state = 797
-					controls_state = 341
-					controls_state = 340
-					controls_state = 339
-					controls_state = 342
-					controls_state = 343
-					controls_state = 347
-					controls_state = 49
-					controls_state = 798
-					controls_state = 346
-					controls_state = 345
-					controls_state = 356
-					controls_state = 348
-					controls_state = 344
-					controls_state = 355
-					controls_state = 349
-					controls_state = 350
-					controls_state = 354
-					controls_state = 353
-					controls_state = 352
-					controls_state = 800
-				}
-				# OR = {
-				# 	# Turkey
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = form_country_turkey_required_states_tt
-				# 		controls_state = 797
-				# 		controls_state = 341
-				# 		controls_state = 340
-				# 		controls_state = 339
-				# 		controls_state = 342
-				# 		controls_state = 343
-				# 		controls_state = 347
-				# 		controls_state = 49
-				# 		controls_state = 798
-				# 		controls_state = 346
-				# 		controls_state = 345
-				# 		controls_state = 356
-				# 		controls_state = 348
-				# 		controls_state = 344
-				# 		controls_state = 355
-				# 		controls_state = 349
-				# 		controls_state = 350
-				# 		controls_state = 354
-				# 		controls_state = 353
-				# 		controls_state = 352
-				# 		controls_state = 800
-				# 	}
-				# 	TUR = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 21
-			political_power_gain = -1
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					TUR = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = TUR
-					transfer_troops = yes
-				}
-			}
-			# Turkey
-			custom_effect_tooltip = form_country_turkey_coring_states_tt
-			hidden_effect = {
-				341 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				340 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				339 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				342 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				343 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				347 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				49 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				346 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				345 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				356 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				348 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				344 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				355 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				349 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				798 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				350 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				354 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				353 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				352 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				800 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				799 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-				797 = {
-					add_core_of = ROOT
-					remove_core_of = TUR
-				}
-			}
-		}
-	}
-	mah_integration_sau_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			OR = {
-				# Saudi Arabia
-				custom_trigger_tooltip = {
-					tooltip = form_country_saudi_required_states_tt
-					controls_state = 292
-					controls_state = 679
-					controls_state = 678
-				}
-				SAU = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# Saudi Arabia
-				custom_trigger_tooltip = {
-					tooltip = form_country_saudi_required_states_tt
-					controls_state = 292
-					controls_state = 679
-					controls_state = 678
-				}
-				# OR = {
-				# 	# Saudi Arabia
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = form_country_saudi_required_states_tt
-				# 		controls_state = 292
-				# 		controls_state = 679
-				# 		controls_state = 678
-				# 	}
-				# 	SAU = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 3
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					SAU = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = SAU
-					transfer_troops = yes
-				}
-			}
-			292 = {
-				add_core_of = ROOT
-				remove_core_of = SAU
-			}
-			679 = {
-				add_core_of = ROOT
-				remove_core_of = SAU
-			}
-			678 = {
-				add_core_of = ROOT
-				remove_core_of = SAU
-			}
-		}
-	}
-	mah_integration_yem_and_oma_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			OR = {
-				AND = {
-					controls_state = 293
-					controls_state = 659
-				}
-				YEM = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-					controls_state = 659
-				}
-				AND = {
-					YEM = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-					controls_state = 659
-				}
-			}
-			OR = {
-				controls_state = 294
-				OMA = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			if = {
-				limit = {
-					is_ai = no
-				}
-				controls_state = 293
-				controls_state = 659
-				controls_state = 294
-				# OR = {
-				# 	AND = {
-				# 		controls_state = 293
-				# 		controls_state = 659
-				# 	}
-				# 	YEM = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-				# OR = {
-				# 	controls_state = 294
-				# 	OMA = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 3
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					YEM = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = YEM
-					transfer_troops = yes
-				}
-			}
-			293 = {
-				add_core_of = ROOT
-				remove_core_of = YEM
-			}
-			659 = {
-				add_core_of = ROOT
-				remove_core_of = YEM
-			}
-			if = {
-				limit = {
-					OMA = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = OMA
-					transfer_troops = yes
-				}
-			}
-			294 = {
-				add_core_of = ROOT
-				remove_core_of = OMA
-			}
-		}
-	}
-	mah_integration_kuw_qat_uae_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			OR = {
-				controls_state = 656
-				KUW = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-			OR = {
-				controls_state = 765
-				QAT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-			OR = {
-				controls_state = 658
-				UAE = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			if = {
-				limit = {
-					is_ai = no
-				}
-				controls_state = 656
-				controls_state = 765
-				controls_state = 658
-				# OR = {
-				# 	controls_state = 656
-				# 	KUW = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-				# OR = {
-				# 	controls_state = 765
-				# 	QAT = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-				# OR = {
-				# 	controls_state = 658
-				# 	UAE = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 3
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					KUW = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = KUW
-					transfer_troops = yes
-				}
-			}
-			if = {
-				limit = {
-					QAT = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = QAT
-					transfer_troops = yes
-				}
-			}
-			if = {
-				limit = {
-					UAE = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = UAE
-					transfer_troops = yes
-				}
-			}
-			656 = {
-				add_core_of = ROOT
-				remove_core_of = KUW
-			}
-			765 = {
-				add_core_of = ROOT
-				remove_core_of = QAT
-			}
-			658 = {
-				add_core_of = ROOT
-				remove_core_of = UAE
-			}
-		}
-	}
-	mah_integration_egy_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			OR = {
-				# Egypt
-				custom_trigger_tooltip = {
-					tooltip = mah_form_crystal_empire_egypt_required_states_tt
-					controls_state = 452
-					controls_state = 447
-					controls_state = 446
-					controls_state = 456
-					controls_state = 457
-					controls_state = 453
-				}
-				EGY = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 5
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# Egypt
-				custom_trigger_tooltip = {
-					tooltip = mah_form_crystal_empire_egypt_required_states_tt
-					controls_state = 452
-					controls_state = 447
-					controls_state = 446
-					controls_state = 456
-					controls_state = 457
-					controls_state = 453
-				}
-				# OR = {
-				# 	# Egypt
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = mah_form_crystal_empire_egypt_required_states_tt
-				# 		controls_state = 452
-				# 		controls_state = 447
-				# 		controls_state = 446
-				# 		controls_state = 456
-				# 		controls_state = 457
-				# 		controls_state = 453
-				# 	}
-				# 	EGY = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 6
-			political_power_gain = -0.75
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					EGY = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = EGY
-					transfer_troops = yes
-				}
-			}
-			# Egypt
-			custom_effect_tooltip = mah_form_egypt_coring_states_tt
-			hidden_effect = {
-				452 = {
-					add_core_of = ROOT
-					remove_core_of = EGY
-				}
-				447 = {
-					add_core_of = ROOT
-					remove_core_of = EGY
-				}
-				446 = {
-					add_core_of = ROOT
-					remove_core_of = EGY
-				}
-				456 = {
-					add_core_of = ROOT
-					remove_core_of = EGY
-				}
-				457 = {
-					add_core_of = ROOT
-					remove_core_of = EGY
-				}
-				453 = {
-					add_core_of = ROOT
-					remove_core_of = EGY
-				}
-				552 = {
-					add_core_of = ROOT
-					remove_core_of = EGY
-				}
 			}
 		}
 	}
@@ -2678,11 +773,17 @@ mah_peace_agreement_with_britain_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
 				#controls_state = 676
-				676 = { wfc_is_controlled_by_root_or_puppet = yes }
+				676 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 675
-				675 = { wfc_is_controlled_by_root_or_puppet = yes }
+				675 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 291
-				291 = { wfc_is_controlled_by_root_or_puppet = yes }
+				291 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# Saudi Arabia
 			custom_trigger_tooltip = {
@@ -2719,32 +820,60 @@ mah_peace_agreement_with_britain_category = {
 			custom_trigger_tooltip = {
 				tooltip = mah_form_crystal_empire_egypt_required_states_tt
 				#controls_state = 452
-				452 = { wfc_is_controlled_by_root_or_puppet = yes }
+				452 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 447
-				447 = { wfc_is_controlled_by_root_or_puppet = yes }
+				447 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 446
-				446 = { wfc_is_controlled_by_root_or_puppet = yes }
+				446 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 456
-				456 = { wfc_is_controlled_by_root_or_puppet = yes }
+				456 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 457
-				457 = { wfc_is_controlled_by_root_or_puppet = yes }
+				457 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 453
-				453 = { wfc_is_controlled_by_root_or_puppet = yes }
-				552 = { wfc_is_controlled_by_root_or_puppet = yes }
-				907 = { wfc_is_controlled_by_root_or_puppet = yes }
+				453 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				552 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				907 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			#controls_state = 656
-			656 = { wfc_is_controlled_by_root_or_puppet = yes }
+			656 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 765
-			765 = { wfc_is_controlled_by_root_or_puppet = yes }
+			765 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 658
-			658 = { wfc_is_controlled_by_root_or_puppet = yes }
+			658 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 293
-			293 = { wfc_is_controlled_by_root_or_puppet = yes }
+			293 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 659
-			659 = { wfc_is_controlled_by_root_or_puppet = yes }
+			659 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 294
-			294 = { wfc_is_controlled_by_root_or_puppet = yes }
+			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 100

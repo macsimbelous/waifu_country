@@ -1,5 +1,5 @@
 ﻿l_russian:
-
+  acw_battle_trigger_tt:0 "Наш флот сильнее в §G2§! и более раз"
 #urbanize
  wfc_urbanisation_decision:0 "Урбанизировать §Y[From.GetName]§!"
  wfc_urbanisation_decision_desc:0 "Повысить уровень урбанизации региона §Y[From.GetName]§!"
@@ -69,17 +69,6 @@ wfl_gacha_decision.t:0 "Испытать удачу"
 
 #test
  wfc_test_category:0 "Тестовая категория"
-
-#wfc_economy_category
- wfc_economy_category:0 "Экономика"
- wfc_economy_category_desc:0 "Инветиции в различьные отрасли экономики"
- wfc_economy_arms_factory_decision.t:0 "Инвестиции в ВПК"
- wfc_economy_dockyard_decision.t:0 "Инвестиции в судостроение"
- wfc_economy_industrial_complex_decision.t:0 "Инвестиции в гражданские фабрики"
- wfc_economy_synthetic_refinery_decision.t:0 "Инвестиции в НПЗ"
- wfc_economy_nuclear_reactor_decision.t:0 "Инвестиции в атомные электростанции"
- wfc_economy_infrastructure_decision.t:0 "Инвестиции в инфраструктуру"
- wfc_invest_run_tt:0 "Нет активных инвестиционных проектов"
 
 #wfc_budget_category
  wfc_budget_category:0 "Бюджет"
@@ -190,34 +179,6 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_festival_in_states_decision:0 "Фестиваль идолов: §Y[FROM.GetName]§!"
   acw_festival_in_states_tt:0 "Нет активных фестивалей"
 
- #acw_government_category
-  acw_government_category:0 "Правительство"
-  acw_government_category_desc:0 "Регионы:\nВо владении: §G[?owned_states]§!\nНациональные: §G[?core_states]§!\nНе национальные: §R[?mtth:acw_uncore_states]§!\nОкупированные: §R[?mtth:acw_occupied_states]§!"
-  acw_create_minprom_decision.t:0 "Сформировать Министерство промышленности"
-  acw_create_minoboron_decision.t:0 "Сформировать Министерство обороны"
-  acw_create_minscience_decision.t:0 "Сформировать Министерство науки"
-  acw_create_KGB_decision.t:0 "Сформировать КГБ"
-  acw_create_minpropagand_decision.t:0 "Сформировать Министерство пропаганды"
-  acw_create_mintrans_decision.t:0 "Сформировать Министерство транспорта"
-  acw_create_stavka_decision.t:0 "Ставка верховного командования"
-  acw_create_stavka_decision_tt:0 "Батальёнов 1000 или более"
-  acw_create_colonial_office_decision.t:0 "Сформировать Министерство колоний"
-  acw_create_ministerstvo_run_tt:0 "Не создаются другие ведомства"
-
- #acw_puppets_category
-  acw_puppets_category:0 "Подчинение слабых стран"
-  acw_create_puppet_decision.t:0 "Подчинить §Y[From.GetNameDef]§!"
-
- #acw_overseas_puppets_category
-  acw_overseas_puppets_category:0 "Подчинение заморских територий"
-  acw_create_overseas_puppets_decision.t:0 "Подчинить §Y[From.GetNameDef]§!"
-  acw_battle_trigger_tt:0 "Наш флот сильнее в §G2§! и более раз"
-  #threat
-   acw_create_puppet_threat:0 "Анимеляндия подчинила независимую страну"
-
- #acw_puppets_economic_assistance
-  acw_puppets_economic_assistance:0 "Предоставить экономическую помошь §Y[From.GetNameDef]§!"
-
  #acw_faction_category
   acw_faction_category:0 "Альянс §GМогучие Вайфу§!"
   acw_create_faction:0 "Создать альянс §GМогучие Вайфу§!"
@@ -237,32 +198,14 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_form_romania_required_states_tt:0 "§Y[ROM.GetName]§!"
   acw_form_yugoslavia_required_states_tt:0 "§Y[YUG.GetName]§!"
   acw_form_hungary_required_states_tt:0 "§Y[HUN.GetName]§!"
-  acw_form_albania_required_states_tt:0 "§Y[ALB.GetName]§!"
-  acw_form_163_required_states_tt:0 "§Y[163.GetName]§!"
-  acw_form_736_required_states_tt:0 "§Y[736.GetName]§!"
   acw_form_bulgaria_coring_states_tt:0 "§Y[BUL.GetName]§! станет национальной"
   acw_form_romania_coring_states_tt:0 "§Y[ROM.GetName]§! станет национальной"
   acw_form_yugoslavia_coring_states_tt:0 "§Y[YUG.GetName]§! станет национальной"
   acw_form_hungary_coring_states_tt:0 "§Y[HUN.GetName]§! станет национальной"
-  acw_form_albania_coring_states_tt:0 "§Y[ALB.GetName]§! станет национальной"
-  acw_form_163_coring_states_tt:0 "§Y[163.GetName]§! станет национальной"
-  acw_form_736_coring_states_tt:0 "§Y[736.GetName]§! станет национальной"
-  acw_conquest_of_bul_decision:0 "Завоевать §YБолгарию§!"
-  acw_conquest_of_rom_decision:0 "Завоевать §YРумынию§!"
-  acw_conquest_of_yug_decision:0 "Завоевать §YЮгославию§!"
-  acw_conquest_of_hun_decision:0 "Завоевать §YВенгрию§!"
-  acw_conquest_of_alb_decision:0 "Завоевать §YАлбанию§!"
-  acw_conquest_of_ita_decision:0 "Завоевать §YИталию§!"
   acw_create_bul_provinces_decision:0 "Сформировать субъект §Y[BUL.GetName]§!"
   acw_create_rom_provinces_decision:0 "Сформировать субъект §Y[ROM.GetName]§!"
   acw_create_yug_provinces_decision:0 "Сформировать субъект §Y[YUG.GetName]§!"
   acw_create_hun_provinces_decision:0 "Сформировать субъект §Y[HUN.GetName]§!"
-  acw_create_alb_provinces_decision:0 "Сформировать субъект §Y[ALB.GetName]§!"
-  acw_reorganize_bul_provinces_decision:0 "Реорганизовать §Y[BUL.GetName]§! в §Bсубъект федерации§!"
-  acw_reorganize_rom_provinces_decision:0 "Реорганизовать §Y[ROM.GetName]§! в §Bсубъект федерации§!"
-  acw_reorganize_yug_provinces_decision:0 "Реорганизовать §Y[YUG.GetName]§! в §Bсубъект федерации§!"
-  acw_reorganize_hun_provinces_decision:0 "Реорганизовать §Y[HUN.GetName]§! в §Bсубъект федерации§!"
-  acw_reorganize_alb_provinces_decision:0 "Реорганизовать §Y[ALB.GetName]§! в §Bсубъект федерации§!"
 
 #HEN
  #tentakles
@@ -272,48 +215,23 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   hen_tentakles_attack_decision.t_desc:0 "Тентакли атакуют §Y[From.Owner.GetName]§!"
 
 #MAH
-#mah_crystal_empire_category
- mah_crystal_empire_category:0 "§YКристальная Империя§!"
- mah_crystal_empire_category_desc:0 "Мечта нашего народа."
- mah_form_crystal_empire_decision:0 "Провозгласить §YКристальную Империю§!"
- mah_form_crystal_empire_maho_required_states_tt:0 "Контролировать все домашние територии"
- mah_form_crystal_empire_egypt_required_states_tt:0 "Контролировать все Египетские територии"
- mah_form_egypt_coring_states_tt:0 "Все египетские територии стану национальными"
- mah_substantiate_claims_decision:0 "Обосновать претензии"
- mah_substantiate_claims_decision_tt:0 "Будут получены претензии на наши исконные територии"
- mah_conquest_of_tur_decision:0 "Завоевать §YТурцию§!"
- mah_conquest_of_irq_decision:0 "Завоевать §Y[IRQ.GetName]§!"
- mah_conquest_of_sau_decision:0 "Завоевать §YСаудовскую Аравию§!"
- mah_conquest_of_oma_decision:0 "Завоевать §Y[OMA.GetName]§!"
- mah_conquest_of_yem_decision:0 "Завоевать §Y[YEM.GetName]§!"
- mah_british_colonies_in_the_middle_east_decision:0 "Выкупить британские колонии"
- mah_conquest_of_kuw_decision:0 "Завоевать §Y[KUW.GetName]§!"
- mah_conquest_of_qat_decision:0 "Завоевать §Y[QAT.GetName]§!"
- mah_conquest_of_uae_decision:0 "Завоевать §Y[UAE.GetName]§!"
- mah_conquest_of_egy_decision:0 "Завоевать §Y[EGY.GetName]§!"
- mah_integration_irq_decision:0 "Интегрировать §Y[IRQ.GetName]§!"
- mah_integration_tur_decision:0 "Интегрировать §YТурцию§!"
- mah_integration_sau_decision:0 "Интегрировать §YСаудовскую Аравию§!"
- mah_integration_yem_and_oma_decision:0 "Интегрировать §Y[YEM.GetName]§! и §Y[OMA.GetName]§!"
- mah_integration_kuw_qat_uae_decision:0 "Интегрировать §Y[KUW.GetName]§!, §Y[QAT.GetName]§! и §Y[UAE.GetName]§!"
- mah_integration_egy_decision:0 "Интегрировать §Y[EGY.GetName]§!"
- mah_substantiate_claims_tt:0 "Притензии обоснованы"
- mah_buy_out_aden_decision:0 "Выкупить §Y[659.GetName]§!"
- mah_buy_out_kuwait_decision:0 "Выкупить §Y[656.GetName]§!"
- mah_buy_out_qat_decision:0 "Выкупить §Y[765.GetName]§!"
- mah_buy_out_uae_decision:0 "Выкупить §Y[658.GetName]§!"
- mah_buy_out_egy_decision:0 "Выкупить §Y[EGY.GetName]§!"
- mah_buy_out_cyp_decision:0 "Выкупить §Y[183.GetName]§!"
- mah_conquest_of_cyp_decision:0 "Завоевать §Y[CYP.GetName]§!"
- mah_integration_cyp_decision:0 "Интегрировать §Y[183.GetName]§!"
+ #mah_crystal_empire_category
+  mah_crystal_empire_category:0 "§YКристальная Империя§!"
+  mah_crystal_empire_category_desc:0 "Мечта нашего народа."
+  mah_form_crystal_empire_decision:0 "Провозгласить §YКристальную Империю§!"
+  mah_form_crystal_empire_maho_required_states_tt:0 "Контролировать все домашние територии"
+  mah_conquest_of_yem_decision:0 "Завоевать §Y[YEM.GetName]§!"
+  mah_conquest_of_kuw_decision:0 "Завоевать §Y[KUW.GetName]§!"
+  mah_conquest_of_qat_decision:0 "Завоевать §Y[QAT.GetName]§!"
+  mah_conquest_of_uae_decision:0 "Завоевать §Y[UAE.GetName]§!"
 
-#mah_make_friends_with_shamiko_category
-mah_make_friends_with_shamiko_category:0 "Подружится с Шамико"
-mah_make_friends_with_shamiko_decision:0 "Предложить дружбу Шамико"
+ #mah_make_friends_with_shamiko_category
+  mah_make_friends_with_shamiko_category:0 "Подружится с Шамико"
+  mah_make_friends_with_shamiko_decision:0 "Предложить дружбу Шамико"
 
-#mah_peace_agreement_with_britain_category
- mah_peace_agreement_with_britain_category:0 "Мирное соглашение с Британией"
- mah_propose_a_peace_agreement_decision:0 "Предложить мирное соглашение"
+ #mah_peace_agreement_with_britain_category
+  mah_peace_agreement_with_britain_category:0 "Мирное соглашение с Британией"
+  mah_propose_a_peace_agreement_decision:0 "Предложить мирное соглашение"
 
 #MEH
 #kosmos
@@ -338,32 +256,14 @@ meh_mbr_not:0 "Иметь хотя бы одну §YМБР§!"
 meh_nuclear_strike_tt:0 "Ядерный удар"
 meh_sputnik_not:0 "Нужно иметь хотя бы один §Yспутник§! на орбите"
 
-#meh_modernization_category
-meh_modernization_category:0 "Модернизация"
-# meh_create_robo_factory:0 "Построить роботозавод"
-# meh_upgrade_robo_factory:0 "Модернизировать роботозавод"
-# meh_upgrade_robo_factory_tt:0 "Будет произведена модернизация Роботозавода"
-# meh_create_construction_robots:0 "Разработать строительных роботов"
-# meh_create_warmind:0 "Создать Военный разум"
-# meh_upgrade_warmind_agr:0 "Наступательная модернизация"
-# meh_upgrade_warmind_def:0 "Оборонительная модернизация"
-# meh_upgrade_ai:0 "Улючшить искуственый интелект"
-meh_create_perimetr:0 "Создать систему §RПериметр§!"
-meh_1_sputnik_tt:0 "Вывести первый спутник в космос"
-meh_perimetr_tt:0 "Будет создана система периметр"
-meh_warmind_tt:0 "Военный разум создан"
-
 #meh_cyborgization_category
 meh_cyborgization_category:0 "Киборгизация"
 meh_cyborgization:0 "Киборгизировать §Y[From.GetName]§!"
 
 #meh_exterminatus_category
  meh_exterminatus_category:0 "§RЭкстерминатус§!"
- meh_ignite_exterminatus:0 "§RНачать экстерминатус§!"
- meh_usa_under_control_tt:0 "Контролировать американские територии"
- meh_mex_under_control_tt:0 "Контролировать мексиканские територии"
- meh_can_under_control_tt:0 "Контролировать канадские територии"
- meh_warmind_complete_tt:0 "Военный разум модернизирован"
+ meh_exterminatus_decision:0 "§RУничтожить§! [FROM.GetName]"
+
 
 #MMS
 #mms_workouts_shamiko_category
@@ -400,54 +300,32 @@ meh_cyborgization:0 "Киборгизировать §Y[From.GetName]§!"
  mms_retire_yuuko_yoshida:0 "§gОтречься от престола§!"
 
 #TRP
-#discrediting
-trp_discrediting_decisions:0 "Дискредитация"
-trp_discrediting_decision.t:0 "Дискредитировать §Y[From.GetName]§!"
-trp_discrediting_decision.t_desc:0 "Распространить по всему миру компрометируюшую информацию о государстве §Y[From.GetName]§!"
+ #discrediting
+  trp_discrediting_decisions:0 "Дискредитация"
+  trp_discrediting_decision.t:0 "Дискредитировать §Y[From.GetName]§!"
+  trp_discrediting_decision.t_desc:0 "Распространить по всему миру компрометируюшую информацию о государстве §Y[From.GetName]§!"
 
-#cloning
-trp_cloning_category:0 "Клонирование"
-trp_cloning_category_desc:0 "Массовое клонирование"
-trp_develop_cloning_technology:0 "Разработать технологию клонирования"
-trp_cloning_decision.t:0 "Произвести §G[?mtth:trp_cloning_power]§! клонов"
-trp_cloning_level_up_decision.t:0 "Расширить производство клонов"
+ #cloning
+  trp_cloning_category:0 "Клонирование"
+  trp_cloning_category_desc:0 "Массовое клонирование"
+  trp_develop_cloning_technology:0 "Разработать технологию клонирования"
+  trp_cloning_decision.t:0 "Произвести §G[?mtth:trp_cloning_power]§! клонов"
+  trp_cloning_level_up_decision.t:0 "Расширить производство клонов"
 
-#trp_south_american_federation
- trp_south_american_federation:0 "Южно американская федерация"
- trp_form_south_american_federation:0 "Провозгласить §GЮжно американскую федерацию§!"
- trp_form_country_trp_required_states_tt:0 "Контролировать все Трапские територии"
- trp_form_country_col_required_states_tt:0 "Контролировать все Колумбийские територии"
- trp_form_country_ven_required_states_tt:0 "Контролировать все Венесуэльские територии"
- trp_form_country_pru_required_states_tt:0 "Контролировать все Перуанские територии"
- trp_form_country_bol_required_states_tt:0 "Контролировать все Боливийские територии"
- trp_form_country_chl_required_states_tt:0 "Контролировать все Чилийские територии"
- trp_form_country_arg_required_states_tt:0 "Контролировать все Аргентинские територии"
- trp_form_country_par_required_states_tt:0 "Контролировать все Парагвайские територии"
- trp_form_country_bra_required_states_tt:0 "Контролировать все Бразильские територии"
- trp_form_country_coring_states_tt:0 "Все таритории южной америки станут национальными"
- trp_conquest_of_ven_decision:0 "Завоевать Венесуэлу"
- trp_conquest_of_col_decision:0 "Завоевать Колумбию"
- trp_conquest_of_ecu_decision:0 "Завоевать Эквадор"
- trp_conquest_of_pru_decision:0 "Завоевать Перу"
- trp_conquest_of_bol_decision:0 "Завоевать Боливию"
- trp_conquest_of_bra_decision:0 "Завоевать Бразилию"
- trp_conquest_of_chl_decision:0 "Завоевать Чили"
- trp_conquest_of_arg_decision:0 "Завоевать Аргентину"
- trp_conquest_of_par_decision:0 "Завоевать Парагвай"
- trp_conquest_of_urg_decision:0 "Завоевать Уругвай"
- trp_conquest_of_pan_decision:0 "Завоевать Панаму"
- trp_annex_of_colonies_decision:0 "Анексировать колонии"
- trp_integration_ven_decision:0 "Интегрировать Венесуэлу"
- trp_integration_col_decision:0 "Интегрировать Колумбию"
- trp_integration_ecu_decision:0 "Интегрировать Эквадор"
- trp_integration_pru_decision:0 "Интегрировать Перу"
- trp_integration_bol_decision:0 "Интегрировать Боливию"
- trp_integration_bra_decision:0 "Интегрировать Бразилию"
- trp_integration_chl_decision:0 "Интегрировать Чили"
- trp_integration_arg_decision:0 "Интегрировать Аргентину"
- trp_integration_par_decision:0 "Интегрировать Парагвай"
- trp_integration_urg_decision:0 "Интегрировать Уругвай"
+ #trp_south_american_federation
+  trp_south_american_federation:0 "Южно американская федерация"
+  trp_form_south_american_federation:0 "Провозгласить §GЮжно американскую федерацию§!"
+  trp_form_country_trp_required_states_tt:0 "Контролировать все Трапские територии"
+  trp_form_country_col_required_states_tt:0 "Контролировать все Колумбийские територии"
+  trp_form_country_ven_required_states_tt:0 "Контролировать все Венесуэльские територии"
+  trp_form_country_pru_required_states_tt:0 "Контролировать все Перуанские територии"
+  trp_form_country_bol_required_states_tt:0 "Контролировать все Боливийские територии"
+  trp_form_country_chl_required_states_tt:0 "Контролировать все Чилийские територии"
+  trp_form_country_arg_required_states_tt:0 "Контролировать все Аргентинские територии"
+  trp_form_country_par_required_states_tt:0 "Контролировать все Парагвайские територии"
+  trp_form_country_bra_required_states_tt:0 "Контролировать все Бразильские територии"
+  trp_form_country_coring_states_tt:0 "Все таритории южной америки станут национальными"
 
-#economy_decisions
- trp_expansion_of_the_supply_network:0 "Расширение железнодорожной сеть"
- trp_railway_to_panama:0 "Железная дорога в Панаму"
+ #economy_decisions
+  trp_expansion_of_the_supply_network:0 "Расширение железнодорожной сеть"
+  trp_railway_to_panama:0 "Железная дорога в Панаму"

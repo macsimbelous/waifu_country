@@ -347,6 +347,14 @@ spriteTypes = {
 		name = "GFX_idea_meh_violet_evergarden"
 		texturefile = "gfx/leaders/MEH/violet_evergarden_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_meh_alpha_army"
+		texturefile = "gfx/leaders/MEH/alpha_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_meh_alpha"
+		texturefile = "gfx/leaders/MEH/alpha_idea.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_meh_land_01_small"

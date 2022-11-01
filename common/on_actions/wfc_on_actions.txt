@@ -614,6 +614,13 @@ on_actions = {
 					transfer_state = 411
 				}
 			}
+			if = {
+				limit = {
+					tag = MEH
+					has_idea = meh_exterminatus_idea
+				}
+				remove_ideas = meh_exterminatus_idea
+			}
 		}
 	}
 	on_weekly_ZMB = {

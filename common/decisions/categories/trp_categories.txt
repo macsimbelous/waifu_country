@@ -2,7 +2,11 @@ trp_south_american_federation = {
 	priority = 20
 	allowed = {
 		original_tag = TRP
-		always = no
+	}
+	visible = {
+		NOT = {
+			has_country_flag = trp_south_american_federation_formed_flag
+		}
 	}
 }
 trp_cloning_category = {

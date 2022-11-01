@@ -1809,6 +1809,9 @@
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		bypass = {
+			has_country_flag = trp_south_american_federation_formed_flag
+		}
 		available = {
 			# TRP
 			custom_trigger_tooltip = {
@@ -2349,7 +2352,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 1000
 		}
 	}
 	focus = {

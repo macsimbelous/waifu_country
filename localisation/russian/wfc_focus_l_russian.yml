@@ -255,10 +255,17 @@
  meh_attack_mex:0 "Завоевать Мексику"
  meh_attack_can:0 "Завоевать Канаду"
  meh_attack_world:0 "Уничтожить людей"
+ meh_usa_under_control_tt:0 "Контролировать американские територии"
+ meh_mex_under_control_tt:0 "Контролировать мексиканские територии"
+ meh_can_under_control_tt:0 "Контролировать канадские територии"
+ meh_warmind_complete_tt:0 "Военный разум модернизирован"
  meh_neutrality_focus:0 "Нейтралитет"
  meh_defensive_lines:0 "Укрепить границу"
  meh_defensive_lines_tt:0 "Вдоль наших границ будут созданы оборонительные сооружения"
  meh_focus_create_perimetr:0 "Создать систему §RПериметр§!"
+ meh_1_sputnik_tt:0 "Запустить в космос первый спутник"
+ meh_perimetr_tt:0 "Будет создана система периметр"
+ meh_warmind_tt:0 "Военный разум создан"
 
 #MMS
  mms_focus:0 "Фокусы [MMS.GetName]"

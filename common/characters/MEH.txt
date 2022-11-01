@@ -780,6 +780,26 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	MEH_alpha = {
+		name = MEH_alpha
+		portraits = {
+			army = {
+				small = GFX_idea_meh_alpha
+				large = GFX_portrait_meh_alpha_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				skilled_staffer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#admirals
 	MEH_Ashigara_ARP = {
 		name = MEH_Ashigara_ARP

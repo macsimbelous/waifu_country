@@ -246,114 +246,199 @@ trp_south_american_federation = {
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_trp_required_states_tt
 				#controls_state = 495
-				495 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				495 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 280
-				280 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				280 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				915 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				913 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				914 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# COL
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_col_required_states_tt
 				#controls_state = 493
-				493 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				493 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 306
-				306 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				306 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 486
-				486 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				486 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# VEN
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_ven_required_states_tt
 				#controls_state = 488
-				488 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				488 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 307
-				307 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				307 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 489
-				489 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				489 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# PRU
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_pru_required_states_tt
 				#controls_state = 490
-				490 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				490 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 491
-				491 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				491 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 303
-				303 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				303 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 492
-				492 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				492 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 494
-				494 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				494 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# BOL
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_bol_required_states_tt
 				#controls_state = 302
-				302 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				302 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 487
-				487 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				487 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# CHL
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_chl_required_states_tt
 				#controls_state = 506
-				506 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				506 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 279
-				279 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				279 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 507
-				507 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				507 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# ARG
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_arg_required_states_tt
 				#controls_state = 278
-				278 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				278 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 508
-				508 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				508 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 509
-				509 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				509 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 510
-				510 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				510 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 511
-				511 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				511 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 512
-				512 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				512 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# PAR
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_par_required_states_tt
 				#controls_state = 301
-				301 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				301 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 688
-				688 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				688 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# BRA
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_bra_required_states_tt
 				#controls_state = 496
-				496 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				496 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 497
-				497 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				497 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 498
-				498 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				498 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 499
-				499 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				499 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 500
-				500 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				500 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 501
-				501 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				501 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 502
-				502 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				502 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 503
-				503 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				503 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 504
-				504 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				504 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				#controls_state = 505
-				505 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+				505 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			#controls_state = 305
-			305 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			305 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 300
-			300 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+			300 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 309
 			#controls_state = 310
 			#controls_state = 687
@@ -365,6 +450,7 @@ trp_south_american_federation = {
 		complete_effect = {
 			set_cosmetic_tag = TRP_SAF
 			set_country_flag = trp_south_american_federation_formed_flag
+			set_major = yes
 			hidden_effect = {
 				transfer_state = 493
 				transfer_state = 306
@@ -405,69 +491,91 @@ trp_south_american_federation = {
 				#transfer_state = 309
 				if = {
 					limit = {
-						controls_state = 309
+						309 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 309
 				}
 				#transfer_state = 310
 				if = {
 					limit = {
-						controls_state = 310
+						310 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 310
 				}
 				#transfer_state = 687
 				if = {
 					limit = {
-						controls_state = 687
+						687 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 687
 				}
 				if = {
 					limit = {
-						controls_state = 649
+						649 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 649
 				}
 				if = {
 					limit = {
-						controls_state = 299
+						299 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 299
 				}
 				if = {
 					limit = {
-						controls_state = 691
+						691 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 691
 				}
 				if = {
 					limit = {
-						controls_state = 695
+						695 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 695
 				}
 				if = {
 					limit = {
-						controls_state = 692
+						692 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 692
 				}
 				if = {
 					limit = {
-						controls_state = 694
+						694 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 694
 				}
 				if = {
 					limit = {
-						controls_state = 308
+						308 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 308
 				}
 				if = {
 					limit = {
-						controls_state = 308
+						308 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
 					}
 					transfer_state = 304
 				}
@@ -674,1529 +782,6 @@ trp_south_american_federation = {
 					}
 				}
 			}
-		}
-	}
-	trp_conquest_of_ven_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		war_with_on_remove = VEN
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = VEN
-			VEN = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			VEN = {
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				VEN = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = VEN
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_col_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = COL
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = COL
-			COL = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			COL = {
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				COL = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = COL
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_ecu_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = ECU
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = ECU
-			ECU = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# ROOT = {
-			# 	is_neighbor_of = ECU
-			# }
-			ECU = {
-				OR = {
-					is_neighbor_of = ROOT
-					any_neighbor_country = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				ECU = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = ECU
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_pru_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = PRU
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = PRU
-			PRU = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			PRU = {
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				PRU = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = PRU
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_bol_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		war_with_on_remove = BOL
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = BOL
-			BOL = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			BOL = {
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				BOL = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = BOL
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_bra_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		war_with_on_remove = BRA
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = BRA
-			BRA = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			BRA = {
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 3
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				BRA = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = BRA
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_chl_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = CHL
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = CHL
-			CHL = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# ROOT = {
-			# 	is_neighbor_of = CHL
-			# }
-			CHL = {
-				OR = {
-					is_neighbor_of = ROOT
-					any_neighbor_country = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				CHL = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = CHL
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_arg_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = ARG
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = ARG
-			ARG = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# ROOT = {
-			# 	is_neighbor_of = ARG
-			# }
-			ARG = {
-				OR = {
-					is_neighbor_of = ROOT
-					any_neighbor_country = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				ARG = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = ARG
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_par_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = PAR
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = PAR
-			PAR = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# ROOT = {
-			# 	is_neighbor_of = PAR
-			# }
-			PAR = {
-				OR = {
-					is_neighbor_of = ROOT
-					any_neighbor_country = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				PAR = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = PAR
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_urg_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = URG
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			country_exists = URG
-			URG = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# ROOT = {
-			# 	is_neighbor_of = URG
-			# }
-			URG = {
-				OR = {
-					is_neighbor_of = ROOT
-					any_neighbor_country = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				URG = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = URG
-				type = annex_everything
-			}
-		}
-	}
-	trp_conquest_of_pan_decision = {
-		icon = generic_ignite_civil_war
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
-		war_with_on_remove = PAN
-		visible = {
-			country_exists = PAN
-			has_country_flag = trp_south_american_federation_formed_flag
-			PAN = {
-				NOT = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			# ROOT = {
-			# 	is_neighbor_of = PAN
-			# }
-			PAN = {
-				OR = {
-					is_neighbor_of = ROOT
-					any_neighbor_country = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			base = 2
-			modifier = {
-				has_war = yes
-				add = -1
-			}
-		}
-		modifier = {
-			industrial_capacity_factory = 0.2
-			industrial_capacity_dockyard = 0.2
-			training_time_army_factor = -0.2
-			production_speed_buildings_factor = 0.2
-		}
-		complete_effect = {
-			add_war_support = 0.05
-		}
-		remove_effect = {
-			hidden_effect = {
-				PAN = {
-					every_owned_state = {
-						add_claim_by = ROOT
-					}
-				}
-			}
-			create_wargoal = {
-				target = PAN
-				type = annex_everything
-			}
-		}
-	}
-	trp_annex_of_colonies_decision = {
-		cost = 300
-		fire_only_once = yes
-		visible = {
-			has_country_flag = trp_south_american_federation_formed_flag
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 2
-		}
-		complete_effect = {
-			687 = {
-				add_claim_by = OWNER
-				owner = {
-					create_wargoal = {
-						target = TRP
-						type = take_claimed_state
-					}
-				}
-			}
-			transfer_state = 687
-			309 = {
-				owner = {
-					create_wargoal = {
-						target = TRP
-						type = take_claimed_state
-					}
-				}
-			}
-			transfer_state = 309
-			310 = {
-				owner = {
-					create_wargoal = {
-						target = TRP
-						type = take_claimed_state
-					}
-				}
-			}
-			transfer_state = 310
-		}
-	}
-	trp_integration_ven_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				# VEN
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_ven_required_states_tt
-					controls_state = 488
-					controls_state = 307
-					controls_state = 489
-				}
-				VEN = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# VEN
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_ven_required_states_tt
-					controls_state = 488
-					controls_state = 307
-					controls_state = 489
-				}
-				# OR = {
-				# 	# VEN
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = trp_form_country_ven_required_states_tt
-				# 		controls_state = 488
-				# 		controls_state = 307
-				# 		controls_state = 489
-				# 	}
-				# 	VEN = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 3
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					VEN = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = VEN
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 488
-			add_state_core = 307
-			add_state_core = 489
-		}
-	}
-	trp_integration_col_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				# COL
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_col_required_states_tt
-					controls_state = 493
-					controls_state = 306
-					controls_state = 486
-				}
-				COL = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# COL
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_col_required_states_tt
-					controls_state = 493
-					controls_state = 306
-					controls_state = 486
-				}
-				# OR = {
-				# 	# COL
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = trp_form_country_col_required_states_tt
-				# 		controls_state = 493
-				# 		controls_state = 306
-				# 		controls_state = 486
-				# 	}
-				# 	COL = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 3
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					COL = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = COL
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 493
-			add_state_core = 306
-			add_state_core = 486
-		}
-	}
-	trp_integration_ecu_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				AND = {
-					controls_state = 305
-					controls_state = 649
-				}
-				ECU = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 1
-			if = {
-				limit = {
-					is_ai = no
-				}
-				controls_state = 305
-				controls_state = 649
-				# OR = {
-				# 	AND = {
-				# 		controls_state = 305
-				# 		controls_state = 649
-				# 	}
-				# 	ECU = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 2
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					ECU = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = ECU
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 305
-			add_state_core = 649
-		}
-	}
-	trp_integration_pru_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				# PRU
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_pru_required_states_tt
-					controls_state = 490
-					controls_state = 491
-					controls_state = 303
-					controls_state = 492
-					controls_state = 494
-				}
-				PRU = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 4
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# PRU
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_pru_required_states_tt
-					controls_state = 490
-					controls_state = 491
-					controls_state = 303
-					controls_state = 492
-					controls_state = 494
-				}
-				# OR = {
-				# 	# PRU
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = trp_form_country_pru_required_states_tt
-				# 		controls_state = 490
-				# 		controls_state = 491
-				# 		controls_state = 303
-				# 		controls_state = 492
-				# 		controls_state = 494
-				# 	}
-				# 	PRU = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 5
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					PRU = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = PRU
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 490
-			add_state_core = 491
-			add_state_core = 303
-			add_state_core = 492
-			add_state_core = 494
-		}
-	}
-	trp_integration_bol_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				# BOL
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_bol_required_states_tt
-					controls_state = 302
-					controls_state = 487
-				}
-				BOL = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 1
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# BOL
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_bol_required_states_tt
-					controls_state = 302
-					controls_state = 487
-				}
-				# OR = {
-				# 	# BOL
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = trp_form_country_bol_required_states_tt
-				# 		controls_state = 302
-				# 		controls_state = 487
-				# 	}
-				# 	BOL = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 2
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					BOL = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = BOL
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 302
-			add_state_core = 487
-		}
-	}
-	trp_integration_bra_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				# BRA
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_bra_required_states_tt
-					controls_state = 496
-					controls_state = 497
-					controls_state = 498
-					controls_state = 499
-					controls_state = 500
-					controls_state = 501
-					controls_state = 502
-					controls_state = 503
-					controls_state = 504
-					controls_state = 505
-				}
-				BRA = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 9
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# BRA
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_bra_required_states_tt
-					controls_state = 496
-					controls_state = 497
-					controls_state = 498
-					controls_state = 499
-					controls_state = 500
-					controls_state = 501
-					controls_state = 502
-					controls_state = 503
-					controls_state = 504
-					controls_state = 505
-				}
-				# OR = {
-				# 	# BRA
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = trp_form_country_bra_required_states_tt
-				# 		controls_state = 496
-				# 		controls_state = 497
-				# 		controls_state = 498
-				# 		controls_state = 499
-				# 		controls_state = 500
-				# 		controls_state = 501
-				# 		controls_state = 502
-				# 		controls_state = 503
-				# 		controls_state = 504
-				# 		controls_state = 505
-				# 	}
-				# 	BRA = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 10
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					BRA = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = BRA
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 496
-			add_state_core = 497
-			add_state_core = 498
-			add_state_core = 499
-			add_state_core = 500
-			add_state_core = 501
-			add_state_core = 502
-			add_state_core = 503
-			add_state_core = 504
-			add_state_core = 505
-		}
-	}
-	trp_integration_chl_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				# CHL
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_chl_required_states_tt
-					controls_state = 506
-					controls_state = 279
-					controls_state = 507
-				}
-				CHL = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# CHL
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_chl_required_states_tt
-					controls_state = 506
-					controls_state = 279
-					controls_state = 507
-				}
-				# OR = {
-				# 	# CHL
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = trp_form_country_chl_required_states_tt
-				# 		controls_state = 506
-				# 		controls_state = 279
-				# 		controls_state = 507
-				# 	}
-				# 	CHL = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 3
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					CHL = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = CHL
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 506
-			add_state_core = 279
-			add_state_core = 507
-		}
-	}
-	trp_integration_arg_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				# ARG
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_arg_required_states_tt
-					controls_state = 278
-					controls_state = 508
-					controls_state = 509
-					controls_state = 510
-					controls_state = 511
-					controls_state = 512
-				}
-				ARG = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 5
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# ARG
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_arg_required_states_tt
-					controls_state = 278
-					controls_state = 508
-					controls_state = 509
-					controls_state = 510
-					controls_state = 511
-					controls_state = 512
-				}
-				# OR = {
-				# 	# ARG
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = trp_form_country_arg_required_states_tt
-				# 		controls_state = 278
-				# 		controls_state = 508
-				# 		controls_state = 509
-				# 		controls_state = 510
-				# 		controls_state = 511
-				# 		controls_state = 512
-				# 	}
-				# 	ARG = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 6
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					ARG = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = ARG
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 278
-			add_state_core = 508
-			add_state_core = 509
-			add_state_core = 510
-			add_state_core = 511
-			add_state_core = 512
-		}
-	}
-	trp_integration_par_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				# PAR
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_par_required_states_tt
-					controls_state = 301
-					controls_state = 688
-				}
-				PAR = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 1
-			if = {
-				limit = {
-					is_ai = no
-				}
-				# PAR
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_par_required_states_tt
-					controls_state = 301
-					controls_state = 688
-				}
-				# OR = {
-				# 	# PAR
-				# 	custom_trigger_tooltip = {
-				# 		tooltip = trp_form_country_par_required_states_tt
-				# 		controls_state = 301
-				# 		controls_state = 688
-				# 	}
-				# 	PAR = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 2
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					PAR = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = PAR
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 301
-			add_state_core = 688
-		}
-	}
-	trp_integration_urg_decision = {
-		cost = 100
-		fire_only_once = yes
-		days_remove = 60
-		visible = {
-			NOT = {
-				has_country_flag = trp_south_american_federation_formed_flag
-			}
-			OR = {
-				controls_state = 300
-				URG = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 0
-			if = {
-				limit = {
-					is_ai = no
-				}
-				controls_state = 300
-				# OR = {
-				# 	controls_state = 300
-				# 	URG = {
-				# 		is_puppet_of = ROOT
-				# 	}
-				# }
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		modifier = {
-			civilian_factory_use = 1
-			political_power_gain = -0.5
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					URG = {
-						OR = {
-							is_puppet_of = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-				annex_country = {
-					target = URG
-					transfer_troops = yes
-				}
-			}
-			add_state_core = 300
 		}
 	}
 }

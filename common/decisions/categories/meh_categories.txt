@@ -1,10 +1,3 @@
-meh_modernization_category = {
-	priority = 11
-	allowed = {
-		original_tag = MEH
-		always = no
-	}
-}
 meh_kosmos_category = {
 	picture = GFX_decision_wfl_kosmos_category
 	icon = GFX_decision_wfl_kosmos_category_icon
@@ -43,9 +36,8 @@ meh_exterminatus_category = {
 	icon = decision_generic_ignite_civil_war
 	allowed = {
 		original_tag = MEH
-		always = no
 	}
 	visible = {
-		has_government = fascism
+		has_idea = meh_exterminatus_idea
 	}
 }

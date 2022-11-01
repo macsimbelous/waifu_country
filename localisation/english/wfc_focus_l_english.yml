@@ -258,10 +258,17 @@
  meh_attack_mex:0 "Conquer Mexico"
  meh_attack_can:0 "Conquer Canada"
  meh_attack_world:0 "Destroy Humans"
+ meh_usa_under_control_tt:0 "Control American territories"
+ meh_mex_under_control_tt:0 "Control Mexican territories"
+ meh_can_under_control_tt:0 "Control Canadian territories"
+ meh_warmind_complete_tt:0 "Warmind upgraded"
  meh_neutrality_focus:0 "Neutrality"
  meh_defensive_lines:0 "Fortify the border"
  meh_defensive_lines_tt:0 "Defensive structures will be set up along our borders"
  meh_focus_create_perimetr:0 "Create §RPerimeter§! System"
+ meh_1_sputnik_tt:0 "Launch the first satellite into space"
+ meh_perimetr_tt:0 "A perimeter system will be created"
+ meh_warmind_tt:0 "The war mind is created"
 
 #MMS
  mms_focus:0 "Focuses [MMS.GetName]"

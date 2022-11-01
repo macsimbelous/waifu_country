@@ -1913,46 +1913,6 @@ focus_tree = {
 				}
 				transfer_state = 154
 			}
-			#Albania
-			# if = {
-			# 	limit = {
-			# 		ALB = {
-			# 			OR = {
-			# 				is_puppet_of = ROOT
-			# 				is_subject_of = ROOT
-			# 			}
-			# 		}
-			# 	}
-			# 	annex_country = {
-			# 		target = ALB
-			# 		transfer_troops = yes
-			# 	}
-			# }
-			# custom_effect_tooltip = acw_form_albania_coring_states_tt
-			# hidden_effect = {
-			# 	44 = {
-			# 		add_core_of = ROOT
-			# 	}
-			# 	transfer_state = 44
-			# 	805 = {
-			# 		add_core_of = ROOT
-			# 	}
-			# 	transfer_state = 805
-			# }
-			# custom_effect_tooltip = acw_form_163_coring_states_tt
-			# hidden_effect = {
-			# 	163 = {
-			# 		add_core_of = ROOT
-			# 	}
-			# 	transfer_state = 163
-			# }
-			# custom_effect_tooltip = acw_form_736_coring_states_tt
-			# hidden_effect = {
-			# 	736 = {
-			# 		add_core_of = ROOT
-			# 	}
-			# 	transfer_state = 736
-			# }
 		}
 	}
 	focus = {

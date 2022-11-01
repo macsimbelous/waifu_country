@@ -1,5 +1,5 @@
 ﻿l_english:
-
+acw_battle_trigger_tt:0 "Our fleet is §G2§! or more times stronger"
 #urbanize
  wfc_urbanisation_decision:0 "Urbanization §Y[From.GetName]§!"
  wfc_urbanisation_decision_desc:0 "Raise the level of urbanization of the region §Y[From.GetName]§!"
@@ -59,17 +59,6 @@ wfc_border_defense:0 "Strengthening the border"
 
 #test
  wfс_test_category:0 "Тестовая категория"
-
-#wfc_economy_category
-wfc_economy_category:0 "Economy"
-wfc_economy_category_desc:0 "Investments in various sectors of the economy"
-wfc_economy_arms_factory_decision.t:0 "Investments in the military-industrial complex"
-wfc_economy_dockyard_decision.t:0 "Investment in shipbuilding"
-wfc_economy_industrial_complex_decision.t:0 "Investment in civilian factories"
-wfc_economy_synthetic_refinery_decision.t:0 "Refinery investments"
-wfc_economy_nuclear_reactor_decision.t:0 "Investments in nuclear power plants"
-wfc_economy_infrastructure_decision.t:0 "Investment in infrastructure"
-wfc_invest_run_tt:0 "No active investment projects"
 
 #wfc_budget_category
 wfc_budget_category:0 "Budget"
@@ -180,34 +169,6 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
  acw_festival_in_states_decision:0 "The festival of Idols §Y[FROM.GetName]§!"
  acw_festival_in_states_tt:0 "No active festivals"
 
-#acw_government_category
-acw_government_category:0 "Government"
-acw_government_category_desc:0 "States:\nOwned: §G[?owned_states]§!\nCore: §G[?core_states]§!\nNon core: §R[?mtth:acw_uncore_states]§!\nOccupied: §R[?mtth:acw_occupied_states]§!"
-acw_create_minprom_decision.t:0 "Form the Ministry of Industry"
-acw_create_minoboron_decision.t:0 "Form the Ministry of Defense"
-acw_create_minscience_decision.t:0 "Form the Ministry of Science"
-acw_create_KGB_decision.t:0 "Form the KGB"
-acw_create_minpropagand_decision.t:0 "Form a Ministry of Propaganda"
-acw_create_mintrans_decision.t:0 "Form the Ministry of Transport"
-acw_create_stavka_decision.t:0 "High Command Headquarters"
-acw_create_stavka_decision_tt:0 "Battalion 1000 or more"
-acw_create_colonial_office_decision.t:0 "Form the Ministry of Colonies"
-acw_create_ministerstvo_run_tt:0 "No other departments are created"
-
-#acw_puppets_category
-acw_puppets_category:0 "Submission of weak countries"
-acw_create_puppet_decision.t:0 "Subdue §Y[From.GetNameDef]§!"
-
-#acw_overseas_puppets_category
-acw_overseas_puppets_category:0 "Subjugation of overseas territories"
-acw_create_overseas_puppets_decision.t:0 "Subdue §Y[From.GetNameDef]§!"
-acw_battle_trigger_tt:0 "Our fleet is §G2§! or more times stronger"
-#threat
-acw_create_puppet_threat:0 "Animeland subdued an independent country"
-
-#acw_puppets_economic_assistance
-acw_puppets_economic_assistance:0 "Submit economic aid §Y[From.GetNameDef]§!"
-
 #acw_faction_category
 acw_faction_category:0 "Alliance §GMighty Waifu§!"
 acw_create_faction:0 "Create alliance §GMighty Waifu§!"
@@ -227,32 +188,14 @@ acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will 
  acw_form_romania_required_states_tt:0 "§Y[ROM.GetName]§!"
  acw_form_yugoslavia_required_states_tt:0 "§Y[YUG.GetName]§!"
  acw_form_hungary_required_states_tt:0 "§Y[HUN.GetName]§!"
- acw_form_albania_required_states_tt:0 "§Y[ALB.GetName]§!"
- acw_form_163_required_states_tt:0 "§Y[163.GetName]§!"
- acw_form_736_required_states_tt:0 "§Y[736.GetName]§!"
  acw_form_bulgaria_coring_states_tt:0 "§Y[BUL.GetName]§! becomes national"
  acw_form_romania_coring_states_tt:0 "§Y[ROM.GetName]§! becomes national"
  acw_form_yugoslavia_coring_states_tt:0 "§Y[YUG.GetName]§! becomes national"
  acw_form_hungary_coring_states_tt:0 "§Y[HUN.GetName]§! becomes national"
- acw_form_albania_coring_states_tt:0 "§Y[ALB.GetName]§! becomes national"
- acw_form_163_coring_states_tt:0 "§Y[163.GetName]§! becomes national"
- acw_form_736_coring_states_tt:0 "§Y[736.GetName]§! becomes national"
- acw_conquest_of_bul_decision:0 "Conquer §YBulgaria§!"
- acw_conquest_of_rom_decision:0 "Conquer §YRomania§!"
- acw_conquest_of_yug_decision:0 "Conquer §YYugoslavia§!"
- acw_conquest_of_hun_decision:0 "Conquer §YHungary§!"
- acw_conquest_of_alb_decision:0 "Conquer §YAlbania§!"
- acw_conquest_of_ita_decision:0 "Conquer §YItaly§!"
  acw_create_bul_provinces_decision:0 "Create subject §Y[BUL.GetName]§!"
  acw_create_rom_provinces_decision:0 "Create subject §Y[ROM.GetName]§!"
  acw_create_yug_provinces_decision:0 "Create subject §Y[YUG.GetName]§!"
  acw_create_hun_provinces_decision:0 "Create subject §Y[HUN.GetName]§!"
- acw_create_alb_provinces_decision:0 "Create subject §Y[ALB.GetName]§!"
- acw_reorganize_bul_provinces_decision:0 "Reorganize §Y[BUL.GetName]§! in §Bsubject of the Federation§!"
- acw_reorganize_rom_provinces_decision:0 "Reorganize §Y[ROM.GetName]§! in §Bsubject of the Federation§!"
- acw_reorganize_yug_provinces_decision:0 "Reorganize §Y[YUG.GetName]§! in §Bsubject of the Federation§!"
- acw_reorganize_hun_provinces_decision:0 "Reorganize §Y[HUN.GetName]§! in §Bsubject of the Federation§!"
- acw_reorganize_alb_provinces_decision:0 "Reorganize §Y[ALB.GetName]§! in §Bsubject of the Federation§!"
 
 #HEN
 #tentakles
@@ -262,48 +205,23 @@ acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will 
  hen_tentakles_attack_decision.t_desc:0 "Tentacles attack §Y[From.Owner.GetName]§!"
 
 #MAH
-#mah_crystal_empire_category
- mah_crystal_empire_category:0 "§YCrystal Empire§!"
- mah_crystal_empire_category_desc:0 "The dream of our people."
- mah_form_crystal_empire_decision:0 "Declare the §YCrystal Empire§!"
- mah_form_crystal_empire_maho_required_states_tt:0 "Control all home territories"
- mah_form_crystal_empire_egypt_required_states_tt:0 "Control all Egyptian territories"
- mah_form_egypt_coring_states_tt:0 "All Egyptian territories will become national"
- mah_substantiate_claims_decision:0 "Justify claims"
- mah_substantiate_claims_decision_tt:0 "Claims for our ancestral territories will be received"
- mah_conquest_of_tur_decision:0 "Conquer §Y[TUR.GetName]§!"
- mah_conquest_of_irq_decision:0 "Conquer §Y[IRQ.GetName]§!"
- mah_conquest_of_sau_decision:0 "Conquer §Y[SAU.GetName]§!"
- mah_conquest_of_oma_decision:0 "Conquer §Y[OMA.GetName]§!"
- mah_conquest_of_yem_decision:0 "Conquer §Y[YEM.GetName]§!"
- mah_british_colonies_in_the_middle_east_decision:0 "Buy back British colonies"
- mah_conquest_of_kuw_decision:0 "Conquer §Y[KUW.GetName]§!"
- mah_conquest_of_qat_decision:0 "Conquer §Y[QAT.GetName]§!"
- mah_conquest_of_uae_decision:0 "Conquer §Y[UAE.GetName]§!"
- mah_conquest_of_egy_decision:0 "Conquer §Y[EGY.GetName]§!"
- mah_integration_irq_decision:0 "Integrate §Y[IRQ.GetName]§!"
- mah_integration_tur_decision:0 "Integrate §Y[TUR.GetName]§!"
- mah_integration_sau_decision:0 "Integrate §Y[SAU.GetName]§!"
- mah_integration_yem_and_oma_decision:0 "Integrate §Y[YEM.GetName]§! and §Y[OMA.GetName]§!"
- mah_integration_kuw_qat_uae_decision:0 "Integrate §Y[KUW.GetName]§!, §Y[QAT.GetName]§! and §Y[UAE.GetName]§!"
- mah_integration_egy_decision:0 "Integrate §Y[EGY.GetName]§!"
- mah_substantiate_claims_tt:0 "Claims are substantiated"
- mah_buy_out_aden_decision:0 "Buy out §Y[659.GetName]§!"
- mah_buy_out_kuwait_decision:0 "Buy out §Y[656.GetName]§!"
- mah_buy_out_qat_decision:0 "Buy out §Y[765.GetName]§!"
- mah_buy_out_uae_decision:0 "Buy out §Y[658.GetName]§!"
- mah_buy_out_egy_decision:0 "Buy out §Y[EGY.GetName]§!"
- mah_buy_out_cyp_decision:0 "Buy out §Y[183.GetName]§!"
- mah_conquest_of_cyp_decision:0 "Conquer §Y[CYP.GetName]§!"
- mah_integration_cyp_decision:0 "Integrate §Y[183.GetName]§!"
+ #mah_crystal_empire_category
+  mah_crystal_empire_category:0 "§YCrystal Empire§!"
+  mah_crystal_empire_category_desc:0 "The dream of our people."
+  mah_form_crystal_empire_decision:0 "Declare the §YCrystal Empire§!"
+  mah_form_crystal_empire_maho_required_states_tt:0 "Control all home territories"
+  mah_conquest_of_yem_decision:0 "Conquer §Y[YEM.GetName]§!"
+  mah_conquest_of_kuw_decision:0 "Conquer §Y[KUW.GetName]§!"
+  mah_conquest_of_qat_decision:0 "Conquer §Y[QAT.GetName]§!"
+  mah_conquest_of_uae_decision:0 "Conquer §Y[UAE.GetName]§!"
 
-#mah_make_friends_with_shamiko_category
- mah_make_friends_with_shamiko_category:0 "Make friends with Shamiko"
- mah_make_friends_with_shamiko_decision:0 "Offer friendship to Shamiko"
+ #mah_make_friends_with_shamiko_category
+  mah_make_friends_with_shamiko_category:0 "Make friends with Shamiko"
+  mah_make_friends_with_shamiko_decision:0 "Offer friendship to Shamiko"
 
-#mah_peace_agreement_with_britain_category
- mah_peace_agreement_with_britain_category:0 "Peace agreement with Britain"
- mah_propose_a_peace_agreement_decision:0 "Propose a peace agreement"
+ #mah_peace_agreement_with_britain_category
+  mah_peace_agreement_with_britain_category:0 "Peace agreement with Britain"
+  mah_propose_a_peace_agreement_decision:0 "Propose a peace agreement"
 
 #MEH
 #kosmos
@@ -328,32 +246,13 @@ meh_mbr_not:0 "Have at least one §YICBM§!"
 meh_nuclear_strike_tt:0 "Nuclear strike"
 meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
 
-#meh_modernization_category
-# meh_modernization_category:0 "Modernization"
-# meh_create_robo_factory:0 "Build a robot factory"
-# meh_upgrade_robo_factory:0 "Upgrade a robot factory"
-# meh_upgrade_robo_factory_tt:0 "The Robot Factory will be modernized"
-# meh_create_construction_robots:0 "Design construction robots"
-# meh_create_warmind:0 "Create War Mind"
-# meh_upgrade_warmind_agr:0 "Offensive modernization"
-# meh_upgrade_warmind_def:0 "Defensive modernization"
-# meh_upgrade_ai:0 "Improve artificial intelligence"
-meh_create_perimetr:0 "Create system §RPerimeter (Dead Hand)§!"
-meh_1_sputnik_tt:0 "Launch the first satellite into space"
-meh_perimetr_tt:0 "A perimeter system will be created"
-meh_warmind_tt:0 "The war mind is created"
-
 #meh_cyborgization_category
 meh_cyborgization_category:0 "Cyborgization"
 meh_cyborgization:0 "Cyborgize §Y[From.GetName]§!"
 
 #meh_exterminatus_category
  meh_exterminatus_category:0 "§RExterminatus§!"
- meh_ignite_exterminatus:0 "§RIgnite Exterminatus§!"
- meh_usa_under_control_tt:0 "Control American territories"
- meh_mex_under_control_tt:0 "Control Mexican territories"
- meh_can_under_control_tt:0 "Control Canadian territories"
- meh_warmind_complete_tt:0 "Warmind upgraded"
+ meh_exterminatus_decision:0 "§RDestroy§! [FROM.GetName]"
 
 #MMS
 #mms_workouts_shamiko_category
@@ -414,28 +313,6 @@ trp_cloning_level_up_decision.t:0 "Expand production of clones"
  trp_form_country_par_required_states_tt:0 "Control all [PAR.GetName] territories"
  trp_form_country_bra_required_states_tt:0 "Control all [BRA.GetName] territories"
  trp_form_country_coring_states_tt:0 "All territories of South America will become national"
- trp_conquest_of_ven_decision:0 "Conquest of [VEN.GetName]"
- trp_conquest_of_col_decision:0 "Conquest of [COL.GetName]"
- trp_conquest_of_ecu_decision:0 "Conquest of [ECU.GetName]"
- trp_conquest_of_pru_decision:0 "Conquest of [PRU.GetName]"
- trp_conquest_of_bol_decision:0 "Conquest of [BOL.GetName]"
- trp_conquest_of_bra_decision:0 "Conquest of [BRA.GetName]"
- trp_conquest_of_chl_decision:0 "Conquest of [CHL.GetName]"
- trp_conquest_of_arg_decision:0 "Conquest of [ARG.GetName]"
- trp_conquest_of_par_decision:0 "Conquest of [PAR.GetName]"
- trp_conquest_of_urg_decision:0 "Conquest of [URG.GetName]"
- trp_conquest_of_pan_decision:0 "Conquest of [PAN.GetName]"
- trp_annex_of_colonies_decision:0 "Annex the colonies"
- trp_integration_ven_decision:0 "Integration [VEN.GetName]"
- trp_integration_col_decision:0 "Integration [COL.GetName]"
- trp_integration_ecu_decision:0 "Integration [ECU.GetName]"
- trp_integration_pru_decision:0 "Integration [PRU.GetName]"
- trp_integration_bol_decision:0 "Integration [BOL.GetName]"
- trp_integration_bra_decision:0 "Integration [BRA.GetName]"
- trp_integration_chl_decision:0 "Integration [CHL.GetName]"
- trp_integration_arg_decision:0 "Integration [ARG.GetName]"
- trp_integration_par_decision:0 "Integration [PAR.GetName]"
- trp_integration_urg_decision:0 "Integration [URG.GetName]"
 
 #economy_decisions
  trp_expansion_of_the_supply_network:0 "Railway network expansion"

@@ -569,6 +569,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		bypass = {
+			has_country_flag = mah_crystal_empire_formed_flag
+		}
 		available = {
 			# Maho
 			custom_trigger_tooltip = {

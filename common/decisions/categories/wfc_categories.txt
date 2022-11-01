@@ -171,23 +171,6 @@ wfc_preparation_for_war_category = {
 	}
 }
 
-wfc_economy_category = {
-	priority = 6
-	icon = generic_economy
-	picture = GFX_wfl_economy_category
-	allowed = {
-		always = no
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-		}
-	}
-}
-
 wfc_budget_category = {
 	priority = 7
 	icon = generic_economy
