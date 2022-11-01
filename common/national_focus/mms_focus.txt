@@ -343,8 +343,9 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available = {
+			is_puppet = no
 			has_government = fascism
-			267 = {
+			411 = {
 				is_owned_and_controlled_by = ROOT
 			}
 			#has_full_control_of_state = 267

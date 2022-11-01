@@ -961,23 +961,10 @@ shared_focus = {
 		}
 	}
 	ai_will_do = {
-		factor = 3
+		factor = 1
 		modifier = {
-			factor = 0
-			date < 1939.1.1
-			OR = {
-				# we dont want chinese minors to go crazy on slots early since they get eaten
-				tag = GXC
-				tag = YUN
-				tag = SHX
-				tag = XSM
-				tag = BEL
-				tag = LUX
-				tag = HOL
-				tag = DEN
-				# we also dont want tiny nations to go crazy with slots right away
-				num_of_controlled_states < 2
-			}
+			is_puppet = yes
+			factor = 5
 		}
 	}
 }
@@ -997,7 +984,11 @@ shared_focus = {
 	}
 	available_if_capitulated = yes
 	ai_will_do = {
-		factor = 2
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 5
+		}
 	}
 	bypass = {
 		custom_trigger_tooltip = {
@@ -1068,7 +1059,11 @@ shared_focus = {
 	}
 	available_if_capitulated = yes
 	ai_will_do = {
-		factor = 2
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 5
+		}
 	}
 	bypass = {
 		custom_trigger_tooltip = {
@@ -1139,7 +1134,11 @@ shared_focus = {
 	}
 	available_if_capitulated = yes
 	ai_will_do = {
-		factor = 2
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 5
+		}
 	}
 	bypass = {
 		custom_trigger_tooltip = {
@@ -1210,7 +1209,11 @@ shared_focus = {
 	}
 	available_if_capitulated = yes
 	ai_will_do = {
-		factor = 2
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 5
+		}
 	}
 	bypass = {
 		custom_trigger_tooltip = {
@@ -1359,6 +1362,13 @@ shared_focus = {
 			}
 		}
 	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 5
+		}
+	}
 }
 
 shared_focus = {
@@ -1376,7 +1386,11 @@ shared_focus = {
 	}
 	available_if_capitulated = yes
 	ai_will_do = {
-		factor = 2
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 5
+		}
 	}
 	bypass = {
 		custom_trigger_tooltip = {
@@ -1525,6 +1539,13 @@ shared_focus = {
 			}
 		}
 	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 5
+		}
+	}
 }
 
 shared_focus = {
@@ -1542,7 +1563,11 @@ shared_focus = {
 	}
 	available_if_capitulated = yes
 	ai_will_do = {
-		factor = 2
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 5
+		}
 	}
 	bypass = {
 		custom_trigger_tooltip = {
@@ -1645,6 +1670,9 @@ shared_focus = {
 	completion_reward = {
 		add_research_slot = 1
 	}
+	ai_will_do = {
+		factor = 5
+	}
 }
 
 shared_focus = {
@@ -1668,6 +1696,9 @@ shared_focus = {
 	available_if_capitulated = yes
 	completion_reward = {
 		add_research_slot = 1
+	}
+	ai_will_do = {
+		factor = 5
 	}
 }
 
@@ -1737,7 +1768,7 @@ shared_focus = {
 	available = {
 		if = {
 			limit = {
-				is_ai = no
+				is_puppet = no
 			}
 			OR = {
 				has_government = fascism
@@ -1799,7 +1830,7 @@ shared_focus = {
 	available = {
 		if = {
 			limit = {
-				is_ai = no
+				is_puppet = no
 			}
 			OR = {
 				has_government = fascism
@@ -1863,7 +1894,7 @@ shared_focus = {
 	available = {
 		if = {
 			limit = {
-				is_ai = no
+				is_puppet = no
 			}
 			OR = {
 				has_government = communism
@@ -1923,7 +1954,7 @@ shared_focus = {
 	available = {
 		if = {
 			limit = {
-				is_ai = no
+				is_puppet = no
 			}
 			OR = {
 				has_government = democratic
@@ -1987,7 +2018,7 @@ shared_focus = {
 	available = {
 		if = {
 			limit = {
-				is_ai = no
+				is_puppet = no
 			}
 			has_government = democratic
 		}
@@ -2107,7 +2138,7 @@ shared_focus = {
 	available = {
 		if = {
 			limit = {
-				is_ai = no
+				is_puppet = no
 			}
 			has_government = neutrality
 		}
