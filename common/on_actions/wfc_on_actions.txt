@@ -600,6 +600,20 @@ on_actions = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					tag = ZMB
+				}
+				every_state = {
+					limit = {
+						is_core_of = ZMB
+					}
+					remove_core_of = ZMB
+				}
+				MMS = {
+					transfer_state = 411
+				}
+			}
 		}
 	}
 	on_weekly_ZMB = {

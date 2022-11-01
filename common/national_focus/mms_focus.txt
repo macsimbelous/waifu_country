@@ -364,6 +364,10 @@ focus_tree = {
 						has_idea = MMS_saphentite_neikes
 						factor = 1.6
 					}
+					modifier = {
+						amount_research_slots > 5
+						factor = 1.6
+					}
 					add_ideas = mms_necromancy
 					create_operative_leader = {
 						name = "Sakura Minamoto"
@@ -385,9 +389,9 @@ focus_tree = {
 					hidden_effect = {
 						ZMB = {
 							#set_state_controller = 267
-							transfer_state = 267
+							transfer_state = 411
 							load_oob = ZMB_1936
-							267 = {
+							411 = {
 								add_core_of = ZMB
 								set_temp_variable = {
 									i = 0
