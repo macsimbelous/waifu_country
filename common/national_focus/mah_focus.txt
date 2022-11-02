@@ -496,56 +496,115 @@ focus_tree = {
 			add_state_claim = 765
 			add_state_claim = 658
 			add_state_claim = 659
+			add_state_claim = 183
+			add_state_claim = 906
 			create_wargoal = {
 				target = ENG
 				type = take_claimed_state
 			}
 			hidden_effect = {
 				656 = {
-					ROOT = {
-						create_wargoal = {
-							target = PREV.OWNER
-							type = annex_everything
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
 						}
 					}
 				}
 				765 = {
-					ROOT = {
-						create_wargoal = {
-							target = PREV.OWNER
-							type = annex_everything
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
 						}
 					}
 				}
 				658 = {
-					ROOT = {
-						create_wargoal = {
-							target = PREV.OWNER
-							type = annex_everything
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
 						}
 					}
 				}
 				659 = {
-					ROOT = {
-						create_wargoal = {
-							target = PREV.OWNER
-							type = annex_everything
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
 						}
 					}
 				}
 				446 = {
-					ROOT = {
-						create_wargoal = {
-							target = PREV.OWNER
-							type = annex_everything
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
 						}
 					}
 				}
 				183 = {
-					ROOT = {
-						create_wargoal = {
-							target = PREV.OWNER
-							type = annex_everything
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
+						}
+					}
+				}
+				906 = {
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
 						}
 					}
 				}

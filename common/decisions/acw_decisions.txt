@@ -784,38 +784,12 @@ acw_faction_category = {
 			}
 		}
 		available = {
+			NOT = {
+				has_war_with = HEN
+			}
 			HEN = {
 				has_same_ideology = yes
 			}
-			# if = {
-			# 	limit = {
-			# 		has_government = democratic
-			# 	}
-			# 	HEN = {
-			# 		has_government = democratic
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = {
-			# 		has_government = communism
-			# 	}
-			# 	HEN = {
-			# 		has_government = communism
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = {
-			# 		has_government = fascism
-			# 	}
-			# 	HEN = {
-			# 		has_government = fascism
-			# 	}
-			# }
-			# else = {
-			# 	HEN = {
-			# 		has_government = neutrality
-			# 	}
-			# }
 		}
 		ai_will_do = {
 			base = 2
@@ -854,6 +828,9 @@ acw_faction_category = {
 			}
 		}
 		available = {
+			NOT = {
+				has_war_with = MAH
+			}
 			MAH = {
 				has_same_ideology = yes
 			}
@@ -895,6 +872,9 @@ acw_faction_category = {
 			}
 		}
 		available = {
+			NOT = {
+				has_war_with = MEH
+			}
 			MEH = {
 				has_same_ideology = yes
 			}
@@ -936,6 +916,9 @@ acw_faction_category = {
 			}
 		}
 		available = {
+			NOT = {
+				has_war_with = MMS
+			}
 			MMS = {
 				has_same_ideology = yes
 			}
@@ -977,6 +960,9 @@ acw_faction_category = {
 			}
 		}
 		available = {
+			NOT = {
+				has_war_with = TRP
+			}
 			TRP = {
 				has_same_ideology = yes
 			}

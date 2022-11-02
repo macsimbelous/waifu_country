@@ -692,11 +692,17 @@ country_event = {
 				}
 				transfer_state = 906
 			}
+			else = {
+				remove_state_claim = 906
+			}
 			if = {
 				limit = {
 					controls_state = 183
 				}
 				transfer_state = 183
+			}
+			else = {
+				remove_state_claim = 906
 			}
 			puppet = EGY
 			EGY = {
