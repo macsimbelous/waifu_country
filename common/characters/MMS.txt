@@ -7,7 +7,7 @@ characters = {
 				small = GFX_idea_mms_velvet_crowe
 			}
 			civilian = {
-				large = GFX_portrait_mms_velvet_crowe
+				large = GFX_portrait_mms_velvet_crowe_civilian
 			}
 		}
 		advisor = {
@@ -1248,6 +1248,25 @@ characters = {
 			traits = {
 				wfc_trait_secretary
 			}
+		}
+	}
+	MMS_power = {
+		name = MMS_power
+		portraits = {
+			army = {
+				small = GFX_idea_mms_power
+				large = GFX_portrait_mms_power_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+			}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 }

@@ -284,8 +284,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/velvet_crowe_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_mms_velvet_crowe"
-		texturefile = "gfx/leaders/MMS/Velvet_Crowe.dds"
+		name = "GFX_portrait_mms_velvet_crowe_civilian"
+		texturefile = "gfx/leaders/MMS/velvet_crowe_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mms_vignette_april_tsukinose"
@@ -426,6 +426,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_mms_shion_civilian"
 		texturefile = "gfx/leaders/MMS/shion_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_power"
+		texturefile = "gfx/leaders/MMS/power_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_power_army"
+		texturefile = "gfx/leaders/MMS/power_army.dds"
 	}
 	#generic
 	spriteType = {
