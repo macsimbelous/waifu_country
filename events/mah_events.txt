@@ -470,7 +470,7 @@ country_event = {
 			add_political_power = -300
 			set_autonomy = {
 				target = EGY
-				#autonomy_state = autonomy_federation_subject
+				#autonomy_state = wfc_autonomy_province
 				autonomy_state = autonomy_dominion
 			}
 			country_event = mah_event.9

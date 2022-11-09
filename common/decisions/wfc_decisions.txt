@@ -762,7 +762,7 @@ wfc_subjects_category = {
 			# }
 			set_autonomy = {
 				target = FROM
-				autonomy_state = autonomy_federation_subject
+				autonomy_state = wfc_autonomy_province
 			}
 			every_controlled_state = {
 				limit = {
@@ -1075,7 +1075,7 @@ wfc_subjects_category = {
 		# visible = {
 		# 	FROM = {
 		# 		NOT = {
-		# 			has_autonomy_state = autonomy_federation_subject
+		# 			has_autonomy_state = wfc_autonomy_province
 		# 		}
 		# 	}
 		# }
@@ -1102,7 +1102,7 @@ wfc_subjects_category = {
 		target_trigger = {
 			FROM = {
 				NOT = {
-					has_autonomy_state = autonomy_federation_subject
+					has_autonomy_state = wfc_autonomy_province
 				}
 			}
 		}
@@ -1154,7 +1154,7 @@ wfc_subjects_category = {
 			}
 			set_autonomy = {
 				target = FROM
-				autonomy_state = autonomy_federation_subject
+				autonomy_state = wfc_autonomy_province
 			}
 			FROM = {
 				if = {
@@ -1328,20 +1328,20 @@ wfc_subjects_category = {
 		cost = 50
 		visible = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 				num_divisions > 0
 			}
 		}
 		available = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 				num_divisions > 0
 			}
 		}
 		target_array = subjects
 		target_trigger = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 			}
 		}
 		complete_effect = {
@@ -1375,7 +1375,7 @@ wfc_subjects_category = {
 		visible = {
 			FROM = {
 				is_puppet = yes
-				# has_autonomy_state = autonomy_federation_subject
+				# has_autonomy_state = wfc_autonomy_province
 				check_variable = {
 					num_ships > 0
 				}
@@ -1389,7 +1389,7 @@ wfc_subjects_category = {
 		available = {
 			FROM = {
 				is_puppet = yes
-				#has_autonomy_state = autonomy_federation_subject
+				#has_autonomy_state = wfc_autonomy_province
 				custom_trigger_tooltip = {
 					tooltip = wfc_transfer_navy_from_federal_subject_tt
 					check_variable = {
@@ -1402,7 +1402,7 @@ wfc_subjects_category = {
 		target_trigger = {
 			FROM = {
 				is_puppet = yes
-				#has_autonomy_state = autonomy_federation_subject
+				#has_autonomy_state = wfc_autonomy_province
 			}
 		}
 		complete_effect = {
@@ -1427,7 +1427,7 @@ wfc_subjects_category = {
 			}
 			any_other_country = {
 				is_puppet_of = ROOT
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 			}
 		}
 		ai_will_do = {
@@ -1461,7 +1461,7 @@ wfc_subjects_category = {
 				}
 				OWNER = {
 					is_puppet_of = ROOT
-					has_autonomy_state = autonomy_federation_subject
+					has_autonomy_state = wfc_autonomy_province
 				}
 			}
 		}
@@ -1474,7 +1474,7 @@ wfc_subjects_category = {
 				is_core_of = OWNER
 				OWNER = {
 					is_puppet_of = ROOT
-					has_autonomy_state = autonomy_federation_subject
+					has_autonomy_state = wfc_autonomy_province
 				}
 			}
 		}
@@ -1512,7 +1512,7 @@ wfc_subjects_category = {
 				}
 				OWNER = {
 					is_puppet_of = ROOT
-					has_autonomy_state = autonomy_federation_subject
+					has_autonomy_state = wfc_autonomy_province
 				}
 			}
 		}
@@ -1525,7 +1525,7 @@ wfc_subjects_category = {
 				}
 				OWNER = {
 					is_puppet_of = ROOT
-					has_autonomy_state = autonomy_federation_subject
+					has_autonomy_state = wfc_autonomy_province
 				}
 			}
 		}
@@ -1569,7 +1569,7 @@ wfc_subjects_category = {
 					}
 					NOT = {
 						has_autonomy_state = autonomy_dominion
-						has_autonomy_state = autonomy_federation_subject
+						has_autonomy_state = wfc_autonomy_province
 					}
 				}
 			}
@@ -1588,7 +1588,7 @@ wfc_subjects_category = {
 					}
 					NOT = {
 						has_autonomy_state = autonomy_dominion
-						has_autonomy_state = autonomy_federation_subject
+						has_autonomy_state = wfc_autonomy_province
 					}
 				}
 			}
@@ -1688,7 +1688,7 @@ wfc_subjects_category = {
 		visible = {
 			any_other_country = {
 				is_puppet_of = ROOT
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 				wfc_same_conscription = no
 			}
 		}
@@ -1700,7 +1700,7 @@ wfc_subjects_category = {
 				array = subjects
 				if = {
 					limit = {
-						has_autonomy_state = autonomy_federation_subject
+						has_autonomy_state = wfc_autonomy_province
 					}
 					if = {
 						limit = {
@@ -1768,13 +1768,13 @@ wfc_subjects_category = {
 		visible = {
 			any_other_country = {
 				is_puppet_of = ROOT
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 			}
 		}
 		available = {
 			any_other_country = {
 				is_puppet_of = ROOT
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 				has_manpower > 10000
 			}
 		}
@@ -1795,7 +1795,7 @@ wfc_subjects_category = {
 					array = subjects
 					if = {
 						limit = {
-							has_autonomy_state = autonomy_federation_subject
+							has_autonomy_state = wfc_autonomy_province
 						}
 						set_temp_variable = {
 							temp_var = manpower_k
@@ -1829,7 +1829,7 @@ wfc_subjects_category = {
 		}
 		visible = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 				any_owned_state = {
 					NOT = {
 						is_core_of = FROM
@@ -1840,7 +1840,7 @@ wfc_subjects_category = {
 		target_array = subjects
 		target_trigger = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 				any_owned_state = {
 					NOT = {
 						is_core_of = FROM
@@ -1870,7 +1870,7 @@ wfc_subjects_category = {
 		cost = 25
 		visible = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 				#num_occupied_states > 0
 				any_controlled_state = {
 					NOT = {
@@ -1887,7 +1887,7 @@ wfc_subjects_category = {
 		target_array = subjects
 		target_trigger = {
 			FROM = {
-				has_autonomy_state = autonomy_federation_subject
+				has_autonomy_state = wfc_autonomy_province
 				any_controlled_state = {
 					NOT = {
 						is_core_of = FROM
@@ -4372,7 +4372,7 @@ wfc_puppets_category = {
 			}
 			# set_autonomy = {
 			# 	target = FROM
-			# 	#autonomy_state = autonomy_federation_subject
+			# 	#autonomy_state = wfc_autonomy_province
 			# 	autonomy_state = autonomy_dominion
 			# }
 			# add_named_threat = {

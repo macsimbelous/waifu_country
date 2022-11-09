@@ -35,7 +35,6 @@ ACW_historical = {
 	traits = {
 		wfc_silent_workhorse = 200
 		wfc_captain_of_industry = 5
-		wfc_intelligence_princess = 5
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)
 	# Recommended around 1.0. Useful for relation between plans
@@ -73,9 +72,9 @@ ACW_democratic = {
 	research = {
 	}
 	traits = {
-		wfc_silent_workhorse = 200
+		democratic_reformer = 200
+		wfc_silent_workhorse = 100
 		wfc_captain_of_industry = 5
-		wfc_intelligence_princess = 5
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)
 	# Recommended around 1.0. Useful for relation between plans
@@ -115,9 +114,9 @@ ACW_communist = {
 	research = {
 	}
 	traits = {
-		wfc_silent_workhorse = 200
+		communist_revolutionary = 200
+		wfc_silent_workhorse = 100
 		wfc_captain_of_industry = 5
-		wfc_war_industrialist = 2
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)
 	# Recommended around 1.0. Useful for relation between plans
@@ -157,8 +156,8 @@ ACW_fascist = {
 	research = {
 	}
 	traits = {
-		wfc_silent_workhorse = 200
-		fascist_demagogue = 100
+		wfc_silent_workhorse = 100
+		fascist_demagogue = 200
 		wfc_war_industrialist = 2
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)

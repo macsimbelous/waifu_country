@@ -33,3 +33,183 @@ ACW_ai_behavior = {
 		desc = "RULE_OPTION_RANDOM_AI_DESC"
 	}
 }
+HEN_ai_behavior = {
+	name = "HEN_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_HEN_AI_DESC"
+		#allow_achievements = yes
+	}
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC"
+		desc = "RULE_DEMOCRATIC_HEN_AI_DESC"
+	}
+	option = {
+		name = NEUTRALITY
+		text = "RULE_OPTION_NEUTRALITY"
+		desc = "RULE_OPTION_NEUTRALITY_HEN_AI_DESC"
+	}
+	option = {
+		name = FASCIST
+		text = "RULE_OPTION_FASCIST"
+		desc = "RULE_OPTION_FASCIST_HEN_AI_DESC"
+	}
+	option = {
+		name = FASCIST_ALTERNATE
+		text = "RULE_OPTION_FASCIST_ALTERNATE"
+		desc = "RULE_OPTION_FASCIST_ALTERNATE_HEN_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+MAH_ai_behavior = {
+	name = "MAH_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_MAH_AI_DESC"
+		#allow_achievements = yes
+	}
+	option = {
+		name = NEUTRALITY
+		text = "RULE_OPTION_NEUTRALITY"
+		desc = "RULE_OPTION_NEUTRALITY_MAH_AI_DESC"
+	}
+	option = {
+		name = COMMUNIST
+		text = "RULE_OPTION_COMMUNIST"
+		desc = "RULE_OPTION_COMMUNIST_MAH_AI_DESC"
+	}
+	option = {
+		name = FASCIST
+		text = "RULE_OPTION_FASCIST"
+		desc = "RULE_OPTION_FASCIST_MAH_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+MEH_ai_behavior = {
+	name = "MEH_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_MEH_AI_DESC"
+		#allow_achievements = yes
+	}
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC"
+		desc = "RULE_DEMOCRATIC_MEH_AI_DESC"
+	}
+	option = {
+		name = COMMUNIST
+		text = "RULE_OPTION_COMMUNIST"
+		desc = "RULE_OPTION_COMMUNIST_MEH_AI_DESC"
+	}
+	option = {
+		name = NEUTRALITY
+		text = "RULE_OPTION_NEUTRALITY"
+		desc = "RULE_OPTION_NEUTRALITY_MEH_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+MMS_ai_behavior = {
+	name = "MMS_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_MMS_AI_DESC"
+		#allow_achievements = yes
+	}
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC"
+		desc = "RULE_DEMOCRATIC_MMS_AI_DESC"
+	}
+	option = {
+		name = COMMUNIST
+		text = "RULE_OPTION_COMMUNIST"
+		desc = "RULE_OPTION_COMMUNIST_MMS_AI_DESC"
+	}
+	option = {
+		name = FASCIST
+		text = "RULE_OPTION_FASCIST"
+		desc = "RULE_OPTION_FASCIST_MMS_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+TRP_ai_behavior = {
+	name = "TRP_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_TRP_AI_DESC"
+		#allow_achievements = yes
+	}
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC"
+		desc = "RULE_DEMOCRATIC_TRP_AI_DESC"
+	}
+	option = {
+		name = FASCIST
+		text = "RULE_OPTION_FASCIST"
+		desc = "RULE_OPTION_FASCIST_TRP_AI_DESC"
+	}
+	option = {
+		name = NEUTRALITY
+		text = "RULE_OPTION_NEUTRALITY"
+		desc = "RULE_OPTION_NEUTRALITY_TRP_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}

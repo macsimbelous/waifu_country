@@ -454,14 +454,14 @@ wfc_test_category = {
 			}
 			set_autonomy = {
 				target = YUG
-				autonomy_state = autonomy_federation_subject
+				autonomy_state = wfc_autonomy_province
 			}
 			ROM = {
 				set_country_flag = acw_federation_subject_flag
 			}
 			set_autonomy = {
 				target = ROM
-				autonomy_state = autonomy_federation_subject
+				autonomy_state = wfc_autonomy_province
 			}
 		}
 	}
@@ -514,7 +514,7 @@ wfc_test_category = {
 				array = subjects
 				if = {
 					limit = {
-						has_autonomy_state = autonomy_federation_subject
+						has_autonomy_state = wfc_autonomy_province
 					}
 					set_temp_variable = {
 						wfc_count_dokyard_2 = 0

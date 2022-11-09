@@ -55,7 +55,7 @@ wfc_instantiate_federation_subject = {
 			}
 			set_autonomy = {
 				target = country_to_initiate
-				autonomy_state = autonomy_federation_subject
+				autonomy_state = wfc_autonomy_province
 			}
 			every_controlled_state = {
 				limit = {
@@ -70,7 +70,7 @@ wfc_instantiate_federation_subject = {
 			}
 			# release_autonomy = {
 			# 	target = country_to_initiate
-			# 	autonomy_state = autonomy_federation_subject
+			# 	autonomy_state = wfc_autonomy_province
 			# 	freedom_level = 0.5
 			# 	release_non_owned_controlled = yes
 			# }
@@ -222,7 +222,7 @@ wfc_instantiate_federation_subject = {
 					}
 					set_autonomy = {
 						target = new_country
-						autonomy_state = autonomy_federation_subject
+						autonomy_state = wfc_autonomy_province
 					}
 					every_controlled_state = {
 						limit = {
@@ -238,7 +238,7 @@ wfc_instantiate_federation_subject = {
 					# puppet = new_country
 					# set_autonomy = {
 					# 	target = new_country
-					# 	autonomy_state = autonomy_federation_subject
+					# 	autonomy_state = wfc_autonomy_province
 					# 	freedom_level = 0.5
 					# }
 				}

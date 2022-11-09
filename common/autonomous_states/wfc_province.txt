@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_federation_subject
+	id = wfc_autonomy_province
 	is_puppet = yes
 	use_overlord_color = yes
 	min_freedom_level = 0.1

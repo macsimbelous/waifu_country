@@ -5,10 +5,23 @@ TRP_historical = {
 		original_tag = TRP
 	}
 	enable = {
-		is_historical_focus_on = yes
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = TRP_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = TRP_AI_RANDOM_HISTORICAL
+			has_game_rule = {
+				rule = TRP_ai_behavior
+				option = HISTORICAL
+			}
+		}
 	}
 	abort = {
-		always = no
+		is_subject = yes
 	}
 	ai_national_focuses = {
 		wfc_political_effort
@@ -16,15 +29,133 @@ TRP_historical = {
 		wfc_internationalism_focus
 	}
 	research = {
-		infantry_weapons = 50
-		infantry_tech = 15
-		artillery = 8
-		support_tech = 6.5
+	}
+	traits = {
+		wfc_silent_workhorse = 100
+		wfc_captain_of_industry = 5
+		communist_revolutionary = 200
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1
+		}
+	}
+}
+TRP_neutrality = {
+	name = "TRP neutrality"
+	desc = ""
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		OR = {
+			has_country_flag = TRP_AI_RANDOM_NEUTRALITY
+			has_game_rule = {
+				rule = TRP_ai_behavior
+				option = NEUTRALITY
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_focus_individualism
+		wfc_focus_authoritarianism
+		wfc_neutrality_focus
+		wfc_deterrence
+	}
+	research = {
 	}
 	traits = {
 		wfc_silent_workhorse = 200
 		wfc_captain_of_industry = 5
-		communist_revolutionary = 10
+		wfc_intelligence_princess = 5
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1
+		}
+	}
+}
+TRP_democratic = {
+	name = "TRP DEMOCRATIC plan"
+	desc = ""
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		OR = {
+			has_country_flag = TRP_AI_RANDOM_DEMOCRATIC
+			has_game_rule = {
+				rule = TRP_ai_behavior
+				option = DEMOCRATIC
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_focus_individualism
+		wfc_focus_democracy
+		wfc_interventionism_focus
+	}
+	research = {
+	}
+	traits = {
+		democratic_reformer = 200
+		wfc_silent_workhorse = 100
+		wfc_intelligence_princess = 5
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}
+TRP_fascist = {
+	name = "TRP FASCIST plan"
+	desc = ""
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		OR = {
+			has_country_flag = TRP_AI_RANDOM_FASCIST
+			has_game_rule = {
+				rule = TRP_ai_behavior
+				option = FASCIST
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_collectivist_ethos
+		wfc_nationalism_focus
+		wfc_militarism
+		wfc_military_youth
+		wfc_paramilitarism
+	}
+	research = {
+	}
+	traits = {
+		wfc_silent_workhorse = 100
+		fascist_demagogue = 200
 		wfc_war_industrialist = 5
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)
@@ -36,4 +167,3 @@ TRP_historical = {
 		}
 	}
 }
-

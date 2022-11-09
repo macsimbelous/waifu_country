@@ -64,23 +64,23 @@ on_actions = {
 								}
 							}
 							has_game_rule = {
-								rule = SOV_ai_behavior
+								rule = ACW_ai_behavior
 								option = RANDOM
 							}
 						}
 					}
 					random_list = {
 						50 = {
-							SOV = { set_country_flag = ACW_AI_RANDOM_HISTORICAL }
+							set_country_flag = ACW_AI_RANDOM_HISTORICAL
 						}
 						50 = {
-							SOV = { set_country_flag = ACW_AI_RANDOM_DEMOCRATIC }
+							set_country_flag = ACW_AI_RANDOM_DEMOCRATIC
 						}
 						50 = {
-							SOV = { set_country_flag = ACW_AI_RANDOM_COMMUNIST }
+							set_country_flag = ACW_AI_RANDOM_COMMUNIST
 						}
 						50 = {
-							SOV = { set_country_flag = ACW_AI_RANDOM_FASCIST }
+							set_country_flag = ACW_AI_RANDOM_FASCIST
 						}
 					}
 				}
@@ -128,6 +128,40 @@ on_actions = {
 				set_variable = {
 					wfc_subsidies_count = 0
 				}
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								is_historical_focus_on = no
+								has_game_rule = {
+									rule = HEN_ai_behavior
+									option = DEFAULT
+								}
+							}
+							has_game_rule = {
+								rule = HEN_ai_behavior
+								option = RANDOM
+							}
+						}
+					}
+					random_list = {
+						50 = {
+							set_country_flag = HEN_AI_RANDOM_HISTORICAL
+						}
+						50 = {
+							set_country_flag = HEN_AI_RANDOM_DEMOCRATIC
+						}
+						50 = {
+							set_country_flag = HEN_AI_RANDOM_FASCIST
+						}
+						50 = {
+							set_country_flag = HEN_AI_RANDOM_FASCIST_ALTERNATE
+						}
+						50 = {
+							set_country_flag = HEN_AI_RANDOM_NEUTRALITY
+						}
+					}
+				}
 			}
 			MAH = {
 				set_variable = {
@@ -172,15 +206,37 @@ on_actions = {
 				set_variable = {
 					wfc_subsidies_count = 0
 				}
-				# if = {
-				# 	limit = {
-				# 		is_historical_focus_on = yes
-				# 	}
-				# 	add_timed_idea = {
-				# 		idea = democratic_influence
-				# 		days = 720
-				# 	}
-				# }
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								is_historical_focus_on = no
+								has_game_rule = {
+									rule = MAH_ai_behavior
+									option = DEFAULT
+								}
+							}
+							has_game_rule = {
+								rule = MAH_ai_behavior
+								option = RANDOM
+							}
+						}
+					}
+					random_list = {
+						50 = {
+							set_country_flag = MAH_AI_RANDOM_HISTORICAL
+						}
+						50 = {
+							set_country_flag = MAH_AI_RANDOM_NEUTRALITY
+						}
+						50 = {
+							set_country_flag = MAH_AI_RANDOM_COMMUNIST
+						}
+						50 = {
+							set_country_flag = MAH_AI_RANDOM_FASCIST
+						}
+					}
+				}
 			}
 			MEH = {
 				#robofactory
@@ -229,6 +285,37 @@ on_actions = {
 				}
 				set_variable = {
 					wfc_subsidies_count = 0
+				}
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								is_historical_focus_on = no
+								has_game_rule = {
+									rule = MEH_ai_behavior
+									option = DEFAULT
+								}
+							}
+							has_game_rule = {
+								rule = MEH_ai_behavior
+								option = RANDOM
+							}
+						}
+					}
+					random_list = {
+						50 = {
+							set_country_flag = MEH_AI_RANDOM_HISTORICAL
+						}
+						50 = {
+							set_country_flag = MEH_AI_RANDOM_NEUTRALITY
+						}
+						50 = {
+							set_country_flag = MEH_AI_RANDOM_COMMUNIST
+						}
+						50 = {
+							set_country_flag = MEH_AI_RANDOM_DEMOCRATIC
+						}
+					}
 				}
 			}
 			MMS = {
@@ -288,15 +375,37 @@ on_actions = {
 				set_variable = {
 					mms_shamiko_workouts_count = 0
 				}
-				# if = {
-				# 	limit = {
-				# 		is_historical_focus_on = yes
-				# 	}
-				# 	add_timed_idea = {
-				# 		idea = neutrality_influence
-				# 		days = 720
-				# 	}
-				# }
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								is_historical_focus_on = no
+								has_game_rule = {
+									rule = MMS_ai_behavior
+									option = DEFAULT
+								}
+							}
+							has_game_rule = {
+								rule = MMS_ai_behavior
+								option = RANDOM
+							}
+						}
+					}
+					random_list = {
+						50 = {
+							set_country_flag = MMS_AI_RANDOM_HISTORICAL
+						}
+						50 = {
+							set_country_flag = MMS_AI_RANDOM_FASCIST
+						}
+						50 = {
+							set_country_flag = MMS_AI_RANDOM_COMMUNIST
+						}
+						50 = {
+							set_country_flag = MMS_AI_RANDOM_DEMOCRATIC
+						}
+					}
+				}
 			}
 			TRP = {
 				set_variable = {
@@ -340,6 +449,37 @@ on_actions = {
 				}
 				set_variable = {
 					wfc_subsidies_count = 0
+				}
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								is_historical_focus_on = no
+								has_game_rule = {
+									rule = TRP_ai_behavior
+									option = DEFAULT
+								}
+							}
+							has_game_rule = {
+								rule = TRP_ai_behavior
+								option = RANDOM
+							}
+						}
+					}
+					random_list = {
+						50 = {
+							set_country_flag = TRP_AI_RANDOM_HISTORICAL
+						}
+						50 = {
+							set_country_flag = TRP_AI_RANDOM_FASCIST
+						}
+						50 = {
+							set_country_flag = TRP_AI_RANDOM_NEUTRALITY
+						}
+						50 = {
+							set_country_flag = TRP_AI_RANDOM_DEMOCRATIC
+						}
+					}
 				}
 			}
 		}
@@ -641,147 +781,4 @@ on_actions = {
 			}
 		}
 	}
-	# on_monthly = {
-	# 	effect = {
-	# 		if = {
-	# 			limit = {
-	# 				OR = {
-	# 					original_tag = ACW
-	# 					original_tag = HEN
-	# 					original_tag = MAH
-	# 					original_tag = TRP
-	# 					original_tag = MMS
-	# 					original_tag = MEH
-	# 				}
-	# 			}
-	# 			set_temp_variable = {
-	# 				wfc_count_dokyard = 0
-	# 			}
-	# 			for_each_scope_loop = {
-	# 				array = subjects
-	# 				if = {
-	# 					limit = {
-	# 						has_autonomy_state = autonomy_federation_subject
-	# 					}
-	# 					set_temp_variable = {
-	# 						wfc_count_dokyard_2 = 0
-	# 					}
-	# 					for_each_scope_loop = {
-	# 						array = owned_states
-	# 						add_to_temp_variable = {
-	# 							wfc_count_dokyard_2 = building_level@dockyard
-	# 						}
-	# 					}
-	# add_offsite_building = {
-	# 	type = dockyard
-	# 	level = wfc_count_dokyard_prev_2
-	# }
-	# set_variable = {
-	# 	wfc_count_dokyard_prev_2 = wfc_count_dokyard_2
-	# }
-	# 					add_to_temp_variable = {
-	# 						wfc_count_dokyard = wfc_count_dokyard_2
-	# 					}
-	# 					set_temp_variable = {
-	# 						wfc_temp_var = 0
-	# 					}
-	# 					subtract_from_temp_variable = {
-	# 						wfc_temp_var = wfc_count_dokyard_2
-	# 					}
-	# 					add_offsite_building = {
-	# 						type = dockyard
-	# 						level = wfc_temp_var
-	# 					}
-	# 				}
-	# 			}
-	# 			set_temp_variable = {
-	# 				wfc_count_dokyard_temp = 0
-	# 			}
-	# 			subtract_from_temp_variable = {
-	# 				wfc_count_dokyard_temp = wfc_count_dokyard_prev
-	# 			}
-	# 			add_offsite_building = {
-	# 				type = dockyard
-	# 				level = wfc_count_dokyard_temp
-	# 			}
-	# 			set_variable = {
-	# 				wfc_count_dokyard_prev = wfc_count_dokyard
-	# 			}
-	# 			add_offsite_building = {
-	# 				type = dockyard
-	# 				level = wfc_count_dokyard
-	# 			}
-	# 		}
-	# 	}
-	# }
-	# on_startup = {
-	# 	effect = {
-	# 		ACW = {
-	# 			set_variable = {
-	# 				acw_core_bonus_to_pp = 0.05
-	# 			}
-	# 			add_dynamic_modifier = {
-	# 				modifier = acw_core_states_to_pp
-	# 			}
-	# 		}
-	# 	}
-	# }
-	# on_weekly_ACW = {
-	# 	effect = {
-	# 		#every_owned_state = {
-	# 		#	limit = {
-	# 		#		is_fully_controlled_by = WFL
-	# 		#		compliance > 0.9
-	# 		#		resistance < 0.05
-	# 		#		NOT = {
-	# 		#			is_core_of = WFL
-	# 		#		}
-	# 		#	}
-	# 		#	for_each_loop = {
-	# 		#		array = core_countries
-	# 		#		value = temp_tag
-	# 		#		remove_core_of = temp_var:temp_tag
-	# 		#	}
-	# 		#	add_core_of = WFL
-	# 		#}
-	# 		set_temp_variable = {
-	# 			temp = core_states
-	# 		}
-	# 		multiply_temp_variable = {
-	# 			temp = 0.01
-	# 		}
-	# 		set_variable = {
-	# 			acw_core_bonus_to_pp = temp
-	# 		}
-	# 	}
-	# }
-	#ROOT is subject FROM is overlord
-	# on_subject_annexed = {
-	# 	effect = {
-	# 		if = {
-	# 			limit = {
-	# 				FROM = {
-	# 					OR = {
-	# 						original_tag = ACW
-	# 						original_tag = HEN
-	# 						original_tag = MAH
-	# 						original_tag = TRP
-	# 						original_tag = MEH
-	# 						original_tag = MMS
-	# 					}
-	# 				}
-	# 			}
-	# 			ROOT = {
-	# 				every_owned_state = {
-	# 					# for_each_loop = {
-	# 					# 	array = core_countries
-	# 					# 	value = temp_tag
-	# 					# 	remove_core_of = temp_var:temp_tag
-	# 					# }
-	# 					add_core_of = FROM
-	# 				}
-	# 			}
-	# 		}
-	# 	}
-	# }
 }

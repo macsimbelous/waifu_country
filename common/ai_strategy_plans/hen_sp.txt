@@ -1,14 +1,27 @@
-ACW_historical = {
+HEN_historical = {
 	name = "HEN historical plan"
 	desc = "Essentially historical behaviour for HEN"
 	allowed = {
 		original_tag = HEN
 	}
 	enable = {
-		is_historical_focus_on = yes
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = HEN_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = HEN_AI_RANDOM_HISTORICAL
+			has_game_rule = {
+				rule = HEN_ai_behavior
+				option = HISTORICAL
+			}
+		}
 	}
 	abort = {
-		always = no
+		is_subject = yes
 	}
 	ai_national_focuses = {
 		wfc_political_effort
@@ -17,16 +30,11 @@ ACW_historical = {
 		hen_conquest_of_japan
 	}
 	research = {
-		infantry_weapons = 50
-		infantry_tech = 15
-		artillery = 8
-		support_tech = 6.5
 	}
 	traits = {
-		wfc_silent_workhorse = 200
+		wfc_silent_workhorse = 100
 		wfc_captain_of_industry = 5
-		communist_revolutionary = 10
-		wfc_war_industrialist = 5
+		communist_revolutionary = 200
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)
 	# Recommended around 1.0. Useful for relation between plans
@@ -37,4 +45,170 @@ ACW_historical = {
 		}
 	}
 }
-
+HEN_fascist = {
+	name = "HEN FASCIST plan"
+	desc = ""
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		OR = {
+			has_country_flag = HEN_AI_RANDOM_FASCIST
+			has_game_rule = {
+				rule = HEN_ai_behavior
+				option = FASCIST
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_collectivist_ethos
+		wfc_nationalism_focus
+		wfc_militarism
+		wfc_military_youth
+		wfc_paramilitarism
+		hen_conquest_of_japan
+	}
+	research = {
+	}
+	traits = {
+		wfc_silent_workhorse = 100
+		fascist_demagogue = 200
+		wfc_war_industrialist = 2
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1
+		}
+	}
+}
+HEN_fascist_alternate = {
+	name = "HEN FASCIST ALTERNATE plan"
+	desc = ""
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		OR = {
+			has_country_flag = HEN_AI_RANDOM_FASCIST_ALTERNATE
+			has_game_rule = {
+				rule = HEN_ai_behavior
+				option = FASCIST_ALTERNATE
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_collectivist_ethos
+		wfc_nationalism_focus
+		wfc_militarism
+		wfc_military_youth
+		wfc_paramilitarism
+		hen_friendship_with_japan
+	}
+	research = {
+	}
+	traits = {
+		wfc_silent_workhorse = 100
+		fascist_demagogue = 200
+		wfc_war_industrialist = 2
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1
+		}
+	}
+}
+HEN_neutrality = {
+	name = "HEN neutrality"
+	desc = ""
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		OR = {
+			has_country_flag = HEN_AI_RANDOM_NEUTRALITY
+			has_game_rule = {
+				rule = HEN_ai_behavior
+				option = NEUTRALITY
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_focus_individualism
+		wfc_focus_authoritarianism
+		wfc_neutrality_focus
+		wfc_deterrence
+	}
+	research = {
+	}
+	traits = {
+		wfc_silent_workhorse = 100
+		wfc_captain_of_industry = 100
+		wfc_intelligence_princess = 5
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1
+		modifier = {
+			factor = 1
+		}
+	}
+}
+HEN_democratic = {
+	name = "HEN DEMOCRATIC plan"
+	desc = ""
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		OR = {
+			has_country_flag = HEN_AI_RANDOM_DEMOCRATIC
+			has_game_rule = {
+				rule = HEN_ai_behavior
+				option = DEMOCRATIC
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	ai_national_focuses = {
+		wfc_political_effort
+		wfc_focus_individualism
+		wfc_focus_democracy
+		wfc_interventionism_focus
+	}
+	research = {
+	}
+	traits = {
+		democratic_reformer = 200
+		wfc_silent_workhorse = 100
+		wfc_captain_of_industry = 5
+	}
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

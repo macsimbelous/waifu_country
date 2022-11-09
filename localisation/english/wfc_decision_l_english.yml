@@ -28,11 +28,11 @@ wfl_gacha_decision.t:0 "Try your luck"
 
 #create_subject
  wfc_subjects_category:0 "Subjects"
- wfc_create_subject_decision:0 "Create subject §Y[From.GetNameDef]§!"
+ wfc_create_subject_decision:0 "Create province §Y[From.GetNameDef]§!"
  wfc_change_country_leader:0 "Change leader §Y[From.GetNameDef]§!"
  wfc_change_focus_tree:0 "Replace focus tree §Y[From.GetNameDef]§!"
  wfc_change_focus_tree_tt:0 "National focuses will be replaced with §Gwaifu countries§ focuses!"
- wfc_convert_to_federal_subject:0 "Transform §Y[From.GetName]§! into a federal subject"
+ wfc_convert_to_federal_subject:0 "Transform §Y[From.GetName]§! into a province"
  wfc_autonomy_ratio_less_than_or_equals_0_2:0 "Minimum level of autonomy"
  wfc_delete_units_in_federal_subject:0 "Disband the army of §Y[From.GetNameDef]§!"
  wfc_delete_units_in_federal_subject_tt:0 "All divisions will be disbanded"

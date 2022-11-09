@@ -6,7 +6,7 @@ wfc_is_controlled_by_root_or_federation_subject = {
 				tag = ROOT
 				AND = {
 					is_puppet_of = ROOT
-					has_autonomy_state = autonomy_federation_subject
+					has_autonomy_state = wfc_autonomy_province
 				}
 			}
 		}
