@@ -5,3 +5,39 @@
  RULE_DEMOCRATIC_ACW_AI_DESC:0 "The AI will follow the path of democracy."
  RULE_OPTION_COMMUNIST_ACW_AI_DESC:0 "The AI will become communist."
  RULE_OPTION_FASCIST_ACW_AI_DESC:0 "AI fascist."
+
+#HEN
+ HEN_AI_BEHAVIOR:0 "@HEN Hentalia"
+ RULE_OPTION_HISTORICAL_HEN_AI_DESC:0 "AI will go communism."
+ RULE_DEMOCRATIC_HEN_AI_DESC:0 "The AI will follow the path of democracy."
+ RULE_OPTION_NEUTRALITY_HEN_AI_DESC:0 "The AI will remain neutral."
+ RULE_OPTION_FASCIST_HEN_AI_DESC:0 "AI fascist."
+ RULE_OPTION_FASCIST_ALTERNATE_HEN_AI_DESC:0 ""
+
+#MAH
+ MAH_AI_BEHAVIOR:0 "@MAH Magical Girls"
+ RULE_OPTION_HISTORICAL_MAH_AI_DESC:0 "The AI will follow the path of democracy."
+ RULE_OPTION_NEUTRALITY_MAH_AI_DESC:0 "The AI will remain neutral."
+ RULE_OPTION_COMMUNIST_MAH_AI_DESC:0 "The AI will become communist."
+ RULE_OPTION_FASCIST_MAH_AI_DESC:0 "AI fascist."
+
+#MEH
+ MEH_AI_BEHAVIOR:0 "@MEH Mechaland"
+ RULE_OPTION_HISTORICAL_MEH_AI_DESC:0 "AI fascist."
+ RULE_DEMOCRATIC_MEH_AI_DESC:0 "The AI will follow the path of democracy."
+ RULE_OPTION_COMMUNIST_MEH_AI_DESC:0 "AI will become communist."
+ RULE_OPTION_NEUTRALITY_MEH_AI_DESC:0 "The AI will remain neutral."
+
+#MMS
+ MMS_AI_BEHAVIOR:0 "@MMS Monster Girls"
+ RULE_OPTION_HISTORICAL_MMS_AI_DESC:0 "The AI will remain neutral."
+ RULE_DEMOCRATIC_MMS_AI_DESC:0 "The AI will follow the path of democracy."
+ RULE_OPTION_COMMUNIST_MMS_AI_DESC:0 "The AI will become communist."
+ RULE_OPTION_FASCIST_MMS_AI_DESC:0 "AI fascist."
+
+#TRP
+ TRP_AI_BEHAVIOR:0 "@TRP Trapia"
+ RULE_OPTION_HISTORICAL_TRP_AI_DESC:0 "The AI will become communist."
+ RULE_DEMOCRATIC_TRP_AI_DESC:0 "The AI will follow the path of democracy."
+ RULE_OPTION_FASCIST_TRP_AI_DESC:0 "AI fascist."
+ RULE_OPTION_NEUTRALITY_TRP_AI_DESC:0 "The AI will remain neutral."

@@ -5,3 +5,39 @@
  RULE_DEMOCRATIC_ACW_AI_DESC:0 "ИИ пойдёт по пути демократии."
  RULE_OPTION_COMMUNIST_ACW_AI_DESC:0 "ИИ станет комунистом."
  RULE_OPTION_FASCIST_ACW_AI_DESC:0 "ИИ фашист."
+
+#HEN
+ HEN_AI_BEHAVIOR:0 "@HEN Хенталия"
+ RULE_OPTION_HISTORICAL_HEN_AI_DESC:0 "ИИ пойдёт в коммунизм."
+ RULE_DEMOCRATIC_HEN_AI_DESC:0 "ИИ пойдёт по пути демократии."
+ RULE_OPTION_NEUTRALITY_HEN_AI_DESC:0 "ИИ сохранит нейтралитет."
+ RULE_OPTION_FASCIST_HEN_AI_DESC:0 "ИИ фашист."
+ RULE_OPTION_FASCIST_ALTERNATE_HEN_AI_DESC:0 ""
+
+#MAH
+ MAH_AI_BEHAVIOR:0 "@MAH Девочки Волшебницы"
+ RULE_OPTION_HISTORICAL_MAH_AI_DESC:0 "ИИ пойдёт по пути демократии."
+ RULE_OPTION_NEUTRALITY_MAH_AI_DESC:0 "ИИ сохранит нейтралитет."
+ RULE_OPTION_COMMUNIST_MAH_AI_DESC:0 "ИИ станет комунистом."
+ RULE_OPTION_FASCIST_MAH_AI_DESC:0 "ИИ фашист."
+
+#MEH
+ MEH_AI_BEHAVIOR:0 "@MEH Мехалэнд"
+ RULE_OPTION_HISTORICAL_MEH_AI_DESC:0 "ИИ фашист."
+ RULE_DEMOCRATIC_MEH_AI_DESC:0 "ИИ пойдёт по пути демократии."
+ RULE_OPTION_COMMUNIST_MEH_AI_DESC:0 "ИИ станет комунистом."
+ RULE_OPTION_NEUTRALITY_MEH_AI_DESC:0 "ИИ сохранит нейтралитет."
+
+#MMS
+ MMS_AI_BEHAVIOR:0 "@MMS Девушки Монстры"
+ RULE_OPTION_HISTORICAL_MMS_AI_DESC:0 "ИИ сохранит нейтралитет."
+ RULE_DEMOCRATIC_MMS_AI_DESC:0 "ИИ пойдёт по пути демократии."
+ RULE_OPTION_COMMUNIST_MMS_AI_DESC:0 "ИИ станет комунистом."
+ RULE_OPTION_FASCIST_MMS_AI_DESC:0 "ИИ фашист."
+
+#TRP
+ TRP_AI_BEHAVIOR:0 "@TRP Трапия"
+ RULE_OPTION_HISTORICAL_TRP_AI_DESC:0 "ИИ станет комунистом."
+ RULE_DEMOCRATIC_TRP_AI_DESC:0 "ИИ пойдёт по пути демократии."
+ RULE_OPTION_FASCIST_TRP_AI_DESC:0 "ИИ фашист."
+ RULE_OPTION_NEUTRALITY_TRP_AI_DESC:0 "ИИ сохранит нейтралитет."
