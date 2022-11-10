@@ -29,6 +29,12 @@ MMS_historical = {
 		wfc_focus_authoritarianism
 		wfc_neutrality_focus
 		wfc_deterrence
+		#indastry
+		mms_focus_modernize_steel_plant
+		mms_focus_infrastructure_effort
+		mms_focus_production_effort
+		mms_focus_construction_effort
+		mms_focus_dockyard_effort
 	}
 	research = {
 	}
@@ -46,6 +52,7 @@ MMS_historical = {
 		}
 	}
 }
+
 MMS_democratic = {
 	name = "MMS DEMOCRATIC plan"
 	desc = ""
@@ -69,6 +76,12 @@ MMS_democratic = {
 		wfc_focus_individualism
 		wfc_focus_democracy
 		wfc_interventionism_focus
+		#indastry
+		mms_focus_modernize_steel_plant
+		mms_focus_infrastructure_effort
+		mms_focus_production_effort
+		mms_focus_construction_effort
+		mms_focus_dockyard_effort
 	}
 	research = {
 	}
@@ -80,12 +93,13 @@ MMS_democratic = {
 	# Keep small, as it is used as a factor for some things (such as research needs)
 	# Recommended around 1.0. Useful for relation between plans
 	weight = {
-		factor = 1.0
+		factor = 1
 		modifier = {
-			factor = 1.0
+			factor = 1
 		}
 	}
 }
+
 MMS_communist = {
 	name = "MMS COMMUNIST plan"
 	desc = ""
@@ -111,6 +125,12 @@ MMS_communist = {
 		wfc_political_correctness
 		wfc_indoctrination_focus
 		wfc_political_commissars
+		#indastry
+		mms_focus_modernize_steel_plant
+		mms_focus_infrastructure_effort
+		mms_focus_production_effort
+		mms_focus_construction_effort
+		mms_focus_dockyard_effort
 	}
 	research = {
 	}
@@ -128,6 +148,7 @@ MMS_communist = {
 		}
 	}
 }
+
 MMS_fascist = {
 	name = "MMS FASCIST plan"
 	desc = ""
@@ -153,6 +174,12 @@ MMS_fascist = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+		#indastry
+		mms_focus_modernize_steel_plant
+		mms_focus_infrastructure_effort
+		mms_focus_production_effort
+		mms_focus_construction_effort
+		mms_focus_dockyard_effort
 	}
 	research = {
 	}
