@@ -19,8 +19,8 @@ mms_workouts_shamiko_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				neutrality > 0.3
-				add = 2
+				neutrality > 0.35
+				add = 100
 			}
 		}
 		cost = 25
@@ -58,8 +58,8 @@ mms_workouts_shamiko_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				neutrality > 0.3
-				add = 2
+				neutrality > 0.35
+				add = 100
 			}
 		}
 		cost = 25
@@ -98,8 +98,8 @@ mms_workouts_shamiko_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				neutrality > 0.3
-				add = 2
+				neutrality > 0.35
+				add = 100
 			}
 		}
 		cost = 25
@@ -129,9 +129,9 @@ mms_workouts_shamiko_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 100
 		}
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 		complete_effect = {
 			remove_country_leader_trait = defeatist

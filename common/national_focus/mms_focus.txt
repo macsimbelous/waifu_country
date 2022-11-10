@@ -31,14 +31,17 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			NOT = {
-				has_country_leader_with_trait = defeatist
+			if = {
+				limit = {
+					has_country_leader = {
+						character = MMS_yuuko_yoshida
+						ruling_only = yes
+					}
+				}
+				NOT = {
+					has_country_leader_with_trait = defeatist
+				}
 			}
-			# OR = {
-			# 	has_government = neutrality
-			# 	has_government = communism
-			# 	has_government = fascism
-			# }
 		}
 		completion_reward = {
 			add_war_support = 0.05
