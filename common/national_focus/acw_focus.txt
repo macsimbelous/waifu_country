@@ -1012,7 +1012,7 @@ focus_tree = {
 				}
 			}
 			add_tech_bonus = {
-				name = acw_synthetic_rubber
+				name = wfc_synthetic_rubber
 				bonus = 1
 				uses = 1
 				category = cat_synth_rubber

@@ -147,6 +147,11 @@ leader_traits = {
 		#political_advisor_cost_factor = -0.33
 		#military_leader_cost_factor = -0.33
 	}
+	wfc_half_breed = {
+		random = no
+		political_power_factor = -0.25
+		stability_factor = -0.15
+	}
 	#ministri
 	wfc_nuclear_mazoku = {
 		sprite = 14

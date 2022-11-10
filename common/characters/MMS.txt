@@ -58,9 +58,10 @@ characters = {
 			ideology = despotism
 			traits = {
 				wfc_monster
+				wfc_half_breed
 				wfc_defender
-				wfc_patron_of_intelligence
-				wfc_demon_lord
+				#wfc_patron_of_intelligence
+				#wfc_demon_lord
 				defeatist
 			}
 			expire = "1965.1.1"

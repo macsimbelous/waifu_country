@@ -322,6 +322,16 @@ focus_tree = {
 					add_core_of = MMS
 				}
 			}
+			if = {
+				limit = {
+					has_country_leader = {
+						character = MMS_yuuko_yoshida
+						ruling_only = yes
+					}
+				}
+				remove_country_leader_trait = wfc_half_breed
+				add_country_leader_trait = wfc_demon_lord
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -746,6 +756,363 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 5
+		}
+	}
+	focus = {
+		id = mms_focus_modernize_steel_plant
+		icon = GFX_focus_generic_steel
+		x = 19
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			414 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_infrastructure_effort
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = mms_focus_modernize_steel_plant
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_modernize_steel_plant
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = construction_tech
+			}
+			410 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			414 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			build_railway = {
+				level = 1
+				start_province = 7982
+				target_province = 7990
+			}
+			build_railway = {
+				level = 1
+				start_province = 7982
+				target_province = 10782
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_dockyard_effort
+		icon = GFX_goal_generic_construct_naval_dockyard
+		relative_position_id = mms_focus_infrastructure_effort
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = mms_focus_infrastructure_effort
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			410 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_production_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = mms_focus_infrastructure_effort
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = mms_focus_infrastructure_effort
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			414 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_construction_effort
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = mms_focus_infrastructure_effort
+		}
+		x = 2
+		y = 1
+		relative_position_id = mms_focus_infrastructure_effort
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		complete_tooltip = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			410 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			412 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_tungsten_plant
+		icon = GFX_focus_generic_tungsten
+		prerequisite = {
+			focus = mms_focus_production_effort
+		}
+		prerequisite = {
+			focus = mms_focus_dockyard_effort
+		}
+		x = -1
+		y = 1
+		relative_position_id = mms_focus_production_effort
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			410 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = tungsten
+					amount = 24
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_aluminium_plant
+		icon = GFX_focus_generic_aluminum
+		prerequisite = {
+			focus = mms_focus_production_effort
+		}
+		prerequisite = {
+			focus = mms_focus_construction_effort
+		}
+		x = 1
+		y = 1
+		relative_position_id = mms_focus_production_effort
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			412 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 25
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_chromium_plant
+		icon = GFX_goal_generic_construction2
+		prerequisite = {
+			focus = mms_focus_tungsten_plant
+		}
+		prerequisite = {
+			focus = mms_focus_aluminium_plant
+		}
+		x = -1
+		y = 1
+		relative_position_id = mms_focus_tungsten_plant
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			412 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = chromium
+					amount = 31
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_nuclear_reactor
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = mms_focus_tungsten_plant
+		}
+		prerequisite = {
+			focus = mms_focus_aluminium_plant
+		}
+		x = 0
+		y = 2
+		relative_position_id = mms_focus_production_effort
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		available = {
+			has_tech = nuclear_reactor
+		}
+		completion_reward = {
+			414 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = nuclear_reactor
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_synthetic_refinery
+		icon = GFX_focus_generic_rubber
+		prerequisite = {
+			focus = mms_focus_tungsten_plant
+		}
+		prerequisite = {
+			focus = mms_focus_aluminium_plant
+		}
+		x = 1
+		y = 1
+		relative_position_id = mms_focus_aluminium_plant
+		cost = 10
+		available = {
+			has_tech = synth_oil_experiments
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			414 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = wfc_synthetic_rubber
+				bonus = 1
+				uses = 1
+				category = cat_synth_rubber
+			}
 		}
 	}
 }

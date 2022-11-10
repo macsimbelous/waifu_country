@@ -283,6 +283,17 @@
  mms_focus_revive_necromancy:0 "Возродить некромантию"
  mms_focus_revive_necromancy_desc:0 "Некоторые советники и 6 слотов для исследований увеличат чанс успеха."
  mms_rise_of_the_dead_tt:0 "Восстание мертвецов"
+ #Indastry
+  mms_focus_modernize_steel_plant:0 "Больше стали"
+  mms_focus_infrastructure_effort:0 "Модернизаци инфраструктуры"
+  mms_focus_dockyard_effort:0 "Расширение Верфей"
+  mms_focus_production_effort:0 "Расширение ВПК"
+  mms_focus_construction_effort:0 "Развитие строительства"
+  mms_focus_tungsten_plant:0 "Вольфрамовый завод"
+  mms_focus_aluminium_plant:0 "Крылатый металл"
+  mms_focus_chromium_plant:0 "Хром"
+  mms_focus_nuclear_reactor:0 "Атомная электростанция"
+  mms_focus_synthetic_refinery:0 "Производство полимеров"
 
 #TRP
  trp_focus:0 "Фокусы [TRP.GetName]"
@@ -331,3 +342,6 @@
 
 #Pupet
  wfc_puppet_focus:0 "Фокусы марионеток"
+
+#ToolTips
+ wfc_synthetic_rubber:0 "Производство полимеров"

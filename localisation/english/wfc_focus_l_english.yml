@@ -143,7 +143,7 @@
  acw_focus_promote_democracy_in_hun:0 "Promote democracy in Hungary"
  acw_focus_create_faction_anime_federation:0 "Anime Federation Alliance"
  acw_focus_economic_integration:0 "Economic integration"
- acw_focus_production_effort:0 "VPK expansion"
+ acw_focus_production_effort:0 "Expansion of the military-industrial complex"
  acw_focus_infrastructure_effort_2:0 "Infrastructure Upgrade"
  acw_infrastructure_effort_tt:0 "Infrastructure Upgrade"
  acw_focus_modernize_steel_plant_3:0 "Steel Plant Modernization"
@@ -286,6 +286,17 @@
  mms_focus_revive_necromancy:0 "Revive necromancy"
  mms_focus_revive_necromancy_desc:0 "Some advisors and 6 research slots will increase the success rate."
  mms_rise_of_the_dead_tt:0 "Rise of the Dead"
+ #industry
+  mms_focus_modernize_steel_plant:0 "More Steel"
+  mms_focus_infrastructure_effort:0 "Infrastructure Upgrade"
+  mms_focus_dockyard_effort:0 "Dockyard Expansion"
+  mms_focus_production_effort:0 "Expansion of the military-industrial complex"
+  mms_focus_construction_effort:0 "Construction Development"
+  mms_focus_tungsten_plant:0 "Tungsten Plant"
+  mms_focus_aluminium_plant:0 Winged Metal
+  mms_focus_chromium_plant:0 "Chrome"
+  mms_focus_nuclear_reactor:0 "Nuclear Power Plant"
+  mms_focus_synthetic_refinery:0 "Polymer Production"
 
 #TRP
  trp_focus:0 "Focuses [TRP.GetName]"
@@ -334,3 +345,6 @@
 
 #Pupet
  wfc_puppet_focus:0 "Focus puppets"
+
+#ToolTips
+ wfc_synthetic_rubber:0 "Polymer Production"
