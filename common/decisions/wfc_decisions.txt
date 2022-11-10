@@ -2003,6 +2003,10 @@ wfc_budget_category = {
 				has_government = fascism
 				add = 1
 			}
+			modifier = {
+				date < 1937.1.1
+				add = -100
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -2086,6 +2090,10 @@ wfc_budget_category = {
 			modifier = {
 				has_government = communism
 				add = 1
+			}
+			modifier = {
+				date < 1937.1.1
+				add = -100
 			}
 		}
 		available = {
@@ -2171,6 +2179,10 @@ wfc_budget_category = {
 				has_government = communism
 				add = 1
 			}
+			modifier = {
+				date < 1937.1.1
+				add = -100
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -2255,6 +2267,10 @@ wfc_budget_category = {
 				has_government = communism
 				add = 1
 			}
+			modifier = {
+				date < 1937.1.1
+				add = -100
+			}
 		}
 		available = {
 			custom_trigger_tooltip = {
@@ -2318,6 +2334,100 @@ wfc_budget_category = {
 		complete_effect = {
 			subtract_from_variable = {
 				wfc_subsidies_to_research_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_resources_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 25
+		ai_will_do = {
+			base = 1
+			modifier = {
+				add = 10
+				OR = {
+					steel < 0
+					aluminium < 0
+					oil < 0
+					tungsten < 0
+					chromium < 0
+				}
+			}
+			modifier = {
+				date < 1937.1.1
+				add = -100
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_resources_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_resources_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 25
+		ai_will_do = {
+			base = -10
+			modifier = {
+				steel > 99
+				aluminium > 99
+				oil > 99
+				tungsten > 99
+				chromium > 99
+				add = 13
+			}
+		}
+		visible = {
+			check_variable = {
+				var = wfc_subsidies_to_resources_count
+				value = 0
+				compare = greater_than
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_resources_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_resources_count = 1
 			}
 			subtract_from_variable = {
 				wfc_subsidies_count = 1
@@ -2400,96 +2510,6 @@ wfc_budget_category = {
 		complete_effect = {
 			subtract_from_variable = {
 				wfc_subsidies_to_nuclear_count = 1
-			}
-			subtract_from_variable = {
-				wfc_subsidies_count = 1
-			}
-			wfc_subsidies_change = yes
-		}
-	}
-	wfc_subsidies_to_resources_up_decision = {
-		icon = generic_economy
-		fire_only_once = no
-		cost = 25
-		ai_will_do = {
-			base = 1
-			modifier = {
-				add = 10
-				OR = {
-					steel < 0
-					aluminium < 0
-					oil < 0
-					tungsten < 0
-					chromium < 0
-				}
-			}
-		}
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = wfc_subsidies_count_up_tt
-				check_variable = {
-					var = wfc_subsidies_count
-					value = mtth:wfc_subsidies_count
-					compare = less_than
-				}
-			}
-		}
-		complete_effect = {
-			add_to_variable = {
-				wfc_subsidies_to_resources_count = 1
-			}
-			add_to_variable = {
-				wfc_subsidies_count = 1
-			}
-			wfc_subsidies_change = yes
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = wfc_subsidies_dm_flag
-					}
-				}
-				add_dynamic_modifier = {
-					modifier = wfc_subsidies_dm
-				}
-				set_country_flag = wfc_subsidies_dm_flag
-			}
-		}
-	}
-	wfc_subsidies_to_resources_down_decision = {
-		icon = generic_economy
-		fire_only_once = no
-		cost = 25
-		ai_will_do = {
-			base = -10
-			modifier = {
-				steel > 99
-				aluminium > 99
-				oil > 99
-				tungsten > 99
-				chromium > 99
-				add = 13
-			}
-		}
-		visible = {
-			check_variable = {
-				var = wfc_subsidies_to_resources_count
-				value = 0
-				compare = greater_than
-			}
-		}
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = wfc_subsidies_count_down_tt
-				check_variable = {
-					var = wfc_subsidies_to_resources_count
-					value = 0
-					compare = greater_than
-				}
-			}
-		}
-		complete_effect = {
-			subtract_from_variable = {
-				wfc_subsidies_to_resources_count = 1
 			}
 			subtract_from_variable = {
 				wfc_subsidies_count = 1
