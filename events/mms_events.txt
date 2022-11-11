@@ -1,0 +1,17 @@
+add_namespace = mms_event
+
+country_event = {
+	id = mms_event.1
+	title = mms_event.1.t
+	desc = mms_event.1.d
+	#picture = GFX_mms_event_01
+	is_triggered_only = yes
+	option = {
+		name = mms_event.1.a
+		ai_chance = {
+			factor = 75
+		}
+		# remove_country_leader_trait = defeatist
+		# add_country_leader_trait = wfc_Tyan_militarist
+	}
+}

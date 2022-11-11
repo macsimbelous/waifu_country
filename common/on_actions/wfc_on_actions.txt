@@ -1003,6 +1003,15 @@ on_actions = {
 				}
 				remove_ideas = meh_exterminatus_idea
 			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = MMS
+						has_country_leader_with_trait = defeatist
+					}
+				}
+				
+			}
 		}
 	}
 	on_weekly_ZMB = {

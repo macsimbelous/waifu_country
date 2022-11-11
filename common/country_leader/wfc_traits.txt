@@ -285,7 +285,8 @@ leader_traits = {
 	wfc_monster_maker = {
 		random = no
 		sprite = 13
-		conscription = 0.02
+		#conscription = 0.02
+		weekly_manpower = 1000
 		research_speed_factor = 0.1
 	}
 	wfc_submarine_manufacturer = {
