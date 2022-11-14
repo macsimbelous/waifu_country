@@ -192,10 +192,10 @@ acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will 
  acw_form_romania_coring_states_tt:0 "§Y[ROM.GetName]§! becomes national"
  acw_form_yugoslavia_coring_states_tt:0 "§Y[YUG.GetName]§! becomes national"
  acw_form_hungary_coring_states_tt:0 "§Y[HUN.GetName]§! becomes national"
- acw_create_bul_provinces_decision:0 "Create subject §Y[BUL.GetName]§!"
- acw_create_rom_provinces_decision:0 "Create subject §Y[ROM.GetName]§!"
- acw_create_yug_provinces_decision:0 "Create subject §Y[YUG.GetName]§!"
- acw_create_hun_provinces_decision:0 "Create subject §Y[HUN.GetName]§!"
+ acw_create_bul_provinces_decision:0 "Create province §Y[BUL.GetName]§!"
+ acw_create_rom_provinces_decision:0 "Create province §Y[ROM.GetName]§!"
+ acw_create_yug_provinces_decision:0 "Create province §Y[YUG.GetName]§!"
+ acw_create_hun_provinces_decision:0 "Create province §Y[HUN.GetName]§!"
 
 #HEN
 #tentakles

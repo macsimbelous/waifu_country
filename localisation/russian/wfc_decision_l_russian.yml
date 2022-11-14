@@ -202,10 +202,10 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_form_romania_coring_states_tt:0 "§Y[ROM.GetName]§! станет национальной"
   acw_form_yugoslavia_coring_states_tt:0 "§Y[YUG.GetName]§! станет национальной"
   acw_form_hungary_coring_states_tt:0 "§Y[HUN.GetName]§! станет национальной"
-  acw_create_bul_provinces_decision:0 "Сформировать субъект §Y[BUL.GetName]§!"
-  acw_create_rom_provinces_decision:0 "Сформировать субъект §Y[ROM.GetName]§!"
-  acw_create_yug_provinces_decision:0 "Сформировать субъект §Y[YUG.GetName]§!"
-  acw_create_hun_provinces_decision:0 "Сформировать субъект §Y[HUN.GetName]§!"
+  acw_create_bul_provinces_decision:0 "Сформировать провинцию §Y[BUL.GetName]§!"
+  acw_create_rom_provinces_decision:0 "Сформировать провинцию §Y[ROM.GetName]§!"
+  acw_create_yug_provinces_decision:0 "Сформировать провинцию §Y[YUG.GetName]§!"
+  acw_create_hun_provinces_decision:0 "Сформировать провинцию §Y[HUN.GetName]§!"
 
 #HEN
  #tentakles

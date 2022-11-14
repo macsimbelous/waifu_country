@@ -240,8 +240,10 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
+				infantry_leader
 				infantry_expert
 				offensive_doctrine
+				organizer
 				logistics_wizard
 			}
 			skill = 6

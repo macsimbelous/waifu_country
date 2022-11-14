@@ -599,7 +599,7 @@ wfc_test_category = {
 			set_temp_variable = {
 				country_to_initiate = BUL
 			}
-			wfc_instantiate_federation_subject = yes
+			wfc_instantiate_province = yes
 		}
 	}
 	wfc_test_17 = {

@@ -1,5 +1,5 @@
-wfc_instantiate_federation_subject = {
-	custom_effect_tooltip = wfc_instantiate_federation_subject_tt
+wfc_instantiate_province = {
+	custom_effect_tooltip = wfc_instantiate_province_tt
 	hidden_effect = {
 		if = {
 			# Если нет

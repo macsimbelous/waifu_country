@@ -798,63 +798,53 @@ wfc_subjects_category = {
 					}
 				}
 				custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
-				if = {
-					limit = {
-						original_tag = ACW
-					}
-					FROM = {
-						hidden_effect = {
-							acw_change_country_leader = yes
+				hidden_effect = {
+					if = {
+						limit = {
+							original_tag = ACW
 						}
-						# add_ideas = {
-						# 	wfc_acw_assistance
-						# 	wfc_acw_puppet
-						# }
+						FROM = {
+							acw_change_country_leader = yes
+							# add_ideas = {
+							# 	wfc_acw_assistance
+							# 	wfc_acw_puppet
+							# }
+						}
 					}
-				}
-				else_if = {
-					limit = {
-						original_tag = HEN
-					}
-					FROM = {
-						hidden_effect = {
+					else_if = {
+						limit = {
+							original_tag = HEN
+						}
+						FROM = {
 							hen_change_country_leader = yes
 						}
 					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MAH
-					}
-					FROM = {
-						hidden_effect = {
+					else_if = {
+						limit = {
+							original_tag = MAH
+						}
+						FROM = {
 							mah_change_country_leader = yes
 						}
 					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MEH
-					}
-					FROM = {
-						hidden_effect = {
+					else_if = {
+						limit = {
+							original_tag = MEH
+						}
+						FROM = {
 							meh_change_country_leader = yes
 						}
 					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MMS
-					}
-					FROM = {
-						hidden_effect = {
+					else_if = {
+						limit = {
+							original_tag = MMS
+						}
+						FROM = {
 							mms_change_country_leader = yes
 						}
 					}
-				}
-				else = {
-					FROM = {
-						hidden_effect = {
+					else = {
+						FROM = {
 							trp_change_country_leader = yes
 						}
 					}
