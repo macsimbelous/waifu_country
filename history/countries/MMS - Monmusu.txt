@@ -155,6 +155,20 @@ set_popularities = {
 		smoke_generator = 1
 		basic_depth_charges = 1
 	}
+	complete_national_focus = mms_focus_workouts_shamiko
+	complete_national_focus = mms_focus_triumph_shamiko
+	complete_national_focus = mms_focus_train_shamiko_attack
+	complete_national_focus = mms_focus_power_shamiko
+	complete_national_focus = mms_focus_modernize_steel_plant
+	complete_national_focus = mms_focus_infrastructure_effort
+	complete_national_focus = mms_focus_dockyard_effort
+	complete_national_focus = mms_focus_production_effort
+	complete_national_focus = mms_focus_construction_effort
+	complete_national_focus = mms_focus_tungsten_plant
+	complete_national_focus = mms_focus_aluminium_plant
+	complete_national_focus = mms_focus_chromium_plant
+	complete_national_focus = mms_focus_synthetic_refinery
+	complete_national_focus = mms_expansion_of_living_space
 }
 
 recruit_character = MMS_velvet_crowe

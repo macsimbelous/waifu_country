@@ -1134,6 +1134,10 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_war_support = 0.05
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -1171,6 +1175,12 @@ focus_tree = {
 		prerequisite = {
 			focus = mms_focus_triumph_shamiko
 		}
+		mutually_exclusive = {
+			focus = mms_focus_train_shamiko_protection
+		}
+		mutually_exclusive = {
+			focus = mms_focus_train_shamiko_speed
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1194,6 +1204,12 @@ focus_tree = {
 		prerequisite = {
 			focus = mms_focus_triumph_shamiko
 		}
+		mutually_exclusive = {
+			focus = mms_focus_train_shamiko_attack
+		}
+		mutually_exclusive = {
+			focus = mms_focus_train_shamiko_speed
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1216,6 +1232,12 @@ focus_tree = {
 		cost = 5
 		prerequisite = {
 			focus = mms_focus_triumph_shamiko
+		}
+		mutually_exclusive = {
+			focus = mms_focus_train_shamiko_attack
+		}
+		mutually_exclusive = {
+			focus = mms_focus_train_shamiko_protection
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1267,6 +1289,13 @@ focus_tree = {
 			else = {
 				add_country_leader_trait = wfc_power_shamiko_spd
 			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 100
 		}
 	}
 }

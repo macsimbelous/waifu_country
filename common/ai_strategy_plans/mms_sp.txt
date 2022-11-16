@@ -29,12 +29,22 @@ MMS_historical = {
 		wfc_focus_authoritarianism
 		wfc_neutrality_focus
 		wfc_deterrence
+		mms_focus_workouts_shamiko
+		mms_expansion_of_living_space
+		mms_attack_afg
+		mms_attack_per
+		mms_colonization_per_and_afg
+		mms_focus_triumph_shamiko
+		mms_focus_train_shamiko_attack
+		mms_focus_power_shamiko
 		#indastry
 		mms_focus_modernize_steel_plant
 		mms_focus_infrastructure_effort
 		mms_focus_production_effort
 		mms_focus_construction_effort
 		mms_focus_dockyard_effort
+		mms_focus_aluminium_plant
+		mms_focus_tungsten_plant
 	}
 	research = {
 	}
@@ -76,12 +86,18 @@ MMS_democratic = {
 		wfc_focus_individualism
 		wfc_focus_democracy
 		wfc_interventionism_focus
+		mms_expansion_of_living_space
+		mms_attack_afg
+		mms_attack_per
+		mms_colonization_per_and_afg
 		#indastry
 		mms_focus_modernize_steel_plant
 		mms_focus_infrastructure_effort
 		mms_focus_production_effort
 		mms_focus_construction_effort
 		mms_focus_dockyard_effort
+		mms_focus_aluminium_plant
+		mms_focus_tungsten_plant
 	}
 	research = {
 	}
@@ -125,12 +141,18 @@ MMS_communist = {
 		wfc_political_correctness
 		wfc_indoctrination_focus
 		wfc_political_commissars
+		mms_expansion_of_living_space
+		mms_attack_afg
+		mms_attack_per
+		mms_colonization_per_and_afg
 		#indastry
 		mms_focus_modernize_steel_plant
 		mms_focus_infrastructure_effort
 		mms_focus_production_effort
 		mms_focus_construction_effort
 		mms_focus_dockyard_effort
+		mms_focus_aluminium_plant
+		mms_focus_tungsten_plant
 	}
 	research = {
 	}
@@ -174,12 +196,18 @@ MMS_fascist = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+		mms_expansion_of_living_space
+		mms_attack_afg
+		mms_attack_per
+		mms_colonization_per_and_afg
 		#indastry
 		mms_focus_modernize_steel_plant
 		mms_focus_infrastructure_effort
 		mms_focus_production_effort
 		mms_focus_construction_effort
 		mms_focus_dockyard_effort
+		mms_focus_aluminium_plant
+		mms_focus_tungsten_plant
 	}
 	research = {
 	}

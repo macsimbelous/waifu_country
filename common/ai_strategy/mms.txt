@@ -474,3 +474,48 @@ MMS_protect_sov = {
 		value = 100
 	}
 }
+PER_war_to_mms = {
+	allowed = {
+		original_tag = PER
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MMS"
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "MMS"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
+AFG_war_to_mms = {
+	allowed = {
+		original_tag = AFG
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "MMS"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
