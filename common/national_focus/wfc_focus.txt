@@ -340,6 +340,13 @@ shared_focus = {
 			category = air_doctrine
 		}
 	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 4
+		}
+	}
 }
 
 shared_focus = {
@@ -701,6 +708,13 @@ shared_focus = {
 					instant_build = yes
 				}
 			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			is_puppet = yes
+			factor = 4
 		}
 	}
 }

@@ -1016,7 +1016,9 @@ on_actions = {
 						}
 					}
 				}
-				set_country_flag = mms_triumph_shamiko_flag
+				MMS = {
+					set_country_flag = mms_triumph_shamiko_flag
+				}
 			}
 		}
 	}
