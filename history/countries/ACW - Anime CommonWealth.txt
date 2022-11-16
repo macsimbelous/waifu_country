@@ -25,6 +25,7 @@ set_technology = {
 	aa_lmg = 1
 	iw_medium_airframe = 1
 	early_bombs = 1
+	engines_1 = 1
 	#####
 	# basic_torpedo = 1
 	# basic_naval_mines = 1
@@ -78,10 +79,10 @@ set_politics = {
 		partial_economic_mobilisation
 		limited_conscription
 	}
-		
 	set_technology = {
 		basic_small_airframe = 1
 		basic_medium_airframe = 1
+		engines_2 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
@@ -118,6 +119,29 @@ set_politics = {
 		excavation1 = 1
 		excavation2 = 1
 	}
+	complete_national_focus = acw_focus_government_reform
+	complete_national_focus = acw_focus_create_minprom
+	complete_national_focus = acw_focus_create_minscience
+	complete_national_focus = acw_focus_create_mintrans
+	complete_national_focus = acw_focus_create_minoboron
+	complete_national_focus = acw_focus_create_kgb
+	complete_national_focus = acw_focus_create_minpropagand
+	complete_national_focus = acw_focus_complete_the_reform
+
+	complete_national_focus = acw_focus_revise_industrial_policy
+	complete_national_focus = acw_focus_production_effort
+	complete_national_focus = acw_focus_public_works
+	complete_national_focus = acw_focus_nationalize_industry
+	complete_national_focus = acw_focus_modernize_steel_plant_3
+	complete_national_focus = acw_focus_people_owned_mines
+	complete_national_focus = acw_focus_synthetic_refinery
+	complete_national_focus = acw_focus_tungsten_plant
+	complete_national_focus = acw_focus_infrastructure_effort_2
+	complete_national_focus = acw_focus_aluminium_plant
+
+	complete_national_focus = acw_focus_path_to_empire
+	complete_national_focus = acw_defensive_lines
+	complete_national_focus = acw_focus_academy_of_sciences
 }
 #recruit_character = ACW_GER_puppet_leader_neutrality
 #leaders

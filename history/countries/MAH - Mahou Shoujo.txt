@@ -25,6 +25,7 @@ set_technology = {
 	aa_lmg = 1
 	iw_medium_airframe = 1
 	early_bombs = 1
+	engines_1 = 1
 	electronic_mechanical_engineering = 1
 	#####
 	# basic_torpedo = 1
@@ -89,6 +90,7 @@ add_ideas = {
 	set_technology = {
 		basic_small_airframe = 1
 		basic_medium_airframe = 1
+		engines_2 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1

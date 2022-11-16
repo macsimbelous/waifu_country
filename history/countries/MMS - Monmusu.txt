@@ -35,6 +35,7 @@ set_technology = {
 	aa_lmg = 1
 	iw_medium_airframe = 1
 	early_bombs = 1
+	engines_1 = 1
 	basic_machine_tools = 1
 	fuel_silos = 1
 	# #####
@@ -104,6 +105,7 @@ set_popularities = {
 	set_technology = {
 		basic_small_airframe = 1
 		basic_medium_airframe = 1
+		engines_2 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1

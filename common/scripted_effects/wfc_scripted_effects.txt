@@ -270,13 +270,7 @@ wfc_instantiate_province = {
 								original_tag = ACW
 							}
 						}
-						hidden_effect = {
-							acw_change_country_leader = yes
-						}
-						# add_ideas = {
-						# 	wfc_acw_assistance
-						# 	wfc_acw_puppet
-						# }
+						acw_change_country_leader = yes
 					}
 					else_if = {
 						limit = {
@@ -284,9 +278,7 @@ wfc_instantiate_province = {
 								original_tag = HEN
 							}
 						}
-						hidden_effect = {
-							hen_change_country_leader = yes
-						}
+						hen_change_country_leader = yes
 					}
 					else_if = {
 						limit = {
@@ -294,9 +286,7 @@ wfc_instantiate_province = {
 								original_tag = MAH
 							}
 						}
-						hidden_effect = {
-							mah_change_country_leader = yes
-						}
+						mah_change_country_leader = yes
 					}
 					else_if = {
 						limit = {
@@ -304,9 +294,7 @@ wfc_instantiate_province = {
 								original_tag = MEH
 							}
 						}
-						hidden_effect = {
-							meh_change_country_leader = yes
-						}
+						meh_change_country_leader = yes
 					}
 					else_if = {
 						limit = {
@@ -314,14 +302,10 @@ wfc_instantiate_province = {
 								original_tag = MMS
 							}
 						}
-						hidden_effect = {
-							mms_change_country_leader = yes
-						}
+						mms_change_country_leader = yes
 					}
 					else = {
-						hidden_effect = {
-							trp_change_country_leader = yes
-						}
+						trp_change_country_leader = yes
 					}
 				}
 			}
