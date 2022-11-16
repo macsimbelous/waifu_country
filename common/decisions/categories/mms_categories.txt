@@ -5,6 +5,7 @@ mms_workouts_shamiko_category = {
 	#visible_when_empty = yes
 	allowed = {
 		original_tag = MMS
+		always = no
 	}
 	visible = {
 		has_country_leader = {

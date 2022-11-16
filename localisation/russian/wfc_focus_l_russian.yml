@@ -294,6 +294,17 @@
   mms_focus_chromium_plant:0 "Хром"
   mms_focus_nuclear_reactor:0 "Атомная электростанция"
   mms_focus_synthetic_refinery:0 "Производство полимеров"
+ #workouts_shamiko
+  mms_focus_workouts_shamiko:0 "Тренировать Шамико"
+  mms_focus_triumph_shamiko:0 "Триумф Шамико"
+  mms_triumph_shamiko_flag:0 "Шамико победила в войне"
+  mms_focus_train_shamiko_attack:0 "Тренировать атаку"
+  mms_focus_train_shamiko_attack_tt:0 "Увеличет бонус атаки"
+  mms_focus_train_shamiko_protection:0 "Тренировать зашиту"
+  mms_focus_train_shamiko_protection_tt:0 "Увеличет бонус зашиты"
+  mms_focus_train_shamiko_speed:0 "Тренировать скорость"
+  mms_focus_train_shamiko_speed_tt:0 "Увеличет бонус скорости"
+  mms_focus_power_shamiko:0 "Могучая Шамико"
 
 #TRP
  trp_focus:0 "Фокусы [TRP.GetName]"

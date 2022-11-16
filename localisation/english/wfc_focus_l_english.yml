@@ -297,6 +297,17 @@
   mms_focus_chromium_plant:0 "Chrome"
   mms_focus_nuclear_reactor:0 "Nuclear Power Plant"
   mms_focus_synthetic_refinery:0 "Polymer Production"
+#workouts_shamiko
+  mms_focus_workouts_shamiko:0 "Train Shamiko"
+  mms_focus_triumph_shamiko:0 "Triumph of Shamiko"
+  mms_triumph_shamiko_flag:0 "Shamiko won the war"
+  mms_focus_train_shamiko_attack:0 "Train Attack"
+  mms_focus_train_shamiko_attack_tt:0 "Increase attack bonus"
+  mms_focus_train_shamiko_protection:0 "Train Defense"
+  mms_focus_train_shamiko_protection_tt:0 "Increase defense bonus"
+  mms_focus_train_shamiko_speed:0 "Train speed"
+  mms_focus_train_shamiko_speed_tt:0 "Increase speed bonus"
+  mms_focus_power_shamiko:0 "Mighty Shamiko"
 
 #TRP
  trp_focus:0 "Focuses [TRP.GetName]"

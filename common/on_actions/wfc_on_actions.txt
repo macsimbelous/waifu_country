@@ -1003,15 +1003,21 @@ on_actions = {
 				}
 				remove_ideas = meh_exterminatus_idea
 			}
-			# if = {
-			# 	limit = {
-			# 		FROM = {
-			# 			original_tag = MMS
-			# 			has_country_leader_with_trait = defeatist
-			# 		}
-			# 	}
-				
-			# }
+			if = {
+				limit = {
+					FROM = {
+						original_tag = MMS
+						has_country_leader = {
+							character = MMS_yuuko_yoshida
+							ruling_only = yes
+						}
+						NOT = {
+							has_country_flag = mms_triumph_shamiko_flag
+						}
+					}
+				}
+				set_country_flag = mms_triumph_shamiko_flag
+			}
 		}
 	}
 	on_weekly_ZMB = {

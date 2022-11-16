@@ -38,9 +38,7 @@ focus_tree = {
 						ruling_only = yes
 					}
 				}
-				NOT = {
-					has_country_leader_with_trait = defeatist
-				}
+				has_completed_focus = mms_focus_workouts_shamiko
 			}
 		}
 		completion_reward = {
@@ -1115,6 +1113,159 @@ focus_tree = {
 				bonus = 1
 				uses = 1
 				category = cat_synth_rubber
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_workouts_shamiko
+		icon = GFX_goal_generic_political_pressure
+		x = 25
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = mms_focus_triumph_shamiko
+		icon = GFX_focus_generic_support_the_left_right
+		relative_position_id = mms_focus_workouts_shamiko
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mms_focus_workouts_shamiko
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_flag = mms_triumph_shamiko_flag
+		}
+		completion_reward = {
+			remove_country_leader_trait = defeatist
+			add_country_leader_trait = wfc_Tyan_militarist
+		}
+	}
+	focus = {
+		id = mms_focus_train_shamiko_attack
+		icon = GFX_goal_generic_political_pressure
+		relative_position_id = mms_focus_triumph_shamiko
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mms_focus_triumph_shamiko
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = mms_focus_train_shamiko_attack_tt
+		}
+	}
+	focus = {
+		id = mms_focus_train_shamiko_protection
+		icon = GFX_goal_generic_defence
+		relative_position_id = mms_focus_triumph_shamiko
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mms_focus_triumph_shamiko
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = mms_focus_train_shamiko_protection_tt
+		}
+	}
+	focus = {
+		id = mms_focus_train_shamiko_speed
+		icon = GFX_goal_generic_army_motorized
+		relative_position_id = mms_focus_triumph_shamiko
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mms_focus_triumph_shamiko
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = mms_focus_train_shamiko_speed_tt
+		}
+	}
+	focus = {
+		id = mms_focus_power_shamiko
+		icon = GFX_focus_rom_royal_dictatorship
+		relative_position_id = mms_focus_train_shamiko_protection
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = mms_focus_train_shamiko_attack
+			focus = mms_focus_train_shamiko_protection
+			focus = mms_focus_train_shamiko_speed
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = mms_focus_train_shamiko_attack
+				}
+				add_country_leader_trait = wfc_power_shamiko_atk
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = mms_focus_train_shamiko_protection
+				}
+				add_country_leader_trait = wfc_power_shamiko_def
+			}
+			else = {
+				add_country_leader_trait = wfc_power_shamiko_spd
 			}
 		}
 	}
