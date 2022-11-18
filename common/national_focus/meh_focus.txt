@@ -1560,6 +1560,57 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = meh_attack_332
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = meh_attack_can
+		}
+		x = 1
+		y = 1
+		relative_position_id = meh_attack_can
+		cost = 10
+		will_lead_to_war_with = ENG
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_subject = no
+			NOT = {
+				is_in_faction_with = 332.OWNER
+			}
+		}
+		bypass = {
+			332 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			add_state_claim = 332
+			#add_state_claim = 331
+			332 = {
+				OWNER = {
+					set_temp_variable = {
+						tvar = id
+					}
+				}
+			}
+			if = {
+				limit = {
+					331 = {
+						OWNER = {
+							tag = var:tvar
+						}
+					}
+				}
+				add_state_claim = 331
+			}
+			declare_war_on = {
+				target = 332.OWNER
+				type = take_claimed_state
+			}
+		}
+	}
+	focus = {
 		id = meh_neutrality_focus
 		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = {

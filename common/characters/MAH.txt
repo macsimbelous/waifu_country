@@ -282,6 +282,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				infantry_leader
+				skilled_staffer
 			}
 			skill = 5
 			attack_skill = 6
@@ -695,7 +696,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				trait_engineer
-				skilled_staffer
+				panzer_leader
 			}
 			skill = 4
 			attack_skill = 5

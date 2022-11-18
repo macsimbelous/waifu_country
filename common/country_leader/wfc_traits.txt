@@ -68,14 +68,14 @@ leader_traits = {
 	wfc_patron_of_intelligence = {
 		random = no
 		agency_upgrade_time = -0.33
-		crypto_strength = 3
-		decryption_power = 15
+		crypto_strength = 1
+		decryption_power = 5
 		operative_slot = 1
 	}
 	wfc_patron_of_the_military_industrial_complex = {
 		random = no
-		production_speed_arms_factory_factor = 0.1
-		production_speed_dockyard_factor = 0.1
+		production_speed_arms_factory_factor = 0.05
+		production_speed_dockyard_factor = 0.05
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		#production_speed_infrastructure_factor = 0.2
@@ -86,14 +86,15 @@ leader_traits = {
 	}
 	wfc_patron_of_industry = {
 		random = no
-		production_speed_industrial_complex_factor = 0.2
-		production_speed_synthetic_refinery_factor = 0.2
-		#production_speed_infrastructure_factor = 0.2
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_synthetic_refinery_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
+		industrial_concern_cost_factor = -0.5
 	}
 	wfc_patron_of_science = {
 		random = no
-		research_speed_factor = 0.15
-		theorist_cost_factor = -0.33
+		research_speed_factor = 0.05
+		theorist_cost_factor = -0.5
 	}
 	#4
 	wfc_demon_lord = {
@@ -113,14 +114,14 @@ leader_traits = {
 		#trade_laws_cost_factor = -0.33
 		#economy_cost_factor = -0.33
 		#political_advisor_cost_factor = -0.33
-		industrial_concern_cost_factor = -0.33
+		#industrial_concern_cost_factor = -0.33
 		compliance_growth = 0.1
 	}
 	wfc_dictator = {
 		random = no
 		#stability_factor = 0.15
 		political_power_factor = 0.3
-		military_leader_cost_factor = -0.33
+		political_advisor_cost_factor = -0.33
 	}
 	wfc_tsundere = {
 		random = no
@@ -140,7 +141,7 @@ leader_traits = {
 	}
 	wfc_empress = {
 		random = no
-		political_power_factor = 0.25
+		political_power_factor = 0.3
 		#stability_factor = 0.15
 		#trade_laws_cost_factor = -0.33
 		#economy_cost_factor = -0.33
