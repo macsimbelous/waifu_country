@@ -231,6 +231,7 @@ focus_tree = {
 				tag = JAP
 				ratio > 1.5
 			}
+			num_of_nukes > 0
 		}
 		completion_reward = {
 			every_other_country = {
@@ -242,6 +243,14 @@ focus_tree = {
 						target = PREV
 						type = annex_everything
 					}
+				}
+			}
+			every_other_country = {
+				limit = {
+					is_puppet_of = JAP
+				}
+				ROOT = {
+					puppet = PREV
 				}
 			}
 			annex_country = {
