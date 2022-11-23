@@ -53,3 +53,47 @@ country_event = {
 		add_political_power = -300
 	}
 }
+country_event = {
+	id = hen_event.3
+	title = hen_event.3.t
+	desc = hen_event.3.d
+	#picture = GFX_hen_event_01
+	is_triggered_only = yes
+	option = {
+		name = hen_event.3.a
+		ai_chance = {
+			factor = 75
+		}
+		SOV = {
+			add_to_faction = PRC
+		}
+	}
+	option = {
+		name = hen_event.3.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = hen_event.4
+	title = hen_event.4.t
+	desc = hen_event.4.d
+	#picture = GFX_hen_event_01
+	is_triggered_only = yes
+	option = {
+		name = hen_event.4.a
+		ai_chance = {
+			factor = 75
+		}
+		JAP = {
+			add_to_faction = HEN
+		}
+	}
+	option = {
+		name = hen_event.4.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

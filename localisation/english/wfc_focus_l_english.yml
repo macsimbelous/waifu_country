@@ -213,6 +213,10 @@
  hen_demoralize_jap:0 "Demoralize the Population"
  hen_add_claim_to_jap:0 "Justify claims"
  hen_declare_war_jap:0 "Declare war"
+ hen_seduce_showa:0 "Seduce the Emperor"
+ hen_focus_union_with_japan:0 "Union with Japan"
+ hen_friendship_with_sov:0 "Friendship with the Soviet Union"
+ hen_focus_subdue_sov:0 "Subdue [SOV.GetName]"
 
 #MAH
  mah_focus:0 "Focuses [MAH.GetName]"

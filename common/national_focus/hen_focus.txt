@@ -26,9 +26,12 @@ focus_tree = {
 		icon = GFX_focus_chi_collaboration_with_the_japanese
 		x = 12
 		y = 8
-		cost = 10
+		cost = 5
 		mutually_exclusive = {
 			focus = hen_conquest_of_japan
+		}
+		mutually_exclusive = {
+			focus = hen_friendship_with_sov
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -37,16 +40,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		available = {
 			JAP = {
-				has_same_ideology = yes
+				has_government = fascism
+				fascism > 0.5
 			}
+			fascism > 0.3
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 1
-				uses = 1
-				category = industry
-			}
+			add_stability = 0.01
 		}
 		ai_will_do = {
 			factor = 1
@@ -61,7 +61,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_friendship_with_japan
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -77,10 +77,10 @@ focus_tree = {
 					modifier = large_increase
 				}
 			}
-			# add_popularity = {
-			# 	ideology = fascism
-			# 	popularity = 0.05
-			# }
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -156,20 +156,107 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_technology_sharing_jap
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-			FOCUS_FILTER_RESEARCH
 		}
 		available = {
 			JAP = {
 				has_same_ideology = yes
+				is_faction_leader = yes
 			}
 		}
 		available_if_capitulated = yes
 		completion_reward = {
+			# JAP = {
+			# 	add_to_faction = HEN
+			# }
+			JAP = { country_event = hen_event.4 }
+		}
+	}
+	focus = {
+		id = hen_seduce_showa
+		icon = GFX_focus_jap_showa_restoration
+		prerequisite = {
+			focus = hen_alliance_with_japan
+		}
+		x = 0
+		y = 1
+		relative_position_id = hen_alliance_with_japan
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				producer = SOV
+				amount = 10000
+			}
+			add_opinion_modifier = {
+				target = JAP
+				modifier = large_increase
+			}
 			JAP = {
-				add_to_faction = HEN
+				add_opinion_modifier = {
+					target = HEN
+					modifier = large_increase
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = hen_focus_union_with_japan
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = hen_seduce_showa
+		}
+		x = 0
+		y = 1
+		relative_position_id = hen_seduce_showa
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_in_faction_with = JAP
+			JAP = {
+				has_same_ideology = yes
+			}
+			ic_ratio = {
+				tag = JAP
+				ratio > 1.5
+			}
+			strength_ratio = {
+				tag = JAP
+				ratio > 1.5
+			}
+		}
+		completion_reward = {
+			every_other_country = {
+				limit = {
+					has_war_with = JAP
+				}
+				ROOT = {
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+			annex_country = {
+				target = JAP
+				transfer_troops = yes
+			}
+			every_owned_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_core_of = HEN
 			}
 		}
 	}
@@ -177,13 +264,14 @@ focus_tree = {
 		id = hen_conquest_of_gxc
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = hen_alliance_with_japan
+			focus = hen_seduce_showa
 		}
-		x = 0
+		x = 2
 		y = 1
-		relative_position_id = hen_alliance_with_japan
-		cost = 10
+		relative_position_id = hen_seduce_showa
+		cost = 5
 		available = {
+			is_in_faction_with = JAP
 			NOT = {
 				is_in_faction_with = GXC
 			}
@@ -230,17 +318,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = hen_visit_to_sov
-		icon = GFX_focus_generic_diplomatic_treaty
-		# prerequisite = {
-		# 	focus = hen_internationalism_focus
-		# }
+		id = hen_friendship_with_sov
+		icon = GFX_focus_chi_mission_to_the_soviet_union
 		x = 9
 		y = 8
-		#relative_position_id = hen_internationalism_focus
 		cost = 5
+		mutually_exclusive = {
+			focus = hen_friendship_with_japan
+		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
 		available = {
@@ -249,6 +337,27 @@ focus_tree = {
 				has_government = communism
 			}
 		}
+		completion_reward = {
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = hen_visit_to_sov
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = {
+			focus = hen_friendship_with_sov
+		}
+		x = 0
+		y = 1
+		relative_position_id = hen_friendship_with_sov
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available_if_capitulated = yes
 		completion_reward = {
 			add_opinion_modifier = {
 				target = SOV
@@ -579,9 +688,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			SOV = {
-				add_to_faction = PRC
-			}
+			# SOV = {
+			# 	add_to_faction = PRC
+			# }
+			PRC = { country_event = hen_event.3 }
 		}
 	}
 	focus = {
@@ -616,6 +726,37 @@ focus_tree = {
 				remove_core_of = JAP
 				remove_core_of = HEN
 			}
+		}
+	}
+	focus = {
+		id = hen_focus_subdue_sov
+		icon = GFX_focus_generic_annex_country_2
+		prerequisite = {
+			focus = hen_transfert_sahalin_and_kuril
+		}
+		x = 0
+		y = 1
+		relative_position_id = hen_transfert_sahalin_and_kuril
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_in_faction_with = SOV
+			SOV = {
+				has_same_ideology = yes
+			}
+			ic_ratio = {
+				tag = JAP
+				ratio > 1.5
+			}
+			strength_ratio = {
+				tag = JAP
+				ratio > 1.5
+			}
+		}
+		completion_reward = {
+			puppet = SOV
 		}
 	}
 	focus = {
