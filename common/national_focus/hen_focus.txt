@@ -215,6 +215,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = hen_seduce_showa
 		cost = 10
+		continue_if_invalid = yes
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -225,11 +226,11 @@ focus_tree = {
 			}
 			ic_ratio = {
 				tag = JAP
-				ratio > 1.5
+				ratio > 1.25
 			}
 			strength_ratio = {
 				tag = JAP
-				ratio > 1.5
+				ratio > 1.25
 			}
 			num_of_nukes > 0
 		}
@@ -262,6 +263,11 @@ focus_tree = {
 					is_core_of = JAP
 				}
 				add_core_of = HEN
+			}
+			JAP = {
+				every_character = {
+					set_nationality = ROOT
+				}
 			}
 		}
 	}
