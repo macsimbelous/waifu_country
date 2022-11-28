@@ -150,6 +150,35 @@ TRP_fascist = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+		wfc_ideological_fanaticism
+		#concvest
+		trp_conquest_of_south_america
+		trp_attack_bra
+		trp_infrastructure_effort_nsb
+		trp_heavy_industry
+		trp_improve_railway_network
+		trp_focus_construction_effort
+		trp_attack_urg
+		trp_increase_state_reserves
+		trp_attack_bol
+		trp_support_the_opposition
+		trp_attack_par
+		trp_go_left
+		trp_attack_col
+		trp_focus_academy_of_sciences
+		trp_focus_develop_cloning
+		trp_atack_ven
+		trp_shift_to_armaments_production
+		trp_steel_casting_industry
+		trp_synthetic_rubber
+		trp_attack_ecu
+		trp_optimize_production_lines
+		trp_atack_pru
+		trp_focus_minprom
+		trp_attack_arg
+		trp_attack_chl
+		trp_focus_south_american_federation
+		trp_annex_the_colonies
 	}
 	research = {
 	}

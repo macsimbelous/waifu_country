@@ -76,11 +76,9 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				production_speed_buildings_factor = 0.05
-				production_speed_arms_factory_factor = 0.1
-				production_speed_dockyard_factor = 0.1
 				consumer_goods_factor = -0.02
 				#global_building_slots_factor = 0.2
-				global_building_slots = 0.2
+				global_building_slots = 0.3
 			}
 		}
 		trp_transformation_of_nature = {

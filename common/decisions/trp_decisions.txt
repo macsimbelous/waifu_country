@@ -1,6 +1,9 @@
 trp_cloning_category = {
 	trp_develop_cloning_technology = {
 		icon = decision_generic_research
+		allowed = {
+			always = no
+		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 0
 		}
