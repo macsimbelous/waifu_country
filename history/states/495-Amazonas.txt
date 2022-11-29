@@ -23,9 +23,9 @@ state = {
 			# 5083 = {
 			# 	supply_node = 1
 			# }
-			dockyard = 2
+			dockyard = 1
 			industrial_complex = 3
-			arms_factory = 3
+			arms_factory = 4
 			air_base = 4
 		}
 		add_core_of = TRP
