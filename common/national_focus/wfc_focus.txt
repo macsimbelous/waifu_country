@@ -28,7 +28,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = wfc_army_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -56,7 +56,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = wfc_army_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -79,7 +79,7 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = wfc_army_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -104,7 +104,7 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = wfc_equipment_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -129,7 +129,7 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = wfc_motorization_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -153,7 +153,7 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = wfc_doctrine_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -178,7 +178,7 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = wfc_equipment_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -203,7 +203,7 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = wfc_mechanization_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -233,7 +233,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = wfc_equipment_effort_3
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -259,7 +259,7 @@ shared_focus = {
 	icon = GFX_goal_generic_build_airforce
 	x = 5
 	y = 0
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -361,7 +361,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = wfc_aviation_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -389,7 +389,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = wfc_aviation_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -415,7 +415,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = wfc_bomber_focus
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -513,7 +513,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = wfc_aviation_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -538,7 +538,7 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = wfc_aviation_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -566,7 +566,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = wfc_aviation_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -587,7 +587,7 @@ shared_focus = {
 	icon = GFX_goal_generic_construct_naval_dockyard
 	x = 9
 	y = 0
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -731,7 +731,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = wfc_naval_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -774,7 +774,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = wfc_naval_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -811,7 +811,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_flexible_navy
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -849,7 +849,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_large_navy
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -887,7 +887,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_submarine_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -924,7 +924,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_cruiser_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -960,7 +960,7 @@ shared_focus = {
 	icon = GFX_goal_generic_production
 	x = 13
 	y = 0
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 		FOCUS_FILTER_RESEARCH
@@ -992,7 +992,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = wfc_industrial_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -1067,7 +1067,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = wfc_industrial_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -1142,7 +1142,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_construction_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -1217,7 +1217,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_production_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -1292,7 +1292,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_construction_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -1394,7 +1394,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_production_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -1469,7 +1469,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_infrastructure_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -1571,7 +1571,7 @@ shared_focus = {
 	x = 2
 	y = 1
 	relative_position_id = wfc_infrastructure_effort
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
 	}
@@ -1646,7 +1646,7 @@ shared_focus = {
 	x = -2
 	y = 1
 	relative_position_id = wfc_infrastructure_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -1676,7 +1676,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_infrastructure_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -1703,7 +1703,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = wfc_extra_tech_slot
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
@@ -1725,7 +1725,7 @@ shared_focus = {
 	x = 2
 	y = 1
 	relative_position_id = wfc_infrastructure_effort_2
-	cost = 10
+	cost = 5
 	search_filters = {
 		FOCUS_FILTER_RESEARCH
 	}
