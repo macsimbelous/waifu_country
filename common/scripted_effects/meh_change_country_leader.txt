@@ -119,6 +119,11 @@ meh_change_country_leader = {
 		}
 		1 = {
 			set_country_leader_portrait = {
+				portrait = GFX_portrait_meh_land_25
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
 				portrait = GFX_portrait_meh_naval_01
 			}
 		}
