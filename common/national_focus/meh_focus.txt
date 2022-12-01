@@ -81,14 +81,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			base = 1
-			modifier = {
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-				add = 10
-			}
+			base = 3
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -116,14 +109,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			base = 1
-			modifier = {
-				OR = {
-					has_government = communism
-					has_government = fascism
-				}
-				add = 10
-			}
+			base = 3
 		}
 		completion_reward = {
 			swap_ideas = {
