@@ -974,6 +974,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			country_exists = MMS
+			NOT = {
+				is_in_faction_with = MMS
+			}
 			has_army_manpower = {
 				size > 499999
 			}
