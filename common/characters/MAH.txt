@@ -821,6 +821,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				trait_mountaineer
+				commando
 			}
 			skill = 4
 			attack_skill = 5
