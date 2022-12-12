@@ -1369,9 +1369,9 @@ focus_tree = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 764
-				764 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 764 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 108
 				108 = {
 					wfc_is_controlled_by_root_or_puppet = yes
@@ -1393,6 +1393,9 @@ focus_tree = {
 		available = {
 			NOT = {
 				is_in_faction_with = YUG
+			}
+			has_army_manpower = {
+				size > 499999
 			}
 		}
 		completion_reward = {
@@ -1436,9 +1439,9 @@ focus_tree = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 76
-				76 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 76 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 77
 				77 = {
 					wfc_is_controlled_by_root_or_puppet = yes
@@ -1452,42 +1455,25 @@ focus_tree = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 82
-				82 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 82 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 83
-				83 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 83 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 84
-				84 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 84 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 			}
 		}
 		available = {
 			NOT = {
 				is_in_faction_with = ROM
 			}
-			#Bulgaria
-			custom_trigger_tooltip = {
-				tooltip = acw_form_bulgaria_required_states_tt
-				#controls_state = 48
-				48 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 801
-				801 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 212
-				212 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 211
-				211 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+			has_army_manpower = {
+				size > 499999
 			}
 		}
 		completion_reward = {
