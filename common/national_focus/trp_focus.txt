@@ -206,17 +206,16 @@
 			}
 			random_owned_controlled_state = {
 				limit = {
-					industrial_complex > 0
 					free_building_slots = {
 						building = industrial_complex
-						size > 2
+						size > 1
 						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -275,10 +274,9 @@
 			}
 			random_owned_controlled_state = {
 				limit = {
-					industrial_complex > 0
 					free_building_slots = {
 						building = industrial_complex
-						size > 2
+						size > 0
 						include_locked = yes
 					}
 				}
@@ -389,14 +387,13 @@
 			}
 			random_owned_controlled_state = {
 				limit = {
-					arms_factory > 0
 					free_building_slots = {
 						building = arms_factory
-						size > 2
+						size > 0
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -462,8 +459,15 @@
 			FOCUS_FILTER_RESEARCH
 		}
 		completion_reward = {
-			280 = {
-				add_extra_state_shared_building_slots = 2
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -1740,15 +1744,6 @@
 				}
 				#controls_state = 280
 				280 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				915 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				913 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				914 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}

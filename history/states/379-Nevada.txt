@@ -4,7 +4,7 @@ state={
 	name="STATE_379"
 	manpower = 3610570
 	
-	state_category = town
+	state_category = city
 	
 	resources={
 		steel=70 # was: 136
@@ -17,24 +17,33 @@ state={
 		owner = MEH
 		buildings = {
 			infrastructure = 1
-			#arms_factory = 1
-			#industrial_complex = 6
-
+			arms_factory = 3
+			industrial_complex = 3
+			7827 = {
+				supply_node = 1
+			}
 		}
 		add_core_of = MEH
 		victory_points = {
 			4816 1
 		}
+		victory_points = {
+			10422
+			1
+		}
+		victory_points = {
+			7827 1
+		}
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 4
-				arms_factory = 3
+				industrial_complex = 6
+				arms_factory = 4
 			}
 		}
 	}
 
 	provinces={
-		4521 4799 4816 7879 12399 12425 
+		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425
 	}
 	local_supplies=10.0
 }

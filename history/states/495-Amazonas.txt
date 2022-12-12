@@ -1,10 +1,10 @@
 state = {
 	id = 495
 	name = "STATE_495"
-	manpower = 4263782
+	manpower = 10263782
 	state_category = megalopolis
 	resources = {
-		#aluminium = 24
+		aluminium = 24
 	}
 	history = {
 		owner = TRP
@@ -14,18 +14,18 @@ state = {
 				naval_base = 3
 				coastal_bunker = 3
 			}
-			# 1979 = {
-			# 	supply_node = 1
-			# }
-			# 10960 = {
-			# 	supply_node = 1
-			# }
-			# 5083 = {
-			# 	supply_node = 1
-			# }
+			1979 = {
+				supply_node = 1
+			}
+			10960 = {
+				supply_node = 1
+			}
+			5083 = {
+				supply_node = 1
+			}
 			dockyard = 1
-			industrial_complex = 3
-			arms_factory = 4
+			industrial_complex = 6
+			arms_factory = 5
 			air_base = 4
 		}
 		add_core_of = TRP
@@ -35,9 +35,18 @@ state = {
 		victory_points = {
 			4980 10 
 		}
+		victory_points = {
+			1979 10 
+		}
+		victory_points = {
+			5083 5 
+		}
+		victory_points = {
+			10960 5
+		}
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 5
+				industrial_complex = 9
 				arms_factory = 4
 				dockyard = 4
 			}
@@ -46,7 +55,7 @@ state = {
 	provinces = {
 		4980
 		5008
-		10934
+		10934 13083 12919 5083 5214 5232 1979 8172 2035 10956 2198 8185 5216 10960 8254 12965
 	}
 	local_supplies=10.0
 }

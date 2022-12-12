@@ -256,15 +256,6 @@ trp_south_american_federation = {
 				280 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				915 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				913 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				914 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
 			}
 			# COL
 			custom_trigger_tooltip = {

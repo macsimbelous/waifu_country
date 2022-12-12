@@ -223,120 +223,120 @@ division_template = {
 # }
 units = {
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	#mountainers
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Mountaineers"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	division = {
-		location = 9756
+		location = 11608
 		division_template = "Anime Mountaineers"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 	}
 	#tanks
 	# division = {
-	# 	location = 9756
+	# 	location = 11608
 	# 	division_template = "Anime Light Tank"
 	# 	start_experience_factor = 0.7
 	# 	start_equipment_factor = 0.3
 	# }
 	# division = {
-	# 	location = 9756
+	# 	location = 11608
 	# 	division_template = "Anime Light Tank"
 	# 	start_experience_factor = 0.7
 	# 	start_equipment_factor = 0.3
 	# }
 }
 air_wings = {
-	919 = {
+	82 = {
 		small_plane_airframe_0 = { owner = "ACW" amount = 100 version_name = "A-15" }
-		medium_plane_airframe_0 =  { owner = "ACW" amount = 50 version_name = "AB-3"}
+		medium_plane_airframe_0 =  { owner = "ACW" amount = 100 version_name = "AB-3"}
 	}
 }
 ###starting production###

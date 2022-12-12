@@ -71,7 +71,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_focus_promote_democracy_in_bulgaria
+		id = acw_focus_promote_democracy_in_hun
 		icon = GFX_goal_generic_propaganda
 		prerequisite = {
 			focus = acw_focus_beacon_of_freedom
@@ -84,7 +84,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			BUL = {
+			HUN = {
 				add_timed_idea = {
 					idea = democratic_influence
 					days = 360
@@ -96,11 +96,11 @@ focus_tree = {
 		id = acw_focus_promote_democracy_in_yug
 		icon = GFX_goal_generic_propaganda
 		prerequisite = {
-			focus = acw_focus_promote_democracy_in_bulgaria
+			focus = acw_focus_promote_democracy_in_hun
 		}
 		x = -1
 		y = 1
-		relative_position_id = acw_focus_promote_democracy_in_bulgaria
+		relative_position_id = acw_focus_promote_democracy_in_hun
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -140,11 +140,11 @@ focus_tree = {
 		id = acw_focus_promote_democracy_in_romania
 		icon = GFX_goal_generic_propaganda
 		prerequisite = {
-			focus = acw_focus_promote_democracy_in_bulgaria
+			focus = acw_focus_promote_democracy_in_hun
 		}
 		x = 1
 		y = 1
-		relative_position_id = acw_focus_promote_democracy_in_bulgaria
+		relative_position_id = acw_focus_promote_democracy_in_hun
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -159,11 +159,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_focus_promote_democracy_in_hun
+		id = acw_focus_promote_democracy_in_bulgaria
 		icon = GFX_goal_generic_propaganda
 		prerequisite = {
-			focus = acw_focus_promote_democracy_in_yug
 			focus = acw_focus_promote_democracy_in_romania
+			focus = acw_focus_join_allies
 		}
 		x = 0
 		y = 1
@@ -173,7 +173,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			HUN = {
+			BUL = {
 				add_timed_idea = {
 					idea = democratic_influence
 					days = 360
@@ -188,11 +188,11 @@ focus_tree = {
 			focus = acw_focus_promote_democracy_in_alb
 		}
 		prerequisite = {
-			focus = acw_focus_promote_democracy_in_hun
+			focus = acw_focus_promote_democracy_in_bulgaria
 		}
 		x = -2
 		y = 1
-		relative_position_id = acw_focus_promote_democracy_in_hun
+		relative_position_id = acw_focus_promote_democracy_in_bulgaria
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -217,11 +217,11 @@ focus_tree = {
 			focus = acw_focus_promote_democracy_in_alb
 		}
 		prerequisite = {
-			focus = acw_focus_promote_democracy_in_hun
+			focus = acw_focus_promote_democracy_in_bulgaria
 		}
 		x = 0
 		y = 1
-		relative_position_id = acw_focus_promote_democracy_in_hun
+		relative_position_id = acw_focus_promote_democracy_in_bulgaria
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1264,8 +1264,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_focus_attack_bulgaria
-		icon = GFX_focus_generic_attack_bulgaria
+		id = acw_focus_attack_hun
+		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = acw_defensive_lines
 		}
@@ -1277,26 +1277,44 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		bypass = {
-			BUL = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
+			# Hungary
+			custom_trigger_tooltip = {
+				tooltip = acw_form_hungary_required_states_tt
+				#controls_state = 155
+				155 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 43
+				43 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 154
+				154 = {
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 		}
 		available = {
 			NOT = {
-				is_in_faction_with = BUL
+				is_in_faction_with = HUN
 			}
+			# HUN = {
+			# 	any_neighbor_country = {
+			# 		OR = {
+			# 			original_tag = ROOT
+			# 			is_puppet_of = ROOT
+			# 		}
+			# 	}
+			# }
 		}
 		completion_reward = {
-			BUL = {
+			HUN = {
 				every_owned_state = {
 					add_claim_by = ROOT
 				}
 			}
 			create_wargoal = {
-				target = BUL
+				target = HUN
 				type = annex_everything
 			}
 		}
@@ -1305,11 +1323,11 @@ focus_tree = {
 		id = acw_focus_attack_yug
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = acw_focus_attack_bulgaria
+			focus = acw_focus_attack_hun
 		}
 		x = -1
 		y = 1
-		relative_position_id = acw_focus_attack_bulgaria
+		relative_position_id = acw_focus_attack_hun
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1376,26 +1394,6 @@ focus_tree = {
 			NOT = {
 				is_in_faction_with = YUG
 			}
-			#Bulgaria
-			custom_trigger_tooltip = {
-				tooltip = acw_form_bulgaria_required_states_tt
-				#controls_state = 48
-				48 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 801
-				801 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 212
-				212 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 211
-				211 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
 		}
 		completion_reward = {
 			YUG = {
@@ -1420,11 +1418,11 @@ focus_tree = {
 		id = acw_focus_attack_romania
 		icon = GFX_focus_generic_attack_romania
 		prerequisite = {
-			focus = acw_focus_attack_bulgaria
+			focus = acw_focus_attack_hun
 		}
 		x = 1
 		y = 1
-		relative_position_id = acw_focus_attack_bulgaria
+		relative_position_id = acw_focus_attack_hun
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1512,42 +1510,32 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_focus_attack_hun
-		icon = GFX_goal_generic_major_war
+		id = acw_focus_attack_bulgaria
+		icon = GFX_focus_generic_attack_bulgaria
 		prerequisite = {
-			focus = acw_focus_attack_yug
 			focus = acw_focus_attack_romania
+			focus = acw_focus_attack_yug
 		}
-		x = 1
+		x = -1
 		y = 1
-		relative_position_id = acw_focus_attack_yug
+		relative_position_id = acw_focus_attack_romania
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		bypass = {
-			# Hungary
-			custom_trigger_tooltip = {
-				tooltip = acw_form_hungary_required_states_tt
-				#controls_state = 155
-				155 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 43
-				43 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 154
-				154 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+			BUL = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
 				}
 			}
 		}
 		available = {
 			NOT = {
-				is_in_faction_with = HUN
+				is_in_faction_with = BUL
 			}
-			HUN = {
+			BUL = {
 				any_neighbor_country = {
 					OR = {
 						original_tag = ROOT
@@ -1557,13 +1545,13 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			HUN = {
+			BUL = {
 				every_owned_state = {
 					add_claim_by = ROOT
 				}
 			}
 			create_wargoal = {
-				target = HUN
+				target = BUL
 				type = annex_everything
 			}
 		}
@@ -1572,11 +1560,11 @@ focus_tree = {
 		id = acw_focus_great_animeland
 		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = {
-			focus = acw_focus_attack_hun
+			focus = acw_focus_attack_bulgaria
 		}
 		x = 0
 		y = 1
-		relative_position_id = acw_focus_attack_hun
+		relative_position_id = acw_focus_attack_bulgaria
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1589,10 +1577,11 @@ focus_tree = {
 			#Animeland
 			custom_trigger_tooltip = {
 				tooltip = acw_form_animeland_required_states_tt
-				controls_state = 918
-				controls_state = 919
-				controls_state = 920
-				controls_state = 921
+				controls_state = 76
+				controls_state = 82
+				controls_state = 83
+				controls_state = 84
+				controls_state = 764
 			}
 			#Bulgaria
 			custom_trigger_tooltip = {
@@ -1622,9 +1611,9 @@ focus_tree = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 76
-				76 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 76 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 77
 				77 = {
 					wfc_is_controlled_by_root_or_puppet = yes
@@ -1638,17 +1627,17 @@ focus_tree = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 82
-				82 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 82 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 83
-				83 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 83 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 84
-				84 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 84 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 			}
 			#Yugoslavia 
 			custom_trigger_tooltip = {
@@ -1686,9 +1675,9 @@ focus_tree = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 764
-				764 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 764 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				#controls_state = 108
 				108 = {
 					wfc_is_controlled_by_root_or_puppet = yes

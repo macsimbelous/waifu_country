@@ -502,12 +502,6 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			911 = {
-				urbanize_state = yes
-			}
-			912 = {
-				urbanize_state = yes
-			}
 			379 = {
 				urbanize_state = yes
 			}
@@ -706,7 +700,7 @@ focus_tree = {
 			fascism > 0.3
 		}
 		completion_reward = {
-			836 = {
+			378 = {
 				create_unit = {
 					division = "name = \"Mecha Division\" division_template = \"Mecha Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
 					owner = MEH

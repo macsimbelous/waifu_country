@@ -1,0 +1,33 @@
+
+state={
+	id=764
+	name="STATE_764"
+	manpower = 785579
+	state_category = city
+
+	history={
+		owner = ACW
+		victory_points = {
+			3614 1
+		}
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+			arms_factory = 1
+			3614 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = TRA
+		add_core_of = ACW
+	}
+
+	provinces={
+		614 3614 6643 11787
+	}
+
+	local_supplies=9.0 
+}
