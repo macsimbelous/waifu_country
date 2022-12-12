@@ -701,8 +701,12 @@ units = {
 }
 air_wings = {
 	378 = { 
-		small_plane_airframe_1 = { owner = "MEH" amount = 400 version_name = "Mecha F-16" }
-		medium_plane_airframe_1 =  { owner = "MEH" amount = 200 version_name = "Mecha B-4"}
+		small_plane_airframe_1 = { owner = "MEH" amount = 100 version_name = "Mecha F-16" }
+		small_plane_airframe_1 = { owner = "MEH" amount = 100 version_name = "Mecha F-16" }
+		small_plane_airframe_1 = { owner = "MEH" amount = 100 version_name = "Mecha F-16" }
+		small_plane_airframe_1 = { owner = "MEH" amount = 100 version_name = "Mecha F-16" }
+		medium_plane_airframe_1 =  { owner = "MEH" amount = 100 version_name = "Mecha B-4"}
+		medium_plane_airframe_1 =  { owner = "MEH" amount = 100 version_name = "Mecha B-4"}
 	}
 }
 instant_effect = {

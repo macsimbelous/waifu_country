@@ -470,7 +470,10 @@ units = {
 }
 air_wings = {
 	414 = { 
-		small_plane_airframe_1 = { owner = "MMS" amount = 400 version_name = "Monster F-16" }
+		small_plane_airframe_1 = { owner = "MMS" amount = 100 version_name = "Monster F-16" }
+		small_plane_airframe_1 = { owner = "MMS" amount = 100 version_name = "Monster F-16" }
+		small_plane_airframe_1 = { owner = "MMS" amount = 100 version_name = "Monster F-16" }
+		small_plane_airframe_1 = { owner = "MMS" amount = 100 version_name = "Monster F-16" }
 		medium_plane_airframe_1 =  { owner = "MMS" amount = 100 version_name = "Monster B-4"}
 	}
 }

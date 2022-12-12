@@ -378,7 +378,7 @@ units = {
 air_wings = {
 	378 = { 
 		small_plane_airframe_0 = { owner = "MEH" amount = 100 version_name = "Mecha F-15" }
-		medium_plane_airframe_0 =  { owner = "MEH" amount = 50 version_name = "Mecha B-3"}
+		medium_plane_airframe_0 =  { owner = "MEH" amount = 100 version_name = "Mecha B-3"}
 	}
 }
 instant_effect = {

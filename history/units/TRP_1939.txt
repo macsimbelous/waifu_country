@@ -376,7 +376,10 @@ units = {
 }
 air_wings = {
 	495 = { 
-		small_plane_airframe_1 = { owner = "TRP" amount = 400 version_name = "Trap F-16" }
+		small_plane_airframe_1 = { owner = "TRP" amount = 100 version_name = "Trap F-16" }
+		small_plane_airframe_1 = { owner = "TRP" amount = 100 version_name = "Trap F-16" }
+		small_plane_airframe_1 = { owner = "TRP" amount = 100 version_name = "Trap F-16" }
+		small_plane_airframe_1 = { owner = "TRP" amount = 100 version_name = "Trap F-16" }
 		medium_plane_airframe_1 =  { owner = "TRP" amount = 100 version_name = "Trap B-4"}
 	}
 }
