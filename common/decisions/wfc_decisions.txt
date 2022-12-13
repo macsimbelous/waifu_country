@@ -4005,8 +4005,8 @@ wfc_puppets_category = {
 		}
 		visible = {
 			FROM = {
-				is_major = no
-				is_subject = no
+				#is_major = no
+				#is_subject = no
 				any_owned_state = {
 					is_core_of = FROM
 					any_neighbor_state = {
