@@ -37,7 +37,7 @@ TRP_historical = {
 		trp_heavy_industry
 		trp_improve_railway_network
 		trp_focus_construction_effort
-		trp_attack_bra
+		trp_attack_bol
 		trp_increase_state_reserves
 		trp_support_the_opposition
 		trp_go_left
@@ -104,7 +104,7 @@ TRP_neutrality = {
 		trp_focus_nuclear_effort
 		trp_focus_electronics_effort
 		trp_conquest_of_south_america
-		trp_attack_bra
+		trp_attack_bol
 	}
 	research = {
 	}
@@ -160,7 +160,7 @@ TRP_democratic = {
 		trp_focus_nuclear_effort
 		trp_focus_electronics_effort
 		trp_conquest_of_south_america
-		trp_attack_bra
+		trp_attack_bol
 	}
 	research = {
 	}
@@ -206,7 +206,7 @@ TRP_fascist = {
 		wfc_ideological_fanaticism
 		#concvest
 		trp_conquest_of_south_america
-		trp_attack_bra
+		trp_attack_bol
 		trp_infrastructure_effort_nsb
 		trp_heavy_industry
 		trp_improve_railway_network

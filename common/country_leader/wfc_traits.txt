@@ -410,7 +410,7 @@ leader_traits = {
 		random = no
 		stability_factor = 0.1
 		research_speed_factor = 0.1
-		monthly_population = 0.05
+		monthly_population = 0.2
 		experience_loss_factor = -0.05
 	}
 	wfc_trait_secretary = {
