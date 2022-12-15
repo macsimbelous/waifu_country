@@ -26,8 +26,8 @@ state={
 				supply_node = 1
 			}
 		}
-		add_core_of = ROM
-		add_core_of = TRA
+		# add_core_of = ROM
+		# add_core_of = TRA
 		add_core_of = ACW
 		1939.1.1 = {
 			buildings = {

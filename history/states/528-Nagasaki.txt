@@ -11,7 +11,7 @@ state={
 
 	history={
 		owner = HEN
-		add_core_of = JAP
+		# add_core_of = JAP
 		add_core_of = HEN
 		buildings = {
 			infrastructure = 4
