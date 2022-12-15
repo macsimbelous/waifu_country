@@ -1055,6 +1055,11 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = BRA
+		available = {
+			has_army_manpower = {
+				size > 999999
+			}
+		}
 		bypass = {
 			# BRA
 			custom_trigger_tooltip = {
