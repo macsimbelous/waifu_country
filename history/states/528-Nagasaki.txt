@@ -1,15 +1,13 @@
-
-state={
-	id=528
-	name="STATE_528" # Kyushu
+state = {
+	id = 528
+	name = "STATE_528"	# Kyushu
 	manpower = 17128147
 	state_category = megalopolis
-	resources={
-		chromium=52
+	resources = {
+		chromium = 52
 		steel = 12
 	}
-
-	history={
+	history = {
 		owner = HEN
 		# add_core_of = JAP
 		add_core_of = HEN
@@ -26,22 +24,34 @@ state={
 			11925 = {
 				naval_base = 6
 				coastal_bunker = 3
+				supply_node = 1
+			}
+			1025 = {
+				bunker = 5
+			}
+			10092 = {
+				bunker = 5
 			}
 		}
 		victory_points = {
-			1025 10 
+			1025
+			10
 		}
 		victory_points = {
-			11925 50 
+			11925
+			50
 		}
 		victory_points = {
-			4102 10 
+			4102
+			10
 		}
 		victory_points = {
-			10020 10 
+			10020
+			10
 		}
 		victory_points = {
-			9950 10
+			9950
+			10
 		}
 		1939.1.1 = {
 			buildings = {
@@ -55,9 +65,25 @@ state={
 			}
 		}
 	}
-
-	provinces={
-		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032
+	provinces = {
+		1020
+		1025
+		1158
+		1183
+		4027
+		4102
+		4164
+		4198
+		7110
+		7178
+		9950
+		10011
+		10020
+		10092
+		11925
+		11949
+		12006
+		12032
 	}
-	local_supplies=10.0
+	local_supplies = 10
 }

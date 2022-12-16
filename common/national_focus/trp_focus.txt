@@ -99,6 +99,9 @@
 					instant_build = yes
 				}
 			}
+			280 = {
+				urbanize_state = yes
+			}
 		}
 	}
 	focus = {
@@ -369,6 +372,9 @@
 					level = 1
 					instant_build = yes
 				}
+			}
+			280 = {
+				urbanize_state = yes
 			}
 		}
 	}
