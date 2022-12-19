@@ -273,10 +273,10 @@ ideas = {
 					original_tag = MMS
 				}
 			}
-			available = {
-				has_tech = jet_engines
-			}
-			cost = 300
+			# available = {
+			# 	has_tech = jet_engines
+			# }
+			cost = 200
 			removal_cost = -1
 			research_bonus = {
 				air_equipment = 0.15
@@ -314,7 +314,7 @@ ideas = {
 				aircraft_manufacturer
 			}
 			ai_will_do = {
-				factor = 2
+				factor = 5
 			}
 		}
 		wfc_light_aircraft_manufacturer = {
@@ -585,14 +585,14 @@ ideas = {
 					original_tag = MMS
 				}
 			}
-			available = {
-				#has_completed_focus = wfc_main_battle_tank
-				OR = {
-					has_tech = advanced_heavy_tank_chassis
-					has_tech = advanced_medium_tank_chassis
-					has_tech = advanced_light_tank_chassis
-				}
-			}
+			# available = {
+			# 	#has_completed_focus = wfc_main_battle_tank
+			# 	OR = {
+			# 		has_tech = advanced_heavy_tank_chassis
+			# 		has_tech = advanced_medium_tank_chassis
+			# 		has_tech = advanced_light_tank_chassis
+			# 	}
+			# }
 			ai_will_do = {
 				factor = 100
 			}
