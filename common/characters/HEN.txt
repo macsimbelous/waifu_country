@@ -193,7 +193,7 @@ characters = {
 			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 5
-			legacy_id = -1
+			
 		}
 	}
 	#genarals
@@ -258,7 +258,7 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+			
 			traits = {
 				organizer
 			}
@@ -281,7 +281,7 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+			
 		}
 	}
 	HEN_Homare_Nao = {
@@ -298,7 +298,7 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
+			
 			traits = {
 				wfc_exp_trait
 				infantry_leader
@@ -355,7 +355,7 @@ characters = {
 			defense_skill = 5
 			planning_skill = 6
 			logistics_skill = 5
-			legacy_id = -1
+			
 		}
 	}
 	HEN_Anri_Sogahara = {
@@ -397,7 +397,7 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+			
 		}
 	}
 	HEN_Anna_Komiya = {
@@ -414,7 +414,7 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
+			
 			traits = {
 				panzer_leader
 			}
@@ -454,7 +454,7 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+			
 			traits = {
 				trickster
 			}
@@ -474,7 +474,7 @@ characters = {
 			defense_skill = 5
 			planning_skill = 6
 			logistics_skill = 5
-			legacy_id = -1
+			
 		}
 	}
 	HEN_Prim_Fiorire = {
@@ -529,7 +529,7 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 6
-			legacy_id = -1
+			
 			traits = {
 				organizer
 				skilled_staffer
@@ -553,7 +553,7 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
+			
 		}
 	}
 	HEN_Alicia_Arcturus = {
@@ -617,7 +617,7 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+			
 		}
 	}
 	HEN_kasumi_nanakura = {
@@ -637,7 +637,7 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+			
 		}
 	}
 	HEN_ai_kagano = {
@@ -848,6 +848,25 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	HEN_cala = {
+		name = HEN_cala
+		portraits = {
+			army = {
+				small = GFX_idea_hen_cala
+				large = GFX_portrait_hen_cala_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality militias_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
 	#admerals
 	HEN_Kaname = {
 		name = HEN_Kaname
@@ -869,7 +888,7 @@ characters = {
 			defense_skill = 5
 			maneuvering_skill = 5
 			coordination_skill = 6
-			legacy_id = -1
+			
 		}
 		advisor = {
 			slot = navy_chief
@@ -915,7 +934,7 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
+			
 		}
 	}
 	HEN_Akiho_Taniguchi = {
@@ -936,7 +955,7 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
+			
 		}
 	}
 	#advisors

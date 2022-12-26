@@ -335,6 +335,14 @@ spriteTypes = {
 		name = "GFX_portrait_hen_yukikaze_mizuki_army"
 		texturefile = "gfx/leaders/HEN/yukikaze_mizuki_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hen_cala"
+		texturefile = "gfx/leaders/HEN/cala_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_cala_army"
+		texturefile = "gfx/leaders/HEN/cala_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_hen_land_01_small"
