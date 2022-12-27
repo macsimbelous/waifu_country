@@ -435,6 +435,14 @@ spriteTypes = {
 		name = "GFX_portrait_mms_power_army"
 		texturefile = "gfx/leaders/MMS/power_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_resumisu_care"
+		texturefile = "gfx/leaders/MMS/resumisu_care_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_resumisu_care_army"
+		texturefile = "gfx/leaders/MMS/resumisu_care_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

@@ -295,6 +295,14 @@ spriteTypes = {
 		name = "GFX_portrait_trp_jun_hiiragi"
 		texturefile = "gfx/leaders/TRP/jun_hiiragi.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_noma_rune"
+		texturefile = "gfx/leaders/TRP/noma_rune_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_noma_rune_army"
+		texturefile = "gfx/leaders/TRP/noma_rune_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_trp_land_01_small"

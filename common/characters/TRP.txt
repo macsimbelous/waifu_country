@@ -670,6 +670,24 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	TRP_noma_rune = {
+		name = TRP_noma_rune
+		portraits = {
+			army = {
+				small = GFX_idea_trp_noma_rune
+				large = GFX_portrait_trp_noma_rune_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#admirals
 	TRP_ranma_saotome = {
 		name = TRP_ranma_saotome

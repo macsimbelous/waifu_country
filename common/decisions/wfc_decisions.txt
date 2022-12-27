@@ -701,10 +701,10 @@ economy_decisions = {
 					infrastructure > 1
 					state_population_k > 200
 				}
-				has_railway_connection = {
-					start_state = capital
-					target_state = FROM
-				}
+				# has_railway_connection = {
+				# 	start_state = capital
+				# 	target_state = FROM
+				# }
 			}
 			else_if = {
 				limit = {
@@ -717,10 +717,10 @@ economy_decisions = {
 					infrastructure > 2
 					state_population_k > 500
 				}
-				has_railway_connection = {
-					start_state = capital
-					target_state = FROM
-				}
+				# has_railway_connection = {
+				# 	start_state = capital
+				# 	target_state = FROM
+				# }
 			}
 			else_if = {
 				limit = {
@@ -733,10 +733,14 @@ economy_decisions = {
 					infrastructure > 3
 					state_population_k > 1000
 				}
-				has_railway_connection = {
-					start_state = capital
-					target_state = FROM
-				}
+				# has_railway_level = {
+				# 	state = FROM
+				# 	level = 1
+				# }
+				# has_railway_connection = {
+				# 	start_state = capital
+				# 	target_state = FROM
+				# }
 			}
 			else_if = {
 				limit = {
@@ -749,10 +753,14 @@ economy_decisions = {
 					infrastructure > 3
 					state_population_k > 2000
 				}
-				has_railway_connection = {
-					start_state = capital
-					target_state = FROM
+				has_railway_level = {
+					state = FROM
+					level = 1
 				}
+				# has_railway_connection = {
+				# 	start_state = capital
+				# 	target_state = FROM
+				# }
 			}
 			else_if = {
 				limit = {
@@ -765,10 +773,14 @@ economy_decisions = {
 					infrastructure > 4
 					state_population_k > 5000
 				}
-				has_railway_connection = {
-					start_state = capital
-					target_state = FROM
+				has_railway_level = {
+					state = FROM
+					level = 1
 				}
+				# has_railway_connection = {
+				# 	start_state = capital
+				# 	target_state = FROM
+				# }
 			}
 		}
 		ai_will_do = {
