@@ -242,6 +242,7 @@ characters = {
 		}
 		field_marshal = {
 			traits = {
+				brilliant_strategist
 				aggressive_assaulter
 				cavalry_leader
 			}
@@ -282,11 +283,12 @@ characters = {
 		field_marshal = {
 			traits = {
 				wfc_exp_trait
-				trickster
 				trait_engineer
+				organizer
 				fast_planner
 				skilled_staffer
 				expert_delegator
+				swamp_fox
 				adaptable
 			}
 			skill = 6
@@ -372,7 +374,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				skilled_staffer
-				aggressive_assaulter
+				brilliant_strategist
 			}
 			skill = 4
 			attack_skill = 4

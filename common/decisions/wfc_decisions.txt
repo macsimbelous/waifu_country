@@ -1232,53 +1232,8 @@ wfc_subjects_category = {
 			factor = -100
 		}
 	}
-	wfc_puppets_economic_assistance = {
-		#name = acw_puppets_economic_assistance
-		# visible = {
-		# 	FROM = {
-		# 		is_puppet_of = ACW
-		# 	}
-		# }
-		allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 200
-		}
-		target_array = subjects
-		target_trigger = {
-			FROM = {
-				NOT = {
-					has_idea = wfc_economic_assistance
-				}
-			}
-		}
-		fire_only_once = no
-		cost = 50
-		#days_re_enable = 45
-		complete_effect = {
-			FROM = {
-				add_ideas = wfc_economic_assistance
-				# if = {
-				# 	limit = {
-				# 		NOT = {
-				# 			has_idea = wfc_acw_puppet
-				# 		}
-				# 	}
-				# 	add_ideas = wfc_acw_puppet
-				# }
-			}
-		}
-	}
 	wfc_convert_to_federal_subject = {
 		cost = 50
-		# visible = {
-		# 	FROM = {
-		# 		NOT = {
-		# 			has_autonomy_state = wfc_autonomy_province
-		# 		}
-		# 	}
-		# }
 		available = {
 			FROM = {
 				is_puppet_of = ROOT
@@ -1287,14 +1242,6 @@ wfc_subjects_category = {
 					has_autonomy_state = autonomy_collaboration_government
 					has_autonomy_state = autonomy_personal_union
 					has_autonomy_state = autonomy_reichskommissariat
-					# custom_trigger_tooltip = {
-					# 	tooltip = wfc_autonomy_ratio_less_than_or_equals_0_2
-					# 	check_variable = {
-					# 		var = autonomy_ratio
-					# 		value = 0.2
-					# 		compare = less_than_or_equals
-					# 	}
-					# }
 				}
 			}
 		}
@@ -1616,208 +1563,41 @@ wfc_subjects_category = {
 			factor = 1
 		}
 	}
-	wfc_open_buy_out_state_decisions = {
-		icon = GFX_decision_eng_trade_unions_support
-		cost = 0
-		fire_only_once = no
-		priority = 5
-		visible = {
-			NOT = {
-				has_country_flag = wfc_buy_out_state_flag
-			}
-			any_other_country = {
-				is_puppet_of = ROOT
-				has_autonomy_state = wfc_autonomy_province
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		complete_effect = {
-			set_country_flag = wfc_buy_out_state_flag
-		}
-	}
-	wfc_close_buy_out_state_decisions = {
-		icon = GFX_decision_eng_trade_unions_support
-		cost = 0
-		fire_only_once = no
-		priority = 5
-		visible = {
-			has_country_flag = wfc_buy_out_state_flag
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		complete_effect = {
-			clr_country_flag = wfc_buy_out_state_flag
-		}
-	}
-	wfc_buy_out_state = {
-		icon = GFX_decision_eng_trade_unions_support
-		available = {
-			FROM = {
-				NOT = {
-					is_capital = yes
-				}
-				OWNER = {
-					is_puppet_of = ROOT
-					has_autonomy_state = wfc_autonomy_province
-				}
-			}
-		}
-		visible = {
-			has_country_flag = wfc_buy_out_state_flag
-			FROM = {
-				NOT = {
-					is_capital = yes
-				}
-				is_core_of = OWNER
-				OWNER = {
-					is_puppet_of = ROOT
-					has_autonomy_state = wfc_autonomy_province
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		state_target = yes
-		on_map_mode = map_only
-		#target_array = owned_controlled_states
-		#target_array = states
-		target_trigger = {
-			FROM = {
-				OWNER = {
-					is_puppet_of = ROOT
-				}
-			}
-		}
-		cost = 100
-		fire_only_once = no
-		complete_effect = {
-			transfer_state = FROM
-			FROM = {
-				set_resistance = 1
-				set_compliance = 95
-			}
-		}
-	}
-	wfc_buy_out_state_2 = {
-		name = wfc_buy_out_state
-		icon = GFX_decision_eng_trade_unions_support
-		available = {
-			FROM = {
-				NOT = {
-					is_capital = yes
-				}
-				OWNER = {
-					is_puppet_of = ROOT
-					has_autonomy_state = wfc_autonomy_province
-				}
-			}
-		}
-		visible = {
-			has_country_flag = wfc_buy_out_state_flag
-			FROM = {
-				NOT = {
-					is_capital = yes
-					is_core_of = OWNER
-				}
-				OWNER = {
-					is_puppet_of = ROOT
-					has_autonomy_state = wfc_autonomy_province
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		state_target = yes
-		on_map_mode = map_only
-		#target_array = owned_controlled_states
-		#target_array = states
-		target_trigger = {
-			FROM = {
-				OWNER = {
-					is_puppet_of = ROOT
-				}
-			}
-		}
+	wfc_take_our_core_states_from_province = {
 		cost = 50
-		fire_only_once = no
-		complete_effect = {
-			transfer_state = FROM
-			FROM = {
-				set_resistance = 1
-				set_compliance = 95
-			}
-		}
-	}
-	wfc_buy_out_state_3 = {
-		name = wfc_buy_out_state
-		icon = GFX_decision_eng_trade_unions_support
 		available = {
 			FROM = {
-				NOT = {
-					is_capital = yes
-					is_core_of = OWNER
-				}
-				OWNER = {
+				is_puppet = yes
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				any_owned_state = {
 					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-					NOT = {
-						has_autonomy_state = autonomy_dominion
-						has_autonomy_state = wfc_autonomy_province
+						is_core_of = ROOT
+						is_claimed_by = ROOT
 					}
 				}
 			}
 		}
-		visible = {
-			has_country_flag = wfc_buy_out_state_flag
+		complete_effect = {
 			FROM = {
-				NOT = {
-					is_capital = yes
-					is_core_of = OWNER
-				}
-				OWNER = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_core_of = ROOT
+							is_claimed_by = ROOT
+						}
 					}
-					NOT = {
-						has_autonomy_state = autonomy_dominion
-						has_autonomy_state = wfc_autonomy_province
-					}
+					transfer_state_to = ROOT
+					set_resistance = 1
+					set_compliance = 95
 				}
 			}
 		}
 		ai_will_do = {
-			factor = 0
-		}
-		state_target = yes
-		on_map_mode = map_only
-		#target_array = owned_controlled_states
-		#target_array = states
-		target_trigger = {
-			FROM = {
-				OWNER = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-			}
-		}
-		cost = 50
-		fire_only_once = no
-		complete_effect = {
-			transfer_state = FROM
-			FROM = {
-				set_resistance = 1
-				set_compliance = 95
-			}
+			factor = 1000
 		}
 	}
 	wfc_buy_dokyard_from_puppet = {

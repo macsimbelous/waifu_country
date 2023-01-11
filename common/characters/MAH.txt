@@ -173,6 +173,7 @@ characters = {
 			logistics_skill = 5
 			traits = {
 				wfc_exp_trait
+				infantry_leader
 				offensive_doctrine
 			}
 		}

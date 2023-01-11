@@ -107,7 +107,7 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				panzer_leader
-				aggressive_assaulter
+				brilliant_strategist
 			}
 			skill = 4
 			attack_skill = 5
@@ -345,7 +345,8 @@ characters = {
 		corps_commander = {
 			traits = {
 				infantry_leader
-				unyielding_defender
+				inflexible_strategist
+				#unyielding_defender
 			}
 			skill = 6
 			attack_skill = 6
@@ -365,7 +366,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				trickster
-				unyielding_defender
+				inflexible_strategist
 			}
 			skill = 5
 			attack_skill = 5
@@ -385,7 +386,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				organizer
-				fast_planner
+				#fast_planner
 				panzer_leader
 			}
 			skill = 5
@@ -1430,7 +1431,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				unyielding_defender
+				inflexible_strategist
 				infantry_leader
 			}
 			skill = 6
