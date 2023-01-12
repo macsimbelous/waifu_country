@@ -4043,6 +4043,12 @@ wfc_puppets_category = {
 				}
 				add = 1
 			}
+			modifier = {
+				FROM = {
+					is_major = yes
+				}
+				add = -1
+			}
 		}
 		fire_only_once = no
 		cost = 100
