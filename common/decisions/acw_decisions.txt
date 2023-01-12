@@ -758,7 +758,7 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			num_of_factories > 50
+			is_major = yes
 			NOT = {
 				is_in_faction = yes
 			}

@@ -62,7 +62,7 @@ focus_tree = {
 		available = {
 			has_completed_focus = acw_focus_complete_the_reform
 			has_government = democratic
-			num_of_factories > 50
+			is_major = yes
 			is_subject = no
 		}
 		available_if_capitulated = yes
