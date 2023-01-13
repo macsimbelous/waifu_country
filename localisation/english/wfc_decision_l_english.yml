@@ -1,22 +1,22 @@
 ﻿l_english:
-acw_battle_trigger_tt:0 "Our fleet is §G2§! or more times stronger"
+
 #urbanize
  wfc_urbanisation_decision:0 "Urbanization §Y[From.GetName]§!"
  wfc_urbanisation_decision_desc:0 "Raise the level of urbanization of the region §Y[From.GetName]§!"
 
 #immigrants
-wfl_immigration_category:0 "Immigration"
-wfl_immigration_category_desc:0 "Attracting immigrants"
-wfl_immigration_decision.t:0 "Attracting immigrants"
+ wfl_immigration_category:0 "Immigration"
+ wfl_immigration_category_desc:0 "Attracting immigrants"
+ wfl_immigration_decision.t:0 "Attracting immigrants"
 
 #volunteers
-wfl_campaigning_for_volunteers_category:0 "Human resources"
-wfl_campaigning_for_volunteers_category_desc:0 "Human resources"
-wfl_campaigning_for_volunteers_decision.t:0 "Volunteer campaigning"
+ wfl_campaigning_for_volunteers_category:0 "Human resources"
+ wfl_campaigning_for_volunteers_category_desc:0 "Human resources"
+ wfl_campaigning_for_volunteers_decision.t:0 "Volunteer campaigning"
 
 #gacha
-wfl_gacha_category:0 "Gacha"
-wfl_gacha_decision.t:0 "Try your luck"
+ wfl_gacha_category:0 "Gacha"
+ wfl_gacha_decision.t:0 "Try your luck"
 
 #wfc_integration_category
  wfc_integration_category:0 "Integration"
@@ -50,33 +50,33 @@ wfl_gacha_decision.t:0 "Try your luck"
  wfc_take_control_of_the_occupied_territories_from_federal_subject:0 "Take control of the occupied non-national territories from the subject §Y[From.GetName]§!"
 
 #wfc_world_conquest_category
-wfc_world_conquest_category:0 "Conquest of the world"
-wfc_world_conquest_decision:0 "Conquer §R[From.GetNameDef]§!"
+ wfc_world_conquest_category:0 "Conquest of the world"
+ wfc_world_conquest_decision:0 "Conquer §R[From.GetNameDef]§!"
 
 #wfc_preparation_for_war_category
-wfc_preparation_for_war_category:0 "Preparing for a warrior"
-wfc_border_defense:0 "Strengthening the border"
+ wfc_preparation_for_war_category:0 "Preparing for a warrior"
+ wfc_border_defense:0 "Strengthening the border"
 
 #test
- wfс_test_category:0 "Тестовая категория"
+ wfc_test_category: "Test category"
 
 #wfc_budget_category
-wfc_budget_category:0 "Budget"
-wfc_budget_category_desc:0 "Subsidies: §G[?wfc_subsidies_count]§! из §G[?mtth:wfc_subsidies_count]§!\nBuilding: §G[?wfc_subsidies_to_building_count]§!\nFactory: §G[?wfc_subsidies_to_factory_count]§!\nDockyard: §G[?wfc_subsidies_to_dockyard_count]§!\nResearch: §G[?wfc_subsidies_to_research_count]§!\nNuclear: §G[?wfc_subsidies_to_nuclear_count]§!\nThe number of subsidies is determined by the number of civil factories: 50 or less - 10, more than 50 - 15, more than 75 - 20, more than 100 - 25."
-wfc_subsidies_count_up_tt:0 "There are free subsidies"
-wfc_subsidies_count_down_tt:0 "There are subsidies in the industry"
-wfc_subsidies_to_building_up_decision:0 "Subsidize construction"
-wfc_subsidies_to_building_down_decision:0 "Reduce construction subsidies"
-wfc_subsidies_to_factory_up_decision:0 "Subsidize production"
-wfc_subsidies_to_factory_down_decision:0 "Reduce production subsidies"
-wfc_subsidies_to_dockyard_up_decision:0 "Subsidize shipbuilding"
-wfc_subsidies_to_dockyard_down_decision:0 "Reduce shipbuilding subsidies"
-wfc_subsidies_to_research_up_decision:0 "Subsidize research"
-wfc_subsidies_to_research_down_decision:0 "Reduce research subsidies"
-wfc_subsidies_to_nuclear_up_decision:0 "Subsidize atomic weapons"
-wfc_subsidies_to_nuclear_down_decision:0 "Reduce subsidies to nuclear weapons"
-wfc_subsidies_to_resources_up_decision:0 "Subsidize resource extraction"
-wfc_subsidies_to_resources_down_decision:0 "Reduce resource extraction subsidies"
+ wfc_budget_category:0 "Budget"
+ wfc_budget_category_desc:0 "Subsidies: §G[?wfc_subsidies_count]§! of §G[?mtth:wfc_subsidies_count]§!\nBuilding: §G[?wfc_subsidies_to_building_count]§!\nFactory: §G[?wfc_subsidies_to_factory_count]§!\nDockyard: §G[?wfc_subsidies_to_dockyard_count]§!\nResearch: §G[?wfc_subsidies_to_research_count]§!\nNuclear: §G[?wfc_subsidies_to_nuclear_count]§!\nThe number of subsidies is determined by the number of civil factories: 50 or less - 10, more than 50 - 15, more than 75 - 20, more than 100 - 25."
+ wfc_subsidies_count_up_tt:0 "There are free subsidies"
+ wfc_subsidies_count_down_tt:0 "There are subsidies in the industry"
+ wfc_subsidies_to_building_up_decision:0 "Subsidize construction"
+ wfc_subsidies_to_building_down_decision:0 "Reduce construction subsidies"
+ wfc_subsidies_to_factory_up_decision:0 "Subsidize production"
+ wfc_subsidies_to_factory_down_decision:0 "Reduce production subsidies"
+ wfc_subsidies_to_dockyard_up_decision:0 "Subsidize shipbuilding"
+ wfc_subsidies_to_dockyard_down_decision:0 "Reduce shipbuilding subsidies"
+ wfc_subsidies_to_research_up_decision:0 "Subsidize research"
+ wfc_subsidies_to_research_down_decision:0 "Reduce research subsidies"
+ wfc_subsidies_to_nuclear_up_decision:0 "Subsidize atomic weapons"
+ wfc_subsidies_to_nuclear_down_decision:0 "Reduce subsidies to nuclear weapons"
+ wfc_subsidies_to_resources_up_decision:0 "Subsidize resource extraction"
+ wfc_subsidies_to_resources_down_decision:0 "Reduce resource extraction subsidies"
 
 #wfc_construction_phase_category
 wfc_construction_phase_category:0 "Construction phase"
@@ -279,9 +279,6 @@ meh_cyborgization:0 "Cyborgize §Y[From.GetName]§!"
 #  mms_attack_per:0 "Capture §R[PER.GetName]§!"
 #  mms_attack_afg:0 "Capture §R[AFG.GetName]§!"
 #  mms_colonization_per_and_afg:0 "Colonization of Iran and Afghanistan"
-
-#economy_decisions
- mms_expansion_of_the_supply_network:0 "Railway network expansion"
 
 #political_actions
  mms_retire_holo:0 "§GOperation Successor§!"
