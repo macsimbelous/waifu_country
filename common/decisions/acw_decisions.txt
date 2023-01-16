@@ -758,7 +758,8 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			is_major = yes
+			#is_major = yes
+			num_of_factories > 50
 			NOT = {
 				is_in_faction = yes
 			}
@@ -1007,6 +1008,9 @@ acw_faction_category = {
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 30
+			FROM = {
+				has_capitulated = no
+			}
 		}
 		target_array = faction_members
 		target_trigger = {
