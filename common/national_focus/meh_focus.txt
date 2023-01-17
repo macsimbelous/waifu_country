@@ -19,13 +19,12 @@ focus_tree = {
 	shared_focus = wfc_army_effort
 	shared_focus = wfc_aviation_effort
 	shared_focus = wfc_naval_effort
-	shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
 	focus = {
 		id = meh_upgrade_ai
 		icon = GFX_goal_generic_production
-		x = 18
-		y = 8
+		x = 29
+		y = 0
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -511,6 +510,114 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = meh_extra_tech_slot
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = meh_upgrade_ai
+		}
+		x = 2
+		y = 1
+		relative_position_id = meh_upgrade_ai
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_nuclear_effort
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = meh_extra_tech_slot
+		}
+		x = -2
+		y = 1
+		relative_position_id = meh_extra_tech_slot
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				category = nuclear
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
+	}
+	focus = {
+		id = meh_extra_tech_slot_2
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = meh_extra_tech_slot
+		}
+		available = {
+			num_of_factories > 50
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = meh_extra_tech_slot
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_secret_weapons
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = {
+			focus = meh_extra_tech_slot
+		}
+		x = 2
+		y = 1
+		relative_position_id = meh_extra_tech_slot
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
+	}
+	focus = {
 		id = meh_cooperation_focus
 		icon = GFX_goal_generic_national_unity		#icon = GFX_goal_tripartite_pact
 		prerequisite = {
@@ -529,7 +636,7 @@ focus_tree = {
 				has_government = democratic
 			}
 		}
-		x = 6
+		x = 10
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
@@ -568,7 +675,7 @@ focus_tree = {
 			is_puppet = no
 			has_government = fascism
 		}
-		x = 2
+		x = 6
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
@@ -1602,7 +1709,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = meh_exterminatus_focus
 		}
-		x = 9
+		x = 13
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5

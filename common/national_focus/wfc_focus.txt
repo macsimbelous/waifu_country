@@ -1766,6 +1766,12 @@ shared_focus = {
 			original_tag = TRP
 		}
 	}
+	offset = {
+		x = -4
+		trigger = {
+			original_tag = MEH
+		}
+	}
 	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL

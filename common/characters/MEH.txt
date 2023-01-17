@@ -217,7 +217,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
 		}
 		advisor = {
 			slot = army_chief
@@ -254,7 +253,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Risa = {
@@ -277,7 +275,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_2B = {
@@ -298,7 +295,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Cibo = {
@@ -320,7 +316,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_A2 = {
@@ -340,7 +335,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
@@ -418,7 +412,6 @@ characters = {
 			defense_skill = 6
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
 		}
 		advisor = {
 			slot = high_command
@@ -508,7 +501,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Hatsune_Miku = {
@@ -560,7 +552,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
 		}
 	}
 	MEH_Automaton = {
@@ -580,7 +571,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Phantom_Queen_Ex_Xecty = {
@@ -643,7 +633,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Aino = {
@@ -665,7 +654,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Rose = {
@@ -685,7 +673,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Elizabeth = {
@@ -705,7 +692,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
@@ -739,7 +725,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_norimaki_arale = {
@@ -818,7 +803,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Takao_ARP = {
@@ -832,7 +816,6 @@ characters = {
 		navy_leader = {
 			traits = {
 				wfc_exp_navy_trait
-				seawolf
 				fly_swatter
 				cruiser_captain
 			}
@@ -865,7 +848,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
@@ -928,7 +910,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Kongou_ARP = {
@@ -962,7 +943,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Atago_ARP = {
@@ -981,7 +961,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	MEH_Caseal = {
@@ -1014,13 +993,13 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				air_controller
 			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			legacy_id = -1
 		}
 	}
 	#advisor

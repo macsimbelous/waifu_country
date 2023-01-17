@@ -274,6 +274,14 @@
  meh_perimetr_tt:0 "A perimeter system will be created"
  meh_warmind_tt:0 "The war mind is created"
  meh_attack_332:0 "Labrador control"
+ meh_nuclear_effort:0 "Nuclear Effort"
+ meh_nuclear_effort_desc:0 "Standing on the edge of a world-changing discovery, we cannot let others light the fire that may one day consume the Earth."
+ meh_extra_tech_slot:0 "Extra Research Slot"
+ meh_extra_tech_slot_desc:0 "Our industrial expansion and other recent advances might allow us to conduct more R&D in parallel."
+ meh_extra_tech_slot_2:0 "Extra Research Slot II"
+ meh_extra_tech_slot_2_desc:0 "The rapid industrialization of our nation has opened up new opportunities in R&D that we should pursue."
+ meh_secret_weapons:0 "Secret Weapons"
+ meh_secret_weapons_desc:0 "It is tempting to expend all extra resources into developing tanks and planes, but the secret to winning wars lies in whole new fields of science; electronics, rocketry and nuclear research."
 
 #MMS
  mms_focus:0 "Focuses [MMS.GetName]"
