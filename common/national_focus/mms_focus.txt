@@ -168,7 +168,8 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
-			has_full_control_of_state = 415
+			#has_full_control_of_state = 415
+			controls_state = 415
 		}
 		completion_reward = {
 			build_railway = {

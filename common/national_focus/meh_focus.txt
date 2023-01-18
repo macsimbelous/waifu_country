@@ -1698,6 +1698,42 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = meh_focus_expansion_of_the_supply_network_in_332
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = meh_attack_332
+		}
+		relative_position_id = meh_attack_332
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			controls_state = 861
+			#has_full_control_of_state = 415
+		}
+		completion_reward = {
+			build_railway = {
+				level = 1
+				start_province = 4345
+				target_province = 1657
+			}
+			861 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 1657
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	focus = {
 		id = meh_neutrality_focus
 		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = {
