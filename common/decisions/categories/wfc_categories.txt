@@ -280,4 +280,9 @@ wfc_machine_war_category = {
 	allowed = {
 		original_tag = USA
 	}
+	visible = {
+		NOT = {
+			has_country_flag = wfc_usa_declare_war_meh
+		}
+	}
 }

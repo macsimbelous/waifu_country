@@ -284,10 +284,7 @@ MEH_Mythra = {
 MEH_Histoire = {
 	set_character_flag = meh_country_leader_flag
 }
-set_province_name = {
-    id = 9671
-    name = meh_vp_9671_name
-}
+
 ### Variants ###
 create_equipment_variant = {
 	name = "MLT-1"

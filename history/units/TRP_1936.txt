@@ -232,80 +232,80 @@ units = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 1979
 		division_template = "Trap Mountaineers"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	#tanks
 	# division = {
 	# 	location = 1979
 	# 	division_template = "Trap light tank"
 	# 	start_experience_factor = 0.5
-	# 	start_equipment_factor = 0.3
+	# 	start_equipment_factor = 1
 	# }
 	# division = {
 	# 	location = 1979
 	# 	division_template = "Trap light tank"
 	# 	start_experience_factor = 0.5
-	# 	start_equipment_factor = 0.3
+	# 	start_equipment_factor = 1
 	# }
 }
 air_wings = {

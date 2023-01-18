@@ -228,90 +228,104 @@ units = {
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
 		division_template = "MonMusu Mountaineers"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Mountaineers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Mountaineers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
 	}
 	#tanks
 	# division = {
 	# 	location = 7982
 	# 	division_template = "MonMusu Light Tank"
 	# 	start_experience_factor = 0.5
-	# 	start_equipment_factor = 0.3
+	# 	start_equipment_factor = 1
 	# }
 	# division = {
 	# 	location = 7982
 	# 	division_template = "MonMusu Light Tank"
 	# 	start_experience_factor = 0.5
-	# 	start_equipment_factor = 0.3
+	# 	start_equipment_factor = 1
 	# }
 }
 air_wings = {

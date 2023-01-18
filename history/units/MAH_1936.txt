@@ -230,111 +230,111 @@ units = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	#tanks
 	# division = {
 	# 	location = 4111
 	# 	division_template = "Maho Light Tank"
 	# 	start_experience_factor = 0.5
-	# 	start_equipment_factor = 0.3
+	# 	start_equipment_factor = 1
 	# }
 	# division = {
 	# 	location = 4111
 	# 	division_template = "Maho Light Tank"
 	# 	start_experience_factor = 0.5
-	# 	start_equipment_factor = 0.3
+	# 	start_equipment_factor = 1
 	# }
 	#cavalry
 	division = {
 		location = 4206
 		division_template = "Maho Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4206
 		division_template = "Maho Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
 		location = 4111
 		division_template = "Maho Cavalry"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 	}
 }
 air_wings = {

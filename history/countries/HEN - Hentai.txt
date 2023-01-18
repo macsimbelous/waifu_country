@@ -250,10 +250,7 @@ HEN_Mari_Setogaya = {
 HEN_Sheliss_Elleness_Zurbach = {
 	set_character_flag = hen_country_leader_flag
 }
-set_province_name = {
-    id = 11925
-    name = hen_vp_11925_name
-}
+
 ### Variants ###
 # Submarines #
 create_equipment_variant = {

@@ -4597,14 +4597,16 @@ wfc_machine_war_category = {
 					is_owned_by = MEH
 				}
 			}
+			date > 1939.1.1
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 1
 		}
 		complete_effect = {
 			MEH = {
 				country_event = meh_event.2
 			}
+			set_country_flag = wfc_usa_declare_war_meh
 		}
 	}
 	wfc_machine_war_for_ideology_decision = {
@@ -4622,9 +4624,10 @@ wfc_machine_war_category = {
 					has_government = communism
 				}
 			}
+			date > 1939.1.1
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
 		remove_effect = {
 			declare_war_on = {
@@ -4632,6 +4635,7 @@ wfc_machine_war_category = {
 				type = annex_everything
 			}
 			news_event = wfc_news.8
+			set_country_flag = wfc_usa_declare_war_meh
 		}
 	}
 }
