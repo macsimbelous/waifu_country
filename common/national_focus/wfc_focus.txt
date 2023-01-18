@@ -1660,10 +1660,6 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 0.25
-			always = yes
-		}
 	}
 }
 
@@ -1742,10 +1738,6 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 0.25
-			always = yes
-		}
 	}
 }
 
@@ -1770,6 +1762,12 @@ shared_focus = {
 		x = -4
 		trigger = {
 			original_tag = MEH
+		}
+	}
+	offset = {
+		x = -4
+		trigger = {
+			original_tag = MMS
 		}
 	}
 	cost = 5

@@ -4,7 +4,7 @@ state={
 	name="STATE_379"
 	manpower = 3610570
 	
-	state_category = city
+	state_category = large_city
 	
 	resources={
 		steel=70 # was: 136
@@ -16,8 +16,8 @@ state={
 	history={
 		owner = MEH
 		buildings = {
-			infrastructure = 1
-			arms_factory = 3
+			infrastructure = 2
+			arms_factory = 5
 			industrial_complex = 3
 			7827 = {
 				supply_node = 1

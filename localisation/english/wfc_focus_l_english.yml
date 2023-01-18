@@ -296,9 +296,6 @@
  mms_attack_raj:0 "Obtain §R[RAJ.GetName]§!"
  mms_attack_pak:0 "Obtain §R[PAK.GetName]§!"
  mms_expansion_of_the_supply_network_in_afg:0 "Railroad at [415.GetName]"
- mms_focus_revive_necromancy:0 "Revive necromancy"
- mms_focus_revive_necromancy_desc:0 "Some advisors and 6 research slots will increase the success rate."
- mms_rise_of_the_dead_tt:0 "Rise of the Dead"
  #industry
   mms_focus_modernize_steel_plant:0 "More Steel"
   mms_focus_infrastructure_effort:0 "Infrastructure Upgrade"
@@ -321,6 +318,19 @@
   mms_focus_train_shamiko_speed:0 "Train speed"
   mms_focus_train_shamiko_speed_tt:0 "Increase speed bonus"
   mms_focus_power_shamiko:0 "Mighty Shamiko"
+ #mms_focus_scientific_nexus
+  mms_focus_scientific_nexus: "Scientific nexus"
+  mms_focus_nuclear_effort:0 "Nuclear Effort"
+  mms_focus_nuclear_effort_desc:0 "Standing on the edge of a world-changing discovery, we cannot let others light the fire that may one day consume the Earth."
+  mms_focus_extra_tech_slot:0 "Extra Research Slot"
+  mms_focus_extra_tech_slot_desc:0 "Our industrial expansion and other recent advances might allow us to conduct more R&D in parallel."
+  mms_focus_extra_tech_slot_2:0 "Extra Research Slot II"
+  mms_focus_extra_tech_slot_2_desc:0 "The rapid industrialization of our nation has opened up new opportunities in R&D that we should pursue."
+  mms_focus_secret_weapons:0 "Secret Weapons"
+  mms_focus_secret_weapons_desc:0 "It is tempting to expend all extra resources into developing tanks and planes, but the secret to winning wars lies in whole new fields of science; electronics, rocketry and nuclear research."
+  mms_focus_revive_necromancy:0 "Revive necromancy"
+  mms_focus_revive_necromancy_desc:0 "Some advisors and 6 research slots will increase the success rate."
+  mms_rise_of_the_dead_tt:0 "Rise of the Dead"
 
 #TRP
  trp_focus:0 "Focuses [TRP.GetName]"

@@ -293,9 +293,6 @@
  mms_attack_raj:0 "Захватить §R[RAJ.GetName]§!"
  mms_attack_pak:0 "Захватить §R[PAK.GetName]§!"
  mms_expansion_of_the_supply_network_in_afg:0 "Железная дорога в [415.GetName]"
- mms_focus_revive_necromancy:0 "Возродить некромантию"
- mms_focus_revive_necromancy_desc:0 "Некоторые советники и 6 слотов для исследований увеличат чанс успеха."
- mms_rise_of_the_dead_tt:0 "Восстание мертвецов"
  #Indastry
   mms_focus_modernize_steel_plant:0 "Больше стали"
   mms_focus_infrastructure_effort:0 "Модернизаци инфраструктуры"
@@ -318,6 +315,19 @@
   mms_focus_train_shamiko_speed:0 "Тренировать скорость"
   mms_focus_train_shamiko_speed_tt:0 "Увеличит бонус скорости"
   mms_focus_power_shamiko:0 "Могучая Шамико"
+ #mms_focus_scientific_nexus
+  mms_focus_scientific_nexus: "Научный нексус"
+  mms_focus_nuclear_effort:0 "Развитие атомной энергетики"
+  mms_focus_nuclear_effort_desc:0 "Мы стоим на пороге открытия, способного изменить мир. Нельзя допустить, чтобы наши противники запалили огонь, способный уничтожить Землю."
+  mms_focus_extra_tech_slot:0 "Доп. ячейка для исследований"
+  mms_focus_extra_tech_slot_desc:0 "Развитие промышленности и другие открытия последнего времени позволяют нам вести параллельные научно-технические исследования."
+  mms_focus_extra_tech_slot_2:0 "Доп. ячейка для исследований II"
+  mms_focus_extra_tech_slot_2_desc:0 "Быстрая индустриализация нашей страны открыла новые возможности для технических исследований, которыми нам стоит воспользоваться."
+  mms_focus_secret_weapons:0 "Секретное оружие"
+  mms_focus_secret_weapons_desc:0 "Направить все свободные ресурсы на строительство танков и самолетов - это заманчиво, однако победу в войне способны обеспечить лишь новейшие научные направления: электроника, ракетостроение и атомная энергетика."
+  mms_focus_revive_necromancy:0 "Возродить некромантию"
+  mms_focus_revive_necromancy_desc:0 "Некоторые советники и 6 слотов для исследований увеличат чанс успеха."
+  mms_rise_of_the_dead_tt:0 "Восстание мертвецов"
 
 #TRP
  trp_focus:0 "Фокусы [TRP.GetName]"

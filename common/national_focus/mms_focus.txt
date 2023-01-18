@@ -19,7 +19,7 @@ focus_tree = {
 	shared_focus = wfc_army_effort
 	shared_focus = wfc_aviation_effort
 	shared_focus = wfc_naval_effort
-	shared_focus = wfc_industrial_effort
+	#shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
 	focus = {
 		id = mms_expansion_of_living_space
@@ -336,161 +336,6 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 10
-		}
-	}
-	focus = {
-		id = mms_focus_revive_necromancy
-		icon = GFX_goal_generic_secret_weapon
-		prerequisite = {
-			focus = mms_colonization_per_and_afg
-		}
-		relative_position_id = mms_colonization_per_and_afg
-		x = -2
-		y = 1
-		cost = 20
-		cancelable = no
-		available_if_capitulated = yes
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available = {
-			is_puppet = no
-			has_government = fascism
-			411 = {
-				is_owned_and_controlled_by = ROOT
-			}
-			#has_full_control_of_state = 267
-		}
-		completion_reward = {
-			random_list = {
-				60 = {
-					modifier = {
-						has_idea = MMS_kurari_rose
-						factor = 1.6
-					}
-					modifier = {
-						has_idea = MMS_touka_kuroitsu
-						factor = 1.6
-					}
-					modifier = {
-						has_idea = MMS_saphentite_neikes
-						factor = 1.6
-					}
-					modifier = {
-						amount_research_slots > 5
-						factor = 1.6
-					}
-					add_ideas = mms_necromancy
-					create_operative_leader = {
-						name = "Sakura Minamoto"
-						GFX = GFX_portrait_mms_sakura_minamoto
-						traits = {
-							operative_infiltrator
-							operative_natural_orator
-						}
-						bypass_recruitment = no
-						available_to_spy_master = yes
-						nationalities = {
-							MMS
-							ZMB
-						}
-					}
-				}
-				40 = {
-					custom_effect_tooltip = mms_rise_of_the_dead_tt
-					hidden_effect = {
-						ZMB = {
-							#set_state_controller = 267
-							transfer_state = 411
-							load_oob = ZMB_1936
-							411 = {
-								add_core_of = ZMB
-								set_temp_variable = {
-									i = 0
-								}
-								while_loop_effect = {
-									limit = {
-										check_variable = {
-											i = 24
-											compare = less_than
-										}
-									}
-									add_to_temp_variable = {
-										i = 1
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-								}
-							}
-							declare_war_on = {
-								target = MMS
-								type = annex_everything
-							}
-						}
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 	focus = {
@@ -1296,6 +1141,278 @@ focus_tree = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			add_political_power = 100
+		}
+	}
+	focus = {
+		id = mms_focus_scientific_nexus
+		icon = GFX_focus_research2
+		x = 22
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_ideas = mms_idea_scientific_nexus
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = mms_focus_nuclear_effort
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = mms_focus_scientific_nexus
+		}
+		x = -2
+		y = 1
+		relative_position_id = mms_focus_scientific_nexus
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				category = nuclear
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = mms_focus_extra_tech_slot
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = mms_focus_scientific_nexus
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_scientific_nexus
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			num_of_factories > 50
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = mms_focus_extra_tech_slot_2
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = mms_focus_extra_tech_slot
+		}
+		available = {
+			num_of_factories > 75
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_extra_tech_slot
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = mms_focus_revive_necromancy
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = {
+			focus = mms_focus_extra_tech_slot_2
+		}
+		relative_position_id = mms_focus_extra_tech_slot_2
+		x = 0
+		y = 1
+		cost = 20
+		cancelable = no
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			is_puppet = no
+			has_government = fascism
+			411 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			#has_full_control_of_state = 267
+		}
+		completion_reward = {
+			random_list = {
+				60 = {
+					modifier = {
+						has_idea = MMS_kurari_rose
+						factor = 1.6
+					}
+					modifier = {
+						has_idea = MMS_touka_kuroitsu
+						factor = 1.6
+					}
+					modifier = {
+						has_idea = MMS_saphentite_neikes
+						factor = 1.6
+					}
+					modifier = {
+						amount_research_slots > 5
+						factor = 1.6
+					}
+					add_ideas = mms_necromancy
+					create_operative_leader = {
+						name = "Sakura Minamoto"
+						GFX = GFX_portrait_mms_sakura_minamoto
+						traits = {
+							operative_infiltrator
+							operative_natural_orator
+						}
+						bypass_recruitment = no
+						available_to_spy_master = yes
+						nationalities = {
+							MMS
+							ZMB
+						}
+					}
+				}
+				40 = {
+					custom_effect_tooltip = mms_rise_of_the_dead_tt
+					hidden_effect = {
+						ZMB = {
+							#set_state_controller = 267
+							transfer_state = 411
+							load_oob = ZMB_1936
+							411 = {
+								add_core_of = ZMB
+								set_temp_variable = {
+									i = 0
+								}
+								while_loop_effect = {
+									limit = {
+										check_variable = {
+											i = 24
+											compare = less_than
+										}
+									}
+									add_to_temp_variable = {
+										i = 1
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+									create_unit = {
+										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+										owner = ZMB
+										#prioritize_location = 4518
+										allow_spawning_on_enemy_provs = yes
+									}
+								}
+							}
+							declare_war_on = {
+								target = MMS
+								type = annex_everything
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = mms_focus_secret_weapons
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = {
+			focus = mms_focus_scientific_nexus
+		}
+		x = 2
+		y = 1
+		relative_position_id = mms_focus_scientific_nexus
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }
