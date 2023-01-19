@@ -1597,7 +1597,15 @@ wfc_subjects_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1000
+			base = 0
+			modifier = {
+				FROM = {
+					any_owned_state = {
+						is_core_of = ROOT
+					}
+				}
+				add = 1000
+			}
 		}
 	}
 	wfc_buy_dokyard_from_puppet = {

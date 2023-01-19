@@ -475,7 +475,9 @@ characters = {
 			defense_skill = 5
 			planning_skill = 6
 			logistics_skill = 5
-			
+			traits = {
+				trait_mountaineer
+			}
 		}
 	}
 	HEN_Prim_Fiorire = {
@@ -881,8 +883,7 @@ characters = {
 			traits = {
 				wfc_exp_navy_trait
 				navy_media_personality
-				superior_tactician
-				concealment_expert
+				seawolf
 			}
 			skill = 5
 			attack_skill = 5
