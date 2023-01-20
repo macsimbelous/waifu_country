@@ -97,3 +97,53 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = hen_event.5
+	title = hen_event.5.t
+	desc = hen_event.5.d
+	picture = GFX_hen_event_05
+	fire_only_once = yes
+	trigger = {
+		tag = HEN
+		date > 1938.7.1
+		has_war = no 
+	}
+	option = {
+		name = hen_event.5.a
+		ai_chance = {
+			factor = 75
+		}
+		HEN_risa = {
+			add_skill_level = 1
+		}
+		JAP = {
+			add_opinion_modifier = {
+				target = HEN
+				modifier = small_decrease
+			}
+		}
+		news_event = wfc_news.12
+	}
+	option = {
+		name = hen_event.5.b
+		ai_chance = {
+			factor = 0
+		}
+		HEN_risa = {
+			remove_unit_leader_role = yes
+		}
+	}
+	option = {
+		name = hen_event.5.c
+		ai_chance = {
+			factor = 0
+		}
+		add_manpower = -1
+		HEN_risa = {
+			add_timed_unit_leader_trait = {
+				trait = disgruntled
+				days = 365
+			}
+		}
+	}
+}

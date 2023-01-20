@@ -56,7 +56,6 @@ news_event = {
 	picture = GFX_news_event_doroga_v_kosmos
 	major = yes
 	is_triggered_only = yes
-	fire_for_sender = no
 	option = {
 		name = wfc_news.7.a
 	}
@@ -69,7 +68,6 @@ news_event = {
 	picture = GFX_wfc_news_event_machine_war
 	major = yes
 	is_triggered_only = yes
-	fire_for_sender = no
 	option = {
 		name = wfc_news.8.a
 		trigger = {
@@ -97,7 +95,6 @@ news_event = {
 	picture = GFX_wfc_news_event_exterminatus
 	major = yes
 	is_triggered_only = yes
-	fire_for_sender = no
 	option = {
 		name = wfc_news.9.a
 		trigger = {
@@ -113,6 +110,7 @@ news_event = {
 		}
 	}
 }
+
 news_event = {
 	id = wfc_news.10
 	title = wfc_news.10.t
@@ -120,7 +118,6 @@ news_event = {
 	picture = GFX_wfc_news_event_the_zombie_apocalypse
 	major = yes
 	is_triggered_only = yes
-	fire_for_sender = no
 	option = {
 		name = wfc_news.9.a
 		trigger = {
@@ -136,6 +133,7 @@ news_event = {
 		}
 	}
 }
+
 news_event = {
 	id = wfc_news.11
 	title = wfc_news.11.t
@@ -143,11 +141,44 @@ news_event = {
 	picture = GFX_news_event_generic_sign_treaty1
 	major = yes
 	is_triggered_only = yes
-	fire_for_sender = no
 	option = {
 		name = wfc_news.11.a
 	}
 }
+
+news_event = {
+	id = wfc_news.12
+	title = wfc_news.12.t
+	desc = wfc_news.12.d
+	picture = GFX_wfc_news_event_012
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = wfc_news.12.a
+		trigger = {
+			NOT = {
+				original_tag = HEN
+				is_subject_of = HEN
+			}
+		}
+	}
+	option = {
+		name = wfc_news.12.b
+		trigger = {
+			original_tag = HEN
+		}
+	}
+	option = {
+		name = wfc_news.12.b
+		trigger = {
+			NOT = {
+				original_tag = HEN
+			}
+			is_subject_of = HEN
+		}
+	}
+}
+
 #Захваты городов за Мехалэнд
 # The Fall of Washington
 news_event = {

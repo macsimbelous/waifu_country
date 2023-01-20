@@ -258,8 +258,9 @@ meh_nuclear_strike_tt:0 "Ядерный удар"
 meh_sputnik_not:0 "Нужно иметь хотя бы один §Yспутник§! на орбите"
 
 #meh_cyborgization_category
-meh_cyborgization_category:0 "Киборгизация"
-meh_cyborgization:0 "Киборгизировать §Y[From.GetName]§!"
+ meh_cyborgization_category:0 "Киборгизация"
+ meh_cyborgization:0 "Киборгизировать §Y[From.GetName]§!"
+ meh_flag_cyborgization_run: "Активен процесс киборгизации региона"
 
 #meh_exterminatus_category
  meh_exterminatus_category:0 "§RЭкстерминатус§!"

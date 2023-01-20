@@ -615,6 +615,11 @@ economy_decisions = {
 				}
 			}
 		}
+		visible = {
+			FROM = {
+				is_owned_by = ROOT
+			}
+		}
 		allowed = {
 			OR = {
 				original_tag = ACW
@@ -905,9 +910,6 @@ wfc_subjects_category = {
 			}
 		}
 		available = {
-			FROM = {
-				exists = no
-			}
 			ROOT = {
 				any_owned_state = {
 					is_core_of = FROM
@@ -921,145 +923,10 @@ wfc_subjects_category = {
 			factor = -100
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					original_tag = ACW
-				}
-				FROM = {
-					set_country_flag = acw_federation_subject_flag
-				}
+			set_temp_variable = {
+				country_to_initiate = FROM
 			}
-			else_if = {
-				limit = {
-					original_tag = HEN
-				}
-				FROM = {
-					set_country_flag = hen_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MAH
-				}
-				FROM = {
-					set_country_flag = mah_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MEH
-				}
-				FROM = {
-					set_country_flag = meh_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MMS
-				}
-				FROM = {
-					set_country_flag = mms_federation_subject_flag
-				}
-			}
-			else = {
-				FROM = {
-					set_country_flag = trp_federation_subject_flag
-				}
-			}
-			# FROM = {
-			# 	set_country_flag = wfc_federation_subject_flag
-			# }
-			set_autonomy = {
-				target = FROM
-				autonomy_state = wfc_autonomy_province
-			}
-			every_controlled_state = {
-				limit = {
-					is_core_of = FROM
-					NOT = {
-						is_core_of = ROOT
-					}
-					is_owned_by = ROOT
-				}
-				FROM = {
-					transfer_state = PREV
-				}
-			}
-			FROM = {
-				set_country_flag = wfc_change_focus_tree_flag
-				load_focus_tree = {
-					tree = wfc_puppet_focus
-					#tree = generic_focus
-					keep_completed = no
-				}
-				#add_ideas = wfc_economic_assistance
-			}
-			if = {
-				limit = {
-					FROM = {
-						NOT = {
-							original_tag = ACW
-							original_tag = HEN
-							original_tag = MAH
-							original_tag = TRP
-							original_tag = MMS
-							original_tag = MEH
-						}
-					}
-				}
-				custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
-				hidden_effect = {
-					if = {
-						limit = {
-							original_tag = ACW
-						}
-						FROM = {
-							acw_change_country_leader = yes
-							# add_ideas = {
-							# 	wfc_acw_assistance
-							# 	wfc_acw_puppet
-							# }
-						}
-					}
-					else_if = {
-						limit = {
-							original_tag = HEN
-						}
-						FROM = {
-							hen_change_country_leader = yes
-						}
-					}
-					else_if = {
-						limit = {
-							original_tag = MAH
-						}
-						FROM = {
-							mah_change_country_leader = yes
-						}
-					}
-					else_if = {
-						limit = {
-							original_tag = MEH
-						}
-						FROM = {
-							meh_change_country_leader = yes
-						}
-					}
-					else_if = {
-						limit = {
-							original_tag = MMS
-						}
-						FROM = {
-							mms_change_country_leader = yes
-						}
-					}
-					else = {
-						FROM = {
-							trp_change_country_leader = yes
-						}
-					}
-				}
-			}
+			wfc_instantiate_province = yes
 		}
 	}
 	wfc_change_country_leader = {

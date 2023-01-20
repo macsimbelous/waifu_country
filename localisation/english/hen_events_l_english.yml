@@ -22,3 +22,10 @@ hen_event.1.a:0 "We use them to destabilize our enemies."
  hen_event.4.d:0 "Hentalia requests to join our alliance."
  hen_event.4.a:0 "Alliance with Hentalia will strengthen us."
  hen_event.4.b:0 "Let's do without those perverts."
+
+#hen_event.5.t
+ hen_event.5.t: "[HEN_risa.GetName] gets married."
+ hen_event.5.d: "General [HEN_risa.GetName] intends to marry his own uncle. This is not unusual in our society, but since she is an active-duty general, it may irritate our more conservative neighbors."
+ hen_event.5.a: "This is our internal business!"
+ hen_event.5.b: "Relations with neighbors are more important."
+ hen_event.5.c: "Give your uncle an accident."

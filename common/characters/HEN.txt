@@ -893,14 +893,14 @@ characters = {
 			
 		}
 		advisor = {
-			slot = navy_chief
+			slot = high_command
 			idea_token = HEN_Kaname
 			cost = 50
 			allowed = {
 				original_tag = HEN
 			}
 			traits = {
-				navy_chief_commerce_raiding_1
+				navy_anti_submarine_1
 			}
 		}
 	}
@@ -951,6 +951,8 @@ characters = {
 			traits = {
 				naval_lineage
 				fleet_protector
+				superior_tactician
+				concealment_expert
 			}
 			skill = 4
 			attack_skill = 4
@@ -958,6 +960,17 @@ characters = {
 			maneuvering_skill = 4
 			coordination_skill = 4
 			
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = HEN_Akiho_Taniguchi
+			cost = 50
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
 		}
 	}
 	#advisors

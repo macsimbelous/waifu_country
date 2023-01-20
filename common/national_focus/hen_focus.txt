@@ -721,6 +721,7 @@ focus_tree = {
 		available = {
 			has_full_control_of_state = 537
 			has_full_control_of_state = 555
+			is_in_faction_with = SOV
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -761,11 +762,11 @@ focus_tree = {
 				has_same_ideology = yes
 			}
 			ic_ratio = {
-				tag = JAP
+				tag = SOV
 				ratio > 1.5
 			}
 			strength_ratio = {
-				tag = JAP
+				tag = SOV
 				ratio > 1.5
 			}
 		}
@@ -1076,7 +1077,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		will_lead_to_war_with = JAP
 		completion_reward = {
 			add_ideas = hen_attack_jap_bonus
 			declare_war_on = {
@@ -1086,6 +1086,39 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 5
+		}
+	}
+	focus = {
+		id = hen_focus_transfert_capital_to_282
+		icon = GFX_focus_generic_improve_the_administration
+		prerequisite = {
+			focus = hen_declare_war_jap
+			focus = hen_focus_union_with_japan
+		}
+		x = 0
+		y = 2
+		relative_position_id = hen_declare_war_jap
+		cost = 10
+		available = {
+			282 = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+			set_capital = {
+				state = 282
+			}
+			set_province_name = {
+				id = 1182
+				name = hen_vp_name_1182
+			}
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

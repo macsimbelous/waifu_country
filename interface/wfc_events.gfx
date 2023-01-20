@@ -13,6 +13,10 @@ spriteTypes = {
 		name = "GFX_hen_event_01"
 		texturefile = "gfx/event_pictures/hen_event_01.dds"
 	}
+	spriteType = {
+		name = "GFX_hen_event_05"
+		texturefile = "gfx/event_pictures/hen_event_05.dds"
+	}
 	#MEH
 	#kosmos
 	spriteType = {

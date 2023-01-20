@@ -67,6 +67,12 @@ wfc_news.7.a:0 "This is the beginning of a new era!"
  wfc_news.11.d:0 "[ENG.GetName] and [MAH.GetName] have signed a dimensional agreement."
  wfc_news.11.a:0 "Pretty!"
 
+#wfc_news.12
+ wfc_news.12.t: "Wedding in [HEN.GetName]."
+ wfc_news.12.d: "Today, the wedding of General [HEN_risa.GetName] and her uncle took place in the capital of Hantalia. This is not unusual in [HEN.GetName] but has been encountered in other countries."
+ wfc_news.12.a: "Perverts!"
+ wfc_news.12.b: "All the best to the newlyweds."
+
 #wfc_news.101
  wfc_news.101.t:0 "Fall of Washington"
  wfc_news.101.d:0 "The fighting in the Washington area ended today as the last pockets of resistance were destroyed by the 'Mech forces advancing along the Potomac River. \n\nA thick curtain of smoke nearly obscured the city. The fires were partly caused by intelligence officers, who until the last moment burned secret documents. A squad of elite mech troops took over the White House after a brief firefight with security officers, but the president himself appears to have been evacuated a few days ago.\n\nThe fall of the American capital clearly demonstrated the fearsome power of the girl's mech war machine."

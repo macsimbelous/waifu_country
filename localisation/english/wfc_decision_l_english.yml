@@ -247,8 +247,9 @@ meh_nuclear_strike_tt:0 "Nuclear strike"
 meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
 
 #meh_cyborgization_category
-meh_cyborgization_category:0 "Cyborgization"
-meh_cyborgization:0 "Cyborgize §Y[From.GetName]§!"
+ meh_cyborgization_category:0 "Cyborgization"
+ meh_cyborgization:0 "Cyborgize §Y[From.GetName]§!"
+ meh_flag_cyborgization_run: "The process of cyborgization of the region is active"
 
 #meh_exterminatus_category
  meh_exterminatus_category:0 "§RExterminatus§!"
