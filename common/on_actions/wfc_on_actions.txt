@@ -758,7 +758,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = JAP
+					original_tag = JAP
 					HEN = {
 						has_war_with = JAP
 						is_ai = yes
@@ -766,7 +766,7 @@ on_actions = {
 				}
 				HEN = {
 					set_country_flag = hen_world_conquest_enabled_flag
-					remove_ideas = hen_attack_jap_bonus
+					#remove_ideas = hen_attack_jap_bonus
 					set_major = yes
 					# transfer_state = 529
 					# transfer_state = 530
@@ -780,23 +780,21 @@ on_actions = {
 					# transfer_state = 537
 					# transfer_state = 555
 				}
-				JAP = {
-					transfer_navy = {
-						target = HEN
+				transfer_navy = {
+					target = HEN
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = JAP
 					}
-					every_owned_state = {
-						limit = {
-							is_core_of = JAP
-						}
-						HEN = {
-							transfer_state = PREV
-						}
+					HEN = {
+						transfer_state = PREV
 					}
 				}
 			}
 			if = {
 				limit = {
-					tag = PER
+					original_tag = PER
 					MMS = {
 						has_war_with = PER
 						is_ai = yes
@@ -819,7 +817,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = AFG
+					original_tag = AFG
 					MMS = {
 						has_war_with = AFG
 						is_ai = yes
@@ -832,7 +830,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = ENG
+					original_tag = ENG
 					MAH = {
 						has_war_with = ENG
 						is_ai = yes
@@ -851,7 +849,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = IRQ
+					original_tag = IRQ
 					MAH = {
 						has_war_with = IRQ
 						is_ai = yes
@@ -870,7 +868,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = SAU
+					original_tag = SAU
 					MAH = {
 						has_war_with = SAU
 						is_ai = yes
@@ -889,7 +887,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = OMA
+					original_tag = OMA
 					MAH = {
 						has_war_with = OMA
 						is_ai = yes
@@ -908,7 +906,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = YEM
+					original_tag = YEM
 					MAH = {
 						has_war_with = YEM
 						is_ai = yes
@@ -927,7 +925,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = QAT
+					original_tag = QAT
 					MAH = {
 						has_war_with = QAT
 						is_ai = yes
@@ -946,7 +944,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = KUW
+					original_tag = KUW
 					MAH = {
 						has_war_with = KUW
 						is_ai = yes
@@ -965,7 +963,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = UAE
+					original_tag = UAE
 					MAH = {
 						has_war_with = UAE
 						is_ai = yes
@@ -984,7 +982,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = ZMB
+					original_tag = ZMB
 				}
 				every_state = {
 					limit = {
@@ -998,7 +996,7 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					tag = MEH
+					original_tag = MEH
 					has_idea = meh_exterminatus_idea
 				}
 				remove_ideas = meh_exterminatus_idea

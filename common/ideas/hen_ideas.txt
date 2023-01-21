@@ -65,12 +65,24 @@ ideas = {
 		}
 		hen_attack_jap_bonus = {
 			#name = ENG_tackle_fascism
+			picture = generic_fascism_banned
+			removal_cost = -1
 			allowed = {
 				original_tag = HEN
 			}
-			available = {
+			# available = {
+			# 	#has_war_with = JAP
+			# 	any_other_country = {
+			# 		has_war_with = ROOT
+			# 		original_tag = JAP
+			# 	}
+			# }
+			cancel = {
 				NOT = {
-					has_country_flag = hen_world_conquest_enabled_flag
+					any_other_country = {
+						has_war_with = ROOT
+						original_tag = JAP
+					}
 				}
 			}
 			allowed_civil_war = {
@@ -84,8 +96,6 @@ ideas = {
 				attack_bonus_against = 0.2
 				defense_bonus_against = 0.2
 			}
-			picture = generic_fascism_banned
-			removal_cost = -1
 		}
 		hen_general_staff_idea = {
 			allowed = {
@@ -119,9 +129,12 @@ ideas = {
 			allowed = {
 				original_tag = HEN
 			}
-			available = {
-				has_war = no
+			cancel = {
+				has_war = yes
 			}
+			# available = {
+			# 	has_war = no
+			# }
 			modifier = {
 				industrial_capacity_factory = 0.2
 				training_time_army_factor = -0.2

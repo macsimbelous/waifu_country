@@ -29,6 +29,19 @@ ACW_historical = {
 		wfc_focus_authoritarianism
 		wfc_neutrality_focus
 		wfc_deterrence
+
+		acw_focus_government_reform
+		acw_focus_create_minprom
+		acw_focus_create_minscience
+		acw_focus_create_mintrans
+		acw_focus_create_minoboron
+		acw_focus_create_kgb
+		acw_focus_create_minpropagand
+		acw_focus_complete_the_reform
+
+		acw_focus_path_to_empire
+		acw_defensive_lines
+		acw_focus_attack_hun
 	}
 	research = {
 	}
@@ -68,6 +81,16 @@ ACW_democratic = {
 		wfc_focus_individualism
 		wfc_focus_democracy
 		wfc_interventionism_focus
+
+		acw_focus_government_reform
+		acw_focus_create_minprom
+		acw_focus_create_minscience
+		acw_focus_create_mintrans
+		acw_focus_create_minoboron
+		acw_focus_create_kgb
+		acw_focus_create_minpropagand
+		acw_focus_complete_the_reform
+
 	}
 	research = {
 	}
@@ -110,6 +133,19 @@ ACW_communist = {
 		wfc_political_correctness
 		wfc_indoctrination_focus
 		wfc_political_commissars
+
+		acw_focus_government_reform
+		acw_focus_create_minprom
+		acw_focus_create_minscience
+		acw_focus_create_mintrans
+		acw_focus_create_minoboron
+		acw_focus_create_kgb
+		acw_focus_create_minpropagand
+		acw_focus_complete_the_reform
+
+		acw_focus_path_to_empire
+		acw_defensive_lines
+		acw_focus_attack_hun
 	}
 	research = {
 	}
@@ -152,6 +188,19 @@ ACW_fascist = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+
+		acw_focus_government_reform
+		acw_focus_create_minprom
+		acw_focus_create_minscience
+		acw_focus_create_mintrans
+		acw_focus_create_minoboron
+		acw_focus_create_kgb
+		acw_focus_create_minpropagand
+		acw_focus_complete_the_reform
+
+		acw_focus_path_to_empire
+		acw_defensive_lines
+		acw_focus_attack_hun
 	}
 	research = {
 	}
