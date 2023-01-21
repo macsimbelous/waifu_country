@@ -24,12 +24,6 @@ ACW_historical = {
 		is_subject = yes
 	}
 	ai_national_focuses = {
-		wfc_political_effort
-		wfc_focus_individualism
-		wfc_focus_authoritarianism
-		wfc_neutrality_focus
-		wfc_deterrence
-
 		acw_focus_government_reform
 		acw_focus_create_minprom
 		acw_focus_create_minscience
@@ -42,6 +36,12 @@ ACW_historical = {
 		acw_focus_path_to_empire
 		acw_defensive_lines
 		acw_focus_attack_hun
+
+		wfc_political_effort
+		wfc_focus_individualism
+		wfc_focus_authoritarianism
+		wfc_neutrality_focus
+		wfc_deterrence
 	}
 	research = {
 	}
