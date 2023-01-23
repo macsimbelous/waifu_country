@@ -19,12 +19,15 @@
  wfl_gacha_decision.t:0 "Try your luck"
 
 #wfc_integration_category
- wfc_integration_category:0 "Integration"
- wfc_integration_decision.t:0 "Integrate §Y[From.GetName]§!"
- wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of our culture in §Y[From.GetName]§!\nCompliance: [?FROM.compliance|%%G]\nResistance: [?FROM.resistance|%%R]"
- wfc_integration_decision_2_desc:0 "To integrate the region §Y[From.GetName]§! we need manpower in the amount of §G10%§! from the population of the region.\nCompliance: [?FROM.compliance|%%G]\nResistance: [?FROM.resistance|%%R]"
- wfc_integration_manpower_country_minus_tt:0 "Human resources in the amount of §G10%§ will be used! from the population of the region §Y[From.GetName]§!"
- wfc_integration_manpower_state_plus_tt:0 "The region's population will increase by §G10%§!"
+ wfc_integration_category:0 "[wfc_sl_integration_category]"
+ wfc_def_integration_category:0 "Integration"
+ wfc_hen_integration_category:0 "Depravation"
+ wfc_integration_decision:0 "[wfc_sl_integration_decision]"
+ wfc_def_integration_decision:0 "Integrate §Y[From.GetName]§!"
+ wfc_hen_integration_decision:0 "Corrupt §Y[From.GetName]§!"
+ wfc_integration_decision_desc:0 "[wfc_sl_integration_decision_desc]"
+ wfc_def_integration_decision_desc:0 "It is necessary to consolidate the spread of our identity in the §Y[From.GetName]§! region.\nCompliance: [?FROM.compliance|%%G]\nResistance: [?FROM.resistance|%%R]"
+ wfc_hen_integration_decision_desc:0 "Need to corrupt the population in region §Y[From.GetName]§!\nПодчинение: [?FROM.compliance|%%G]\nСопротивление: [?FROM.resistance|%%R]"
 
 #create_subject
  wfc_subjects_category:0 "Subjects"

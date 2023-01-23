@@ -1,0 +1,36 @@
+defined_text = {
+    name = wfc_sl_integration_category
+    text = {
+        trigger = {
+            tag = HEN
+        }
+        localization_key = wfc_hen_integration_category
+    }
+    text = {
+        localization_key = wfc_def_integration_category
+    }
+}
+defined_text = {
+    name = wfc_sl_integration_decision
+    text = {
+        trigger = {
+            tag = HEN
+        }
+        localization_key = wfc_hen_integration_decision
+    }
+    text = {
+        localization_key = wfc_def_integration_decision
+    }
+}
+defined_text = {
+    name = wfc_sl_integration_decision_desc
+    text = {
+        trigger = {
+            tag = HEN
+        }
+        localization_key = wfc_hen_integration_decision_desc
+    }
+    text = {
+        localization_key = wfc_def_integration_decision_desc
+    }
+}

@@ -29,9 +29,15 @@ wfl_gacha_category:0 "Гача"
 wfl_gacha_decision.t:0 "Испытать удачу"
 
 #wfc_integration_category
- wfc_integration_category:0 "Интеграция"
- wfc_integration_decision:0 "Интегрировать §Y[From.GetName]§!"
- wfc_integration_decision_desc:0 "Не обходимо закрепить распространение нашей идентичности в регионе §Y[From.GetName]§!\nПодчинение: [?FROM.compliance|%%G]\nСопротивление: [?FROM.resistance|%%R]"
+ wfc_integration_category:0 "[wfc_sl_integration_category]"
+ wfc_def_integration_category:0 "Интеграция"
+ wfc_hen_integration_category:0 "Развращение"
+ wfc_integration_decision:0 "[wfc_sl_integration_decision]"
+ wfc_def_integration_decision:0 "Интегрировать §Y[From.GetName]§!"
+ wfc_hen_integration_decision:0 "Развратить §Y[From.GetName]§!"
+ wfc_integration_decision_desc:0 "[wfc_sl_integration_decision_desc]"
+ wfc_def_integration_decision_desc:0 "Необходимо закрепить распространение нашей идентичности в регионе §Y[From.GetName]§!\nПодчинение: [?FROM.compliance|%%G]\nСопротивление: [?FROM.resistance|%%R]"
+ wfc_hen_integration_decision_desc:0 "Необходимо развратить население в регионе §Y[From.GetName]§!\nПодчинение: [?FROM.compliance|%%G]\nСопротивление: [?FROM.resistance|%%R]"
 
 #create_subject
  wfc_subjects_category:0 "Субъекты"
