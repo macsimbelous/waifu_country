@@ -64,6 +64,7 @@ wfc_instantiate_province = {
 						is_core_of = ROOT
 					}
 				}
+				remove_claim_by = ROOT
 				var:country_to_initiate = {
 					transfer_state = PREV
 				}
@@ -231,6 +232,7 @@ wfc_instantiate_province = {
 								is_core_of = ROOT
 							}
 						}
+						remove_claim_by = ROOT
 						var:new_country = {
 							transfer_state = PREV
 						}
