@@ -30,11 +30,8 @@ wfl_gacha_decision.t:0 "Испытать удачу"
 
 #wfc_integration_category
  wfc_integration_category:0 "Интеграция"
- wfc_integration_decision.t:0 "Интегрировать §Y[From.GetName]§!"
- wfc_integration_decision.t_desc:0 "Не обходимо закрепить распространение нашей культуры в §Y[From.GetName]§!"
- wfc_integration_decision_2_desc:0 "Для интеграции региона §Y[From.GetName]§! нам потребуются людские ресурсы в размере §G10%§! от населения региона."
- wfc_integration_manpower_country_minus_tt:0 "Будут использованы людские ресурсы в размере §G10%§! от населения региона §Y[From.GetName]§!"
- wfc_integration_manpower_state_plus_tt:0 "Население региона увеличется на §G10%§!"
+ wfc_integration_decision:0 "Интегрировать §Y[From.GetName]§!"
+ wfc_integration_decision_desc:0 "Не обходимо закрепить распространение нашей идентичности в регионе §Y[From.GetName]§!\nПодчинение: [?FROM.compliance|%%G]\nСопротивление: [?FROM.resistance|%%R]"
 
 #create_subject
  wfc_subjects_category:0 "Субъекты"

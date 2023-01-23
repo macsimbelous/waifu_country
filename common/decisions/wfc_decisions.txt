@@ -272,47 +272,27 @@ wfc_world_conquest_category = {
 
 wfc_integration_category = {
 	wfc_integration_decision = {
-		name = wfc_integration_decision.t
-		#icon = generic_nationalism
-		#icon = generic_form_nation
 		icon = GFX_decision_generic_brainwash
-		allowed = {
-			always = no
+		cost = 100
+		fire_only_once = yes
+		days_remove = 60
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
 		}
 		available = {
 			FROM = {
 				compliance > 75
 				resistance < 5
 			}
-			if = {
-				limit = {
-					FROM = {
-						state_population > 999999
-					}
-				}
-				has_manpower > 100000
-			}
-			else_if = {
-				limit = {
-					FROM = {
-						state_population < 1000000
-						state_population > 249999
-					}
-				}
-				has_manpower > 50000
-			}
-			else_if = {
-				limit = {
-					FROM = {
-						state_population < 250000
-						state_population > 49999
-					}
-				}
-				has_manpower > 10000
-			}
-			else = {
-				has_manpower > 1000
-			}
+			has_stability > 0.6
 		}
 		visible = {
 			FROM = {
@@ -325,142 +305,8 @@ wfc_integration_category = {
 		ai_will_do = {
 			factor = 100
 		}
-		state_target = yes
-		on_map_mode = map_and_decisions_view
-		#target_array = owned_controlled_states
-		target_array = owned_states
-		target_trigger = {
-			FROM = {
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
-		}
-		cost = 100
-		fire_only_once = yes
-		days_remove = 30
 		modifier = {
-			stability_factor = -0.05
-			political_power_gain = -0.1
-		}
-		complete_effect = {
-			if = {
-				limit = {
-					FROM = {
-						state_population > 999999
-					}
-				}
-				add_manpower = -100000
-				FROM = {
-					add_manpower = 100000
-				}
-			}
-			else_if = {
-				limit = {
-					FROM = {
-						state_population < 1000000
-						state_population > 249999
-					}
-				}
-				add_manpower = -50000
-				FROM = {
-					add_manpower = 50000
-				}
-			}
-			else_if = {
-				limit = {
-					FROM = {
-						state_population < 250000
-						state_population > 49999
-					}
-				}
-				add_manpower = -10000
-				FROM = {
-					add_manpower = 10000
-				}
-			}
-			else = {
-				add_manpower = -1000
-				FROM = {
-					add_manpower = 1000
-				}
-			}
-		}
-		remove_effect = {
-			FROM = {
-				add_core_of = ROOT
-				#wfc_coring_state = yes
-			}
-		}
-	}
-	wfc_integration_decision_2 = {
-		name = wfc_integration_decision.t
-		icon = GFX_decision_generic_brainwash
-		available = {
-			FROM = {
-				compliance > 75
-				resistance < 5
-				set_temp_variable = {
-					temp_var = state_population_k
-				}
-				multiply_temp_variable = {
-					temp_var = 100
-				}
-			}
-			has_manpower > temp_var
-		}
-		visible = {
-			FROM = {
-				is_owned_by = ROOT
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 3000
-		}
-		state_target = yes
-		on_map_mode = map_and_decisions_view
-		#target_array = owned_controlled_states
-		target_array = owned_states
-		target_trigger = {
-			FROM = {
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
-		}
-		cost = 25
-		fire_only_once = yes
-		days_remove = 30
-		modifier = {
-			stability_factor = -0.05
-			political_power_gain = -0.1
-		}
-		complete_effect = {
-			set_temp_variable = {
-				temp_var = state_population_k
-			}
-			multiply_temp_variable = {
-				temp_var = 100
-			}
-			set_temp_variable = {
-				temp_var2 = temp_var
-			}
-			subtract_from_temp_variable = {
-				temp_var2 = temp_var
-			}
-			custom_effect_tooltip = wfc_integration_manpower_country_minus_tt
-			hidden_effect = {
-				add_manpower = temp_var2
-			}
-			FROM = {
-				custom_effect_tooltip = wfc_integration_manpower_state_plus_tt
-				hidden_effect = {
-					add_manpower = temp_var
-				}
-			}
+			stability_factor = -0.1
 		}
 		remove_effect = {
 			FROM = {

@@ -21,8 +21,8 @@
 #wfc_integration_category
  wfc_integration_category:0 "Integration"
  wfc_integration_decision.t:0 "Integrate §Y[From.GetName]§!"
- wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of our culture in §Y[From.GetName]§!"
- wfc_integration_decision_2_desc:0 "To integrate the region §Y[From.GetName]§! we need manpower in the amount of §G10%§! from the population of the region."
+ wfc_integration_decision.t_desc:0 "It is necessary to consolidate the spread of our culture in §Y[From.GetName]§!\nCompliance: [?FROM.compliance|%%G]\nResistance: [?FROM.resistance|%%R]"
+ wfc_integration_decision_2_desc:0 "To integrate the region §Y[From.GetName]§! we need manpower in the amount of §G10%§! from the population of the region.\nCompliance: [?FROM.compliance|%%G]\nResistance: [?FROM.resistance|%%R]"
  wfc_integration_manpower_country_minus_tt:0 "Human resources in the amount of §G10%§ will be used! from the population of the region §Y[From.GetName]§!"
  wfc_integration_manpower_state_plus_tt:0 "The region's population will increase by §G10%§!"
 
