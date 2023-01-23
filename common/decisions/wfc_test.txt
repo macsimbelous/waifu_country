@@ -406,4 +406,18 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_add_claims_to_rom = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			ROM = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+		}
+	}
 }
