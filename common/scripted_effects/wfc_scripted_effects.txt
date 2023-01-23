@@ -64,7 +64,6 @@ wfc_instantiate_province = {
 						is_core_of = ROOT
 					}
 				}
-				#remove_claim_by = ROOT
 				var:country_to_initiate = {
 					transfer_state = PREV
 				}
@@ -83,6 +82,9 @@ wfc_instantiate_province = {
 					keep_completed = no
 				}
 				#add_ideas = wfc_economic_assistance
+				every_owned_state = {
+					remove_claim_by = ROOT
+				}
 			}
 			if = {
 				limit = {
@@ -251,6 +253,9 @@ wfc_instantiate_province = {
 					keep_completed = no
 				}
 				#add_ideas = wfc_economic_assistance
+				every_owned_state = {
+					remove_claim_by = ROOT
+				}
 				if = {
 					limit = {
 						var:country_to_initiate = {
