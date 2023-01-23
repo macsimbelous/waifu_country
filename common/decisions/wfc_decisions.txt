@@ -784,6 +784,15 @@ wfc_subjects_category = {
 			factor = -100
 		}
 		complete_effect = {
+			every_owned_state = {
+				limit = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+				remove_claim_by = ROOT
+			}
 			set_temp_variable = {
 				country_to_initiate = FROM
 			}
