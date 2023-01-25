@@ -28,12 +28,6 @@ wfc_world_conquest_category = {
 		}
 		if = {
 			limit = {
-				original_tag = HEN
-			}
-			has_country_flag = hen_world_conquest_enabled_flag
-		}
-		if = {
-			limit = {
 				original_tag = ACW
 			}
 			has_country_flag = acw_great_animeland_flag
@@ -49,12 +43,6 @@ wfc_world_conquest_category = {
 				original_tag = TRP
 			}
 			has_country_flag = trp_south_american_federation_formed_flag
-		}
-		if = {
-			limit = {
-				original_tag = MEH
-			}
-			has_idea = meh_exterminatus_idea
 		}
 		date > 1945.1.1
 	}

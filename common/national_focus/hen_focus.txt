@@ -698,7 +698,7 @@ focus_tree = {
 		relative_position_id = hen_seduce_stalin
 		cost = 10
 		available = {
-			has_country_flag = hen_world_conquest_enabled_flag
+			#has_country_flag = hen_world_conquest_enabled_flag
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
