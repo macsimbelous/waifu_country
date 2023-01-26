@@ -148,6 +148,7 @@ wfc_preparation_for_war_category = {
 		}
 	}
 	allowed = {
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
@@ -217,6 +218,7 @@ wfc_construction_phase_category = {
 wfc_transfer_of_the_capital_category = {
 	priority = 3
 	allowed = {
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
