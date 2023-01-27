@@ -1576,23 +1576,21 @@ shared_focus = {
 		FOCUS_FILTER_INDUSTRY
 	}
 	available_if_capitulated = yes
+	available = {
+		any_owned_state = {
+			is_controlled_by = ROOT
+			free_building_slots = {
+				building = industrial_complex
+				size > 1
+				include_locked = yes
+			}
+		}
+	}
 	ai_will_do = {
 		factor = 1
 		modifier = {
 			is_puppet = yes
 			factor = 5
-		}
-	}
-	bypass = {
-		custom_trigger_tooltip = {
-			tooltip = construction_effort_tt
-			all_owned_state = {
-				free_building_slots = {
-					building = industrial_complex
-					size < 2
-					include_locked = yes
-				}
-			}
 		}
 	}
 	complete_tooltip = {

@@ -565,6 +565,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MEH/generic/meh_land_26.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_meh_land_27_small"
+		texturefile = "gfx/leaders/MEH/generic/meh_land_27_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_meh_land_27"
+		texturefile = "gfx/leaders/MEH/generic/meh_land_27.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_meh_naval_01_small"
 		texturefile = "gfx/leaders/MEH/generic/meh_naval_01_idea.dds"
 	}
@@ -645,6 +653,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MEH/generic/meh_naval_10.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_meh_naval_11_small"
+		texturefile = "gfx/leaders/MEH/generic/meh_naval_11_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_meh_naval_11"
+		texturefile = "gfx/leaders/MEH/generic/meh_naval_11.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_meh_operative_01_small"
 		texturefile = "gfx/leaders/MEH/generic/meh_operative_01_idea.dds"
 	}
@@ -707,5 +723,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_meh_operative_08"
 		texturefile = "gfx/leaders/MEH/generic/meh_operative_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_meh_operative_09_small"
+		texturefile = "gfx/leaders/MEH/generic/meh_operative_09_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_meh_operative_09"
+		texturefile = "gfx/leaders/MEH/generic/meh_operative_09.dds"
 	}
 }
