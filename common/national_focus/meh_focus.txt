@@ -1010,130 +1010,143 @@ focus_tree = {
 			has_war_with = MEX
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = meh_usa_under_control_tt
-				386 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = meh_usa_under_control_tt
+					386 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					385 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					387 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					388 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					381 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					380 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					377 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					382 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					376 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					389 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					390 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					384 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					383 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					374 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					391 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					392 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					373 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					372 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					375 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					371 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					394 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					395 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					370 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					393 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					396 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					369 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					368 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					367 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					261 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					816 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					362 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					363 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					364 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					365 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					366 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					358 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					360 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					361 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					359 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					357 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					463 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
 				}
-				385 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				387 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				388 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				381 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				380 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				377 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				382 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				376 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				389 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				390 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				384 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				383 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				374 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				391 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				392 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				373 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				372 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				375 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				371 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				394 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				395 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				370 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				393 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				396 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				369 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				368 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				367 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				261 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				816 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				362 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				363 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				364 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				365 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				366 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				358 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				360 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				361 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				359 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				357 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				463 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+				AND = {
+					has_war = no
+					MEX = {
+						any_neighbor_country = {
+							OR = {
+								original_tag = MEH
+								is_puppet_of = MEH
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1173,130 +1186,143 @@ focus_tree = {
 			has_war_with = CAN
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = meh_usa_under_control_tt
-				386 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = meh_usa_under_control_tt
+					386 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					385 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					387 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					388 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					381 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					380 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					377 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					382 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					376 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					389 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					390 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					384 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					383 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					374 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					391 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					392 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					373 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					372 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					375 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					371 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					394 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					395 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					370 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					393 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					396 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					369 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					368 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					367 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					261 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					816 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					362 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					363 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					364 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					365 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					366 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					358 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					360 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					361 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					359 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					357 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+					463 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
 				}
-				385 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				387 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				388 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				381 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				380 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				377 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				382 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				376 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				389 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				390 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				384 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				383 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				374 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				391 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				392 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				373 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				372 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				375 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				371 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				394 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				395 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				370 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				393 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				396 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				369 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				368 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				367 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				261 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				816 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				362 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				363 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				364 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				365 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				366 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				358 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				360 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				361 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				359 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				357 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				463 = {
-					wfc_is_controlled_by_root_or_puppet = yes
+				AND = {
+					has_war = no
+					CAN = {
+						any_neighbor_country = {
+							OR = {
+								original_tag = MEH
+								is_puppet_of = MEH
+							}
+						}
+					}
 				}
 			}
 		}
