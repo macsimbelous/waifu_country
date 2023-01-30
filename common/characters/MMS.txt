@@ -619,15 +619,13 @@ characters = {
 			allowed = {
 				original_tag = MMS
 			}
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			traits = {
 				wfc_war_industrialist
-			}
-			ai_will_do = {
-				base = 1
-				modifier = {
-					has_government = fascism
-					add = 5
-				}
 			}
 		}
 	}
@@ -974,6 +972,11 @@ characters = {
 			cost = 150
 			allowed = {
 				original_tag = MMS
+			}
+			available = {
+				NOT = {
+					has_government = democratic
+				}
 			}
 			traits = {
 				princess_of_terror

@@ -844,12 +844,21 @@ economy_decisions = {
 			original_tag = TRP
 		}
 		available = {
-			controls_state = 841
+			controls_state = 495
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_col_required_states_tt
-				controls_state = 493
-				controls_state = 306
-				controls_state = 486
+				# controls_state = 493
+				# controls_state = 306
+				# controls_state = 486
+				493 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				306 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				486 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			num_of_civilian_factories_available_for_projects > 2
 		}

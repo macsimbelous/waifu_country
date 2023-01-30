@@ -1456,6 +1456,11 @@ characters = {
 			allowed = {
 				original_tag = ACW
 			}
+			available = {
+				NOT = {
+					has_government = democratic
+				}
+			}
 			traits = {
 				princess_of_terror
 			}
@@ -2279,7 +2284,9 @@ characters = {
 				original_tag = ACW
 			}
 			available = {
-				has_government = fascism
+				NOT = {
+					has_government = communism
+				}
 			}
 			traits = {
 				wfc_war_industrialist

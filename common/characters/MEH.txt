@@ -444,6 +444,11 @@ characters = {
 			allowed = {
 				original_tag = MEH
 			}
+			available = {
+				NOT = {
+					has_government = democratic
+				}
+			}
 			traits = {
 				princess_of_terror
 			}
@@ -977,6 +982,11 @@ characters = {
 			cost = 150
 			allowed = {
 				original_tag = MEH
+			}
+			available = {
+				NOT = {
+					has_government = communism
+				}
 			}
 			traits = {
 				wfc_war_industrialist
