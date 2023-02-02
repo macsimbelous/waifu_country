@@ -187,7 +187,12 @@ trp_discrediting_decisions = {
 		days_re_enable = 30
 		#on_map_mode = map_only
 		complete_effect = {
-			every_country = {
+			every_other_country = {
+				limit = {
+					NOT = {
+						tag = FROM
+					}
+				}
 				add_opinion_modifier = {
 					target = FROM
 					modifier = large_decrease
