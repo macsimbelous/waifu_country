@@ -1155,6 +1155,30 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/generic/acw_land_21.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_acw_land_22_small"
+		texturefile = "gfx/leaders/ACW/generic/acw_land_22_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_land_22"
+		texturefile = "gfx/leaders/ACW/generic/acw_land_22.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_land_23_small"
+		texturefile = "gfx/leaders/ACW/generic/acw_land_23_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_land_23"
+		texturefile = "gfx/leaders/ACW/generic/acw_land_23.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_land_24_small"
+		texturefile = "gfx/leaders/ACW/generic/acw_land_24_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_land_24"
+		texturefile = "gfx/leaders/ACW/generic/acw_land_24.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_acw_naval_01_small"
 		texturefile = "gfx/leaders/ACW/generic/acw_naval_01_idea.dds"
 	}
@@ -1297,6 +1321,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_naval_18"
 		texturefile = "gfx/leaders/ACW/generic/acw_naval_18.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_19_small"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_19_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_19"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_19.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_20_small"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_20_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_20"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_20.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_21_small"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_21_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_naval_21"
+		texturefile = "gfx/leaders/ACW/generic/acw_naval_21.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_acw_operative_01_small"
