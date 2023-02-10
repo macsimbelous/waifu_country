@@ -50,9 +50,6 @@ shared_focus = {
 	prerequisite = {
 		focus = wfc_army_effort
 	}
-	bypass = {
-		has_tech = motorised_infantry
-	}
 	x = 1
 	y = 1
 	relative_position_id = wfc_army_effort
@@ -65,7 +62,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = motorized_bonus
 			bonus = 3
-			technology = motorised_infantry
+			technology = motorized_equipment
 		}
 	}
 }
@@ -187,7 +184,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = infantry_artillery_bonus
 			ahead_reduction = 2
-			uses = 1
+			uses = 2
 			category = infantry_weapons
 			category = artillery
 		}
@@ -212,7 +209,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = armor_bonus
 			bonus = 1
-			uses = 2
+			uses = 3
 			category = armor
 		}
 	}
