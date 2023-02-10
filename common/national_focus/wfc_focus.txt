@@ -62,7 +62,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = motorized_bonus
 			bonus = 3
-			technology = motorized_equipment
+			category = motorized_equipment
 		}
 	}
 }
