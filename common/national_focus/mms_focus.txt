@@ -1200,6 +1200,8 @@ focus_tree = {
 			num_of_factories > 50
 		}
 		available_if_capitulated = yes
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -1226,6 +1228,8 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		completion_reward = {
 			add_research_slot = 1
 		}

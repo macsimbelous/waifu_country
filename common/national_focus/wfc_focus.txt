@@ -60,9 +60,10 @@ shared_focus = {
 	available_if_capitulated = yes
 	completion_reward = {
 		add_tech_bonus = {
-			name = motorized_bonus
-			bonus = 3
-			category = motorized_equipment
+			name = cat_mechanized_equipment
+			bonus = 1
+			uses = 2
+			category = cat_mechanized_equipment
 		}
 	}
 }
@@ -133,10 +134,10 @@ shared_focus = {
 	available_if_capitulated = yes
 	completion_reward = {
 		add_tech_bonus = {
-			name = motorized_bonus
+			name = cat_mechanized_equipment
 			ahead_reduction = 2
 			uses = 1
-			category = motorized_equipment
+			category = cat_mechanized_equipment
 		}
 	}
 }
@@ -1689,7 +1690,6 @@ shared_focus = {
 	available = {
 		num_of_factories > 50
 	}
-	cancel_if_invalid = no
 	continue_if_invalid = yes
 	x = 0
 	y = 1
