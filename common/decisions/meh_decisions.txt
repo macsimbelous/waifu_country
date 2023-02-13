@@ -305,13 +305,19 @@ meh_cyborgization_category = {
 						is_core_of = ROOT
 					}
 				}
-				factor = 100
+				factor = 1
 			}
 			modifier = {
 				FROM = {
 					is_claimed_by = ROOT
 				}
-				factor = 100
+				factor = 2
+			}
+			modifier = {
+				FROM = {
+					is_owned_by = ROOT
+				}
+				factor = 5
 			}
 		}
 	}
