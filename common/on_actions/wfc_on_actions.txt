@@ -723,6 +723,11 @@ on_actions = {
 						instant_build = yes
 					}
 				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 10000
+					producer = SOV
+				}
 			}
 		}
 	}
