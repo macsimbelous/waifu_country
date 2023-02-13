@@ -169,6 +169,17 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		bypass = {
+			676 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			675 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			291 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
 		completion_reward = {
 			IRQ = {
 				every_owned_state = {
@@ -203,6 +214,35 @@ focus_tree = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			291 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		bypass = {
+			292 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			679 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			678 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			855 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			854 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			857 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			859 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			856 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			858 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
@@ -307,6 +347,14 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			293 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		completion_reward = {
 			OMA = {

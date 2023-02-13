@@ -284,18 +284,18 @@ meh_cyborgization_category = {
 				#add_core_of = ROOT
 				wfc_coring_state = yes
 			}
-			if = {
-				limit = {
-					FROM = {
-						OWNER = {
-							NOT = {
-								tag = ROOT
-							}
-						}
-					}
-				}
-				transfer_state = FROM
-			}
+			# if = {
+			# 	limit = {
+			# 		FROM = {
+			# 			OWNER = {
+			# 				NOT = {
+			# 					tag = ROOT
+			# 				}
+			# 			}
+			# 		}
+			# 	}
+			# 	transfer_state = FROM
+			# }
 		}
 		ai_will_do = {
 			factor = 1
