@@ -274,8 +274,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/eula_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_eula"
-		texturefile = "gfx/leaders/ACW/Eula.dds"
+		name = "GFX_portrait_acw_eula_army"
+		texturefile = "gfx/leaders/ACW/eula_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_eula_civilian"
+		texturefile = "gfx/leaders/ACW/eula_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_fiora"
@@ -984,6 +988,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_eleonore_bonnefoi_civilian"
 		texturefile = "gfx/leaders/ACW/eleonore_bonnefoi_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_fiona_frost"
+		texturefile = "gfx/leaders/ACW/fiona_frost_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_fiona_frost_operative"
+		texturefile = "gfx/leaders/ACW/fiona_frost_operative.dds"
 	}
 	#generics
 	spriteType = {

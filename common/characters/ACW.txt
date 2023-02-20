@@ -974,7 +974,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_eula
-				large = GFX_portrait_acw_eula
+				large = GFX_portrait_acw_eula_army
+			}
+			civilian = {
+				large = GFX_portrait_acw_eula_civilian
 			}
 		}
 		corps_commander = {
@@ -2478,6 +2481,18 @@ characters = {
 			}
 			traits = {
 				wfc_pharmacist
+			}
+		}
+	}
+	ACW_fiona_frost = {
+		name = ACW_fiona_frost
+		portraits = {
+			army = {
+				small = GFX_idea_acw_fiona_frost
+				large = GFX_portrait_acw_fiona_frost_operative
+			}
+			civilian = {
+				large = GFX_portrait_acw_fiona_frost_operative
 			}
 		}
 	}

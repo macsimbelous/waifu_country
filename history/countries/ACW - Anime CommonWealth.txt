@@ -438,6 +438,19 @@ create_operative_leader = {
 		operative_well_groomed
 	}
 }
+recruit_character = ACW_fiona_frost
+create_operative_leader = {
+	name = ACW_fiona_frost
+	GFX = GFX_portrait_acw_fiona_frost_operative
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+	traits = {
+		operative_master_interrogator
+	}
+}
 
 ACW_Erza = {
 	set_character_flag = acw_country_leader_flag
