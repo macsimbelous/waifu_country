@@ -1069,4 +1069,15 @@ characters = {
 			}
 		}
 	}
+	HEN_sayaka_akimiya = {
+		name = HEN_sayaka_akimiya
+		portraits = {
+			army = {
+				small = GFX_idea_hen_sayaka_akimiya
+			}
+			civilian = {
+				large = GFX_portrait_hen_sayaka_akimiya_operative
+			}
+		}
+	}
 }

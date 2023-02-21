@@ -225,7 +225,6 @@ create_operative_leader = {
 		operative_natural_orator
 	}
 }
-
 create_operative_leader = {
 	name = "Mako Mitsuki"
 	GFX = GFX_portrait_hen_mako_mitsuki
@@ -239,6 +238,22 @@ create_operative_leader = {
 		operative_infiltrator
 	}
 }
+recruit_character = HEN_sayaka_akimiya
+create_operative_leader = {
+	name = "Sayaka Akimiya"
+	GFX = GFX_portrait_hen_sayaka_akimiya_operative
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		HEN
+	}
+	traits = {
+		operative_linguist
+		operative_well_groomed
+	}
+}
+
+
 HEN_Takumi_Musashino = {
 	set_character_flag = hen_country_leader_flag
 }
