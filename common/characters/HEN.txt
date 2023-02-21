@@ -990,6 +990,8 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_mika_amano
+			}
+			civilian = {
 				large = GFX_portrait_hen_mika_amano
 			}
 		}
@@ -1039,6 +1041,31 @@ characters = {
 			}
 			ai_will_do = {
 				factor = 0
+			}
+		}
+	}
+	HEN_reika_shichijou = {
+		name = HEN_reika_shichijou
+		portraits = {
+			army = {
+				small = GFX_idea_hen_reika_shichijou
+			}
+			civilian = {
+				large = GFX_portrait_hen_reika_shichijou_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_reika_shichijou
+			cost = 150
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				wfc_trait_minister_of_perversion
+			}
+			ai_will_do = {
+				factor = 5
 			}
 		}
 	}

@@ -425,4 +425,9 @@ leader_traits = {
 		trade_laws_cost_factor = -0.1
 		mobilization_laws_cost_factor = -0.1
 	}
+	wfc_trait_minister_of_perversion = {
+		sprite = 13
+		random = no
+		compliance_growth = 0.3
+	}
 }
