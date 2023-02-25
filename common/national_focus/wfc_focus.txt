@@ -612,7 +612,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		navy_experience = 25
-		random_owned_controlled_state = {
+		random_controlled_state = {
 			limit = {
 				is_coastal = yes
 				free_building_slots = {
