@@ -1072,6 +1072,12 @@ focus_tree = {
 			has_completed_focus = acw_focus_complete_the_reform
 			has_government = communism
 			is_subject = no
+			if = {
+				limit = {
+					is_in_faction = yes
+				}
+				is_faction_leader = no
+			}
 			SOV_comintern_joinable = yes
 		}
 		completion_reward = {
@@ -2097,12 +2103,14 @@ focus_tree = {
 			focus = acw_focus_complete_the_reform
 		}
 		cost = 5
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		ai_will_do = {
 			factor = 5
 		}
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = acw_create_stavka_decision_tt
+				tooltip = acw_focus_stavka_num_battalions_tt
 				check_variable = {
 					num_battalions > 999
 				}
