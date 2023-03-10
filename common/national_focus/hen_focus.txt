@@ -225,6 +225,7 @@ focus_tree = {
 			is_in_faction_with = JAP
 			JAP = {
 				has_same_ideology = yes
+				has_capitulated = no
 			}
 			ic_ratio = {
 				tag = JAP
@@ -825,6 +826,7 @@ focus_tree = {
 			is_in_faction_with = SOV
 			SOV = {
 				has_same_ideology = yes
+				has_capitulated = no
 			}
 			ic_ratio = {
 				tag = SOV
@@ -836,7 +838,11 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			puppet = SOV
+			#puppet = SOV
+			puppet = {
+				target = SOV
+				end_wars = no
+			}
 		}
 	}
 	focus = {
