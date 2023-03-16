@@ -5,7 +5,10 @@ meh_kosmos_category = {
 		original_tag = MEH
 	}
 	visible = {
-		has_country_flag = meh_create_rocketry_flag
+		OR = {
+			has_country_flag = meh_create_rocketry_flag
+			rocket_site > 0
+		}
 	}
 	available = {
 		has_tech = advanced_rocket_engines
