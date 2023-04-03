@@ -35,12 +35,6 @@ country_event = {
 			}
 			add_stability = -0.1
 		}
-		hidden_effect = {
-			news_event = {
-				hours = 3
-				id = wfc_news.7
-			}
-		}
 	}
 }
 country_event = {
