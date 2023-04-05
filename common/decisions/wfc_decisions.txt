@@ -1123,6 +1123,9 @@ wfc_subjects_category = {
 	}
 	wfc_delete_units_in_federal_subject = {
 		cost = 50
+		allowed = {
+			always = no
+		}
 		visible = {
 			FROM = {
 				has_autonomy_state = wfc_autonomy_province

@@ -46,12 +46,6 @@ country_event = {
 	option = {
 		name = meh_kosmos.3.a
 		add_stability = 0.02
-		hidden_effect = {
-			news_event = {
-				hours = 3
-				id = wfc_news.7
-			}
-		}
 	}
 }
 country_event = {

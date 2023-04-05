@@ -1,0 +1,38 @@
+characters = {
+	ZMB_tae_yamada = {
+		name = ZMB_tae_yamada
+		portraits = {
+			army = {
+				small = GFX_portrait_zmb_tae_yamada_small
+				large = GFX_portrait_zmb_tae_yamada_army
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ZMB_tae_yamada
+			ledger = army
+			cost = 0
+			allowed = {
+				original_tag = ZMB
+			}
+			traits = {
+				mass_assault_expert
+			}
+			modifier = {
+				cat_mass_assault_cost_factor = -0.8
+			}
+		}
+		field_marshal = {
+			traits = {
+				skilled_staffer
+				infantry_leader
+				expert_delegator
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+		}
+	}
+}
