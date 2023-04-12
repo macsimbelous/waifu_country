@@ -599,6 +599,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_RESEARCH
 		}
+		bypass = {
+			is_in_faction_with = SOV
+		}
 		available = {
 			has_government = communism
 			SOV = {
