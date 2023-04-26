@@ -330,11 +330,6 @@ ideas = {
 					original_tag = MMS
 				}
 			}
-			available = {
-				NOT = {
-					has_tech = jet_engines
-				}
-			}
 			cost = 150
 			removal_cost = -1
 			research_bonus = {
@@ -375,11 +370,6 @@ ideas = {
 					original_tag = MMS
 				}
 			}
-			available = {
-				NOT = {
-					has_tech = jet_engines
-				}
-			}
 			cost = 150
 			removal_cost = -1
 			research_bonus = {
@@ -411,11 +401,6 @@ ideas = {
 					original_tag = TRP
 					original_tag = MEH
 					original_tag = MMS
-				}
-			}
-			available = {
-				NOT = {
-					has_tech = jet_engines
 				}
 			}
 			cost = 150
@@ -632,11 +617,6 @@ ideas = {
 					original_tag = MMS
 				}
 			}
-			available = {
-				NOT = {
-					has_tech = advanced_light_tank_chassis
-				}
-			}
 			research_bonus = {
 				armor = 0.15
 			}
@@ -665,11 +645,6 @@ ideas = {
 					original_tag = TRP
 					original_tag = MEH
 					original_tag = MMS
-				}
-			}
-			available = {
-				NOT = {
-					has_tech = advanced_medium_tank_chassis
 				}
 			}
 			research_bonus = {
@@ -701,11 +676,6 @@ ideas = {
 					original_tag = TRP
 					original_tag = MEH
 					original_tag = MMS
-				}
-			}
-			available = {
-				NOT = {
-					has_tech = advanced_heavy_tank_chassis
 				}
 			}
 			research_bonus = {
