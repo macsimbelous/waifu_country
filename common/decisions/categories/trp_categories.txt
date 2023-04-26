@@ -33,3 +33,11 @@ trp_discrediting_decisions = {
 	# }
 }
 
+trp_category_tasks = {
+	priority = 19
+	#icon = decision_category_generic_propaganda
+	#picture = GFX_decision_cat_picture_chi_political_support
+	allowed = {
+		original_tag = TRP
+	}
+}

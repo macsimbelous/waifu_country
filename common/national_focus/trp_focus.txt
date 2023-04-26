@@ -85,20 +85,6 @@
 					instant_build = yes
 				}
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
 			280 = {
 				urbanize_state = yes
 			}
@@ -274,8 +260,10 @@
 		mutually_exclusive = {
 			focus = trp_shift_to_armaments_production
 		}
+		continue_if_invalid = yes
+		cancel_if_invalid = no
 		available = {
-			num_of_factories > 50
+			num_of_factories > 30
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -391,8 +379,10 @@
 		mutually_exclusive = {
 			focus = trp_reorganize_the_pc_of_heavy_industry
 		}
+		continue_if_invalid = yes
+		cancel_if_invalid = no
 		available = {
-			num_of_factories > 50
+			num_of_factories > 30
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -855,7 +845,7 @@
 		}
 	}
 	focus = {
-		id = trp_beacon_of_liberty
+		id = trp_focus_beacon_of_liberty
 		icon = GFX_goal_support_democracy
 		prerequisite = {
 			focus = trp_join_allies
@@ -888,11 +878,11 @@
 		id = trp_defensive_preparations
 		icon = GFX_goal_generic_small_arms
 		prerequisite = {
-			focus = trp_beacon_of_liberty
+			focus = trp_focus_beacon_of_liberty
 		}
 		x = 0
 		y = 1
-		relative_position_id = trp_beacon_of_liberty
+		relative_position_id = trp_focus_beacon_of_liberty
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -2377,6 +2367,7 @@
 			controls_state = 691
 		}
 		completion_reward = {
+			custom_effect_tooltip = trp_annex_the_colonies_tt
 			hidden_effect = {
 				687 = {
 					OWNER = {
@@ -2411,13 +2402,27 @@
 						}
 					}
 				}
+				transfer_state = 687
+				transfer_state = 309
+				transfer_state = 310
+				transfer_state = 695
+				transfer_state = 691
+				687 = {
+					add_compliance = 75
+				}
+				309 = {
+					add_compliance = 75
+				}
+				310 = {
+					add_compliance = 75
+				}
+				695 = {
+					add_compliance = 75
+				}
+				691 = {
+					add_compliance = 75
+				}
 			}
-			transfer_state = 687
-			transfer_state = 309
-			transfer_state = 310
-			transfer_state = 695
-			transfer_state = 691
-			custom_effect_tooltip = trp_annex_the_colonies_tt
 		}
 		ai_will_do = {
 			factor = 1
