@@ -40,11 +40,11 @@ ideas = {
 			modifier = {
 				army_defence_factor = 0.1
 				army_attack_factor = 0.1
-				army_speed_factor = -0.1
 				army_org_factor = 0.1
 				army_org_regain = 0.1
 				army_morale_factor = 0.1
 				experience_loss_factor = -0.50
+				war_support_factor = 0.05
 			}
 		}
 		mms_idea_scientific_nexus = {
