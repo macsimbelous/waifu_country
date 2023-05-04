@@ -622,6 +622,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = mah_event.11
 	title = mah_event.1.t
@@ -653,6 +654,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = mah_event.12
 	title = mah_event.10.t
@@ -663,6 +665,7 @@ country_event = {
 		name = mah_event.12.a
 	}
 }
+
 country_event = {
 	id = mah_event.13
 	title = mah_event.13.t
@@ -734,6 +737,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = mah_event.14
 	title = mah_event.14.t
@@ -744,6 +748,7 @@ country_event = {
 		name = mah_event.14.a
 	}
 }
+
 country_event = {
 	id = mah_event.15
 	title = mah_event.15.t
@@ -752,5 +757,75 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = mah_event.15.a
+	}
+}
+
+country_event = {
+	id = mah_event.16
+	title = mah_event.16.t
+	desc = mah_event.16.d
+	picture = GFX_report_event_generic_sign_treaty3
+	fire_only_once = yes
+	trigger = {
+		original_tag = MAH
+		has_defensive_war_with = MMS
+		is_in_faction = no
+		OR = {
+			AFG = {
+				exists = yes
+				is_in_faction = no
+			}
+			IRQ = {
+				exists = yes
+				is_in_faction = no
+			}
+			PER = {
+				exists = yes
+				is_in_faction = no
+			}
+			# country_exists = AFG
+			# country_exists = IRQ
+			# country_exists = PER
+		}
+	}
+	option = {
+		name = mah_event.16.a
+		ai_chance = {
+			base = 100
+		}
+		create_faction = wfc_alliance_monster_girls_defense_alliance
+		if = {
+			limit = {
+				country_exists = IRQ
+				IRQ = {
+					is_in_faction = no
+				}
+			}
+			add_to_faction = IRQ
+		}
+		if = {
+			limit = {
+				country_exists = PER
+				PER = {
+					is_in_faction = no
+				}
+			}
+			add_to_faction = PER
+		}
+		if = {
+			limit = {
+				country_exists = AFG
+				AFG = {
+					is_in_faction = no
+				}
+			}
+			add_to_faction = AFG
+		}
+	}
+	option = {
+		name = mah_event.16.b
+		ai_chance = {
+			base = 0
+		}
 	}
 }

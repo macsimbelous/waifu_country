@@ -979,26 +979,45 @@ mms_category_reparations = {
 		}
 		complete_effect = {
 			remove_ideas = mms_payment_of_reparations
-			PER = {
-				create_faction = wfc_alliance_collectors
-				add_to_faction = AFG
-				add_to_faction = IRQ
-				declare_war_on = {
-					target = ROOT
-					type = puppet_wargoal_focus
+			if = {
+				limit = {
+					country_exists = PER
 				}
+				PER = {
+					create_faction = wfc_alliance_collectors
+					add_to_faction = AFG
+					add_to_faction = IRQ
+					declare_war_on = {
+						target = ROOT
+						type = puppet_wargoal_focus
+					}
+					AFG = {
+						add_to_war = {
+							targeted_alliance = PER
+							enemy = ROOT
+							hostility_reason = mms_refuse_to_pay_reparations
+						}
+					}
+					IRQ = {
+						add_to_war = {
+							targeted_alliance = PER
+							enemy = ROOT
+							hostility_reason = mms_refuse_to_pay_reparations
+						}
+					}
+				}
+			}
+			else = {
 				AFG = {
-					add_to_war = {
-						targeted_alliance = PER
-						enemy = ROOT
-						hostility_reason = mms_refuse_to_pay_reparations
+					create_wargoal = {
+						target = MMS
+						type = puppet_wargoal_focus
 					}
 				}
 				IRQ = {
-					add_to_war = {
-						targeted_alliance = PER
-						enemy = ROOT
-						hostility_reason = mms_refuse_to_pay_reparations
+					create_wargoal = {
+						target = MMS
+						type = puppet_wargoal_focus
 					}
 				}
 			}

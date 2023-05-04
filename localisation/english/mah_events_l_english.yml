@@ -75,3 +75,9 @@ mah_event.2.e:0 "No friendship with §Y[FROM.GetName]§!!"
  mah_event.15.t:0 "Britain refused"
  mah_event.15.d:0 "The fraternal government has refused our proposed peace treaty."
  mah_event.15.a:0 "They will regret it"
+
+#mah_event.16
+ mah_event.16.t: "Monster Girl Defense Alliance"
+ mah_event.16.d: "Perhaps we should form an alliance with Afghanistan, Iraq and Iran to defend against the Monster Girls."
+ mah_event.16.a: "Together - we are force!"
+ mah_event.16.b: "It is not necessary."

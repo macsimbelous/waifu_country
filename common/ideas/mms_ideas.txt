@@ -72,12 +72,18 @@ ideas = {
 			picture = ger_mefo_bills_payment
 			removal_cost = -1
 			cancel = {
-				any_other_country = {
-					has_war_with = ROOT
-					OR = {
-						original_tag = AFG
-						original_tag = PER
-						original_tag = IRQ
+				OR = {
+					AND = {
+						has_war_with = AFG
+						has_war_with = PER
+						has_war_with = IRQ
+					}
+					NOT = {
+						OR = {
+							country_exists = AFG
+							country_exists = IRQ
+							country_exists = PER
+						}
 					}
 				}
 			}
