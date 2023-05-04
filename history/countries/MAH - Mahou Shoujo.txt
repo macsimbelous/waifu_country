@@ -91,6 +91,10 @@ add_ideas = {
 	mah_the_nation_of_mahou_shoujo
 }
 
+give_guarantee = AFG
+give_guarantee = PER
+give_guarantee = IRQ
+
 1939.1.1 = {
 	set_war_support = 0.7
 	set_stability = 0.7

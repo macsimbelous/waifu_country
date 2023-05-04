@@ -21,17 +21,16 @@ set_technology = {
 	support_weapons = 1
 	#support_weapons2 = 1
 	tech_mountaineers = 1
-	marines = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_recon = 1
+	#marines = 1
+	#tech_support = 1
+	#tech_engineers = 1
+	#tech_recon = 1
 	#tech_military_police = 1
 	#tech_maintenance_company = 1
-	tech_field_hospital = 1
-	tech_mountaineers = 1
+	#tech_field_hospital = 1
 	motorised_infantry = 1
 	gw_artillery = 1
-	interwar_antiair = 1
+	#interwar_antiair = 1
 	iw_small_airframe = 1
 	aa_lmg = 1
 	iw_medium_airframe = 1
@@ -84,6 +83,10 @@ add_ideas = {
 	#ideological_fanaticism_focus
 	#political_commissars_focus
 	mms_the_nation_of_monmusu
+}
+add_timed_idea = {
+	idea = mms_payment_of_reparations
+	days = 1825
 }
 
 set_politics = {
@@ -374,6 +377,7 @@ create_equipment_variant = {
 	}
 	#icon = "GFX_SOV_early_bomber_medium"
 }
+
 1939.1.1 = {
 	create_equipment_variant = {
 		name = "Monster F-16" #

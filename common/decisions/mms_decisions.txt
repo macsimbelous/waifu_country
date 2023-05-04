@@ -427,24 +427,52 @@ mms_expansion_of_living_space_category = {
 				# Iran
 				custom_trigger_tooltip = {
 					tooltip = form_country_iran_required_states_tt
-					419 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					421 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					420 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					417 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					413 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					266 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					418 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					411 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					412 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					416 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					414 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					410 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					419 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					421 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					420 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					417 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					413 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					266 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					418 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					411 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					412 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					416 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					414 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					410 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 				}
 				# Afghanistan
 				custom_trigger_tooltip = {
 					tooltip = form_country_afghanistan_required_states_tt
-					415 = { wfc_is_controlled_by_root_or_federation_subject = yes }
-					267 = { wfc_is_controlled_by_root_or_federation_subject = yes }
+					415 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
+					267 = {
+						wfc_is_controlled_by_root_or_federation_subject = yes
+					}
 				}
 			}
 			else = {
@@ -496,7 +524,7 @@ mms_expansion_of_living_space_category = {
 				transfer_state = 414
 				transfer_state = 410
 				transfer_state = 415
-				transfer_state = 267 
+				transfer_state = 267
 			}
 			412 = {
 				add_manpower = -1000000
@@ -907,6 +935,70 @@ political_actions = {
 					}
 					1 = {
 						add_country_leader_trait = wfc_demon_lord
+					}
+				}
+			}
+		}
+	}
+}
+
+mms_category_reparations = {
+	mms_decision_refuse_to_pay_reparations = {
+		cost = 100
+		fire_only_once = yes
+		icon = decision_generic_break_treaty
+		available = {
+			has_war_support > 0.6
+			has_army_manpower = {
+				size > 300000
+			}
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				fascism > 0.6
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				communism > 0.6
+			}
+			else_if = {
+				limit = {
+					has_government = democratic
+				}
+				democratic > 0.6
+			}
+			else = {
+				neutrality > 0.6
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			remove_ideas = mms_payment_of_reparations
+			PER = {
+				create_faction = wfc_alliance_collectors
+				add_to_faction = AFG
+				add_to_faction = IRQ
+				declare_war_on = {
+					target = ROOT
+					type = puppet_wargoal_focus
+				}
+				AFG = {
+					add_to_war = {
+						targeted_alliance = PER
+						enemy = ROOT
+						hostility_reason = mms_refuse_to_pay_reparations
+					}
+				}
+				IRQ = {
+					add_to_war = {
+						targeted_alliance = PER
+						enemy = ROOT
+						hostility_reason = mms_refuse_to_pay_reparations
 					}
 				}
 			}

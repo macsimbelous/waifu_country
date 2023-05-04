@@ -271,39 +271,43 @@ meh_sputnik_not:0 "Нужно иметь хотя бы один §Yспутни�
 
 
 #MMS
-#mms_workouts_shamiko_category
- mms_workouts_shamiko_category:0 "Тренировки Шамико"
- mms_workouts_shamiko_category_desc:0 "Атака: §G[?mms_shamiko_attack]§!\nЗашита: §G[?mms_shamiko_defence]§!\nСкорость: §G[?mms_shamiko_speed]§!\nТренировок: §G[?mms_shamiko_workouts_count]§! из §G10§!"
- mms_train_shamiko_attack:0 "Тренировать атаку"
- mms_train_shamiko_protection:0 "Тренировать зашиту"
- mms_train_shamiko_speed:0 "Тренировать скорость"
- mms_workouts_shamiko_final:0 "Завершить тренировки"
- mms_workouts_shamiko_final_tt:0 "Максимальное число тренировок"
- mms_workouts_shamiko_not_final_tt:0 "Не максимальное число тренировок"
- mms_train_shamiko_run_tt:0 "Нет активной тренировки"
- mms_power_shamiko_tt:0 "    Атака: §G[?mms_shamiko_attack]§!\n    Зашита: §G[?mms_shamiko_defence]§!\n    Скорость: §G[?mms_shamiko_speed]§!"
+ #mms_workouts_shamiko_category
+  mms_workouts_shamiko_category:0 "Тренировки Шамико"
+  mms_workouts_shamiko_category_desc:0 "Атака: §G[?mms_shamiko_attack]§!\nЗашита: §G[? mms_shamiko_defence]§!\nСкорость: §G[?mms_shamiko_speed]§!\nТренировок: §G[?mms_shamiko_workouts_count]§! из §G10§!"
+  mms_train_shamiko_attack:0 "Тренировать атаку"
+  mms_train_shamiko_protection:0 "Тренировать зашиту"
+  mms_train_shamiko_speed:0 "Тренировать скорость"
+  mms_workouts_shamiko_final:0 "Завершить тренировки"
+  mms_workouts_shamiko_final_tt:0 "Максимальное число тренировок"
+  mms_workouts_shamiko_not_final_tt:0 "Не максимальное число тренировок"
+  mms_train_shamiko_run_tt:0 "Нет активной тренировки"
+  mms_power_shamiko_tt:0 "    Атака: §G[?mms_shamiko_attack]§!\n    Зашита: §G[?mms_shamiko_defence]§!\n    Скорость: §G[?mms_shamiko_speed]§!"
 
-#mms_civil_war_category
- mms_civil_war_category:0 "§RГражданская война!§!"
- mms_fascist_rise_decision:0 "Фашистский мятеж"
- mms_democratic_rise_decision:0 "Восстание демократов"
- mms_communism_rise_decision:0 "Коммунистическая революция"
+ #mms_civil_war_category
+  mms_civil_war_category:0 "§RГражданская война!§!"
+  mms_fascist_rise_decision:0 "Фашистский мятеж"
+  mms_democratic_rise_decision:0 "Восстание демократов"
+  mms_communism_rise_decision:0 "Коммунистическая революция"
 
-#mms_expansion_of_living_space_category
+ #mms_expansion_of_living_space_category
   mms_expansion_of_living_space_category:0 "Расширение жизненного пространства"
   mms_add_claims_to_per_and_afg:0 "Обосновать притензии"
-#  mms_attack_per:0 "Захватить §R[PER.GetName]§!"
-#  mms_attack_afg:0 "Захватить §R[AFG.GetName]§!"
-#  mms_colonization_per_and_afg:0 "Колонизация Ирана и Авганистана"
+  #  mms_attack_per:0 "Захватить §R[PER.GetName]§!"
+  #  mms_attack_afg:0 "Захватить §R[AFG.GetName]§!"
+  #  mms_colonization_per_and_afg:0 "Колонизация Ирана и Авганистана"
 
+ #economy_decisions
+  # mms_expansion_of_the_supply_network:0 "Расширение железнодорожной сеть"
 
-#economy_decisions
-# mms_expansion_of_the_supply_network:0 "Расширение железнодорожной сеть"
+ #political_actions
+  mms_retire_holo:0 "§BОперация преемник§!"
+  mms_retire_maou:0 "§RДворцовый переворот§!"
+  mms_retire_yuuko_yoshida:0 "§gОтречься от престола§!"
 
-#political_actions
- mms_retire_holo:0 "§BОперация преемник§!"
- mms_retire_maou:0 "§RДворцовый переворот§!"
- mms_retire_yuuko_yoshida:0 "§gОтречься от престола§!"
+ #mms_category_reparations
+  mms_category_reparations: "Репарации"
+  mms_decision_refuse_to_pay_reparations: "§RОтказаться выплачивать репарации§!"
+  mms_refuse_to_pay_reparations: "Монстры отказались выплачивать репарации."
 
 #TRP
  #discrediting

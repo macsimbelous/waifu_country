@@ -289,6 +289,11 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
  mms_retire_maou:0 "§RPalace coup§!"
  mms_retire_yuuko_yoshida:0 "§gAbdicate the throne§!"
 
+ #mms_category_reparations
+  mms_category_reparations: "Reparations"
+  mms_decision_refuse_to_pay_reparations: "§RRefuse to pay reparations§!"
+  mms_refuse_to_pay_reparations: "The monsters refused to pay reparations."
+
 #TRP
  #discrediting
   trp_discrediting_decisions:0 "Discredit"

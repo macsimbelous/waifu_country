@@ -43,7 +43,7 @@ ideas = {
 				army_org_factor = 0.1
 				army_org_regain = 0.1
 				army_morale_factor = 0.1
-				experience_loss_factor = -0.50
+				experience_loss_factor = -0.5
 				war_support_factor = 0.05
 			}
 		}
@@ -60,6 +60,74 @@ ideas = {
 				research_speed_factor = 0.1
 				#political_power_factor = 0.1
 				#political_power_gain = 0.1
+			}
+		}
+		mms_payment_of_reparations = {
+			allowed = {
+				original_tag = MMS
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = ger_mefo_bills_payment
+			removal_cost = -1
+			cancel = {
+				any_other_country = {
+					has_war_with = ROOT
+					OR = {
+						original_tag = AFG
+						original_tag = PER
+						original_tag = IRQ
+					}
+				}
+			}
+			modifier = {
+				political_power_factor = -0.3
+			}
+			targeted_modifier = {
+				tag = AFG
+				cic_to_target_factor = 0.1
+				political_power_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = PER
+				cic_to_target_factor = 0.1
+				political_power_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = IRQ
+				cic_to_target_factor = 0.1
+				political_power_factor = 0.1
+			}
+		}
+	}
+	materiel_manufacturer = {
+		designer = yes
+		mms_ifrit_forge = {
+			allowed = {
+				original_tag = MMS
+			}
+			cost = 150
+			removal_cost = -1
+			research_bonus = {
+				infantry_weapons = 0.15
+				support_tech = 0.15
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.2
+					#reliability = 0.1
+				}
+				support_equipment = {
+					build_cost_ic = -0.2
+					#reliability = 0.1
+				}
+			}
+			traits = {
+				infantry_equipment_manufacturer
+			}
+			ai_will_do = {
+				factor = 100
 			}
 		}
 	}
