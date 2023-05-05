@@ -10,22 +10,23 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				drift_defence_factor = 0.25
-				political_power_gain = 0.25
+				#political_power_gain = 0.25
+				political_power_factor = 0.25
 				justify_war_goal_time = -0.5
 				defensive_war_stability_factor = 0.2
 				offensive_war_stability_factor = 0.2
+				drift_defence_factor = 0.25
 				#consumer_goods_factor = -0.05
 				#production_speed_arms_factory_factor = 0.2
 				training_time_army_factor = -0.2
-				trade_opinion_factor = 0.15
-				conscription = 0.02
-				conscription_factor = 0.2
+				#trade_opinion_factor = -0.15
+				#conscription = 0.02
+				conscription_factor = 0.5
 				#occupation_cost = -0.5
 				resistance_decay = 0.35
-				compliance_growth = 0.15
+				#compliance_growth = 0.15
 				terrain_penalty_reduction = 0.3
-				supply_consumption_factor = -0.3
+				#supply_consumption_factor = -0.3
 			}
 		}
 		mms_necromancy = {
@@ -117,6 +118,7 @@ ideas = {
 			removal_cost = -1
 			research_bonus = {
 				infantry_weapons = 0.15
+				artillery = 0.15
 				support_tech = 0.15
 			}
 			equipment_bonus = {
@@ -124,13 +126,16 @@ ideas = {
 					build_cost_ic = -0.2
 					#reliability = 0.1
 				}
+				artillery_equipment = {
+					build_cost_ic = -0.2
+				}
 				support_equipment = {
 					build_cost_ic = -0.2
 					#reliability = 0.1
 				}
 			}
 			traits = {
-				infantry_equipment_manufacturer
+				wfc_infantry_and_artillery_equipment_manufacturer
 			}
 			ai_will_do = {
 				factor = 100

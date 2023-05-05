@@ -800,6 +800,9 @@ country_event = {
 				IRQ = {
 					is_in_faction = no
 				}
+				NOT = {
+					has_war_with = IRQ
+				}
 			}
 			add_to_faction = IRQ
 		}
