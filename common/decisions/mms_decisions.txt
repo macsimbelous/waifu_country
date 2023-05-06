@@ -991,18 +991,28 @@ mms_category_reparations = {
 						target = ROOT
 						type = puppet_wargoal_focus
 					}
-					AFG = {
-						add_to_war = {
-							targeted_alliance = PER
-							enemy = ROOT
-							hostility_reason = mms_refuse_to_pay_reparations
+					if = {
+						limit = {
+							country_exists = AFG
+						}
+						AFG = {
+							add_to_war = {
+								targeted_alliance = PER
+								enemy = ROOT
+								hostility_reason = mms_refuse_to_pay_reparations
+							}
 						}
 					}
-					IRQ = {
-						add_to_war = {
-							targeted_alliance = PER
-							enemy = ROOT
-							hostility_reason = mms_refuse_to_pay_reparations
+					if = {
+						limit = {
+							country_exists = IRQ
+						}
+						IRQ = {
+							add_to_war = {
+								targeted_alliance = PER
+								enemy = ROOT
+								hostility_reason = mms_refuse_to_pay_reparations
+							}
 						}
 					}
 				}
