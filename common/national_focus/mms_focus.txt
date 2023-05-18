@@ -40,6 +40,7 @@ focus_tree = {
 				}
 				has_completed_focus = mms_focus_workouts_shamiko
 			}
+			has_civil_war = no
 		}
 		completion_reward = {
 			add_war_support = 0.05
@@ -92,6 +93,7 @@ focus_tree = {
 					controls_state = 267
 				}
 			}
+			has_civil_war = no
 		}
 		completion_reward = {
 			declare_war_on = {
@@ -143,6 +145,7 @@ focus_tree = {
 					controls_state = 410
 				}
 			}
+			has_civil_war = no
 		}
 		completion_reward = {
 			declare_war_on = {
