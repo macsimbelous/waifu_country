@@ -21,6 +21,9 @@ characters = {
 			modifier = {
 				cat_mass_assault_cost_factor = -0.8
 			}
+			ai_will_do = {
+				factor = 100
+			}
 		}
 		field_marshal = {
 			traits = {

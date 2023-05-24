@@ -330,7 +330,7 @@ wfc_test_category = {
 					while_loop_effect = {
 						limit = {
 							check_variable = {
-								i = 24
+								i = 10
 								compare = less_than
 							}
 						}
@@ -403,7 +403,10 @@ wfc_test_category = {
 					target = MMS
 					type = annex_everything
 				}
+				add_ideas = ZMB_tae_yamada
 			}
+			country_event = mms_event.2
+			news_event = wfc_news.10
 		}
 	}
 	wfc_test_add_claims_to_rom = {

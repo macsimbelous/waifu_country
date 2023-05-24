@@ -32,4 +32,9 @@ spriteTypes = {
 		name = "GFX_meh_event_01"
 		texturefile = "gfx/event_pictures/meh_event_01.dds"
 	}
+	#MMS
+	spriteType = {
+		name = "GFX_mms_event_zombie_apocalypse"
+		texturefile = "gfx/event_pictures/mms_event_zombie_apocalypse.dds"
+	}
 }

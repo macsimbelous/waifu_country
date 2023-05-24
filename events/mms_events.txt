@@ -1,5 +1,6 @@
 add_namespace = mms_event
 
+#не используется
 country_event = {
 	id = mms_event.1
 	title = mms_event.1.t
@@ -13,5 +14,28 @@ country_event = {
 		}
 		# remove_country_leader_trait = defeatist
 		# add_country_leader_trait = wfc_Tyan_militarist
+	}
+}
+
+country_event = {
+	id = mms_event.2
+	title = mms_event.2.t
+	desc = mms_event.2.d
+	picture = GFX_mms_event_zombie_apocalypse
+	is_triggered_only = yes
+	option = {
+		name = mms_event.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = mms_event.2.b
+		ai_chance = {
+			factor = 0
+		}
+		ZMB = {
+			change_tag_from = ROOT
+		}
 	}
 }

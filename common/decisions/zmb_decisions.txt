@@ -4,6 +4,14 @@ zmb_zombi_spawn_category = {
 		cost = 0
 		fire_only_once = no
 		days_re_enable = 7
+		available = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				num_divisions < 3000
+			}
+		}
 		ai_will_do = {
 			factor = 1000
 		}
