@@ -1387,6 +1387,15 @@ focus_tree = {
 								type = annex_everything
 							}
 							add_ideas = ZMB_tae_yamada
+							country_lock_all_division_template = yes
+							set_division_force_allow_recruiting = {
+								division_template = "Zombi Division"
+								force_allow_recruiting = yes
+							}
+							set_division_force_allow_recruiting = {
+								division_template = "Zombi Cavalry"
+								force_allow_recruiting = yes
+							}
 						}
 						country_event = mms_event.2
 						news_event = wfc_news.10

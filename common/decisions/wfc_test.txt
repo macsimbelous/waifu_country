@@ -404,6 +404,30 @@ wfc_test_category = {
 					type = annex_everything
 				}
 				add_ideas = ZMB_tae_yamada
+				country_lock_all_division_template = yes
+				set_division_force_allow_recruiting = {
+					division_template = "Zombi Division"
+				}
+				set_division_force_allow_recruiting = {
+					division_template = "Zombi Cavalry"
+				}
+				#dddassad
+				delete_unit_template_and_units = {
+					division_template = "MonMusu Garrison"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "MonMusu Cavalry"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "MonMusu Brigade"
+					disband = yes
+				}
+				delete_unit_template_and_units = {
+					division_template = "MonMusu Division"
+					disband = yes
+				}
 			}
 			country_event = mms_event.2
 			news_event = wfc_news.10

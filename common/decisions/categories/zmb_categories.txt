@@ -4,6 +4,7 @@ zmb_zombi_spawn_category = {
 	#picture = GFX_decision_cat_picture_chi_political_support
 	allowed = {
 		original_tag = ZMB
+		always = no
 	}
 }
 zmb_zombi_attack_category = {
