@@ -1480,9 +1480,6 @@ characters = {
 				#compliance_growth = 0.15
 				resistance_decay = 0.15
 			}
-			available = {
-				has_government = fascism
-			}
 		}
 	}
 	ACW_Aoi_Sakurai = {

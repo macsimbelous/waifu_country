@@ -194,7 +194,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 5
-			
 		}
 	}
 	#genarals
@@ -264,9 +263,23 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			
 			traits = {
 				organizer
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = HEN_Homare_Nao
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_regrouping_1
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}
@@ -282,12 +295,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	HEN_Homare_Nao = {
@@ -360,7 +372,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 6
 			logistics_skill = 5
-			
 		}
 	}
 	HEN_Anri_Sogahara = {
@@ -397,12 +408,11 @@ characters = {
 				naval_invader
 				commando
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	HEN_Anna_Komiya = {
@@ -414,12 +424,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
-			
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 			traits = {
 				panzer_leader
 			}
@@ -454,12 +463,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 			traits = {
 				trickster
 			}
@@ -474,11 +482,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 6
-			logistics_skill = 5
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
 			traits = {
 				trait_mountaineer
 			}
@@ -536,7 +544,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 6
-			
 			traits = {
 				organizer
 				skilled_staffer
@@ -555,12 +562,11 @@ characters = {
 			traits = {
 				cavalry_leader
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
-			
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	HEN_Alicia_Arcturus = {
@@ -625,7 +631,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			
+		}
+		advisor = {
+			slot = high_command
+			idea_token = HEN_Homare_Nao
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				navy_amphibious_assault_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	HEN_kasumi_nanakura = {
@@ -640,12 +660,11 @@ characters = {
 			traits = {
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	HEN_ai_kagano = {
@@ -669,6 +688,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = HEN_Homare_Nao
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = HEN
+			}
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	HEN_rin = {
@@ -712,11 +746,11 @@ characters = {
 				skilled_staffer
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 5
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	HEN_frey_ringitt = {
@@ -732,11 +766,11 @@ characters = {
 				trait_mountaineer
 				commando
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	HEN_lilia_eberwein = {
@@ -751,11 +785,11 @@ characters = {
 			traits = {
 				cavalry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	HEN_catue_dragundaala = {
@@ -770,11 +804,11 @@ characters = {
 			traits = {
 				jungle_rat
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	HEN_soul_eater = {
@@ -791,11 +825,11 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	HEN_brainjacker = {
@@ -813,11 +847,11 @@ characters = {
 			traits = {
 				wfc_exp_trait
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	HEN_sakura_igawa = {
@@ -835,11 +869,11 @@ characters = {
 			traits = {
 				commando
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	HEN_yukikaze_mizuki = {
@@ -854,11 +888,11 @@ characters = {
 			traits = {
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	HEN_cala = {
@@ -871,7 +905,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				media_personality militias_officer
+				media_personality
+				militias_officer
 			}
 			skill = 2
 			attack_skill = 2
@@ -900,7 +935,6 @@ characters = {
 			defense_skill = 5
 			maneuvering_skill = 5
 			coordination_skill = 6
-			
 		}
 		advisor = {
 			slot = high_command
@@ -946,7 +980,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			
 		}
 	}
 	HEN_Akiho_Taniguchi = {
@@ -969,7 +1002,6 @@ characters = {
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
-			
 		}
 		advisor = {
 			slot = navy_chief
