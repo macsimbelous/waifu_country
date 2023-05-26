@@ -190,7 +190,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = TRP_felix_argyle
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = TRP
 			}
@@ -345,10 +345,25 @@ characters = {
 				naval_invader
 			}
 			skill = 4
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = TRP_kaguya_arikawa
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				navy_amphibious_assault_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	TRP_tama_kyan = {
@@ -359,15 +374,17 @@ characters = {
 				large = GFX_portrait_trp_tama_kyan
 			}
 		}
-		corps_commander = {
-			traits = {
-				trait_engineer
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = TRP_tama_kyan
+			cost = 150
+			allowed = {
+				original_tag = TRP
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				air_tactical_bombing_3
+			}
 		}
 	}
 	TRP_hime_arikawa = {
@@ -417,7 +434,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = TRP_sylvia
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = TRP
 			}
@@ -444,6 +461,21 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 		}
+		advisor = {
+			slot = high_command
+			idea_token = TRP_souji_mitsuka
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_armored_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	TRP_ranga = {
 		name = TRP_ranga
@@ -459,10 +491,25 @@ characters = {
 				commando
 			}
 			skill = 4
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = TRP_ranga
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	TRP_yukikaze = {
@@ -483,6 +530,21 @@ characters = {
 			planning_skill = 5
 			logistics_skill = 5
 		}
+		advisor = {
+			slot = high_command
+			idea_token = TRP_yukikaze
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_regrouping_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	TRP_mitsunaga_oda = {
 		name = TRP_mitsunaga_oda
@@ -496,11 +558,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	TRP_ritsu_souma = {
@@ -515,7 +577,7 @@ characters = {
 			slot = theorist
 			ledger = air
 			idea_token = TRP_ritsu_souma
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = TRP
 			}
@@ -537,11 +599,11 @@ characters = {
 				commando
 				infantry_leader
 			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 6
-			planning_skill = 5
-			logistics_skill = 5
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	TRP_mizuho_miyanokouji = {
@@ -556,11 +618,11 @@ characters = {
 			traits = {
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	TRP_youta_tsunashi = {
@@ -593,13 +655,13 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				cavalry_leader
+				trait_engineer
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 	TRP_hacka_doll_no_3 = {
@@ -615,11 +677,11 @@ characters = {
 				panzer_leader
 				armor_officer
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 	TRP_shirota_mitsuki = {
@@ -641,6 +703,21 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 5
 		}
+		advisor = {
+			slot = high_command
+			idea_token = TRP_shirota_mitsuki
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				army_logistics_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	TRP_tiger_traps = {
 		name = TRP_tiger_traps
@@ -656,11 +733,11 @@ characters = {
 				panzer_leader
 				trait_engineer
 			}
-			skill = 4
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	TRP_jun_hiiragi = {
@@ -676,11 +753,11 @@ characters = {
 				trait_mountaineer
 				commando
 			}
-			skill = 4
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	TRP_noma_rune = {
@@ -715,11 +792,11 @@ characters = {
 				wfc_exp_navy_trait
 				bold
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	TRP_hamaji_yakumo = {
@@ -734,11 +811,11 @@ characters = {
 			traits = {
 				naval_lineage
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	TRP_taroumaru_seike = {
@@ -786,11 +863,11 @@ characters = {
 			traits = {
 				navy_media_personality
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	TRP_russell = {
@@ -816,7 +893,7 @@ characters = {
 			slot = theorist
 			ledger = navy
 			idea_token = TRP_russell
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = TRP
 			}

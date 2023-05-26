@@ -209,7 +209,7 @@ characters = {
 			slot = theorist
 			idea_token = HEN_Mari_Setogaya
 			ledger = air
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -269,7 +269,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			idea_token = HEN_Homare_Nao
+			idea_token = HEN_Mistiora_Arte
 			ledger = army
 			cost = 50
 			allowed = {
@@ -352,7 +352,7 @@ characters = {
 			slot = theorist
 			idea_token = HEN_Igawa_Asagi
 			ledger = army
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -386,7 +386,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = HEN_Anri_Sogahara
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
@@ -634,7 +634,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			idea_token = HEN_Homare_Nao
+			idea_token = HEN_risa
 			ledger = army
 			cost = 50
 			allowed = {
@@ -691,7 +691,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			idea_token = HEN_Homare_Nao
+			idea_token = HEN_ai_kagano
 			ledger = army
 			cost = 50
 			allowed = {
@@ -1045,7 +1045,7 @@ characters = {
 		}
 	}
 	HEN_head_int = {
-		name = generic_head_of_intelligence
+		name = HEN_Mika_Amano
 		portraits = {
 			army = {
 				small = GFX_idea_acw_mika_amano

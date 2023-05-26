@@ -274,11 +274,11 @@ characters = {
 				commando
 				naval_invader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	ACW_Saint_Martha = {
@@ -293,11 +293,11 @@ characters = {
 			traits = {
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 6
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Asuna_Yuuki = {
@@ -354,11 +354,11 @@ characters = {
 				inflexible_strategist
 				#unyielding_defender
 			}
-			skill = 6
-			attack_skill = 6
-			defense_skill = 5
-			planning_skill = 6
-			logistics_skill = 6
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	ACW_Maple = {
@@ -374,11 +374,11 @@ characters = {
 				trickster
 				inflexible_strategist
 			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 6
-			planning_skill = 5
-			logistics_skill = 5
+			skill = 3
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	ACW_Yoko_Littner = {
@@ -395,11 +395,11 @@ characters = {
 				#fast_planner
 				panzer_leader
 			}
-			skill = 5
-			attack_skill = 4
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Kallen_Stadtfeld = {
@@ -418,11 +418,11 @@ characters = {
 				trait_engineer
 				panzer_leader
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Saki_Rukino = {
@@ -438,11 +438,11 @@ characters = {
 				panzer_leader
 				trickster
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	ACW_Kurumi_Tokisaki = {
@@ -458,11 +458,11 @@ characters = {
 				trickster
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Sanya_V_Litvyak = {
@@ -500,10 +500,25 @@ characters = {
 				organizer
 			}
 			skill = 4
-			attack_skill = 5
+			attack_skill = 4
 			defense_skill = 4
-			planning_skill = 4
+			planning_skill = 5
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ACW_Isuzu_Sento
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_regrouping_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	ACW_Volemia = {
@@ -518,11 +533,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Camilla = {
@@ -544,6 +559,21 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 		}
+		advisor = {
+			slot = high_command
+			idea_token = ACW_Camilla
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_cavalry_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	ACW_Sinon = {
 		name = ACW_Sinon
@@ -559,11 +589,11 @@ characters = {
 				commando
 				urban_assault_specialist
 			}
-			skill = 4
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 3
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	ACW_Kaname_Chidori = {
@@ -579,11 +609,11 @@ characters = {
 				commando
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	ACW_Yoshiko_Tsushima = {
@@ -601,11 +631,11 @@ characters = {
 			traits = {
 				naval_invader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	ACW_Ranko_Kanzaki = {
@@ -625,8 +655,23 @@ characters = {
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
-			planning_skill = 4
+			planning_skill = 5
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ACW_Ranko_Kanzaki
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	ACW_Elma = {
@@ -677,11 +722,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Celica = {
@@ -704,6 +749,21 @@ characters = {
 			planning_skill = 6
 			logistics_skill = 4
 		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ACW_Celica
+			cost = 50
+			allowed = {
+				original_tag = ACW
+			}
+			traits = {
+				army_logistics_1
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
 	}
 	ACW_Cryska_Barchenowa = {
 		name = ACW_Cryska_Barchenowa
@@ -717,11 +777,11 @@ characters = {
 			traits = {
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Fiora = {
@@ -737,11 +797,11 @@ characters = {
 				trait_engineer
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Haruhi_Suzumiya = {
@@ -757,11 +817,11 @@ characters = {
 				organizer
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	ACW_Kiana_Kaslana = {
@@ -776,11 +836,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Konoko = {
@@ -795,11 +855,11 @@ characters = {
 			traits = {
 				commando
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Lina_Inverse = {
@@ -847,11 +907,11 @@ characters = {
 				trickster
 				naval_invader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Ryuuko_Matoi = {
@@ -899,11 +959,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Siluca_Meletes = {
@@ -951,11 +1011,11 @@ characters = {
 				commando
 				infantry_leader
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Byleth_Eisner = {
@@ -968,14 +1028,13 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				cavalry_leader
 				skilled_staffer
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	ACW_Eula = {
@@ -993,11 +1052,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_5pb = {
@@ -1033,11 +1092,11 @@ characters = {
 			traits = {
 				commando
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Compa = {
@@ -1072,11 +1131,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Ellis = {
@@ -1112,11 +1171,11 @@ characters = {
 			traits = {
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Fujimaru_Ritsuka = {
@@ -1152,11 +1211,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_IF = {
@@ -1171,11 +1230,11 @@ characters = {
 			traits = {
 				commando
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Kasumi = {
@@ -1190,11 +1249,11 @@ characters = {
 			traits = {
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Merurulince_Rede_Arls = {
@@ -1209,11 +1268,11 @@ characters = {
 			traits = {
 				organizer
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Miho_Nishizumi = {
@@ -1228,11 +1287,11 @@ characters = {
 			traits = {
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	ACW_Misato_Katsuragi = {
@@ -1268,11 +1327,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Noire = {
@@ -1308,11 +1367,11 @@ characters = {
 			traits = {
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Ryza = {
@@ -1327,11 +1386,11 @@ characters = {
 			traits = {
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
 	ACW_Selesia_Upitiria = {
@@ -1367,11 +1426,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Vert = {
@@ -1407,11 +1466,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Yuna = {
@@ -1426,11 +1485,11 @@ characters = {
 			traits = {
 				naval_invader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_Noelle = {
@@ -1446,11 +1505,11 @@ characters = {
 				inflexible_strategist
 				infantry_leader
 			}
-			skill = 6
-			attack_skill = 5
-			defense_skill = 9
-			planning_skill = 6
-			logistics_skill = 6
+			skill = 3
+			attack_skill = 3
+			defense_skill = 6
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 	ACW_Eruza_Guranhirute = {
@@ -1516,11 +1575,11 @@ characters = {
 				media_personality
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 6
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
 	ACW_natasha_cioara = {
@@ -1536,11 +1595,11 @@ characters = {
 				infantry_leader
 				winter_specialist
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 6
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_kitagawa_marin = {
@@ -1554,11 +1613,11 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 6
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_snow = {
@@ -1574,11 +1633,11 @@ characters = {
 				infantry_leader
 				trickster
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_alicia = {
@@ -1595,11 +1654,11 @@ characters = {
 				commando
 				urban_assault_specialist
 			}
-			skill = 4
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	ACW_isht_karin_orte = {
@@ -1614,11 +1673,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 6
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	ACW_rin_toosaka = {
@@ -1633,11 +1692,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	ACW_charlotte_dunois = {
@@ -1689,6 +1748,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				media_personality
 			}
 			skill = 1
 			attack_skill = 1
@@ -1792,11 +1852,11 @@ characters = {
 			traits = {
 				bold
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_Avrora_Azur_Lane = {
@@ -1847,11 +1907,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_Marblehead = {
@@ -1867,11 +1927,11 @@ characters = {
 				wfc_exp_navy_trait
 				caustic_personality
 			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 5
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 		}
 		advisor = {
 			slot = theorist
@@ -1897,11 +1957,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_Takao_Azur_Lane = {
@@ -1915,11 +1975,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_Tosa_Azur_Lane = {
@@ -1933,11 +1993,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_Sovetskaya_Rossiya = {
@@ -1957,11 +2017,11 @@ characters = {
 				ironside
 				big_guns_expert
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
 		}
 	}
 	ACW_Shima_Tateishi = {
@@ -1975,11 +2035,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_Akeno_Misaki = {
@@ -1993,11 +2053,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_Beidou = {
@@ -2046,11 +2106,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 5
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_prinz_eugen = {
@@ -2067,11 +2127,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_baltimore = {
@@ -2085,11 +2145,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_new_jersey = {
@@ -2103,11 +2163,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			maneuvering_skill = 3
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	ACW_st_louis = {
@@ -2123,11 +2183,11 @@ characters = {
 				wfc_exp_navy_trait
 				air_controller
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
 		}
 		advisor = {
 			slot = theorist

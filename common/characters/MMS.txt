@@ -168,11 +168,11 @@ characters = {
 			traits = {
 				skilled_staffer
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	MMS_belldandy = {
@@ -224,11 +224,11 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 5
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	#marshal
@@ -277,6 +277,21 @@ characters = {
 			defense_skill = 6
 			planning_skill = 7
 			logistics_skill = 6
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MMS_shiraori
+			ledger = army
+			cost = 100
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_regrouping_2
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MMS_ishtar = {
@@ -359,11 +374,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	MMS_lilith = {
@@ -382,8 +397,23 @@ characters = {
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MMS_lilith
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_logistics_1
+			}
+			ai_will_do = {
+				factor = 5
+			}
 		}
 	}
 	MMS_rose = {
@@ -424,6 +454,21 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 		}
+		advisor = {
+			slot = high_command
+			idea_token = MMS_morrah
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				navy_amphibious_assault_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	MMS_ripine = {
 		name = MMS_ripine
@@ -443,6 +488,21 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MMS_ripine
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MMS_dullahan = {
@@ -525,11 +585,11 @@ characters = {
 				infantry_leader
 				trait_engineer
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	MMS_laharl_female = {
@@ -545,11 +605,11 @@ characters = {
 				infantry_leader
 				skilled_staffer
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MMS_desco = {
@@ -570,6 +630,21 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 5
 		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = MMS_desco
+			cost = 50
+			allowed = {
+				original_tag = MMS
+			}
+			traits = {
+				army_armored_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	MMS_corrin = {
 		name = MMS_corrin
@@ -583,11 +658,11 @@ characters = {
 			traits = {
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MMS_lucy = {
@@ -603,11 +678,11 @@ characters = {
 				infantry_leader
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MMS_makina_hoshimura = {
@@ -640,8 +715,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_mms_saya_kisaragi
-			}
-			army = {
 				large = GFX_portrait_mms_saya_kisaragi
 			}
 		}
@@ -649,11 +722,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MMS_02 = {
@@ -665,11 +738,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 			traits = {
 				panzer_leader
 			}
@@ -710,7 +783,7 @@ characters = {
 			slot = theorist
 			idea_token = MMS_satanichia_mcdowell_kurumizawa
 			ledger = air
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MMS
 			}
@@ -731,11 +804,11 @@ characters = {
 			traits = {
 				commando
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MMS_saya_otonashi = {
@@ -750,11 +823,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MMS_marie_von_eisenberg = {
@@ -789,7 +862,7 @@ characters = {
 			slot = theorist
 			idea_token = MMS_kurari_rose
 			ledger = army
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MMS
 			}
@@ -810,7 +883,7 @@ characters = {
 			slot = theorist
 			idea_token = MMS_heine
 			ledger = army
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MMS
 			}
@@ -843,11 +916,11 @@ characters = {
 				cavalry_leader
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	MMS_saphentite_neikes = {
@@ -889,11 +962,11 @@ characters = {
 				wfc_exp_trait
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MMS_asmodeus = {
@@ -912,11 +985,11 @@ characters = {
 				infantry_leader
 				skilled_staffer
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	MMS_wolf_bete = {
@@ -1005,7 +1078,7 @@ characters = {
 			slot = theorist
 			idea_token = MMS_yamato_wg
 			ledger = navy
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MMS
 			}
@@ -1042,11 +1115,11 @@ characters = {
 				fleet_protector
 				destroyer_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 5
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
 		}
 	}
 	MMS_tester = {
@@ -1075,7 +1148,7 @@ characters = {
 				marksman
 			}
 			skill = 4
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
@@ -1101,11 +1174,11 @@ characters = {
 				silent_hunter
 				torpedo_expert
 			}
-			skill = 6
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 6
-			coordination_skill = 4
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
 		}
 	}
 	#advisors

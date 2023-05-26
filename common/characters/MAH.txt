@@ -225,29 +225,13 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 5
-			attack_skill = 5
-			defense_skill = 6
-			planning_skill = 5
-			logistics_skill = 5
-			legacy_id = -1
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 			traits = {
 				infantry_leader
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = MAH_Arika_Yumemiya
-			ledger = army
-			cost = 50
-			allowed = {
-				original_tag = MAH
-			}
-			traits = {
-				army_infantry_1
-			}
-			ai_will_do = {
-				factor = 5
 			}
 		}
 	}
@@ -269,7 +253,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 5
 			logistics_skill = 4
-			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAH_ami_mizuno
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				army_regrouping_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MAH_makoto_kino = {
@@ -290,7 +288,21 @@ characters = {
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
-			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = MAH_makoto_kino
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				army_logistics_1
+			}
+			ai_will_do = {
+				factor = 5
+			}
 		}
 	}
 	MAH_minako_aino = {
@@ -310,7 +322,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAH_minako_aino
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				army_cavalry_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MAH_rei_hino = {
@@ -325,12 +351,11 @@ characters = {
 			traits = {
 				skilled_staffer
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_chisato_yonamine = {
@@ -343,14 +368,12 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				commando
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_kurumi_mugen = {
@@ -365,7 +388,7 @@ characters = {
 			slot = theorist
 			idea_token = MAH_kurumi_mugen
 			ledger = army
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -391,18 +414,17 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
-			idea_token = MAH_homura_akemi
 			ledger = army
-			cost = 50
+			idea_token = MAH_homura_akemi
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
 			traits = {
-				military_theorist
+				blitzkrieg_theorist
 			}
 		}
 	}
@@ -423,7 +445,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAH_subaru_nakajima
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				navy_amphibious_assault_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MAH_vivio = {
@@ -439,12 +475,11 @@ characters = {
 				wfc_exp_trait
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_fate_testarossa = {
@@ -458,13 +493,28 @@ characters = {
 		corps_commander = {
 			traits = {
 				organizer
+				panzer_leader
 			}
-			skill = 5
+			skill = 4
 			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 6
-			logistics_skill = 5
-			legacy_id = -1
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = MAH_fate_testarossa
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				army_armored_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MAH_mia_cyrus = {
@@ -520,16 +570,17 @@ characters = {
 				large = GFX_portrait_mah_saki_uno
 			}
 		}
-		corps_commander = {
-			traits = {
-				infantry_leader
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = MAH_saki_uno
+			cost = 150
+			allowed = {
+				original_tag = MAH
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			traits = {
+				air_close_air_support_3
+			}
 		}
 	}
 	MAH_frill = {
@@ -544,7 +595,7 @@ characters = {
 			slot = theorist
 			idea_token = MAH_frill
 			ledger = air
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
@@ -565,12 +616,11 @@ characters = {
 			traits = {
 				commando
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_mai_tokiha = {
@@ -585,12 +635,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_lena_sayers = {
@@ -614,7 +663,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAH_lena_sayers
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				army_infantry_1
+			}
+			ai_will_do = {
+				factor = 5
+			}
 		}
 	}
 	MAH_maron_kusakabe = {
@@ -629,12 +692,11 @@ characters = {
 			traits = {
 				trickster
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_nagisa_misumi = {
@@ -648,25 +710,23 @@ characters = {
 		corps_commander = {
 			traits = {
 				infantry_leader
-				commando
 			}
 			skill = 4
 			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
-			ledger = army
 			idea_token = MAH_nagisa_misumi
+			ledger = army
 			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
 			traits = {
-				blitzkrieg_theorist
+				military_theorist
 			}
 		}
 	}
@@ -683,12 +743,11 @@ characters = {
 				infantry_leader
 				naval_invader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_himeno_awayuki = {
@@ -702,14 +761,12 @@ characters = {
 		corps_commander = {
 			traits = {
 				trait_engineer
-				panzer_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_sakura_kinomoto = {
@@ -773,12 +830,11 @@ characters = {
 				infantry_leader
 				desert_fox
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 	MAH_komugi_yoshida = {
@@ -813,12 +869,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_ichinose_minori = {
@@ -839,7 +894,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAH_ichinose_minori
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MAH
+			}
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MAH_momozono_love = {
@@ -854,12 +923,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_natsuumi_manatsu = {
@@ -874,12 +942,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	MAH_shiratori_yuriko = {
@@ -894,12 +961,11 @@ characters = {
 			traits = {
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
 	MAH_takizawa_asuka = {
@@ -913,12 +979,11 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MAH_yuto_higaya = {
@@ -982,11 +1047,11 @@ characters = {
 				big_guns_expert
 				marksman
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 6
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
 		}
 		advisor = {
 			slot = navy_chief
@@ -1042,11 +1107,11 @@ characters = {
 			traits = {
 				wfc_exp_navy_trait
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 6
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	MAH_lucia_nanami = {
@@ -1062,11 +1127,11 @@ characters = {
 				seawolf
 				silent_hunter
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 6
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
 		}
 	}
 	MAH_laura_la_mer = {
@@ -1080,11 +1145,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 6
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	#advisors

@@ -248,11 +248,11 @@ characters = {
 			traits = {
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	MEH_Risa = {
@@ -271,10 +271,25 @@ characters = {
 				trait_mountaineer
 			}
 			skill = 4
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Risa
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MEH_2B = {
@@ -290,11 +305,11 @@ characters = {
 				bearer_of_artillery
 				infantry_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	MEH_Cibo = {
@@ -302,8 +317,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_cibo
-			}
-			army = {
 				large = GFX_portrait_meh_cibo
 			}
 		}
@@ -312,10 +325,25 @@ characters = {
 				naval_invader
 			}
 			skill = 4
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_Cibo
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				navy_amphibious_assault_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MEH_A2 = {
@@ -361,7 +389,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Alexandra_Frolova
 			ledger = air
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -492,8 +520,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_pneuma
-			}
-			army = {
 				large = GFX_portrait_meh_pneuma
 			}
 		}
@@ -506,6 +532,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = MEH_Pneuma
+			cost = 50
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_armored_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MEH_Hatsune_Miku = {
@@ -544,16 +585,16 @@ characters = {
 				original_tag = MEH
 			}
 			traits = {
-				army_armored_1
+				army_regrouping_1
 			}
 			ai_will_do = {
-				factor = 5
+				factor = 1
 			}
 		}
 		corps_commander = {
 			traits = {
 				organizer
-				skilled_staffer
+				infantry_leader
 			}
 			skill = 5
 			attack_skill = 6
@@ -570,15 +611,17 @@ characters = {
 				large = GFX_portrait_meh_automaton
 			}
 		}
-		corps_commander = {
-			traits = {
-				trait_engineer
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = MEH_Automaton
+			cost = 150
+			allowed = {
+				original_tag = MEH
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			traits = {
+				air_strategic_bombing_3
+			}
 		}
 	}
 	MEH_Phantom_Queen_Ex_Xecty = {
@@ -636,11 +679,11 @@ characters = {
 				infantry_leader
 				commando
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	MEH_Aino = {
@@ -657,11 +700,11 @@ characters = {
 				trickster
 				panzer_leader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	MEH_Rose = {
@@ -676,11 +719,11 @@ characters = {
 			traits = {
 				naval_invader
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MEH_Elizabeth = {
@@ -705,7 +748,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Elizabeth
 			ledger = army
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -728,11 +771,11 @@ characters = {
 				commando
 				trickster
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	MEH_norimaki_arale = {
@@ -747,11 +790,11 @@ characters = {
 			traits = {
 				trait_engineer
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	MEH_violet_evergarden = {
@@ -772,6 +815,21 @@ characters = {
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MEH_violet_evergarden
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_logistics_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MEH_alpha = {
@@ -806,11 +864,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	MEH_Takao_ARP = {
@@ -827,11 +885,11 @@ characters = {
 				fly_swatter
 				cruiser_captain
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 5
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
 		}
 	}
 	MEH_I_410 = {
@@ -839,8 +897,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_i-410
-			}
-			army = {
 				large = GFX_portrait_meh_i-410
 			}
 		}
@@ -896,7 +952,7 @@ characters = {
 				marksman
 			}
 			skill = 4
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 4
@@ -913,11 +969,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 	MEH_Kongou_ARP = {
@@ -932,7 +988,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Kongou_ARP
 			ledger = navy
-			cost = 50
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -964,11 +1020,11 @@ characters = {
 		navy_leader = {
 			traits = {
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
 		}
 	}
 	MEH_Caseal = {
@@ -1008,10 +1064,10 @@ characters = {
 			traits = {
 				air_controller
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
 			coordination_skill = 4
 		}
 	}
