@@ -229,7 +229,7 @@ characters = {
 				army_chief_offensive_1
 			}
 			ai_will_do = {
-				factor = 2
+				factor = 5
 			}
 		}
 	}
@@ -425,7 +425,7 @@ characters = {
 				army_infantry_1
 			}
 			ai_will_do = {
-				factor = 2
+				factor = 5
 			}
 		}
 	}
@@ -545,6 +545,9 @@ characters = {
 			}
 			traits = {
 				army_armored_1
+			}
+			ai_will_do = {
+				factor = 5
 			}
 		}
 		corps_commander = {
