@@ -529,6 +529,9 @@ ideas = {
 			traits = {
 				motorized_equipment_manufacturer
 			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 		wfc_infantry_equipment_manufacturer = {
 			name = generic_infantry_equipment_manufacturer
@@ -556,6 +559,9 @@ ideas = {
 			}
 			traits = {
 				infantry_equipment_manufacturer
+			}
+			ai_will_do = {
+				factor = 5
 			}
 		}
 		wfc_artillery_manufacturer = {
@@ -592,6 +598,9 @@ ideas = {
 			}
 			traits = {
 				artillery_manufacturer
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}
@@ -675,7 +684,7 @@ ideas = {
 				fast_tank_manufacturer
 			}
 			ai_will_do = {
-				factor = 5
+				factor = 1
 			}
 		}
 		wfc_medium_tank_astrov_design_bureau = {
@@ -750,7 +759,7 @@ ideas = {
 				heavy_tank_manufacturer
 			}
 			ai_will_do = {
-				factor = 5
+				factor = 1
 			}
 		}
 		#заглушка
@@ -800,6 +809,15 @@ ideas = {
 			}
 			modifier = {
 			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+					factor = 5
+				}
+			}
 		}
 		wfc_carrier_company = {
 			#picture = idea_generic_navy_carrier_bonus
@@ -823,6 +841,15 @@ ideas = {
 			}
 			modifier = {
 			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+					factor = 1
+				}
+			}
 		}
 		wfc_battlefleet_company = {
 			picture = generic_navy_bonus
@@ -845,6 +872,15 @@ ideas = {
 				wfc_battlefleet_designer
 			}
 			modifier = {
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					any_owned_state = {
+						is_coastal = yes
+					}
+					factor = 2
+				}
 			}
 		}
 		#заглушка
@@ -928,6 +964,9 @@ ideas = {
 			traits = {
 				electronics_concern
 			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 		wfc_atom_concern = {
 			picture = generic_electronics_concern_2
@@ -953,6 +992,9 @@ ideas = {
 			traits = {
 				wfc_atom_concern_trait
 			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 		wfc_refining_concern = {
 			picture = generic_refining_concern_1
@@ -977,6 +1019,9 @@ ideas = {
 			traits = {
 				refinery_concern
 			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 		wfc_railway_company = {
 			name = generic_industrial_concern
@@ -995,6 +1040,9 @@ ideas = {
 			removal_cost = -1
 			traits = {
 				railway_company
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

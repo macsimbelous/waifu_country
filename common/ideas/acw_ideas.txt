@@ -361,6 +361,9 @@ ideas = {
 			traits = {
 				wfc_jack_of_all_trades_trait
 			}
+			ai_will_do = {
+				factor = 5
+			}
 		}
 	}
 }
