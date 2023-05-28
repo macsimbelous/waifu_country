@@ -1405,7 +1405,7 @@ characters = {
 			slot = theorist
 			ledger = air
 			idea_token = ACW_Selesia_Upitiria
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
@@ -2381,7 +2381,7 @@ characters = {
 				original_tag = ACW
 			}
 			research_bonus = {
-				nuclear = 0.2
+				nuclear = 0.3
 			}
 			traits = {
 				wfc_nuclear_mazoku
@@ -2434,7 +2434,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ACW_Ayame_Himuro
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = ACW
 			}
