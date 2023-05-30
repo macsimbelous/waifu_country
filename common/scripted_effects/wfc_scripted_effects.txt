@@ -317,3 +317,103 @@ wfc_instantiate_province = {
 		}
 	}
 }
+
+wfc_change_country_leader = {
+	custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				original_tag = ACW
+			}
+			FROM = {
+				acw_change_country_leader = yes
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = HEN
+			}
+			FROM = {
+				hen_change_country_leader = yes
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MEH
+			}
+			FROM = {
+				meh_change_country_leader = yes
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MAH
+			}
+			FROM = {
+				mah_change_country_leader = yes
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MMS
+			}
+			FROM = {
+				mms_change_country_leader = yes
+			}
+		}
+		else = {
+			FROM = {
+				trp_change_country_leader = yes
+			}
+		}
+	}
+}
+
+wfc_change_country_leader2 = {
+	custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				PREV = {
+					original_tag = ACW
+				}
+			}
+			acw_change_country_leader = yes
+		}
+		else_if = {
+			limit = {
+				PREV = {
+					original_tag = HEN
+				}
+			}
+			hen_change_country_leader = yes
+		}
+		else_if = {
+			limit = {
+				PREV = {
+					original_tag = MEH
+				}
+			}
+			meh_change_country_leader = yes
+		}
+		else_if = {
+			limit = {
+				PREV = {
+					original_tag = MAH
+				}
+			}
+			mah_change_country_leader = yes
+		}
+		else_if = {
+			limit = {
+				PREV = {
+					original_tag = MMS
+				}
+			}
+			mms_change_country_leader = yes
+		}
+		else = {
+			trp_change_country_leader = yes
+		}
+	}
+}

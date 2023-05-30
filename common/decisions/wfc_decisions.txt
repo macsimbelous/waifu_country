@@ -3843,6 +3843,7 @@ wfc_puppets_category = {
 						factor = 1.5
 					}
 					puppet = FROM
+					wfc_change_country_leader = yes
 					add_named_threat = {
 						threat = 5
 						name = wfc_create_puppet_threat
