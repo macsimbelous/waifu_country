@@ -273,6 +273,31 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_rom_to_puppet = {
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = ROM
+			}
+			wfc_instantiate_province2 = yes
+			var:country_to_initiate = {
+				if = {
+					limit = {
+						NOT = {
+							original_tag = ACW
+							original_tag = HEN
+							original_tag = MAH
+							original_tag = TRP
+							original_tag = MMS
+							original_tag = MEH
+						}
+					}
+					wfc_change_country_leader = yes
+				}
+			}
+		}
+	}
 	wfc_annex_yug = {
 		fire_only_once = no
 		cost = 0

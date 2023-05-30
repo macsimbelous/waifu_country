@@ -258,3 +258,92 @@ wfc_change_country_leader = {
 		}
 	}
 }
+
+wfc_instantiate_province2 = {
+	custom_effect_tooltip = wfc_instantiate_province_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				var:country_to_initiate = {
+					exists = yes
+				}
+			}
+			create_dynamic_country = {
+				original_tag = country_to_initiate
+				set_temp_variable = {
+					country_to_initiate = this
+				}
+			}
+		}
+		if = {
+			limit = {
+				original_tag = ACW
+			}
+			var:country_to_initiate = {
+				set_country_flag = acw_federation_subject_flag
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = HEN
+			}
+			var:country_to_initiate = {
+				set_country_flag = hen_federation_subject_flag
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MAH
+			}
+			var:country_to_initiate = {
+				set_country_flag = mah_federation_subject_flag
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MEH
+			}
+			var:country_to_initiate = {
+				set_country_flag = meh_federation_subject_flag
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MMS
+			}
+			var:country_to_initiate = {
+				set_country_flag = mms_federation_subject_flag
+			}
+		}
+		else = {
+			var:country_to_initiate = {
+				set_country_flag = trp_federation_subject_flag
+			}
+		}
+		set_autonomy = {
+			target = country_to_initiate
+			autonomy_state = wfc_autonomy_province
+		}
+		every_controlled_state = {
+			limit = {
+				is_core_of = country_to_initiate
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			var:country_to_initiate = {
+				transfer_state = PREV
+			}
+		}
+		var:country_to_initiate = {
+			set_country_flag = wfc_change_focus_tree_flag
+			load_focus_tree = {
+				tree = wfc_puppet_focus
+				keep_completed = no
+			}
+			every_owned_state = {
+				remove_claim_by = ROOT
+			}
+		}
+	}
+}
