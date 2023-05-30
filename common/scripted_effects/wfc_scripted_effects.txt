@@ -99,66 +99,8 @@ wfc_instantiate_province = {
 						}
 					}
 				}
-				if = {
-					limit = {
-						original_tag = ACW
-					}
-					var:country_to_initiate = {
-						hidden_effect = {
-							acw_change_country_leader = yes
-						}
-						# add_ideas = {
-						# 	wfc_acw_assistance
-						# 	wfc_acw_puppet
-						# }
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = HEN
-					}
-					var:country_to_initiate = {
-						hidden_effect = {
-							hen_change_country_leader = yes
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MAH
-					}
-					var:country_to_initiate = {
-						hidden_effect = {
-							mah_change_country_leader = yes
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MEH
-					}
-					var:country_to_initiate = {
-						hidden_effect = {
-							meh_change_country_leader = yes
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MMS
-					}
-					var:country_to_initiate = {
-						hidden_effect = {
-							mms_change_country_leader = yes
-						}
-					}
-				}
-				else = {
-					var:country_to_initiate = {
-						hidden_effect = {
-							trp_change_country_leader = yes
-						}
-					}
+				var:country_to_initiate = {
+					wfc_change_country_leader = yes
 				}
 			}
 		}
@@ -170,14 +112,6 @@ wfc_instantiate_province = {
 					new_country = this
 				}
 				PREV = {
-					every_controlled_state = {
-						limit = {
-							occupied_country_tag = country_to_initiate
-						}
-						var:new_country = {
-							transfer_state = PREV
-						}
-					}
 					if = {
 						limit = {
 							original_tag = ACW
@@ -269,49 +203,7 @@ wfc_instantiate_province = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							PREV = {
-								original_tag = ACW
-							}
-						}
-						acw_change_country_leader = yes
-					}
-					else_if = {
-						limit = {
-							PREV = {
-								original_tag = HEN
-							}
-						}
-						hen_change_country_leader = yes
-					}
-					else_if = {
-						limit = {
-							PREV = {
-								original_tag = MAH
-							}
-						}
-						mah_change_country_leader = yes
-					}
-					else_if = {
-						limit = {
-							PREV = {
-								original_tag = MEH
-							}
-						}
-						meh_change_country_leader = yes
-					}
-					else_if = {
-						limit = {
-							PREV = {
-								original_tag = MMS
-							}
-						}
-						mms_change_country_leader = yes
-					}
-					else = {
-						trp_change_country_leader = yes
-					}
+					wfc_change_country_leader = yes
 				}
 			}
 		}
@@ -323,58 +215,7 @@ wfc_change_country_leader = {
 	hidden_effect = {
 		if = {
 			limit = {
-				original_tag = ACW
-			}
-			FROM = {
-				acw_change_country_leader = yes
-			}
-		}
-		else_if = {
-			limit = {
-				original_tag = HEN
-			}
-			FROM = {
-				hen_change_country_leader = yes
-			}
-		}
-		else_if = {
-			limit = {
-				original_tag = MEH
-			}
-			FROM = {
-				meh_change_country_leader = yes
-			}
-		}
-		else_if = {
-			limit = {
-				original_tag = MAH
-			}
-			FROM = {
-				mah_change_country_leader = yes
-			}
-		}
-		else_if = {
-			limit = {
-				original_tag = MMS
-			}
-			FROM = {
-				mms_change_country_leader = yes
-			}
-		}
-		else = {
-			FROM = {
-				trp_change_country_leader = yes
-			}
-		}
-	}
-}
-
-wfc_change_country_leader2 = {
-	custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
-	hidden_effect = {
-		if = {
-			limit = {
-				PREV = {
+				ROOT = {
 					original_tag = ACW
 				}
 			}
@@ -382,7 +223,7 @@ wfc_change_country_leader2 = {
 		}
 		else_if = {
 			limit = {
-				PREV = {
+				ROOT = {
 					original_tag = HEN
 				}
 			}
@@ -390,7 +231,7 @@ wfc_change_country_leader2 = {
 		}
 		else_if = {
 			limit = {
-				PREV = {
+				ROOT = {
 					original_tag = MEH
 				}
 			}
@@ -398,7 +239,7 @@ wfc_change_country_leader2 = {
 		}
 		else_if = {
 			limit = {
-				PREV = {
+				ROOT = {
 					original_tag = MAH
 				}
 			}
@@ -406,7 +247,7 @@ wfc_change_country_leader2 = {
 		}
 		else_if = {
 			limit = {
-				PREV = {
+				ROOT = {
 					original_tag = MMS
 				}
 			}

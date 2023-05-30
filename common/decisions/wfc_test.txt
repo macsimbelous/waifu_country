@@ -269,7 +269,7 @@ wfc_test_category = {
 				autonomy_state = autonomy_collaboration_government
 			}
 			ROM = {
-				wfc_change_country_leader2 = yes
+				wfc_change_country_leader = yes
 			}
 		}
 	}
