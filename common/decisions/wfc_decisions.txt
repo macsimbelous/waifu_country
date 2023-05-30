@@ -3722,7 +3722,7 @@ wfc_puppets_category = {
 		}
 		remove_effect = {
 			random_list = {
-				10 = {
+				20 = {
 					modifier = {
 						FROM = {
 							has_stability < 0.5
@@ -3852,7 +3852,7 @@ wfc_puppets_category = {
 					}
 					country_event = wfc_event.6
 				}
-				90 = {
+				80 = {
 					modifier = {
 						FROM = {
 							has_stability > 0.5
