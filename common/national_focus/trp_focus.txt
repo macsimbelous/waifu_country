@@ -390,6 +390,7 @@
 		y = 1
 		relative_position_id = trp_industrial_modernization
 		cost = 5
+		continue_if_invalid = yes
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
