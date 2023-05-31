@@ -43,48 +43,9 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_infrastructure_in_random_state = yes
+			wfc_add_infrastructure_in_random_state = yes
+			wfc_add_infrastructure_in_random_state = yes
 			280 = {
 				wfc_urbanize_state = yes
 			}
@@ -104,51 +65,9 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
 		}
 	}
 	focus = {
@@ -230,21 +149,8 @@
 				uses = 2
 				category = construction_tech
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
 		}
 	}
 	focus = {
@@ -262,9 +168,6 @@
 		}
 		continue_if_invalid = yes
 		cancel_if_invalid = no
-		available = {
-			num_of_factories > 30
-		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
@@ -276,21 +179,7 @@
 				uses = 2
 				category = industry
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_industrial_complex_in_random_state = yes
 		}
 	}
 	focus = {
@@ -315,36 +204,8 @@
 				uses = 1
 				category = industry
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
 		}
 	}
 	focus = {
@@ -361,36 +222,8 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = fuel_silo
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = fuel_silo
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = fuel_silo
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = fuel_silo
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_fuel_silo_in_random_state = yes
+			wfc_add_fuel_silo_in_random_state = yes
 			280 = {
 				wfc_urbanize_state = yes
 			}
@@ -411,9 +244,6 @@
 		}
 		continue_if_invalid = yes
 		cancel_if_invalid = no
-		available = {
-			num_of_factories > 30
-		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
@@ -425,21 +255,7 @@
 				uses = 2
 				category = infantry_weapons
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_arms_factory_in_random_state = yes
 		}
 	}
 	focus = {
@@ -463,36 +279,8 @@
 				uses = 2
 				category = cat_production
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_arms_factory_in_random_state = yes
+			wfc_add_arms_factory_in_random_state = yes
 		}
 	}
 	focus = {
@@ -506,24 +294,16 @@
 		y = 1
 		relative_position_id = trp_reorganize_the_pc_of_heavy_industry
 		cost = 5
-		available = {
-			any_owned_state = {
-				has_resources_amount = {
-					resource = steel
-					amount > 0
-				}
-			}
-		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					has_resources_amount = {
-						resource = steel
-						amount > 0
-					}
+			280 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
 				}
 				add_resource = {
 					type = steel
@@ -552,19 +332,12 @@
 			FOCUS_FILTER_RESEARCH
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = synthetic_refinery
-						size > 0
-						include_locked = yes
-					}
-				}
+			280 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
-					level = 1
 					instant_build = yes
+					level = 1
 				}
 			}
 			add_tech_bonus = {
@@ -589,22 +362,15 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
-			any_owned_state = {
-				is_fully_controlled_by = ROOT
-				has_resources_amount = {
-					resource = oil
-					amount > 0
-				}
-			}
+			has_full_control_of_state = 495
 		}
 		completion_reward = {
-			every_owned_state = {
-				limit = {
-					is_fully_controlled_by = ROOT
-					has_resources_amount = {
-						resource = oil
-						amount > 0
-					}
+			495 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
 				}
 				add_resource = {
 					type = oil
@@ -626,6 +392,9 @@
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			num_of_factories > 30
 		}
 		completion_reward = {
 			add_ideas = trp_minprom_idea

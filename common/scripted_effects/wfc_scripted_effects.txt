@@ -568,3 +568,523 @@ wfc_add_dockyard_in_random_state = {
 		}
 	}
 }
+
+wfc_add_synthetic_refinery_in_random_state = {
+	if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_core_of = ROOT
+				free_building_slots = {
+					building = synthetic_refinery
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = synthetic_refinery
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = synthetic_refinery
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = synthetic_refinery
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_controlled_state = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = synthetic_refinery
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = synthetic_refinery
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else = {
+		random_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = synthetic_refinery
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+}
+
+wfc_add_nuclear_reactor_in_random_state = {
+	if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_core_of = ROOT
+				free_building_slots = {
+					building = nuclear_reactor
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = nuclear_reactor
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = nuclear_reactor
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = nuclear_reactor
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = nuclear_reactor
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = nuclear_reactor
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_controlled_state = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = nuclear_reactor
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = nuclear_reactor
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = nuclear_reactor
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else = {
+		random_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = nuclear_reactor
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = nuclear_reactor
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+}
+
+wfc_add_fuel_silo_in_random_state = {
+	if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_core_of = ROOT
+				free_building_slots = {
+					building = fuel_silo
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = fuel_silo
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = fuel_silo
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = fuel_silo
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = fuel_silo
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = fuel_silo
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_controlled_state = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = fuel_silo
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = fuel_silo
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = fuel_silo
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else = {
+		random_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = fuel_silo
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = fuel_silo
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+}
+
+wfc_add_infrastructure_in_random_state = {
+	if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_core_of = ROOT
+				free_building_slots = {
+					building = infrastructure
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = infrastructure
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_controlled_state = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = infrastructure
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = infrastructure
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else = {
+		random_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+}
+
+wfc_add_rocket_site_in_random_state = {
+	if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_core_of = ROOT
+				free_building_slots = {
+					building = rocket_site
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = rocket_site
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = rocket_site
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = rocket_site
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = rocket_site
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = rocket_site
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_controlled_state = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = rocket_site
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = rocket_site
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = rocket_site
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else = {
+		random_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = rocket_site
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = rocket_site
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+}

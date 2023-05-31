@@ -228,19 +228,11 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
+			379 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = arms_factory
-					level = 3
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = arms_factory
-					level = 3
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -263,22 +255,12 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = industrial_complex
-					level = 3
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = industrial_complex
-					level = 3
-					instant_build = yes
-				}
-			}
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state = yes
 		}
 		ai_will_do = {
 			factor = 5
@@ -298,19 +280,11 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
+			378 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -410,22 +384,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = meh_kosmos_available_tt
 			set_country_flag = meh_create_rocketry_flag
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = rocket_site
-						size > 0
-						include_locked = yes
-					}
-					is_in_home_area = yes
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = rocket_site
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_rocket_site_in_random_state = yes
 			add_tech_bonus = {
 				name = jet_rocket_bonus
 				ahead_reduction = 2
@@ -447,7 +406,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		available_if_capitulated = yes
 		available = {
 			has_tech = nuclear_reactor
 			any_owned_state = {
@@ -459,22 +417,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = nuclear_reactor
-						size > 0
-						include_locked = yes
-					}
-					is_in_home_area = yes
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = nuclear_reactor
-					level = 1
-					instant_build = yes
-				}
-			}
+			wfc_add_nuclear_reactor_in_random_state = yes
 			add_tech_bonus = {
 				name = nuclear_bonus
 				ahead_reduction = 2
