@@ -484,7 +484,7 @@ wfc_test_category = {
 		available = {
 			has_core_occupation_modifier = {
 				occupied_country_tag = ROM
-				modifier = compliance_60
+				modifier = wfc_compliance_70
 			}
 		}
 		complete_effect = {
