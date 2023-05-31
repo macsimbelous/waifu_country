@@ -144,7 +144,7 @@ wfc_coring_state = {
 	for_each_loop = {
 		array = core_countries
 		value = temp_tag
-		remove_core_of = temp_var:temp_tag
+		remove_core_of = var:temp_tag
 	}
 	add_core_of = ROOT
 }
@@ -254,5 +254,317 @@ wfc_urbanize_state = {
 			has_state_category = metropolis
 		}
 		set_state_category = megalopolis
+	}
+}
+
+wfc_add_industrial_complex_in_random_state = {
+	if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_core_of = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_controlled_state = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = industrial_complex
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else = {
+		random_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+}
+
+wfc_add_arms_factory_in_random_state = {
+	if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_core_of = ROOT
+				free_building_slots = {
+					building = arms_factory
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = arms_factory
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = arms_factory
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_controlled_state = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = arms_factory
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = arms_factory
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else = {
+		random_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+}
+
+wfc_add_dockyard_in_random_state = {
+	if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_core_of = ROOT
+				free_building_slots = {
+					building = dockyard
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = dockyard
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = dockyard
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				free_building_slots = {
+					building = dockyard
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = dockyard
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_controlled_state = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = dockyard
+					include_locked = yes
+					size > 0
+				}
+			}
+		}
+		random_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = {
+					building = dockyard
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = dockyard
+				instant_build = yes
+				level = 1
+			}
+		}
+	}
+	else = {
+		random_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					include_locked = yes
+					size > 0
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = dockyard
+				instant_build = yes
+				level = 1
+			}
+		}
 	}
 }

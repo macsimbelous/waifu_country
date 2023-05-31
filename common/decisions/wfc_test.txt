@@ -475,4 +475,14 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_add_ic_in_random = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			wfc_add_dockyard_in_random_state = yes
+		}
+	}
 }
