@@ -1,210 +1,91 @@
+wfc_set_province_flag = {
+	if = {
+		limit = {
+			ROOT = {
+				original_tag = ACW
+			}
+		}
+		set_country_flag = acw_federation_subject_flag
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				original_tag = HEN
+			}
+		}
+		set_country_flag = hen_federation_subject_flag
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				original_tag = MAH
+			}
+		}
+		set_country_flag = mah_federation_subject_flag
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				original_tag = MEH
+			}
+		}
+		set_country_flag = meh_federation_subject_flag
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				original_tag = MMS
+			}
+		}
+		set_country_flag = mms_federation_subject_flag
+	}
+	else = {
+		set_country_flag = trp_federation_subject_flag
+	}
+}
+
 wfc_instantiate_province = {
 	custom_effect_tooltip = wfc_instantiate_province_tt
 	hidden_effect = {
 		if = {
-			# Если нет
 			limit = {
 				var:country_to_initiate = {
-					exists = no
+					exists = yes
 				}
 			}
-			if = {
-				limit = {
-					original_tag = ACW
-				}
-				var:country_to_initiate = {
-					set_country_flag = acw_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = HEN
-				}
-				var:country_to_initiate = {
-					set_country_flag = hen_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MAH
-				}
-				var:country_to_initiate = {
-					set_country_flag = mah_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MEH
-				}
-				var:country_to_initiate = {
-					set_country_flag = meh_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MMS
-				}
-				var:country_to_initiate = {
-					set_country_flag = mms_federation_subject_flag
-				}
-			}
-			else = {
-				var:country_to_initiate = {
-					set_country_flag = trp_federation_subject_flag
-				}
-			}
-			set_autonomy = {
-				target = country_to_initiate
-				autonomy_state = wfc_autonomy_province
-			}
-			every_controlled_state = {
-				limit = {
-					is_core_of = country_to_initiate
-					NOT = {
-						is_core_of = ROOT
-					}
-				}
-				var:country_to_initiate = {
-					transfer_state = PREV
-				}
-			}
-			# release_autonomy = {
-			# 	target = country_to_initiate
-			# 	autonomy_state = wfc_autonomy_province
-			# 	freedom_level = 0.5
-			# 	release_non_owned_controlled = yes
-			# }
-			var:country_to_initiate = {
-				set_country_flag = wfc_change_focus_tree_flag
-				load_focus_tree = {
-					tree = wfc_puppet_focus
-					#tree = generic_focus
-					keep_completed = no
-				}
-				#add_ideas = wfc_economic_assistance
-				every_owned_state = {
-					remove_claim_by = ROOT
-				}
-			}
-			if = {
-				limit = {
-					var:country_to_initiate = {
-						NOT = {
-							original_tag = ACW
-							original_tag = HEN
-							original_tag = MAH
-							original_tag = TRP
-							original_tag = MMS
-							original_tag = MEH
-						}
-					}
-				}
-				var:country_to_initiate = {
-					wfc_change_country_leader = yes
-				}
-			}
-		}
-		else = {
-			# Если есть
 			create_dynamic_country = {
 				original_tag = country_to_initiate
 				set_temp_variable = {
-					new_country = this
+					country_to_initiate = this
 				}
-				PREV = {
-					if = {
-						limit = {
-							original_tag = ACW
-						}
-						var:new_country = {
-							set_country_flag = acw_federation_subject_flag
-						}
-					}
-					else_if = {
-						limit = {
-							original_tag = HEN
-						}
-						var:new_country = {
-							set_country_flag = hen_federation_subject_flag
-						}
-					}
-					else_if = {
-						limit = {
-							original_tag = MAH
-						}
-						var:new_country = {
-							set_country_flag = mah_federation_subject_flag
-						}
-					}
-					else_if = {
-						limit = {
-							original_tag = MEH
-						}
-						var:new_country = {
-							set_country_flag = meh_federation_subject_flag
-						}
-					}
-					else_if = {
-						limit = {
-							original_tag = MMS
-						}
-						var:new_country = {
-							set_country_flag = mms_federation_subject_flag
-						}
-					}
-					else = {
-						var:new_country = {
-							set_country_flag = trp_federation_subject_flag
-						}
-					}
-					set_autonomy = {
-						target = new_country
-						autonomy_state = wfc_autonomy_province
-					}
-					every_controlled_state = {
-						limit = {
-							is_core_of = country_to_initiate
-							NOT = {
-								is_core_of = ROOT
-							}
-						}
-						#remove_claim_by = ROOT
-						var:new_country = {
-							transfer_state = PREV
-						}
-					}
-					# puppet = new_country
-					# set_autonomy = {
-					# 	target = new_country
-					# 	autonomy_state = wfc_autonomy_province
-					# 	freedom_level = 0.5
-					# }
+			}
+		}
+		var:country_to_initiate = {
+			wfc_set_province_flag = yes
+		}
+		set_autonomy = {
+			target = country_to_initiate
+			autonomy_state = wfc_autonomy_province
+		}
+		every_controlled_state = {
+			limit = {
+				is_core_of = country_to_initiate
+				NOT = {
+					is_core_of = ROOT
 				}
-				set_country_flag = wfc_change_focus_tree_flag
-				load_focus_tree = {
-					tree = wfc_puppet_focus
-					#tree = generic_focus
-					keep_completed = no
-				}
-				#add_ideas = wfc_economic_assistance
-				every_owned_state = {
-					remove_claim_by = ROOT
-				}
-				if = {
-					limit = {
-						var:country_to_initiate = {
-							NOT = {
-								original_tag = ACW
-								original_tag = HEN
-								original_tag = MAH
-								original_tag = TRP
-								original_tag = MMS
-								original_tag = MEH
-							}
-						}
-					}
-					wfc_change_country_leader = yes
-				}
+			}
+			var:country_to_initiate = {
+				transfer_state = PREV
+			}
+		}
+		var:country_to_initiate = {
+			set_country_flag = wfc_change_focus_tree_flag
+			load_focus_tree = {
+				tree = wfc_puppet_focus
+				keep_completed = no
+			}
+			every_owned_state = {
+				remove_claim_by = ROOT
 			}
 		}
 	}
@@ -259,91 +140,119 @@ wfc_change_country_leader = {
 	}
 }
 
-wfc_instantiate_province2 = {
-	custom_effect_tooltip = wfc_instantiate_province_tt
-	hidden_effect = {
-		if = {
-			limit = {
-				var:country_to_initiate = {
-					exists = yes
-				}
-			}
-			create_dynamic_country = {
-				original_tag = country_to_initiate
-				set_temp_variable = {
-					country_to_initiate = this
-				}
-			}
+wfc_coring_state = {
+	for_each_loop = {
+		array = core_countries
+		value = temp_tag
+		remove_core_of = temp_var:temp_tag
+	}
+	add_core_of = ROOT
+}
+
+wfc_subsidies_change = {
+	set_variable = {
+		wfc_subsidies_to_building = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_building = wfc_subsidies_to_building_count
+	}
+	set_variable = {
+		wfc_subsidies_to_factory = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_factory = wfc_subsidies_to_factory_count
+	}
+	set_variable = {
+		wfc_subsidies_to_dockyard = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_dockyard = wfc_subsidies_to_dockyard_count
+	}
+	set_variable = {
+		wfc_subsidies_to_research = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_research = wfc_subsidies_to_research_count
+	}
+	set_variable = {
+		wfc_subsidies_to_nuclear = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_nuclear = wfc_subsidies_to_nuclear_count
+	}
+	set_variable = {
+		wfc_subsidies_to_resources = 0.02
+	}
+	multiply_variable = {
+		wfc_subsidies_to_resources = wfc_subsidies_to_resources_count
+	}
+	set_variable = {
+		wfc_political_power_to_subsidies = -0.02
+	}
+	multiply_variable = {
+		wfc_political_power_to_subsidies = wfc_subsidies_count
+	}
+}
+
+wfc_urbanize_state = {
+	if = {
+		limit = {
+			has_state_category = wasteland
 		}
-		if = {
-			limit = {
-				original_tag = ACW
-			}
-			var:country_to_initiate = {
-				set_country_flag = acw_federation_subject_flag
-			}
+		set_state_category = pastoral
+	}
+	else_if = {
+		limit = {
+			has_state_category = enclave
 		}
-		else_if = {
-			limit = {
-				original_tag = HEN
-			}
-			var:country_to_initiate = {
-				set_country_flag = hen_federation_subject_flag
-			}
+		set_state_category = pastoral
+	}
+	else_if = {
+		limit = {
+			has_state_category = tiny_island
 		}
-		else_if = {
-			limit = {
-				original_tag = MAH
-			}
-			var:country_to_initiate = {
-				set_country_flag = mah_federation_subject_flag
-			}
+		set_state_category = small_island
+	}
+	else_if = {
+		limit = {
+			has_state_category = pastoral
 		}
-		else_if = {
-			limit = {
-				original_tag = MEH
-			}
-			var:country_to_initiate = {
-				set_country_flag = meh_federation_subject_flag
-			}
+		set_state_category = rural
+	}
+	else_if = {
+		limit = {
+			has_state_category = rural
 		}
-		else_if = {
-			limit = {
-				original_tag = MMS
-			}
-			var:country_to_initiate = {
-				set_country_flag = mms_federation_subject_flag
-			}
+		set_state_category = town
+	}
+	else_if = {
+		limit = {
+			has_state_category = town
 		}
-		else = {
-			var:country_to_initiate = {
-				set_country_flag = trp_federation_subject_flag
-			}
+		set_state_category = large_town
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_town
 		}
-		set_autonomy = {
-			target = country_to_initiate
-			autonomy_state = wfc_autonomy_province
+		set_state_category = city
+	}
+	else_if = {
+		limit = {
+			has_state_category = city
 		}
-		every_controlled_state = {
-			limit = {
-				is_core_of = country_to_initiate
-				NOT = {
-					is_core_of = ROOT
-				}
-			}
-			var:country_to_initiate = {
-				transfer_state = PREV
-			}
+		set_state_category = large_city
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_city
 		}
-		var:country_to_initiate = {
-			set_country_flag = wfc_change_focus_tree_flag
-			load_focus_tree = {
-				tree = wfc_puppet_focus
-				keep_completed = no
-			}
-			every_owned_state = {
-				remove_claim_by = ROOT
-			}
+		set_state_category = metropolis
+	}
+	else_if = {
+		limit = {
+			has_state_category = metropolis
 		}
+		set_state_category = megalopolis
 	}
 }

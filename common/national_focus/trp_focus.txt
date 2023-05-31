@@ -86,7 +86,7 @@
 				}
 			}
 			280 = {
-				urbanize_state = yes
+				wfc_urbanize_state = yes
 			}
 		}
 	}
@@ -392,7 +392,7 @@
 				}
 			}
 			280 = {
-				urbanize_state = yes
+				wfc_urbanize_state = yes
 			}
 		}
 	}

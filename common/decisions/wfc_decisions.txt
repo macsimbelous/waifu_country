@@ -667,7 +667,7 @@ economy_decisions = {
 		}
 		remove_effect = {
 			FROM = {
-				urbanize_state = yes
+				wfc_urbanize_state = yes
 			}
 		}
 	}
@@ -710,6 +710,21 @@ wfc_subjects_category = {
 				country_to_initiate = FROM
 			}
 			wfc_instantiate_province = yes
+			var:country_to_initiate = {
+				if = {
+					limit = {
+						NOT = {
+							original_tag = ACW
+							original_tag = HEN
+							original_tag = MAH
+							original_tag = TRP
+							original_tag = MMS
+							original_tag = MEH
+						}
+					}
+					wfc_change_country_leader = yes
+				}
+			}
 		}
 	}
 	wfc_change_country_leader = {
@@ -790,53 +805,8 @@ wfc_subjects_category = {
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
-			hidden_effect = {
-				if = {
-					limit = {
-						original_tag = ACW
-					}
-					FROM = {
-						acw_change_country_leader = yes
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = HEN
-					}
-					FROM = {
-						hen_change_country_leader = yes
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MEH
-					}
-					FROM = {
-						meh_change_country_leader = yes
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MAH
-					}
-					FROM = {
-						mah_change_country_leader = yes
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MMS
-					}
-					FROM = {
-						mms_change_country_leader = yes
-					}
-				}
-				else = {
-					FROM = {
-						trp_change_country_leader = yes
-					}
-				}
+			FROM = {
+				wfc_change_country_leader = yes
 			}
 		}
 		ai_will_do = {
@@ -904,50 +874,8 @@ wfc_subjects_category = {
 			}
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					original_tag = ACW
-				}
-				FROM = {
-					set_country_flag = acw_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = HEN
-				}
-				FROM = {
-					set_country_flag = hen_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MAH
-				}
-				FROM = {
-					set_country_flag = mah_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MEH
-				}
-				FROM = {
-					set_country_flag = meh_federation_subject_flag
-				}
-			}
-			else_if = {
-				limit = {
-					original_tag = MMS
-				}
-				FROM = {
-					set_country_flag = mms_federation_subject_flag
-				}
-			}
-			else = {
-				FROM = {
-					set_country_flag = trp_federation_subject_flag
-				}
+			FROM = {
+				wfc_set_province_flag = yes
 			}
 			set_autonomy = {
 				target = FROM
@@ -957,14 +885,12 @@ wfc_subjects_category = {
 				if = {
 					limit = {
 						NOT = {
-							OR = {
-								original_tag = ACW
-								original_tag = HEN
-								original_tag = MAH
-								original_tag = TRP
-								original_tag = MMS
-								original_tag = MEH
-							}
+							original_tag = ACW
+							original_tag = HEN
+							original_tag = MAH
+							original_tag = TRP
+							original_tag = MMS
+							original_tag = MEH
 						}
 					}
 					if = {
@@ -981,18 +907,8 @@ wfc_subjects_category = {
 						}
 					}
 				}
-				# if = {
-				# 	limit = {
-				# 		NOT = {
-				# 			has_idea = wfc_economic_assistance
-				# 		}
-				# 	}
-				# 	add_ideas = wfc_economic_assistance
-				# }
-			}
-			if = {
-				limit = {
-					FROM = {
+				if = {
+					limit = {
 						NOT = {
 							original_tag = ACW
 							original_tag = HEN
@@ -1002,172 +918,24 @@ wfc_subjects_category = {
 							original_tag = MEH
 						}
 					}
-				}
-				custom_effect_tooltip = wfc_governor_general_will_be_appointed_tt
-				if = {
-					limit = {
-						original_tag = TRP
-					}
 					if = {
 						limit = {
-							FROM = {
-								NOT = {
-									has_country_leader_with_trait = wfc_trap
-								}
+							NOT = {
+								has_country_leader_with_trait = wfc_trap
+								has_country_leader_with_trait = wfc_android
+								has_country_leader_with_trait = wfc_maho
+								has_country_leader_with_trait = wfc_monster
+								has_country_leader_with_trait = wfc_hentai
+								has_country_leader_with_trait = wfc_anime_tyan
 							}
 						}
-						FROM = {
-							hidden_effect = {
-								trp_change_country_leader = yes
-							}
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MEH
-					}
-					if = {
-						limit = {
-							FROM = {
-								NOT = {
-									has_country_leader_with_trait = wfc_android
-								}
-							}
-						}
-						FROM = {
-							hidden_effect = {
-								meh_change_country_leader = yes
-							}
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MAH
-					}
-					if = {
-						limit = {
-							FROM = {
-								NOT = {
-									has_country_leader_with_trait = wfc_maho
-								}
-							}
-						}
-						FROM = {
-							hidden_effect = {
-								mah_change_country_leader = yes
-							}
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = MMS
-					}
-					if = {
-						limit = {
-							FROM = {
-								NOT = {
-									has_country_leader_with_trait = wfc_monster
-								}
-							}
-						}
-						FROM = {
-							hidden_effect = {
-								mms_change_country_leader = yes
-							}
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						original_tag = HEN
-					}
-					if = {
-						limit = {
-							FROM = {
-								NOT = {
-									has_country_leader_with_trait = wfc_hentai
-								}
-							}
-						}
-						FROM = {
-							hidden_effect = {
-								hen_change_country_leader = yes
-							}
-						}
-					}
-				}
-				else = {
-					if = {
-						limit = {
-							FROM = {
-								NOT = {
-									has_country_leader_with_trait = wfc_anime_tyan
-								}
-							}
-						}
-						FROM = {
-							hidden_effect = {
-								acw_change_country_leader = yes
-							}
-						}
+						wfc_change_country_leader = yes
 					}
 				}
 			}
 		}
 		ai_will_do = {
 			factor = 200
-		}
-	}
-	wfc_delete_units_in_federal_subject = {
-		cost = 50
-		allowed = {
-			always = no
-		}
-		visible = {
-			FROM = {
-				has_autonomy_state = wfc_autonomy_province
-				num_divisions > 0
-			}
-		}
-		available = {
-			FROM = {
-				has_autonomy_state = wfc_autonomy_province
-				num_divisions > 0
-			}
-		}
-		target_array = subjects
-		target_trigger = {
-			FROM = {
-				has_autonomy_state = wfc_autonomy_province
-			}
-		}
-		complete_effect = {
-			custom_effect_tooltip = wfc_delete_units_in_federal_subject_tt
-			hidden_effect = {
-				# FROM = {
-				# 	for_each_loop = {
-				# 		array = controlled_states
-				# 		delete_unit = {
-				# 			state = v
-				# 			disband = yes
-				# 		}
-				# 	}
-				# }
-				every_state = {
-					FROM = {
-						delete_unit = {
-							state = PREV
-							disband = yes
-						}
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	wfc_transfer_navy_from_federal_subject = {
@@ -1461,50 +1229,6 @@ wfc_subjects_category = {
 				}
 				add_manpower = wfc_count_recruits
 			}
-		}
-	}
-	wfc_take_non_national_territories_from_federal_subject = {
-		cost = 100
-		allowed = {
-			always = no
-		}
-		visible = {
-			FROM = {
-				has_autonomy_state = wfc_autonomy_province
-				any_owned_state = {
-					NOT = {
-						is_core_of = FROM
-					}
-				}
-			}
-		}
-		target_array = subjects
-		target_trigger = {
-			FROM = {
-				has_autonomy_state = wfc_autonomy_province
-				any_owned_state = {
-					NOT = {
-						is_core_of = FROM
-					}
-				}
-			}
-		}
-		complete_effect = {
-			FROM = {
-				every_owned_state = {
-					limit = {
-						NOT = {
-							is_core_of = FROM
-						}
-					}
-					ROOT = {
-						set_state_controller = PREV
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 5
 		}
 	}
 	wfc_take_control_of_the_occupied_territories_from_federal_subject = {
@@ -3637,33 +3361,6 @@ wfc_puppets_category = {
 				#is_subject = no
 			}
 		}
-		# visible = {
-		# 	FROM = {
-		# 		#is_major = no
-		# 		#is_subject = no
-		# 		any_owned_state = {
-		# 			#is_core_of = FROM
-		# 			any_neighbor_state = {
-		# 				CONTROLLER = {
-		# 					OR = {
-		# 						is_puppet_of = ROOT
-		# 						is_subject_of = ROOT
-		# 						original_tag = ROOT
-		# 					}
-		# 				}
-		# 			}
-		# 		}
-		# 		NOT = {
-		# 			OR = {
-		# 				is_in_faction_with = ROOT
-		# 				is_puppet_of = ROOT
-		# 				is_subject_of = ROOT
-		# 				#is_major = yes
-		# 			}
-		# 		}
-		# 	}
-		# }
-		#target_array = neighbors
 		target_trigger = {
 			FROM = {
 				exists = yes
@@ -3843,7 +3540,21 @@ wfc_puppets_category = {
 						factor = 1.5
 					}
 					puppet = FROM
-					wfc_change_country_leader = yes
+					FROM = {
+						if = {
+							limit = {
+								NOT = {
+									original_tag = ACW
+									original_tag = HEN
+									original_tag = MAH
+									original_tag = TRP
+									original_tag = MMS
+									original_tag = MEH
+								}
+							}
+							wfc_change_country_leader = yes
+						}
+					}
 					add_named_threat = {
 						threat = 5
 						name = wfc_create_puppet_threat

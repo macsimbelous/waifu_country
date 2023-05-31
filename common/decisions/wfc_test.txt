@@ -268,9 +268,9 @@ wfc_test_category = {
 				target = ROM
 				autonomy_state = autonomy_collaboration_government
 			}
-			ROM = {
-				wfc_change_country_leader = yes
-			}
+			# ROM = {
+			# 	wfc_change_country_leader = yes
+			# }
 		}
 	}
 	wfc_rom_to_puppet = {
@@ -280,7 +280,7 @@ wfc_test_category = {
 			set_temp_variable = {
 				country_to_initiate = ROM
 			}
-			wfc_instantiate_province2 = yes
+			wfc_instantiate_province = yes
 			var:country_to_initiate = {
 				if = {
 					limit = {

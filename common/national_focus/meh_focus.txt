@@ -502,7 +502,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			379 = {
-				urbanize_state = yes
+				wfc_urbanize_state = yes
 			}
 		}
 		ai_will_do = {
