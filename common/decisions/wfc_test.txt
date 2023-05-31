@@ -254,6 +254,9 @@ wfc_test_category = {
 	wfc_rom_to_collaboration_government = {
 		fire_only_once = no
 		cost = 0
+		available = {
+
+		}
 		complete_effect = {
 			ROM = {
 				set_variable = {
@@ -482,13 +485,17 @@ wfc_test_category = {
 			tag = ACW
 		}
 		available = {
-			has_core_occupation_modifier = {
-				occupied_country_tag = ROM
-				modifier = wfc_compliance_70
-			}
+			
 		}
 		complete_effect = {
-			wfc_add_dockyard_in_random_state = yes
+			every_controlled_state = {
+				limit = {
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+				add_compliance = 71
+			}
 		}
 	}
 }
