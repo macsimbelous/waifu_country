@@ -475,11 +475,22 @@ wfc_test_category = {
 			}
 		}
 	}
-	wfc_test_add_ic_in_random = {
+	wfc_test_create_colab = {
 		fire_only_once = no
 		cost = 0
 		visible = {
 			tag = ACW
+		}
+		available = {
+			all_controlled_state = {
+				is_core_of = ROM
+				NOT = {
+					is_core_of = ROOT
+					is_owned_by = ROOT
+				}
+				compliance > 70
+				resistance < 5
+			}
 		}
 		complete_effect = {
 			wfc_add_dockyard_in_random_state = yes
