@@ -39,7 +39,6 @@ characters = {
 		field_marshal = {
 			traits = {
 				cavalry_leader
-				cavalry_expert
 			}
 			skill = 4
 			attack_skill = 4
@@ -178,7 +177,6 @@ characters = {
 			traits = {
 				wfc_exp_trait
 				trait_engineer
-				panzer_leader
 			}
 			skill = 4
 			attack_skill = 5
@@ -453,6 +451,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				armor_officer
 				panzer_leader
 			}
 			skill = 4
@@ -616,7 +615,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				panzer_leader
 			}
 			skill = 1
 			attack_skill = 2
@@ -674,8 +672,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				panzer_leader
-				armor_officer
 			}
 			skill = 2
 			attack_skill = 2
@@ -730,7 +726,6 @@ characters = {
 		corps_commander = {
 			traits = {
 				wfc_exp_trait
-				panzer_leader
 				trait_engineer
 			}
 			skill = 2
