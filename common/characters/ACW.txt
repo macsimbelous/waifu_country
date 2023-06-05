@@ -715,7 +715,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ako_tamaki
-				large = GFX_portrait_acw_ako_tamaki
+				large = GFX_portrait_acw_ako_tamaki_army
 			}
 		}
 		corps_commander = {
@@ -2047,7 +2047,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_akeno_misaki
-				large = GFX_portrait_acw_akeno_misaki
+				large = GFX_portrait_acw_akeno_misaki_navy
 			}
 		}
 		navy_leader = {
@@ -2559,6 +2559,18 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_acw_fiona_frost_operative
+			}
+		}
+	}
+	ACW_aika_sumeragi = {
+		name = ACW_aika_sumeragi
+		portraits = {
+			army = {
+				small = GFX_idea_acw_aika_sumeragi
+				large = GFX_portrait_acw_aika_sumeragi_operative
+			}
+			civilian = {
+				large = GFX_portrait_acw_aika_sumeragi_operative
 			}
 		}
 	}

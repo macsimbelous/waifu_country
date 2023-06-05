@@ -357,10 +357,10 @@ create_operative_leader = {
 		operative_well_groomed
 	}
 }
-
+recruit_character = ACW_aika_sumeragi
 create_operative_leader = {
 	name = "Aika Sumeragi"
-	GFX = GFX_portrait_acw_aika_sumeragi
+	GFX = GFX_portrait_acw_aika_sumeragi_operative
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {

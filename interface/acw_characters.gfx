@@ -61,8 +61,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/aika_sumeragi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_aika_sumeragi"
-		texturefile = "gfx/leaders/ACW/Aika_Sumeragi.dds"
+		name = "GFX_portrait_acw_aika_sumeragi_operative"
+		texturefile = "gfx/leaders/ACW/aika_sumeragi_operative.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_aoba_suzukaze"
@@ -142,8 +142,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/ako_tamaki_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_ako_tamaki"
-		texturefile = "gfx/leaders/ACW/Ako_Tamaki.dds"
+		name = "GFX_portrait_acw_ako_tamaki_army"
+		texturefile = "gfx/leaders/ACW/ako_tamaki_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_anastasia_general"
@@ -790,8 +790,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/akeno_misaki_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_akeno_misaki"
-		texturefile = "gfx/leaders/ACW/Akeno_Misaki.dds"
+		name = "GFX_portrait_acw_akeno_misaki_navy"
+		texturefile = "gfx/leaders/ACW/akeno_misaki_navy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_atago_azur_lane"
