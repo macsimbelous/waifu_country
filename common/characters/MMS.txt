@@ -1372,4 +1372,23 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	MMS_alice = {
+		name = MMS_alice
+		portraits = {
+			army = {
+				small = GFX_idea_mms_alice
+			}
+			civilian = {
+				large = GFX_portrait_mms_alice_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_alice
+			cost = 150
+			traits = {
+				wfc_trait_necromancer_advisor
+			}
+		}
+	}
 }

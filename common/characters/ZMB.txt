@@ -11,7 +11,7 @@ characters = {
 			slot = theorist
 			idea_token = ZMB_tae_yamada
 			ledger = army
-			cost = 0
+			cost = 150
 			allowed = {
 				original_tag = ZMB
 			}
@@ -19,7 +19,7 @@ characters = {
 				mass_assault_expert
 			}
 			modifier = {
-				cat_mass_assault_cost_factor = -0.8
+				cat_mass_assault_cost_factor = -0.3
 			}
 			ai_will_do = {
 				factor = 100

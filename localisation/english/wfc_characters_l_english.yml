@@ -318,7 +318,6 @@
   MMS_yamato_wg:0 "Yamato WG"
   MMS_purifier:0 "Purifier"
   MMS_tester:0 "Tester"
-
  #advisors
   MMS_shigure:0 "Shigure"
   MMS_touka_kuroitsu:0 "Touka Kuroitsu"
@@ -330,6 +329,8 @@
   MMS_kurari_rose:0 "Kurari Rose"
   MMS_kurari_rose_desc:0 "§GHelp with necromancy§!"
   MMS_shion:0 "Shion"
+  MMS_alice: "Alice"
+  MMS_alice_desc: "Significantly increases the chance of a zombie apocalypse"
  #agents
   MMS_rias_gremory:0 "Rias Gremory"
   MMS_koyanskaya:0 "Koyanskaya"

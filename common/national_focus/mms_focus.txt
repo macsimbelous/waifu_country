@@ -1297,14 +1297,43 @@ focus_tree = {
 							ZMB
 						}
 					}
+					set_nationality = {
+						target_country = ROOT
+						character = ZMB_tae_yamada
+					}
 				}
 				40 = {
+					modifier = {
+						has_idea = MMS_alice
+						factor = 150
+					}
 					custom_effect_tooltip = mms_rise_of_the_dead_tt
 					hidden_effect = {
+						MMS_alice = {
+							remove_advisor_role = {
+								slot = political_advisor
+							}
+						}
+						set_nationality = {
+							target_country = ZMB
+							character = MMS_alice
+						}
 						ZMB = {
 							#set_state_controller = 267
 							transfer_state = 267
 							load_oob = ZMB_1936
+							add_country_leader_role = {
+								character = MMS_alice
+								promote_leader = yes
+								country_leader = {
+									ideology = fascism_ideology
+									expire = "1999.1.1.1"
+									traits = {
+										wfc_monster
+										wfc_trait_necromancer
+									}
+								}
+							}
 							267 = {
 								add_core_of = ZMB
 								set_temp_variable = {
@@ -1386,16 +1415,16 @@ focus_tree = {
 								target = MMS
 								type = annex_everything
 							}
-							add_ideas = ZMB_tae_yamada
-							country_lock_all_division_template = yes
-							set_division_force_allow_recruiting = {
-								division_template = "Zombi Division"
-								force_allow_recruiting = yes
-							}
-							set_division_force_allow_recruiting = {
-								division_template = "Zombi Cavalry"
-								force_allow_recruiting = yes
-							}
+							#add_ideas = ZMB_tae_yamada
+							# country_lock_all_division_template = yes
+							# set_division_force_allow_recruiting = {
+							# 	division_template = "Zombi Division"
+							# 	force_allow_recruiting = yes
+							# }
+							# set_division_force_allow_recruiting = {
+							# 	division_template = "Zombi Cavalry"
+							# 	force_allow_recruiting = yes
+							# }
 						}
 						country_event = mms_event.2
 						news_event = wfc_news.10

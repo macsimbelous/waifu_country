@@ -1,13 +1,12 @@
 ﻿l_russian:
 #traits
- #basic country leader traits
+ #country leader traits
   wfc_android:0 "Андроид"
   wfc_anime_tyan:0 "Тян"
   wfc_trap:0 "Трап"
   wfc_hentai:0 "Извращенка"
   wfc_monster:0 "Монстр"
   wfc_maho:0 "Волшебница"
- #other country leader traits
   wfc_idol:0 "Идол"
   wfc_patron_of_intelligence:0 "Покровитель разведки"
   wfc_tsundere:0 "Цундере"
@@ -28,6 +27,7 @@
   wfc_power_shamiko_atk:0 "§RМогучая§!"
   wfc_power_shamiko_def:0 "§RМогучая§!"
   wfc_power_shamiko_spd:0 "§RМогучая§!"
+  wfc_trait_necromancer: "§RНекромант§!"
 
 #politics
  wfc_intelligence_princess:0 "Принцесса-шпионка"
@@ -55,6 +55,7 @@
  wfc_pharmacist:0 "Фармацевт"
  wfc_trait_secretary:0 "Секретарь"
  wfc_trait_minister_of_perversion: "§RМинистр развращения§!"
+ wfc_trait_necromancer_advisor: "§RНекромант§!"
 
 
 #unut leader traits
