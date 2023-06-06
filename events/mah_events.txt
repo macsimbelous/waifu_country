@@ -710,6 +710,12 @@ country_event = {
 			puppet = EGY
 			EGY = {
 				mah_change_country_leader = yes
+				set_country_flag = wfc_change_focus_tree_flag
+				load_focus_tree = {
+					tree = wfc_puppet_focus
+					#tree = generic_focus
+					keep_completed = no
+				}
 			}
 			every_state = {
 				limit = {

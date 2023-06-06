@@ -2574,4 +2574,16 @@ characters = {
 			}
 		}
 	}
+	ACW_aoba_suzukaze = {
+		name = ACW_aoba_suzukaze
+		portraits = {
+			army = {
+				small = GFX_idea_acw_aoba_suzukaze
+				large = GFX_portrait_acw_aoba_suzukaze_operative
+			}
+			civilian = {
+				large = GFX_portrait_acw_aoba_suzukaze_operative
+			}
+		}
+	}
 }

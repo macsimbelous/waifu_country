@@ -429,6 +429,9 @@ focus_tree = {
 			294 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			has_army_manpower = {
+				size > 499999
+			}
 		}
 		bypass = {
 			656 = {
@@ -897,7 +900,7 @@ focus_tree = {
 		}
 		available = {
 			has_army_manpower = {
-				size > 499999
+				size > 799999
 			}
 		}
 		completion_reward = {
@@ -937,7 +940,7 @@ focus_tree = {
 				is_in_faction_with = MMS
 			}
 			has_army_manpower = {
-				size > 499999
+				size > 799999
 			}
 		}
 		completion_reward = {

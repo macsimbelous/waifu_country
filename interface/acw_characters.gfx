@@ -69,8 +69,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/aoba_suzukaze_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_aoba_suzukaze"
-		texturefile = "gfx/leaders/ACW/Aoba_Suzukaze.dds"
+		name = "GFX_portrait_acw_aoba_suzukaze_operative"
+		texturefile = "gfx/leaders/ACW/aoba_suzukaze_operative.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_ayame_himuro"

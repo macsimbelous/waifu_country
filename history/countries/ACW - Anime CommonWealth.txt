@@ -370,10 +370,10 @@ create_operative_leader = {
 		operative_commando
 	}
 }
-
+recruit_character = ACW_aoba_suzukaze
 create_operative_leader = {
 	name = "Aoba Suzukaze"
-	GFX = GFX_portrait_acw_aoba_suzukaze
+	GFX = GFX_portrait_acw_aoba_suzukaze_operative
 	bypass_recruitment = no
 	available_to_spy_master = yes
 	nationalities = {
