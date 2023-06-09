@@ -552,6 +552,7 @@ characters = {
 			traits = {
 				skilled_staffer
 				cavalry_leader
+				combined_arms_expert
 			}
 			skill = 4
 			attack_skill = 5
@@ -568,7 +569,8 @@ characters = {
 				original_tag = ACW
 			}
 			traits = {
-				army_cavalry_1
+				#army_cavalry_1
+				army_CombinedArms_1
 			}
 			ai_will_do = {
 				factor = 1

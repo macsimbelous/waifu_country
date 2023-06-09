@@ -74,6 +74,7 @@ wfc_subjects_category = {
 			original_tag = TRP
 			original_tag = MMS
 			original_tag = MEH
+			original_tag = ZMB
 		}
 	}
 }
@@ -172,6 +173,7 @@ wfc_budget_category = {
 			original_tag = TRP
 			original_tag = MEH
 			original_tag = MMS
+			original_tag = ZMB
 		}
 	}
 }
@@ -188,6 +190,7 @@ wfc_puppets_category = {
 			original_tag = TRP
 			original_tag = MEH
 			original_tag = MMS
+			original_tag = ZMB
 		}
 	}
 	# visible = {
@@ -208,6 +211,7 @@ wfc_construction_phase_category = {
 			original_tag = TRP
 			original_tag = MEH
 			original_tag = MMS
+			original_tag = ZMB
 		}
 	}
 	visible = {
@@ -256,6 +260,7 @@ wfc_test_category = {
 			original_tag = TRP
 			original_tag = MEH
 			original_tag = MMS
+			original_tag = ZMB
 		}
 		#always = no
 		is_debug = yes

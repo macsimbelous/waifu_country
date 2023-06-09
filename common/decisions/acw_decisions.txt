@@ -789,6 +789,7 @@ acw_faction_category = {
 				has_war_with = HEN
 			}
 			HEN = {
+				exists = yes
 				has_same_ideology = yes
 			}
 		}
@@ -833,6 +834,7 @@ acw_faction_category = {
 				has_war_with = MAH
 			}
 			MAH = {
+				exists = yes
 				has_same_ideology = yes
 			}
 		}
@@ -877,6 +879,7 @@ acw_faction_category = {
 				has_war_with = MEH
 			}
 			MEH = {
+				exists = yes
 				has_same_ideology = yes
 			}
 		}
@@ -921,6 +924,7 @@ acw_faction_category = {
 				has_war_with = MMS
 			}
 			MMS = {
+				exists = yes
 				has_same_ideology = yes
 			}
 		}
@@ -965,6 +969,7 @@ acw_faction_category = {
 				has_war_with = TRP
 			}
 			TRP = {
+				exists = yes
 				has_same_ideology = yes
 			}
 		}
