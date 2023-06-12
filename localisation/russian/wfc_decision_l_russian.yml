@@ -71,9 +71,6 @@ wfl_gacha_decision.t:0 "Испытать удачу"
  wfc_preparation_for_war_category:0 "Подготовка к воине"
  wfc_border_defense:0 "Укрепление границы"
 
-#test
- wfc_test_category:0 "Тестовая категория"
-
 #wfc_budget_category
  wfc_budget_category:0 "Бюджет"
  wfc_budget_category_desc:0 "Субсидии: §G[?wfc_subsidies_count]§! из §G[?mtth:wfc_subsidies_count]§!\nСтроительство: §G[?wfc_subsidies_to_building_count]§!\nПроизводство: §G[?wfc_subsidies_to_factory_count]§!\nСудостроение: §G[?wfc_subsidies_to_dockyard_count]§!\nИсследования: §G[?wfc_subsidies_to_research_count]§!\nАтомное оружие: §G[?wfc_subsidies_to_nuclear_count]§!\nКоличество субсидий определяется числом гражданских фабри: 50 или меньше - 10, больше 50 - 15, больше 75 - 20, больше 100 - 25."
@@ -351,3 +348,7 @@ meh_sputnik_not:0 "Нужно иметь хотя бы один §Yспутни�
   trp_decision_quickly_capture_urg: "Быстрый захват Уругвая"
   trp_decision_quickly_capture_arg: "Быстрый захват Аргентины"
   trp_decision_quickly_capture_chl: "Быстрый захват Чили"
+
+#test
+ wfc_test_category:0 "Тестовая категория"
+ #wfc_test_create_colab: "[ACW_fiona_frost.GetName]"
