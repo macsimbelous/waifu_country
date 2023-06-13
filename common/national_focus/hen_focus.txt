@@ -702,7 +702,16 @@ focus_tree = {
 		relative_position_id = hen_seduce_stalin
 		cost = 10
 		available = {
-			#has_country_flag = hen_world_conquest_enabled_flag
+			is_in_faction = yes
+			NOT = {
+				has_war_with = PRC
+			}
+			any_other_country = {
+				is_in_faction_with = HEN
+				NOT = {
+					has_war_with = PRC
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
