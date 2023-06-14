@@ -249,3 +249,852 @@ political_actions = {
 		}
 	}
 }
+
+hen_category_colonies = {
+	hen_decision_create_provinces_fer = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_siberia
+		}
+		available = {
+			controls_state = 563
+			controls_state = 561
+			controls_state = 657
+			controls_state = 560
+			controls_state = 409
+			controls_state = 408
+			controls_state = 562
+			controls_state = 874
+			controls_state = 822
+			controls_state = 637
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						FER = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = FER
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 563
+					transfer_state = 561
+					transfer_state = 657
+					transfer_state = 560
+					transfer_state = 409
+					transfer_state = 408
+					transfer_state = 562
+					transfer_state = 874
+					transfer_state = 822
+					transfer_state = 637
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_yak = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_siberia
+		}
+		available = {
+			controls_state = 876
+			controls_state = 877
+			controls_state = 574
+			controls_state = 644
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						YAK = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = YAK
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 876
+					transfer_state = 877
+					transfer_state = 574
+					transfer_state = 644
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_sov = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_siberia
+		}
+		available = {
+			controls_state = 516
+			controls_state = 576
+			controls_state = 568
+			controls_state = 567
+			controls_state = 878
+			controls_state = 575
+			controls_state = 566
+			controls_state = 564
+			controls_state = 565
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						SOV = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = SOV
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 516
+					transfer_state = 576
+					transfer_state = 568
+					transfer_state = 567
+					transfer_state = 878
+					transfer_state = 575
+					transfer_state = 566
+					transfer_state = 564
+					transfer_state = 565
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_kor = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_china
+		}
+		available = {
+			controls_state = 527
+			controls_state = 525
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						KOR = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = KOR
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 525
+					transfer_state = 527
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_man = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_china
+		}
+		available = {
+			controls_state = 761
+			controls_state = 714
+			controls_state = 717
+			controls_state = 328
+			controls_state = 715
+			controls_state = 716
+			controls_state = 610
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						MAN = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = MAN
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 761
+					transfer_state = 714
+					transfer_state = 717
+					transfer_state = 328
+					transfer_state = 715
+					transfer_state = 716
+					transfer_state = 610
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_men = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_china
+		}
+		available = {
+			controls_state = 612
+			controls_state = 611
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						MEN = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = MEN
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 612
+					transfer_state = 611
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_chi = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_china
+		}
+		available = {
+			controls_state = 608
+			controls_state = 614
+			controls_state = 597
+			controls_state = 598
+			controls_state = 606
+			controls_state = 613
+			controls_state = 749
+			controls_state = 596
+			controls_state = 600
+			controls_state = 595
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						CHI = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = CHI
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 608
+					transfer_state = 614
+					transfer_state = 597
+					transfer_state = 598
+					transfer_state = 606
+					transfer_state = 613
+					transfer_state = 749
+					transfer_state = 596
+					transfer_state = 600
+					transfer_state = 595
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_gxc = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_china
+		}
+		available = {
+			controls_state = 599
+			controls_state = 594
+			controls_state = 591
+			controls_state = 592
+			controls_state = 593
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						GXC = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = GXC
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 591
+					transfer_state = 592
+					transfer_state = 593
+					transfer_state = 594
+					transfer_state = 599
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_phi = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_southeast_asia
+		}
+		available = {
+			controls_state = 623
+			controls_state = 327
+			controls_state = 624
+			controls_state = 626
+			controls_state = 628
+			controls_state = 625
+			controls_state = 627
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						PHI = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = PHI
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 623
+					transfer_state = 327
+					transfer_state = 624
+					transfer_state = 626
+					transfer_state = 628
+					transfer_state = 625
+					transfer_state = 627
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_png = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_southeast_asia
+		}
+		available = {
+			controls_state = 523
+			controls_state = 737
+			controls_state = 634
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						PNG = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = PNG
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 523
+					transfer_state = 737
+					transfer_state = 634
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_ins = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_southeast_asia
+		}
+		available = {
+			controls_state = 672
+			controls_state = 335
+			controls_state = 667
+			controls_state = 334
+			controls_state = 673
+			controls_state = 668
+			controls_state = 738
+			controls_state = 669
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						INS = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = INS
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 672
+					transfer_state = 335
+					transfer_state = 667
+					transfer_state = 334
+					transfer_state = 673
+					transfer_state = 668
+					transfer_state = 738
+					transfer_state = 669
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_mal = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_southeast_asia
+		}
+		available = {
+			controls_state = 336
+			controls_state = 333
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						MAL = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = MAL
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 333
+					transfer_state = 336
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_vin = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_southeast_asia
+		}
+		available = {
+			controls_state = 671
+			controls_state = 670
+			controls_state = 741
+			controls_state = 286
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						VIN = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = VIN
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 671
+					transfer_state = 670
+					transfer_state = 741
+					transfer_state = 286
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+					670 = {
+						add_core_of = PREV
+					}
+					741 = {
+						add_core_of = PREV
+					}
+				}
+			}
+		}
+	}
+	hen_decision_create_provinces_sia = {
+		icon = generic_form_nation
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = hen_focus_southeast_asia
+		}
+		available = {
+			controls_state = 869
+			controls_state = 868
+			controls_state = 289
+			controls_state = 724
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		complete_effect = {
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						SIA = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = SIA
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 869
+					transfer_state = 868
+					transfer_state = 289
+					transfer_state = 724
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					hen_change_country_leader = yes
+				}
+			}
+		}
+	}
+}

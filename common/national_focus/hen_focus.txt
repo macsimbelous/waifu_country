@@ -37,7 +37,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
 		}
-		available_if_capitulated = yes
 		available = {
 			JAP = {
 				has_government = fascism
@@ -316,9 +315,8 @@ focus_tree = {
 			focus = hen_friendship_with_japan
 		}
 		search_filters = {
-			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_WAR_SUPPORT
 		}
-		available_if_capitulated = yes
 		completion_reward = {
 			add_war_support = 0.1
 			add_political_power = 150
@@ -344,7 +342,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
 		}
-		available_if_capitulated = yes
 		available = {
 			communism > 0.3
 			SOV = {
@@ -1186,14 +1183,35 @@ focus_tree = {
 		relative_position_id = hen_declare_war_jap
 		cost = 10
 		available = {
-			282 = {
-				is_owned_and_controlled_by = ROOT
-			}
+			# 282 = {
+			# 	is_owned_and_controlled_by = ROOT
+			# }
+			controls_state = 528
+			controls_state = 529
+			controls_state = 530
+			controls_state = 531
+			controls_state = 532
+			controls_state = 535
+			controls_state = 282
+			controls_state = 534
+			controls_state = 533
+			controls_state = 536
+			#controls_state = 555
+			#controls_state = 645
+			#controls_state = 526
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
+			every_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				HEN = {
+					transfer_state = PREV
+				}
+			}
 			set_capital = {
 				state = 282
 			}
@@ -1203,7 +1221,268 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
+			factor = 100
+		}
+	}
+	focus = {
+		id = hen_focus_orb_of_corruption
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 17
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			num_of_factories > 50
+			is_in_faction = no
+		}
+		completion_reward = {
+			create_faction = hen_faction_orb_of_corruption
+		}
+		ai_will_do = {
 			factor = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
+		}
+	}
+	focus = {
+		id = hen_focus_expansion
+		icon = GFX_focus_jap_strike_south
+		x = 19
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		available = {
+			controls_state = 528
+			controls_state = 529
+			controls_state = 530
+			controls_state = 531
+			controls_state = 532
+			controls_state = 535
+			controls_state = 282
+			controls_state = 534
+			controls_state = 533
+			controls_state = 536
+			#controls_state = 555
+			#controls_state = 645
+			#controls_state = 526
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
+		}
+	}
+	focus = {
+		id = hen_focus_southeast_asia
+		icon = GFX_focus_generic_annex_country_2
+		prerequisite = {
+			focus = hen_focus_expansion
+		}
+		x = -2
+		y = 1
+		relative_position_id = hen_focus_expansion
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_state_claim = 671
+			add_state_claim = 670
+			add_state_claim = 741
+			add_state_claim = 286
+			add_state_claim = 869
+			add_state_claim = 868
+			add_state_claim = 289
+			add_state_claim = 724
+			add_state_claim = 336
+			add_state_claim = 747
+			add_state_claim = 325
+			add_state_claim = 372
+			add_state_claim = 335
+			add_state_claim = 334
+			add_state_claim = 333
+			add_state_claim = 673
+			add_state_claim = 667
+			add_state_claim = 721
+			add_state_claim = 668
+			add_state_claim = 738
+			add_state_claim = 669
+			add_state_claim = 523
+			add_state_claim = 737
+			add_state_claim = 634
+			add_state_claim = 623
+			add_state_claim = 327
+			add_state_claim = 624
+			add_state_claim = 626
+			add_state_claim = 625
+			add_state_claim = 628
+			add_state_claim = 627
+			create_wargoal = {
+				target = FRA
+				type = take_claimed_state
+			}
+			create_wargoal = {
+				target = PHI
+				type = take_claimed_state
+			}
+			create_wargoal = {
+				target = MAL
+				type = take_claimed_state
+			}
+			create_wargoal = {
+				target = INS
+				type = take_claimed_state
+			}
+			create_wargoal = {
+				target = SIA
+				type = take_claimed_state
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = hen_focus_china
+		icon = GFX_focus_attack_china
+		prerequisite = {
+			focus = hen_focus_expansion
+		}
+		x = 0
+		y = 1
+		relative_position_id = hen_focus_expansion
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = CHI
+			}
+		}
+		completion_reward = {
+			add_state_claim = 524
+			add_state_claim = 591
+			add_state_claim = 728
+			add_state_claim = 594
+			add_state_claim = 599
+			add_state_claim = 592
+			add_state_claim = 729
+			add_state_claim = 326
+			add_state_claim = 593
+			add_state_claim = 600
+			add_state_claim = 595
+			add_state_claim = 749
+			add_state_claim = 596
+			add_state_claim = 606
+			add_state_claim = 613
+			add_state_claim = 598
+			add_state_claim = 743
+			add_state_claim = 597
+			add_state_claim = 614
+			add_state_claim = 608
+			add_state_claim = 609
+			add_state_claim = 611
+			add_state_claim = 612
+			add_state_claim = 610
+			add_state_claim = 716
+			add_state_claim = 745
+			add_state_claim = 715
+			add_state_claim = 761
+			add_state_claim = 714
+			add_state_claim = 328
+			add_state_claim = 717
+			add_state_claim = 527
+			add_state_claim = 525
+			create_wargoal = {
+				target = CHI
+				type = take_claimed_state
+			}
+			create_wargoal = {
+				target = MEN
+				type = take_claimed_state
+			}
+			create_wargoal = {
+				target = MAN
+				type = take_claimed_state
+			}
+			create_wargoal = {
+				target = GXC
+				type = take_claimed_state
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = hen_focus_siberia
+		icon = GFX_focus_attack_soviet
+		prerequisite = {
+			focus = hen_focus_expansion
+		}
+		x = 2
+		y = 1
+		relative_position_id = hen_focus_expansion
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = SOV
+			}
+		}
+		completion_reward = {
+			add_state_claim = 516
+			add_state_claim = 576
+			add_state_claim = 588
+			add_state_claim = 878
+			add_state_claim = 567
+			add_state_claim = 575
+			add_state_claim = 566
+			add_state_claim = 564
+			add_state_claim = 876
+			add_state_claim = 565
+			add_state_claim = 563
+			add_state_claim = 877
+			add_state_claim = 574
+			add_state_claim = 561
+			add_state_claim = 644
+			add_state_claim = 822
+			add_state_claim = 637
+			add_state_claim = 847
+			add_state_claim = 562
+			add_state_claim = 560
+			add_state_claim = 657
+			add_state_claim = 409
+			add_state_claim = 408
+			add_state_claim = 655
+			create_wargoal = {
+				target = SOV
+				type = take_claimed_state
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				SOV = {
+					has_war_with = GER
+				}
+				factor = 100
+			}
 		}
 	}
 }

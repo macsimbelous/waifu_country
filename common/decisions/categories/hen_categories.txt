@@ -6,3 +6,9 @@ hen_tentakles_decisions = {
 		original_tag = HEN
 	}
 }
+hen_category_colonies = {
+	priority = 20
+	allowed = {
+		original_tag = HEN
+	}
+}
