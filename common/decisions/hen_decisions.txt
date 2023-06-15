@@ -274,7 +274,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_fer_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -287,6 +287,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = FER
 					}
 				}
 				var:country_to_initiate = {
@@ -337,7 +342,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_yak_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -350,6 +355,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = YAK
 					}
 				}
 				var:country_to_initiate = {
@@ -399,7 +409,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_sov_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -412,6 +422,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = SOV
 					}
 				}
 				var:country_to_initiate = {
@@ -459,7 +474,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_kor_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -472,6 +487,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = KOR
 					}
 				}
 				var:country_to_initiate = {
@@ -517,7 +537,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_man_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -530,6 +550,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = MAN
 					}
 				}
 				var:country_to_initiate = {
@@ -575,7 +600,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_men_tt 
 			hidden_effect = {
 				if = {
 					limit = {
@@ -588,6 +613,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = MEN
 					}
 				}
 				var:country_to_initiate = {
@@ -636,7 +666,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_chi_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -649,6 +679,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = CHI
 					}
 				}
 				var:country_to_initiate = {
@@ -700,7 +735,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_gxc_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -713,6 +748,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = GXC
 					}
 				}
 				var:country_to_initiate = {
@@ -761,7 +801,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_phi_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -774,6 +814,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = PHI
 					}
 				}
 				var:country_to_initiate = {
@@ -820,7 +865,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_png_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -833,6 +878,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = PNG
 					}
 				}
 				var:country_to_initiate = {
@@ -880,7 +930,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_ins_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -893,6 +943,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = INS
 					}
 				}
 				var:country_to_initiate = {
@@ -939,7 +994,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_mal_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -952,6 +1007,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = MAL
 					}
 				}
 				var:country_to_initiate = {
@@ -994,7 +1054,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_vin_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -1007,6 +1067,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = VIN
 					}
 				}
 				var:country_to_initiate = {
@@ -1057,7 +1122,7 @@ hen_category_colonies = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = wfc_instantiate_province_tt
+			custom_effect_tooltip = hen_decision_create_provinces_sia_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -1070,6 +1135,11 @@ hen_category_colonies = {
 						set_temp_variable = {
 							country_to_initiate = this
 						}
+					}
+				}
+				else = {
+					set_temp_variable = {
+						country_to_initiate = SIA
 					}
 				}
 				var:country_to_initiate = {

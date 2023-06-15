@@ -201,11 +201,41 @@ acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will 
  acw_create_hun_provinces_decision:0 "Create province §Y[HUN.GetName]§!"
 
 #HEN
-#tentakles
- hen_tentakles_decisions:0 "Tentacles"
- hen_tentakles_decisions_desc:0 "By sending tentacles to other countries, we will be able to sow disaster and horror in them."
- hen_tentakles_attack_decision.t:0 "Send tentacles to §Y[From.Owner.GetName]§!"
- hen_tentakles_attack_decision.t_desc:0 "Tentacles attack §Y[From.Owner.GetName]§!"
+ #tentakles
+  hen_tentakles_decisions:0 "Tentacles"
+  hen_tentakles_decisions_desc:0 "By sending tentacles to other countries, we will be able to sow disaster and horror in them."
+  hen_tentakles_attack_decision.t:0 "Send tentacles to §Y[From.Owner.GetName]§!"
+  hen_tentakles_attack_decision.t_desc:0 "Tentacles attack §Y[From.Owner.GetName]§!"
+ #hen_category_colonies
+  hen_category_colonies: "Colonies"
+  hen_decision_create_provinces_fer: "Form the colony §Y[FER.GetName]§!"
+  hen_decision_create_provinces_fer_tt: "The colony of §Y[FER.GetName]§! will be formed"
+  hen_decision_create_provinces_yak: "Form the colony §Y[YAK.GetName]§!"
+  hen_decision_create_provinces_yak_tt: "The colony of §Y[YAK.GetName]§! will be formed"
+  hen_decision_create_provinces_sov: "Form the colony §Y[SOV.GetName]§!"
+  hen_decision_create_provinces_sov_tt: "The colony of §Y[SOV.GetName]§! will be formed"
+  hen_decision_create_provinces_kor: "Form the colony §Y[KOR.GetName]§!"
+  hen_decision_create_provinces_kor_tt: "The colony of §Y[KOR.GetName]§! will be formed"
+  hen_decision_create_provinces_man: "Form the colony §Y[MAN.GetName]§!"
+  hen_decision_create_provinces_man_tt: "The colony of §Y[MAN.GetName]§ will be formed"
+  hen_decision_create_provinces_men: "Form the colony §Y[MEN.GetName]§!"
+  hen_decision_create_provinces_men_tt: "The colony of §Y[MEN.GetName]§! will be formed"
+  hen_decision_create_provinces_chi: "Form the colony §Y[CHI.GetName]§!"
+  hen_decision_create_provinces_chi_tt: "The colony of §Y[CHI.GetName]§! will be formed"
+  hen_decision_create_provinces_gxc: "Form the colony §Y[GXC.GetName]§!"
+  hen_decision_create_provinces_gxc_tt: "The colony of §Y[GXC.GetName]§! will be formed"
+  hen_decision_create_provinces_phi: "Form the colony §Y[PHI.GetName]§!"
+  hen_decision_create_provinces_phi_tt: "The colony of §Y[PHI.GetName]§! will be formed"
+  hen_decision_create_provinces_png: "Form the colony §Y[PNG.GetName]§!"
+  hen_decision_create_provinces_png_tt: "The colony of §Y[PNG.GetName]§! will be formed"
+  hen_decision_create_provinces_ins: "Form the colony §Y[INS.GetName]§!"
+  hen_decision_create_provinces_ins_tt: "The colony of §Y[INS.GetName]§! will be formed"
+  hen_decision_create_provinces_mal: "Form the colony §Y[MAL.GetName]§!"
+  hen_decision_create_provinces_mal_tt: "The colony of §Y[MAL.GetName]§! will be formed"
+  hen_decision_create_provinces_vin: "Form the colony §Y[VIN.GetName]§!"
+  hen_decision_create_provinces_vin_tt: "The colony of §Y[VIN.GetName]§! will be formed"
+  hen_decision_create_provinces_sia: "Form the colony §Y[SIA.GetName]§!"
+  hen_decision_create_provinces_sia_tt: "The colony of §Y[SIA.GetName]§! will be formed"
 
 #MAH
  #mah_crystal_empire_category
