@@ -255,7 +255,6 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		available = {
-
 		}
 		complete_effect = {
 			ROM = {
@@ -485,7 +484,6 @@ wfc_test_category = {
 			tag = ACW
 		}
 		available = {
-			
 		}
 		complete_effect = {
 			every_controlled_state = {
@@ -498,17 +496,21 @@ wfc_test_category = {
 			}
 		}
 	}
-	wfc_test_create_faction = {
+	wfc_test_create_balance_of_power = {
 		fire_only_once = no
 		cost = 0
 		visible = {
-			tag = HEN
+			tag = MMS
 		}
 		available = {
-			
 		}
 		complete_effect = {
-			create_faction = wfc_test_faction
+			set_power_balance = {
+				id = MMS_balance_of_power
+				left_side = default_left_side
+				right_side = default_right_side
+				set_value = 0.1
+			}
 		}
 	}
 }

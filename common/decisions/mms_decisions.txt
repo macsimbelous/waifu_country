@@ -1035,3 +1035,599 @@ mms_category_reparations = {
 		}
 	}
 }
+
+mms_balance_of_power_category = {
+	mms_bop_take_over_ministry_of_foreign_affairs = {
+		priority = 100
+		icon = GFX_decision_eng_trade_unions_demand
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		cost = 50
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = -0.25
+			}
+		}
+		ai_will_do = {
+			base = 0.1
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.1
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < -0.2
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no
+			}
+		}
+	}
+	mms_bop_slander_the_duce = {
+		priority = 120
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = -0.25
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0.1
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > -0.1
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	mms_bop_criticize_the_war = {
+		priority = 119
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		ai_hint_pp_cost = 25
+		custom_cost_trigger = {
+			command_power > 24
+			has_political_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25_pp_25
+		fire_only_once = yes
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = -0.25
+			}
+			hidden_effect = {
+				add_command_power = -25
+				add_political_power = -25
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0.1
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > -0.1
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	mms_bop_question_the_army = {
+		priority = 118
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		ai_hint_pp_cost = 15
+		custom_cost_trigger = {
+			has_political_power > 14
+			has_army_experience > 9
+		}
+		custom_cost_text = decision_cost_pp_15_ArmXP_10
+		days_re_enable = 365
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = -0.25
+			}
+			hidden_effect = {
+				add_political_power = -15
+				army_experience = -10
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0.1
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > -0.1
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	mms_bop_question_the_airforce = {
+		priority = 117
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		ai_hint_pp_cost = 15
+		custom_cost_trigger = {
+			has_political_power > 14
+			has_air_experience > 9
+		}
+		custom_cost_text = decision_cost_pp_15_AirXP_10
+		days_re_enable = 365
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = -0.25
+			}
+			hidden_effect = {
+				add_political_power = -15
+				air_experience = -10
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0.1
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > -0.1
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	mms_bop_question_the_navy = {
+		priority = 116
+		icon = GFX_decision_generic_political_discourse
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		ai_hint_pp_cost = 15
+		custom_cost_trigger = {
+			has_political_power > 14
+			has_navy_experience > 9
+		}
+		custom_cost_text = decision_cost_pp_15_NavXP_10
+		days_re_enable = 365
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = -0.25
+			}
+			hidden_effect = {
+				add_political_power = -15
+				navy_experience = -10
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0.1
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > 0
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value > -0.1
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	mms_bop_military_parade = {
+		priority = 1115
+		icon = GFX_decision_generic_military
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+
+		}
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = 0.25
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.3
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.15
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < -0.11
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_leader = {
+						character = MMS_yuuko_yoshida
+						ruling_only = yes
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	mms_bop_praise_the_army = {
+		priority = 113
+		icon = GFX_decision_generic_tank
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = 0.25
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.3
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.15
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < -0.11
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_leader = {
+						character = MMS_yuuko_yoshida
+						ruling_only = yes
+					}
+				}
+			}
+		}
+	}
+	mms_bop_praise_the_airforce = {
+		priority = 112
+		icon = GFX_decision_generic_air
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = 0.25
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.3
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.15
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < -0.11
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+						has_country_leader = {
+						character = MMS_yuuko_yoshida
+						ruling_only = yes
+					}
+				}
+			}
+		}
+	}
+	mms_bop_praise_the_navy = {
+		priority = 111
+		icon = GFX_decision_generic_naval
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+		}
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = 0.25
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.3
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.15
+				}
+			}
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < -0.11
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					has_country_leader = {
+						character = MMS_yuuko_yoshida
+						ruling_only = yes
+					}
+				}
+			}
+		}
+	}
+	mms_bop_privileges_for_the_elites = {
+		priority = 109
+		icon = GFX_decision_eng_ally_imperialist_coup
+		visible = {
+			has_country_leader = {
+				character = MMS_yuuko_yoshida
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = defeatist
+		}
+		available = {
+			has_government = neutrality
+		}
+		cost = 70
+		fire_only_once = yes
+		complete_effect = {
+			add_power_balance_value = {
+				id = MMS_balance_of_power
+				value = -0.25
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.3
+				}
+			}
+			modifier = {
+				factor = 10
+				power_balance_value = {
+					id = MMS_balance_of_power
+					value < 0.15
+				}
+			}
+		}
+	}
+}
