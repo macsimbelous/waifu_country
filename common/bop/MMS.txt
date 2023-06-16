@@ -61,7 +61,7 @@ mms_balance_of_power = {
             min = 0.75
             max = 1
             modifier = {
-                war_support_weekly = 0.15
+                war_support_weekly = -0.15
                 stability_factor = -0.15
             }
         }
