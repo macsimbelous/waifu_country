@@ -1287,6 +1287,9 @@ characters = {
 			traits = {
 				staunch_monarchist
 			}
+			modifier = {
+				power_balance_weekly = -0.01
+			}
 		}
 	}
 	MMS_rias_gremory = {
