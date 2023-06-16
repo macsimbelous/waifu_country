@@ -120,7 +120,7 @@ ideas = {
 				# air_doctrine_cost_factor = -0.1
 				# naval_doctrine_cost_factor = -0.1
 				max_command_power_mult = 0.5
-				command_power_gain_mult = 0.05
+				command_power_gain_mult = 0.15
 			}
 		}
 		hen_idea_preparation_for_war = {
