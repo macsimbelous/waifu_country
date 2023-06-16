@@ -1,0 +1,27 @@
+﻿l_english:
+#MMS
+ mms_balance_of_power: "Fight for the throne"
+ mms_default_left_side: "$MMS_yuuko_yoshida$"
+ mms_left_side_full: "Full support for §Y$MMS_yuuko_yoshida$§!"
+ mms_left_side_very: "High support for §Y$MMS_yuuko_yoshida$§!"
+ mms_left_side_medium: "Medium support for §Y$MMS_yuuko_yoshida$§!"
+ mms_left_side_small: "Weak support for §Y$MMS_yuuko_yoshida$§!"
+ mms_default_right_side: "$MMS_02$"
+ mms_right_side_full: "Full support for §Y$MMS_02$§!"
+ mms_right_side_very: "High support for §Y$MMS_02$§!"
+ mms_right_side_medium: "Medium support for §Y$MMS_02$§!"
+ mms_right_side_small: "Weak support for §Y$MMS_02$§!"
+ mms_bop_decision_imprison_02: "To arrest §Y$MMS_02$§!"
+ mms_bop_decision_kill_yuuko_yoshida: "Kill §Y$MMS_yuuko_yoshida$§!"
+ mms_bop_decision_slander_yuuko_yoshida: "Glorious §Y$MMS_yuuko_yoshida$§!"
+ mms_bop_decision_expose_02_immoral_behavior: "Expose §Y$MMS_02$'s§! immoral behavior"
+ mms_bop_decision_question_the_army: "Criticize the army"
+ mms_bop_decision_military_parade: "Hold a military parade"
+ mms_bop_decision_praise_the_army: "Praise the army"
+ mms_bop_decision_privileges_for_the_elites: "Promise privileges for the elite"
+ mms_bop_decision_expose_government_corruption: "Expose the corruption in §Y$MMS_yuuko_yoshida$'s§! government"
+
+
+
+#modifiers
+ mms_bop_modifier_02_grift_weekly: "Чистокровный соперник"

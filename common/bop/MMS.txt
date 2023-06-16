@@ -1,26 +1,24 @@
-MMS_balance_of_power = {
-    initial_value = 0.25
-    left_side = default_left_side
-    right_side = default_right_side
+mms_balance_of_power = {
+    initial_value = -0.25
+    left_side = mms_default_left_side
+    right_side = mms_default_right_side
     decision_category = mms_balance_of_power_category
     range = {
         id = mid_range
         min = -0.1
         max = 0.1
         modifier = {
-            war_support_weekly = 0.5
         }
     }
-
     side = {
-        id = default_left_side
-        icon = GFX_idea_generic_agrarian_society
+        id = mms_default_left_side
+        icon = GFX_idea_mms_yuuko_yoshida
         range = {
             id = mms_left_side_full
             min = -1
             max = -0.75
             modifier = {
- 				stability_weekly = 0.15
+                stability_factor = 0.15
             }
         }
 		range = {
@@ -28,7 +26,7 @@ MMS_balance_of_power = {
             min = -0.75
             max = -0.5
             modifier = {
-                stability_weekly = 0.1
+                stability_factor = 0.1
             }
         }
 		range = {
@@ -36,7 +34,7 @@ MMS_balance_of_power = {
             min = -0.5
             max = -0.25
             modifier = {
-                stability_weekly = 0.05
+                stability_factor = 0.05
             }
         }
 		range = {
@@ -44,20 +42,21 @@ MMS_balance_of_power = {
             min = -0.25
             max = -0.1
             modifier = {
-                stability_weekly = 0.01
+                stability_factor = 0.01
             }
         }
     }
 
     side = {
-        id = default_right_side
-        icon = GFX_idea_generic_degauss_ship_hulls
+        id = mms_default_right_side
+        icon = GFX_idea_mms_zero_two
         range = {
             id = mms_right_side_full
             min = 0.75
             max = 1
             modifier = {
                 war_support_weekly = 0.15
+                stability_factor = -0.15
             }
         }
 		range = {
@@ -66,6 +65,7 @@ MMS_balance_of_power = {
             max = 0.75
             modifier = {
                 war_support_weekly = 0.1
+                stability_factor = -0.1
             }
         }
 		range = {
@@ -74,6 +74,7 @@ MMS_balance_of_power = {
             max = 0.5
             modifier = {
                 war_support_weekly = 0.05
+                stability_factor = -0.05
             }
         }
 		range = {
@@ -82,6 +83,7 @@ MMS_balance_of_power = {
             max = 0.25
             modifier = {
                 war_support_weekly = 0.01
+                stability_factor = -0.01
             }
         }
     }

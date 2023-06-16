@@ -506,10 +506,14 @@ wfc_test_category = {
 		}
 		complete_effect = {
 			set_power_balance = {
-				id = MMS_balance_of_power
-				left_side = default_left_side
-				right_side = default_right_side
-				set_value = 0.1
+				id = mms_balance_of_power
+				left_side = mms_default_left_side
+				right_side = mms_default_right_side
+				set_value = -0.25
+			}
+			add_power_balance_modifier = {
+				id = mms_balance_of_power
+				modifier = mms_bop_modifier_02_grift_weekly
 			}
 		}
 	}

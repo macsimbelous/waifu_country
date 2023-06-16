@@ -336,6 +336,17 @@ focus_tree = {
 				}
 				remove_country_leader_trait = wfc_half_breed
 				add_country_leader_trait = wfc_demon_lord
+				if = {
+					limit = {
+						has_power_balance = {
+							id = mms_balance_of_power
+						}
+					}
+					add_power_balance_value = {
+						id = mms_balance_of_power
+						value = -0.25
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -987,6 +998,17 @@ focus_tree = {
 				ideology = neutrality
 				popularity = 0.05
 			}
+			if = {
+				limit = {
+					has_power_balance = {
+						id = mms_balance_of_power
+					}
+				}
+				add_power_balance_value = {
+					id = mms_balance_of_power
+					value = -0.1
+				}
+			}
 		}
 	}
 	focus = {
@@ -1012,6 +1034,17 @@ focus_tree = {
 		completion_reward = {
 			remove_country_leader_trait = defeatist
 			add_country_leader_trait = wfc_Tyan_militarist
+			if = {
+				limit = {
+					has_power_balance = {
+						id = mms_balance_of_power
+					}
+				}
+				add_power_balance_value = {
+					id = mms_balance_of_power
+					value = -0.1
+				}
+			}
 		}
 	}
 	focus = {
@@ -1145,6 +1178,17 @@ focus_tree = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			add_political_power = 100
+			if = {
+				limit = {
+					has_power_balance = {
+						id = mms_balance_of_power
+					}
+				}
+				add_power_balance_value = {
+					id = mms_balance_of_power
+					value = -0.25
+				}
+			}
 		}
 	}
 	focus = {

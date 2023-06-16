@@ -437,3 +437,14 @@ build_railway = {
 build_railway = {
 	path = { 7982 4959 12832 }
 }
+
+set_power_balance = {
+	id = mms_balance_of_power
+	left_side = mms_default_left_side
+	right_side = mms_default_right_side
+	set_value = -0.25
+}
+add_power_balance_modifier = {
+	id = mms_balance_of_power
+	modifier = mms_bop_modifier_02_grift_weekly
+}

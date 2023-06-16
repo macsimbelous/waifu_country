@@ -1,0 +1,27 @@
+﻿l_russian:
+#MMS
+ mms_balance_of_power: "Борьба за престол"
+ mms_default_left_side: "$MMS_yuuko_yoshida$"
+ mms_left_side_full: "Полная поддержка §Y$MMS_yuuko_yoshida$§!"
+ mms_left_side_very: "Высокая поддержка §Y$MMS_yuuko_yoshida$§!"
+ mms_left_side_medium: "Средняя поддержка §Y$MMS_yuuko_yoshida$§!"
+ mms_left_side_small: "Слабая поддержка §Y$MMS_yuuko_yoshida$§!"
+ mms_default_right_side: "$MMS_02$"
+ mms_right_side_full: "Полная поддержка §Y$MMS_02$§!"
+ mms_right_side_very: "Высокая поддержка §Y$MMS_02$§!"
+ mms_right_side_medium: "Средняя поддержка §Y$MMS_02$§!"
+ mms_right_side_small: "Слабая поддержка §Y$MMS_02$§!"
+ mms_bop_decision_imprison_02: "Арестовать §Y$MMS_02$§!"
+ mms_bop_decision_kill_yuuko_yoshida: "Убить §Y$MMS_yuuko_yoshida$§!"
+ mms_bop_decision_slander_yuuko_yoshida: "Славная §Y$MMS_yuuko_yoshida$§!"
+ mms_bop_decision_expose_02_immoral_behavior: "Разобоачить аморальное поведени §Y$MMS_02$§!"
+ mms_bop_decision_question_the_army: "Критаковать армию"
+ mms_bop_decision_military_parade: "Провести военный парад"
+ mms_bop_decision_praise_the_army: "Похвалить армию"
+ mms_bop_decision_privileges_for_the_elites: "Пообещать привилегии для элиты"
+ mms_bop_decision_expose_government_corruption: "Разоблачить коррупцию в правительстве §Y$MMS_yuuko_yoshida$§!"
+
+
+
+#modifiers
+ mms_bop_modifier_02_grift_weekly: "Чистокровный соперник"
