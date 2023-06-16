@@ -1258,11 +1258,11 @@ characters = {
 			ai_will_do = {
 				base = 1
 				modifier = {
-					add = 100
 					OR = {
 						has_government = fascism
 						has_government = communism
 					}
+					add = 100
 				}
 			}
 		}
@@ -1294,7 +1294,7 @@ characters = {
 				factor = 1
 				modifier = {
 					is_historical_focus_on = yes
-					factor = 100
+					factor = 2000
 				}
 			}
 		}
