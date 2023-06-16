@@ -12,7 +12,8 @@ mms_balance_of_power = {
     }
     side = {
         id = mms_default_left_side
-        icon = GFX_idea_mms_yuuko_yoshida
+        #icon = GFX_idea_mms_yuuko_yoshida
+        icon = GFX_bop_mms_yuuko_yoshida
         range = {
             id = mms_left_side_full
             min = -1
@@ -49,7 +50,8 @@ mms_balance_of_power = {
 
     side = {
         id = mms_default_right_side
-        icon = GFX_idea_mms_zero_two
+        #icon = GFX_idea_mms_zero_two
+        icon = GFX_bop_mms_02
         range = {
             id = mms_right_side_full
             min = 0.75

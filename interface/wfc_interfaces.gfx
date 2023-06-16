@@ -11,4 +11,13 @@ spriteTypes = {
 		name = "GFX_trait_wfc_exp_navy_trait"
 		texturefile = "gfx/interface/traits/personal/trait_recently_promoted.dds"
 	}
+	#BOP
+	spriteType = {
+		name = "GFX_bop_mms_yuuko_yoshida"
+		texturefile = "gfx/interface/bop/bop_mms_yuuko_yoshida.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_mms_02"
+		texturefile = "gfx/interface/bop/bop_mms_02.dds"
+	}
 }
