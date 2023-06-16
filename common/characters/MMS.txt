@@ -1290,6 +1290,13 @@ characters = {
 			modifier = {
 				power_balance_weekly = -0.01
 			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					is_historical_focus_on = yes
+					factor = 100
+				}
+			}
 		}
 	}
 	MMS_rias_gremory = {

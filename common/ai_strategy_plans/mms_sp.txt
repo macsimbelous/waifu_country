@@ -49,8 +49,8 @@ MMS_historical = {
 	research = {
 	}
 	traits = {
-		staunch_monarchist = 100
-		wfc_silent_workhorse = 200
+		staunch_monarchist = 200
+		wfc_silent_workhorse = 100
 		wfc_captain_of_industry = 5
 	}
 	# Keep small, as it is used as a factor for some things (such as research needs)

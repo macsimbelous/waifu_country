@@ -20,6 +20,7 @@ mms_balance_of_power = {
             max = -0.75
             modifier = {
                 stability_factor = 0.15
+                political_power_factor = 0.15
             }
         }
 		range = {
@@ -28,6 +29,7 @@ mms_balance_of_power = {
             max = -0.5
             modifier = {
                 stability_factor = 0.1
+                political_power_factor = 0.1
             }
         }
 		range = {
@@ -36,6 +38,7 @@ mms_balance_of_power = {
             max = -0.25
             modifier = {
                 stability_factor = 0.05
+                political_power_factor = 0.05
             }
         }
 		range = {
@@ -44,6 +47,7 @@ mms_balance_of_power = {
             max = -0.1
             modifier = {
                 stability_factor = 0.01
+                political_power_factor = 0.01
             }
         }
     }
