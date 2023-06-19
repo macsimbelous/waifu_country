@@ -15,6 +15,7 @@ hen_tentakles_decisions = {
 			}
 		}
 		available = {
+			has_idea = hen_idea_perverted_intelligence_agency
 			all_other_country = {
 				NOT = {
 					has_idea = wfc_tantacle_attack

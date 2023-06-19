@@ -19,7 +19,7 @@ focus_tree = {
 	shared_focus = wfc_army_effort
 	shared_focus = wfc_aviation_effort
 	shared_focus = wfc_naval_effort
-	shared_focus = wfc_industrial_effort
+	#shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
 	focus = {
 		id = hen_friendship_with_japan
@@ -1227,9 +1227,13 @@ focus_tree = {
 	focus = {
 		id = hen_focus_orb_of_corruption
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 23
-		y = 0
+		relative_position_id = hen_focus_transfert_capital_to_282
+		x = -2
+		y = 1
 		cost = 5
+		prerequisite = {
+			focus = hen_focus_transfert_capital_to_282
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1251,23 +1255,27 @@ focus_tree = {
 	focus = {
 		id = hen_focus_expansion
 		icon = GFX_focus_jap_strike_south
-		x = 26
-		y = 0
+		relative_position_id = hen_focus_transfert_capital_to_282
+		x = 2
+		y = 1
 		cost = 5
+		prerequisite = {
+			focus = hen_focus_transfert_capital_to_282
+		}
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		available = {
-			controls_state = 528
-			controls_state = 529
-			controls_state = 530
-			controls_state = 531
-			controls_state = 532
-			controls_state = 535
-			controls_state = 282
-			controls_state = 534
-			controls_state = 533
-			controls_state = 536
+			# controls_state = 528
+			# controls_state = 529
+			# controls_state = 530
+			# controls_state = 531
+			# controls_state = 532
+			# controls_state = 535
+			# controls_state = 282
+			# controls_state = 534
+			# controls_state = 533
+			# controls_state = 536
 			#controls_state = 555
 			#controls_state = 645
 			#controls_state = 526
@@ -1483,6 +1491,822 @@ focus_tree = {
 				}
 				factor = 100
 			}
+		}
+	}
+	#Развитие Хенталии
+	focus = {
+		id = hen_focus_hentalia_development
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 28
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	#Модернизация инфраструктуры
+	focus = {
+		id = hen_focus_infrastructure_modernization
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = hen_focus_hentalia_development
+		x = -6
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_hentalia_development
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#Развитие военной промышленности
+	focus = {
+		id = hen_focus_development_of_the_military_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = hen_focus_infrastructure_modernization
+		x = -1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_infrastructure_modernization
+		}
+		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Развитие гражданской промышленности
+	focus = {
+		id = hen_focus_civil_industry_development
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = hen_focus_infrastructure_modernization
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_infrastructure_modernization
+		}
+		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Расширение верфей
+	focus = {
+		id = hen_focus_shipyard_expansion
+		icon = GFX_goal_generic_construct_naval_dockyard
+		relative_position_id = hen_focus_development_of_the_military_industry
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_development_of_the_military_industry
+		}
+		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Модернизация порта
+	focus = {
+		id = hen_focus_port_modernization
+		icon = GFX_goal_generic_construction
+		relative_position_id = hen_focus_infrastructure_modernization
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_shipyard_expansion
+		}
+		prerequisite = {
+			focus = hen_focus_polymer_production
+		}
+		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = naval_base
+					province = 11925
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Производство полимеров
+	focus = {
+		id = hen_focus_polymer_production
+		icon = GFX_focus_generic_rubber
+		relative_position_id = hen_focus_civil_industry_development
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_civil_industry_development
+		}
+		available = {
+			has_tech = synth_oil_experiments
+		}
+		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Расширение производства стали
+	focus = {
+		id = hen_focus_steel_production_expansion
+		icon = GFX_focus_generic_steel
+		relative_position_id = hen_focus_port_modernization
+		x = -2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_port_modernization
+		}
+		completion_reward = {
+			528 = {
+				add_resource = {
+					type = steel
+					amount = 33
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Алюминиевый завод
+	focus = {
+		id = hen_focus_aluminum_plant
+		icon = GFX_focus_generic_aluminum
+		relative_position_id = hen_focus_port_modernization
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_port_modernization
+		}
+		completion_reward = {
+			528 = {
+				add_resource = {
+					type = aluminium
+					amount = 17
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Производство вольфрама
+	focus = {
+		id = hen_focus_tungsten_production
+		icon = GFX_focus_generic_tungsten
+		relative_position_id = hen_focus_port_modernization
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = hen_focus_port_modernization
+		}
+		completion_reward = {
+			528 = {
+				add_resource = {
+					type = tungsten
+					amount = 11
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Академия извращённых наук
+	focus = {
+		id = hen_focus_academy_of_perverted_sciences
+		icon = GFX_focus_research2
+		relative_position_id = hen_focus_hentalia_development
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_hentalia_development
+		}
+		completion_reward = {
+			add_ideas = hen_idea_academy_of_perverted_sciences
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	#Расширить академию
+	focus = {
+		id = hen_focus_expand_academy
+		icon = GFX_focus_research
+		relative_position_id = hen_focus_academy_of_perverted_sciences
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_academy_of_perverted_sciences
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		available = {
+			num_of_factories > 50
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	#Атомные исследования
+	focus = {
+		id = hen_focus_atomic_research
+		icon = GFX_focus_wonderweapons
+		relative_position_id = hen_focus_expand_academy
+		x = -2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_expand_academy
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				bonus = 1
+				uses = 1
+				category = nuclear
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	#Электроника
+	focus = {
+		id = hen_focus_electronics
+		icon = GFX_goal_generic_radar
+		relative_position_id = hen_focus_expand_academy
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_expand_academy
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 1
+				uses = 2
+				category = electronics
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	#Разработка ракет
+	focus = {
+		id = hen_focus_rocket_development
+		icon = GFX_focus_rocketry
+		relative_position_id = hen_focus_expand_academy
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_expand_academy
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				uses = 2
+				bonus = 1
+				category = rocketry
+				#category = jet_technology
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	#Больше лабораторий
+	focus = {
+		id = hen_focus_more_labs
+		icon = GFX_focus_research2
+		relative_position_id = hen_focus_electronics
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_electronics
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		available = {
+			num_of_factories > 100
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	#Атомный реактор
+	focus = {
+		id = hen_focus_atomic_reactor
+		icon = GFX_focus_wonderweapons
+		relative_position_id = hen_focus_more_labs
+		x = -1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_more_labs
+		}
+		available = {
+			has_tech = nuclear_reactor
+			any_controlled_state = {
+				free_building_slots = {
+					building = nuclear_reactor
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		completion_reward = {
+			wfc_add_nuclear_reactor_in_random_state = yes
+			add_tech_bonus = {
+				name = nuclear_bonus
+				bonus = 1
+				uses = 1
+				category = nuclear
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	#Космодром
+	focus = {
+		id = hen_focus_kosmodrom
+		icon = GFX_focus_rocketry
+		relative_position_id = hen_focus_more_labs
+		x = 1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_more_labs
+		}
+		available = {
+			has_tech = experimental_rockets
+			any_controlled_state = {
+				free_building_slots = {
+					building = rocket_site
+					size > 0
+					include_locked = yes
+				}
+			}
+		}
+		completion_reward = {
+			wfc_add_rocket_site_in_random_state = yes
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				uses = 1
+				bonus = 1
+				category = rocketry
+				#category = jet_technology
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	#Супер оружие
+	focus = {
+		id = hen_focus_super_weapon
+		icon = GFX_goal_generic_secret_weapon
+		relative_position_id = hen_focus_more_labs
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_atomic_reactor
+		}
+		prerequisite = {
+			focus = hen_focus_kosmodrom
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = nuclear
+			}
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				uses = 1
+				ahead_reduction = 2
+				category = rocketry
+				#category = jet_technology
+			}
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 1
+				uses = 2
+				category = electronics
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	#Тентакли
+	focus = {
+		id = hen_focus_tentacles
+		icon = GFX_focus_jap_strike_south
+		relative_position_id = hen_focus_hentalia_development
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_academy_of_perverted_sciences
+		}
+		# prerequisite = {
+		# 	focus = hen_focus_perverted_intelligence_agency
+		# }
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			set_country_flag = hen_flag_tentacles
+			custom_effect_tooltip = hen_focus_tentacles_tt
+		}
+	}
+	#Извращённое разведывательное управление
+	focus = {
+		id = hen_focus_perverted_intelligence_agency
+		icon = GFX_focus_generic_secret_service_agency
+		relative_position_id = hen_focus_hentalia_development
+		x = 7
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_hentalia_development
+		}
+		completion_reward = {
+			create_intelligence_agency = {
+				name = "Perverted Intelligence Agency"
+				icon = GFX_intelligence_agency_logo_generic_3
+			}
+			add_ideas = hen_idea_perverted_intelligence_agency
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Криптология
+	focus = {
+		id = hen_focus_cryptology
+		icon = GFX_focus_generic_treaty
+		relative_position_id = hen_focus_perverted_intelligence_agency
+		x = -3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_perverted_intelligence_agency
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_form_department
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Машинное шифрование
+	focus = {
+		id = hen_focus_machine_encryption
+		icon = GFX_goal_generic_radar
+		relative_position_id = hen_focus_cryptology
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_cryptology
+		}
+		available = {
+			has_tech = mechanical_computing
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_decryption_boost_2
+			upgrade_intelligence_agency = upgrade_crypto_strength_2
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Учебный центр
+	focus = {
+		id = hen_focus_the_educational_center
+		icon = GFX_focus_generic_infiltration
+		relative_position_id = hen_focus_perverted_intelligence_agency
+		x = -1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_perverted_intelligence_agency
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_training_centers
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Кража технологий
+	focus = {
+		id = hen_focus_technology_theft
+		icon = GFX_goal_tfv_generic_tech_sharing
+		relative_position_id = hen_focus_the_educational_center
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_the_educational_center
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_blueprint_stealing
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Экономический отдел
+	focus = {
+		id = hen_focus_economic_department
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = hen_focus_perverted_intelligence_agency
+		x = 1
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_perverted_intelligence_agency
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_economy_civilian
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Военный отдел
+	focus = {
+		id = hen_focus_military_department
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = hen_focus_economic_department
+		x = 0
+		y = 1
+		cost = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_economic_department
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_army_department
+			upgrade_intelligence_agency = upgrade_naval_department
+			upgrade_intelligence_agency = upgrade_airforce_department
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Украсть Японскую технологию
+	focus = {
+		id = hen_focus_steal_japanese_technology
+		icon = GFX_focus_generic_annex_country_2
+		relative_position_id = hen_focus_perverted_intelligence_agency
+		x = 0
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_technology_theft
+		}
+		prerequisite = {
+			focus = hen_focus_military_department
+		}
+		completion_reward = {
+			steal_random_tech_bonus = {
+				category = naval_equipment
+				folder = naval_folder
+				instant = yes
+				bonus = 1
+				target = JAP
+				uses = 1
+			}
+			steal_random_tech_bonus = {
+				category = air_equipment
+				folder = air_techs_folder
+				instant = yes
+				bonus = 1
+				target = JAP
+				uses = 1
+			}
+			steal_random_tech_bonus = {
+				category = armor
+				folder = nsb_armour_folder
+				instant = yes
+				bonus = 1
+				target = JAP
+				uses = 1
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Безопасность
+	focus = {
+		id = hen_focus_safety
+		icon = GFX_goal_generic_defence
+		relative_position_id = hen_focus_perverted_intelligence_agency
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_perverted_intelligence_agency
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_passive_defense
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#Подавление сопротивления
+	focus = {
+		id = hen_focus_suppression_of_resistance
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		relative_position_id = hen_focus_safety
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = hen_focus_safety
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_anti_partisan
+		}
+		ai_will_do = {
+			factor = 2
 		}
 	}
 }

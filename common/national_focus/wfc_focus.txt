@@ -1408,6 +1408,12 @@ shared_focus = {
 			original_tag = MMS
 		}
 	}
+	offset = {
+		x = -4
+		trigger = {
+			original_tag = HEN
+		}
+	}
 	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL

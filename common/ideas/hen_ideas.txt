@@ -140,5 +140,35 @@ ideas = {
 				training_time_army_factor = -0.2
 			}
 		}
+		hen_idea_perverted_intelligence_agency = {
+			allowed = {
+				original_tag = HEN
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_spy_political
+			removal_cost = -1
+			modifier = {
+				operative_slot = 2
+				foreign_subversive_activites = -0.5
+				resistance_damage_to_garrison_on_our_occupied_states = 0.25
+				resistance_damage_to_garrison = -0.25
+				resistance_decay = 0.25
+			}
+		}
+		hen_idea_academy_of_perverted_sciences = {
+			allowed = {
+				original_tag = HEN
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_research_bonus
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
 	}
 }

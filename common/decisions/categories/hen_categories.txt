@@ -5,6 +5,9 @@ hen_tentakles_decisions = {
 	allowed = {
 		original_tag = HEN
 	}
+	visible = {
+		has_country_flag = hen_flag_tentacles
+	}
 }
 hen_category_colonies = {
 	priority = 20
