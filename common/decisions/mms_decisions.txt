@@ -1195,6 +1195,7 @@ mms_balance_of_power_category = {
 			}
 		}
 		available = {
+			has_war = no
 		}
 		custom_cost_trigger = {
 			has_political_power > 14
