@@ -18,14 +18,14 @@ focus_tree = {
 	}
 	shared_focus = wfc_army_effort
 	shared_focus = wfc_aviation_effort
-	shared_focus = wfc_naval_effort
+	#shared_focus = wfc_naval_effort
 	#shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
 	focus = {
 		id = hen_friendship_with_japan
 		icon = GFX_focus_chi_collaboration_with_the_japanese
-		x = 12
-		y = 8
+		x = 33
+		y = 0
 		cost = 5
 		mutually_exclusive = {
 			focus = hen_conquest_of_japan
@@ -308,8 +308,8 @@ focus_tree = {
 	focus = {
 		id = hen_conquest_of_japan
 		icon = GFX_focus_attack_japan
-		x = 17
-		y = 8
+		x = 37
+		y = 0
 		cost = 5
 		mutually_exclusive = {
 			focus = hen_friendship_with_japan
@@ -332,8 +332,8 @@ focus_tree = {
 	focus = {
 		id = hen_friendship_with_sov
 		icon = GFX_focus_chi_mission_to_the_soviet_union
-		x = 9
-		y = 8
+		x = 30
+		y = 0
 		cost = 5
 		mutually_exclusive = {
 			focus = hen_friendship_with_japan
@@ -890,21 +890,15 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			army_experience = 25
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = land_doctrine
-			}
+			army_experience = 50
 		}
 		ai_will_do = {
 			factor = 5
 		}
 	}
 	focus = {
-		id = hen_general_staff
-		icon = GFX_focus_generic_military_mission
+		id = hen_focus_doctrine_effort
+		icon = GFX_goal_generic_army_doctrines
 		prerequisite = {
 			focus = hen_military_training
 		}
@@ -913,24 +907,27 @@ focus_tree = {
 		relative_position_id = hen_military_training
 		cost = 5
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
 		}
+		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = hen_general_staff_idea
-		}
-		ai_will_do = {
-			factor = 5
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	focus = {
 		id = hen_equipment_effort
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = {
-			focus = hen_general_staff
+			focus = hen_focus_doctrine_effort
 		}
 		x = 0
 		y = 1
-		relative_position_id = hen_general_staff
+		relative_position_id = hen_focus_doctrine_effort
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1497,7 +1494,7 @@ focus_tree = {
 	focus = {
 		id = hen_focus_hentalia_development
 		icon = GFX_focus_spa_the_spanish_miracle
-		x = 28
+		x = 17
 		y = 0
 		cost = 5
 		search_filters = {
@@ -1535,6 +1532,12 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = construction_tech
+			}
 		}
 	}
 	#Развитие военной промышленности
@@ -1558,6 +1561,12 @@ focus_tree = {
 					level = 3
 					instant_build = yes
 				}
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = cat_production
 			}
 		}
 		ai_will_do = {
@@ -1586,6 +1595,13 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 2
+				category = concentrated_industry_category
+				category = dispersed_industry_category
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -1612,6 +1628,12 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = cat_production
 			}
 		}
 		ai_will_do = {
@@ -1644,6 +1666,12 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = construction_tech
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -1673,6 +1701,12 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = cat_synth_rubber
 			}
 		}
 		ai_will_do = {
@@ -1705,6 +1739,12 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = excavation_tech
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -1736,6 +1776,12 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = excavation_tech
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -1766,6 +1812,12 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = excavation_tech
 			}
 		}
 		ai_will_do = {
@@ -2307,6 +2359,406 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 2
+		}
+	}
+	#Development of the navy
+	focus = {
+		id = hen_focus_development_of_the_navy
+		icon = GFX_goal_generic_navy_cruiser
+		x = 20
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			navy_experience = 25
+		}
+	}
+	#submarine war
+	focus = {
+		id = hen_focus_submarine_war
+		icon = GFX_goal_generic_navy_anti_submarine
+		relative_position_id = hen_focus_development_of_the_navy
+		x = -2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_development_of_the_navy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				#technology = combined_operations_raiding
+			}
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	#torpedoes
+	focus = {
+		id = hen_focus_torpedoes
+		icon = GFX_goal_generic_navy_submarine
+		relative_position_id = hen_focus_submarine_war
+		x = -1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_submarine_war
+		}
+		mutually_exclusive = {
+			focus = hen_focus_mines
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = cat_torpedoes
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = cat_torpedoes
+			}
+		}
+	}
+	#Mines
+	focus = {
+		id = hen_focus_mines
+		icon = GFX_focus_generic_mine_warfare
+		relative_position_id = hen_focus_submarine_war
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_submarine_war
+		}
+		mutually_exclusive = {
+			focus = hen_focus_torpedoes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = mine_layer
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				#category = naval_mines
+				technology = submarine_mine_laying
+			}
+		}
+	}
+	#New submarine projects
+	focus = {
+		id = hen_focus_new_submarine_projects
+		icon = GFX_goal_generic_navy_anti_submarine
+		relative_position_id = hen_focus_submarine_war
+		x = 0
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_torpedoes
+			focus = hen_focus_mines
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				#technology = combined_operations_raiding
+			}
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				#category = ss_tech
+				technology = improved_ship_hull_submarine
+			}
+		}
+	}
+	#dominance of the sea
+	focus = {
+		id = hen_focus_dominance_of_the_sea
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		relative_position_id = hen_focus_development_of_the_navy
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_development_of_the_navy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			navy_experience = 25
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+				category = cat_base_strike
+			}
+		}
+	}
+	#destroyers
+	focus = {
+		id = hen_focus_destroyers
+		icon = GFX_focus_generic_destroyer
+		relative_position_id = hen_focus_dominance_of_the_sea
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_dominance_of_the_sea
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = convoy_defense_tree
+			}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+	#Cruisers
+	focus = {
+		id = hen_focus_cruisers
+		icon = GFX_focus_generic_cruiser2
+		relative_position_id = hen_focus_destroyers
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_destroyers
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+				category = cat_base_strike
+			}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+	#Battleships
+	focus = {
+		id = hen_focus_battleships
+		icon = GFX_focus_generic_navy_battleship2
+		relative_position_id = hen_focus_cruisers
+		x = -1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_cruisers
+		}
+		mutually_exclusive = {
+			focus = hen_focus_aircraft_carriers
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+			}
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+			}
+		}
+	}
+	#Aircraft carriers
+	focus = {
+		id = hen_focus_aircraft_carriers
+		icon = GFX_goal_generic_navy_carrier
+		relative_position_id = hen_focus_cruisers
+		x = 1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_cruisers
+		}
+		mutually_exclusive = {
+			focus = hen_focus_battleships
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = cat_base_strike
+			}
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = cv_tech
+			}
+		}
+	}
+	#Development of the doctrine of submarine warfare
+	focus = {
+		id = hen_focus_development_of_the_doctrine_of_submarine_warfare
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		relative_position_id = hen_focus_new_submarine_projects
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_new_submarine_projects
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			navy_experience = 25
+			add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				#technology = combined_operations_raiding
+			}
+		}
+	}
+	#Perverted Admiralty
+	focus = {
+		id = hen_focus_perverted_admiralty
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		relative_position_id = hen_focus_development_of_the_navy
+		x = 0
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = {
+			focus = hen_focus_development_of_the_doctrine_of_submarine_warfare
+		}
+		prerequisite = {
+			focus = hen_focus_aircraft_carriers
+			focus = hen_focus_battleships
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = hen_idea_perverted_admiralty
+		}
+	}
+	#general staff
+	focus = {
+		id = hen_general_staff
+		icon = GFX_focus_generic_military_mission
+		prerequisite = {
+			focus = hen_focus_hentalia_development
+		}
+		relative_position_id = hen_focus_hentalia_development
+		x = -3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_ideas = hen_general_staff_idea
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 }
