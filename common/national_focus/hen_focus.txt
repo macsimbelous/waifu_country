@@ -2472,7 +2472,7 @@ focus_tree = {
 				ahead_reduction = 2
 				uses = 1
 				#category = naval_mines
-				technology = submarine_mine_laying
+				technology = improved_submarine_mine_laying
 			}
 		}
 	}
