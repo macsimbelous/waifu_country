@@ -28,6 +28,10 @@ HEN_historical = {
 		wfc_collectivist_ethos
 		wfc_internationalism_focus
 		hen_conquest_of_japan
+		hen_preparation_for_conquest
+		hen_economic_mobilization
+		hen_modernization_of_mic
+		hen_hen_stockpile_up
 	}
 	research = {
 	}
@@ -71,6 +75,10 @@ HEN_fascist = {
 		wfc_military_youth
 		wfc_paramilitarism
 		hen_conquest_of_japan
+		hen_preparation_for_conquest
+		hen_economic_mobilization
+		hen_modernization_of_mic
+		hen_hen_stockpile_up
 	}
 	research = {
 	}
@@ -155,6 +163,11 @@ HEN_neutrality = {
 		wfc_focus_authoritarianism
 		wfc_neutrality_focus
 		wfc_deterrence
+		hen_conquest_of_japan
+		hen_preparation_for_conquest
+		hen_economic_mobilization
+		hen_modernization_of_mic
+		hen_hen_stockpile_up
 	}
 	research = {
 	}
@@ -195,6 +208,11 @@ HEN_democratic = {
 		wfc_focus_individualism
 		wfc_focus_democracy
 		wfc_interventionism_focus
+		hen_conquest_of_japan
+		hen_preparation_for_conquest
+		hen_economic_mobilization
+		hen_modernization_of_mic
+		hen_hen_stockpile_up
 	}
 	research = {
 	}
