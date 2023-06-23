@@ -2289,6 +2289,9 @@ focus_tree = {
 		prerequisite = {
 			focus = hen_focus_military_department
 		}
+		available = {
+			country_exists = JAP
+		}
 		completion_reward = {
 			steal_random_tech_bonus = {
 				category = naval_equipment
