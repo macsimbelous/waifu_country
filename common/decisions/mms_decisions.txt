@@ -968,35 +968,39 @@ mms_category_reparations = {
 		fire_only_once = yes
 		icon = decision_generic_break_treaty
 		available = {
-			has_war_support > 0.6
+			#has_war_support > 0.6
 			has_army_manpower = {
-				size > 300000
+				size > 200000
 			}
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				fascism > 0.6
-			}
-			else_if = {
-				limit = {
-					has_government = communism
-				}
-				communism > 0.6
-			}
-			else_if = {
-				limit = {
-					has_government = democratic
-				}
-				democratic > 0.6
-			}
-			else = {
-				neutrality > 0.6
-			}
+			# if = {
+			# 	limit = {
+			# 		has_government = fascism
+			# 	}
+			# 	fascism > 0.6
+			# }
+			# else_if = {
+			# 	limit = {
+			# 		has_government = communism
+			# 	}
+			# 	communism > 0.6
+			# }
+			# else_if = {
+			# 	limit = {
+			# 		has_government = democratic
+			# 	}
+			# 	democratic > 0.6
+			# }
+			# else = {
+			# 	neutrality > 0.6
+			# }
 			has_civil_war = no
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
 		}
 		complete_effect = {
 			remove_ideas = mms_payment_of_reparations
@@ -1237,7 +1241,7 @@ mms_balance_of_power_category = {
 		complete_effect = {
 			add_power_balance_value = {
 				id = mms_balance_of_power
-				value = 0.01
+				value = 0.1
 			}
 		}
 		ai_will_do = {
@@ -1264,7 +1268,7 @@ mms_balance_of_power_category = {
 		complete_effect = {
 			add_power_balance_value = {
 				id = mms_balance_of_power
-				value = 0.25
+				value = 0.1
 			}
 			army_experience = 10
 		}
