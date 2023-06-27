@@ -635,13 +635,12 @@ political_actions = {
 			original_tag = MMS
 		}
 		visible = {
-			has_government = democratic
-		}
-		available = {
 			has_country_leader = {
 				character = MMS_holo
 				ruling_only = yes
 			}
+		}
+		available = {
 			democratic > 0.8
 			has_stability > 0.8
 		}
@@ -676,13 +675,12 @@ political_actions = {
 			original_tag = MMS
 		}
 		visible = {
-			has_government = communism
-		}
-		available = {
 			has_country_leader = {
 				character = MMS_maou
 				ruling_only = yes
 			}
+		}
+		available = {
 			communism > 0.8
 			has_stability > 0.8
 		}
@@ -717,13 +715,12 @@ political_actions = {
 			original_tag = MMS
 		}
 		visible = {
-			has_government = neutrality
-		}
-		available = {
 			has_country_leader = {
 				character = MMS_yuuko_yoshida
 				ruling_only = yes
 			}
+		}
+		available = {
 			neutrality > 0.8
 			has_stability > 0.8
 		}
