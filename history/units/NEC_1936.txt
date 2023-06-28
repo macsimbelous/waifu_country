@@ -74,6 +74,35 @@ division_template = {
 		}
 	}
 }
-
-
-
+units = {
+	division = {
+		location = 8010
+		division_template = "Undead Knights"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 12860
+		division_template = "Undead Knights"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 8010
+		division_template = "Undead Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+}
+###starting production###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "NEC"
+		}
+		requested_factories = 9
+		progress = 0.87
+		efficiency = 100
+	}
+}
