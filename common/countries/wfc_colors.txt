@@ -27,6 +27,8 @@ ZMB = {
 	color_ui = rgb { 255 0 0 }
 }
 NEC = {
-	color = rgb { 13  235  23 }
-	color_ui = rgb { 0 0 0 }
+	#color = rgb { 13  235  23 }
+	#color_ui = rgb { 0 0 0 }
+	color = rgb { 0 204 0 }
+	color_ui = rgb { 0 153 0 }
 }
