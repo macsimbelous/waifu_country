@@ -60,6 +60,7 @@ wfc_integration_category = {
 			original_tag = TRP
 			#original_tag = MEH
 			original_tag = MMS
+			original_tag = NEC
 		}
 	}
 }
@@ -75,6 +76,7 @@ wfc_subjects_category = {
 			original_tag = MMS
 			original_tag = MEH
 			original_tag = ZMB
+			original_tag = NEC
 		}
 	}
 }
@@ -174,6 +176,7 @@ wfc_budget_category = {
 			original_tag = MEH
 			original_tag = MMS
 			original_tag = ZMB
+			original_tag = NEC
 		}
 	}
 }
@@ -191,6 +194,7 @@ wfc_puppets_category = {
 			original_tag = MEH
 			original_tag = MMS
 			original_tag = ZMB
+			original_tag = NEC
 		}
 	}
 	# visible = {
@@ -212,6 +216,7 @@ wfc_construction_phase_category = {
 			original_tag = MEH
 			original_tag = MMS
 			original_tag = ZMB
+			original_tag = NEC
 		}
 	}
 	visible = {
@@ -261,6 +266,7 @@ wfc_test_category = {
 			original_tag = MEH
 			original_tag = MMS
 			original_tag = ZMB
+			original_tag = NEC
 		}
 		#always = no
 		is_debug = yes

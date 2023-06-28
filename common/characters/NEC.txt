@@ -1,0 +1,60 @@
+characters = {
+	nec_alice = {
+		name = MMS_alice
+		portraits = {
+			army = {
+				small = GFX_idea_mms_alice
+			}
+			civilian = {
+				large = GFX_portrait_mms_alice_civilian
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+				wfc_monster
+				wfc_tyan_militarist
+				wfc_patron_of_the_military_industrial_complex
+				wfc_demon_lord
+				anti_communist_crusader
+			}
+			expire = "1965.1.1"
+		}
+	}
+	nec_tae_yamada = {
+		name = ZMB_tae_yamada
+		portraits = {
+			army = {
+				small = GFX_portrait_zmb_tae_yamada_small
+				large = GFX_portrait_zmb_tae_yamada_army
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = nec_tae_yamada
+			ledger = army
+			cost = 150
+			traits = {
+				mass_assault_expert
+			}
+			modifier = {
+				cat_mass_assault_cost_factor = -0.3
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		field_marshal = {
+			traits = {
+				skilled_staffer
+				infantry_leader
+				expert_delegator
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+		}
+	}
+}

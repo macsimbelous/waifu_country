@@ -1910,3 +1910,166 @@ ZMB = {
 		}
 	}
 }
+
+NEC = {
+	political = {
+		communism = {
+			male = {
+				"GFX_portrait_zmb_zombi_01"
+				"GFX_portrait_zmb_zombi_02"
+				"GFX_portrait_zmb_zombi_03"
+				"GFX_portrait_zmb_zombi_04"
+				"GFX_portrait_zmb_zombi_05"
+				"GFX_portrait_zmb_zombi_06"
+				"GFX_portrait_zmb_zombi_07"
+				"GFX_portrait_zmb_zombi_08"
+				"GFX_portrait_zmb_zombi_09"
+				"GFX_portrait_zmb_zombi_10"
+				"GFX_portrait_zmb_zombi_11"
+				"GFX_portrait_zmb_zombi_12"
+				"GFX_portrait_zmb_zombi_13"
+				"GFX_portrait_zmb_zombi_14"
+				"GFX_portrait_zmb_zombi_15"
+				"GFX_portrait_zmb_sakura_minamoto"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_portrait_zmb_zombi_01"
+				"GFX_portrait_zmb_zombi_02"
+				"GFX_portrait_zmb_zombi_03"
+				"GFX_portrait_zmb_zombi_04"
+				"GFX_portrait_zmb_zombi_05"
+				"GFX_portrait_zmb_zombi_06"
+				"GFX_portrait_zmb_zombi_07"
+				"GFX_portrait_zmb_zombi_08"
+				"GFX_portrait_zmb_zombi_09"
+				"GFX_portrait_zmb_zombi_10"
+				"GFX_portrait_zmb_zombi_11"
+				"GFX_portrait_zmb_zombi_12"
+				"GFX_portrait_zmb_zombi_13"
+				"GFX_portrait_zmb_zombi_14"
+				"GFX_portrait_zmb_zombi_15"
+				"GFX_portrait_zmb_sakura_minamoto"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_portrait_zmb_zombi_01"
+				"GFX_portrait_zmb_zombi_02"
+				"GFX_portrait_zmb_zombi_03"
+				"GFX_portrait_zmb_zombi_04"
+				"GFX_portrait_zmb_zombi_05"
+				"GFX_portrait_zmb_zombi_06"
+				"GFX_portrait_zmb_zombi_07"
+				"GFX_portrait_zmb_zombi_08"
+				"GFX_portrait_zmb_zombi_09"
+				"GFX_portrait_zmb_zombi_10"
+				"GFX_portrait_zmb_zombi_11"
+				"GFX_portrait_zmb_zombi_12"
+				"GFX_portrait_zmb_zombi_13"
+				"GFX_portrait_zmb_zombi_14"
+				"GFX_portrait_zmb_zombi_15"
+				"GFX_portrait_zmb_sakura_minamoto"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_portrait_zmb_zombi_01"
+				"GFX_portrait_zmb_zombi_02"
+				"GFX_portrait_zmb_zombi_03"
+				"GFX_portrait_zmb_zombi_04"
+				"GFX_portrait_zmb_zombi_05"
+				"GFX_portrait_zmb_zombi_06"
+				"GFX_portrait_zmb_zombi_07"
+				"GFX_portrait_zmb_zombi_08"
+				"GFX_portrait_zmb_zombi_09"
+				"GFX_portrait_zmb_zombi_10"
+				"GFX_portrait_zmb_zombi_11"
+				"GFX_portrait_zmb_zombi_12"
+				"GFX_portrait_zmb_zombi_13"
+				"GFX_portrait_zmb_zombi_14"
+				"GFX_portrait_zmb_zombi_15"
+				"GFX_portrait_zmb_sakura_minamoto"
+			}
+		}
+	}
+	army = {
+		male = {
+			"GFX_portrait_zmb_zombi_01"
+			"GFX_portrait_zmb_zombi_02"
+			"GFX_portrait_zmb_zombi_03"
+			"GFX_portrait_zmb_zombi_04"
+			"GFX_portrait_zmb_zombi_05"
+			"GFX_portrait_zmb_zombi_06"
+			"GFX_portrait_zmb_zombi_07"
+			"GFX_portrait_zmb_zombi_08"
+			"GFX_portrait_zmb_zombi_09"
+			"GFX_portrait_zmb_zombi_10"
+			"GFX_portrait_zmb_zombi_11"
+			"GFX_portrait_zmb_zombi_12"
+			"GFX_portrait_zmb_zombi_13"
+			"GFX_portrait_zmb_zombi_14"
+			"GFX_portrait_zmb_zombi_15"
+			"GFX_portrait_zmb_sakura_minamoto"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_portrait_zmb_zombi_01"
+			"GFX_portrait_zmb_zombi_02"
+			"GFX_portrait_zmb_zombi_03"
+			"GFX_portrait_zmb_zombi_04"
+			"GFX_portrait_zmb_zombi_05"
+			"GFX_portrait_zmb_zombi_06"
+			"GFX_portrait_zmb_zombi_07"
+			"GFX_portrait_zmb_zombi_08"
+			"GFX_portrait_zmb_zombi_09"
+			"GFX_portrait_zmb_zombi_10"
+			"GFX_portrait_zmb_zombi_11"
+			"GFX_portrait_zmb_zombi_12"
+			"GFX_portrait_zmb_zombi_13"
+			"GFX_portrait_zmb_zombi_14"
+			"GFX_portrait_zmb_zombi_15"
+			"GFX_portrait_zmb_sakura_minamoto"
+		}
+	}
+	operative = {
+		female = {
+			"GFX_portrait_zmb_zombi_01"
+			"GFX_portrait_zmb_zombi_02"
+			"GFX_portrait_zmb_zombi_03"
+			"GFX_portrait_zmb_zombi_04"
+			"GFX_portrait_zmb_zombi_05"
+			"GFX_portrait_zmb_zombi_06"
+			"GFX_portrait_zmb_zombi_07"
+			"GFX_portrait_zmb_zombi_08"
+			"GFX_portrait_zmb_zombi_09"
+			"GFX_portrait_zmb_zombi_10"
+			"GFX_portrait_zmb_zombi_11"
+			"GFX_portrait_zmb_zombi_12"
+			"GFX_portrait_zmb_zombi_13"
+			"GFX_portrait_zmb_zombi_14"
+			"GFX_portrait_zmb_zombi_15"
+			"GFX_portrait_zmb_sakura_minamoto"
+		}
+		male = {
+			"GFX_portrait_zmb_zombi_01"
+			"GFX_portrait_zmb_zombi_02"
+			"GFX_portrait_zmb_zombi_03"
+			"GFX_portrait_zmb_zombi_04"
+			"GFX_portrait_zmb_zombi_05"
+			"GFX_portrait_zmb_zombi_06"
+			"GFX_portrait_zmb_zombi_07"
+			"GFX_portrait_zmb_zombi_08"
+			"GFX_portrait_zmb_zombi_09"
+			"GFX_portrait_zmb_zombi_10"
+			"GFX_portrait_zmb_zombi_11"
+			"GFX_portrait_zmb_zombi_12"
+			"GFX_portrait_zmb_zombi_13"
+			"GFX_portrait_zmb_zombi_14"
+			"GFX_portrait_zmb_zombi_15"
+			"GFX_portrait_zmb_sakura_minamoto"
+		}
+	}
+}

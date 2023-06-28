@@ -158,6 +158,10 @@
  ZMB_DEF:0 "Зомби"
  ZMB_ADJ:0 "Зомбо"
 
+#NEC
+ NEC: "Некрополис"
+ NEC_DEF:0 "Некрополис"
+ NEC_ADJ:0 "Некрополис"
 #States
 #  STATE_909:0 "Булвак"
 #  STATE_910:0 "Мехалэнд"
@@ -205,6 +209,7 @@ MEH_wfc_autonomy_province:0 "Провинция $MEH$"
 MMS_wfc_autonomy_province:0 "Провинция $MMS$"
 TRP_wfc_autonomy_province:0 "Провинция $TRP$"
 ZMB_wfc_autonomy_province:0 "Провинция $ZMB$"
+NEC_wfc_autonomy_province:0 "Провинция $NEC$"
 #vanila
 GER_wfc_autonomy_province:0 "Провинция $GER$"
 ENG_wfc_autonomy_province:0 "Провинция $ENG$"

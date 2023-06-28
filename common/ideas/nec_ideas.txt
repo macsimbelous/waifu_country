@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		nec_necromancy = {
+			allowed = {
+				original_tag = NEC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = air_war_plans_division_focus
+			removal_cost = -1
+			modifier = {
+				conscription_factor = 0.5
+				non_core_manpower = 0.8
+				war_support_factor = 0.1
+				offensive_war_stability_factor = 0.3
+				resistance_decay = 0.25
+				annex_cost_factor = -0.5
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				army_org_factor = 0.1
+				army_org_regain = 0.1
+				army_morale_factor = 0.1
+				experience_loss_factor = -0.5
+				terrain_penalty_reduction = 0.15
+				supply_consumption_factor = -0.15
+			}
+		}
+	}
+}
