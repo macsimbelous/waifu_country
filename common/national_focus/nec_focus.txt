@@ -17,4 +17,112 @@ focus_tree = {
 	shared_focus = wfc_naval_effort
 	shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
+	focus = {
+		id = nec_focus_conquest_of_tib
+		icon = GFX_goal_generic_major_war
+		x = 10
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			TIB = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = TIB
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_nep
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_tib
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_tib
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			NEP = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = NEP
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_sik
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_nep
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_nep
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			SIK = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = SIK
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_xsm
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_sik
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_sik
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			XSM = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = XSM
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
