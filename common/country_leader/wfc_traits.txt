@@ -494,4 +494,16 @@ leader_traits = {
 		political_advisor_cost_factor = 0.1
 		research_speed_factor = 0.2
 	}
+	wfc_trait_head_of_counterintelligence = {
+		random = no
+		sprite = 15
+		stability_factor = 0.1
+		resistance_decay = 0.1
+		compliance_growth = 0.1
+		intelligence_agency_defense = 0.1
+		#subjects_autonomy_gain = -0.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
