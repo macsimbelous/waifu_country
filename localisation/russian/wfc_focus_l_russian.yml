@@ -432,6 +432,12 @@
  trp_focus_extra_tech_slot_2: "Расширение академии"
  trp_focus_secret_weapons: "Супер оружие"
 
+#NEC
+ nec_focus_conquest_of_tib: "Захватить §R[TIB.GetName]§!"
+ nec_focus_conquest_of_nep: "Захватить §R[NEP.GetName]§!"
+ nec_focus_conquest_of_sik: "Захватить §R[SIK.GetName]§!"
+ nec_focus_conquest_of_xsm: "Захватить §R[XSM.GetName]§!"
+
 #Pupet
  wfc_puppet_focus: "Фокусы марионеток"
 

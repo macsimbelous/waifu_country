@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		nec_necromancy = {
+		nec_idea_necromancy = {
 			allowed = {
 				original_tag = NEC
 			}
@@ -16,20 +16,43 @@ ideas = {
 				offensive_war_stability_factor = 0.3
 				resistance_decay = 0.25
 				annex_cost_factor = -0.5
-				army_defence_factor = 0.1
-				army_attack_factor = 0.1
-				army_org_factor = 0.1
-				army_org_regain = 0.1
-				army_morale_factor = 0.1
 				experience_loss_factor = -0.5
-				terrain_penalty_reduction = 0.15
-				supply_consumption_factor = -0.15
+			}
+		}
+		nec_idea_contempt_for_the_living = {
+			allowed = {
+				original_tag = NEC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_fascism_drift_bonus
+			removal_cost = -1
+			modifier = {
+				fascism_drift = 0.2
 			}
 			rule = {
 				can_create_factions = no
 				can_force_government = no
 				can_join_factions = no
 				can_puppet = no
+			}
+		}
+		nec_idea_army_of_the_undead = {
+			allowed = {
+				original_tag = NEC
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = air_war_plans_division_focus
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.1
+				army_org_factor = 0.1
+				army_morale_factor = 0.1
+				terrain_penalty_reduction = 0.2
+				supply_consumption_factor = -0.2
 			}
 		}
 	}

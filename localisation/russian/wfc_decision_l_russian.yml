@@ -336,6 +336,15 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   mms_decision_refuse_to_pay_reparations: "§RОтказаться выплачивать репарации§!"
   mms_refuse_to_pay_reparations: "Монстры отказались выплачивать репарации."
 
+ #mms_category_ifrit_equipment_upgrade
+  mms_category_ifrit_equipment_upgrade: "Улучшение пехотной экипировки Ифрит"
+  mms_category_ifrit_equipment_upgrade_desc: "Атака пехоты: §G[?mms_dm_iie_infantry_attack_factor|%]§!\nЗашита пехоты: §G[?mms_dm_iie_infantry_defence_factor|%]§!\nАтака спецназа: §G[?mms_dm_iie_special_forces_attack_factor|%]§!\nЗашита спецназа: §G[?mms_dm_iie_special_forces_defence_factor|%]§!\nСкорость: §G[?mms_dm_iie_army_speed_factor|%]§!\nМораль: §G[?mms_dm_iie_army_morale_factor|%]§!\nПотери опытных бойцов: §G[?mms_dm_iie_experience_loss_factor|%]§!\nУлучшений: §G[?mms_ifrit_equipment_upgrade_count]§! из §G10§!"
+  mms_decision_ifrit_equipment_attack: "Тренировать атаку"
+  mms_decision_ifrit_equipment_protection: "Тренировать зашиту"
+  mms_decision_ifrit_equipment_speed: "Тренировать скорость"
+  mms_tt_ifrit_equipment_upgrade: "Доступно ульчшение"
+  mms_flag_ifrit_equipment_upgrade_run: "Производится улучшение"
+
 #TRP
  #discrediting
   trp_discrediting_decisions:0 "Дискредитация"

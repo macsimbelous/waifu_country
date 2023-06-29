@@ -51,3 +51,14 @@ meh_robo_factory_dm = {
 	}
 	weekly_manpower = meh_robo_factory_production
 }
+
+mms_dm_ifrit_infantry_equipment = {
+	icon = GFX_idea_HUN_secret_rearmament
+	army_infantry_attack_factor = mms_dm_iie_infantry_attack_factor
+	army_infantry_defence_factor = mms_dm_iie_infantry_defence_factor
+	special_forces_attack_factor = mms_dm_iie_special_forces_attack_factor
+	special_forces_defence_factor = mms_dm_iie_special_forces_defence_factor
+	army_speed_factor = mms_dm_iie_army_speed_factor
+	army_morale_factor = mms_dm_iie_army_morale_factor
+	experience_loss_factor = mms_dm_iie_experience_loss_factor
+}

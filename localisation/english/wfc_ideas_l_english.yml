@@ -110,6 +110,7 @@ acw_subject_autonomy_mod_tt:0 "Increase in the autonomy of the subjects §G-0.5"
  mms_ifrit_forge: "§RIfrit Forge§!"
  mms_payment_of_reparations: "§RPayment of Reparations§!"
  mms_idea_ifrit_infantry_equipment: "Ifrit infantry equipment"
+ mms_dm_ifrit_infantry_equipment: "Ifrit infantry equipment"
 
 #TRP
  TRP_revolution:0 "Homeland of the trap revolution!"
@@ -121,4 +122,7 @@ acw_subject_autonomy_mod_tt:0 "Increase in the autonomy of the subjects §G-0.5"
  trp_communism_with_a_human_face_idea: "§CCommunism with a trap face§!"
  trp_beacon_of_liberty: "§CTrap Liberty Beacon§!"
 
-
+#NEC
+ nec_idea_necromancy: "Necromancy"
+ nec_idea_contempt_for_the_living: "Contempt for the living"
+ nec_idea_army_of_the_undead: "Army of the undead"

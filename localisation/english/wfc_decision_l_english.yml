@@ -324,6 +324,15 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
   mms_decision_refuse_to_pay_reparations: "§RRefuse to pay reparations§!"
   mms_refuse_to_pay_reparations: "The monsters refused to pay reparations."
 
+ #mms_category_ifrit_equipment_upgrade
+  mms_category_ifrit_equipment_upgrade: "Ifrit infantry equipment upgrade"
+  mms_category_ifrit_equipment_upgrade_desc: "Infantry attack: §G[?mms_dm_iie_infantry_attack_factor|%]§!\nInfantry protection: §G[?mms_dm_iie_infantry_defence_factor|%]§!\nSpecial forces attack: §G[?mms_dm_iie_special_forces_attack_factor|%]§!\nSpecial forces protection: §G[?mms_dm_iie_special_forces_defence_factor|%]§!\nSpeed: §G[?mms_dm_iie_army_speed_factor|%]§!\nMorality: §G[?mms_dm_iie_army_morale_factor|%]§!\nLoss of experienced fighters: §G[?mms_dm_iie_experience_loss_factor|%]§!\nUpgrades: §G[?mms_ifrit_equipment_upgrade_count]§! out of §G10§!"
+  mms_decision_ifrit_equipment_attack: "Тренировать атаку"
+  mms_decision_ifrit_equipment_protection: "Тренировать зашиту"
+  mms_decision_ifrit_equipment_speed: "Тренировать скорость"
+  mms_tt_ifrit_equipment_upgrade: "Доступно ульчшение"
+  mms_flag_ifrit_equipment_upgrade_run: "Производится улучшение"
+
 #TRP
  #discrediting
   trp_discrediting_decisions:0 "Discredit"

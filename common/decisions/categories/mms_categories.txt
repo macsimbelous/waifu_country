@@ -59,6 +59,22 @@ mms_expansion_of_living_space_category = {
 	}
 }
 
+mms_category_ifrit_equipment_upgrade = {
+	priority = 11
+	#icon = decision_generic_ignite_civil_war
+	picture = GFX_idea_mms_ifrit_forge
+	#visible_when_empty = yes
+	allowed = {
+		original_tag = MMS
+	}
+	available = {
+		has_idea = mms_ifrit_forge
+	}
+	visible = {
+		has_country_flag = mms_flag_ifrit_infantry_equipment
+	}
+}
+
 mms_balance_of_power_category = {
 	icon = GFX_decision_category_power_struggle
 	allowed = {

@@ -269,7 +269,6 @@
  hen_focus_perverted_admiralty: "Perverted Admiralty"
  hen_focus_doctrine_effort: "Doctrine effort"
 
-
 #MAH
  mah_focus: "Focuses [MAH.GetName]"
  mah_unification_of_the_middle_east: "Unification of the Middle East"
@@ -435,6 +434,12 @@
  trp_focus_develop_cloning_tt: "Clone production solutions will be open"
  trp_focus_extra_tech_slot_2: "Academy Expansion"
  trp_focus_secret_weapons: "Super weapon"
+
+#NEC
+ nec_focus_conquest_of_tib: "Conquer §R[TIB.GetName]§!"
+ nec_focus_conquest_of_nep: "Conquer §R[NEP.GetName]§!"
+ nec_focus_conquest_of_sik: "Conquer §R[SIK.GetName]§!"
+ nec_focus_conquest_of_xsm: "Conquer §R[XSM.GetName]§!"
 
 #Pupet
  wfc_puppet_focus: "Focus puppets"
