@@ -433,6 +433,7 @@
  trp_focus_secret_weapons: "Супер оружие"
 
 #NEC
+ nec_focus: "Фокусы [NEC.GetName]"
  nec_focus_conquest_of_tib: "Захватить §R[TIB.GetName]§!"
  nec_focus_conquest_of_nep: "Захватить §R[NEP.GetName]§!"
  nec_focus_conquest_of_sik: "Захватить §R[SIK.GetName]§!"
