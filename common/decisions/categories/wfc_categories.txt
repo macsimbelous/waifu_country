@@ -10,6 +10,7 @@ wfc_world_conquest_category = {
 			original_tag = TRP
 			original_tag = MMS
 			original_tag = MEH
+			original_tag = NEC
 		}
 	}
 	visible = {
@@ -75,8 +76,8 @@ wfc_subjects_category = {
 			original_tag = TRP
 			original_tag = MMS
 			original_tag = MEH
-			original_tag = ZMB
-			original_tag = NEC
+			#original_tag = ZMB
+			#original_tag = NEC
 		}
 	}
 }
@@ -193,8 +194,8 @@ wfc_puppets_category = {
 			original_tag = TRP
 			original_tag = MEH
 			original_tag = MMS
-			original_tag = ZMB
-			original_tag = NEC
+			#original_tag = ZMB
+			#original_tag = NEC
 		}
 	}
 	# visible = {

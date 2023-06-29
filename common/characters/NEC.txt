@@ -19,6 +19,23 @@ characters = {
 			}
 			expire = "1999.1.1"
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_alice
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			visible = {
+				always = no
+			}
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	}
 	nec_alice_c = {
 		name = nec_alice
@@ -39,6 +56,20 @@ characters = {
 				wfc_patron_of_the_military_industrial_complex
 			}
 			expire = "1999.1.1"
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_alice_c
+			cost = 150
+			visible = {
+				always = no
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
 		}
 	}
 	nec_alice_n = {
@@ -81,6 +112,23 @@ characters = {
 				wfc_patron_of_the_military_industrial_complex
 			}
 			expire = "1999.1.1"
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_alice_d
+			cost = 150
+			allowed = {
+				original_tag = ACW
+			}
+			visible = {
+				always = no
+			}
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
 		}
 	}
 	nec_tae_yamada = {
@@ -197,6 +245,9 @@ characters = {
 			slot = political_advisor
 			idea_token = nec_ai_mizuno
 			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
 			traits = {
 				wfc_intelligence_princess
 			}
