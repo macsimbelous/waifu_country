@@ -1313,199 +1313,28 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = mms_focus_revive_necromancy
-		icon = GFX_goal_generic_secret_weapon
+		id = mms_focus_ifrit_infantry_equipment
+		icon = GFX_focus_secret_rearmament
 		prerequisite = {
 			focus = mms_focus_extra_tech_slot_2
 		}
 		relative_position_id = mms_focus_extra_tech_slot_2
 		x = 0
 		y = 1
-		cost = 20
+		cost = 10
 		cancelable = no
 		available_if_capitulated = yes
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available = {
-			is_puppet = no
-			has_government = fascism
-			267 = {
-				is_owned_and_controlled_by = ROOT
-			}
-			#has_full_control_of_state = 267
+			has_idea = mms_ifrit_forge
 		}
 		completion_reward = {
-			random_list = {
-				60 = {
-					modifier = {
-						has_idea = MMS_kurari_rose
-						factor = 1.6
-					}
-					modifier = {
-						has_idea = MMS_touka_kuroitsu
-						factor = 1.6
-					}
-					modifier = {
-						has_idea = MMS_saphentite_neikes
-						factor = 1.6
-					}
-					modifier = {
-						amount_research_slots > 5
-						factor = 1.6
-					}
-					add_ideas = mms_necromancy
-					create_operative_leader = {
-						name = "Sakura Minamoto"
-						GFX = GFX_portrait_mms_sakura_minamoto
-						traits = {
-							operative_infiltrator
-							operative_natural_orator
-						}
-						bypass_recruitment = no
-						available_to_spy_master = yes
-						nationalities = {
-							MMS
-							ZMB
-						}
-					}
-					set_nationality = {
-						target_country = ROOT
-						character = ZMB_tae_yamada
-					}
-				}
-				40 = {
-					modifier = {
-						has_idea = MMS_alice
-						factor = 150
-					}
-					custom_effect_tooltip = mms_rise_of_the_dead_tt
-					hidden_effect = {
-						MMS_alice = {
-							remove_advisor_role = {
-								slot = political_advisor
-							}
-						}
-						set_nationality = {
-							target_country = ZMB
-							character = MMS_alice
-						}
-						ZMB = {
-							#set_state_controller = 267
-							transfer_state = 267
-							load_oob = ZMB_1936
-							add_country_leader_role = {
-								character = MMS_alice
-								promote_leader = yes
-								country_leader = {
-									ideology = fascism_ideology
-									expire = "1999.1.1.1"
-									traits = {
-										wfc_monster
-										wfc_trait_necromancer
-									}
-								}
-							}
-							267 = {
-								add_core_of = ZMB
-								set_temp_variable = {
-									i = 0
-								}
-								while_loop_effect = {
-									limit = {
-										check_variable = {
-											i = 24
-											compare = less_than
-										}
-									}
-									add_to_temp_variable = {
-										i = 1
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-									create_unit = {
-										division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-										owner = ZMB
-										#prioritize_location = 4518
-										allow_spawning_on_enemy_provs = yes
-									}
-								}
-							}
-							declare_war_on = {
-								target = MMS
-								type = annex_everything
-							}
-							#add_ideas = ZMB_tae_yamada
-							# country_lock_all_division_template = yes
-							# set_division_force_allow_recruiting = {
-							# 	division_template = "Zombi Division"
-							# 	force_allow_recruiting = yes
-							# }
-							# set_division_force_allow_recruiting = {
-							# 	division_template = "Zombi Cavalry"
-							# 	force_allow_recruiting = yes
-							# }
-						}
-						country_event = mms_event.2
-						news_event = wfc_news.10
-					}
-				}
-			}
+			add_ideas = mms_idea_ifrit_infantry_equipment
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	focus = {

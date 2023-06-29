@@ -1,10 +1,10 @@
 characters = {
 	ZMB_tae_yamada = {
-		name = ZMB_tae_yamada
+		name = nec_tae_yamada
 		portraits = {
 			army = {
-				small = GFX_portrait_zmb_tae_yamada_small
-				large = GFX_portrait_zmb_tae_yamada_army
+				small = GFX_idea_nec_tae_yamada
+				large = GFX_portrait_nec_tae_yamada_army
 			}
 		}
 		advisor = {

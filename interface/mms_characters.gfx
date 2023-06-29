@@ -443,14 +443,6 @@ spriteTypes = {
 		name = "GFX_portrait_mms_resumisu_care_army"
 		texturefile = "gfx/leaders/MMS/resumisu_care_army.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_mms_alice"
-		texturefile = "gfx/leaders/MMS/alice_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_mms_alice_civilian"
-		texturefile = "gfx/leaders/MMS/alice_civilian.dds"
-	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

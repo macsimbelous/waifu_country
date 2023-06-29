@@ -42,4 +42,20 @@ set_politics = {
 recruit_character = nec_alice
 recruit_character = nec_tae_yamada
 
+#Agents
+recruit_character = nec_sakura_minamoto
+create_operative_leader = {
+	name = "Sakura Minamoto"
+	GFX = GFX_portrait_nec_sakura_minamoto_operative
+	traits = {
+		operative_infiltrator
+		operative_natural_orator
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		NEC JAP
+	}
+}
+
 

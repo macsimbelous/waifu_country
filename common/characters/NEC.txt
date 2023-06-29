@@ -1,12 +1,12 @@
 characters = {
 	nec_alice = {
-		name = MMS_alice
+		name = nec_alice
 		portraits = {
 			army = {
-				small = GFX_idea_mms_alice
+				small = GFX_idea_nec_alice
 			}
 			civilian = {
-				large = GFX_portrait_mms_alice_civilian
+				large = GFX_portrait_nec_alice_civilian
 			}
 		}
 		country_leader = {
@@ -18,15 +18,15 @@ characters = {
 				wfc_demon_lord
 				anti_communist_crusader
 			}
-			expire = "1965.1.1"
+			expire = "1999.1.1"
 		}
 	}
 	nec_tae_yamada = {
-		name = ZMB_tae_yamada
+		name = nec_tae_yamada
 		portraits = {
 			army = {
-				small = GFX_portrait_zmb_tae_yamada_small
-				large = GFX_portrait_zmb_tae_yamada_army
+				small = GFX_idea_nec_tae_yamada
+				large = GFX_portrait_nec_tae_yamada_army
 			}
 		}
 		advisor = {
@@ -55,6 +55,17 @@ characters = {
 			defense_skill = 6
 			planning_skill = 6
 			logistics_skill = 6
+		}
+	}
+	nec_sakura_minamoto = {
+		name = nec_sakura_minamoto
+		portraits = {
+			army = {
+				small = GFX_idea_nec_sakura_minamoto
+			}
+			civilian = {
+				large = GFX_portrait_nec_sakura_minamoto_operative
+			}
 		}
 	}
 }

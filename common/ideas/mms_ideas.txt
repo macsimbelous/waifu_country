@@ -110,6 +110,25 @@ ideas = {
 				political_power_factor = 0.1
 			}
 		}
+		mms_idea_ifrit_infantry_equipment = {
+			allowed = {
+				original_tag = MMS
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = hun_secret_rearmament
+			removal_cost = -1
+			modifier = {
+				army_infantry_attack_factor = 0.1
+				army_infantry_defence_factor = 0.1
+				special_forces_attack_factor = 0.1
+				special_forces_defence_factor = 0.1
+				army_speed_factor = 0.05
+				army_morale_factor = 0.01
+				experience_loss_factor = -0.05
+			}
+		}
 	}
 	materiel_manufacturer = {
 		designer = yes

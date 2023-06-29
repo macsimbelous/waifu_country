@@ -323,16 +323,15 @@
  #advisors
   MMS_shigure:0 "Shigure"
   MMS_touka_kuroitsu:0 "Touka Kuroitsu"
-  MMS_touka_kuroitsu_desc:0 "§GHelp with necromancy§!"
+  #MMS_touka_kuroitsu_desc:0 "§GHelp with necromancy§!"
   MMS_serafall_leviathan:0 "Serafall Leviathan"
   MMS_meroune_lorelei:0 "Meroune Lorelei"
   MMS_saphentite_neikes:0 "Saphentite Neikes"
-  MMS_saphentite_neikes_desc:0 "§GHelp with necromancy§!"
+  #MMS_saphentite_neikes_desc:0 "§GHelp with necromancy§!"
   MMS_kurari_rose:0 "Kurari Rose"
-  MMS_kurari_rose_desc:0 "§GHelp with necromancy§!"
+  #MMS_kurari_rose_desc:0 "§GHelp with necromancy§!"
   MMS_shion:0 "Shion"
-  MMS_alice: "Alice"
-  MMS_alice_desc: "Significantly increases the chance of a zombie apocalypse"
+
  #agents
   MMS_rias_gremory:0 "Rias Gremory"
   MMS_koyanskaya:0 "Koyanskaya"
@@ -379,5 +378,7 @@
   TRP_mare_bello_fiore:0 "Mare Bello Fiore"
   TRP_aoi_futaba:0 "Aoi Futaba"
 
-#ZMB
- ZMB_tae_yamada: "Tae Yamada"
+#NEC
+ nec_tae_yamada: "Tae Yamada"
+ nec_alice: "Alice"
+ nec_sakura_minamoto: "Sakura Minamoto"

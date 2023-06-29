@@ -43,4 +43,16 @@ set_politics = {
 #recruit_character = ACW_GER_puppet_leader_neutrality
 recruit_character = ZMB_tae_yamada
 
-
+create_operative_leader = {
+	name = "Sakura Minamoto"
+	GFX = GFX_portrait_nec_sakura_minamoto_operative
+	traits = {
+		operative_infiltrator
+		operative_natural_orator
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ZMB JAP
+	}
+}
