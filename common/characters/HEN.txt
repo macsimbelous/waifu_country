@@ -345,7 +345,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_igawa_asagi
-				large = GFX_portrait_hen_igawa_asagi
+				large = GFX_portrait_hen_igawa_asagi_army
 			}
 		}
 		advisor = {
@@ -520,7 +520,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_cloe
-				large = GFX_portrait_hen_cloe
+				large = GFX_portrait_hen_cloe_army
 			}
 		}
 		advisor = {
@@ -574,7 +574,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_hen_alicia_arcturus
-				large = GFX_portrait_hen_alicia_arcturus
+				large = GFX_portrait_hen_alicia_arcturus_army
 			}
 		}
 		advisor = {

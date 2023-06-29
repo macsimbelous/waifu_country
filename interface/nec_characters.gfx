@@ -31,6 +31,22 @@ spriteTypes = {
 		name = "GFX_portrait_nec_zombina_army"
 		texturefile = "gfx/leaders/NEC/zombina_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_rea_sanka"
+		texturefile = "gfx/leaders/NEC/rea_sanka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_rea_sanka_civilian"
+		texturefile = "gfx/leaders/NEC/rea_sanka_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_ai_mizuno"
+		texturefile = "gfx/leaders/NEC/ai_mizuno_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_ai_mizuno_civilian"
+		texturefile = "gfx/leaders/NEC/ai_mizuno_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"
@@ -89,22 +105,7 @@ spriteTypes = {
 		name = "GFX_portrait_nec_land_08"
 		texturefile = "gfx/leaders/NEC/generic/nec_land_08.dds"
 	}
-	spriteType = {
-		name = "GFX_portrait_nec_land_09_small"
-		texturefile = "gfx/leaders/NEC/generic/nec_land_09_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_nec_land_09"
-		texturefile = "gfx/leaders/NEC/generic/nec_land_09.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_nec_land_10_small"
-		texturefile = "gfx/leaders/NEC/generic/nec_land_10_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_nec_land_10"
-		texturefile = "gfx/leaders/NEC/generic/nec_land_10.dds"
-	}
+
 	spriteType = {
 		name = "GFX_portrait_nec_land_11_small"
 		texturefile = "gfx/leaders/NEC/generic/nec_land_11_idea.dds"

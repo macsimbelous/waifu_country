@@ -12,11 +12,73 @@ characters = {
 		country_leader = {
 			ideology = fascism_ideology
 			traits = {
-				wfc_monster
+				wfc_trait_undead
+				wfc_dictator
 				wfc_tyan_militarist
 				wfc_patron_of_the_military_industrial_complex
-				wfc_demon_lord
-				anti_communist_crusader
+			}
+			expire = "1999.1.1"
+		}
+	}
+	nec_alice_c = {
+		name = nec_alice
+		portraits = {
+			army = {
+				small = GFX_idea_nec_alice
+			}
+			civilian = {
+				large = GFX_portrait_nec_alice_civilian
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {
+				wfc_trait_undead
+				wfc_dictator
+				wfc_tyan_militarist
+				wfc_patron_of_the_military_industrial_complex
+			}
+			expire = "1999.1.1"
+		}
+	}
+	nec_alice_n = {
+		name = nec_alice
+		portraits = {
+			army = {
+				small = GFX_idea_nec_alice
+			}
+			civilian = {
+				large = GFX_portrait_nec_alice_civilian
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				wfc_trait_undead
+				wfc_dictator
+				wfc_tyan_militarist
+				wfc_patron_of_the_military_industrial_complex
+			}
+			expire = "1999.1.1"
+		}
+	}
+	nec_alice_d = {
+		name = nec_alice
+		portraits = {
+			army = {
+				small = GFX_idea_nec_alice
+			}
+			civilian = {
+				large = GFX_portrait_nec_alice_civilian
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {
+				wfc_trait_undead
+				wfc_dictator
+				wfc_tyan_militarist
+				wfc_patron_of_the_military_industrial_complex
 			}
 			expire = "1999.1.1"
 		}
@@ -77,7 +139,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = army_chief
+			slot = high_command
 			idea_token = nec_zombina
 			ledger = army
 			cost = 150
@@ -97,6 +159,76 @@ characters = {
 			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 4
+		}
+	}
+	nec_rea_sanka = {
+		name = nec_rea_sanka
+		portraits = {
+			army = {
+				small = GFX_idea_nec_rea_sanka
+			}
+			civilian = {
+				large = GFX_portrait_nec_rea_sanka_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_rea_sanka
+			cost = 150
+			traits = {
+				wfc_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	nec_ai_mizuno = {
+		name = nec_ai_mizuno
+		portraits = {
+			army = {
+				small = GFX_idea_nec_ai_mizuno
+			}
+			civilian = {
+				large = GFX_portrait_nec_ai_mizuno_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_ai_mizuno
+			cost = 150
+			traits = {
+				wfc_intelligence_princess
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	#Заглушки
+	nec_head_int = {
+		name = generic_head_of_intelligence
+		portraits = {
+			army = {
+				small = GFX_idea_acw_ayame_himuro
+			}
+			civilian = {
+				large = GFX_portrait_acw_ayame_himuro
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_head_int
+			cost = 1000
+			visible = {
+				always = no
+			}
+			traits = {
+				head_of_intelligence
+			}
+			ai_will_do = {
+				factor = 0
+			}
 		}
 	}
 }

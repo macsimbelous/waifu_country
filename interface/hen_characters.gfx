@@ -12,8 +12,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HEN/alicia_arcturus_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_hen_alicia_arcturus"
-		texturefile = "gfx/leaders/HEN/Alicia_Arcturus.dds"
+		name = "GFX_portrait_hen_alicia_arcturus_army"
+		texturefile = "gfx/leaders/HEN/alicia_arcturus_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_hen_anna_komiya"
@@ -52,8 +52,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HEN/cloe_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_hen_cloe"
-		texturefile = "gfx/leaders/HEN/Cloe.dds"
+		name = "GFX_portrait_hen_cloe_army"
+		texturefile = "gfx/leaders/HEN/cloe_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_hen_homare_nao"
@@ -68,8 +68,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HEN/igawa_asagi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_hen_igawa_asagi"
-		texturefile = "gfx/leaders/HEN/Igawa_Asagi.dds"
+		name = "GFX_portrait_hen_igawa_asagi_army"
+		texturefile = "gfx/leaders/HEN/igawa_asagi_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_hen_iris_arcadia"

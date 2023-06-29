@@ -40,8 +40,15 @@ set_politics = {
 }
 
 recruit_character = nec_alice
+recruit_character = nec_alice_c
+recruit_character = nec_alice_n
+recruit_character = nec_alice_d
 recruit_character = nec_tae_yamada
 recruit_character = nec_zombina
+recruit_character = nec_rea_sanka
+recruit_character = nec_ai_mizuno
+#Заглушки
+recruit_character = nec_head_int
 
 #Agents
 recruit_character = nec_sakura_minamoto

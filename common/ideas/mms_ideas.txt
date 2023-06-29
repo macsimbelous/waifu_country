@@ -139,9 +139,9 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 			research_bonus = {
-				infantry_weapons = 0.15
-				artillery = 0.15
-				support_tech = 0.15
+				infantry_weapons = 0.1
+				artillery = 0.1
+				support_tech = 0.1
 			}
 			equipment_bonus = {
 				infantry_equipment = {
