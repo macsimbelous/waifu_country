@@ -68,4 +68,35 @@ characters = {
 			}
 		}
 	}
+	nec_zombina = {
+		name = nec_zombina
+		portraits = {
+			army = {
+				small = GFX_idea_nec_zombina
+				large = GFX_portrait_nec_zombina_army
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = nec_zombina
+			ledger = army
+			cost = 150
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 }
