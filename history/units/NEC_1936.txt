@@ -60,17 +60,31 @@ division_template = {
 			x = 0
 			y = 3
 		}
-		infantry = {
-			x = 1
-			y = 3
-		}
-		infantry = {
+	}
+}
+division_template = {
+	name = "Undead Mountaineers"
+	#division_names_group = ACW_MNT_01
+	regiments = {
+		mountaineers = {
 			x = 0
-			y = 4
+			y = 0
 		}
-		infantry = {
+		mountaineers = {
+			x = 0
+			y = 1
+		}
+		mountaineers = {
+			x = 0
+			y = 2
+		}
+		mountaineers = {
 			x = 1
-			y = 4
+			y = 0
+		}
+		mountaineers = {
+			x = 1
+			y = 1
 		}
 	}
 }
@@ -90,6 +104,12 @@ units = {
 	division = {
 		location = 8010
 		division_template = "Undead Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 12860
+		division_template = "Undead Mountaineers"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}

@@ -15,6 +15,7 @@ set_rule = {
 
 set_technology = {
 	infantry_weapons = 1
+	tech_mountaineers = 1
 }
 
 #ideas
@@ -66,4 +67,9 @@ create_operative_leader = {
 	}
 }
 
-
+every_other_country = {
+	add_opinion_modifier = {
+		target = ROOT
+		modifier = nec_om_hate_undead
+	}
+}

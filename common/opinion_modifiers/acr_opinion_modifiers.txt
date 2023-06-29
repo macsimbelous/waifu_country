@@ -3,19 +3,15 @@ opinion_modifiers = {
 	ACW_enemies_m = {
 		value = -10
 	}
-
 	ACW_together_m = {
 		value = 70
 	}
-
 	ACW_ROM_friend = {
 		value = 20
 	}
-	
 	ACW_anime_clever = {
 		value = 30
 	}
-	
 	ACW_POL_friend = {
 		value = 20
 	}
@@ -30,5 +26,5 @@ opinion_modifiers = {
 	}
 	TRP_red_friend = {
 		value = 50
-		}
+	}
 }
