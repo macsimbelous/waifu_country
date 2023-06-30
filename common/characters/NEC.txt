@@ -236,6 +236,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_nec_ai_mizuno
+				large = GFX_portrait_nec_ai_mizuno_army
 			}
 			civilian = {
 				large = GFX_portrait_nec_ai_mizuno_civilian

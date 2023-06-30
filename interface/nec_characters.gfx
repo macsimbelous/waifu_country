@@ -48,6 +48,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/NEC/ai_mizuno_civilian.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_nec_ai_mizuno_army"
+		texturefile = "gfx/leaders/NEC/ai_mizuno_army.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_nec_onyx_void"
 		texturefile = "gfx/leaders/NEC/onyx_void_idea.dds"
 	}
