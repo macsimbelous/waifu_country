@@ -13,6 +13,7 @@ state = {
 			4980 = {
 				naval_base = 3
 				coastal_bunker = 3
+				supply_node = 1
 			}
 			1979 = {
 				supply_node = 1
@@ -30,7 +31,7 @@ state = {
 		}
 		add_core_of = TRP
 		victory_points = {
-			10934 50 
+			1979 50 
 		}
 		victory_points = {
 			4980 10 

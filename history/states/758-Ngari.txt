@@ -13,6 +13,9 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 5
+			5094 = {
+				supply_node = 1
+			}
 		}
 		add_core_of = NEC
 		victory_points = {
