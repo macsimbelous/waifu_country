@@ -90,25 +90,25 @@ division_template = {
 }
 units = {
 	division = {
-		location = 8010
+		location = 5094
 		division_template = "Undead Knights"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 12860
+		location = 12801
 		division_template = "Undead Knights"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 8010
+		location = 12784
 		division_template = "Undead Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
-		location = 12860
+		location = 8029
 		division_template = "Undead Mountaineers"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0

@@ -1,0 +1,24 @@
+state={
+	id=758
+	name="STATE_758"
+	provinces={
+		1961 5094 8029 10802 12784 12801 
+	}
+	manpower=1000000
+	#buildings_max_level_factor=1.000
+	state_category = city
+	history={
+		owner = NEC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 5
+		}
+		add_core_of = NEC
+		victory_points = {
+			5094 50
+		}
+	}
+
+	local_supplies=10.0 
+}
