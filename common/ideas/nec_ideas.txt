@@ -30,7 +30,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				fascism_drift = 0.2
-				foreign_subversive_activites = 0.5
+				foreign_subversive_activites = -0.5
 			}
 			rule = {
 				can_create_factions = no
