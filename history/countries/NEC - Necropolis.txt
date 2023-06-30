@@ -51,6 +51,7 @@ recruit_character = nec_ai_mizuno
 recruit_character = nec_nec_onyx_void
 recruit_character = nec_milen_umbra
 recruit_character = nec_dullahan
+recruit_character = nec_cerina
 #Заглушки
 recruit_character = nec_head_int
 
@@ -75,4 +76,9 @@ every_other_country = {
 		target = ROOT
 		modifier = nec_om_hate_undead
 	}
+}
+
+create_intelligence_agency = {
+	name = "Undead Intelligence Agency"
+	icon = GFX_intelligence_agency_logo_generic_2
 }

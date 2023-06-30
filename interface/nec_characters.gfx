@@ -71,6 +71,14 @@ spriteTypes = {
 		name = "GFX_portrait_nec_dullahan_army"
 		texturefile = "gfx/leaders/NEC/dullahan_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_cerina"
+		texturefile = "gfx/leaders/NEC/cerina_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_cerina_civilian"
+		texturefile = "gfx/leaders/NEC/cerina_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"

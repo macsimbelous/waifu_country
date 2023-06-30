@@ -15,7 +15,6 @@ ideas = {
 				non_core_manpower = 0.2
 				war_support_factor = 0.1
 				offensive_war_stability_factor = 0.3
-				resistance_decay = 0.25
 				annex_cost_factor = -0.5
 				experience_loss_factor = -0.5
 			}
@@ -31,6 +30,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				fascism_drift = 0.2
+				foreign_subversive_activites = 0.5
 			}
 			rule = {
 				can_create_factions = no

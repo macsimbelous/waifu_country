@@ -256,6 +256,31 @@ characters = {
 			}
 		}
 	}
+	nec_cerina = {
+		name = nec_cerina
+		portraits = {
+			army = {
+				small = GFX_idea_nec_cerina
+			}
+			civilian = {
+				large = GFX_portrait_nec_cerina_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_cerina
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				wfc_trait_head_of_counterintelligence
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 	nec_nec_onyx_void = {
 		name = nec_nec_onyx_void
 		portraits = {
