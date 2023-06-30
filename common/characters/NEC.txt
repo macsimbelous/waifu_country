@@ -154,17 +154,17 @@ characters = {
 				factor = 100
 			}
 		}
-		field_marshal = {
+		corps_commander = {
 			traits = {
 				skilled_staffer
 				infantry_leader
-				expert_delegator
+				#expert_delegator
 			}
-			skill = 6
-			attack_skill = 6
-			defense_skill = 6
-			planning_skill = 6
-			logistics_skill = 6
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	nec_sakura_minamoto = {
@@ -253,6 +253,86 @@ characters = {
 			}
 			ai_will_do = {
 				factor = 1
+			}
+		}
+	}
+	nec_nec_onyx_void = {
+		name = nec_nec_onyx_void
+		portraits = {
+			army = {
+				small = GFX_idea_nec_onyx_void
+				large = GFX_portrait_nec_onyx_void_army
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = nec_nec_onyx_void
+			cost = 50
+			traits = {
+				army_chief_defensive_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		field_marshal = {
+			traits = {
+				skilled_staffer
+				inflexible_strategist
+				unyielding_defender
+				#infantry_leader
+				#expert_delegator
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+		}
+	}
+	nec_milen_umbra = {
+		name = nec_milen_umbra
+		portraits = {
+			army = {
+				small = GFX_idea_nec_milen_umbra
+				large = GFX_portrait_nec_milen_umbra_army
+			}
+		}
+		advisor = {
+			slot = air_chief
+			#ledger = army
+			idea_token = nec_milen_umbra
+			cost = 150
+			traits = {
+				air_chief_night_operations_3
+			}
+		}
+	}
+	nec_dullahan = {
+		name = nec_dullahan
+		portraits = {
+			army = {
+				small = GFX_idea_nec_dullahan
+				large = GFX_portrait_nec_dullahan_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = nec_dullahan
+			ledger = army
+			cost = 50
+			traits = {
+				army_cavalry_1
 			}
 		}
 	}

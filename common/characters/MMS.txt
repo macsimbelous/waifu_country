@@ -505,37 +505,6 @@ characters = {
 			}
 		}
 	}
-	MMS_dullahan = {
-		name = MMS_dullahan
-		portraits = {
-			army = {
-				small = GFX_idea_mms_dullahan
-				large = GFX_portrait_mms_dullahan
-			}
-		}
-		corps_commander = {
-			traits = {
-				cavalry_leader
-			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 6
-			logistics_skill = 5
-		}
-		advisor = {
-			slot = high_command
-			idea_token = MMS_dullahan
-			ledger = army
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			traits = {
-				army_cavalry_3
-			}
-		}
-	}
 	MMS_milla_maxwell = {
 		name = MMS_milla_maxwell
 		portraits = {

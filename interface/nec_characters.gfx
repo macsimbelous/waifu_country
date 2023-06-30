@@ -47,6 +47,30 @@ spriteTypes = {
 		name = "GFX_portrait_nec_ai_mizuno_civilian"
 		texturefile = "gfx/leaders/NEC/ai_mizuno_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_onyx_void"
+		texturefile = "gfx/leaders/NEC/onyx_void_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_onyx_void_army"
+		texturefile = "gfx/leaders/NEC/onyx_void_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_milen_umbra"
+		texturefile = "gfx/leaders/NEC/milen_umbra_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_milen_umbra_army"
+		texturefile = "gfx/leaders/NEC/milen_umbra_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_dullahan"
+		texturefile = "gfx/leaders/NEC/dullahan_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_dullahan_army"
+		texturefile = "gfx/leaders/NEC/dullahan_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"
@@ -80,7 +104,14 @@ spriteTypes = {
 		name = "GFX_portrait_nec_land_04"
 		texturefile = "gfx/leaders/NEC/generic/nec_land_04.dds"
 	}
-
+	spriteType = {
+		name = "GFX_portrait_nec_land_05_small"
+		texturefile = "gfx/leaders/NEC/generic/nec_land_05_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_land_05"
+		texturefile = "gfx/leaders/NEC/generic/nec_land_05.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_nec_land_06_small"
 		texturefile = "gfx/leaders/NEC/generic/nec_land_06_idea.dds"
@@ -105,7 +136,22 @@ spriteTypes = {
 		name = "GFX_portrait_nec_land_08"
 		texturefile = "gfx/leaders/NEC/generic/nec_land_08.dds"
 	}
-
+	spriteType = {
+		name = "GFX_portrait_nec_land_09_small"
+		texturefile = "gfx/leaders/NEC/generic/nec_land_09_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_land_09"
+		texturefile = "gfx/leaders/NEC/generic/nec_land_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_land_10_small"
+		texturefile = "gfx/leaders/NEC/generic/nec_land_10_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_land_10"
+		texturefile = "gfx/leaders/NEC/generic/nec_land_10.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_nec_land_11_small"
 		texturefile = "gfx/leaders/NEC/generic/nec_land_11_idea.dds"

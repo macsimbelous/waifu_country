@@ -40,14 +40,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/Desco.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_mms_dullahan"
-		texturefile = "gfx/leaders/MMS/dullahan_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_mms_dullahan"
-		texturefile = "gfx/leaders/MMS/Dullahan.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_mms_fino_bloodstone"
 		texturefile = "gfx/leaders/MMS/fino_bloodstone_idea.dds"
 	}
