@@ -441,6 +441,11 @@
  nec_focus_conquest_of_nep: "Conquer §R[NEP.GetName]§!"
  nec_focus_conquest_of_sik: "Conquer §R[SIK.GetName]§!"
  nec_focus_conquest_of_xsm: "Conquer §R[XSM.GetName]§!"
+ nec_focus_railway_to_757: "Railway to §Y[757.GetName]§!"
+ nec_focus_conquest_of_bhu: "Conquer §R[BHU.GetName]§!"
+ nec_focus_plant_necromancy_in_tibet: "§RPlant Necromancy in Tibet§!"
+ nec_focus_expansion_of_the_railway_network: "Expansion of the railway network"
+ nec_focus_conquest_of_chi: "Conquer §R[CHI.GetName]§!"
 
 #Pupet
  wfc_puppet_focus: "Focus puppets"
