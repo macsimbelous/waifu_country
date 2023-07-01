@@ -39,6 +39,14 @@ wfc_set_province_flag = {
 		}
 		set_country_flag = mms_federation_subject_flag
 	}
+	else_if = {
+		limit = {
+			ROOT = {
+				original_tag = NEC
+			}
+		}
+		set_country_flag = nec_federation_subject_flag
+	}
 	else = {
 		set_country_flag = trp_federation_subject_flag
 	}
@@ -133,6 +141,14 @@ wfc_change_country_leader = {
 				}
 			}
 			mms_change_country_leader = yes
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					original_tag = NEC
+				}
+			}
+			nec_change_country_leader = yes
 		}
 		else = {
 			trp_change_country_leader = yes

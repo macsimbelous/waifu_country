@@ -1,0 +1,83 @@
+nec_change_country_leader = {
+	#Лидеры марионеток
+	retire_country_leader = yes
+	random_list = {
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_01
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_02
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_03
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_04
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_05
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_06
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_07
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_08
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_09
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_10
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_11
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_12
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_13
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_14
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_15
+			}
+		}
+	}
+	add_country_leader_trait = wfc_trait_undead
+	add_country_leader_trait = wfc_governor-general
+}

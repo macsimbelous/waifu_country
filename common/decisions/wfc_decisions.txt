@@ -722,6 +722,7 @@ wfc_subjects_category = {
 							original_tag = TRP
 							original_tag = MMS
 							original_tag = MEH
+							original_tag = NEC
 						}
 					}
 					wfc_change_country_leader = yes
@@ -746,6 +747,7 @@ wfc_subjects_category = {
 					original_tag = HEN
 					original_tag = MMS
 					original_tag = ACW
+					original_tag = NEC
 				}
 			}
 			if = {
@@ -795,6 +797,16 @@ wfc_subjects_category = {
 				FROM = {
 					NOT = {
 						has_country_leader_with_trait = wfc_monster
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = NEC
+				}
+				FROM = {
+					NOT = {
+						has_country_leader_with_trait = wfc_trait_undead
 					}
 				}
 			}
@@ -893,6 +905,7 @@ wfc_subjects_category = {
 							original_tag = TRP
 							original_tag = MMS
 							original_tag = MEH
+							original_tag = NEC
 						}
 					}
 					if = {
@@ -918,6 +931,7 @@ wfc_subjects_category = {
 							original_tag = TRP
 							original_tag = MMS
 							original_tag = MEH
+							original_tag = NEC
 						}
 					}
 					if = {
@@ -929,6 +943,7 @@ wfc_subjects_category = {
 								has_country_leader_with_trait = wfc_monster
 								has_country_leader_with_trait = wfc_hentai
 								has_country_leader_with_trait = wfc_anime_tyan
+								has_country_leader_with_trait = wfc_trait_undead
 							}
 						}
 						wfc_change_country_leader = yes
