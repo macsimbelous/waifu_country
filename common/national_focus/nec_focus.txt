@@ -374,4 +374,42 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	focus = {
+		id = nec_focus_plant_necromancy_in_601_and_604
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = {
+			focus = nec_focus_conquest_of_chi
+		}
+		relative_position_id = nec_focus_conquest_of_chi
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_MANPOWER
+		}
+		available = {
+			601 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			604 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			hidden_effect = {
+				transfer_state = 601
+				transfer_state = 604
+			}
+			601 = {
+				add_core_of = ROOT
+			}
+			604 = {
+				add_core_of = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
 }
