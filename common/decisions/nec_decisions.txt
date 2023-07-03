@@ -36,7 +36,7 @@ nec_category_necrification = {
 		complete_effect = {
 			set_country_flag = nec_flag_necrification_run
 			FROM = {
-				set_resistance = 0.8
+				set_resistance = 80
 			}
 		}
 		remove_effect = {
