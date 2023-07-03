@@ -135,7 +135,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = nec_focus_plant_necromancy_in_tibet
+		id = nec_focus_necrification_of_the_population
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = {
 			focus = nec_focus_conquest_of_nep
@@ -166,6 +166,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			set_country_flag = nec_flag_necrification
 			hidden_effect = {
 				transfer_state = 757
 				transfer_state = 322
@@ -193,9 +194,9 @@ focus_tree = {
 		id = nec_focus_expansion_of_the_railway_network
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
-			focus = nec_focus_plant_necromancy_in_tibet
+			focus = nec_focus_necrification_of_the_population
 		}
-		relative_position_id = nec_focus_plant_necromancy_in_tibet
+		relative_position_id = nec_focus_necrification_of_the_population
 		x = 0
 		y = 1
 		cost = 10
@@ -372,44 +373,6 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	focus = {
-		id = nec_focus_plant_necromancy_in_601_and_604
-		icon = GFX_goal_generic_secret_weapon
-		prerequisite = {
-			focus = nec_focus_conquest_of_chi
-		}
-		relative_position_id = nec_focus_conquest_of_chi
-		x = 0
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-			FOCUS_FILTER_MANPOWER
-		}
-		available = {
-			601 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			604 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-		}
-		completion_reward = {
-			hidden_effect = {
-				transfer_state = 601
-				transfer_state = 604
-			}
-			601 = {
-				add_core_of = ROOT
-			}
-			604 = {
-				add_core_of = ROOT
-			}
-		}
-		ai_will_do = {
-			factor = 10
 		}
 	}
 }

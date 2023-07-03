@@ -1,0 +1,9 @@
+nec_category_necrification = {
+	priority = 5
+	allowed = {
+		original_tag = NEC
+	}
+	visible = {
+		has_country_flag = nec_flag_necrification
+	}
+}

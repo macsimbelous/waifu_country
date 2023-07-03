@@ -375,3 +375,9 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
   trp_decision_quickly_capture_urg: "Quickly capture Uruguay"
   trp_decision_quickly_capture_arg: "Quick capture Argentina"
   trp_decision_quickly_capture_chl: "Quickly Capture Chile"
+
+#NEC
+ #nec_category_necrification
+  nec_category_necrification: "Necrofication of the population of controlled regions"
+  nec_decision_necrification: "Necrofication of the §Y[FROM.GetName]§! region"
+  nec_flag_necrification_run: "Necrification in progress"

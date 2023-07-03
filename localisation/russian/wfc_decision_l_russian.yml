@@ -388,6 +388,12 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   trp_decision_quickly_capture_arg: "Быстрый захват Аргентины"
   trp_decision_quickly_capture_chl: "Быстрый захват Чили"
 
+#NEC
+ #nec_category_necrification
+  nec_category_necrification: "Некрофикация населения контролируемых регионов"
+  nec_decision_necrification: "Некрофикация региона §Y[FROM.GetName]§!"
+  nec_flag_necrification_run: "Идёт некрофикация"
+
 #test
  wfc_test_category:0 "Тестовая категория"
  #wfc_test_create_colab: "[ACW_fiona_frost.GetName]"
