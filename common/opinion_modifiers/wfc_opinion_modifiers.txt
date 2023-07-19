@@ -1,6 +1,6 @@
 opinion_modifiers = {
-	nec_om_hate_undead = { value = -50 }
+	nec_om_hate_undead = { value = -25 }
 	acw_idols_tour_opinion = { value = 10 }
-	acw_sov_frend_opinion = { value = 50 }
+	acw_sov_frend_opinion = { value = 25 }
 	pervyi_v_kosmose_10 = { value = 10 }
 }
