@@ -54,6 +54,7 @@ ideas = {
 				army_morale_factor = 0.1
 				terrain_penalty_reduction = 0.2
 				supply_consumption_factor = -0.2
+				training_time_army_factor = -0.2
 			}
 		}
 	}

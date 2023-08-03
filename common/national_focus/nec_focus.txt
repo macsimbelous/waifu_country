@@ -191,15 +191,63 @@ focus_tree = {
 			}
 			757 = {
 				add_core_of = ROOT
+				create_unit = {
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = NEC
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
 			}
 			322 = {
 				add_core_of = ROOT
+				create_unit = {
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = NEC
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
 			}
 			323 = {
 				add_core_of = ROOT
+				create_unit = {
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = NEC
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = NEC
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = NEC
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = NEC
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = NEC
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
 			}
 			324 = {
 				add_core_of = ROOT
+				create_unit = {
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = NEC
+					#prioritize_location = 4518
+					allow_spawning_on_enemy_provs = yes
+				}
 			}
 		}
 		ai_will_do = {
