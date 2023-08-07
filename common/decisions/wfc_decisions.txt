@@ -3970,13 +3970,136 @@ wfc_machine_war_category = {
 }
 
 wfc_category_preparing_a_coup = {
-	wfc_decision_coup = {
-		#name = wfc_create_puppet_decision.t
-		available = {
-			is_puppet = no
-			var:wfc_var_target_coup = {
-				is_ai = yes
+	wfc_decision_bribe_the_generals = {
+		icon = GFX_decision_generic_political_discourse
+		cost = 50
+		fire_only_once = no
+		#days_re_enable = 30
+		days_remove = 30
+		priority = 3
+		fixed_random_seed = no
+		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_bribe_the_generals
 			}
+		}
+		available = {
+			network_strength = {
+				target = var:wfc_var_target_coup
+				value > 50
+			}
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			set_country_flag = wfc_flag_bribe_the_generals
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+	wfc_decision_bribe_the_admirals = {
+		icon = GFX_decision_generic_political_discourse
+		cost = 50
+		fire_only_once = no
+		#days_re_enable = 30
+		days_remove = 30
+		priority = 3
+		fixed_random_seed = no
+		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_bribe_the_admirals
+			}
+		}
+		available = {
+			network_strength = {
+				target = var:wfc_var_target_coup
+				value > 50
+			}
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			set_country_flag = wfc_flag_bribe_the_admirals
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+	wfc_decision_bribe_intelligence_officers = {
+		icon = GFX_decision_generic_political_discourse
+		cost = 50
+		fire_only_once = no
+		#days_re_enable = 30
+		days_remove = 30
+		priority = 3
+		fixed_random_seed = no
+		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_bribe_intelligence_officers
+			}
+		}
+		available = {
+			network_strength = {
+				target = var:wfc_var_target_coup
+				value > 50
+			}
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			set_country_flag = wfc_flag_bribe_intelligence_officers
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+	wfc_decision_bribe_officials = {
+		icon = GFX_decision_generic_political_discourse
+		cost = 50
+		fire_only_once = no
+		#days_re_enable = 30
+		days_remove = 30
+		priority = 3
+		fixed_random_seed = no
+		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_bribe_officials
+			}
+		}
+		available = {
+			network_strength = {
+				target = var:wfc_var_target_coup
+				value > 50
+			}
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			set_country_flag = wfc_flag_bribe_officials
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+	wfc_decision_coup = {
+		available = {
+			network_strength = {
+				target = var:wfc_var_target_coup
+				value > 50
+			}
+			has_country_flag = wfc_flag_bribe_the_generals
+			has_country_flag = wfc_flag_bribe_the_admirals
+			has_country_flag = wfc_flag_bribe_intelligence_officers
+			has_country_flag = wfc_flag_bribe_officials
 		}
 		fire_only_once = no
 		cost = 100
@@ -4084,6 +4207,10 @@ wfc_category_preparing_a_coup = {
 				}
 			}
 			clr_country_flag = wfc_flag_preparing_a_coup
+			clr_country_flag = wfc_flag_bribe_the_generals
+			clr_country_flag = wfc_flag_bribe_the_admirals
+			clr_country_flag = wfc_flag_bribe_intelligence_officers
+			clr_country_flag = wfc_flag_bribe_officials
 		}
 	}
 }

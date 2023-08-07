@@ -19,6 +19,7 @@ scripted_diplomatic_actions = {
 		}
 		selectable = {
 			ROOT = {
+				is_puppet = no
 				has_intelligence_agency = yes
 				NOT = {
 					has_country_flag = wfc_flag_preparing_a_coup

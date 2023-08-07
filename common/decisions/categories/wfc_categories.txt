@@ -307,6 +307,7 @@ wfc_category_preparing_a_coup = {
 		}
 	}
 	visible = {
+		is_puppet = no
 		has_country_flag = wfc_flag_preparing_a_coup
 	}
 }
