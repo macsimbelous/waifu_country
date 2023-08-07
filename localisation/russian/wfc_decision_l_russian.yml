@@ -397,3 +397,7 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
 #test
  wfc_test_category:0 "Тестовая категория"
  #wfc_test_create_colab: "[ACW_fiona_frost.GetName]"
+
+
+wfc_category_preparing_a_coup: "Переворот в государстве §Y[?wfc_var_target_coup.GetName]§!"
+wfc_decision_coup: "Начать переворот"

@@ -1,0 +1,95 @@
+scripted_diplomatic_actions = {
+	wfc_diplomatic_action_preparing_a_coup = {
+		allowed = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MMS
+					original_tag = MEH
+					original_tag = NEC
+					#original_tag = ZMB
+				}
+			}
+		}
+		selectable = {
+			ROOT = {
+				has_intelligence_agency = yes
+				NOT = {
+					has_country_flag = wfc_flag_preparing_a_coup
+				}
+			}
+			is_ai = yes
+		}
+		requires_acceptance = no
+		cost = 100
+		command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			ROOT = {
+				set_country_flag = wfc_flag_preparing_a_coup
+				set_variable = {
+					wfc_var_target_coup = PREV.id
+				}
+			}
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = wfc_diplomatic_action_preparing_a_coup_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = wfc_diplomatic_action_preparing_a_coup_receive		
+		accept_title = wfc_diplomatic_action_preparing_a_coup_accept
+		accept_description = wfc_diplomatic_action_preparing_a_coup_accept_desc
+		reject_title = wfc_diplomatic_action_preparing_a_coup_reject
+		reject_description = wfc_diplomatic_action_preparing_a_coup_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = -1
+		}
+	}
+}

@@ -3579,6 +3579,7 @@ wfc_puppets_category = {
 									original_tag = TRP
 									original_tag = MMS
 									original_tag = MEH
+									original_tag = NEC
 								}
 							}
 							wfc_change_country_leader = yes
@@ -3964,6 +3965,125 @@ wfc_machine_war_category = {
 			}
 			news_event = wfc_news.8
 			set_country_flag = wfc_usa_declare_war_meh
+		}
+	}
+}
+
+wfc_category_preparing_a_coup = {
+	wfc_decision_coup = {
+		#name = wfc_create_puppet_decision.t
+		available = {
+			is_puppet = no
+			var:wfc_var_target_coup = {
+				is_ai = yes
+			}
+		}
+		fire_only_once = no
+		cost = 100
+		#days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				90 = {
+					puppet = var:wfc_var_target_coup
+					var:wfc_var_target_coup = {
+						if = {
+							limit = {
+								NOT = {
+									original_tag = ACW
+									original_tag = HEN
+									original_tag = MAH
+									original_tag = TRP
+									original_tag = MMS
+									original_tag = MEH
+									original_tag = NEC
+								}
+							}
+							wfc_change_country_leader = yes
+						}
+					}
+					add_named_threat = {
+						threat = 5
+						name = wfc_create_puppet_threat
+					}
+					set_variable = {
+						wfc_target_puppet = wfc_var_target_coup
+					}
+					country_event = wfc_event.6
+				}
+				10 = {
+					if = {
+						limit = {
+							var:wfc_var_target_coup = {
+								OR = {
+									is_puppet = yes
+									is_subject = yes
+								}
+							}
+						}
+						if = {
+							limit = {
+								var:wfc_var_target_coup = {
+									OVERLORD = {
+										has_government = fascism
+									}
+								}
+							}
+							var:wfc_var_target_coup = {
+								OVERLORD = {
+									create_wargoal = {
+										target = ROOT
+										type = annex_everything
+									}
+								}
+							}
+						}
+						else = {
+							var:wfc_var_target_coup = {
+								OVERLORD = {
+									create_wargoal = {
+										target = ROOT
+										type = puppet_wargoal_focus
+									}
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = {
+								var:wfc_var_target_coup = {
+									has_government = fascism
+								}
+							}
+							var:wfc_var_target_coup = {
+								create_wargoal = {
+									target = ROOT
+									type = annex_everything
+								}
+							}
+						}
+						else = {
+							var:wfc_var_target_coup = {
+								create_wargoal = {
+									target = ROOT
+									type = puppet_wargoal_focus
+								}
+							}
+						}
+					}
+					var:wfc_var_target_coup = {
+						add_opinion_modifier = {
+							target = ROOT
+							modifier = medium_decrease
+						}
+					}
+					set_variable = {
+						wfc_target_puppet = wfc_var_target_coup
+					}
+					country_event = wfc_event.7
+				}
+			}
+			clr_country_flag = wfc_flag_preparing_a_coup
 		}
 	}
 }
