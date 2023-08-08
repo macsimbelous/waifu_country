@@ -4012,6 +4012,11 @@ wfc_category_preparing_a_coup = {
 			NOT = {
 				has_country_flag = wfc_flag_bribe_the_admirals
 			}
+			var:wfc_var_target_coup = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+			}
 		}
 		available = {
 			network_strength = {
@@ -4042,6 +4047,7 @@ wfc_category_preparing_a_coup = {
 			NOT = {
 				has_country_flag = wfc_flag_bribe_intelligence_officers
 			}
+			has_intelligence_agency = yes
 		}
 		available = {
 			network_strength = {
@@ -4090,6 +4096,155 @@ wfc_category_preparing_a_coup = {
 			base = 1
 		}
 	}
+	wfc_decision_create_weapon_caches = {
+		icon = GFX_decision_generic_industry
+		cost = 100
+		fire_only_once = no
+		#days_re_enable = 30
+		days_remove = 30
+		priority = 3
+		fixed_random_seed = no
+		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_create_weapon_caches
+			}
+		}
+		available = {
+			network_strength = {
+				target = var:wfc_var_target_coup
+				value > 50
+			}
+			has_country_flag = wfc_flag_bribe_the_generals
+			if = {
+				limit = {
+					var:wfc_var_target_coup = {
+						any_owned_state = {
+							is_coastal = yes
+						}
+					}
+				}
+				has_country_flag = wfc_flag_bribe_the_admirals
+			}
+			if = {
+				limit = {
+					has_intelligence_agency = yes
+				}
+				has_country_flag = wfc_flag_bribe_intelligence_officers
+			}
+			has_country_flag = wfc_flag_bribe_officials
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			set_country_flag = wfc_flag_create_weapon_caches
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+	wfc_decision_discredit_the_government = {
+		icon = GFX_decision_generic_political_discourse
+		cost = 100
+		fire_only_once = no
+		#days_re_enable = 30
+		days_remove = 30
+		priority = 3
+		fixed_random_seed = no
+		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_discredit_the_government
+			}
+		}
+		available = {
+			network_strength = {
+				target = var:wfc_var_target_coup
+				value > 50
+			}
+			has_country_flag = wfc_flag_bribe_the_generals
+			if = {
+				limit = {
+					var:wfc_var_target_coup = {
+						any_owned_state = {
+							is_coastal = yes
+						}
+					}
+				}
+				has_country_flag = wfc_flag_bribe_the_admirals
+			}
+			if = {
+				limit = {
+					has_intelligence_agency = yes
+				}
+				has_country_flag = wfc_flag_bribe_intelligence_officers
+			}
+			has_country_flag = wfc_flag_bribe_officials
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			set_country_flag = wfc_flag_discredit_the_government
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+	wfc_decision_plan_the_assassination_of_the_head_of_state = {
+		icon = GFX_decision_generic_political_discourse
+		#cost = 50
+		custom_cost_trigger = {
+			has_political_power > 99
+			command_power > 9
+		}
+		custom_cost_text = decision_cost_CP_25_pp_75
+		fire_only_once = no
+		#days_re_enable = 30
+		days_remove = 30
+		priority = 3
+		fixed_random_seed = no
+		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
+			}
+		}
+		available = {
+			network_strength = {
+				target = var:wfc_var_target_coup
+				value > 50
+			}
+			has_country_flag = wfc_flag_bribe_the_generals
+			if = {
+				limit = {
+					var:wfc_var_target_coup = {
+						any_owned_state = {
+							is_coastal = yes
+						}
+					}
+				}
+				has_country_flag = wfc_flag_bribe_the_admirals
+			}
+			if = {
+				limit = {
+					has_intelligence_agency = yes
+				}
+				has_country_flag = wfc_flag_bribe_intelligence_officers
+			}
+			has_country_flag = wfc_flag_bribe_officials
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			set_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
 	wfc_decision_coup = {
 		available = {
 			network_strength = {
@@ -4097,12 +4252,29 @@ wfc_category_preparing_a_coup = {
 				value > 50
 			}
 			has_country_flag = wfc_flag_bribe_the_generals
-			has_country_flag = wfc_flag_bribe_the_admirals
-			has_country_flag = wfc_flag_bribe_intelligence_officers
+			if = {
+				limit = {
+					var:wfc_var_target_coup = {
+						any_owned_state = {
+							is_coastal = yes
+						}
+					}
+				}
+				has_country_flag = wfc_flag_bribe_the_admirals
+			}
+			if = {
+				limit = {
+					has_intelligence_agency = yes
+				}
+				has_country_flag = wfc_flag_bribe_intelligence_officers
+			}
 			has_country_flag = wfc_flag_bribe_officials
+			has_country_flag = wfc_flag_create_weapon_caches
+			has_country_flag = wfc_flag_discredit_the_government
+			has_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
 		}
 		fire_only_once = no
-		cost = 100
+		cost = 0
 		#days_re_enable = 180
 		complete_effect = {
 			random_list = {
@@ -4211,6 +4383,9 @@ wfc_category_preparing_a_coup = {
 			clr_country_flag = wfc_flag_bribe_the_admirals
 			clr_country_flag = wfc_flag_bribe_intelligence_officers
 			clr_country_flag = wfc_flag_bribe_officials
+			clr_country_flag = wfc_flag_create_weapon_caches
+			clr_country_flag = wfc_flag_discredit_the_government
+			clr_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
 		}
 	}
 }
