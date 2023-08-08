@@ -3995,6 +3995,10 @@ wfc_category_preparing_a_coup = {
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_bribe_the_generals
+			add_collaboration = {
+				target = var:wfc_var_target_coup
+				value = 0.1
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -4030,6 +4034,10 @@ wfc_category_preparing_a_coup = {
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_bribe_the_admirals
+			add_collaboration = {
+				target = var:wfc_var_target_coup
+				value = 0.1
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -4061,6 +4069,10 @@ wfc_category_preparing_a_coup = {
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_bribe_intelligence_officers
+			add_collaboration = {
+				target = var:wfc_var_target_coup
+				value = 0.1
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -4091,6 +4103,10 @@ wfc_category_preparing_a_coup = {
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_bribe_officials
+			add_collaboration = {
+				target = var:wfc_var_target_coup
+				value = 0.1
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -4133,12 +4149,23 @@ wfc_category_preparing_a_coup = {
 			}
 			has_country_flag = wfc_flag_bribe_officials
 			num_of_civilian_factories_available_for_projects > 4
+			has_equipment = {
+				infantry_equipment > 1999
+			}
 		}
 		modifier = {
 			civilian_factory_use = 5
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_create_weapon_caches
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -2000
+			}
+			add_collaboration = {
+				target = var:wfc_var_target_coup
+				value = 0.1
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -4187,6 +4214,10 @@ wfc_category_preparing_a_coup = {
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_discredit_the_government
+			add_collaboration = {
+				target = var:wfc_var_target_coup
+				value = 0.1
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -4240,6 +4271,10 @@ wfc_category_preparing_a_coup = {
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
+			add_collaboration = {
+				target = var:wfc_var_target_coup
+				value = 0.1
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -4279,6 +4314,13 @@ wfc_category_preparing_a_coup = {
 		complete_effect = {
 			random_list = {
 				90 = {
+					modifier = {
+						network_strength = {
+							target = var:wfc_var_target_coup
+							value > 99
+						}
+						factor = 10
+					}
 					puppet = var:wfc_var_target_coup
 					var:wfc_var_target_coup = {
 						if = {

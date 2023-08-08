@@ -131,6 +131,17 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_develop_chromium_deposits_in_puppet:0 "Разработать месторождения хрома в регионе §G[FROM.GetName]§! субъекта §B[FROM.OWNER.GetName]§!"
  wfc_develop_tungsten_deposits_in_puppet:0 "Разработать месторождения вольфрама в регионе §G[FROM.GetName]§! субъекта §B[FROM.OWNER.GetName]§!"
 
+#wfc_category_preparing_a_coup
+ wfc_category_preparing_a_coup: "Переворот в государстве §Y[?wfc_var_target_coup.GetName]§!"
+ wfc_decision_bribe_the_generals: "Подкупить генералов"
+ wfc_decision_bribe_the_admirals: "Подкупить адмиралов"
+ wfc_decision_bribe_intelligence_officers: "Подкупить офицеров разведки"
+ wfc_decision_bribe_officials: "Подкупить чиновников"
+ wfc_decision_create_weapon_caches: "Создать тайники с оружием"
+ wfc_decision_discredit_the_government: "Дескридитировать правительство"
+ wfc_decision_plan_the_assassination_of_the_head_of_state: "Спланировать убийство главы государства"
+ wfc_decision_coup: "Начать переворот"
+
 #wfc_puppets_category
  wfc_puppets_category:0 "Подчинение слабых стран"
  wfc_create_intelligence_agency_decision:0 "Создать разведовательное агенство"
@@ -398,6 +409,3 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_test_category:0 "Тестовая категория"
  #wfc_test_create_colab: "[ACW_fiona_frost.GetName]"
 
-
-wfc_category_preparing_a_coup: "Переворот в государстве §Y[?wfc_var_target_coup.GetName]§!"
-wfc_decision_coup: "Начать переворот"

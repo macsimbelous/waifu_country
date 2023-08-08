@@ -123,6 +123,17 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_develop_chromium_deposits_in_puppet:0 "Mining chromium deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
  wfc_develop_tungsten_deposits_in_puppet:0 "Mining tungsten deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
 
+#wfc_category_preparing_a_coup
+ wfc_category_preparing_a_coup: "Coup in §Y[?wfc_var_target_coup.GetName]§!"
+ wfc_decision_bribe_the_generals: "Bribe the Generals"
+ wfc_decision_bribe_the_admirals: "Bribe the Admirals"
+ wfc_decision_bribe_intelligence_officers: "Bribe Intelligence Officers"
+ wfc_decision_bribe_officials: "Bribe Officials"
+ wfc_decision_create_weapon_caches: "Create Weapon Caches"
+ wfc_decision_discredit_the_government: "Discredit Government"
+ wfc_decision_plan_the_assassination_of_the_head_of_state: "Plan to Assassinate the Head of State"
+ wfc_decision_coup: "Start Coup"
+
 #wfc_puppets_category
  wfc_puppets_category:0 "Submission of weak countries"
  wfc_create_intelligence_agency_decision:0 "Create an intelligence agency"
