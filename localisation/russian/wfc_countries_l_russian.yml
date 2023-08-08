@@ -203,6 +203,9 @@
 #Effects
  wfc_instantiate_province_tt:0 "Будет сформирована провинция §Y[?country_to_initiate.GetName]§!"
 
+#DA
+ wfc_diplomatic_action_preparing_a_coup: "Подготовить переворот"
+
 #autonomies
 ACW_wfc_autonomy_province:0 "Провинция $ACW$"
 HEN_wfc_autonomy_province:0 "Провинция $HEN$"
