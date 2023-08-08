@@ -29,7 +29,7 @@ scripted_diplomatic_actions = {
 		}
 		requires_acceptance = no
 		cost = 100
-		command_power = 10
+		#command_power = 10
 		# cost_string = loc_key 
 		# show_acceptance_on_action_button = yes 
 		icon = 1

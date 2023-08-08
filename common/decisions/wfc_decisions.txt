@@ -4214,6 +4214,10 @@ wfc_category_preparing_a_coup = {
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_discredit_the_government
+			var:wfc_var_target_coup = {
+				add_stability = -0.1
+				add_political_power = -100
+			}
 			add_collaboration = {
 				target = var:wfc_var_target_coup
 				value = 0.1
