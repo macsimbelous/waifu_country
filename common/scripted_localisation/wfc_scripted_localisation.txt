@@ -1,36 +1,173 @@
 defined_text = {
-    name = wfc_sl_integration_category
-    text = {
-        trigger = {
-            tag = HEN
-        }
-        localization_key = wfc_hen_integration_category
-    }
-    text = {
-        localization_key = wfc_def_integration_category
-    }
+	name = wfc_sl_integration_category
+	text = {
+		trigger = {
+			tag = HEN
+		}
+		localization_key = wfc_hen_integration_category
+	}
+	text = {
+		localization_key = wfc_def_integration_category
+	}
 }
+
 defined_text = {
-    name = wfc_sl_integration_decision
-    text = {
-        trigger = {
-            tag = HEN
-        }
-        localization_key = wfc_hen_integration_decision
-    }
-    text = {
-        localization_key = wfc_def_integration_decision
-    }
+	name = wfc_sl_integration_decision
+	text = {
+		trigger = {
+			tag = HEN
+		}
+		localization_key = wfc_hen_integration_decision
+	}
+	text = {
+		localization_key = wfc_def_integration_decision
+	}
 }
+
 defined_text = {
-    name = wfc_sl_integration_decision_desc
-    text = {
-        trigger = {
-            tag = HEN
-        }
-        localization_key = wfc_hen_integration_decision_desc
-    }
-    text = {
-        localization_key = wfc_def_integration_decision_desc
-    }
+	name = wfc_sl_integration_decision_desc
+	text = {
+		trigger = {
+			tag = HEN
+		}
+		localization_key = wfc_hen_integration_decision_desc
+	}
+	text = {
+		localization_key = wfc_def_integration_decision_desc
+	}
+}
+
+defined_text = {
+	name = wfc_sl_flag_bribe_the_generals
+	text = {
+		trigger = {
+			has_country_flag = wfc_flag_bribe_the_generals
+		}
+		localization_key = wfc_sl_flag_bribe_the_generals_yes
+	}
+	text = {
+		localization_key = wfc_sl_flag_bribe_the_generals_no
+	}
+}
+
+defined_text = {
+	name = wfc_sl_flag_bribe_the_admirals
+	text = {
+		trigger = {
+			var:wfc_var_target_coup = {
+				any_owned_state = {
+					is_coastal = no
+				}
+			}
+		}
+		localization_key = wfc_sl_flag_bribe_the_admirals_absent
+	}
+	text = {
+		trigger = {
+			var:wfc_var_target_coup = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+			}
+			has_country_flag = wfc_flag_bribe_the_admirals
+		}
+		localization_key = wfc_sl_flag_bribe_the_admirals_yes
+	}
+	text = {
+		trigger = {
+			var:wfc_var_target_coup = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+			}
+			NOT = {
+				has_country_flag = wfc_flag_bribe_the_admirals
+			}
+		}
+		localization_key = wfc_sl_flag_bribe_the_admirals_no
+	}
+}
+
+defined_text = {
+	name = wfc_sl_flag_bribe_intelligence_officers
+	text = {
+		trigger = {
+			var:wfc_var_target_coup = {
+				has_intelligence_agency = no
+			}
+		}
+		localization_key = wfc_sl_flag_bribe_intelligence_officers_absent
+	}
+	text = {
+		trigger = {
+			var:wfc_var_target_coup = {
+				has_intelligence_agency = yes
+			}
+			has_country_flag = wfc_flag_bribe_intelligence_officers
+		}
+		localization_key = wfc_sl_flag_bribe_intelligence_officers_yes
+	}
+	text = {
+		trigger = {
+			var:wfc_var_target_coup = {
+				has_intelligence_agency = yes
+			}
+			NOT = {
+				has_country_flag = wfc_flag_bribe_intelligence_officers
+			}
+		}
+		localization_key = wfc_sl_flag_bribe_intelligence_officers_no
+	}
+}
+
+defined_text = {
+	name = wfc_sl_flag_bribe_officials
+	text = {
+		trigger = {
+			has_country_flag = wfc_flag_bribe_officials
+		}
+		localization_key = wfc_sl_flag_bribe_officials_yes
+	}
+	text = {
+		localization_key = wfc_sl_flag_bribe_officials_no
+	}
+}
+
+defined_text = {
+	name = wfc_sl_flag_create_weapon_caches
+	text = {
+		trigger = {
+			has_country_flag = wfc_flag_create_weapon_caches
+		}
+		localization_key = wfc_sl_flag_create_weapon_caches_yes
+	}
+	text = {
+		localization_key = wfc_sl_flag_create_weapon_caches_no
+	}
+}
+
+defined_text = {
+	name = wfc_sl_flag_discredit_the_government
+	text = {
+		trigger = {
+			has_country_flag = wfc_flag_discredit_the_government
+		}
+		localization_key = wfc_sl_flag_discredit_the_government_yes
+	}
+	text = {
+		localization_key = wfc_sl_flag_discredit_the_government_no
+	}
+}
+
+defined_text = {
+	name = wfc_sl_flag_plan_the_assassination_of_the_head_of_state
+	text = {
+		trigger = {
+			has_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
+		}
+		localization_key = wfc_sl_flag_plan_the_assassination_of_the_head_of_state_yes
+	}
+	text = {
+		localization_key = wfc_sl_flag_plan_the_assassination_of_the_head_of_state_no
+	}
 }

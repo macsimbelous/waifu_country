@@ -205,7 +205,9 @@
 
 #DA
  WFC_DIPLOMATIC_ACTION_PREPARING_A_COUP_TITLE: "Подготовить переворот"
- WFC_DIPLOMATIC_ACTION_PREPARING_A_COUP_ACTION_DESC: "Подготовить переворот"
+ WFC_DIPLOMATIC_ACTION_PREPARING_A_COUP_ACTION_DESC: "Будет начата подготовка к перевороту в этом государстве."
+ wfc_diplomatic_action_preparing_a_coup_send: "Совершив переворот мы сможем привести к власти в §Y[THIS.GetName]§! нашу марионетку."
+ wfc_flag_preparing_a_coup: "Готовится переворот"
 
 #autonomies
 ACW_wfc_autonomy_province:0 "Провинция $ACW$"

@@ -187,6 +187,7 @@ wfc_puppets_category = {
 	picture = GFX_decision_cat_picture_chi_political_support
 	priority = 9
 	allowed = {
+		always = no
 		OR = {
 			original_tag = ACW
 			original_tag = HEN
@@ -292,7 +293,7 @@ wfc_machine_war_category = {
 
 wfc_category_preparing_a_coup = {
 	icon = generic_independence
-	picture = GFX_decision_cat_picture_chi_political_support
+	#picture = GFX_decision_cat_picture_chi_political_support
 	priority = 9
 	allowed = {
 		OR = {
