@@ -208,16 +208,17 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
  acw_festival_in_states_decision:0 "The festival of Idols §Y[FROM.GetName]§!"
  acw_festival_in_states_tt:0 "No active festivals"
 
-#acw_faction_category
-acw_faction_category:0 "Alliance §GMighty Waifu§!"
-acw_create_faction:0 "Create alliance §GMighty Waifu§!"
-acw_invite_hen_faction:0 "To invite §Y[HEN.GetNameDef]§!"
-acw_invite_mah_faction:0 "To invite §Y[MAH.GetNameDef]§!"
-acw_invite_meh_faction:0 "To invite §Y[MEH.GetNameDef]§!"
-acw_invite_mms_faction:0 "To invite §Y[MMS.GetNameDef]§!"
-acw_invite_trp_faction:0 "To invite §Y[TRP.GetNameDef]§!"
-acw_economic_assistance_to_faction_members:0 "Economic aid to §Y[FROM.GetNameDef]§!"
-acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will help our allies to survive the hardships of the war more easily."
+ #acw_faction_category
+  acw_faction_category:0 "Alliance §GMighty Waifu§!"
+  acw_create_faction:0 "Create alliance §GMighty Waifu§!"
+  acw_invite_hen_faction:0 "To invite §Y[HEN.GetNameDef]§!"
+  acw_invite_mah_faction:0 "To invite §Y[MAH.GetNameDef]§!"
+  acw_invite_meh_faction:0 "To invite §Y[MEH.GetNameDef]§!"
+  acw_invite_mms_faction:0 "To invite §Y[MMS.GetNameDef]§!"
+  acw_invite_trp_faction:0 "To invite §Y[TRP.GetNameDef]§!"
+  acw_invite_nec_faction: "To invite §Y[NEC.GetNameDef]§!"
+  acw_economic_assistance_to_faction_members:0 "Economic aid to §Y[FROM.GetNameDef]§!"
+  acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will help our allies to survive the hardships of the war more easily."
 
 #acw_create_great_animeland_category
  acw_create_great_animeland_category:0 "§YThe Great Animeland§!"

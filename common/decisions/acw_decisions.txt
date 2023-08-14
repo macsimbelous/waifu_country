@@ -841,7 +841,7 @@ acw_faction_category = {
 		ai_will_do = {
 			base = 2
 			modifier = {
-				HEN = {
+				MAH = {
 					has_opinion = {
 						target = ROOT
 						value > 49
@@ -886,7 +886,7 @@ acw_faction_category = {
 		ai_will_do = {
 			base = 2
 			modifier = {
-				HEN = {
+				MEH = {
 					has_opinion = {
 						target = ROOT
 						value > 49
@@ -931,7 +931,7 @@ acw_faction_category = {
 		ai_will_do = {
 			base = 2
 			modifier = {
-				HEN = {
+				MMS = {
 					has_opinion = {
 						target = ROOT
 						value > 49
@@ -976,7 +976,7 @@ acw_faction_category = {
 		ai_will_do = {
 			base = 2
 			modifier = {
-				HEN = {
+				TRP = {
 					has_opinion = {
 						target = ROOT
 						value > 49
@@ -995,6 +995,49 @@ acw_faction_category = {
 		complete_effect = {
 			#add_to_faction = TRP
 			TRP = {
+				country_event = acw_event.13
+			}
+		}
+	}
+	acw_invite_nec_faction = {
+		visible = {
+			is_faction_leader = yes
+			NOT = {
+				is_in_faction_with = NEC
+			}
+		}
+		available = {
+			NOT = {
+				has_war_with = NEC
+			}
+			NEC = {
+				exists = yes
+				has_same_ideology = yes
+				has_capitulated = no
+			}
+		}
+		ai_will_do = {
+			base = 2
+			modifier = {
+				NEC = {
+					has_opinion = {
+						target = ROOT
+						value > 49
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				is_major = yes
+				add = 10
+			}
+		}
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 365
+		complete_effect = {
+			#add_to_faction = TRP
+			NEC = {
 				country_event = acw_event.13
 			}
 		}
