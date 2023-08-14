@@ -1188,6 +1188,7 @@ shared_focus = {
 		wfc_add_arms_factory_in_random_state = yes
 	}
 }
+
 shared_focus = {
 	id = wfc_focus_synthetic_refinery
 	icon = GFX_focus_generic_rubber
@@ -1224,6 +1225,7 @@ shared_focus = {
 		}
 	}
 }
+
 shared_focus = {
 	id = wfc_infrastructure_effort_2
 	icon = GFX_goal_generic_construct_infrastructure
@@ -2203,15 +2205,8 @@ shared_focus = {
 	available_if_capitulated = yes
 	completion_reward = {
 		add_ideas = ideological_fanaticism_focus
-		if = {
-			limit = {
-				NOT = {
-					original_tag = NEC
-				}
-			}
-			set_rule = {
-				can_create_factions = yes
-			}
+		set_rule = {
+			can_create_factions = yes
 		}
 		hidden_effect = {
 			set_rule = {

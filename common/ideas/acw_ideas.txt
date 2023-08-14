@@ -113,6 +113,7 @@ ideas = {
 				#naval_doctrine_cost_factor = -0.05
 				supply_factor = 0.15
 				production_speed_supply_node_factor = 0.15
+				grant_medal_cost_factor = -0.5
 			}
 		}
 		acw_tax_on_childlessness_idea = {

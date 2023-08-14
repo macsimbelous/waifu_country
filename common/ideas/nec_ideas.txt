@@ -33,9 +33,9 @@ ideas = {
 				foreign_subversive_activites = -0.5
 			}
 			rule = {
-				can_create_factions = no
+				#can_create_factions = no
 				can_force_government = no
-				can_join_factions = no
+				#can_join_factions = no
 				can_puppet = no
 			}
 		}
@@ -55,6 +55,7 @@ ideas = {
 				terrain_penalty_reduction = 0.2
 				supply_consumption_factor = -0.2
 				training_time_army_factor = -0.2
+				grant_medal_cost_factor = -0.5
 			}
 		}
 	}

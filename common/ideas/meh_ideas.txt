@@ -193,6 +193,7 @@ ideas = {
 				experience_gain_navy_factor = 0.1
 				war_support_factor = 0.1
 				special_forces_cap = 0.02
+				grant_medal_cost_factor = -0.5
 			}
 		}
 		meh_warmind_agr = {

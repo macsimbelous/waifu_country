@@ -26,6 +26,7 @@ ideas = {
 				compliance_growth = 0.25
 				#terrain_penalty_reduction = 0.3
 				#supply_consumption_factor = -0.3
+				grant_medal_cost_factor = -0.5
 			}
 		}
 		# mah_britain_refused_idea = {

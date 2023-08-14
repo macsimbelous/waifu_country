@@ -123,7 +123,7 @@ ideas = {
 				command_power_gain_mult = 0.15
 				army_leader_cost_factor = -0.5
 				army_leader_start_level = 2
-				grant_medal_cost_factor = -0.2
+				grant_medal_cost_factor = -0.5
 			}
 		}
 		hen_idea_preparation_for_war = {
