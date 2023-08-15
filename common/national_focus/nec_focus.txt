@@ -255,12 +255,29 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = nec_focus_the_world_of_the_dead
+		icon = GFX_goal_generic_CAS
+		x = 15
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
 		id = nec_focus_expansion_of_the_railway_network
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
-			focus = nec_focus_necrification_of_the_population
+			focus = nec_focus_the_world_of_the_dead
 		}
-		relative_position_id = nec_focus_necrification_of_the_population
+		relative_position_id = nec_focus_the_world_of_the_dead
 		x = 0
 		y = 1
 		cost = 10
@@ -395,7 +412,7 @@ focus_tree = {
 	}
 	focus = {
 		id = nec_focus_conquest_of_chi
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_attack_china
 		relative_position_id = nec_focus_expansion_of_the_railway_network
 		x = 0
 		y = 2
@@ -432,6 +449,379 @@ focus_tree = {
 			}
 			create_wargoal = {
 				target = CHI
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_yun
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_chi
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_chi
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 601
+			controls_state = 752
+			controls_state = 751
+			controls_state = 603
+		}
+		completion_reward = {
+			YUN = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = YUN
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_gxc
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_chi
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_chi
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 595
+			controls_state = 600
+			controls_state = 602
+			controls_state = 603
+		}
+		completion_reward = {
+			GXC = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = GXC
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_prc
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_chi
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_chi
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 616
+			controls_state = 283
+			controls_state = 744
+		}
+		completion_reward = {
+			add_state_claim = 622
+			hidden_effect = {
+				PRC = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = PRC
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_shx
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_prc
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_prc
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 756
+			controls_state = 616
+			controls_state = 622
+			controls_state = 607
+			controls_state = 614
+			controls_state = 608
+		}
+		completion_reward = {
+			add_state_claim = 621
+			add_state_claim = 746
+			add_state_claim = 615
+			hidden_effect = {
+				SHX = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = SHX
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_raj
+		icon = GFX_focus_attack_india
+		relative_position_id = nec_focus_expansion_of_the_railway_network
+		x = 5
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_expansion_of_the_railway_network
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			if = {
+				limit = {
+					has_war = yes
+				}
+				has_army_manpower = {
+					size > 499999
+				}
+			}
+			else = {
+				has_army_manpower = {
+					size > 699999
+				}
+			}
+		}
+		completion_reward = {
+			RAJ = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = RAJ
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_pak
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_raj
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_raj
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			if = {
+				limit = {
+					has_war = yes
+				}
+				has_army_manpower = {
+					size > 699999
+				}
+			}
+			else = {
+				has_army_manpower = {
+					size > 999999
+				}
+			}
+		}
+		completion_reward = {
+			PAK = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = PAK
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_afg
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_pak
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_pak
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 442
+			controls_state = 444
+			controls_state = 445
+		}
+		completion_reward = {
+			add_state_claim = 267
+			add_state_claim = 415
+			# AFG = {
+			# 	every_owned_state = {
+			# 		add_claim_by = ROOT
+			# 	}
+			# }
+			create_wargoal = {
+				target = AFG
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_mms
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_pak
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_pak
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 444
+		}
+		completion_reward = {
+			add_state_claim = 410
+			add_state_claim = 412
+			add_state_claim = 414
+			# MMS = {
+			# 	every_owned_state = {
+			# 		add_claim_by = ROOT
+			# 	}
+			# }
+			create_wargoal = {
+				target = MMS
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_per
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_pak
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_afg
+		}
+		prerequisite = {
+			focus = nec_focus_conquest_of_mms
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 412
+			controls_state = 414
+			controls_state = 415
+		}
+		completion_reward = {
+			MAH = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = MAH
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_mah
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_per
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_per
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 419
+			controls_state = 421
+			controls_state = 413
+		}
+		completion_reward = {
+			add_state_claim = 411
+			add_state_claim = 413
+			add_state_claim = 416
+			add_state_claim = 417
+			add_state_claim = 418
+			add_state_claim = 419
+			add_state_claim = 420
+			add_state_claim = 421
+			add_state_claim = 266
+			create_wargoal = {
+				target = MMS
 				type = annex_everything
 			}
 		}
