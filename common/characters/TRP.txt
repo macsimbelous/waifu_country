@@ -1,5 +1,4 @@
 characters = {
-	#lider
 	TRP_astolfo = {
 		name = TRP_astolfo
 		portraits = {
@@ -164,7 +163,6 @@ characters = {
 			expire = "1965.1.1"
 		}
 	}
-	#marshal
 	TRP_felix_argyle = {
 		name = TRP_felix_argyle
 		portraits = {
@@ -773,7 +771,6 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	#admirals
 	TRP_ranma_saotome = {
 		name = TRP_ranma_saotome
 		portraits = {
@@ -897,7 +894,6 @@ characters = {
 			}
 		}
 	}
-	#advisor
 	TRP_mare_bello_fiore = {
 		name = TRP_mare_bello_fiore
 		portraits = {
@@ -963,6 +959,24 @@ characters = {
 			traits = {
 				head_of_intelligence
 			}
+		}
+	}
+	TRP_kiruko = {
+		name = TRP_kiruko
+		portraits = {
+			army = {
+				small = GFX_idea_trp_kiruko
+				large = GFX_portrait_trp_kiruko_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 }

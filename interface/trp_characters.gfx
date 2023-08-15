@@ -303,6 +303,14 @@ spriteTypes = {
 		name = "GFX_portrait_trp_noma_rune_army"
 		texturefile = "gfx/leaders/TRP/noma_rune_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_kiruko"
+		texturefile = "gfx/leaders/TRP/kiruko_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_kiruko_army"
+		texturefile = "gfx/leaders/TRP/kiruko_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_trp_land_01_small"

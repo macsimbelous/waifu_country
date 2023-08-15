@@ -190,16 +190,15 @@ recruit_character = TRP_shirota_mitsuki
 recruit_character = TRP_tiger_traps
 recruit_character = TRP_jun_hiiragi
 recruit_character = TRP_noma_rune
-#Admirals
 recruit_character = TRP_ranma_saotome
 recruit_character = TRP_hamaji_yakumo
 recruit_character = TRP_taroumaru_seike
 recruit_character = TRP_mariya_shidou
 recruit_character = TRP_russell
-#advisor
 recruit_character = TRP_mare_bello_fiore
 recruit_character = TRP_aoi_futaba
 recruit_character = TRP_aoi_futaba2
+recruit_character = TRP_kiruko
 #agents
 create_operative_leader = {
 	name = "Saki Mizushima"
