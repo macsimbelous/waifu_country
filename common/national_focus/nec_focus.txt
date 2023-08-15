@@ -742,11 +742,13 @@ focus_tree = {
 			add_state_claim = 410
 			add_state_claim = 412
 			add_state_claim = 414
-			# MMS = {
-			# 	every_owned_state = {
-			# 		add_claim_by = ROOT
-			# 	}
-			# }
+			hidden_effect = {
+				MMS = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
 			create_wargoal = {
 				target = MMS
 				type = annex_everything
@@ -778,13 +780,24 @@ focus_tree = {
 			controls_state = 415
 		}
 		completion_reward = {
-			MAH = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			add_state_claim = 411
+			add_state_claim = 413
+			add_state_claim = 416
+			add_state_claim = 417
+			add_state_claim = 418
+			add_state_claim = 419
+			add_state_claim = 420
+			add_state_claim = 421
+			add_state_claim = 266
+			hidden_effect = {
+				PER = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
 				}
 			}
 			create_wargoal = {
-				target = MAH
+				target = PER
 				type = annex_everything
 			}
 		}
@@ -811,17 +824,13 @@ focus_tree = {
 			controls_state = 413
 		}
 		completion_reward = {
-			add_state_claim = 411
-			add_state_claim = 413
-			add_state_claim = 416
-			add_state_claim = 417
-			add_state_claim = 418
-			add_state_claim = 419
-			add_state_claim = 420
-			add_state_claim = 421
-			add_state_claim = 266
+			MAH = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
 			create_wargoal = {
-				target = MMS
+				target = MAH
 				type = annex_everything
 			}
 		}
