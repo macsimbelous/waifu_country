@@ -940,6 +940,7 @@ characters = {
 			slot = high_command
 			idea_token = HEN_Kaname
 			cost = 50
+			ledger = navy
 			allowed = {
 				original_tag = HEN
 			}

@@ -4,15 +4,18 @@ state={
 	provinces={
 		1961 5094 8029 10802 12784 12801 
 	}
-	manpower=1000000
+	manpower=2000000
 	#buildings_max_level_factor=1.000
-	state_category = large_city
+	state_category = metropolis
+	resources = {
+		steel = 9
+	}
 	history={
 		owner = NEC
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 6
+			arms_factory = 3
+			industrial_complex = 7
 			5094 = {
 				supply_node = 1
 			}

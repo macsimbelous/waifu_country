@@ -83,6 +83,62 @@ spriteTypes = {
 		name = "GFX_portrait_nec_cerina_civilian"
 		texturefile = "gfx/leaders/NEC/cerina_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_omicilia"
+		texturefile = "gfx/leaders/NEC/omicilia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_omicilia_civilian"
+		texturefile = "gfx/leaders/NEC/omicilia_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_kunai_zenow"
+		texturefile = "gfx/leaders/NEC/kunai_zenow_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_kunai_zenow_army"
+		texturefile = "gfx/leaders/NEC/kunai_zenow_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_saori_ootori"
+		texturefile = "gfx/leaders/NEC/saori_ootori_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_saori_ootori_civilian"
+		texturefile = "gfx/leaders/NEC/saori_ootori_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_cherno_kryl"
+		texturefile = "gfx/leaders/NEC/cherno_kryl_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_cherno_kryl_air"
+		texturefile = "gfx/leaders/NEC/cherno_kryl_air.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_stevash"
+		texturefile = "gfx/leaders/NEC/stevash_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_stevash_army"
+		texturefile = "gfx/leaders/NEC/stevash_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_niverra"
+		texturefile = "gfx/leaders/NEC/niverra_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_niverra_navy"
+		texturefile = "gfx/leaders/NEC/niverra_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_kroness"
+		texturefile = "gfx/leaders/NEC/kroness_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_kroness_army"
+		texturefile = "gfx/leaders/NEC/kroness_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"

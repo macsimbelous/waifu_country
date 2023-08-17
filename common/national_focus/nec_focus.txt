@@ -838,4 +838,292 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	focus = {
+		id = nec_focus_conquest_of_sov
+		icon = GFX_focus_attack_soviet
+		relative_position_id = nec_focus_expansion_of_the_railway_network
+		x = 8
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_expansion_of_the_railway_network
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 617
+			controls_state = 618
+			controls_state = 619
+			if = {
+				limit = {
+					has_war = yes
+				}
+				has_army_manpower = {
+					size > 699999
+				}
+			}
+			else = {
+				has_army_manpower = {
+					size > 999999
+				}
+			}
+		}
+		completion_reward = {
+			SOV = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = SOV
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_mon
+		icon = GFX_focus_generic_attack_mongolia
+		relative_position_id = nec_focus_conquest_of_sov
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_sov
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			MON = {
+				every_owned_state = {
+					add_claim_by = ROOT
+				}
+			}
+			create_wargoal = {
+				target = MON
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_conquest_of_tan
+		icon = GFX_goal_generic_major_war
+		relative_position_id = nec_focus_conquest_of_mon
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = nec_focus_conquest_of_mon
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			#is_neighbor_of = TAN
+			any_controlled_state = {
+				any_neighbor_state = {
+					is_controlled_by = TAN
+				}
+			}
+		}
+		completion_reward = {
+			add_state_claim = 329
+			create_wargoal = {
+				target = TAN
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = nec_focus_modernization_of_the_capitals_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 20
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			758 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				wfc_urbanize_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = nec_focus_production_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = nec_focus_modernization_of_the_capitals_infrastructure
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = nec_focus_modernization_of_the_capitals_infrastructure
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		complete_tooltip = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			758 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			758 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = nec_focus_construction_effort
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = nec_focus_modernization_of_the_capitals_infrastructure
+		}
+		x = 1
+		y = 1
+		relative_position_id = nec_focus_modernization_of_the_capitals_infrastructure
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		complete_tooltip = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			758 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = nec_focus_modernize_steel_plant
+		icon = GFX_focus_generic_steel
+		relative_position_id = nec_focus_modernization_of_the_capitals_infrastructure
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = nec_focus_production_effort
+		}
+		prerequisite = {
+			focus = nec_focus_construction_effort
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		complete_tooltip = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = excavation_tech
+			}
+			758 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 25
+				}
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = excavation_tech
+			}
+			758 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 25
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
 }

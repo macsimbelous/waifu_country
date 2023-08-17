@@ -16,6 +16,7 @@ characters = {
 				wfc_dictator
 				wfc_tyan_militarist
 				wfc_patron_of_the_military_industrial_complex
+				warmonger
 			}
 			expire = "1999.1.1"
 		}
@@ -72,23 +73,23 @@ characters = {
 			}
 		}
 	}
-	nec_alice_n = {
-		name = nec_alice
+	nec_omicilia = {
+		name = nec_omicilia
 		portraits = {
 			army = {
-				small = GFX_idea_nec_alice
+				small = GFX_idea_nec_omicilia
+				large = GFX_portrait_nec_omicilia_civilian
 			}
 			civilian = {
-				large = GFX_portrait_nec_alice_civilian
+				large = GFX_portrait_nec_omicilia_civilian
 			}
 		}
 		country_leader = {
 			ideology = despotism
 			traits = {
 				wfc_trait_undead
-				wfc_dictator
-				wfc_tyan_militarist
-				wfc_patron_of_the_military_industrial_complex
+				wfc_empress
+				autocratic_imperialist
 			}
 			expire = "1999.1.1"
 		}
@@ -326,7 +327,7 @@ characters = {
 		}
 		advisor = {
 			slot = air_chief
-			#ledger = army
+			ledger = air
 			idea_token = nec_milen_umbra
 			cost = 150
 			traits = {
@@ -360,6 +361,196 @@ characters = {
 			traits = {
 				army_cavalry_1
 			}
+		}
+	}
+	nec_kunai_zenow = {
+		name = nec_kunai_zenow
+		portraits = {
+			army = {
+				small = GFX_idea_nec_kunai_zenow
+				large = GFX_portrait_nec_kunai_zenow_army
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = nec_kunai_zenow
+			cost = 150
+			traits = {
+				blitzkrieg_theorist
+			}
+			modifier = {
+				cat_mobile_warfare_cost_factor = -0.05
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = {
+				offensive_doctrine
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	nec_saori_ootori = {
+		name = nec_saori_ootori
+		portraits = {
+			army = {
+				small = GFX_idea_nec_saori_ootori
+				large = GFX_portrait_nec_saori_ootori_civilian
+			}
+			civilian = {
+				large = GFX_portrait_nec_saori_ootori_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_saori_ootori
+			cost = 150
+			traits = {
+				financial_expert
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	nec_cherno_kryl = {
+		name = nec_cherno_kryl
+		portraits = {
+			army = {
+				small = GFX_idea_nec_cherno_kryl
+				large = GFX_portrait_nec_cherno_kryl_air
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = air
+			idea_token = nec_cherno_kryl
+			cost = 150
+			traits = {
+				air_tactical_bombing_3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	nec_stevash = {
+		name = nec_stevash
+		portraits = {
+			army = {
+				small = GFX_idea_nec_stevash
+				large = GFX_portrait_nec_stevash_army
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = nec_stevash
+			cost = 150
+			traits = {
+				army_infantry_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	nec_niverra = {
+		name = nec_niverra
+		portraits = {
+			navy = {
+				small = GFX_idea_nec_niverra
+				large = GFX_portrait_nec_niverra_navy
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = nec_niverra
+			ledger = navy
+			available = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = wfc_flag_nec_niverra_received
+							}
+						}
+					}
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+			}
+			traits = {
+				navy_chief_decisive_battle_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			on_add = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = wfc_flag_nec_niverra_received
+							}
+						}
+					}
+					nec_niverra = {
+						add_naval_commander_role = {
+							traits = {
+								ironside
+								big_guns_expert
+								marksman
+							}
+							skill = 4
+							attack_skill = 4
+							defense_skill = 4
+							maneuvering_skill = 3
+							coordination_skill = 5
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_nec_niverra_received
+					}
+				}
+			}
+		}
+	}
+	nec_kroness = {
+		name = nec_kroness
+		portraits = {
+			army = {
+				small = GFX_idea_nec_kroness
+				large = GFX_portrait_nec_kroness_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	#Заглушки

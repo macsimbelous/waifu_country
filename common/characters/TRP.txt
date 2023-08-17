@@ -372,7 +372,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			ledger = army
+			ledger = air
 			idea_token = TRP_tama_kyan
 			cost = 150
 			allowed = {
@@ -916,6 +916,24 @@ characters = {
 			}
 		}
 	}
+	TRP_kiruko = {
+		name = TRP_kiruko
+		portraits = {
+			army = {
+				small = GFX_idea_trp_kiruko
+				large = GFX_portrait_trp_kiruko_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	TRP_aoi_futaba = {
 		name = TRP_aoi_futaba
 		portraits = {
@@ -939,6 +957,7 @@ characters = {
 			}
 		}
 	}
+	#Заглушки
 	TRP_aoi_futaba2 = {
 		name = TRP_aoi_futaba
 		portraits = {
@@ -959,24 +978,6 @@ characters = {
 			traits = {
 				head_of_intelligence
 			}
-		}
-	}
-	TRP_kiruko = {
-		name = TRP_kiruko
-		portraits = {
-			army = {
-				small = GFX_idea_trp_kiruko
-				large = GFX_portrait_trp_kiruko_army
-			}
-		}
-		corps_commander = {
-			traits = {
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
 		}
 	}
 }

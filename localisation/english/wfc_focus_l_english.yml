@@ -458,6 +458,13 @@
  nec_focus_conquest_of_mms: "Conquer §R[MMS.GetName]§!"
  nec_focus_conquest_of_per: "Conquer §R[PER.GetName]§!"
  nec_focus_conquest_of_mah: "Conquer §R[MAH.GetName]§!"
+ nec_focus_conquest_of_sov: "Conquer §R[SOV.GetName]§!"
+ nec_focus_conquest_of_mon: "Conquer §R[MON.GetName]§!"
+ nec_focus_conquest_of_tan: "Conquer §R[TAN.GetName]§!"
+ nec_focus_modernization_of_the_capitals_infrastructure: "Modernization of the capital's infrastructure"
+ nec_focus_production_effort: "Expansion of the military-industrial complex"
+ nec_focus_construction_effort: "Development of construction"
+ nec_focus_modernize_steel_plant: "Modernization of steel production"
 
 #Pupet
  wfc_puppet_focus: "Focus puppets"

@@ -613,7 +613,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			ledger = army
+			ledger = air
 			idea_token = MEH_Automaton
 			cost = 150
 			allowed = {

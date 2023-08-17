@@ -455,6 +455,13 @@
  nec_focus_conquest_of_mms: "Захватить §R[MMS.GetName]§!"
  nec_focus_conquest_of_per: "Захватить §R[PER.GetName]§!"
  nec_focus_conquest_of_mah: "Захватить §R[MAH.GetName]§!"
+ nec_focus_conquest_of_sov: "Захватить §R[SOV.GetName]§!"
+ nec_focus_conquest_of_mon: "Захватить §R[MON.GetName]§!"
+ nec_focus_conquest_of_tan: "Захватить §R[TAN.GetName]§!"
+ nec_focus_modernization_of_the_capitals_infrastructure: "Модернизация столичной инфраструктуры"
+ nec_focus_production_effort: "Расширение ВПК"
+ nec_focus_construction_effort: "Развитие строительства"
+ nec_focus_modernize_steel_plant: "Модернизация производста стали"
 
 #Pupet
  wfc_puppet_focus: "Фокусы марионеток"
