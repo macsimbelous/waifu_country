@@ -8,7 +8,7 @@ shared_focus = {
 		x = 9
 		y = 7
 		trigger = {
-			original_tag = HEN
+			tag = HEN
 		}
 	}
 	search_filters = {
@@ -269,7 +269,7 @@ shared_focus = {
 		x = 9
 		y = 7
 		trigger = {
-			original_tag = HEN
+			tag = HEN
 		}
 	}
 	search_filters = {
@@ -1440,31 +1440,31 @@ shared_focus = {
 	offset = {
 		x = -4
 		trigger = {
-			original_tag = ACW
+			tag = ACW
 		}
 	}
 	offset = {
 		x = -4
 		trigger = {
-			original_tag = TRP
+			tag = TRP
 		}
 	}
 	offset = {
 		x = -4
 		trigger = {
-			original_tag = MEH
+			tag = MEH
 		}
 	}
 	offset = {
 		x = -4
 		trigger = {
-			original_tag = MMS
+			tag = MMS
 		}
 	}
 	offset = {
 		x = -15
 		trigger = {
-			original_tag = HEN
+			tag = HEN
 		}
 	}
 	cost = 5
