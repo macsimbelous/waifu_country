@@ -263,6 +263,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			has_completed_focus = nec_focus_necrification_of_the_population
+		}
 		completion_reward = {
 			add_political_power = 100
 			add_war_support = 0.1

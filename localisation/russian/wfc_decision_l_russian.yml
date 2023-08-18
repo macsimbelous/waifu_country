@@ -166,6 +166,9 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_sl_flag_plan_the_assassination_of_the_head_of_state_yes: "Убийство главы государства: §Gспланировано§!"
  wfc_sl_flag_plan_the_assassination_of_the_head_of_state_no: "Убийство главы государства: §Rне спланировано§!"
  wfc_decision_cancel_coup: "§RОтменить подготовку к перевороту§!"
+ wfc_decision_cost_CP_25_pp_150:0 "£command_power §Y25§! £pol_power §Y150§!"
+ wfc_decision_cost_CP_25_pp_150_blocked:0 "£command_power §R25§! £pol_power §R150§!"
+ wfc_decision_cost_CP_25_pp_150_tooltip:0 "Стоимость принятия решения: £command_power §Y25§! £pol_power §Y150§!"
 
 #wfc_puppets_category
  wfc_puppets_category:0 "Подчинение слабых стран"

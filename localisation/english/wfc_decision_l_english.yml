@@ -158,6 +158,9 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_sl_flag_plan_the_assassination_of_the_head_of_state_yes: "Head of State Assassination: §Gplanned§!"
  wfc_sl_flag_plan_the_assassination_of_the_head_of_state_no: "Head of State Assassination: §RNot Planned§!"
  wfc_decision_cancel_coup: "§RCancel Coup Preparation§!"
+ wfc_decision_cost_CP_25_pp_150:0 "£command_power  §Y25§! £pol_power  §Y150§!"
+ wfc_decision_cost_CP_25_pp_150_blocked:0 "£command_power  §R25§! £pol_power  §R150§!"
+ wfc_decision_cost_CP_25_pp_150_tooltip:0 "It costs £command_power  §Y25§! £pol_power  §Y150§! to take the decision"
 
 #wfc_puppets_category
  wfc_puppets_category:0 "Submission of weak countries"

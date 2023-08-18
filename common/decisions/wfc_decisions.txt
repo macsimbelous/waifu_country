@@ -3972,12 +3972,12 @@ wfc_machine_war_category = {
 wfc_category_preparing_a_coup = {
 	wfc_decision_bribe_the_generals = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 50
+		cost = 100
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
 		priority = 3
-		fixed_random_seed = no
+		#fixed_random_seed = no
 		visible = {
 			NOT = {
 				has_country_flag = wfc_flag_bribe_the_generals
@@ -3988,10 +3988,10 @@ wfc_category_preparing_a_coup = {
 				target = var:wfc_var_target_coup
 				value > 50
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 14
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 15
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_bribe_the_generals
@@ -4006,12 +4006,12 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_bribe_the_admirals = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 50
+		cost = 100
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
 		priority = 3
-		fixed_random_seed = no
+		#fixed_random_seed = no
 		visible = {
 			NOT = {
 				has_country_flag = wfc_flag_bribe_the_admirals
@@ -4027,10 +4027,10 @@ wfc_category_preparing_a_coup = {
 				target = var:wfc_var_target_coup
 				value > 50
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 14
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 15
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_bribe_the_admirals
@@ -4045,12 +4045,12 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_bribe_intelligence_officers = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 50
+		cost = 100
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
 		priority = 3
-		fixed_random_seed = no
+		#fixed_random_seed = no
 		visible = {
 			NOT = {
 				has_country_flag = wfc_flag_bribe_intelligence_officers
@@ -4062,10 +4062,10 @@ wfc_category_preparing_a_coup = {
 				target = var:wfc_var_target_coup
 				value > 50
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 14
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 15
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_bribe_intelligence_officers
@@ -4080,12 +4080,12 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_bribe_officials = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 50
+		cost = 100
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
 		priority = 3
-		fixed_random_seed = no
+		#fixed_random_seed = no
 		visible = {
 			NOT = {
 				has_country_flag = wfc_flag_bribe_officials
@@ -4096,10 +4096,10 @@ wfc_category_preparing_a_coup = {
 				target = var:wfc_var_target_coup
 				value > 50
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 14
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 15
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_bribe_officials
@@ -4114,12 +4114,12 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_create_weapon_caches = {
 		icon = GFX_decision_generic_industry
-		cost = 100
+		cost = 150
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
 		priority = 3
-		fixed_random_seed = no
+		#fixed_random_seed = no
 		visible = {
 			NOT = {
 				has_country_flag = wfc_flag_create_weapon_caches
@@ -4128,7 +4128,7 @@ wfc_category_preparing_a_coup = {
 		available = {
 			network_strength = {
 				target = var:wfc_var_target_coup
-				value > 50
+				value > 75
 			}
 			has_country_flag = wfc_flag_bribe_the_generals
 			if = {
@@ -4148,19 +4148,19 @@ wfc_category_preparing_a_coup = {
 				has_country_flag = wfc_flag_bribe_intelligence_officers
 			}
 			has_country_flag = wfc_flag_bribe_officials
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 14
 			has_equipment = {
-				infantry_equipment > 1999
+				infantry_equipment > 4999
 			}
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 15
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_create_weapon_caches
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -2000
+				amount = -5000
 			}
 			add_collaboration = {
 				target = var:wfc_var_target_coup
@@ -4173,12 +4173,12 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_discredit_the_government = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 100
+		cost = 150
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
 		priority = 3
-		fixed_random_seed = no
+		#fixed_random_seed = no
 		visible = {
 			NOT = {
 				has_country_flag = wfc_flag_discredit_the_government
@@ -4187,7 +4187,7 @@ wfc_category_preparing_a_coup = {
 		available = {
 			network_strength = {
 				target = var:wfc_var_target_coup
-				value > 50
+				value > 75
 			}
 			has_country_flag = wfc_flag_bribe_the_generals
 			if = {
@@ -4207,10 +4207,10 @@ wfc_category_preparing_a_coup = {
 				has_country_flag = wfc_flag_bribe_intelligence_officers
 			}
 			has_country_flag = wfc_flag_bribe_officials
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 14
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 15
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_discredit_the_government
@@ -4231,15 +4231,15 @@ wfc_category_preparing_a_coup = {
 		icon = GFX_decision_generic_political_discourse
 		#cost = 50
 		custom_cost_trigger = {
-			has_political_power > 99
-			command_power > 9
+			has_political_power > 149
+			command_power > 24
 		}
-		custom_cost_text = decision_cost_CP_25_pp_75
+		custom_cost_text = wfc_decision_cost_CP_25_pp_150
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
 		priority = 3
-		fixed_random_seed = no
+		#fixed_random_seed = no
 		visible = {
 			NOT = {
 				has_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
@@ -4248,7 +4248,7 @@ wfc_category_preparing_a_coup = {
 		available = {
 			network_strength = {
 				target = var:wfc_var_target_coup
-				value > 50
+				value > 75
 			}
 			has_country_flag = wfc_flag_bribe_the_generals
 			if = {
@@ -4268,10 +4268,10 @@ wfc_category_preparing_a_coup = {
 				has_country_flag = wfc_flag_bribe_intelligence_officers
 			}
 			has_country_flag = wfc_flag_bribe_officials
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 14
 		}
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 15
 		}
 		remove_effect = {
 			set_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
@@ -4285,10 +4285,14 @@ wfc_category_preparing_a_coup = {
 		}
 	}
 	wfc_decision_coup = {
+		fire_only_once = no
+		cost = 0
+		#days_re_enable = 180
+		fixed_random_seed = no
 		available = {
 			network_strength = {
 				target = var:wfc_var_target_coup
-				value > 50
+				value > 75
 			}
 			has_country_flag = wfc_flag_bribe_the_generals
 			if = {
@@ -4312,9 +4316,6 @@ wfc_category_preparing_a_coup = {
 			has_country_flag = wfc_flag_discredit_the_government
 			has_country_flag = wfc_flag_plan_the_assassination_of_the_head_of_state
 		}
-		fire_only_once = no
-		cost = 0
-		#days_re_enable = 180
 		complete_effect = {
 			random_list = {
 				90 = {
