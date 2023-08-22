@@ -798,8 +798,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/atago_azur_lane_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_atago_azur_lane"
-		texturefile = "gfx/leaders/ACW/Atago_Azur_Lane.dds"
+		name = "GFX_portrait_acw_atago_azur_lane_navy"
+		texturefile = "gfx/leaders/ACW/atago_azur_lane_navy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_avrora_azur_lane"
@@ -830,8 +830,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/belfast_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_belfast"
-		texturefile = "gfx/leaders/ACW/Belfast.dds"
+		name = "GFX_portrait_acw_belfast_navy"
+		texturefile = "gfx/leaders/ACW/belfast_navy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_rin_toosaka"

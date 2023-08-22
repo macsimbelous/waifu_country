@@ -1841,7 +1841,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_atago_azur_lane
-				large = GFX_portrait_acw_atago_azur_lane
+				large = GFX_portrait_acw_atago_azur_lane_navy
 			}
 		}
 		navy_leader = {
@@ -1895,9 +1895,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_acw_belfast
-			}
-			army = {
-				large = GFX_portrait_acw_belfast
+				large = GFX_portrait_acw_belfast_navy
 			}
 		}
 		navy_leader = {
