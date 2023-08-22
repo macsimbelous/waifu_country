@@ -733,7 +733,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_celica
-				large = GFX_portrait_acw_celica
+				large = GFX_portrait_acw_celica_army
 			}
 		}
 		corps_commander = {
@@ -1700,7 +1700,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_charlotte_dunois
-				large = GFX_portrait_acw_charlotte_dunois
+				large = GFX_portrait_acw_charlotte_dunois_air
 			}
 		}
 		advisor = {

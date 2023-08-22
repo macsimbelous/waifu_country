@@ -44,7 +44,7 @@ acw_change_country_leader = {
 			name = ACW_charlotte_dunois
 		}
 		set_country_leader_portrait = {
-			portrait = GFX_portrait_acw_charlotte_dunois
+			portrait = GFX_portrait_acw_charlotte_dunois_air
 		}
 	}
 	else_if = {
