@@ -194,8 +194,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/byleth_eisner_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_byleth_eisner"
-		texturefile = "gfx/leaders/ACW/Byleth_Eisner.dds"
+		name = "GFX_portrait_acw_byleth_eisner_army"
+		texturefile = "gfx/leaders/ACW/byleth_eisner_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_camilla"
