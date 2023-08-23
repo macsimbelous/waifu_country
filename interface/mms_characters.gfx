@@ -292,8 +292,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/yamato_wg_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_mms_yamato_wg"
-		texturefile = "gfx/leaders/MMS/Yamato_WG.dds"
+		name = "GFX_portrait_mms_yamato_wg_navy"
+		texturefile = "gfx/leaders/MMS/yamato_wg_navy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mms_02"

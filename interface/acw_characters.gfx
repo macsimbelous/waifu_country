@@ -286,8 +286,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/fiora_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_fiora"
-		texturefile = "gfx/leaders/ACW/Fiora.dds"
+		name = "GFX_portrait_acw_fiora_army"
+		texturefile = "gfx/leaders/ACW/fiora_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_fujimaru_ritsuka"
@@ -918,8 +918,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/miki_hoshii_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_miki_hoshii"
-		texturefile = "gfx/leaders/ACW/Miki_Hoshii.dds"
+		name = "GFX_portrait_acw_miki_hoshii_army"
+		texturefile = "gfx/leaders/ACW/miki_hoshii_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_irina_jelavic"

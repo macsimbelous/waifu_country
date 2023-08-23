@@ -1041,9 +1041,9 @@ characters = {
 	MMS_yamato_wg = {
 		name = MMS_yamato_wg
 		portraits = {
-			army = {
+			navy = {
 				small = GFX_idea_mms_yamato_wg
-				large = GFX_portrait_mms_yamato_wg
+				large = GFX_portrait_mms_yamato_wg_navy
 			}
 		}
 		advisor = {
@@ -1051,9 +1051,6 @@ characters = {
 			idea_token = MMS_yamato_wg
 			ledger = navy
 			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
 			traits = {
 				naval_theorist
 			}
@@ -1075,7 +1072,7 @@ characters = {
 	MMS_purifier = {
 		name = MMS_purifier
 		portraits = {
-			army = {
+			navy = {
 				small = GFX_idea_mms_purifier
 				large = GFX_portrait_mms_purifier
 			}
@@ -1097,7 +1094,7 @@ characters = {
 	MMS_tester = {
 		name = MMS_tester
 		portraits = {
-			army = {
+			navy = {
 				small = GFX_idea_mms_tester
 				large = GFX_portrait_mms_tester
 			}
@@ -1106,9 +1103,6 @@ characters = {
 			slot = navy_chief
 			idea_token = MMS_tester
 			cost = 50
-			allowed = {
-				original_tag = MMS
-			}
 			traits = {
 				navy_chief_decisive_battle_1
 			}
