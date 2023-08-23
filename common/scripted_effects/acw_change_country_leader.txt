@@ -77,7 +77,7 @@ acw_change_country_leader = {
 			name = ACW_erica_blandelli
 		}
 		set_country_leader_portrait = {
-			portrait = GFX_portrait_acw_erica_blandelli
+			portrait = GFX_portrait_acw_erica_blandelli_army
 		}
 	}
 	else_if = {

@@ -702,8 +702,11 @@ characters = {
 		name = MMS_02
 		portraits = {
 			army = {
-				small = GFX_idea_mms_zero_two
-				large = GFX_portrait_mms_zero_two
+				small = GFX_idea_mms_02
+				large = GFX_portrait_mms_02_army
+			}
+			civilian = {
+				large = GFX_portrait_mms_02_civilian
 			}
 		}
 		corps_commander = {

@@ -296,12 +296,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/Yamato_WG.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_mms_zero_two"
-		texturefile = "gfx/leaders/MMS/zero_two_idea.dds"
+		name = "GFX_idea_mms_02"
+		texturefile = "gfx/leaders/MMS/02_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_mms_zero_two"
-		texturefile = "gfx/leaders/MMS/Zero_Two.dds"
+		name = "GFX_portrait_mms_02_army"
+		texturefile = "gfx/leaders/MMS/02_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_02_civilian"
+		texturefile = "gfx/leaders/MMS/02_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mms_freyja"

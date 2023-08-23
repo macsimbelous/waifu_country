@@ -1123,7 +1123,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_djeeta
-				large = GFX_portrait_acw_djeeta
+				large = GFX_portrait_acw_djeeta_army
 			}
 		}
 		corps_commander = {
@@ -1142,7 +1142,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ellis
-				large = GFX_portrait_acw_ellis
+				large = GFX_portrait_acw_ellis_air
 			}
 		}
 		advisor = {
@@ -1721,7 +1721,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_erica_blandelli
-				large = GFX_portrait_acw_erica_blandelli
+				large = GFX_portrait_acw_erica_blandelli_army
 			}
 		}
 		corps_commander = {
