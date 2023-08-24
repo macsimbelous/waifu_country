@@ -1661,6 +1661,9 @@ acw_create_great_animeland_category = {
 				country_to_initiate = ROM
 			}
 			wfc_instantiate_province = yes
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
 		}
 	}
 	acw_create_yug_provinces_decision = {
@@ -1690,6 +1693,9 @@ acw_create_great_animeland_category = {
 				country_to_initiate = YUG
 			}
 			wfc_instantiate_province = yes
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
 		}
 	}
 	acw_create_hun_provinces_decision = {
@@ -1709,6 +1715,9 @@ acw_create_great_animeland_category = {
 				country_to_initiate = HUN
 			}
 			wfc_instantiate_province = yes
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
 			hidden_effect = {
 				if = {
 					limit = {
