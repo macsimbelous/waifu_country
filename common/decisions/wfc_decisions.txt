@@ -4328,7 +4328,21 @@ wfc_category_preparing_a_coup = {
 							target = var:wfc_var_target_coup
 							value > 99
 						}
-						factor = 10
+						factor = 1.5
+					}
+					modifier = {
+						network_national_coverage = {
+							target = var:wfc_var_target_coup
+							value > 75
+						}
+						factor = 1.5
+					}
+					modifier = {
+						has_collaboration = {
+							target = var:wfc_var_target_coup
+							value > 0.9
+						}
+						factor = 1.5
 					}
 					puppet = var:wfc_var_target_coup
 					var:wfc_var_target_coup = {
@@ -4362,6 +4376,42 @@ wfc_category_preparing_a_coup = {
 							is_major = yes
 						}
 						factor = 2
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							ic_ratio = {
+								tag = ROOT
+								ratio > 1.5
+							}
+						}
+						factor = 1.2
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							ic_ratio = {
+								tag = ROOT
+								ratio > 2
+							}
+							factor = 1.5
+						}
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							strength_ratio = {
+								tag = ROOT
+								ratio > 1.5
+							}
+						}
+						factor = 1.2
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							strength_ratio = {
+								tag = ROOT
+								ratio > 2
+							}
+						}
+						factor = 1.5
 					}
 					if = {
 						limit = {

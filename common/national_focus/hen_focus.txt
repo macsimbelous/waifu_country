@@ -1889,6 +1889,7 @@ focus_tree = {
 				name = nuclear_bonus
 				bonus = 1
 				uses = 1
+				ahead_reduction = 2
 				category = nuclear
 			}
 		}
