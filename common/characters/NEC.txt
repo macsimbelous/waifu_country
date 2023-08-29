@@ -453,7 +453,7 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = nec_stevash
-			cost = 150
+			cost = 50
 			traits = {
 				army_infantry_1
 			}
@@ -481,7 +481,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 50
 			slot = navy_chief
 			idea_token = nec_niverra
 			ledger = navy
