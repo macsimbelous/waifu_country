@@ -1637,6 +1637,9 @@ acw_create_great_animeland_category = {
 				country_to_initiate = BUL
 			}
 			wfc_instantiate_province = yes
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
 		}
 	}
 	acw_create_rom_provinces_decision = {
