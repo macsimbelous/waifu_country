@@ -4375,43 +4375,43 @@ wfc_category_preparing_a_coup = {
 						var:wfc_var_target_coup = {
 							is_major = yes
 						}
+						factor = 5
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							ic_ratio = {
+								tag = ROOT
+								ratio > 1.5
+							}
+						}
+						factor = 1.5
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							ic_ratio = {
+								tag = ROOT
+								ratio > 2
+							}
+						}
 						factor = 2
 					}
 					modifier = {
 						var:wfc_var_target_coup = {
-							ic_ratio = {
-								tag = ROOT
-								ratio > 1.5
-							}
-						}
-						factor = 1.2
-					}
-					modifier = {
-						var:wfc_var_target_coup = {
-							ic_ratio = {
-								tag = ROOT
-								ratio > 2
-							}
-							factor = 1.5
-						}
-					}
-					modifier = {
-						var:wfc_var_target_coup = {
 							strength_ratio = {
 								tag = ROOT
 								ratio > 1.5
-							}
-						}
-						factor = 1.2
-					}
-					modifier = {
-						var:wfc_var_target_coup = {
-							strength_ratio = {
-								tag = ROOT
-								ratio > 2
 							}
 						}
 						factor = 1.5
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							strength_ratio = {
+								tag = ROOT
+								ratio > 2
+							}
+						}
+						factor = 2
 					}
 					if = {
 						limit = {
