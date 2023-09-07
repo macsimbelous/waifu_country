@@ -260,16 +260,36 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_siberia
 		}
 		available = {
-			563 = { wfc_is_controlled_by_root_or_puppet = yes }
-			561 = { wfc_is_controlled_by_root_or_puppet = yes }
-			657 = { wfc_is_controlled_by_root_or_puppet = yes }
-			560 = { wfc_is_controlled_by_root_or_puppet = yes }
-			409 = { wfc_is_controlled_by_root_or_puppet = yes }
-			408 = { wfc_is_controlled_by_root_or_puppet = yes }
-			562 = { wfc_is_controlled_by_root_or_puppet = yes }
-			874 = { wfc_is_controlled_by_root_or_puppet = yes }
-			822 = { wfc_is_controlled_by_root_or_puppet = yes }
-			637 = { wfc_is_controlled_by_root_or_puppet = yes }
+			563 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			561 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			657 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			560 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			409 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			408 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			562 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			874 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			822 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			637 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -334,10 +354,18 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_siberia
 		}
 		available = {
-			876 = { wfc_is_controlled_by_root_or_puppet = yes }
-			877 = { wfc_is_controlled_by_root_or_puppet = yes }
-			574 = { wfc_is_controlled_by_root_or_puppet = yes }
-			644 = { wfc_is_controlled_by_root_or_puppet = yes }
+			876 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			877 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			574 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			644 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -396,15 +424,33 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_siberia
 		}
 		available = {
-			516 = { wfc_is_controlled_by_root_or_puppet = yes }
-			576 = { wfc_is_controlled_by_root_or_puppet = yes }
-			568 = { wfc_is_controlled_by_root_or_puppet = yes }
-			567 = { wfc_is_controlled_by_root_or_puppet = yes }
-			878 = { wfc_is_controlled_by_root_or_puppet = yes }
-			575 = { wfc_is_controlled_by_root_or_puppet = yes }
-			566 = { wfc_is_controlled_by_root_or_puppet = yes }
-			564 = { wfc_is_controlled_by_root_or_puppet = yes }
-			565 = { wfc_is_controlled_by_root_or_puppet = yes }
+			516 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			576 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			568 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			567 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			878 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			575 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			566 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			564 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			565 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -468,8 +514,12 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_china
 		}
 		available = {
-			527 = { wfc_is_controlled_by_root_or_puppet = yes }
-			525 = { wfc_is_controlled_by_root_or_puppet = yes }
+			527 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			525 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -526,13 +576,27 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_china
 		}
 		available = {
-			761 = { wfc_is_controlled_by_root_or_puppet = yes }
-			714 = { wfc_is_controlled_by_root_or_puppet = yes }
-			717 = { wfc_is_controlled_by_root_or_puppet = yes }
-			328 = { wfc_is_controlled_by_root_or_puppet = yes }
-			715 = { wfc_is_controlled_by_root_or_puppet = yes }
-			716 = { wfc_is_controlled_by_root_or_puppet = yes }
-			610 = { wfc_is_controlled_by_root_or_puppet = yes }
+			761 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			714 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			717 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			328 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			715 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			716 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			610 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -594,14 +658,18 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_china
 		}
 		available = {
-			612 = { wfc_is_controlled_by_root_or_puppet = yes }
-			611 = { wfc_is_controlled_by_root_or_puppet = yes }
+			612 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			611 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
 		}
 		complete_effect = {
-			custom_effect_tooltip = hen_decision_create_provinces_men_tt 
+			custom_effect_tooltip = hen_decision_create_provinces_men_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -652,16 +720,36 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_china
 		}
 		available = {
-			608 = { wfc_is_controlled_by_root_or_puppet = yes }
-			614 = { wfc_is_controlled_by_root_or_puppet = yes }
-			597 = { wfc_is_controlled_by_root_or_puppet = yes }
-			598 = { wfc_is_controlled_by_root_or_puppet = yes }
-			606 = { wfc_is_controlled_by_root_or_puppet = yes }
-			613 = { wfc_is_controlled_by_root_or_puppet = yes }
-			749 = { wfc_is_controlled_by_root_or_puppet = yes }
-			596 = { wfc_is_controlled_by_root_or_puppet = yes }
-			600 = { wfc_is_controlled_by_root_or_puppet = yes }
-			595 = { wfc_is_controlled_by_root_or_puppet = yes }
+			608 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			614 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			597 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			598 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			606 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			613 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			749 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			596 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			600 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			595 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -726,11 +814,21 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_china
 		}
 		available = {
-			599 = { wfc_is_controlled_by_root_or_puppet = yes }
-			594 = { wfc_is_controlled_by_root_or_puppet = yes }
-			591 = { wfc_is_controlled_by_root_or_puppet = yes }
-			592 = { wfc_is_controlled_by_root_or_puppet = yes }
-			593 = { wfc_is_controlled_by_root_or_puppet = yes }
+			599 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			594 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			591 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			592 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			593 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -790,13 +888,27 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_southeast_asia
 		}
 		available = {
-			623 = { wfc_is_controlled_by_root_or_puppet = yes }
-			327 = { wfc_is_controlled_by_root_or_puppet = yes }
-			624 = { wfc_is_controlled_by_root_or_puppet = yes }
-			626 = { wfc_is_controlled_by_root_or_puppet = yes }
-			628 = { wfc_is_controlled_by_root_or_puppet = yes }
-			625 = { wfc_is_controlled_by_root_or_puppet = yes }
-			627 = { wfc_is_controlled_by_root_or_puppet = yes }
+			623 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			327 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			624 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			626 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			628 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			625 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			627 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -858,9 +970,15 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_southeast_asia
 		}
 		available = {
-			523 = { wfc_is_controlled_by_root_or_puppet = yes }
-			737 = { wfc_is_controlled_by_root_or_puppet = yes }
-			634 = { wfc_is_controlled_by_root_or_puppet = yes }
+			523 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			737 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			634 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -918,14 +1036,30 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_southeast_asia
 		}
 		available = {
-			672 = { wfc_is_controlled_by_root_or_puppet = yes }
-			335 = { wfc_is_controlled_by_root_or_puppet = yes }
-			667 = { wfc_is_controlled_by_root_or_puppet = yes }
-			334 = { wfc_is_controlled_by_root_or_puppet = yes }
-			673 = { wfc_is_controlled_by_root_or_puppet = yes }
-			668 = { wfc_is_controlled_by_root_or_puppet = yes }
-			738 = { wfc_is_controlled_by_root_or_puppet = yes }
-			669 = { wfc_is_controlled_by_root_or_puppet = yes }
+			672 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			335 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			667 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			334 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			673 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			668 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			738 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			669 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -988,8 +1122,12 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_southeast_asia
 		}
 		available = {
-			336 = { wfc_is_controlled_by_root_or_puppet = yes }
-			333 = { wfc_is_controlled_by_root_or_puppet = yes }
+			336 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			333 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -1046,10 +1184,18 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_southeast_asia
 		}
 		available = {
-			671 = { wfc_is_controlled_by_root_or_puppet = yes }
-			670 = { wfc_is_controlled_by_root_or_puppet = yes }
-			741 = { wfc_is_controlled_by_root_or_puppet = yes }
-			286 = { wfc_is_controlled_by_root_or_puppet = yes }
+			671 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			670 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			741 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			286 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -1114,10 +1260,18 @@ hen_category_colonies = {
 			has_completed_focus = hen_focus_southeast_asia
 		}
 		available = {
-			869 = { wfc_is_controlled_by_root_or_puppet = yes }
-			868 = { wfc_is_controlled_by_root_or_puppet = yes }
-			289 = { wfc_is_controlled_by_root_or_puppet = yes }
-			724 = { wfc_is_controlled_by_root_or_puppet = yes }
+			869 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			868 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			289 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			724 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -1166,6 +1320,73 @@ hen_category_colonies = {
 					hen_change_country_leader = yes
 				}
 			}
+		}
+	}
+}
+
+hen_category_rebellion_in_jap = {
+	hen_decision_rebellion_in_jap = {
+		icon = generic_form_nation
+		state_target = yes
+		on_map_mode = map_only
+		fire_only_once = yes
+		custom_cost_trigger = {
+			has_political_power > 49
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25_pp_50
+		#target_array = all_states
+		target_trigger = {
+			FROM = {
+				OR = {
+					state = 529
+					state = 530
+					state = 531
+					state = 532
+					state = 533
+					state = 534
+					state = 535
+					state = 536
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -50
+				add_command_power = -25
+			}
+			set_state_controller = FROM
+			FROM = {
+				create_unit = {
+					division = "name = \"Hentai Collaborators\" division_template = \"Hentai Brigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = HEN
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Hentai Collaborators\" division_template = \"Hentai Brigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = HEN
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Hentai Collaborators\" division_template = \"Hentai Brigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = HEN
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Hentai Collaborators\" division_template = \"Hentai Brigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = HEN
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Hentai Collaborators\" division_template = \"Hentai Brigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = HEN
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+			clr_country_flag = hen_flag_rebellion_in_jap
+		}
+		ai_will_do = {
+			factor = 100
 		}
 	}
 }

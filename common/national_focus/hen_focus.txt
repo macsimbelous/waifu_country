@@ -1163,6 +1163,8 @@ focus_tree = {
 				type = annex_everything
 			}
 			add_ideas = hen_attack_jap_bonus
+			custom_effect_tooltip = hen_tt_rebellion_in_jap
+			set_country_flag = hen_flag_rebellion_in_jap
 		}
 		ai_will_do = {
 			factor = 5

@@ -4322,7 +4322,7 @@ wfc_category_preparing_a_coup = {
 		}
 		complete_effect = {
 			random_list = {
-				90 = {
+				60 = {
 					modifier = {
 						network_strength = {
 							target = var:wfc_var_target_coup
@@ -4370,12 +4370,18 @@ wfc_category_preparing_a_coup = {
 					}
 					country_event = wfc_event.6
 				}
-				10 = {
+				40 = {
+					modifier = {
+						var:wfc_var_target_coup = {
+							has_stability > 0.5
+						}
+						factor = 1.5
+					}
 					modifier = {
 						var:wfc_var_target_coup = {
 							is_major = yes
 						}
-						factor = 5
+						factor = 1.5
 					}
 					modifier = {
 						var:wfc_var_target_coup = {
@@ -4384,7 +4390,7 @@ wfc_category_preparing_a_coup = {
 								ratio > 1.5
 							}
 						}
-						factor = 1.5
+						factor = 1.2
 					}
 					modifier = {
 						var:wfc_var_target_coup = {
@@ -4393,7 +4399,7 @@ wfc_category_preparing_a_coup = {
 								ratio > 2
 							}
 						}
-						factor = 2
+						factor = 1.5
 					}
 					modifier = {
 						var:wfc_var_target_coup = {
@@ -4402,7 +4408,7 @@ wfc_category_preparing_a_coup = {
 								ratio > 1.5
 							}
 						}
-						factor = 1.5
+						factor = 1.2
 					}
 					modifier = {
 						var:wfc_var_target_coup = {
@@ -4411,7 +4417,7 @@ wfc_category_preparing_a_coup = {
 								ratio > 2
 							}
 						}
-						factor = 2
+						factor = 1.5
 					}
 					if = {
 						limit = {

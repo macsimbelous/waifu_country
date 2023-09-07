@@ -284,6 +284,8 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   hen_decision_create_provinces_vin_tt: "Будет сформирована колония §Y[VIN.GetName]§!"
   hen_decision_create_provinces_sia: "Сформировать колонию §Y[SIA.GetName]§!"
   hen_decision_create_provinces_sia_tt: "Будет сформирована колония §Y[SIA.GetName]§!"
+ #hen_decision_rebellion_in_jap
+  hen_decision_rebellion_in_jap: "Организовать мятеж извращенцев в регионе §Y[FROM.GetName]§!"
 
 #MAH
  #mah_crystal_empire_category

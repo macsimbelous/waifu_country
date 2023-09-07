@@ -15,3 +15,12 @@ hen_category_colonies = {
 		original_tag = HEN
 	}
 }
+hen_category_rebellion_in_jap = {
+	priority = 1
+	allowed = {
+		original_tag = HEN
+	}
+	visible = {
+		has_country_flag = hen_flag_rebellion_in_jap
+	}
+}
