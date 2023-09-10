@@ -799,6 +799,17 @@ on_actions = {
 			}
 			if = {
 				limit = {
+					original_tag = JAP
+					HEN = {
+						has_war_with = JAP
+					}
+				}
+				HEN = {
+					clr_country_flag = hen_flag_rebellion_in_jap
+				}
+			}
+			if = {
+				limit = {
 					original_tag = PER
 					MMS = {
 						has_war_with = PER
