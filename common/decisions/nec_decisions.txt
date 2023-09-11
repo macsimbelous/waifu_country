@@ -44,7 +44,7 @@ nec_category_necrification = {
 			FROM = {
 				wfc_coring_state = yes
 				create_unit = {
-					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+					division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 					owner = NEC
 					#prioritize_location = 4518
 					allow_spawning_on_enemy_provs = yes
@@ -54,7 +54,7 @@ nec_category_necrification = {
 						state_population_k > 2000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes
@@ -65,7 +65,7 @@ nec_category_necrification = {
 						state_population_k > 3000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes
@@ -76,7 +76,7 @@ nec_category_necrification = {
 						state_population_k > 4000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes
@@ -87,7 +87,7 @@ nec_category_necrification = {
 						state_population_k > 5000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes
@@ -98,7 +98,7 @@ nec_category_necrification = {
 						state_population_k > 6000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes
@@ -109,7 +109,7 @@ nec_category_necrification = {
 						state_population_k > 7000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes
@@ -120,7 +120,7 @@ nec_category_necrification = {
 						state_population_k > 8000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes
@@ -131,7 +131,7 @@ nec_category_necrification = {
 						state_population_k > 9000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes
@@ -142,7 +142,7 @@ nec_category_necrification = {
 						state_population_k > 10000
 					}
 					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 1 start_equipment_factor = 1"
+						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
 						owner = NEC
 						#prioritize_location = 4518
 						allow_spawning_on_enemy_provs = yes

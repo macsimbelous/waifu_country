@@ -139,6 +139,14 @@ spriteTypes = {
 		name = "GFX_portrait_nec_kroness_army"
 		texturefile = "gfx/leaders/NEC/kroness_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_sebrix_magnus"
+		texturefile = "gfx/leaders/NEC/sebrix_magnus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_sebrix_magnus_civilian"
+		texturefile = "gfx/leaders/NEC/sebrix_magnus_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"

@@ -552,6 +552,33 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	nec_sebrix_magnus = {
+		name = nec_sebrix_magnus
+		portraits = {
+			army = {
+				small = GFX_idea_nec_sebrix_magnus
+				large = GFX_portrait_nec_sebrix_magnus_civilian
+			}
+			civilian = {
+				large = GFX_portrait_nec_sebrix_magnus_civilian
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = nec_sebrix_magnus
+			cost = 150
+			research_bonus = {
+				nuclear = 0.2
+			}
+			modifier = {
+				research_speed_factor = 0.1
+			}
+			traits = {
+				nuclear_scientist
+			}
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		name = generic_head_of_intelligence
