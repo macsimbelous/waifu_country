@@ -4326,9 +4326,16 @@ wfc_category_preparing_a_coup = {
 					modifier = {
 						network_strength = {
 							target = var:wfc_var_target_coup
-							value > 99
+							value > 75
 						}
 						factor = 1.5
+					}
+					modifier = {
+						network_strength = {
+							target = var:wfc_var_target_coup
+							value > 99
+						}
+						factor = 2
 					}
 					modifier = {
 						network_national_coverage = {
@@ -4340,9 +4347,16 @@ wfc_category_preparing_a_coup = {
 					modifier = {
 						has_collaboration = {
 							target = var:wfc_var_target_coup
-							value > 0.9
+							value > 0.75
 						}
 						factor = 1.5
+					}
+					modifier = {
+						has_collaboration = {
+							target = var:wfc_var_target_coup
+							value > 0.9
+						}
+						factor = 2
 					}
 					puppet = var:wfc_var_target_coup
 					var:wfc_var_target_coup = {
@@ -4390,7 +4404,7 @@ wfc_category_preparing_a_coup = {
 								ratio > 1.5
 							}
 						}
-						factor = 1.2
+						factor = 1.5
 					}
 					modifier = {
 						var:wfc_var_target_coup = {
@@ -4399,7 +4413,7 @@ wfc_category_preparing_a_coup = {
 								ratio > 2
 							}
 						}
-						factor = 1.5
+						factor = 2
 					}
 					modifier = {
 						var:wfc_var_target_coup = {
@@ -4408,7 +4422,7 @@ wfc_category_preparing_a_coup = {
 								ratio > 1.5
 							}
 						}
-						factor = 1.2
+						factor = 1.5
 					}
 					modifier = {
 						var:wfc_var_target_coup = {
@@ -4417,7 +4431,13 @@ wfc_category_preparing_a_coup = {
 								ratio > 2
 							}
 						}
-						factor = 1.5
+						factor = 2
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							has_war_with = ROOT
+						}
+						factor = 2
 					}
 					if = {
 						limit = {
