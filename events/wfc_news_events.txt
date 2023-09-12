@@ -73,6 +73,8 @@ news_event = {
 		trigger = {
 			NOT = {
 				tag = MEH
+				is_puppet_of = MEH
+				is_in_faction_with = MEH
 			}
 		}
 	}
@@ -276,6 +278,54 @@ news_event = {
 		name = news.100.c
 		trigger = {
 			TAG = USA
+		}
+	}
+}
+#Захваты городов за Некрополис
+# The Fall of 554
+news_event = {
+	id = wfc_news.201
+	title = wfc_news.201.t
+	desc = wfc_news.201.d
+	picture = GFX_wfc_news_event_201
+	major = yes
+	trigger = {
+		554 = {
+			is_controlled_by = NEC
+			is_owned_by = MAH
+		}
+		NEC = {
+			has_war_with = MAH
+		}
+		NOT = {
+			has_global_flag = nec_flag_fall_of_554
+		}
+	}
+	immediate = {
+		set_global_flag = nec_flag_fall_of_554
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = NEC
+				TAG = MAH
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = {
+			TAG = NEC
+		}
+	}
+	option = {
+		name = news.100.c
+		trigger = {
+			TAG = MAH
 		}
 	}
 }
