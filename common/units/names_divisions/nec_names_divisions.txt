@@ -1,0 +1,391 @@
+﻿NEC_INF_01 = {
+	name = "Undead Division Division"
+
+	for_countries = { NEC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Undead Division Division"
+	ordered = {
+		1 = { "%d Undead Division" }
+		2 = { "%d Undead Division" }
+		3 = { "%d Undead Division" }
+		4 = { "%d Undead Division" }
+		5 = { "%d Undead Division" }
+		6 = { "%d Undead Division" }
+		7 = { "%d Undead Division" }
+		8 = { "%d Undead Division" }
+		9 = { "%d Undead Division" }
+		10 = { "%d Undead Division" }
+		11 = { "%d Undead Division" }
+		12 = { "%d Undead Division" }
+	}
+}
+
+NEC_CAV_01 = {
+	name = "Undead Knights"
+
+	for_countries = { NEC }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { NEC_INF_01 }
+
+	fallback_name = "%d Undead Knights"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		4 = { "%d Undead Knights" }
+		7 = { "%d Undead Knights" }
+		10 = { "%d Undead Knights" }
+		11 = { "%d Undead Knights" }
+		16 = { "%d Undead Knights" }
+		23 = { "%d Undead Knights" }
+		24 = { "%d Undead Knights" }
+		25 = { "%d Undead Knights" }
+		26 = { "%d Undead Knights" }
+		29 = { "%d Undead Knights" }
+		31 = { "%d Undead Knights" }
+		32 = { "%d Undead Knights" }
+		34 = { "%d Undead Knights" }
+		48 = { "%d Undead Knights" }
+		67 = { "%d Undead Knights" }
+		27 = { "%d Undead Knights" }
+		28 = { "%d Undead Knights" }
+		35 = { "%d Undead Knights" }
+		38 = { "%d Undead Knights" }
+		40 = { "%d Undead Knights" }
+		43 = { "%d Undead Knights" }
+		44 = { "%d Undead Knights" }
+		46 = { "%d Undead Knights" }
+		47 = { "%d Undead Knights" }
+		49 = { "%d Undead Knights" }
+		50 = { "%d Undead Knights" }
+		51 = { "%d Undead Knights" }
+		52 = { "%d Undead Knights" }
+		53 = { "%d Undead Knights" }
+		54 = { "%d Undead Knights" }
+		55 = { "%d Undead Knights" }
+		56 = { "%d Undead Knights" }
+		60 = { "%d Undead Knights" }
+		61 = { "%d Undead Knights" }
+		62 = { "%d Undead Knights" }
+		63 = { "%d Undead Knights" }
+		64 = { "%d Undead Knights" }
+		66 = { "%d Undead Knights" }
+		68 = { "%d Undead Knights" }
+		70 = { "%d Undead Knights" }
+		72 = { "%d Undead Knights" }
+		73 = { "%d Undead Knights" }
+		74 = { "%d Undead Knights" }
+		76 = { "%d Undead Knights" }
+		77 = { "%d Undead Knights" }
+		78 = { "%d Undead Knights" }
+		79 = { "%d Undead Knights" }
+		80 = { "%d Undead Knights" }
+		81 = { "%d Undead Knights" }
+		82 = { "%d Undead Knights" }
+		87 = { "%d Undead Knights" }
+		91 = { "%d Undead Knights" }
+		94 = { "%d Undead Knights" }
+		97 = { "%d Undead Knights" }
+		98 = { "%d Undead Knights" }
+		99 = { "%d Undead Knights" }
+		100 = { "%d Undead Knights" }
+		101 = { "%d Undead Knights" }
+		102 = { "%d Undead Knights" }
+		103 = { "%d Undead Knights" }
+		104 = { "%d Undead Knights" }
+		105 = { "%d Undead Knights" }
+		106 = { "%d Undead Knights" }
+		107 = { "%d Undead Knights" }
+		108 = { "%d Undead Knights" }
+		109 = { "%d Undead Knights" }
+		110 = { "%d Undead Knights" }
+		111 = { "%d Undead Knights" }
+		112 = { "%d Undead Knights" }
+		113 = { "%d Undead Knights" }
+		114 = { "%d Undead Knights" }
+		115 = { "%d Undead Knights" }
+		116 = { "%d Undead Knights" }
+	}
+}
+
+NEC_MOT_01 = {
+	name = "Undead Motor Rifle Division"
+
+	for_countries = { NEC }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { NEC_INF_01 }
+
+	fallback_name = "%d Undead Motor Rifle Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		81 = { "%d Undead Motor Rifle Division" }
+		82 = { "%d Undead Motor Rifle Division" }
+		84 = { "%d Undead Motor Rifle Division" }
+		69 = { "%d Undead Motor Rifle Division" }
+		103 = { "%d Undead Motor Rifle Division" }
+		109 = { "%d Undead Motor Rifle Division" }
+		131 = { "%d Undead Motor Rifle Division" }
+		163 = { "%d Undead Motor Rifle Division" }
+		185 = { "%d Undead Motor Rifle Division" }
+		198 = { "%d Undead Motor Rifle Division" }
+		202 = { "%d Undead Motor Rifle Division" }
+		204 = { "%d Undead Motor Rifle Division" }
+		205 = { "%d Undead Motor Rifle Division" }
+		208 = { "%d Undead Motor Rifle Division" }
+		209 = { "%d Undead Motor Rifle Division" }
+		210 = { "%d Undead Motor Rifle Division" }
+		212 = { "%d Undead Motor Rifle Division" }
+		213 = { "%d Undead Motor Rifle Division" }
+		215 = { "%d Undead Motor Rifle Division" }
+		216 = { "%d Undead Motor Rifle Division" }
+		218 = { "%d Undead Motor Rifle Division" }
+		219 = { "%d Undead Motor Rifle Division" }
+		220 = { "%d Undead Motor Rifle Division" }
+		221 = { "%d Undead Motor Rifle Division" }
+		236 = { "%d Undead Motor Rifle Division" }
+		239 = { "%d Undead Motor Rifle Division" }
+	}
+}
+
+NEC_MEC_01 = {
+	name = "Undead Mechanized Division"
+
+	for_countries = { NEC }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	link_numbering_with = { NEC_INF_01 }
+
+	fallback_name = "%d Undead Mechanized Division"
+
+	ordered = {
+		69 = { "%d Undead Mechanized Division" }
+		81 = { "%d Undead Mechanized Division" }
+		82 = { "%d Undead Mechanized Division" }
+		84 = { "%d Undead Mechanized Division" }
+		103 = { "%d Undead Mechanized Division" }
+		109 = { "%d Undead Mechanized Division" }
+		131 = { "%d Undead Mechanized Division" }
+		163 = { "%d Undead Mechanized Division" }
+		185 = { "%d Undead Mechanized Division" }
+		198 = { "%d Undead Mechanized Division" }
+		202 = { "%d Undead Mechanized Division" }
+		204 = { "%d Undead Mechanized Division" }
+		205 = { "%d Undead Mechanized Division" }
+		208 = { "%d Undead Mechanized Division" }
+		209 = { "%d Undead Mechanized Division" }
+		210 = { "%d Undead Mechanized Division" }
+		212 = { "%d Undead Mechanized Division" }
+		213 = { "%d Undead Mechanized Division" }
+		215 = { "%d Undead Mechanized Division" }
+		216 = { "%d Undead Mechanized Division" }
+		218 = { "%d Undead Mechanized Division" }
+		219 = { "%d Undead Mechanized Division" }
+		220 = { "%d Undead Mechanized Division" }
+		221 = { "%d Undead Mechanized Division" }
+		236 = { "%d Undead Mechanized Division" }
+		239 = { "%d Undead Mechanized Division" }
+		240 = { "%d Undead Mechanized Division" }
+	}
+}
+
+NEC_ARM_01 = {
+	name = "Undead Tank Division"
+
+	for_countries = { NEC }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { NEC_INF_01 }
+
+	fallback_name = "%d Undead Tank Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Undead Tank Division" }
+		2 = { "%d Undead Tank Division" }
+		3 = { "%d Undead Tank Division" }
+		4 = { "%d Undead Tank Division" }
+		5 = { "%d Undead Tank Division" }
+		6 = { "%d Undead Tank Division" }
+		7 = { "%d Undead Tank Division" }
+		8 = { "%d Undead Tank Division" }
+		9 = { "%d Undead Tank Division" }
+		10 = { "%d Undead Tank Division" }
+		11 = { "%d Undead Tank Division" }
+		12 = { "%d Undead Tank Division" }
+		13 = { "%d Undead Tank Division" }
+		14 = { "%d Undead Tank Division" }
+		15 = { "%d Undead Tank Division" }
+		16 = { "%d Undead Tank Division" }
+		17 = { "%d Undead Tank Division" }
+		18 = { "%d Undead Tank Division" }
+		19 = { "%d Undead Tank Division" }
+		20 = { "%d Undead Tank Division" }
+		21 = { "%d Undead Tank Division" }
+		22 = { "%d Undead Tank Division" }
+		23 = { "%d Undead Tank Division" }
+		24 = { "%d Undead Tank Division" }
+		25 = { "%d Undead Tank Division" }
+		26 = { "%d Undead Tank Division" }
+		27 = { "%d Undead Tank Division" }
+		28 = { "%d Undead Tank Division" }
+		29 = { "%d Undead Tank Division" }
+		30 = { "%d Undead Tank Division" }
+		31 = { "%d Undead Tank Division" }
+		32 = { "%d Undead Tank Division" }
+		33 = { "%d Undead Tank Division" }
+		34 = { "%d Undead Tank Division" }
+		35 = { "%d Undead Tank Division" }
+		36 = { "%d Undead Tank Division" }
+		37 = { "%d Undead Tank Division" }
+		38 = { "%d Undead Tank Division" }
+		39 = { "%d Undead Tank Division" }
+		40 = { "%d Undead Tank Division" }
+		41 = { "%d Undead Tank Division" }
+		42 = { "%d Undead Tank Division" }
+		43 = { "%d Undead Tank Division" }
+		44 = { "%d Undead Tank Division" }
+		45 = { "%d Undead Tank Division" }
+		46 = { "%d Undead Tank Division" }
+		47 = { "%d Undead Tank Division" }
+		48 = { "%d Undead Tank Division" }
+		49 = { "%d Undead Tank Division" }
+		50 = { "%d Undead Tank Division" }
+		51 = { "%d Undead Tank Division" }
+		52 = { "%d Undead Tank Division" }
+		53 = { "%d Undead Tank Division" }
+		54 = { "%d Undead Tank Division" }
+		55 = { "%d Undead Tank Division" }
+		56 = { "%d Undead Tank Division" }
+		57 = { "%d Undead Tank Division" }
+		58 = { "%d Undead Tank Division" }
+		59 = { "%d Undead Tank Division" }
+		60 = { "%d Undead Tank Division" }
+		61 = { "%d Undead Tank Division" }
+		101 = { "%d Undead Tank Division" }
+		102 = { "%d Undead Tank Division" }
+		104 = { "%d Undead Tank Division" }
+		105 = { "%d Undead Tank Division" }
+		107 = { "%d Undead Tank Division" }
+		108 = { "%d Undead Tank Division" }
+		109 = { "%d Undead Tank Division" }
+		110 = { "%d Undead Tank Division" }
+		111 = { "%d Undead Tank Division" }
+		112 = { "%d Undead Tank Division" }
+	}
+}
+
+NEC_PAR_01 = {
+	name = "Undead Paratrooper Division"
+
+	for_countries = { NEC }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { NEC_INF_01 }
+
+	fallback_name = "%d Undead Paratrooper Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Undead Paratrooper Division" }
+		2 = { "%d Undead Paratrooper Division" }
+		3 = { "%d Undead Paratrooper Division" }
+		4 = { "%d Undead Paratrooper Division" }
+		5 = { "%d Undead Paratrooper Division" }
+		6 = { "%d Undead Paratrooper Division" }
+		7 = { "%d Undead Paratrooper Division" }
+		8 = { "%d Undead Paratrooper Division" }
+		9 = { "%d Undead Paratrooper Division" }
+		10 = { "%d Undead Paratrooper Division" }
+		11 = { "%d Undead Paratrooper Division" }
+		12 = { "%d Undead Paratrooper Division" }
+	}
+}
+
+NEC_MAR_01 = {
+	name = "Undead Marine Division"
+
+	for_countries = { NEC }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { NEC_INF_01 }
+
+	fallback_name = "%d Undead Marine Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Undead Marine Division" }
+		2 = { "%d Undead Marine Division" }
+		3 = { "%d Undead Marine Division" }
+		4 = { "%d Undead Marine Division" }
+		5 = { "%d Undead Marine Division" }
+		6 = { "%d Undead Marine Division" }
+		7 = { "%d Undead Marine Division" }
+		8 = { "%d Undead Marine Division" }
+		9 = { "%d Undead Marine Division" }
+		10 = { "%d Undead Marine Division" }
+	}
+}
+
+NEC_MNT_01 = {
+	name = "Undead Mountain Rifle Division"
+
+	for_countries = { NEC }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { NEC_INF_01 }
+
+	fallback_name = "%d Undead Mountain Rifle Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		58 = { "%d Undead Mountain Rifle Division" }
+		79 = { "%d Undead Mountain Rifle Division" }
+		101 = { "%d Undead Mountain Rifle Division" }
+		138 = { "%d Undead Mountain Rifle Division" }
+		192 = { "%d Undead Mountain Rifle Division" }
+		194 = { "%d Undead Mountain Rifle Division" }
+		232 = { "%d Undead Mountain Rifle Division" }
+		302 = { "%d Undead Mountain Rifle Division" }
+	}
+}
+
+
