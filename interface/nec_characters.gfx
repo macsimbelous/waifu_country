@@ -364,4 +364,12 @@ spriteTypes = {
 		name = "GFX_portrait_nec_land_27"
 		texturefile = "gfx/leaders/NEC/generic/nec_land_27.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_nec_land_28_small"
+		texturefile = "gfx/leaders/NEC/generic/nec_land_28_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_land_28"
+		texturefile = "gfx/leaders/NEC/generic/nec_land_28.dds"
+	}
 }

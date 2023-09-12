@@ -137,6 +137,11 @@ nec_change_country_leader = {
 				portrait = GFX_portrait_nec_land_27
 			}
 		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_nec_land_28
+			}
+		}
 	}
 	add_country_leader_trait = wfc_trait_undead
 	add_country_leader_trait = wfc_governor-general

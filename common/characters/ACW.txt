@@ -2580,4 +2580,34 @@ characters = {
 			}
 		}
 	}
+	acw_grete = {
+		name = acw_grete
+		portraits = {
+			army = {
+				small = GFX_idea_acw_grete
+				large = GFX_portrait_acw_grete_operative
+			}
+			civilian = {
+				large = GFX_portrait_acw_grete_operative
+			}
+		}
+	}
+	acw_chris_yukine = {
+		name = acw_chris_yukine
+		portraits = {
+			army = {
+				small = GFX_idea_acw_chris_yukine
+				large = GFX_portrait_acw_chris_yukine_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }

@@ -260,6 +260,7 @@ recruit_character = ACW_prinz_eugen
 recruit_character = ACW_baltimore
 recruit_character = ACW_new_jersey
 recruit_character = ACW_st_louis
+recruit_character = acw_chris_yukine
 
 #Agents
 create_operative_leader = {
@@ -449,6 +450,21 @@ create_operative_leader = {
 	}
 	traits = {
 		operative_master_interrogator
+	}
+}
+
+recruit_character = acw_grete
+create_operative_leader = {
+	name = acw_grete
+	GFX = GFX_portrait_acw_grete_operative
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		ACW
+	}
+	traits = {
+		operative_master_interrogator
+		operative_infiltrator
 	}
 }
 

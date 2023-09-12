@@ -529,6 +529,22 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HEN/generic/hen_land_21.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_land_22_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_22_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_22"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_22.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_23_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_23_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_land_23"
+		texturefile = "gfx/leaders/HEN/generic/hen_land_23.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_naval_01_small"
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_01_idea.dds"
 	}
@@ -633,6 +649,22 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HEN/generic/hen_naval_13.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_hen_naval_14_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_14_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_naval_14"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_naval_15_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_15_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_naval_15"
+		texturefile = "gfx/leaders/HEN/generic/hen_naval_15.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hen_operative_01_small"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_01_idea.dds"
 	}
@@ -687,5 +719,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_hen_operative_07"
 		texturefile = "gfx/leaders/HEN/generic/hen_operative_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_operative_08_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_08_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_operative_08"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_operative_09_small"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_09_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_operative_09"
+		texturefile = "gfx/leaders/HEN/generic/hen_operative_09.dds"
 	}
 }

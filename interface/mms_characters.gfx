@@ -439,6 +439,22 @@ spriteTypes = {
 		name = "GFX_portrait_mms_resumisu_care_army"
 		texturefile = "gfx/leaders/MMS/resumisu_care_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_asuna_yuuk_monster"
+		texturefile = "gfx/leaders/MMS/asuna_yuuk_monster_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_asuna_yuuk_monster_army"
+		texturefile = "gfx/leaders/MMS/asuna_yuuk_monster_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_yoshiko_tsushima_monster"
+		texturefile = "gfx/leaders/MMS/yoshiko_tsushima_monster_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_yoshiko_tsushima_monster_civilian"
+		texturefile = "gfx/leaders/MMS/yoshiko_tsushima_monster_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"
@@ -745,6 +761,62 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/generic/mms_land_38.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_mms_land_39_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_39_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_39"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_39.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_40_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_40_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_40"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_40.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_41_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_41_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_41"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_41.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_42_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_42_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_42"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_42.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_43_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_43_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_43"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_43.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_44_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_44_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_44"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_44.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_45_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_45_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_land_45"
+		texturefile = "gfx/leaders/MMS/generic/mms_land_45.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_mms_naval_01_small"
 		texturefile = "gfx/leaders/MMS/generic/mms_naval_01_idea.dds"
 	}
@@ -1007,5 +1079,29 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_mms_operative_14"
 		texturefile = "gfx/leaders/MMS/generic/mms_operative_14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_15_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_15_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_15"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_15.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_16_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_16_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_16"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_16.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_17_small"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_17_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_operative_17"
+		texturefile = "gfx/leaders/MMS/generic/mms_operative_17.dds"
 	}
 }
