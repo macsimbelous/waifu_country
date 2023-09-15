@@ -548,6 +548,7 @@ focus_tree = {
 				name = secret_bonus
 				bonus = 1
 				uses = 4
+				ahead_reduction = 2
 				category = electronics
 				category = nuclear
 				category = rocketry
