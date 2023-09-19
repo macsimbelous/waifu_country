@@ -304,26 +304,34 @@ focus_tree = {
 			is_in_faction_with = ENG
 			656 = {
 				CONTROLLER = {
-					tag = ENG
-					is_puppet_of = ENG
+					OR = {
+						tag = ENG
+						is_puppet_of = ENG
+					}
 				}
 			}
 			765 = {
 				CONTROLLER = {
-					tag = ENG
-					is_puppet_of = ENG
+					OR = {
+						tag = ENG
+						is_puppet_of = ENG
+					}
 				}
 			}
 			658 = {
 				CONTROLLER = {
-					tag = ENG
-					is_puppet_of = ENG
+					OR = {
+						tag = ENG
+						is_puppet_of = ENG
+					}
 				}
 			}
 			659 = {
 				CONTROLLER = {
-					tag = ENG
-					is_puppet_of = ENG
+					OR = {
+						tag = ENG
+						is_puppet_of = ENG
+					}
 				}
 			}
 			# Iraq
