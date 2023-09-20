@@ -27,6 +27,8 @@ ideas = {
 				#terrain_penalty_reduction = 0.3
 				#supply_consumption_factor = -0.3
 				grant_medal_cost_factor = -0.5
+				send_volunteer_divisions_required = -0.3
+				send_volunteers_tension = -0.75
 			}
 		}
 		# mah_britain_refused_idea = {
