@@ -300,8 +300,13 @@ focus_tree = {
 			BUL = {
 				democratic > 0.3
 			}
-			ALB = {
-				democratic > 0.3
+			if = {
+				limit = {
+					country_exists = ALB
+				}
+				ALB = {
+					democratic > 0.3
+				}
 			}
 		}
 		ai_will_do = {
@@ -362,15 +367,20 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					ALB = {
-						is_ai = yes
-					}
+					country_exists = ALB
 				}
-				add_to_faction = ALB
-			}
-			else = {
-				ALB = {
-					country_event = generic.5
+				if = {
+					limit = {
+						ALB = {
+							is_ai = yes
+						}
+					}
+					add_to_faction = ALB
+				}
+				else = {
+					ALB = {
+						country_event = generic.5
+					}
 				}
 			}
 		}
