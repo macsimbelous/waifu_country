@@ -89,6 +89,12 @@ focus_tree = {
 					idea = democratic_influence
 					days = 360
 				}
+				hidden_effect = {
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.1
+					}
+				}
 			}
 		}
 	}
@@ -110,6 +116,12 @@ focus_tree = {
 				add_timed_idea = {
 					idea = democratic_influence
 					days = 360
+				}
+				hidden_effect = {
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.1
+					}
 				}
 			}
 		}
@@ -133,6 +145,12 @@ focus_tree = {
 					idea = democratic_influence
 					days = 360
 				}
+				hidden_effect = {
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.1
+					}
+				}
 			}
 		}
 	}
@@ -154,6 +172,12 @@ focus_tree = {
 				add_timed_idea = {
 					idea = democratic_influence
 					days = 360
+				}
+				hidden_effect = {
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.1
+					}
 				}
 			}
 		}
@@ -177,6 +201,12 @@ focus_tree = {
 				add_timed_idea = {
 					idea = democratic_influence
 					days = 360
+				}
+				hidden_effect = {
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.1
+					}
 				}
 			}
 		}
@@ -258,20 +288,35 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			is_in_faction = yes
+			HUN = {
+				democratic > 0.3
+			}
+			YUG = {
+				democratic > 0.3
+			}
+			ROM = {
+				democratic > 0.3
+			}
+			BUL = {
+				democratic > 0.3
+			}
+			ALB = {
+				democratic > 0.3
+			}
+		}
+		ai_will_do = {
+			factor = 10
 		}
 		completion_reward = {
 			if = {
 				limit = {
 					BUL = {
-						exists = yes
-						has_government = democratic
-						NOT = {
-							is_in_faction_with = ROOT
-						}
+						is_ai = yes
 					}
 				}
-				#add_to_faction = BUL
+				add_to_faction = BUL
+			}
+			else = {
 				BUL = {
 					country_event = generic.5
 				}
@@ -279,14 +324,12 @@ focus_tree = {
 			if = {
 				limit = {
 					ROM = {
-						exists = yes
-						has_government = democratic
-						NOT = {
-							is_in_faction_with = ROOT
-						}
+						is_ai = yes
 					}
 				}
-				#add_to_faction = ROM
+				add_to_faction = ROM
+			}
+			else = {
 				ROM = {
 					country_event = generic.5
 				}
@@ -294,14 +337,12 @@ focus_tree = {
 			if = {
 				limit = {
 					YUG = {
-						exists = yes
-						has_government = democratic
-						NOT = {
-							is_in_faction_with = ROOT
-						}
+						is_ai = yes
 					}
 				}
-				#add_to_faction = YUG
+				add_to_faction = YUG
+			}
+			else = {
 				YUG = {
 					country_event = generic.5
 				}
@@ -309,14 +350,12 @@ focus_tree = {
 			if = {
 				limit = {
 					HUN = {
-						exists = yes
-						has_government = democratic
-						NOT = {
-							is_in_faction_with = ROOT
-						}
+						is_ai = yes
 					}
 				}
-				#add_to_faction = HUN
+				add_to_faction = HUN
+			}
+			else = {
 				HUN = {
 					country_event = generic.5
 				}
@@ -324,16 +363,319 @@ focus_tree = {
 			if = {
 				limit = {
 					ALB = {
-						exists = yes
-						has_government = democratic
-						NOT = {
-							is_in_faction_with = ROOT
-						}
+						is_ai = yes
 					}
 				}
-				#add_to_faction = ALB
+				add_to_faction = ALB
+			}
+			else = {
 				ALB = {
 					country_event = generic.5
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_economic_integration
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = acw_focus_invite_balkans
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_invite_balkans
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_subject = no
+			num_of_factories > 75
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					is_in_faction_with = BUL
+				}
+				set_autonomy = {
+					target = BUL
+					autonomy_state = autonomy_dominion
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = ROM
+				}
+				set_autonomy = {
+					target = ROM
+					autonomy_state = autonomy_dominion
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = YUG
+				}
+				set_autonomy = {
+					target = YUG
+					autonomy_state = autonomy_dominion
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = HUN
+				}
+				set_autonomy = {
+					target = HUN
+					autonomy_state = autonomy_dominion
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = ALB
+				}
+				set_autonomy = {
+					target = ALB
+					autonomy_state = autonomy_dominion
+				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_balkan_federation
+		icon = GFX_focus_BUL_balkan_federation_of_socialist_republics
+		prerequisite = {
+			focus = acw_focus_economic_integration
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_economic_integration
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			has_country_flag = acw_great_animeland_flag
+		}
+		available = {
+			is_subject = no
+			#Animeland
+			custom_trigger_tooltip = {
+				tooltip = acw_form_animeland_required_states_tt
+				controls_state = 76
+				controls_state = 82
+				controls_state = 83
+				controls_state = 84
+				controls_state = 764
+			}
+			OR = {
+				HUN = {
+					is_puppet_of = ROOT
+				}
+				ROM = {
+					is_puppet_of = ROOT
+				}
+				YUG = {
+					is_puppet_of = ROOT
+				}
+			}
+		}
+		completion_reward = {
+			set_country_flag = acw_great_animeland_flag
+			set_cosmetic_tag = ACW_EMP
+			set_major = yes
+			# Bulgaria
+			if = {
+				limit = {
+					BUL = {
+						is_puppet_of = ROOT
+					}
+				}
+				annex_country = {
+					target = BUL
+					transfer_troops = yes
+				}
+				custom_effect_tooltip = acw_form_bulgaria_coring_states_tt
+				hidden_effect = {
+					48 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 48
+					801 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 801
+					212 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 212
+					211 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 211
+				}
+			}
+			#Romania
+			if = {
+				limit = {
+					ROM = {
+						is_puppet_of = ROOT
+					}
+				}
+				annex_country = {
+					target = ROM
+					transfer_troops = yes
+				}
+				custom_effect_tooltip = acw_form_romania_coring_states_tt
+				hidden_effect = {
+					46 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 46
+					76 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 76
+					77 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 77
+					79 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 79
+					81 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 81
+					82 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 82
+					83 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 83
+					84 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 84
+				}
+			}
+			# Yugoslavia
+			if = {
+				limit = {
+					YUG = {
+						is_puppet_of = ROOT
+					}
+				}
+				annex_country = {
+					target = YUG
+					transfer_troops = yes
+				}
+				custom_effect_tooltip = acw_form_yugoslavia_coring_states_tt
+				hidden_effect = {
+					102 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 102
+					103 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 103
+					109 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 109
+					104 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 104
+					804 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 804
+					105 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 105
+					107 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 107
+					45 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 45
+					764 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 764
+					108 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 108
+					802 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 802
+					803 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 803
+					106 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 106
+				}
+			}
+			# Hungary
+			if = {
+				limit = {
+					HUN = {
+						is_puppet_of = ROOT
+					}
+				}
+				annex_country = {
+					target = HUN
+					transfer_troops = yes
+				}
+				custom_effect_tooltip = acw_form_hungary_coring_states_tt
+				hidden_effect = {
+					155 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 155
+					43 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 43
+					154 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 154
+				}
+			}
+			# Albania
+			if = {
+				limit = {
+					ALB = {
+						is_puppet_of = ROOT
+					}
+				}
+				annex_country = {
+					target = ALB
+					transfer_troops = yes
+				}
+				custom_effect_tooltip = acw_form_albani_coring_states_tt
+				hidden_effect = {
+					805 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 805
+					44 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 44
 				}
 			}
 		}
@@ -1473,7 +1815,8 @@ focus_tree = {
 		completion_reward = {
 			ALB = {
 				every_owned_state = {
-					add_claim_by = ROOT
+					#add_claim_by = ROOT
+					add_core_of = ROOT
 				}
 			}
 			create_wargoal = {
@@ -1553,7 +1896,8 @@ focus_tree = {
 							is_core_of = ALB
 						}
 					}
-					add_claim_by = ROOT
+					#add_claim_by = ROOT
+					add_core_of = ROOT
 				}
 			}
 			create_wargoal = {
