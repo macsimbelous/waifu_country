@@ -1078,6 +1078,12 @@ mms_balance_of_power_category = {
 			MMS_02 = {
 				remove_unit_leader_role = yes
 			}
+			MMS_serafall_leviathan = {
+				add_trait = {
+					slot = political_advisor
+					trait = wfc_silent_workhorse
+				}
+			}
 			remove_power_balance = {
 				id = mms_balance_of_power
 			}
@@ -1118,6 +1124,9 @@ mms_balance_of_power_category = {
 						wfc_patron_of_intelligence
 					}
 				}
+			}
+			MMS_02 = {
+				promote_leader = yes
 			}
 			remove_power_balance = {
 				id = mms_balance_of_power

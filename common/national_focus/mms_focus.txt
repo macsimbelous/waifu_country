@@ -667,8 +667,10 @@ focus_tree = {
 			is_puppet = no
 			NOT = {
 				is_in_faction_with = PAK
-				PAK = {
-					exists = yes
+			}
+			PAK = {
+				exists = yes
+				NOT = {
 					is_puppet_of = ROOT
 				}
 			}
