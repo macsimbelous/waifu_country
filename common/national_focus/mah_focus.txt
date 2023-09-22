@@ -26,6 +26,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			is_puppet = no
+		}
 		completion_reward = {
 			add_war_support = 0.1
 			add_political_power = 100
@@ -79,6 +82,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			is_puppet = no
+		}
 		bypass = {
 			676 = {
 				wfc_is_controlled_by_root_or_puppet = yes
@@ -117,6 +123,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			676 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
@@ -257,6 +264,9 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
 		}
 		bypass = {
 			294 = {
@@ -405,6 +415,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			# Iraq
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
@@ -837,6 +848,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			has_country_flag = mah_crystal_empire_formed_flag
 		}
 		completion_reward = {

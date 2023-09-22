@@ -1250,6 +1250,12 @@ characters = {
 			allowed = {
 				original_tag = MMS
 			}
+			available = {
+				has_country_leader = {
+					character = MMS_yuuko_yoshida
+					ruling_only = yes
+				}
+			}
 			traits = {
 				staunch_monarchist
 			}
