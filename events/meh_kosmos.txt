@@ -67,8 +67,7 @@ country_event = {
 	#picture = GFX_report_event_airplane_crash
 	#is_triggered_only = yes
 	trigger = {
-		#tag = WFL
-		original_tag = ACW
+		original_tag = MEH
 		check_variable = {
 			meh_sputnik_count > 0
 		}

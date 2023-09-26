@@ -39,3 +39,157 @@ country_event = {
 		}
 	}
 }
+
+# Арест 02
+country_event = {
+	id = mms_event.3
+	title = mms_event.3.t
+	desc = mms_event.3.d
+	#picture = GFX_mms_event_01
+	fire_only_once = yes
+	trigger = {
+		original_tag = MMS
+		has_power_balance = {
+			id = mms_balance_of_power
+		}
+		power_balance_value = {
+			id = mms_balance_of_power
+			value < -0.99
+		}
+	}
+	option = {
+		name = mms_event.3.a
+		ai_chance = {
+			factor = 75
+		}
+		MMS_02 = {
+			remove_unit_leader_role = yes
+		}
+		MMS_serafall_leviathan = {
+			add_trait = {
+				slot = political_advisor
+				trait = wfc_silent_workhorse
+			}
+		}
+		remove_power_balance = {
+			id = mms_balance_of_power
+		}
+		add_stability = 0.15
+		add_political_power = -50
+	}
+}
+
+# Убийство Шамико
+country_event = {
+	id = mms_event.4
+	title = mms_event.4.t
+	desc = mms_event.4.d
+	#picture = GFX_mms_event_01
+	fire_only_once = yes
+	trigger = {
+		original_tag = MMS
+		has_power_balance = {
+			id = mms_balance_of_power
+		}
+		power_balance_value = {
+			id = mms_balance_of_power
+			value > 0.99
+		}
+	}
+	option = {
+		name = mms_event.4.a
+		ai_chance = {
+			factor = 75
+		}
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = MMS_02
+			promote_leader = yes
+			country_leader = {
+				ideology = despotism
+				expire = "1999.1.1.1"
+				traits = {
+					wfc_monster
+					wfc_demon_lord
+					wfc_tyan_militarist
+					wfc_patron_of_intelligence
+				}
+			}
+		}
+		MMS_02 = {
+			promote_leader = yes
+		}
+		remove_power_balance = {
+			id = mms_balance_of_power
+		}
+		add_war_support = 0.15
+		add_political_power = -50
+	}
+}
+
+# Арест 02 по рещению
+country_event = {
+	id = mms_event.5
+	title = mms_event.3.t
+	desc = mms_event.3.d
+	#picture = GFX_mms_event_01
+	is_triggered_only = yes
+	option = {
+		name = mms_event.3.a
+		ai_chance = {
+			factor = 75
+		}
+		MMS_02 = {
+			remove_unit_leader_role = yes
+		}
+		MMS_serafall_leviathan = {
+			add_trait = {
+				slot = political_advisor
+				trait = wfc_silent_workhorse
+			}
+		}
+		remove_power_balance = {
+			id = mms_balance_of_power
+		}
+		add_stability = 0.15
+		add_political_power = -50
+	}
+}
+
+# Убийство Шамико по рещению
+country_event = {
+	id = mms_event.6
+	title = mms_event.4.t
+	desc = mms_event.4.d
+	#picture = GFX_mms_event_01
+	is_triggered_only = yes
+	option = {
+		name = mms_event.4.a
+		ai_chance = {
+			factor = 75
+		}
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = MMS_02
+			promote_leader = yes
+			country_leader = {
+				ideology = despotism
+				expire = "1999.1.1.1"
+				traits = {
+					wfc_monster
+					wfc_demon_lord
+					wfc_tyan_militarist
+					wfc_patron_of_intelligence
+				}
+			}
+		}
+		MMS_02 = {
+			promote_leader = yes
+		}
+		remove_power_balance = {
+			id = mms_balance_of_power
+		}
+		add_war_support = 0.15
+		add_political_power = -50
+	}
+}
