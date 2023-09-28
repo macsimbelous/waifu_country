@@ -324,7 +324,7 @@
 		relative_position_id = trp_steel_casting_industry
 		cost = 5
 		available = {
-			has_tech = rubber_processing
+			has_tech = synth_oil_experiments
 			has_full_control_of_state = 280
 		}
 		search_filters = {
