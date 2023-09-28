@@ -801,6 +801,7 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				old_guard_navy
 				naval_lineage
 			}
 			skill = 1
@@ -873,7 +874,6 @@ characters = {
 		navy_leader = {
 			traits = {
 				navy_career_officer
-				old_guard_navy
 			}
 			skill = 4
 			attack_skill = 4
