@@ -2442,6 +2442,7 @@
 		y = 1
 		relative_position_id = trp_focus_extra_tech_slot_2
 		cost = 52
+		cancelable = no
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
