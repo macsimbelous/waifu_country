@@ -1818,8 +1818,33 @@ characters = {
 			slot = theorist
 			idea_token = ACW_Yamato_Kancol
 			ledger = navy
-			allowed = {
-				original_tag = ACW
+			available = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					ROOT = {
+						set_country_flag = acw_flag_coast_received
+					}
+				}
 			}
 			traits = {
 				grand_fleet_proponent
@@ -1882,8 +1907,33 @@ characters = {
 			slot = navy_chief
 			idea_token = ACW_Avrora_Azur_Lane
 			cost = 50
-			allowed = {
-				original_tag = ACW
+			available = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					ROOT = {
+						set_country_flag = acw_flag_coast_received
+					}
+				}
 			}
 			traits = {
 				navy_chief_decisive_battle_1
@@ -1932,8 +1982,33 @@ characters = {
 			ledger = navy
 			idea_token = ACW_Marblehead
 			cost = 150
-			allowed = {
-				original_tag = ACW
+			available = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					ROOT = {
+						set_country_flag = acw_flag_coast_received
+					}
+				}
 			}
 			traits = {
 				submarine_specialist
@@ -2081,8 +2156,33 @@ characters = {
 			slot = navy_chief
 			idea_token = ACW_Beidou
 			cost = 50
-			allowed = {
-				original_tag = ACW
+			available = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					ROOT = {
+						set_country_flag = acw_flag_coast_received
+					}
+				}
 			}
 			traits = {
 				navy_chief_commerce_raiding_1
@@ -2188,8 +2288,33 @@ characters = {
 			ledger = navy
 			idea_token = ACW_st_louis
 			cost = 150
-			allowed = {
-				original_tag = ACW
+			available = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = acw_flag_coast_received
+							}
+						}
+					}
+					ROOT = {
+						set_country_flag = acw_flag_coast_received
+					}
+				}
 			}
 			traits = {
 				naval_aviation_pioneer

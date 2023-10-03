@@ -31,6 +31,7 @@ ideas = {
 				terrain_penalty_reduction = 0.3
 				#supply_consumption_factor = -0.3
 				grant_medal_cost_factor = -0.5
+				max_command_power_mult = 0.5
 			}
 		}
 		mms_necromancy = {

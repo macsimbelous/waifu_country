@@ -47,6 +47,7 @@ ideas = {
 				justify_war_goal_time = -1
 				supply_consumption_factor = -1
 				grant_medal_cost_factor = -0.5
+				max_command_power_mult = 0.5
 			}
 			rule = {
 				can_force_government = no
