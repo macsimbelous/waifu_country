@@ -29,8 +29,9 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			removal_cost = -1
 			modifier = {
-				fascism_drift = 0.2
+				#fascism_drift = 0.2
 				foreign_subversive_activites = -0.5
+				justify_war_goal_time = -0.75
 			}
 			rule = {
 				#can_create_factions = no

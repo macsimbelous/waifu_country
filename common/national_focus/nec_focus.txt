@@ -430,6 +430,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			NOT = {
+				is_in_faction_with = CHI
+			}
 			if = {
 				limit = {
 					has_war = yes
@@ -618,6 +621,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			NOT = {
+				is_in_faction_with = RAJ
+			}
 			if = {
 				limit = {
 					has_war = yes
@@ -855,6 +861,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			NOT = {
+				is_in_faction_with = SOV
+			}
 			controls_state = 617
 			controls_state = 618
 			controls_state = 619
