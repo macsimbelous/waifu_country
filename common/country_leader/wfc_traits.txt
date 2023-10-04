@@ -506,4 +506,10 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	wfc_trait_great_survivor_advisor = {
+		random = no
+		sprite = 13
+		stability_factor = 0.1
+		mobilization_speed = 0.15
+	}
 }

@@ -23,11 +23,13 @@ characters = {
 			slot = political_advisor
 			idea_token = nec_alice
 			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			visible = {
-				always = no
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = nec_alice
+						ruling_only = yes
+					}
+				}
 			}
 			traits = {
 				fascist_demagogue
@@ -37,14 +39,14 @@ characters = {
 			}
 		}
 	}
-	nec_alice_c = {
-		name = nec_alice
+	nec_krasnaya_bezdna = {
+		name = nec_krasnaya_bezdna
 		portraits = {
 			army = {
-				small = GFX_idea_nec_alice
+				small = GFX_idea_nec_krasnaya_bezdna
 			}
 			civilian = {
-				large = GFX_portrait_nec_alice_civilian
+				large = GFX_portrait_nec_krasnaya_bezdna_civilian
 			}
 		}
 		country_leader = {
@@ -53,16 +55,21 @@ characters = {
 				wfc_trait_undead
 				wfc_dictator
 				wfc_tyan_militarist
-				wfc_patron_of_the_military_industrial_complex
+				wfc_patron_of_intelligence
 			}
 			expire = "1999.1.1"
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = nec_alice_c
+			idea_token = nec_krasnaya_bezdna
 			cost = 150
-			visible = {
-				always = no
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = nec_krasnaya_bezdna
+						ruling_only = yes
+					}
+				}
 			}
 			traits = {
 				communist_revolutionary
@@ -89,39 +96,62 @@ characters = {
 				wfc_trait_undead
 				wfc_empress
 				autocratic_imperialist
+				wfc_defender
+				wfc_patron_of_industry
 			}
 			expire = "1999.1.1"
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_omicilia
+			cost = 150
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = nec_omicilia
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				staunch_monarchist
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	}
-	nec_alice_d = {
-		name = nec_alice
+	nec_aya_rindou = {
+		name = nec_aya_rindou
 		portraits = {
 			army = {
-				small = GFX_idea_nec_alice
+				small = GFX_idea_nec_aya_rindou
 			}
 			civilian = {
-				large = GFX_portrait_nec_alice_civilian
+				large = GFX_portrait_nec_aya_rindou_civilian
 			}
 		}
 		country_leader = {
 			ideology = liberalism
 			traits = {
 				wfc_trait_undead
-				wfc_dictator
-				wfc_tyan_militarist
-				wfc_patron_of_the_military_industrial_complex
+				wfc_peoples_favorite
+				wfc_patron_of_science
+				wfc_defender
 			}
 			expire = "1999.1.1"
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = nec_alice_d
+			idea_token = nec_aya_rindou
 			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			visible = {
-				always = no
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = nec_aya_rindou
+						ruling_only = yes
+					}
+				}
 			}
 			traits = {
 				democratic_reformer
@@ -576,6 +606,25 @@ characters = {
 			}
 			traits = {
 				nuclear_scientist
+			}
+		}
+	}
+	nec_flamper = {
+		name = nec_flamper
+		portraits = {
+			army = {
+				small = GFX_idea_nec_flamper
+			}
+			civilian = {
+				large = GFX_portrait_nec_flamper_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_flamper
+			cost = 150
+			traits = {
+				wfc_trait_great_survivor_advisor
 			}
 		}
 	}

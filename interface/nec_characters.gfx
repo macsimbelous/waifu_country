@@ -147,6 +147,30 @@ spriteTypes = {
 		name = "GFX_portrait_nec_sebrix_magnus_civilian"
 		texturefile = "gfx/leaders/NEC/sebrix_magnus_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_krasnaya_bezdna"
+		texturefile = "gfx/leaders/NEC/krasnaya_bezdna_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_krasnaya_bezdna_civilian"
+		texturefile = "gfx/leaders/NEC/krasnaya_bezdna_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_aya_rindou"
+		texturefile = "gfx/leaders/NEC/aya_rindou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_aya_rindou_civilian"
+		texturefile = "gfx/leaders/NEC/aya_rindou_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_flamper"
+		texturefile = "gfx/leaders/NEC/flamper_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_flamper_civilian"
+		texturefile = "gfx/leaders/NEC/flamper_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"
