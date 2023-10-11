@@ -29,7 +29,7 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
 
 #ACW
  #Ministers
- acw_winry_rockbell_manufacturer:0 "Мастерская Винри Рокбелл"
+  acw_organization_winry_rockbell_manufacturer: "Мастерская Винри Рокбелл"
 
  #ideas
  acw_minprom_idea:0 "Министерство промышленности"
@@ -97,7 +97,7 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
  mms_the_nation_of_monmusu:0 "§YНация монстров§!"
  mms_necromancy:0 "Некромантия"
  mms_idea_scientific_nexus: "Научный нексус"
- mms_ifrit_forge: "§RКузница Ифрит§!"
+ mms_organization_ifrit_forge: "§RКузница Ифрит§!"
  mms_payment_of_reparations: "§RВыплата репараций§!"
  mms_idea_ifrit_infantry_equipment: "Пехотная экипировка Ифрит"
  mms_dm_ifrit_infantry_equipment: "Пехотная экипировка Ифрит"

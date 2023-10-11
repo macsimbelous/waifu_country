@@ -48,8 +48,8 @@ wfc_subsidies_dm:0 "Budget subsidies"
  zmb_zombie_army:0 "Zombie Army"
 
 #ACW
-#Ministers
-acw_winry_rockbell_manufacturer:0 "Winry Rockbell Workshop"
+ #Ministers
+  acw_organization_winry_rockbell_manufacturer: "Winry Rockbell Workshop"
 
 #ideas
 acw_minprom_idea:0 "Ministry of Industry"
@@ -107,7 +107,7 @@ acw_subject_autonomy_mod_tt:0 "Increase in the autonomy of the subjects §G-0.5"
  mms_the_nation_of_monmusu:0 "§YMonster Nation§!"
  mms_necromancy:0 "Necromancy"
  mms_idea_scientific_nexus: "Scientific Nexus"
- mms_ifrit_forge: "§RIfrit Forge§!"
+ mms_organization_ifrit_forge: "§RIfrit Forge§!"
  mms_payment_of_reparations: "§RPayment of Reparations§!"
  mms_idea_ifrit_infantry_equipment: "Ifrit infantry equipment"
  mms_dm_ifrit_infantry_equipment: "Ifrit infantry equipment"

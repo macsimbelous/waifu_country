@@ -9,9 +9,9 @@
 # garrison
 # protect
 # influence
-TRP_unit_production = {
+nec_unit_production = {
 	allowed = {
-		original_tag = TRP
+		original_tag = NEC
 	}
 	enable = {
 		always = yes
@@ -94,7 +94,7 @@ TRP_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = 40
+		value = 30
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -143,9 +143,9 @@ TRP_unit_production = {
 	}
 }
 
-TRP_template_design_1 = {
+nec_template_design_1 = {
 	allowed = {
-		original_tag = TRP
+		original_tag = NEC
 	}
 	enable = {
 		date < 1940.1.1
@@ -195,10 +195,10 @@ TRP_template_design_1 = {
 	}
 }
 
-TRP_template_design_2 = {
+nec_template_design_2 = {
 	abort_when_not_enabled = yes
 	allowed = {
-		original_tag = TRP
+		original_tag = NEC
 	}
 	enable = {
 		date > 1940.1.1
@@ -249,11 +249,10 @@ TRP_template_design_2 = {
 		value = 10
 	}
 }
-
-TRP_template_design_3 = {
+nec_template_design_3 = {
 	abort_when_not_enabled = yes
 	allowed = {
-		original_tag = TRP
+		original_tag = NEC
 	}
 	enable = {
 		date > 1944.1.1
@@ -308,7 +307,7 @@ TRP_template_design_3 = {
 prio_invasions = {
 	abort_when_not_enabled = yes
 	allowed = {
-		original_tag = TRP
+		original_tag = NEC
 	}
 	enable = {
 		OR = {
@@ -338,10 +337,10 @@ prio_invasions = {
 	}
 }
 
-TRP_naval_role_ratios_historical = {
+nec_naval_role_ratios_historical = {
 	abort_when_not_enabled = yes
 	allowed = {
-		original_tag = TRP
+		original_tag = NEC
 	}
 	enable = {
 		has_dlc = "Man the Guns"
@@ -407,26 +406,37 @@ TRP_naval_role_ratios_historical = {
 	}
 }
 
-TRP_conquer_sa = {
+nec_conquer_per_chi = {
 	allowed = {
-		original_tag = TRP
+		original_tag = NEC
 	}
 	enable = {
 		always = yes
 	}
 	abort = {
-		BRA = {
+		CHI = {
+			exists = no
+		}
+		RAJ = {
+			exists = no
+		}
+		SOV = {
 			exists = no
 		}
 	}
 	ai_strategy = {
 		type = conquer
-		id = "BRA"
+		id = "CHI"
 		value = 100
 	}
 	ai_strategy = {
 		type = prepare_for_war
-		id = "BRA"
+		id = "RAJ"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
 		value = 100
 	}
 	ai_strategy = {
@@ -435,40 +445,3 @@ TRP_conquer_sa = {
 	}
 }
 
-TRP_protect_sov = {
-	allowed = {
-		original_tag = TRP
-	}
-	enable = {
-		has_government = communism
-		SOV = {
-			has_government = communism
-		}
-	}
-	abort = {
-		OR = {
-			NOT = {
-				has_government = communism
-			}
-			SOV = {
-				NOT = {
-					has_government = communism
-				}
-			}
-		}
-	}
-	ai_strategy = {
-		type = protect
-		id = "SOV"
-		value = 100
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = "GER"
-		value = 100
-	}
-	ai_strategy = {
-		type = force_build_armies
-		value = 100
-	}
-}

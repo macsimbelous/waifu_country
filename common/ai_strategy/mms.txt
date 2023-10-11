@@ -196,6 +196,7 @@ MMS_template_design_1 = {
 }
 
 MMS_template_design_2 = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MMS
 	}
@@ -249,6 +250,7 @@ MMS_template_design_2 = {
 	}
 }
 MMS_template_design_3 = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MMS
 	}
@@ -303,6 +305,7 @@ MMS_template_design_3 = {
 }
 
 prio_invasions = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MMS
 	}
@@ -335,6 +338,7 @@ prio_invasions = {
 }
 
 MMS_naval_role_ratios_historical = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MMS
 	}
@@ -410,7 +414,9 @@ MMS_conquer_per_afg = {
 		always = yes
 	}
 	abort = {
-		always = no
+		AFG = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = conquer
@@ -482,7 +488,9 @@ PER_war_to_mms = {
 		always = yes
 	}
 	abort = {
-		always = no
+		MMS = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = conquer
@@ -507,7 +515,9 @@ AFG_war_to_mms = {
 		always = yes
 	}
 	abort = {
-		always = no
+		MMS = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = prepare_for_war

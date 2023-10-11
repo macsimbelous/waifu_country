@@ -196,6 +196,7 @@ ACW_template_design_1 = {
 }
 
 ACW_template_design_2 = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = ACW
 	}
@@ -250,6 +251,7 @@ ACW_template_design_2 = {
 }
 
 ACW_template_design_3 = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = ACW
 	}
@@ -304,6 +306,7 @@ ACW_template_design_3 = {
 }
 
 prio_invasions = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = ACW
 	}
@@ -336,6 +339,7 @@ prio_invasions = {
 }
 
 ACW_naval_role_ratios_historical = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = ACW
 	}

@@ -196,6 +196,7 @@ HEN_template_design_1 = {
 }
 
 HEN_template_design_2 = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = HEN
 	}
@@ -250,6 +251,7 @@ HEN_template_design_2 = {
 }
 
 HEN_template_design_3 = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = HEN
 	}
@@ -304,6 +306,7 @@ HEN_template_design_3 = {
 }
 
 prio_invasions = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = HEN
 	}
@@ -336,6 +339,7 @@ prio_invasions = {
 }
 
 HEN_naval_role_ratios_historical = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = HEN
 	}
@@ -411,7 +415,9 @@ HEN_conquer_jap = {
 		always = yes
 	}
 	abort = {
-		has_country_flag = hen_world_conquest_enabled_flag
+		JAP = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = conquer

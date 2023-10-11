@@ -196,6 +196,7 @@ MAH_template_design_1 = {
 }
 
 MAH_template_design_2 = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MAH
 	}
@@ -249,6 +250,7 @@ MAH_template_design_2 = {
 	}
 }
 MAH_template_design_3 = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MAH
 	}
@@ -303,6 +305,7 @@ MAH_template_design_3 = {
 }
 
 prio_invasions = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MAH
 	}
@@ -335,6 +338,7 @@ prio_invasions = {
 }
 
 MAH_naval_role_ratios_historical = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MAH
 	}
@@ -410,7 +414,9 @@ MAH_conquer_me = {
 		always = yes
 	}
 	abort = {
-		always = no
+		TUR = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = conquer
