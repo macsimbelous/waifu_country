@@ -649,6 +649,7 @@ focus_tree = {
 			focus = meh_join_allies
 		}
 		available = {
+			is_puppet = no
 			has_government = communism
 			SOV = {
 				has_government = communism
@@ -687,6 +688,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			is_puppet = no
+		}
 		completion_reward = {
 			declare_war_on = {
 				target = USA
@@ -715,6 +719,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
+			is_puppet = no
 			has_government = democratic
 			ENG = {
 				has_government = democratic
@@ -726,6 +731,46 @@ focus_tree = {
 		completion_reward = {
 			ENG = {
 				add_to_faction = MEH
+			}
+		}
+	}
+	focus = {
+		id = meh_attack_fascism
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = {
+			focus = meh_join_allies
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_join_allies
+		cost = 5
+		#will_lead_to_war_with = GER
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			USA = {
+				OR = {
+					exists = no
+					is_puppet_of = ROOT
+				}
+			}
+		}
+		available = {
+			is_puppet = no
+			is_in_faction = yes
+		}
+		completion_reward = {
+			every_other_country = {
+				limit = {
+					has_government = fascism
+				}
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = puppet_wargoal_focus
+					}
+				}
 			}
 		}
 	}
@@ -918,6 +963,7 @@ focus_tree = {
 			}
 		}
 		available = {
+			is_puppet = no
 			has_government = fascism
 		}
 		completion_reward = {
@@ -950,6 +996,7 @@ focus_tree = {
 			has_war_with = MEX
 		}
 		available = {
+			is_puppet = no
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = meh_usa_under_control_tt
@@ -1126,6 +1173,7 @@ focus_tree = {
 			has_war_with = CAN
 		}
 		available = {
+			is_puppet = no
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = meh_usa_under_control_tt
@@ -1302,7 +1350,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			is_subject = no
+			is_puppet = no
 			has_government = fascism
 			custom_trigger_tooltip = {
 				tooltip = meh_usa_under_control_tt
@@ -1627,7 +1675,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			is_subject = no
+			is_puppet = no
 			NOT = {
 				is_in_faction_with = 332.OWNER
 			}

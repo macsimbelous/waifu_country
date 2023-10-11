@@ -897,6 +897,9 @@
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			is_puppet = no
+		}
 		completion_reward = {
 			add_war_support = 0.1
 		}
@@ -919,6 +922,7 @@
 		}
 		will_lead_to_war_with = BRA
 		available = {
+			is_puppet = no
 			has_army_manpower = {
 				size > 299999
 			}
@@ -1008,6 +1012,7 @@
 			}
 		}
 		available = {
+			is_puppet = no
 			# BRA
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_bra_required_states_tt
@@ -1086,6 +1091,9 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = BOL
+		available = {
+			is_puppet = no
+		}
 		bypass = {
 			# BOL
 			custom_trigger_tooltip = {
@@ -1133,6 +1141,9 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = COL
+		available = {
+			is_puppet = no
+		}
 		bypass = {
 			# COL
 			custom_trigger_tooltip = {
@@ -1206,6 +1217,7 @@
 			}
 		}
 		available = {
+			is_puppet = no
 			# COL
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_col_required_states_tt
@@ -1255,6 +1267,7 @@
 			}
 		}
 		available = {
+			is_puppet = no
 			# VEN
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_ven_required_states_tt
@@ -1335,6 +1348,7 @@
 			}
 		}
 		available = {
+			is_puppet = no
 			305 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
@@ -1381,6 +1395,7 @@
 			}
 		}
 		available = {
+			is_puppet = no
 			OR = {
 				# BRA
 				custom_trigger_tooltip = {
@@ -1521,6 +1536,7 @@
 			}
 		}
 		available = {
+			is_puppet = no
 			300 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
@@ -1589,6 +1605,7 @@
 			}
 		}
 		available = {
+			is_puppet = no
 			# ARG
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_arg_required_states_tt
@@ -2202,6 +2219,9 @@
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
 		}
 		bypass = {
 			controls_state = 687

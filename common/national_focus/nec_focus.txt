@@ -26,6 +26,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			is_puppet = no
+		}
 		completion_reward = {
 			TIB = {
 				every_owned_state = {
@@ -91,6 +94,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			is_puppet = no
+		}
 		completion_reward = {
 			build_railway = {
 				level = 1
@@ -134,6 +140,9 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
 		}
 		completion_reward = {
 			BHU = {
@@ -265,6 +274,7 @@ focus_tree = {
 		}
 		available = {
 			has_completed_focus = nec_focus_necrification_of_the_population
+			is_puppet = no
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -341,6 +351,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			if = {
 				limit = {
 					has_war = yes
@@ -384,6 +395,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			if = {
 				limit = {
 					has_war = yes
@@ -430,6 +442,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			NOT = {
 				is_in_faction_with = CHI
 			}
@@ -476,6 +489,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			controls_state = 601
 			controls_state = 752
 			controls_state = 751
@@ -510,6 +524,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			controls_state = 595
 			controls_state = 600
 			controls_state = 602
@@ -544,6 +559,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			controls_state = 616
 			controls_state = 283
 			controls_state = 744
@@ -580,6 +596,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			controls_state = 756
 			controls_state = 616
 			controls_state = 622
@@ -621,6 +638,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			NOT = {
 				is_in_faction_with = RAJ
 			}
@@ -667,6 +685,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			if = {
 				limit = {
 					has_war = yes
@@ -710,6 +729,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			controls_state = 442
 			controls_state = 444
 			controls_state = 445
@@ -745,6 +765,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			controls_state = 444
 		}
 		completion_reward = {
@@ -784,6 +805,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			controls_state = 412
 			controls_state = 414
 			controls_state = 415
@@ -828,6 +850,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			controls_state = 419
 			controls_state = 421
 			controls_state = 413
@@ -861,6 +884,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			NOT = {
 				is_in_faction_with = SOV
 			}
@@ -909,6 +933,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			is_puppet = no
+		}
 		completion_reward = {
 			MON = {
 				every_owned_state = {
@@ -938,6 +965,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			#is_neighbor_of = TAN
 			any_controlled_state = {
 				any_neighbor_state = {

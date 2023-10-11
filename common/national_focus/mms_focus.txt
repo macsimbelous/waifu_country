@@ -31,6 +31,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			is_puppet = no
 			if = {
 				limit = {
 					has_country_leader = {
@@ -1394,7 +1395,7 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available = {
-			has_idea = mms_ifrit_forge
+			#has_idea = mms_ifrit_forge
 		}
 		completion_reward = {
 			#add_ideas = mms_idea_ifrit_infantry_equipment
