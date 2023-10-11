@@ -455,6 +455,14 @@ spriteTypes = {
 		name = "GFX_portrait_mms_yoshiko_tsushima_monster_civilian"
 		texturefile = "gfx/leaders/MMS/yoshiko_tsushima_monster_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_desastre_sereno"
+		texturefile = "gfx/leaders/MMS/desastre_sereno_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_desastre_sereno_civilian"
+		texturefile = "gfx/leaders/MMS/desastre_sereno_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

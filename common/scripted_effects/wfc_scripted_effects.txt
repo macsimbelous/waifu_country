@@ -1106,30 +1106,11 @@ wfc_add_rocket_site_in_random_state = {
 }
 
 d_rise_zombi = {
-	MMS_alice = {
-		remove_advisor_role = {
-			slot = political_advisor
-		}
-	}
-	set_nationality = {
-		target_country = ZMB
-		character = MMS_alice
-	}
 	ZMB = {
 		transfer_state = 267
 		load_oob = ZMB_1936
-		add_country_leader_role = {
-			character = MMS_alice
-			promote_leader = yes
-			country_leader = {
-				ideology = fascism_ideology
-				expire = "1999.1.1.1"
-				traits = {
-					wfc_monster
-					wfc_trait_necromancer
-				}
-			}
-		}
+		add_country_leader_trait = wfc_monster
+		add_country_leader_trait = wfc_trait_necromancer
 		267 = {
 			add_core_of = ZMB
 			set_temp_variable = {

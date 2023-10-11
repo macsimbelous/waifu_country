@@ -1354,22 +1354,22 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	MMS_alice = {
-		name = MMS_alice
+	mms_desastre_sereno = {
+		name = mms_desastre_sereno
 		portraits = {
 			army = {
-				small = GFX_idea_mms_alice
+				small = GFX_idea_mms_desastre_sereno
 			}
 			civilian = {
-				large = GFX_portrait_mms_alice_civilian
+				large = GFX_portrait_mms_desastre_sereno_civilian
 			}
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = MMS_alice
+			idea_token = mms_desastre_sereno
 			cost = 150
 			traits = {
-				wfc_trait_necromancer_advisor
+				the_statist
 			}
 		}
 	}
