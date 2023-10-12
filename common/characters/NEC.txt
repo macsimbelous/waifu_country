@@ -628,6 +628,29 @@ characters = {
 			}
 		}
 	}
+	nec_makina_hoshimura = {
+		name = nec_makina_hoshimura
+		portraits = {
+			army = {
+				small = GFX_idea_nec_makina_hoshimura
+				large = GFX_portrait_nec_makina_hoshimura_army
+			}
+			civilian = {
+				large = GFX_portrait_nec_makina_hoshimura_civilian
+			}
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				adaptable
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		name = generic_head_of_intelligence
