@@ -359,6 +359,14 @@ spriteTypes = {
 		name = "GFX_portrait_hen_sayaka_akimiya_operative"
 		texturefile = "gfx/leaders/HEN/sayaka_akimiya_operative.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hen_aya_itou"
+		texturefile = "gfx/leaders/HEN/aya_itou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_aya_itou_navy"
+		texturefile = "gfx/leaders/HEN/aya_itou_navy.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_hen_land_01_small"

@@ -915,7 +915,6 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	#admerals
 	HEN_Kaname = {
 		name = HEN_Kaname
 		portraits = {
@@ -1016,7 +1015,6 @@ characters = {
 			}
 		}
 	}
-	#advisors
 	HEN_Mika_Amano = {
 		name = HEN_Mika_Amano
 		portraits = {
@@ -1110,6 +1108,25 @@ characters = {
 			civilian = {
 				large = GFX_portrait_hen_sayaka_akimiya_operative
 			}
+		}
+	}
+	hen_aya_itou = {
+		name = hen_aya_itou
+		portraits = {
+			navy = {
+				small = GFX_idea_hen_aya_itou
+				large = GFX_portrait_hen_aya_itou_navy
+			}
+		}
+		navy_leader = {
+			traits = {
+				big_guns_expert
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
 		}
 	}
 }

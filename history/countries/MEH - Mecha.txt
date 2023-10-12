@@ -114,60 +114,7 @@ set_popularities = {
 	communism = 25	##Коммунизм
 	fascism = 25	##Фашизм
 }
-1939.1.1 = {
-	set_war_support = 0.7
-	set_stability = 0.7
-	add_political_power = 2000
-	add_command_power = 200
-	oob = "MEH_1939"
-	#adding ministers
-	add_ideas = {
-		#laws
-		partial_economic_mobilisation
-		limited_conscription
-	}
-		
-	set_technology = {
-		basic_small_airframe = 1
-		basic_medium_airframe = 1
-		engines_2 = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		interwar_antiair = 1
-		artillery1 = 1
-		infantry_weapons2 = 1
-		improved_infantry_weapons = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		paratroopers = 1
-		gwtank_chassis = 1
-		basic_medium_tank_chassis = 1 
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		construction4 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-		dispersed_industry4 = 1
-		excavation1 = 1
-		excavation2 = 1
-	}
-}
 #lider
 recruit_character = MEH_KOS_MOS
 recruit_character = MEH_Fiora_Mechon
@@ -200,7 +147,6 @@ recruit_character = MEH_Vivy
 recruit_character = MEH_norimaki_arale
 recruit_character = MEH_violet_evergarden
 recruit_character = MEH_alpha
-#admiral
 recruit_character = MEH_Ashigara_ARP
 recruit_character = MEH_Takao_ARP
 recruit_character = MEH_I_410
@@ -210,7 +156,6 @@ recruit_character = MEH_Kongou_ARP
 recruit_character = MEH_Atago_ARP
 recruit_character = MEH_Caseal
 recruit_character = MEH_Hiei_ARP
-#advisor
 recruit_character = MEH_Yurizaki_Mira
 recruit_character = MEH_head_int
 #Agents
@@ -338,46 +283,9 @@ create_equipment_variant = {
 	}
 	#icon = "GFX_SOV_early_bomber_medium"
 }
-1939.1.1 = {
-	create_equipment_variant = {
-		name = "Mecha F-16" #
-		type = small_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = light_mg_4x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		#obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Mecha B-4"
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = bomb_locks
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		#icon = "GFX_SOV_early_bomber_medium"
-	}
-}
+
 # Destroyers #
-# create_equipment_variant = {
-# 	name = "Destroyer V.1"
-# 	type = ship_hull_light_1
-# 	parent_version = 0
-# 	modules = {
-# 		fixed_ship_battery_slot = ship_light_battery_2
-# 		fixed_ship_anti_air_slot = empty
-# 		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-# 		fixed_ship_radar_slot = ship_sonar_1
-# 		fixed_ship_engine_slot = light_ship_engine_2
-# 		fixed_ship_torpedo_slot = ship_torpedo_1
-# 		mid_1_custom_slot = ship_torpedo_1
-# 		rear_1_custom_slot = ship_depth_charge_1
-# 	}
-# 	obsolete = yes
-# }
+
 create_equipment_variant = {
 	name = "Destroyer V.2"
 	type = ship_hull_light_2

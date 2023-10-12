@@ -72,83 +72,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-1939.1.1 = {
-	set_war_support = 0.7
-	set_stability = 0.7
-	add_political_power = 2000
-	add_command_power = 200
-	oob = "ACW_1939"
-	#adding ministers
-	add_ideas = {
-		#laws
-		partial_economic_mobilisation
-		limited_conscription
-	}
-	set_technology = {
-		improved_small_airframe = 1
-		improved_medium_airframe = 1
-		basic_large_airframe = 1
-		engines_2 = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		#interwar_antiair = 1
-		artillery1 = 1
-		infantry_weapons2 = 1
-		improved_infantry_weapons = 1
-		
-		support_weapons2 = 1
-		paratroopers = 1
-		gwtank_chassis = 1
-		basic_medium_tank_chassis = 1 
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		construction4 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-		dispersed_industry4 = 1
-		excavation1 = 1
-		excavation2 = 1
-	}
-	complete_national_focus = acw_focus_government_reform
-	complete_national_focus = acw_focus_create_minprom
-	complete_national_focus = acw_focus_create_minscience
-	complete_national_focus = acw_focus_create_mintrans
-	complete_national_focus = acw_focus_create_minoboron
-	complete_national_focus = acw_focus_create_kgb
-	complete_national_focus = acw_focus_create_minpropagand
-	complete_national_focus = acw_focus_complete_the_reform
-
-	complete_national_focus = acw_focus_revise_industrial_policy
-	complete_national_focus = acw_focus_production_effort
-	complete_national_focus = acw_focus_public_works
-	complete_national_focus = acw_focus_nationalize_industry
-	complete_national_focus = acw_focus_modernize_steel_plant_3
-	complete_national_focus = acw_focus_people_owned_mines
-	complete_national_focus = acw_focus_synthetic_refinery
-	complete_national_focus = acw_focus_tungsten_plant
-	complete_national_focus = acw_focus_infrastructure_effort_2
-	complete_national_focus = acw_focus_aluminium_plant
-
-	complete_national_focus = acw_focus_path_to_empire
-	complete_national_focus = acw_defensive_lines
-	complete_national_focus = acw_focus_academy_of_sciences
-}
 #recruit_character = ACW_GER_puppet_leader_neutrality
 #leaders
 recruit_character = ACW_Erza
@@ -243,7 +167,6 @@ recruit_character = ACW_erica_blandelli
 recruit_character = ACW_miki_hoshii
 recruit_character = ACW_alisa_illinichina_amiella
 recruit_character = ACW_kei
-#Admirals
 recruit_character = ACW_Yamato_Kancol
 recruit_character = ACW_Atago_Azur_Lane
 recruit_character = ACW_Avrora_Azur_Lane
@@ -503,29 +426,7 @@ create_equipment_variant = {
 	}
 	#icon = "GFX_SOV_early_bomber_medium"
 }
-1939.1.1 = {
-	create_equipment_variant = {
-		name = "A-16" #
-		type = small_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = light_mg_4x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		#obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "AB-4" #
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = bomb_locks
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		#icon = "GFX_SOV_early_bomber_medium"
-	}
-}
+
 # Submarines #
 # create_equipment_variant = {
 # 	name = "Anime Class"
@@ -539,23 +440,24 @@ create_equipment_variant = {
 # 	}
 # }
 
-# create_equipment_variant = {
-# 	name = "ALT-1"
-# 	type = light_tank_chassis_2
-# 	parent_version = 0
-# 	modules = {
-# 		main_armament_slot = tank_small_cannon_2
-# 		turret_type_slot = tank_light_two_man_tank_turret
-# 		suspension_type_slot = tank_christie_suspension
-# 		armor_type_slot = tank_welded_armor
-# 		engine_type_slot = tank_gasoline_engine
-# 	}
-# 	upgrades = {
-# 		tank_nsb_engine_upgrade = 10
-# 		tank_nsb_armor_upgrade = 2
-# 	}
-# 	icon = "gfx/interface/technologies/improved_light_tank.dds"
-# }
+create_equipment_variant = {
+	name = "ALT-1"
+	type = light_tank_chassis_1
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 10
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "gfx/interface/technologies/improved_light_tank.dds"
+}
+
 build_railway = {
 	path = { 11608 9606 614 3614 }
 }

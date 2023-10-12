@@ -32,45 +32,45 @@ set_technology = {
 	#motorised_infantry = 1
 	gw_artillery = 1
 	#interwar_antiair = 1
-	#iw_small_airframe = 1
-	#aa_lmg = 1
-	#iw_medium_airframe = 1
-	#early_bombs = 1
-	#engines_1 = 1
-	#fuel_silos = 1
-	#####
-	# basic_torpedo = 1
-	# basic_naval_mines = 1
-	# submarine_mine_laying = 1
-	# early_ship_hull_submarine = 1
-	# basic_ship_hull_submarine = 1
-	# #esminec#
-	# early_ship_hull_light = 1
-	# basic_ship_hull_light = 1
-	# basic_battery = 1
-	# basic_light_battery = 1
-	# sonar = 1
-	# smoke_generator = 1
-	# basic_depth_charges = 1
-	# #cryiser
+	iw_small_airframe = 1
+	aa_lmg = 1
+	iw_medium_airframe = 1
+	early_bombs = 1
+	engines_1 = 1
+	fuel_silos = 1
+	####
+	basic_torpedo = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	#esminec#
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	sonar = 1
+	smoke_generator = 1
+	basic_depth_charges = 1
+	#cryiser
 	# early_ship_hull_cruiser = 1
 	# improved_airplane_launcher = 1
 	# basic_cruiser_armor_scheme = 1
 	# basic_medium_battery = 1
-	# #heavy
-	# early_ship_hull_heavy = 1
-	# basic_heavy_battery = 1
-	# #sup
-	# damage_control_1 = 1
-	# fire_control_methods_1 = 1
-	# mtg_transport = 1
-	# #####
-	# gwtank_chassis = 1
-	# basic_light_tank_chassis = 1
-	# basic_medium_tank_chassis = 1
-	# basic_heavy_tank_chassis = 1
-	# engine_tech_1 = 1
-	# armor_tech_1 = 1
+	#heavy
+	early_ship_hull_heavy = 1
+	basic_heavy_battery = 1
+	#sup
+	damage_control_1 = 1
+	fire_control_methods_1 = 1
+	mtg_transport = 1
+	#####
+	 gwtank_chassis = 1
+	 basic_light_tank_chassis = 1
+	 basic_medium_tank_chassis = 1
+	 basic_heavy_tank_chassis = 1
+	 engine_tech_1 = 1
+	 armor_tech_1 = 1
 }
 
 add_ideas = {
@@ -85,6 +85,7 @@ add_ideas = {
 	#political_commissars_focus
 	mms_the_nation_of_monmusu
 }
+
 add_timed_idea = {
 	idea = mms_payment_of_reparations
 	days = 1825
@@ -102,88 +103,6 @@ set_popularities = {
 	neutrality = 35	##Нейтралитет
 	communism = 20	##Коммунизм
 	fascism = 25	##Фашизм
-}
-
-1939.1.1 = {
-	set_war_support = 0.7
-	set_stability = 0.7
-	add_political_power = 2000
-	add_command_power = 200
-	oob = "MMS_1939"
-	set_naval_oob = "MMS_1939_Naval"
-	#adding ministers
-	add_ideas = {
-		#laws
-		partial_economic_mobilisation
-		limited_conscription
-	}
-	set_technology = {
-		basic_small_airframe = 1
-		basic_medium_airframe = 1
-		engines_2 = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		interwar_antiair = 1
-		artillery1 = 1
-		infantry_weapons2 = 1
-		improved_infantry_weapons = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		paratroopers = 1
-		gwtank_chassis = 1
-		basic_medium_tank_chassis = 1
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		construction4 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-		dispersed_industry4 = 1
-		excavation1 = 1
-		excavation2 = 1
-		#####
-		basic_torpedo = 1
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		#esminec#
-		basic_fire_control_system = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		sonar = 1
-		smoke_generator = 1
-		basic_depth_charges = 1
-	}
-	complete_national_focus = mms_focus_workouts_shamiko
-	complete_national_focus = mms_focus_triumph_shamiko
-	complete_national_focus = mms_focus_train_shamiko_attack
-	complete_national_focus = mms_focus_power_shamiko
-	complete_national_focus = mms_focus_modernize_steel_plant
-	complete_national_focus = mms_focus_infrastructure_effort
-	complete_national_focus = mms_focus_dockyard_effort
-	complete_national_focus = mms_focus_production_effort
-	complete_national_focus = mms_focus_construction_effort
-	complete_national_focus = mms_focus_tungsten_plant
-	complete_national_focus = mms_focus_aluminium_plant
-	complete_national_focus = mms_focus_chromium_plant
-	complete_national_focus = mms_focus_synthetic_refinery
-	complete_national_focus = mms_expansion_of_living_space
 }
 
 recruit_character = MMS_velvet_crowe
@@ -227,13 +146,11 @@ recruit_character = MMS_asmodeus
 recruit_character = MMS_dobrynya_nikitich
 recruit_character = MMS_koyanskaya
 recruit_character = MMS_power
-recruit_character = MMS_resumisu_care 
-#Admirals
+recruit_character = MMS_resumisu_care
 recruit_character = MMS_yamato_wg
 recruit_character = MMS_purifier
 recruit_character = MMS_tester
 recruit_character = MMS_meroune_lorelei
-#advisors
 recruit_character = MMS_shigure
 recruit_character = MMS_shigure2
 recruit_character = MMS_touka_kuroitsu
@@ -242,7 +159,6 @@ recruit_character = MMS_serafall_leviathan
 recruit_character = MMS_kuraishi_eriko
 recruit_character = MMS_shion
 recruit_character = mms_desastre_sereno
-
 #Agents
 recruit_character = MMS_rias_gremory
 create_operative_leader = {
@@ -328,98 +244,75 @@ MMS_holo = {
 }
 
 ### Variants ###
-1939.1.1 = {
-	# Submarines #
-	create_equipment_variant = {
-		name = "MonMusu Class"
-		type = ship_hull_submarine_2
-		#name_group = ENG_SS_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			fixed_ship_engine_slot = sub_ship_engine_2
-			rear_1_custom_slot = ship_torpedo_sub_2
-		}
-	}
-	# Destroyers #
-	create_equipment_variant = {
-		name = "MonMusu Destroyer"
-		type = ship_hull_light_2
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = ship_sonar_1
-			fixed_ship_engine_slot = light_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_depth_charge_1
-		}
+# Submarines #
+create_equipment_variant = {
+	name = "MonMusu Class"
+	type = ship_hull_submarine_1
+	#name_group = ENG_SS_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
 	}
 }
-# create_equipment_variant = {
-# 	name = "Monster F-15" #
-# 	type = small_plane_airframe_0
-# 	modules = {
-# 		fixed_main_weapon_slot = light_mg_4x
-# 		engine_type_slot = engine_1_1x
-# 		special_type_slot_1 = empty
-# 	}
-# 	#obsolete = yes
-# }
-# create_equipment_variant = {
-# 	name = "Monster B-3" #
-# 	type = medium_plane_airframe_0
-# 	modules = {
-# 		fixed_main_weapon_slot = medium_bomb_bay
-# 		fixed_auxiliary_weapon_slot_1 = bomb_locks
-# 		engine_type_slot = engine_2_2x
-# 		special_type_slot_1 = lmg_defense_turret
-# 	}
-# 	#icon = "GFX_SOV_early_bomber_medium"
-# }
 
-1939.1.1 = {
-	create_equipment_variant = {
-		name = "Monster F-16" #
-		type = small_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = light_mg_4x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		#obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Monster B-4" #
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = bomb_locks
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		#icon = "GFX_SOV_early_bomber_medium"
+# Destroyers #
+create_equipment_variant = {
+	name = "MonMusu Destroyer"
+	type = ship_hull_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		mid_1_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_depth_charge_1
 	}
 }
-# create_equipment_variant = {
-# 	name = "MonMusu-1"
-# 	type = light_tank_chassis_2
-# 	parent_version = 0
-# 	modules = {
-# 		main_armament_slot = tank_small_cannon_2
-# 		turret_type_slot = tank_light_two_man_tank_turret
-# 		suspension_type_slot = tank_christie_suspension
-# 		armor_type_slot = tank_welded_armor
-# 		engine_type_slot = tank_gasoline_engine
-# 	}
-# 	upgrades = {
-# 		tank_nsb_engine_upgrade = 10
-# 		tank_nsb_armor_upgrade = 2
-# 	}
-# 	icon = "gfx/interface/technologies/improved_light_tank.dds"
-# }
+
+create_equipment_variant = {
+	name = "Monster F-15" #
+	type = small_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = light_mg_4x
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
+	}
+	#obsolete = yes
+}
+create_equipment_variant = {
+	name = "Monster B-3" #
+	type = medium_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = medium_bomb_bay
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		engine_type_slot = engine_2_2x
+		special_type_slot_1 = lmg_defense_turret
+	}
+	#icon = "GFX_SOV_early_bomber_medium"
+}
+
+create_equipment_variant = {
+	name = "MonMusu-1"
+	type = light_tank_chassis_1
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 10
+		tank_nsb_armor_upgrade = 2
+	}
+	icon = "gfx/interface/technologies/improved_light_tank.dds"
+}
 #supply
 # 412 = {
 # 	add_building_construction = {
@@ -430,13 +323,31 @@ MMS_holo = {
 # 	}
 # }
 build_railway = {
-	path = { 7982 12863 10913 12809 12852 7990 }
+	path = {
+		7982
+		12863
+		10913
+		12809
+		12852
+		7990
+	}
 }
+
 build_railway = {
-	path = { 7982 2039 13082 10782 }
+	path = {
+		7982
+		2039
+		13082
+		10782
+	}
 }
+
 build_railway = {
-	path = { 7982 4959 12832 }
+	path = {
+		7982
+		4959
+		12832
+	}
 }
 
 set_power_balance = {
@@ -445,6 +356,7 @@ set_power_balance = {
 	right_side = mms_default_right_side
 	set_value = -0.25
 }
+
 add_power_balance_modifier = {
 	id = mms_balance_of_power
 	modifier = mms_bop_modifier_02_grift_weekly

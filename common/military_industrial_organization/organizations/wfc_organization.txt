@@ -1705,3 +1705,14 @@ mms_organization_ifrit_forge = {
 		}
 	}
 }
+
+hen_organization_futabu = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_hen_futabu
+	allowed = {
+		original_tag = HEN
+	}
+	ai_will_do = {
+		factor = 100
+	}
+}

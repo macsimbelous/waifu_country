@@ -108,4 +108,8 @@ spriteTypes = {
                 name = "GFX_idea_hen_the_nation_of_hentai"
                 texturefile = "gfx/interface/ideas/idea_jap_supremacy_of_will.dds"
         }
+        spriteType = {
+                name = "GFX_idea_hen_futabu"
+                texturefile = "gfx/interface/ideas/idea_hen_futabu.dds"
+        }
 }
