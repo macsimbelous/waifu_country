@@ -237,6 +237,11 @@ hen_change_country_leader = {
 				portrait = GFX_portrait_hen_operative_09
 			}
 		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_hen_operative_10
+			}
+		}
 	}
 	add_country_leader_trait = wfc_hentai
 	add_country_leader_trait = wfc_governor-general
