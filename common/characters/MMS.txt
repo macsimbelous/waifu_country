@@ -111,27 +111,34 @@ characters = {
 			expire = "1965.1.1"
 		}
 	}
-	MMS_holo = {
-		name = MMS_holo
+	MMS_belldandy = {
+		name = MMS_belldandy
 		portraits = {
 			army = {
-				small = GFX_idea_mms_holo
+				small = GFX_idea_mms_belldandy
 			}
 			civilian = {
-				large = GFX_portrait_mms_holo
+				large = GFX_portrait_mms_belldandy
 			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {
+				wfc_monster
+				wfc_peoples_favorite
+				wfc_patron_of_science
+				nationalist_symbol
+			}
+			expire = "1965.1.1"
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = MMS_holo
+			idea_token = MMS_belldandy
 			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
 			available = {
 				NOT = {
 					has_country_leader = {
-						character = MMS_holo
+						character = MMS_belldandy
 						ruling_only = yes
 					}
 				}
@@ -142,17 +149,6 @@ characters = {
 			ai_will_do = {
 				factor = 0
 			}
-		}
-		country_leader = {
-			ideology = liberalism
-			traits = {
-				wfc_monster
-				wfc_peoples_favorite
-				wfc_patron_of_science
-				wfc_demon_lord
-				economist
-			}
-			expire = "1965.1.1"
 		}
 	}
 	#lider 2
@@ -175,41 +171,31 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	MMS_belldandy = {
-		name = MMS_belldandy
+	MMS_holo = {
+		name = MMS_holo
 		portraits = {
 			army = {
-				small = GFX_idea_mms_belldandy
-				large = GFX_portrait_mms_belldandy
+				small = GFX_idea_mms_holo
+			}
+			civilian = {
+				large = GFX_portrait_mms_holo
 			}
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = MMS_belldandy
+			idea_token = MMS_holo
 			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
 			available = {
-				NOT = {
-					OR = {
-						has_government = fascism
-						has_country_leader = {
-							character = MMS_belldandy
-							ruling_only = yes
-						}
-					}
-				}
-			}
-			ai_will_do = {
-				base = 0
-				modifier = {
+				OR = {
 					has_government = democratic
-					add = 5
+					has_government = neutrality
 				}
 			}
 			traits = {
-				wfc_peoples_favorite_minister
+				financial_expert
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}
@@ -1370,6 +1356,9 @@ characters = {
 			cost = 150
 			traits = {
 				the_statist
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

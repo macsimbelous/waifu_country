@@ -630,46 +630,6 @@ economy_decisions = {
 }
 
 political_actions = {
-	mms_retire_holo = {
-		allowed = {
-			original_tag = MMS
-		}
-		visible = {
-			has_country_leader = {
-				character = MMS_holo
-				ruling_only = yes
-			}
-		}
-		available = {
-			democratic > 0.8
-			has_stability > 0.8
-		}
-		ai_will_do = {
-			factor = -100
-		}
-		cost = 100
-		fire_only_once = yes
-		complete_effect = {
-			remove_country_leader_role = {
-				character = MMS_holo
-				ideology = liberalism
-			}
-			add_country_leader_role = {
-				character = MMS_belldandy
-				promote_leader = yes
-				country_leader = {
-					ideology = liberalism
-					expire = "1965.1.1.1"
-					traits = {
-						wfc_monster
-						wfc_peoples_favorite
-						wfc_patron_of_science
-						wfc_defender
-					}
-				}
-			}
-		}
-	}
 	mms_retire_maou = {
 		allowed = {
 			original_tag = MMS

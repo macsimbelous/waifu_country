@@ -1,74 +1,101 @@
 ﻿units = {
 	fleet = {
-		name = "Hentai Submarine Fleet"
+		name = "Dildo Fleet"
 		naval_base = 9950
 		task_force = {
-			name = "1st Submarine Flotilla"
+			name = "1st Dildo Flotilla"
 			location = 9950
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
 		}
 		task_force = {
-			name = "2nd Submarine Flotilla"
+			name = "2nd Dildo Flotilla"
 			location = 9950
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Hentai Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
 		}
 	}
 	fleet = {
-		name = "Guro Fleet"
+		name = "Mazo Fleet"
 		naval_base = 9950
 		task_force = {
-			name = "1st Destroyer Flotilla"
+			name = "1st Mazo Flotilla"
 			location = 9950
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
 		}
 		task_force = {
-			name = "2nd Destroyer Flotilla"
+			name = "2nd Mazo Flotilla"
 			location = 9950
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "New Hentai Destroyer" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+		}
+	}
+	fleet = {
+		name = "Sado Fleet"
+		naval_base = 9950
+		task_force = {
+			name = "1st Sado Flotilla"
+			location = 9950
+			ship = { name = "Liliya" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = HEN version_name = "Liliya Class" } } }
+			ship = { name = "Saori" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Heavy Saori Class" } } }
+			ship = { name = "Elena" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Heavy Saori Class" } } }
+			ship = { name = "Aimi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
+			ship = { name = "Maki" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
+			ship = { name = "Olga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
+			ship = { name = "Anne" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
+			ship = { name = "Ruma" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { name = "Ai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
 		}
 	}
 }
@@ -77,7 +104,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "HEN" 
-			version_name = "New Hentai Destroyer"
+			version_name = "Ruma Class"
 		}
 		requested_factories = 1
 		progress = 0.90
@@ -86,7 +113,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_2
 			creator = "HEN" 
-			version_name = "Hentai Class"
+			version_name = "Suomi Class"
 		}
 		requested_factories = 1
 		progress = 0.90
