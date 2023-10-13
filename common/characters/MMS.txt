@@ -640,31 +640,6 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	MMS_makina_hoshimura = {
-		name = MMS_makina_hoshimura
-		portraits = {
-			army = {
-				small = GFX_idea_mms_makina_hoshimura
-				large = GFX_portrait_mms_makina_hoshimura
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_makina_hoshimura
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			available = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			traits = {
-				wfc_war_industrialist
-			}
-		}
-	}
 	MMS_saya_kisaragi = {
 		name = MMS_saya_kisaragi
 		portraits = {
@@ -718,14 +693,23 @@ characters = {
 			slot = political_advisor
 			idea_token = MMS_vignette_april_tsukinose
 			cost = 150
-			allowed = {
-				original_tag = MMS
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			modifier = {
+				power_balance_weekly = 0.01
 			}
 			traits = {
-				wfc_silent_workhorse
+				wfc_war_industrialist
 			}
 			ai_will_do = {
-				factor = 5
+				factor = 1
+				modifier = {
+					is_historical_focus_on = no
+					factor = 2000
+				}
 			}
 		}
 	}
