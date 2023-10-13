@@ -1,74 +1,79 @@
 ﻿units = {
 	fleet = {
+		name = "Takao Fleet"
+		naval_base = 1562
+		task_force = {
+			name = "1st Flotilla"
+			location = 1562
+			ship = { name = "Ashigara" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner =MEH version_name = "Ashigara Class" } } }
+			ship = { name = "Suzi" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner =MEH version_name = "Heavy Suzi Class" } } }
+			ship = { name = "Nodoka" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner =MEH version_name = "Heavy Suzi Class" } } }
+			ship = { name = "Helen" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner =MEH version_name = "Heavy Suzi Class" } } }
+			ship = { name = "Ruri" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner =MEH version_name = "Heavy Suzi Class" } } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner =MEH version_name = "Suzi Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner =MEH version_name = "Suzi Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner =MEH version_name = "Suzi Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner =MEH version_name = "Suzi Class"} } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Rose Class" } } }
+		}
+	}
+	fleet = {
 		name = "Iona Submarine Fleet"
 		naval_base = 1562
 		task_force = {
 			name = "1st Submarine Flotilla"
 			location = 1562
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-		}
-		task_force = {
-			name = "2nd Submarine Flotilla"
-			location = 1562
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Iona Class" } } }
-		}
-	}
-	fleet = {
-		name = "Takao Fleet"
-		naval_base = 1562
-		task_force = {
-			name = "1st Destroyer Flotilla"
-			location = 1562
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-		}
-		task_force = {
-			name = "2nd Destroyer Flotilla"
-			location = 1562
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEH version_name = "Destroyer V.2" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEH version_name = "Vivi Class" } } }
 		}
 	}
 }
@@ -77,7 +82,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "MEH" 
-			version_name = "Destroyer V.2"
+			version_name = "Rose Class"
 		}
 		requested_factories = 3
 		progress = 0.90
@@ -86,7 +91,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_2
 			creator = "MEH" 
-			version_name = "Iona Class"
+			version_name = "Vivi Class"
 		}
 		requested_factories = 2
 		progress = 0.90

@@ -1,5 +1,60 @@
 ﻿units = {
 	fleet = {
+		name = "Sado Fleet"
+		naval_base = 9950
+		task_force = {
+			name = "1st Sado Flotilla"
+			location = 9950
+			ship = { name = "Liliya" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = HEN version_name = "Liliya Class" } } }
+			ship = { name = "Saori" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Heavy Saori Class" } } }
+			ship = { name = "Elena" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Heavy Saori Class" } } }
+			ship = { name = "Aimi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
+			ship = { name = "Maki" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
+			ship = { name = "Olga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
+			ship = { name = "Anne" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
+			ship = { name = "Ruma" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { name = "Ai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+		}
+	}
+	fleet = {
+		name = "Mazo Fleet"
+		naval_base = 9950
+		task_force = {
+			name = "1st Mazo Flotilla"
+			location = 9950
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+		}
+		task_force = {
+			name = "2nd Mazo Flotilla"
+			location = 9950
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
+		}
+	}
+	fleet = {
 		name = "Dildo Fleet"
 		naval_base = 9950
 		task_force = {
@@ -41,61 +96,6 @@
 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HEN version_name = "Suomi Class" } } }
-		}
-	}
-	fleet = {
-		name = "Mazo Fleet"
-		naval_base = 9950
-		task_force = {
-			name = "1st Mazo Flotilla"
-			location = 9950
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-		}
-		task_force = {
-			name = "2nd Mazo Flotilla"
-			location = 9950
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-		}
-	}
-	fleet = {
-		name = "Sado Fleet"
-		naval_base = 9950
-		task_force = {
-			name = "1st Sado Flotilla"
-			location = 9950
-			ship = { name = "Liliya" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = HEN version_name = "Liliya Class" } } }
-			ship = { name = "Saori" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Heavy Saori Class" } } }
-			ship = { name = "Elena" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Heavy Saori Class" } } }
-			ship = { name = "Aimi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
-			ship = { name = "Maki" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
-			ship = { name = "Olga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
-			ship = { name = "Anne" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HEN version_name = "Saori Class"} } }
-			ship = { name = "Ruma" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { name = "Ai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
-			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HEN version_name = "Ruma Class" } } }
 		}
 	}
 }

@@ -187,19 +187,6 @@ create_operative_leader = {
 }
 
 # create_operative_leader = {
-# 	name = "Sakura Minamoto"
-# 	GFX = GFX_portrait_mms_sakura_minamoto
-# 	traits = {
-# 		operative_infiltrator
-# 		operative_natural_orator
-# 	}
-# 	bypass_recruitment = no
-# 	available_to_spy_master = yes
-# 	nationalities = {
-# 		MMS
-# 	}
-# }
-# create_operative_leader = {
 # 	name = "Shigure"
 # 	GFX = GFX_portrait_mms_shigure_operative
 # 	traits = {
@@ -238,16 +225,16 @@ MMS_maou = {
 	set_character_flag = mms_country_leader_flag
 }
 
-MMS_holo = {
+MMS_belldandy = {
 	set_character_flag = mms_country_leader_flag
 }
 
 ### Variants ###
 # Submarines #
 create_equipment_variant = {
-	name = "MonMusu Class"
+	name = "Mila Class"
 	type = ship_hull_submarine_2
-	#name_group = ENG_SS_HISTORICAL
+	name_group = MMS_SS_HISTORICAL
 	parent_version = 0
 	modules = {
 		fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -258,9 +245,10 @@ create_equipment_variant = {
 
 # Destroyers #
 create_equipment_variant = {
-	name = "MonMusu Destroyer"
+	name = "Lucy Class"
 	type = ship_hull_light_2
 	parent_version = 0
+	name_group = MMS_DD_HISTORICAL
 	modules = {
 		fixed_ship_battery_slot = ship_light_battery_2
 		fixed_ship_anti_air_slot = ship_anti_air_1
@@ -274,9 +262,9 @@ create_equipment_variant = {
 }
 # Light Cruisers #
 create_equipment_variant = {
-	name = "Saori Class"
+	name = "Lilit Class"
 	type = ship_hull_cruiser_1
-	name_group = HEN_CL_HISTORICAL
+	name_group = MMS_CL_HISTORICAL
 	parent_version = 0
 	modules = {
 		fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -294,9 +282,9 @@ create_equipment_variant = {
 
 # Heavy Cruisers #
 create_equipment_variant = {
-	name = "Heavy Saori Class"
+	name = "Heavy Lilit Class"
 	type = ship_hull_cruiser_1
-	name_group = HEN_CA_HISTORICAL
+	name_group = MMS_CA_HISTORICAL
 	parent_version = 0
 	modules = {
 		fixed_ship_battery_slot = ship_medium_battery_1
@@ -314,9 +302,9 @@ create_equipment_variant = {
 
 # Battleships #
 create_equipment_variant = {
-	name = "Liliya Class"
+	name = "Purifier Class"
 	type = ship_hull_heavy_1
-	name_group = HEN_BB_HISTORICAL
+	name_group = MMS_BB_HISTORICAL
 	parent_version = 0
 	modules = {
 		fixed_ship_battery_slot = ship_heavy_battery_1

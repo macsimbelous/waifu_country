@@ -1,83 +1,104 @@
-﻿# units = {
-# 	fleet = {
-# 		name = "Trap Submarine Fleet"
-# 		naval_base = 4980
-# 		task_force = {
-# 			name = "1st Submarine Flotilla"
-# 			location = 4980
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 		}
-# 		task_force = {
-# 			name = "2nd Submarine Flotilla"
-# 			location = 4980
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Trap Class" } } }
-# 		}
-# 	}
-# 	fleet = {
-# 		name = "Takao Fleet"
-# 		naval_base = 4980
-# 		task_force = {
-# 			name = "1st Destroyer Flotilla"
-# 			location = 4980
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 		}
-# 		task_force = {
-# 			name = "2nd Destroyer Flotilla"
-# 			location = 4980
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Trap Destroyer" } } }
-# 		}
-# 	}
-# }
+﻿units = {
+	fleet = {
+		name = "Trap Fleet"
+		naval_base = 4980
+		task_force = {
+			name = "1st Flotilla"
+			location = 4980
+			ship = { name = "Hitoshi" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TRP version_name = "Hitoshi Class" } } }
+			ship = { name = "Tama" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TRP version_name = "Heavy Tama Class" } } }
+			ship = { name = "Sylvia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TRP version_name = "Heavy Tama Class" } } }
+			ship = { name = "Ranga" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TRP version_name = "Heavy Tama Class" } } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TRP version_name = "Tama Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TRP version_name = "Tama Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TRP version_name = "Tama Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TRP version_name = "Tama Class"} } }
+			ship = { name = "Mare" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TRP version_name = "Mare Class" } } }
+		}
+	}
+	fleet = {
+		name = "Trap Submarine Fleet"
+		naval_base = 4980
+		task_force = {
+			name = "1st Submarine Flotilla"
+			location = 4980
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+		}
+		task_force = {
+			name = "2nd Submarine Flotilla"
+			location = 4980
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+		}
+		task_force = {
+			name = "3rd Submarine Flotilla"
+			location = 4980
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TRP version_name = "Birdy Class" } } }
+		}
+	}
+}
 instant_effect = {
 	# add_equipment_production = {
 	# 	equipment = {
 	# 		type = ship_hull_submarine_2
 	# 		creator = "TRP" 
-	# 		version_name = "Trap Class"
+	# 		version_name = "Birdy Class"
 	# 	}
 	# 	requested_factories = 1
 	# 	progress = 0.90

@@ -67,9 +67,6 @@ mms_category_ifrit_equipment_upgrade = {
 	allowed = {
 		original_tag = MMS
 	}
-	available = {
-		has_idea = mms_ifrit_forge
-	}
 	visible = {
 		has_country_flag = mms_flag_ifrit_infantry_equipment
 	}

@@ -1,83 +1,69 @@
-﻿# units = {
-# 	fleet = {
-# 		name = "MonMusu Submarine Fleet"
-# 		naval_base = 7982
-# 		task_force = {
-# 			name = "1st Submarine Flotilla"
-# 			location = 7982
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 		}
-# 		task_force = {
-# 			name = "2nd Submarine Flotilla"
-# 			location = 7982
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "MonMusu Class" } } }
-# 		}
-# 	}
-# 	fleet = {
-# 		name = "MonMusu Fleet"
-# 		naval_base = 7982
-# 		task_force = {
-# 			name = "1st Destroyer Flotilla"
-# 			location = 7982
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 		}
-# 		task_force = {
-# 			name = "2nd Destroyer Flotilla"
-# 			location = 7982
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "MonMusu Destroyer" } } }
-# 		}
-# 	}
-# }
+﻿units = {
+	fleet = {
+		name = "MonMusu Fleet"
+		naval_base = 7982
+		task_force = {
+			name = "1st Flotilla"
+			location = 7982
+			ship = { name = "Lilit" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Heavy Lilit Class" } } }
+			ship = { name = "Monica" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Heavy Lilit Class" } } }
+			ship = { name = "Skull" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Heavy Lilit Class" } } }
+			ship = { name = "Kotoe" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Heavy Lilit Class" } } }
+			ship = { name = "Valentina" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Heavy Lilit Class" } } }
+			ship = { name = "Hanna" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Heavy Lilit Class" } } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Lilit Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Lilit Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Lilit Class"} } }
+			ship = { definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MMS version_name = "Lilit Class"} } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+			ship = { definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MMS version_name = "Lucy Class" } } }
+		}
+		task_force = {
+			name = "2nd Submarine Flotilla"
+			location = 7982
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+			ship = { definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MMS version_name = "Mila Class" } } }
+		}
+	}
+}
 instant_effect = {
 	# add_equipment_production = {
 	# 	equipment = {
 	# 		type = ship_hull_submarine_2
 	# 		creator = "MMS" 
-	# 		version_name = "MonMusu Class"
+	# 		version_name = "Mila Class"
 	# 	}
 	# 	requested_factories = 1
 	# 	progress = 0.90

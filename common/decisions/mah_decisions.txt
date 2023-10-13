@@ -560,6 +560,16 @@ mah_make_friends_with_shamiko_category = {
 				country_event = mah_event.2
 			}
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				neutrality > 0.5
+				MMS = {
+					neutrality > 0.5
+				}
+				factor = 100
+			}
+		}
 	}
 }
 
