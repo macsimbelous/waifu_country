@@ -21,13 +21,14 @@ set_technology = {
 	tech_mountaineers = 1
 	#tech_maintenance_company = 1
 	gw_artillery = 1
-	#interwar_artillery = 1
+	interwar_artillery = 1
 	interwar_antiair = 1
 	iw_small_airframe = 1
 	aa_lmg = 1
 	iw_medium_airframe = 1
 	early_bombs = 1
 	engines_1 = 1
+	engines_2 = 1
 	basic_small_airframe = 1
 	basic_medium_airframe = 1
 	iw_large_airframe = 1
@@ -42,6 +43,7 @@ set_technology = {
 	#####
 	gwtank_chassis = 1
 	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
 	#basic_medium_tank_chassis = 1
 	basic_heavy_tank_chassis = 1
 	engine_tech_1 = 1
@@ -407,24 +409,23 @@ ACW_Anastasia = {
 ### Variants ###
 create_equipment_variant = {
 	name = "A-15" #
-	type = small_plane_airframe_0
+	type = small_plane_airframe_1
 	modules = {
 		fixed_main_weapon_slot = light_mg_4x
-		engine_type_slot = engine_1_1x
+		engine_type_slot = engine_2_1x
 		special_type_slot_1 = empty
 	}
 	#obsolete = yes
 }
 create_equipment_variant = {
 	name = "AB-3" #
-	type = medium_plane_airframe_0
+	type = medium_plane_airframe_1
 	modules = {
 		fixed_main_weapon_slot = medium_bomb_bay
 		fixed_auxiliary_weapon_slot_1 = bomb_locks
 		engine_type_slot = engine_2_2x
 		special_type_slot_1 = lmg_defense_turret
 	}
-	#icon = "GFX_SOV_early_bomber_medium"
 }
 
 # Submarines #
@@ -441,21 +442,21 @@ create_equipment_variant = {
 # }
 
 create_equipment_variant = {
-	name = "ALT-1"
-	type = light_tank_chassis_1
+	name = "ALT-2"
+	type = light_tank_chassis_2
 	parent_version = 0
 	modules = {
-		main_armament_slot = tank_small_cannon_2
+		main_armament_slot = tank_close_support_gun
 		turret_type_slot = tank_light_two_man_tank_turret
 		suspension_type_slot = tank_christie_suspension
 		armor_type_slot = tank_welded_armor
 		engine_type_slot = tank_gasoline_engine
 	}
 	upgrades = {
-		tank_nsb_engine_upgrade = 10
-		tank_nsb_armor_upgrade = 2
+		tank_nsb_engine_upgrade = 5
+		tank_nsb_armor_upgrade = 5
 	}
-	icon = "gfx/interface/technologies/improved_light_tank.dds"
+	#icon = "gfx/interface/technologies/improved_light_tank.dds"
 }
 
 build_railway = {

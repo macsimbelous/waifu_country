@@ -243,12 +243,20 @@ division_template = {
 			y = 1
 		}
 		light_armor = {
+			x = 0
+			y = 2
+		}
+		light_armor = {
 			x = 1
 			y = 0
 		}
 		light_armor = {
 			x = 1
 			y = 1
+		}
+		light_armor = {
+			x = 1
+			y = 2
 		}
 		motorized = {
 			x = 2
@@ -267,7 +275,14 @@ division_template = {
 			y = 3
 		}
 	}
+	support = {
+		light_tank_recon = {
+			x = 0
+			y = 0
+		}
+	}
 }
+
 units = {
 	division = {
 		location = 11608
@@ -367,12 +382,12 @@ units = {
 		start_equipment_factor = 1
 	}
 	#tanks
-	# division = {
-	# 	location = 11608
-	# 	division_template = "Anime Light Tank"
-	# 	start_experience_factor = 0.7
-	# 	start_equipment_factor = 1
-	# }
+	division = {
+		location = 11608
+		division_template = "Anime Light Tank"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
 	# division = {
 	# 	location = 11608
 	# 	division_template = "Anime Light Tank"
@@ -383,12 +398,17 @@ units = {
 
 air_wings = {
 	82 = {
-		small_plane_airframe_0 = {
+		small_plane_airframe_1 = {
 			owner = "ACW"
 			amount = 100
 			version_name = "A-15"
 		}
-		medium_plane_airframe_0 = {
+		small_plane_airframe_1 = {
+			owner = "ACW"
+			amount = 100
+			version_name = "A-15"
+		}
+		medium_plane_airframe_1 = {
 			owner = "ACW"
 			amount = 100
 			version_name = "AB-3"
@@ -427,22 +447,22 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = small_plane_airframe_0
+			type = small_plane_airframe_1
 			creator = "ACW"
 			version_name = "A-15"
 		}
 		requested_factories = 1
-		progress = 0.15
+		progress = 0.5
 		efficiency = 100
 	}
 	add_equipment_production = {
 		equipment = {
-			type = medium_plane_airframe_0
+			type = medium_plane_airframe_1
 			creator = "ACW"
 			version_name = "AB-3"
 		}
 		requested_factories = 1
-		progress = 0.2
+		progress = 0.5
 		efficiency = 100
 	}
 	# add_equipment_production = {
