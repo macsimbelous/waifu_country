@@ -303,8 +303,9 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   mah_make_friends_with_shamiko_decision:0 "Предложить дружбу Шамико"
 
  #mah_peace_agreement_with_britain_category
-  mah_peace_agreement_with_britain_category:0 "Мирное соглашение с Британией"
-  mah_propose_a_peace_agreement_decision:0 "Предложить мирное соглашение"
+  mah_peace_agreement_with_britain_category: "Мирное соглашение с Британией"
+  mah_propose_a_peace_agreement_decision: "Предложить мирное соглашение"
+  mah_form_crystal_empire_egypt_required_states_tt: "Контролировать все египетские территории"
 
 #MEH
  #kosmos

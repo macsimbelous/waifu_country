@@ -132,7 +132,9 @@ focus_tree = {
 				is_in_faction_with = PER
 			}
 			OR = {
-				has_war = no
+				NOT = {
+					has_war_with = AFG
+				}
 				# Afghanistan
 				custom_trigger_tooltip = {
 					tooltip = form_country_afghanistan_required_states_tt
@@ -187,7 +189,9 @@ focus_tree = {
 				is_in_faction_with = AFG
 			}
 			OR = {
-				has_war = no
+				NOT = {
+					has_war_with = PER
+				}
 				# Iran
 				custom_trigger_tooltip = {
 					tooltip = form_country_iran_required_states_tt

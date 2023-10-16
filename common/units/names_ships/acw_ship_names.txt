@@ -44,16 +44,7 @@ ACW_CL_HISTORICAL = {
 	fallback_name = "Lyogky Kreyser %d"
 
 	unique = {
-		"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boyky" "Gremyashchy" "Steregushchy" "Gromky" 
-		"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezky" "Razyaryonny" 
-		"Smyshlyony" "Silny" "Storozhevoy" "Serdity" "Stoyky" "Slavny" "Smely" "Soobrazitelny" "Sposobny" "Svirepy" "Skory" "Statny" "Strogy" "Stroyny" "Sovershenny" "Svobodny" 
-		"Opytny" "Ognevoy" "Osmotritelny" "Vnushitelny" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
-		"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchy" "Otmenny" "Otchayanny" "Obshchitelny"  
-		"Smetlivy" "Surovy" "Strashny" "Zharky" "Zhivoy" "Zhguchy" "Zhestoky" "Zhutky" "Vedushchy" "Vnezapny"
-		"Derzky" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchy" "Likhoy" "Lyogky" "Lovky" "Prytky" "Pylky" "Prochny" "Provorny" 
-		"Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" 
-		"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchy" 
-		"Okhranyayushchy" "Ozabochenny"
+		"Viper" "Lightning" "Devil" "Dragon" "Fury" "Bat" "Beer" "Sake" "Demon" "Dirty" "Lance" "Panther" "Shogun" "Vampire" "War Lord" "Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon" "Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky" "Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka" "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste"
 	}
 }
 
@@ -73,9 +64,7 @@ ACW_CA_HISTORICAL = {
 	fallback_name = "Tyazhely Kreyser %d"
 
 	unique = {
-		"Admiral Yamato" "Admiral Atago" "Admiral Avrora" "Aleksandr Belfast" "Admiral Marblehead" 
-		"Admiral Saint Louis" "Admiral Takao" "Admiral Tosa" "Admiral Sovetskaya Rossiya" "Admiral Shima Tateishi"
-		"Admiral Akeno Misaki" "Admiral Beidou" "Admiral Ulrich Von Hutten" "Admiral Prinz Eugen" "Admiral Baltimore" "Admiral New Jersey"
+		"Aimi" "Asami" "Asuka" "Ai" "Aki" "Fujiko" "Kaori" "Kimiko" "Haruno" "Hanako" "Kotoe" "Masae" "Junko" "Itsumi" "Chie" "Chitose" "Chiyo" "Mai" "Maki" "Nodoka" "Ruri" "Sae" "Sachie" "Yae" "Nami" "Ritsuko" "Jelena" "Ludmila" "Ella" "Svetlana" "Margarita" "Elena" "Natalya" "Lydia" "Valentina" "Olga" "Alexandra" "Sofia" "Albina" "Jessica" "Emma" "Hanna" "Sofia" "Marie" "Hildegard" "Elizabeth" "Anne" "Mary" "Nancy" "Sophie" "Sarah" "Deborah" "Helen" "Alice" "Monica" "Kathleen" "Edith" "Caroline" "Victoria"	
 	}
 }
 
@@ -195,71 +184,7 @@ ACW_SS_HISTORICAL = {
 	}
 }
 
-### THEME: SOVIET REGIONS ###
-ACW_STATES = {
-	name = NAME_THEME_STATES
 
-	for_countries = { ACW }
-
-	can_use = {
-		always = no
-	}
-
-	type = ship
-
-	unique = {
-
-	}
-}
-
-## THEME: SOVIET CITIES ###
-ACW_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { ACW }
-
-	can_use = {
-		always = no
-	}
-
-	type = ship
-
-	unique = {
-
-	}
-}
-
-## THEME: FAMOUS SOVIET LEADERS ###
-ACW_LEADERS = {
-	name = NAME_THEME_LEADERS
-
-	for_countries = { ACW }
-
-	can_use = {
-		always = no
-	}
-
-	type = ship
-
-	unique = {
-
-	}
-}
-
-## THEME: RUSSIAN RIVERS ###
-ACW_RIVERS = {
-	name = NAME_THEME_RIVERS
-
-	for_countries = { ACW }
-	can_use = {
-		always = no
-	}
-	type = ship
-
-	unique = {
-
-	}
-}
 
 
 

@@ -1,9 +1,8 @@
-﻿##### USSR NAME LISTS #####
-### REGULAR DESTROYER NAMES###
-MAH_DD_HISTORICAL = {
+﻿### REGULAR DESTROYER NAMES###
+NEC_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { MAH }
+	for_countries = { NEC }
 
 	can_use = {
 		always = yes
@@ -29,10 +28,10 @@ MAH_DD_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-MAH_CL_HISTORICAL = {
+NEC_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { MAH }
+	for_countries = { NEC }
 
 	can_use = {
 		always = yes
@@ -49,10 +48,10 @@ MAH_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-MAH_CA_HISTORICAL = {
+NEC_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { MAH }
+	for_countries = { NEC }
 
 	can_use = {
 		always = yes
@@ -69,10 +68,10 @@ MAH_CA_HISTORICAL = {
 }
 
 ### MINELAYER NAMES###
-MAH_MINELAYERS_HISTORICAL = {
+NEC_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { MAH }
+	for_countries = { NEC }
 
 	can_use = {
 		always = yes
@@ -98,10 +97,10 @@ MAH_MINELAYERS_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-MAH_BB_HISTORICAL = {
+NEC_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { MAH }
+	for_countries = { NEC }
 
 	can_use = {
 		always = yes
@@ -113,15 +112,15 @@ MAH_BB_HISTORICAL = {
 	fallback_name = "Linkor %d"		
 
 	unique = {
-		"Asuka Ootorii" "Nanoha Takamachi" "Usagi Tsukino" "Momo Chiyoda" "Hitomi Tsukishiro" "Kobato Hanato" "Lisa Minci" "Madoka Kaname" "Illyasviel von Einzbern" "Arika Yumemiya" "Ami Mizuno" "Makoto Kino" "Minako Aino" "Rei Hino" "Chisato Yonamine" "Kurumi Mugen" "Homura Akemi" "Subaru Nakajima" "Vivio" "Fate Testarossa" "Saki Uno" "Hayato Juumonji" "Frill" "Mia Cyrus" "Honey Kisaragi" "Mai Tokiha" "Lena Sayers" "Maron Kusakabe" "Nagisa Misumi" "Honoka Yukishiro" "Himeno Awayuki" "Sakura Kinomoto" "Mint Aizawa" "Zakuro Fujiwara" "Komugi Yoshida" "Amanogawa Kirara" "Ichinose Minori" "Laura La Mer" "Momozono Love" "Natsuumi Manatsu" "Shiratori Yuriko" "Takizawa Asuka" "Yuto Higaya" "Reo Shikishima" "Sakuyo Mikage" "Akane Isshiki" "Utena Tenjou" "Lucia Nanami"  
+		"Tae Yamada" "Alice" "Krasnaya Bezdna" "Aya Rindou" "Sakura Minamoto" "Zombina" "Rea Sanka" "Ai Mizuno" "Onyx Void" "Milen Umbra" "Dullahan" "Cerina" "Omiciliaя" "Kunai Zenow" "Saori Ootori" "Cherno Kryl" "Stevash" "Niverra" "Kroness" "Sebrix Magnus" "Flamper" "Makina Hoshimura" 
 	}
 }
 
 ### BATTLECRUISER NAMES ###
-MAH_BC_HISTORICAL = {
+NEC_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { MAH }
+	for_countries = { NEC }
 
 	can_use = {
 		always = yes
@@ -133,15 +132,15 @@ MAH_BC_HISTORICAL = {
 	fallback_name = "Lineyny Kreyser %d"		
 
 	unique = {
-		"Asuka Ootorii" "Nanoha Takamachi" "Usagi Tsukino" "Momo Chiyoda" "Hitomi Tsukishiro" "Kobato Hanato" "Lisa Minci" "Madoka Kaname" "Illyasviel von Einzbern" "Arika Yumemiya" "Ami Mizuno" "Makoto Kino" "Minako Aino" "Rei Hino" "Chisato Yonamine" "Kurumi Mugen" "Homura Akemi" "Subaru Nakajima" "Vivio" "Fate Testarossa" "Saki Uno" "Hayato Juumonji" "Frill" "Mia Cyrus" "Honey Kisaragi" "Mai Tokiha" "Lena Sayers" "Maron Kusakabe" "Nagisa Misumi" "Honoka Yukishiro" "Himeno Awayuki" "Sakura Kinomoto" "Mint Aizawa" "Zakuro Fujiwara" "Komugi Yoshida" "Amanogawa Kirara" "Ichinose Minori" "Laura La Mer" "Momozono Love" "Natsuumi Manatsu" "Shiratori Yuriko" "Takizawa Asuka" "Yuto Higaya" "Reo Shikishima" "Sakuyo Mikage" "Akane Isshiki" "Utena Tenjou" "Lucia Nanami"  
+		"Tae Yamada" "Alice" "Krasnaya Bezdna" "Aya Rindou" "Sakura Minamoto" "Zombina" "Rea Sanka" "Ai Mizuno" "Onyx Void" "Milen Umbra" "Dullahan" "Cerina" "Omiciliaя" "Kunai Zenow" "Saori Ootori" "Cherno Kryl" "Stevash" "Niverra" "Kroness" "Sebrix Magnus" "Flamper" "Makina Hoshimura" 
 	}
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-MAH_CV_HISTORICAL = {
+NEC_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { MAH }
+	for_countries = { NEC }
 
 	can_use = {
 		always = yes
@@ -153,20 +152,20 @@ MAH_CV_HISTORICAL = {
 	fallback_name = "Avianosets %d"	
 
 	unique = {
-		"Asuka Ootorii" "Nanoha Takamachi" "Usagi Tsukino" "Momo Chiyoda" "Hitomi Tsukishiro" "Kobato Hanato" "Lisa Minci" "Madoka Kaname" "Illyasviel von Einzbern" "Arika Yumemiya" "Ami Mizuno" "Makoto Kino" "Minako Aino" "Rei Hino" "Chisato Yonamine" "Kurumi Mugen" "Homura Akemi" "Subaru Nakajima" "Vivio" "Fate Testarossa" "Saki Uno" "Hayato Juumonji" "Frill" "Mia Cyrus" "Honey Kisaragi" "Mai Tokiha" "Lena Sayers" "Maron Kusakabe" "Nagisa Misumi" "Honoka Yukishiro" "Himeno Awayuki" "Sakura Kinomoto" "Mint Aizawa" "Zakuro Fujiwara" "Komugi Yoshida" "Amanogawa Kirara" "Ichinose Minori" "Laura La Mer" "Momozono Love" "Natsuumi Manatsu" "Shiratori Yuriko" "Takizawa Asuka" "Yuto Higaya" "Reo Shikishima" "Sakuyo Mikage" "Akane Isshiki" "Utena Tenjou" "Lucia Nanami"  
+		"Tae Yamada" "Alice" "Krasnaya Bezdna" "Aya Rindou" "Sakura Minamoto" "Zombina" "Rea Sanka" "Ai Mizuno" "Onyx Void" "Milen Umbra" "Dullahan" "Cerina" "Omiciliaя" "Kunai Zenow" "Saori Ootori" "Cherno Kryl" "Stevash" "Niverra" "Kroness" "Sebrix Magnus" "Flamper" "Makina Hoshimura" 
 	}
 }
 
 ### SUBMARINES ###
-MAH_SS_HISTORICAL= {
+NEC_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { MAH }
+	for_countries = { NEC }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	
-	fallback_name = "Maho S-%d"
+	fallback_name = "TS-%d"
 	can_use = {
 		always = yes
 	}
