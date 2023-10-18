@@ -1222,6 +1222,8 @@ focus_tree = {
 				id = 1182
 				name = hen_vp_name_1182
 			}
+			add_stability = 0.1
+			add_political_power = 300
 		}
 		ai_will_do = {
 			factor = 100

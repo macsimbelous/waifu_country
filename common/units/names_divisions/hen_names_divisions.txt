@@ -420,7 +420,7 @@ HEN_PAR_01 = {
 }
 
 HEN_MAR_01 = {
-	name = "Hentai Marine Division"
+	name = "Naked Division"
 
 	for_countries = { HEN }
 
@@ -428,24 +428,21 @@ HEN_MAR_01 = {
 
 	division_types = { "marine" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { HEN_INF_01 }
+	fallback_name = "%d Naked Division"
 
-	fallback_name = "%dya Hentainaya Diviziya Morskoi Pekhoty"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		2 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		3 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		4 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		5 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		6 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		7 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		8 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		9 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
-		10 = { "%dya Hentainaya Diviziya Morskoi Pekhoty" }
+		1 = { "1 Guard Naked Division" }
+		2 = { "2 Guard Naked Division" }
+		3 = { "3 Guard Naked Division" }
+		4 = { "4 Guard Naked Division" }
+		5 = { "5 Guard Naked Division" }
+		6 = { "6 Guard Naked Division" }
+		7 = { "7 Guard Naked Division" }
+		8 = { "8 Guard Naked Division" }
+		9 = { "9 Guard Naked Division" }
+		10 = { "10 Guard Naked Division" }
+		11 = { "11 Guard Naked Division" }
+		12 = { "12 Guard Naked Division" }
 	}
 }
 

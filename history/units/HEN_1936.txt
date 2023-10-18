@@ -232,7 +232,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Hentai Marine"
+	name = "Naked Division"
 	division_names_group = HEN_MAR_01
 	priority = 2
 	regiments = {
@@ -268,13 +268,11 @@ division_template = {
 			x = 1
 			y = 3
 		}
-		marine = {
+	}
+	support = {
+		artillery = {
 			x = 0
-			y = 4
-		}
-		marine = {
-			x = 1
-			y = 4
+			y = 0
 		}
 	}
 }
@@ -319,7 +317,7 @@ division_template = {
 units = {
 	division = {
 		location = 1025
-		division_template = "Hentai Marine"
+		division_template = "Naked Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
