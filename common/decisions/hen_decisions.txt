@@ -258,6 +258,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_siberia
+			NOT = {
+				FER = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			563 = {
@@ -344,6 +349,11 @@ hen_category_colonies = {
 					hen_change_country_leader = yes
 				}
 			}
+			655 = {
+				add_core_of = HEN
+				remove_core_of = SOV
+				remove_core_of = FER
+			}
 		}
 	}
 	hen_decision_create_provinces_yak = {
@@ -352,6 +362,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_siberia
+			NOT = {
+				YAK = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			876 = {
@@ -422,6 +437,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_siberia
+			NOT = {
+				SOV = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			516 = {
@@ -512,6 +532,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_china
+			NOT = {
+				KOR = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			527 = {
@@ -574,6 +599,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_china
+			NOT = {
+				MAN = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			761 = {
@@ -656,6 +686,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_china
+			NOT = {
+				MEN = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			612 = {
@@ -718,6 +753,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_china
+			NOT = {
+				CHI = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			608 = {
@@ -812,6 +852,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_china
+			NOT = {
+				GXC = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			599 = {
@@ -886,6 +931,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_southeast_asia
+			NOT = {
+				PHI = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			623 = {
@@ -968,6 +1018,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_southeast_asia
+			NOT = {
+				PNG = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			523 = {
@@ -1034,6 +1089,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_southeast_asia
+			NOT = {
+				INS = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			672 = {
@@ -1120,6 +1180,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_southeast_asia
+			NOT = {
+				MAL = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			336 = {
@@ -1182,6 +1247,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_southeast_asia
+			NOT = {
+				VIN = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			671 = {
@@ -1258,6 +1328,11 @@ hen_category_colonies = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = hen_focus_southeast_asia
+			NOT = {
+				SIA = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		available = {
 			869 = {

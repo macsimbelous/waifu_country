@@ -7,9 +7,9 @@ hen_event.1.a:0 "We use them to destabilize our enemies."
 #hen_event.2
  hen_event.2.t:0 "Purchase weapons"
  hen_event.2.d:0 "We need to decide how many weapons to buy."
- hen_event.2.a:0 "10,000 rifles"
- hen_event.2.b:0 "20,000 rifles"
- hen_event.2.c:0 "30,000 rifles"
+ hen_event.2.a:0 "Rifles only."
+ hen_event.2.b:0 "Rifles and artillery."
+ hen_event.2.c:0 "Rifles, artillery and additional equipment."
 
 #hen_event.3
  hen_event.3.t:0 "Join the Comintern"
