@@ -751,6 +751,14 @@ focus_tree = {
 					}
 					transfer_state = 906
 				}
+				if = {
+					limit = {
+						183 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					transfer_state = 183
+				}
 			}
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
 			hidden_effect = {
@@ -832,6 +840,17 @@ focus_tree = {
 					}
 				}
 				906 = {
+					#add_core_of = ROOT
+					wfc_coring_state = yes
+				}
+			}
+			if = {
+				limit = {
+					183 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				183 = {
 					#add_core_of = ROOT
 					wfc_coring_state = yes
 				}

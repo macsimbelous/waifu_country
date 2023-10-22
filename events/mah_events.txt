@@ -705,7 +705,7 @@ country_event = {
 				transfer_state = 183
 			}
 			else = {
-				remove_state_claim = 906
+				remove_state_claim = 183
 			}
 			puppet = EGY
 			EGY = {
