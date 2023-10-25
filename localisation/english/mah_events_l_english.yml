@@ -81,3 +81,8 @@ mah_event.2.e:0 "No friendship with §Y[FROM.GetName]§!!"
  mah_event.16.d: "Perhaps we should form an alliance with Afghanistan, Iraq and Iran to defend against the Monster Girls."
  mah_event.16.a: "Together - we are force!"
  mah_event.16.b: "It is not necessary."
+
+#mah_event.17.t.
+ mah_event.17.t: "Britain has allocated Israel."
+ mah_event.17.d: "This event is added in case Britain allocates Israel without checking."
+ mah_event.17.a: "Annex Israel."
