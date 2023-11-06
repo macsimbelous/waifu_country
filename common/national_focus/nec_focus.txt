@@ -456,7 +456,7 @@ focus_tree = {
 			}
 			else = {
 				has_army_manpower = {
-					size > 699999
+					size > 999999
 				}
 			}
 		}
@@ -652,7 +652,7 @@ focus_tree = {
 			}
 			else = {
 				has_army_manpower = {
-					size > 699999
+					size > 999999
 				}
 			}
 		}
@@ -901,7 +901,7 @@ focus_tree = {
 			}
 			else = {
 				has_army_manpower = {
-					size > 999999
+					size > 1499999
 				}
 			}
 		}
