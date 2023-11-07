@@ -1929,18 +1929,12 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			ITA = {
-				every_owned_state = {
-					limit = {
-						OR = {
-							is_core_of = YUG
-							is_core_of = ALB
-						}
-					}
-					#add_claim_by = ROOT
-					add_core_of = ROOT
-				}
-			}
+			add_state_claim = 736
+			add_state_claim = 852
+			add_state_claim = 163
+			add_state_claim = 102
+			add_state_claim = 853
+			add_state_claim = 103
 			create_wargoal = {
 				target = ITA
 				type = puppet_wargoal_focus
