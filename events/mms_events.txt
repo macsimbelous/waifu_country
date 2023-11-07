@@ -10,7 +10,7 @@ country_event = {
 	option = {
 		name = mms_event.1.a
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 		# remove_country_leader_trait = defeatist
 		# add_country_leader_trait = wfc_Tyan_militarist
@@ -26,13 +26,13 @@ country_event = {
 	option = {
 		name = mms_event.2.a
 		ai_chance = {
-			factor = 100
+			base = 100
 		}
 	}
 	option = {
 		name = mms_event.2.b
 		ai_chance = {
-			factor = 0
+			base = 0
 		}
 		ZMB = {
 			change_tag_from = ROOT
@@ -60,7 +60,7 @@ country_event = {
 	option = {
 		name = mms_event.3.a
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 		MMS_02 = {
 			remove_unit_leader_role = yes
@@ -99,7 +99,7 @@ country_event = {
 	option = {
 		name = mms_event.4.a
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 		kill_country_leader = yes
 		add_country_leader_role = {
@@ -137,7 +137,7 @@ country_event = {
 	option = {
 		name = mms_event.3.a
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 		MMS_02 = {
 			remove_unit_leader_role = yes
@@ -166,7 +166,7 @@ country_event = {
 	option = {
 		name = mms_event.4.a
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 		kill_country_leader = yes
 		add_country_leader_role = {
@@ -191,5 +191,14 @@ country_event = {
 		}
 		add_war_support = 0.15
 		add_political_power = -50
+		# if = {
+		# 	limit = {
+		# 		is_in_faction_with = MAH
+		# 		MAH = {
+		# 			is_faction_leader = yes
+		# 		}
+		# 	}
+		# 	leave_faction = yes
+		# }
 	}
 }

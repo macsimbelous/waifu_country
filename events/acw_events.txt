@@ -7,7 +7,7 @@ country_event = {
 	option = {
 		name = acw_event.1.a
 		ai_chance = {
-			factor = 100
+			base = 100
 		}
 	}
 }
@@ -19,7 +19,7 @@ country_event = {
 	option = {
 		name = acw_event.2.a
 		ai_chance = {
-			factor = 0
+			base = 0
 		}
 		wfc_add_arms_factory_in_random_state = yes
 		wfc_add_arms_factory_in_random_state = yes
@@ -28,7 +28,7 @@ country_event = {
 	option = {
 		name = acw_event.2.b
 		ai_chance = {
-			factor = 0
+			base = 0
 		}
 		wfc_add_industrial_complex_in_random_state = yes
 		wfc_add_industrial_complex_in_random_state = yes
@@ -40,7 +40,7 @@ country_event = {
 	option = {
 		name = acw_event.2.c
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 		wfc_add_industrial_complex_in_random_state = yes
 		wfc_add_arms_factory_in_random_state = yes
@@ -56,7 +56,7 @@ country_event = {
 	option = {
 		name = acw_event.10.a
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 	}
 }
@@ -157,7 +157,7 @@ country_event = {
 	option = {
 		name = acw_event.14.c
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 		ROM = {
 			declare_war_on = {

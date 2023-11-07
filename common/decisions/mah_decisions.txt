@@ -552,7 +552,12 @@ mah_make_friends_with_shamiko_category = {
 		available = {
 			neutrality > 0.3
 			MMS = {
-				neutrality > 0.3
+				neutrality > 0.4
+				NOT = {
+					has_power_balance = {
+						id = mms_balance_of_power
+					}
+				}
 			}
 		}
 		complete_effect = {
@@ -563,7 +568,7 @@ mah_make_friends_with_shamiko_category = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				neutrality > 0.5
+				neutrality > 0.4
 				MMS = {
 					neutrality > 0.5
 				}

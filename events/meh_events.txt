@@ -8,7 +8,7 @@ country_event = {
 	option = {
 		name = meh_event.1.a
 		ai_chance = {
-			factor = 75
+			base = 75
 		}
 		#add_ideas = ROA_apocalypse_idea
 	}
@@ -23,7 +23,7 @@ country_event = {
 	option = {
 		name = meh_event.2.a
 		ai_chance = {
-			factor = 100
+			base = 100
 		}
 		hidden_effect = {
 			every_owned_state = {
@@ -45,7 +45,7 @@ country_event = {
 	option = {
 		name = meh_event.2.b
 		ai_chance = {
-			factor = 0
+			base = 0
 		}
 		if = {
 			limit = {
