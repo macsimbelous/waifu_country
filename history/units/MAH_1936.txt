@@ -137,24 +137,16 @@ division_template = {
 			x = 1
 			y = 2
 		}
-		infantry = {
-			x = 0
-			y = 3
-		}
-		infantry = {
-			x = 1
-			y = 3
-		}
 	}
 	support = {
 		artillery = {
 			x = 0
 			y = 0
 		}
-		engineer = {
-			x = 0
-			y = 1
-		}
+		# engineer = {
+		# 	x = 0
+		# 	y = 1
+		# }
 		# recon = {
 		# 	x = 0
 		# 	y = 2
@@ -278,7 +270,66 @@ division_template = {
 	# 	}
 	# }
 }
+
+division_template = {
+	name = "Maho Marines"
+	division_names_group = MAH_MAR_01
+	priority = 2
+	regiments = {
+		marine = {
+			x = 0
+			y = 0
+		}
+		marine = {
+			x = 1
+			y = 0
+		}
+		marine = {
+			x = 0
+			y = 1
+		}
+		marine = {
+			x = 1
+			y = 1
+		}
+		marine = {
+			x = 0
+			y = 2
+		}
+		marine = {
+			x = 1
+			y = 2
+		}
+		marine = {
+			x = 0
+			y = 3
+		}
+		marine = {
+			x = 1
+			y = 3
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+
 units = {
+	division = {
+		location = 4111
+		division_template = "Maho Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4111
+		division_template = "Maho Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
 	division = {
 		location = 4111
 		division_template = "Maho Division"
@@ -389,6 +440,30 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
+	division = {
+		location = 4111
+		division_template = "Maho Cavalry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4206
+		division_template = "Maho Cavalry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4111
+		division_template = "Maho Cavalry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4111
+		division_template = "Maho Cavalry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
 }
 
 air_wings = {
@@ -452,5 +527,10 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.5
 		efficiency = 80
+	}
+	#sklad
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_0
+		amount = 300
 	}
 }

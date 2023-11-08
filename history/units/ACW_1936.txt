@@ -137,14 +137,6 @@ division_template = {
 			x = 1
 			y = 2
 		}
-		infantry = {
-			x = 0
-			y = 3
-		}
-		infantry = {
-			x = 1
-			y = 3
-		}
 	}
 	support = {
 		artillery = {
@@ -368,6 +360,66 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11608
+		division_template = "Anime Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
 	#mountainers
 	division = {
 		location = 11608
@@ -492,5 +544,10 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.5
 		efficiency = 80
+	}
+	#sklad
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_0
+		amount = 300
 	}
 }

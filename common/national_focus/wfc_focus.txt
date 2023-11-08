@@ -250,12 +250,12 @@ shared_focus = {
 			name = special_forces_bonus
 			bonus = 1
 			uses = 1
-			technology = paratroopers
 			technology = paratroopers2
-			technology = marines
+			technology = paratroopers3
 			technology = marines2
-			technology = tech_mountaineers
+			technology = marines3
 			technology = tech_mountaineers2
+			technology = tech_mountaineers3
 		}
 	}
 }

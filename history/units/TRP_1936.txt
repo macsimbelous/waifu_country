@@ -137,14 +137,6 @@ division_template = {
 			x = 1
 			y = 2
 		}
-		infantry = {
-			x = 0
-			y = 3
-		}
-		infantry = {
-			x = 1
-			y = 3
-		}
 	}
 	support = {
 		artillery = {
@@ -268,6 +260,53 @@ division_template = {
 		}
 	}
 }
+
+division_template = {
+	name = "Traps In Swimsuits"
+	division_names_group = TRP_MAR_01
+	priority = 2
+	regiments = {
+		marine = {
+			x = 0
+			y = 0
+		}
+		marine = {
+			x = 1
+			y = 0
+		}
+		marine = {
+			x = 0
+			y = 1
+		}
+		marine = {
+			x = 1
+			y = 1
+		}
+		marine = {
+			x = 0
+			y = 2
+		}
+		marine = {
+			x = 1
+			y = 2
+		}
+		marine = {
+			x = 0
+			y = 3
+		}
+		marine = {
+			x = 1
+			y = 3
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+
 units = {
 	division = {
 		location = 1979
@@ -326,6 +365,72 @@ units = {
 	division = {
 		location = 1979
 		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1979
+		division_template = "Trap Mountaineers"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
@@ -411,5 +516,10 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.5
 		efficiency = 80
+	}
+	#sklad
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_0
+		amount = 300
 	}
 }

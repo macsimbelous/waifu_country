@@ -137,14 +137,6 @@ division_template = {
 			x = 1
 			y = 2
 		}
-		infantry = {
-			x = 0
-			y = 3
-		}
-		infantry = {
-			x = 1
-			y = 3
-		}
 	}
 	support = {
 		artillery = {
@@ -222,6 +214,7 @@ division_template = {
 		}
 	}
 }
+
 division_template = {
 	name = "MonMusu Light Tank"
 	regiments = {
@@ -269,7 +262,124 @@ division_template = {
 	# 	}
 	# }
 }
+
+division_template = {
+	name = "Monster Marines"
+	division_names_group = MMS_MAR_01
+	priority = 2
+	regiments = {
+		marine = {
+			x = 0
+			y = 0
+		}
+		marine = {
+			x = 1
+			y = 0
+		}
+		marine = {
+			x = 0
+			y = 1
+		}
+		marine = {
+			x = 1
+			y = 1
+		}
+		marine = {
+			x = 0
+			y = 2
+		}
+		marine = {
+			x = 1
+			y = 2
+		}
+		marine = {
+			x = 0
+			y = 3
+		}
+		marine = {
+			x = 1
+			y = 3
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+
 units = {
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
 	division = {
 		#name = "MonMusu 27"
 		location = 7982
@@ -361,20 +471,13 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
-	# division = {
-	# 	#name = "MonMusu 27"
-	# 	location = 7982
-	# 	division_template = "MonMusu Mountaineers"
-	# 	start_experience_factor = 0.5
-	# 	start_equipment_factor = 1
-	# }
-	# division = {
-	# 	#name = "MonMusu 27"
-	# 	location = 7982
-	# 	division_template = "MonMusu Mountaineers"
-	# 	start_experience_factor = 0.5
-	# 	start_equipment_factor = 1
-	# }
+	division = {
+		#name = "MonMusu 27"
+		location = 7982
+		division_template = "MonMusu Mountaineers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
 	#tanks
 	# division = {
 	# 	location = 7982
@@ -391,11 +494,20 @@ units = {
 }
 
 air_wings = {
-	414 = { 
-		small_plane_airframe_0 = { owner = "MMS" amount = 100 version_name = "Monster F-15" }
-		medium_plane_airframe_0 =  { owner = "MMS" amount = 100 version_name = "Monster B-3"}
+	414 = {
+		small_plane_airframe_0 = {
+			owner = "MMS"
+			amount = 100
+			version_name = "Monster F-15"
+		}
+		medium_plane_airframe_0 = {
+			owner = "MMS"
+			amount = 100
+			version_name = "Monster B-3"
+		}
 	}
 }
+
 ###starting production###
 instant_effect = {
 	add_equipment_production = {
@@ -463,5 +575,10 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.5
 		efficiency = 100
+	}
+	#sklad
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_0
+		amount = 300
 	}
 }
