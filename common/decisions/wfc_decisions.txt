@@ -231,7 +231,15 @@ wfc_integration_category = {
 		available = {
 			FROM = {
 				is_fully_controlled_by = ROOT
-				compliance > 75
+				if = {
+					limit = {
+						is_claimed_by = ROOT
+					}
+					compliance > 40
+				}
+				else = {
+					compliance > 75
+				}
 				resistance < 5
 			}
 			has_stability > 0.6

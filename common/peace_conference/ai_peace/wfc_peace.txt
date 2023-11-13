@@ -13,6 +13,7 @@ peace_ai_desires = {
 					tag = MMS
 					tag = HEN
 					tag = TRP
+					tag = NEC
 				}
 			}
 		}
@@ -367,6 +368,20 @@ peace_ai_desires = {
 			}
 			ROOT.FROM = {
 				tag = TRP
+			}
+		}
+		ai_desire = 100
+	}
+	nec_take_claims = {
+		peace_action_type = take_state
+		enable = {
+			ROOT.FROM.FROM.FROM = {
+				any_neighbor_state = {
+					is_owned_by = NEC
+				}
+			}
+			ROOT.FROM = {
+				tag = NEC
 			}
 		}
 		ai_desire = 100

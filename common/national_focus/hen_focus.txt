@@ -296,11 +296,11 @@ focus_tree = {
 		}
 		will_lead_to_war_with = GXC
 		completion_reward = {
-			GXC = {
-				every_owned_state = {
-					add_claim_by = HEN
-				}
-			}
+			add_state_claim = 599
+			add_state_claim = 594
+			add_state_claim = 592
+			add_state_claim = 593
+			add_state_claim = 591
 			declare_war_on = {
 				target = GXC
 				type = annex_everything
@@ -1111,22 +1111,30 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_war_support = 0.1
-			JAP = {
-				every_owned_state = {
-					limit = {
-						is_core_of = JAP
-					}
-					add_core_of = HEN
-				}
-				every_owned_state = {
-					limit = {
-						NOT = {
-							is_core_of = JAP
-						}
-					}
-					add_claim_by = HEN
-				}
-			}
+			add_state_core = 528
+			add_state_core = 529
+			add_state_core = 530
+			add_state_core = 531
+			add_state_core = 532
+			add_state_core = 535
+			add_state_core = 282
+			add_state_core = 534
+			add_state_core = 533
+			add_state_core = 536
+			add_state_core = 555
+			add_state_core = 645
+			add_state_core = 526
+			add_state_core = 282
+			add_state_core = 646
+			add_state_core = 537
+			add_state_claim = 555
+			add_state_claim = 527
+			add_state_claim = 525
+			add_state_claim = 524
+			add_state_claim = 648
+			add_state_claim = 647
+			add_state_claim = 684
+			add_state_claim = 633
 		}
 		ai_will_do = {
 			factor = 5

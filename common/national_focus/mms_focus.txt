@@ -81,51 +81,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = PER
-		bypass = {
-			OR = {
-				has_war_with = PER
-				# Iran
-				custom_trigger_tooltip = {
-					tooltip = form_country_iran_required_states_tt
-					419 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					421 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					420 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					417 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					413 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					266 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					418 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					411 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					412 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					416 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					414 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					410 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-				}
-			}
-		}
 		available = {
 			is_puppet = no
 			NOT = {
@@ -145,6 +100,18 @@ focus_tree = {
 			has_civil_war = no
 		}
 		completion_reward = {
+			add_state_claim = 419
+			add_state_claim = 421
+			add_state_claim = 420
+			add_state_claim = 417
+			add_state_claim = 413
+			add_state_claim = 266
+			add_state_claim = 418
+			add_state_claim = 411
+			add_state_claim = 412
+			add_state_claim = 416
+			add_state_claim = 414
+			add_state_claim = 410
 			declare_war_on = {
 				target = PER
 				type = annex_everything
@@ -168,21 +135,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = AFG
-		bypass = {
-			OR = {
-				has_war_with = AFG
-				# Afghanistan
-				custom_trigger_tooltip = {
-					tooltip = form_country_afghanistan_required_states_tt
-					415 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					267 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-				}
-			}
-		}
 		available = {
 			is_puppet = no
 			NOT = {
@@ -212,6 +164,8 @@ focus_tree = {
 			has_civil_war = no
 		}
 		completion_reward = {
+			add_state_claim = 415
+			add_state_claim = 267
 			declare_war_on = {
 				target = AFG
 				type = annex_everything
@@ -274,6 +228,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		cancelable = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available = {
 			# Iran
 			custom_trigger_tooltip = {
@@ -610,9 +567,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = RAJ
-		bypass = {
-			has_war_with = RAJ
-		}
 		available = {
 			is_puppet = no
 			NOT = {
@@ -635,14 +589,12 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			RAJ = {
-				every_owned_state = {
-					limit = {
-						is_core_of = PAK
-					}
-					add_claim_by = MMS
-				}
-			}
+			add_state_claim = 444
+			add_state_claim = 443
+			add_state_claim = 445
+			add_state_claim = 440
+			add_state_claim = 442
+			add_state_claim = 787
 			declare_war_on = {
 				target = RAJ
 				type = puppet_wargoal_focus
@@ -666,9 +618,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = PAK
-		bypass = {
-			has_war_with = PAK
-		}
 		available = {
 			is_puppet = no
 			NOT = {
@@ -701,17 +650,15 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			PAK = {
-				every_owned_state = {
-					limit = {
-						is_core_of = PAK
-					}
-					add_claim_by = MMS
-				}
-			}
+			add_state_claim = 444
+			add_state_claim = 443
+			add_state_claim = 445
+			add_state_claim = 440
+			add_state_claim = 442
+			add_state_claim = 787
 			declare_war_on = {
 				target = PAK
-				type = puppet_wargoal_focus
+				type = annex_everything
 			}
 		}
 		ai_will_do = {

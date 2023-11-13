@@ -766,250 +766,26 @@ on_actions = {
 					original_tag = JAP
 					HEN = {
 						has_war_with = JAP
-						is_ai = yes
-					}
-				}
-				HEN = {
-					#set_country_flag = hen_world_conquest_enabled_flag
-					#remove_ideas = hen_attack_jap_bonus
-					set_major = yes
-					# transfer_state = 529
-					# transfer_state = 530
-					# transfer_state = 531
-					# transfer_state = 532
-					# transfer_state = 535
-					# transfer_state = 282
-					# transfer_state = 534
-					# transfer_state = 533
-					# transfer_state = 536
-					# transfer_state = 537
-					# transfer_state = 555
-				}
-				transfer_navy = {
-					target = HEN
-				}
-				every_owned_state = {
-					limit = {
-						is_core_of = JAP
-					}
-					HEN = {
-						transfer_state = PREV
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = JAP
-					HEN = {
-						has_war_with = JAP
 					}
 				}
 				HEN = {
 					clr_country_flag = hen_flag_rebellion_in_jap
 				}
 			}
-			if = {
-				limit = {
-					original_tag = PER
-					MMS = {
-						has_war_with = PER
-						is_ai = yes
-					}
-				}
-				MMS = {
-					transfer_state = 419
-					transfer_state = 421
-					transfer_state = 420
-					transfer_state = 417
-					transfer_state = 413
-					transfer_state = 266
-					transfer_state = 418
-					transfer_state = 411
-					transfer_state = 412
-					transfer_state = 416
-					transfer_state = 414
-					transfer_state = 410
-				}
-			}
-			if = {
-				limit = {
-					original_tag = AFG
-					MMS = {
-						has_war_with = AFG
-						is_ai = yes
-					}
-				}
-				MMS = {
-					transfer_state = 415
-					transfer_state = 267
-				}
-			}
-			if = {
-				limit = {
-					original_tag = ENG
-					MAH = {
-						has_war_with = ENG
-						is_ai = yes
-					}
-				}
-				ENG = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = IRQ
-					MAH = {
-						has_war_with = IRQ
-						is_ai = yes
-					}
-				}
-				IRQ = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = SAU
-					MAH = {
-						has_war_with = SAU
-						is_ai = yes
-					}
-				}
-				SAU = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = OMA
-					MAH = {
-						has_war_with = OMA
-						is_ai = yes
-					}
-				}
-				OMA = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = YEM
-					MAH = {
-						has_war_with = YEM
-						is_ai = yes
-					}
-				}
-				YEM = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = QAT
-					MAH = {
-						has_war_with = QAT
-						is_ai = yes
-					}
-				}
-				QAT = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = KUW
-					MAH = {
-						has_war_with = KUW
-						is_ai = yes
-					}
-				}
-				KUW = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = UAE
-					MAH = {
-						has_war_with = UAE
-						is_ai = yes
-					}
-				}
-				UAE = {
-					every_owned_state = {
-						limit = {
-							is_claimed_by = MAH
-						}
-						MAH = {
-							transfer_state = PREV
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					original_tag = ZMB
-				}
-				every_state = {
-					limit = {
-						is_core_of = ZMB
-					}
-					remove_core_of = ZMB
-				}
-				MMS = {
-					transfer_state = 411
-				}
-			}
+			# if = {
+			# 	limit = {
+			# 		original_tag = ZMB
+			# 	}
+			# 	every_state = {
+			# 		limit = {
+			# 			is_core_of = ZMB
+			# 		}
+			# 		remove_core_of = ZMB
+			# 	}
+			# 	MMS = {
+			# 		transfer_state = 411
+			# 	}
+			# }
 			if = {
 				limit = {
 					original_tag = MEH
@@ -1036,37 +812,31 @@ on_actions = {
 			}
 		}
 	}
-	on_weekly_ZMB = {
-		effect = {
-			every_controlled_state = {
-				limit = {
-					is_fully_controlled_by = ZMB
-					NOT = {
-						is_core_of = ZMB
-					}
-				}
-				# for_each_loop = {
-				# 	array = core_countries
-				# 	value = temp_tag
-				# 	remove_core_of = temp_var:temp_tag
-				# }
-				add_core_of = ZMB
-			}
-			if = {
-				limit = {
-					num_divisions < 3000
-				}
-				every_controlled_state = {
-					create_unit = {
-						division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-						owner = ZMB
-						#prioritize_location = 4518
-						allow_spawning_on_enemy_provs = yes
-					}
-				}
-			}
-		}
-	}
+	# on_weekly_ZMB = {
+	# 	effect = {
+	# 		every_controlled_state = {
+	# 			limit = {
+	# 				is_fully_controlled_by = ZMB
+	# 				NOT = {
+	# 					is_core_of = ZMB
+	# 				}
+	# 			}
+	# 			add_core_of = ZMB
+	# 		}
+	# 		if = {
+	# 			limit = {
+	# 				num_divisions < 3000
+	# 			}
+	# 			every_controlled_state = {
+	# 				create_unit = {
+	# 					division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
+	# 					owner = ZMB
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# }
 	on_ruling_party_change = {
 		effect = {
 			if = {

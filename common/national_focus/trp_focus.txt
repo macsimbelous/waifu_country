@@ -927,61 +927,20 @@
 				size > 299999
 			}
 		}
-		bypass = {
-			# BRA
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_bra_required_states_tt
-				#controls_state = 496
-				496 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 497
-				497 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 498
-				498 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 499
-				499 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 500
-				500 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 501
-				501 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 502
-				502 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 503
-				503 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 504
-				504 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 505
-				505 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
 		completion_reward = {
+			add_state_claim = 496
+			add_state_claim = 497
+			add_state_claim = 498
+			add_state_claim = 499
+			add_state_claim = 500
+			add_state_claim = 501
+			add_state_claim = 502
+			add_state_claim = 503
+			add_state_claim = 504
+			add_state_claim = 505
 			create_wargoal = {
 				target = BRA
 				type = annex_everything
-			}
-			BRA = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 		ai_will_do = {
@@ -1006,11 +965,6 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = URG
-		bypass = {
-			300 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-		}
 		available = {
 			is_puppet = no
 			# BRA
@@ -1059,14 +1013,10 @@
 			}
 		}
 		completion_reward = {
+			add_state_claim = 300
 			create_wargoal = {
 				target = URG
 				type = annex_everything
-			}
-			URG = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 		ai_will_do = {
@@ -1094,29 +1044,12 @@
 		available = {
 			is_puppet = no
 		}
-		bypass = {
-			# BOL
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_bol_required_states_tt
-				#controls_state = 302
-				302 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 487
-				487 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
 		completion_reward = {
+			add_state_claim = 302
+			add_state_claim = 487
 			create_wargoal = {
 				target = BOL
 				type = annex_everything
-			}
-			BOL = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 		ai_will_do = {
@@ -1144,33 +1077,13 @@
 		available = {
 			is_puppet = no
 		}
-		bypass = {
-			# COL
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_col_required_states_tt
-				#controls_state = 493
-				493 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 306
-				306 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 486
-				486 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
 		completion_reward = {
+			add_state_claim = 493
+			add_state_claim = 306
+			add_state_claim = 486
 			create_wargoal = {
 				target = COL
 				type = annex_everything
-			}
-			COL = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 		ai_will_do = {
@@ -1198,24 +1111,6 @@
 				factor = 0
 			}
 		}
-		bypass = {
-			# VEN
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_ven_required_states_tt
-				#controls_state = 488
-				488 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 307
-				307 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 489
-				489 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
 		available = {
 			is_puppet = no
 			# COL
@@ -1236,14 +1131,12 @@
 			}
 		}
 		completion_reward = {
+			add_state_claim = 488
+			add_state_claim = 307
+			add_state_claim = 489
 			create_wargoal = {
 				target = VEN
 				type = annex_everything
-			}
-			VEN = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 	}
@@ -1261,11 +1154,6 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = ECU
-		bypass = {
-			305 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-		}
 		available = {
 			is_puppet = no
 			# VEN
@@ -1286,14 +1174,11 @@
 			}
 		}
 		completion_reward = {
+			add_state_claim = 305
+			add_state_claim = 649
 			create_wargoal = {
 				target = ECU
 				type = annex_everything
-			}
-			ECU = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 		ai_will_do = {
@@ -1354,14 +1239,14 @@
 			}
 		}
 		completion_reward = {
+			add_state_claim = 490
+			add_state_claim = 491
+			add_state_claim = 303
+			add_state_claim = 492
+			add_state_claim = 494
 			create_wargoal = {
 				target = PRU
 				type = annex_everything
-			}
-			PRU = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 	}
@@ -1380,20 +1265,6 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = PAR
-		bypass = {
-			# PAR
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_par_required_states_tt
-				#controls_state = 301
-				301 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 688
-				688 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
 		available = {
 			is_puppet = no
 			OR = {
@@ -1470,14 +1341,11 @@
 					instant_build = yes
 				}
 			}
+			add_state_claim = 301
+			add_state_claim = 688
 			create_wargoal = {
 				target = PAR
 				type = annex_everything
-			}
-			PAR = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 		ai_will_do = {
@@ -1505,36 +1373,6 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = ARG
-		bypass = {
-			# ARG
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_arg_required_states_tt
-				#controls_state = 278
-				278 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 508
-				508 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 509
-				509 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 510
-				510 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 511
-				511 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 512
-				512 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
 		available = {
 			is_puppet = no
 			300 = {
@@ -1554,14 +1392,15 @@
 			}
 		}
 		completion_reward = {
+			add_state_claim = 278
+			add_state_claim = 508
+			add_state_claim = 509
+			add_state_claim = 510
+			add_state_claim = 511
+			add_state_claim = 512
 			create_wargoal = {
 				target = ARG
 				type = annex_everything
-			}
-			ARG = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 		ai_will_do = {
@@ -1586,24 +1425,6 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		will_lead_to_war_with = CHL
-		bypass = {
-			# CHL
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_chl_required_states_tt
-				#controls_state = 506
-				506 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 279
-				279 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 507
-				507 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
 		available = {
 			is_puppet = no
 			# ARG
@@ -1636,14 +1457,12 @@
 			}
 		}
 		completion_reward = {
+			add_state_claim = 506
+			add_state_claim = 279
+			add_state_claim = 507
 			create_wargoal = {
 				target = CHL
 				type = annex_everything
-			}
-			CHL = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
 			}
 		}
 		ai_will_do = {

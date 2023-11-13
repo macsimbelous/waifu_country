@@ -1168,7 +1168,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = bunker
-					level = 1
+					level = 3
 					instant_build = yes
 					province = {
 						all_provinces = yes
@@ -1188,47 +1188,20 @@ focus_tree = {
 		y = 1
 		relative_position_id = acw_defensive_lines
 		cost = 5
+		will_lead_to_war_with = HUN
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			# Hungary
-			custom_trigger_tooltip = {
-				tooltip = acw_form_hungary_required_states_tt
-				#controls_state = 155
-				155 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 43
-				43 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 154
-				154 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
 		}
 		available = {
 			is_puppet = no
 			NOT = {
 				is_in_faction_with = HUN
 			}
-			# HUN = {
-			# 	any_neighbor_country = {
-			# 		OR = {
-			# 			original_tag = ROOT
-			# 			is_puppet_of = ROOT
-			# 		}
-			# 	}
-			# }
 		}
 		completion_reward = {
-			HUN = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 155
+			add_state_claim = 43
+			add_state_claim = 154
 			create_wargoal = {
 				target = HUN
 				type = annex_everything
@@ -1245,66 +1218,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = acw_focus_attack_hun
 		cost = 5
+		will_lead_to_war_with = YUG
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			#Yugoslavia 
-			custom_trigger_tooltip = {
-				tooltip = acw_form_yugoslavia_required_states_tt
-				#controls_state = 102
-				# 102 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 103
-				# 103 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 109
-				109 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 104
-				104 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 804
-				804 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 105
-				105 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 107
-				107 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 45
-				45 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 764
-				# 764 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 108
-				108 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 802
-				802 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 803
-				803 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 106
-				106 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
 		}
 		available = {
 			is_puppet = no
@@ -1316,33 +1232,19 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			YUG = {
-				every_owned_state = {
-					limit = {
-						NOT = {
-							state = 102
-							state = 103
-							state = 853
-						}
-					}
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 109
+			add_state_claim = 104
+			add_state_claim = 804
+			add_state_claim = 105
+			add_state_claim = 107
+			add_state_claim = 45
+			add_state_claim = 108
+			add_state_claim = 802
+			add_state_claim = 803
+			add_state_claim = 106
 			create_wargoal = {
 				target = YUG
 				type = annex_everything
-			}
-			hidden_effect = {
-				add_state_claim = 109
-				add_state_claim = 104
-				add_state_claim = 804
-				add_state_claim = 105
-				add_state_claim = 107
-				add_state_claim = 45
-				add_state_claim = 108
-				add_state_claim = 802
-				add_state_claim = 803
-				add_state_claim = 106
 			}
 		}
 	}
@@ -1356,46 +1258,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = acw_focus_attack_hun
 		cost = 5
+		will_lead_to_war_with = ROM
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			#Romania
-			custom_trigger_tooltip = {
-				tooltip = acw_form_romania_required_states_tt
-				#controls_state = 46
-				46 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 76
-				# 76 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 77
-				77 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 79
-				79 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 81
-				81 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 82
-				# 82 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 83
-				# 83 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-				#controls_state = 84
-				# 84 = {
-				# 	wfc_is_controlled_by_root_or_puppet = yes
-				# }
-			}
 		}
 		available = {
 			is_puppet = no
@@ -1407,18 +1272,10 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			ROM = {
-				every_owned_state = {
-					limit = {
-						NOT = {
-							state = 80
-							state = 78
-							state = 766
-						}
-					}
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 46
+			add_state_claim = 77
+			add_state_claim = 79
+			add_state_claim = 81
 			create_wargoal = {
 				target = ROM
 				type = annex_everything
@@ -1436,16 +1293,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = acw_focus_attack_romania
 		cost = 5
+		will_lead_to_war_with = BUL
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			BUL = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-				}
-			}
 		}
 		available = {
 			is_puppet = no
@@ -1462,11 +1312,10 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			BUL = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 48
+			add_state_claim = 801
+			add_state_claim = 212
+			add_state_claim = 211
 			create_wargoal = {
 				target = BUL
 				type = annex_everything
@@ -1827,10 +1676,11 @@ focus_tree = {
 		prerequisite = {
 			focus = acw_focus_great_animeland
 		}
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = acw_focus_great_animeland
 		cost = 5
+		will_lead_to_war_with = ALB
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1861,83 +1711,6 @@ focus_tree = {
 			create_wargoal = {
 				target = ALB
 				type = annex_everything
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_attack_gre
-		icon = GFX_goal_generic_major_war
-		prerequisite = {
-			focus = acw_focus_attack_alb
-		}
-		x = 0
-		y = 1
-		relative_position_id = acw_focus_attack_alb
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		bypass = {
-			GRE = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-				}
-			}
-		}
-		available = {
-			is_puppet = no
-			NOT = {
-				is_in_faction_with = GRE
-			}
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = GRE
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_attack_ita
-		icon = GFX_focus_attack_italy
-		prerequisite = {
-			focus = acw_focus_great_animeland
-		}
-		x = 0
-		y = 1
-		relative_position_id = acw_focus_great_animeland
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			ITA = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-				}
-			}
-		}
-		available = {
-			is_puppet = no
-			NOT = {
-				is_in_faction_with = ITA
-			}
-		}
-		completion_reward = {
-			add_state_claim = 736
-			add_state_claim = 852
-			add_state_claim = 163
-			add_state_claim = 102
-			add_state_claim = 853
-			add_state_claim = 103
-			create_wargoal = {
-				target = ITA
-				type = puppet_wargoal_focus
 			}
 		}
 	}
@@ -2302,6 +2075,298 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = acw_colonial_office
+		}
+	}
+	focus = {
+		id = acw_focus_protectorates
+		icon = GFX_focus_generic_home_defense
+		x = 29
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_completed_focus = acw_focus_complete_the_reform
+			is_puppet = no
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = acw_focus_protectorate_aus
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = acw_focus_protectorates
+		}
+		x = -4
+		y = 1
+		relative_position_id = acw_focus_protectorates
+		cost = 5
+		will_lead_to_war_with = AUS
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = AUS
+			}
+			155 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = AUS
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_protectorate_cze
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = acw_focus_protectorates
+		}
+		x = -2
+		y = 1
+		relative_position_id = acw_focus_protectorates
+		cost = 5
+		will_lead_to_war_with = CZE
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = CZE
+			}
+			152 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			4 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			155 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			43 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			154 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			76 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = CZE
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_protectorate_gre
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = acw_focus_protectorates
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_protectorates
+		cost = 5
+		will_lead_to_war_with = GRE
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = GRE
+			}
+			805 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			106 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			212 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			211 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = GRE
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_protectorate_ita
+		icon = GFX_focus_attack_italy
+		prerequisite = {
+			focus = acw_focus_protectorates
+		}
+		x = 2
+		y = 1
+		relative_position_id = acw_focus_protectorates
+		cost = 5
+		will_lead_to_war_with = ITA
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			has_country_flag = acw_great_animeland_flag
+			has_army_manpower = {
+				size > 999999
+			}
+			NOT = {
+				is_in_faction_with = ITA
+			}
+			ITA = {
+				any_neighbor_country = {
+					OR = {
+						original_tag = ROOT
+						is_puppet_of = ROOT
+					}
+				}
+			}
+		}
+		completion_reward = {
+			add_state_claim = 736
+			add_state_claim = 852
+			add_state_claim = 163
+			add_state_claim = 102
+			add_state_claim = 853
+			add_state_claim = 103
+			create_wargoal = {
+				target = ITA
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_protectorate_ukr
+		#icon = GFX_focus_attack_soviet
+		icon = {
+			trigger = {
+				SOV = {
+					controls_state = 202
+				}
+			}
+			value = GFX_focus_attack_soviet
+		}
+		icon = {
+			trigger = {
+				always = yes
+			}
+			value = GFX_focus_attack_soviet
+		}
+		dynamic = yes
+		prerequisite = {
+			focus = acw_focus_protectorates
+		}
+		x = 4
+		y = 1
+		relative_position_id = acw_focus_protectorates
+		cost = 5
+		#will_lead_to_war_with = SOV
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			has_country_flag = acw_great_animeland_flag
+			has_army_manpower = {
+				size > 999999
+			}
+			NOT = {
+				is_in_faction_with = 202.OWNER
+			}
+			202 = {
+				OWNER = {
+					any_neighbor_country = {
+						OR = {
+							original_tag = ROOT
+							is_puppet_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		completion_reward = {
+			add_state_claim = 137
+			create_wargoal = {
+				target = 202.OWNER
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_west_ukr
+		icon = GFX_goal_generic_major_war
+		dynamic = yes
+		prerequisite = {
+			focus = acw_focus_protectorate_ukr
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_protectorate_ukr
+		cost = 5
+		will_lead_to_war_with = POL
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			any_other_country = {
+				original_tag = UKR
+				is_puppet_of = ROOT
+			}
+			OR = {
+				NOT = {
+					has_war_with = SOV
+				}
+				SOV = {
+					has_capitulated = yes
+				}
+			}
+			NOT = {
+				is_in_faction_with = POL
+			}
+			POL = {
+				controls_state = 89
+				controls_state = 91
+				controls_state = 93
+			}
+		}
+		bypass = {
+			89 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			91 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			93 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = POL
+				type = puppet_wargoal_focus
+			}
 		}
 	}
 }

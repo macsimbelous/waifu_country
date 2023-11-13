@@ -84,24 +84,14 @@ focus_tree = {
 		}
 		available = {
 			is_puppet = no
-		}
-		bypass = {
-			676 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			675 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			291 = {
-				wfc_is_controlled_by_root_or_puppet = yes
+			NOT = {
+				is_in_faction_with = IRQ
 			}
 		}
 		completion_reward = {
-			IRQ = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 676
+			add_state_claim = 675
+			add_state_claim = 291
 			create_wargoal = {
 				target = IRQ
 				type = annex_everything
@@ -124,6 +114,9 @@ focus_tree = {
 		}
 		available = {
 			is_puppet = no
+			NOT = {
+				is_in_faction_with = SAU
+			}
 			676 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
@@ -134,41 +127,16 @@ focus_tree = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
-		bypass = {
-			292 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			679 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			678 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			855 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			854 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			857 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			859 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			856 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			858 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-		}
 		completion_reward = {
-			SAU = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 292
+			add_state_claim = 679
+			add_state_claim = 678
+			add_state_claim = 855
+			add_state_claim = 854
+			add_state_claim = 857
+			add_state_claim = 859
+			add_state_claim = 856
+			add_state_claim = 858
 			create_wargoal = {
 				target = SAU
 				type = annex_everything
@@ -267,29 +235,33 @@ focus_tree = {
 		}
 		available = {
 			is_puppet = no
-		}
-		bypass = {
-			294 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			293 = {
-				wfc_is_controlled_by_root_or_puppet = yes
+			NOT = {
+				is_in_faction_with = OMA
+				is_in_faction_with = YEM
 			}
 		}
 		completion_reward = {
-			OMA = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 294
 			create_wargoal = {
 				target = OMA
 				type = annex_everything
 			}
-			YEM = {
-				every_owned_state = {
-					add_claim_by = ROOT
+			add_state_claim = 293
+			if = {
+				limit = {
+					YEM = {
+						controls_state = 659
+					}
 				}
+				add_state_claim = 659
+			}
+			if = {
+				limit = {
+					YEM = {
+						controls_state = 906
+					}
+				}
+				add_state_claim = 906
 			}
 			create_wargoal = {
 				target = YEM

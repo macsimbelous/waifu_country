@@ -34,3 +34,11 @@ acw_create_great_animeland_category = {
 		}
 	}
 }
+
+acw_category_protectorates = {
+	priority = 24
+	icon = decision_category_eng_move_to_secure_the_dominions
+	allowed = {
+		original_tag = ACW
+	}
+}

@@ -248,6 +248,15 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_create_yug_provinces_decision:0 "Сформировать провинцию §Y[YUG.GetName]§!"
   acw_create_hun_provinces_decision:0 "Сформировать провинцию §Y[HUN.GetName]§!"
 
+ #acw_category_protectorates
+  acw_category_protectorates: "Потектораты"
+  acw_decision_create_protectorate_aus: "Создать Австрийский протекторат"
+  acw_decision_create_protectorate_cze: "Создать Чехословацкий протекторат"
+  acw_decision_create_protectorate_gre: "Создать Греческий протекторат"
+  acw_decision_create_protectorate_ita: "Создать Итальянский протекторат"
+  acw_decision_create_protectorate_ukr: "Создать Украинский протекторат"
+  acw_decision_transfer_west_ukr: "Передать Западную украину протекторату"
+
 #HEN
  #tentakles
   hen_tentakles_decisions:0 "Тентакли"

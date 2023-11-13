@@ -165,9 +165,8 @@
  acw_focus_attack_romania: "Occupy Romania"
  acw_focus_attack_hun: "Take Hungary"
  acw_focus_great_animeland: "Proclaim Great Animeland"
+ acw_great_animeland_flag: "The Great Animeland is proclaimed"
  acw_focus_attack_alb: "Occupy Albania"
- acw_focus_attack_gre: "Occupy Greece"
- acw_focus_attack_ita: "Occupy Italy"
  acw_focus_join_allies: "Join an Ally"
  acw_focus_invite_balkans: "Invite Balkan countries"
  acw_focus_government_reform: "Government Reform"
@@ -189,6 +188,13 @@
  acw_focus_secret_weapons: "Super Weapon"
  acw_focus_balkan_federation: "Balkan federation"
  acw_form_albani_coring_states_tt: "Albanian territories will become national"
+ acw_focus_protectorates: "Protectorates"
+ acw_focus_protectorate_aus: "Austrian Protectorate"
+ acw_focus_protectorate_cze: "Czechoslovak Protectorate".
+ acw_focus_protectorate_gre: "Greek Protectorate".
+ acw_focus_protectorate_ita: "Italian Protectorate".
+ acw_focus_protectorate_ukr: "Ukrainian Protectorate".
+ acw_focus_west_ukr: "Western Ukraine"
 
 #HEN
  hen_focus: "Hentalia Focuses"

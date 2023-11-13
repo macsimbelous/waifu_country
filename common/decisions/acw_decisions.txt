@@ -1736,3 +1736,716 @@ acw_create_great_animeland_category = {
 		}
 	}
 }
+
+acw_category_protectorates = {
+	acw_decision_create_protectorate_aus = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = acw_focus_protectorate_aus
+			NOT = {
+				AND = {
+					848 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					153 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					152 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					4 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		available = {
+			controls_state = 848
+			controls_state = 153
+			controls_state = 152
+			controls_state = 4
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = AUS
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 848
+					transfer_state = 153
+					transfer_state = 152
+					transfer_state = 4
+				}
+				var:country_to_initiate = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
+		}
+	}
+	acw_decision_create_protectorate_cze = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = acw_focus_protectorate_cze
+			NOT = {
+				AND = {
+					70 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					71 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					73 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					664 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		available = {
+			controls_state = 70
+			controls_state = 71
+			controls_state = 73
+			controls_state = 664
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = CZE
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 70
+					transfer_state = 71
+					transfer_state = 73
+					transfer_state = 664
+				}
+				var:country_to_initiate = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
+		}
+	}
+	acw_decision_create_protectorate_gre = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = acw_focus_protectorate_gre
+			NOT = {
+				AND = {
+					184 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					731 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					185 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					47 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					186 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		available = {
+			controls_state = 184
+			controls_state = 731
+			controls_state = 185
+			controls_state = 47
+			controls_state = 186
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = GRE
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 184
+					transfer_state = 731
+					transfer_state = 185
+					transfer_state = 47
+					transfer_state = 186
+				}
+				var:country_to_initiate = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
+		}
+	}
+	acw_decision_create_protectorate_ita = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = acw_focus_protectorate_ita
+			NOT = {
+				AND = {
+					115 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					156 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					849 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					117 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					2 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					157 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					162 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					161 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					158 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					159 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					160 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					850 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					39 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		available = {
+			controls_state = 115
+			controls_state = 156
+			controls_state = 849
+			controls_state = 117
+			controls_state = 2
+			controls_state = 157
+			controls_state = 162
+			controls_state = 161
+			controls_state = 158
+			controls_state = 159
+			controls_state = 850
+			controls_state = 160
+			controls_state = 39
+			controls_state = 736
+			controls_state = 852
+			controls_state = 163
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = ITA
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 115
+					transfer_state = 156
+					transfer_state = 849
+					transfer_state = 117
+					transfer_state = 2
+					transfer_state = 157
+					transfer_state = 162
+					transfer_state = 161
+					transfer_state = 158
+					transfer_state = 159
+					transfer_state = 850
+					transfer_state = 160
+					transfer_state = 39
+					transfer_state = 736
+					transfer_state = 852
+					transfer_state = 163
+				}
+				var:country_to_initiate = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
+			transfer_state = 736
+			transfer_state = 852
+			transfer_state = 163
+			if = {
+				limit = {
+					102 = {
+						is_owned_by = ITA
+					}
+				}
+				transfer_state = 102
+			}
+			if = {
+				limit = {
+					853 = {
+						is_owned_by = ITA
+					}
+				}
+				transfer_state = 853
+			}
+			if = {
+				limit = {
+					103 = {
+						is_owned_by = ITA
+					}
+				}
+				transfer_state = 103
+			}
+		}
+	}
+	acw_decision_create_protectorate_ukr = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = acw_focus_protectorate_ukr
+			NOT = {
+				AND = {
+					199 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					201 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					202 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					193 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					225 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					198 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					834 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					192 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					203 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					197 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					196 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					259 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					226 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					200 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					221 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					227 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					228 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		available = {
+			controls_state = 199
+			controls_state = 201
+			controls_state = 202
+			controls_state = 193
+			controls_state = 225
+			controls_state = 198
+			controls_state = 834
+			controls_state = 192
+			controls_state = 203
+			controls_state = 197
+			controls_state = 196
+			controls_state = 259
+			controls_state = 226
+			controls_state = 200
+			controls_state = 221
+			controls_state = 227
+			controls_state = 228
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = UKR
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 199
+					transfer_state = 201
+					transfer_state = 202
+					transfer_state = 193
+					transfer_state = 225
+					transfer_state = 198
+					transfer_state = 834
+					transfer_state = 192
+					transfer_state = 203
+					transfer_state = 197
+					transfer_state = 196
+					transfer_state = 259
+					transfer_state = 226
+					transfer_state = 200
+					transfer_state = 221
+					transfer_state = 227
+					transfer_state = 228
+					if = {
+						limit = {
+							ROOT = {
+								controls_state = 89
+							}
+						}
+						transfer_state = 89
+					}
+					if = {
+						limit = {
+							ROOT = {
+								controls_state = 91
+							}
+						}
+						transfer_state = 91
+					}
+					if = {
+						limit = {
+							ROOT = {
+								controls_state = 93
+							}
+						}
+						transfer_state = 93
+					}
+				}
+				var:country_to_initiate = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
+		}
+	}
+	acw_decision_transfer_west_ukr = {
+		icon = generic_form_nation
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = acw_focus_west_ukr
+			NOT = {
+				AND = {
+					89 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					91 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					93 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		available = {
+			89 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			91 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			93 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					original_tag = UKR
+					is_puppet_of = ROOT
+				}
+				transfer_state = 89
+				transfer_state = 91
+				transfer_state = 93
+			}
+		}
+	}
+}

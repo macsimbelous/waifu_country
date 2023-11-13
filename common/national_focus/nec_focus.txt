@@ -30,11 +30,8 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
-			TIB = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 322
+			add_state_claim = 757
 			create_wargoal = {
 				target = TIB
 				type = annex_everything
@@ -114,11 +111,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			NEP = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 323
 			create_wargoal = {
 				target = NEP
 				type = annex_everything
@@ -145,11 +138,7 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
-			BHU = {
-				every_owned_state = {
-					add_claim_by = ROOT
-				}
-			}
+			add_state_claim = 324
 			create_wargoal = {
 				target = BHU
 				type = annex_everything
