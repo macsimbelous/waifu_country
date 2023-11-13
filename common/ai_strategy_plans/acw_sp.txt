@@ -36,6 +36,8 @@ ACW_historical = {
 		acw_focus_path_to_empire
 		acw_defensive_lines
 		acw_focus_attack_hun
+		acw_focus_protectorates
+		acw_focus_protectorate_aus
 
 		wfc_political_effort
 		wfc_focus_individualism
@@ -146,6 +148,8 @@ ACW_communist = {
 		acw_focus_path_to_empire
 		acw_defensive_lines
 		acw_focus_attack_hun
+		acw_focus_protectorates
+		acw_focus_protectorate_aus
 	}
 	research = {
 	}
@@ -201,6 +205,8 @@ ACW_fascist = {
 		acw_focus_path_to_empire
 		acw_defensive_lines
 		acw_focus_attack_hun
+		acw_focus_protectorates
+		acw_focus_protectorate_aus
 	}
 	research = {
 	}
