@@ -41,4 +41,7 @@ acw_category_protectorates = {
 	allowed = {
 		original_tag = ACW
 	}
+	visible = {
+		has_completed_focus = acw_focus_protectorates
+	}
 }
