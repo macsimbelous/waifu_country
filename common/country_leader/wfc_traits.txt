@@ -64,6 +64,7 @@ leader_traits = {
 		annex_cost_factor = -0.33
 		military_leader_cost_factor = -0.33
 		#mobilization_laws_cost_factor = -0.33
+		grant_medal_cost_factor = -0.5
 		ai_will_do = {
 			factor = 1
 		}
