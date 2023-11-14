@@ -142,6 +142,28 @@ characters = {
 			expire = "1965.1.1"
 		}
 	}
+	trp_simon_hartmann = {
+		name = trp_simon_hartmann
+		portraits = {
+			army = {
+				small = GFX_idea_trp_simon_hartmann
+			}
+			civilian = {
+				large = GFX_portrait_trp_simon_hartmann_civilian
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				wfc_trap
+				dictator
+				autocratic_imperialist
+				generallissimo
+				triumphant_revolutionary
+			}
+			expire = "1965.1.1"
+		}
+	}
 	TRP_ringo_tsukimiya = {
 		name = TRP_ringo_tsukimiya
 		portraits = {
@@ -152,15 +174,15 @@ characters = {
 				large = GFX_portrait_trp_ringo_tsukimiya
 			}
 		}
-		country_leader = {
-			ideology = despotism
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_ringo_tsukimiya
+			cost = 150
 			traits = {
-				wfc_trap
-				wfc_defender
-				wfc_patron_of_intelligence
-				wfc_empress
+				#landbrugsminister
+				#shadow_of_calles
+				agricultural_capitalist
 			}
-			expire = "1965.1.1"
 		}
 	}
 	TRP_felix_argyle = {
