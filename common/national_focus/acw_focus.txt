@@ -2127,7 +2127,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_focus_protectorate_cze
+		id = acw_focus_protectorate_slo
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = acw_focus_protectorates

@@ -1826,7 +1826,7 @@ acw_category_protectorates = {
 			}
 		}
 	}
-	acw_decision_create_protectorate_cze = {
+	acw_decision_create_protectorate_slo = {
 		icon = generic_form_nation
 		cost = 25
 		fire_only_once = yes
@@ -1868,7 +1868,7 @@ acw_category_protectorates = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				country_to_initiate = CZE
+				country_to_initiate = SLO
 			}
 			custom_effect_tooltip = wfc_instantiate_province_tt
 			hidden_effect = {
@@ -1897,6 +1897,10 @@ acw_category_protectorates = {
 					transfer_state = 71
 					transfer_state = 73
 					transfer_state = 664
+					add_state_core = 70
+					add_state_core = 71
+					add_state_core = 73
+					add_state_core = 664
 				}
 				var:country_to_initiate = {
 					set_country_flag = wfc_change_focus_tree_flag
@@ -2431,6 +2435,10 @@ acw_category_protectorates = {
 			}
 			93 = {
 				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			any_other_country = {
+				original_tag = UKR
+				is_puppet_of = ROOT
 			}
 		}
 		ai_will_do = {
