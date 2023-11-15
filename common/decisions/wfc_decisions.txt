@@ -1266,23 +1266,30 @@ wfc_subjects_category = {
 		priority = 4
 		cost = 0
 		visible = {
-			num_subjects > 0
+			#num_subjects > 0
 			any_subject_country = {
-				is_subject_of = ROOT
+				#is_subject_of = ROOT
+				NOT = {
+					has_country_flag = wfc_flag_prohibit_transfer_of_divisions
+				}
 			}
 		}
 		available = {
 			is_ai = no
 		}
 		complete_effect = {
-			every_other_country = {
+			every_subject_country = {
 				limit = {
 					#is_puppet_of = ROOT
-					is_subject_of = ROOT
+					#is_subject_of = ROOT
+					NOT = {
+						has_country_flag = wfc_flag_prohibit_transfer_of_divisions
+					}
 				}
 				set_rule = {
 					units_deployed_to_overlord = no
 				}
+				set_country_flag = wfc_flag_prohibit_transfer_of_divisions
 			}
 		}
 	}
