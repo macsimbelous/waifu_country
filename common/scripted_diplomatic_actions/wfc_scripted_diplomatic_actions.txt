@@ -1,9 +1,6 @@
 scripted_diplomatic_actions = {
 	wfc_diplomatic_action_preparing_a_coup = {
 		allowed = {
-			always = yes
-		}
-		visible = {
 			ROOT = {
 				OR = {
 					original_tag = ACW
@@ -13,9 +10,10 @@ scripted_diplomatic_actions = {
 					original_tag = MMS
 					original_tag = MEH
 					original_tag = NEC
-					#original_tag = ZMB
 				}
 			}
+		}
+		visible = {
 			NOT = {
 				is_puppet_of = ROOT
 			}
@@ -104,6 +102,211 @@ scripted_diplomatic_actions = {
 		accept_description = wfc_diplomatic_action_preparing_a_coup_accept_desc
 		reject_title = wfc_diplomatic_action_preparing_a_coup_reject
 		reject_description = wfc_diplomatic_action_preparing_a_coup_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = -1
+		}
+	}
+	wfc_diplomatic_action_take_control_of_the_occupied_territories = {
+		allowed = {
+			ROOT = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MMS
+					original_tag = MEH
+					original_tag = NEC
+				}
+			}
+		}
+		visible = {
+			is_puppet_of = ROOT
+		}
+		selectable = {
+			is_ai = yes
+			has_autonomy_state = wfc_autonomy_province
+			any_controlled_state = {
+				NOT = {
+					is_core_of = FROM
+				}
+				OWNER = {
+					NOT = {
+						tag = FROM
+					}
+				}
+			}
+		}
+		requires_acceptance = no
+		cost = 50
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					NOT = {
+						is_core_of = FROM
+					}
+					OWNER = {
+						NOT = {
+							tag = FROM
+						}
+					}
+				}
+				ROOT = {
+					set_state_controller = PREV
+				}
+			}
+			add_political_power = 50
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = wfc_diplomatic_action_take_control_of_the_occupied_territories_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = wfc_diplomatic_action_take_control_of_the_occupied_territories_receive
+		accept_title = wfc_diplomatic_action_take_control_of_the_occupied_territories_accept
+		accept_description = wfc_diplomatic_action_take_control_of_the_occupied_territories_accept_desc
+		reject_title = wfc_diplomatic_action_take_control_of_the_occupied_territories_reject
+		reject_description = wfc_diplomatic_action_take_control_of_the_occupied_territories_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = -1
+		}
+	}
+	wfc_diplomatic_action_take_our_core_states = {
+		allowed = {
+			ROOT = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MMS
+					original_tag = MEH
+					original_tag = NEC
+				}
+			}
+		}
+		visible = {
+			is_puppet_of = ROOT
+		}
+		selectable = {
+			is_ai = yes
+			any_owned_state = {
+				OR = {
+					is_core_of = ROOT
+					is_claimed_by = ROOT
+				}
+			}
+		}
+		requires_acceptance = no
+		cost = 100
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						is_core_of = ROOT
+						is_claimed_by = ROOT
+					}
+				}
+				transfer_state_to = ROOT
+				set_resistance = 1
+				set_compliance = 95
+			}
+			add_political_power = 100
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = wfc_diplomatic_action_take_our_core_states_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = wfc_diplomatic_action_take_our_core_states_receive
+		accept_title = wfc_diplomatic_action_take_our_core_states_accept
+		accept_description = wfc_diplomatic_action_take_our_core_states_accept_desc
+		reject_title = wfc_diplomatic_action_take_our_core_states_reject
+		reject_description = wfc_diplomatic_action_take_our_core_states_reject_desc
 		# AI
 		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
 		ai_acceptance = {

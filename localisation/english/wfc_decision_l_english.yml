@@ -26,8 +26,8 @@
  wfc_def_integration_decision:0 "Integrate §Y[From.GetName]§!"
  wfc_hen_integration_decision:0 "Corrupt §Y[From.GetName]§!"
  wfc_integration_decision_desc:0 "[wfc_sl_integration_decision_desc]"
- wfc_def_integration_decision_desc:0 "It is necessary to consolidate the spread of our identity in the §Y[From.GetName]§! region.\nCompliance: [?FROM.compliance|%%G]\nResistance: [?FROM.resistance|%%R]"
- wfc_hen_integration_decision_desc:0 "Need to corrupt the population in region §Y[From.GetName]§!\nПодчинение: [?FROM.compliance|%%G]\nСопротивление: [?FROM.resistance|%%R]"
+ wfc_def_integration_decision_desc: "It is necessary to consolidate the spread of our identity in the §Y[From.GetName]§! region.\nCompliance: [?FROM.compliance|%%G]\nResistance: [?FROM.resistance|%%R]"
+ wfc_hen_integration_decision_desc: "Need to corrupt the population in region §Y[From.GetName]§!\nПодчинение: [?FROM.compliance|%%G]\nСопротивление: [?FROM.resistance|%%R]"
 
 #create_subject
  wfc_subjects_category:0 "Subjects"
@@ -51,6 +51,7 @@
  wfc_open_buy_out_state_decisions:0 "Display decisions to buy out state from subjects"
  wfc_close_buy_out_state_decisions:0 "Hide decisions to buy territory from subjects"
  wfc_take_control_of_the_occupied_territories_from_federal_subject:0 "Take control of the occupied non-national territories from the subject §Y[From.GetName]§!"
+  wfc_decision_prohibit_transfer_of_divisions: "Prohibit the unsubs from sending you divisions"
 
 #wfc_world_conquest_category
  wfc_world_conquest_category:0 "Conquest of the world"

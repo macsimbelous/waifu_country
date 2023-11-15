@@ -274,7 +274,7 @@ wfc_test_category = {
 		#always = no
 		is_debug = yes
 	}
-	visible = {
+	available = {
 		is_ai = no
 	}
 }

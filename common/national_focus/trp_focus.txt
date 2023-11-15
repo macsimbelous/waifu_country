@@ -947,7 +947,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 	}
@@ -1023,7 +1023,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 	}
@@ -1056,7 +1056,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 	}
@@ -1090,7 +1090,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 	}
@@ -1108,7 +1108,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 		available = {
@@ -1185,7 +1185,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 	}
@@ -1203,7 +1203,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 		bypass = {
@@ -1407,7 +1407,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 	}
@@ -1469,7 +1469,7 @@
 			factor = 1
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.5
 			}
 		}
 	}

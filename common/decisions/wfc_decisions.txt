@@ -25,7 +25,9 @@ wfc_world_conquest_category = {
 					}
 				}
 			}
-			NOT = { has_country_flag = wfc_flag_prepare_to_attack }
+			NOT = {
+				has_country_flag = wfc_flag_prepare_to_attack
+			}
 		}
 		visible = {
 			FROM = {
@@ -952,6 +954,9 @@ wfc_subjects_category = {
 	}
 	wfc_take_our_core_states_from_province = {
 		cost = 50
+		allowed = {
+			always = no
+		}
 		available = {
 			FROM = {
 				is_puppet = yes
@@ -1199,6 +1204,9 @@ wfc_subjects_category = {
 	}
 	wfc_take_control_of_the_occupied_territories_from_federal_subject = {
 		cost = 25
+		allowed = {
+			always = no
+		}
 		visible = {
 			FROM = {
 				has_autonomy_state = wfc_autonomy_province
@@ -1252,6 +1260,30 @@ wfc_subjects_category = {
 		}
 		ai_will_do = {
 			factor = 5
+		}
+	}
+	wfc_decision_prohibit_transfer_of_divisions = {
+		priority = 4
+		cost = 0
+		visible = {
+			num_subjects > 0
+			any_subject_country = {
+				is_subject_of = ROOT
+			}
+		}
+		available = {
+			is_ai = no
+		}
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					#is_puppet_of = ROOT
+					is_subject_of = ROOT
+				}
+				set_rule = {
+					units_deployed_to_overlord = no
+				}
+			}
 		}
 	}
 }
