@@ -92,9 +92,9 @@ wfc_instantiate_province = {
 				tree = wfc_puppet_focus
 				keep_completed = no
 			}
-			every_owned_state = {
-				remove_claim_by = ROOT
-			}
+			# every_owned_state = {
+			# 	remove_claim_by = ROOT
+			# }
 		}
 	}
 }
