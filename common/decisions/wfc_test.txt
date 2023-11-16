@@ -553,19 +553,27 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		available = {
-			all_controlled_state = {
-				is_core_of = UKR
-				compliance > 40
-			}
+
 		}
 		complete_effect = {
-			every_other_country = {
-				limit = {
-					is_puppet_of = ROOT
-				}
-				set_rule = {
-					units_deployed_to_overlord = no
-				}
+			GER = {
+				add_to_faction = ROM
+			}
+			declare_war_on = {
+				target = ROM
+				type = annex_everything
+			}
+		}
+	}
+	wfc_test_5 = {
+		fire_only_once = no
+		cost = 0
+		available = {
+
+		}
+		complete_effect = {
+			78 = {
+				set_compliance = 55
 			}
 		}
 	}

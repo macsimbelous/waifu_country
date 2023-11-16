@@ -53,6 +53,10 @@
  wfc_close_buy_out_state_decisions: "Hide decisions to buy territory from subjects"
  wfc_take_control_of_the_occupied_territories_from_federal_subject: "Take control of the occupied non-national territories from the subject §Y[From.GetName]§!"
  wfc_decision_prohibit_transfer_of_divisions: "Prohibit the unsubs from sending you divisions"
+ wfc_decision_grant_autonomy_to_non_exist: "Grant autonomy to The State §Y[From.GetName]§!"
+ wfc_tt_all_controlled_state_compliance_50: "All controlled territories of the state §Y[From.GetName]§! have a compliance of more than §G50%§!"
+ wfc_decision_hide_decisions_to_buy_shipyards: "Hide decisions to buy shipyards"
+ wfc_decision_show_decisions_to_buy_shipyards: "Show solutions for the purchase of shipyards"
 
 #wfc_world_conquest_category
  wfc_world_conquest_category:0 "Conquest of the world"

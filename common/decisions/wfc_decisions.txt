@@ -681,6 +681,75 @@ wfc_subjects_category = {
 			}
 		}
 	}
+	wfc_decision_grant_autonomy_to_non_exist = {
+		fire_only_once = no
+		cost = 0
+		target_non_existing = yes
+		target_trigger = {
+			FROM = {
+				exists = no
+			}
+		}
+		visible = {
+			ROOT = {
+				NOT = {
+					any_owned_state = {
+						is_core_of = FROM
+						NOT = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				any_controlled_state = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_tt_all_controlled_state_compliance_50
+				ROOT = {
+					NOT = {
+						any_controlled_state = {
+							is_core_of = FROM
+							NOT = {
+								is_core_of = ROOT
+							}
+							compliance < 50
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = FROM
+			}
+			wfc_instantiate_province = yes
+			var:country_to_initiate = {
+				if = {
+					limit = {
+						NOT = {
+							original_tag = ACW
+							original_tag = HEN
+							original_tag = MAH
+							original_tag = TRP
+							original_tag = MMS
+							original_tag = MEH
+							original_tag = NEC
+						}
+					}
+					wfc_change_country_leader = yes
+				}
+			}
+		}
+	}
 	wfc_change_country_leader = {
 		cost = 50
 		available = {
@@ -922,18 +991,6 @@ wfc_subjects_category = {
 			# }
 			naval_base > 0
 		}
-		available = {
-			FROM = {
-				is_puppet = yes
-				#has_autonomy_state = wfc_autonomy_province
-				custom_trigger_tooltip = {
-					tooltip = wfc_transfer_navy_from_federal_subject_tt
-					check_variable = {
-						num_ships > 0
-					}
-				}
-			}
-		}
 		target_array = subjects
 		target_trigger = {
 			FROM = {
@@ -1010,6 +1067,9 @@ wfc_subjects_category = {
 			}
 		}
 		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_hide_decisions_to_buy_shipyards
+			}
 			FROM = {
 				OR = {
 					is_puppet = yes
@@ -1291,6 +1351,28 @@ wfc_subjects_category = {
 				}
 				set_country_flag = wfc_flag_prohibit_transfer_of_divisions
 			}
+		}
+	}
+	wfc_decision_hide_decisions_to_buy_shipyards = {
+		priority = 5
+		cost = 0
+		visible = {
+			NOT = {
+				has_country_flag = wfc_flag_hide_decisions_to_buy_shipyards
+			}
+		}
+		complete_effect = {
+			set_country_flag = wfc_flag_hide_decisions_to_buy_shipyards
+		}
+	}
+	wfc_decision_show_decisions_to_buy_shipyards = {
+		priority = 5
+		cost = 0
+		visible = {
+			has_country_flag = wfc_flag_hide_decisions_to_buy_shipyards
+		}
+		complete_effect = {
+			clr_country_flag = wfc_flag_hide_decisions_to_buy_shipyards
 		}
 	}
 }
