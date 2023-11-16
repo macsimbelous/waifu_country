@@ -683,7 +683,7 @@ wfc_subjects_category = {
 	}
 	wfc_decision_grant_autonomy_to_non_exist = {
 		fire_only_once = no
-		cost = 0
+		cost = 100
 		target_non_existing = yes
 		target_trigger = {
 			FROM = {
@@ -1367,6 +1367,9 @@ wfc_subjects_category = {
 		visible = {
 			NOT = {
 				has_country_flag = wfc_flag_hide_decisions_to_buy_shipyards
+			}
+			any_subject_country = {
+				num_of_naval_factories > 0
 			}
 		}
 		complete_effect = {
