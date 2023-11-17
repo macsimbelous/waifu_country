@@ -553,15 +553,11 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		available = {
-
 		}
 		complete_effect = {
-			GER = {
-				add_to_faction = ROM
-			}
-			declare_war_on = {
-				target = ROM
-				type = annex_everything
+			set_autonomy = {
+				target = ENG
+				autonomy_state = autonomy_integrated_puppet
 			}
 		}
 	}
@@ -569,11 +565,64 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		available = {
-
 		}
 		complete_effect = {
-			78 = {
-				set_compliance = 55
+			set_variable = {
+				wfc_var_puppet_submarines = 0
+			}
+			set_variable = {
+				wfc_var_puppet_destroyers = 0
+			}
+			set_variable = {
+				wfc_var_puppet_light_cruisers = 0
+			}
+			set_variable = {
+				wfc_var_puppet_heavy_cruisers = 0
+			}
+			set_variable = {
+				wfc_var_puppet_battle_cruisers = 0
+			}
+			set_variable = {
+				wfc_var_puppet_battleships = 0
+			}
+			set_variable = {
+				wfc_var_puppet_carriers = 0
+			}
+			set_variable = {
+				wfc_var_puppet_num_ships = 0
+			}
+			for_each_loop = {
+				array = subjects
+				value = v
+				break = break
+				var:v = {
+					add_to_variable = {
+						ROOT.wfc_var_puppet_submarines = num_ships_with_type@submarine
+					}
+					add_to_variable = {
+						ROOT.wfc_var_puppet_destroyers = num_ships_with_type@destroyer
+					}
+					add_to_variable = {
+						ROOT.wfc_var_puppet_light_cruisers = num_ships_with_type@light_cruiser
+					}
+					#heavy
+					add_to_variable = {
+						ROOT.wfc_var_puppet_heavy_cruisers = num_ships_with_type@heavy_cruiser
+					}
+					add_to_variable = {
+						ROOT.wfc_var_puppet_battle_cruisers = num_ships_with_type@battle_cruiser
+					}
+					#super heavy
+					add_to_variable = {
+						ROOT.wfc_var_puppet_battleships = num_ships_with_type@battleship
+					}
+					add_to_variable = {
+						ROOT.wfc_var_puppet_carriers = num_ships_with_type@carrier
+					}
+					add_to_variable = {
+						ROOT.wfc_var_puppet_num_ships = num_ships
+					}
+				}
 			}
 		}
 	}

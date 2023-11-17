@@ -1,0 +1,39 @@
+﻿l_russian:
+
+#PREPARING_A_COUP
+ WFC_DIPLOMATIC_ACTION_PREPARING_A_COUP_TITLE: "Подготовить переворот"
+ WFC_DIPLOMATIC_ACTION_PREPARING_A_COUP_ACTION_DESC: "Будет начата подготовка к перевороту в этом государстве."
+ wfc_diplomatic_action_preparing_a_coup_send: "Совершив переворот мы сможем привести к власти в §Y[THIS.GetName]§! нашу марионетку."
+ wfc_flag_preparing_a_coup: "Готовится переворот"
+
+#take_control_of_the_occupied_territories
+ WFC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_OCCUPIED_TERRITORIES_TITLE: "Взять контроль над оккупированными территориями"
+ WFC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_OCCUPIED_TERRITORIES_ACTION_DESC: "Контроль над всеми территориями оккупированными субъектом будет передан нам."
+ wfc_diplomatic_action_take_control_of_the_occupied_territories_send: "Мы лучше распорядимся этими территориями."
+
+#wfc_diplomatic_action_take_our_core_states
+ WFC_DIPLOMATIC_ACTION_TAKE_OUR_CORE_STATES_TITLE: "Забрать спорные территории"
+ WFC_DIPLOMATIC_ACTION_TAKE_OUR_CORE_STATES_ACTION_DESC: "Территории субъекта на которые у нас есть претензии будут переданы нам."
+ wfc_diplomatic_action_take_our_core_states_send: "Мы лучше распорядимся этими территориями."
+
+#wfc_diplomatic_action_take_control_of_the_navy
+ WFC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_NAVY_TITLE: "Взять контроль над флотом"
+ WFC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_NAVY_ACTION_DESC: "Взяв контроль над флотом субъекта мы сможем использовать его по своему усмотрению."
+ wfc_ct_has_at_least_one_ship: "Есть хотя бы один корабль"
+ wfc_diplomatic_action_take_control_of_the_navy_send: "В распоряжении субъекта §Y[THIS.GetName]§! имеется:\nАвианосцы - §G[?THIS.num_ships_with_type@carrier]§!, Линкоры - §G[?THIS.num_ships_with_type@battleship]§!, Линейные крейсера - §G[?THIS.num_ships_with_type@battle_cruiser]§!, Тяжёлые крейсера - §G[?THIS.num_ships_with_type@heavy_cruiser]§!, Лёгкие крейсера - §G[?THIS.num_ships_with_type@light_cruiser]§!, Эсминцы - §G[?THIS.num_ships_with_type@destroyer]§!, Подводные лодки - §G[?THIS.num_ships_with_type@submarine]§!\nМы лучшее распорядимся этими кораблями."
+
+#wfc_diplomatic_action_change_country_leader
+ WFC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_TITLE: "Назначить генерал-губернатора"
+ WFC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_ACTION_DESC: "Назначенный нами генерал-губернатор позволит нам эффективнее управлять субъектом §Y[THIS.GetName]§!."
+ wfc_diplomatic_action_change_country_leader_send: "Необходимо усилить наш контроль над субъектом §Y[THIS.GetName]§!."
+
+#wfc_diplomatic_action_change_focus_tree
+ WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_TITLE: "Заменить национальные фокусы"
+ WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_ACTION_DESC: "Национальные фокусы субъекта §Y[THIS.GetName]§! будут заменены на фокусы марионеток."
+ wfc_diplomatic_action_change_focus_tree_send: "С фокусами марионеток поведение субъекта §Y[THIS.GetName]§! будет более предсказуемо."
+ wfc_change_focus_tree_flag: "Фокусы марионеток"
+
+#wfc_diplomatic_action_convert_to_province
+ WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_TITLE: "Преобразовать в §Gпровинцию§!"
+ WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_ACTION_DESC: "Преобразование субъекта §Y[THIS.GetName]§! в §Gпровинцию§! позволит нам эффективнее использовать его ресурсы."
+ wfc_diplomatic_action_convert_to_province_send: "Став §Gпровинцией§! субъект §Y[THIS.GetName]§! евеличет свою интеграцию в наше империю."

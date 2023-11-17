@@ -112,7 +112,7 @@ scripted_diplomatic_actions = {
 		}
 		# ai_will_do to decide if AI should send this action or not
 		ai_desire = {
-			base = -1
+			base = 1
 		}
 	}
 	wfc_diplomatic_action_take_control_of_the_occupied_territories = {
@@ -133,7 +133,7 @@ scripted_diplomatic_actions = {
 			is_puppet_of = ROOT
 		}
 		selectable = {
-			is_ai = yes
+			#is_ai = yes
 			has_autonomy_state = wfc_autonomy_province
 			any_controlled_state = {
 				NOT = {
@@ -219,7 +219,7 @@ scripted_diplomatic_actions = {
 		}
 		# ai_will_do to decide if AI should send this action or not
 		ai_desire = {
-			base = -1
+			base = 1
 		}
 	}
 	wfc_diplomatic_action_take_our_core_states = {
@@ -240,7 +240,7 @@ scripted_diplomatic_actions = {
 			is_puppet_of = ROOT
 		}
 		selectable = {
-			is_ai = yes
+			#is_ai = yes
 			any_owned_state = {
 				OR = {
 					is_core_of = ROOT
@@ -317,7 +317,495 @@ scripted_diplomatic_actions = {
 		}
 		# ai_will_do to decide if AI should send this action or not
 		ai_desire = {
-			base = -1
+			base = 1
+		}
+	}
+	wfc_diplomatic_action_take_control_of_the_navy = {
+		allowed = {
+			ROOT = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MMS
+					original_tag = MEH
+					original_tag = NEC
+				}
+			}
+		}
+		visible = {
+			ROOT = {
+				naval_base > 0
+			}
+			is_puppet_of = ROOT
+			naval_base > 0
+		}
+		selectable = {
+			THIS = {
+				custom_trigger_tooltip = {
+					tooltip = wfc_ct_has_at_least_one_ship
+					check_variable = {
+						num_ships > 0
+					}
+				}
+			}
+		}
+		requires_acceptance = no
+		cost = 100
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			transfer_navy = {
+				target = ROOT
+			}
+			add_political_power = 100
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = wfc_diplomatic_action_take_control_of_the_navy_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = wfc_diplomatic_action_take_control_of_the_navy_receive
+		accept_title = wfc_diplomatic_action_take_control_of_the_navy_accept
+		accept_description = wfc_diplomatic_action_take_control_of_the_navy_accept_desc
+		reject_title = wfc_diplomatic_action_take_control_of_the_navy_reject
+		reject_description = wfc_diplomatic_action_take_control_of_the_navy_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	wfc_diplomatic_action_change_country_leader = {
+		allowed = {
+			ROOT = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MMS
+					original_tag = MEH
+					original_tag = NEC
+				}
+			}
+		}
+		visible = {
+			is_puppet_of = ROOT
+			NOT = {
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MAH
+				original_tag = HEN
+				original_tag = MMS
+				original_tag = ACW
+				original_tag = NEC
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = TRP
+					}
+				}
+				NOT = {
+					has_country_leader_with_trait = wfc_trap
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MEH
+					}
+				}
+				NOT = {
+					has_country_leader_with_trait = wfc_android
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MAH
+					}
+				}
+				NOT = {
+					has_country_leader_with_trait = wfc_maho
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = HEN
+					}
+				}
+				NOT = {
+					has_country_leader_with_trait = wfc_hentai
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MMS
+					}
+				}
+				NOT = {
+					has_country_leader_with_trait = wfc_monster
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = NEC
+					}
+				}
+				NOT = {
+					has_country_leader_with_trait = wfc_trait_undead
+				}
+			}
+			else = {
+				NOT = {
+					has_country_leader_with_trait = wfc_anime_tyan
+				}
+			}
+		}
+		selectable = {
+		}
+		requires_acceptance = no
+		cost = 50
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			wfc_change_country_leader = yes
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = wfc_diplomatic_action_change_country_leader_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = wfc_diplomatic_action_change_country_leader_receive
+		accept_title = wfc_diplomatic_action_change_country_leader_accept
+		accept_description = wfc_diplomatic_action_change_country_leader_accept_desc
+		reject_title = wfc_diplomatic_action_change_country_leader_reject
+		reject_description = wfc_diplomatic_action_change_country_leader_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	wfc_diplomatic_action_change_focus_tree = {
+		allowed = {
+			ROOT = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MMS
+					original_tag = MEH
+					original_tag = NEC
+				}
+			}
+		}
+		visible = {
+			is_puppet_of = ROOT
+			NOT = {
+				has_country_flag = wfc_change_focus_tree_flag
+			}
+		}
+		selectable = {
+		}
+		requires_acceptance = no
+		cost = 50
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			custom_effect_tooltip = wfc_change_focus_tree_tt
+			hidden_effect = {
+				set_country_flag = wfc_change_focus_tree_flag
+				load_focus_tree = {
+					tree = wfc_puppet_focus
+					#tree = generic_focus
+					keep_completed = no
+				}
+			}
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = wfc_diplomatic_action_change_focus_tree_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = wfc_diplomatic_action_change_focus_tree_receive
+		accept_title = wfc_diplomatic_action_change_focus_tree_accept
+		accept_description = wfc_diplomatic_action_change_focus_tree_accept_desc
+		reject_title = wfc_diplomatic_action_change_focus_tree_reject
+		reject_description = wfc_diplomatic_action_change_focus_tree_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	wfc_diplomatic_action_convert_to_province = {
+		allowed = {
+			ROOT = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MMS
+					original_tag = MEH
+					original_tag = NEC
+				}
+			}
+		}
+		visible = {
+			is_puppet_of = ROOT
+			NOT = {
+				has_autonomy_state = wfc_autonomy_province
+			}
+		}
+		selectable = {
+			OR = {
+				has_autonomy_state = autonomy_integrated_puppet
+				has_autonomy_state = autonomy_collaboration_government
+				has_autonomy_state = autonomy_personal_union
+				has_autonomy_state = autonomy_reichskommissariat
+			}
+		}
+		requires_acceptance = no
+		cost = 50
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			wfc_set_province_flag = yes
+			ROOT = {
+				set_autonomy = {
+					target = PREV
+					autonomy_state = wfc_autonomy_province
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						original_tag = ACW
+						original_tag = HEN
+						original_tag = MAH
+						original_tag = TRP
+						original_tag = MMS
+						original_tag = MEH
+						original_tag = NEC
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = wfc_change_focus_tree_flag
+						}
+					}
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						#tree = generic_focus
+						keep_completed = no
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						original_tag = ACW
+						original_tag = HEN
+						original_tag = MAH
+						original_tag = TRP
+						original_tag = MMS
+						original_tag = MEH
+						original_tag = NEC
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_leader_with_trait = wfc_trap
+							has_country_leader_with_trait = wfc_android
+							has_country_leader_with_trait = wfc_maho
+							has_country_leader_with_trait = wfc_monster
+							has_country_leader_with_trait = wfc_hentai
+							has_country_leader_with_trait = wfc_anime_tyan
+							has_country_leader_with_trait = wfc_trait_undead
+						}
+					}
+					wfc_change_country_leader = yes
+				}
+			}
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = wfc_diplomatic_action_convert_to_province_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = wfc_diplomatic_action_convert_to_province_receive
+		accept_title = wfc_diplomatic_action_convert_to_province_accept
+		accept_description = wfc_diplomatic_action_convert_to_province_accept_desc
+		reject_title = wfc_diplomatic_action_convert_to_province_reject
+		reject_description = wfc_diplomatic_action_convert_to_province_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
 		}
 	}
 }

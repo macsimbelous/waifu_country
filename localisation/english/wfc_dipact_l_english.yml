@@ -1,0 +1,36 @@
+﻿l_english:
+
+#PREPARING_A_COUP
+ WFC_DIPLOMATIC_ACTION_PREPARING_A_COUP_TITLE: "Prepare a coup"
+ WFC_DIPLOMATIC_ACTION_PREPARING_A_COUP_ACTION_DESC: "Preparations for a coup in this state will begin."
+ wfc_diplomatic_action_preparing_a_coup_send: "Having made a coup, we will be able to bring our puppet to power in [THIS.GetName]."
+ wfc_flag_preparing_a_coup: "A coup is being prepared"
+#take_control_of_the_occupied_territories
+ WFC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_OCCUPIED_TERRITORIES_TITLE: "Take control of the occupied territories"
+ WFC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_OCCUPIED_TERRITORIES_ACTION_DESC: "Control of all territories occupied by the unsub will be transferred to us."
+ wfc_diplomatic_action_take_control_of_the_occupied_territories_send: "We are better stewards of these territories."
+#wfc_diplomatic_action_take_our_core_states
+ WFC_DIPLOMATIC_ACTION_TAKE_OUR_CORE_STATES_TITLE: "To take the disputed territories"
+ WFC_DIPLOMATIC_ACTION_TAKE_OUR_CORE_STATES_ACTION_DESC: "The unsub's territories that we have a claim to will be transferred to us."
+ wfc_diplomatic_action_take_our_core_states_send: "We are better stewards of these territories."
+#wfc_diplomatic_action_take_control_of_the_navy
+ WFC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_NAVY_TITLE: "Take control of the fleet"
+ WFC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_NAVY_ACTION_DESC: "Once we take control of the unsub's fleet, we can use it as we see fit."
+ wfc_ct_has_at_least_one_ship: "There's at least one ship"
+ wfc_diplomatic_action_take_control_of_the_navy_send: "The subject §Y[THIS.GetName]§! has at his disposal:\nAircraft carriers - §G[?THIS.num_ships_with_type@carrier]§!, Battleships - §G[?THIS.num_ships_with_type@battleship]§!, Battlecruisers - §G[?THIS.num_ships_with_type@battle_cruiser]§!, Heavy cruisers - §G[?THIS.num_ships_with_type@heavy_cruiser]§!, Light cruisers - §G[?THIS.num_ships_with_type@light_cruiser]§!, Destroyer - §G[?THIS.num_ships_with_type@destroyer]§!, Submarines - §G[?THIS.num_ships_with_type@submarine]§!\nWe'll make the best use of these ships."
+
+#wfc_diplomatic_action_change_country_leader
+ WFC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_TITLE: "Appoint a governor general."
+ WFC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_ACTION_DESC: "The Governor General we appoint will allow us to more effectively govern the subject §Y[THIS.GetName]§!"
+ wfc_diplomatic_action_change_country_leader_send: "We need to strengthen our control over the subject §Y[THIS.GetName]§!"
+
+#wfc_diplomatic_action_change_focus_tree
+ WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_TITLE: "Replacing national focus"
+ WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_ACTION_DESC: "National subject focus §Y[THIS.GetName]§! will be replaced by puppet focus."
+ wfc_diplomatic_action_change_focus_tree_send: "With puppet tricks, the behavior of the subject §Y[THIS.GetName]§! will be more predictable."
+ wfc_change_focus_tree_flag: "Puppet focus"
+
+#wfc_diplomatic_action_convert_to_province
+ WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_TITLE: "Convert to §Gprovince§!"
+ WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_ACTION_DESC: "Converting the subject §Y[THIS.GetName]§! to §Gprovince§! will allow us to utilize its resources more efficiently."
+ wfc_diplomatic_action_convert_to_province_send: "By becoming a §Gprovince§! the subject §Y[THIS.GetName]§! is increasing its integration into our empire."
