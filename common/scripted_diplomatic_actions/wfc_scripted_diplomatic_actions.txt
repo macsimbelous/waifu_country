@@ -266,8 +266,8 @@ scripted_diplomatic_actions = {
 					}
 				}
 				transfer_state_to = ROOT
-				set_resistance = 1
-				set_compliance = 95
+				set_resistance = 0
+				set_compliance = 85
 			}
 			add_political_power = 100
 		}
