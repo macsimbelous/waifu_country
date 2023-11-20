@@ -76,14 +76,41 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_focus_promote_democracy_in_hun
-		icon = GFX_goal_generic_propaganda
+		id = acw_focus_create_faction_anime_federation
+		icon = GFX_goal_anschluss
 		prerequisite = {
 			focus = acw_focus_beacon_of_freedom
 		}
 		x = 0
 		y = 1
 		relative_position_id = acw_focus_beacon_of_freedom
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_in_faction = no
+		}
+		bypass = {
+			is_faction_leader = yes
+		}
+		completion_reward = {
+			set_rule = {
+				can_create_factions = yes
+			}
+			create_faction = acw_anime_federation
+			custom_effect_tooltip = acw_tt_foreign_politics_balkan
+		}
+	}
+	focus = {
+		id = acw_focus_promote_democracy_in_hun
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = acw_focus_create_faction_anime_federation
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_create_faction_anime_federation
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -192,7 +219,6 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		prerequisite = {
 			focus = acw_focus_promote_democracy_in_romania
-			focus = acw_focus_join_allies
 		}
 		x = 0
 		y = 1
@@ -217,36 +243,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = acw_focus_create_faction_anime_federation
-		icon = GFX_goal_anschluss
-		prerequisite = {
-			focus = acw_focus_promote_democracy_in_alb
-		}
-		prerequisite = {
-			focus = acw_focus_promote_democracy_in_bulgaria
-		}
-		x = -2
-		y = 1
-		relative_position_id = acw_focus_promote_democracy_in_bulgaria
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available = {
-			is_in_faction = no
-		}
-		bypass = {
-			is_faction_leader = yes
-		}
-		completion_reward = {
-			set_rule = {
-				can_create_factions = yes
-			}
-			create_faction = acw_anime_federation
-		}
-	}
-	focus = {
-		id = acw_focus_join_allies
+		id = acw_focus_invite_balkans
 		icon = GFX_goal_anschluss
 		prerequisite = {
 			focus = acw_focus_promote_democracy_in_alb
@@ -255,39 +252,8 @@ focus_tree = {
 			focus = acw_focus_promote_democracy_in_bulgaria
 		}
 		x = 0
-		y = 1
-		relative_position_id = acw_focus_promote_democracy_in_bulgaria
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		available = {
-			is_in_faction = no
-			ENG = {
-				exists = yes
-				has_government = democratic
-				is_faction_leader = yes
-			}
-		}
-		bypass = {
-			is_in_faction_with = ENG
-		}
-		completion_reward = {
-			ENG = {
-				country_event = generic.2
-			}
-		}
-	}
-	focus = {
-		id = acw_focus_invite_balkans
-		icon = GFX_goal_anschluss
-		prerequisite = {
-			focus = acw_focus_join_allies
-			focus = acw_focus_create_faction_anime_federation
-		}
-		x = -1
-		y = 1
-		relative_position_id = acw_focus_join_allies
+		y = 3
+		relative_position_id = acw_focus_promote_democracy_in_hun
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -322,52 +288,104 @@ focus_tree = {
 				limit = {
 					BUL = {
 						is_ai = yes
+						has_opinion = {
+							target = ACW
+							value > 75
+						}
+						strength_ratio = {
+							tag = ACW
+							ratio < 0.5
+						}
 					}
 				}
 				add_to_faction = BUL
 			}
 			else = {
 				BUL = {
-					country_event = generic.5
+					#country_event = generic.5
+					country_event = {
+						id = NSB_soviet_foreign_politics_events.1
+						hours = 4
+						random_hours = 2
+					}
 				}
 			}
 			if = {
 				limit = {
 					ROM = {
 						is_ai = yes
+						has_opinion = {
+							target = ACW
+							value > 75
+						}
+						strength_ratio = {
+							tag = ACW
+							ratio < 0.5
+						}
 					}
 				}
 				add_to_faction = ROM
 			}
 			else = {
 				ROM = {
-					country_event = generic.5
+					#country_event = generic.5
+					country_event = {
+						id = NSB_soviet_foreign_politics_events.1
+						hours = 4
+						random_hours = 2
+					}
 				}
 			}
 			if = {
 				limit = {
 					YUG = {
 						is_ai = yes
+						has_opinion = {
+							target = ACW
+							value > 75
+						}
+						strength_ratio = {
+							tag = ACW
+							ratio < 0.5
+						}
 					}
 				}
 				add_to_faction = YUG
 			}
 			else = {
 				YUG = {
-					country_event = generic.5
+					#country_event = generic.5
+					country_event = {
+						id = NSB_soviet_foreign_politics_events.1
+						hours = 4
+						random_hours = 2
+					}
 				}
 			}
 			if = {
 				limit = {
 					HUN = {
 						is_ai = yes
+						has_opinion = {
+							target = ACW
+							value > 75
+						}
+						strength_ratio = {
+							tag = ACW
+							ratio < 0.5
+						}
 					}
 				}
 				add_to_faction = HUN
 			}
 			else = {
 				HUN = {
-					country_event = generic.5
+					#country_event = generic.5
+					country_event = {
+						id = NSB_soviet_foreign_politics_events.1
+						hours = 4
+						random_hours = 2
+					}
 				}
 			}
 			if = {
@@ -378,13 +396,26 @@ focus_tree = {
 					limit = {
 						ALB = {
 							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
 						}
 					}
 					add_to_faction = ALB
 				}
 				else = {
 					ALB = {
-						country_event = generic.5
+						#country_event = generic.5
+					country_event = {
+						id = NSB_soviet_foreign_politics_events.1
+						hours = 4
+						random_hours = 2
+					}
 					}
 				}
 			}
@@ -489,6 +520,23 @@ focus_tree = {
 				controls_state = 84
 				controls_state = 764
 			}
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				OR = {
+					HUN = {
+						is_subject_of = ROOT
+					}
+					ROM = {
+						is_subject_of = ROOT
+					}
+					YUG = {
+						is_subject_of = ROOT
+					}
+				}
+			}
+			else = {
 			OR = {
 				HUN = {
 					is_puppet_of = ROOT
@@ -499,7 +547,7 @@ focus_tree = {
 				YUG = {
 					is_puppet_of = ROOT
 				}
-			}
+			}}
 		}
 		completion_reward = {
 			set_country_flag = acw_great_animeland_flag
@@ -699,6 +747,36 @@ focus_tree = {
 					}
 					transfer_state = 44
 				}
+			}
+		}
+	}
+	focus = {
+		id = acw_focus_join_allies
+		icon = GFX_goal_anschluss
+		prerequisite = {
+			focus = acw_focus_balkan_federation
+		}
+		x = 0
+		y = 1
+		relative_position_id = acw_focus_balkan_federation
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_in_faction = no
+			ENG = {
+				exists = yes
+				has_government = democratic
+				is_faction_leader = yes
+			}
+		}
+		bypass = {
+			is_in_faction_with = ENG
+		}
+		completion_reward = {
+			ENG = {
+				country_event = generic.2
 			}
 		}
 	}

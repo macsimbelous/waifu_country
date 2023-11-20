@@ -45,3 +45,17 @@ acw_category_protectorates = {
 		has_completed_focus = acw_focus_protectorates
 	}
 }
+
+acw_category_foreign_politics = {
+	icon = generic_foreign_policy
+	
+	allowed = {
+		original_tag = ACW
+	}
+	
+	priority = 8
+	
+	visible = {
+		is_subject = no
+	}
+}

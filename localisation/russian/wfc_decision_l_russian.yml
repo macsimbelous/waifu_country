@@ -257,6 +257,18 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_decision_create_protectorate_ukr: "Создать Украинский протекторат"
   acw_decision_transfer_west_ukr: "Передать Западную украину протекторату"
 
+ #acw_category_foreign_politics
+  acw_category_foreign_politics: "Иностранная политика"
+  acw_decision_pressure_country_government_balkan: "$SOV_pressure_country_government_baltic$"
+  acw_decision_pressure_country_government_balkan_desc: "$SOV_pressure_country_government_baltic_desc$"
+  acw_decision_promote_ideology_rallies_balkan: "$SOV_promote_ideology_rallies_baltic$"
+  acw_decision_promote_ideology_rallies_balkan_desc: "$SOV_promote_ideology_rallies_baltic_desc$"
+  acw_decision_fight_alongside_country_comrades_balkan: "$SOV_fight_alongside_country_comrades_baltic$"
+  acw_decision_fight_alongside_country_comrades_balkan_desc: "$SOV_fight_alongside_country_comrades_baltic_desc$"
+  acw_flag_pressure_government_active: "$SOV_pressure_government_active_flag$"
+  acw_tt_pressure_government_cd: "\nОказывать давление на правительство одной и той же страны можно не чаще раза в §Y365§! дней"
+
+
 #HEN
  #tentakles
   hen_tentakles_decisions:0 "Тентакли"

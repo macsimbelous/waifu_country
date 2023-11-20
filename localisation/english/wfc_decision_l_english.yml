@@ -249,6 +249,17 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
   acw_decision_create_protectorate_ukr: "Create The Ukrainian Protectorate".
   acw_decision_transfer_west_ukr: "Transfer Western Ukraine to protectorate".
 
+ #acw_category_foreign_politics
+  acw_category_foreign_politics: "Foreign Politics"
+  acw_decision_pressure_country_government_balkan: "$SOV_pressure_country_government_baltic$"
+  acw_decision_pressure_country_government_balkan_desc: "$SOV_pressure_country_government_baltic_desc$"
+  acw_decision_promote_ideology_rallies_balkan: "$SOV_promote_ideology_rallies_baltic$"
+  acw_decision_promote_ideology_rallies_balkan_desc: "$SOV_promote_ideology_rallies_baltic_desc$"
+  acw_decision_fight_alongside_country_comrades_balkan: "$SOV_fight_alongside_country_comrades_baltic$"
+  acw_decision_fight_alongside_country_comrades_balkan_desc: "$SOV_fight_alongside_country_comrades_baltic_desc$"
+  acw_flag_pressure_government_active: "$SOV_pressure_government_active_flag$"
+  acw_tt_pressure_government_cd: "\nWe can only pressure a country's government once every §Y365§! days."
+
 #HEN
  #tentakles
   hen_tentakles_decisions:0 "Tentacles"

@@ -237,7 +237,7 @@ wfc_integration_category = {
 					limit = {
 						is_claimed_by = ROOT
 					}
-					compliance > 40
+					compliance > 50
 				}
 				else = {
 					compliance > 75

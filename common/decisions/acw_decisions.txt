@@ -2400,7 +2400,7 @@ acw_category_protectorates = {
 			}
 		}
 	}
-	acw_decision_transfer_west_ukr = {
+	_transfer_west_ukr = {
 		icon = generic_form_nation
 		cost = 25
 		fire_only_once = yes
@@ -2453,6 +2453,227 @@ acw_category_protectorates = {
 				transfer_state = 89
 				transfer_state = 91
 				transfer_state = 93
+			}
+		}
+	}
+}
+
+acw_category_foreign_politics = {
+	acw_decision_pressure_country_government_balkan = {
+		priority = 50
+		icon = generic_political_discourse
+		ai_will_do = {
+			base = 0.8
+			modifier = {
+				factor = 2
+				has_political_power > 160
+			}
+			modifier = {
+				#Do it only once, don't spam
+				factor = 0
+				FROM = {
+					has_country_flag = acw_flag_government_pressured
+				}
+			}
+		}
+		targets = {
+			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
+		}
+		target_trigger = {
+			always = yes
+		}
+		target_root_trigger = {
+			has_completed_focus = acw_focus_create_faction_anime_federation
+		}
+		allowed = {
+			original_tag = ACW
+		}
+		available = {
+			is_faction_leader = yes
+			FROM = {
+				has_opinion = {
+					target = ROOT
+					value > 49
+				}
+				SOV_is_valid_subject = yes				# Reusable
+				NOT = {
+					has_war_with = ROOT
+				}
+			}
+			NOT = {
+				has_country_flag = acw_flag_pressure_government_active
+			}
+		}
+		visible = {
+		}
+		days_remove = 30
+		days_re_enable = 365
+		cost = FIN_pressure_country_government_cost
+		modifier = {
+			political_power_gain = -0.25
+		}
+		complete_effect = {
+			set_country_flag = acw_flag_pressure_government_active
+		}
+		remove_effect = {
+			FROM = {
+				country_event = {
+					id = NSB_soviet_foreign_politics_events.1
+					hours = 4
+					random_hours = 2
+				}				#Reusable
+				set_country_flag = acw_flag_government_pressured				#For AI weights - don't spam
+			}
+			clr_country_flag = acw_flag_pressure_government_active
+			custom_effect_tooltip = SOV_pressure_government_effects_tt
+			custom_effect_tooltip = acw_tt_pressure_government_cd
+		}
+	}
+	acw_decision_promote_ideology_rallies_balkan = {
+		priority = 50
+		icon = generic_political_rally
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 2
+				has_political_power > 160
+			}
+		}
+		targets = {
+			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
+		}
+		target_trigger = {
+			always = yes
+		}
+		target_root_trigger = {
+			has_completed_focus = acw_focus_create_faction_anime_federation
+		}
+		allowed = {
+			original_tag = ACW
+		}
+		available = {
+			FROM = {
+				SOV_is_valid_subject = yes				#Reusable
+				NOT = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		visible = {
+		}
+		days_remove = 90
+		fire_only_once = yes
+		cost = FIN_promote_ideology_rallies_cost
+		modifier = {
+			political_power_gain = -0.25
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			FROM = {
+				country_event = {
+					id = NSB_soviet_foreign_politics_events.2
+					hours = 4
+					random_hours = 2
+				}
+			}
+			custom_effect_tooltip = SOV_promote_rallies_effects_tt
+			custom_effect_tooltip = SOV_promote_ideological_rallies_cd_tt
+		}
+	}
+	acw_decision_fight_alongside_country_comrades_balkan = {
+		priority = 100
+		icon = generic_prepare_civil_war
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 0.01
+				has_stability > 0.4
+				FROM = {
+					#Join if it will not lead to a new war against a major
+					all_enemy_country = {
+						OR = {
+							is_major = no
+							has_war_with = ROOT
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				has_war = no
+			}
+			modifier = {
+				factor = 1.5
+				has_manpower > 100000
+			}
+			modifier = {
+				factor = 10
+				FROM = {
+					is_neighbor_of = ROOT
+				}
+			}
+		}
+		targets = {
+			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
+		}
+		target_trigger = {
+			always = yes
+		}
+		target_root_trigger = {
+			has_completed_focus = acw_focus_create_faction_anime_federation
+		}
+		allowed = {
+			original_tag = ACW
+		}
+		available = {
+			has_war_support > 0.15
+			has_stability > 0.25
+			NOT = {
+				has_war_with = FROM
+			}
+		}
+		visible = {
+		}
+		complete_effect = {
+			hidden_effect = {
+				random_country = {
+					limit = {
+						original_tag = FROM
+						has_civil_war = yes
+						NOT = {
+							has_government = ROOT
+						}
+					}
+					ROOT = {
+						add_to_war = {
+							targeted_alliance = FROM
+							enemy = PREV
+							hostility_reason = asked_to_join
+						}
+					}
+				}
+			}
+			custom_effect_tooltip = BUL_fight_alongside_country_comrades_join_cw_tt			#This tt works just fine :)
+			effect_tooltip = {
+				give_military_access = FROM
+				FROM = {
+					give_military_access = ROOT
+				}
+			}
+			hidden_effect = {
+				diplomatic_relation = {
+					country = FROM
+					relation = military_access
+					active = yes
+				}
+				FROM = {
+					diplomatic_relation = {
+						country = ROOT
+						relation = military_access
+						active = yes
+					}
+				}
 			}
 		}
 	}
