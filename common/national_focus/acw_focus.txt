@@ -156,6 +156,125 @@ focus_tree = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					country_exists = SER
+				}
+				SER = {
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 360
+					}
+					hidden_effect = {
+						add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = KOS
+				}
+				KOS = {
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 360
+					}
+					hidden_effect = {
+						add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MAC
+				}
+				MAC = {
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 360
+					}
+					hidden_effect = {
+						add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MNT
+				}
+				MNT = {
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 360
+					}
+					hidden_effect = {
+						add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = BOS
+				}
+				BOS = {
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 360
+					}
+					hidden_effect = {
+						add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = CRO
+				}
+				CRO = {
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 360
+					}
+					hidden_effect = {
+						add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SLV
+				}
+				SLV = {
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 360
+					}
+					hidden_effect = {
+						add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -212,6 +331,23 @@ focus_tree = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					country_exists = MOL
+				}
+				MOL = {
+					add_timed_idea = {
+						idea = democratic_influence
+						days = 360
+					}
+					hidden_effect = {
+						add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -259,17 +395,37 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
-			HUN = {
-				democratic > 0.3
+			if = {
+				limit = {
+					country_exists = HUN
+				}
+				HUN = {
+					democratic > 0.3
+				}
 			}
-			YUG = {
-				democratic > 0.3
+			if = {
+				limit = {
+					country_exists = YUG
+				}
+				YUG = {
+					democratic > 0.3
+				}
 			}
-			ROM = {
-				democratic > 0.3
+			if = {
+				limit = {
+					country_exists = ROM
+				}
+				ROM = {
+					democratic > 0.3
+				}
 			}
-			BUL = {
-				democratic > 0.3
+			if = {
+				limit = {
+					country_exists = BUL
+				}
+				BUL = {
+					democratic > 0.3
+				}
 			}
 			if = {
 				limit = {
@@ -279,112 +435,196 @@ focus_tree = {
 					democratic > 0.3
 				}
 			}
+			if = {
+				limit = {
+					country_exists = SER
+				}
+				SER = {
+					democratic > 0.3
+				}
+			}
+			if = {
+				limit = {
+					country_exists = KOS
+				}
+				KOS = {
+					democratic > 0.3
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MAC
+				}
+				MAC = {
+					democratic > 0.3
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MNT
+				}
+				MNT = {
+					democratic > 0.3
+				}
+			}
+			if = {
+				limit = {
+					country_exists = BOS
+				}
+				BOS = {
+					democratic > 0.3
+				}
+			}
+			if = {
+				limit = {
+					country_exists = CRO
+				}
+				CRO = {
+					democratic > 0.3
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SLV
+				}
+				SLV = {
+					democratic > 0.3
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MOL
+				}
+				MOL = {
+					democratic > 0.3
+				}
+			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 		completion_reward = {
 			if = {
 				limit = {
+					country_exists = BUL
+				}
+				if = {
+					limit = {
+						BUL = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = BUL
+				}
+				else = {
 					BUL = {
-						is_ai = yes
-						has_opinion = {
-							target = ACW
-							value > 75
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
 						}
-						strength_ratio = {
-							tag = ACW
-							ratio < 0.5
-						}
-					}
-				}
-				add_to_faction = BUL
-			}
-			else = {
-				BUL = {
-					#country_event = generic.5
-					country_event = {
-						id = NSB_soviet_foreign_politics_events.1
-						hours = 4
-						random_hours = 2
 					}
 				}
 			}
 			if = {
 				limit = {
+					country_exists = ROM
+				}
+				if = {
+					limit = {
+						ROM = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = ROM
+				}
+				else = {
 					ROM = {
-						is_ai = yes
-						has_opinion = {
-							target = ACW
-							value > 75
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
 						}
-						strength_ratio = {
-							tag = ACW
-							ratio < 0.5
-						}
-					}
-				}
-				add_to_faction = ROM
-			}
-			else = {
-				ROM = {
-					#country_event = generic.5
-					country_event = {
-						id = NSB_soviet_foreign_politics_events.1
-						hours = 4
-						random_hours = 2
 					}
 				}
 			}
 			if = {
 				limit = {
+					country_exists = YUG
+				}
+				if = {
+					limit = {
+						YUG = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = YUG
+				}
+				else = {
 					YUG = {
-						is_ai = yes
-						has_opinion = {
-							target = ACW
-							value > 75
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
 						}
-						strength_ratio = {
-							tag = ACW
-							ratio < 0.5
-						}
-					}
-				}
-				add_to_faction = YUG
-			}
-			else = {
-				YUG = {
-					#country_event = generic.5
-					country_event = {
-						id = NSB_soviet_foreign_politics_events.1
-						hours = 4
-						random_hours = 2
 					}
 				}
 			}
 			if = {
 				limit = {
-					HUN = {
-						is_ai = yes
-						has_opinion = {
-							target = ACW
-							value > 75
-						}
-						strength_ratio = {
-							tag = ACW
-							ratio < 0.5
+					country_exists = HUN
+				}
+				if = {
+					limit = {
+						HUN = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
 						}
 					}
+					add_to_faction = HUN
 				}
-				add_to_faction = HUN
-			}
-			else = {
-				HUN = {
-					#country_event = generic.5
-					country_event = {
-						id = NSB_soviet_foreign_politics_events.1
-						hours = 4
-						random_hours = 2
+				else = {
+					HUN = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
 					}
 				}
 			}
@@ -411,11 +651,259 @@ focus_tree = {
 				else = {
 					ALB = {
 						#country_event = generic.5
-					country_event = {
-						id = NSB_soviet_foreign_politics_events.1
-						hours = 4
-						random_hours = 2
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
 					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SER
+				}
+				if = {
+					limit = {
+						SER = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = SER
+				}
+				else = {
+					SER = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = KOS
+				}
+				if = {
+					limit = {
+						KOS = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = KOS
+				}
+				else = {
+					KOS = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MAC
+				}
+				if = {
+					limit = {
+						MAC = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = MAC
+				}
+				else = {
+					MAC = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MNT
+				}
+				if = {
+					limit = {
+						MNT = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = MNT
+				}
+				else = {
+					MNT = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = BOS
+				}
+				if = {
+					limit = {
+						BOS = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = BOS
+				}
+				else = {
+					BOS = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = CRO
+				}
+				if = {
+					limit = {
+						CRO = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = CRO
+				}
+				else = {
+					CRO = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SLV
+				}
+				if = {
+					limit = {
+						SLV = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = SLV
+				}
+				else = {
+					SLV = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MOL
+				}
+				if = {
+					limit = {
+						MOL = {
+							is_ai = yes
+							has_opinion = {
+								target = ACW
+								value > 75
+							}
+							strength_ratio = {
+								tag = ACW
+								ratio < 0.5
+							}
+						}
+					}
+					add_to_faction = MOL
+				}
+				else = {
+					MOL = {
+						#country_event = generic.5
+						country_event = {
+							id = NSB_soviet_foreign_politics_events.1
+							hours = 4
+							random_hours = 2
+						}
 					}
 				}
 			}
@@ -444,6 +932,9 @@ focus_tree = {
 				has_idea = free_trade
 				has_idea = civilian_economy
 			}
+		}
+		ai_will_do = {
+			factor = 100
 		}
 		completion_reward = {
 			if = {
@@ -524,229 +1015,412 @@ focus_tree = {
 				limit = {
 					is_ai = yes
 				}
-				OR = {
+				if = {
+					limit = {
+						country_exists = HUN
+					}
 					HUN = {
 						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = YUG
+					}
+					YUG = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = ROM
 					}
 					ROM = {
 						is_subject_of = ROOT
 					}
-					YUG = {
+				}
+				if = {
+					limit = {
+						country_exists = BUL
+					}
+					BUL = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = ALB
+					}
+					ALB = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = SER
+					}
+					SER = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = KOS
+					}
+					KOS = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = MAC
+					}
+					MAC = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = MNT
+					}
+					MNT = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = BOS
+					}
+					BOS = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = CRO
+					}
+					CRO = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = SLV
+					}
+					SLV = {
+						is_subject_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = MOL
+					}
+					MOL = {
 						is_subject_of = ROOT
 					}
 				}
 			}
 			else = {
-			OR = {
-				HUN = {
-					is_puppet_of = ROOT
+				if = {
+					limit = {
+						country_exists = HUN
+					}
+					HUN = {
+						is_puppet_of = ROOT
+					}
 				}
-				ROM = {
-					is_puppet_of = ROOT
+				if = {
+					limit = {
+						country_exists = YUG
+					}
+					YUG = {
+						is_puppet_of = ROOT
+					}
 				}
-				YUG = {
-					is_puppet_of = ROOT
+				if = {
+					limit = {
+						country_exists = ROM
+					}
+					ROM = {
+						is_puppet_of = ROOT
+					}
 				}
-			}}
+				if = {
+					limit = {
+						country_exists = BUL
+					}
+					BUL = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = ALB
+					}
+					ALB = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = SER
+					}
+					SER = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = KOS
+					}
+					KOS = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = MAC
+					}
+					MAC = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = MNT
+					}
+					MNT = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = BOS
+					}
+					BOS = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = CRO
+					}
+					CRO = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = SLV
+					}
+					SLV = {
+						is_puppet_of = ROOT
+					}
+				}
+				if = {
+					limit = {
+						country_exists = MOL
+					}
+					MOL = {
+						is_puppet_of = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
 		}
 		completion_reward = {
 			set_country_flag = acw_great_animeland_flag
 			set_cosmetic_tag = ACW_EMP
 			set_major = yes
-			# Bulgaria
 			if = {
 				limit = {
-					BUL = {
-						is_puppet_of = ROOT
-					}
+					country_exists = HUN
 				}
-				annex_country = {
-					target = BUL
-					transfer_troops = yes
-				}
-				custom_effect_tooltip = acw_form_bulgaria_coring_states_tt
-				hidden_effect = {
-					48 = {
+				HUN = {
+					every_owned_state = {
 						add_core_of = ROOT
-					}
-					transfer_state = 48
-					801 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 801
-					212 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 212
-					211 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 211
-				}
-			}
-			#Romania
-			if = {
-				limit = {
-					ROM = {
-						is_puppet_of = ROOT
-					}
-				}
-				annex_country = {
-					target = ROM
-					transfer_troops = yes
-				}
-				custom_effect_tooltip = acw_form_romania_coring_states_tt
-				hidden_effect = {
-					46 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 46
-					76 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 76
-					77 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 77
-					79 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 79
-					81 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 81
-					82 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 82
-					83 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 83
-					84 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 84
-				}
-			}
-			# Yugoslavia
-			if = {
-				limit = {
-					YUG = {
-						is_puppet_of = ROOT
-					}
-				}
-				annex_country = {
-					target = YUG
-					transfer_troops = yes
-				}
-				custom_effect_tooltip = acw_form_yugoslavia_coring_states_tt
-				hidden_effect = {
-					102 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 102
-					103 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 103
-					109 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 109
-					104 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 104
-					804 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 804
-					105 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 105
-					107 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 107
-					45 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 45
-					764 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 764
-					108 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 108
-					802 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 802
-					803 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 803
-					106 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 106
-				}
-			}
-			# Hungary
-			if = {
-				limit = {
-					HUN = {
-						is_puppet_of = ROOT
 					}
 				}
 				annex_country = {
 					target = HUN
 					transfer_troops = yes
 				}
-				custom_effect_tooltip = acw_form_hungary_coring_states_tt
-				hidden_effect = {
-					155 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 155
-					43 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 43
-					154 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 154
-				}
 			}
-			# Albania
 			if = {
 				limit = {
-					ALB = {
-						is_puppet_of = ROOT
+					country_exists = YUG
+				}
+				YUG = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = YUG
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = ROM
+				}
+				ROM = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = ROM
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = BUL
+				}
+				BUL = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = BUL
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = ALB
+				}
+				ALB = {
+					every_owned_state = {
+						add_core_of = ROOT
 					}
 				}
 				annex_country = {
 					target = ALB
 					transfer_troops = yes
 				}
-				custom_effect_tooltip = acw_form_albani_coring_states_tt
-				hidden_effect = {
-					805 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 805
-					44 = {
-						add_core_of = ROOT
-					}
-					transfer_state = 44
+			}
+			if = {
+				limit = {
+					country_exists = SER
 				}
+				SER = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = SER
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = KOS
+				}
+				KOS = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = KOS
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MAC
+				}
+				MAC = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = MAC
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MNT
+				}
+				MNT = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = MNT
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = BOS
+				}
+				BOS = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = BOS
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = CRO
+				}
+				CRO = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = CRO
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SLV
+				}
+				SLV = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = SLV
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					country_exists = MOL
+				}
+				MOL = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+				annex_country = {
+					target = MOL
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					num_faction_members = 1
+				}
+				dismantle_faction = yes
 			}
 		}
 	}
@@ -1894,7 +2568,7 @@ focus_tree = {
 			add_ideas = acw_KGB_idea
 			create_intelligence_agency = {
 				icon = GFX_intelligence_agency_logo_generic_8
-				name = "KGBA"
+				name = "The Anime Safety Committee"
 			}
 		}
 	}
