@@ -24,16 +24,16 @@
 
 #wfc_diplomatic_action_change_country_leader
  WFC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_TITLE: "Назначить генерал-губернатора"
- WFC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_ACTION_DESC: "Назначенный нами генерал-губернатор позволит нам эффективнее управлять субъектом §Y[THIS.GetName]§!."
+ WFC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_ACTION_DESC: "Назначенный нами генерал-губернатор позволит нам эффективнее управлять субъектом."
  wfc_diplomatic_action_change_country_leader_send: "Необходимо усилить наш контроль над субъектом §Y[THIS.GetName]§!."
 
 #wfc_diplomatic_action_change_focus_tree
  WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_TITLE: "Заменить национальные фокусы"
- WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_ACTION_DESC: "Национальные фокусы субъекта §Y[THIS.GetName]§! будут заменены на фокусы марионеток."
+ WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_ACTION_DESC: "Национальные фокусы субъекта будут заменены на фокусы марионеток."
  wfc_diplomatic_action_change_focus_tree_send: "С фокусами марионеток поведение субъекта §Y[THIS.GetName]§! будет более предсказуемо."
  wfc_change_focus_tree_flag: "Фокусы марионеток"
 
 #wfc_diplomatic_action_convert_to_province
  WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_TITLE: "Преобразовать в §Gпровинцию§!"
- WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_ACTION_DESC: "Преобразование субъекта §Y[THIS.GetName]§! в §Gпровинцию§! позволит нам эффективнее использовать его ресурсы."
+ WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_ACTION_DESC: "Преобразование субъекта в §Gпровинцию§! позволит нам эффективнее использовать его ресурсы."
  wfc_diplomatic_action_convert_to_province_send: "Став §Gпровинцией§! субъект §Y[THIS.GetName]§! евеличет свою интеграцию в наше империю."

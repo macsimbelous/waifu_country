@@ -2202,6 +2202,7 @@ focus_tree = {
 		}
 		available = {
 			has_tech = mechanical_computing
+			has_done_agency_upgrade = upgrade_decryption_boost
 		}
 		completion_reward = {
 			upgrade_intelligence_agency = upgrade_decryption_boost_2
