@@ -67,12 +67,14 @@ focus_tree = {
 				limit = {
 					is_ai = no
 				}
-				num_of_factories > 50
+				#num_of_factories > 50
 			}
 		}
-		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = CZE_beacon_of_liberty
+		}
+		ai_will_do = {
+			factor = 10
 		}
 	}
 	focus = {
@@ -101,6 +103,9 @@ focus_tree = {
 			create_faction = acw_anime_federation
 			custom_effect_tooltip = acw_tt_foreign_politics_balkan
 		}
+		ai_will_do = {
+			factor = 10
+		}
 	}
 	focus = {
 		id = acw_focus_promote_democracy_in_hun
@@ -128,6 +133,9 @@ focus_tree = {
 					}
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 10
 		}
 	}
 	focus = {
@@ -276,6 +284,9 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 10
+		}
 	}
 	focus = {
 		id = acw_focus_promote_democracy_in_alb
@@ -303,6 +314,9 @@ focus_tree = {
 					}
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 10
 		}
 	}
 	focus = {
@@ -349,6 +363,9 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 10
+		}
 	}
 	focus = {
 		id = acw_focus_promote_democracy_in_bulgaria
@@ -376,6 +393,9 @@ focus_tree = {
 					}
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 10
 		}
 	}
 	focus = {
@@ -514,7 +534,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -545,7 +565,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -576,7 +596,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -607,7 +627,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -638,7 +658,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -669,7 +689,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -700,7 +720,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -731,7 +751,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -762,7 +782,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -793,7 +813,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -824,7 +844,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -855,7 +875,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -886,7 +906,7 @@ focus_tree = {
 							is_ai = yes
 							has_opinion = {
 								target = ACW
-								value > 75
+								value > 49
 							}
 							strength_ratio = {
 								tag = ACW
@@ -1873,6 +1893,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_war_support = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_government = democratic
+				factor = 0
+			}
 		}
 	}
 	focus = {

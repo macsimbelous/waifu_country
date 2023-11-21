@@ -2618,7 +2618,9 @@ acw_category_foreign_politics = {
 			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
 		}
 		target_trigger = {
-			always = yes
+			FROM = {
+				has_civil_war = yes
+			}
 		}
 		target_root_trigger = {
 			has_completed_focus = acw_focus_create_faction_anime_federation
@@ -2654,7 +2656,7 @@ acw_category_foreign_politics = {
 					}
 				}
 			}
-			custom_effect_tooltip = BUL_fight_alongside_country_comrades_join_cw_tt			#This tt works just fine :)
+			custom_effect_tooltip = BUL_fight_alongside_country_comrades_join_cw_tt
 			effect_tooltip = {
 				give_military_access = FROM
 				FROM = {
