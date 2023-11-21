@@ -1698,6 +1698,19 @@ acw_create_great_animeland_category = {
 			wfc_instantiate_province = yes
 			var:country_to_initiate = {
 				wfc_change_country_leader = yes
+				hidden_effect = {
+					transfer_state = 109
+					transfer_state = 104
+					transfer_state = 804
+					transfer_state = 105
+					transfer_state = 107
+					transfer_state = 45
+					transfer_state = 764
+					transfer_state = 108
+					transfer_state = 802
+					transfer_state = 803
+					transfer_state = 106
+				}
 			}
 		}
 	}
@@ -2400,7 +2413,7 @@ acw_category_protectorates = {
 			}
 		}
 	}
-	_transfer_west_ukr = {
+	acw_decision_transfer_west_ukr = {
 		icon = generic_form_nation
 		cost = 25
 		fire_only_once = yes
@@ -2480,7 +2493,11 @@ acw_category_foreign_politics = {
 			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
 		}
 		target_trigger = {
-			always = yes
+			FROM = {
+				NOT = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		target_root_trigger = {
 			has_completed_focus = acw_focus_create_faction_anime_federation
@@ -2507,7 +2524,7 @@ acw_category_foreign_politics = {
 		visible = {
 		}
 		days_remove = 30
-		days_re_enable = 365
+		days_re_enable = 180
 		cost = FIN_pressure_country_government_cost
 		modifier = {
 			political_power_gain = -0.25
@@ -2543,7 +2560,11 @@ acw_category_foreign_politics = {
 			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
 		}
 		target_trigger = {
-			always = yes
+			FROM = {
+				NOT = {
+					is_puppet_of = ROOT
+				}
+			}
 		}
 		target_root_trigger = {
 			has_completed_focus = acw_focus_create_faction_anime_federation
