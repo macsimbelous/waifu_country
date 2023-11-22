@@ -1,6 +1,7 @@
 ﻿capital = 495
 oob = "TRP_1936"
 set_naval_oob = "TRP_1936_Naval"
+
 #research and industry stuff
 set_rule = {
 	#can_use_kamikaze_pilots = yes
@@ -69,10 +70,10 @@ set_research_slots = 4
 set_convoys = 150
 #politics and starting faction
 set_popularities = {
-	democratic = 25
-	neutrality = 25
-	fascism = 25
-	communism = 25
+	democratic = 30
+	neutrality = 40
+	fascism = 10
+	communism = 20
 }
 
 set_politics = {
@@ -89,6 +90,11 @@ add_ideas = {
 	civilian_economy
 	TRP_revolution
 	trp_childless_idea
+}
+
+set_country_flag = monroe_doctrine
+USA = {
+	give_guarantee = TRP
 }
 
 #leaders

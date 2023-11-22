@@ -956,10 +956,11 @@
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = trp_attack_bra
+			focus = trp_attack_arg
 		}
 		relative_position_id = trp_attack_bra
 		x = 0
-		y = 1
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1254,7 +1255,6 @@
 		id = trp_attack_par
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = trp_attack_bra
 			focus = trp_attack_bol
 		}
 		relative_position_id = trp_attack_bol
@@ -1362,11 +1362,8 @@
 		prerequisite = {
 			focus = trp_attack_par
 		}
-		prerequisite = {
-			focus = trp_attack_urg
-		}
-		relative_position_id = trp_attack_urg
-		x = 1
+		relative_position_id = trp_attack_par
+		x = 0
 		y = 1
 		cost = 5
 		search_filters = {
@@ -1482,8 +1479,11 @@
 		prerequisite = {
 			focus = trp_attack_pru
 		}
+		prerequisite = {
+			focus = trp_attack_urg
+		}
 		relative_position_id = trp_attack_chl
-		x = 1
+		x = 0
 		y = 1
 		cost = 1
 		search_filters = {
