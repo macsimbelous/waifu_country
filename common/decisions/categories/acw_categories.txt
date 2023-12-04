@@ -48,14 +48,17 @@ acw_category_protectorates = {
 
 acw_category_foreign_politics = {
 	icon = generic_foreign_policy
-	
 	allowed = {
 		original_tag = ACW
 	}
-	
 	priority = 8
-	
 	visible = {
 		is_subject = no
 	}
+}
+
+acw_form_european_union_category = {
+	icon = generic_formable_nations
+	picture = GFX_decision_cat_generic_european_union
+	priority = 25
 }

@@ -268,7 +268,9 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_flag_pressure_government_active: "$SOV_pressure_government_active_flag$"
   acw_tt_pressure_government_cd: "\nОказывать давление на правительство одной и той же страны можно не чаще раза в §Y180§! дней"
 
- #form_european_union_category
+ #acw_form_european_union_category
+  acw_form_european_union_category: "$form_european_union_category$"
+  acw_form_european_union_category_desc: "$form_european_union_category_desc$"
   wfc_form_country_spain_required_states_tt: "Контролировать все Испанские территории"
   wfc_form_country_portugal_required_states_tt: "Контролировать все Португальские территории"
   wfc_form_eu_spain_and_portugal_coring_states_tt: "Португальские и Испанские территории станут национальными"
