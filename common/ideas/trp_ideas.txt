@@ -27,8 +27,12 @@ ideas = {
 				compliance_growth = 0.2
 				#terrain_penalty_reduction = 0.1
 				#supply_consumption_factor = -0.1
-				grant_medal_cost_factor = -0.5
 				max_command_power_mult = 0.5
+				grant_medal_cost_factor = -0.5
+				military_leader_cost_factor = -0.9
+				send_volunteer_divisions_required = -0.3
+				send_volunteers_tension = -0.75
+				lend_lease_tension = -0.75
 			}
 		}
 		wfl_traps_in_army = {

@@ -61,6 +61,9 @@ ideas = {
 				compliance_growth = 0.3
 				#terrain_penalty_reduction = 0.3
 				#supply_consumption_factor = -0.3
+				send_volunteers_tension = -0.75
+				lend_lease_tension = -0.75
+				send_volunteer_divisions_required = -0.3
 			}
 		}
 		hen_attack_jap_bonus = {
@@ -124,6 +127,7 @@ ideas = {
 				army_leader_cost_factor = -0.5
 				army_leader_start_level = 2
 				grant_medal_cost_factor = -0.5
+				military_leader_cost_factor = -0.9
 			}
 		}
 		hen_idea_preparation_for_war = {

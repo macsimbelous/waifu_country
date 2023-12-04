@@ -148,6 +148,9 @@ ideas = {
 				stability_factor = 0.2
 				consumer_goods_factor = -0.05
 				foreign_subversive_activites = -0.5
+				send_volunteer_divisions_required = -0.15
+				send_volunteers_tension = -0.5
+				lend_lease_tension = -0.5
 			}
 		}
 		meh_ai_2 = {
@@ -165,6 +168,9 @@ ideas = {
 				stability_factor = 0.3
 				consumer_goods_factor = -0.1
 				foreign_subversive_activites = -0.75
+				send_volunteer_divisions_required = -0.3
+				send_volunteers_tension = -0.75
+				lend_lease_tension = -0.75
 			}
 		}
 		meh_warmind = {
@@ -194,6 +200,7 @@ ideas = {
 				war_support_factor = 0.1
 				special_forces_cap = 0.02
 				grant_medal_cost_factor = -0.5
+				military_leader_cost_factor = -0.9
 			}
 		}
 		meh_warmind_agr = {
@@ -222,6 +229,8 @@ ideas = {
 				experience_gain_navy_factor = 0.2
 				war_support_factor = 0.15
 				special_forces_cap = 0.04
+				grant_medal_cost_factor = -0.5
+				military_leader_cost_factor = -0.9
 			}
 		}
 		meh_warmind_def = {
@@ -250,6 +259,8 @@ ideas = {
 				experience_gain_navy_factor = 0.2
 				war_support_factor = 0.15
 				special_forces_cap = 0.03
+				grant_medal_cost_factor = -0.5
+				military_leader_cost_factor = -0.9
 			}
 		}
 		meh_perimetr_idea = {
