@@ -317,6 +317,31 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_annex_balkan = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		complete_effect = {
+			annex_country = {
+				target = YUG
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = HUN
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = ROM
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = BUL
+				transfer_troops = yes
+			}
+		}
+	}
 	wfc_test_delete_all_ulits = {
 		fire_only_once = no
 		cost = 0

@@ -260,6 +260,11 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
   acw_flag_pressure_government_active: "$SOV_pressure_government_active_flag$"
   acw_tt_pressure_government_cd: "\nWe can only pressure a country's government once every §Y180§! days."
 
+ #form_european_union_category
+  wfc_form_country_spain_required_states_tt: "Control all Spanish territories"
+  wfc_form_country_portugal_required_states_tt: "Control all Portuguese territories"
+  wfc_form_eu_spain_and_portugal_coring_states_tt: "Portuguese and Spanish territories will become national territories"
+
 #HEN
  #tentakles
   hen_tentakles_decisions:0 "Tentacles"

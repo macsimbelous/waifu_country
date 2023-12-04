@@ -255,7 +255,7 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_decision_create_protectorate_gre: "Создать Греческий протекторат"
   acw_decision_create_protectorate_ita: "Создать Итальянский протекторат"
   acw_decision_create_protectorate_ukr: "Создать Украинский протекторат"
-  acw_decision_transfer_west_ukr: "Передать Западную украину протекторату"
+  acw_decision_transfer_west_ukr: "Передать западную украину протекторату"
 
  #acw_category_foreign_politics
   acw_category_foreign_politics: "Иностранная политика"
@@ -267,6 +267,11 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_decision_fight_alongside_country_comrades_balkan_desc: "$SOV_fight_alongside_country_comrades_baltic_desc$"
   acw_flag_pressure_government_active: "$SOV_pressure_government_active_flag$"
   acw_tt_pressure_government_cd: "\nОказывать давление на правительство одной и той же страны можно не чаще раза в §Y180§! дней"
+
+ #form_european_union_category
+  wfc_form_country_spain_required_states_tt: "Контролировать все Испанские территории"
+  wfc_form_country_portugal_required_states_tt: "Контролировать все Португальские территории"
+  wfc_form_eu_spain_and_portugal_coring_states_tt: "Португальские и Испанские территории станут национальными"
 
 
 #HEN

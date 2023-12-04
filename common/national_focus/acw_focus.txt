@@ -1431,7 +1431,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					num_faction_members = 1
+					num_faction_members < 2
 				}
 				dismantle_faction = yes
 			}

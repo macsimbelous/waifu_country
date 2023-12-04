@@ -2490,7 +2490,19 @@ acw_category_foreign_politics = {
 			}
 		}
 		targets = {
-			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
+			ROM
+			BUL
+			HUN
+			YUG
+			SER
+			KOS
+			MAC
+			ALB
+			MNT
+			BOS
+			CRO
+			SLV
+			MOL
 		}
 		target_trigger = {
 			FROM = {
@@ -2538,7 +2550,8 @@ acw_category_foreign_politics = {
 					id = NSB_soviet_foreign_politics_events.1
 					hours = 4
 					random_hours = 2
-				}				#Reusable
+				}
+				#Reusable
 				set_country_flag = acw_flag_government_pressured				#For AI weights - don't spam
 			}
 			clr_country_flag = acw_flag_pressure_government_active
@@ -2557,7 +2570,19 @@ acw_category_foreign_politics = {
 			}
 		}
 		targets = {
-			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
+			ROM
+			BUL
+			HUN
+			YUG
+			SER
+			KOS
+			MAC
+			ALB
+			MNT
+			BOS
+			CRO
+			SLV
+			MOL
 		}
 		target_trigger = {
 			FROM = {
@@ -2636,7 +2661,19 @@ acw_category_foreign_politics = {
 			}
 		}
 		targets = {
-			ROM BUL HUN YUG SER KOS MAC ALB MNT BOS CRO SLV MOL
+			ROM
+			BUL
+			HUN
+			YUG
+			SER
+			KOS
+			MAC
+			ALB
+			MNT
+			BOS
+			CRO
+			SLV
+			MOL
 		}
 		target_trigger = {
 			FROM = {
@@ -2697,6 +2734,1290 @@ acw_category_foreign_politics = {
 						active = yes
 					}
 				}
+			}
+		}
+	}
+}
+
+form_european_union_category = {
+	acw_form_european_union = {
+		name = form_european_union
+		icon = generic_form_nation
+		allowed = {
+			original_tag = ACW
+		}
+		visible = {
+			has_country_flag = acw_great_animeland_flag
+		}
+		available = {
+			is_subject = no
+			#Animeland
+			custom_trigger_tooltip = {
+				tooltip = acw_form_animeland_required_states_tt
+				controls_state = 76
+				controls_state = 82
+				controls_state = 83
+				controls_state = 84
+				controls_state = 764
+				controls_state = 48
+				controls_state = 801
+				controls_state = 212
+				controls_state = 211
+				controls_state = 46
+				controls_state = 77
+				controls_state = 79
+				controls_state = 81
+				controls_state = 109
+				controls_state = 104
+				controls_state = 804
+				controls_state = 105
+				controls_state = 107
+				controls_state = 45
+				controls_state = 108
+				controls_state = 802
+				controls_state = 803
+				controls_state = 106
+				controls_state = 155
+				controls_state = 43
+				controls_state = 154
+			}
+			8 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			102 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			853 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			103 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			80 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			78 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			766 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			# Netherlands
+			custom_trigger_tooltip = {
+				tooltip = form_eu_netherlands_required_states_tt
+				7 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				35 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				36 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Belgium
+			custom_trigger_tooltip = {
+				tooltip = form_eu_belgium_required_states_tt
+				6 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				34 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# France
+			custom_trigger_tooltip = {
+				tooltip = form_eu_france_required_states_tt
+				29 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				18 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				17 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				28 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				15 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				16 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				27 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				14 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				30 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				24 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				23 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				33 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				26 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				20 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				32 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				735 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				25 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				22 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				21 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				851 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				19 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				20 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				1 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				785 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				31 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Italy
+			custom_trigger_tooltip = {
+				tooltip = form_eu_italy_required_states_tt
+				158 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				159 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				39 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				160 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				161 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				162 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				157 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				2 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				117 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				156 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				115 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				114 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				736 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				163 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				849 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				850 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				852 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Germany
+			custom_trigger_tooltip = {
+				tooltip = form_country_germany_required_states_tt
+				51 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				42 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				56 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				57 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				55 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				50 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				59 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				58 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				60 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				54 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				52 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				53 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				61 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				64 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				65 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				62 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				68 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				66 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				67 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				63 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				5 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				763 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Switzerland
+			custom_trigger_tooltip = {
+				tooltip = form_country_switzerland_required_states_tt
+				3 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				151 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				845 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				847 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				846 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Austria
+			custom_trigger_tooltip = {
+				tooltip = form_country_austria_required_states_tt
+				848 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				153 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				152 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				4 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				848 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Czechoslovakia
+			custom_trigger_tooltip = {
+				tooltip = form_country_czechoslovakia_required_states_tt
+				69 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				9 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				75 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				74 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				72 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				70 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				664 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				71 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				73 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Poland
+			custom_trigger_tooltip = {
+				tooltip = form_country_poland_required_states_tt
+				86 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				87 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				88 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				90 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				98 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				10 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				# 97 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				92 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				# 91 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 89 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 93 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 94 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 95 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 96 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 784 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+			}
+			# Greece
+			custom_trigger_tooltip = {
+				tooltip = form_country_greece_required_states_tt
+				185 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				731 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				47 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				186 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				184 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				187 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				182 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			#Albania			
+			custom_trigger_tooltip = {
+				tooltip = form_rumelia_albania_required_states_tt
+				44 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				805 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				934 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Spain
+			custom_trigger_tooltip = {
+				tooltip = wfc_form_country_spain_required_states_tt
+				171 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				790 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				174 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				791 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				792 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				176 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				172 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				788 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				41 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				793 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				166 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				794 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				165 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				170 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				175 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				168 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				167 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				169 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				789 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				173 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				177 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# Portugal
+			custom_trigger_tooltip = {
+				tooltip = wfc_form_country_portugal_required_states_tt
+				179 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				795 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				112 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				181 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				180 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+		}
+		complete_effect = {
+			set_cosmetic_tag = ENG_imperial_federation_unified
+			#set_cosmetic_tag = EUR_UNIFIED
+			8 = {
+				add_core_of = ROOT
+			}
+			transfer_state = 8
+			# Netherlands
+			custom_effect_tooltip = form_eu_netherlands_coring_states_tt
+			hidden_effect = {
+				7 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 7
+				35 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 35
+				36 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 36
+			}
+			# Belgium
+			custom_effect_tooltip = form_eu_belgium_coring_states_tt
+			hidden_effect = {
+				6 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 6
+				34 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 34
+			}
+			# France
+			custom_effect_tooltip = form_eu_france_coring_states_tt
+			hidden_effect = {
+				29 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 29
+				18 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 18
+				17 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 17
+				28 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 28
+				15 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 15
+				16 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 16
+				27 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 27
+				14 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 14
+				30 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 30
+				24 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 24
+				23 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 23
+				33 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 33
+				26 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 26
+				20 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 20
+				32 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 32
+				735 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 735
+				25 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 25
+				22 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 22
+				21 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 21
+				851 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 851
+				19 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 19
+				20 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 20
+				1 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 1
+				785 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 785
+				31 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 31
+			}
+			# Italy
+			custom_effect_tooltip = form_eu_italy_coring_states_tt
+			hidden_effect = {
+				158 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 158
+				159 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 159
+				39 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 36
+				160 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 160
+				161 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 161
+				162 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 162
+				157 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 157
+				2 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 2
+				117 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 117
+				156 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 156
+				115 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 115
+				114 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 114
+				736 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 736
+				163 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 163
+				849 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 849
+				850 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 850
+				852 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 852
+			}
+			# Germany
+			custom_effect_tooltip = form_country_germany_coring_states_tt
+			hidden_effect = {
+				51 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 51
+				42 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 42
+				56 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 56
+				57 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 57
+				55 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 55
+				50 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 50
+				59 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 59
+				58 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 58
+				60 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 60
+				54 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 54
+				52 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 52
+				53 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 53
+				61 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 61
+				64 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 64
+				65 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 65
+				62 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 62
+				68 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 68
+				66 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 66
+				67 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 67
+				63 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 63
+				5 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 5
+				763 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 763
+			}
+			# Switzerland
+			custom_effect_tooltip = form_country_switzerland_coring_states_tt
+			hidden_effect = {
+				3 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 3
+				151 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 151
+				845 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 845
+				847 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 847
+				846 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 846
+			}
+			# Austria
+			custom_effect_tooltip = form_country_austria_coring_states_tt
+			hidden_effect = {
+				848 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 848
+				153 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 153
+				152 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 152
+				4 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 4
+			}
+			# Czechoslovakia
+			custom_effect_tooltip = form_country_czechoslovakia_coring_states_tt
+			hidden_effect = {
+				69 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 69
+				9 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 9
+				75 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 75
+				74 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 74
+				72 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 72
+				70 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 70
+				664 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 664
+				71 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 71
+				73 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 73
+			}
+			# Poland
+			custom_effect_tooltip = form_country_poland_coring_states_tt
+			hidden_effect = {
+				86 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 86
+				87 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 87
+				88 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 88
+				90 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 90
+				98 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 98
+				10 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 10
+				if = {
+					limit = {
+						97 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					97 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 97
+				}
+				92 = {
+					add_core_of = ROOT
+				}
+				if = {
+					limit = {
+						91 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					91 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 91
+				}
+				if = {
+					limit = {
+						89 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					89 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 89
+				}
+				if = {
+					limit = {
+						93 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					93 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 93
+				}
+				if = {
+					limit = {
+						94 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					94 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 94
+				}
+				if = {
+					limit = {
+						95 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					95 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 95
+				}
+				if = {
+					limit = {
+						96 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					96 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 96
+				}
+				if = {
+					limit = {
+						784 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					784 = {
+						add_core_of = ROOT
+					}
+					transfer_state = 784
+				}
+			}
+			# Greece
+			custom_effect_tooltip = form_rumelia_greece_coring_states_tt
+			hidden_effect = {
+				47 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 47
+				185 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 185
+				731 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 731
+				184 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 184
+				186 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 186
+			}
+			# Albania
+			custom_effect_tooltip = form_rumelia_albania_coring_states_tt
+			hidden_effect = {
+				44 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 44
+				805 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 805
+				934 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 934
+			}
+			# Spain and Portugal
+			custom_effect_tooltip = wfc_form_eu_spain_and_portugal_coring_states_tt
+			hidden_effect = {
+				# Eastern Aragon
+				794 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 794
+				# Western Aragon
+				166 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 166
+				# Navarra
+				172 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 172
+				# Pais Vasco
+				792 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 792
+				# Asturias
+				790 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 790
+				# Galicia
+				171 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 171
+				# Leon
+				174 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 174
+				# Valladolid
+				791 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 791
+				# Burgos
+				176 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 176
+				# Guadalajara
+				793 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 793
+				# Salamanca
+				788 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 788
+				# Madrid
+				41 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 41
+				# Ciudad Real
+				175 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 175
+				# Extramadura
+				170 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 170
+				# Cordoba
+				789 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 789
+				# Sevilla
+				169 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 169
+				# Beja
+				179 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 179
+				# Santarem
+				795 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 795
+				# Lisbon
+				112 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 112
+				# Guarda
+				181 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 181
+				# Porto
+				180 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 180
+			}
+			if = {
+				limit = {
+					118 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				118 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 118
+			}
+			if = {
+				limit = {
+					102 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				102 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 102
+			}
+			if = {
+				limit = {
+					853 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				853 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 853
+			}
+			if = {
+				limit = {
+					103 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				103 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 103
+			}
+			if = {
+				limit = {
+					80 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				80 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 80
+			}
+			if = {
+				limit = {
+					78 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				78 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 78
+			}
+			if = {
+				limit = {
+					766 = {
+						wfc_is_controlled_by_root_or_puppet = yes
+					}
+				}
+				766 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 766
+			}
+			hidden_effect = {
+				news_event = {
+					id = wtt_news.62
+					hours = 6
+				}
+				set_global_flag = form_european_union_flag
+				set_country_flag = form_european_union_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
 			}
 		}
 	}
