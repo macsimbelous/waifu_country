@@ -4339,6 +4339,38 @@ wfc_category_preparing_a_coup = {
 						}
 						factor = 2
 					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							if = {
+								limit = {
+									has_government = fascism
+								}
+								fascism < 0.5
+							}
+							else_if = {
+								limit = {
+									has_government = communism
+								}
+								communism < 0.5
+							}
+							else_if = {
+								limit = {
+									has_government = democratic
+								}
+								democratic < 0.5
+							}
+							else = {
+								neutrality < 0.5
+							}
+						}
+						factor = 2
+					}
+					modifier = {
+						var:wfc_var_target_coup = {
+							has_stability < 0.5
+						}
+						factor = 1.5
+					}
 					puppet = var:wfc_var_target_coup
 					var:wfc_var_target_coup = {
 						if = {
@@ -4366,12 +4398,6 @@ wfc_category_preparing_a_coup = {
 					country_event = wfc_event.6
 				}
 				40 = {
-					modifier = {
-						var:wfc_var_target_coup = {
-							has_stability > 0.5
-						}
-						factor = 1.5
-					}
 					modifier = {
 						var:wfc_var_target_coup = {
 							is_major = yes
