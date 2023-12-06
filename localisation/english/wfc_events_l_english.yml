@@ -24,6 +24,12 @@
  wfc_event.7.d:0 "During the special operation to establish control over the government of the state [?wfc_target_puppet.GetName] unforeseen circumstances arose that prevented the successful completion of the operation."
  wfc_event.7.a:0 "It is necessary to find out the reasons for the failure."
 
+#wfc_event.8
+ wfc_event.8.t: "6th International"
+ wfc_event.8.d: "After the collapse of the Comintern we faced the problem of defending our country from Japanese aggressors and as many of our comrades believe the best solution is to unite with other communist countries of Asia."
+ wfc_event.8.a: "Long live the 6th International"
+ wfc_event.8.b: "We'll do it ourselves"
+
 #News
 wfc_news.3.t:0 "Mass cloning!"
 wfc_news.3.d:0 "[TRP.GetName]'s vain attempts to solve the demographic problem forced the government to adopt a mass cloning program."

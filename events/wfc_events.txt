@@ -88,7 +88,6 @@ add_namespace = wfc_event
 # 		}
 # 	}
 # }
-
 # country_event = {
 # 	id = wfc_event.2
 # 	title = wfc_event.2.t
@@ -178,7 +177,6 @@ add_namespace = wfc_event
 # 		}
 # 	}
 # }
-
 # country_event = {
 # 	id = wfc_event.3
 # 	title = wfc_event.3.t
@@ -267,7 +265,6 @@ add_namespace = wfc_event
 # 		}
 # 	}
 # }
-
 country_event = {
 	id = wfc_event.6
 	title = wfc_event.6.t
@@ -278,6 +275,7 @@ country_event = {
 		name = wfc_event.6.a
 	}
 }
+
 country_event = {
 	id = wfc_event.7
 	title = wfc_event.7.t
@@ -286,5 +284,65 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = wfc_event.7.a
+	}
+}
+
+country_event = {
+	id = wfc_event.8
+	title = wfc_event.8.t
+	desc = wfc_event.8.d
+	picture = GFX_report_event_generic_sign_treaty3
+	fire_only_once = yes
+	trigger = {
+		original_tag = MON
+		has_government = communism
+		is_in_faction = no
+		is_subject = no
+	}
+	option = {
+		name = wfc_event.8.a
+		ai_chance = {
+			base = 1
+		}
+		create_faction = wfc_faction_6th_international
+		if = {
+			limit = {
+				TAN = {
+					exists = yes
+					is_subject = no
+					is_in_faction = no
+					has_government = communism
+				}
+			}
+			add_to_faction = TAN
+		}
+		if = {
+			limit = {
+				SIK = {
+					exists = yes
+					is_subject = no
+					is_in_faction = no
+					has_government = communism
+				}
+			}
+			add_to_faction = SIK
+		}
+		if = {
+			limit = {
+				PRC = {
+					exists = yes
+					is_subject = no
+					is_in_faction = no
+					has_government = communism
+				}
+			}
+			add_to_faction = PRC
+		}
+	}
+	option = {
+		name = wfc_event.8.b
+		ai_chance = {
+			base = 0
+		}
 	}
 }
