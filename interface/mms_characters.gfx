@@ -196,14 +196,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/Rose.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_mms_sakura_minamoto"
-		texturefile = "gfx/leaders/MMS/sakura_minamoto_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_mms_sakura_minamoto"
-		texturefile = "gfx/leaders/MMS/Sakura_Minamoto.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_mms_satanichia_mcdowell_kurumizawa"
 		texturefile = "gfx/leaders/MMS/satanichia_mcdowell_kurumizawa_idea.dds"
 	}
