@@ -127,7 +127,7 @@ ideas = {
 				army_leader_cost_factor = -0.5
 				army_leader_start_level = 2
 				grant_medal_cost_factor = -0.5
-				military_leader_cost_factor = -0.9
+				#military_leader_cost_factor = -0.9
 			}
 		}
 		hen_idea_preparation_for_war = {
