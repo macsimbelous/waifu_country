@@ -6,10 +6,6 @@ set_stability = 0.4
 set_war_support = 0.3
 set_convoys = 150
 #create_faction = WaifuPower
-set_rule = {
-	#can_use_kamikaze_pilots = yes
-	can_create_factions = yes
-}
 
 set_technology = {
 	basic_train = 1
@@ -99,10 +95,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 20	##Демократия
-	neutrality = 35	##Нейтралитет
-	communism = 20	##Коммунизм
-	fascism = 25	##Фашизм
+	democratic = 8
+	neutrality = 45
+	communism = 15
+	fascism = 32
 }
 
 recruit_character = MMS_velvet_crowe

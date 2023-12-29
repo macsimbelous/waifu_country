@@ -4,10 +4,6 @@ set_convoys = 150
 oob = "MAH_1936"
 set_naval_oob = "MAH_1936_Naval"
 #research and industry stuff
-set_rule = {
-	#can_use_kamikaze_pilots = yes
-	can_create_factions = yes
-}
 
 set_technology = {
 	basic_train = 1
@@ -67,10 +63,10 @@ set_technology = {
 }
 
 set_popularities = {
-	democratic = 25
-	neutrality = 25
-	fascism = 25
-	communism = 25
+	democratic = 30
+	neutrality = 42
+	fascism = 5
+	communism = 23
 }
 
 set_politics = {

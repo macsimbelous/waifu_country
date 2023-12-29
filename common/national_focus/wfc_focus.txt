@@ -1990,23 +1990,9 @@ shared_focus = {
 	available_if_capitulated = yes
 	completion_reward = {
 		add_ideas = military_youth_focus
-		if = {
-			limit = {
-				has_government = fascism
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.2
-			}
-		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.2
-			}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.2
 		}
 	}
 }
@@ -2029,6 +2015,10 @@ shared_focus = {
 	completion_reward = {
 		add_ideas = deterrence
 		add_political_power = 150
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.2
+		}
 	}
 }
 
@@ -2106,6 +2096,10 @@ shared_focus = {
 	available_if_capitulated = yes
 	completion_reward = {
 		add_ideas = foreign_expeditions_focus
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.2
+		}
 	}
 }
 
@@ -2146,6 +2140,21 @@ shared_focus = {
 				}
 			}
 		}
+		# if = {
+		# 	limit = {
+		# 		neutrality > var:party_popularity@democratic
+		# 	}
+		# 	add_popularity = {
+		# 		ideology = neutrality
+		# 		popularity = 0.2
+		# 	}
+		# }
+		# else = {
+		# 	add_popularity = {
+		# 		ideology = democratic
+		# 		popularity = 0.2
+		# 	}
+		# }
 	}
 }
 
@@ -2167,23 +2176,9 @@ shared_focus = {
 	available_if_capitulated = yes
 	completion_reward = {
 		add_ideas = political_commissars_focus
-		if = {
-			limit = {
-				has_government = fascism
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.2
-			}
-		}
-		if = {
-			limit = {
-				has_government = communism
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.2
-			}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.2
 		}
 		add_political_power = 200
 	}

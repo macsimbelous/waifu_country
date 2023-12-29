@@ -458,7 +458,7 @@
 		completion_reward = {
 			add_popularity = {
 				ideology = communism
-				popularity = 0.05
+				popularity = 0.1
 			}
 			add_political_power = 100
 			every_other_country = {
@@ -507,9 +507,13 @@
 			factor = 100
 		}
 		available = {
-			communism > 0.3
+			has_government = communism
 			SOV_comintern_joinable = yes
 			is_in_faction = no
+			SOV = {
+				has_government = communism
+				exists = yes
+			}
 			NOT = {
 				any_other_country = {
 					is_in_faction_with = SOV
@@ -611,7 +615,7 @@
 			add_political_power = 100
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.05
+				popularity = 0.1
 			}
 			every_other_country = {
 				limit = {
@@ -661,8 +665,16 @@
 		available_if_capitulated = yes
 		available = {
 			has_government = democratic
+			is_in_faction = no
 			ENG = {
 				has_government = democratic
+				exists = yes
+			}
+			NOT = {
+				any_other_country = {
+					is_in_faction_with = ENG
+					has_war_with = TRP
+				}
 			}
 		}
 		ai_will_do = {
@@ -830,17 +842,10 @@
 		}
 		available = {
 			is_in_faction = no
+			has_government = fascism
 			GER = {
 				has_government = fascism
-			}
-			GER = {
 				exists = yes
-			}
-			GER = {
-				is_subject = no
-			}
-			has_army_manpower = {
-				size > 299999
 			}
 			NOT = {
 				any_other_country = {

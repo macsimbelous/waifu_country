@@ -7,10 +7,6 @@ set_war_support = 0.5
 set_convoys = 150
 #add_manpower = 500000
 #create_faction = WaifuPower
-set_rule = {
-	#can_use_kamikaze_pilots = yes
-	can_create_factions = yes
-}
 
 set_technology = {
 	basic_train = 1
@@ -109,10 +105,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 25	##Демократия
-	neutrality = 25	##Нейтралитет
-	communism = 25	##Коммунизм
-	fascism = 25	##Фашизм
+	democratic = 15
+	neutrality = 38
+	communism = 16
+	fascism = 31
 }
 
 #lider

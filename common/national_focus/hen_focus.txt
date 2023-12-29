@@ -108,6 +108,10 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -143,6 +147,10 @@ focus_tree = {
 				technology = fighter1
 				technology = fighter2
 				technology = fighter3
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
 			}
 		}
 	}
@@ -577,7 +585,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = communism
-				popularity = 0.05
+				popularity = 0.1
 			}
 		}
 		ai_will_do = {
