@@ -1,166 +1,333 @@
 mah_change_country_leader = {
 	#Лидеры марионеток
 	retire_country_leader = yes
-	random_list = {
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_01
+	set_variable = {
+		rand_char = 0
+	}
+	set_variable_to_random = {
+		var = rand_char
+		min = 1
+		max = 32
+		integer = yes
+	}
+	IF = {
+		limit = {
+			check_variable = {
+				rand_char = 1
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_02
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_01
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 2
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_03
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_02
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 3
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_04
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_03
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 4
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_05
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_04
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 5
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_06
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_05
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 6
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_07
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_06
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 7
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_08
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_07
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 8
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_09
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_08
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 9
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_10
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_09
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 10
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_land_11
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_10
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 11
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_01
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_land_11
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 12
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_02
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_01
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 13
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_03
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_02
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 14
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_04
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_03
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 15
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_05
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_04
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 16
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_06
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_05
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 17
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_07
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_06
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 18
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_08
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_07
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 19
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_09
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_08
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 20
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_10
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_09
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 21
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_naval_11
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_10
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 22
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_01
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_naval_11
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 23
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_02
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_01
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 24
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_03
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_02
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 25
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_04
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_03
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 26
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_05
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_04
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 27
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_06
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_05
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 28
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_07
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_06
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 29
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_08
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_07
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 30
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_09
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_08
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 31
 			}
 		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_mah_operative_10
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_09
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 32
 			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_operative_10
 		}
 	}
 	add_country_leader_trait = wfc_maho
