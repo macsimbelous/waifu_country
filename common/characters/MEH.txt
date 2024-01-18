@@ -1091,14 +1091,18 @@ characters = {
 			slot = political_advisor
 			idea_token = MEH_Yurizaki_Mira
 			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
 			available = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_intelligence_princess
+				wfc_head_of_intelligence
+			}
+			modifier = {
+				decryption_power_factor = 0.2
+				encryption_factor = 0.2
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

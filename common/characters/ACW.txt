@@ -2353,14 +2353,14 @@ characters = {
 			slot = political_advisor
 			idea_token = ACW_Ange_le_Carre
 			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
 			available = {
 				has_intelligence_agency = yes
 			}
 			traits = {
 				wfc_intelligence_princess
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

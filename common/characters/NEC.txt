@@ -280,7 +280,11 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_intelligence_princess
+				wfc_head_of_intelligence
+			}
+			modifier = {
+				foreign_subversive_activites = -0.5
+				resistance_damage_to_garrison = -0.5
 			}
 			ai_will_do = {
 				factor = 1

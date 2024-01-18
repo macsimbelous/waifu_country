@@ -1142,14 +1142,18 @@ characters = {
 			slot = political_advisor
 			idea_token = MMS_shigure
 			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
 			available = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_intelligence_princess
+				wfc_head_of_intelligence
+			}
+			modifier = {
+				resistance_damage_to_garrison_on_our_occupied_states = 0.25
+				resistance_damage_to_garrison = -0.25
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

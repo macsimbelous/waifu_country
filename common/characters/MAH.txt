@@ -1218,7 +1218,13 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_intelligence_princess
+				wfc_head_of_intelligence
+			}
+			modifier = {
+				operative_slot = 1
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

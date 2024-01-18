@@ -272,6 +272,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	wfc_head_of_intelligence = {
+		random = no
+		sprite = 15
+		operative_slot = 2
+		agency_upgrade_time = -0.3
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	wfc_propaganda_expert = {
 		sprite = 13
 		war_support_factor = 0.15
