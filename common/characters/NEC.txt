@@ -654,7 +654,7 @@ characters = {
 	}
 	#Заглушки
 	nec_head_int = {
-		name = generic_head_of_intelligence
+		#name = generic_head_of_intelligence
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ayame_himuro

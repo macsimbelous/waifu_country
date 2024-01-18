@@ -4,35 +4,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_trp_astolfo
+				large = GFX_portrait_trp_astolfo
 			}
 			civilian = {
 				large = GFX_portrait_trp_astolfo
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_astolfo
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = TRP_astolfo
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				base = 0
-				modifier = {
-					is_historical_focus_on = yes
-					add = 100
-				}
 			}
 		}
 		field_marshal = {
@@ -66,28 +41,6 @@ characters = {
 				large = GFX_portrait_trp_hideri_kanzaki
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_hideri_kanzaki
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = TRP_hideri_kanzaki
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		country_leader = {
 			ideology = nazism
 			traits = {
@@ -107,28 +60,6 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_trp_tetora
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_tetora
-			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = TRP_tetora
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		country_leader = {
@@ -419,9 +350,6 @@ characters = {
 			ledger = army
 			idea_token = TRP_hime_arikawa
 			cost = 50
-			allowed = {
-				original_tag = TRP
-			}
 			traits = {
 				army_infantry_1
 			}
@@ -486,9 +414,6 @@ characters = {
 			idea_token = TRP_souji_mitsuka
 			ledger = army
 			cost = 50
-			allowed = {
-				original_tag = TRP
-			}
 			traits = {
 				army_armored_1
 			}
@@ -521,9 +446,6 @@ characters = {
 			idea_token = TRP_ranga
 			ledger = army
 			cost = 50
-			allowed = {
-				original_tag = TRP
-			}
 			traits = {
 				army_commando_1
 			}
@@ -614,16 +536,36 @@ characters = {
 				large = GFX_portrait_trp_xianming_lin
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_xianming_lin
+			cost = 150
 			traits = {
-				commando
-				infantry_leader
+				communist_revolutionary
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = TRP_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = TRP_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = TRP_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
+			}
 		}
 	}
 	TRP_mizuho_miyanokouji = {
@@ -672,15 +614,29 @@ characters = {
 				large = GFX_portrait_trp_fish_eye
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_fish_eye
+			cost = 150
 			traits = {
-				trait_engineer
+				staunch_monarchist
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
+			modifier = {
+				political_power_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = TRP_AI_RANDOM_NEUTRALITY
+						has_game_rule = {
+							rule = TRP_ai_behavior
+							option = NEUTRALITY
+						}
+					}
+					factor = 100
+				}
+			}
 		}
 	}
 	TRP_hacka_doll_no_3 = {
@@ -691,14 +647,29 @@ characters = {
 				large = GFX_portrait_trp_hacka_doll_3
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_hacka_doll_no_3
+			cost = 150
 			traits = {
+				democratic_reformer
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
+			modifier = {
+				stability_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = TRP_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = TRP_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
+			}
 		}
 	}
 	TRP_shirota_mitsuki = {
@@ -875,6 +846,30 @@ characters = {
 				large = GFX_portrait_trp_mariya_shidou
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_mariya_shidou
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = TRP_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = TRP_ai_behavior
+							option = FASCIST
+						}
+					}
+					factor = 100
+				}
+			}
+		}
 		navy_leader = {
 			traits = {
 				navy_media_personality
@@ -949,12 +944,14 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				commando
+				infantry_leader
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	TRP_aoi_futaba = {
@@ -969,9 +966,6 @@ characters = {
 			slot = political_advisor
 			idea_token = TRP_aoi_futaba
 			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
 			available = {
 				has_intelligence_agency = yes
 			}

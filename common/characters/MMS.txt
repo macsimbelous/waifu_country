@@ -10,28 +10,6 @@ characters = {
 				large = GFX_portrait_mms_velvet_crowe_civilian
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_velvet_crowe
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MMS_velvet_crowe
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		country_leader = {
 			ideology = fascism_ideology
 			traits = {
@@ -77,28 +55,6 @@ characters = {
 				large = GFX_portrait_mms_maou
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_maou
-			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MMS_maou
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		country_leader = {
 			ideology = leninism
 			traits = {
@@ -130,25 +86,6 @@ characters = {
 				freedom_fighter
 			}
 			expire = "1965.1.1"
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_belldandy
-			cost = 150
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MMS_belldandy
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 	#lider 2
@@ -628,6 +565,30 @@ characters = {
 				large = GFX_portrait_mms_lucy
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_lucy
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MMS_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = MMS_ai_behavior
+							option = FASCIST
+						}
+					}
+					factor = 100
+				}
+			}
+		}
 		corps_commander = {
 			traits = {
 				infantry_leader
@@ -740,6 +701,30 @@ characters = {
 			army = {
 				small = GFX_idea_mms_arnice
 				large = GFX_portrait_mms_arnice
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_arnice
+			cost = 150
+			traits = {
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MMS_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = MMS_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 		corps_commander = {
@@ -964,6 +949,30 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_mms_dobrynya_nikitich
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_dobrynya_nikitich
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MMS_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = MMS_ai_behavior
+							option = COMMUNIST
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 		corps_commander = {
@@ -1217,9 +1226,6 @@ characters = {
 			slot = political_advisor
 			idea_token = MMS_serafall_leviathan
 			cost = 150
-			allowed = {
-				original_tag = MMS
-			}
 			available = {
 				has_country_leader = {
 					character = MMS_yuuko_yoshida
@@ -1230,13 +1236,27 @@ characters = {
 				staunch_monarchist
 			}
 			modifier = {
+				political_power_factor = 0.1
 				power_balance_weekly = -0.01
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 0
 				modifier = {
-					is_historical_focus_on = yes
-					factor = 2000
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = MMS_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = MMS_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = MMS_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
 				}
 			}
 		}

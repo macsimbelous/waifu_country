@@ -11,28 +11,6 @@ characters = {
 				small = GFX_idea_acw_erza
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Erza
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = ACW_Erza
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		country_leader = {
 			ideology = stalinism
 			traits = {
@@ -42,22 +20,7 @@ characters = {
 				wfc_patron_of_industry
 			}
 			expire = "1953.3.1"
-			id = -1
 		}
-		# field_marshal = {
-		# 	traits = {
-		# 		
-		# 		skilled_staffer
-		# 		expert_delegator
-		# 		war_hero
-		# 		fast_planner
-		# 	}
-		# 	skill = 4
-		# 	attack_skill = 4
-		# 	defense_skill = 4
-		# 	planning_skill = 5
-		# 	logistics_skill = 4
-		# }
 	}
 	ACW_Asuka = {
 		name = ACW_Asuka
@@ -70,28 +33,6 @@ characters = {
 				small = GFX_idea_acw_asuka_lider
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Asuka
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = ACW_Asuka
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		country_leader = {
 			ideology = fascism_ideology
 			traits = {
@@ -101,7 +42,6 @@ characters = {
 				wfc_tsundere
 			}
 			expire = "1953.3.1"
-			id = -1
 		}
 		field_marshal = {
 			traits = {
@@ -148,28 +88,6 @@ characters = {
 			army = {
 				large = GFX_portrait_acw_anastasia_general
 				small = GFX_idea_acw_anastasia
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Anastasia
-			cost = 150
-			allowed = {
-				original_tag = ACW
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = ACW_Anastasia
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		country_leader = {
@@ -645,31 +563,28 @@ characters = {
 				large = GFX_portrait_acw_ranko_kanzaki
 			}
 		}
-		corps_commander = {
-			traits = {
-				trait_mountaineer
-				trait_engineer
-				commando
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 4
-		}
 		advisor = {
-			slot = high_command
+			slot = political_advisor
 			idea_token = ACW_Ranko_Kanzaki
-			ledger = army
-			cost = 50
-			allowed = {
-				original_tag = ACW
-			}
+			cost = 150
 			traits = {
-				army_commando_1
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = ACW_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 	}
@@ -717,15 +632,29 @@ characters = {
 				large = GFX_portrait_acw_ako_tamaki_army
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Ako_Tamaki
+			cost = 150
 			traits = {
-				infantry_leader
+				fascist_demagogue
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = ACW_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = FASCIST
+						}
+					}
+					factor = 100
+				}
+			}
 		}
 	}
 	ACW_Celica = {
@@ -852,13 +781,27 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
+				trait_mountaineer
+				trait_engineer
 				commando
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ACW_Konoko
+			ledger = army
+			cost = 50
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	ACW_Lina_Inverse = {
@@ -1477,15 +1420,36 @@ characters = {
 				large = GFX_portrait_acw_yuna
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Yuna
+			cost = 150
 			traits = {
-				naval_invader
+				staunch_monarchist
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			modifier = {
+				political_power_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = ACW_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = ACW_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
+			}
 		}
 	}
 	ACW_Noelle = {
@@ -1768,6 +1732,30 @@ characters = {
 			army = {
 				small = GFX_idea_acw_alisa_illinichina_amiella
 				large = GFX_portrait_acw_alisa_illinichina_amiella
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_alisa_illinichina_amiella
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = ACW_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = COMMUNIST
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 		corps_commander = {

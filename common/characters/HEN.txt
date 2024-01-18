@@ -11,32 +11,6 @@ characters = {
 				large = GFX_portrait_hen_takumi_musashino
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Takumi_Musashino
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = HEN_Takumi_Musashino
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				base = 0
-				modifier = {
-					is_historical_focus_on = yes
-					add = 100
-				}
-			}
-		}
 		country_leader = {
 			ideology = stalinism
 			traits = {
@@ -46,7 +20,6 @@ characters = {
 				wfc_dictator
 			}
 			expire = "1965.1.1"
-			id = -1
 		}
 	}
 	HEN_mind_flayer = {
@@ -60,28 +33,6 @@ characters = {
 				large = GFX_portrait_hen_mind_flayer_general
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_mind_flayer
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = HEN_mind_flayer
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		country_leader = {
 			ideology = nazism
 			traits = {
@@ -91,7 +42,6 @@ characters = {
 				wfc_dictator
 			}
 			expire = "1965.1.1"
-			id = -1
 		}
 	}
 	HEN_Sheliss_Elleness_Zurbach = {
@@ -110,7 +60,6 @@ characters = {
 				wfc_empress
 			}
 			expire = "1965.1.1"
-			id = -1
 		}
 	}
 	HEN_Celestine_Lucullus = {
@@ -122,28 +71,6 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_hen_celestine_lucullus
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Celestine_Lucullus
-			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = HEN_Celestine_Lucullus
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		country_leader = {
@@ -423,14 +350,35 @@ characters = {
 				large = GFX_portrait_hen_anna_komiya
 			}
 		}
-		corps_commander = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Takumi_Musashino
+			cost = 150
 			traits = {
-				panzer_leader
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = HEN_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = HEN_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 	}
@@ -558,15 +506,29 @@ characters = {
 				large = GFX_portrait_hen_claudia_le_van_tyne
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Claudia_le_Van_Tyne
+			cost = 150
 			traits = {
-				cavalry_leader
+				staunch_monarchist
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			modifier = {
+				political_power_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = HEN_AI_RANDOM_NEUTRALITY
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = NEUTRALITY
+						}
+					}
+					factor = 100
+				}
+			}
 		}
 	}
 	HEN_Alicia_Arcturus = {
@@ -822,13 +784,42 @@ characters = {
 				large = GFX_portrait_hen_soul_eater_army
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_soul_eater
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = HEN_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = FASCIST
+						}
+						has_country_flag = HEN_AI_RANDOM_FASCIST_ALTERNATE
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = FASCIST_ALTERNATE
+						}
+					}
+					factor = 100
+				}
+			}
+		}
 		corps_commander = {
 			traits = {
 			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 		}
 	}
@@ -957,18 +948,27 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = theorist
+			slot = political_advisor
 			idea_token = HEN_Suomi
-			ledger = navy
 			cost = 150
-			allowed = {
-				original_tag = HEN
-			}
 			traits = {
-				naval_theorist
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = HEN_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 		navy_leader = {
@@ -1038,6 +1038,11 @@ characters = {
 			traits = {
 				wfc_intelligence_princess
 			}
+			# modifier = {
+			# 	operative_slot = 1
+			# 	agency_upgrade_time = -0.15
+			# 	decryption_power_factor = 0.15
+			# }
 			ai_will_do = {
 				factor = 5
 			}
@@ -1118,15 +1123,27 @@ characters = {
 				large = GFX_portrait_hen_aya_itou_navy
 			}
 		}
+		advisor = {
+			slot = theorist
+			idea_token = hen_aya_itou
+			ledger = navy
+			cost = 150
+			traits = {
+				naval_theorist
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		navy_leader = {
 			traits = {
 				big_guns_expert
 			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			maneuvering_skill = 2
-			coordination_skill = 3
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 4
 		}
 	}
 }

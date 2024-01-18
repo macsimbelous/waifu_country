@@ -10,28 +10,6 @@ characters = {
 				large = GFX_portrait_mah_asuka_ootorii
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_Asuka_Ootorii
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MAH_Asuka_Ootorii
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		country_leader = {
 			ideology = fascism_ideology
 			traits = {
@@ -54,28 +32,6 @@ characters = {
 				large = GFX_portrait_mah_nanoha_takamachi
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_Nanoha_Takamachi
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MAH_Nanoha_Takamachi
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		country_leader = {
 			ideology = stalinism
 			traits = {
@@ -95,32 +51,6 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_mah_usagi_tsukino
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAH_Usagi_Tsukino
-			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MAH_Usagi_Tsukino
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				base = 0
-				modifier = {
-					is_historical_focus_on = yes
-					add = 100
-				}
 			}
 		}
 		country_leader = {
@@ -366,14 +296,29 @@ characters = {
 				large = GFX_portrait_mah_chisato_yonamine
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_chisato_yonamine
+			cost = 150
 			traits = {
+				fascist_demagogue
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MAH_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = MAH_ai_behavior
+							option = FASCIST
+						}
+					}
+					factor = 100
+				}
+			}
 		}
 	}
 	MAH_kurumi_mugen = {
@@ -758,15 +703,16 @@ characters = {
 				large = GFX_portrait_mah_himeno_awayuki
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_himeno_awayuki
+			cost = 150
 			traits = {
-				trait_engineer
+				wfc_captain_of_industry
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MAH_sakura_kinomoto = {
@@ -781,11 +727,31 @@ characters = {
 			slot = political_advisor
 			idea_token = MAH_sakura_kinomoto
 			cost = 150
-			allowed = {
-				original_tag = MAH
-			}
 			traits = {
-				wfc_captain_of_industry
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = MAH_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = MAH_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = MAH_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 	}
@@ -919,15 +885,29 @@ characters = {
 				large = GFX_portrait_mah_momozono_love
 			}
 		}
-		corps_commander = {
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_momozono_love
+			cost = 150
 			traits = {
-				infantry_leader
+				staunch_monarchist
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			modifier = {
+				political_power_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MAH_AI_RANDOM_NEUTRALITY
+						has_game_rule = {
+							rule = MAH_ai_behavior
+							option = NEUTRALITY
+						}
+					}
+					factor = 100
+				}
+			}
 		}
 	}
 	MAH_natsuumi_manatsu = {
@@ -974,6 +954,30 @@ characters = {
 			army = {
 				small = GFX_idea_mah_takizawa_asuka
 				large = GFX_portrait_mah_takizawa_asuka
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_takizawa_asuka
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MAH_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = MAH_ai_behavior
+							option = COMMUNIST
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 		corps_commander = {

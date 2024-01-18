@@ -11,20 +11,6 @@ characters = {
 				large = GFX_portrait_meh_kos-mos
 			}
 		}
-		# field_marshal = {
-		# 	traits = {
-		# 		
-		# 		infantry_leader
-		# 		bearer_of_artillery
-		# 		defensive_doctrine
-		# 		unyielding_defender
-		# 	}
-		# 	skill = 4
-		# 	attack_skill = 4
-		# 	defense_skill = 5
-		# 	planning_skill = 4
-		# 	logistics_skill = 4
-		# }
 		country_leader = {
 			ideology = despotism
 			traits = {
@@ -47,39 +33,6 @@ characters = {
 				large = GFX_portrait_meh_fiora_mechon
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Fiora_Mechon
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MEH_Fiora_Mechon
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		# corps_commander = {
-		# 	traits = {
-		# 		
-		# 		panzer_leader
-		# 	}
-		# 	skill = 4
-		# 	attack_skill = 4
-		# 	defense_skill = 4
-		# 	planning_skill = 4
-		# 	logistics_skill = 4
-		# }
 		country_leader = {
 			ideology = liberalism
 			traits = {
@@ -102,41 +55,17 @@ characters = {
 				large = GFX_portrait_meh_mythra_leader
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Mythra
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MEH_Mythra
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				base = 0
-				modifier = {
-					is_historical_focus_on = yes
-					add = 100
-				}
-			}
-		}
-		corps_commander = {
+		field_marshal = {
 			traits = {
 				cavalry_leader
+				skilled_staffer
+				brilliant_strategist
 			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
 		}
 		country_leader = {
 			ideology = fascism_ideology
@@ -158,28 +87,6 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_meh_histoire
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Histoire
-			cost = 150
-			allowed = {
-				original_tag = MEH
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = MEH_Histoire
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		country_leader = {
@@ -207,7 +114,6 @@ characters = {
 				infantry_leader
 				commando
 				offensive_doctrine
-				brilliant_strategist
 				aggressive_assaulter
 				infantry_expert
 				skilled_staffer
@@ -242,6 +148,30 @@ characters = {
 			}
 			army = {
 				large = GFX_portrait_meh_alisa_boskonovich
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Alisa_Boskonovich
+			cost = 150
+			traits = {
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MEH_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = MEH_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 		corps_commander = {
@@ -669,9 +599,38 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_meh_t-elos
-			}
-			army = {
 				large = GFX_portrait_meh_t-elos
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_T_Elos
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = MEH_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = MEH_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = MEH_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 		corps_commander = {
@@ -840,6 +799,30 @@ characters = {
 				large = GFX_portrait_meh_alpha_army
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_alpha
+			cost = 150
+			traits = {
+				staunch_monarchist
+			}
+			modifier = {
+				political_power_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MEH_AI_RANDOM_NEUTRALITY
+						has_game_rule = {
+							rule = MEH_ai_behavior
+							option = NEUTRALITY
+						}
+					}
+					factor = 100
+				}
+			}
+		}
 		corps_commander = {
 			traits = {
 				infantry_leader
@@ -859,6 +842,30 @@ characters = {
 			army = {
 				small = GFX_idea_meh_ashigara_arp
 				large = GFX_portrait_meh_ashigara_arp
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Ashigara_ARP
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MEH_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = MEH_ai_behavior
+							option = COMMUNIST
+						}
+					}
+					factor = 100
+				}
 			}
 		}
 		navy_leader = {
