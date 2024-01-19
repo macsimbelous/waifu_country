@@ -2951,9 +2951,20 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			create_wargoal = {
-				target = AUS
-				type = puppet_wargoal_focus
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				create_wargoal = {
+					target = AUS
+					type = annex_everything
+				}
+			}
+			else = {
+				create_wargoal = {
+					target = AUS
+					type = puppet_wargoal_focus
+				}
 			}
 		}
 	}
@@ -2996,9 +3007,20 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			create_wargoal = {
-				target = CZE
-				type = puppet_wargoal_focus
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				create_wargoal = {
+					target = CZE
+					type = annex_everything
+				}
+			}
+			else = {
+				create_wargoal = {
+					target = CZE
+					type = puppet_wargoal_focus
+				}
 			}
 		}
 	}
@@ -3038,9 +3060,20 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			create_wargoal = {
-				target = GRE
-				type = puppet_wargoal_focus
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				create_wargoal = {
+					target = GRE
+					type = annex_everything
+				}
+			}
+			else = {
+				create_wargoal = {
+					target = GRE
+					type = puppet_wargoal_focus
+				}
 			}
 		}
 	}
@@ -3083,9 +3116,20 @@ focus_tree = {
 			add_state_claim = 102
 			add_state_claim = 853
 			add_state_claim = 103
-			create_wargoal = {
-				target = ITA
-				type = puppet_wargoal_focus
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				create_wargoal = {
+					target = ITA
+					type = annex_everything
+				}
+			}
+			else = {
+				create_wargoal = {
+					target = ITA
+					type = puppet_wargoal_focus
+				}
 			}
 		}
 	}
@@ -3140,9 +3184,20 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_state_claim = 137
-			create_wargoal = {
-				target = 202.OWNER
-				type = puppet_wargoal_focus
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				create_wargoal = {
+					target = 202.OWNER
+					type = annex_everything
+				}
+			}
+			else = {
+				create_wargoal = {
+					target = 202.OWNER
+					type = puppet_wargoal_focus
+				}
 			}
 		}
 	}
@@ -3196,9 +3251,20 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			create_wargoal = {
-				target = POL
-				type = puppet_wargoal_focus
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				create_wargoal = {
+					target = POL
+					type = annex_everything
+				}
+			}
+			else = {
+				create_wargoal = {
+					target = POL
+					type = puppet_wargoal_focus
+				}
 			}
 		}
 	}
