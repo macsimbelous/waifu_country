@@ -209,6 +209,11 @@ focus_tree = {
 					modifier = large_increase
 				}
 			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				producer = JAP
+				amount = 10000
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -316,48 +321,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = hen_conquest_of_french_indochina
-		icon = GFX_focus_attack_france
+		id = hen_conquest_of_yun
+		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = hen_conquest_of_gxc
 		}
 		x = 0
 		y = 1
 		relative_position_id = hen_conquest_of_gxc
-		cost = 5
-		available = {
-			is_puppet = no
-			NOT = {
-				is_in_faction_with = 671.OWNER
-			}
-			# controls_state = 594
-			# controls_state = 599
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		will_lead_to_war_with = FRA
-		completion_reward = {
-			add_state_claim = 671
-			add_state_claim = 670
-			add_state_claim = 286
-			add_state_claim = 741
-			add_state_claim = 728
-			declare_war_on = {
-				target = 671.OWNER
-				type = take_claimed_state
-			}
-		}
-	}
-	focus = {
-		id = hen_conquest_of_yun
-		icon = GFX_goal_generic_major_war
-		prerequisite = {
-			focus = hen_conquest_of_french_indochina
-		}
-		x = 0
-		y = 1
-		relative_position_id = hen_conquest_of_french_indochina
 		cost = 5
 		available = {
 			is_puppet = no
@@ -382,14 +353,56 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = hen_conquest_of_sia
-		icon = GFX_goal_generic_major_war
+		id = hen_conquest_of_french_indochina
+		icon = GFX_focus_attack_france
 		prerequisite = {
 			focus = hen_conquest_of_yun
 		}
 		x = 0
 		y = 1
 		relative_position_id = hen_conquest_of_yun
+		cost = 5
+		available = {
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = 671.OWNER
+			}
+			CHI = {
+				OR = {
+					exists = no
+					is_puppet_of = ROOT
+					NOT = {
+						has_war_with = ROOT
+					}
+					has_capitulated = yes
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		will_lead_to_war_with = FRA
+		completion_reward = {
+			add_state_claim = 671
+			add_state_claim = 670
+			add_state_claim = 286
+			add_state_claim = 741
+			add_state_claim = 728
+			declare_war_on = {
+				target = 671.OWNER
+				type = take_claimed_state
+			}
+		}
+	}
+	focus = {
+		id = hen_conquest_of_sia
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = hen_conquest_of_french_indochina
+		}
+		x = 0
+		y = 1
+		relative_position_id = hen_conquest_of_french_indochina
 		cost = 5
 		available = {
 			is_puppet = no
@@ -2125,6 +2138,9 @@ focus_tree = {
 		prerequisite = {
 			focus = hen_focus_more_labs
 		}
+		prerequisite = {
+			focus = hen_focus_atomic_research
+		}
 		available = {
 			has_tech = nuclear_reactor
 			any_controlled_state = {
@@ -2155,6 +2171,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = hen_focus_more_labs
+		}
+		prerequisite = {
+			focus = hen_focus_rocket_development
 		}
 		available = {
 			has_tech = experimental_rockets
