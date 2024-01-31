@@ -1049,7 +1049,8 @@ acw_faction_category = {
 			has_capitulated = no
 			FROM = {
 				NOT = {
-					is_puppet_of = ROOT
+					#is_puppet_of = ROOT
+					is_subject_of = ROOT
 				}
 				is_in_faction_with = ROOT
 			}
@@ -1079,6 +1080,60 @@ acw_faction_category = {
 		targeted_modifier = {
 			tag = FROM
 			cic_to_target_factor = 0.1
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				num_of_civilian_factories > 50
+				add = 1
+			}
+			modifier = {
+				num_of_civilian_factories > 100
+				add = 1
+			}
+		}
+	}
+	acw_economic_assistance_to_faction_members_subject = {
+		name = acw_economic_assistance_to_faction_members
+		desc = acw_economic_assistance_to_faction_members_desc
+		visible = {
+			#has_country_flag = acw_waifu_power_is_exist_flag
+			is_faction_leader = yes
+			has_capitulated = no
+			FROM = {
+				NOT = {
+					is_puppet_of = ROOT
+				}
+				is_subject_of = ROOT
+				is_in_faction_with = ROOT
+			}
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 30
+			FROM = {
+				has_capitulated = no
+			}
+		}
+		target_array = faction_members
+		target_trigger = {
+			FROM = {
+				#is_puppet = no
+				NOT = {
+					is_puppet_of = ROOT
+				}
+			}
+		}
+		fire_only_once = no
+		cost = 50
+		days_remove = 90
+		#days_re_enable = 45
+		# modifier = {
+		# 	civilian_factory_use = 10
+		# }
+		targeted_modifier = {
+			tag = FROM
+			cic_to_target_factor = 0.1
+			autonomy_gain = -0.5
 		}
 		ai_will_do = {
 			base = 0
@@ -2534,6 +2589,11 @@ acw_category_foreign_politics = {
 			}
 		}
 		visible = {
+			FROM = {
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+			}
 		}
 		days_remove = 30
 		days_re_enable = 180
@@ -2606,6 +2666,11 @@ acw_category_foreign_politics = {
 			}
 		}
 		visible = {
+			FROM = {
+				NOT = {
+					has_government = ROOT
+				}
+			}
 		}
 		days_remove = 90
 		fire_only_once = yes
