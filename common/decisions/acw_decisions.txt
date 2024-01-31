@@ -2607,7 +2607,7 @@ acw_category_foreign_politics = {
 		remove_effect = {
 			FROM = {
 				country_event = {
-					id = NSB_soviet_foreign_politics_events.1
+					id = acw_foreign_politics_events.1
 					hours = 4
 					random_hours = 2
 				}
@@ -2683,7 +2683,7 @@ acw_category_foreign_politics = {
 		remove_effect = {
 			FROM = {
 				country_event = {
-					id = NSB_soviet_foreign_politics_events.2
+					id = acw_foreign_politics_events.2
 					hours = 4
 					random_hours = 2
 				}
