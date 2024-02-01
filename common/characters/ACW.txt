@@ -102,8 +102,154 @@ characters = {
 			id = -1
 		}
 	}
-	#Army
-	#Marshal
+	ACW_Ranko_Kanzaki = {
+		name = ACW_Ranko_Kanzaki
+		portraits = {
+			army = {
+				small = GFX_idea_acw_ranko_kanzaki
+				large = GFX_portrait_acw_ranko_kanzaki
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Ranko_Kanzaki
+			cost = 150
+			traits = {
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = ACW_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+	}
+	ACW_Ako_Tamaki = {
+		name = ACW_Ako_Tamaki
+		portraits = {
+			army = {
+				small = GFX_idea_acw_ako_tamaki
+				large = GFX_portrait_acw_ako_tamaki_army
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Ako_Tamaki
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = ACW_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = FASCIST
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+	}
+	ACW_alisa_illinichina_amiella = {
+		name = ACW_alisa_illinichina_amiella
+		portraits = {
+			army = {
+				small = GFX_idea_acw_alisa_illinichina_amiella
+				large = GFX_portrait_acw_alisa_illinichina_amiella
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_alisa_illinichina_amiella
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = ACW_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = COMMUNIST
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ACW_Yuna = {
+		name = ACW_Yuna
+		portraits = {
+			army = {
+				small = GFX_idea_acw_yuna
+				large = GFX_portrait_acw_yuna
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_Yuna
+			cost = 150
+			traits = {
+				staunch_monarchist
+			}
+			modifier = {
+				political_power_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = ACW_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = ACW_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+	}
 	ACW_Lightning = {
 		name = ACW_Lightning
 		portraits = {
@@ -555,39 +701,7 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	ACW_Ranko_Kanzaki = {
-		name = ACW_Ranko_Kanzaki
-		portraits = {
-			army = {
-				small = GFX_idea_acw_ranko_kanzaki
-				large = GFX_portrait_acw_ranko_kanzaki
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Ranko_Kanzaki
-			cost = 150
-			traits = {
-				democratic_reformer
-			}
-			modifier = {
-				stability_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = ACW_AI_RANDOM_DEMOCRATIC
-						has_game_rule = {
-							rule = ACW_ai_behavior
-							option = DEMOCRATIC
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-	}
+
 	ACW_Elma = {
 		name = ACW_Elma
 		portraits = {
@@ -624,39 +738,7 @@ characters = {
 			}
 		}
 	}
-	ACW_Ako_Tamaki = {
-		name = ACW_Ako_Tamaki
-		portraits = {
-			army = {
-				small = GFX_idea_acw_ako_tamaki
-				large = GFX_portrait_acw_ako_tamaki_army
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Ako_Tamaki
-			cost = 150
-			traits = {
-				fascist_demagogue
-			}
-			modifier = {
-				war_support_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = ACW_AI_RANDOM_FASCIST
-						has_game_rule = {
-							rule = ACW_ai_behavior
-							option = FASCIST
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-	}
+
 	ACW_Celica = {
 		name = ACW_Celica
 		portraits = {
@@ -1412,46 +1494,6 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	ACW_Yuna = {
-		name = ACW_Yuna
-		portraits = {
-			army = {
-				small = GFX_idea_acw_yuna
-				large = GFX_portrait_acw_yuna
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_Yuna
-			cost = 150
-			traits = {
-				staunch_monarchist
-			}
-			modifier = {
-				political_power_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						AND = {
-							is_historical_focus_on = yes
-							has_game_rule = {
-								rule = ACW_ai_behavior
-								option = DEFAULT
-							}
-						}
-						has_country_flag = ACW_AI_RANDOM_HISTORICAL
-						has_game_rule = {
-							rule = ACW_ai_behavior
-							option = HISTORICAL
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-	}
 	ACW_Noelle = {
 		name = ACW_Noelle
 		portraits = {
@@ -1726,48 +1768,7 @@ characters = {
 			}
 		}
 	}
-	ACW_alisa_illinichina_amiella = {
-		name = ACW_alisa_illinichina_amiella
-		portraits = {
-			army = {
-				small = GFX_idea_acw_alisa_illinichina_amiella
-				large = GFX_portrait_acw_alisa_illinichina_amiella
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_alisa_illinichina_amiella
-			cost = 150
-			traits = {
-				communist_revolutionary
-			}
-			modifier = {
-				mobilization_speed = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = ACW_AI_RANDOM_COMMUNIST
-						has_game_rule = {
-							rule = ACW_ai_behavior
-							option = COMMUNIST
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		corps_commander = {
-			traits = {
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
+
 	ACW_kei = {
 		name = ACW_kei
 		portraits = {
@@ -2721,6 +2722,42 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	acw_aki_nijou = {
+		name = acw_aki_nijou
+		portraits = {
+			army = {
+				small = GFX_idea_acw_aki_nijou
+				large = GFX_portrait_acw_aki_nijou_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = acw_aki_nijou
+			cost = 150
+			available = {
+				has_government = democratic
+			}
+			traits = {
+				wfc_trait_minister_of_foreign_affairs
+			}
+			modifier = {
+				democratic_acceptance = 40
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = ACW_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = ACW_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 10
+				}
+			}
 		}
 	}
 }

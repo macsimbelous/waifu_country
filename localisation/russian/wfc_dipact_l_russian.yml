@@ -32,6 +32,7 @@
  WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_ACTION_DESC: "Национальные фокусы субъекта будут заменены на фокусы марионеток."
  wfc_diplomatic_action_change_focus_tree_send: "С фокусами марионеток поведение субъекта §Y[THIS.GetName]§! будет более предсказуемо."
  wfc_change_focus_tree_flag: "Фокусы марионеток"
+ wfc_change_focus_tree_tt: "Национальные фокусы будут заменены на фокусы §Gмарионеток§!"
 
 #wfc_diplomatic_action_convert_to_province
  WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_TITLE: "Преобразовать в §Gпровинцию§!"

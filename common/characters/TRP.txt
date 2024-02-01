@@ -96,6 +96,122 @@ characters = {
 			expire = "1965.1.1"
 		}
 	}
+	TRP_hacka_doll_no_3 = {
+		name = TRP_hacka_doll_no_3
+		portraits = {
+			army = {
+				small = GFX_idea_trp_hacka_doll_no_3
+				large = GFX_portrait_trp_hacka_doll_3
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_hacka_doll_no_3
+			cost = 150
+			traits = {
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = TRP_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = TRP_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+	}
+	TRP_mariya_shidou = {
+		name = TRP_mariya_shidou
+		portraits = {
+			army = {
+				small = GFX_idea_trp_mariya_shidou
+				large = GFX_portrait_trp_mariya_shidou
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_mariya_shidou
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = TRP_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = TRP_ai_behavior
+							option = FASCIST
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_media_personality
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	TRP_xianming_lin = {
+		name = TRP_xianming_lin
+		portraits = {
+			army = {
+				small = GFX_idea_trp_xianming_lin
+				large = GFX_portrait_trp_xianming_lin
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TRP_xianming_lin
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = TRP_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = TRP_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = TRP_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+	}
 	TRP_ringo_tsukimiya = {
 		name = TRP_ringo_tsukimiya
 		portraits = {
@@ -528,46 +644,7 @@ characters = {
 			}
 		}
 	}
-	TRP_xianming_lin = {
-		name = TRP_xianming_lin
-		portraits = {
-			army = {
-				small = GFX_idea_trp_xianming_lin
-				large = GFX_portrait_trp_xianming_lin
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_xianming_lin
-			cost = 150
-			traits = {
-				communist_revolutionary
-			}
-			modifier = {
-				mobilization_speed = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						AND = {
-							is_historical_focus_on = yes
-							has_game_rule = {
-								rule = TRP_ai_behavior
-								option = DEFAULT
-							}
-						}
-						has_country_flag = TRP_AI_RANDOM_HISTORICAL
-						has_game_rule = {
-							rule = TRP_ai_behavior
-							option = HISTORICAL
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-	}
+
 	TRP_mizuho_miyanokouji = {
 		name = TRP_mizuho_miyanokouji
 		portraits = {
@@ -639,39 +716,7 @@ characters = {
 			}
 		}
 	}
-	TRP_hacka_doll_no_3 = {
-		name = TRP_hacka_doll_no_3
-		portraits = {
-			army = {
-				small = GFX_idea_trp_hacka_doll_no_3
-				large = GFX_portrait_trp_hacka_doll_3
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_hacka_doll_no_3
-			cost = 150
-			traits = {
-				democratic_reformer
-			}
-			modifier = {
-				stability_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = TRP_AI_RANDOM_DEMOCRATIC
-						has_game_rule = {
-							rule = TRP_ai_behavior
-							option = DEMOCRATIC
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-	}
+
 	TRP_shirota_mitsuki = {
 		name = TRP_shirota_mitsuki
 		portraits = {
@@ -838,49 +883,7 @@ characters = {
 			}
 		}
 	}
-	TRP_mariya_shidou = {
-		name = TRP_mariya_shidou
-		portraits = {
-			army = {
-				small = GFX_idea_trp_mariya_shidou
-				large = GFX_portrait_trp_mariya_shidou
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = TRP_mariya_shidou
-			cost = 150
-			traits = {
-				fascist_demagogue
-			}
-			modifier = {
-				war_support_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = TRP_AI_RANDOM_FASCIST
-						has_game_rule = {
-							rule = TRP_ai_behavior
-							option = FASCIST
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		navy_leader = {
-			traits = {
-				navy_media_personality
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
+
 	TRP_russell = {
 		name = TRP_russell
 		portraits = {

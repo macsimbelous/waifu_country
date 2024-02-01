@@ -88,6 +88,139 @@ characters = {
 			expire = "1965.1.1"
 		}
 	}
+	MMS_arnice = {
+		name = MMS_arnice
+		portraits = {
+			army = {
+				small = GFX_idea_mms_arnice
+				large = GFX_portrait_mms_arnice
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_arnice
+			cost = 150
+			traits = {
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MMS_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = MMS_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MMS_lucy = {
+		name = MMS_lucy
+		portraits = {
+			army = {
+				small = GFX_idea_mms_lucy
+				large = GFX_portrait_mms_lucy
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_lucy
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MMS_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = MMS_ai_behavior
+							option = FASCIST
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				trickster
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MMS_dobrynya_nikitich = {
+		name = MMS_dobrynya_nikitich
+		portraits = {
+			army = {
+				small = GFX_idea_mms_dobrynya_nikitich
+				large = GFX_portrait_mms_dobrynya_nikitich
+			}
+			civilian = {
+				large = GFX_portrait_mms_dobrynya_nikitich
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_dobrynya_nikitich
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MMS_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = MMS_ai_behavior
+							option = COMMUNIST
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+			}
+			skill = 3
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 	#lider 2
 	MMS_drippler = {
 		name = MMS_drippler
@@ -557,50 +690,7 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	MMS_lucy = {
-		name = MMS_lucy
-		portraits = {
-			army = {
-				small = GFX_idea_mms_lucy
-				large = GFX_portrait_mms_lucy
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_lucy
-			cost = 150
-			traits = {
-				fascist_demagogue
-			}
-			modifier = {
-				war_support_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = MMS_AI_RANDOM_FASCIST
-						has_game_rule = {
-							rule = MMS_ai_behavior
-							option = FASCIST
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		corps_commander = {
-			traits = {
-				infantry_leader
-				trickster
-			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
+
 	MMS_saya_kisaragi = {
 		name = MMS_saya_kisaragi
 		portraits = {
@@ -695,49 +785,7 @@ characters = {
 			}
 		}
 	}
-	MMS_arnice = {
-		name = MMS_arnice
-		portraits = {
-			army = {
-				small = GFX_idea_mms_arnice
-				large = GFX_portrait_mms_arnice
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_arnice
-			cost = 150
-			traits = {
-				democratic_reformer
-			}
-			modifier = {
-				stability_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = MMS_AI_RANDOM_DEMOCRATIC
-						has_game_rule = {
-							rule = MMS_ai_behavior
-							option = DEMOCRATIC
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		corps_commander = {
-			traits = {
-				commando
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
+
 	MMS_saya_otonashi = {
 		name = MMS_saya_otonashi
 		portraits = {
@@ -940,52 +988,7 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	MMS_dobrynya_nikitich = {
-		name = MMS_dobrynya_nikitich
-		portraits = {
-			army = {
-				small = GFX_idea_mms_dobrynya_nikitich
-				large = GFX_portrait_mms_dobrynya_nikitich
-			}
-			civilian = {
-				large = GFX_portrait_mms_dobrynya_nikitich
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_dobrynya_nikitich
-			cost = 150
-			traits = {
-				communist_revolutionary
-			}
-			modifier = {
-				mobilization_speed = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = MMS_AI_RANDOM_COMMUNIST
-						has_game_rule = {
-							rule = MMS_ai_behavior
-							option = COMMUNIST
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		corps_commander = {
-			traits = {
-				cavalry_leader
-			}
-			skill = 3
-			attack_skill = 5
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
-		}
-	}
+
 	MMS_kuraishi_eriko = {
 		name = MMS_kuraishi_eriko
 		portraits = {

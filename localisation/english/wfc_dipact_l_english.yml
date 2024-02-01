@@ -29,6 +29,7 @@
  WFC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_ACTION_DESC: "National subject focus §Y[THIS.GetName]§! will be replaced by puppet focus."
  wfc_diplomatic_action_change_focus_tree_send: "With puppet tricks, the behavior of the subject §Y[THIS.GetName]§! will be more predictable."
  wfc_change_focus_tree_flag: "Puppet focus"
+ wfc_change_focus_tree_tt: "National focuses will be replaced with §Gwaifu countries§ focuses!"
 
 #wfc_diplomatic_action_convert_to_province
  WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_TITLE: "Convert to §Gprovince§!"

@@ -84,6 +84,139 @@ characters = {
 			expire = "1965.1.1"
 		}
 	}
+	HEN_Suomi = {
+		name = HEN_Suomi
+		portraits = {
+			army = {
+				small = GFX_idea_hen_suomi
+				large = GFX_portrait_hen_suomi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Suomi
+			cost = 150
+			traits = {
+				democratic_reformer
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = HEN_AI_RANDOM_DEMOCRATIC
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = DEMOCRATIC
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+	HEN_soul_eater = {
+		name = HEN_soul_eater
+		portraits = {
+			civilian = {
+				large = GFX_portrait_hen_soul_eater_civilian
+			}
+			army = {
+				small = GFX_idea_hen_soul_eater
+				large = GFX_portrait_hen_soul_eater_army
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_soul_eater
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = HEN_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = FASCIST
+						}
+						has_country_flag = HEN_AI_RANDOM_FASCIST_ALTERNATE
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = FASCIST_ALTERNATE
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	HEN_Anna_Komiya = {
+		name = HEN_Anna_Komiya
+		portraits = {
+			army = {
+				small = GFX_idea_hen_anna_komiya
+				large = GFX_portrait_hen_anna_komiya
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_Takumi_Musashino
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = HEN_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = HEN_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = HEN_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+	}
 	#marshal
 	HEN_Olga_Discordia = {
 		name = HEN_Olga_Discordia
@@ -342,46 +475,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	HEN_Anna_Komiya = {
-		name = HEN_Anna_Komiya
-		portraits = {
-			army = {
-				small = GFX_idea_hen_anna_komiya
-				large = GFX_portrait_hen_anna_komiya
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Takumi_Musashino
-			cost = 150
-			traits = {
-				communist_revolutionary
-			}
-			modifier = {
-				mobilization_speed = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						AND = {
-							is_historical_focus_on = yes
-							has_game_rule = {
-								rule = HEN_ai_behavior
-								option = DEFAULT
-							}
-						}
-						has_country_flag = HEN_AI_RANDOM_HISTORICAL
-						has_game_rule = {
-							rule = HEN_ai_behavior
-							option = HISTORICAL
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-	}
+
 	HEN_Ruma = {
 		name = HEN_Ruma
 		portraits = {
@@ -773,56 +867,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	HEN_soul_eater = {
-		name = HEN_soul_eater
-		portraits = {
-			civilian = {
-				large = GFX_portrait_hen_soul_eater_civilian
-			}
-			army = {
-				small = GFX_idea_hen_soul_eater
-				large = GFX_portrait_hen_soul_eater_army
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_soul_eater
-			cost = 150
-			traits = {
-				fascist_demagogue
-			}
-			modifier = {
-				war_support_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = HEN_AI_RANDOM_FASCIST
-						has_game_rule = {
-							rule = HEN_ai_behavior
-							option = FASCIST
-						}
-						has_country_flag = HEN_AI_RANDOM_FASCIST_ALTERNATE
-						has_game_rule = {
-							rule = HEN_ai_behavior
-							option = FASCIST_ALTERNATE
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		corps_commander = {
-			traits = {
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
+
 	HEN_brainjacker = {
 		name = HEN_brainjacker
 		portraits = {
@@ -939,49 +984,7 @@ characters = {
 			}
 		}
 	}
-	HEN_Suomi = {
-		name = HEN_Suomi
-		portraits = {
-			army = {
-				small = GFX_idea_hen_suomi
-				large = GFX_portrait_hen_suomi
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_Suomi
-			cost = 150
-			traits = {
-				democratic_reformer
-			}
-			modifier = {
-				stability_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = HEN_AI_RANDOM_DEMOCRATIC
-						has_game_rule = {
-							rule = HEN_ai_behavior
-							option = DEMOCRATIC
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		navy_leader = {
-			traits = {
-				bold
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			maneuvering_skill = 4
-			coordination_skill = 4
-		}
-	}
+
 	HEN_Akiho_Taniguchi = {
 		name = HEN_Akiho_Taniguchi
 		portraits = {

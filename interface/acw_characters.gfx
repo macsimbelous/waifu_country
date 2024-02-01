@@ -1005,6 +1005,18 @@ spriteTypes = {
 		name = "GFX_portrait_acw_chris_yukine_army"
 		texturefile = "gfx/leaders/ACW/chris_yukine_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_acw_aki_nijou"
+		texturefile = "gfx/leaders/ACW/aki_nijou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_aki_nijou_civilian"
+		texturefile = "gfx/leaders/ACW/aki_nijou_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_aki_nijou_puppet"
+		texturefile = "gfx/leaders/ACW/aki_nijou_puppet.dds"
+	}
 	#generics
 	spriteType = {
 		name = "GFX_portrait_acw_land_01_small"

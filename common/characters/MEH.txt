@@ -100,46 +100,6 @@ characters = {
 			expire = "1965.1.1"
 		}
 	}
-	#marshal
-	MEH_Iris_Heart = {
-		name = MEH_Iris_Heart
-		portraits = {
-			army = {
-				small = GFX_idea_meh_iris_heart
-				large = GFX_portrait_meh_iris_heart
-			}
-		}
-		field_marshal = {
-			traits = {
-				infantry_leader
-				commando
-				offensive_doctrine
-				aggressive_assaulter
-				infantry_expert
-				skilled_staffer
-			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 5
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = MEH_Iris_Heart
-			cost = 50
-			allowed = {
-				original_tag = MEH
-			}
-			traits = {
-				army_chief_offensive_1
-			}
-			ai_will_do = {
-				factor = 5
-			}
-		}
-	}
-	#generals
 	MEH_Alisa_Boskonovich = {
 		name = MEH_Alisa_Boskonovich
 		portraits = {
@@ -185,6 +145,140 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	MEH_T_Elos = {
+		name = MEH_T_Elos
+		portraits = {
+			army = {
+				small = GFX_idea_meh_t-elos
+				large = GFX_portrait_meh_t-elos
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_T_Elos
+			cost = 150
+			traits = {
+				fascist_demagogue
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						AND = {
+							is_historical_focus_on = yes
+							has_game_rule = {
+								rule = MEH_ai_behavior
+								option = DEFAULT
+							}
+						}
+						has_country_flag = MEH_AI_RANDOM_HISTORICAL
+						has_game_rule = {
+							rule = MEH_ai_behavior
+							option = HISTORICAL
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				commando
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MEH_Ashigara_ARP = {
+		name = MEH_Ashigara_ARP
+		portraits = {
+			army = {
+				small = GFX_idea_meh_ashigara_arp
+				large = GFX_portrait_meh_ashigara_arp
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MEH_Ashigara_ARP
+			cost = 150
+			traits = {
+				communist_revolutionary
+			}
+			modifier = {
+				mobilization_speed = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					OR = {
+						has_country_flag = MEH_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = MEH_ai_behavior
+							option = COMMUNIST
+						}
+					}
+					factor = 100
+				}
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	#marshal
+	MEH_Iris_Heart = {
+		name = MEH_Iris_Heart
+		portraits = {
+			army = {
+				small = GFX_idea_meh_iris_heart
+				large = GFX_portrait_meh_iris_heart
+			}
+		}
+		field_marshal = {
+			traits = {
+				infantry_leader
+				commando
+				offensive_doctrine
+				aggressive_assaulter
+				infantry_expert
+				skilled_staffer
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MEH_Iris_Heart
+			cost = 50
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	#generals
+
 	MEH_Risa = {
 		name = MEH_Risa
 		portraits = {
@@ -594,57 +688,7 @@ characters = {
 			}
 		}
 	}
-	MEH_T_Elos = {
-		name = MEH_T_Elos
-		portraits = {
-			army = {
-				small = GFX_idea_meh_t-elos
-				large = GFX_portrait_meh_t-elos
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_T_Elos
-			cost = 150
-			traits = {
-				fascist_demagogue
-			}
-			modifier = {
-				war_support_factor = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						AND = {
-							is_historical_focus_on = yes
-							has_game_rule = {
-								rule = MEH_ai_behavior
-								option = DEFAULT
-							}
-						}
-						has_country_flag = MEH_AI_RANDOM_HISTORICAL
-						has_game_rule = {
-							rule = MEH_ai_behavior
-							option = HISTORICAL
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		corps_commander = {
-			traits = {
-				infantry_leader
-				commando
-			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
+
 	MEH_Aino = {
 		name = MEH_Aino
 		portraits = {
@@ -836,48 +880,7 @@ characters = {
 		}
 	}
 	#admirals
-	MEH_Ashigara_ARP = {
-		name = MEH_Ashigara_ARP
-		portraits = {
-			army = {
-				small = GFX_idea_meh_ashigara_arp
-				large = GFX_portrait_meh_ashigara_arp
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_Ashigara_ARP
-			cost = 150
-			traits = {
-				communist_revolutionary
-			}
-			modifier = {
-				mobilization_speed = 0.1
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					OR = {
-						has_country_flag = MEH_AI_RANDOM_COMMUNIST
-						has_game_rule = {
-							rule = MEH_ai_behavior
-							option = COMMUNIST
-						}
-					}
-					factor = 100
-				}
-			}
-		}
-		navy_leader = {
-			traits = {
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
+
 	MEH_Takao_ARP = {
 		name = MEH_Takao_ARP
 		portraits = {

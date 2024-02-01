@@ -33,13 +33,7 @@
  wfc_subjects_category: "Subjects"
  wfc_subjects_category_desc: "Some decisions have been moved to the diplomacy window."
  wfc_create_subject_decision: "Create province §Y[From.GetNameDef]§!"
- wfc_change_country_leader: "Change leader §Y[From.GetNameDef]§!"
- wfc_change_focus_tree: "Replace focus tree §Y[From.GetNameDef]§!"
- wfc_change_focus_tree_tt: "National focuses will be replaced with §Gwaifu countries§ focuses!"
- wfc_convert_to_federal_subject: "Transform §Y[From.GetName]§! into a province"
- wfc_autonomy_ratio_less_than_or_equals_0_2: "Minimum level of autonomy"
  wfc_buy_dokyard_from_puppet: "Buy shipyard from §Y[From.GetName]§!"
- wfc_governor_general_will_be_appointed_tt: "§YGovernor general§! will be appointed"
  wfc_harmonize_conscription_laws: "Harmonize conscription laws"
  wfc_conscription_of_recruits_in_the_subjects_of_the_federation: "Call for recruits in the subjects of the federation"
  wfc_conscription_of_recruits_in_the_subjects_of_the_federation_tt: "Recruits will be called"
@@ -161,14 +155,6 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_decision_cost_CP_25_pp_150:0 "£command_power  §Y25§! £pol_power  §Y150§!"
  wfc_decision_cost_CP_25_pp_150_blocked:0 "£command_power  §R25§! £pol_power  §R150§!"
  wfc_decision_cost_CP_25_pp_150_tooltip:0 "It costs £command_power  §Y25§! £pol_power  §Y150§! to take the decision"
-
-#wfc_puppets_category
- wfc_puppets_category:0 "Submission of weak countries"
- wfc_create_intelligence_agency_decision:0 "Create an intelligence agency"
- wfc_create_puppet_decision.t:0 "Subdue §Y[From.GetNameDef]§!"
- wfc_create_puppet_decision_desc:0 "The success of the operation depends on a number of factors:\n Intelligence network\n Collaboration government\n Relationships\n Stability\n Status of our country\n Status of the target country\nIf the target country was a puppet then the former master will get a reason to war against us."
- wfc_create_puppet_threat:0 "An independent country has become a puppet"
- wfc_puppets_economic_assistance:0 "Submit economic aid §Y[From.GetNameDef]§!"
 
 #political_actions
  wfc_retire_leader:0 "§G[ROOT.GetLeader]§! is retiring"
