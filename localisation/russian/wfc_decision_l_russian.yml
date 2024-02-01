@@ -205,7 +205,7 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_festival_in_states_tt:0 "Нет активных фестивалей"
 
  #acw_faction_category
-  acw_faction_category: "Альянс §GМогучие Вайфу§!"
+  acw_faction_category: "Альянс §G[ACW.GetFactionName]§!"
   acw_create_faction: "Создать альянс §GМогучие Вайфу§!"
   acw_invite_hen_faction: "Пригласить §Y[HEN.GetNameDef]§!"
   acw_invite_mah_faction: "Пригласить §Y[MAH.GetNameDef]§!"

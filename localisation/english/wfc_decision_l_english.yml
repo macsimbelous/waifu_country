@@ -198,7 +198,7 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
  acw_festival_in_states_tt:0 "No active festivals"
 
  #acw_faction_category
-  acw_faction_category:0 "Alliance §GMighty Waifu§!"
+  acw_faction_category:0 "Alliance §G[ACW.GetFactionName]§!"
   acw_create_faction:0 "Create alliance §GMighty Waifu§!"
   acw_invite_hen_faction:0 "To invite §Y[HEN.GetNameDef]§!"
   acw_invite_mah_faction:0 "To invite §Y[MAH.GetNameDef]§!"

@@ -1052,7 +1052,7 @@ acw_faction_category = {
 					#is_puppet_of = ROOT
 					is_subject_of = ROOT
 				}
-				is_in_faction_with = ROOT
+				#is_in_faction_with = ROOT
 			}
 		}
 		available = {
@@ -1064,10 +1064,10 @@ acw_faction_category = {
 		target_array = faction_members
 		target_trigger = {
 			FROM = {
-				#is_puppet = no
-				NOT = {
-					is_puppet_of = ROOT
-				}
+				is_puppet = no
+				# NOT = {
+				# 	is_puppet_of = ROOT
+				# }
 			}
 		}
 		fire_only_once = no
@@ -1105,7 +1105,7 @@ acw_faction_category = {
 					is_puppet_of = ROOT
 				}
 				is_subject_of = ROOT
-				is_in_faction_with = ROOT
+				#is_in_faction_with = ROOT
 			}
 		}
 		available = {
@@ -1117,10 +1117,10 @@ acw_faction_category = {
 		target_array = faction_members
 		target_trigger = {
 			FROM = {
-				#is_puppet = no
-				NOT = {
-					is_puppet_of = ROOT
-				}
+				is_puppet = no
+				# NOT = {
+				# 	is_puppet_of = ROOT
+				# }
 			}
 		}
 		fire_only_once = no

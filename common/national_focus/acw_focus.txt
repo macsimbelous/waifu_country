@@ -1883,6 +1883,9 @@ focus_tree = {
 		available = {
 			has_completed_focus = acw_focus_complete_the_reform
 			is_subject = no
+			NOT = {
+				has_completed_focus = acw_focus_beacon_of_freedom
+			}
 		}
 		completion_reward = {
 			add_war_support = 0.1
