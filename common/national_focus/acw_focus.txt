@@ -1435,6 +1435,12 @@ focus_tree = {
 				}
 				dismantle_faction = yes
 			}
+			add_state_core = 736
+			add_state_core = 852
+			add_state_core = 163
+			add_state_core = 80
+			add_state_core = 78
+			add_state_core = 766
 		}
 	}
 	focus = {
