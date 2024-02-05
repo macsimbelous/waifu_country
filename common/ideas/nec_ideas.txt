@@ -86,6 +86,11 @@ ideas = {
 				max_command_power_mult = 0.5
 				grant_medal_cost_factor = -0.5
 				military_leader_cost_factor = -0.9
+				hidden_modifier = {
+					naval_attrition = -0.5
+					naval_morale_factor = 0.1
+					navy_leader_cost_factor = -0.9
+				}
 			}
 		}
 	}

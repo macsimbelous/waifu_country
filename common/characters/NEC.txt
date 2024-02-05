@@ -683,6 +683,73 @@ characters = {
 			}
 		}
 	}
+	nec_vereda_doomweaver = {
+		name = nec_vereda_doomweaver
+		portraits = {
+			navy = {
+				small = GFX_idea_nec_vereda_doomweaver
+				large = GFX_portrait_nec_vereda_doomweaver_navy
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = nec_vereda_doomweaver
+			cost = 150
+			available = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = wfc_flag_nec_vereda_doomweaver
+							}
+						}
+					}
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+			}
+			traits = {
+				grand_fleet_proponent
+			}
+			modifier = {
+				navy_capital_ship_attack_factor = 0.1
+				navy_capital_ship_defence_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			on_add = {
+				if = {
+					limit = {
+						NOT = {
+							ROOT = {
+								has_country_flag = wfc_flag_nec_vereda_doomweaver
+							}
+						}
+					}
+					nec_vereda_doomweaver = {
+						add_naval_commander_role = {
+							traits = {
+								ironside
+								big_guns_expert
+								gentlemanly
+							}
+							skill = 4
+							attack_skill = 5
+							defense_skill = 4
+							maneuvering_skill = 4
+							coordination_skill = 4
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_nec_vereda_doomweaver
+					}
+				}
+			}
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		#name = generic_head_of_intelligence
