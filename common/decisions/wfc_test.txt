@@ -574,18 +574,6 @@ wfc_test_category = {
 			add_political_power = 100
 		}
 	}
-	wfc_test_4 = {
-		fire_only_once = no
-		cost = 0
-		available = {
-		}
-		complete_effect = {
-			set_autonomy = {
-				target = ENG
-				autonomy_state = autonomy_integrated_puppet
-			}
-		}
-	}
 	wfc_test_5 = {
 		fire_only_once = no
 		cost = 0

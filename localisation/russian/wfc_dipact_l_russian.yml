@@ -38,3 +38,8 @@
  WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_TITLE: "Преобразовать в §Gпровинцию§!"
  WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_ACTION_DESC: "Преобразование субъекта в §Gпровинцию§! позволит нам эффективнее использовать его ресурсы."
  wfc_diplomatic_action_convert_to_province_send: "Став §Gпровинцией§! субъект §Y[THIS.GetName]§! евеличет свою интеграцию в наше империю."
+
+#wfc_diplomatic_action_unite_the_subjects
+ WFC_DIPLOMATIC_ACTION_UNITE_THE_SUBJECTS_TITLE: "Объединить субъекты"
+ WFC_DIPLOMATIC_ACTION_UNITE_THE_SUBJECTS_ACTION_DESC: "Субъекты населенные одной нацией будут объединены."
+ wfc_diplomatic_action_unite_the_subjects_send: "Присоединить к этому субъекту другие субъекта населённые такой же нацией."

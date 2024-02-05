@@ -35,3 +35,8 @@
  WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_TITLE: "Convert to §Gprovince§!"
  WFC_DIPLOMATIC_ACTION_CONVERT_TO_PROVINCE_ACTION_DESC: "Converting the subject §Y[THIS.GetName]§! to §Gprovince§! will allow us to utilize its resources more efficiently."
  wfc_diplomatic_action_convert_to_province_send: "By becoming a §Gprovince§! the subject §Y[THIS.GetName]§! is increasing its integration into our empire."
+
+#wfc_diplomatic_action_unite_the_subjects
+ WFC_DIPLOMATIC_ACTION_UNITE_THE_SUBJECTS_TITLE: "Unite the subjects"
+ WFC_DIPLOMATIC_ACTION_UNITE_THE_SUBJECTS_ACTION_DESC: "Subjects inhabited by one nation will be united."
+ wfc_diplomatic_action_unite_the_subjects_send: "To annex to this entity other entities populated by the same nation."

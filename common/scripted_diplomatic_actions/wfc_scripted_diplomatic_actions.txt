@@ -776,4 +776,100 @@ scripted_diplomatic_actions = {
 			base = 1
 		}
 	}
+	wfc_diplomatic_action_unite_the_subjects = {
+		allowed = {
+			ROOT = {
+				OR = {
+					original_tag = ACW
+					original_tag = HEN
+					original_tag = MAH
+					original_tag = TRP
+					original_tag = MMS
+					original_tag = MEH
+					original_tag = NEC
+				}
+			}
+		}
+		visible = {
+			is_puppet_of = ROOT
+			any_other_country = {
+				is_puppet_of = ROOT
+				original_tag = FROM
+			}
+		}
+		selectable = {
+			
+		}
+		requires_acceptance = no
+		cost = 100
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					is_puppet_of = ROOT
+					original_tag = FROM
+				}
+				FROM = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = wfc_diplomatic_action_unite_the_subjects_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = wfc_diplomatic_action_unite_the_subjects_receive
+		accept_title = wfc_diplomatic_action_unite_the_subjects_accept
+		accept_description = wfc_diplomatic_action_unite_the_subjects_accept_desc
+		reject_title = wfc_diplomatic_action_unite_the_subjects_reject
+		reject_description = wfc_diplomatic_action_unite_the_subjects_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
 }

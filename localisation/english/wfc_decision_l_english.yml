@@ -45,6 +45,7 @@
  wfc_decision_show_decisions_to_buy_shipyards: "Show solutions for the purchase of shipyards"
  wfc_decision_take_control_of_all_puppet_fleets: "Take control of all puppet fleets"
  wfc_decision_take_control_of_all_puppet_fleets_desc: "Our subjects have §G[?wfc_var_puppet_num_ships]§! ships of the following types at their disposal:\nCarriers - §G[?wfc_var_puppet_carriers]§!\nBattleships - §G[?wfc_var_puppet_battleships]§!\nBattle cruisers - §G[?wfc_var_puppet_battle_cruisers]§!\nHeavy cruisers - §G[?wfc_var_puppet_heavy_cruisers]§!\nLight cruisers - §G[?wfc_var_puppet_light_cruisers]§!\nDestroyers - §G[?wfc_var_puppet_destroyers]§!\nSubmarines - §G[?wfc_var_puppet_submarines]§!\n§R(The number of ships is updated once a month)§!"
+ wfc_governor_general_will_be_appointed_tt: "A Governor General will be appointed"
 
 #wfc_world_conquest_category
  wfc_world_conquest_category:0 "Conquest of the world"
