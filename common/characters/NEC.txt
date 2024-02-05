@@ -283,8 +283,7 @@ characters = {
 				wfc_head_of_intelligence
 			}
 			modifier = {
-				foreign_subversive_activites = -0.5
-				resistance_damage_to_garrison = -0.5
+				intel_network_gain_factor = 0.15
 			}
 			ai_will_do = {
 				factor = 1
@@ -310,6 +309,10 @@ characters = {
 			}
 			traits = {
 				wfc_trait_head_of_counterintelligence
+			}
+			modifier = {
+				resistance_damage_to_garrison = -0.5
+				stability_factor = 0.1
 			}
 			ai_will_do = {
 				factor = 1

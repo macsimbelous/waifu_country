@@ -10,7 +10,7 @@ wfc_acw_assistance:0 "Экономическая помощь §G[ACW.GetNameDef
 wfc_acw_puppet:0 "Марионетка §G[ACW.GetNameDef]§!"
 wfc_tantacle_attack:0 "Атака тентаклей"
 Is_Flat_Justice:0 "Быстрое правосудие"
-wfc_economic_assistance:0 "Экономическая помощь §G[FROM.OVERLORD.GetNameDef]§!"
+wfc_economic_assistance: "Экономическая помощь §G[FROM.OVERLORD.GetNameDef]§!"
 wfc_idea_individualism:0 "Индивидуализм"
 
 
@@ -114,6 +114,7 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
  trp_beacon_of_liberty: "§CМаяк трапской свободы§!"
 
 #NEC
+ nec_idea_the_undead: "§GНежить§!"
  nec_idea_necromancy: "Некромантия"
  nec_idea_contempt_for_the_living: "Презрение к живым"
  nec_idea_army_of_the_undead: "Армия нежити"
