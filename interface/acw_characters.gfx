@@ -654,8 +654,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/yukina_himeragi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_yukina_himeragi"
-		texturefile = "gfx/leaders/ACW/Yukina_Himeragi.dds"
+		name = "GFX_portrait_acw_yukina_himeragi_army"
+		texturefile = "gfx/leaders/ACW/yukina_himeragi_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_yukina_himeragi_civilian"
+		texturefile = "gfx/leaders/ACW/yukina_himeragi_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_yuna"

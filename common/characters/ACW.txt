@@ -1480,7 +1480,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_yukina_himeragi
-				large = GFX_portrait_acw_yukina_himeragi
+				large = GFX_portrait_acw_yukina_himeragi_army
+			}
+			civilian = {
+				large = GFX_portrait_acw_yukina_himeragi_civilian
 			}
 		}
 		corps_commander = {
