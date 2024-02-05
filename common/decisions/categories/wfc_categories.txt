@@ -98,6 +98,7 @@ wfl_immigration_category = {
 	}
 	visible = {
 		has_government = democratic
+		has_war = no
 	}
 }
 

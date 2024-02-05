@@ -289,20 +289,16 @@ wfl_immigration_category = {
 		allowed = {
 			always = yes
 		}
-		available = {
-			has_war = no
-		}
 		ai_will_do = {
-			base = 0
-			modifier = {
-				has_political_power > 300
-				add = 1
-			}
+			base = 1
 		}
 		fire_only_once = no
 		cost = 50
 		days_re_enable = 60
 		days_remove = 30
+		cancel_trigger = {
+			has_war = yes
+		}
 		modifier = {
 			monthly_population = 0.2
 			stability_factor = -0.05
@@ -932,16 +928,23 @@ wfc_subjects_category = {
 						divide_temp_variable = {
 							temp_var = 2
 						}
-						add_to_temp_variable = {
-							wfc_count_recruits = temp_var
+						if = {
+							limit = {
+								check_variable = {
+									temp_var > 0
+								}
+							}
+							add_to_temp_variable = {
+								wfc_count_recruits = temp_var
+							}
+							set_temp_variable = {
+								temp_var2 = temp_var
+							}
+							subtract_from_temp_variable = {
+								temp_var2 = temp_var
+							}
+							add_manpower = temp_var2
 						}
-						set_temp_variable = {
-							temp_var2 = temp_var
-						}
-						subtract_from_temp_variable = {
-							temp_var2 = temp_var
-						}
-						add_manpower = temp_var2
 					}
 				}
 				add_manpower = wfc_count_recruits
