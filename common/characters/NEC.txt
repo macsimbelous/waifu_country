@@ -659,6 +659,30 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	nec_nefi_disrupter = {
+		name = nec_nefi_disrupter
+		portraits = {
+			army = {
+				small = GFX_idea_nec_nefi_disrupter
+				large = GFX_portrait_nec_nefi_disrupter_air
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = air
+			idea_token = nec_nefi_disrupter
+			cost = 150
+			traits = {
+				victory_through_airpower
+			}
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		#name = generic_head_of_intelligence
