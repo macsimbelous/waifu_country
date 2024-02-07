@@ -367,6 +367,22 @@ spriteTypes = {
 		name = "GFX_portrait_hen_aya_itou_navy"
 		texturefile = "gfx/leaders/HEN/aya_itou_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hen_lona"
+		texturefile = "gfx/leaders/HEN/lona_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_lona_army"
+		texturefile = "gfx/leaders/HEN/lona_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_cobi"
+		texturefile = "gfx/leaders/HEN/cobi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_cobi_navy"
+		texturefile = "gfx/leaders/HEN/cobi_navy.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_hen_land_01_small"

@@ -1144,4 +1144,43 @@ characters = {
 			coordination_skill = 4
 		}
 	}
+	hen_lona = {
+		name = hen_lona
+		portraits = {
+			army = {
+				small = GFX_idea_hen_lona
+				large = GFX_portrait_hen_lona_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	hen_cobi = {
+		name = hen_cobi
+		portraits = {
+			navy = {
+				small = GFX_idea_hen_cobi
+				large = GFX_portrait_hen_cobi_navy
+			}
+		}
+		navy_leader = {
+			traits = {
+				aviation_enthusiast
+				#air_controller
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
 }
