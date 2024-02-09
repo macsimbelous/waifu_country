@@ -199,6 +199,14 @@ spriteTypes = {
 		name = "GFX_portrait_nec_vereda_doomweaver_navy"
 		texturefile = "gfx/leaders/NEC/vereda_doomweaver_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_vemo_lufinn"
+		texturefile = "gfx/leaders/NEC/vemo_lufinn_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_vemo_lufinn_air"
+		texturefile = "gfx/leaders/NEC/vemo_lufinn_air.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"

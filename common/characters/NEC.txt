@@ -750,6 +750,27 @@ characters = {
 			}
 		}
 	}
+	nec_vemo_lufinn = {
+		name = nec_vemo_lufinn
+		portraits = {
+			army = {
+				small = GFX_idea_nec_vemo_lufinn
+				large = GFX_portrait_nec_vemo_lufinn_air
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = air
+			idea_token = nec_vemo_lufinn
+			cost = 150
+			traits = {
+				air_strategic_bombing_3
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		#name = generic_head_of_intelligence
