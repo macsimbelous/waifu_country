@@ -1490,6 +1490,12 @@ shared_focus = {
 			tag = HEN
 		}
 	}
+	offset = {
+		x = -4
+		trigger = {
+			tag = NEC
+		}
+	}
 	cost = 5
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
