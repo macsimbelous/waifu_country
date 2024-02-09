@@ -135,9 +135,6 @@ ideas = {
 		}
 		meh_ai = {
 			picture = generic_electronics_concern_1
-			allowed = {
-				original_tag = MEH
-			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -155,9 +152,6 @@ ideas = {
 		}
 		meh_ai_2 = {
 			picture = generic_electronics_concern_1
-			allowed = {
-				original_tag = MEH
-			}
 			allowed_civil_war = {
 				always = yes
 			}

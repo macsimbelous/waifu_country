@@ -1,9 +1,6 @@
 ideas = {
 	country = {
 		nec_idea_the_undead = {
-			allowed = {
-				original_tag = NEC
-			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -29,9 +26,6 @@ ideas = {
 			}
 		}
 		nec_idea_necromancy = {
-			allowed = {
-				original_tag = NEC
-			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -45,9 +39,6 @@ ideas = {
 			}
 		}
 		nec_idea_contempt_for_the_living = {
-			allowed = {
-				original_tag = NEC
-			}
 			allowed_civil_war = {
 				always = yes
 			}
@@ -67,9 +58,6 @@ ideas = {
 			}
 		}
 		nec_idea_army_of_the_undead = {
-			allowed = {
-				original_tag = NEC
-			}
 			allowed_civil_war = {
 				always = yes
 			}

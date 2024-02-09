@@ -662,6 +662,34 @@ wfc_subjects_category = {
 			var:country_to_initiate = {
 				wfc_change_country_leader = yes
 			}
+			if = {
+				limit = {
+					original_tag = NEC
+				}
+				var:country_to_initiate = {
+					add_ideas = nec_idea_the_undead
+					add_ideas = nec_idea_necromancy
+					add_ideas = nec_idea_army_of_the_undead
+				}
+			}
+			if = {
+				limit = {
+					original_tag = MEH
+				}
+				if = {
+					limit = {
+						has_idea = meh_ai_2
+					}
+					var:country_to_initiate = {
+						add_ideas = meh_ai_2
+					}
+				}
+				else = {
+					var:country_to_initiate = {
+						add_ideas = meh_ai
+					}
+				}
+			}
 		}
 	}
 	wfc_decision_grant_autonomy_to_non_exist = {
