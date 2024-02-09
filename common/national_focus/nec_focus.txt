@@ -683,12 +683,12 @@ focus_tree = {
 					has_war = yes
 				}
 				has_army_manpower = {
-					size > 499999
+					size > 999999
 				}
 			}
 			else = {
 				has_army_manpower = {
-					size > 999999
+					size > 499999
 				}
 			}
 		}
@@ -705,6 +705,12 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				RAJ = {
+					is_in_faction = no
+				}
+				factor = 100
+			}
 		}
 	}
 	focus = {
@@ -932,12 +938,12 @@ focus_tree = {
 					has_war = yes
 				}
 				has_army_manpower = {
-					size > 699999
+					size > 1499999
 				}
 			}
 			else = {
 				has_army_manpower = {
-					size > 1499999
+					size > 699999
 				}
 			}
 		}
