@@ -833,7 +833,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_harmonize_conscription_laws = {
-		priority = 5
+		priority = 6
 		cost = 50
 		visible = {
 			any_other_country = {
@@ -913,7 +913,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_conscription_of_recruits_in_the_subjects_of_the_federation = {
-		priority = 4
+		priority = 5
 		cost = 100
 		visible = {
 			any_other_country = {
@@ -980,7 +980,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_decision_prohibit_transfer_of_divisions = {
-		priority = 6
+		priority = 7
 		cost = 0
 		visible = {
 			#num_subjects > 0
@@ -1011,7 +1011,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_decision_take_control_of_all_puppet_fleets = {
-		priority = 3
+		priority = 4
 		cost = 300
 		visible = {
 			naval_base > 0
@@ -1044,7 +1044,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_decision_hide_decisions_to_buy_shipyards = {
-		priority = 2
+		priority = 3
 		cost = 0
 		visible = {
 			NOT = {
@@ -1059,7 +1059,7 @@ wfc_subjects_category = {
 		}
 	}
 	wfc_decision_show_decisions_to_buy_shipyards = {
-		priority = 2
+		priority = 3
 		cost = 0
 		visible = {
 			has_country_flag = wfc_flag_hide_decisions_to_buy_shipyards

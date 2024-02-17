@@ -412,7 +412,7 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   trp_cloning_category:0 "Клонирование"
   trp_cloning_category_desc:0 "Массовое клонирование"
   trp_develop_cloning_technology:0 "Разработать технологию клонирования"
-  trp_cloning_decision.t:0 "Произвести §G[?mtth:trp_cloning_power]§! клонов"
+  trp_cloning_decision.t: "Произвести §G[?mtth:trp_cloning_power]§! клонов"
   trp_cloning_level_up_decision.t:0 "Расширить производство клонов"
 
  #trp_south_american_federation
@@ -444,6 +444,9 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   trp_decision_quickly_capture_urg: "Быстрый захват Уругвая"
   trp_decision_quickly_capture_arg: "Быстрый захват Аргентины"
   trp_decision_quickly_capture_chl: "Быстрый захват Чили"
+ #wfc_subjects_category
+  trp_decision_form_united_central_america: "Сформировать провинцию Центральная америка"
+  trp_decision_transfer_blz: "Передать Белиз"
 
 #NEC
  #nec_category_necrification

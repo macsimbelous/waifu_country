@@ -874,7 +874,12 @@ economy_decisions = {
 			build_railway = {
 				level = 2
 				path = {
-					5083 10792 5026 10747 2023 4969
+					5083
+					10792
+					5026
+					10747
+					2023
+					4969
 				}
 			}
 			493 = {
@@ -897,6 +902,7 @@ economy_decisions = {
 		}
 	}
 }
+
 political_actions = {
 	trp_retire_leader = {
 		name = wfc_retire_leader
@@ -1425,6 +1431,136 @@ trp_category_tasks = {
 			507 = {
 				add_compliance = 20
 			}
+		}
+	}
+}
+
+wfc_subjects_category = {
+	trp_decision_form_united_central_america = {
+		name = form_united_central_america
+		icon = generic_form_nation
+		priority = 2
+		available = {
+			is_subject = no
+			controls_state = 313
+			controls_state = 314
+			controls_state = 312
+			controls_state = 317
+			controls_state = 316
+		}
+		visible = {
+			NOT = {
+				has_country_flag = trp_flag_form_united_central_america
+			}
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = HON
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 313
+					transfer_state = 314
+					transfer_state = 312
+					transfer_state = 317
+					transfer_state = 316
+					if = {
+						limit = {
+							ROOT = {
+								controls_state = 311
+							}
+						}
+						transfer_state = 311
+					}
+					add_state_core = 313
+					add_state_core = 314
+					add_state_core = 312
+					add_state_core = 317
+					add_state_core = 316
+					add_state_core = 311
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					set_cosmetic_tag = USC_UNIFIED
+					set_country_flag = trp_flag_united_central_america
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
+			hidden_effect = {
+				news_event = {
+					id = wtt_news.59
+					hours = 6
+				}
+				set_global_flag = form_united_central_america_flag
+				set_country_flag = trp_flag_form_united_central_america
+			}
+		}
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	trp_decision_transfer_blz = {
+		icon = generic_form_nation
+		priority = 2
+		available = {
+			is_subject = no
+			controls_state = 311
+		}
+		visible = {
+			has_country_flag = trp_flag_form_united_central_america
+			311 = {
+				OWNER = {
+					NOT = {
+						is_puppet_of = ROOT
+					}
+				}
+			}
+			any_other_country = {
+				is_puppet_of = ROOT
+				has_country_flag = trp_flag_united_central_america
+				has_capitulated = no
+			}
+		}
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					is_puppet_of = ROOT
+					has_country_flag = trp_flag_united_central_america
+				}
+				transfer_state = 311
+				add_state_core = 311
+			}
+		}
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }

@@ -9,6 +9,7 @@ trp_south_american_federation = {
 		}
 	}
 }
+
 trp_cloning_category = {
 	priority = 5
 	icon = decision_generic_research
@@ -41,3 +42,5 @@ trp_category_tasks = {
 		original_tag = TRP
 	}
 }
+
+
