@@ -3339,8 +3339,8 @@ acw_form_european_union_category = {
 			}
 		}
 		complete_effect = {
-			set_cosmetic_tag = ENG_imperial_federation_unified
-			#set_cosmetic_tag = EUR_UNIFIED
+			#set_cosmetic_tag = ENG_imperial_federation_unified
+			set_cosmetic_tag = EUR_UNIFIED
 			8 = {
 				add_core_of = ROOT
 			}
@@ -3476,6 +3476,10 @@ acw_form_european_union_category = {
 					add_core_of = ROOT
 				}
 				transfer_state = 31
+				806 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 806
 			}
 			# Italy
 			custom_effect_tooltip = form_eu_italy_coring_states_tt
@@ -3491,7 +3495,7 @@ acw_form_european_union_category = {
 				39 = {
 					add_core_of = ROOT
 				}
-				transfer_state = 36
+				transfer_state = 39
 				160 = {
 					add_core_of = ROOT
 				}
@@ -3728,6 +3732,10 @@ acw_form_european_union_category = {
 			# Poland
 			custom_effect_tooltip = form_country_poland_coring_states_tt
 			hidden_effect = {
+				762 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 762
 				86 = {
 					add_core_of = ROOT
 				}
@@ -3752,6 +3760,14 @@ acw_form_european_union_category = {
 					add_core_of = ROOT
 				}
 				transfer_state = 10
+				807 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 807
+				85 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 85
 				if = {
 					limit = {
 						97 = {
@@ -3766,6 +3782,7 @@ acw_form_european_union_category = {
 				92 = {
 					add_core_of = ROOT
 				}
+				transfer_state = 92
 				if = {
 					limit = {
 						91 = {
