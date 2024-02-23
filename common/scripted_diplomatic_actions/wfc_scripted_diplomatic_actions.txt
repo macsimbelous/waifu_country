@@ -754,6 +754,7 @@ scripted_diplomatic_actions = {
 					add_ideas = meh_ai
 				}
 			}
+			inherit_technology = ROOT
 		}
 		# runs when the action is properly sent and rejected
 		reject_effect = {

@@ -661,6 +661,7 @@ wfc_subjects_category = {
 			wfc_instantiate_province = yes
 			var:country_to_initiate = {
 				wfc_change_country_leader = yes
+				inherit_technology = ROOT
 			}
 			if = {
 				limit = {
