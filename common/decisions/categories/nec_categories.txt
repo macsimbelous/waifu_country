@@ -4,6 +4,9 @@ nec_category_necrification = {
 		original_tag = NEC
 	}
 	visible = {
-		has_country_flag = nec_flag_necrification
+		OR = {
+			has_country_flag = nec_flag_necrification
+			date > 1937.1.1
+		}
 	}
 }
