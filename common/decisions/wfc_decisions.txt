@@ -967,7 +967,7 @@ wfc_subjects_category = {
 								wfc_count_recruits = temp_var
 							}
 							set_temp_variable = {
-								temp_var2 = temp_var
+								temp_var2 = 0
 							}
 							subtract_from_temp_variable = {
 								temp_var2 = temp_var
@@ -976,7 +976,23 @@ wfc_subjects_category = {
 						}
 					}
 				}
-				add_manpower = wfc_count_recruits
+				if = {
+					limit = {
+						check_variable = {
+							wfc_count_recruits > 0
+						}
+					}
+					add_manpower = wfc_count_recruits
+				}
+				else = {
+					set_temp_variable = {
+						temp_var_3 = 5000
+					}
+					multiply_temp_variable = {
+						temp_var_3 = num_subjects
+					}
+					add_manpower = temp_var_3
+				}
 			}
 		}
 	}
