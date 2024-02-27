@@ -979,7 +979,7 @@ wfc_subjects_category = {
 				if = {
 					limit = {
 						check_variable = {
-							wfc_count_recruits > 0
+							wfc_count_recruits > 5000
 						}
 					}
 					add_manpower = wfc_count_recruits
