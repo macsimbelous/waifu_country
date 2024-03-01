@@ -1352,7 +1352,25 @@ focus_tree = {
 			}
 			add_stability = 0.1
 			add_political_power = 300
-			inherit_technology = JAP
+			#inherit_technology = JAP
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = fleet_in_being_tree
+				category = cat_base_strike
+			}
+			add_tech_bonus = {
+				name = naval_equipment
+				bonus = 1
+				uses = 2
+				category = naval_equipment
+			}
+			JAP = {
+				transfer_navy = {
+					target = ROOT
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100

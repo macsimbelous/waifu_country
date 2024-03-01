@@ -1440,6 +1440,9 @@ wfc_subjects_category = {
 		name = form_united_central_america
 		icon = generic_form_nation
 		priority = 2
+		allowed = {
+			original_tag = TRP
+		}
 		available = {
 			is_subject = no
 			controls_state = 313
