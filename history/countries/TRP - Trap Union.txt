@@ -1,4 +1,4 @@
-﻿capital = 495
+﻿capital = 939
 oob = "TRP_1936"
 set_naval_oob = "TRP_1936_Naval"
 
@@ -340,35 +340,17 @@ create_equipment_variant = {
 }
 
 build_railway = {
+	level = 1
 	path = {
 		4980
-		5008
-		1979
-	}
-}
-
-build_railway = {
-	path = {
-		1979
-		10934
+		13276
+		12885
+		10906
+		12828
+		4982
 		5214
-		5083
+		13361
 	}
 }
 
-build_railway = {
-	path = {
-		1979
-		12965
-		10960
-	}
-}
 
-build_railway = {
-	path = {
-		1979
-		8172
-		8175
-		2142
-	}
-}

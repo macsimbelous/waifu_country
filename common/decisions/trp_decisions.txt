@@ -253,12 +253,21 @@ trp_south_american_federation = {
 			# TRP
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_trp_required_states_tt
-				#controls_state = 495
-				495 = {
+				#controls_state = 939
+				939 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 280
-				280 = {
+				#controls_state = 969
+				969 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				687 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				309 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				310 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -298,7 +307,7 @@ trp_south_american_federation = {
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_pru_required_states_tt
 				#controls_state = 490
-				490 = {
+				947 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 491
@@ -334,14 +343,26 @@ trp_south_american_federation = {
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_chl_required_states_tt
 				#controls_state = 506
-				506 = {
+				951 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 279
-				279 = {
+				506 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 507
+				952 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				279 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				950 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				949 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				507 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
@@ -350,7 +371,7 @@ trp_south_american_federation = {
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_arg_required_states_tt
 				#controls_state = 278
-				278 = {
+				959 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 508
@@ -358,19 +379,43 @@ trp_south_american_federation = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 509
-				509 = {
+				957 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 510
-				510 = {
+				509 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 511
-				511 = {
+				510 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 512
+				960 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				511 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				958 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				956 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				278 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				512 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				955 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				954 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				953 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -389,44 +434,91 @@ trp_south_american_federation = {
 			# BRA
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_bra_required_states_tt
-				#controls_state = 496
-				496 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 497
-				497 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 498
-				498 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 499
-				499 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 500
-				500 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 501
-				501 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 502
 				502 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 503
 				503 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 504
+				944 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				501 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				496 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				500 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				943 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				499 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				936 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				498 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				935 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				937 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				497 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				941 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				505 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				504 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 505
-				505 = {
+				280 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				938 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				966 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				965 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				942 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				967 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				968 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				962 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				963 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				961 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				964 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				940 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				495 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -434,8 +526,17 @@ trp_south_american_federation = {
 			305 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			490 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 300
 			300 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			945 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			946 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			#controls_state = 309
@@ -795,6 +896,7 @@ economy_decisions = {
 			original_tag = TRP
 		}
 		available = {
+			has_completed_focus = trp_improve_railway_network
 			num_of_civilian_factories_available_for_projects > 2
 		}
 		modifier = {
@@ -802,37 +904,16 @@ economy_decisions = {
 		}
 		remove_effect = {
 			build_railway = {
-				level = 1
+				level = 3
 				path = {
 					4980
-					5008
-					1979
-				}
-			}
-			build_railway = {
-				level = 1
-				path = {
-					1979
-					10934
+					13276
+					12885
+					10906
+					12828
+					4982
 					5214
-					5083
-				}
-			}
-			build_railway = {
-				level = 1
-				path = {
-					1979
-					12965
-					10960
-				}
-			}
-			build_railway = {
-				level = 1
-				path = {
-					1979
-					8172
-					8175
-					2142
+					13361
 				}
 			}
 		}
@@ -849,7 +930,27 @@ economy_decisions = {
 			original_tag = TRP
 		}
 		available = {
-			controls_state = 495
+			# TRP
+			custom_trigger_tooltip = {
+				tooltip = trp_form_country_trp_required_states_tt
+				#controls_state = 939
+				939 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 969
+				969 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				687 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				309 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				310 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_col_required_states_tt
 				# controls_state = 493
@@ -865,6 +966,22 @@ economy_decisions = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
+			# VEN
+			custom_trigger_tooltip = {
+				tooltip = trp_form_country_ven_required_states_tt
+				#controls_state = 488
+				488 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 307
+				307 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 489
+				489 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
 			num_of_civilian_factories_available_for_projects > 2
 		}
 		modifier = {
@@ -873,14 +990,15 @@ economy_decisions = {
 		remove_effect = {
 			build_railway = {
 				level = 2
-				path = {
-					5083
-					10792
-					5026
-					10747
-					2023
-					4969
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = TRP
+						add = 2
+					}
 				}
+				start_province = 13361
+				target_province = 4969
 			}
 			493 = {
 				add_building_construction = {

@@ -309,146 +309,146 @@ division_template = {
 
 units = {
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Mountaineers"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
-		location = 1979
+		location = 4980
 		division_template = "Trap Mountaineers"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	#tanks
 	# division = {
-	# 	location = 1979
+	# 	location = 4980
 	# 	division_template = "Trap light tank"
 	# 	start_experience_factor = 0.5
 	# 	start_equipment_factor = 1
 	# }
 	# division = {
-	# 	location = 1979
+	# 	location = 4980
 	# 	division_template = "Trap light tank"
 	# 	start_experience_factor = 0.5
 	# 	start_equipment_factor = 1
@@ -456,7 +456,7 @@ units = {
 }
 
 air_wings = {
-	495 = {
+	939 = {
 		small_plane_airframe_0 = {
 			owner = "TRP"
 			amount = 100

@@ -1,0 +1,32 @@
+state={
+	id=969
+	name="STATE_969"
+	provinces={
+		5214 13340 13361
+	}
+	resources = {
+		steel = 12
+	}
+	history={
+		owner = TRP
+		add_core_of = TRP
+		buildings = {
+			infrastructure = 3
+			#arms_factory = 3
+			industrial_complex = 3
+			13361 = {
+				supply_node = 1
+			}
+		}
+		victory_points = {
+			5214 10
+		}
+		victory_points = {
+			13361 1
+		}
+	}
+	manpower=2648159
+	buildings_max_level_factor=1.000
+	local_supplies=10.0
+	state_category = large_city
+}

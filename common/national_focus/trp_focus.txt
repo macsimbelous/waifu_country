@@ -20,7 +20,7 @@
 	focus = {
 		id = trp_infrastructure_effort_nsb
 		icon = GFX_goal_generic_construction
-		x = 16
+		x = 17
 		y = 8
 		cost = 5
 		ai_will_do = {
@@ -46,7 +46,7 @@
 			wfc_add_infrastructure_in_random_state = yes
 			wfc_add_infrastructure_in_random_state = yes
 			wfc_add_infrastructure_in_random_state = yes
-			280 = {
+			969 = {
 				wfc_urbanize_state = yes
 			}
 		}
@@ -96,34 +96,13 @@
 				level = 1
 				path = {
 					4980
-					5008
-					1979
-				}
-			}
-			build_railway = {
-				level = 1
-				path = {
-					1979
-					10934
+					13276
+					12885
+					10906
+					12828
+					4982
 					5214
-					5083
-				}
-			}
-			build_railway = {
-				level = 1
-				path = {
-					1979
-					12965
-					10960
-				}
-			}
-			build_railway = {
-				level = 1
-				path = {
-					1979
-					8172
-					8175
-					2142
+					13361
 				}
 			}
 		}
@@ -224,7 +203,7 @@
 		completion_reward = {
 			wfc_add_fuel_silo_in_random_state = yes
 			wfc_add_fuel_silo_in_random_state = yes
-			280 = {
+			969 = {
 				wfc_urbanize_state = yes
 			}
 		}
@@ -298,7 +277,7 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			280 = {
+			969 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -325,14 +304,14 @@
 		cost = 5
 		available = {
 			has_tech = synth_oil_experiments
-			has_full_control_of_state = 280
+			has_full_control_of_state = 969
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
 		}
 		completion_reward = {
-			280 = {
+			969 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
@@ -362,10 +341,10 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
-			has_full_control_of_state = 495
+			has_full_control_of_state = 939
 		}
 		completion_reward = {
-			495 = {
+			939 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -896,7 +875,7 @@
 		id = trp_conquest_of_south_america
 		icon = GFX_focus_por_recover_latin_america
 		#relative_position_id = trp_propagand_communism_in_south_america
-		x = 11
+		x = 12
 		y = 8
 		cost = 5
 		search_filters = {
@@ -961,11 +940,10 @@
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = trp_attack_bra
-			focus = trp_attack_arg
 		}
 		relative_position_id = trp_attack_bra
-		x = 0
-		y = 3
+		x = -2
+		y = 1
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -976,44 +954,91 @@
 			# BRA
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_bra_required_states_tt
-				#controls_state = 496
-				496 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 497
-				497 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 498
-				498 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 499
-				499 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 500
-				500 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 501
-				501 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 502
 				502 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 503
 				503 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 504
+				944 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				501 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				496 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				500 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				943 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				499 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				936 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				498 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				935 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				937 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				497 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				941 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				505 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				504 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 505
-				505 = {
+				280 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				938 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				966 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				965 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				942 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				967 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				968 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				962 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				963 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				961 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				964 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				940 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				495 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -1037,10 +1062,10 @@
 		id = trp_attack_bol
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = trp_conquest_of_south_america
+			focus = trp_attack_bra
 		}
-		relative_position_id = trp_conquest_of_south_america
-		x = 0
+		relative_position_id = trp_attack_bra
+		x = 2
 		y = 1
 		cost = 5
 		search_filters = {
@@ -1049,6 +1074,97 @@
 		will_lead_to_war_with = BOL
 		available = {
 			is_puppet = no
+			# BRA
+			custom_trigger_tooltip = {
+				tooltip = trp_form_country_bra_required_states_tt
+				502 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				503 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				944 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				501 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				496 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				500 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				943 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				499 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				936 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				498 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				935 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				937 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				497 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				941 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				505 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				504 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				280 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				938 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				966 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				965 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				942 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				967 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				968 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				962 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				963 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				961 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				964 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				940 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				495 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
 		}
 		completion_reward = {
 			add_state_claim = 302
@@ -1067,48 +1183,14 @@
 		}
 	}
 	focus = {
-		id = trp_attack_col
+		id = trp_attack_ven
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = trp_conquest_of_south_america
 		}
-		relative_position_id = trp_conquest_of_south_america
 		x = 2
 		y = 1
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		will_lead_to_war_with = COL
-		available = {
-			is_puppet = no
-		}
-		completion_reward = {
-			add_state_claim = 493
-			add_state_claim = 306
-			add_state_claim = 486
-			create_wargoal = {
-				target = COL
-				type = annex_everything
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 0.5
-			}
-		}
-	}
-	focus = {
-		id = trp_attack_ven
-		icon = GFX_goal_generic_major_war
-		prerequisite = {
-			focus = trp_attack_col
-		}
-		x = 0
-		y = 1
-		relative_position_id = trp_attack_col
+		relative_position_id = trp_conquest_of_south_america
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -1147,12 +1229,46 @@
 		}
 	}
 	focus = {
-		id = trp_attack_ecu
+		id = trp_attack_col
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = trp_attack_ven
 		}
 		relative_position_id = trp_attack_ven
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		will_lead_to_war_with = COL
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_state_claim = 493
+			add_state_claim = 306
+			add_state_claim = 486
+			create_wargoal = {
+				target = COL
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 0.5
+			}
+		}
+	}
+	focus = {
+		id = trp_attack_ecu
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = trp_attack_col
+		}
+		relative_position_id = trp_attack_col
 		x = 0
 		y = 1
 		cost = 5
@@ -1212,35 +1328,15 @@
 				factor = 0.5
 			}
 		}
-		bypass = {
-			# PRU
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_pru_required_states_tt
-				#controls_state = 490
-				490 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 491
-				491 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 303
-				303 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 492
-				492 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 494
-				494 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-		}
 		available = {
 			is_puppet = no
 			305 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			490 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			486 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
@@ -1260,9 +1356,9 @@
 		id = trp_attack_par
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
-			focus = trp_attack_bol
+			focus = trp_attack_bra
 		}
-		relative_position_id = trp_attack_bol
+		relative_position_id = trp_attack_bra
 		x = 0
 		y = 1
 		cost = 10
@@ -1272,62 +1368,95 @@
 		will_lead_to_war_with = PAR
 		available = {
 			is_puppet = no
-			OR = {
-				# BRA
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_bra_required_states_tt
-					#controls_state = 496
-					496 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 497
-					497 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 498
-					498 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 499
-					499 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 500
-					500 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 501
-					501 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 502
-					502 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 503
-					503 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 504
-					504 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 505
-					505 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
+			# BRA
+			custom_trigger_tooltip = {
+				tooltip = trp_form_country_bra_required_states_tt
+				502 = {
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				# BOL
-				custom_trigger_tooltip = {
-					tooltip = trp_form_country_bol_required_states_tt
-					#controls_state = 302
-					302 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
-					#controls_state = 487
-					487 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
+				503 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				944 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				501 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				496 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				500 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				943 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				499 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				936 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				498 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				935 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				937 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				497 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				941 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				505 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				504 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				280 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				938 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				966 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				965 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				942 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				967 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				968 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				962 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				963 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				961 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				964 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				940 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				495 = {
+					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 		}
@@ -1335,7 +1464,9 @@
 			build_railway = {
 				level = 1
 				path = {
-					2142 12902 12916
+					2142
+					12902
+					12916
 				}
 			}
 			487 = {
@@ -1367,6 +1498,12 @@
 		prerequisite = {
 			focus = trp_attack_par
 		}
+		prerequisite = {
+			focus = trp_attack_bol
+		}
+		prerequisite = {
+			focus = trp_attack_urg
+		}
 		relative_position_id = trp_attack_par
 		x = 0
 		y = 1
@@ -1380,6 +1517,12 @@
 			300 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			945 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			946 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			# PAR
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_par_required_states_tt
@@ -1389,6 +1532,18 @@
 				}
 				#controls_state = 688
 				688 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+			# BOL
+			custom_trigger_tooltip = {
+				tooltip = trp_form_country_bol_required_states_tt
+				#controls_state = 302
+				302 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				#controls_state = 487
+				487 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -1433,7 +1588,7 @@
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_arg_required_states_tt
 				#controls_state = 278
-				278 = {
+				959 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 508
@@ -1441,19 +1596,43 @@
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 509
-				509 = {
+				957 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 510
-				510 = {
+				509 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 511
-				511 = {
+				510 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 512
+				960 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				511 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				958 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				956 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				278 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				512 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				955 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				954 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				953 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -1501,12 +1680,21 @@
 			# TRP
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_trp_required_states_tt
-				#controls_state = 495
-				495 = {
+				#controls_state = 939
+				939 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 280
-				280 = {
+				#controls_state = 969
+				969 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				687 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				309 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				310 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -1546,7 +1734,7 @@
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_pru_required_states_tt
 				#controls_state = 490
-				490 = {
+				947 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 491
@@ -1582,14 +1770,26 @@
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_chl_required_states_tt
 				#controls_state = 506
-				506 = {
+				951 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 279
-				279 = {
+				506 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 507
+				952 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				279 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				950 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				949 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				507 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
@@ -1598,7 +1798,7 @@
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_arg_required_states_tt
 				#controls_state = 278
-				278 = {
+				959 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 508
@@ -1606,19 +1806,43 @@
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 509
-				509 = {
+				957 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 510
-				510 = {
+				509 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 511
-				511 = {
+				510 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				#controls_state = 512
+				960 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				511 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				958 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				956 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				278 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				512 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				955 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				954 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				953 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -1637,44 +1861,91 @@
 			# BRA
 			custom_trigger_tooltip = {
 				tooltip = trp_form_country_bra_required_states_tt
-				#controls_state = 496
-				496 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 497
-				497 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 498
-				498 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 499
-				499 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 500
-				500 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 501
-				501 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 502
 				502 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 503
 				503 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 504
+				944 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				501 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				496 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				500 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				943 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				499 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				936 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				498 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				935 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				937 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				497 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				941 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				505 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 				504 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 505
-				505 = {
+				280 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				938 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				966 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				965 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				942 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				967 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				968 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				962 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				963 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				961 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				964 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				940 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				495 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -1682,8 +1953,17 @@
 			305 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			490 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 			#controls_state = 300
 			300 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			945 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			946 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			#controls_state = 309
@@ -2039,7 +2319,7 @@
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 22
+		x = 23
 		y = 8
 		cost = 5
 		search_filters = {

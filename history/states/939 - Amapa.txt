@@ -1,0 +1,40 @@
+
+state={
+	id=939
+	name="STATE_939"
+	resources={
+		aluminium=24.000
+	}
+
+	history={
+		owner = TRP
+		add_core_of = TRP
+		buildings = {
+			infrastructure = 4
+			4980 = {
+				naval_base = 3
+				coastal_bunker = 3
+				supply_node = 1
+			}
+			dockyard = 1
+			industrial_complex = 6
+			arms_factory = 5
+			air_base = 4
+		}
+		victory_points = {
+			5214 1 
+		}
+		victory_points = {
+			4980 50 
+		}
+
+	}
+
+	provinces={
+		4980 13276 
+	}
+	manpower=7631891
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+	local_supplies=10.0
+}
