@@ -912,16 +912,35 @@
 			}
 		}
 		completion_reward = {
-			add_state_claim = 496
-			add_state_claim = 497
-			add_state_claim = 498
-			add_state_claim = 499
-			add_state_claim = 500
-			add_state_claim = 501
 			add_state_claim = 502
 			add_state_claim = 503
-			add_state_claim = 504
+			add_state_claim = 944
+			add_state_claim = 501
+			add_state_claim = 496
+			add_state_claim = 500
+			add_state_claim = 943
+			add_state_claim = 499
+			add_state_claim = 936
+			add_state_claim = 498
+			add_state_claim = 935
+			add_state_claim = 937
+			add_state_claim = 497
+			add_state_claim = 941
 			add_state_claim = 505
+			add_state_claim = 504
+			add_state_claim = 280
+			add_state_claim = 938
+			add_state_claim = 966
+			add_state_claim = 965
+			add_state_claim = 942
+			add_state_claim = 967
+			add_state_claim = 968
+			add_state_claim = 962
+			add_state_claim = 963
+			add_state_claim = 961
+			add_state_claim = 964
+			add_state_claim = 940
+			add_state_claim = 495
 			create_wargoal = {
 				target = BRA
 				type = annex_everything
@@ -1045,6 +1064,8 @@
 		}
 		completion_reward = {
 			add_state_claim = 300
+			add_state_claim = 946
+			add_state_claim = 945
 			create_wargoal = {
 				target = URG
 				type = annex_everything
@@ -1262,25 +1283,26 @@
 		will_lead_to_war_with = ECU
 		available = {
 			is_puppet = no
-			# VEN
+			# COL
 			custom_trigger_tooltip = {
-				tooltip = trp_form_country_ven_required_states_tt
-				#controls_state = 488
-				488 = {
+				tooltip = trp_form_country_col_required_states_tt
+				#controls_state = 493
+				493 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 307
-				307 = {
+				#controls_state = 306
+				306 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				#controls_state = 489
-				489 = {
+				#controls_state = 486
+				486 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
 		}
 		completion_reward = {
 			add_state_claim = 305
+			add_state_claim = 490
 			add_state_claim = 649
 			create_wargoal = {
 				target = ECU
@@ -1325,7 +1347,7 @@
 			}
 		}
 		completion_reward = {
-			add_state_claim = 490
+			add_state_claim = 947
 			add_state_claim = 491
 			add_state_claim = 303
 			add_state_claim = 492
@@ -1533,12 +1555,20 @@
 			}
 		}
 		completion_reward = {
-			add_state_claim = 278
-			add_state_claim = 508
+			add_state_claim = 957
 			add_state_claim = 509
-			add_state_claim = 510
+			add_state_claim = 959
+			add_state_claim = 508
+			add_state_claim = 960
 			add_state_claim = 511
+			add_state_claim = 958
+			add_state_claim = 956
+			add_state_claim = 510
+			add_state_claim = 278
 			add_state_claim = 512
+			add_state_claim = 955
+			add_state_claim = 954
+			add_state_claim = 953
 			create_wargoal = {
 				target = ARG
 				type = annex_everything
@@ -1622,8 +1652,12 @@
 			}
 		}
 		completion_reward = {
+			add_state_claim = 951
 			add_state_claim = 506
+			add_state_claim = 952
 			add_state_claim = 279
+			add_state_claim = 950
+			add_state_claim = 949
 			add_state_claim = 507
 			create_wargoal = {
 				target = CHL
