@@ -71,6 +71,9 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = acw_event.13.c
+		trigger = {
+			is_puppet = no
+		}
 		ai_chance = {
 			base = 0
 			modifier = {
@@ -79,12 +82,12 @@ country_event = {
 			}
 			modifier = {
 				is_faction_leader = yes
-				add = -1
+				add = -10
 			}
 			modifier = {
 				is_faction_leader = yes
 				num_faction_members < 2
-				add = 1
+				add = 10
 			}
 			modifier = {
 				has_opinion = {
@@ -98,16 +101,6 @@ country_event = {
 					is_major = yes
 				}
 				add = 1
-			}
-			modifier = {
-				original_tag = MMS
-				is_in_faction_with = MAH
-				add = -200
-			}
-			modifier = {
-				original_tag = MAH
-				is_in_faction_with = MMS
-				add = -200
 			}
 		}
 		IF = {
@@ -131,6 +124,16 @@ country_event = {
 	option = {
 		ai_chance = {
 			base = 1
+			modifier = {
+				original_tag = MMS
+				is_in_faction_with = MAH
+				add = 2000
+			}
+			modifier = {
+				original_tag = MAH
+				is_in_faction_with = MMS
+				add = 2000
+			}
 		}
 		name = acw_event.13.e
 	}

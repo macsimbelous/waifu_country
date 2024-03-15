@@ -775,6 +775,7 @@ acw_faction_category = {
 		}
 	}
 	acw_invite_hen_faction = {
+		desc = acw_invite_faction_desc
 		visible = {
 			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
@@ -820,6 +821,7 @@ acw_faction_category = {
 		}
 	}
 	acw_invite_mah_faction = {
+		desc = acw_invite_faction_desc
 		visible = {
 			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
@@ -865,6 +867,7 @@ acw_faction_category = {
 		}
 	}
 	acw_invite_meh_faction = {
+		desc = acw_invite_faction_desc
 		visible = {
 			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
@@ -910,6 +913,7 @@ acw_faction_category = {
 		}
 	}
 	acw_invite_mms_faction = {
+		desc = acw_invite_faction_desc
 		visible = {
 			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
@@ -955,6 +959,7 @@ acw_faction_category = {
 		}
 	}
 	acw_invite_trp_faction = {
+		desc = acw_invite_faction_desc
 		visible = {
 			#has_country_flag = acw_waifu_power_is_exist_flag
 			ROOT = {
@@ -1000,6 +1005,7 @@ acw_faction_category = {
 		}
 	}
 	acw_invite_nec_faction = {
+		desc = acw_invite_faction_desc
 		visible = {
 			is_faction_leader = yes
 			NOT = {
