@@ -915,35 +915,38 @@
 			}
 		}
 		completion_reward = {
-			add_state_claim = 502
-			add_state_claim = 503
-			add_state_claim = 944
-			add_state_claim = 501
-			add_state_claim = 496
-			add_state_claim = 500
-			add_state_claim = 943
-			add_state_claim = 499
-			add_state_claim = 936
-			add_state_claim = 498
-			add_state_claim = 935
-			add_state_claim = 937
-			add_state_claim = 497
-			add_state_claim = 941
-			add_state_claim = 505
-			add_state_claim = 504
-			add_state_claim = 280
-			add_state_claim = 938
-			add_state_claim = 966
-			add_state_claim = 965
-			add_state_claim = 942
-			add_state_claim = 967
-			add_state_claim = 968
-			add_state_claim = 962
-			add_state_claim = 963
-			add_state_claim = 961
-			add_state_claim = 964
-			add_state_claim = 940
-			add_state_claim = 495
+			custom_effect_tooltip = trp_tt_all_bra_state_claims
+			hidden_effect = {
+				add_state_claim = 502
+				add_state_claim = 503
+				add_state_claim = 944
+				add_state_claim = 501
+				add_state_claim = 496
+				add_state_claim = 500
+				add_state_claim = 943
+				add_state_claim = 499
+				add_state_claim = 936
+				add_state_claim = 498
+				add_state_claim = 935
+				add_state_claim = 937
+				add_state_claim = 497
+				add_state_claim = 941
+				add_state_claim = 505
+				add_state_claim = 504
+				add_state_claim = 280
+				add_state_claim = 938
+				add_state_claim = 966
+				add_state_claim = 965
+				add_state_claim = 942
+				add_state_claim = 967
+				add_state_claim = 968
+				add_state_claim = 962
+				add_state_claim = 963
+				add_state_claim = 961
+				add_state_claim = 964
+				add_state_claim = 940
+				add_state_claim = 495
+			}
 			create_wargoal = {
 				target = BRA
 				type = annex_everything
@@ -1030,33 +1033,33 @@
 				938 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				966 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				965 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 966 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 965 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				942 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				967 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				968 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				962 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				963 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				961 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				964 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 967 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 968 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 962 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 963 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 961 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 964 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				940 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
@@ -1155,33 +1158,33 @@
 				938 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				966 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				965 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 966 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 965 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				942 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				967 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				968 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				962 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				963 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				961 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				964 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 967 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 968 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 962 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 963 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 961 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 964 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				940 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
@@ -1434,33 +1437,33 @@
 				938 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				966 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				965 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 966 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 965 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				942 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				967 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				968 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				962 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				963 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				961 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				964 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 967 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 968 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 962 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 963 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 961 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
+				# 964 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 				940 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}

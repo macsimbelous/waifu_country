@@ -1317,6 +1317,7 @@ trp_category_tasks = {
 		fire_only_once = yes
 		available = {
 			controls_state = 305
+			controls_state = 490
 		}
 		activation = {
 			has_war_with = ECU
@@ -1329,6 +1330,9 @@ trp_category_tasks = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			305 = {
+				add_compliance = 20
+			}
+			490 = {
 				add_compliance = 20
 			}
 			if = {
@@ -1352,6 +1356,7 @@ trp_category_tasks = {
 			controls_state = 490
 			controls_state = 303
 			controls_state = 492
+			controls_state = 947
 		}
 		activation = {
 			has_war_with = PRU
@@ -1378,6 +1383,9 @@ trp_category_tasks = {
 			492 = {
 				add_compliance = 20
 			}
+			947 = {
+				add_compliance = 20
+			}
 		}
 	}
 	trp_decision_quickly_capture_bra = {
@@ -1386,16 +1394,35 @@ trp_category_tasks = {
 		days_mission_timeout = 180
 		fire_only_once = yes
 		available = {
-			controls_state = 504
-			controls_state = 505
-			controls_state = 497
-			controls_state = 498
-			controls_state = 499
+			controls_state = 502
+			controls_state = 503
+			controls_state = 944
+			controls_state = 501
 			controls_state = 496
 			controls_state = 500
-			controls_state = 501
-			controls_state = 503
-			controls_state = 502
+			controls_state = 943
+			controls_state = 499
+			controls_state = 936
+			controls_state = 498
+			controls_state = 935
+			controls_state = 937
+			controls_state = 497
+			controls_state = 941
+			controls_state = 505
+			controls_state = 504
+			controls_state = 280
+			controls_state = 938
+			#controls_state = 966
+			#controls_state = 965
+			controls_state = 942
+			#controls_state = 967
+			#controls_state = 968
+			#controls_state = 962
+			#controls_state = 963
+			#controls_state = 961
+			#controls_state = 964
+			controls_state = 940
+			controls_state = 495
 		}
 		activation = {
 			has_war_with = BRA
@@ -1407,19 +1434,16 @@ trp_category_tasks = {
 		complete_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			504 = {
+			502 = {
 				add_compliance = 20
 			}
-			505 = {
+			503 = {
 				add_compliance = 20
 			}
-			497 = {
+			944 = {
 				add_compliance = 20
 			}
-			498 = {
-				add_compliance = 20
-			}
-			499 = {
+			501 = {
 				add_compliance = 20
 			}
 			496 = {
@@ -1428,13 +1452,73 @@ trp_category_tasks = {
 			500 = {
 				add_compliance = 20
 			}
-			501 = {
+			943 = {
 				add_compliance = 20
 			}
-			503 = {
+			499 = {
 				add_compliance = 20
 			}
-			502 = {
+			936 = {
+				add_compliance = 20
+			}
+			498 = {
+				add_compliance = 20
+			}
+			935 = {
+				add_compliance = 20
+			}
+			937 = {
+				add_compliance = 20
+			}
+			497 = {
+				add_compliance = 20
+			}
+			941 = {
+				add_compliance = 20
+			}
+			505 = {
+				add_compliance = 20
+			}
+			504 = {
+				add_compliance = 20
+			}
+			280 = {
+				add_compliance = 20
+			}
+			938 = {
+				add_compliance = 20
+			}
+			966 = {
+				add_compliance = 20
+			}
+			965 = {
+				add_compliance = 20
+			}
+			942 = {
+				add_compliance = 20
+			}
+			967 = {
+				add_compliance = 20
+			}
+			968 = {
+				add_compliance = 20
+			}
+			962 = {
+				add_compliance = 20
+			}
+			963 = {
+				add_compliance = 20
+			}
+			961 = {
+				add_compliance = 20
+			}
+			964 = {
+				add_compliance = 20
+			}
+			940 = {
+				add_compliance = 20
+			}
+			495 = {
 				add_compliance = 20
 			}
 		}
@@ -1446,6 +1530,8 @@ trp_category_tasks = {
 		fire_only_once = yes
 		available = {
 			controls_state = 300
+			controls_state = 946
+			controls_state = 945
 		}
 		activation = {
 			has_war_with = URG
@@ -1460,6 +1546,12 @@ trp_category_tasks = {
 			300 = {
 				add_compliance = 20
 			}
+			946 = {
+				add_compliance = 20
+			}
+			945 = {
+				add_compliance = 20
+			}
 		}
 	}
 	trp_decision_quickly_capture_arg = {
@@ -1468,12 +1560,20 @@ trp_category_tasks = {
 		days_mission_timeout = 75
 		fire_only_once = yes
 		available = {
-			controls_state = 278
+			controls_state = 959
 			controls_state = 508
+			controls_state = 957
 			controls_state = 509
 			controls_state = 510
+			controls_state = 960
 			controls_state = 511
+			controls_state = 958
+			controls_state = 956
+			controls_state = 278
 			controls_state = 512
+			controls_state = 955
+			controls_state = 954
+			controls_state = 953
 		}
 		activation = {
 			has_war_with = ARG
@@ -1485,10 +1585,13 @@ trp_category_tasks = {
 		complete_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			278 = {
+			959 = {
 				add_compliance = 20
 			}
 			508 = {
+				add_compliance = 20
+			}
+			957 = {
 				add_compliance = 20
 			}
 			509 = {
@@ -1497,10 +1600,31 @@ trp_category_tasks = {
 			510 = {
 				add_compliance = 20
 			}
+			960 = {
+				add_compliance = 20
+			}
 			511 = {
 				add_compliance = 20
 			}
+			958 = {
+				add_compliance = 20
+			}
+			956 = {
+				add_compliance = 20
+			}
+			278 = {
+				add_compliance = 20
+			}
 			512 = {
+				add_compliance = 20
+			}
+			955 = {
+				add_compliance = 20
+			}
+			954 = {
+				add_compliance = 20
+			}
+			953 = {
 				add_compliance = 20
 			}
 		}
@@ -1511,8 +1635,12 @@ trp_category_tasks = {
 		days_mission_timeout = 21
 		fire_only_once = yes
 		available = {
-			controls_state = 279
+			controls_state = 951
 			controls_state = 506
+			controls_state = 952
+			controls_state = 279
+			controls_state = 950
+			controls_state = 949
 			controls_state = 507
 		}
 		activation = {
@@ -1525,10 +1653,22 @@ trp_category_tasks = {
 		complete_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			279 = {
+			951 = {
 				add_compliance = 20
 			}
 			506 = {
+				add_compliance = 20
+			}
+			952 = {
+				add_compliance = 20
+			}
+			279 = {
+				add_compliance = 20
+			}
+			950 = {
+				add_compliance = 20
+			}
+			949 = {
 				add_compliance = 20
 			}
 			507 = {
