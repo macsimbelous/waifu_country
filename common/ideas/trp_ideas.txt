@@ -85,7 +85,7 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 				consumer_goods_factor = -0.02
 				#global_building_slots_factor = 0.2
-				global_building_slots = 0.3
+				global_building_slots = 2
 			}
 		}
 		trp_transformation_of_nature = {
@@ -98,8 +98,8 @@ ideas = {
 			}
 			picture = SOV_transformation_of_nature
 			modifier = {
-				consumer_goods_factor = -0.04
-				global_building_slots = 0.2
+				consumer_goods_factor = -0.05
+				global_building_slots = 2
 			}
 		}
 		trp_trap_socialism_idea = {
