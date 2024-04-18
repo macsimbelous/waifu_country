@@ -308,6 +308,30 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 9500
 			}
 		}
+		wfc_idea_smb_truck_production_cost = {
+			name = idea_JUNO_truck_production_cost
+			#picture = idea_JUNO_truck_production_cost
+			removal_cost = -1
+			picture = ITA_bandits_war
+
+			allowed_civil_war = {
+				always = yes
+			}
+			equipment_bonus = {
+				motorized_equipment = {
+					instant = yes
+					build_cost_ic = -0.15
+					reliability = 0.05
+				}
+				mechanized_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+					reliability = 0.05
+				}
+			}
+			modifier = {
+			}
+		}
 	}
 	industrial_concern = {
 		wfc_industrial_concern = {

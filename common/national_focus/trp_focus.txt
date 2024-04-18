@@ -17,13 +17,16 @@
 	#shared_focus = wfc_naval_effort
 	#shared_focus = wfc_industrial_effort
 	shared_focus = wfc_political_effort
-	shared_focus = SMB_army
-	shared_focus = SMB_air_force
-	shared_focus = SMB_navy
+	#shared_focus = SMB_army
+	#shared_focus = SMB_air_force
+	#shared_focus = SMB_navy
+	shared_focus = wfc_smb_army
+	shared_focus = wfc_smb_air_force
+	shared_focus = wfc_smb_navy
 	focus = {
 		id = trp_infrastructure_effort_nsb
 		icon = GFX_goal_generic_construction
-		x = 15
+		x = 16
 		y = 8
 		cost = 5
 		ai_will_do = {
@@ -389,7 +392,7 @@
 	focus = {
 		id = trp_support_the_opposition
 		icon = GFX_goal_generic_intelligence_exchange
-		x = 33
+		x = 34
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -878,7 +881,7 @@
 		id = trp_conquest_of_south_america
 		icon = GFX_focus_por_recover_latin_america
 		#relative_position_id = trp_propagand_communism_in_south_america
-		x = 8
+		x = 9
 		y = 8
 		cost = 5
 		search_filters = {
@@ -2328,7 +2331,7 @@
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 21
+		x = 22
 		y = 8
 		cost = 5
 		search_filters = {

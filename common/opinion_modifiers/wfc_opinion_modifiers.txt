@@ -3,8 +3,9 @@ opinion_modifiers = {
 	acw_idols_tour_opinion = { value = 10 }
 	acw_sov_frend_opinion = { value = 25 }
 	pervyi_v_kosmose_10 = { value = 10 }
+	wfc_smb_naval_arms_race = {
+		value = -50
+		months = 48
+	}
 }
-wfc_smb_naval_arms_race = {
-	value = -50
-	months = 48
-}
+

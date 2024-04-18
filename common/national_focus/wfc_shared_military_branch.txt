@@ -246,7 +246,7 @@ shared_focus = {
 		factor = 10
 	}
 	completion_reward = {
-		add_ideas = idea_wfc_smb_truck_production_cost
+		add_ideas = wfc_idea_smb_truck_production_cost
 		add_tech_bonus = {
 			name = wfc_smb_motorization_initiative
 			bonus = 0.5
@@ -792,7 +792,7 @@ shared_focus = {
 	prerequisite = {
 		focus = wfc_smb_strategic_bombing
 	}
-	x = 3
+	x = 4
 	y = 1
 	cost = 10
 	available = {
@@ -1389,7 +1389,7 @@ shared_focus = {
 	icon = GFX_goal_generic_build_airforce
 	relative_position_id = wfc_smb_army
 	#prerequisite = { focus = wfc_smb_army }
-	x = 8
+	x = 9
 	y = 0
 	cost = 5
 	ai_will_do = {
@@ -3231,7 +3231,7 @@ shared_focus = {
 				trait = jungle_rat
 			}
 		}
-		custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
+		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
 		add_to_variable = {
 			wfc_smb_army_modifier_experience_gain_army_factor = 0.02
 			tooltip = experience_gain_army_factor_tt
