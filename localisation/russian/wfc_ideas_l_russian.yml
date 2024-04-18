@@ -22,6 +22,9 @@ wfc_obt_arsenal:0 "Разработчик ОБТ"
 wfc_jet_aircraft_manufacturer:0 "Разработчик реактивной авиации"
 
 wfc_subsidies_dm:0 "Бюджетные субсидии"
+wfc_dm_smb_army: "$south_american_army_modifier$"
+wfc_dm_smb_airforce: "$south_american_airforce_modifier$"
+wfc_dm_smb_navy: "$south_american_navy_modifier$"
 
 #ZMB
  zmb_mob_law:0 "Сожрать всех живых"

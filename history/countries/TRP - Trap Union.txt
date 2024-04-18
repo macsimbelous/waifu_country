@@ -86,6 +86,7 @@ add_ideas = {
 	civilian_economy
 	TRP_revolution
 	trp_childless_idea
+	wfc_idea_smb_naval_arms_race_legacy
 }
 
 set_country_flag = monroe_doctrine
@@ -353,4 +354,5 @@ build_railway = {
 	}
 }
 
+wfc_se_set_shared_military_branch_defaults = yes
 

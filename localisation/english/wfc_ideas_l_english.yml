@@ -21,6 +21,9 @@ wfc_obt_arsenal:0 "MBT developer"
 wfc_jet_aircraft_manufacturer:0 "Jet aircraft developer"
 
 wfc_subsidies_dm:0 "Budget subsidies"
+wfc_dm_smb_army: "$south_american_army_modifier$"
+wfc_dm_smb_airforce: "$south_american_airforce_modifier$"
+wfc_dm_smb_navy: "$south_american_navy_modifier$"
 
 #HEN
  hen_general_staff_idea:0 "General Staff"
