@@ -129,7 +129,7 @@ shared_focus = {
 	}
 	x = -4
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 		OR = {
 			has_war = yes
@@ -159,7 +159,7 @@ shared_focus = {
 	}
 	x = -6
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -208,7 +208,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -241,7 +241,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 10
 	}
@@ -390,7 +390,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -420,7 +420,7 @@ shared_focus = {
 	}
 	x = -2
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -453,7 +453,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -499,7 +499,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -690,7 +690,7 @@ shared_focus = {
 	}
 	x = -2
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -731,7 +731,7 @@ shared_focus = {
 	}
 	x = 2
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -762,7 +762,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -794,7 +794,7 @@ shared_focus = {
 	}
 	x = 4
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -1748,7 +1748,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -1799,7 +1799,7 @@ shared_focus = {
 	}
 	x = -2
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -1830,7 +1830,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -1861,7 +1861,7 @@ shared_focus = {
 	}
 	x = 2
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -1891,7 +1891,7 @@ shared_focus = {
 	}
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -1926,7 +1926,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -1965,7 +1965,7 @@ shared_focus = {
 	}
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -2002,7 +2002,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -2033,7 +2033,7 @@ shared_focus = {
 	}
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -2068,7 +2068,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -2111,7 +2111,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -2178,7 +2178,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -2208,7 +2208,7 @@ shared_focus = {
 	}
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -2241,7 +2241,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 		OR = {
 			has_government = democratic
@@ -2328,7 +2328,7 @@ shared_focus = {
 	relative_position_id = wfc_smb_navy
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 		modifier = {
@@ -2391,7 +2391,7 @@ shared_focus = {
 	relative_position_id = wfc_smb_navy
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 		modifier = {
@@ -2583,7 +2583,7 @@ shared_focus = {
 	}
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 10
 	}
@@ -2614,7 +2614,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 		modifier = {
@@ -2729,7 +2729,7 @@ shared_focus = {
 	}
 	x = -2
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -2760,7 +2760,7 @@ shared_focus = {
 	}
 	x = 2
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -2788,7 +2788,7 @@ shared_focus = {
 	relative_position_id = wfc_smb_escort_fleet
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -2855,7 +2855,7 @@ shared_focus = {
 	}
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 20
 	}
@@ -2965,7 +2965,7 @@ shared_focus = {
 	relative_position_id = wfc_smb_expand_repair_yards
 	x = 0
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 		has_tech = early_ship_hull_carrier
 	}
@@ -3066,7 +3066,7 @@ shared_focus = {
 	}
 	x = -1
 	y = 2
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
@@ -3191,7 +3191,7 @@ shared_focus = {
 	}
 	x = 2
 	y = 2
-	cost = 10
+	cost = 5
 	available = {
 		495 = {
 			is_owned_and_controlled_by = ROOT
@@ -3252,7 +3252,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 10
+	cost = 5
 
 	available = {
 	}
@@ -3287,7 +3287,7 @@ shared_focus = {
 	}
 	x = -1
 	y = 1
-	cost = 10
+	cost = 5
 	available = {
 	}
 	bypass = {
