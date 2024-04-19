@@ -879,8 +879,6 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	#admirals
-
 	MEH_Takao_ARP = {
 		name = MEH_Takao_ARP
 		portraits = {
@@ -1081,7 +1079,6 @@ characters = {
 			coordination_skill = 4
 		}
 	}
-	#advisor
 	MEH_Yurizaki_Mira = {
 		name = MEH_Yurizaki_Mira
 		portraits = {
@@ -1130,6 +1127,26 @@ characters = {
 			traits = {
 				head_of_intelligence
 			}
+		}
+	}
+	meh_raiden_shogun = {
+		name = meh_raiden_shogun
+		portraits = {
+			army = {
+				small = GFX_idea_meh_raiden_shogun
+				large = GFX_portrait_meh_raiden_shogun_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				brilliant_strategist
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }
