@@ -86,3 +86,19 @@ mah_event.2.e:0 "No friendship with §Y[FROM.GetName]§!!"
  mah_event.17.t: "Britain has allocated Israel."
  mah_event.17.d: "This event is added in case Britain allocates Israel without checking."
  mah_event.17.a: "Annex Israel."
+
+#mah_event.18.
+ mah_event.18.t: "A new field marshal!"
+ mah_event.18.d: "We have an ambitious new field marshal, perhaps she will become our nation's best leader."
+ mah_event.18.a: "We need a new leader."
+ mah_event.18.b: "Now is not the time to rock the boat."
+
+#mah_event.19.t
+ mah_event.19.t: "Arrest Utena Hiiragi!"
+ mah_event.19.d: "General §YUtena Hiiragi§! has been found to be plotting a coup d'état and must be stopped without delay."
+ mah_event.19.a: "Arrest §YUtena Hiiragi!§!"
+
+#mah_event.20.t.
+ mah_event.20.t: "Assassinate Asuka Ootorii!"
+ mah_event.20.d: "There is no longer any reason to tolerate §YAsuka Ootorii's§! incompetent rule."
+ mah_event.20.a: "Long live Chief §YUtena Hiiragi!§!"

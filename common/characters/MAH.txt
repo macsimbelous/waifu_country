@@ -1240,15 +1240,15 @@ characters = {
 			slot = political_advisor
 			idea_token = mah_kiwi_araga
 			cost = 150
-			allowed = {
-				original_tag = MAH
+			available = {
+				has_government = fascism
 			}
 			traits = {
 				feminist_ultranationalist
 				#SWI_fascist_recruiter
 			}
 			modifier = {
-				political_power_factor = 0.1
+				#political_power_factor = 0.1
 				power_balance_weekly = 0.01
 			}
 			ai_will_do = {

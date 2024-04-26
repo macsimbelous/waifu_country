@@ -22,7 +22,28 @@
  mms_bop_decision_privileges_for_the_elites: "Promise privileges for the elite"
  mms_bop_decision_expose_government_corruption: "Expose the corruption in §Y$MMS_yuuko_yoshida$'s§! government"
 
-
+#MAH
+ mah_balance_of_power: "The struggle for the chief's seat"
+ mah_bop_mid_range: "Equilibrium"
+ mah_default_left_side: "$MAH_Asuka_Ootorii$"
+ mah_left_side_full: "Full support for §Y$MAH_Asuka_Ootorii$§!"
+ mah_left_side_very: "High support for §Y$MAH_Asuka_Ootorii$§!"
+ mah_left_side_medium: "Medium support for §Y$MAH_Asuka_Ootorii$§!"
+ mah_left_side_small: "Weak support for §Y$MAH_Asuka_Ootorii$§!"
+ mah_default_right_side: "$mah_utena_hiiragi$"
+ mah_right_side_full: "Full support for §Y$mah_utena_hiiragi$§!"
+ mah_right_side_very: "High support for §Y$mah_utena_hiiragi$§!"
+ mah_right_side_medium: "Medium support for §Y$mah_utena_hiiragi$§!"
+ mah_right_side_small: "Weak support for §Y$mah_utena_hiiragi$§!"
+ mah_bop_decision_imprison_02: "To arrest §Y$mah_utena_hiiragi$§!"
+ mah_bop_decision_kill_yuuko_yoshida: "Kill §Y$MAH_Asuka_Ootorii$§!"
+ mah_bop_decision_slander_yuuko_yoshida: "Glorious §Y$MAH_Asuka_Ootorii$§!"
+ mah_bop_decision_expose_02_immoral_behavior: "Expose §Y$mah_utena_hiiragi$'s§! immoral behavior"
+ mah_bop_decision_question_the_army: "Criticize the army"
+ mah_bop_decision_military_parade: "Hold a military parade"
+ mah_bop_decision_praise_the_army: "Praise the army"
+ mah_bop_decision_privileges_for_the_elites: "Promise privileges for the elite"
+ mah_bop_decision_expose_government_corruption: "Expose the corruption in §Y$MAH_Asuka_Ootorii$'s§! government"
 
 #modifiers
  mms_bop_modifier_02_grift_weekly: "Чистокровный соперник"

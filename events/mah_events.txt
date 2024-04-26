@@ -883,7 +883,7 @@ country_event = {
 			id = mah_balance_of_power
 			left_side = mah_default_left_side
 			right_side = mah_default_right_side
-			set_value = -0.25
+			set_value = -0.5
 		}
 	}
 	option = {

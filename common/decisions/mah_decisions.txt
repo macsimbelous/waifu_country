@@ -958,7 +958,7 @@ mah_balance_of_power_category = {
 		}
 		cost = 50
 		complete_effect = {
-			country_event = mms_event.5
+			country_event = mah_event.21
 			# MMS_02 = {
 			# 	remove_unit_leader_role = yes
 			# }
@@ -994,7 +994,7 @@ mah_balance_of_power_category = {
 		}
 		cost = 50
 		complete_effect = {
-			country_event = mms_event.6
+			country_event = mah_event.22
 			# kill_country_leader = yes
 			# add_country_leader_role = {
 			# 	character = MMS_02
