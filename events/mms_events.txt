@@ -118,6 +118,7 @@ country_event = {
 		}
 		MMS_02 = {
 			promote_leader = yes
+			set_character_flag = mms_country_leader_flag
 		}
 		remove_power_balance = {
 			id = mms_balance_of_power
@@ -185,6 +186,7 @@ country_event = {
 		}
 		MMS_02 = {
 			promote_leader = yes
+			set_character_flag = mms_country_leader_flag
 		}
 		remove_power_balance = {
 			id = mms_balance_of_power

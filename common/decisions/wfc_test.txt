@@ -639,4 +639,34 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_6 = {
+		cost = 0
+		available = {
+			mah_utena_hiiragi = {
+				is_field_marshal = yes
+			}
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = mah_utena_hiiragi
+				promote_leader = yes
+				country_leader = {
+					ideology = fascism_ideology
+					traits = {
+						wfc_maho
+						wfc_tyan_militarist
+						wfc_patron_of_the_military_industrial_complex
+						autocratic_imperialist
+						dislikes_soviet
+						dislikes_germany
+					}
+					expire = "1965.1.1"
+				}
+			}
+			mah_utena_hiiragi = {
+				set_character_flag = mah_country_leader_flag
+			}
+		}
+	}
 }

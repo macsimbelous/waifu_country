@@ -20,4 +20,12 @@ spriteTypes = {
 		name = "GFX_bop_mms_02"
 		texturefile = "gfx/interface/bop/bop_mms_02.dds"
 	}
+	spriteType = {
+		name = "GFX_bop_mah_utena_hiiragi"
+		texturefile = "gfx/interface/bop/bop_mah_utena_hiiragi.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_mah_asuka_ootorii"
+		texturefile = "gfx/interface/bop/bop_mah_asuka_ootorii.dds"
+	}
 }

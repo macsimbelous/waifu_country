@@ -218,6 +218,18 @@ leader_traits = {
 		political_advisor_cost_factor = -0.5
 		research_speed_factor = 0.2
 	}
+	wfc_likes_soviet = {
+		random = no
+		ai_strategy = {
+			type = alliance
+			id = "SOV"
+			value = 300
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	#ministri
 	wfc_nuclear_mazoku = {
 		sprite = 14

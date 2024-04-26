@@ -40,3 +40,12 @@ mah_peace_agreement_with_britain_category = {
 		original_tag = MAH
 	}
 }
+mah_balance_of_power_category = {
+	icon = GFX_decision_category_power_struggle
+	allowed = {
+		original_tag = MAH
+	}
+	priority = 90
+	visible = {
+	}
+}

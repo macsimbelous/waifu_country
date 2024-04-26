@@ -854,3 +854,216 @@ country_event = {
 		}
 	}
 }
+
+#BOP
+country_event = {
+	id = mah_event.18
+	title = mah_event.18.t
+	desc = mah_event.18.d
+	picture = GFX_report_event_iww_demonstration
+	#is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = MAH
+		has_government = fascism
+		mah_utena_hiiragi = {
+			is_field_marshal = yes
+		}
+	}
+	option = {
+		name = mah_event.18.a
+		ai_chance = {
+			base = 1
+			modifier = {
+				is_historical_focus_on = no
+				add = -1
+			}
+		}
+		set_power_balance = {
+			id = mah_balance_of_power
+			left_side = mah_default_left_side
+			right_side = mah_default_right_side
+			set_value = -0.25
+		}
+	}
+	option = {
+		name = mah_event.18.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				add = -1
+			}
+		}
+		add_stability = 0.05
+	}
+}
+
+# Арест utena_hiiragi
+country_event = {
+	id = mah_event.19
+	title = mah_event.19.t
+	desc = mah_event.19.d
+	#picture = GFX_mms_event_01
+	fire_only_once = yes
+	trigger = {
+		original_tag = MAH
+		has_power_balance = {
+			id = mah_balance_of_power
+		}
+		power_balance_value = {
+			id = mah_balance_of_power
+			value < -0.99
+		}
+	}
+	option = {
+		name = mah_event.19.a
+		ai_chance = {
+			base = 75
+		}
+		mah_utena_hiiragi = {
+			remove_unit_leader_role = yes
+		}
+		# MMS_serafall_leviathan = {
+		# 	add_trait = {
+		# 		slot = political_advisor
+		# 		trait = wfc_silent_workhorse
+		# 	}
+		# }
+		remove_power_balance = {
+			id = mah_balance_of_power
+		}
+		add_stability = 0.15
+		add_political_power = -50
+	}
+}
+
+# Убийство asuka_ootorii
+country_event = {
+	id = mah_event.20
+	title = mah_event.20.t
+	desc = mah_event.20.d
+	#picture = GFX_mms_event_01
+	fire_only_once = yes
+	trigger = {
+		original_tag = MAH
+		has_power_balance = {
+			id = mah_balance_of_power
+		}
+		power_balance_value = {
+			id = mah_balance_of_power
+			value > 0.99
+		}
+	}
+	option = {
+		name = mah_event.20.a
+		ai_chance = {
+			base = 75
+		}
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = mah_utena_hiiragi
+			promote_leader = yes
+			country_leader = {
+				ideology = fascism_ideology
+				expire = "1965.1.1.1"
+				traits = {
+					wfc_maho
+					wfc_tyan_militarist
+					wfc_patron_of_the_military_industrial_complex
+					autocratic_imperialist
+					dislikes_soviet
+					dislikes_germany
+				}
+			}
+		}
+		mah_utena_hiiragi = {
+			promote_leader = yes
+			set_character_flag = mah_country_leader_flag
+		}
+		remove_power_balance = {
+			id = mah_balance_of_power
+		}
+		add_war_support = 0.15
+		add_political_power = -50
+	}
+}
+
+# Арест utena_hiiragi по рещению
+country_event = {
+	id = mah_event.21
+	title = mah_event.19.t
+	desc = mms_event.19.d
+	#picture = GFX_mms_event_01
+	is_triggered_only = yes
+	option = {
+		name = mms_event.19.a
+		ai_chance = {
+			base = 75
+		}
+		mah_utena_hiiragi = {
+			remove_unit_leader_role = yes
+		}
+		# MMS_serafall_leviathan = {
+		# 	add_trait = {
+		# 		slot = political_advisor
+		# 		trait = wfc_silent_workhorse
+		# 	}
+		# }
+		remove_power_balance = {
+			id = mah_balance_of_power
+		}
+		add_stability = 0.15
+		add_political_power = -50
+	}
+}
+
+# Убийство asuka_ootorii по рещению
+country_event = {
+	id = mah_event.22
+	title = mah_event.20.t
+	desc = mah_event.20.d
+	#picture = GFX_mms_event_01
+	is_triggered_only = yes
+	option = {
+		name = mah_event.20.a
+		ai_chance = {
+			base = 75
+		}
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = mah_utena_hiiragi
+			promote_leader = yes
+			country_leader = {
+				ideology = fascism_ideology
+				expire = "1965.1.1.1"
+				traits = {
+					wfc_maho
+					wfc_tyan_militarist
+					wfc_patron_of_the_military_industrial_complex
+					autocratic_imperialist
+					dislikes_soviet
+					dislikes_germany
+				}
+			}
+		}
+		mah_utena_hiiragi = {
+			promote_leader = yes
+			set_character_flag = mah_country_leader_flag
+		}
+		remove_power_balance = {
+			id = mah_balance_of_power
+		}
+		add_war_support = 0.15
+		add_political_power = -50
+		# if = {
+		# 	limit = {
+		# 		is_in_faction_with = MAH
+		# 		MAH = {
+		# 			is_faction_leader = yes
+		# 		}
+		# 	}
+		# 	leave_faction = yes
+		# }
+	}
+}
