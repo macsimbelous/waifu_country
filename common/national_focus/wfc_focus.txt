@@ -1547,10 +1547,6 @@ shared_focus = {
 				has_idea = neutrality_idea
 			}
 		}
-		modifier = {
-			factor = 20
-			has_idea = SOV_russian_political_influence
-		}
 	}
 	completion_reward = {
 		add_timed_idea = {
@@ -1610,10 +1606,6 @@ shared_focus = {
 					has_government = fascism
 				}
 			}
-		}
-		modifier = {
-			factor = 10
-			has_idea = SOV_russian_political_influence
 		}
 	}
 	completion_reward = {

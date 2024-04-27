@@ -1814,7 +1814,7 @@ acw_create_great_animeland_category = {
 acw_category_protectorates = {
 	acw_decision_create_protectorate_aus = {
 		icon = generic_form_nation
-		cost = 25
+		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_aus
@@ -1902,7 +1902,7 @@ acw_category_protectorates = {
 	}
 	acw_decision_create_protectorate_slo = {
 		icon = generic_form_nation
-		cost = 25
+		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_cze
@@ -1994,7 +1994,7 @@ acw_category_protectorates = {
 	}
 	acw_decision_create_protectorate_gre = {
 		icon = generic_form_nation
-		cost = 25
+		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_gre
@@ -2089,7 +2089,7 @@ acw_category_protectorates = {
 	}
 	acw_decision_create_protectorate_ita = {
 		icon = generic_form_nation
-		cost = 25
+		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_ita
@@ -2273,7 +2273,7 @@ acw_category_protectorates = {
 	}
 	acw_decision_create_protectorate_ukr = {
 		icon = generic_form_nation
-		cost = 25
+		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_ukr
@@ -2476,7 +2476,7 @@ acw_category_protectorates = {
 	}
 	acw_decision_transfer_west_ukr = {
 		icon = generic_form_nation
-		cost = 25
+		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
 		visible = {
 			#has_completed_focus = acw_focus_west_ukr

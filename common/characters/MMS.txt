@@ -18,6 +18,7 @@ characters = {
 				wfc_patron_of_the_military_industrial_complex
 				wfc_demon_lord
 				anti_communist_crusader
+				dislikes_soviet
 			}
 			expire = "1965.1.1"
 		}
@@ -63,6 +64,8 @@ characters = {
 				wfc_patron_of_industry
 				wfc_demon_lord
 				technocrat
+				wfc_likes_soviet
+				dislikes_germany
 			}
 			expire = "1965.1.1"
 		}
@@ -84,6 +87,8 @@ characters = {
 				wfc_peoples_favorite
 				wfc_patron_of_science
 				freedom_fighter
+				likes_allies
+				wfc_likes_soviet
 			}
 			expire = "1965.1.1"
 		}

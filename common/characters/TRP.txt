@@ -27,6 +27,7 @@ characters = {
 				wfc_revolutionary
 				wfc_patron_of_industry
 				wfc_dictator
+				dislikes_germany
 			}
 			expire = "1965.1.1"
 		}
@@ -48,6 +49,7 @@ characters = {
 				wfc_tyan_militarist
 				wfc_patron_of_the_military_industrial_complex
 				fascist_militia_leader
+				likes_germany
 			}
 			expire = "1965.1.1"
 		}
@@ -69,6 +71,7 @@ characters = {
 				wfc_peoples_favorite
 				wfc_patron_of_science
 				liberal_democratic_paragon
+				likes_allies
 			}
 			expire = "1965.1.1"
 		}

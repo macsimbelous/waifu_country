@@ -260,11 +260,10 @@ prio_invasions = {
 			has_tech = mtg_landing_craft
 		}
 	}
-	# ai_strategy = {
-	# 	type = naval_mission_threshold
-	# 	id = "MISSION_NAVAL_INVASION_SUPPORT"
-	# 	value = 2000
-	# }
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 2000
+	}
 	ai_strategy = {
 		type = invade
 		id = "USA"
@@ -386,43 +385,6 @@ MEH_conquer_usa = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = "USA"
-		value = 100
-	}
-	ai_strategy = {
-		type = force_build_armies
-		value = 100
-	}
-}
-MEH_protect_sov = {
-	allowed = {
-		original_tag = MEH
-	}
-	enable = {
-		has_government = communism
-		SOV = {
-			has_government = communism
-		}
-	}
-	abort = {
-		OR = {
-			NOT = {
-				has_government = communism
-			}
-			SOV = {
-				NOT = {
-					has_government = communism
-				}
-			}
-		}
-	}
-	ai_strategy = {
-		type = protect
-		id = "SOV"
-		value = 100
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = "GER"
 		value = 100
 	}
 	ai_strategy = {

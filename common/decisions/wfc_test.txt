@@ -641,6 +641,9 @@ wfc_test_category = {
 	}
 	wfc_test_6 = {
 		cost = 0
+		visible = {
+			original_tag = MAH
+		}
 		available = {
 			mah_utena_hiiragi = {
 				is_field_marshal = yes

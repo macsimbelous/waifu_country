@@ -18,6 +18,8 @@ characters = {
 				wfc_revolutionary
 				wfc_dictator
 				wfc_patron_of_industry
+				wfc_likes_soviet
+				dislikes_germany
 			}
 			expire = "1953.3.1"
 		}
@@ -40,6 +42,8 @@ characters = {
 				wfc_tyan_militarist
 				wfc_patron_of_the_military_industrial_complex
 				wfc_tsundere
+				dislikes_soviet
+				likes_germany
 			}
 			expire = "1953.3.1"
 		}
@@ -74,6 +78,9 @@ characters = {
 				wfc_defender
 				wfc_patron_of_intelligence
 				wfc_empress
+				likes_turkey
+				dislikes_germany
+				dislikes_soviet
 			}
 			expire = "1953.3.1"
 			id = -1
@@ -97,6 +104,7 @@ characters = {
 				wfc_peoples_favorite
 				wfc_patron_of_science
 				wfc_idol
+				likes_allies
 			}
 			expire = "1953.3.1"
 			id = -1
@@ -701,7 +709,6 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-
 	ACW_Elma = {
 		name = ACW_Elma
 		portraits = {
@@ -738,7 +745,6 @@ characters = {
 			}
 		}
 	}
-
 	ACW_Celica = {
 		name = ACW_Celica
 		portraits = {
@@ -1284,7 +1290,7 @@ characters = {
 		name = ACW_Merurulince_Rede_Arls
 		portraits = {
 			army = {
-				small = GFX_idea_acw_merurulince_rede_arl
+				small = GFX_idea_acw_merurulince_rede_arls
 				large = GFX_portrait_acw_merurulince_rede_arls
 			}
 		}
@@ -1771,7 +1777,6 @@ characters = {
 			}
 		}
 	}
-
 	ACW_kei = {
 		name = ACW_kei
 		portraits = {

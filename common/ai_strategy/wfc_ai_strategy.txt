@@ -1,0 +1,193 @@
+#SOV
+wfc_protect_sov = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_government = communism
+		SOV = {
+			has_government = communism
+		}
+	}
+	abort = {
+		OR = {
+			NOT = {
+				has_government = communism
+			}
+			SOV = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = protect
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
+wfc_befriend_sov = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = wfc_likes_soviet
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = wfc_likes_soviet
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = SOV
+		value = 1000
+	}
+}
+
+wfc_antagonize_sov = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = dislikes_soviet
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = dislikes_soviet
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = antagonize
+		id = SOV
+		value = 1000
+	}
+}
+
+#GER
+sov_befriend_ger = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = likes_germany
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = likes_germany
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = GER
+		value = 1000
+	}
+}
+
+wfc_antagonize_ger = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = dislikes_germany
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = dislikes_germany
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = antagonize
+		id = GER
+		value = 1000
+	}
+}
+
+#ENG
+wfc_befriend_eng = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = likes_allies
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = likes_allies
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = ENG
+		value = 1000
+	}
+}
+

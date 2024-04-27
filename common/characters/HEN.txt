@@ -18,6 +18,7 @@ characters = {
 				wfc_revolutionary
 				wfc_patron_of_industry
 				wfc_dictator
+				wfc_likes_soviet
 			}
 			expire = "1965.1.1"
 		}
@@ -40,6 +41,8 @@ characters = {
 				wfc_tyan_militarist
 				wfc_patron_of_the_military_industrial_complex
 				wfc_dictator
+				dislikes_soviet
+				likes_germany
 			}
 			expire = "1965.1.1"
 		}
@@ -80,6 +83,7 @@ characters = {
 				wfc_peoples_favorite
 				wfc_patron_of_science
 				freedom_fighter
+				likes_allies
 			}
 			expire = "1965.1.1"
 		}
@@ -1050,7 +1054,7 @@ characters = {
 		name = HEN_Mika_Amano
 		portraits = {
 			army = {
-				small = GFX_idea_acw_mika_amano
+				small = GFX_idea_hen_mika_amano
 			}
 			civilian = {
 				large = GFX_portrait_hen_mika_amano

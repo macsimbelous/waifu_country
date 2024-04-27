@@ -1,6 +1,6 @@
 peace_ai_desires = {
 	wfc_take_claims = {
-		peace_action_type = take_state
+		peace_action_type = take_states
 		enable = {
 			ROOT.FROM.FROM.FROM = {
 				is_claimed_by = ROOT.FROM
@@ -20,7 +20,7 @@ peace_ai_desires = {
 		ai_desire = 400
 	}
 	acw_take_claims = {
-		peace_action_type = take_state
+		peace_action_type = take_states
 		enable = {
 			ROOT.FROM.FROM.FROM = {
 				OR = {
@@ -57,13 +57,13 @@ peace_ai_desires = {
 				}
 			}
 			ROOT.FROM = {
-				tag = ACW
+				original_tag = ACW
 			}
 		}
-		ai_desire = 100
+		ai_desire = 1000
 	}
 	hen_take_claims = {
-		peace_action_type = take_state
+		peace_action_type = take_states
 		enable = {
 			ROOT.FROM.FROM.FROM = {
 				OR = {
@@ -95,34 +95,26 @@ peace_ai_desires = {
 				}
 			}
 			ROOT.FROM = {
-				tag = HEN
+				original_tag = HEN
 			}
 		}
-		ai_desire = 100
+		ai_desire = 1000
 	}
 	hen_korea_puppet = {
-        peace_action_type = puppet
-        enable = {
-            ROOT.FROM = { tag = KOR }
-            ROOT.FROM.FROM.FROM = { is_core_of = KOR }
-            tag = HEN
-        }
-        ai_desire = 150
-    }
-	# hen_puppet_japan = {
-    #     peace_action_type = { puppet }
-    #     enable = {
-    #         FROM.FROM.FROM = {
-    #             state = 745
-    #         }
-    #         ROOT = {
-    #             original_tag = HEN
-    #         }
-    #     }
-    #     ai_desire = 150
-    # }
+		peace_action_type = puppet
+		enable = {
+			ROOT.FROM = {
+				tag = KOR
+			}
+			ROOT.FROM.FROM.FROM = {
+				is_core_of = KOR
+			}
+			original_tag = HEN
+		}
+		ai_desire = 150
+	}
 	mah_take_claims = {
-		peace_action_type = take_state
+		peace_action_type = take_states
 		enable = {
 			ROOT.FROM.FROM.FROM = {
 				OR = {
@@ -154,31 +146,39 @@ peace_ai_desires = {
 				}
 			}
 			ROOT.FROM = {
-				tag = MAH
+				original_tag = MAH
 			}
 		}
-		ai_desire = 100
+		ai_desire = 1000
 	}
 	mah_egypt_puppet = {
-        peace_action_type = puppet
-        enable = {
-            ROOT.FROM = { tag = EGY }
-            ROOT.FROM.FROM.FROM = { is_core_of = EGY }
-            tag = MAH
-        }
-        ai_desire = 150
-    }
+		peace_action_type = puppet
+		enable = {
+			ROOT.FROM = {
+				tag = EGY
+			}
+			ROOT.FROM.FROM.FROM = {
+				is_core_of = EGY
+			}
+			original_tag = MAH
+		}
+		ai_desire = 150
+	}
 	mah_turkey_puppet = {
-        peace_action_type = puppet
-        enable = {
-            ROOT.FROM = { tag = TUR }
-            ROOT.FROM.FROM.FROM = { is_core_of = TUR }
-            tag = MAH
-        }
-        ai_desire = 150
-    }
+		peace_action_type = puppet
+		enable = {
+			ROOT.FROM = {
+				tag = TUR
+			}
+			ROOT.FROM.FROM.FROM = {
+				is_core_of = TUR
+			}
+			original_tag = MAH
+		}
+		ai_desire = 150
+	}
 	meh_take_claims = {
-		peace_action_type = take_state
+		peace_action_type = take_states
 		enable = {
 			ROOT.FROM.FROM.FROM = {
 				OR = {
@@ -277,13 +277,13 @@ peace_ai_desires = {
 				}
 			}
 			ROOT.FROM = {
-				tag = MEH
+				original_tag = MEH
 			}
 		}
-		ai_desire = 100
+		ai_desire = 1000
 	}
 	mms_take_claims = {
-		peace_action_type = take_state
+		peace_action_type = take_states
 		enable = {
 			ROOT.FROM.FROM.FROM = {
 				OR = {
@@ -303,77 +303,105 @@ peace_ai_desires = {
 				}
 			}
 			ROOT.FROM = {
-				tag = MMS
+				original_tag = MMS
 			}
 		}
-		ai_desire = 100
+		ai_desire = 1000
 	}
 	trp_take_claims = {
-		peace_action_type = take_state
+		peace_action_type = take_states
 		enable = {
 			ROOT.FROM.FROM.FROM = {
 				OR = {
-					#ven
-					state = 488
-					state = 307
-					state = 489
-					#col
 					state = 493
 					state = 306
 					state = 486
-					#ecu
-					state = 305
-					state = 649
-					#pru
-					state = 490
+					state = 488
+					state = 307
+					state = 489
+					state = 947
 					state = 491
 					state = 303
-					state = 494
 					state = 492
-					#bol
-					state = 487
+					state = 494
 					state = 302
-					#chl
+					state = 487
+					state = 951
 					state = 506
+					state = 952
 					state = 279
+					state = 950
+					state = 949
 					state = 507
-					#arg
-					state = 512
-					state = 511
-					state = 278
-					state = 510
-					state = 509
+					state = 959
 					state = 508
-					#urg
-					state = 300
-					#bra
+					state = 957
+					state = 509
+					state = 510
+					state = 960
+					state = 511
+					state = 958
+					state = 956
+					state = 278
+					state = 512
+					state = 955
+					state = 954
+					state = 953
+					state = 301
+					state = 688
 					state = 502
 					state = 503
+					state = 944
 					state = 501
-					state = 504
-					state = 505
 					state = 496
 					state = 500
+					state = 943
 					state = 499
+					state = 936
 					state = 498
+					state = 935
+					state = 937
 					state = 497
-					#colons
-					state = 310
-					state = 309
-					state = 687
+					state = 941
+					state = 505
+					state = 504
+					state = 280
+					state = 938
+					state = 966
+					state = 965
+					state = 942
+					state = 967
+					state = 968
+					state = 962
+					state = 963
+					state = 961
+					state = 964
+					state = 940
+					state = 495
+					state = 305
+					state = 490
+					state = 300
+					state = 945
+					state = 946
+					state = 649
+					state = 299
 					state = 691
 					state = 695
-					state = 299
+					state = 692
+					state = 694
+					state = 308
+					state = 304
+					state = 948
 				}
 			}
 			ROOT.FROM = {
-				tag = TRP
+				original_tag = TRP
 			}
 		}
-		ai_desire = 100
+		ai_desire = 1000
 	}
 	nec_take_claims = {
-		peace_action_type = take_state
+		peace_action_type = take_states
 		enable = {
 			ROOT.FROM.FROM.FROM = {
 				any_neighbor_state = {
@@ -381,11 +409,9 @@ peace_ai_desires = {
 				}
 			}
 			ROOT.FROM = {
-				tag = NEC
+				original_tag = NEC
 			}
 		}
-		ai_desire = 100
+		ai_desire = 1000
 	}
 }
-
-

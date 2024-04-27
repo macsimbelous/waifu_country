@@ -315,11 +315,10 @@ prio_invasions = {
 			has_tech = mtg_landing_craft
 		}
 	}
-	# ai_strategy = {
-	# 	type = naval_mission_threshold
-	# 	id = "MISSION_NAVAL_INVASION_SUPPORT"
-	# 	value = 2000
-	# }
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 2000
+	}
 	ai_strategy = {
 		type = invade
 		id = "ENG"
@@ -427,7 +426,7 @@ nec_conquer_per_chi = {
 	ai_strategy = {
 		type = conquer
 		id = "CHI"
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = prepare_for_war
