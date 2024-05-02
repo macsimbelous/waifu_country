@@ -91,6 +91,12 @@ wfc_dm_smb_navy: "$south_american_navy_modifier$"
  meh_perimetr_idea:0 "Система §RПериметр§!"
  meh_construction_robots:0 "Строительные роботы"
  meh_exterminatus_idea: "§RЭкстерминатус§!"
+ #MIO
+  meh_organization_mythra_motors: "Митра моторс"
+  wfc_mio_header_production: "Производство"
+  wfc_mio_trait_assembly_line_1: "Конвейер"
+  wfc_mio_trait_assembly_line_2: "Улучшенный конвейер"
+  wfc_mio_trait_cost_optimization: "Оптимизация затрат"
 
  #developers
  meh_heavy_tank_designer:0 "Разработчик тежёлых танков"

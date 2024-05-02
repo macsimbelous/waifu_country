@@ -175,7 +175,6 @@ meh_organization_task_force_ship = {
 	}
 	initial_trait = {
 		name = generic_mio_initial_trait_task_force_ship_builders
-
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
 		}
@@ -183,6 +182,91 @@ meh_organization_task_force_ship = {
 			max_strength = 0.05
 			naval_range = 0.05
 			build_cost_ic = -0.15
+		}
+	}
+}
+
+meh_organization_mythra_motors = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_meh_mio_mythra_motors
+	allowed = {
+		original_tag = MEH
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	tree_header_text = {
+		text = mio_header_motorized
+		x = 1
+	}
+	tree_header_text = {
+		text = mio_header_mechanized
+		x = 7
+	}
+	tree_header_text = {
+		text = wfc_mio_header_production
+		x = 9
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_motorized_mechanized_manufacturer
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+		}
+		production_bonus = {
+			#production_cost_factor = -0.05
+			production_capacity_factor = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_assembly_line_1
+		name = wfc_mio_trait_assembly_line_1
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		special_trait_background = yes
+		position = {
+			x = 9
+			y = 0
+		}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_assembly_line_2
+		name = wfc_mio_trait_assembly_line_2
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		special_trait_background = yes
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = wfc_mio_trait_assembly_line_1
+		all_parents = {
+			wfc_mio_trait_assembly_line_1
+		}
+		available = { has_mio_size > 4}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_cost_optimization
+		name = wfc_mio_trait_cost_optimization
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		special_trait_background = yes
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = wfc_mio_trait_assembly_line_2
+		all_parents = {
+			wfc_mio_trait_assembly_line_2
+		}
+		available = { has_mio_size > 9}
+		equipment_bonus = {
+			build_cost_ic = -0.05
 		}
 	}
 }

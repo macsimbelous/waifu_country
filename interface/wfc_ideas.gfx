@@ -103,6 +103,10 @@ spriteTypes = {
                 name = "GFX_idea_meh_sputnik_v_kosmose"
                 texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_1.dds"
         }
+        spriteType = {
+                name = "GFX_idea_meh_mio_mythra_motors"
+                texturefile = "gfx/interface/ideas/meh_mio_mythra_motors.dds"
+        }
         #HEN
         spriteType = {
                 name = "GFX_idea_hen_the_nation_of_hentai"

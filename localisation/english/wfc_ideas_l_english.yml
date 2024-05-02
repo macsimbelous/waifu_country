@@ -101,8 +101,12 @@ acw_subject_autonomy_mod_tt:0 "Increase in the autonomy of the subjects §G-0.5"
  meh_perimetr_idea:0 "System §RPerimeter§! (§RDead Hand§!)"
  meh_construction_robots:0 "Construction robots"
  meh_exterminatus_idea: "§RExterminatus§!"
-
- #developer
+ #MIO
+  meh_organization_mythra_motors: "Mythra Motors"
+  wfc_mio_header_production: "Production"
+  wfc_mio_trait_assembly_line_1: "Conveyor"
+  wfc_mio_trait_assembly_line_2: "Improved conveyor"
+  wfc_mio_trait_cost_optimization: "Cost optimization"
   meh_heavy_tank_designer:0 "Heavy Tank Developer"
   meh_submarine_company:0 "Submarine developer" 
 
