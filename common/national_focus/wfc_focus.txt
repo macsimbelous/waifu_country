@@ -1558,7 +1558,7 @@ shared_focus = {
 
 shared_focus = {
 	id = wfc_nationalism_focus
-	icon = GFX_goal_support_fascism	#icon = GFX_goal_tripartite_pact
+	icon = GFX_goal_support_fascism
 	prerequisite = {
 		focus = wfc_collectivist_ethos
 	}
@@ -2224,7 +2224,107 @@ shared_focus = {
 		custom_effect_tooltip = kamikaze_focus_tooltip
 	}
 }
-
+shared_focus = {
+	id = wfc_shared_focus_referendum
+	icon = GFX_goal_generic_political_pressure
+	prerequisite = {
+		focus = wfc_ideological_fanaticism
+		focus = wfc_why_we_fight
+	}
+	available = {
+		if = {
+			limit = {
+				has_completed_focus = wfc_nationalism_focus
+			}
+			fascism > 0.5
+		}
+		else_if = {
+			limit = {
+				has_completed_focus = wfc_internationalism_focus
+			}
+			communism > 0.5
+		}
+		else_if = {
+			limit = {
+				has_completed_focus = wfc_focus_democracy
+			}
+			democratic > 0.5
+		}
+		else = {
+			neutrality > 0.5
+		}
+	}
+	bypass = {
+		if = {
+			limit = {
+				has_completed_focus = wfc_nationalism_focus
+			}
+			has_government = fascism
+		}
+		else_if = {
+			limit = {
+				has_completed_focus = wfc_internationalism_focus
+			}
+			has_government = communism
+		}
+		else_if = {
+			limit = {
+				has_completed_focus = wfc_focus_democracy
+			}
+			has_government = democratic
+		}
+		else = {
+			has_government = neutrality
+		}
+	}
+	x = 1
+	y = 1
+	relative_position_id = wfc_ideological_fanaticism
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	available_if_capitulated = yes
+	completion_reward = {
+		if = {
+			limit = {
+				has_completed_focus = wfc_nationalism_focus
+			}
+			# set_politics = {
+			# 	ruling_party = fascism
+			# 	elections_allowed = no
+			# }
+			country_event = { id = political.18 }
+		}
+		else_if = {
+			limit = {
+				has_completed_focus = wfc_internationalism_focus
+			}
+			# set_politics = {
+			# 	ruling_party = communism
+			# 	elections_allowed = no
+			# }
+			country_event = { id = political.19 }
+		}
+		else_if = {
+			limit = {
+				has_completed_focus = wfc_focus_democracy
+			}
+			# set_politics = {
+			# 	ruling_party = democratic
+			# 	elections_allowed = yes
+			# 	election_frequency = 48
+			# }
+			country_event = { id = political.20 }
+		}
+		else = {
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+		}
+	}
+}
 shared_focus = {
 	id = wfc_technology_sharing
 	icon = GFX_goal_generic_scientific_exchange
@@ -2243,7 +2343,7 @@ shared_focus = {
 			}
 		}
 	}
-	x = 2
+	x = 3
 	y = 1
 	relative_position_id = wfc_ideological_fanaticism
 	cost = 5
