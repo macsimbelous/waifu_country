@@ -30,7 +30,7 @@
 		y = 8
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		available = {
 		}
@@ -65,7 +65,7 @@
 		relative_position_id = trp_infrastructure_effort_nsb
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -90,7 +90,7 @@
 		relative_position_id = trp_heavy_industry
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		available = {
 		}
@@ -137,6 +137,9 @@
 			wfc_add_industrial_complex_in_random_state = yes
 			wfc_add_industrial_complex_in_random_state = yes
 		}
+		ai_will_do = {
+			factor = 100
+		}
 	}
 	focus = {
 		id = trp_reorganize_the_pc_of_heavy_industry
@@ -166,6 +169,9 @@
 			}
 			wfc_add_industrial_complex_in_random_state = yes
 		}
+		ai_will_do = {
+			factor = 100
+		}
 	}
 	focus = {
 		id = trp_industrial_modernization
@@ -191,6 +197,9 @@
 			}
 			wfc_add_industrial_complex_in_random_state = yes
 			wfc_add_industrial_complex_in_random_state = yes
+		}
+		ai_will_do = {
+			factor = 100
 		}
 	}
 	focus = {
@@ -242,6 +251,9 @@
 			}
 			wfc_add_arms_factory_in_random_state = yes
 		}
+		ai_will_do = {
+			factor = 100
+		}
 	}
 	focus = {
 		id = trp_optimize_production_lines
@@ -266,6 +278,9 @@
 			}
 			wfc_add_arms_factory_in_random_state = yes
 			wfc_add_arms_factory_in_random_state = yes
+		}
+		ai_will_do = {
+			factor = 100
 		}
 	}
 	focus = {
@@ -296,6 +311,9 @@
 				}
 				set_state_flag = trp_steel_casting_industry_flag
 			}
+		}
+		ai_will_do = {
+			factor = 100
 		}
 	}
 	focus = {
@@ -332,6 +350,9 @@
 				category = cat_synth_rubber
 			}
 		}
+		ai_will_do = {
+			factor = 100
+		}
 	}
 	focus = {
 		id = trp_oil_production
@@ -363,6 +384,9 @@
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 100
+		}
 	}
 	focus = {
 		id = trp_focus_minprom
@@ -384,6 +408,9 @@
 		}
 		completion_reward = {
 			add_ideas = trp_minprom_idea
+		}
+		ai_will_do = {
+			factor = 100
 		}
 	}
 	##################################
@@ -894,7 +921,7 @@
 			add_war_support = 0.1
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 		}
 	}
 	focus = {
@@ -956,7 +983,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -1081,7 +1108,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -1205,7 +1232,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -1223,7 +1250,7 @@
 		relative_position_id = trp_conquest_of_south_america
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -1269,7 +1296,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -1319,7 +1346,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -1337,7 +1364,7 @@
 		relative_position_id = trp_attack_ecu
 		cost = 5
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -1500,7 +1527,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0
@@ -1584,7 +1611,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -1674,7 +1701,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 			modifier = {
 				has_war = yes
 				factor = 0.5
@@ -2341,6 +2368,9 @@
 		completion_reward = {
 			add_research_slot = 1
 		}
+		ai_will_do = {
+			factor = 100
+		}
 	}
 	focus = {
 		id = trp_focus_rocket_effort
@@ -2366,7 +2396,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 	}
 	focus = {
@@ -2392,7 +2422,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 	}
 	focus = {
@@ -2418,7 +2448,7 @@
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 	}
 	focus = {
@@ -2448,6 +2478,9 @@
 		available_if_capitulated = yes
 		completion_reward = {
 			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 100
 		}
 	}
 	focus = {
@@ -2506,7 +2539,7 @@
 			news_event = wfc_news.3
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 	}
 }
