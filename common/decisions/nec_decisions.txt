@@ -24,9 +24,16 @@ nec_category_necrification = {
 		target_array = controlled_states
 		target_trigger = {
 			FROM = {
-				is_controlled_by = ROOT
+				#is_controlled_by = ROOT
 				NOT = {
 					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				FROM = {
+					is_fully_controlled_by = ROOT
 				}
 			}
 		}
@@ -242,6 +249,9 @@ nec_category_necrification = {
 					}
 				}
 			}
+		}
+		cancel_effect = {
+			clr_country_flag = nec_flag_necrification_run
 		}
 		ai_will_do = {
 			base = 1

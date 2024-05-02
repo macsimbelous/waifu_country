@@ -1596,7 +1596,10 @@ focus_tree = {
 				limit = {
 					NOT = {
 						owner = {
-							tag = MEH
+							OR = {
+								is_puppet_of = ROOT
+								tag = ROOT
+							}
 						}
 					}
 				}
@@ -1608,38 +1611,25 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						is_faction_leader = yes
+						is_faction_leader = no
 					}
-					dismantle_faction = yes
-				}
-				else = {
 					leave_faction = yes
 				}
 			}
-			every_other_country = {
-				limit = {
-					OR = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
-					}
-				}
-				ROOT = {
-					annex_country = {
-						target = PREV
-						transfer_troops = yes
-					}
-				}
-			}
-			every_state = {
-				limit = {
-					NOT = {
-						owner = {
-							tag = ROOT
-						}
-					}
-				}
-				add_claim_by = ROOT
-			}
+			# every_other_country = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_puppet_of = ROOT
+			# 			is_subject_of = ROOT
+			# 		}
+			# 	}
+			# 	ROOT = {
+			# 		annex_country = {
+			# 			target = PREV
+			# 			transfer_troops = yes
+			# 		}
+			# 	}
+			# }
 			every_other_country = {
 				limit = {
 					NOT = {

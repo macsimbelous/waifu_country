@@ -346,6 +346,26 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
  meh_exterminatus_category:0 "§RExterminatus§!"
  meh_exterminatus_decision:0 "§RDestroy§! [FROM.GetName]"
 
+#test the mexicans
+ meh_test_the_mexicans: "To test the Mexicans"
+ meh_test_the_mexicans_desc: "We have a long border with the State of Mexico in Mejaland and Baja California, and there are many potential hotspots where our troops could be confronted at any moment. This is an opportunity for us to test the reaction of Mexican troops to a mild provocation."
+ meh_border_conflict_warning_mex: "A provocation at the Mehland border."
+ meh_border_conflict_warning_mex_desc: "There have been a number of recent confrontations between our border guards and their soldiers on the shared border with Mehaland, California. Intelligence in Mehaland reports that this may be the first step toward a wider confrontation. We must reinforce the border immediately."
+ meh_border_conflict_escalation_warning_mex: "Mechaland's getting ready"
+ meh_border_conflict_escalation_warning_mex_desc: "Air reconnaissance has confirmed a major troop movement on the Japanese side of the border. We do not know if and when the Japanese are going to attack, but we must be ready."
+ meh_border_incident_forgotten: "Favorable opportunity"
+ meh_border_incident_forgotten_desc: "If we want to take advantage of the incident on the Soviet-Korean border, we need to strike immediately."
+ meh_escalate_incident_to_border_conflict_mex: "Develop an incident"
+ meh_escalate_incident_to_border_conflict_mex_desc: "It seems the Mexicans have no intention of retreating. At this point, we must either bring the conflict to an armed confrontation or retreat ourselves."
+ meh_border_conflict_time_until_cancelled: "End the conflict"
+ meh_border_conflict_time_until_cancelled_desc: "In the current situation, we can only maintain a certain level of combat operations until we retreat."
+ meh_border_conflict_escalate_conflict: "Escalate conflict"
+ meh_border_conflict_escalate_conflict_desc: "The conflict on the border with the state [FROM.GetNameDef] has reached a stalemate. Perhaps by strengthening it and moving more troops into the region, we can achieve victory."
+ meh_border_conflict_escalate_to_war: "Declare war"
+ meh_border_conflict_escalate_to_war_desc: "Skirmishes in the disputed region have been going on for some time now, and it looks like the conflict is going to escalate. We must prepare for the next step and see this conflict as preparation for a large-scale war."
+ meh_border_conflict_back_out_of_conflict: "Отступить"
+ meh_border_conflict_back_out_of_conflict_desc: "The risk of the conflict spinning out of control and escalating into a large-scale war is too high. We must minimize casualties and send diplomats to probe the ground."
+
 #MMS
 #mms_workouts_shamiko_category
  mms_workouts_shamiko_category:0 "Shamiko's workouts"

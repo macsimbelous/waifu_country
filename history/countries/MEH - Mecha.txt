@@ -111,6 +111,11 @@ set_popularities = {
 	fascism = 31
 }
 
+set_country_flag = monroe_doctrine
+USA = {
+	give_guarantee = TRP
+}
+
 #lider
 recruit_character = MEH_KOS_MOS
 recruit_character = MEH_Fiora_Mechon
