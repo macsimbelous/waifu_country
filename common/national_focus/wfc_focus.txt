@@ -2324,6 +2324,9 @@ shared_focus = {
 			}
 		}
 	}
+	ai_will_do = {
+		factor = 100
+	}
 }
 shared_focus = {
 	id = wfc_technology_sharing
