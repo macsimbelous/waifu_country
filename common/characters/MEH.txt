@@ -1141,14 +1141,27 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				infantry_leader
 				brilliant_strategist
+				cavalry_leader
+				combined_arms_expert
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+		}
+		advisor = {
+			slot = high_command
+			idea_token = meh_raiden_shogun
+			ledger = army
+			cost = 50
+			traits = {
+				army_CombinedArms_1
+			}
+			ai_will_do = {
+				factor = 5
+			}
 		}
 	}
 }

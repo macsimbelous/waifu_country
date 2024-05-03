@@ -46,7 +46,7 @@ MEH_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 50
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -140,6 +140,11 @@ MEH_unit_production = {
 		id = naval_bomber
 		value = 10
 	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = motorized
+		value = 100
+	}
 }
 
 MEH_template_design_1 = {
@@ -160,7 +165,7 @@ MEH_template_design_1 = {
 	ai_strategy = {
 		type = template_prio
 		id = motorized
-		value = 50
+		value = 100
 	}
 	ai_strategy = {
 		type = template_prio
@@ -170,17 +175,17 @@ MEH_template_design_1 = {
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
-		value = -10
+		value = 10
 	}
 	ai_strategy = {
 		type = template_prio
 		id = medium_armor
-		value = -10
+		value = 100
 	}
 	ai_strategy = {
 		type = template_prio
 		id = heavy_armor
-		value = 100
+		value = 25
 	}
 	ai_strategy = {
 		type = template_prio
@@ -191,6 +196,11 @@ MEH_template_design_1 = {
 		type = template_prio
 		id = mechanized
 		value = -50
+	}
+	ai_strategy = {
+		type = template_prio
+		id = marines
+		value = 10
 	}
 }
 
@@ -210,7 +220,7 @@ MEH_template_design_2 = {
 	ai_strategy = {
 		type = template_prio
 		id = motorized
-		value = 10
+		value = 100
 	}
 	ai_strategy = {
 		type = template_prio
@@ -220,12 +230,12 @@ MEH_template_design_2 = {
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
-		value = -0
+		value = -100
 	}
 	ai_strategy = {
 		type = template_prio
 		id = medium_armor
-		value = -100
+		value = 50
 	}
 	ai_strategy = {
 		type = template_prio
@@ -246,6 +256,11 @@ MEH_template_design_2 = {
 		type = template_prio
 		id = mechanized
 		value = 50
+	}
+	ai_strategy = {
+		type = template_prio
+		id = marines
+		value = 10
 	}
 }
 
