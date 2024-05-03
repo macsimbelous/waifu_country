@@ -111,6 +111,13 @@ country_event = {
 			category = armor
 			bonus = 1.0
 		}
+		transfer_state = 484
+		MEX = {
+			create_wargoal = {
+				target = MEH
+				type = take_core_state
+			}
+		}
 	}
 	option = {
 		name = meh_border_conflict.2.b
