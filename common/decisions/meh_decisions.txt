@@ -808,7 +808,7 @@ operations = {
 			base = 10
 			modifier = {
 				has_war = no
-				factor = 10
+				factor = 100
 			}
 		}
 		fire_only_once = yes		#Reactivation handled in effect
@@ -920,7 +920,7 @@ operations = {
 		}
 		cost = 200
 		ai_will_do = {
-			base = 0
+			base = 5
 			modifier = {
 				add = 100
 				is_historical_focus_on = no
@@ -1028,7 +1028,7 @@ operations = {
 		}
 		cost = 150
 		ai_will_do = {
-			base = 0
+			base = 5
 			modifier = {
 				add = 100
 				is_historical_focus_on = no
