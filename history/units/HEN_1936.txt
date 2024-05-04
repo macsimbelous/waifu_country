@@ -505,12 +505,12 @@ units = {
 
 air_wings = {
 	528 = {
-		small_plane_airframe_0 = {
+		small_plane_airframe_1 = {
 			owner = "HEN"
 			amount = 100
 			version_name = "H-15"
 		}
-		medium_plane_airframe_0 = {
+		medium_plane_airframe_1 = {
 			owner = "HEN"
 			amount = 100
 			version_name = "HB-3"
@@ -549,7 +549,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = small_plane_airframe_0
+			type = small_plane_airframe_1
 			creator = "HEN"
 			version_name = "H-15"
 		}
@@ -559,7 +559,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = medium_plane_airframe_0
+			type = medium_plane_airframe_1
 			creator = "HEN"
 			version_name = "HB-3"
 		}

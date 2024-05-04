@@ -523,12 +523,12 @@ units = {
 
 air_wings = {
 	378 = {
-		small_plane_airframe_0 = {
+		small_plane_airframe_1 = {
 			owner = "MEH"
 			amount = 100
 			version_name = "Mecha F-15"
 		}
-		medium_plane_airframe_0 = {
+		medium_plane_airframe_1 = {
 			owner = "MEH"
 			amount = 100
 			version_name = "Mecha B-3"
@@ -576,7 +576,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = small_plane_airframe_0
+			type = small_plane_airframe_1
 			creator = "MEH"
 			version_name = "Mecha F-15"
 		}
@@ -586,7 +586,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = medium_plane_airframe_0
+			type = medium_plane_airframe_1
 			creator = "MEH"
 			version_name = "Mecha B-3"
 		}

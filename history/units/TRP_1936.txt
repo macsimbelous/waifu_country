@@ -457,12 +457,12 @@ units = {
 
 air_wings = {
 	939 = {
-		small_plane_airframe_0 = {
+		small_plane_airframe_1 = {
 			owner = "TRP"
 			amount = 100
 			version_name = "Trap F-15"
 		}
-		medium_plane_airframe_0 = {
+		medium_plane_airframe_1 = {
 			owner = "TRP"
 			amount = 100
 			version_name = "Trap B-3"
