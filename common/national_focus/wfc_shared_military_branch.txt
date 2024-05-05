@@ -5,6 +5,10 @@ shared_focus = {
 	y = 0
 	cost = 5
 	available = {
+		OR = {
+			has_completed_focus = meh_upgrade_warmind_def
+			has_completed_focus = meh_upgrade_warmind_agr
+		}
 	}
 	ai_will_do = {
 		factor = 20
@@ -325,9 +329,18 @@ shared_focus = {
 	y = 1
 	cost = 5
 	available = {
-		OR = {
-			controls_state = 953
-			controls_state = 507
+		if = {
+			limit = {
+				original_tag = MEH
+			}
+			controls_state = 463
+		}
+		else_if = {
+			limit = { original_tag = TRP }
+			OR = {
+				controls_state = 953
+				controls_state = 507
+			}
 		}
 	}
 	bypass = {
@@ -359,13 +372,22 @@ shared_focus = {
 	y = 1
 	cost = 5
 	available = {
-		OR = {
-			controls_state = 951
-			controls_state = 506
-			controls_state = 952
-			controls_state = 959
-			controls_state = 508
-			controls_state = 960
+		if = {
+			limit = {
+				original_tag = MEH
+			}
+			controls_state = 379
+		}
+		else_if = {
+			limit = { original_tag = TRP }
+			OR = {
+				controls_state = 951
+				controls_state = 506
+				controls_state = 952
+				controls_state = 959
+				controls_state = 508
+				controls_state = 960
+			}
 		}
 	}
 	bypass = {
@@ -1396,6 +1418,10 @@ shared_focus = {
 		factor = 20
 	}
 	available = {
+		OR = {
+			has_completed_focus = meh_upgrade_warmind_def
+			has_completed_focus = meh_upgrade_warmind_agr
+		}
 	}
 	bypass = {
 	}
@@ -2283,6 +2309,10 @@ shared_focus = {
 		}
 	}
 	available = {
+		OR = {
+			has_completed_focus = meh_upgrade_warmind_def
+			has_completed_focus = meh_upgrade_warmind_agr
+		}
 		any_owned_state = {
 			is_controlled_by = ROOT
 			is_coastal = yes
@@ -2520,13 +2550,24 @@ shared_focus = {
 	}
 	available = {
 	}
-	bypass = {
-		NOT = {
-			has_idea = wfc_idea_smb_naval_arms_race_legacy
-		}
-	}
 	completion_reward = {
-		remove_ideas = wfc_idea_smb_naval_arms_race_legacy
+		if = {
+			limit = {
+				has_idea = wfc_idea_smb_naval_arms_race_legacy
+			}
+			remove_ideas = wfc_idea_smb_naval_arms_race_legacy
+		}
+		if = {
+			limit = {
+				original_tag = MEH
+			}
+			add_tech_bonus = {
+				name = naval_equipment
+				bonus = 1
+				uses = 2
+				category = naval_equipment
+			}
+		}
 		every_other_country = {
 			limit = {
 				OR = {

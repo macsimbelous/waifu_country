@@ -14,16 +14,19 @@ focus_tree = {
 	# }
 	continuous_focus_position = {
 		x = 60
-		y = 1100
+		y = 1400
 	}
-	shared_focus = wfc_army_effort
-	shared_focus = wfc_aviation_effort
-	shared_focus = wfc_naval_effort
+	#shared_focus = wfc_army_effort
+	#shared_focus = wfc_aviation_effort
+	#shared_focus = wfc_naval_effort
+	shared_focus = wfc_smb_army
+	shared_focus = wfc_smb_air_force
+	shared_focus = wfc_smb_navy
 	shared_focus = wfc_political_effort
 	focus = {
 		id = meh_upgrade_ai
 		icon = GFX_goal_generic_production
-		x = 29
+		x = 41
 		y = 0
 		cost = 10
 		search_filters = {

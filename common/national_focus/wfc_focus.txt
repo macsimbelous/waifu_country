@@ -1465,7 +1465,7 @@ shared_focus = {
 		}
 	}
 	offset = {
-		x = -4
+		x = 8
 		trigger = {
 			tag = MEH
 		}
