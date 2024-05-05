@@ -38,7 +38,7 @@ nec_category_necrification = {
 			}
 		}
 		cost = 100
-		fire_only_once = yes
+		fire_only_once = no
 		days_remove = 60
 		complete_effect = {
 			set_country_flag = nec_flag_necrification_run

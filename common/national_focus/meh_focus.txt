@@ -1121,9 +1121,9 @@ focus_tree = {
 					357 = {
 						wfc_is_controlled_by_root_or_puppet = yes
 					}
-					463 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
+					# 463 = {
+					# 	wfc_is_controlled_by_root_or_puppet = yes
+					# }
 				}
 				AND = {
 					has_war = no
@@ -1295,9 +1295,9 @@ focus_tree = {
 					357 = {
 						wfc_is_controlled_by_root_or_puppet = yes
 					}
-					463 = {
-						wfc_is_controlled_by_root_or_puppet = yes
-					}
+					# 463 = {
+					# 	wfc_is_controlled_by_root_or_puppet = yes
+					# }
 				}
 				AND = {
 					has_war = no

@@ -277,7 +277,7 @@ meh_cyborgization_category = {
 			}
 		}
 		cost = 100
-		fire_only_once = yes
+		fire_only_once = no
 		days_remove = 60
 		modifier = {
 			#stability_factor = -0.05
