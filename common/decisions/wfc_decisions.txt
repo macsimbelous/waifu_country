@@ -4033,7 +4033,7 @@ wfc_category_preparing_a_coup = {
 }
 
 improving_our_army_category = {
-	trp_JUNO_specialize_in_infantry_tanks = {
+	wfc_smb_specialize_in_infantry_tanks = {
 		name = JUNO_specialize_in_infantry_tanks
 		priority = 10
 		icon = GFX_decision_generic_tank
@@ -4073,7 +4073,7 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
@@ -4087,29 +4087,15 @@ improving_our_army_category = {
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_armor_defence_factor = 0.1
+					JUNO_army_modifier_army_armor_defence_factor = 0.05
 					tooltip = army_armor_defence_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_org_factor = 0.05
-					tooltip = army_org_factor_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-				add_to_variable = {
-					JUNO_army_modifier_army_armor_defence_factor = 0.1
-					tooltip = army_armor_defence_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_army_org_factor = 0.05
+					JUNO_army_modifier_army_org_factor = 0.1
 					tooltip = army_org_factor_tt
 				}
 			}
@@ -4129,7 +4115,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_specialize_in_breakthrough_tanks = {
+	wfc_smb_specialize_in_breakthrough_tanks = {
 		name = JUNO_specialize_in_breakthrough_tanks
 		priority = 9
 		icon = GFX_decision_generic_tank
@@ -4169,7 +4155,7 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
@@ -4183,29 +4169,15 @@ improving_our_army_category = {
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_armor_attack_factor = 0.035
+					JUNO_army_modifier_army_armor_attack_factor = 0.03
 					tooltip = army_armor_attack_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_attack_speed_factor = 0.05
-					tooltip = army_attack_speed_factor_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-				add_to_variable = {
-					JUNO_army_modifier_army_armor_attack_factor = 0.035
-					tooltip = army_armor_attack_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_army_attack_speed_factor = 0.05
+					JUNO_army_modifier_army_attack_speed_factor = 0.1
 					tooltip = army_attack_speed_factor_tt
 				}
 			}
@@ -4225,7 +4197,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_japanese_army_advisors = {
+	wfc_smb_invite_japanese_army_advisors = {
 		name = JUNO_invite_japanese_army_advisors
 		priority = 20
 		icon = GFX_decision_generic_army_support
@@ -4316,43 +4288,29 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_org_factor = 0.05
+					JUNO_army_modifier_army_org_factor = 0.04
 					tooltip = army_org_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_attack_speed_factor = 0.05
+					JUNO_army_modifier_army_attack_speed_factor = 0.06
 					tooltip = army_attack_speed_factor_tt
 				}
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_org_factor = 0.05
+					JUNO_army_modifier_army_org_factor = 0.06
 					tooltip = army_org_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_attack_speed_factor = 0.05
-					tooltip = army_attack_speed_factor_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-				add_to_variable = {
-					JUNO_army_modifier_army_org_factor = 0.05
-					tooltip = army_org_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_army_attack_speed_factor = 0.05
+					JUNO_army_modifier_army_attack_speed_factor = 0.04
 					tooltip = army_attack_speed_factor_tt
 				}
 			}
@@ -4368,6 +4326,7 @@ improving_our_army_category = {
 				}
 			}
 			add_doctrine_cost_reduction = {
+				name = GRAND_BATTLEPLAN_DOCTRINE
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_grand_battle_plan
@@ -4377,7 +4336,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_american_army_advisors = {
+	wfc_smb_invite_american_army_advisors = {
 		name = JUNO_invite_american_army_advisors
 		priority = 19
 		icon = GFX_decision_generic_army_support
@@ -4475,43 +4434,29 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_artillery_attack_factor = 0.05
+					JUNO_army_modifier_army_artillery_attack_factor = 0.04
 					tooltip = artillery_attack_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_special_forces_cap = 0.05
+					JUNO_army_modifier_special_forces_cap = 0.06
 					tooltip = special_forces_cap_tt
 				}
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_artillery_attack_factor = 0.05
+					JUNO_army_modifier_army_artillery_attack_factor = 0.06
 					tooltip = artillery_attack_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_special_forces_cap = 0.05
-					tooltip = special_forces_cap_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-				add_to_variable = {
-					JUNO_army_modifier_army_artillery_attack_factor = 0.05
-					tooltip = artillery_attack_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_special_forces_cap = 0.05
+					JUNO_army_modifier_special_forces_cap = 0.04
 					tooltip = special_forces_cap_tt
 				}
 			}
@@ -4527,6 +4472,7 @@ improving_our_army_category = {
 				}
 			}
 			add_doctrine_cost_reduction = {
+				name = SUPERIOR_FIREPOWER_DOCTRINE
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_superior_firepower
@@ -4536,7 +4482,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_soviet_army_advisors = {
+	wfc_smb_invite_soviet_army_advisors = {
 		name = JUNO_invite_soviet_army_advisors
 		priority = 18
 		icon = GFX_decision_generic_army_support
@@ -4629,39 +4575,25 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
-					JUNO_supply_combat_penalties_on_core_factor = -0.05
+					JUNO_supply_combat_penalties_on_core_factor = -0.04
 					tooltip = supply_combat_penalties_on_core_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_conscription = 0.01
+					JUNO_army_modifier_conscription = 0.015
 					tooltip = conscription_tt
 				}
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
 				add_to_variable = {
-					JUNO_supply_combat_penalties_on_core_factor = -0.05
-					tooltip = supply_combat_penalties_on_core_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_conscription = 0.01
-					tooltip = conscription_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-				add_to_variable = {
-					JUNO_supply_combat_penalties_on_core_factor = -0.05
+					JUNO_supply_combat_penalties_on_core_factor = -0.1
 					tooltip = supply_combat_penalties_on_core_factor_tt
 				}
 				add_to_variable = {
@@ -4681,6 +4613,7 @@ improving_our_army_category = {
 				}
 			}
 			add_doctrine_cost_reduction = {
+				name = MASS_ASSAULT_DOCTRINE
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_mass_assault
@@ -4690,7 +4623,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_german_army_advisors = {
+	wfc_smb_invite_german_army_advisors = {
 		name = JUNO_invite_german_army_advisors
 		priority = 17
 		icon = GFX_decision_generic_army_support
@@ -4781,43 +4714,29 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_armor_defence_factor = 0.05
+					JUNO_army_modifier_army_armor_defence_factor = 0.06
 					tooltip = army_armor_defence_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_armor_attack_factor = 0.05
+					JUNO_army_modifier_army_armor_attack_factor = 0.04
 					tooltip = army_armor_attack_factor_tt
 				}
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_armor_defence_factor = 0.05
+					JUNO_army_modifier_army_armor_defence_factor = 0.04
 					tooltip = army_armor_defence_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_armor_attack_factor = 0.05
-					tooltip = army_armor_attack_factor_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-				add_to_variable = {
-					JUNO_army_modifier_army_armor_defence_factor = 0.05
-					tooltip = army_armor_defence_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_army_armor_attack_factor = 0.05
+					JUNO_army_modifier_army_armor_attack_factor = 0.06
 					tooltip = army_armor_attack_factor_tt
 				}
 			}
@@ -4833,6 +4752,7 @@ improving_our_army_category = {
 				}
 			}
 			add_doctrine_cost_reduction = {
+				name = MOBILE_WARFARE_DOCTRINE
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_mobile_warfare
@@ -4842,7 +4762,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_italian_army_advisors = {
+	wfc_smb_invite_italian_army_advisors = {
 		name = JUNO_invite_italian_army_advisors
 		priority = 16
 		icon = GFX_decision_generic_army_support
@@ -4932,43 +4852,29 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_attack_speed_factor = 0.05
+					JUNO_army_modifier_army_attack_speed_factor = 0.04
 					tooltip = army_attack_speed_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_core_defence_factor = 0.1
+					JUNO_army_modifier_army_core_defence_factor = 0.15
 					tooltip = army_core_defence_factor_tt
 				}
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_attack_speed_factor = 0.05
+					JUNO_army_modifier_army_attack_speed_factor = 0.1
 					tooltip = army_attack_speed_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_core_defence_factor = 0.1
-					tooltip = army_core_defence_factor_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-				add_to_variable = {
-					JUNO_army_modifier_army_attack_speed_factor = 0.05
-					tooltip = army_attack_speed_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_army_core_defence_factor = 0.1
+					JUNO_army_modifier_army_core_defence_factor = 0.05
 					tooltip = army_core_defence_factor_tt
 				}
 			}
@@ -4984,6 +4890,7 @@ improving_our_army_category = {
 				}
 			}
 			add_doctrine_cost_reduction = {
+				name = GRAND_BATTLEPLAN_DOCTRINE
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_grand_battle_plan
@@ -4993,7 +4900,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_british_army_advisors = {
+	wfc_smb_invite_british_army_advisors = {
 		name = JUNO_invite_british_army_advisors
 		priority = 16
 		icon = GFX_decision_generic_army_support
@@ -5085,37 +4992,23 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_experience_gain_army_factor = 0.1
+					JUNO_army_modifier_experience_gain_army_factor = 0.05
 					tooltip = experience_gain_army_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_attack_factor = 0.05
+					JUNO_army_modifier_army_attack_factor = 0.075
 					tooltip = army_attack_factor_tt
 				}
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
-				add_to_variable = {
-					JUNO_army_modifier_experience_gain_army_factor = 0.1
-					tooltip = experience_gain_army_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_army_attack_factor = 0.05
-					tooltip = army_attack_factor_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
 				add_to_variable = {
 					JUNO_army_modifier_experience_gain_army_factor = 0.1
 					tooltip = experience_gain_army_factor_tt
@@ -5137,6 +5030,7 @@ improving_our_army_category = {
 				}
 			}
 			add_doctrine_cost_reduction = {
+				name = GRAND_BATTLEPLAN_DOCTRINE
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_grand_battle_plan
@@ -5146,7 +5040,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_french_army_advisors = {
+	wfc_smb_invite_french_army_advisors = {
 		name = JUNO_invite_french_army_advisors
 		priority = 15
 		icon = GFX_decision_generic_army_support
@@ -5237,7 +5131,7 @@ improving_our_army_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_army_ns_intro
 				add_to_variable = {
@@ -5251,29 +5145,15 @@ improving_our_army_category = {
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
 				add_to_variable = {
-					JUNO_army_modifier_army_artillery_attack_factor = 0.05
+					JUNO_army_modifier_army_artillery_attack_factor = 0.1
 					tooltip = artillery_attack_factor_tt
 				}
 				add_to_variable = {
-					JUNO_army_modifier_army_artillery_defence_factor = 0.1
-					tooltip = army_artillery_defence_factor_tt
-				}
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_army_ns_intro
-				add_to_variable = {
-					JUNO_army_modifier_army_artillery_attack_factor = 0.05
-					tooltip = artillery_attack_factor_tt
-				}
-				add_to_variable = {
-					JUNO_army_modifier_army_artillery_defence_factor = 0.1
+					JUNO_army_modifier_army_artillery_defence_factor = 0.05
 					tooltip = army_artillery_defence_factor_tt
 				}
 			}
@@ -5289,6 +5169,7 @@ improving_our_army_category = {
 				}
 			}
 			add_doctrine_cost_reduction = {
+				name = SUPERIOR_FIREPOWER_DOCTRINE
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_superior_firepower
@@ -5298,7 +5179,7 @@ improving_our_army_category = {
 			}
 		}
 	}
-	trp_JUNO_purchase_aircraft = {
+	wfc_smb_purchase_aircraft = {
 		name = JUNO_purchase_aircraft
 		priority = 1
 		icon = generic_air
@@ -5485,7 +5366,7 @@ improving_our_army_category = {
 }
 
 south_american_naval_arms_race_category = {
-	trp_JUNO_invite_japanese_naval_advisors = {
+	wfc_smb_invite_japanese_naval_advisors = {
 		name = JUNO_invite_japanese_naval_advisors
 		priority = 20
 		icon = GFX_decision_generic_army_support
@@ -5576,23 +5457,16 @@ south_american_naval_arms_race_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_navy_ns_intro
 				SMB_naval_jap_advisors_effect = yes
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_navy_ns_intro
-				SMB_naval_jap_advisors_effect = yes
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_navy_ns_intro
 				SMB_naval_jap_advisors_effect = yes
 			}
 			ELSE = {
@@ -5600,6 +5474,7 @@ south_american_naval_arms_race_category = {
 				SMB_naval_jap_advisors_effect = yes
 			}
 			add_doctrine_cost_reduction = {
+				name = naval_doctrine
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_base_strike
@@ -5609,7 +5484,7 @@ south_american_naval_arms_race_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_american_navy_advisors = {
+	wfc_smb_invite_american_navy_advisors = {
 		name = JUNO_invite_american_navy_advisors
 		priority = 19
 		icon = GFX_decision_generic_army_support
@@ -5636,14 +5511,6 @@ south_american_naval_arms_race_category = {
 					has_country_flag = JUNO_already_invited_american_naval_advisors_completed
 					has_country_flag = JUNO_already_invited_italian_naval_advisors_completed
 					has_country_flag = JUNO_already_invited_japanese_naval_advisors_completed
-				}
-			}
-			IF = {
-				limit = {
-					original_tag = CHL
-				}
-				NOT = {
-					has_completed_focus = CHL_promote_broad_anti_americansim
 				}
 			}
 			custom_trigger_tooltip = {
@@ -5707,23 +5574,16 @@ south_american_naval_arms_race_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_navy_ns_intro
 				SMB_naval_usa_advisors_effect = yes
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_navy_ns_intro
-				SMB_naval_usa_advisors_effect = yes
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_navy_ns_intro
 				SMB_naval_usa_advisors_effect = yes
 			}
 			ELSE = {
@@ -5731,6 +5591,7 @@ south_american_naval_arms_race_category = {
 				SMB_naval_usa_advisors_effect = yes
 			}
 			add_doctrine_cost_reduction = {
+				name = naval_doctrine
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_base_strike
@@ -5740,7 +5601,7 @@ south_american_naval_arms_race_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_soviet_navy_advisors = {
+	wfc_smb_invite_soviet_navy_advisors = {
 		name = JUNO_invite_soviet_navy_advisors
 		priority = 18
 		icon = GFX_decision_generic_army_support
@@ -5833,23 +5694,16 @@ south_american_naval_arms_race_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_navy_ns_intro
 				SMB_naval_sov_advisors_effect = yes
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_navy_ns_intro
-				SMB_naval_sov_advisors_effect = yes
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_navy_ns_intro
 				SMB_naval_sov_advisors_effect = yes
 			}
 			ELSE = {
@@ -5857,6 +5711,7 @@ south_american_naval_arms_race_category = {
 				SMB_naval_sov_advisors_effect = yes
 			}
 			add_doctrine_cost_reduction = {
+				name = naval_doctrine
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_fleet_in_being
@@ -5866,7 +5721,7 @@ south_american_naval_arms_race_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_german_navy_advisors = {
+	wfc_smb_invite_german_navy_advisors = {
 		name = JUNO_invite_german_navy_advisors
 		priority = 17
 		icon = GFX_decision_generic_army_support
@@ -5957,23 +5812,16 @@ south_american_naval_arms_race_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_navy_ns_intro
 				SMB_naval_ger_advisors_effect = yes
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_navy_ns_intro
-				SMB_naval_ger_advisors_effect = yes
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_navy_ns_intro
 				SMB_naval_ger_advisors_effect = yes
 			}
 			ELSE = {
@@ -5981,6 +5829,7 @@ south_american_naval_arms_race_category = {
 				SMB_naval_ger_advisors_effect = yes
 			}
 			add_doctrine_cost_reduction = {
+				name = naval_doctrine
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_trade_interdiction
@@ -5990,7 +5839,7 @@ south_american_naval_arms_race_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_italian_navy_advisors = {
+	wfc_smb_invite_italian_navy_advisors = {
 		name = JUNO_invite_italian_navy_advisors
 		priority = 16
 		icon = GFX_decision_generic_army_support
@@ -6080,23 +5929,16 @@ south_american_naval_arms_race_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_navy_ns_intro
 				SMB_naval_ita_advisors_effect = yes
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_navy_ns_intro
-				SMB_naval_ita_advisors_effect = yes
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_navy_ns_intro
 				SMB_naval_ita_advisors_effect = yes
 			}
 			ELSE = {
@@ -6104,6 +5946,7 @@ south_american_naval_arms_race_category = {
 				SMB_naval_ita_advisors_effect = yes
 			}
 			add_doctrine_cost_reduction = {
+				name = naval_doctrine
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_fleet_in_being
@@ -6113,7 +5956,7 @@ south_american_naval_arms_race_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_british_navy_advisors = {
+	wfc_smb_invite_british_navy_advisors = {
 		name = JUNO_invite_british_navy_advisors
 		priority = 16
 		icon = GFX_decision_generic_army_support
@@ -6205,23 +6048,16 @@ south_american_naval_arms_race_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_navy_ns_intro
 				SMB_naval_eng_advisors_effect = yes
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_navy_ns_intro
-				SMB_naval_eng_advisors_effect = yes
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_navy_ns_intro
 				SMB_naval_eng_advisors_effect = yes
 			}
 			ELSE = {
@@ -6229,6 +6065,7 @@ south_american_naval_arms_race_category = {
 				SMB_naval_eng_advisors_effect = yes
 			}
 			add_doctrine_cost_reduction = {
+				name = naval_doctrine
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_fleet_in_being
@@ -6238,7 +6075,7 @@ south_american_naval_arms_race_category = {
 			}
 		}
 	}
-	trp_JUNO_invite_french_navy_advisors = {
+	wfc_smb_invite_french_navy_advisors = {
 		name = JUNO_invite_french_navy_advisors
 		priority = 15
 		icon = GFX_decision_generic_army_support
@@ -6329,23 +6166,16 @@ south_american_naval_arms_race_category = {
 		remove_effect = {
 			IF = {
 				limit = {
-					original_tag = CHL
+					original_tag = TRP
 				}
 				custom_effect_tooltip = CHL_modify_chilean_navy_ns_intro
 				SMB_naval_fra_advisors_effect = yes
 			}
 			ELSE_IF = {
 				limit = {
-					original_tag = BRA
+					original_tag = MEH
 				}
 				custom_effect_tooltip = BRA_modify_brazilian_navy_ns_intro
-				SMB_naval_fra_advisors_effect = yes
-			}
-			ELSE_IF = {
-				limit = {
-					original_tag = ARG
-				}
-				custom_effect_tooltip = ARG_modify_argentine_navy_ns_intro
 				SMB_naval_fra_advisors_effect = yes
 			}
 			ELSE = {
@@ -6353,6 +6183,7 @@ south_american_naval_arms_race_category = {
 				SMB_naval_fra_advisors_effect = yes
 			}
 			add_doctrine_cost_reduction = {
+				name = naval_doctrine
 				cost_reduction = 0.75
 				uses = 1
 				category = cat_fleet_in_being

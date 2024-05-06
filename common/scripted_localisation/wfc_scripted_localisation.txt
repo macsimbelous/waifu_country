@@ -171,3 +171,39 @@ defined_text = {
 		localization_key = wfc_sl_flag_plan_the_assassination_of_the_head_of_state_no
 	}
 }
+defined_text = {
+    name = wfc_smb_atacama_training_sl
+    text = {
+        trigger = {
+            original_tag = TRP
+        }
+        localization_key = wfc_smb_atacama_training_trp
+    }
+	text = {
+        trigger = {
+            original_tag = MEH
+        }
+        localization_key = wfc_smb_atacama_training_meh
+    }
+    text = {
+        localization_key = wfc_smb_atacama_training_default
+    }
+}
+defined_text = {
+    name = wfc_smb_tierra_del_fuego_training_sl
+    text = {
+        trigger = {
+            original_tag = TRP
+        }
+        localization_key = wfc_smb_tierra_del_fuego_training_trp
+    }
+	text = {
+        trigger = {
+            original_tag = MEH
+        }
+        localization_key = wfc_smb_tierra_del_fuego_training_meh
+    }
+    text = {
+        localization_key = wfc_smb_tierra_del_fuego_training_default
+    }
+}
