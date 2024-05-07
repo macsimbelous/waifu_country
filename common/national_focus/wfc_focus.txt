@@ -881,6 +881,13 @@ shared_focus = {
 	icon = GFX_goal_generic_production
 	x = 13
 	y = 0
+	offset = {
+		x = -4
+		y = 8
+		trigger = {
+			tag = MAH
+		}
+	}
 	cost = 5
 	search_filters = {
 		FOCUS_FILTER_INDUSTRY
@@ -1453,7 +1460,7 @@ shared_focus = {
 	x = 19
 	y = 0
 	offset = {
-		x = -4
+		x = 8
 		trigger = {
 			tag = ACW
 		}
@@ -1471,21 +1478,27 @@ shared_focus = {
 		}
 	}
 	offset = {
-		x = -4
+		x = 8
 		trigger = {
 			tag = MMS
 		}
 	}
 	offset = {
-		x = -15
+		x = 8
 		trigger = {
 			tag = HEN
 		}
 	}
 	offset = {
-		x = -4
+		x = 8
 		trigger = {
 			tag = NEC
+		}
+	}
+	offset = {
+		x = 8
+		trigger = {
+			tag = MAH
 		}
 	}
 	cost = 5

@@ -5,9 +5,20 @@ shared_focus = {
 	y = 0
 	cost = 5
 	available = {
-		OR = {
-			has_completed_focus = meh_upgrade_warmind_def
-			has_completed_focus = meh_upgrade_warmind_agr
+		if = {
+			limit = {
+				original_tag = MEH
+			}
+			OR = {
+				has_completed_focus = meh_upgrade_warmind_def
+				has_completed_focus = meh_upgrade_warmind_agr
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = ACW
+			}
+			has_completed_focus = acw_focus_complete_the_reform
 		}
 	}
 	ai_will_do = {
@@ -336,11 +347,61 @@ shared_focus = {
 			controls_state = 463
 		}
 		else_if = {
-			limit = { original_tag = TRP }
+			limit = {
+				original_tag = TRP
+			}
 			OR = {
 				controls_state = 953
 				controls_state = 507
 			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MAH
+			}
+			OR = {
+				AND = {
+					has_opinion = {
+						target = ACW
+						value > 49
+					}
+					ACW = {
+						has_war = no
+					}
+				}
+				AND = {
+					has_opinion = {
+						target = TRP
+						value > 49
+					}
+					TRP = {
+						has_war = no
+						OR = {
+							controls_state = 953
+							controls_state = 507
+						}
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MMS
+			}
+			has_opinion = {
+				target = HEN
+				value > 49
+			}
+			HEN = {
+				has_war = no
+				controls_state = 536
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = HEN
+			}
+			controls_state = 536
 		}
 	}
 	bypass = {
@@ -379,7 +440,9 @@ shared_focus = {
 			controls_state = 379
 		}
 		else_if = {
-			limit = { original_tag = TRP }
+			limit = {
+				original_tag = TRP
+			}
 			OR = {
 				controls_state = 951
 				controls_state = 506
@@ -387,6 +450,70 @@ shared_focus = {
 				controls_state = 959
 				controls_state = 508
 				controls_state = 960
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = ACW
+			}
+			has_opinion = {
+				target = MAH
+				value > 49
+			}
+			MAH = {
+				OR = {
+					controls_state = 554
+					controls_state = 455
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MAH
+			}
+			OR = {
+				controls_state = 554
+				controls_state = 455
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MMS
+			}
+			OR = {
+				controls_state = 410
+				controls_state = 414
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = HEN
+			}
+			OR = {
+				controls_state = 817
+				controls_state = 621
+				controls_state = 756
+				controls_state = 616
+				AND = {
+					has_opinion = {
+						target = MMS
+						value > 49
+					}
+					MMS = {
+						OR = {
+							controls_state = 410
+							controls_state = 414
+						}
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = NEC
+			}
+			OR = {
+				controls_state = 758
 			}
 		}
 	}
@@ -1418,9 +1545,20 @@ shared_focus = {
 		factor = 20
 	}
 	available = {
-		OR = {
-			has_completed_focus = meh_upgrade_warmind_def
-			has_completed_focus = meh_upgrade_warmind_agr
+		if = {
+			limit = {
+				original_tag = MEH
+			}
+			OR = {
+				has_completed_focus = meh_upgrade_warmind_def
+				has_completed_focus = meh_upgrade_warmind_agr
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = ACW
+			}
+			has_completed_focus = acw_focus_complete_the_reform
 		}
 	}
 	bypass = {
@@ -2309,9 +2447,20 @@ shared_focus = {
 		}
 	}
 	available = {
-		OR = {
-			has_completed_focus = meh_upgrade_warmind_def
-			has_completed_focus = meh_upgrade_warmind_agr
+		if = {
+			limit = {
+				original_tag = MEH
+			}
+			OR = {
+				has_completed_focus = meh_upgrade_warmind_def
+				has_completed_focus = meh_upgrade_warmind_agr
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = ACW
+			}
+			has_completed_focus = acw_focus_complete_the_reform
 		}
 		any_owned_state = {
 			is_controlled_by = ROOT
@@ -3294,7 +3443,6 @@ shared_focus = {
 	x = 1
 	y = 1
 	cost = 5
-
 	available = {
 	}
 	bypass = {
