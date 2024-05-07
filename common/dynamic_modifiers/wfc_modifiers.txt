@@ -70,7 +70,7 @@ mms_dm_ifrit_infantry_equipment = {
 wfc_dm_smb_army = {
 	enable = { always = yes }
 
-	icon = GFX_idea_ETH_army
+	icon = GFX_idea_HUN_secret_rearmament
 
 	experience_gain_army_factor = wfc_smb_army_modifier_experience_gain_army_factor
 	experience_loss_factor = wfc_smb_army_modifier_experience_loss_factor
@@ -106,7 +106,7 @@ wfc_dm_smb_army = {
 wfc_dm_smb_airforce = {
 	enable = { always = yes }
 
-	icon = GFX_idea_ETH_airforce
+	icon = GFX_idea_generic_air_bonus
 
 	air_doctrine_cost_factor =  wfc_smb_airforce_modifier_air_doctrine_cost_factor
 	air_ace_generation_chance_factor = wfc_smb_airforce_modifier_air_ace_generation_chance_factor
