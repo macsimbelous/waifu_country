@@ -212,4 +212,63 @@ wfc_se_pick_navy_modifier_tt = {
 	custom_effect_tooltip = JUNO_modify_south_american_navy_ns_intro
 }
 
+wfc_se_smb_naval_jap_advisors_effect = {
+	add_to_variable = {
+		wfc_smb_navy_spotting_chance = 0.05
+		tooltip = spotting_chance_tt
+	}
+	add_to_variable = {
+		wfc_smb_naval_morale_factor = 0.05
+		tooltip = naval_morale_factor_tt
+	}
+}
 
+wfc_se_smb_naval_usa_advisors_effect = {
+	add_to_variable = {
+		wfc_smb_navy_navy_anti_air_attack_factor = 0.05
+		tooltip = navy_anti_air_attack_factor_tt
+	}
+	add_to_variable = {
+		wfc_smb_convoy_escort_efficiency = 0.05
+		tooltip = convoy_escort_efficiency_tt
+	}
+}
+
+wfc_se_smb_naval_eng_advisors_effect = {
+	add_to_variable = {
+		wfc_smb_navy_capital_ship_defence_factor = 0.05
+		tooltip = navy_capital_ship_defense_factor_tt
+	}
+	add_to_variable = {
+		wfc_smb_navy_industrial_capacity_dockyard = 0.05
+		tooltip = industrial_capacity_dockyard_tt
+	}
+}
+
+wfc_se_smb_naval_fra_advisors_effect = {
+	add_to_variable = {
+		wfc_smb_navy_screen_defence_factor = 0.05
+		tooltip = navy_screen_defence_factor_tt
+	}
+}
+
+wfc_se_smb_naval_ita_advisors_effect = {
+	add_to_variable = {
+		wfc_smb_navy_convoy_retreat_speed = 0.05
+		tooltip = convoy_retreat_speed_tt
+	}
+}
+
+wfc_se_smb_naval_ger_advisors_effect = {
+	add_to_variable = {
+		wfc_smb_navy_naval_coordination = 0.05
+		tooltip = naval_coordination_tt
+	}
+}
+
+wfc_se_smb_naval_sov_advisors_effect = {
+	add_to_variable = {
+		production_speed_dockyard_factor_tt = 0.05
+		tooltip = spotting_chance_tt
+	}
+}
