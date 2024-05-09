@@ -209,7 +209,7 @@ wfc_se_set_shared_military_branch_defaults = {
 }
 
 wfc_se_pick_navy_modifier_tt = {
-	custom_effect_tooltip = JUNO_modify_south_american_navy_ns_intro
+	custom_effect_tooltip = wfc_tt_smb_modify_navy_ns_intro
 }
 
 wfc_se_smb_naval_jap_advisors_effect = {
