@@ -235,27 +235,382 @@ meh_kosmos_category = {
 }
 
 meh_cyborgization_category = {
-	meh_cyborgization = {
-		#icon = generic_nationalism
-		#icon = generic_form_nation
+	meh_cyborgization_europe = {
+		desc = meh_cyborgization_island_desc
 		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 100
+		fire_only_once = no
+		days_remove = 90
 		available = {
-			FROM = {
+			any_controlled_state = {
+				is_on_continent = europe
+				wfc_is_island_state = no
 				is_fully_controlled_by = ROOT
 			}
-			num_of_civilian_factories_available_for_projects > 9
-			NOT = {
-				has_country_flag = meh_flag_cyborgization_run
-			}
+			num_of_civilian_factories_available_for_projects > 29
 		}
 		visible = {
-			FROM = {
-				is_controlled_by = ROOT
-				NOT = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = europe
+					wfc_is_island_state = no
 					is_core_of = ROOT
 				}
 			}
 		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = europe
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		modifier = {
+			#stability_factor = -0.05
+			civilian_factory_use = 30
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = europe
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = europe
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	meh_cyborgization_africa = {
+		desc = meh_cyborgization_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 100
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = africa
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+			num_of_civilian_factories_available_for_projects > 29
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = africa
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = africa
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		modifier = {
+			#stability_factor = -0.05
+			civilian_factory_use = 30
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = africa
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = africa
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	meh_cyborgization_middle_east = {
+		desc = meh_cyborgization_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 100
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = middle_east
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+			num_of_civilian_factories_available_for_projects > 29
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = middle_east
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = middle_east
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		modifier = {
+			#stability_factor = -0.05
+			civilian_factory_use = 30
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = middle_east
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = middle_east
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	meh_cyborgization_asia = {
+		desc = meh_cyborgization_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 100
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = asia
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+			num_of_civilian_factories_available_for_projects > 29
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = asia
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = asia
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		modifier = {
+			#stability_factor = -0.05
+			civilian_factory_use = 30
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = asia
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = asia
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	meh_cyborgization_australia = {
+		desc = meh_cyborgization_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 100
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = australia
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+			num_of_civilian_factories_available_for_projects > 29
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = australia
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = australia
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		modifier = {
+			#stability_factor = -0.05
+			civilian_factory_use = 30
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = australia
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = australia
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	meh_cyborgization_south_america = {
+		desc = meh_cyborgization_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 100
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = south_america
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+			num_of_civilian_factories_available_for_projects > 29
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = south_america
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = south_america
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		modifier = {
+			#stability_factor = -0.05
+			civilian_factory_use = 30
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = south_america
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = south_america
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	meh_cyborgization = {
+		#icon = generic_nationalism
+		#icon = generic_form_nation
+		icon = GFX_decision_generic_brainwash
+		priority = 2
+		available = {
+			FROM = {
+				is_fully_controlled_by = ROOT
+			}
+			num_of_civilian_factories_available_for_projects > 14
+			# NOT = {
+			# 	has_country_flag = meh_flag_cyborgization_run
+			# }
+		}
+		# visible = {
+		# 	FROM = {
+		# 		is_controlled_by = ROOT
+		# 		NOT = {
+		# 			is_core_of = ROOT
+		# 		}
+		# 	}
+		# }
 		state_target = yes
 		on_map_mode = map_and_decisions_view
 		#target_array = owned_controlled_states
@@ -263,8 +618,10 @@ meh_cyborgization_category = {
 		target_array = controlled_states
 		target_trigger = {
 			FROM = {
-				#is_controlled_by = ROOT
 				NOT = {
+					is_core_of = ROOT
+				}
+				any_neighbor_state = {
 					is_core_of = ROOT
 				}
 			}
@@ -276,59 +633,451 @@ meh_cyborgization_category = {
 				}
 			}
 		}
-		cost = 100
+		cost = 50
 		fire_only_once = no
 		days_remove = 60
 		modifier = {
 			#stability_factor = -0.05
-			civilian_factory_use = 10
+			civilian_factory_use = 15
 		}
 		complete_effect = {
-			set_country_flag = meh_flag_cyborgization_run
+			#set_country_flag = meh_flag_cyborgization_run
+			FROM = {
+				set_resistance = 0.8
+			}
 		}
 		remove_effect = {
-			clr_country_flag = meh_flag_cyborgization_run
+			#clr_country_flag = meh_flag_cyborgization_run
 			FROM = {
-				#add_core_of = ROOT
 				wfc_coring_state = yes
 			}
-			# if = {
-			# 	limit = {
-			# 		FROM = {
-			# 			OWNER = {
-			# 				NOT = {
-			# 					tag = ROOT
-			# 				}
-			# 			}
+		}
+		# cancel_effect = {
+		# 	clr_country_flag = meh_flag_cyborgization_run
+		# }
+		ai_will_do = {
+			factor = 5
+			# modifier = {
+			# 	FROM = {
+			# 		any_neighbor_state = {
+			# 			is_core_of = ROOT
 			# 		}
 			# 	}
-			# 	transfer_state = FROM
+			# 	factor = 100
 			# }
-		}
-		cancel_effect = {
-			clr_country_flag = meh_flag_cyborgization_run
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				FROM = {
-					any_neighbor_state = {
-						is_core_of = ROOT
-					}
-				}
-				factor = 100
-			}
 			modifier = {
 				FROM = {
 					is_claimed_by = ROOT
 				}
-				factor = 100
+				factor = 10
 			}
 			modifier = {
 				FROM = {
 					is_owned_by = ROOT
 				}
-				factor = 1000
+				factor = 100
+			}
+		}
+	}
+	meh_cyborgization_island = {
+		name = meh_cyborgization
+		icon = GFX_decision_generic_brainwash
+		priority = 1
+		available = {
+			FROM = {
+				is_fully_controlled_by = ROOT
+			}
+			num_of_civilian_factories_available_for_projects > 19
+		}
+		# visible = {
+		# 	FROM = {
+		# 		is_controlled_by = ROOT
+		# 		NOT = {
+		# 			is_core_of = ROOT
+		# 		}
+		# 	}
+		# }
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		#target_array = owned_states
+		target_array = controlled_states
+		target_trigger = {
+			FROM = {
+				wfc_is_island_state = yes
+				NOT = {
+					is_core_of = ROOT
+				}
+				if = {
+					limit = {
+						OR = {
+							state = 120
+							state = 136
+							state = 121
+							state = 133
+							state = 131
+							state = 931
+							state = 130
+							state = 132
+							state = 129
+							state = 128
+							state = 122
+							state = 125
+							state = 126
+							state = 127
+							state = 338
+							state = 123
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_eng
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 119
+							state = 134
+							state = 113
+							state = 135
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_ire
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 318
+							state = 319
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_dom_hai
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 555
+							state = 536
+							state = 533
+							state = 534
+							state = 282
+							state = 535
+							state = 532
+							state = 531
+							state = 529
+							state = 530
+							state = 528
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_jap
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 284
+							state = 723
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_nzl
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 737
+							state = 523
+							state = 669
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_png
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 623
+							state = 327
+							state = 624
+							state = 625
+							state = 627
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_phi
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 333
+							state = 334
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_ins
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 721
+							state = 667
+							state = 335
+							state = 672
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_ins2
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 686
+							state = 694
+							state = 308
+							state = 692
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_bas
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 1
+							state = 114
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_cor
+						}
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				FROM = {
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		cost = 50
+		fire_only_once = no
+		days_remove = 60
+		modifier = {
+			#stability_factor = -0.05
+			civilian_factory_use = 20
+		}
+		complete_effect = {
+			FROM = {
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			FROM = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+				if = {
+					limit = {
+						OR = {
+							state = 120
+							state = 136
+							state = 121
+							state = 133
+							state = 131
+							state = 931
+							state = 130
+							state = 132
+							state = 129
+							state = 128
+							state = 122
+							state = 125
+							state = 126
+							state = 127
+							state = 338
+							state = 123
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_eng
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 119
+							state = 134
+							state = 113
+							state = 135
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_ire
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 318
+							state = 319
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_dom_hai
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 555
+							state = 536
+							state = 533
+							state = 534
+							state = 282
+							state = 535
+							state = 532
+							state = 531
+							state = 529
+							state = 530
+							state = 528
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_jap
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 284
+							state = 723
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_nzl
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 737
+							state = 523
+							state = 669
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_png
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 623
+							state = 327
+							state = 624
+							state = 625
+							state = 627
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_phi
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 333
+							state = 334
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_ins
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 721
+							state = 667
+							state = 335
+							state = 672
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_ins2
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 686
+							state = 694
+							state = 308
+							state = 692
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_bas
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 1
+							state = 114
+						}
+					}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_cor
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				FROM = {
+					is_claimed_by = ROOT
+				}
+				factor = 10
+			}
+			modifier = {
+				FROM = {
+					is_owned_by = ROOT
+				}
+				factor = 100
 			}
 		}
 	}

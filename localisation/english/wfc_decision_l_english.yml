@@ -338,13 +338,20 @@ meh_nuclear_strike_tt:0 "Nuclear strike"
 meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
 
 #meh_cyborgization_category
- meh_cyborgization_category:0 "Cyborgization"
- meh_cyborgization:0 "Cyborgize §Y[From.GetName]§!"
+ meh_cyborgization_category: "Cyborgization"
+ meh_cyborgization: "Cyborgize §Y[From.GetName]§!"
  meh_flag_cyborgization_run: "The process of cyborgization of the region is active"
+ meh_cyborgization_island_desc: "To make cyborgization of overseas territories possible, a long-distance communication hub would have to be established. This will, of course, increase the cost of cyborgization."
+ meh_cyborgization_europe: "The cyborgization of Europe"
+ meh_cyborgization_africa: "The cyborgization of Africa"
+ meh_cyborgization_middle_east: "The cyborgization of the Middle East"
+ meh_cyborgization_asia: "The cyborgization of Asia"
+ meh_cyborgization_australia: "The cyborgization of Australia"
+ meh_cyborgization_south_america: "The cyborgization of South America"
 
 #meh_exterminatus_category
- meh_exterminatus_category:0 "§RExterminatus§!"
- meh_exterminatus_decision:0 "§RDestroy§! [FROM.GetName]"
+ meh_exterminatus_category: "§RExterminatus§!"
+ meh_exterminatus_decision: "§RDestroy§! [FROM.GetName]"
 
 #test the mexicans
  meh_test_the_mexicans: "To test the Mexicans"
