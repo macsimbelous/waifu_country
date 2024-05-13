@@ -771,6 +771,28 @@ characters = {
 			}
 		}
 	}
+	nec_milim_bloodthirsty = {
+		name = nec_milim_bloodthirsty
+		portraits = {
+			army = {
+				small = GFX_idea_nec_milim_bloodthirsty
+				large = GFX_portrait_nec_milim_bloodthirsty_army
+			}
+			civilian = {
+				large = GFX_portrait_nec_milim_bloodthirsty_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_mountaineer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		#name = generic_head_of_intelligence

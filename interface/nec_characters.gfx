@@ -207,6 +207,14 @@ spriteTypes = {
 		name = "GFX_portrait_nec_vemo_lufinn_air"
 		texturefile = "gfx/leaders/NEC/vemo_lufinn_air.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_milim_bloodthirsty"
+		texturefile = "gfx/leaders/NEC/milim_bloodthirsty_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_milim_bloodthirsty_army"
+		texturefile = "gfx/leaders/NEC/milim_bloodthirsty_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"
