@@ -701,7 +701,7 @@ shared_focus = {
 			category = artillery
 		}
 		country_event = {
-			id = south_american_events.2
+			id = wfc_event.9
 			hours = 0
 		}
 	}

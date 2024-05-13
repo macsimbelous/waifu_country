@@ -346,3 +346,49 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = wfc_event.9
+	title = south_american_events.2.t
+	desc = south_american_events.2.desc
+	picture = GFX_report_event_british_artillery
+	is_triggered_only = yes
+	fire_only_once = no
+	# Artillery is the obvious choice
+	option = {
+		name = south_american_events.2.a
+		ai_chance = {
+			base = 55
+		}
+		custom_effect_tooltip = wfc_tt_smb_modify_army_ns_intro
+		add_to_variable = {
+			wfc_smb_army_modifier_army_artillery_attack_factor = 0.05
+			tooltip = artillery_attack_factor_tt
+		}
+		add_to_variable = {
+			wfc_smb_army_modifier_army_artillery_defence_factor = 0.1
+			tooltip = army_artillery_defence_factor_tt
+		}
+	}
+	# I think the air is scary
+	option = {
+		name = south_american_events.2.b
+		ai_chance = {
+			base = 30
+		}
+		custom_effect_tooltip = wfc_tt_smb_modify_army_ns_intro
+		add_to_variable = {
+			wfc_smb_army_modifier_production_speed_anti_air_building_factor = 0.15
+			tooltip = production_speed_anti_air_building_factor_tt
+		}
+		add_ideas = JUNO_hidden_aa_production_ns
+	}
+	# I want to shoot in a straight line
+	option = {
+		name = south_american_events.2.c
+		ai_chance = {
+			base = 15
+		}
+		add_ideas = JUNO_hidden_at_production_ns
+	}
+}
