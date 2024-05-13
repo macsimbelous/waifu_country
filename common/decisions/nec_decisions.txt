@@ -1,12 +1,419 @@
 nec_category_necrification = {
+	nec_decision_necrification_europe = {
+		desc = nec_decision_necrification_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 300
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = europe
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = europe
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = europe
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = europe
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = europe
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+				wfc_se_necrification_create_unit = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_necrification_africa = {
+		desc = nec_decision_necrification_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 300
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = africa
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = africa
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = africa
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = africa
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = africa
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+				wfc_se_necrification_create_unit = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_necrification_middle_east = {
+		desc = nec_decision_necrification_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 300
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = middle_east
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = middle_east
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = middle_east
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = middle_east
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = middle_east
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+				wfc_se_necrification_create_unit = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_necrification_north_america = {
+		desc = nec_decision_necrification_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 300
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = north_america
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = north_america
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = north_america
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = north_america
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = north_america
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+				wfc_se_necrification_create_unit = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_necrification_australia = {
+		desc = nec_decision_necrification_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 300
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = australia
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = australia
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = australia
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = australia
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = australia
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+				wfc_se_necrification_create_unit = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_necrification_south_america = {
+		desc = nec_decision_necrification_island_desc
+		icon = GFX_decision_generic_brainwash
+		priority = 3
+		cost = 300
+		fire_only_once = no
+		days_remove = 90
+		available = {
+			any_controlled_state = {
+				is_on_continent = south_america
+				wfc_is_island_state = no
+				is_fully_controlled_by = ROOT
+			}
+		}
+		visible = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = south_america
+					wfc_is_island_state = no
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				any_controlled_state = {
+					is_on_continent = south_america
+					wfc_is_island_state = no
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_on_continent = south_america
+					wfc_is_island_state = no
+				}
+				set_resistance = 0.8
+			}
+		}
+		remove_effect = {
+			random_controlled_state = {
+				limit = {
+					is_on_continent = south_america
+					wfc_is_island_state = no
+				}
+				wfc_coring_state = yes
+				wfc_se_necrification_create_unit = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	nec_decision_necrification = {
 		icon = GFX_decision_generic_brainwash
 		available = {
 			FROM = {
 				is_fully_controlled_by = ROOT
 			}
+			# NOT = {
+			# 	has_country_flag = nec_flag_necrification_run
+			# }
+		}
+		visible = {
+			FROM = {
+				is_controlled_by = ROOT
+				NOT = {
+					is_core_of = ROOT
+				}
+				any_neighbor_state = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		#target_array = owned_states
+		target_array = controlled_states
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+				any_neighbor_state = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
 			NOT = {
-				has_country_flag = nec_flag_necrification_run
+				FROM = {
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		cost = 150
+		fire_only_once = no
+		days_remove = 60
+		complete_effect = {
+			#set_country_flag = nec_flag_necrification_run
+			FROM = {
+				set_resistance = 80
+			}
+		}
+		remove_effect = {
+			#clr_country_flag = nec_flag_necrification_run
+			FROM = {
+				wfc_coring_state = yes
+				wfc_se_necrification_create_unit = yes
+			}
+		}
+		# cancel_effect = {
+		# 	clr_country_flag = nec_flag_necrification_run
+		# }
+		ai_will_do = {
+			base = 5
+			modifier = {
+				FROM = {
+					is_owned_by = ROOT
+				}
+				add = 100
+			}
+			modifier = {
+				FROM = {
+					is_claimed_by = ROOT
+				}
+				add = 10
+			}
+		}
+	}
+	nec_decision_necrification_island = {
+		name = meh_cyborgization
+		icon = GFX_decision_generic_brainwash
+		priority = 1
+		available = {
+			FROM = {
+				is_fully_controlled_by = ROOT
 			}
 		}
 		visible = {
@@ -24,9 +431,185 @@ nec_category_necrification = {
 		target_array = controlled_states
 		target_trigger = {
 			FROM = {
-				#is_controlled_by = ROOT
+				wfc_is_island_state = yes
 				NOT = {
 					is_core_of = ROOT
+				}
+				if = {
+					limit = {
+						OR = {
+							state = 120
+							state = 136
+							state = 121
+							state = 133
+							state = 131
+							state = 931
+							state = 130
+							state = 132
+							state = 129
+							state = 128
+							state = 122
+							state = 125
+							state = 126
+							state = 127
+							state = 338
+							state = 123
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_eng
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 119
+							state = 134
+							state = 113
+							state = 135
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_ire
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 318
+							state = 319
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_dom_hai
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 555
+							state = 536
+							state = 533
+							state = 534
+							state = 282
+							state = 535
+							state = 532
+							state = 531
+							state = 529
+							state = 530
+							state = 528
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_jap
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 284
+							state = 723
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_nzl
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 737
+							state = 523
+							state = 669
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_png
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 623
+							state = 327
+							state = 624
+							state = 625
+							state = 627
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_phi
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 333
+							state = 334
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_ins
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 721
+							state = 667
+							state = 335
+							state = 672
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_ins2
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 686
+							state = 694
+							state = 308
+							state = 692
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_bas
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 1
+							state = 114
+						}
+					}
+					ROOT = {
+						NOT = {
+							has_country_flag = wfc_flag_cyborgization_island_in_cor
+						}
+					}
 				}
 			}
 		}
@@ -37,243 +620,187 @@ nec_category_necrification = {
 				}
 			}
 		}
-		cost = 100
+		cost = 200
 		fire_only_once = no
 		days_remove = 60
 		complete_effect = {
-			set_country_flag = nec_flag_necrification_run
 			FROM = {
-				set_resistance = 80
+				set_resistance = 0.8
 			}
 		}
 		remove_effect = {
-			clr_country_flag = nec_flag_necrification_run
 			FROM = {
 				wfc_coring_state = yes
-				custom_effect_tooltip = nec_decision_necrification_create_unit_tt
-				hidden_effect = {
-					create_unit = {
-						division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-						owner = NEC
-						allow_spawning_on_enemy_provs = yes
-					}
-					if = {
-						limit = {
-							state_population_k > 2000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
-						}
-					}
-					if = {
-						limit = {
-							state_population_k > 3000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+				wfc_se_necrification_create_unit = yes
+				if = {
+					limit = {
+						OR = {
+							state = 120
+							state = 136
+							state = 121
+							state = 133
+							state = 131
+							state = 931
+							state = 130
+							state = 132
+							state = 129
+							state = 128
+							state = 122
+							state = 125
+							state = 126
+							state = 127
+							state = 338
+							state = 123
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 4000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_eng
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 119
+							state = 134
+							state = 113
+							state = 135
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 5000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_ire
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 318
+							state = 319
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 6000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_dom_hai
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 555
+							state = 536
+							state = 533
+							state = 534
+							state = 282
+							state = 535
+							state = 532
+							state = 531
+							state = 529
+							state = 530
+							state = 528
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 7000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_jap
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 284
+							state = 723
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 8000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_nzl
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 737
+							state = 523
+							state = 669
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 9000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_png
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 623
+							state = 327
+							state = 624
+							state = 625
+							state = 627
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 10000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_phi
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 333
+							state = 334
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 11000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_ins
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 721
+							state = 667
+							state = 335
+							state = 672
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 12000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_ins2
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 686
+							state = 694
+							state = 308
+							state = 692
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 13000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_bas
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							state = 1
+							state = 114
 						}
 					}
-					if = {
-						limit = {
-							state_population_k > 14000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
-						}
-					}
-					if = {
-						limit = {
-							state_population_k > 15000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
-						}
-					}
-					if = {
-						limit = {
-							state_population_k > 16000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
-						}
-					}
-					if = {
-						limit = {
-							state_population_k > 17000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
-						}
-					}
-					if = {
-						limit = {
-							state_population_k > 18000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
-						}
-					}
-					if = {
-						limit = {
-							state_population_k > 19000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
-						}
-					}
-					if = {
-						limit = {
-							state_population_k > 20000
-						}
-						create_unit = {
-							division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
-							owner = NEC
-							allow_spawning_on_enemy_provs = yes
-						}
+					ROOT = {
+						set_country_flag = wfc_flag_cyborgization_island_in_cor
 					}
 				}
 			}
-		}
-		cancel_effect = {
-			clr_country_flag = nec_flag_necrification_run
 		}
 		ai_will_do = {
-			base = 1
-			modifier = {
-				FROM = {
-					is_owned_by = ROOT
-				}
-				add = 1000
-			}
-			modifier = {
-				FROM = {
-					any_neighbor_state = {
-						is_core_of = ROOT
-					}
-				}
-				add = 100
-			}
+			factor = 5
 			modifier = {
 				FROM = {
 					is_claimed_by = ROOT
 				}
-				add = 50
+				factor = 10
+			}
+			modifier = {
+				FROM = {
+					is_owned_by = ROOT
+				}
+				factor = 100
 			}
 		}
 	}

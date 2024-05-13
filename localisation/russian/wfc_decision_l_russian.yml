@@ -480,7 +480,14 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   nec_category_necrification: "Некрофикация населения контролируемых регионов"
   nec_decision_necrification: "Некрофикация региона §Y[FROM.GetName]§!"
   nec_flag_necrification_run: "Идёт некрофикация"
-  nec_decision_necrification_create_unit_tt: "Будут созданы боевые единицы в количестве пропорциональном населению территории."
+  nec_decision_necrification_island: "Некрофикация региона §Y[FROM.GetName]§!"
+  nec_decision_necrification_island_desc: "Некрофикация заморских территорий более затратная."
+  nec_decision_necrification_europe: "Некрофикация Европы"
+  nec_decision_necrification_africa: "Некрофикация Африки"
+  nec_decision_necrification_middle_east: "Некрофикация Ближнего востока"
+  nec_decision_necrification_north_america: "Некрофикация Северной америки"
+  nec_decision_necrification_australia: "Некрофикация Австралии"
+  nec_decision_necrification_south_america: "Некрофикация Южной америки"
 
 #test
  wfc_test_category:0 "Тестовая категория"
