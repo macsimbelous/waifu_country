@@ -383,6 +383,14 @@ spriteTypes = {
 		name = "GFX_portrait_hen_cobi_navy"
 		texturefile = "gfx/leaders/HEN/cobi_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hen_reiko"
+		texturefile = "gfx/leaders/HEN/reiko_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_reiko_army"
+		texturefile = "gfx/leaders/HEN/reiko_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_hen_land_01_small"

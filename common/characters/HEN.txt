@@ -1187,4 +1187,23 @@ characters = {
 			coordination_skill = 3
 		}
 	}
+	hen_reiko = {
+		name = hen_reiko
+		portraits = {
+			army = {
+				small = GFX_idea_hen_reiko
+				large = GFX_portrait_hen_reiko_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }
