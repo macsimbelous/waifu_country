@@ -23,6 +23,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		army_experience = 25
@@ -99,6 +103,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		random_core_state = {
@@ -155,6 +163,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_war_support = 0.1
@@ -177,6 +189,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -203,6 +219,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -226,6 +246,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -259,6 +283,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_ideas = wfc_idea_smb_truck_production_cost
@@ -288,6 +316,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -315,6 +347,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -408,6 +444,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -546,6 +586,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = GRE_mountain_training_effect
@@ -576,6 +620,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -605,6 +653,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -651,6 +703,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -688,6 +744,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -723,6 +783,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 		NOT = {
@@ -817,6 +881,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -842,6 +910,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -887,6 +959,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -918,6 +994,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -950,6 +1030,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -983,6 +1067,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		IF = {
@@ -1025,6 +1113,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		IF = {
@@ -1091,6 +1183,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		IF = {
@@ -1153,6 +1249,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		IF = {
@@ -1215,6 +1315,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -1310,6 +1414,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -1425,6 +1533,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		IF = {
@@ -1479,6 +1591,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		IF = {
@@ -1522,6 +1638,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -1543,6 +1663,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 		if = {
@@ -1614,6 +1738,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -1644,6 +1772,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -1726,6 +1858,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_airforce_ns_intro
@@ -1760,6 +1896,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		IF = {
@@ -1837,6 +1977,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -1915,6 +2059,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -1970,6 +2118,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -2001,6 +2153,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -2028,6 +2184,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -2062,6 +2222,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_airforce_ns_intro
@@ -2093,6 +2257,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -2136,6 +2304,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_airforce_ns_intro
@@ -2173,6 +2345,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_airforce_ns_intro
@@ -2200,6 +2376,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -2239,6 +2419,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_airforce_ns_intro
@@ -2282,6 +2466,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		air_experience = 25
@@ -2313,6 +2501,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		navy_experience = 15
@@ -2349,6 +2541,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
@@ -2379,6 +2575,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		army_experience = 15
@@ -2416,6 +2616,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		air_experience = 50
@@ -2439,6 +2643,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 		modifier = {
 			any_controlled_state = {
 				is_coastal = no
@@ -2511,6 +2719,10 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
+			has_war = yes
+			factor = 10
+		}
+		modifier = {
 			any_controlled_state = {
 				is_coastal = no
 			}
@@ -2573,6 +2785,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 		modifier = {
 			any_controlled_state = {
 				is_coastal = no
@@ -2638,6 +2854,10 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
+			has_war = yes
+			factor = 10
+		}
+		modifier = {
 			any_controlled_state = {
 				is_coastal = no
 			}
@@ -2666,6 +2886,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -2691,6 +2915,10 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
+			has_war = yes
+			factor = 10
+		}
+		modifier = {
 			any_controlled_state = {
 				is_coastal = no
 			}
@@ -2706,37 +2934,54 @@ shared_focus = {
 			}
 			remove_ideas = wfc_idea_smb_naval_arms_race_legacy
 		}
+		add_tech_bonus = {
+			name = naval_equipment
+			bonus = 1
+			uses = 2
+			category = naval_equipment
+		}
 		if = {
 			limit = {
-				original_tag = MEH
+				original_tag = TRP
 			}
-			add_tech_bonus = {
-				name = naval_equipment
-				bonus = 1
-				uses = 2
-				category = naval_equipment
-			}
-		}
-		every_other_country = {
-			limit = {
-				OR = {
-					is_major = yes
-					capital_scope = {
-						is_core_of = THIS
-						is_on_continent = south_america
+			every_other_country = {
+				limit = {
+					OR = {
+						is_major = yes
+						capital_scope = {
+							is_core_of = THIS
+							is_on_continent = south_america
+						}
+					}
+					NOT = {
+						has_idea = wfc_idea_smb_naval_arms_race_legacy
+						has_idea = SMB_MTG_naval_arms_race_legacy
 					}
 				}
-				NOT = {
-					has_idea = wfc_idea_smb_naval_arms_race_legacy
+				news_event = {
+					id = south_american_news.10
+					hours = 2
+				}
+				IF = {
+					limit = {
+						original_tag = USA
+					}
+					add_opinion_modifier = {
+						modifier = wfc_smb_naval_arms_race
+						target = ROOT
+					}
 				}
 			}
-			news_event = {
-				id = south_american_news.10
-				hours = 2
-			}
-			IF = {
+			every_other_country = {
 				limit = {
-					original_tag = USA
+					OR = {
+						has_idea = SMB_MTG_naval_arms_race_legacy
+						has_idea = wfc_idea_smb_naval_arms_race_legacy
+					}
+				}
+				country_event = {
+					id = south_american_events.10
+					hours = 1
 				}
 				add_opinion_modifier = {
 					modifier = wfc_smb_naval_arms_race
@@ -2744,17 +2989,180 @@ shared_focus = {
 				}
 			}
 		}
-		every_other_country = {
+		else_if = {
 			limit = {
-				has_idea = wfc_idea_smb_naval_arms_race_legacy
+				original_tag = MEH
 			}
-			country_event = {
-				id = south_american_events.10
-				hours = 1
+			every_other_country = {
+				limit = {
+					OR = {
+						is_major = yes
+						capital_scope = {
+							is_on_continent = north_america
+						}
+					}
+				}
+				news_event = {
+					id = south_american_news.10
+					hours = 2
+				}
+				IF = {
+					limit = {
+						OR = {
+							original_tag = USA
+							original_tag = JAP
+						}
+					}
+					add_opinion_modifier = {
+						modifier = wfc_smb_naval_arms_race
+						target = ROOT
+					}
+				}
 			}
-			add_opinion_modifier = {
-				modifier = wfc_smb_naval_arms_race
-				target = ROOT
+		}
+		else_if = {
+			limit = {
+				original_tag = ACW
+			}
+			every_other_country = {
+				limit = {
+					OR = {
+						is_major = yes
+						capital_scope = {
+							is_on_continent = europe
+						}
+					}
+				}
+				news_event = {
+					id = south_american_news.10
+					hours = 2
+				}
+				IF = {
+					limit = {
+						OR = {
+							original_tag = ENG
+							original_tag = ITA
+							original_tag = FRA
+							original_tag = SOV
+							original_tag = GER
+						}
+					}
+					add_opinion_modifier = {
+						modifier = wfc_smb_naval_arms_race
+						target = ROOT
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MAH
+			}
+			every_other_country = {
+				limit = {
+					OR = {
+						is_major = yes
+						capital_scope = {
+							OR = {
+								is_on_continent = europe
+								is_on_continent = middle_east
+							}
+						}
+					}
+				}
+				news_event = {
+					id = south_american_news.10
+					hours = 2
+				}
+				IF = {
+					limit = {
+						OR = {
+							original_tag = ENG
+							original_tag = ITA
+							original_tag = FRA
+						}
+					}
+					add_opinion_modifier = {
+						modifier = wfc_smb_naval_arms_race
+						target = ROOT
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = MMS
+			}
+			every_other_country = {
+				limit = {
+					OR = {
+						is_major = yes
+						capital_scope = {
+							OR = {
+								is_on_continent = asia
+								is_on_continent = middle_east
+							}
+						}
+					}
+				}
+				news_event = {
+					id = south_american_news.10
+					hours = 2
+				}
+				IF = {
+					limit = {
+						OR = {
+							original_tag = ENG
+							original_tag = FRA
+						}
+					}
+					add_opinion_modifier = {
+						modifier = wfc_smb_naval_arms_race
+						target = ROOT
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				original_tag = HEN
+			}
+			every_other_country = {
+				limit = {
+					OR = {
+						is_major = yes
+						capital_scope = {
+							is_on_continent = asia
+						}
+					}
+				}
+				news_event = {
+					id = south_american_news.10
+					hours = 2
+				}
+				IF = {
+					limit = {
+						OR = {
+							original_tag = USA
+							original_tag = JAP
+						}
+					}
+					add_opinion_modifier = {
+						modifier = wfc_smb_naval_arms_race
+						target = ROOT
+					}
+				}
+			}
+		}
+		else = {
+			every_other_country = {
+				limit = {
+					is_major = yes
+				}
+				news_event = {
+					id = south_american_news.10
+					hours = 2
+				}
 			}
 		}
 	}
@@ -2776,6 +3184,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -2807,6 +3219,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 		modifier = {
 			any_controlled_state = {
 				is_coastal = no
@@ -2850,6 +3266,10 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
+			has_war = yes
+			factor = 10
+		}
+		modifier = {
 			any_controlled_state = {
 				is_coastal = no
 			}
@@ -2878,6 +3298,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 		modifier = {
 			any_controlled_state = {
 				is_coastal = no
@@ -2919,6 +3343,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -2954,6 +3382,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		navy_experience = 15
@@ -2982,6 +3414,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_ideas = CAN_degauss_ship_hulls
@@ -3020,6 +3456,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		wfc_se_pick_navy_modifier_tt = yes
@@ -3045,6 +3485,10 @@ shared_focus = {
 	cost = 5
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	available = {
 	}
@@ -3090,6 +3534,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -3129,6 +3577,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		wfc_se_pick_navy_modifier_tt = yes
@@ -3158,6 +3610,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		IF = {
@@ -3260,6 +3716,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		random_owned_controlled_state = {
@@ -3320,6 +3780,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_ideas = POR_convoy_build_efficiency
@@ -3345,6 +3809,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		wfc_se_pick_navy_modifier_tt = yes
@@ -3386,6 +3854,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		random_army_leader = {
@@ -3446,6 +3918,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -3480,6 +3956,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			has_war = yes
+			factor = 10
+		}
 	}
 	completion_reward = {
 		#custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
