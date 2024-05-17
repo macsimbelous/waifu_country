@@ -80,7 +80,7 @@ hen_organization_futabu = {
 nec_organization_heavy_aircraft = {
 	include = generic_heavy_aircraft_organization
 	icon = GFX_idea_generic_air_research
-	name = generic_heavy_aircraft_organization
+	#name = generic_heavy_aircraft_organization
 	allowed = {
 		original_tag = NEC
 	}
@@ -199,7 +199,7 @@ nec_organization_the_bone_armory = {
 meh_organization_naval_aircraft = {
 	include = generic_naval_aircraft_organization
 	#icon = GFX_idea_generic_air_research
-	name = generic_naval_aircraft_organization
+	#name = generic_naval_aircraft_organization
 	allowed = {
 		original_tag = MEH
 	}
@@ -226,7 +226,7 @@ meh_organization_naval_aircraft = {
 meh_organization_task_force_ship = {
 	include = generic_task_force_ship_organization
 	#icon = GFX_idea_generic_air_research
-	name = generic_task_force_ship_organization
+	#name = generic_task_force_ship_organization
 	allowed = {
 		original_tag = MEH
 	}
@@ -338,7 +338,7 @@ meh_organization_mythra_motors = {
 #Generic
 wfc_generic_submarine_organization = {
 	include = generic_submarine_organization
-	name = generic_submarine_organization
+	#name = generic_submarine_organization
 	#icon = GFX_idea_hen_futabu
 	allowed = {
 		OR = {
@@ -371,7 +371,7 @@ wfc_generic_submarine_organization = {
 
 wfc_generic_medium_tank_organization = {
 	include = generic_medium_tank_organization
-	name = generic_medium_tank_organization
+	#name = generic_medium_tank_organization
 	#icon = GFX_idea_hen_futabu
 	allowed = {
 		OR = {

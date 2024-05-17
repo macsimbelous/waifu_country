@@ -22,6 +22,9 @@ wfc_obt_arsenal:0 "Разработчик ОБТ"
 wfc_jet_aircraft_manufacturer:0 "Разработчик реактивной авиации"
 
 wfc_subsidies_dm:0 "Бюджетные субсидии"
+ #MIO
+  wfc_generic_submarine_organization: "§B$generic_submarine_organization$§!"
+  wfc_generic_medium_tank_organization: "§B$generic_medium_tank_organization$§!"
 
 
 #ZMB
@@ -30,7 +33,7 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
 
 #ACW
  #Ministers
-  acw_organization_winry_rockbell_manufacturer: "Мастерская Винри Рокбелл"
+  acw_organization_winry_rockbell_manufacturer: "§RМастерская Винри Рокбелл§!"
 
  #ideas
  acw_minprom_idea:0 "Министерство промышленности"
@@ -67,7 +70,7 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
  hen_idea_perverted_intelligence_agency: "Извращённое разведывательное управление"
  hen_idea_academy_of_perverted_sciences: "Академия извращённых наук"
  hen_idea_perverted_admiralty: "Изврашённое адмиралтейство"
- hen_organization_futabu: "Футабу!"
+ hen_organization_futabu: "§RФутабу!§!"
 
 #MAH
  mah_the_nation_of_mahou_shoujo:0 "Нация  §BВолшебниц§!"
@@ -90,7 +93,9 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
  meh_construction_robots:0 "Строительные роботы"
  meh_exterminatus_idea: "§RЭкстерминатус§!"
  #MIO
-  meh_organization_mythra_motors: "Митра моторс"
+  meh_organization_naval_aircraft: "§R$generic_naval_aircraft_organization$§!"
+  meh_organization_task_force_ship: "§R$generic_task_force_ship_organization$§!"
+  meh_organization_mythra_motors: "§RМитра моторс§!"
   wfc_mio_header_production: "Производство"
   wfc_mio_trait_assembly_line_1: "Конвейер"
   wfc_mio_trait_assembly_line_2: "Улучшенный конвейер"
@@ -126,7 +131,8 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
  nec_idea_contempt_for_the_living: "Презрение к живым"
  nec_idea_army_of_the_undead: "Армия нежити"
  #MIO
-  nec_organization_the_bone_armory: "Костяной арсенал"
+  nec_organization_the_bone_armory: "§RКостяной арсенал§!"
+  nec_organization_heavy_aircraft: "§R$generic_heavy_aircraft_organization$§!"
 
 #SMB
  wfc_dm_smb_army: "Сухопутные войска"

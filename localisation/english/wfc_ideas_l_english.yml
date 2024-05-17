@@ -21,6 +21,9 @@ wfc_obt_arsenal:0 "MBT developer"
 wfc_jet_aircraft_manufacturer:0 "Jet aircraft developer"
 
 wfc_subsidies_dm:0 "Budget subsidies"
+ #MIO
+  wfc_generic_submarine_organization: "§B$generic_submarine_organization$§!"
+  wfc_generic_medium_tank_organization: "§B$generic_medium_tank_organization$§!"
 
 
 #HEN
@@ -37,7 +40,7 @@ wfc_subsidies_dm:0 "Budget subsidies"
  hen_mistiora_arte:0 "Mistiora Arte"
  hen_iris_arcadia:0 "Iris Arcadia"
  hen_olga_discordia:0 "Olga Discordia"
- hen_organization_futabu: "Futa-Bu!"
+ hen_organization_futabu: "§RFuta-Bu!§!"
 
 ###########
  Anime_Physics:0 "Anime physics"
@@ -51,7 +54,7 @@ wfc_subsidies_dm:0 "Budget subsidies"
 
 #ACW
  #Ministers
-  acw_organization_winry_rockbell_manufacturer: "Winry Rockbell Workshop"
+  acw_organization_winry_rockbell_manufacturer: "§RWinry Rockbell Workshop§!"
 
 #ideas
 acw_minprom_idea:0 "Ministry of Industry"
@@ -100,13 +103,15 @@ acw_subject_autonomy_mod_tt:0 "Increase in the autonomy of the subjects §G-0.5"
  meh_construction_robots:0 "Construction robots"
  meh_exterminatus_idea: "§RExterminatus§!"
  #MIO
-  meh_organization_mythra_motors: "Mythra Motors"
+  meh_organization_naval_aircraft: "§R$generic_naval_aircraft_organization$§!"
+  meh_organization_task_force_ship: "§R$generic_task_force_ship_organization$§!"
+  meh_organization_mythra_motors: "§RMythra Motors§!"
   wfc_mio_header_production: "Production"
   wfc_mio_trait_assembly_line_1: "Conveyor"
   wfc_mio_trait_assembly_line_2: "Improved conveyor"
   wfc_mio_trait_cost_optimization: "Cost optimization"
-  meh_heavy_tank_designer:0 "Heavy Tank Developer"
-  meh_submarine_company:0 "Submarine developer" 
+  meh_heavy_tank_designer:0 "§RHeavy Tank Developer§!"
+  meh_submarine_company:0 "§RSubmarine developer§!" 
 
 #MMS
  mms_power_shamiko:0 "§RMighty Shamiko§!"
@@ -134,7 +139,8 @@ acw_subject_autonomy_mod_tt:0 "Increase in the autonomy of the subjects §G-0.5"
  nec_idea_contempt_for_the_living: "Contempt for the living"
  nec_idea_army_of_the_undead: "Army of the undead"
  #MIO
-  nec_organization_the_bone_armory: "The Bone Armory"
+  nec_organization_the_bone_armory: "§RThe Bone Armory§!"
+  nec_organization_heavy_aircraft: "§R$generic_heavy_aircraft_organization$§!"
 
 #SMB
  wfc_dm_smb_army: "Ground forces"
