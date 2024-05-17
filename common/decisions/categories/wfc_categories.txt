@@ -166,7 +166,7 @@ wfc_preparation_for_war_category = {
 }
 
 wfc_budget_category = {
-	priority = 2
+	priority = 1
 	icon = generic_economy
 	picture = GFX_wfc_budget_category
 	allowed = {
