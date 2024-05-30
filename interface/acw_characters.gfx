@@ -258,8 +258,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/erza_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_erza"
-		texturefile = "gfx/leaders/ACW/Erza.dds"
+		name = "GFX_portrait_acw_erza_civilian"
+		texturefile = "gfx/leaders/ACW/erza_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_erza_puppet"
+		texturefile = "gfx/leaders/ACW/erza_puppet.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_escha_malier"
@@ -758,6 +762,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/kitagawa_marin.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_acw_kitagawa_marin_navy"
+		texturefile = "gfx/leaders/ACW/kitagawa_marin_navy_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_kitagawa_marin_navy"
+		texturefile = "gfx/leaders/ACW/kitagawa_marin_navy.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_acw_snow"
 		texturefile = "gfx/leaders/ACW/snow_idea.dds"
 	}
@@ -1020,6 +1032,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_aki_nijou_puppet"
 		texturefile = "gfx/leaders/ACW/aki_nijou_puppet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_mai_sakurajima"
+		texturefile = "gfx/leaders/ACW/mai_sakurajima_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_mai_sakurajima_army"
+		texturefile = "gfx/leaders/ACW/mai_sakurajima_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_chizuru_ichinose"
+		texturefile = "gfx/leaders/ACW/chizuru_ichinose_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_chizuru_ichinose_army"
+		texturefile = "gfx/leaders/ACW/chizuru_ichinose_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_chizuru_ichinose_civilian"
+		texturefile = "gfx/leaders/ACW/chizuru_ichinose_civilian.dds"
 	}
 	#generics
 	spriteType = {

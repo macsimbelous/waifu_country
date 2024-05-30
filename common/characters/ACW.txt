@@ -1620,6 +1620,10 @@ characters = {
 				small = GFX_idea_acw_kitagawa_marin
 				large = GFX_portrait_acw_kitagawa_marin
 			}
+			navy = {
+				small = GFX_idea_acw_kitagawa_marin_navy
+				large = GFX_portrait_acw_kitagawa_marin_navy
+			}
 		}
 		corps_commander = {
 			traits = {
@@ -2591,35 +2595,6 @@ characters = {
 			}
 		}
 	}
-	#Agents
-	ACW_head_int = {
-		name = generic_head_of_intelligence
-		portraits = {
-			army = {
-				small = GFX_idea_acw_ayame_himuro
-			}
-			civilian = {
-				large = GFX_portrait_acw_ayame_himuro
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_head_int
-			cost = 1000
-			allowed = {
-				original_tag = ACW
-			}
-			visible = {
-				always = no
-			}
-			traits = {
-				head_of_intelligence
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
 	ACW_yor_forger = {
 		name = ACW_yor_forger
 		portraits = {
@@ -2765,6 +2740,74 @@ characters = {
 					}
 					factor = 10
 				}
+			}
+		}
+	}
+	acw_mai_sakurajima = {
+		name = acw_mai_sakurajima
+		portraits = {
+			army = {
+				small = GFX_idea_acw_mai_sakurajima
+				large = GFX_portrait_acw_mai_sakurajima_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	acw_chizuru_ichinose = {
+		name = acw_chizuru_ichinose
+		portraits = {
+			army = {
+				small = GFX_idea_acw_chizuru_ichinose
+				large = GFX_portrait_acw_chizuru_ichinose_army
+			}
+			civilian = {
+				large = GFX_portrait_acw_chizuru_ichinose_civilian
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	#Заглушка
+	ACW_head_int = {
+		name = generic_head_of_intelligence
+		portraits = {
+			army = {
+				small = GFX_idea_acw_ayame_himuro
+			}
+			civilian = {
+				large = GFX_portrait_acw_ayame_himuro
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_head_int
+			cost = 1000
+			allowed = {
+				original_tag = ACW
+			}
+			visible = {
+				always = no
+			}
+			traits = {
+				head_of_intelligence
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 	}
