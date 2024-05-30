@@ -182,6 +182,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/asuna_yuuki_civilian.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_acw_asuna_yuuki_puppet"
+		texturefile = "gfx/leaders/ACW/asuna_yuuki_puppet.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_acw_blanc"
 		texturefile = "gfx/leaders/ACW/blanc_idea.dds"
 	}
@@ -408,6 +412,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_mamako_oosuki_army"
 		texturefile = "gfx/leaders/ACW/mamako_oosuki_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_mamako_oosuki_puppet"
+		texturefile = "gfx/leaders/ACW/mamako_oosuki_puppet.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_maple"

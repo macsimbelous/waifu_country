@@ -1291,6 +1291,92 @@ characters = {
 			}
 		}
 	}
+	mah_fern = {
+		name = mah_fern
+		portraits = {
+			army = {
+				small = GFX_idea_mah_fern
+				large = GFX_portrait_mah_fern_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	mah_frieren = {
+		name = mah_frieren
+		portraits = {
+			army = {
+				small = GFX_idea_mah_frieren
+				large = GFX_portrait_mah_frieren_army
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = mah_frieren
+			ledger = army
+			cost = 150
+			traits = {
+				superior_firepower_expert
+			}
+		}
+		corps_commander = {
+			traits = {
+				bearer_of_artillery
+			}
+			skill = 4
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	mah_ubel = {
+		name = mah_ubel
+		portraits = {
+			army = {
+				small = GFX_idea_mah_ubel
+				large = GFX_portrait_mah_ubel_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mah_mary_sturm = {
+		name = mah_mary_sturm
+		portraits = {
+			army = {
+				large = GFX_portrait_mah_mary_sturm_army
+				small = GFX_idea_mah_mary_sturm
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	#Заглушка
 	MAH_head_int = {
 		name = MAH_Hitomi_Tsukishiro
 		portraits = {

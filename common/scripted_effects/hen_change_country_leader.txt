@@ -25,6 +25,17 @@ hen_change_country_leader = {
 			}
 		}
 	}
+	else_if = {
+		limit = {
+			original_tag = MAH
+		}
+		set_country_leader_name = {
+			name = mah_mary_sturm
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_mah_mary_sturm_army
+		}
+	}
 	else = {
 		set_variable = {
 			rand_char = 0

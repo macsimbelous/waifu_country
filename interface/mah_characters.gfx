@@ -412,6 +412,38 @@ spriteTypes = {
 		name = "GFX_idea_mah_kiwi_araga"
 		texturefile = "gfx/leaders/MAH/kiwi_araga_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_mah_fern_army"
+		texturefile = "gfx/leaders/MAH/fern_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mah_fern"
+		texturefile = "gfx/leaders/MAH/fern_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_frieren_army"
+		texturefile = "gfx/leaders/MAH/frieren_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mah_frieren"
+		texturefile = "gfx/leaders/MAH/frieren_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_ubel_army"
+		texturefile = "gfx/leaders/MAH/ubel_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mah_ubel"
+		texturefile = "gfx/leaders/MAH/ubel_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_mary_sturm_army"
+		texturefile = "gfx/leaders/MAH/mary_sturm_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mah_mary_sturm"
+		texturefile = "gfx/leaders/MAH/mary_sturm_idea.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mah_land_01_small"
@@ -500,6 +532,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_mah_land_11"
 		texturefile = "gfx/leaders/MAH/generic/mah_land_11.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_12_small"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_12_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_land_12"
+		texturefile = "gfx/leaders/MAH/generic/mah_land_12.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_mah_naval_01_small"
