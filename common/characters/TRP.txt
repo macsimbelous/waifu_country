@@ -960,6 +960,72 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	trp_poison = {
+		name = trp_poison
+		portraits = {
+			army = {
+				small = GFX_idea_trp_poison
+				large = GFX_portrait_trp_poison_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				urban_assault_specialist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	trp_sakae_yomoda = {
+		name = trp_sakae_yomoda
+		portraits = {
+			army = {
+				small = GFX_idea_trp_sakae_yomoda
+				large = GFX_portrait_trp_sakae_yomoda_operative
+			}
+		}
+	}
+	trp_chen_li = {
+		name = trp_chen_li
+		portraits = {
+			army = {
+				small = GFX_idea_trp_chen_li
+				large = GFX_portrait_trp_chen_li_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	trp_bertrand = {
+		name = trp_bertrand
+		portraits = {
+			army = {
+				small = GFX_idea_trp_bertrand
+				large = GFX_portrait_trp_bertrand_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 	TRP_aoi_futaba = {
 		name = TRP_aoi_futaba
 		portraits = {

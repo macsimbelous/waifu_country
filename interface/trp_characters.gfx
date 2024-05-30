@@ -319,6 +319,38 @@ spriteTypes = {
 		name = "GFX_portrait_trp_simon_hartmann_civilian"
 		texturefile = "gfx/leaders/TRP/simon_hartmann_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_poison"
+		texturefile = "gfx/leaders/TRP/poison_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_poison_army"
+		texturefile = "gfx/leaders/TRP/poison_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_sakae_yomoda"
+		texturefile = "gfx/leaders/TRP/sakae_yomoda_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_sakae_yomoda_operative"
+		texturefile = "gfx/leaders/TRP/sakae_yomoda_operative.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_chen_li"
+		texturefile = "gfx/leaders/TRP/chen_li_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_chen_li_army"
+		texturefile = "gfx/leaders/TRP/chen_li_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_bertrand"
+		texturefile = "gfx/leaders/TRP/bertrand_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_bertrand_army"
+		texturefile = "gfx/leaders/TRP/bertrand_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_trp_land_01_small"
@@ -455,6 +487,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_trp_land_17"
 		texturefile = "gfx/leaders/TRP/generic/trp_land_17.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_18_small"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_18_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_land_18"
+		texturefile = "gfx/leaders/TRP/generic/trp_land_18.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_trp_naval_01_small"

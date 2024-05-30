@@ -140,7 +140,25 @@ recruit_character = TRP_mare_bello_fiore
 recruit_character = TRP_aoi_futaba
 recruit_character = TRP_aoi_futaba2
 recruit_character = TRP_kiruko
+recruit_character = trp_poison
+recruit_character = trp_chen_li
+recruit_character = trp_bertrand
 #agents
+recruit_character = trp_sakae_yomoda
+create_operative_leader = {
+	name = "Sakae Yomoda"
+	GFX = GFX_portrait_trp_sakae_yomoda_operative
+	traits = {
+		operative_infiltrator
+		operative_double_agent
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		TRP JAP
+	}
+}
+
 create_operative_leader = {
 	name = "Saki Mizushima"
 	GFX = GFX_portrait_trp_saki_mizushima

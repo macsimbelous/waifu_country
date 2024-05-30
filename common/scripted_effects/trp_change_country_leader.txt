@@ -7,7 +7,7 @@ trp_change_country_leader = {
 	set_variable_to_random = {
 		var = rand_char
 		min = 1
-		max = 40
+		max = 41
 		integer = yes
 	}
 	IF = {
@@ -21,393 +21,403 @@ trp_change_country_leader = {
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 2
-				}
+		limit = {
+			check_variable = {
+				rand_char = 2
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_02
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 3
-				}
+		limit = {
+			check_variable = {
+				rand_char = 3
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_03
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 4
-				}
+		limit = {
+			check_variable = {
+				rand_char = 4
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_04
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 5
-				}
+		limit = {
+			check_variable = {
+				rand_char = 5
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_05
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 6
-				}
+		limit = {
+			check_variable = {
+				rand_char = 6
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_06
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 7
-				}
+		limit = {
+			check_variable = {
+				rand_char = 7
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_07
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 8
-				}
+		limit = {
+			check_variable = {
+				rand_char = 8
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_08
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 9
-				}
+		limit = {
+			check_variable = {
+				rand_char = 9
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_09
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 10
-				}
+		limit = {
+			check_variable = {
+				rand_char = 10
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_10
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 11
-				}
+		limit = {
+			check_variable = {
+				rand_char = 11
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_11
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 12
-				}
+		limit = {
+			check_variable = {
+				rand_char = 12
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_12
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 13
-				}
+		limit = {
+			check_variable = {
+				rand_char = 13
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_13
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 14
-				}
+		limit = {
+			check_variable = {
+				rand_char = 14
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_14
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 15
-				}
+		limit = {
+			check_variable = {
+				rand_char = 15
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_15
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 16
-				}
+		limit = {
+			check_variable = {
+				rand_char = 16
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_16
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 17
-				}
+		limit = {
+			check_variable = {
+				rand_char = 17
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_land_17
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 18
-				}
+		limit = {
+			check_variable = {
+				rand_char = 18
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_01
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 19
-				}
+		limit = {
+			check_variable = {
+				rand_char = 19
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_02
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 20
-				}
+		limit = {
+			check_variable = {
+				rand_char = 20
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_03
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 21
-				}
+		limit = {
+			check_variable = {
+				rand_char = 21
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_04
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 22
-				}
+		limit = {
+			check_variable = {
+				rand_char = 22
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_05
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 23
-				}
+		limit = {
+			check_variable = {
+				rand_char = 23
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_06
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 24
-				}
+		limit = {
+			check_variable = {
+				rand_char = 24
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_07
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 25
-				}
+		limit = {
+			check_variable = {
+				rand_char = 25
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_08
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 26
-				}
+		limit = {
+			check_variable = {
+				rand_char = 26
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_09
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 27
-				}
+		limit = {
+			check_variable = {
+				rand_char = 27
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_10
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 28
-				}
+		limit = {
+			check_variable = {
+				rand_char = 28
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_11
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 29
-				}
+		limit = {
+			check_variable = {
+				rand_char = 29
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_12
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 30
-				}
+		limit = {
+			check_variable = {
+				rand_char = 30
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_13
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 31
-				}
+		limit = {
+			check_variable = {
+				rand_char = 31
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_naval_14
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 32
-				}
+		limit = {
+			check_variable = {
+				rand_char = 32
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_01
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 33
-				}
+		limit = {
+			check_variable = {
+				rand_char = 33
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_02
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 34
-				}
+		limit = {
+			check_variable = {
+				rand_char = 34
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_03
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 35
-				}
+		limit = {
+			check_variable = {
+				rand_char = 35
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_04
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 36
-				}
+		limit = {
+			check_variable = {
+				rand_char = 36
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_05
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 37
-				}
+		limit = {
+			check_variable = {
+				rand_char = 37
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_06
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 38
-				}
+		limit = {
+			check_variable = {
+				rand_char = 38
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_07
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 39
-				}
+		limit = {
+			check_variable = {
+				rand_char = 39
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_08
 		}
 	}
 	ELSE_IF = {
-			limit = {
-				check_variable = {
-					rand_char = 40
-				}
+		limit = {
+			check_variable = {
+				rand_char = 40
 			}
+		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_trp_operative_09
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 41
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_trp_land_18
 		}
 	}
 	add_country_leader_trait = wfc_trap
