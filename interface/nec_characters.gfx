@@ -223,6 +223,22 @@ spriteTypes = {
 		name = "GFX_portrait_nec_lin_risen_army"
 		texturefile = "gfx/leaders/NEC/lin_risen_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_lin_temptress"
+		texturefile = "gfx/leaders/NEC/lin_temptress_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_lin_temptress_operative"
+		texturefile = "gfx/leaders/NEC/lin_temptress_operative.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_tanya_glazasastaya"
+		texturefile = "gfx/leaders/NEC/tanya_glazasastaya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_tanya_glazasastaya_army"
+		texturefile = "gfx/leaders/NEC/tanya_glazasastaya_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"

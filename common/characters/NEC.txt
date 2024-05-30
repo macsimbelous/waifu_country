@@ -203,6 +203,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_nec_sakura_minamoto
+				large = GFX_portrait_nec_sakura_minamoto_operative
 			}
 			civilian = {
 				large = GFX_portrait_nec_sakura_minamoto_operative
@@ -816,15 +817,46 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	nec_lin_temptress = {
+		name = nec_lin_temptress
+		portraits = {
+			army = {
+				small = GFX_idea_nec_lin_temptress
+				large = GFX_portrait_nec_lin_temptress_operative
+			}
+			civilian = {
+				large = GFX_portrait_nec_lin_temptress_operative
+			}
+		}
+	}
+	nec_tanya_glazasastaya = {
+		name = nec_tanya_glazasastaya
+		portraits = {
+			army = {
+				small = GFX_idea_nec_tanya_glazasastaya
+				large = GFX_portrait_nec_tanya_glazasastaya_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		#name = generic_head_of_intelligence
 		portraits = {
 			army = {
-				small = GFX_idea_acw_ayame_himuro
+				small = GFX_idea_nec_sakura_minamoto
 			}
 			civilian = {
-				large = GFX_portrait_acw_ayame_himuro
+				large = GFX_portrait_nec_sakura_minamoto_operative
 			}
 		}
 		advisor = {

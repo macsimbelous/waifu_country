@@ -70,6 +70,7 @@ recruit_character = nec_vereda_doomweaver
 recruit_character = nec_vemo_lufinn
 recruit_character = nec_milim_bloodthirsty
 recruit_character = nec_lin_risen
+recruit_character = nec_tanya_glazasastaya
 #Заглушки
 recruit_character = nec_head_int
 
@@ -86,6 +87,20 @@ create_operative_leader = {
 	available_to_spy_master = yes
 	nationalities = {
 		NEC JAP
+	}
+}
+recruit_character = nec_lin_temptress
+create_operative_leader = {
+	name = "Lin Temptress"
+	GFX = GFX_portrait_nec_lin_temptress_operative
+	traits = {
+		operative_seducer
+		operative_escape_artist
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		NEC CHI
 	}
 }
 
