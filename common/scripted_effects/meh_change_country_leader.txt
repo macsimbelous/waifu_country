@@ -7,7 +7,7 @@ meh_change_country_leader = {
 	set_variable_to_random = {
 		var = rand_char
 		min = 1
-		max = 60
+		max = 67
 		integer = yes
 	}
 	IF = {
@@ -608,6 +608,76 @@ meh_change_country_leader = {
 		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_meh_operative_02
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 61
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_meh_land_34
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 62
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_meh_land_35
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 63
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_meh_land_36
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 64
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_meh_land_37
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 65
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_meh_land_38
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 66
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_meh_land_39
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 67
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_meh_land_40
 		}
 	}
 	add_country_leader_trait = wfc_android
