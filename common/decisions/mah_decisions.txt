@@ -881,8 +881,18 @@ mah_peace_agreement_with_britain_category = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			#controls_state = 765
-			765 = {
-				wfc_is_controlled_by_root_or_puppet = yes
+			# 765 = {
+			# 	wfc_is_controlled_by_root_or_puppet = yes
+			# }
+			OR = {
+				765 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				controls_province = 8051
+				any_other_country = {
+					is_puppet_of = ROOT
+					controls_province = 8051
+				}
 			}
 			#controls_state = 658
 			658 = {
