@@ -391,6 +391,46 @@ spriteTypes = {
 		name = "GFX_portrait_hen_reiko_army"
 		texturefile = "gfx/leaders/HEN/reiko_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hen_anzu_sakata"
+		texturefile = "gfx/leaders/HEN/anzu_sakata_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_anzu_sakata_army"
+		texturefile = "gfx/leaders/HEN/anzu_sakata_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_kino_honda"
+		texturefile = "gfx/leaders/HEN/kino_honda_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_kino_honda_army"
+		texturefile = "gfx/leaders/HEN/kino_honda_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_nana_ogata"
+		texturefile = "gfx/leaders/HEN/nana_ogata_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_nana_ogata_army"
+		texturefile = "gfx/leaders/HEN/nana_ogata_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_riko_ito"
+		texturefile = "gfx/leaders/HEN/riko_ito_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_riko_ito_army"
+		texturefile = "gfx/leaders/HEN/riko_ito_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_taura_hattori"
+		texturefile = "gfx/leaders/HEN/taura_hattori_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_taura_hattori_army"
+		texturefile = "gfx/leaders/HEN/taura_hattori_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_hen_land_01_small"

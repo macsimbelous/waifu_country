@@ -1206,4 +1206,99 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	hen_anzu_sakata = {
+		name = hen_anzu_sakata
+		portraits = {
+			army = {
+				small = GFX_idea_hen_anzu_sakata
+				large = GFX_portrait_hen_anzu_sakata_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	hen_kino_honda = {
+		name = hen_kino_honda
+		portraits = {
+			army = {
+				small = GFX_idea_hen_kino_honda
+				large = GFX_portrait_hen_kino_honda_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	hen_nana_ogata = {
+		name = hen_nana_ogata
+		portraits = {
+			army = {
+				small = GFX_idea_hen_nana_ogata
+				large = GFX_portrait_hen_nana_ogata_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	hen_riko_ito = {
+		name = hen_riko_ito
+		portraits = {
+			army = {
+				small = GFX_idea_hen_riko_ito
+				large = GFX_portrait_hen_riko_ito_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	hen_taura_hattori = {
+		name = hen_taura_hattori
+		portraits = {
+			army = {
+				small = GFX_idea_hen_taura_hattori
+				large = GFX_portrait_hen_taura_hattori_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }
