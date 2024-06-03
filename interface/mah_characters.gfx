@@ -444,6 +444,14 @@ spriteTypes = {
 		name = "GFX_idea_mah_mary_sturm"
 		texturefile = "gfx/leaders/MAH/mary_sturm_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_mah_mina_rall_army"
+		texturefile = "gfx/leaders/MAH/mina_rall_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mah_mina_rall"
+		texturefile = "gfx/leaders/MAH/mina_rall_idea.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mah_land_01_small"

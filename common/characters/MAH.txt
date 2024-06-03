@@ -1376,6 +1376,25 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	mah_mina_rall = {
+		name = mah_mina_rall
+		portraits = {
+			army = {
+				large = GFX_portrait_mah_mina_rall_army
+				small = GFX_idea_mah_mina_rall
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#Заглушка
 	MAH_head_int = {
 		name = MAH_Hitomi_Tsukishiro
