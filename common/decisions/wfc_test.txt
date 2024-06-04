@@ -635,14 +635,15 @@ wfc_test_category = {
 			random_character = {
 				limit = {
 					is_army_leader = yes
+					skill < 3
 				}
 				set_variable = {
 					rand_skill = 0
 				}
 				set_variable_to_random = {
 					var = rand_skill
-					min = 1
-					max = 9
+					min = 2
+					max = 4
 					integer = yes
 				}
 				add_skill_level = rand_skill
@@ -650,21 +651,66 @@ wfc_test_category = {
 				add_defense = rand_skill
 				add_planning = rand_skill
 				add_logistics = rand_skill
-				# set_variable = {
-				# 	skill_level = rand_skill
-				# }
-				# set_variable = {
-				# 	attack_level = rand_skill
-				# }
-				# set_variable = {
-				# 	defense_level = rand_skill
-				# }
-				# set_variable = {
-				# 	planning_level = rand_skill
-				# }
-				# set_variable = {
-				# 	defense_level = rand_skill
-				# }
+			}
+			random_character = {
+				limit = {
+					is_army_leader = yes
+					skill < 3
+				}
+				set_variable = {
+					rand_skill = 0
+				}
+				set_variable_to_random = {
+					var = rand_skill
+					min = 2
+					max = 4
+					integer = yes
+				}
+				add_skill_level = rand_skill
+				add_attack = rand_skill
+				add_defense = rand_skill
+				add_planning = rand_skill
+				add_logistics = rand_skill
+			}
+			random_character = {
+				limit = {
+					is_army_leader = yes
+					skill < 3
+				}
+				set_variable = {
+					rand_skill = 0
+				}
+				set_variable_to_random = {
+					var = rand_skill
+					min = 2
+					max = 4
+					integer = yes
+				}
+				add_skill_level = rand_skill
+				add_attack = rand_skill
+				add_defense = rand_skill
+				add_planning = rand_skill
+				add_logistics = rand_skill
+			}
+			random_character = {
+				limit = {
+					is_navy_leader = yes
+					skill < 3
+				}
+				set_variable = {
+					rand_skill = 0
+				}
+				set_variable_to_random = {
+					var = rand_skill
+					min = 2
+					max = 4
+					integer = yes
+				}
+				add_skill_level = rand_skill
+				add_attack = rand_skill
+				add_defense = rand_skill
+				add_maneuver = rand_skill
+				add_coordination = rand_skill
 			}
 		}
 	}

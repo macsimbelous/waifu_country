@@ -280,7 +280,6 @@ characters = {
 		}
 	}
 	#generals
-
 	MEH_Risa = {
 		name = MEH_Risa
 		portraits = {
@@ -690,7 +689,6 @@ characters = {
 			}
 		}
 	}
-
 	MEH_Aino = {
 		name = MEH_Aino
 		portraits = {
@@ -1162,6 +1160,104 @@ characters = {
 			ai_will_do = {
 				factor = 5
 			}
+		}
+	}
+	meh_azerty = {
+		name = meh_azerty
+		portraits = {
+			army = {
+				small = GFX_idea_meh_azerty
+				large = GFX_portrait_meh_azerty_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	meh_talus = {
+		name = meh_talus
+		portraits = {
+			army = {
+				small = GFX_idea_meh_talus
+				large = GFX_portrait_meh_talus_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	meh_lona = {
+		name = meh_lona
+		portraits = {
+			army = {
+				small = GFX_idea_meh_lona
+				large = GFX_portrait_meh_lona_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	meh_nova = {
+		name = meh_nova
+		portraits = {
+			army = {
+				small = GFX_idea_meh_nova
+				large = GFX_portrait_meh_nova_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+				brilliant_strategist
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	meh_eva = {
+		name = meh_eva
+		portraits = {
+			army = {
+				small = GFX_idea_meh_eva
+				large = GFX_portrait_meh_eva_army
+			}
+			civilian = {
+				large = GFX_portrait_meh_eva_civilian
+			}
+		}
+		corps_commander = {
+			traits = {
+				wfc_exp_trait
+				urban_assault_specialist
+				desert_fox
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 }

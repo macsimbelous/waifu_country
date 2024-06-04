@@ -165,6 +165,11 @@ recruit_character = MEH_Hiei_ARP
 recruit_character = MEH_Yurizaki_Mira
 recruit_character = MEH_head_int
 recruit_character = meh_raiden_shogun
+recruit_character = meh_azerty
+recruit_character = meh_talus
+recruit_character = meh_lona
+recruit_character = meh_nova
+recruit_character = meh_eva
 #Agents
 create_operative_leader = {
 	name = "Aegis"
