@@ -1378,4 +1378,117 @@ characters = {
 			}
 		}
 	}
+	mms_zenia = {
+		name = mms_zenia
+		portraits = {
+			army = {
+				small = GFX_idea_mms_zenia
+				large = GFX_portrait_mms_zenia_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_venix = {
+		name = mms_venix
+		portraits = {
+			army = {
+				small = GFX_idea_mms_venix
+				large = GFX_portrait_mms_venix_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_nezix = {
+		name = mms_nezix
+		portraits = {
+			navy = {
+				small = GFX_idea_mms_nezix
+				large = GFX_portrait_mms_nezix_navy
+			}
+			civilian = {
+				large = GFX_portrait_mms_nezix_civilian
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	mms_phufun = {
+		name = mms_phufun
+		portraits = {
+			army = {
+				small = GFX_idea_mms_phufun
+				large = GFX_portrait_mms_phufun_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_maou_jr = {
+		name = mms_maou_jr
+		portraits = {
+			army = {
+				small = GFX_idea_mms_maou_jr
+				large = GFX_portrait_mms_maou_jr_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_idris_morin = {
+		name = mms_idris_morin
+		portraits = {
+			navy = {
+				small = GFX_idea_mms_idris_morin
+				large = GFX_portrait_mms_idris_morin_navy
+			}
+		}
+		navy_leader = {
+			traits = {
+
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
 }

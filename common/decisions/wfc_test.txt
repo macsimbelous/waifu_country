@@ -651,6 +651,28 @@ wfc_test_category = {
 				add_defense = rand_skill
 				add_planning = rand_skill
 				add_logistics = rand_skill
+				add_unit_leader_trait = wfc_exp_trait
+				add_random_trait = {
+					old_guard
+					brilliant_strategist
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					irregulars_officer
+					ascari_officer
+					militias_officer
+					jaeger
+				}
 			}
 			random_character = {
 				limit = {
@@ -671,6 +693,28 @@ wfc_test_category = {
 				add_defense = rand_skill
 				add_planning = rand_skill
 				add_logistics = rand_skill
+				add_unit_leader_trait = wfc_exp_trait
+				add_random_trait = {
+					old_guard
+					brilliant_strategist
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					irregulars_officer
+					ascari_officer
+					militias_officer
+					jaeger
+				}
 			}
 			random_character = {
 				limit = {
@@ -691,6 +735,28 @@ wfc_test_category = {
 				add_defense = rand_skill
 				add_planning = rand_skill
 				add_logistics = rand_skill
+				add_unit_leader_trait = wfc_exp_trait
+				add_random_trait = {
+					old_guard
+					brilliant_strategist
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					irregulars_officer
+					ascari_officer
+					militias_officer
+					jaeger
+				}
 			}
 			random_character = {
 				limit = {
@@ -711,6 +777,58 @@ wfc_test_category = {
 				add_defense = rand_skill
 				add_maneuver = rand_skill
 				add_coordination = rand_skill
+				add_unit_leader_trait = wfc_exp_navy_trait
+				add_random_trait = {
+					old_guard_navy
+					gentlemanly
+					gunnery_expert
+					cuts_corners
+					chief_engineer
+					navy_media_personality
+					bold
+					navy_career_officer
+					battleship_adherent
+					aviation_enthusiast
+					caustic_personality
+					craven
+					naval_lineage
+				}
+			}
+			random_character = {
+				limit = {
+					is_navy_leader = yes
+					skill < 3
+				}
+				set_variable = {
+					rand_skill = 0
+				}
+				set_variable_to_random = {
+					var = rand_skill
+					min = 2
+					max = 4
+					integer = yes
+				}
+				add_skill_level = rand_skill
+				add_attack = rand_skill
+				add_defense = rand_skill
+				add_maneuver = rand_skill
+				add_coordination = rand_skill
+				add_unit_leader_trait = wfc_exp_navy_trait
+				add_random_trait = {
+					old_guard_navy
+					gentlemanly
+					gunnery_expert
+					cuts_corners
+					chief_engineer
+					navy_media_personality
+					bold
+					navy_career_officer
+					battleship_adherent
+					aviation_enthusiast
+					caustic_personality
+					craven
+					naval_lineage
+				}
 			}
 		}
 	}

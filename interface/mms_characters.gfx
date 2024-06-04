@@ -455,6 +455,58 @@ spriteTypes = {
 		name = "GFX_portrait_mms_desastre_sereno_civilian"
 		texturefile = "gfx/leaders/MMS/desastre_sereno_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_zenia"
+		texturefile = "gfx/leaders/MMS/zenia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_zenia_army"
+		texturefile = "gfx/leaders/MMS/zenia_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_venix"
+		texturefile = "gfx/leaders/MMS/venix_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_venix_army"
+		texturefile = "gfx/leaders/MMS/venix_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_nezix"
+		texturefile = "gfx/leaders/MMS/nezix_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_nezix_navy"
+		texturefile = "gfx/leaders/MMS/nezix_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_nezix_civilian"
+		texturefile = "gfx/leaders/MMS/nezix_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_phufun"
+		texturefile = "gfx/leaders/MMS/phufun_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_phufun_army"
+		texturefile = "gfx/leaders/MMS/phufun_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_maou_jr"
+		texturefile = "gfx/leaders/MMS/maou_jr_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_maou_jr_army"
+		texturefile = "gfx/leaders/MMS/maou_jr_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_idris_morin"
+		texturefile = "gfx/leaders/MMS/idris_morin_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_idris_morin_navy"
+		texturefile = "gfx/leaders/MMS/idris_morin_navy.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

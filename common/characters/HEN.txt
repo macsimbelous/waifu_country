@@ -1139,6 +1139,7 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				ironside
 				big_guns_expert
 			}
 			skill = 4
