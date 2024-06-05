@@ -507,6 +507,38 @@ spriteTypes = {
 		name = "GFX_portrait_mms_idris_morin_navy"
 		texturefile = "gfx/leaders/MMS/idris_morin_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_maria"
+		texturefile = "gfx/leaders/MMS/maria_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_maria_army"
+		texturefile = "gfx/leaders/MMS/maria_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_etna"
+		texturefile = "gfx/leaders/MMS/etna_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_etna_army"
+		texturefile = "gfx/leaders/MMS/etna_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_amatelus"
+		texturefile = "gfx/leaders/MMS/amatelus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_amatelus_army"
+		texturefile = "gfx/leaders/MMS/amatelus_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_akarix"
+		texturefile = "gfx/leaders/MMS/akarix_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_akarix_army"
+		texturefile = "gfx/leaders/MMS/akarix_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

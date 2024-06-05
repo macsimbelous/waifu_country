@@ -1491,4 +1491,76 @@ characters = {
 			coordination_skill = 1
 		}
 	}
+	mms_maria = {
+		name = mms_maria
+		portraits = {
+			army = {
+				small = GFX_idea_mms_maria
+				large = GFX_portrait_mms_maria_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_etna = {
+		name = mms_etna
+		portraits = {
+			army = {
+				small = GFX_idea_mms_etna
+				large = GFX_portrait_mms_etna_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	mms_amatelus = {
+		name = mms_amatelus
+		portraits = {
+			army = {
+				small = GFX_idea_mms_amatelus
+				large = GFX_portrait_mms_amatelus_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_akarix = {
+		name = mms_akarix
+		portraits = {
+			army = {
+				small = GFX_idea_mms_akarix
+				large = GFX_portrait_mms_akarix_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }
