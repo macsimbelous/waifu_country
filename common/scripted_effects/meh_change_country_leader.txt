@@ -1,15 +1,34 @@
 meh_change_country_leader = {
 	#Лидеры марионеток
 	retire_country_leader = yes
-	set_variable = {
-		rand_char = 0
-	}
-	set_variable_to_random = {
-		var = rand_char
-		min = 1
-		max = 67
-		integer = yes
-	}
+	if = {
+			limit = {
+				check_variable = {
+					OVERLORD.rand_char = 0
+				}
+			}
+			set_variable_to_random = {
+				var = rand_char
+				min = 1
+				max = 67
+				integer = yes
+			}
+		}
+		else = {
+			add_to_variable = {
+				OVERLORD.rand_char = 1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					OVERLORD.rand_char > 67
+				}
+			}
+			set_variable = {
+				OVERLORD.rand_char = 1
+			}
+		}
 	IF = {
 		limit = {
 			check_variable = {

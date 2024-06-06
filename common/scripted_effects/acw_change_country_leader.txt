@@ -114,14 +114,33 @@ acw_change_country_leader = {
 		}
 	}
 	else = {
-		set_variable = {
-			rand_char = 0
+		if = {
+			limit = {
+				check_variable = {
+					OVERLORD.rand_char = 0
+				}
+			}
+			set_variable_to_random = {
+				var = rand_char
+				min = 1
+				max = 63
+				integer = yes
+			}
 		}
-		set_variable_to_random = {
-			var = rand_char
-			min = 1
-			max = 63
-			integer = yes
+		else = {
+			add_to_variable = {
+				OVERLORD.rand_char = 1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					OVERLORD.rand_char > 63
+				}
+			}
+			set_variable = {
+				OVERLORD.rand_char = 1
+			}
 		}
 		IF = {
 			limit = {

@@ -1260,4 +1260,22 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	meh_zinas = {
+		name = meh_zinas
+		portraits = {
+			army = {
+				small = GFX_idea_meh_zinas
+				large = GFX_portrait_meh_zinas_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }

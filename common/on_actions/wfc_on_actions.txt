@@ -789,7 +789,9 @@ on_actions = {
 					limit = {
 						is_army_leader = yes
 						skill < 3
+						NOT = { has_character_flag = wfc_flag_char_enhanced }
 					}
+					set_character_flag = wfc_flag_char_enhanced
 					set_variable = {
 						rand_skill = 0
 					}
@@ -832,7 +834,9 @@ on_actions = {
 					limit = {
 						is_army_leader = yes
 						skill < 3
+						NOT = { has_character_flag = wfc_flag_char_enhanced }
 					}
+					set_character_flag = wfc_flag_char_enhanced
 					set_variable = {
 						rand_skill = 0
 					}
@@ -875,7 +879,9 @@ on_actions = {
 					limit = {
 						is_army_leader = yes
 						skill < 3
+						NOT = { has_character_flag = wfc_flag_char_enhanced }
 					}
+					set_character_flag = wfc_flag_char_enhanced
 					set_variable = {
 						rand_skill = 0
 					}
@@ -918,7 +924,9 @@ on_actions = {
 					limit = {
 						is_navy_leader = yes
 						skill < 3
+						NOT = { has_character_flag = wfc_flag_char_enhanced }
 					}
+					set_character_flag = wfc_flag_char_enhanced
 					set_variable = {
 						rand_skill = 0
 					}
@@ -955,7 +963,9 @@ on_actions = {
 					limit = {
 						is_navy_leader = yes
 						skill < 3
+						NOT = { has_character_flag = wfc_flag_char_enhanced }
 					}
+					set_character_flag = wfc_flag_char_enhanced
 					set_variable = {
 						rand_skill = 0
 					}
