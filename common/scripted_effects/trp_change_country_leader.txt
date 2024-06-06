@@ -4,11 +4,12 @@ trp_change_country_leader = {
 	if = {
 		limit = {
 			check_variable = {
-				OVERLORD.rand_char = 0
+				#OVERLORD.rand_char = 0
+				ROOT.rand_char = 0
 			}
 		}
 		set_variable_to_random = {
-			var = rand_char
+			var = ROOT.rand_char
 			min = 1
 			max = 41
 			integer = yes
@@ -16,23 +17,26 @@ trp_change_country_leader = {
 	}
 	else = {
 		add_to_variable = {
-			OVERLORD.rand_char = 1
+			#OVERLORD.rand_char = 1
+			ROOT.rand_char = 1
 		}
 	}
 	if = {
 		limit = {
 			check_variable = {
-				OVERLORD.rand_char > 41
+				#OVERLORD.rand_char > 63
+				ROOT.rand_char > 41
 			}
 		}
 		set_variable = {
-			OVERLORD.rand_char = 1
+			#OVERLORD.rand_char = 1
+			ROOT.rand_char = 1
 		}
 	}
 	IF = {
 		limit = {
 			check_variable = {
-				rand_char = 1
+				ROOT.rand_char = 1
 			}
 		}
 		set_country_leader_portrait = {
@@ -42,7 +46,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 2
+				ROOT.rand_char = 2
 			}
 		}
 		set_country_leader_portrait = {
@@ -52,7 +56,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 3
+				ROOT.rand_char = 3
 			}
 		}
 		set_country_leader_portrait = {
@@ -62,7 +66,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 4
+				ROOT.rand_char = 4
 			}
 		}
 		set_country_leader_portrait = {
@@ -72,7 +76,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 5
+				ROOT.rand_char = 5
 			}
 		}
 		set_country_leader_portrait = {
@@ -82,7 +86,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 6
+				ROOT.rand_char = 6
 			}
 		}
 		set_country_leader_portrait = {
@@ -92,7 +96,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 7
+				ROOT.rand_char = 7
 			}
 		}
 		set_country_leader_portrait = {
@@ -102,7 +106,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 8
+				ROOT.rand_char = 8
 			}
 		}
 		set_country_leader_portrait = {
@@ -112,7 +116,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 9
+				ROOT.rand_char = 9
 			}
 		}
 		set_country_leader_portrait = {
@@ -122,7 +126,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 10
+				ROOT.rand_char = 10
 			}
 		}
 		set_country_leader_portrait = {
@@ -132,7 +136,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 11
+				ROOT.rand_char = 11
 			}
 		}
 		set_country_leader_portrait = {
@@ -142,7 +146,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 12
+				ROOT.rand_char = 12
 			}
 		}
 		set_country_leader_portrait = {
@@ -152,7 +156,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 13
+				ROOT.rand_char = 13
 			}
 		}
 		set_country_leader_portrait = {
@@ -162,7 +166,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 14
+				ROOT.rand_char = 14
 			}
 		}
 		set_country_leader_portrait = {
@@ -172,7 +176,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 15
+				ROOT.rand_char = 15
 			}
 		}
 		set_country_leader_portrait = {
@@ -182,7 +186,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 16
+				ROOT.rand_char = 16
 			}
 		}
 		set_country_leader_portrait = {
@@ -192,7 +196,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 17
+				ROOT.rand_char = 17
 			}
 		}
 		set_country_leader_portrait = {
@@ -202,7 +206,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 18
+				ROOT.rand_char = 18
 			}
 		}
 		set_country_leader_portrait = {
@@ -212,7 +216,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 19
+				ROOT.rand_char = 19
 			}
 		}
 		set_country_leader_portrait = {
@@ -222,7 +226,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 20
+				ROOT.rand_char = 20
 			}
 		}
 		set_country_leader_portrait = {
@@ -232,7 +236,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 21
+				ROOT.rand_char = 21
 			}
 		}
 		set_country_leader_portrait = {
@@ -242,7 +246,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 22
+				ROOT.rand_char = 22
 			}
 		}
 		set_country_leader_portrait = {
@@ -252,7 +256,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 23
+				ROOT.rand_char = 23
 			}
 		}
 		set_country_leader_portrait = {
@@ -262,7 +266,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 24
+				ROOT.rand_char = 24
 			}
 		}
 		set_country_leader_portrait = {
@@ -272,7 +276,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 25
+				ROOT.rand_char = 25
 			}
 		}
 		set_country_leader_portrait = {
@@ -282,7 +286,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 26
+				ROOT.rand_char = 26
 			}
 		}
 		set_country_leader_portrait = {
@@ -292,7 +296,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 27
+				ROOT.rand_char = 27
 			}
 		}
 		set_country_leader_portrait = {
@@ -302,7 +306,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 28
+				ROOT.rand_char = 28
 			}
 		}
 		set_country_leader_portrait = {
@@ -312,7 +316,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 29
+				ROOT.rand_char = 29
 			}
 		}
 		set_country_leader_portrait = {
@@ -322,7 +326,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 30
+				ROOT.rand_char = 30
 			}
 		}
 		set_country_leader_portrait = {
@@ -332,7 +336,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 31
+				ROOT.rand_char = 31
 			}
 		}
 		set_country_leader_portrait = {
@@ -342,7 +346,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 32
+				ROOT.rand_char = 32
 			}
 		}
 		set_country_leader_portrait = {
@@ -352,7 +356,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 33
+				ROOT.rand_char = 33
 			}
 		}
 		set_country_leader_portrait = {
@@ -362,7 +366,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 34
+				ROOT.rand_char = 34
 			}
 		}
 		set_country_leader_portrait = {
@@ -372,7 +376,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 35
+				ROOT.rand_char = 35
 			}
 		}
 		set_country_leader_portrait = {
@@ -382,7 +386,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 36
+				ROOT.rand_char = 36
 			}
 		}
 		set_country_leader_portrait = {
@@ -392,7 +396,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 37
+				ROOT.rand_char = 37
 			}
 		}
 		set_country_leader_portrait = {
@@ -402,7 +406,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 38
+				ROOT.rand_char = 38
 			}
 		}
 		set_country_leader_portrait = {
@@ -412,7 +416,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 39
+				ROOT.rand_char = 39
 			}
 		}
 		set_country_leader_portrait = {
@@ -422,7 +426,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 40
+				ROOT.rand_char = 40
 			}
 		}
 		set_country_leader_portrait = {
@@ -432,7 +436,7 @@ trp_change_country_leader = {
 	ELSE_IF = {
 		limit = {
 			check_variable = {
-				rand_char = 41
+				ROOT.rand_char = 41
 			}
 		}
 		set_country_leader_portrait = {
