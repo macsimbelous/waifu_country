@@ -539,6 +539,74 @@ spriteTypes = {
 		name = "GFX_portrait_mms_akarix_army"
 		texturefile = "gfx/leaders/MMS/akarix_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_alessa"
+		texturefile = "gfx/leaders/MMS/alessa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_alessa_army"
+		texturefile = "gfx/leaders/MMS/alessa_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_alraune"
+		texturefile = "gfx/leaders/MMS/alraune_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_alraune_army"
+		texturefile = "gfx/leaders/MMS/alraune_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_damia_wurfel"
+		texturefile = "gfx/leaders/MMS/damia_wurfel_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_damia_wurfel_army"
+		texturefile = "gfx/leaders/MMS/damia_wurfel_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_dione"
+		texturefile = "gfx/leaders/MMS/dione_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_dione_army"
+		texturefile = "gfx/leaders/MMS/dione_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_anis"
+		texturefile = "gfx/leaders/MMS/anis_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_anis_army"
+		texturefile = "gfx/leaders/MMS/anis_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_xianyun"
+		texturefile = "gfx/leaders/MMS/xianyun_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_xianyun_army"
+		texturefile = "gfx/leaders/MMS/xianyun_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_kujou_sara"
+		texturefile = "gfx/leaders/MMS/kujou_sara_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_kujou_sara_army"
+		texturefile = "gfx/leaders/MMS/kujou_sara_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_elivex"
+		texturefile = "gfx/leaders/MMS/elivex_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_elivex_army"
+		texturefile = "gfx/leaders/MMS/elivex_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_elivex_puppet"
+		texturefile = "gfx/leaders/MMS/elivex_puppet.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

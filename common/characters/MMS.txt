@@ -1563,4 +1563,153 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	mms_alessa = {
+		name = mms_alessa
+		portraits = {
+			army = {
+				small = GFX_idea_mms_alessa
+				large = GFX_portrait_mms_alessa_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	mms_alraune = {
+		name = mms_alraune
+		portraits = {
+			army = {
+				small = GFX_idea_mms_alraune
+				large = GFX_portrait_mms_alraune_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_damia_wurfel = {
+		name = mms_damia_wurfel
+		portraits = {
+			army = {
+				small = GFX_idea_mms_damia_wurfel
+				large = GFX_portrait_mms_damia_wurfel_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	mms_dione = {
+		name = mms_dione
+		portraits = {
+			army = {
+				small = GFX_idea_mms_dione
+				large = GFX_portrait_mms_dione_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_anis = {
+		name = mms_anis
+		portraits = {
+			army = {
+				small = GFX_idea_mms_anis
+				large = GFX_portrait_mms_anis_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mms_xianyun = {
+		name = mms_xianyun
+		portraits = {
+			army = {
+				small = GFX_idea_mms_xianyun
+				large = GFX_portrait_mms_xianyun_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				engineer_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	mms_kujou_sara = {
+		name = mms_kujou_sara
+		portraits = {
+			army = {
+				small = GFX_idea_mms_kujou_sara
+				large = GFX_portrait_mms_kujou_sara_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				brilliant_strategist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	mms_elivex = {
+		name = mms_elivex
+		portraits = {
+			army = {
+				small = GFX_idea_mms_elivex
+				large = GFX_portrait_mms_elivex_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }
