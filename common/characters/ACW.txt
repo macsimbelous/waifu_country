@@ -4,10 +4,10 @@ characters = {
 		name = ACW_Erza
 		portraits = {
 			civilian = {
-				large = GFX_portrait_acw_erza
+				large = GFX_portrait_acw_erza_civilian
 			}
 			army = {
-				large = GFX_portrait_acw_erza
+				large = GFX_portrait_acw_erza_civilian
 				small = GFX_idea_acw_erza
 			}
 		}
@@ -1329,7 +1329,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_misato_katsuragi
-				large = GFX_portrait_acw_misato_katsuragi
+				large = GFX_portrait_acw_misato_katsuragi_army
+			}
+			civilian = {
+				large = GFX_portrait_acw_misato_katsuragi_civilian
 			}
 		}
 		advisor = {
@@ -2777,6 +2780,96 @@ characters = {
 			}
 			skill = 1
 			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	acw_karin_kakudate = {
+		name = acw_karin_kakudate
+		portraits = {
+			army = {
+				small = GFX_idea_acw_karin_kakudate
+				large = GFX_portrait_acw_karin_kakudate_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	acw_asuna_ichinose = {
+		name = acw_asuna_ichinose
+		portraits = {
+			army = {
+				small = GFX_idea_acw_asuna_ichinose
+				large = GFX_portrait_acw_asuna_ichinose_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	acw_arlecchino = {
+		name = acw_arlecchino
+		portraits = {
+			army = {
+				small = GFX_idea_acw_arlecchino
+				large = GFX_portrait_acw_arlecchino_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	acw_yoimiya = {
+		name = acw_yoimiya
+		portraits = {
+			army = {
+				small = GFX_idea_acw_yoimiya
+				large = GFX_portrait_acw_yoimiya_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	acw_pyro = {
+		name = acw_pyro
+		portraits = {
+			army = {
+				small = GFX_idea_acw_pyro
+				large = GFX_portrait_acw_pyro_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 3
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1

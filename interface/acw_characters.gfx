@@ -170,6 +170,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/Anastasia.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_acw_anastasia_puppet"
+		texturefile = "gfx/leaders/ACW/anastasia_puppet.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_acw_asuna_yuuki"
 		texturefile = "gfx/leaders/ACW/asuna_yuuki_idea.dds"
 	}
@@ -462,8 +466,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/misato_katsuragi_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_misato_katsuragi"
-		texturefile = "gfx/leaders/ACW/Misato_Katsuragi.dds"
+		name = "GFX_portrait_acw_misato_katsuragi_army"
+		texturefile = "gfx/leaders/ACW/misato_katsuragi_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_misato_katsuragi_civilian"
+		texturefile = "gfx/leaders/ACW/misato_katsuragi_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_naru_narusegawa"
@@ -672,6 +680,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_yukina_himeragi_civilian"
 		texturefile = "gfx/leaders/ACW/yukina_himeragi_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_yukina_himeragi_puppet"
+		texturefile = "gfx/leaders/ACW/yukina_himeragi_puppet.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_yuna"
@@ -1060,6 +1072,46 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_acw_chizuru_ichinose_civilian"
 		texturefile = "gfx/leaders/ACW/chizuru_ichinose_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_karin_kakudate"
+		texturefile = "gfx/leaders/ACW/karin_kakudate_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_karin_kakudate_army"
+		texturefile = "gfx/leaders/ACW/karin_kakudate_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_asuna_ichinose"
+		texturefile = "gfx/leaders/ACW/asuna_ichinose_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_asuna_ichinose_army"
+		texturefile = "gfx/leaders/ACW/asuna_ichinose_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_arlecchino"
+		texturefile = "gfx/leaders/ACW/arlecchino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_arlecchino_army"
+		texturefile = "gfx/leaders/ACW/arlecchino_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_yoimiya"
+		texturefile = "gfx/leaders/ACW/yoimiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_yoimiya_army"
+		texturefile = "gfx/leaders/ACW/yoimiya_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_pyro"
+		texturefile = "gfx/leaders/ACW/pyro_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_pyro_army"
+		texturefile = "gfx/leaders/ACW/pyro_army.dds"
 	}
 	#generics
 	spriteType = {

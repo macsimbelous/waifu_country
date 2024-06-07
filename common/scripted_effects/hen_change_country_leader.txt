@@ -16,6 +16,24 @@ hen_change_country_leader = {
 				portrait = GFX_portrait_acw_erza_puppet
 			}
 		}
+		else_if = {
+			limit = { has_government = neutrality }
+			set_country_leader_name = {
+				name = ACW_Yukina_Himeragi
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_acw_yukina_himeragi_puppet
+			}
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			set_country_leader_name = {
+				name = ACW_Anastasia
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_idea_acw_anastasia_puppet
+			}
+		}
 		else = {
 			set_country_leader_name = {
 				name = acw_aki_nijou
