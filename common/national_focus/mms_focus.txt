@@ -1059,6 +1059,19 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+					has_game_rule = {
+						rule = MMS_ai_behavior
+						option = NEUTRALITY_02
+					}
+				}
+				factor = 0
+			}
+		}
 	}
 	focus = {
 		id = mms_focus_triumph_shamiko
@@ -1095,6 +1108,19 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+					has_game_rule = {
+						rule = MMS_ai_behavior
+						option = NEUTRALITY_02
+					}
+				}
+				factor = 0
+			}
+		}
 	}
 	focus = {
 		id = mms_focus_train_shamiko_attack
@@ -1123,6 +1149,19 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = mms_focus_train_shamiko_attack_tt
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+					has_game_rule = {
+						rule = MMS_ai_behavior
+						option = NEUTRALITY_02
+					}
+				}
+				factor = 0
+			}
 		}
 	}
 	focus = {
@@ -1153,6 +1192,19 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = mms_focus_train_shamiko_protection_tt
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+					has_game_rule = {
+						rule = MMS_ai_behavior
+						option = NEUTRALITY_02
+					}
+				}
+				factor = 0
+			}
+		}
 	}
 	focus = {
 		id = mms_focus_train_shamiko_speed
@@ -1181,6 +1233,19 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = mms_focus_train_shamiko_speed_tt
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+					has_game_rule = {
+						rule = MMS_ai_behavior
+						option = NEUTRALITY_02
+					}
+				}
+				factor = 0
+			}
 		}
 	}
 	focus = {
@@ -1237,6 +1302,19 @@ focus_tree = {
 					id = mms_balance_of_power
 					value = -0.25
 				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+					has_game_rule = {
+						rule = MMS_ai_behavior
+						option = NEUTRALITY_02
+					}
+				}
+				factor = 0
 			}
 		}
 	}

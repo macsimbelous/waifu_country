@@ -396,6 +396,9 @@ on_actions = {
 							set_country_flag = MMS_AI_RANDOM_HISTORICAL
 						}
 						50 = {
+							set_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+						}
+						50 = {
 							set_country_flag = MMS_AI_RANDOM_FASCIST
 						}
 						50 = {
@@ -405,6 +408,39 @@ on_actions = {
 							set_country_flag = MMS_AI_RANDOM_DEMOCRATIC
 						}
 					}
+				}
+				if = {
+					limit = {
+						is_ai = yes
+						OR = {
+							AND = {
+								is_historical_focus_on = yes
+								has_game_rule = {
+									rule = MMS_ai_behavior
+									option = DEFAULT
+								}
+							}
+							has_country_flag = MMS_AI_RANDOM_HISTORICAL
+							has_game_rule = {
+								rule = MMS_ai_behavior
+								option = HISTORICAL
+							}
+						}
+					}
+					add_ideas = MMS_serafall_leviathan
+				}
+				if = {
+					limit = {
+						is_ai = yes
+						OR = {
+							has_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+							has_game_rule = {
+								rule = MMS_ai_behavior
+								option = NEUTRALITY_02
+							}
+						}
+					}
+					add_ideas = MMS_vignette_april_tsukinose
 				}
 			}
 			TRP = {

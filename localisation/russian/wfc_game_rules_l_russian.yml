@@ -34,6 +34,8 @@
  RULE_DEMOCRATIC_MMS_AI_DESC:0 "ИИ пойдёт по пути демократии."
  RULE_OPTION_COMMUNIST_MMS_AI_DESC:0 "ИИ станет комунистом."
  RULE_OPTION_FASCIST_MMS_AI_DESC:0 "ИИ фашист."
+ RULE_OPTION_NEUTRALITY_02: "02 свергнет Шамико"
+ RULE_OPTION_NEUTRALITY_02_MMS_AI_DESC: "ИИ пойдёт по пути свержения Шамико и прихода к власти 02"
 
 #TRP
  TRP_AI_BEHAVIOR:0 "@TRP Трапия"

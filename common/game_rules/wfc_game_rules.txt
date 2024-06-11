@@ -158,6 +158,12 @@ MMS_ai_behavior = {
 		#allow_achievements = yes
 	}
 	option = {
+		name = NEUTRALITY_02
+		text = "RULE_OPTION_NEUTRALITY_02"
+		desc = "RULE_OPTION_NEUTRALITY_02_MMS_AI_DESC"
+		#allow_achievements = yes
+	}
+	option = {
 		name = DEMOCRATIC
 		text = "RULE_OPTION_DEMOCRATIC"
 		desc = "RULE_DEMOCRATIC_MMS_AI_DESC"
