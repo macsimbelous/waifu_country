@@ -426,3 +426,24 @@ set_power_balance = {
 # 	id = mms_balance_of_power
 # 	modifier = mms_bop_modifier_02_grift_weekly
 # }
+
+if = {
+	limit = {
+		is_ai = yes
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = MMS_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = MMS_AI_RANDOM_HISTORICAL
+			has_game_rule = {
+				rule = MMS_ai_behavior
+				option = HISTORICAL
+			}
+		}
+	}
+	add_ideas = MMS_serafall_leviathan
+}
