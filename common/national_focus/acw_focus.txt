@@ -2530,14 +2530,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		bypass = {
-			ALB = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-				}
-			}
-		}
 		available = {
 			is_puppet = no
 			NOT = {
@@ -2545,15 +2537,25 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			ALB = {
-				every_owned_state = {
-					#add_claim_by = ROOT
-					add_core_of = ROOT
+			add_state_core = 934
+			add_state_core = 44
+			add_state_core = 805
+			if = {
+				limit = {
+					ALB = {
+						is_puppet_of = ROOT
+					}
+				}
+				annex_country = {
+					target = ALB
+					transfer_troops = yes
 				}
 			}
-			create_wargoal = {
-				target = ALB
-				type = annex_everything
+			else = {
+				create_wargoal = {
+					target = ALB
+					type = annex_everything
+				}
 			}
 		}
 	}
