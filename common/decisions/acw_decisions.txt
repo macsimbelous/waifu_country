@@ -704,6 +704,7 @@ acw_concert_decisions = {
 			}
 			FROM = {
 				resistance < 10
+				is_fully_controlled_by = ROOT
 			}
 		}
 		visible = {
