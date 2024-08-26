@@ -166,6 +166,10 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_railway_from_damask_to_bagdad_decision:0 "Railway from Damascus to Baghdad"
  wfc_railway_expand_to_s_arabia_decision:0 "Saudi Arabia Railway Expansion"
 
+#lar_local_recruitment
+ wfc_decision_create_agensy_in_faction_members: "Establish a branch of the intelligence agency in §Y[FROM.GetNAME]§!."
+ wfc_decision_create_agensy_in_puppets: "Establish a branch of the intelligence agency in §Y[FROM.GetNAME]§!."
+
 #ACW
 #concert_decisions
 acw_concert_decisions:0 "Концерты"

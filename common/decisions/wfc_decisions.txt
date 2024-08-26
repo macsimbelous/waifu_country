@@ -6301,6 +6301,18 @@ lar_local_recruitment = {
 		cost = 100
 		days_remove = 30
 		priority = 2
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+				original_tag = ZMB
+				original_tag = NEC
+			}
+		}
 		visible = {
 			is_faction_leader = yes
 			has_intelligence_agency = yes
@@ -6340,6 +6352,18 @@ lar_local_recruitment = {
 		cost = 25
 		days_remove = 30
 		priority = 1
+		allowed = {
+			OR = {
+				original_tag = ACW
+				original_tag = HEN
+				original_tag = MAH
+				original_tag = TRP
+				original_tag = MEH
+				original_tag = MMS
+				original_tag = ZMB
+				original_tag = NEC
+			}
+		}
 		visible = {
 			has_intelligence_agency = yes
 		}
@@ -6370,7 +6394,7 @@ lar_local_recruitment = {
 			}
 		}
 		ai_will_do = {
-			base = 1
+			base = 0
 		}
 	}
 }
