@@ -5431,24 +5431,13 @@ improving_our_army_category = {
 	}
 }
 
-south_american_naval_arms_race_category = {
+wfc_category_naval_arms_race = {
 	wfc_smb_invite_japanese_naval_advisors = {
 		name = JUNO_invite_japanese_naval_advisors
 		priority = 20
 		icon = GFX_decision_generic_army_support
 		ai_will_do = {
 			base = 60
-		}
-		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
 		}
 		available = {
 			has_completed_focus = wfc_smb_naval_foreign_advisors
@@ -5562,17 +5551,6 @@ south_american_naval_arms_race_category = {
 		ai_will_do = {
 			base = 80
 		}
-		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
-		}
 		available = {
 			has_completed_focus = wfc_smb_naval_foreign_advisors
 			any_country = {
@@ -5683,17 +5661,6 @@ south_american_naval_arms_race_category = {
 		icon = GFX_decision_generic_army_support
 		ai_will_do = {
 			base = 50
-		}
-		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
 		}
 		available = {
 			has_completed_focus = wfc_smb_naval_foreign_advisors
@@ -5809,17 +5776,6 @@ south_american_naval_arms_race_category = {
 		ai_will_do = {
 			base = 60
 		}
-		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
-		}
 		available = {
 			has_completed_focus = wfc_smb_naval_foreign_advisors
 			any_country = {
@@ -5932,17 +5888,6 @@ south_american_naval_arms_race_category = {
 		ai_will_do = {
 			base = 60
 		}
-		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
-		}
 		available = {
 			has_completed_focus = wfc_smb_naval_foreign_advisors
 			any_country = {
@@ -6053,17 +5998,6 @@ south_american_naval_arms_race_category = {
 		icon = GFX_decision_generic_army_support
 		ai_will_do = {
 			base = 70
-		}
-		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
 		}
 		available = {
 			has_completed_focus = wfc_smb_naval_foreign_advisors
@@ -6177,17 +6111,6 @@ south_american_naval_arms_race_category = {
 		icon = GFX_decision_generic_army_support
 		ai_will_do = {
 			base = 50
-		}
-		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
 		}
 		available = {
 			has_completed_focus = wfc_smb_naval_foreign_advisors
@@ -6323,6 +6246,7 @@ lar_local_recruitment = {
 			has_capitulated = no
 			FROM = {
 				has_capitulated = no
+				has_same_ideology = yes
 			}
 		}
 		target_array = faction_members

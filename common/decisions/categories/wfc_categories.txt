@@ -292,3 +292,19 @@ wfc_category_preparing_a_coup = {
 	}
 }
 
+wfc_category_naval_arms_race = {
+	icon = GFX_decision_category_MTG_naval_treaties
+	priority = 50
+	picture = GFX_decision_cat_picture_generic_south_american_naval_race
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+}

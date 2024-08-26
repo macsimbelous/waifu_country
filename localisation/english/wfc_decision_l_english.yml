@@ -170,6 +170,9 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_decision_create_agensy_in_faction_members: "Establish a branch of the intelligence agency in §Y[FROM.GetNAME]§!."
  wfc_decision_create_agensy_in_puppets: "Establish a branch of the intelligence agency in §Y[FROM.GetNAME]§!."
 
+#wfc_category_naval_arms_race
+ wfc_category_naval_arms_race: "Naval arms race"
+
 #ACW
 #concert_decisions
 acw_concert_decisions:0 "Концерты"

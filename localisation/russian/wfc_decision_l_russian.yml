@@ -177,6 +177,9 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_decision_create_agensy_in_faction_members: "Создать филиал разведывательного агентства в государстве §Y[FROM.GetNAME]§!."
  wfc_decision_create_agensy_in_puppets: "Создать филиал разведывательного агентства в субъекте §Y[FROM.GetNAME]§!."
 
+#wfc_category_naval_arms_race
+ wfc_category_naval_arms_race: "Гонка морских вооружений"
+
 #ACW
  #concert_decisions
   acw_concert_decisions:0 "Концерты"
