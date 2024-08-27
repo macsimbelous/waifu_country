@@ -390,6 +390,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			NOT = {
+				is_in_faction_with = ENG
+			}
 			is_puppet = no
 			# Iraq
 			custom_trigger_tooltip = {
