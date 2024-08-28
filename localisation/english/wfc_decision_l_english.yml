@@ -484,3 +484,6 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
   nec_decision_necrification_north_america: "The Necrophilia of North America"
   nec_decision_necrification_australia: "The Necrophilia of Australia"
   nec_decision_necrification_south_america: "The Necrophilia of South America"
+
+ #operations
+  nec_decision_necrification_in_faction: "The Necrophication of the State of §Y[FROM.GetName]§!"

@@ -496,6 +496,9 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   nec_decision_necrification_australia: "Некрофикация Австралии"
   nec_decision_necrification_south_america: "Некрофикация Южной америки"
 
+ #operations
+  nec_decision_necrification_in_faction: "Некрофикация государства §Y[FROM.GetName]§!"
+
 #test
  wfc_test_category:0 "Тестовая категория"
  #wfc_test_create_colab: "[ACW_fiona_frost.GetName]"

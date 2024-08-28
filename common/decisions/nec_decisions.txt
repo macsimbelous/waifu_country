@@ -807,6 +807,16 @@ nec_category_necrification = {
 }
 
 operations = {
+	nec_test = {
+		allowed = {
+			tag = NEC
+		}
+		complete_effect = {
+			create_faction = test_faction
+			add_to_faction = TIB
+			add_to_faction = BHU
+		}
+	}
 	nec_decision_necrification_in_faction = {
 		icon = generic_ignite_civil_war
 		#war_with_target_on_complete = yes
