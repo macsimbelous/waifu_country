@@ -812,20 +812,22 @@ operations = {
 		#war_with_target_on_complete = yes
 		#war_with_target_on_remove = yes
 		available = {
+			political_power_growth > 0.5
+			#political_power_daily > 1
 		}
-		visible = {
-			FROM = {
-				OR = {
-					any_neighbor_country = {
-						is_puppet_of = ROOT
-					}
-					is_neighbor_of = ROOT
-				}
-				NOT = {
-					is_puppet_of = ROOT
-				}
-			}
-		}
+		# visible = {
+		# 	FROM = {
+		# 		OR = {
+		# 			any_neighbor_country = {
+		# 				is_puppet_of = ROOT
+		# 			}
+		# 			is_neighbor_of = ROOT
+		# 		}
+		# 		NOT = {
+		# 			is_puppet_of = ROOT
+		# 		}
+		# 	}
+		# }
 		target_array = faction_members
 		target_trigger = {
 			FROM = {
@@ -851,21 +853,29 @@ operations = {
 		}
 		#days_re_enable = 30
 		days_remove = 180
+		fixed_random_seed = no
 		modifier = {
-			political_power_factor = -0.1
+			#political_power_factor = -0.5
+			political_power_gain = -0.5
 		}
 		remove_effect = {
 			random_list = {
 				90 = {
 					puppet = FROM
 					FROM = {
-						add_ideas = nec_idea_the_undead
-						add_ideas = nec_idea_necromancy
-						add_ideas = nec_idea_army_of_the_undead
+						hidden_effect = {
+							add_ideas = nec_idea_the_undead
+							add_ideas = nec_idea_necromancy
+							add_ideas = nec_idea_army_of_the_undead
+						}
 						wfc_change_country_leader = yes
 					}
 				}
 				10 = {
+					modifier = {
+						has_idea_with_trait = wfc_head_of_intelligence
+						factor = 0.1
+					}
 					FROM = {
 						leave_faction = yes
 						declare_war_on = {

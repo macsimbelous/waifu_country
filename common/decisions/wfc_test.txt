@@ -832,4 +832,16 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_create_faction = {
+		complete_effect = {
+			create_faction = wfc_test_faction
+			if = {
+				limit = {
+					tag = NEC
+				}
+				add_to_faction = TIB
+				add_to_faction = BHU
+			}
+		}
+	}
 }
