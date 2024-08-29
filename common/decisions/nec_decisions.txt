@@ -808,12 +808,16 @@ nec_category_necrification = {
 
 operations = {
 	nec_decision_necrification_in_faction = {
-		icon = generic_ignite_civil_war
+		icon = GFX_decision_generic_brainwash
 		#war_with_target_on_complete = yes
 		#war_with_target_on_remove = yes
+		allowed = {
+			tag = NEC
+		}
 		available = {
+			is_subject = no
 			political_power_growth > 0.5
-			#political_power_daily > 1
+			#political_power_daily > 0.5
 		}
 		# visible = {
 		# 	FROM = {

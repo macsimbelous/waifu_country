@@ -3550,7 +3550,7 @@ wfc_category_preparing_a_coup = {
 		}
 	}
 	wfc_decision_create_weapon_caches = {
-		icon = GFX_decision_generic_industry
+		icon = GFX_decision_FIN_weapon_caches
 		cost = 150
 		fire_only_once = no
 		#days_re_enable = 30
@@ -3609,7 +3609,7 @@ wfc_category_preparing_a_coup = {
 		}
 	}
 	wfc_decision_discredit_the_government = {
-		icon = GFX_decision_generic_political_discourse
+		icon = GFX_decision_eng_propaganda_campaigns
 		cost = 150
 		fire_only_once = no
 		#days_re_enable = 30
@@ -3698,7 +3698,7 @@ wfc_category_preparing_a_coup = {
 		}
 	}
 	wfc_decision_plan_the_assassination_of_the_head_of_state = {
-		icon = GFX_decision_generic_political_discourse
+		icon = GFX_decision_generic_assassination
 		#cost = 50
 		custom_cost_trigger = {
 			has_political_power > 149
@@ -3759,6 +3759,7 @@ wfc_category_preparing_a_coup = {
 		}
 	}
 	wfc_decision_coup = {
+		icon = GFX_decision_generic_ignite_civil_war
 		fire_only_once = no
 		cost = 0
 		#days_re_enable = 180
