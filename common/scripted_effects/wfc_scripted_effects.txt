@@ -1211,7 +1211,7 @@ wfc_se_necrification_create_unit = {
 	custom_effect_tooltip = nec_decision_necrification_create_unit_tt
 	hidden_effect = {
 		create_unit = {
-			division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+			division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 			owner = NEC
 			allow_spawning_on_enemy_provs = yes
 		}
@@ -1220,7 +1220,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 2000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1230,7 +1230,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 3000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1240,7 +1240,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 4000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1250,7 +1250,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 5000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1260,7 +1260,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 6000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1270,7 +1270,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 7000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1280,7 +1280,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 8000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1290,7 +1290,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 9000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1300,7 +1300,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 10000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1310,7 +1310,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 11000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1320,7 +1320,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 12000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1330,7 +1330,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 13000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1340,7 +1340,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 14000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1350,7 +1350,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 15000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1360,7 +1360,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 16000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1370,7 +1370,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 17000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1380,7 +1380,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 18000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1390,7 +1390,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 19000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
@@ -1400,7 +1400,7 @@ wfc_se_necrification_create_unit = {
 				state_population_k > 20000
 			}
 			create_unit = {
-				division = "name = \"Undead Division\" division_template = \"Undead Division\" start_experience_factor = 0.25 start_equipment_factor = 1"
+				division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
 				owner = NEC
 				allow_spawning_on_enemy_provs = yes
 			}
