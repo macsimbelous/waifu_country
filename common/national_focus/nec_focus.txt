@@ -303,6 +303,94 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = nec_focus_expand_zombie_divisions
+		icon = GFX_focus_generic_manpower
+		prerequisite = {
+			focus = nec_focus_necrification_of_the_population
+		}
+		relative_position_id = nec_focus_necrification_of_the_population
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		available = {
+			arms_factory > 49
+		}
+		completion_reward = {
+			add_units_to_division_template = {
+				template_name = "Zombi"
+				regiments = {
+					infantry = 1
+					infantry = 2
+					infantry = 2
+					infantry = 2
+					infantry = 2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = nec_focus_add_engineer_to_zombie_divisions
+		icon = GFX_focus_generic_land_reclamation
+		prerequisite = {
+			focus = nec_focus_expand_zombie_divisions
+		}
+		relative_position_id = nec_focus_expand_zombie_divisions
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		available = {
+			arms_factory > 74
+		}
+		completion_reward = {
+			add_units_to_division_template = {
+				template_name = "Zombi"
+				support = {
+					engineer = 0
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = nec_focus_add_artillery_to_zombie_divisions
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = {
+			focus = nec_focus_add_engineer_to_zombie_divisions
+		}
+		relative_position_id = nec_focus_add_engineer_to_zombie_divisions
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		available = {
+			arms_factory > 99
+		}
+		completion_reward = {
+			add_units_to_division_template = {
+				template_name = "Zombi"
+				support = {
+					artillery = 0
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
 		id = nec_focus_the_world_of_the_dead
 		icon = GFX_goal_generic_CAS
 		x = 20

@@ -818,6 +818,10 @@ operations = {
 			is_subject = no
 			political_power_growth > 0.5
 			#political_power_daily > 0.5
+			FROM = {
+				is_puppet = no
+				is_faction_leader = no
+			}
 		}
 		# visible = {
 		# 	FROM = {

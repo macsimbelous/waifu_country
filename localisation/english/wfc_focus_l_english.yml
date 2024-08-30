@@ -510,6 +510,9 @@
  nec_focus_secret_weapons_desc: "$secret_weapons_desc$"
  nec_focus_nuclear_reactor: "Nuclear reactor"
  nec_focus_nuclear_reactor_desc: "A nuclear reactor will be built in the capital region."
+ nec_focus_expand_zombie_divisions: "Expand Zombie Divisions"
+ nec_focus_add_engineer_to_zombie_divisions: "Add engineers to the Zombie divisions"
+ nec_focus_add_artillery_to_zombie_divisions: "Add artillery to Zombie divisions"
 
 #Pupet
  wfc_puppet_focus: "Focus puppets"

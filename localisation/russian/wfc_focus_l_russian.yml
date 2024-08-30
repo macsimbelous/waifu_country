@@ -507,6 +507,9 @@
  nec_focus_secret_weapons_desc: "$secret_weapons_desc$"
  nec_focus_nuclear_reactor: "Ядерный реактор"
  nec_focus_nuclear_reactor_desc: "В столичном регионе будет построен ядерный реактор."
+ nec_focus_expand_zombie_divisions: "Расширить дивизии Зомби"
+ nec_focus_add_engineer_to_zombie_divisions: "Добавить инженеров в дивизии Зомби"
+ nec_focus_add_artillery_to_zombie_divisions: "Добавить артиллерию в дивизии Зомби"
 
 #Pupet
  wfc_puppet_focus: "Фокусы марионеток"
