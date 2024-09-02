@@ -181,6 +181,36 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = wfc_news.13
+	title = wfc_news.13.t
+	desc = wfc_news.13.d
+	picture = GFX_news_event_ast_navy
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = wfc_news.13.a
+		trigger = {
+			NOT = {
+				original_tag = HEN
+				original_tag = JAP
+			}
+		}
+	}
+	option = {
+		name = wfc_news.13.b
+		trigger = {
+			original_tag = HEN
+		}
+	}
+	option = {
+		name = wfc_news.13.c
+		trigger = {
+			original_tag = JAP
+		}
+	}
+}
+
 #Захваты городов за Мехалэнд
 # The Fall of Washington
 news_event = {
@@ -281,6 +311,7 @@ news_event = {
 		}
 	}
 }
+
 #Захваты городов за Некрополис
 # The Fall of 554
 news_event = {

@@ -156,8 +156,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRP/ranma_saotome_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_trp_ranma_saotome"
-		texturefile = "gfx/leaders/TRP/Ranma_Saotome.dds"
+		name = "GFX_portrait_trp_ranma_saotome_navy"
+		texturefile = "gfx/leaders/TRP/ranma_saotome_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_ranma_saotome_civilian"
+		texturefile = "gfx/leaders/TRP/ranma_saotome_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_trp_ringo_tsukimiya"

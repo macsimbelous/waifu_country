@@ -1077,6 +1077,12 @@ on_actions = {
 				HEN = {
 					clr_country_flag = hen_flag_rebellion_in_jap
 				}
+				JAP = {
+					transfer_navy = {
+						target = HEN
+					}
+				}
+				news_event = wfc_news.13
 			}
 			# if = {
 			# 	limit = {

@@ -816,9 +816,12 @@ characters = {
 	TRP_ranma_saotome = {
 		name = TRP_ranma_saotome
 		portraits = {
-			army = {
+			civilian = {
+				large = GFX_portrait_trp_ranma_saotome_civilian
+			}
+			navy = {
 				small = GFX_idea_trp_ranma_saotome
-				large = GFX_portrait_trp_ranma_saotome
+				large = GFX_portrait_trp_ranma_saotome_navy
 			}
 		}
 		navy_leader = {
