@@ -51,16 +51,22 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_war_support = 0.05
-			PER = {
-				every_owned_state = {
-					add_claim_by = MMS
-				}
-			}
-			AFG = {
-				every_owned_state = {
-					add_claim_by = MMS
-				}
-			}
+			#iran
+			add_state_claim = 419
+			add_state_claim = 421
+			add_state_claim = 420
+			add_state_claim = 417
+			add_state_claim = 413
+			add_state_claim = 266
+			add_state_claim = 418
+			add_state_claim = 411
+			add_state_claim = 412
+			add_state_claim = 416
+			add_state_claim = 414
+			add_state_claim = 410
+			#afg
+			add_state_claim = 415
+			add_state_claim = 267
 		}
 		ai_will_do = {
 			factor = 10
@@ -102,19 +108,48 @@ focus_tree = {
 			}
 			has_civil_war = no
 		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_iran_required_states_tt
+				419 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				421 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				420 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				417 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				413 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				266 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				418 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				411 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				412 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				416 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				414 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				410 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+		}
 		completion_reward = {
-			add_state_claim = 419
-			add_state_claim = 421
-			add_state_claim = 420
-			add_state_claim = 417
-			add_state_claim = 413
-			add_state_claim = 266
-			add_state_claim = 418
-			add_state_claim = 411
-			add_state_claim = 412
-			add_state_claim = 416
-			add_state_claim = 414
-			add_state_claim = 410
 			declare_war_on = {
 				target = PER
 				type = annex_everything
@@ -166,9 +201,18 @@ focus_tree = {
 			}
 			has_civil_war = no
 		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_afghanistan_required_states_tt
+				415 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				267 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+			}
+		}
 		completion_reward = {
-			add_state_claim = 415
-			add_state_claim = 267
 			declare_war_on = {
 				target = AFG
 				type = annex_everything
