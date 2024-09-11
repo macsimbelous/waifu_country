@@ -3409,7 +3409,7 @@ wfc_machine_war_category = {
 wfc_category_preparing_a_coup = {
 	wfc_decision_bribe_the_generals = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 100
+		cost = 50
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
@@ -3443,7 +3443,7 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_bribe_the_admirals = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 100
+		cost = 50
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
@@ -3482,7 +3482,7 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_bribe_intelligence_officers = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 100
+		cost = 50
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
@@ -3517,7 +3517,7 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_bribe_officials = {
 		icon = GFX_decision_generic_political_discourse
-		cost = 100
+		cost = 50
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
@@ -3551,7 +3551,7 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_create_weapon_caches = {
 		icon = GFX_decision_FIN_weapon_caches
-		cost = 150
+		cost = 75
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
@@ -3610,7 +3610,7 @@ wfc_category_preparing_a_coup = {
 	}
 	wfc_decision_discredit_the_government = {
 		icon = GFX_decision_eng_propaganda_campaigns
-		cost = 150
+		cost = 75
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30
@@ -3701,10 +3701,10 @@ wfc_category_preparing_a_coup = {
 		icon = GFX_decision_generic_assassination
 		#cost = 50
 		custom_cost_trigger = {
-			has_political_power > 149
+			has_political_power > 74
 			command_power > 24
 		}
-		custom_cost_text = wfc_decision_cost_CP_25_pp_150
+		custom_cost_text = wfc_decision_cost_CP_25_pp_75
 		fire_only_once = no
 		#days_re_enable = 30
 		days_remove = 30

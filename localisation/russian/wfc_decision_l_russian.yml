@@ -1,32 +1,22 @@
 ﻿l_russian:
 
 #urbanize
- wfc_urbanisation_decision:0 "Урбанизировать §Y[From.GetName]§!"
- wfc_urbanisation_decision_desc:0 "Повысить уровень урбанизации региона §Y[From.GetName]§!"
+ wfc_urbanisation_decision: "Урбанизировать §Y[From.GetName]§!"
+ wfc_urbanisation_decision_desc: "Повысить уровень урбанизации региона §Y[From.GetName]§!"
 
 #immigrants
-wfl_immigration_category:0 "Иммиграция"
-wfl_immigration_category_desc:0 "Привлечение иммигрантов"
-wfl_immigration_decision.t:0 "Привлечь иммигрантов"
+wfl_immigration_category: "Иммиграция"
+wfl_immigration_category_desc: "Привлечение иммигрантов"
+wfl_immigration_decision.t: "Привлечь иммигрантов"
 
 #volunteers
-wfl_campaigning_for_volunteers_category:0 "Людские ресурсы"
-wfl_campaigning_for_volunteers_category_desc:0 "Людские ресурсыв"
-wfl_campaigning_for_volunteers_decision.t:0 "Агитация добровольцев"
-
-#wfl_investments_abroad_category
-# wfl_investments_abroad_category:0 "Инвестирование за рубежом"
-# wfl_investments_abroad_category_desc:0 "Инвестируя в экономики других стран мы можем превращать их в наши марионетки"
-# wfl_investments_abroad_decision.t:0 "Инвестировать в §Y[FROM.OWNER.GetName]§!"
-# wfl_investments_abroad_decision.t_desc:0 "Наши инвестиции в §Y[FROM.OWNER.GetName]§! достигнут §G[?mtth:wfl_get_investments_count]§!"
-# wfl_create_puppet_decision2.t:0 "Превратить §Y[FROM.GetName]§! в марионетку"
-# wfl_create_puppet_decision_tt:0 "[wfl_create_puppet_decision_tt_script]"
-# wfl_create_puppet_decision_tt_red:0 "Инвестиций в §Y[FROM.GetName]§! §R[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
-# wfl_create_puppet_decision_tt_green:0 "Инвестиций в §Y[FROM.GetName]§! §G[?mtth:wfl_get_investments_count]§! из §G[?mtth:wfl_puppet_cost]§!"
+wfl_campaigning_for_volunteers_category: "Людские ресурсы"
+wfl_campaigning_for_volunteers_category_desc: "Людские ресурсыв"
+wfl_campaigning_for_volunteers_decision.t: "Агитация добровольцев"
 
 #gacha
-wfl_gacha_category:0 "Гача"
-wfl_gacha_decision.t:0 "Испытать удачу"
+wfl_gacha_category: "Гача"
+wfl_gacha_decision.t: "Испытать удачу"
 
 #wfc_integration_category
  wfc_integration_category: "[wfc_sl_integration_category]"
@@ -160,9 +150,12 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_sl_flag_plan_the_assassination_of_the_head_of_state_yes: "Убийство главы государства: §Gспланировано§!"
  wfc_sl_flag_plan_the_assassination_of_the_head_of_state_no: "Убийство главы государства: §Rне спланировано§!"
  wfc_decision_cancel_coup: "§RОтменить подготовку к перевороту§!"
- wfc_decision_cost_CP_25_pp_150:0 "£command_power §Y25§! £pol_power §Y150§!"
- wfc_decision_cost_CP_25_pp_150_blocked:0 "£command_power §R25§! £pol_power §R150§!"
- wfc_decision_cost_CP_25_pp_150_tooltip:0 "Стоимость принятия решения: £command_power §Y25§! £pol_power §Y150§!"
+ wfc_decision_cost_CP_25_pp_150: "£command_power §Y25§! £pol_power §Y150§!"
+ wfc_decision_cost_CP_25_pp_150_blocked: "£command_power §R25§! £pol_power §R150§!"
+ wfc_decision_cost_CP_25_pp_150_tooltip: "Стоимость принятия решения: £command_power §Y25§! £pol_power §Y150§!"
+ wfc_decision_cost_CP_25_pp_75: "£command_power §Y25§! £pol_power §Y75§!"
+ wfc_decision_cost_CP_25_pp_75_blocked: "£command_power §R25§! £pol_power §R75§!"
+ wfc_decision_cost_CP_25_pp_75_tooltip: "Стоимость принятия решения: £command_power §Y25§! £pol_power §Y75§!"
 
 #political_actions
  wfc_retire_leader:0 "§G[ROOT.GetLeader]§! уйдёт в отставку"

@@ -1,8 +1,8 @@
 ﻿l_english:
 
 #urbanize
- wfc_urbanisation_decision:0 "Urbanization §Y[From.GetName]§!"
- wfc_urbanisation_decision_desc:0 "Raise the level of urbanization of the region §Y[From.GetName]§!"
+ wfc_urbanisation_decision: "Urbanization §Y[From.GetName]§!"
+ wfc_urbanisation_decision_desc: "Raise the level of urbanization of the region §Y[From.GetName]§!"
 
 #immigrants
  wfl_immigration_category:0 "Immigration"
@@ -94,8 +94,8 @@ wfc_construction_phase_bunker_decision:0 "Add bunkers at the border"
 wfc_construction_phase_coastal_bunker_decision:0 "Add coastal fortifications"
 
 #wfc_transfer_of_the_capital_category
-wfc_transfer_of_the_capital_category:0 "Transfer of the capital"
-wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName]§! region"
+wfc_transfer_of_the_capital_category: "Transfer of the capital"
+wfc_transfer_of_the_capital_decision: "Move the capital to the §G[FROM.GetName]§! region"
 
 #prospect_for_resources
  wfc_geological_exploration:0 "Geological exploration of its territory"
@@ -156,6 +156,9 @@ wfc_transfer_of_the_capital_decision:0 "Move the capital to the §G[FROM.GetName
  wfc_decision_cost_CP_25_pp_150:0 "£command_power  §Y25§! £pol_power  §Y150§!"
  wfc_decision_cost_CP_25_pp_150_blocked:0 "£command_power  §R25§! £pol_power  §R150§!"
  wfc_decision_cost_CP_25_pp_150_tooltip:0 "It costs £command_power  §Y25§! £pol_power  §Y150§! to take the decision"
+ wfc_decision_cost_CP_25_pp_75: "£command_power  §Y25§! £pol_power  §Y75§!"
+ wfc_decision_cost_CP_25_pp_75_blocked: "£command_power  §R25§! £pol_power  §R75§!"
+ wfc_decision_cost_CP_25_pp_75_tooltip: "It costs £command_power  §Y25§! £pol_power  §Y75§! to take the decision"
 
 #political_actions
  wfc_retire_leader:0 "§G[ROOT.GetLeader]§! is retiring"
