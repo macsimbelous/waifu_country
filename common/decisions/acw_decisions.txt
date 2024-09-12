@@ -1059,7 +1059,7 @@ acw_faction_category = {
 					#is_puppet_of = ROOT
 					is_subject_of = ROOT
 				}
-				#is_in_faction_with = ROOT
+				is_in_faction_with = ROOT
 			}
 		}
 		available = {

@@ -823,19 +823,11 @@ operations = {
 				is_faction_leader = no
 			}
 		}
-		# visible = {
-		# 	FROM = {
-		# 		OR = {
-		# 			any_neighbor_country = {
-		# 				is_puppet_of = ROOT
-		# 			}
-		# 			is_neighbor_of = ROOT
-		# 		}
-		# 		NOT = {
-		# 			is_puppet_of = ROOT
-		# 		}
-		# 	}
-		# }
+		visible = {
+			FROM = {
+				is_in_faction_with = ROOT
+			}
+		}
 		target_array = faction_members
 		target_trigger = {
 			FROM = {
