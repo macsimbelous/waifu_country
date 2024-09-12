@@ -462,6 +462,11 @@ air_wings = {
 			amount = 100
 			version_name = "Trap F-15"
 		}
+		small_plane_cas_airframe_1 = {
+			owner = "TRP"
+			amount = 100
+			version_name = "Trap CAS-15"
+		}
 		medium_plane_airframe_1 = {
 			owner = "TRP"
 			amount = 100

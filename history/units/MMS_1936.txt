@@ -500,6 +500,11 @@ air_wings = {
 			amount = 100
 			version_name = "Monster F-15"
 		}
+		small_plane_cas_airframe_1 = {
+			owner = "MMS"
+			amount = 100
+			version_name = "Monster CAS-15"
+		}
 		medium_plane_airframe_1 = {
 			owner = "MMS"
 			amount = 100

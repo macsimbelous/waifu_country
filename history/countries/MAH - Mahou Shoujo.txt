@@ -19,6 +19,7 @@ set_technology = {
 	#tech_military_police = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
+	interwar_artillery = 1
 	interwar_antiair = 1
 	iw_small_airframe = 1
 	aa_lmg = 1
@@ -30,6 +31,7 @@ set_technology = {
 	basic_medium_airframe = 1
 	iw_large_airframe = 1
 	basic_large_airframe = 1
+	range_improvements = 1
 	#####
 	basic_torpedo = 1
 	basic_naval_mines = 1
@@ -270,26 +272,41 @@ create_equipment_variant = {
 	}
 }
 create_equipment_variant = {
-	name = "Maho F-15"	#
+	name = "Maho F-15"
 	type = small_plane_airframe_1
 	modules = {
 		fixed_main_weapon_slot = light_mg_4x
-		engine_type_slot = engine_2_2x
-		special_type_slot_1 = empty
+		fixed_auxiliary_weapon_slot_1 = light_mg_4x
+		#fixed_auxiliary_weapon_slot_2 = light_mg_4x
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = fuel_tanks_small
 	}
 	#obsolete = yes
+	icon = "gfx/interface/technologies/light_plane_3.dds"
 }
-
 create_equipment_variant = {
-	name = "Maho B-3"	#
+	name = "Maho CAS-15"
+	type = small_plane_cas_airframe_1
+	modules = {
+		fixed_main_weapon_slot = small_bomb_bay
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		#fixed_auxiliary_weapon_slot_2 = light_mg_4x
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = fuel_tanks_small
+	}
+	#obsolete = yes
+	icon = "gfx/interface/technologies/SOV_CAS2.dds"
+}
+create_equipment_variant = {
+	name = "Maho B-3"
 	type = medium_plane_airframe_1
 	modules = {
 		fixed_main_weapon_slot = medium_bomb_bay
 		fixed_auxiliary_weapon_slot_1 = bomb_locks
 		engine_type_slot = engine_2_2x
-		special_type_slot_1 = lmg_defense_turret
+		special_type_slot_1 = fuel_tanks_medium
 	}
-	#icon = "GFX_SOV_early_bomber_medium"
+	icon = "gfx/interface/technologies/medium_plane_1.dds"
 }
 
 create_equipment_variant = {
@@ -297,15 +314,19 @@ create_equipment_variant = {
 	type = light_tank_chassis_1
 	parent_version = 0
 	modules = {
-		main_armament_slot = tank_small_cannon_2
-		turret_type_slot = tank_light_two_man_tank_turret
-		suspension_type_slot = tank_christie_suspension
+		main_armament_slot = tank_close_support_gun
+		turret_type_slot = tank_light_three_man_tank_turret
+		special_type_slot_1 = secondary_turret_small_cannon
+		special_type_slot_2 = wet_ammo_storage
+		special_type_slot_3 = expanded_fuel_tank
+		#special_type_slot_4 = expanded_fuel_tank
+		suspension_type_slot = tank_interleaved_suspension
 		armor_type_slot = tank_welded_armor
 		engine_type_slot = tank_gasoline_engine
 	}
 	upgrades = {
-		tank_nsb_engine_upgrade = 10
-		tank_nsb_armor_upgrade = 2
+		tank_nsb_engine_upgrade = 5
+		tank_nsb_armor_upgrade = 5
 	}
-	icon = "gfx/interface/technologies/improved_light_tank.dds"
+	#icon = "gfx/interface/technologies/improved_light_tank.dds"
 }
