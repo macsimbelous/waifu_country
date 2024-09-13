@@ -3616,9 +3616,9 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-		IF = {
+		if = {
 			limit = {
-				has_dlc = "Man the Guns"
+				tag = TRP
 			}
 			create_equipment_variant = {
 				name = "Minas Gerais Class"
@@ -3639,7 +3639,7 @@ shared_focus = {
 				equipment = {
 					type = ship_hull_carrier_conversion_ca
 					creator = "TRP"
-					version_name = "Minas Gerais Class"
+					#version_name = "Minas Gerais Class"
 				}
 				name = "NRB Belo Horizonte"
 				requested_factories = 2
@@ -3650,7 +3650,7 @@ shared_focus = {
 				equipment = {
 					type = ship_hull_carrier_conversion_ca
 					creator = "TRP"
-					version_name = "Minas Gerais Class"
+					#version_name = "Minas Gerais Class"
 				}
 				name = "NRB Congonhas"
 				requested_factories = 2
@@ -3658,38 +3658,272 @@ shared_focus = {
 				amount = 1
 			}
 		}
-		ELSE = {
+		else_if = {
+			limit = {
+				tag = ACW
+			}
 			create_equipment_variant = {
-				name = "Minas Gerais Class"
-				type = carrier_1
+				#name = "Minas Gerais Class"
+				type = ship_hull_carrier_conversion_ca
+				name_group = ACW_CV_HISTORICAL
+				parent_version = 0
 				allow_without_tech = yes
-				upgrades = {
-					ship_deckspace_upgrade = 1
-					carrier_armor_upgrade = 1
-					ship_engine_upgrade = 1
-					ship_reliability_upgrade = 1
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
 				}
 			}
 			add_equipment_production = {
 				equipment = {
-					type = carrier_1
-					creator = "TRP"
-					version_name = "Minas Gerais Class"
+					type = ship_hull_carrier_conversion_ca
+					creator = "ACW"
+					#version_name = "Minas Gerais Class"
 				}
+				#name = "NRB Belo Horizonte"
 				requested_factories = 2
 				progress = 0.5
 				amount = 1
 			}
 			add_equipment_production = {
 				equipment = {
-					type = carrier_1
-					creator = "TRP"
-					version_name = "Minas Gerais Class"
+					type = ship_hull_carrier_conversion_ca
+					creator = "ACW"
+					#version_name = "Minas Gerais Class"
 				}
+				#name = "NRB Congonhas"
 				requested_factories = 2
 				progress = 0.5
 				amount = 1
 			}
+		}
+		else_if = {
+			limit = {
+				tag = HEN
+			}
+			create_equipment_variant = {
+				#name = "Minas Gerais Class"
+				type = ship_hull_carrier_conversion_ca
+				name_group = HEN_CV_HISTORICAL
+				parent_version = 0
+				allow_without_tech = yes
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
+				}
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "HEN"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Belo Horizonte"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "HEN"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Congonhas"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MAH
+			}
+			create_equipment_variant = {
+				#name = "Minas Gerais Class"
+				type = ship_hull_carrier_conversion_ca
+				name_group = MAH_CV_HISTORICAL
+				parent_version = 0
+				allow_without_tech = yes
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
+				}
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "MAH"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Belo Horizonte"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "MAH"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Congonhas"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MEH
+			}
+			create_equipment_variant = {
+				#name = "Minas Gerais Class"
+				type = ship_hull_carrier_conversion_ca
+				name_group = MEH_CV_HISTORICAL
+				parent_version = 0
+				allow_without_tech = yes
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
+				}
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "MEH"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Belo Horizonte"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "MEH"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Congonhas"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MMS
+			}
+			create_equipment_variant = {
+				#name = "Minas Gerais Class"
+				type = ship_hull_carrier_conversion_ca
+				name_group = MMS_CV_HISTORICAL
+				parent_version = 0
+				allow_without_tech = yes
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
+				}
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "MMS"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Belo Horizonte"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "MMS"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Congonhas"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+		}
+		else_if = {
+			limit = {
+				tag = NEC
+			}
+			create_equipment_variant = {
+				#name = "Minas Gerais Class"
+				type = ship_hull_carrier_conversion_ca
+				name_group = NEC_CV_HISTORICAL
+				parent_version = 0
+				allow_without_tech = yes
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
+				}
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "NEC"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Belo Horizonte"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_conversion_ca
+					creator = "NEC"
+					#version_name = "Minas Gerais Class"
+				}
+				#name = "NRB Congonhas"
+				requested_factories = 2
+				progress = 0.5
+				amount = 1
+			}
+		}
+		else = {
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = cv_tech
+			}
+		}
+		add_tech_bonus = {
+			name = cv_bonus
+			bonus = 1
+			uses = 1
+			category = cv_tech
 		}
 	}
 }
