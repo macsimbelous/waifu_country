@@ -1375,11 +1375,14 @@
 			305 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
-			490 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
 			486 = {
 				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			490 = {
+				OR = {
+					wfc_is_controlled_by_root_or_puppet = yes
+					is_controlled_by = PRU
+				}
 			}
 		}
 		completion_reward = {
@@ -2199,6 +2202,14 @@
 					}
 					transfer_state = 948
 				}
+				if = {
+					limit = {
+						720 = {
+							wfc_is_controlled_by_root_or_puppet = yes
+						}
+					}
+					transfer_state = 720
+				}
 			}
 			custom_effect_tooltip = trp_form_country_coring_states_tt
 			hidden_effect = {
@@ -2343,6 +2354,12 @@
 						controls_state = 948
 					}
 					add_state_core = 948
+				}
+				if = {
+					limit = {
+						controls_state = 720
+					}
+					add_state_core = 720
 				}
 			}
 		}

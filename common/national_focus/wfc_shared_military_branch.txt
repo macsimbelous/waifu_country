@@ -3621,7 +3621,6 @@ shared_focus = {
 				tag = TRP
 			}
 			create_equipment_variant = {
-				name = "Minas Gerais Class"
 				type = ship_hull_carrier_conversion_ca
 				name_group = TRP_CV_HISTORICAL
 				parent_version = 0
@@ -3639,22 +3638,18 @@ shared_focus = {
 				equipment = {
 					type = ship_hull_carrier_conversion_ca
 					creator = "TRP"
-					#version_name = "Minas Gerais Class"
 				}
-				name = "NRB Belo Horizonte"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 			add_equipment_production = {
 				equipment = {
 					type = ship_hull_carrier_conversion_ca
 					creator = "TRP"
-					#version_name = "Minas Gerais Class"
 				}
-				name = "NRB Congonhas"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 		}
@@ -3684,8 +3679,8 @@ shared_focus = {
 					#version_name = "Minas Gerais Class"
 				}
 				#name = "NRB Belo Horizonte"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 			add_equipment_production = {
@@ -3694,9 +3689,8 @@ shared_focus = {
 					creator = "ACW"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Congonhas"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 		}
@@ -3725,9 +3719,8 @@ shared_focus = {
 					creator = "HEN"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Belo Horizonte"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 			add_equipment_production = {
@@ -3736,9 +3729,8 @@ shared_focus = {
 					creator = "HEN"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Congonhas"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 		}
@@ -3767,9 +3759,8 @@ shared_focus = {
 					creator = "MAH"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Belo Horizonte"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 			add_equipment_production = {
@@ -3778,9 +3769,8 @@ shared_focus = {
 					creator = "MAH"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Congonhas"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 		}
@@ -3809,9 +3799,8 @@ shared_focus = {
 					creator = "MEH"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Belo Horizonte"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 			add_equipment_production = {
@@ -3820,9 +3809,8 @@ shared_focus = {
 					creator = "MEH"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Congonhas"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 		}
@@ -3851,9 +3839,8 @@ shared_focus = {
 					creator = "MMS"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Belo Horizonte"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 			add_equipment_production = {
@@ -3862,9 +3849,8 @@ shared_focus = {
 					creator = "MMS"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Congonhas"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 		}
@@ -3893,9 +3879,8 @@ shared_focus = {
 					creator = "NEC"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Belo Horizonte"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 			add_equipment_production = {
@@ -3904,9 +3889,8 @@ shared_focus = {
 					creator = "NEC"
 					#version_name = "Minas Gerais Class"
 				}
-				#name = "NRB Congonhas"
-				requested_factories = 2
-				progress = 0.5
+				requested_factories = 5
+				progress = 0.9
 				amount = 1
 			}
 		}
