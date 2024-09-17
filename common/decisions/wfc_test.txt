@@ -206,25 +206,16 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		available = {
-			network_strength = {
-				target = BUL
-				value > 50
-			}
-			network_strength = {
-				target = BUL
-				value > 75
-			}
-			network_national_coverage = {
-				target = BUL
-				value > 50
-			}
-			network_national_coverage = {
-				target = BUL
-				value > 75
-			}
 		}
 		complete_effect = {
-			add_political_power = 100
+			add_to_variable = {
+				mms_dm_iie_infantry_attack_factor = 0.01
+				tooltip = mms_tt_iie_infantry_attack
+			}
+			add_to_variable = {
+				mms_dm_iie_special_forces_attack_factor = 0.01
+				tooltip = mms_tt_iie_special_forces_attack
+			}
 		}
 	}
 	wfc_acw_war_rom = {

@@ -1,3 +1,10 @@
 ﻿l_russian:
 wfc_tt_is_island_state: "Не остров"
 nec_decision_necrification_create_unit_tt: "Будут созданы боевые единицы в количестве пропорциональном населению территории."
+mms_tt_iie_infantry_attack: "Атака пехоты увеличится на $RIGHT|+=%1$"
+mms_tt_iie_special_forces_attack: "Атака спецназа увеличится на $RIGHT|+=%1$"
+mms_tt_iie_infantry_defence: "Зашита пехоты увеличится на $RIGHT|+=%1$"
+mms_tt_iie_special_forces_defence: "Зашита спецназа увеличится на $RIGHT|+=%1$"
+mms_tt_iie_army_morale: "Мораль армии увеличится на $RIGHT|+=%1$"
+mms_tt_iie_experience_loss: "Потеря опыта уменьшится на $RIGHT|+=%1$"
+mms_tt_iie_army_speed: "Скорость армии увеличится на $RIGHT|+=%1$"

@@ -1,3 +1,10 @@
 ﻿l_english:
 wfc_tt_is_island_state: "Not island"
 nec_decision_necrification_create_unit_tt: "Combat units will be created in numbers proportional to the population of the territory."
+mms_tt_iie_infantry_attack: "Infantry attack will increase by $RIGHT|+=%1$"
+mms_tt_iie_special_forces_attack: "Special Forces attack will increase by $RIGHT|+=%1$"
+mms_tt_iie_infantry_defence: "Infantry defense will increase by $RIGHT|+=%1$"
+mms_tt_iie_special_forces_defence: "Special Forces defense will increase by $RIGHT|+=%1$"
+mms_tt_iie_army_morale: "Army morale will increase by $RIGHT|+=%1$"
+mms_tt_iie_experience_loss: "Experience loss will be reduced by $RIGHT|+=%1$"
+mms_tt_iie_army_speed: "СThe speed of the army will increase by $RIGHT|+=%1$"
