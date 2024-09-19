@@ -206,9 +206,87 @@ wfc_test_category = {
 		fire_only_once = no
 		cost = 0
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_opposition_is_more_popular_than_government
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					OR = {
+						communism > party_popularity@democratic
+						fascism > party_popularity@democratic
+						neutrality > party_popularity@democratic
+					}
+				}
+				else_if = {
+					limit = {
+						has_government = communism
+					}
+					OR = {
+						democratic > party_popularity@communism
+						fascism > party_popularity@communism
+						neutrality > party_popularity@communism
+					}
+				}
+				else_if = {
+					limit = {
+						has_government = fascism
+					}
+					OR = {
+						democratic > party_popularity@fascism
+						communism > party_popularity@fascism
+						neutrality > party_popularity@fascism
+					}
+				}
+				else = {
+					OR = {
+						democratic > party_popularity@neutrality
+						fascism > party_popularity@neutrality
+						communism > party_popularity@neutrality
+					}
+				}
+			}
 		}
 		complete_effect = {
-			hold_election = ROOT
+			if = {
+				limit = {
+					democratic > party_popularity@communism
+					democratic > party_popularity@fascism
+					democratic > party_popularity@neutrality
+				}
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+				}
+			}
+			else_if = {
+				limit = {
+					communism > party_popularity@democratic
+					communism > party_popularity@fascism
+					communism > party_popularity@neutrality
+				}
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+				}
+			}
+			else_if = {
+				limit = {
+					fascism > party_popularity@communism
+					fascism > party_popularity@democratic
+					fascism > party_popularity@neutrality
+				}
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+				}
+			}
+			else = {
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = no
+				}
+			}
 		}
 	}
 	wfc_acw_war_rom = {
