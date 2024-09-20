@@ -2251,7 +2251,7 @@ shared_focus = {
 	}
 	available = {
 		custom_trigger_tooltip = {
-			tooltip = wfc_opposition_is_more_popular_than_government
+			tooltip = wfc_tt_opposition_is_more_popular_than_government
 			if = {
 				limit = {
 					has_government = democratic

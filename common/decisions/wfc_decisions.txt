@@ -2257,7 +2257,7 @@ prospect_for_resources = {
 					is_fully_controlled_by = ROOT
 					is_owned_by = ROOT
 				}
-				custom_effect_tooltip = wfc_generic_force_excavation_tt
+				custom_effect_tooltip = wfc_tt_geological_exploration
 				hidden_effect = {
 					random_list = {
 						40 = {
