@@ -521,8 +521,9 @@ instant_effect = {
 			creator = "MMS"
 		}
 		requested_factories = 6
-		progress = 0.87
+		progress = 0.7
 		efficiency = 100
+		industrial_manufacturer = mio:generic_infantry_equipment_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -530,8 +531,9 @@ instant_effect = {
 			creator = "MMS"
 		}
 		requested_factories = 3
-		progress = 0.87
+		progress = 0.9
 		efficiency = 100
+		industrial_manufacturer = mio:mms_organization_ifrit_forge
 	}
 	# add_equipment_production = {
 	# 	equipment = {

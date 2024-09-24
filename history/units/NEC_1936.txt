@@ -227,8 +227,9 @@ instant_effect = {
 			creator = "NEC"
 		}
 		requested_factories = 2
-		progress = 0.87
+		progress = 0.9
 		efficiency = 100
+		industrial_manufacturer = mio:nec_organization_the_bone_armory
 	}
 	add_equipment_production = {
 		equipment = {
@@ -236,8 +237,9 @@ instant_effect = {
 			creator = "NEC"
 		}
 		requested_factories = 1
-		progress = 0.75
-		efficiency = 80
+		progress = 0.7
+		efficiency = 100
+		industrial_manufacturer = mio:generic_artillery_organization
 	}
 	#sklad
 	add_equipment_to_stockpile = {

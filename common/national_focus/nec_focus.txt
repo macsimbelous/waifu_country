@@ -36,6 +36,7 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
+			wfc_add_arms_factory_in_random_state = yes
 			add_state_claim = 322
 			add_state_claim = 757
 			declare_war_on = {

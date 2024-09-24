@@ -547,18 +547,19 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "MEH"
 		}
-		requested_factories = 4
+		requested_factories = 5
 		progress = 0.7
-		efficiency = 80
+		efficiency = 100
+		industrial_manufacturer = mio:generic_infantry_equipment_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
 			creator = "MEH"
 		}
-		requested_factories = 1
-		progress = 0.7
-		efficiency = 80
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
 	}
 	add_equipment_production = {
 		equipment = {
@@ -567,7 +568,8 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.7
-		efficiency = 80
+		efficiency = 100
+		industrial_manufacturer = mio:generic_artillery_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -577,7 +579,8 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.7
-		efficiency = 80
+		efficiency = 100
+		industrial_manufacturer = mio:generic_tank_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -586,8 +589,9 @@ instant_effect = {
 			version_name = "Mecha F-15"
 		}
 		requested_factories = 1
-		progress = 0.15
+		progress = 0.9
 		efficiency = 100
+		industrial_manufacturer = mio:meh_organization_naval_aircraft
 	}
 	add_equipment_production = {
 		equipment = {
@@ -596,8 +600,9 @@ instant_effect = {
 			version_name = "Mecha B-3"
 		}
 		requested_factories = 1
-		progress = 0.2
+		progress = 0.7
 		efficiency = 100
+		industrial_manufacturer = mio:generic_general_aircraft_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -605,8 +610,9 @@ instant_effect = {
 			creator = "MEH"
 		}
 		requested_factories = 1
-		progress = 0.5
-		efficiency = 80
+		progress = 0.9
+		efficiency = 100
+		industrial_manufacturer = mio:meh_organization_mythra_motors
 	}
 	add_equipment_production = {
 		equipment = {
@@ -615,7 +621,7 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.5
-		efficiency = 80
+		efficiency = 100
 	}
 	#sklad
 	add_equipment_to_stockpile = {
