@@ -793,6 +793,13 @@ acw_faction_category = {
 			HEN = {
 				exists = yes
 				has_same_ideology = yes
+				OR = {
+					has_war = no
+					AND = {
+						has_war = yes
+						has_capitulated = no
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -839,6 +846,13 @@ acw_faction_category = {
 			MAH = {
 				exists = yes
 				has_same_ideology = yes
+				OR = {
+					has_war = no
+					AND = {
+						has_war = yes
+						has_capitulated = no
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -885,6 +899,13 @@ acw_faction_category = {
 			MEH = {
 				exists = yes
 				has_same_ideology = yes
+				OR = {
+					has_war = no
+					AND = {
+						has_war = yes
+						has_capitulated = no
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -931,6 +952,13 @@ acw_faction_category = {
 			MMS = {
 				exists = yes
 				has_same_ideology = yes
+				OR = {
+					has_war = no
+					AND = {
+						has_war = yes
+						has_capitulated = no
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -977,6 +1005,13 @@ acw_faction_category = {
 			TRP = {
 				exists = yes
 				has_same_ideology = yes
+				OR = {
+					has_war = no
+					AND = {
+						has_war = yes
+						has_capitulated = no
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -1020,6 +1055,13 @@ acw_faction_category = {
 			NEC = {
 				exists = yes
 				has_same_ideology = yes
+				OR = {
+					has_war = no
+					AND = {
+						has_war = yes
+						has_capitulated = no
+					}
+				}
 			}
 		}
 		ai_will_do = {

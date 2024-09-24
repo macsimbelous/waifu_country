@@ -241,7 +241,13 @@ focus_tree = {
 			is_in_faction_with = JAP
 			JAP = {
 				has_same_ideology = yes
-				has_capitulated = no
+				OR = {
+					has_war = no
+					AND = {
+						has_war = yes
+						has_capitulated = no
+					}
+				}
 			}
 			ic_ratio = {
 				tag = JAP
@@ -271,6 +277,11 @@ focus_tree = {
 				}
 				ROOT = {
 					puppet = PREV
+				}
+			}
+			JAP = {
+				transfer_navy = {
+					target = ROOT
 				}
 			}
 			annex_country = {
@@ -961,7 +972,13 @@ focus_tree = {
 			is_in_faction_with = SOV
 			SOV = {
 				has_same_ideology = yes
-				has_capitulated = no
+				OR = {
+					has_war = no
+					AND = {
+						has_war = yes
+						has_capitulated = no
+					}
+				}
 			}
 			ic_ratio = {
 				tag = SOV
@@ -1369,9 +1386,26 @@ focus_tree = {
 				uses = 2
 				category = naval_equipment
 			}
-			JAP = {
-				transfer_navy = {
-					target = ROOT
+			if = {
+				limit = {
+					has_war_with = JAP
+				}
+				JAP = {
+					transfer_navy = {
+						target = ROOT
+					}
+					every_controlled_state = {
+						limit = {
+							OWNER = {
+								has_war_with = ROOT
+							}
+						}
+						set_state_controller_to = ROOT
+					}
+				}
+				annex_country = {
+					target = JAP
+					transfer_troops = yes
 				}
 			}
 		}
