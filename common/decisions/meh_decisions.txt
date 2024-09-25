@@ -1331,7 +1331,11 @@ operations = {
 		}
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 100
+			base = 100
+			modifier = {
+				has_war = yes
+				add = -1000
+			}
 		}
 		cost = 50
 		days_remove = 30
