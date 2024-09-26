@@ -406,47 +406,12 @@ ACW_naval_role_ratios_historical = {
 	}
 }
 
-ACW_conquer_balkan = {
-	allowed = {
-		original_tag = ACW
-	}
-	enable = {
-		always = yes
-	}
-	abort = {
-		always = no
-	}
-	ai_strategy = {
-		type = conquer
-		id = "ROM"
-		value = 100
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = "ROM"
-		value = 100
-	}
-	ai_strategy = {
-		type = conquer
-		id = "YUG"
-		value = 100
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = "YUG"
-		value = 100
-	}
-	ai_strategy = {
-		type = force_build_armies
-		value = 100
-	}
-}
-
 ACW_protect_europe = {
 	allowed = {
 		original_tag = ACW
 	}
 	enable = {
+		has_country_flag = acw_great_animeland_flag
 		NOT = {
 			has_government = fascism
 		}
@@ -456,31 +421,513 @@ ACW_protect_europe = {
 	}
 	ai_strategy = {
 		type = protect
-		id = "CZE"
+		id = FRA
 		value = 100
 	}
 	ai_strategy = {
 		type = protect
-		id = "POL"
-		value = 100
-	}
-	ai_strategy = {
-		type = protect
-		id = "FRA"
-		value = 100
-	}
-	ai_strategy = {
-		type = protect
-		id = "SOV"
+		id = SOV
 		value = 100
 	}
 	ai_strategy = {
 		type = prepare_for_war
-		id = "GER"
+		id = GER
 		value = 100
 	}
 	ai_strategy = {
 		type = force_build_armies
+		value = 100
+	}
+}
+
+acw_conquer_hun = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = HUN
+	}
+	abort = {
+		HUN = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = HUN
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = HUN
+		value = 100
+	}
+}
+acw_conquer_rom = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = ROM
+	}
+	abort = {
+		ROM = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = ROM
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = ROM
+		value = 100
+	}
+}
+acw_conquer_bul = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = BUL
+	}
+	abort = {
+		BUL = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = BUL
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = BUL
+		value = 100
+	}
+}
+acw_conquer_yug = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = YUG
+	}
+	abort = {
+		YUG = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = YUG
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = YUG
+		value = 100
+	}
+}
+acw_conquer_ser = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = SER
+	}
+	abort = {
+		SER = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = SER
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = SER
+		value = 100
+	}
+}
+acw_conquer_kos = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = KOS
+	}
+	abort = {
+		KOS = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = KOS
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = KOS
+		value = 100
+	}
+}
+acw_conquer_mac = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = MAC
+	}
+	abort = {
+		MAC = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = MAC
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = MAC
+		value = 100
+	}
+}
+acw_conquer_alb = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = ALB
+	}
+	abort = {
+		ALB = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = ALB
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = ALB
+		value = 100
+	}
+}
+acw_conquer_mnt = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = MNT
+	}
+	abort = {
+		MNT = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = MNT
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = MNT
+		value = 100
+	}
+}
+acw_conquer_bos = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = BOS
+	}
+	abort = {
+		BOS = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = BOS
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = BOS
+		value = 100
+	}
+}
+acw_conquer_cro = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = CRO
+	}
+	abort = {
+		CRO = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = CRO
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = CRO
+		value = 100
+	}
+}
+acw_conquer_slv = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = SLV
+	}
+	abort = {
+		SLV = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = SLV
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = SLV
+		value = 100
+	}
+}
+acw_conquer_mol = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		country_exists = MOL
+	}
+	abort = {
+		MOL = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = MOL
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = MOL
+		value = 100
+	}
+}
+acw_conquer_aus = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		has_completed_focus = acw_focus_protectorates
+		country_exists = AUS
+	}
+	abort = {
+		AUS = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = AUS
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = AUS
+		value = 100
+	}
+}
+acw_conquer_slo = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		has_completed_focus = acw_focus_protectorates
+		country_exists = SLO
+	}
+	abort = {
+		SLO = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = SLO
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = SLO
+		value = 100
+	}
+}
+acw_conquer_cze = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		has_completed_focus = acw_focus_protectorates
+		country_exists = CZE
+	}
+	abort = {
+		CZE = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = CZE
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = CZE
+		value = 100
+	}
+}
+acw_conquer_gre = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		has_completed_focus = acw_focus_protectorates
+		country_exists = GRE
+	}
+	abort = {
+		GRE = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = GRE
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = GRE
+		value = 100
+	}
+}
+acw_conquer_ita = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		has_completed_focus = acw_focus_protectorates
+		country_exists = ITA
+	}
+	abort = {
+		ITA = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = ITA
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = ITA
+		value = 100
+	}
+}
+acw_conquer_ukr = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		has_completed_focus = acw_focus_protectorates
+		country_exists = UKR
+	}
+	abort = {
+		UKR = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = UKR
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = UKR
+		value = 100
+	}
+}
+acw_conquer_sov = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		has_completed_focus = acw_focus_protectorates
+		country_exists = SOV
+	}
+	abort = {
+		SOV = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = SOV
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = SOV
+		value = 100
+	}
+}
+acw_conquer_pol = {
+	allowed = {
+		original_tag = ACW
+	}
+	enable = {
+		has_completed_focus = acw_focus_protectorates
+		country_exists = POL
+	}
+	abort = {
+		POL = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = POL
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = POL
 		value = 100
 	}
 }
