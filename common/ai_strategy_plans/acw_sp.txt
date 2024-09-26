@@ -24,6 +24,13 @@ ACW_historical = {
 		is_subject = yes
 	}
 	ai_national_focuses = {
+		wfc_political_effort
+		wfc_focus_individualism
+		wfc_focus_authoritarianism
+		wfc_neutrality_focus
+		wfc_deterrence
+		wfc_shared_focus_referendum
+
 		acw_focus_government_reform
 		acw_focus_create_minprom
 		acw_focus_create_minscience
@@ -39,11 +46,6 @@ ACW_historical = {
 		acw_focus_protectorates
 		acw_focus_protectorate_aus
 
-		wfc_political_effort
-		wfc_focus_individualism
-		wfc_focus_authoritarianism
-		wfc_neutrality_focus
-		wfc_deterrence
 	}
 	research = {
 	}
@@ -83,6 +85,7 @@ ACW_democratic = {
 		wfc_focus_individualism
 		wfc_focus_democracy
 		wfc_interventionism_focus
+		wfc_shared_focus_referendum
 
 		acw_focus_government_reform
 		acw_focus_create_minprom
@@ -135,6 +138,7 @@ ACW_communist = {
 		wfc_political_correctness
 		wfc_indoctrination_focus
 		wfc_political_commissars
+		wfc_shared_focus_referendum
 
 		acw_focus_government_reform
 		acw_focus_create_minprom
@@ -192,6 +196,7 @@ ACW_fascist = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+		wfc_shared_focus_referendum
 
 		acw_focus_government_reform
 		acw_focus_create_minprom

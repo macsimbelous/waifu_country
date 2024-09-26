@@ -27,6 +27,7 @@ MEH_historical = {
 		wfc_political_effort
 		wfc_collectivist_ethos
 		wfc_nationalism_focus
+		wfc_shared_focus_referendum
 		meh_upgrade_ai
 		meh_create_robo_factory
 		meh_create_construction_robots
@@ -77,6 +78,7 @@ MEH_neutrality = {
 		wfc_focus_authoritarianism
 		wfc_neutrality_focus
 		wfc_deterrence
+		wfc_shared_focus_referendum
 		meh_upgrade_ai
 		meh_create_robo_factory
 		meh_create_construction_robots
@@ -127,6 +129,7 @@ MEH_democratic = {
 		wfc_interventionism_focus
 		wfc_volunteer_corps
 		wfc_foreign_expeditions
+		wfc_shared_focus_referendum
 		meh_upgrade_ai
 		meh_create_robo_factory
 		meh_create_construction_robots
@@ -177,6 +180,7 @@ MEH_communist = {
 		wfc_political_correctness
 		wfc_indoctrination_focus
 		wfc_political_commissars
+		wfc_shared_focus_referendum
 		meh_upgrade_ai
 		meh_create_robo_factory
 		meh_create_construction_robots

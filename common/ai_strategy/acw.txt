@@ -793,7 +793,6 @@ acw_conquer_cze = {
 		original_tag = ACW
 	}
 	enable = {
-		has_completed_focus = acw_focus_protectorates
 		country_exists = CZE
 	}
 	abort = {

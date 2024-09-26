@@ -325,7 +325,7 @@ HEN_template_design_3 = {
 	}
 }
 
-prio_invasions = {
+hen_prio_invasions = {
 	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = HEN

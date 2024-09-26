@@ -325,7 +325,7 @@ MAH_template_design_3 = {
 	}
 }
 
-prio_invasions = {
+mah_prio_invasions = {
 	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MAH
@@ -435,6 +435,7 @@ MAH_conquer_tur = {
 		value = 100
 	}
 }
+
 mah_conquer_mms = {
 	allowed = {
 		original_tag = MAH
@@ -459,6 +460,7 @@ mah_conquer_mms = {
 		value = 100
 	}
 }
+
 mah_invade_qatar = {
 	allowed = {
 		original_tag = MAH
@@ -631,6 +633,7 @@ mah_alliance_eng = {
 		value = 100
 	}
 }
+
 mah_invade_eng = {
 	allowed = {
 		original_tag = MAH
@@ -657,6 +660,7 @@ mah_invade_eng = {
 		value = 100
 	}
 }
+
 #MMS
 mah_befriend_mms = {
 	allowed = {
@@ -708,6 +712,35 @@ mah_antagonize_mms = {
 	ai_strategy = {
 		type = antagonize
 		id = MMS
+		value = 1000
+	}
+}
+
+mah_support_spr = {
+	allowed = {
+		original_tag = MAH
+	}
+	enable = {
+		OR = {
+			has_government = democratic
+			has_government = communism
+		}
+		SPR = {
+			OR = {
+				has_government = democratic
+				has_government = communism
+			}
+			has_war = yes
+		}
+	}
+	abort = {
+		SPR = {
+			has_war = no
+		}
+	}
+	ai_strategy = {
+		type = support
+		id = SPR
 		value = 1000
 	}
 }

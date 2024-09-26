@@ -30,6 +30,7 @@ MAH_historical = {
 		wfc_interventionism_focus
 		wfc_volunteer_corps
 		wfc_foreign_expeditions
+		wfc_shared_focus_referendum
 	}
 	research = {
 	}
@@ -72,6 +73,7 @@ MAH_fascist = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+		wfc_shared_focus_referendum
 	}
 	research = {
 	}
@@ -113,6 +115,7 @@ MAH_neutrality = {
 		wfc_focus_authoritarianism
 		wfc_neutrality_focus
 		wfc_deterrence
+		wfc_shared_focus_referendum
 	}
 	research = {
 	}
@@ -155,6 +158,7 @@ MAH_communist = {
 		wfc_political_correctness
 		wfc_indoctrination_focus
 		wfc_political_commissars
+		wfc_shared_focus_referendum
 	}
 	research = {
 	}

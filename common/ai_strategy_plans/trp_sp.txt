@@ -31,6 +31,7 @@ TRP_historical = {
 		wfc_indoctrination_focus
 		wfc_political_commissars
 		wfc_ideological_fanaticism
+		wfc_shared_focus_referendum
 		#concvest
 		trp_conquest_of_south_america
 		trp_infrastructure_effort_nsb
@@ -95,6 +96,7 @@ TRP_neutrality = {
 		wfc_focus_authoritarianism
 		wfc_neutrality_focus
 		wfc_deterrence
+		wfc_shared_focus_referendum
 		trp_focus_academy_of_sciences
 		trp_infrastructure_effort_nsb
 		trp_heavy_industry
@@ -146,6 +148,7 @@ TRP_democratic = {
 		wfc_focus_individualism
 		wfc_focus_democracy
 		wfc_interventionism_focus
+		wfc_shared_focus_referendum
 		trp_support_the_opposition
 		trp_go_democratic
 		trp_join_allies
@@ -206,6 +209,7 @@ TRP_fascist = {
 		wfc_military_youth
 		wfc_paramilitarism
 		wfc_ideological_fanaticism
+		wfc_shared_focus_referendum
 		#concvest
 		trp_conquest_of_south_america
 		trp_attack_bol
