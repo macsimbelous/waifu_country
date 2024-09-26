@@ -249,6 +249,7 @@ nec_template_design_2 = {
 		value = 10
 	}
 }
+
 nec_template_design_3 = {
 	abort_when_not_enabled = yes
 	allowed = {
@@ -404,8 +405,7 @@ nec_naval_role_ratios_historical = {
 		value = 10
 	}
 }
-
-nec_conquer_per_chi = {
+nec_build_armies = {
 	allowed = {
 		original_tag = NEC
 	}
@@ -413,34 +413,154 @@ nec_conquer_per_chi = {
 		always = yes
 	}
 	abort = {
-		CHI = {
-			exists = no
-		}
-		RAJ = {
-			exists = no
-		}
-		SOV = {
-			exists = no
-		}
-	}
-	ai_strategy = {
-		type = conquer
-		id = "CHI"
-		value = 1000
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = "RAJ"
-		value = 100
-	}
-	ai_strategy = {
-		type = conquer
-		id = "SOV"
-		value = 100
+		always = no
 	}
 	ai_strategy = {
 		type = force_build_armies
 		value = 100
 	}
 }
-
+nec_conquer_chi = {
+	allowed = {
+		original_tag = NEC
+	}
+	enable = {
+		has_completed_focus = nec_focus_the_world_of_the_dead
+		country_exists = CHI
+	}
+	abort = {
+		CHI = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = CHI
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = CHI
+		value = 100
+	}
+}
+nec_conquer_raj = {
+	allowed = {
+		original_tag = NEC
+	}
+	enable = {
+		has_completed_focus = nec_focus_the_world_of_the_dead
+		country_exists = RAJ
+	}
+	abort = {
+		RAJ = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = RAJ
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = RAJ
+		value = 100
+	}
+}
+nec_conquer_sov = {
+	allowed = {
+		original_tag = NEC
+	}
+	enable = {
+		has_completed_focus = nec_focus_the_world_of_the_dead
+		country_exists = SOV
+	}
+	abort = {
+		SOV = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = SOV
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = SOV
+		value = 100
+	}
+}
+nec_conquer_tib = {
+	allowed = {
+		original_tag = NEC
+	}
+	enable = {
+		country_exists = TIB
+	}
+	abort = {
+		NOT = {
+			country_exists = TIB
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = conquer
+		id = TIB
+		value = 1000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = TIB
+		value = 1000
+	}
+}
+nec_conquer_nep = {
+	allowed = {
+		original_tag = NEC
+	}
+	enable = {
+		country_exists = NEP
+	}
+	abort = {
+		NOT = {
+			country_exists = NEP
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = conquer
+		id = NEP
+		value = 1000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = NEP
+		value = 1000
+	}
+}
+nec_conquer_bhu = {
+	allowed = {
+		original_tag = BHU
+	}
+	enable = {
+		country_exists = BHU
+	}
+	abort = {
+		NOT = {
+			country_exists = BHU
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = conquer
+		id = BHU
+		value = 1000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = BHU
+		value = 1000
+	}
+}
