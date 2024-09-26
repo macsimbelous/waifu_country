@@ -141,6 +141,26 @@ nec_unit_production = {
 		id = naval_bomber
 		value = 10
 	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = submarine
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = capital_ship
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = carrier
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = screen_ship
+		value = 4
+	}
 }
 
 nec_template_design_1 = {

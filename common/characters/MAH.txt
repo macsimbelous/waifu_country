@@ -66,6 +66,7 @@ characters = {
 				wfc_patron_of_science
 				freedom_fighter
 				likes_allies
+				wfc_likes_usa
 			}
 			expire = "1965.1.1"
 		}
@@ -89,6 +90,7 @@ characters = {
 				wfc_patron_of_intelligence
 				wfc_empress
 				great_war_hero
+				wfc_dislikes_eng
 			}
 			expire = "1965.1.1"
 		}

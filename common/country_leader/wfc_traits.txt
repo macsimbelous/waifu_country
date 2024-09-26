@@ -220,15 +220,18 @@ leader_traits = {
 	}
 	wfc_likes_soviet = {
 		random = no
-		ai_strategy = {
-			type = alliance
-			id = "SOV"
-			value = 300
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
+	}
+	wfc_dislikes_eng = {
+		random = no
+	}
+	wfc_likes_usa = {
+		random = no
+	}
+	wfc_dislikes_usa = {
+		random = no
+	}
+	wfc_dislikes_jap = {
+		random = no
 	}
 	#ministri
 	wfc_nuclear_mazoku = {
@@ -244,9 +247,6 @@ leader_traits = {
 		#production_speed_rocket_site_factor = 0.2
 		#production_speed_nuclear_reactor_factor = 0.2
 		research_speed_factor = 0.15
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	wfc_peoples_favorite_minister = {
 		random = no
@@ -254,25 +254,16 @@ leader_traits = {
 		stability_factor = 0.3
 		war_support_factor = -0.15
 		puppet_cost_factor = -0.5
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	wfc_popular_figurehead = {
 		sprite = 13
 		stability_factor = 0.15
 		random = no
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	wfc_silent_workhorse = {
 		random = no
 		sprite = 13
 		political_power_factor = 0.15
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	wfc_intelligence_princess = {
 		random = no
@@ -280,18 +271,12 @@ leader_traits = {
 		operative_slot = 2
 		agency_upgrade_time = -0.3
 		decryption_power_factor = 0.15
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	wfc_head_of_intelligence = {
 		random = no
 		sprite = 15
 		operative_slot = 2
 		agency_upgrade_time = -0.3
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	wfc_propaganda_expert = {
 		sprite = 13
@@ -303,9 +288,6 @@ leader_traits = {
 		annex_cost_factor = -0.15
 		puppet_cost_factor = -0.15
 		random = no
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	wfc_first_lady = {
 		random = no

@@ -141,6 +141,26 @@ TRP_unit_production = {
 		id = naval_bomber
 		value = 10
 	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = submarine
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = capital_ship
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = carrier
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = screen_ship
+		value = 4
+	}
 }
 
 TRP_template_design_1 = {
@@ -305,7 +325,7 @@ TRP_template_design_3 = {
 	}
 }
 
-prio_invasions = {
+trp_prio_invasions = {
 	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = TRP
@@ -318,21 +338,6 @@ prio_invasions = {
 	}
 	ai_strategy = {
 		type = naval_invasion_focus
-		value = 2000
-	}
-	ai_strategy = {
-		type = invade
-		id = "ENG"
-		value = 2000
-	}
-	ai_strategy = {
-		type = invade
-		id = "USA"
-		value = 2000
-	}
-	ai_strategy = {
-		type = invade
-		id = "JAP"
 		value = 2000
 	}
 }
@@ -406,12 +411,12 @@ TRP_naval_role_ratios_historical = {
 	}
 }
 
-TRP_conquer_sa = {
+trp_conquer_bra = {
 	allowed = {
 		original_tag = TRP
 	}
 	enable = {
-		always = yes
+		country_exists = BRA
 	}
 	abort = {
 		BRA = {
@@ -420,13 +425,26 @@ TRP_conquer_sa = {
 	}
 	ai_strategy = {
 		type = conquer
-		id = "BRA"
+		id = BRA
 		value = 1000
 	}
 	ai_strategy = {
-		type = conquer
-		id = "BRA"
-		value = 1000
+		type = prepare_for_war
+		id = BRA
+		value = 100
+	}
+}
+trp_conquer_col = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = COL
+	}
+	abort = {
+		COL = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = conquer
@@ -434,9 +452,45 @@ TRP_conquer_sa = {
 		value = 1000
 	}
 	ai_strategy = {
+		type = prepare_for_war
+		id = COL
+		value = 100
+	}
+}
+trp_conquer_ven = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = VEN
+	}
+	abort = {
+		VEN = {
+			exists = no
+		}
+	}
+	ai_strategy = {
 		type = conquer
 		id = VEN
 		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = VEN
+		value = 100
+	}
+}
+trp_conquer_pru = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = PRU
+	}
+	abort = {
+		PRU = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = conquer
@@ -444,9 +498,45 @@ TRP_conquer_sa = {
 		value = 1000
 	}
 	ai_strategy = {
+		type = prepare_for_war
+		id = PRU
+		value = 100
+	}
+}
+trp_conquer_bol = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = BOL
+	}
+	abort = {
+		BOL = {
+			exists = no
+		}
+	}
+	ai_strategy = {
 		type = conquer
 		id = BOL
 		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = BOL
+		value = 100
+	}
+}
+trp_conquer_chl = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = CHL
+	}
+	abort = {
+		CHL = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = conquer
@@ -454,9 +544,45 @@ TRP_conquer_sa = {
 		value = 1000
 	}
 	ai_strategy = {
+		type = prepare_for_war
+		id = CHL
+		value = 100
+	}
+}
+trp_conquer_arg = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = ARG
+	}
+	abort = {
+		ARG = {
+			exists = no
+		}
+	}
+	ai_strategy = {
 		type = conquer
 		id = ARG
 		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = ARG
+		value = 100
+	}
+}
+trp_conquer_par = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = PAR
+	}
+	abort = {
+		PAR = {
+			exists = no
+		}
 	}
 	ai_strategy = {
 		type = conquer
@@ -465,28 +591,70 @@ TRP_conquer_sa = {
 	}
 	ai_strategy = {
 		type = prepare_for_war
+		id = PAR
+		value = 100
+	}
+}
+trp_conquer_ecu = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = ECU
+	}
+	abort = {
+		ECU = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = ECU
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
 		id = ECU
 		value = 100
+	}
+}
+trp_conquer_urg = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		country_exists = URG
+	}
+	abort = {
+		URG = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = URG
+		value = 1000
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = URG
 		value = 100
 	}
-	ai_strategy = {
-		type = force_build_armies
-		value = 100
-	}
 }
 
-TRP_conquer_usa = {
+trp_conquer_usa = {
 	allowed = {
 		original_tag = TRP
 	}
 	enable = {
 		has_country_flag = trp_south_american_federation_formed_flag
+		country_exists = USA
 	}
-	abort_when_not_enabled = yes
+	abort = {
+		USA = {
+			exists = no
+		}
+	}
 	ai_strategy = {
 		type = conquer
 		id = USA
@@ -498,7 +666,8 @@ TRP_conquer_usa = {
 		value = 100
 	}
 	ai_strategy = {
-		type = force_build_armies
+		type = invade
+		id = USA
 		value = 100
 	}
 }

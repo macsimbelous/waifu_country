@@ -1,3 +1,26 @@
+wfc_force_build_armies = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}
 #SOV
 wfc_protect_sov = {
 	allowed = {
@@ -12,40 +35,19 @@ wfc_protect_sov = {
 		}
 	}
 	enable = {
-		has_government = communism
 		SOV = {
-			has_government = communism
+			has_same_ideology = yes
 		}
 	}
-	abort = {
-		OR = {
-			NOT = {
-				has_government = communism
-			}
-			SOV = {
-				NOT = {
-					has_government = communism
-				}
-			}
-		}
-	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = protect
-		id = "SOV"
+		id = SOV
 		value = 100
 	}
 	ai_strategy = {
-		type = force_defend_ally_borders
-		id = "SOV"
-		value = 200
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = "GER"
-		value = 100
-	}
-	ai_strategy = {
-		type = force_build_armies
+		type = alliance
+		id = SOV
 		value = 100
 	}
 }
@@ -69,7 +71,6 @@ wfc_befriend_sov = {
 			has_country_leader_with_trait = wfc_likes_soviet
 		}
 	}
-	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = befriend
 		id = SOV
@@ -97,7 +98,6 @@ wfc_antagonize_sov = {
 			has_country_leader_with_trait = dislikes_soviet
 		}
 	}
-	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = antagonize
 		id = SOV
@@ -126,7 +126,6 @@ sov_befriend_ger = {
 			has_country_leader_with_trait = likes_germany
 		}
 	}
-	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = befriend
 		id = GER
@@ -154,7 +153,6 @@ wfc_antagonize_ger = {
 			has_country_leader_with_trait = dislikes_germany
 		}
 	}
-	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = antagonize
 		id = GER
@@ -183,7 +181,6 @@ wfc_befriend_eng = {
 			has_country_leader_with_trait = likes_allies
 		}
 	}
-	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = befriend
 		id = ENG
@@ -191,3 +188,111 @@ wfc_befriend_eng = {
 	}
 }
 
+wfc_antagonize_eng = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = wfc_dislikes_eng
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = wfc_dislikes_eng
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = ENG
+		value = 1000
+	}
+}
+#USA
+wfc_befriend_usa = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = wfc_likes_usa
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = wfc_likes_usa
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = USA
+		value = 1000
+	}
+}
+
+wfc_antagonize_usa = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = wfc_dislikes_usa
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = wfc_dislikes_usa
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = USA
+		value = 1000
+	}
+}
+
+#JAP
+wfc_antagonize_jap = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_country_leader_with_trait = wfc_dislikes_jap
+	}
+	abort = {
+		NOT = {
+			has_country_leader_with_trait = wfc_dislikes_jap
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = JAP
+		value = 1000
+	}
+}

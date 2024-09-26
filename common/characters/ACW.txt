@@ -78,9 +78,9 @@ characters = {
 				wfc_defender
 				wfc_patron_of_intelligence
 				wfc_empress
-				likes_turkey
 				dislikes_germany
 				dislikes_soviet
+				wfc_dislikes_eng
 			}
 			expire = "1953.3.1"
 			id = -1
@@ -104,7 +104,8 @@ characters = {
 				wfc_peoples_favorite
 				wfc_patron_of_science
 				wfc_idol
-				likes_allies
+				wfc_likes_usa
+				wfc_likes_soviet
 			}
 			expire = "1953.3.1"
 			id = -1

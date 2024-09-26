@@ -145,6 +145,26 @@ MEH_unit_production = {
 		id = motorized
 		value = 100
 	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = submarine
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = capital_ship
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = carrier
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = screen_ship
+		value = 4
+	}
 }
 
 MEH_template_design_1 = {

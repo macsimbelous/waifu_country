@@ -141,6 +141,26 @@ MMS_unit_production = {
 		id = naval_bomber
 		value = 10
 	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = submarine
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = capital_ship
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = carrier
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = screen_ship
+		value = 4
+	}
 }
 
 MMS_template_design_1 = {
@@ -305,7 +325,7 @@ MMS_template_design_3 = {
 	}
 }
 
-prio_invasions = {
+mms_prio_invasions = {
 	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MMS
@@ -318,21 +338,6 @@ prio_invasions = {
 	}
 	ai_strategy = {
 		type = naval_invasion_focus
-		value = 2000
-	}
-	ai_strategy = {
-		type = invade
-		id = "ENG"
-		value = 2000
-	}
-	ai_strategy = {
-		type = invade
-		id = "USA"
-		value = 2000
-	}
-	ai_strategy = {
-		type = invade
-		id = "JAP"
 		value = 2000
 	}
 }
@@ -406,12 +411,35 @@ MMS_naval_role_ratios_historical = {
 	}
 }
 
-MMS_conquer_per_afg = {
+mms_conquer_per = {
 	allowed = {
 		original_tag = MMS
 	}
 	enable = {
-		always = yes
+		country_exists = PER
+	}
+	abort = {
+		PER = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = PER
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = PER
+		value = 100
+	}
+}
+mms_conquer_afg = {
+	allowed = {
+		original_tag = MMS
+	}
+	enable = {
+		country_exists = AFG
 	}
 	abort = {
 		AFG = {
@@ -420,81 +448,111 @@ MMS_conquer_per_afg = {
 	}
 	ai_strategy = {
 		type = conquer
-		id = "AFG"
+		id = AFG
 		value = 1000
 	}
 	ai_strategy = {
 		type = prepare_for_war
-		id = "AFG"
-		value = 100
-	}
-	ai_strategy = {
-		type = conquer
-		id = "PER"
-		value = 1000
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = "PER"
-		value = 100
-	}
-	ai_strategy = {
-		type = force_build_armies
+		id = AFG
 		value = 100
 	}
 }
-
-PER_war_to_mms = {
+mms_conquer_mah = {
 	allowed = {
-		original_tag = PER
+		original_tag = MMS
 	}
 	enable = {
-		always = yes
+		has_completed_focus = mms_expansion_of_the_supply_network
+		country_exists = MAH
 	}
 	abort = {
-		MMS = {
+		MAH = {
 			exists = no
 		}
 	}
 	ai_strategy = {
 		type = conquer
-		id = "MMS"
-		value = 100
+		id = MAH
+		value = 1000
 	}
 	ai_strategy = {
 		type = prepare_for_war
-		id = "MMS"
-		value = 100
-	}
-	ai_strategy = {
-		type = force_build_armies
+		id = MAH
 		value = 100
 	}
 }
-
-AFG_war_to_mms = {
+mms_conquer_sov = {
 	allowed = {
-		original_tag = AFG
+		original_tag = MMS
 	}
 	enable = {
-		always = yes
+		has_completed_focus = mms_expansion_of_the_supply_network
+		country_exists = SOV
 	}
 	abort = {
-		MMS = {
+		SOV = {
 			exists = no
 		}
 	}
 	ai_strategy = {
-		type = prepare_for_war
-		id = "MMS"
-		value = 100
+		type = conquer
+		id = SOV
+		value = 1000
 	}
 	ai_strategy = {
-		type = force_build_armies
+		type = prepare_for_war
+		id = SOV
 		value = 100
 	}
 }
-
+mms_conquer_raj = {
+	allowed = {
+		original_tag = MMS
+	}
+	enable = {
+		has_completed_focus = mms_expansion_of_the_supply_network
+		country_exists = RAJ
+	}
+	abort = {
+		RAJ = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = RAJ
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = RAJ
+		value = 100
+	}
+}
+mms_conquer_pak = {
+	allowed = {
+		original_tag = MMS
+	}
+	enable = {
+		has_completed_focus = mms_expansion_of_the_supply_network
+		country_exists = PAK
+	}
+	abort = {
+		PAK = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = PAK
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = PAK
+		value = 100
+	}
+}
 mms_befriend_mah = {
 	allowed = {
 		original_tag = MMS
