@@ -73,6 +73,7 @@ MAH_fascist = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+		wfc_ideological_fanaticism
 		wfc_shared_focus_referendum
 	}
 	research = {
@@ -158,6 +159,7 @@ MAH_communist = {
 		wfc_political_correctness
 		wfc_indoctrination_focus
 		wfc_political_commissars
+		wfc_ideological_fanaticism
 		wfc_shared_focus_referendum
 	}
 	research = {

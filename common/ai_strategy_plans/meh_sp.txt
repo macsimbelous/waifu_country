@@ -27,6 +27,10 @@ MEH_historical = {
 		wfc_political_effort
 		wfc_collectivist_ethos
 		wfc_nationalism_focus
+		wfc_militarism
+		wfc_military_youth
+		wfc_paramilitarism
+		wfc_ideological_fanaticism
 		wfc_shared_focus_referendum
 		meh_upgrade_ai
 		meh_create_robo_factory
@@ -180,6 +184,7 @@ MEH_communist = {
 		wfc_political_correctness
 		wfc_indoctrination_focus
 		wfc_political_commissars
+		wfc_ideological_fanaticism
 		wfc_shared_focus_referendum
 		meh_upgrade_ai
 		meh_create_robo_factory

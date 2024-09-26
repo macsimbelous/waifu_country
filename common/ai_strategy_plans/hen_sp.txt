@@ -27,6 +27,10 @@ HEN_historical = {
 		wfc_political_effort
 		wfc_collectivist_ethos
 		wfc_internationalism_focus
+		wfc_political_correctness
+		wfc_indoctrination_focus
+		wfc_political_commissars
+		wfc_ideological_fanaticism
 		wfc_shared_focus_referendum
 		hen_conquest_of_japan
 		hen_preparation_for_conquest
@@ -75,6 +79,7 @@ HEN_fascist = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+		wfc_ideological_fanaticism
 		wfc_shared_focus_referendum
 		hen_conquest_of_japan
 		hen_preparation_for_conquest
@@ -123,6 +128,7 @@ HEN_fascist_alternate = {
 		wfc_militarism
 		wfc_military_youth
 		wfc_paramilitarism
+		wfc_ideological_fanaticism
 		wfc_shared_focus_referendum
 		hen_friendship_with_japan
 	}
@@ -212,6 +218,8 @@ HEN_democratic = {
 		wfc_focus_individualism
 		wfc_focus_democracy
 		wfc_interventionism_focus
+		wfc_volunteer_corps
+		wfc_foreign_expeditions
 		wfc_shared_focus_referendum
 		hen_conquest_of_japan
 		hen_preparation_for_conquest
