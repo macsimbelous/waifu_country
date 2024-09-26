@@ -519,6 +519,91 @@ hen_conquer_fra = {
 	}
 }
 
+hen_conquer_lao = {
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		has_completed_focus = hen_focus_expansion
+		country_exists = LAO
+	}
+	abort = {
+		LAO = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = LAO
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = LAO
+		value = 100
+	}
+}
+
+hen_conquer_vin = {
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		has_completed_focus = hen_focus_expansion
+		country_exists = VIN
+	}
+	abort = {
+		VIN = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = VIN
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = VIN
+		value = 100
+	}
+	ai_strategy = {
+		type = invade
+		id = VIN
+		value = 1000
+	}
+}
+
+hen_conquer_cam = {
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		has_completed_focus = hen_focus_expansion
+		country_exists = CAM
+	}
+	abort = {
+		CAM = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = CAM
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = CAM
+		value = 100
+	}
+	ai_strategy = {
+		type = invade
+		id = CAM
+		value = 1000
+	}
+}
+
 hen_conquer_phi = {
 	allowed = {
 		original_tag = HEN

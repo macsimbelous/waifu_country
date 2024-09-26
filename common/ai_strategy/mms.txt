@@ -249,6 +249,7 @@ MMS_template_design_2 = {
 		value = 10
 	}
 }
+
 MMS_template_design_3 = {
 	abort_when_not_enabled = yes
 	allowed = {
@@ -470,6 +471,7 @@ PER_war_to_mms = {
 		value = 100
 	}
 }
+
 AFG_war_to_mms = {
 	allowed = {
 		original_tag = AFG
@@ -490,5 +492,41 @@ AFG_war_to_mms = {
 	ai_strategy = {
 		type = force_build_armies
 		value = 100
+	}
+}
+
+mms_befriend_mah = {
+	allowed = {
+		original_tag = MMS
+	}
+	enable = {
+		has_country_leader = {
+			character = MMS_yuuko_yoshida
+			ruling_only = yes
+		}
+		neutrality > 0.4
+		NOT = {
+			has_power_balance = {
+				id = mms_balance_of_power
+			}
+		}
+		MAH = {
+			has_country_leader = {
+				character = MAH_Momo_Chiyoda
+				ruling_only = yes
+			}
+			neutrality > 0.4
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = MAH
+		value = 1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = MAH
+		value = 1000
 	}
 }
