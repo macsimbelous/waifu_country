@@ -436,7 +436,7 @@ HEN_conquer_jap = {
 		original_tag = HEN
 	}
 	enable = {
-		always = yes
+		has_completed_focus = hen_conquest_of_japan
 	}
 	abort = {
 		JAP = {
@@ -912,5 +912,26 @@ hen_alliance_sov = {
 		type = protect
 		id = SOV
 		value = 100
+	}
+}
+
+#JAP
+hen_build_intel_network_in_jap_strat = {
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		has_completed_focus = hen_conquest_of_japan
+	}
+	abort = {
+		JAP = {
+			exists = no
+		}
+	}
+	ai_strategy = {
+		type = operative_mission
+		mission = build_intel_network
+		value = 1000
+		mission_target = JAP
 	}
 }

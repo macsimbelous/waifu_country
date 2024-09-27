@@ -476,8 +476,28 @@ mms_conquer_mah = {
 		value = 1000
 	}
 	ai_strategy = {
+		type = invade
+		id = MAH
+		value = 100
+	}
+	ai_strategy = {
 		type = prepare_for_war
 		id = MAH
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 104
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 100
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 69
 		value = 100
 	}
 }

@@ -455,8 +455,18 @@ mah_conquer_mms = {
 		value = 1000
 	}
 	ai_strategy = {
+		type = invade
+		id = MMS
+		value = 100
+	}
+	ai_strategy = {
 		type = prepare_for_war
 		id = MMS
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 104
 		value = 100
 	}
 }
@@ -715,8 +725,8 @@ mah_antagonize_mms = {
 		value = 1000
 	}
 }
-
-mah_support_spr = {
+#Spain civil war
+mah_support_spd = {
 	allowed = {
 		original_tag = MAH
 	}
@@ -725,22 +735,26 @@ mah_support_spr = {
 			has_government = democratic
 			has_government = communism
 		}
-		SPR = {
-			OR = {
-				has_government = democratic
-				has_government = communism
-			}
-			has_war = yes
-		}
+		country_exists = SPD
+		has_global_flag = spanish_civil_war
+		NOT = { has_global_flag = scw_over }
 	}
 	abort = {
-		SPR = {
-			has_war = no
-		}
+		has_global_flag = scw_over
+	}
+	ai_strategy = {
+		type = befriend
+		id = SPD
+		value = 100
 	}
 	ai_strategy = {
 		type = support
-		id = SPR
-		value = 1000
+		id = SPD
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = SPD
+		value = 100
 	}
 }
