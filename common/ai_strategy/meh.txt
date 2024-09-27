@@ -284,7 +284,7 @@ MEH_template_design_2 = {
 	}
 }
 
-prio_invasions = {
+meh_prio_invasions = {
 	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = MEH
@@ -456,21 +456,6 @@ meh_invade_ger = {
 		id = GER
 		value = 1000
 	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 42
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 43
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 45
-		value = 100
-	}
 }
 meh_invade_eng = {
 	allowed = {
@@ -488,20 +473,5 @@ meh_invade_eng = {
 		type = invade
 		id = ENG
 		value = 1000
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 42
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 43
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 45
-		value = 100
 	}
 }

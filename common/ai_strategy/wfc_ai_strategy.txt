@@ -21,6 +21,7 @@ wfc_force_build_armies = {
 		value = 100
 	}
 }
+
 #SOV
 wfc_protect_sov = {
 	allowed = {
@@ -51,6 +52,7 @@ wfc_protect_sov = {
 		value = 100
 	}
 }
+
 wfc_befriend_sov = {
 	allowed = {
 		OR = {
@@ -214,6 +216,7 @@ wfc_antagonize_eng = {
 		value = 1000
 	}
 }
+
 #USA
 wfc_befriend_usa = {
 	allowed = {
@@ -294,5 +297,240 @@ wfc_antagonize_jap = {
 		type = antagonize
 		id = JAP
 		value = 1000
+	}
+}
+
+#Naval
+wfc_convoy_raid_eng_ger = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		OR = {
+			has_war_with = GER
+			has_war_with = ENG
+		}
+	}
+	abort = {
+		NOT = {
+			has_war_with = GER
+			has_war_with = ENG
+		}
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 42
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 43
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 45
+		value = 100
+	}
+}
+
+wfc_convoy_raid_sov = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_war_with = SOV
+	}
+	abort = {
+		has_war_with = SOV
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 42
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 43
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 45
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 29
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 69
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 79
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 87
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 96
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 88
+		value = 100
+	}
+}
+
+wfc_convoy_raid_usa = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_war_with = USA
+	}
+	abort = {
+		has_war_with = USA
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 171
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 114
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 88
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 52
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 170
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 54
+		value = 100
+	}
+}
+wfc_convoy_raid_can = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_war_with = CAN
+	}
+	abort = {
+		has_war_with = CAN
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 50
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 55
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 54
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 171
+		value = 100
+	}
+}
+wfc_convoy_raid_mex = {
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	enable = {
+		has_war_with = MEX
+	}
+	abort = {
+		has_war_with = MEX
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 89
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 106
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 52
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 53
+		value = 100
 	}
 }

@@ -434,6 +434,7 @@ trp_conquer_bra = {
 		value = 100
 	}
 }
+
 trp_conquer_col = {
 	allowed = {
 		original_tag = TRP
@@ -457,6 +458,7 @@ trp_conquer_col = {
 		value = 100
 	}
 }
+
 trp_conquer_ven = {
 	allowed = {
 		original_tag = TRP
@@ -480,6 +482,7 @@ trp_conquer_ven = {
 		value = 100
 	}
 }
+
 trp_conquer_pru = {
 	allowed = {
 		original_tag = TRP
@@ -503,6 +506,7 @@ trp_conquer_pru = {
 		value = 100
 	}
 }
+
 trp_conquer_bol = {
 	allowed = {
 		original_tag = TRP
@@ -526,6 +530,7 @@ trp_conquer_bol = {
 		value = 100
 	}
 }
+
 trp_conquer_chl = {
 	allowed = {
 		original_tag = TRP
@@ -549,6 +554,7 @@ trp_conquer_chl = {
 		value = 100
 	}
 }
+
 trp_conquer_arg = {
 	allowed = {
 		original_tag = TRP
@@ -572,6 +578,7 @@ trp_conquer_arg = {
 		value = 100
 	}
 }
+
 trp_conquer_par = {
 	allowed = {
 		original_tag = TRP
@@ -595,6 +602,7 @@ trp_conquer_par = {
 		value = 100
 	}
 }
+
 trp_conquer_ecu = {
 	allowed = {
 		original_tag = TRP
@@ -618,6 +626,7 @@ trp_conquer_ecu = {
 		value = 100
 	}
 }
+
 trp_conquer_urg = {
 	allowed = {
 		original_tag = TRP
@@ -668,6 +677,59 @@ trp_conquer_usa = {
 	ai_strategy = {
 		type = invade
 		id = USA
+		value = 100
+	}
+}
+
+trp_convoy_raid_bra = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		has_war_with = BRA
+	}
+	abort = {
+		has_war_with = BRA
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 59
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 61
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 66
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 64
+		value = 100
+	}
+}
+trp_convoy_raid_eng = {
+	allowed = {
+		original_tag = TRP
+	}
+	enable = {
+		has_war_with = ENG
+	}
+	abort = {
+		has_war_with = ENG
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 61
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 63
 		value = 100
 	}
 }
