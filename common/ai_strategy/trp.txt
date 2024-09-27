@@ -433,6 +433,11 @@ trp_conquer_bra = {
 		id = BRA
 		value = 100
 	}
+	ai_strategy = {
+		type = invade
+		id = BRA
+		value = 1000
+	}
 }
 
 trp_conquer_col = {
