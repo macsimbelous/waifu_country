@@ -694,7 +694,9 @@ trp_convoy_raid_bra = {
 		has_war_with = BRA
 	}
 	abort = {
-		has_war_with = BRA
+		NOT = {
+			has_war_with = BRA
+		}
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -717,6 +719,7 @@ trp_convoy_raid_bra = {
 		value = 100
 	}
 }
+
 trp_convoy_raid_eng = {
 	allowed = {
 		original_tag = TRP
@@ -725,7 +728,9 @@ trp_convoy_raid_eng = {
 		has_war_with = ENG
 	}
 	abort = {
-		has_war_with = ENG
+		NOT = {
+			has_war_with = ENG
+		}
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region

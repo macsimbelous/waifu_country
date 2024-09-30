@@ -319,12 +319,7 @@ wfc_convoy_raid_eng_ger = {
 			has_war_with = ENG
 		}
 	}
-	abort = {
-		NOT = {
-			has_war_with = GER
-			has_war_with = ENG
-		}
-	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = naval_convoy_raid_region
 		id = 42
@@ -358,7 +353,7 @@ wfc_convoy_raid_sov = {
 		has_war_with = SOV
 	}
 	abort = {
-		has_war_with = SOV
+		NOT = { has_war_with = SOV }
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -423,7 +418,7 @@ wfc_convoy_raid_usa = {
 		has_war_with = USA
 	}
 	abort = {
-		has_war_with = USA
+		NOT = { has_war_with = USA }
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -473,7 +468,7 @@ wfc_convoy_raid_can = {
 		has_war_with = CAN
 	}
 	abort = {
-		has_war_with = CAN
+		NOT = { has_war_with = CAN }
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -513,7 +508,7 @@ wfc_convoy_raid_mex = {
 		has_war_with = MEX
 	}
 	abort = {
-		has_war_with = MEX
+		NOT = { has_war_with = MEX }
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -554,4 +549,24 @@ wfc_antagonize_world_to_nec = {
 		id = NEC
 		value = 100
 	}
+}
+wfc_antagonize_to_nec = {
+    allowed = {
+        NOT = { original_tag = NEC }
+    }
+    enable = {
+        NOT = {
+			has_idea = nec_idea_the_undead
+		}
+    }
+    enable_reverse = {
+        NEC = { has_idea = nec_idea_the_undead }
+    }
+    reversed = yes
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = antagonize
+        id = NEC
+        value = 100
+    }
 }
