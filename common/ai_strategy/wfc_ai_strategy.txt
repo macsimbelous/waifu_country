@@ -456,6 +456,7 @@ wfc_convoy_raid_usa = {
 		value = 100
 	}
 }
+
 wfc_convoy_raid_can = {
 	allowed = {
 		OR = {
@@ -495,6 +496,7 @@ wfc_convoy_raid_can = {
 		value = 100
 	}
 }
+
 wfc_convoy_raid_mex = {
 	allowed = {
 		OR = {
@@ -531,6 +533,25 @@ wfc_convoy_raid_mex = {
 	ai_strategy = {
 		type = naval_convoy_raid_region
 		id = 53
+		value = 100
+	}
+}
+
+#Anatgonize NEC
+wfc_antagonize_world_to_nec = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		NOT = {
+			original_tag = NEC
+			has_idea = nec_idea_the_undead
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = antagonize
+		id = NEC
 		value = 100
 	}
 }
