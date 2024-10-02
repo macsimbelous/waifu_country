@@ -104,7 +104,7 @@ HEN_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
-		value = 1
+		value = 20
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -933,5 +933,20 @@ hen_build_intel_network_in_jap_strat = {
 		mission = build_intel_network
 		value = 1000
 		mission_target = JAP
+	}
+}
+#Buildings
+hen_building_boats_is_great = {
+	allowed = {
+		original_tag = HEN
+	}
+	enable = {
+		num_of_civilian_factories_available_for_projects > 15
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 40  #aim for a 2-1 ratio on naval factories
 	}
 }

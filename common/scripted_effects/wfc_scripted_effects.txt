@@ -284,6 +284,24 @@ wfc_add_industrial_complex_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -293,6 +311,24 @@ wfc_add_industrial_complex_in_random_state = {
 					building = industrial_complex
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -312,6 +348,24 @@ wfc_add_industrial_complex_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -320,6 +374,24 @@ wfc_add_industrial_complex_in_random_state = {
 					building = industrial_complex
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -339,6 +411,24 @@ wfc_add_industrial_complex_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_controlled_state = {
@@ -348,6 +438,24 @@ wfc_add_industrial_complex_in_random_state = {
 					building = industrial_complex
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -365,6 +473,24 @@ wfc_add_industrial_complex_in_random_state = {
 					building = industrial_complex
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -388,6 +514,24 @@ wfc_add_arms_factory_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -397,6 +541,24 @@ wfc_add_arms_factory_in_random_state = {
 					building = arms_factory
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -416,6 +578,24 @@ wfc_add_arms_factory_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -424,6 +604,24 @@ wfc_add_arms_factory_in_random_state = {
 					building = arms_factory
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -443,6 +641,24 @@ wfc_add_arms_factory_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_controlled_state = {
@@ -452,6 +668,24 @@ wfc_add_arms_factory_in_random_state = {
 					building = arms_factory
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -469,6 +703,24 @@ wfc_add_arms_factory_in_random_state = {
 					building = arms_factory
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -485,6 +737,7 @@ wfc_add_dockyard_in_random_state = {
 	if = {
 		limit = {
 			any_owned_state = {
+				is_coastal = yes
 				is_controlled_by = ROOT
 				is_core_of = ROOT
 				free_building_slots = {
@@ -492,15 +745,52 @@ wfc_add_dockyard_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
 			limit = {
+				is_coastal = yes
 				is_core_of = ROOT
 				free_building_slots = {
 					building = dockyard
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -514,20 +804,58 @@ wfc_add_dockyard_in_random_state = {
 	else_if = {
 		limit = {
 			any_owned_state = {
+				is_coastal = yes
 				is_controlled_by = ROOT
 				free_building_slots = {
 					building = dockyard
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
 			limit = {
+				is_coastal = yes
 				free_building_slots = {
 					building = dockyard
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -541,21 +869,59 @@ wfc_add_dockyard_in_random_state = {
 	else_if = {
 		limit = {
 			any_controlled_state = {
+				is_coastal = yes
 				is_core_of = ROOT
 				free_building_slots = {
 					building = dockyard
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_controlled_state = {
 			limit = {
+				is_coastal = yes
 				is_core_of = ROOT
 				free_building_slots = {
 					building = dockyard
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -569,10 +935,29 @@ wfc_add_dockyard_in_random_state = {
 	else = {
 		random_controlled_state = {
 			limit = {
+				is_coastal = yes
 				free_building_slots = {
 					building = dockyard
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -596,6 +981,24 @@ wfc_add_synthetic_refinery_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -605,6 +1008,24 @@ wfc_add_synthetic_refinery_in_random_state = {
 					building = synthetic_refinery
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -624,6 +1045,24 @@ wfc_add_synthetic_refinery_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -632,6 +1071,24 @@ wfc_add_synthetic_refinery_in_random_state = {
 					building = synthetic_refinery
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -651,6 +1108,24 @@ wfc_add_synthetic_refinery_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_controlled_state = {
@@ -660,6 +1135,24 @@ wfc_add_synthetic_refinery_in_random_state = {
 					building = synthetic_refinery
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -677,6 +1170,24 @@ wfc_add_synthetic_refinery_in_random_state = {
 					building = synthetic_refinery
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -700,6 +1211,24 @@ wfc_add_nuclear_reactor_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -709,6 +1238,24 @@ wfc_add_nuclear_reactor_in_random_state = {
 					building = nuclear_reactor
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -728,6 +1275,24 @@ wfc_add_nuclear_reactor_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -736,6 +1301,24 @@ wfc_add_nuclear_reactor_in_random_state = {
 					building = nuclear_reactor
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -755,6 +1338,24 @@ wfc_add_nuclear_reactor_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_controlled_state = {
@@ -764,6 +1365,24 @@ wfc_add_nuclear_reactor_in_random_state = {
 					building = nuclear_reactor
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -781,6 +1400,24 @@ wfc_add_nuclear_reactor_in_random_state = {
 					building = nuclear_reactor
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -804,6 +1441,24 @@ wfc_add_fuel_silo_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -813,6 +1468,24 @@ wfc_add_fuel_silo_in_random_state = {
 					building = fuel_silo
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -832,6 +1505,24 @@ wfc_add_fuel_silo_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -840,6 +1531,24 @@ wfc_add_fuel_silo_in_random_state = {
 					building = fuel_silo
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -859,6 +1568,24 @@ wfc_add_fuel_silo_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_controlled_state = {
@@ -868,6 +1595,24 @@ wfc_add_fuel_silo_in_random_state = {
 					building = fuel_silo
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -885,6 +1630,24 @@ wfc_add_fuel_silo_in_random_state = {
 					building = fuel_silo
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -908,6 +1671,24 @@ wfc_add_infrastructure_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -917,6 +1698,24 @@ wfc_add_infrastructure_in_random_state = {
 					building = infrastructure
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -936,6 +1735,24 @@ wfc_add_infrastructure_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -944,6 +1761,24 @@ wfc_add_infrastructure_in_random_state = {
 					building = infrastructure
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -963,6 +1798,24 @@ wfc_add_infrastructure_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_controlled_state = {
@@ -972,6 +1825,24 @@ wfc_add_infrastructure_in_random_state = {
 					building = infrastructure
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -989,6 +1860,24 @@ wfc_add_infrastructure_in_random_state = {
 					building = infrastructure
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -1012,6 +1901,24 @@ wfc_add_rocket_site_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -1021,6 +1928,24 @@ wfc_add_rocket_site_in_random_state = {
 					building = rocket_site
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -1040,6 +1965,24 @@ wfc_add_rocket_site_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_owned_controlled_state = {
@@ -1048,6 +1991,24 @@ wfc_add_rocket_site_in_random_state = {
 					building = rocket_site
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -1067,6 +2028,24 @@ wfc_add_rocket_site_in_random_state = {
 					include_locked = yes
 					size > 0
 				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
+				}
 			}
 		}
 		random_controlled_state = {
@@ -1076,6 +2055,24 @@ wfc_add_rocket_site_in_random_state = {
 					building = rocket_site
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1
@@ -1093,6 +2090,24 @@ wfc_add_rocket_site_in_random_state = {
 					building = rocket_site
 					include_locked = yes
 					size > 0
+				}
+				NOT = {
+					state = 961
+					state = 962
+					state = 963
+					state = 964
+					state = 965
+					state = 966
+					state = 967
+					state = 968
+					state = 514
+					state = 786
+					state = 782
+					state = 515
+					state = 775
+					state = 273
+					state = 552
+					state = 767
 				}
 			}
 			add_extra_state_shared_building_slots = 1

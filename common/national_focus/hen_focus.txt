@@ -2591,10 +2591,24 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
+			modifier = {
+				controls_state = 528
+				controls_state = 529
+				controls_state = 530
+				controls_state = 531
+				controls_state = 532
+				controls_state = 535
+				controls_state = 282
+				controls_state = 534
+				controls_state = 533
+				controls_state = 536
+				factor = 10
+			}
 		}
 		completion_reward = {
 			navy_experience = 25
+			wfc_add_dockyard_in_random_state = yes
 		}
 	}
 	#submarine war
@@ -2612,7 +2626,7 @@ focus_tree = {
 			focus = hen_focus_development_of_the_navy
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -2652,7 +2666,7 @@ focus_tree = {
 			focus = hen_focus_mines
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -2682,7 +2696,7 @@ focus_tree = {
 			focus = hen_focus_torpedoes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -2711,7 +2725,7 @@ focus_tree = {
 			focus = hen_focus_mines
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -2760,7 +2774,7 @@ focus_tree = {
 			controls_state = 536
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			navy_experience = 25
@@ -3121,7 +3135,7 @@ focus_tree = {
 			focus = hen_focus_development_of_the_navy
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			navy_experience = 25
@@ -3149,7 +3163,7 @@ focus_tree = {
 			focus = hen_focus_dominance_of_the_sea
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -3182,7 +3196,7 @@ focus_tree = {
 			focus = hen_focus_destroyers
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -3220,7 +3234,7 @@ focus_tree = {
 			focus = hen_focus_aircraft_carriers
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -3257,7 +3271,7 @@ focus_tree = {
 			focus = hen_focus_battleships
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -3290,7 +3304,7 @@ focus_tree = {
 			focus = hen_focus_new_submarine_projects
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			navy_experience = 25
@@ -3321,7 +3335,7 @@ focus_tree = {
 			focus = hen_focus_hentalia_development
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		completion_reward = {
 			add_ideas = hen_idea_perverted_admiralty
@@ -3345,7 +3359,7 @@ focus_tree = {
 			add_ideas = hen_general_staff_idea
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 20
 		}
 	}
 }
