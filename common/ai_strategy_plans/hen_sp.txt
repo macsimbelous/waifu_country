@@ -37,6 +37,14 @@ HEN_historical = {
 		hen_economic_mobilization
 		hen_modernization_of_mic
 		hen_hen_stockpile_up
+		hen_military_training
+		hen_focus_doctrine_effort
+		hen_equipment_effort
+		hen_seduce_politics
+		hen_demoralize_jap
+		hen_add_claim_to_jap
+		hen_declare_war_jap
+		hen_focus_transfert_capital_to_282
 	}
 	research = {
 	}
@@ -86,6 +94,14 @@ HEN_fascist = {
 		hen_economic_mobilization
 		hen_modernization_of_mic
 		hen_hen_stockpile_up
+		hen_military_training
+		hen_focus_doctrine_effort
+		hen_equipment_effort
+		hen_seduce_politics
+		hen_demoralize_jap
+		hen_add_claim_to_jap
+		hen_declare_war_jap
+		hen_focus_transfert_capital_to_282
 	}
 	research = {
 	}
@@ -131,6 +147,12 @@ HEN_fascist_alternate = {
 		wfc_ideological_fanaticism
 		wfc_shared_focus_referendum
 		hen_friendship_with_japan
+		hen_visit_to_japan
+		hen_investments_in_the_military_industry_of_japan
+		hen_technology_sharing_jap
+		hen_alliance_with_japan
+		hen_seduce_showa
+		hen_conquest_of_gxc
 	}
 	research = {
 	}
@@ -178,6 +200,14 @@ HEN_neutrality = {
 		hen_economic_mobilization
 		hen_modernization_of_mic
 		hen_hen_stockpile_up
+		hen_military_training
+		hen_focus_doctrine_effort
+		hen_equipment_effort
+		hen_seduce_politics
+		hen_demoralize_jap
+		hen_add_claim_to_jap
+		hen_declare_war_jap
+		hen_focus_transfert_capital_to_282
 	}
 	research = {
 	}
@@ -226,6 +256,14 @@ HEN_democratic = {
 		hen_economic_mobilization
 		hen_modernization_of_mic
 		hen_hen_stockpile_up
+		hen_military_training
+		hen_focus_doctrine_effort
+		hen_equipment_effort
+		hen_seduce_politics
+		hen_demoralize_jap
+		hen_add_claim_to_jap
+		hen_declare_war_jap
+		hen_focus_transfert_capital_to_282
 	}
 	research = {
 	}

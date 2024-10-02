@@ -3896,6 +3896,33 @@ shared_focus = {
 	y = 2
 	cost = 5
 	available = {
+		any_owned_state = {
+			is_coastal = yes
+			is_controlled_by = ROOT
+			free_building_slots = {
+				building = dockyard
+				size > 1
+				include_locked = yes
+			}
+			NOT = {
+				state = 961
+				state = 962
+				state = 963
+				state = 964
+				state = 965
+				state = 966
+				state = 967
+				state = 968
+				state = 514
+				state = 786
+				state = 782
+				state = 515
+				state = 775
+				state = 273
+				state = 552
+				state = 767
+			}
+		}
 	}
 	bypass = {
 	}

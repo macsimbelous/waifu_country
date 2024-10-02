@@ -2049,7 +2049,7 @@ focus_tree = {
 			add_research_slot = 1
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 20
 		}
 	}
 	#Расширить академию
@@ -2339,7 +2339,7 @@ focus_tree = {
 			add_ideas = hen_idea_perverted_intelligence_agency
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 20
 		}
 	}
 	#Криптология
@@ -3335,7 +3335,7 @@ focus_tree = {
 			focus = hen_focus_hentalia_development
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 20
 		}
 		completion_reward = {
 			add_ideas = hen_idea_perverted_admiralty
