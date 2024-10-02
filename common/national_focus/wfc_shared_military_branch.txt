@@ -22,11 +22,7 @@ shared_focus = {
 		}
 	}
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			has_war = yes
-			factor = 10
-		}
+		factor = 10
 	}
 	completion_reward = {
 		army_experience = 25
@@ -72,11 +68,7 @@ shared_focus = {
 		}
 	}
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			has_war = yes
-			factor = 10
-		}
+		factor = 10
 	}
 	completion_reward = {
 		wfc_add_arms_factory_in_random_state = yes
@@ -2037,6 +2029,9 @@ shared_focus = {
 	}
 	bypass = {
 	}
+	ai_will_do = {
+		factor = 10
+	}
 	completion_reward = {
 		wfc_add_arms_factory_in_random_state = yes
 		wfc_add_arms_factory_in_random_state = yes
@@ -2587,17 +2582,7 @@ shared_focus = {
 	y = 0
 	cost = 5
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			has_war = yes
-			factor = 10
-		}
-		modifier = {
-			any_controlled_state = {
-				is_coastal = no
-			}
-			factor = 0
-		}
+		factor = 10
 	}
 	available = {
 		if = {
@@ -2707,17 +2692,7 @@ shared_focus = {
 	y = 1
 	cost = 5
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			has_war = yes
-			factor = 10
-		}
-		modifier = {
-			any_controlled_state = {
-				is_coastal = no
-			}
-			factor = 0
-		}
+		factor = 10
 	}
 	available = {
 	}
@@ -3925,11 +3900,7 @@ shared_focus = {
 	bypass = {
 	}
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			has_war = yes
-			factor = 10
-		}
+		factor = 10
 	}
 	completion_reward = {
 		random_owned_controlled_state = {
