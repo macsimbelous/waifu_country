@@ -26,9 +26,27 @@ shared_focus = {
 	}
 	completion_reward = {
 		army_experience = 25
-		wfc_add_arms_factory_in_random_state = yes
 		add_dynamic_modifier = {
 			modifier = wfc_dm_smb_army
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
 		}
 	}
 }
@@ -54,28 +72,33 @@ shared_focus = {
 			}
 		}
 	}
-	bypass = {
-		NOT = {
-			any_state = {
-				is_owned_by = ROOT
-				is_controlled_by = ROOT
-				free_building_slots = {
-					building = arms_factory
-					size > 1
-					include_locked = yes
-				}
-			}
-		}
-	}
 	ai_will_do = {
 		factor = 10
 	}
 	completion_reward = {
-		wfc_add_arms_factory_in_random_state = yes
 		custom_effect_tooltip = wfc_smb_modify_south_american_army_ns_intro
 		add_to_variable = {
 			wfc_smb_army_production_speed_arms_factory_factor = 0.05
 			tooltip = production_speed_arms_factory_factor_tt
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
 		}
 	}
 }
@@ -1622,42 +1645,20 @@ shared_focus = {
 			has_completed_focus = acw_focus_complete_the_reform
 		}
 	}
-	bypass = {
-	}
 	completion_reward = {
+		add_dynamic_modifier = {
+			modifier = wfc_dm_smb_airforce
+		}
 		air_experience = 25
-		random_core_state = {
+		random_owned_state = {
 			limit = {
 				free_building_slots = {
-					building = arms_factory
+					building = air_base
 					size > 1
 					include_locked = yes
 				}
-				is_owned_and_controlled_by = ROOT
-				NOT = {
-					state = 961
-					state = 962
-					state = 963
-					state = 964
-					state = 965
-					state = 966
-					state = 967
-					state = 968
-					state = 514
-					state = 786
-					state = 782
-					state = 515
-					state = 775
-					state = 273
-					state = 552
-					state = 767
-				}
-			}
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = arms_factory
-				level = 2
-				instant_build = yes
+				is_controlled_by = ROOT
+				wfc_is_possible_construction = yes
 			}
 			add_building_construction = {
 				type = air_base
@@ -1665,8 +1666,43 @@ shared_focus = {
 				instant_build = yes
 			}
 		}
-		add_dynamic_modifier = {
-			modifier = wfc_dm_smb_airforce
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
 		}
 	}
 }
@@ -1735,24 +1771,7 @@ shared_focus = {
 					include_locked = yes
 				}
 				is_owned_and_controlled_by = ROOT
-				NOT = {
-					state = 961
-					state = 962
-					state = 963
-					state = 964
-					state = 965
-					state = 966
-					state = 967
-					state = 968
-					state = 514
-					state = 786
-					state = 782
-					state = 515
-					state = 775
-					state = 273
-					state = 552
-					state = 767
-				}
+				wfc_is_possible_construction = yes
 			}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
@@ -1769,24 +1788,7 @@ shared_focus = {
 					include_locked = yes
 				}
 				is_owned_and_controlled_by = ROOT
-				NOT = {
-					state = 961
-					state = 962
-					state = 963
-					state = 964
-					state = 965
-					state = 966
-					state = 967
-					state = 968
-					state = 514
-					state = 786
-					state = 782
-					state = 515
-					state = 775
-					state = 273
-					state = 552
-					state = 767
-				}
+				wfc_is_possible_construction = yes
 			}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
@@ -2033,8 +2035,44 @@ shared_focus = {
 		factor = 10
 	}
 	completion_reward = {
-		wfc_add_arms_factory_in_random_state = yes
-		wfc_add_arms_factory_in_random_state = yes
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
 	}
 }
 
@@ -2610,7 +2648,26 @@ shared_focus = {
 		add_dynamic_modifier = {
 			modifier = wfc_dm_smb_navy
 		}
-		wfc_add_dockyard_in_random_state = yes
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+					is_coastal = yes
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_dockyard_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = dockyard
+				level = 1
+			}
+		}
 	}
 }
 
@@ -2699,52 +2756,60 @@ shared_focus = {
 	bypass = {
 	}
 	completion_reward = {
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+					is_coastal = yes
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_dockyard_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = dockyard
+				level = 1
+			}
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+					is_coastal = yes
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_dockyard_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = dockyard
+				level = 1
+			}
+		}
 		random_owned_controlled_state = {
 			limit = {
 				is_coastal = yes
-				free_building_slots = {
-					building = dockyard
-					size > 1
-					include_locked = yes
-				}
-				NOT = {
-					state = 961
-					state = 962
-					state = 963
-					state = 964
-					state = 965
-					state = 966
-					state = 967
-					state = 968
-					state = 514
-					state = 786
-					state = 782
-					state = 515
-					state = 775
-					state = 273
-					state = 552
-					state = 767
-				}
+				wfc_is_possible_construction = yes
 			}
-			IF = {
-				limit = {
-					naval_base < 10
-				}
-				add_building_construction = {
-					type = naval_base
-					level = 1
-					instant_build = yes
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-					}
-				}
-			}
-			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
-				type = dockyard
-				level = 2
+				type = naval_base
+				level = 1
 				instant_build = yes
+				province = {
+					all_provinces = yes
+					limit_to_coastal = yes
+					limit_to_naval_base = yes
+				}
 			}
 		}
 	}
@@ -3899,63 +3964,57 @@ shared_focus = {
 		any_owned_state = {
 			is_coastal = yes
 			is_controlled_by = ROOT
-			free_building_slots = {
-				building = dockyard
-				size > 1
-				include_locked = yes
-			}
-			NOT = {
-				state = 961
-				state = 962
-				state = 963
-				state = 964
-				state = 965
-				state = 966
-				state = 967
-				state = 968
-				state = 514
-				state = 786
-				state = 782
-				state = 515
-				state = 775
-				state = 273
-				state = 552
-				state = 767
-			}
+			wfc_is_possible_construction = yes
 		}
-	}
-	bypass = {
 	}
 	ai_will_do = {
 		factor = 10
 	}
 	completion_reward = {
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+					is_coastal = yes
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_dockyard_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = dockyard
+				level = 1
+			}
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+					is_coastal = yes
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_dockyard_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = dockyard
+				level = 1
+			}
+		}
 		random_owned_controlled_state = {
 			limit = {
 				is_coastal = yes
-				free_building_slots = {
-					building = dockyard
-					size > 1
-					include_locked = yes
-				}
-				NOT = {
-					state = 961
-					state = 962
-					state = 963
-					state = 964
-					state = 965
-					state = 966
-					state = 967
-					state = 968
-					state = 514
-					state = 786
-					state = 782
-					state = 515
-					state = 775
-					state = 273
-					state = 552
-					state = 767
-				}
+				wfc_is_possible_construction = yes
 			}
 			add_building_construction = {
 				type = naval_base
@@ -3964,13 +4023,8 @@ shared_focus = {
 				province = {
 					all_provinces = yes
 					limit_to_coastal = yes
+					limit_to_naval_base = yes
 				}
-			}
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = dockyard
-				level = 2
-				instant_build = yes
 			}
 		}
 	}

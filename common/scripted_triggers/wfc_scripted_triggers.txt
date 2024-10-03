@@ -233,4 +233,26 @@ wfc_is_island_state = {
 		}
 	}
 }
-
+wfc_is_possible_construction = {
+	custom_trigger_tooltip = {
+		tooltip = wfc_tt_is_possible_construction
+		NOT = {
+			state = 961
+			state = 962
+			state = 963
+			state = 964
+			state = 965
+			state = 966
+			state = 967
+			state = 968
+			state = 514
+			state = 786
+			state = 782
+			state = 515
+			state = 775
+			state = 273
+			state = 552
+			state = 767
+		}
+	}
+}
