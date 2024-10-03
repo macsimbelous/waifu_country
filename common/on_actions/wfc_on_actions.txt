@@ -1054,6 +1054,7 @@ on_actions = {
 						caustic_personality
 						craven
 						naval_lineage
+						blockade_runner
 					}
 				}
 				random_character = {
@@ -1093,6 +1094,7 @@ on_actions = {
 						caustic_personality
 						craven
 						naval_lineage
+						blockade_runner
 					}
 				}
 			}
