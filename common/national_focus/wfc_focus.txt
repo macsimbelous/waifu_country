@@ -610,14 +610,8 @@ shared_focus = {
 	}
 	available_if_capitulated = yes
 	available = {
-		any_state = {
+		any_controlled_state = {
 			is_coastal = yes
-			is_controlled_by = ROOT
-			free_building_slots = {
-				building = dockyard
-				size > 2
-				include_locked = yes
-			}
 		}
 	}
 	complete_tooltip = {
@@ -631,66 +625,9 @@ shared_focus = {
 	}
 	completion_reward = {
 		navy_experience = 25
-		if = {
-			limit = {
-				any_controlled_state = {
-					free_building_slots = {
-						building = dockyard
-						size > 0
-						include_locked = yes
-					}
-					is_coastal = yes
-					wfc_is_possible_construction = yes
-				}
-			}
-			wfc_add_dockyard_in_random_state = yes
-		}
-		else = {
-			add_offsite_building = {
-				type = dockyard
-				level = 1
-			}
-		}
-		if = {
-			limit = {
-				any_controlled_state = {
-					free_building_slots = {
-						building = dockyard
-						size > 0
-						include_locked = yes
-					}
-					is_coastal = yes
-					wfc_is_possible_construction = yes
-				}
-			}
-			wfc_add_dockyard_in_random_state = yes
-		}
-		else = {
-			add_offsite_building = {
-				type = dockyard
-				level = 1
-			}
-		}
-		if = {
-			limit = {
-				any_controlled_state = {
-					free_building_slots = {
-						building = dockyard
-						size > 0
-						include_locked = yes
-					}
-					is_coastal = yes
-					wfc_is_possible_construction = yes
-				}
-			}
-			wfc_add_dockyard_in_random_state = yes
-		}
-		else = {
-			add_offsite_building = {
-				type = dockyard
-				level = 1
-			}
-		}
+		wfc_add_dockyard_in_random_state_or_offsite = yes
+		wfc_add_dockyard_in_random_state_or_offsite = yes
+		wfc_add_dockyard_in_random_state_or_offsite = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -993,18 +930,6 @@ shared_focus = {
 			factor = 5
 		}
 	}
-	bypass = {
-		custom_trigger_tooltip = {
-			tooltip = construction_effort_tt
-			all_owned_state = {
-				free_building_slots = {
-					building = industrial_complex
-					size < 1
-					include_locked = yes
-				}
-			}
-		}
-	}
 	complete_tooltip = {
 		add_extra_state_shared_building_slots = 1
 		add_building_construction = {
@@ -1056,18 +981,6 @@ shared_focus = {
 		modifier = {
 			is_puppet = yes
 			factor = 5
-		}
-	}
-	bypass = {
-		custom_trigger_tooltip = {
-			tooltip = production_effort_tt
-			all_owned_state = {
-				free_building_slots = {
-					building = arms_factory
-					size < 1
-					include_locked = yes
-				}
-			}
 		}
 	}
 	complete_tooltip = {
@@ -1123,18 +1036,6 @@ shared_focus = {
 			factor = 5
 		}
 	}
-	bypass = {
-		custom_trigger_tooltip = {
-			tooltip = construction_effort_tt
-			all_owned_state = {
-				free_building_slots = {
-					building = industrial_complex
-					size < 1
-					include_locked = yes
-				}
-			}
-		}
-	}
 	complete_tooltip = {
 		if = {
 			limit = {
@@ -1181,18 +1082,6 @@ shared_focus = {
 		modifier = {
 			is_puppet = yes
 			factor = 5
-		}
-	}
-	bypass = {
-		custom_trigger_tooltip = {
-			tooltip = production_effort_tt
-			all_owned_state = {
-				free_building_slots = {
-					building = arms_factory
-					size < 1
-					include_locked = yes
-				}
-			}
 		}
 	}
 	complete_tooltip = {
@@ -1302,18 +1191,6 @@ shared_focus = {
 		modifier = {
 			is_puppet = yes
 			factor = 5
-		}
-	}
-	bypass = {
-		custom_trigger_tooltip = {
-			tooltip = production_effort_tt
-			all_owned_state = {
-				free_building_slots = {
-					building = arms_factory
-					size < 1
-					include_locked = yes
-				}
-			}
 		}
 	}
 	complete_tooltip = {

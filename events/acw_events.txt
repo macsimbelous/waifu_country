@@ -22,8 +22,44 @@ country_event = {
 		ai_chance = {
 			base = 0
 		}
-		wfc_add_arms_factory_in_random_state = yes
-		wfc_add_arms_factory_in_random_state = yes
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
 		add_war_support = 0.05
 	}
 	option = {
@@ -31,8 +67,44 @@ country_event = {
 		ai_chance = {
 			base = 0
 		}
-		wfc_add_industrial_complex_in_random_state = yes
-		wfc_add_industrial_complex_in_random_state = yes
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_industrial_complex_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_industrial_complex_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
 		add_popularity = {
 			ideology = neutrality
 			popularity = 0.05
@@ -43,8 +115,44 @@ country_event = {
 		ai_chance = {
 			base = 75
 		}
-		wfc_add_industrial_complex_in_random_state = yes
-		wfc_add_arms_factory_in_random_state = yes
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_industrial_complex_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		if = {
+			limit = {
+				any_controlled_state = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_possible_construction = yes
+				}
+			}
+			wfc_add_arms_factory_in_random_state = yes
+		}
+		else = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
 		add_stability = 0.05
 	}
 }

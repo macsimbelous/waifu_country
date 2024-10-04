@@ -1496,8 +1496,44 @@ focus_tree = {
 				uses = 1
 				category = industry
 			}
-			wfc_add_arms_factory_in_random_state = yes
-			wfc_add_arms_factory_in_random_state = yes
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
 		}
 	}
 	focus = {
@@ -1514,14 +1550,8 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
-			any_state = {
+			any_controlled_state = {
 				is_coastal = yes
-				is_controlled_by = ROOT
-				free_building_slots = {
-					building = dockyard
-					size > 2
-					include_locked = yes
-				}
 			}
 		}
 		complete_tooltip = {
@@ -1533,9 +1563,9 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			wfc_add_dockyard_in_random_state = yes
-			wfc_add_dockyard_in_random_state = yes
-			wfc_add_dockyard_in_random_state = yes
+			wfc_add_dockyard_in_random_state_or_offsite = yes
+			wfc_add_dockyard_in_random_state_or_offsite = yes
+			wfc_add_dockyard_in_random_state_or_offsite = yes
 		}
 	}
 	focus = {
@@ -1555,16 +1585,72 @@ focus_tree = {
 			has_full_control_of_state = 76
 		}
 		completion_reward = {
-			76 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					instant_build = yes
-					level = 1
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+			if = {
+				limit = {
+					76 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
 				}
-				add_resource = {
-					type = steel
-					amount = 30
+				76 = {
+					add_resource = {
+						type = steel
+						amount = 30
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						instant_build = yes
+						level = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						76 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+				76 = {
+					add_resource = {
+						type = steel
+						amount = 30
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				76 = {
+					add_resource = {
+						type = steel
+						amount = 30
+					}
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
 				}
 			}
 		}
@@ -1590,16 +1676,72 @@ focus_tree = {
 			has_full_control_of_state = 84
 		}
 		completion_reward = {
-			84 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					instant_build = yes
-					level = 1
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+			if = {
+				limit = {
+					84 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
 				}
-				add_resource = {
-					type = tungsten
-					amount = 9
+				84 = {
+					add_resource = {
+						type = tungsten
+						amount = 9
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						instant_build = yes
+						level = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						84 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+				84 = {
+					add_resource = {
+						type = tungsten
+						amount = 9
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				84 = {
+					add_resource = {
+						type = tungsten
+						amount = 9
+					}
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
 				}
 			}
 		}
@@ -1695,8 +1837,44 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			wfc_add_industrial_complex_in_random_state = yes
-			wfc_add_industrial_complex_in_random_state = yes
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
 		}
 	}
 	focus = {
@@ -1741,8 +1919,44 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		completion_reward = {
-			wfc_add_synthetic_refinery_in_random_state = yes
-			wfc_add_synthetic_refinery_in_random_state = yes
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = synthetic_refinery
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_synthetic_refinery_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = synthetic_refinery
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = synthetic_refinery
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_synthetic_refinery_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = synthetic_refinery
+					level = 1
+				}
+			}
 			add_tech_bonus = {
 				name = wfc_synthetic_rubber
 				bonus = 1
@@ -1775,16 +1989,72 @@ focus_tree = {
 			has_full_control_of_state = 83
 		}
 		completion_reward = {
-			83 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					instant_build = yes
-					level = 1
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+			if = {
+				limit = {
+					83 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
 				}
-				add_resource = {
-					type = aluminium
-					amount = 23
+				83 = {
+					add_resource = {
+						type = aluminium
+						amount = 23
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						instant_build = yes
+						level = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						83 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+				83 = {
+					add_resource = {
+						type = aluminium
+						amount = 23
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				83 = {
+					add_resource = {
+						type = aluminium
+						amount = 23
+					}
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
 				}
 			}
 		}
@@ -1931,11 +2201,9 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					BUL = {
-						has_tech = radio_detection
-					}
+					has_tech = radio_detection
 				}
-				845 = {
+				84 = {
 					add_building_construction = {
 						type = radar_station
 						level = 1

@@ -1139,12 +1139,61 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			528 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
 					type = arms_factory
-					level = 3
-					instant_build = yes
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
 				}
 			}
 		}
@@ -1724,13 +1773,8 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			528 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
+			wfc_add_infrastructure_in_random_state = yes
+			wfc_add_infrastructure_in_random_state = yes
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1
@@ -1754,12 +1798,61 @@ focus_tree = {
 			focus = hen_focus_infrastructure_modernization
 		}
 		completion_reward = {
-			528 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
 					type = arms_factory
-					level = 3
-					instant_build = yes
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
 				}
 			}
 			add_tech_bonus = {
@@ -1788,12 +1881,42 @@ focus_tree = {
 			focus = hen_focus_infrastructure_modernization
 		}
 		completion_reward = {
-			528 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
 					type = industrial_complex
-					level = 2
-					instant_build = yes
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
 				}
 			}
 			add_tech_bonus = {
@@ -1823,14 +1946,8 @@ focus_tree = {
 			focus = hen_focus_development_of_the_military_industry
 		}
 		completion_reward = {
-			528 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
+			wfc_add_dockyard_in_random_state_or_offsite = yes
+			wfc_add_dockyard_in_random_state_or_offsite = yes
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1
@@ -1897,12 +2014,23 @@ focus_tree = {
 			has_tech = synth_oil_experiments
 		}
 		completion_reward = {
-			528 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = synthetic_refinery
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_synthetic_refinery_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
 					type = synthetic_refinery
 					level = 1
-					instant_build = yes
 				}
 			}
 			add_tech_bonus = {
@@ -1931,16 +2059,72 @@ focus_tree = {
 			focus = hen_focus_port_modernization
 		}
 		completion_reward = {
-			528 = {
-				add_resource = {
-					type = steel
-					amount = 33
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+			if = {
+				limit = {
+					528 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
 				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
+				528 = {
+					add_resource = {
+						type = steel
+						amount = 33
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						instant_build = yes
+						level = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						528 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+				528 = {
+					add_resource = {
+						type = steel
+						amount = 33
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				528 = {
+					add_resource = {
+						type = steel
+						amount = 33
+					}
+				}
+				add_offsite_building = {
 					type = industrial_complex
 					level = 1
-					instant_build = yes
 				}
 			}
 			add_tech_bonus = {
@@ -1969,16 +2153,72 @@ focus_tree = {
 			focus = hen_focus_port_modernization
 		}
 		completion_reward = {
-			528 = {
-				add_resource = {
-					type = aluminium
-					amount = 17
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+			if = {
+				limit = {
+					528 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
 				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
+				528 = {
+					add_resource = {
+						type = aluminium
+						amount = 17
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						instant_build = yes
+						level = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						528 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+				528 = {
+					add_resource = {
+						type = aluminium
+						amount = 17
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				528 = {
+					add_resource = {
+						type = aluminium
+						amount = 17
+					}
+				}
+				add_offsite_building = {
 					type = industrial_complex
 					level = 1
-					instant_build = yes
 				}
 			}
 			add_tech_bonus = {
@@ -2007,16 +2247,72 @@ focus_tree = {
 			focus = hen_focus_port_modernization
 		}
 		completion_reward = {
-			528 = {
-				add_resource = {
-					type = tungsten
-					amount = 11
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+			if = {
+				limit = {
+					528 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
 				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
+				528 = {
+					add_resource = {
+						type = tungsten
+						amount = 11
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						instant_build = yes
+						level = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						528 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					any_controlled_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+				528 = {
+					add_resource = {
+						type = tungsten
+						amount = 11
+					}
+				}
+				wfc_add_industrial_complex_in_random_state = yes
+			}
+			else = {
+				528 = {
+					add_resource = {
+						type = tungsten
+						amount = 11
+					}
+				}
+				add_offsite_building = {
 					type = industrial_complex
 					level = 1
-					instant_build = yes
 				}
 			}
 			add_tech_bonus = {
@@ -2608,7 +2904,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			navy_experience = 25
-			wfc_add_dockyard_in_random_state = yes
+			wfc_add_dockyard_in_random_state_or_offsite = yes
 		}
 	}
 	#submarine war

@@ -71,9 +71,9 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			wfc_add_industrial_complex_in_random_state = yes
-			wfc_add_industrial_complex_in_random_state = yes
-			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state_or_offsite = yes
+			wfc_add_industrial_complex_in_random_state_or_offsite = yes
+			wfc_add_industrial_complex_in_random_state_or_offsite = yes
 		}
 	}
 	focus = {
@@ -134,8 +134,8 @@
 				uses = 2
 				category = construction_tech
 			}
-			wfc_add_industrial_complex_in_random_state = yes
-			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state_or_offsite = yes
+			wfc_add_industrial_complex_in_random_state_or_offsite = yes
 		}
 		ai_will_do = {
 			factor = 100
@@ -167,7 +167,7 @@
 				uses = 2
 				category = industry
 			}
-			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state_or_offsite = yes
 		}
 		ai_will_do = {
 			factor = 100
@@ -195,8 +195,8 @@
 				uses = 1
 				category = industry
 			}
-			wfc_add_industrial_complex_in_random_state = yes
-			wfc_add_industrial_complex_in_random_state = yes
+			wfc_add_industrial_complex_in_random_state_or_offsite = yes
+			wfc_add_industrial_complex_in_random_state_or_offsite = yes
 		}
 		ai_will_do = {
 			factor = 100
@@ -249,7 +249,7 @@
 				uses = 2
 				category = infantry_weapons
 			}
-			wfc_add_arms_factory_in_random_state = yes
+			wfc_add_arms_factory_in_random_state_or_offsite = yes
 		}
 		ai_will_do = {
 			factor = 100
@@ -276,8 +276,8 @@
 				uses = 2
 				category = cat_production
 			}
-			wfc_add_arms_factory_in_random_state = yes
-			wfc_add_arms_factory_in_random_state = yes
+			wfc_add_arms_factory_in_random_state_or_offsite = yes
+			wfc_add_arms_factory_in_random_state_or_offsite = yes
 		}
 		ai_will_do = {
 			factor = 100
@@ -298,18 +298,45 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			969 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					instant_build = yes
-					level = 1
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+			if = {
+				limit = {
+					969 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
 				}
-				add_resource = {
-					type = steel
-					amount = 17
+				969 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						instant_build = yes
+						level = 1
+					}
+					add_resource = {
+						type = steel
+						amount = 17
+					}
+					set_state_flag = trp_steel_casting_industry_flag
 				}
-				set_state_flag = trp_steel_casting_industry_flag
+			}
+			else = {
+				969 = {
+					add_resource = {
+						type = steel
+						amount = 17
+					}
+					set_state_flag = trp_steel_casting_industry_flag
+				}
+				wfc_add_industrial_complex_in_random_state_or_offsite = yes
 			}
 		}
 		ai_will_do = {
@@ -371,17 +398,45 @@
 			has_full_control_of_state = 939
 		}
 		completion_reward = {
-			939 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					instant_build = yes
-					level = 1
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = excavation_tech
+			}
+			if = {
+				limit = {
+					939 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
 				}
-				add_resource = {
-					type = oil
-					amount = 15
+				939 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						instant_build = yes
+						level = 1
+					}
+					add_resource = {
+						type = oil
+						amount = 15
+					}
+					set_state_flag = trp_steel_casting_industry_flag
 				}
+			}
+			else = {
+				939 = {
+					add_resource = {
+						type = oil
+						amount = 15
+					}
+					set_state_flag = trp_steel_casting_industry_flag
+				}
+				wfc_add_industrial_complex_in_random_state_or_offsite = yes
 			}
 		}
 		ai_will_do = {

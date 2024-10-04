@@ -383,7 +383,27 @@ wfc_add_industrial_complex_in_random_state = {
 		}
 	}
 }
-
+wfc_add_industrial_complex_in_random_state_or_offsite = {
+	if = {
+		limit = {
+			any_controlled_state = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				wfc_is_possible_construction = yes
+			}
+		}
+		wfc_add_industrial_complex_in_random_state = yes
+	}
+	else = {
+		add_offsite_building = {
+			type = industrial_complex
+			level = 1
+		}
+	}
+}
 wfc_add_arms_factory_in_random_state = {
 	if = {
 		limit = {
@@ -494,7 +514,27 @@ wfc_add_arms_factory_in_random_state = {
 		}
 	}
 }
-
+wfc_add_arms_factory_in_random_state_or_offsite = {
+	if = {
+		limit = {
+			any_controlled_state = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				wfc_is_possible_construction = yes
+			}
+		}
+		wfc_add_arms_factory_in_random_state = yes
+	}
+	else = {
+		add_offsite_building = {
+			type = arms_factory
+			level = 1
+		}
+	}
+}
 wfc_add_dockyard_in_random_state = {
 	if = {
 		limit = {
@@ -609,6 +649,29 @@ wfc_add_dockyard_in_random_state = {
 				instant_build = yes
 				level = 1
 			}
+		}
+	}
+}
+
+wfc_add_dockyard_in_random_state_or_offsite ={
+	if = {
+		limit = {
+			any_controlled_state = {
+				is_coastal = yes
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				wfc_is_possible_construction = yes
+			}
+		}
+		wfc_add_dockyard_in_random_state = yes
+	}
+	else = {
+		add_offsite_building = {
+			type = dockyard
+			level = 1
 		}
 	}
 }

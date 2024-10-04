@@ -66,9 +66,63 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			wfc_add_arms_factory_in_random_state = yes
-			wfc_add_arms_factory_in_random_state = yes
-			wfc_add_arms_factory_in_random_state = yes
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			if = {
+				limit = {
+					any_controlled_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						wfc_is_possible_construction = yes
+					}
+				}
+				wfc_add_arms_factory_in_random_state = yes
+			}
+			else = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
 		}
 	}
 	focus = {

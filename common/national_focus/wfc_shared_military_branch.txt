@@ -2638,8 +2638,7 @@ shared_focus = {
 			}
 			has_completed_focus = acw_focus_complete_the_reform
 		}
-		any_owned_state = {
-			is_controlled_by = ROOT
+		any_controlled_state = {
 			is_coastal = yes
 		}
 	}
@@ -2648,26 +2647,7 @@ shared_focus = {
 		add_dynamic_modifier = {
 			modifier = wfc_dm_smb_navy
 		}
-		if = {
-			limit = {
-				any_controlled_state = {
-					free_building_slots = {
-						building = dockyard
-						size > 0
-						include_locked = yes
-					}
-					is_coastal = yes
-					wfc_is_possible_construction = yes
-				}
-			}
-			wfc_add_dockyard_in_random_state = yes
-		}
-		else = {
-			add_offsite_building = {
-				type = dockyard
-				level = 1
-			}
-		}
+		wfc_add_dockyard_in_random_state_or_offsite = yes
 	}
 }
 
@@ -2752,50 +2732,13 @@ shared_focus = {
 		factor = 10
 	}
 	available = {
-	}
-	bypass = {
+		any_controlled_state = {
+			is_coastal = yes
+		}
 	}
 	completion_reward = {
-		if = {
-			limit = {
-				any_controlled_state = {
-					free_building_slots = {
-						building = dockyard
-						size > 0
-						include_locked = yes
-					}
-					is_coastal = yes
-					wfc_is_possible_construction = yes
-				}
-			}
-			wfc_add_dockyard_in_random_state = yes
-		}
-		else = {
-			add_offsite_building = {
-				type = dockyard
-				level = 1
-			}
-		}
-		if = {
-			limit = {
-				any_controlled_state = {
-					free_building_slots = {
-						building = dockyard
-						size > 0
-						include_locked = yes
-					}
-					is_coastal = yes
-					wfc_is_possible_construction = yes
-				}
-			}
-			wfc_add_dockyard_in_random_state = yes
-		}
-		else = {
-			add_offsite_building = {
-				type = dockyard
-				level = 1
-			}
-		}
+		wfc_add_dockyard_in_random_state_or_offsite = yes
+		wfc_add_dockyard_in_random_state_or_offsite = yes
 		random_owned_controlled_state = {
 			limit = {
 				is_coastal = yes
@@ -2808,7 +2751,7 @@ shared_focus = {
 				province = {
 					all_provinces = yes
 					limit_to_coastal = yes
-					limit_to_naval_base = yes
+					#limit_to_naval_base = yes
 				}
 			}
 		}
@@ -3961,56 +3904,16 @@ shared_focus = {
 	y = 2
 	cost = 5
 	available = {
-		any_owned_state = {
+		any_controlled_state = {
 			is_coastal = yes
-			is_controlled_by = ROOT
-			wfc_is_possible_construction = yes
 		}
 	}
 	ai_will_do = {
 		factor = 10
 	}
 	completion_reward = {
-		if = {
-			limit = {
-				any_controlled_state = {
-					free_building_slots = {
-						building = dockyard
-						size > 0
-						include_locked = yes
-					}
-					is_coastal = yes
-					wfc_is_possible_construction = yes
-				}
-			}
-			wfc_add_dockyard_in_random_state = yes
-		}
-		else = {
-			add_offsite_building = {
-				type = dockyard
-				level = 1
-			}
-		}
-		if = {
-			limit = {
-				any_controlled_state = {
-					free_building_slots = {
-						building = dockyard
-						size > 0
-						include_locked = yes
-					}
-					is_coastal = yes
-					wfc_is_possible_construction = yes
-				}
-			}
-			wfc_add_dockyard_in_random_state = yes
-		}
-		else = {
-			add_offsite_building = {
-				type = dockyard
-				level = 1
-			}
-		}
+		wfc_add_dockyard_in_random_state_or_offsite = yes
+		wfc_add_dockyard_in_random_state_or_offsite = yes
 		random_owned_controlled_state = {
 			limit = {
 				is_coastal = yes
