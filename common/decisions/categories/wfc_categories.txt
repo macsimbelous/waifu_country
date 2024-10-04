@@ -308,3 +308,28 @@ wfc_category_naval_arms_race = {
 		}
 	}
 }
+wfc_generic_purchase_old_ships_category = {
+	#name = generic_purchase_old_ships_category
+	icon = GFX_decision_category_MTG_naval_treaties
+	picture = GFX_decision_cat_picture_naval_treaties
+	
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	visible = {
+		has_country_flag = generic_purchase_old_ships_flag
+	}
+	
+	priority = {
+		base = 8
+	}
+	visible_when_empty = no
+}
