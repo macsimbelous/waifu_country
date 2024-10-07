@@ -1114,7 +1114,7 @@ mah_balance_of_power_category = {
 			has_army_experience > 9
 		}
 		custom_cost_text = decision_cost_pp_15_ArmXP_10
-		days_re_enable = 365
+		days_re_enable = 180
 		complete_effect = {
 			add_power_balance_value = {
 				id = mah_balance_of_power
@@ -1142,15 +1142,17 @@ mah_balance_of_power_category = {
 		# 		ruling_only = yes
 		# 	}
 		# }
-		available = {
+		custom_cost_trigger = {
+			command_power > 49
 		}
-		cost = 50
-		days_re_enable = 365
+		custom_cost_text = decision_cost_CP_50
+		days_re_enable = 180
 		complete_effect = {
 			add_power_balance_value = {
 				id = mah_balance_of_power
 				value = 0.1
 			}
+			add_command_power = -50
 		}
 		ai_will_do = {
 			factor = 10
@@ -1172,7 +1174,7 @@ mah_balance_of_power_category = {
 		available = {
 		}
 		cost = 50
-		days_re_enable = 365
+		days_re_enable = 180
 		complete_effect = {
 			add_power_balance_value = {
 				id = mah_balance_of_power
