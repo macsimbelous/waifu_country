@@ -889,6 +889,53 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = mms_focus_build_port_in_sistan
+		icon = GFX_goal_generic_construction
+		relative_position_id = mms_focus_dockyard_effort
+		x = -1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = {
+			focus = mms_focus_dockyard_effort
+		}
+		completion_reward = {
+			410 = {
+				add_building_construction = {
+					type = naval_base
+					province = 4891
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 4891
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 4891
+					level = 3
+					instant_build = yes
+				}
+			}
+			build_railway = {
+				level = 1
+				#start_province = 13082
+				#target_province = 4891
+				path = {
+					13082 4891
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
 		id = mms_focus_production_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		relative_position_id = mms_focus_infrastructure_effort
