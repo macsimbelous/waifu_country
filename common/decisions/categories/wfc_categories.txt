@@ -333,3 +333,23 @@ wfc_generic_purchase_old_ships_category = {
 	}
 	visible_when_empty = no
 }
+wfc_test_gui_category = {
+	icon = GFX_decision_category_MTG_naval_treaties
+	visible_when_empty = yes
+	scripted_gui = scripted_gui_example_5
+	priority = 100
+	allowed = {
+		OR = {
+			original_tag = ACW
+			original_tag = HEN
+			original_tag = MAH
+			original_tag = TRP
+			original_tag = MEH
+			original_tag = MMS
+			original_tag = NEC
+		}
+	}
+	visible = {
+		is_debug = yes
+	}
+}

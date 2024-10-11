@@ -203,7 +203,8 @@ wfc_subsidies_change = {
 		wfc_subsidies_to_resources = wfc_subsidies_to_resources_count
 	}
 	set_variable = {
-		wfc_political_power_to_subsidies = -0.02
+		#wfc_political_power_to_subsidies = -0.02
+		wfc_political_power_to_subsidies = 0.01
 	}
 	multiply_variable = {
 		wfc_political_power_to_subsidies = wfc_subsidies_count

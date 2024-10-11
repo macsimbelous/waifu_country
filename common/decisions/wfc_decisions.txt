@@ -1197,23 +1197,27 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_building_up
 			add_to_variable = {
 				wfc_subsidies_to_building_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_up
 			add_to_variable = {
 				wfc_subsidies_count = 1
 			}
 			wfc_subsidies_change = yes
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = wfc_subsidies_dm_flag
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = wfc_subsidies_dm_flag
+						}
 					}
+					add_dynamic_modifier = {
+						modifier = wfc_subsidies_dm
+					}
+					set_country_flag = wfc_subsidies_dm_flag
 				}
-				add_dynamic_modifier = {
-					modifier = wfc_subsidies_dm
-				}
-				set_country_flag = wfc_subsidies_dm_flag
 			}
 		}
 	}
@@ -1246,9 +1250,11 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_building_down
 			subtract_from_variable = {
 				wfc_subsidies_to_building_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_down
 			subtract_from_variable = {
 				wfc_subsidies_count = 1
 			}
@@ -1285,23 +1291,27 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_factory_up
 			add_to_variable = {
 				wfc_subsidies_to_factory_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_up
 			add_to_variable = {
 				wfc_subsidies_count = 1
 			}
 			wfc_subsidies_change = yes
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = wfc_subsidies_dm_flag
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = wfc_subsidies_dm_flag
+						}
 					}
+					add_dynamic_modifier = {
+						modifier = wfc_subsidies_dm
+					}
+					set_country_flag = wfc_subsidies_dm_flag
 				}
-				add_dynamic_modifier = {
-					modifier = wfc_subsidies_dm
-				}
-				set_country_flag = wfc_subsidies_dm_flag
 			}
 		}
 	}
@@ -1334,9 +1344,11 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_factory_down
 			subtract_from_variable = {
 				wfc_subsidies_to_factory_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_down
 			subtract_from_variable = {
 				wfc_subsidies_count = 1
 			}
@@ -1373,23 +1385,27 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_dockyard_up
 			add_to_variable = {
 				wfc_subsidies_to_dockyard_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_up
 			add_to_variable = {
 				wfc_subsidies_count = 1
 			}
 			wfc_subsidies_change = yes
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = wfc_subsidies_dm_flag
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = wfc_subsidies_dm_flag
+						}
 					}
+					add_dynamic_modifier = {
+						modifier = wfc_subsidies_dm
+					}
+					set_country_flag = wfc_subsidies_dm_flag
 				}
-				add_dynamic_modifier = {
-					modifier = wfc_subsidies_dm
-				}
-				set_country_flag = wfc_subsidies_dm_flag
 			}
 		}
 	}
@@ -1422,9 +1438,11 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_dockyard_down
 			subtract_from_variable = {
 				wfc_subsidies_to_dockyard_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_down
 			subtract_from_variable = {
 				wfc_subsidies_count = 1
 			}
@@ -1461,23 +1479,27 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_research_up
 			add_to_variable = {
 				wfc_subsidies_to_research_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_up
 			add_to_variable = {
 				wfc_subsidies_count = 1
 			}
 			wfc_subsidies_change = yes
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = wfc_subsidies_dm_flag
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = wfc_subsidies_dm_flag
+						}
 					}
+					add_dynamic_modifier = {
+						modifier = wfc_subsidies_dm
+					}
+					set_country_flag = wfc_subsidies_dm_flag
 				}
-				add_dynamic_modifier = {
-					modifier = wfc_subsidies_dm
-				}
-				set_country_flag = wfc_subsidies_dm_flag
 			}
 		}
 	}
@@ -1510,9 +1532,11 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_research_down
 			subtract_from_variable = {
 				wfc_subsidies_to_research_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_down
 			subtract_from_variable = {
 				wfc_subsidies_count = 1
 			}
@@ -1551,23 +1575,27 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_resources_up
 			add_to_variable = {
 				wfc_subsidies_to_resources_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_up
 			add_to_variable = {
 				wfc_subsidies_count = 1
 			}
 			wfc_subsidies_change = yes
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = wfc_subsidies_dm_flag
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = wfc_subsidies_dm_flag
+						}
 					}
+					add_dynamic_modifier = {
+						modifier = wfc_subsidies_dm
+					}
+					set_country_flag = wfc_subsidies_dm_flag
 				}
-				add_dynamic_modifier = {
-					modifier = wfc_subsidies_dm
-				}
-				set_country_flag = wfc_subsidies_dm_flag
 			}
 		}
 	}
@@ -1604,9 +1632,11 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_resources_down
 			subtract_from_variable = {
 				wfc_subsidies_to_resources_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_down
 			subtract_from_variable = {
 				wfc_subsidies_count = 1
 			}
@@ -1637,23 +1667,27 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_nuclear_up
 			add_to_variable = {
 				wfc_subsidies_to_nuclear_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_up
 			add_to_variable = {
 				wfc_subsidies_count = 1
 			}
 			wfc_subsidies_change = yes
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = wfc_subsidies_dm_flag
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = wfc_subsidies_dm_flag
+						}
 					}
+					add_dynamic_modifier = {
+						modifier = wfc_subsidies_dm
+					}
+					set_country_flag = wfc_subsidies_dm_flag
 				}
-				add_dynamic_modifier = {
-					modifier = wfc_subsidies_dm
-				}
-				set_country_flag = wfc_subsidies_dm_flag
 			}
 		}
 	}
@@ -1686,9 +1720,11 @@ wfc_budget_category = {
 			}
 		}
 		complete_effect = {
+			custom_effect_tooltip = wfc_tt_subsidies_to_nuclear_down
 			subtract_from_variable = {
 				wfc_subsidies_to_nuclear_count = 1
 			}
+			custom_effect_tooltip = wfc_tt_subsidies_count_down
 			subtract_from_variable = {
 				wfc_subsidies_count = 1
 			}
@@ -6219,6 +6255,7 @@ wfc_category_naval_arms_race = {
 		}
 	}
 }
+
 lar_local_recruitment = {
 	wfc_decision_create_agensy_in_faction_members = {
 		fire_only_once = yes
@@ -6323,6 +6360,7 @@ lar_local_recruitment = {
 		}
 	}
 }
+
 wfc_generic_purchase_old_ships_category = {
 	wfc_purchase_ships_eng = {
 		name = purchase_ships_eng
@@ -6331,13 +6369,15 @@ wfc_generic_purchase_old_ships_category = {
 		fire_only_once = no
 		visible = {
 			has_country_flag = generic_purchase_old_ships_flag
-			ENG = { 
-				NOT = { 
+			ENG = {
+				NOT = {
 					has_country_flag = sold_ships_to_us@ROOT
-					has_country_flag = negotiating_ship_purchase_flag@ROOT 
+					has_country_flag = negotiating_ship_purchase_flag@ROOT
 				}
 			}
-			NOT = { has_war_with = ENG}
+			NOT = {
+				has_war_with = ENG
+			}
 		}
 		available = {
 			NOT = {
@@ -6349,10 +6389,9 @@ wfc_generic_purchase_old_ships_category = {
 							target = FROM
 							value < 30
 						}
-					}					
+					}
 				}
 			}
-			
 		}
 		days_remove = 14
 		remove_effect = {
@@ -6362,7 +6401,7 @@ wfc_generic_purchase_old_ships_category = {
 					hours = 1
 				}
 				set_country_flag = negotiating_ship_purchase_flag@ROOT
-			}			
+			}
 		}
 	}
 	wfc_purchase_ships_sov = {
@@ -6372,12 +6411,13 @@ wfc_generic_purchase_old_ships_category = {
 		fire_only_once = no
 		visible = {
 			has_country_flag = generic_purchase_old_ships_flag
-			SOV = { 
-					has_country_flag = sold_ships_to_us@ROOT
-					has_country_flag = negotiating_ship_purchase_flag@ROOT 
+			SOV = {
+				has_country_flag = sold_ships_to_us@ROOT
+				has_country_flag = negotiating_ship_purchase_flag@ROOT
 			}
-
-			NOT = { has_war_with = SOV}
+			NOT = {
+				has_war_with = SOV
+			}
 		}
 		available = {
 			NOT = {
@@ -6389,10 +6429,9 @@ wfc_generic_purchase_old_ships_category = {
 							target = FROM
 							value < 30
 						}
-					}					
+					}
 				}
 			}
-			
 		}
 		days_remove = 14
 		remove_effect = {
@@ -6412,14 +6451,15 @@ wfc_generic_purchase_old_ships_category = {
 		fire_only_once = no
 		visible = {
 			has_country_flag = generic_purchase_old_ships_flag
-			GER = { 
-				NOT = { 
+			GER = {
+				NOT = {
 					has_country_flag = sold_ships_to_us@ROOT
 					has_country_flag = negotiating_ship_purchase_flag@ROOT
 				}
-
 			}
-			NOT = { has_war_with = GER}
+			NOT = {
+				has_war_with = GER
+			}
 		}
 		available = {
 			NOT = {
@@ -6431,10 +6471,9 @@ wfc_generic_purchase_old_ships_category = {
 							target = FROM
 							value < 30
 						}
-					}					
+					}
 				}
 			}
-			
 		}
 		days_remove = 14
 		remove_effect = {
@@ -6454,13 +6493,15 @@ wfc_generic_purchase_old_ships_category = {
 		fire_only_once = no
 		visible = {
 			has_country_flag = generic_purchase_old_ships_flag
-			USA = { 
-				NOT = { 
+			USA = {
+				NOT = {
 					has_country_flag = sold_ships_to_us@ROOT
-					has_country_flag = negotiating_ship_purchase_flag@ROOT  
+					has_country_flag = negotiating_ship_purchase_flag@ROOT
 				}
 			}
-			NOT = { has_war_with = USA}
+			NOT = {
+				has_war_with = USA
+			}
 		}
 		available = {
 			NOT = {
@@ -6472,10 +6513,9 @@ wfc_generic_purchase_old_ships_category = {
 							target = FROM
 							value < 30
 						}
-					}					
+					}
 				}
 			}
-			
 		}
 		days_remove = 14
 		remove_effect = {

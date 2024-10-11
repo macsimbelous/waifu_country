@@ -1,0 +1,108 @@
+scripted_gui = {
+    scripted_gui_example_5 = {
+    
+        context_type = decision_category
+		
+		window_name = "scripted_gui_example_5"
+		
+		effects = {
+			button_add_a_click = {
+				add_to_variable = { a = 1 }
+			}
+			button_subtract_a_click = {
+				subtract_from_variable = { a = 1 }
+			}
+			button_add_b_click = {
+				add_to_variable = { b = 1 }
+			}
+			button_subtract_b_click = {
+				subtract_from_variable = { b = 1 }
+			}
+			button_add_c_click = {
+				add_to_variable = { c = 1 }
+			}
+			button_subtract_c_click = {
+				subtract_from_variable = { c = 1 }
+			}
+		}
+        
+		triggers = {
+			button_add_a_click_enabled = {
+				check_variable = { a < 20 }
+			}
+			button_subtract_a_click_enabled = {
+				check_variable = { a > 0 }
+			}
+			button_add_b_click_enabled = {
+				check_variable = { b < 20 }
+			}
+			button_subtract_b_click_enabled = {
+				check_variable = { b > 0 }
+			}
+			button_add_c_click_enabled = {
+				check_variable = { c < 20 }
+			}
+			button_subtract_c_click_enabled = {
+				check_variable = { c > 0 }
+			}
+        }
+		
+		# ai enabled runs with country scope once at the initialization. If it is false the scripted gui won't be enabled for that country at all
+        ai_enabled = {
+			always = yes
+        }
+
+		# interval of this scripted gui will be evaluated by AI
+        ai_test_interval = 3 # every 3 hours
+        ai_test_variance = 0.2 #with variance of 20% (so it is actually every 2.4 - 3.6 hours)
+		
+		# on every interval tick, AI will check this trigger with country trigger if it should do an ai check. if it is false, AI won't check this scripted gui for this tick
+		ai_check = {
+			always = yes
+        }
+		
+		# each effect under effects list can have an ai weight. If it does AI will calculate its AI weight and if it positive, it will run the effect
+		ai_weights = {
+			#name of the effect
+		    button_add_a_click = {
+				ai_will_do = {
+					base = -1 #by default it is negative so AI won't run this
+					modifier = {
+						check_variable = { a < 10 } #if variable a is less than 10, then AI will click this
+						
+						# we are calculating a temp variable here and adding it as modifier (lower value of a, higher t is so AI will priotize this button more)
+						set_temp_variable = { t = 15 }
+						subtract_from_temp_variable = { t = a }
+						add = t
+					}
+				}
+		   }
+		   # same as previous one but for b and c
+		   button_add_b_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = { b < 10 }
+						
+						set_temp_variable = { t = 15 }
+						subtract_from_temp_variable = { t = b }
+						add = t
+					}
+				}
+		   }
+		   button_add_c_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = { c < 10 }
+						
+						set_temp_variable = { t = 15 }
+						subtract_from_temp_variable = { t = c }
+						add = t
+					}
+				}
+		   }
+		}
+    }
+}
+
