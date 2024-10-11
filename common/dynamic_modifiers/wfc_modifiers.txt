@@ -42,7 +42,7 @@ wfc_subsidies_dm = {
 	nuclear_production_factor = wfc_subsidies_to_nuclear
 	local_resources_factor = wfc_subsidies_to_resources
 	#political_power_factor = wfc_political_power_to_subsidies
-	consumer_goods_factor = wfc_political_power_to_subsidies
+	consumer_goods_factor = wfc_consumer_goods_factor_to_subsidies
 }
 
 meh_robo_factory_dm = {

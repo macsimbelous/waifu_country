@@ -2,10 +2,10 @@
 @COLUMN1_OFFSET = 15
 @COLUMN2_OFFSET = 200
 @COLUMN2_OFFSET_2 = 230
-@COLUMN2_OFFSET_3 = 260
+@COLUMN2_OFFSET_3 = 250
 guiTypes = {
 	containerWindowType = {
-		name = "scripted_gui_example_5"
+		name = "wfc_scripted_gui_window_subsidies"
 		position = { x = 0 y = 0 }	
 		
 		size = { width = 100% height = 250 }
@@ -47,7 +47,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_building_text"
 			position = { x = @COLUMN1_OFFSET y = 24 }
 			font = "hoi_18mbs"
-			text = "Building: [?wfc_subsidies_to_building]%"
+			text = "Building: [?wfc_subsidies_to_building|.0%]"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -56,7 +56,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_factory_text"
 			position = { x = @COLUMN1_OFFSET y = 48 }
 			font = "hoi_18mbs"
-			text = "Capacity: [?wfc_subsidies_to_factory]%"
+			text = "Capacity: [?wfc_subsidies_to_factory|.0%]"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -65,7 +65,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_dockyard_text"
 			position = { x = @COLUMN1_OFFSET y = 72 }
 			font = "hoi_18mbs"
-			text = "Dockyard: [?wfc_subsidies_to_dockyard]%"
+			text = "Dockyard: [?wfc_subsidies_to_dockyard|.0%]"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -74,7 +74,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_research_text"
 			position = { x = @COLUMN1_OFFSET y = 96 }
 			font = "hoi_18mbs"
-			text = "Research: [?wfc_subsidies_to_research]%"
+			text = "Research: [?wfc_subsidies_to_research|.0%]"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -83,7 +83,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_resources_text"
 			position = { x = @COLUMN1_OFFSET y = 120 }
 			font = "hoi_18mbs"
-			text = "Resources: [?wfc_subsidies_to_resources]%"
+			text = "Resources: [?wfc_subsidies_to_resources|.0%]"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -92,14 +92,14 @@ guiTypes = {
 			name ="wfc_subsidies_to_nuclear_text"
 			position = { x = @COLUMN1_OFFSET y = 144 }
 			font = "hoi_18mbs"
-			text = "Atom: [?wfc_subsidies_to_nuclear]%"
+			text = "Atom: [?wfc_subsidies_to_nuclear|.0%]"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
 		}
 		#Knopki
 		buttonType = {
-            name = "button_subtract_a"
+            name = "wfc_subsidies_to_building_subtract"
             position = {x = @COLUMN2_OFFSET y = 24 }
 			quadTextureSprite = "GFX_subtract_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -120,7 +120,7 @@ guiTypes = {
             #allwaystransparent = yes
         }
         buttonType = {
-            name = "button_add_a"
+            name = "wfc_subsidies_to_building_add"
             position = {x = @COLUMN2_OFFSET_3 y = 24 }
 			quadTextureSprite = "GFX_add_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -131,7 +131,7 @@ guiTypes = {
 			font = "hoi_16mbs"
         }        
         buttonType = {
-            name = "button_subtract_b"
+            name = "wfc_subsidies_to_factory_subtract"
             position = {x = @COLUMN2_OFFSET y = 48 }
 			quadTextureSprite = "GFX_subtract_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -152,7 +152,7 @@ guiTypes = {
             #allwaystransparent = yes
         }
         buttonType = {
-            name = "button_add_b"
+            name = "wfc_subsidies_to_factory_add"
             position = {x = @COLUMN2_OFFSET_3 y = 48 }
 			quadTextureSprite = "GFX_add_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -163,7 +163,7 @@ guiTypes = {
 			font = "hoi_16mbs"
         }       
         buttonType = {
-            name = "button_subtract_c"
+            name = "wfc_subsidies_to_dockyard_subtract"
             position = {x = @COLUMN2_OFFSET y = 72 }
 			quadTextureSprite = "GFX_subtract_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -184,7 +184,7 @@ guiTypes = {
             #allwaystransparent = yes
         }
         buttonType = {
-            name = "button_add_c"
+            name = "wfc_subsidies_to_dockyard_add"
             position = {x = @COLUMN2_OFFSET_3 y = 72 }
 			quadTextureSprite = "GFX_add_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -195,7 +195,7 @@ guiTypes = {
 			font = "hoi_16mbs"
         }
 		buttonType = {
-            name = "button_subtract_d"
+            name = "wfc_subsidies_to_research_subtract"
             position = {x = @COLUMN2_OFFSET y = 96 }
 			quadTextureSprite = "GFX_subtract_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -216,7 +216,7 @@ guiTypes = {
             #allwaystransparent = yes
         }
 		buttonType = {
-            name = "button_add_d"
+            name = "wfc_subsidies_to_research_add"
             position = {x = @COLUMN2_OFFSET_3 y = 96 }
 			quadTextureSprite = "GFX_add_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -227,7 +227,7 @@ guiTypes = {
 			font = "hoi_16mbs"
         }        
 		buttonType = {
-            name = "button_subtract_e"
+            name = "wfc_subsidies_to_resources_subtract"
             position = {x = @COLUMN2_OFFSET y = 120 }
 			quadTextureSprite = "GFX_subtract_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -248,7 +248,7 @@ guiTypes = {
             #allwaystransparent = yes
         }
 		buttonType = {
-            name = "button_add_e"
+            name = "wfc_subsidies_to_resources_add"
             position = {x = @COLUMN2_OFFSET_3 y = 120 }
 			quadTextureSprite = "GFX_add_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -259,7 +259,7 @@ guiTypes = {
 			font = "hoi_16mbs"
         }   
 		buttonType = {
-            name = "button_subtract_f"
+            name = "wfc_subsidies_to_nuclear_subtract"
             position = {x = @COLUMN2_OFFSET y = 144 }
 			quadTextureSprite = "GFX_subtract_one"
             #spriteType = "GFX_sort_button_100x29_2"
@@ -280,7 +280,7 @@ guiTypes = {
             #allwaystransparent = yes
         }
 		buttonType = {
-            name = "button_add_f"
+            name = "wfc_subsidies_to_nuclear_add"
             position = {x = @COLUMN2_OFFSET_3 y = 144 }
             #spriteType = "GFX_sort_button_100x29_2"
 			quadTextureSprite = "GFX_add_one"
@@ -310,10 +310,29 @@ guiTypes = {
 		# }
         
 
-        
+        #Head 2
+		instantTextBoxType = {
+            name = "Rashodi"
+            position = { x = @COLUMN1_OFFSET y = 168 }
+            font = "hoi_18mbs"
+            text = "Rashodi"
+            maxWidth = 470
+            maxHeight = 400
+            Orientation = "UPPER_LEFT"	
+        }
+		#Body 2
+		instantTextBoxType = {
+			name ="wfc_subsidies_consumer_goods_factor_text"
+			position = { x = @COLUMN1_OFFSET y = 192 }
+			font = "hoi_18mbs"
+			text = "Faktor TNP: [?wfc_political_power_to_subsidies|.0%]"
+			format = left
+			maxWidth = 420
+			maxHeight = 24
+		}
         instantTextBoxType = {
             name = "help"
-            position = { x = 15 y = 168 }
+            position = { x = 15 y = 216 }
             font = "hoi_18mbs"
             text = wfc_budget_category_desc
             maxWidth = 470

@@ -1,0 +1,436 @@
+scripted_gui = {
+	wfc_scripted_gui_subsidies = {
+		context_type = decision_category
+		window_name = "wfc_scripted_gui_window_subsidies"
+		effects = {
+			wfc_subsidies_to_building_add_click = {
+				add_political_power = -25
+				custom_effect_tooltip = wfc_tt_subsidies_to_building_up
+				add_to_variable = {
+					wfc_subsidies_to_building_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_up
+				add_to_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+				hidden_effect = {
+					if = {
+						limit = {
+							NOT = {
+								has_country_flag = wfc_subsidies_dm_flag
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = wfc_subsidies_dm
+						}
+						set_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+			}
+			wfc_subsidies_to_building_subtract_click = {
+				custom_effect_tooltip = wfc_tt_subsidies_to_building_down
+				subtract_from_variable = {
+					wfc_subsidies_to_building_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_down
+				subtract_from_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+			}
+			wfc_subsidies_to_factory_add_click = {
+				add_political_power = -25
+				custom_effect_tooltip = wfc_tt_subsidies_to_factory_up
+				add_to_variable = {
+					wfc_subsidies_to_factory_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_up
+				add_to_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+				hidden_effect = {
+					if = {
+						limit = {
+							NOT = {
+								has_country_flag = wfc_subsidies_dm_flag
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = wfc_subsidies_dm
+						}
+						set_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+			}
+			wfc_subsidies_to_factory_subtract_click = {
+				custom_effect_tooltip = wfc_tt_subsidies_to_factory_down
+				subtract_from_variable = {
+					wfc_subsidies_to_factory_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_down
+				subtract_from_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+			}
+			wfc_subsidies_to_dockyard_add_click = {
+				add_political_power = -25
+				custom_effect_tooltip = wfc_tt_subsidies_to_dockyard_up
+				add_to_variable = {
+					wfc_subsidies_to_dockyard_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_up
+				add_to_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+				hidden_effect = {
+					if = {
+						limit = {
+							NOT = {
+								has_country_flag = wfc_subsidies_dm_flag
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = wfc_subsidies_dm
+						}
+						set_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+			}
+			wfc_subsidies_to_dockyard_subtract_click = {
+				custom_effect_tooltip = wfc_tt_subsidies_to_dockyard_down
+				subtract_from_variable = {
+					wfc_subsidies_to_dockyard_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_down
+				subtract_from_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+			}
+			wfc_subsidies_to_research_add_click = {
+				add_political_power = -25
+				custom_effect_tooltip = wfc_tt_subsidies_to_research_up
+				add_to_variable = {
+					wfc_subsidies_to_research_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_up
+				add_to_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+				hidden_effect = {
+					if = {
+						limit = {
+							NOT = {
+								has_country_flag = wfc_subsidies_dm_flag
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = wfc_subsidies_dm
+						}
+						set_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+			}
+			wfc_subsidies_to_research_subtract_click = {
+				custom_effect_tooltip = wfc_tt_subsidies_to_research_down
+				subtract_from_variable = {
+					wfc_subsidies_to_research_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_down
+				subtract_from_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+			}
+			wfc_subsidies_to_resources_add_click = {
+				add_political_power = -25
+				custom_effect_tooltip = wfc_tt_subsidies_to_resources_up
+				add_to_variable = {
+					wfc_subsidies_to_resources_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_up
+				add_to_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+				hidden_effect = {
+					if = {
+						limit = {
+							NOT = {
+								has_country_flag = wfc_subsidies_dm_flag
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = wfc_subsidies_dm
+						}
+						set_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+			}
+			wfc_subsidies_to_resources_subtract_click = {
+				custom_effect_tooltip = wfc_tt_subsidies_to_resources_down
+				subtract_from_variable = {
+					wfc_subsidies_to_resources_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_down
+				subtract_from_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+			}
+			wfc_subsidies_to_nuclear_add_click = {
+				add_political_power = -25
+				custom_effect_tooltip = wfc_tt_subsidies_to_nuclear_up
+				add_to_variable = {
+					wfc_subsidies_to_nuclear_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_up
+				add_to_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+				hidden_effect = {
+					if = {
+						limit = {
+							NOT = {
+								has_country_flag = wfc_subsidies_dm_flag
+							}
+						}
+						add_dynamic_modifier = {
+							modifier = wfc_subsidies_dm
+						}
+						set_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+			}
+			wfc_subsidies_to_nuclear_subtract_click = {
+				custom_effect_tooltip = wfc_tt_subsidies_to_nuclear_down
+				subtract_from_variable = {
+					wfc_subsidies_to_nuclear_count = 1
+				}
+				custom_effect_tooltip = wfc_tt_subsidies_count_down
+				subtract_from_variable = {
+					wfc_subsidies_count = 1
+				}
+				wfc_subsidies_change = yes
+			}
+		}
+		triggers = {
+			wfc_subsidies_to_building_add_click_enabled = {
+				has_political_power > 24
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+			wfc_subsidies_to_building_subtract_click_enabled = {
+				check_variable = {
+					var = wfc_subsidies_to_building_count
+					value = 0
+					compare = greater_than
+				}
+			}
+			wfc_subsidies_to_factory_add_click_enabled = {
+				has_political_power > 24
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+			wfc_subsidies_to_factory_subtract_click_enabled = {
+				check_variable = {
+					var = wfc_subsidies_to_factory_count
+					value = 0
+					compare = greater_than
+				}
+			}
+			wfc_subsidies_to_dockyard_add_click_enabled = {
+				has_political_power > 24
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+			wfc_subsidies_to_dockyard_subtract_click_enabled = {
+				check_variable = {
+					var = wfc_subsidies_to_dockyard_count
+					value = 0
+					compare = greater_than
+				}
+			}
+			wfc_subsidies_to_research_add_click_enabled = {
+				has_political_power > 24
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+			wfc_subsidies_to_research_subtract_click_enabled = {
+				check_variable = {
+					var = wfc_subsidies_to_research_count
+					value = 0
+					compare = greater_than
+				}
+			}
+			wfc_subsidies_to_resources_add_click_enabled = {
+				has_political_power > 24
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+			wfc_subsidies_to_resources_subtract_click_enabled = {
+				check_variable = {
+					var = wfc_subsidies_to_resources_count
+					value = 0
+					compare = greater_than
+				}
+			}
+			wfc_subsidies_to_nuclear_add_click_enabled = {
+				has_political_power > 24
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+			wfc_subsidies_to_nuclear_subtract_click_enabled = {
+				check_variable = {
+					var = wfc_subsidies_to_nuclear_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		# ai enabled runs with country scope once at the initialization. If it is false the scripted gui won't be enabled for that country at all
+		ai_enabled = {
+			always = yes
+		}
+		# interval of this scripted gui will be evaluated by AI
+		ai_test_interval = 3		# every 3 hours
+		ai_test_variance = 0.2		#with variance of 20% (so it is actually every 2.4 - 3.6 hours)
+		# on every interval tick, AI will check this trigger with country trigger if it should do an ai check. if it is false, AI won't check this scripted gui for this tick
+		ai_check = {
+			always = yes
+		}
+		# each effect under effects list can have an ai weight. If it does AI will calculate its AI weight and if it positive, it will run the effect
+		ai_weights = {
+			#name of the effect
+			wfc_subsidies_to_building_add_click = {
+				ai_will_do = {
+					base = -1					#by default it is negative so AI won't run this
+					modifier = {
+						check_variable = {
+							a < 10
+						}
+						#if variable a is less than 10, then AI will click this
+						# we are calculating a temp variable here and adding it as modifier (lower value of a, higher t is so AI will priotize this button more)
+						set_temp_variable = {
+							t = 15
+						}
+						subtract_from_temp_variable = {
+							t = a
+						}
+						add = t
+					}
+				}
+			}
+			# same as previous one but for b and c
+			wfc_subsidies_to_factory_add_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = {
+							b < 10
+						}
+						set_temp_variable = {
+							t = 15
+						}
+						subtract_from_temp_variable = {
+							t = b
+						}
+						add = t
+					}
+				}
+			}
+			wfc_subsidies_to_dockyard_add_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = {
+							c < 10
+						}
+						set_temp_variable = {
+							t = 15
+						}
+						subtract_from_temp_variable = {
+							t = c
+						}
+						add = t
+					}
+				}
+			}
+			wfc_subsidies_to_research_add_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = {
+							d < 10
+						}
+						set_temp_variable = {
+							t = 15
+						}
+						subtract_from_temp_variable = {
+							t = d
+						}
+						add = t
+					}
+				}
+			}
+			wfc_subsidies_to_resources_add_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = {
+							e < 10
+						}
+						set_temp_variable = {
+							t = 15
+						}
+						subtract_from_temp_variable = {
+							t = e
+						}
+						add = t
+					}
+				}
+			}
+			wfc_subsidies_to_nuclear_add_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = {
+							f < 10
+						}
+						set_temp_variable = {
+							t = 15
+						}
+						subtract_from_temp_variable = {
+							t = f
+						}
+						add = t
+					}
+				}
+			}
+		}
+	}
+}
