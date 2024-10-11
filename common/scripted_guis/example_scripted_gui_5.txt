@@ -24,6 +24,24 @@ scripted_gui = {
 			button_subtract_c_click = {
 				subtract_from_variable = { c = 1 }
 			}
+			button_add_d_click = {
+				add_to_variable = { d = 1 }
+			}
+			button_subtract_d_click = {
+				subtract_from_variable = { d = 1 }
+			}
+			button_add_e_click = {
+				add_to_variable = { e = 1 }
+			}
+			button_subtract_e_click = {
+				subtract_from_variable = { e = 1 }
+			}
+			button_add_f_click = {
+				add_to_variable = { f = 1 }
+			}
+			button_subtract_f_click = {
+				subtract_from_variable = { f = 1 }
+			}
 		}
         
 		triggers = {
@@ -44,6 +62,24 @@ scripted_gui = {
 			}
 			button_subtract_c_click_enabled = {
 				check_variable = { c > 0 }
+			}
+			button_add_d_click_enabled = {
+				check_variable = { d < 20 }
+			}
+			button_subtract_d_click_enabled = {
+				check_variable = { d > 0 }
+			}
+			button_add_e_click_enabled = {
+				check_variable = { e < 20 }
+			}
+			button_subtract_e_click_enabled = {
+				check_variable = { e > 0 }
+			}
+			button_add_f_click_enabled = {
+				check_variable = { f < 20 }
+			}
+			button_subtract_f_click_enabled = {
+				check_variable = { f > 0 }
 			}
         }
 		
@@ -98,6 +134,42 @@ scripted_gui = {
 						
 						set_temp_variable = { t = 15 }
 						subtract_from_temp_variable = { t = c }
+						add = t
+					}
+				}
+		   }
+		   button_add_d_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = { d < 10 }
+						
+						set_temp_variable = { t = 15 }
+						subtract_from_temp_variable = { t = d }
+						add = t
+					}
+				}
+		   }
+		   button_add_e_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = { e < 10 }
+						
+						set_temp_variable = { t = 15 }
+						subtract_from_temp_variable = { t = e }
+						add = t
+					}
+				}
+		   }
+		   button_add_f_click = {
+				ai_will_do = {
+					base = -1
+					modifier = {
+						check_variable = { f < 10 }
+						
+						set_temp_variable = { t = 15 }
+						subtract_from_temp_variable = { t = f }
 						add = t
 					}
 				}

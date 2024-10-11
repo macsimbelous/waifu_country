@@ -4,7 +4,7 @@ guiTypes = {
 		name = "scripted_gui_example_5"
 		position = { x = 0 y = 0 }	
 		
-		size = { width = 400 height = 600 }
+		size = { width = 100% height = 600 }
 		
 		# fade_time = 300
 		# fade_type = linear
@@ -19,26 +19,61 @@ guiTypes = {
 		# 	quadTextureSprite = "GFX_tiled_plain_bg"
 		# }
         
-		instantTextboxType = {
-			name = "title"
+		instantTextBoxType = {
+			name ="text_a"
 			position = { x = 15 y = 8 }
-			font = "hoi_36header"
-			borderSize = {x = 0 y = 0}
-			text = "Example 5"
-			maxWidth = 240
-			maxHeight = 20
-			format = left	
+			font = "hoi_18mbs"
+			text = "a = [?a]"
+			format = left
+			maxWidth = 420
+			maxHeight = 24
 		}
-        
-        # buttonType = {
-        #     name = "close_button"
-        #     position = {x = 455 y = 10}
-        #     spriteType = "GFX_NV_btn_close"
-        #     clicksound = click_close
-            
-		# 	pdx_tooltip = "ROOT_NAME"
-        # }
-		
+		instantTextBoxType = {
+			name ="text_b"
+			position = { x = 15 y = 18 }
+			font = "hoi_18mbs"
+			text = "b = [?b]"
+			format = left
+			maxWidth = 420
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="text_c"
+			position = { x = 15 y = 28 }
+			font = "hoi_18mbs"
+			text = "c = [?c]"
+			format = left
+			maxWidth = 420
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="text_d"
+			position = { x = 15 y = 38 }
+			font = "hoi_18mbs"
+			text = "d = [?d]"
+			format = left
+			maxWidth = 420
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="text_e"
+			position = { x = 15 y = 48 }
+			font = "hoi_18mbs"
+			text = "e = [?e]"
+			format = left
+			maxWidth = 420
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="text_f"
+			position = { x = 15 y = 58 }
+			font = "hoi_18mbs"
+			text = "f = [?f]"
+			format = left
+			maxWidth = 420
+			maxHeight = 24
+		}
+		#Knopki
         buttonType = {
             name = "button_add_a"
             position = {x = 10 y = 100}
@@ -46,8 +81,7 @@ guiTypes = {
             frame = 2
 			buttonFont = "hoi_16mbs"
 			buttonText = "Add A"
-        }
-        
+        }        
         buttonType = {
             name = "button_subtract_a"
             position = {x = 110 y = 100}
@@ -56,17 +90,6 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			buttonText = "Subtract A"
         }
-        
-		instantTextBoxType = {
-			name ="text_a"
-			position = { x = 220 y = 103 }
-			font = "hoi_18mbs"
-			text = "a = [?a]"
-			format = left
-			maxWidth = 420
-			maxHeight = 24
-		}
-        
         buttonType = {
             name = "button_add_b"
             position = {x = 10 y = 130}
@@ -74,8 +97,7 @@ guiTypes = {
             frame = 2
 			buttonFont = "hoi_16mbs"
 			buttonText = "Add B"
-        }
-        
+        }       
         buttonType = {
             name = "button_subtract_b"
             position = {x = 110 y = 130}
@@ -84,17 +106,6 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			buttonText = "Subtract B"
         }
-        
-		instantTextBoxType = {
-			name ="text_b"
-			position = { x = 220 y = 133 }
-			font = "hoi_18mbs"
-			text = "b = [?b]"
-			format = left
-			maxWidth = 420
-			maxHeight = 24
-		}
-        
         buttonType = {
             name = "button_add_c"
             position = {x = 10 y = 160}
@@ -103,7 +114,6 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			buttonText = "Add C"
         }
-        
         buttonType = {
             name = "button_subtract_c"
             position = {x = 110 y = 160}
@@ -112,22 +122,97 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			buttonText = "Subtract C"
         }
-        
-		instantTextBoxType = {
-			name ="text_c"
-			position = { x = 220 y = 163 }
-			font = "hoi_18mbs"
-			text = "c = [?c]"
-			format = left
-			maxWidth = 420
-			maxHeight = 24
+		buttonType = {
+            name = "button_add_d"
+            position = {x = 10 y = 190}
+            spriteType = "GFX_sort_button_100x29_2"
+            frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "Add D"
+        }        
+        buttonType = {
+            name = "button_subtract_d"
+            position = {x = 110 y = 190}
+            spriteType = "GFX_sort_button_100x29_2"
+            frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "Subtract D"
+        }
+		buttonType = {
+            name = "button_add_e"
+            position = {x = 10 y = 220}
+            spriteType = "GFX_sort_button_100x29_2"
+            frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "Add E"
+        }        
+        buttonType = {
+            name = "button_subtract_e"
+            position = {x = 110 y = 220}
+            spriteType = "GFX_sort_button_100x29_2"
+            frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "Subtract E"
+        }
+		buttonType = {
+            name = "button_add_f"
+            position = {x = 10 y = 250}
+            spriteType = "GFX_sort_button_100x29_2"
+            frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "Add F"
+        }        
+        buttonType = {
+            name = "button_subtract_f"
+            position = {x = 110 y = 250}
+            spriteType = "GFX_sort_button_100x29_2"
+            frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "Subtract F"
+        }
+
+		buttonType = {
+            name = "button_add_g"
+            position = {x = 10 y = 280}
+            quadTextureSprite = "GFX_add_one"
+            #frame = 2
+			font = "hoi_16mbs"
+			#buttonText = "Add F"
+			clicksound = click_default
+        }        
+        buttonType = {
+            name = "button_subtract_g"
+            position = {x = 110 y = 280}
+            quadTextureSprite = "GFX_subtract_one"
+            #frame = 2
+			font = "hoi_16mbs"
+			#buttonText = "Subtract F"
+			clicksound = click_default
+        }
+		buttonType = {
+			name = "wfc_factories_sub_1x"
+			position = { x=31 y=2 }
+			quadTextureSprite = "GFX_subtract_one"
+			font = "hoi_16mbs"
+			clicksound = click_default
+			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
+		buttonType = {
+			name = "wfc_factories_add_1x"
+			position = { x=95 y=2 }
+			quadTextureSprite = "GFX_add_one"
+			font = "hoi_16mbs"
+			clicksound = click_default
+			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
+		}
+        
+
         
         instantTextBoxType = {
             name = "help"
-            position = { x = 20 y = 450 }
+            position = { x = 15 y = 450 }
             font = "hoi_18mbs"
-            text = "example_5_text"
+            text = wfc_budget_category_desc
             maxWidth = 470
             maxHeight = 400
             Orientation = "UPPER_LEFT"	
