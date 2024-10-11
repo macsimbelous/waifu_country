@@ -1,10 +1,14 @@
 
+@COLUMN1_OFFSET = 15
+@COLUMN2_OFFSET = 200
+@COLUMN2_OFFSET_2 = 230
+@COLUMN2_OFFSET_3 = 260
 guiTypes = {
 	containerWindowType = {
 		name = "scripted_gui_example_5"
 		position = { x = 0 y = 0 }	
 		
-		size = { width = 100% height = 600 }
+		size = { width = 100% height = 250 }
 		
 		# fade_time = 300
 		# fade_type = linear
@@ -18,199 +22,298 @@ guiTypes = {
 		# 	name = "Background"		
 		# 	quadTextureSprite = "GFX_tiled_plain_bg"
 		# }
-        
+
+        #Head
 		instantTextBoxType = {
-			name ="text_a"
-			position = { x = 15 y = 8 }
+            name = "bonus column"
+            position = { x = @COLUMN1_OFFSET y = 0 }
+            font = "hoi_18mbs"
+            text = "Bonus"
+            maxWidth = 470
+            maxHeight = 400
+            Orientation = "UPPER_LEFT"	
+        }
+		instantTextBoxType = {
+            name = "subsidii column"
+            position = { x = @COLUMN2_OFFSET y = 0 }
+            font = "hoi_18mbs"
+            text = "Subsidii"
+            maxWidth = 470
+            maxHeight = 400
+            Orientation = "UPPER_LEFT"	
+        }
+		#Body
+		instantTextBoxType = {
+			name ="wfc_subsidies_to_building_text"
+			position = { x = @COLUMN1_OFFSET y = 24 }
 			font = "hoi_18mbs"
-			text = "a = [?a]"
+			text = "Building: [?wfc_subsidies_to_building]%"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
 		}
 		instantTextBoxType = {
-			name ="text_b"
-			position = { x = 15 y = 18 }
+			name ="wfc_subsidies_to_factory_text"
+			position = { x = @COLUMN1_OFFSET y = 48 }
 			font = "hoi_18mbs"
-			text = "b = [?b]"
+			text = "Capacity: [?wfc_subsidies_to_factory]%"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
 		}
 		instantTextBoxType = {
-			name ="text_c"
-			position = { x = 15 y = 28 }
+			name ="wfc_subsidies_to_dockyard_text"
+			position = { x = @COLUMN1_OFFSET y = 72 }
 			font = "hoi_18mbs"
-			text = "c = [?c]"
+			text = "Dockyard: [?wfc_subsidies_to_dockyard]%"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
 		}
 		instantTextBoxType = {
-			name ="text_d"
-			position = { x = 15 y = 38 }
+			name ="wfc_subsidies_to_research_text"
+			position = { x = @COLUMN1_OFFSET y = 96 }
 			font = "hoi_18mbs"
-			text = "d = [?d]"
+			text = "Research: [?wfc_subsidies_to_research]%"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
 		}
 		instantTextBoxType = {
-			name ="text_e"
-			position = { x = 15 y = 48 }
+			name ="wfc_subsidies_to_resources_text"
+			position = { x = @COLUMN1_OFFSET y = 120 }
 			font = "hoi_18mbs"
-			text = "e = [?e]"
+			text = "Resources: [?wfc_subsidies_to_resources]%"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
 		}
 		instantTextBoxType = {
-			name ="text_f"
-			position = { x = 15 y = 58 }
+			name ="wfc_subsidies_to_nuclear_text"
+			position = { x = @COLUMN1_OFFSET y = 144 }
 			font = "hoi_18mbs"
-			text = "f = [?f]"
+			text = "Atom: [?wfc_subsidies_to_nuclear]%"
 			format = left
 			maxWidth = 420
 			maxHeight = 24
 		}
 		#Knopki
+		buttonType = {
+            name = "button_subtract_a"
+            position = {x = @COLUMN2_OFFSET y = 24 }
+			quadTextureSprite = "GFX_subtract_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Subtract A"
+			clicksound = click_default
+			font = "hoi_16mbs"
+        }
+		instantTextBoxType = {
+            name = "wfc_subsidies_to_building_count_text"
+            position = { x = @COLUMN2_OFFSET_2 y = 24 }
+            font = "hoi_18mbs"
+            text = "[?wfc_subsidies_to_building_count]"
+            maxWidth = 470
+            maxHeight = 24
+            Orientation = "UPPER_LEFT"	
+            #allwaystransparent = yes
+        }
         buttonType = {
             name = "button_add_a"
-            position = {x = 10 y = 100}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Add A"
+            position = {x = @COLUMN2_OFFSET_3 y = 24 }
+			quadTextureSprite = "GFX_add_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Add A"
+			clicksound = click_default
+			font = "hoi_16mbs"
         }        
         buttonType = {
-            name = "button_subtract_a"
-            position = {x = 110 y = 100}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Subtract A"
+            name = "button_subtract_b"
+            position = {x = @COLUMN2_OFFSET y = 48 }
+			quadTextureSprite = "GFX_subtract_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Subtract B"
+			clicksound = click_default
+			font = "hoi_16mbs"
+        }
+		instantTextBoxType = {
+            name = "wfc_subsidies_to_factory_count_text"
+            position = { x = @COLUMN2_OFFSET_2 y = 48 }
+            font = "hoi_18mbs"
+            text = "[?wfc_subsidies_to_factory_count]"
+            maxWidth = 470
+            maxHeight = 24
+            Orientation = "UPPER_LEFT"	
+            #allwaystransparent = yes
         }
         buttonType = {
             name = "button_add_b"
-            position = {x = 10 y = 130}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Add B"
+            position = {x = @COLUMN2_OFFSET_3 y = 48 }
+			quadTextureSprite = "GFX_add_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Add B"
+			clicksound = click_default
+			font = "hoi_16mbs"
         }       
         buttonType = {
-            name = "button_subtract_b"
-            position = {x = 110 y = 130}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Subtract B"
+            name = "button_subtract_c"
+            position = {x = @COLUMN2_OFFSET y = 72 }
+			quadTextureSprite = "GFX_subtract_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Subtract C"
+			clicksound = click_default
+			font = "hoi_16mbs"
+        }
+		instantTextBoxType = {
+            name = "wfc_subsidies_to_dockyard_count_text"
+            position = { x = @COLUMN2_OFFSET_2 y = 72 }
+            font = "hoi_18mbs"
+            text = "[?wfc_subsidies_to_dockyard_count]"
+            maxWidth = 470
+            maxHeight = 24
+            Orientation = "UPPER_LEFT"	
+            #allwaystransparent = yes
         }
         buttonType = {
             name = "button_add_c"
-            position = {x = 10 y = 160}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Add C"
+            position = {x = @COLUMN2_OFFSET_3 y = 72 }
+			quadTextureSprite = "GFX_add_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Add C"
+			clicksound = click_default
+			font = "hoi_16mbs"
         }
-        buttonType = {
-            name = "button_subtract_c"
-            position = {x = 110 y = 160}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Subtract C"
+		buttonType = {
+            name = "button_subtract_d"
+            position = {x = @COLUMN2_OFFSET y = 96 }
+			quadTextureSprite = "GFX_subtract_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Subtract D"
+			clicksound = click_default
+			font = "hoi_16mbs"
+        }
+		instantTextBoxType = {
+            name = "wfc_subsidies_to_research_count_text"
+            position = { x = @COLUMN2_OFFSET_2 y = 96 }
+            font = "hoi_18mbs"
+            text = "[?wfc_subsidies_to_research_count]"
+            maxWidth = 470
+            maxHeight = 24
+            Orientation = "UPPER_LEFT"	
+            #allwaystransparent = yes
         }
 		buttonType = {
             name = "button_add_d"
-            position = {x = 10 y = 190}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Add D"
+            position = {x = @COLUMN2_OFFSET_3 y = 96 }
+			quadTextureSprite = "GFX_add_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Add D"
+			clicksound = click_default
+			font = "hoi_16mbs"
         }        
-        buttonType = {
-            name = "button_subtract_d"
-            position = {x = 110 y = 190}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Subtract D"
+		buttonType = {
+            name = "button_subtract_e"
+            position = {x = @COLUMN2_OFFSET y = 120 }
+			quadTextureSprite = "GFX_subtract_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Subtract E"
+			clicksound = click_default
+			font = "hoi_16mbs"
+        }
+		instantTextBoxType = {
+            name = "wfc_subsidies_to_resources_count_text"
+            position = { x = @COLUMN2_OFFSET_2 y = 120 }
+            font = "hoi_18mbs"
+            text = "[?wfc_subsidies_to_resources_count]"
+            maxWidth = 470
+            maxHeight = 24
+            Orientation = "UPPER_LEFT"	
+            #allwaystransparent = yes
         }
 		buttonType = {
             name = "button_add_e"
-            position = {x = 10 y = 220}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Add E"
-        }        
-        buttonType = {
-            name = "button_subtract_e"
-            position = {x = 110 y = 220}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Subtract E"
+            position = {x = @COLUMN2_OFFSET_3 y = 120 }
+			quadTextureSprite = "GFX_add_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Add E"
+			clicksound = click_default
+			font = "hoi_16mbs"
+        }   
+		buttonType = {
+            name = "button_subtract_f"
+            position = {x = @COLUMN2_OFFSET y = 144 }
+			quadTextureSprite = "GFX_subtract_one"
+            #spriteType = "GFX_sort_button_100x29_2"
+            # frame = 2
+			# buttonFont = "hoi_16mbs"
+			# buttonText = "Subtract F"
+			clicksound = click_default
+			font = "hoi_16mbs"
+        }    
+		instantTextBoxType = {
+            name = "wfc_subsidies_to_nuclear_count_text"
+            position = { x = @COLUMN2_OFFSET_2 y = 144 }
+            font = "hoi_18mbs"
+            text = "[?wfc_subsidies_to_nuclear_count]"
+            maxWidth = 470
+            maxHeight = 24
+            Orientation = "UPPER_LEFT"	
+            #allwaystransparent = yes
         }
 		buttonType = {
             name = "button_add_f"
-            position = {x = 10 y = 250}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Add F"
-        }        
-        buttonType = {
-            name = "button_subtract_f"
-            position = {x = 110 y = 250}
-            spriteType = "GFX_sort_button_100x29_2"
-            frame = 2
-			buttonFont = "hoi_16mbs"
-			buttonText = "Subtract F"
-        }
-
-		buttonType = {
-            name = "button_add_g"
-            position = {x = 10 y = 280}
-            quadTextureSprite = "GFX_add_one"
+            position = {x = @COLUMN2_OFFSET_3 y = 144 }
+            #spriteType = "GFX_sort_button_100x29_2"
+			quadTextureSprite = "GFX_add_one"
             #frame = 2
-			font = "hoi_16mbs"
+			#buttonFont = "hoi_16mbs"
 			#buttonText = "Add F"
 			clicksound = click_default
+			font = "hoi_16mbs"
         }        
-        buttonType = {
-            name = "button_subtract_g"
-            position = {x = 110 y = 280}
-            quadTextureSprite = "GFX_subtract_one"
-            #frame = 2
-			font = "hoi_16mbs"
-			#buttonText = "Subtract F"
-			clicksound = click_default
-        }
-		buttonType = {
-			name = "wfc_factories_sub_1x"
-			position = { x=31 y=2 }
-			quadTextureSprite = "GFX_subtract_one"
-			font = "hoi_16mbs"
-			clicksound = click_default
-			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
-		}
-		buttonType = {
-			name = "wfc_factories_add_1x"
-			position = { x=95 y=2 }
-			quadTextureSprite = "GFX_add_one"
-			font = "hoi_16mbs"
-			clicksound = click_default
-			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
-		}
+
+
+		# buttonType = {
+		# 	name = "wfc_factories_sub_1x"
+		# 	position = { x=31 y=2 }
+		# 	quadTextureSprite = "GFX_subtract_one"
+		# 	font = "hoi_16mbs"
+		# 	clicksound = click_default
+		# 	pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
+		# }
+		# buttonType = {
+		# 	name = "wfc_factories_add_1x"
+		# 	position = { x=95 y=2 }
+		# 	quadTextureSprite = "GFX_add_one"
+		# 	font = "hoi_16mbs"
+		# 	clicksound = click_default
+		# 	pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
+		# }
         
 
         
         instantTextBoxType = {
             name = "help"
-            position = { x = 15 y = 450 }
+            position = { x = 15 y = 168 }
             font = "hoi_18mbs"
             text = wfc_budget_category_desc
             maxWidth = 470
