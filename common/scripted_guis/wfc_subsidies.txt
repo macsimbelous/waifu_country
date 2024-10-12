@@ -222,94 +222,145 @@ scripted_gui = {
 		}
 		triggers = {
 			wfc_subsidies_to_building_add_click_enabled = {
-				has_political_power > 24
-				check_variable = {
-					var = wfc_subsidies_count
-					value = mtth:wfc_subsidies_count
-					compare = less_than
+				hidden_trigger = {
+					has_political_power > 24
+				}
+				custom_trigger_tooltip = {
+					tooltip = wfc_subsidies_count_up_tt
+					check_variable = {
+						var = wfc_subsidies_count
+						value = mtth:wfc_subsidies_count
+						compare = less_than
+					}
 				}
 			}
 			wfc_subsidies_to_building_subtract_click_enabled = {
+				custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
 				check_variable = {
 					var = wfc_subsidies_to_building_count
 					value = 0
 					compare = greater_than
 				}
 			}
+			}
 			wfc_subsidies_to_factory_add_click_enabled = {
-				has_political_power > 24
-				check_variable = {
-					var = wfc_subsidies_count
-					value = mtth:wfc_subsidies_count
-					compare = less_than
+				hidden_trigger = {
+					has_political_power > 24
+				}
+				custom_trigger_tooltip = {
+					tooltip = wfc_subsidies_count_up_tt
+					check_variable = {
+						var = wfc_subsidies_count
+						value = mtth:wfc_subsidies_count
+						compare = less_than
+					}
 				}
 			}
 			wfc_subsidies_to_factory_subtract_click_enabled = {
+				custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
 				check_variable = {
 					var = wfc_subsidies_to_factory_count
 					value = 0
 					compare = greater_than
 				}
 			}
+			}
 			wfc_subsidies_to_dockyard_add_click_enabled = {
-				has_political_power > 24
-				check_variable = {
-					var = wfc_subsidies_count
-					value = mtth:wfc_subsidies_count
-					compare = less_than
+				hidden_trigger = {
+					has_political_power > 24
+				}
+				dockyard > 0
+				custom_trigger_tooltip = {
+					tooltip = wfc_subsidies_count_up_tt
+					check_variable = {
+						var = wfc_subsidies_count
+						value = mtth:wfc_subsidies_count
+						compare = less_than
+					}
 				}
 			}
 			wfc_subsidies_to_dockyard_subtract_click_enabled = {
+				custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
 				check_variable = {
 					var = wfc_subsidies_to_dockyard_count
 					value = 0
 					compare = greater_than
 				}
 			}
+			}
 			wfc_subsidies_to_research_add_click_enabled = {
-				has_political_power > 24
-				check_variable = {
-					var = wfc_subsidies_count
-					value = mtth:wfc_subsidies_count
-					compare = less_than
+				hidden_trigger = {
+					has_political_power > 24
+				}
+				custom_trigger_tooltip = {
+					tooltip = wfc_subsidies_count_up_tt
+					check_variable = {
+						var = wfc_subsidies_count
+						value = mtth:wfc_subsidies_count
+						compare = less_than
+					}
 				}
 			}
 			wfc_subsidies_to_research_subtract_click_enabled = {
+				custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
 				check_variable = {
 					var = wfc_subsidies_to_research_count
 					value = 0
 					compare = greater_than
 				}
 			}
+			}
 			wfc_subsidies_to_resources_add_click_enabled = {
-				has_political_power > 24
-				check_variable = {
-					var = wfc_subsidies_count
-					value = mtth:wfc_subsidies_count
-					compare = less_than
+				hidden_trigger = {
+					has_political_power > 24
+				}
+				custom_trigger_tooltip = {
+					tooltip = wfc_subsidies_count_up_tt
+					check_variable = {
+						var = wfc_subsidies_count
+						value = mtth:wfc_subsidies_count
+						compare = less_than
+					}
 				}
 			}
 			wfc_subsidies_to_resources_subtract_click_enabled = {
+				custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
 				check_variable = {
 					var = wfc_subsidies_to_resources_count
 					value = 0
 					compare = greater_than
 				}
 			}
+			}
 			wfc_subsidies_to_nuclear_add_click_enabled = {
-				has_political_power > 24
-				check_variable = {
-					var = wfc_subsidies_count
-					value = mtth:wfc_subsidies_count
-					compare = less_than
+				hidden_trigger = {
+					has_political_power > 24
 				}
+				custom_trigger_tooltip = {
+					tooltip = wfc_subsidies_count_up_tt
+					check_variable = {
+						var = wfc_subsidies_count
+						value = mtth:wfc_subsidies_count
+						compare = less_than
+					}
+				}
+				has_tech = nukes
+				nuclear_reactor > 0
 			}
 			wfc_subsidies_to_nuclear_subtract_click_enabled = {
+				custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
 				check_variable = {
 					var = wfc_subsidies_to_nuclear_count
 					value = 0
 					compare = greater_than
 				}
+			}
 			}
 		}
 		# ai enabled runs with country scope once at the initialization. If it is false the scripted gui won't be enabled for that country at all

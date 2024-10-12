@@ -1,14 +1,15 @@
 
 @COLUMN1_OFFSET = 15
-@COLUMN2_OFFSET = 200
-@COLUMN2_OFFSET_2 = 230
-@COLUMN2_OFFSET_3 = 250
+@COLUMN2_OFFSET = 310
+@COLUMN2_OFFSET_2 = 340
+@COLUMN2_OFFSET_3 = 360
+@COLUMN2_OFFSET_4 = 325
 guiTypes = {
 	containerWindowType = {
 		name = "wfc_scripted_gui_window_subsidies"
 		position = { x = 0 y = 0 }	
 		
-		size = { width = 100% height = 250 }
+		size = { width = 100% height = 264 }
 		
 		# fade_time = 300
 		# fade_type = linear
@@ -28,7 +29,7 @@ guiTypes = {
             name = "bonus column"
             position = { x = @COLUMN1_OFFSET y = 0 }
             font = "hoi_18mbs"
-            text = "Bonus"
+            text = wfc_subsidies_bonus_column_text
             maxWidth = 470
             maxHeight = 400
             Orientation = "UPPER_LEFT"	
@@ -37,7 +38,7 @@ guiTypes = {
             name = "subsidii column"
             position = { x = @COLUMN2_OFFSET y = 0 }
             font = "hoi_18mbs"
-            text = "Subsidii"
+            text = wfc_subsidies_subsidies_column_text
             maxWidth = 470
             maxHeight = 400
             Orientation = "UPPER_LEFT"	
@@ -47,7 +48,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_building_text"
 			position = { x = @COLUMN1_OFFSET y = 24 }
 			font = "hoi_18mbs"
-			text = "Building: [?wfc_subsidies_to_building|.0%]"
+			text = wfc_subsidies_to_building_text
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -56,7 +57,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_factory_text"
 			position = { x = @COLUMN1_OFFSET y = 48 }
 			font = "hoi_18mbs"
-			text = "Capacity: [?wfc_subsidies_to_factory|.0%]"
+			text = wfc_subsidies_to_factory_text
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -65,7 +66,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_dockyard_text"
 			position = { x = @COLUMN1_OFFSET y = 72 }
 			font = "hoi_18mbs"
-			text = "Dockyard: [?wfc_subsidies_to_dockyard|.0%]"
+			text = wfc_subsidies_to_dockyard_text
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -74,7 +75,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_research_text"
 			position = { x = @COLUMN1_OFFSET y = 96 }
 			font = "hoi_18mbs"
-			text = "Research: [?wfc_subsidies_to_research|.0%]"
+			text = wfc_subsidies_to_research_text
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -83,7 +84,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_resources_text"
 			position = { x = @COLUMN1_OFFSET y = 120 }
 			font = "hoi_18mbs"
-			text = "Resources: [?wfc_subsidies_to_resources|.0%]"
+			text = wfc_subsidies_to_resources_text
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -92,7 +93,7 @@ guiTypes = {
 			name ="wfc_subsidies_to_nuclear_text"
 			position = { x = @COLUMN1_OFFSET y = 144 }
 			font = "hoi_18mbs"
-			text = "Atom: [?wfc_subsidies_to_nuclear|.0%]"
+			text = wfc_subsidies_to_nuclear_text
 			format = left
 			maxWidth = 420
 			maxHeight = 24
@@ -108,12 +109,13 @@ guiTypes = {
 			# buttonText = "Subtract A"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_building_subtract_tt
         }
 		instantTextBoxType = {
             name = "wfc_subsidies_to_building_count_text"
             position = { x = @COLUMN2_OFFSET_2 y = 24 }
             font = "hoi_18mbs"
-            text = "[?wfc_subsidies_to_building_count]"
+            text = wfc_subsidies_to_building_count_text
             maxWidth = 470
             maxHeight = 24
             Orientation = "UPPER_LEFT"	
@@ -129,6 +131,7 @@ guiTypes = {
 			# buttonText = "Add A"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_building_add_tt
         }        
         buttonType = {
             name = "wfc_subsidies_to_factory_subtract"
@@ -140,12 +143,13 @@ guiTypes = {
 			# buttonText = "Subtract B"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_factory_subtract_tt
         }
 		instantTextBoxType = {
             name = "wfc_subsidies_to_factory_count_text"
             position = { x = @COLUMN2_OFFSET_2 y = 48 }
             font = "hoi_18mbs"
-            text = "[?wfc_subsidies_to_factory_count]"
+            text = wfc_subsidies_to_factory_count_text
             maxWidth = 470
             maxHeight = 24
             Orientation = "UPPER_LEFT"	
@@ -161,6 +165,7 @@ guiTypes = {
 			# buttonText = "Add B"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_factory_add_tt
         }       
         buttonType = {
             name = "wfc_subsidies_to_dockyard_subtract"
@@ -172,12 +177,13 @@ guiTypes = {
 			# buttonText = "Subtract C"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_dockyard_subtract_tt
         }
 		instantTextBoxType = {
             name = "wfc_subsidies_to_dockyard_count_text"
             position = { x = @COLUMN2_OFFSET_2 y = 72 }
             font = "hoi_18mbs"
-            text = "[?wfc_subsidies_to_dockyard_count]"
+            text = wfc_subsidies_to_dockyard_count_text
             maxWidth = 470
             maxHeight = 24
             Orientation = "UPPER_LEFT"	
@@ -193,6 +199,7 @@ guiTypes = {
 			# buttonText = "Add C"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_dockyard_add_tt
         }
 		buttonType = {
             name = "wfc_subsidies_to_research_subtract"
@@ -204,12 +211,13 @@ guiTypes = {
 			# buttonText = "Subtract D"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_research_subtract_tt
         }
 		instantTextBoxType = {
             name = "wfc_subsidies_to_research_count_text"
             position = { x = @COLUMN2_OFFSET_2 y = 96 }
             font = "hoi_18mbs"
-            text = "[?wfc_subsidies_to_research_count]"
+            text = wfc_subsidies_to_research_count_text
             maxWidth = 470
             maxHeight = 24
             Orientation = "UPPER_LEFT"	
@@ -225,6 +233,7 @@ guiTypes = {
 			# buttonText = "Add D"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_research_add_tt
         }        
 		buttonType = {
             name = "wfc_subsidies_to_resources_subtract"
@@ -236,12 +245,13 @@ guiTypes = {
 			# buttonText = "Subtract E"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_resources_subtract_tt
         }
 		instantTextBoxType = {
             name = "wfc_subsidies_to_resources_count_text"
             position = { x = @COLUMN2_OFFSET_2 y = 120 }
             font = "hoi_18mbs"
-            text = "[?wfc_subsidies_to_resources_count]"
+            text = wfc_subsidies_to_resources_count_text
             maxWidth = 470
             maxHeight = 24
             Orientation = "UPPER_LEFT"	
@@ -257,6 +267,7 @@ guiTypes = {
 			# buttonText = "Add E"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_resources_add_tt
         }   
 		buttonType = {
             name = "wfc_subsidies_to_nuclear_subtract"
@@ -268,12 +279,13 @@ guiTypes = {
 			# buttonText = "Subtract F"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_nuclear_subtract_tt
         }    
 		instantTextBoxType = {
             name = "wfc_subsidies_to_nuclear_count_text"
             position = { x = @COLUMN2_OFFSET_2 y = 144 }
             font = "hoi_18mbs"
-            text = "[?wfc_subsidies_to_nuclear_count]"
+            text = wfc_subsidies_to_nuclear_count_text
             maxWidth = 470
             maxHeight = 24
             Orientation = "UPPER_LEFT"	
@@ -289,54 +301,44 @@ guiTypes = {
 			#buttonText = "Add F"
 			clicksound = click_default
 			font = "hoi_16mbs"
+			tooltip = wfc_subsidies_to_nuclear_add_tt
         }        
-
-
-		# buttonType = {
-		# 	name = "wfc_factories_sub_1x"
-		# 	position = { x=31 y=2 }
-		# 	quadTextureSprite = "GFX_subtract_one"
-		# 	font = "hoi_16mbs"
-		# 	clicksound = click_default
-		# 	pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
-		# }
-		# buttonType = {
-		# 	name = "wfc_factories_add_1x"
-		# 	position = { x=95 y=2 }
-		# 	quadTextureSprite = "GFX_add_one"
-		# 	font = "hoi_16mbs"
-		# 	clicksound = click_default
-		# 	pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
-		# }
-        
-
         #Head 2
 		instantTextBoxType = {
-            name = "Rashodi"
+            name = "costs column"
             position = { x = @COLUMN1_OFFSET y = 168 }
             font = "hoi_18mbs"
-            text = "Rashodi"
+            text = wfc_subsidies_costs_text
             maxWidth = 470
             maxHeight = 400
             Orientation = "UPPER_LEFT"	
         }
+		instantTextBoxType = {
+			name ="wfc_subsidies_count_text"
+			position = { x = @COLUMN2_OFFSET_4 y = 168 }
+			font = "hoi_18mbs"
+			text = wfc_subsidies_count_text
+			format = left
+			maxWidth = 420
+			maxHeight = 24
+		}
 		#Body 2
 		instantTextBoxType = {
 			name ="wfc_subsidies_consumer_goods_factor_text"
 			position = { x = @COLUMN1_OFFSET y = 192 }
 			font = "hoi_18mbs"
-			text = "Faktor TNP: [?wfc_political_power_to_subsidies|.0%]"
+			text = wfc_subsidies_consumer_goods_factor_text
 			format = left
 			maxWidth = 420
 			maxHeight = 24
 		}
         instantTextBoxType = {
-            name = "help"
-            position = { x = 15 y = 216 }
+            name = "wfc_subsidies_help"
+            position = { x = @COLUMN1_OFFSET y = 216 }
             font = "hoi_18mbs"
-            text = wfc_budget_category_desc
+            text = wfc_subsidies_help_text
             maxWidth = 470
-            maxHeight = 400
+            maxHeight = 48
             Orientation = "UPPER_LEFT"	
             #allwaystransparent = yes
         }
