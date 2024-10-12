@@ -379,38 +379,20 @@ scripted_gui = {
 			#name of the effect
 			wfc_subsidies_to_building_add_click = {
 				ai_will_do = {
-					base = -1					#by default it is negative so AI won't run this
+					base = 1
 					modifier = {
-						check_variable = {
-							a < 10
-						}
-						#if variable a is less than 10, then AI will click this
-						# we are calculating a temp variable here and adding it as modifier (lower value of a, higher t is so AI will priotize this button more)
-						set_temp_variable = {
-							t = 15
-						}
-						subtract_from_temp_variable = {
-							t = a
-						}
-						add = t
+						original_tag = NEC
+						add = 1
 					}
 				}
 			}
 			# same as previous one but for b and c
 			wfc_subsidies_to_factory_add_click = {
 				ai_will_do = {
-					base = -1
+					base = 1
 					modifier = {
-						check_variable = {
-							b < 10
-						}
-						set_temp_variable = {
-							t = 15
-						}
-						subtract_from_temp_variable = {
-							t = b
-						}
-						add = t
+						original_tag = NEC
+						add = 1
 					}
 				}
 			}
@@ -418,50 +400,26 @@ scripted_gui = {
 				ai_will_do = {
 					base = -1
 					modifier = {
-						check_variable = {
-							c < 10
-						}
-						set_temp_variable = {
-							t = 15
-						}
-						subtract_from_temp_variable = {
-							t = c
-						}
-						add = t
+						original_tag = HEN
+						add = 6
 					}
 				}
 			}
 			wfc_subsidies_to_research_add_click = {
 				ai_will_do = {
-					base = -1
+					base = 1
 					modifier = {
-						check_variable = {
-							d < 10
-						}
-						set_temp_variable = {
-							t = 15
-						}
-						subtract_from_temp_variable = {
-							t = d
-						}
-						add = t
+						original_tag = MEH
+						add = 1
 					}
 				}
 			}
 			wfc_subsidies_to_resources_add_click = {
 				ai_will_do = {
-					base = -1
+					base = 1
 					modifier = {
-						check_variable = {
-							e < 10
-						}
-						set_temp_variable = {
-							t = 15
-						}
-						subtract_from_temp_variable = {
-							t = e
-						}
-						add = t
+						original_tag = HEN
+						add = 1
 					}
 				}
 			}
@@ -469,16 +427,12 @@ scripted_gui = {
 				ai_will_do = {
 					base = -1
 					modifier = {
-						check_variable = {
-							f < 10
-						}
-						set_temp_variable = {
-							t = 15
-						}
-						subtract_from_temp_variable = {
-							t = f
-						}
-						add = t
+						original_tag = MEH
+						add = 2
+					}
+					modifier = {
+						date > 1945.1.1
+						add = 2
 					}
 				}
 			}
