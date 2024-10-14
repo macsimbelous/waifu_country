@@ -886,10 +886,9 @@ characters = {
 				}
 			}
 			traits = {
-				
+				wfc_trait_embezzler
 			}
 			modifier = {
-				political_power_factor = -0.15
 				research_speed_factor = 0.1
 			}
 		}

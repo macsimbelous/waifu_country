@@ -526,4 +526,9 @@ leader_traits = {
 		request_lease_tension = -0.2
 		#democratic_acceptance = 40
 	}
+	wfc_trait_embezzler = {
+		random = no
+		sprite = 13
+		political_power_factor = -0.15
+	}
 }
