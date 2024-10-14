@@ -239,6 +239,22 @@ spriteTypes = {
 		name = "GFX_portrait_nec_tanya_glazasastaya_army"
 		texturefile = "gfx/leaders/NEC/tanya_glazasastaya_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_wiz"
+		texturefile = "gfx/leaders/NEC/wiz_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_wiz_army"
+		texturefile = "gfx/leaders/NEC/wiz_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_wiz_civilian"
+		texturefile = "gfx/leaders/NEC/wiz_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_wiz_puppet"
+		texturefile = "gfx/leaders/NEC/wiz_puppet.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"

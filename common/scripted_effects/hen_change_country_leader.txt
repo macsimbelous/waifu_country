@@ -54,6 +54,17 @@ hen_change_country_leader = {
 			portrait = GFX_portrait_mah_mary_sturm_army
 		}
 	}
+	else_if = {
+		limit = {
+			original_tag = NEC
+		}
+		set_country_leader_name = {
+			name = nec_wiz
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_nec_wiz_puppet
+		}
+	}
 	else = {
 		if = {
 			limit = {

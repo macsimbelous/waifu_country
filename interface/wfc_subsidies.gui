@@ -119,6 +119,7 @@ guiTypes = {
             maxWidth = 470
             maxHeight = 24
             Orientation = "UPPER_LEFT"	
+			#format = center
             #allwaystransparent = yes
         }
         buttonType = {
@@ -340,6 +341,7 @@ guiTypes = {
             maxWidth = 470
             maxHeight = 48
             Orientation = "UPPER_LEFT"	
+			#format = center
             #allwaystransparent = yes
         }
     }

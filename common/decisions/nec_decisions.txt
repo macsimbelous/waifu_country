@@ -891,3 +891,242 @@ operations = {
 		}
 	}
 }
+
+political_actions = {
+	nec_retire_alice = {
+		allowed = {
+			original_tag = NEC
+		}
+		visible = {
+			has_country_leader = {
+				character = nec_alice
+				ruling_only = yes
+			}
+		}
+		available = {
+			fascism < 0.5
+			has_idea = nec_wiz
+			nec_wiz = {
+				is_field_marshal = yes
+			}
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			kill_country_leader = yes
+			# remove_country_leader_role = {
+			# 	character = nec_alice
+			# 	ideology = nazism
+			# }
+			add_country_leader_role = {
+				character = nec_wiz
+				promote_leader = yes
+				country_leader = {
+					ideology = nazism
+					expire = "1965.1.1.1"
+					traits = {
+						wfc_trait_undead
+						wfc_patron_of_intelligence
+						wfc_patron_of_the_military_industrial_complex
+						wfc_defender
+						wfc_patron_of_industry
+					}
+				}
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+		}
+	}
+	nec_retire_leader = {
+		name = wfc_retire_leader
+		allowed = {
+			original_tag = NEC
+		}
+		available = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				democratic > 0.8
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				communism > 0.8
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				fascism > 0.8
+			}
+			else = {
+				neutrality > 0.8
+			}
+			has_stability > 0.8
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		cost = 100
+		fire_only_once = no
+		complete_effect = {
+			retire_country_leader = yes
+			custom_effect_tooltip = wfc_retire_leader_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					random_character = {
+						limit = {
+							NOT = {
+								has_character_flag = nec_country_leader_flag
+							}
+						}
+						set_character_flag = nec_country_leader_flag
+						ROOT = {
+							add_country_leader_role = {
+								character = PREV
+								promote_leader = yes
+								country_leader = {
+									ideology = liberalism
+									expire = "1965.1.1.1"
+									traits = {
+										wfc_trait_undead
+									}
+								}
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						has_government = communism
+					}
+					random_character = {
+						limit = {
+							NOT = {
+								has_character_flag = nec_country_leader_flag
+							}
+						}
+						set_character_flag = nec_country_leader_flag
+						ROOT = {
+							add_country_leader_role = {
+								character = PREV
+								promote_leader = yes
+								country_leader = {
+									ideology = stalinism
+									expire = "1965.1.1.1"
+									traits = {
+										wfc_trait_undead
+									}
+								}
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						has_government = fascism
+					}
+					random_character = {
+						limit = {
+							NOT = {
+								has_character_flag = nec_country_leader_flag
+							}
+						}
+						set_character_flag = nec_country_leader_flag
+						ROOT = {
+							add_country_leader_role = {
+								character = PREV
+								promote_leader = yes
+								country_leader = {
+									ideology = fascism_ideology
+									expire = "1965.1.1.1"
+									traits = {
+										wfc_trait_undead
+									}
+								}
+							}
+						}
+					}
+				}
+				else = {
+					random_character = {
+						limit = {
+							NOT = {
+								has_character_flag = nec_country_leader_flag
+							}
+						}
+						set_character_flag = nec_country_leader_flag
+						ROOT = {
+							add_country_leader_role = {
+								character = PREV
+								promote_leader = yes
+								country_leader = {
+									ideology = despotism
+									expire = "1965.1.1.1"
+									traits = {
+										wfc_trait_undead
+									}
+								}
+							}
+						}
+					}
+				}
+				random_list = {
+					1 = {
+						add_country_leader_trait = wfc_revolutionary
+					}
+					1 = {
+						add_country_leader_trait = wfc_peoples_favorite
+					}
+					1 = {
+						add_country_leader_trait = wfc_tyan_militarist
+					}
+					1 = {
+						add_country_leader_trait = wfc_defender
+					}
+				}
+				random_list = {
+					1 = {
+						add_country_leader_trait = wfc_patron_of_intelligence
+					}
+					1 = {
+						add_country_leader_trait = wfc_patron_of_the_military_industrial_complex
+					}
+					1 = {
+						add_country_leader_trait = wfc_patron_of_industry
+					}
+					1 = {
+						add_country_leader_trait = wfc_patron_of_science
+					}
+				}
+				random_list = {
+					1 = {
+						add_country_leader_trait = wfc_idol
+					}
+					1 = {
+						add_country_leader_trait = wfc_dictator
+					}
+					1 = {
+						add_country_leader_trait = wfc_tsundere
+					}
+					1 = {
+						add_country_leader_trait = wfc_empress
+					}
+					1 = {
+						add_country_leader_trait = wfc_demon_lord
+					}
+				}
+			}
+		}
+	}
+}

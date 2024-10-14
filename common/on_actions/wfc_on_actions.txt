@@ -1203,6 +1203,20 @@ on_actions = {
 					id = mms_balance_of_power
 				}
 			}
+			if = {
+				limit = {
+					original_tag = MAH
+					NOT = {
+						has_government = fascism
+					}
+					has_power_balance = {
+						id = mah_balance_of_power
+					}
+				}
+				remove_power_balance = {
+					id = mah_balance_of_power
+				}
+			}
 		}
 	}
 	on_monthly = { 

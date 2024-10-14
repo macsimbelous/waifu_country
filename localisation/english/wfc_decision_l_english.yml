@@ -510,3 +510,6 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
 
  #operations
   nec_decision_necrification_in_faction: "The Necrophication of the State of §Y[FROM.GetName]§!"
+
+ #political
+  nec_retire_alice: "§GWiz's §Rcoup de grâce§!"

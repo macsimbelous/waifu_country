@@ -815,7 +815,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 2
 			attack_skill = 3
@@ -846,13 +845,53 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	nec_wiz = {
+		name = nec_wiz
+		portraits = {
+			army = {
+				small = GFX_idea_nec_wiz
+				large = GFX_portrait_nec_wiz_army
+			}
+			civilian = {
+				large = GFX_portrait_nec_wiz_civilian
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_wiz
+			cost = 150
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = nec_wiz
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				
+			}
+			modifier = {
+				political_power_factor = -0.15
+				research_speed_factor = 0.1
+			}
 		}
 	}
 	#Заглушки

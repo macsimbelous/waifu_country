@@ -768,6 +768,16 @@ political_actions = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					has_power_balance = {
+						id = mah_balance_of_power
+					}
+				}
+				remove_power_balance = {
+					id = mah_balance_of_power
+				}
+			}
 		}
 	}
 }

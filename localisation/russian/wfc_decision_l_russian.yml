@@ -512,6 +512,9 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  #operations
   nec_decision_necrification_in_faction: "Некрофикация государства §Y[FROM.GetName]§!"
 
+ #political
+  nec_retire_alice: "§RПереворот §GВиз§!"
+
 #test
  wfc_test_category:0 "Тестовая категория"
  #wfc_test_create_colab: "[ACW_fiona_frost.GetName]"
