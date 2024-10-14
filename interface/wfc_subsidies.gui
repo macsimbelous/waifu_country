@@ -116,10 +116,10 @@ guiTypes = {
             position = { x = @COLUMN2_OFFSET_2 y = 24 }
             font = "hoi_18mbs"
             text = wfc_subsidies_to_building_count_text
-            maxWidth = 470
+            maxWidth = 17
             maxHeight = 24
-            Orientation = "UPPER_LEFT"	
-			#format = center
+            #Orientation = "UPPER_LEFT"	
+			format = center
             #allwaystransparent = yes
         }
         buttonType = {
@@ -151,9 +151,10 @@ guiTypes = {
             position = { x = @COLUMN2_OFFSET_2 y = 48 }
             font = "hoi_18mbs"
             text = wfc_subsidies_to_factory_count_text
-            maxWidth = 470
+            maxWidth = 17
             maxHeight = 24
-            Orientation = "UPPER_LEFT"	
+            #Orientation = "UPPER_LEFT"	
+			format = center	
             #allwaystransparent = yes
         }
         buttonType = {
@@ -185,9 +186,10 @@ guiTypes = {
             position = { x = @COLUMN2_OFFSET_2 y = 72 }
             font = "hoi_18mbs"
             text = wfc_subsidies_to_dockyard_count_text
-            maxWidth = 470
+            maxWidth = 17
             maxHeight = 24
-            Orientation = "UPPER_LEFT"	
+            #Orientation = "UPPER_LEFT"	
+			format = center	
             #allwaystransparent = yes
         }
         buttonType = {
@@ -219,9 +221,10 @@ guiTypes = {
             position = { x = @COLUMN2_OFFSET_2 y = 96 }
             font = "hoi_18mbs"
             text = wfc_subsidies_to_research_count_text
-            maxWidth = 470
+            maxWidth = 17
             maxHeight = 24
-            Orientation = "UPPER_LEFT"	
+            #Orientation = "UPPER_LEFT"	
+			format = center	
             #allwaystransparent = yes
         }
 		buttonType = {
@@ -253,9 +256,10 @@ guiTypes = {
             position = { x = @COLUMN2_OFFSET_2 y = 120 }
             font = "hoi_18mbs"
             text = wfc_subsidies_to_resources_count_text
-            maxWidth = 470
+            maxWidth = 17
             maxHeight = 24
-            Orientation = "UPPER_LEFT"	
+            #Orientation = "UPPER_LEFT"	
+			format = center	
             #allwaystransparent = yes
         }
 		buttonType = {
@@ -287,9 +291,10 @@ guiTypes = {
             position = { x = @COLUMN2_OFFSET_2 y = 144 }
             font = "hoi_18mbs"
             text = wfc_subsidies_to_nuclear_count_text
-            maxWidth = 470
+            maxWidth = 17
             maxHeight = 24
-            Orientation = "UPPER_LEFT"	
+            #Orientation = "UPPER_LEFT"	
+			format = center	
             #allwaystransparent = yes
         }
 		buttonType = {
@@ -316,11 +321,11 @@ guiTypes = {
         }
 		instantTextBoxType = {
 			name ="wfc_subsidies_count_text"
-			position = { x = @COLUMN2_OFFSET_4 y = 168 }
+			position = { x = @COLUMN2_OFFSET y = 168 }
 			font = "hoi_18mbs"
 			text = wfc_subsidies_count_text
-			format = left
-			maxWidth = 420
+			format = center
+			maxWidth = 75
 			maxHeight = 24
 		}
 		#Body 2
