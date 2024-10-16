@@ -1,5 +1,5 @@
 trp_south_american_federation = {
-	priority = 20
+	priority = 25
 	allowed = {
 		original_tag = TRP
 	}
@@ -11,7 +11,7 @@ trp_south_american_federation = {
 }
 
 trp_cloning_category = {
-	priority = 5
+	priority = 23
 	icon = decision_generic_research
 	allowed = {
 		original_tag = TRP
