@@ -451,7 +451,6 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
 
 #TRP
  #discrediting
-  trp_discrediting_decisions:0 "Дискредитация"
   trp_discrediting_decision.t:0 "Дискредитировать §Y[From.GetName]§!"
   trp_discrediting_decision.t_desc:0 "Распространить по всему миру компрометируюшую информацию о государстве §Y[From.GetName]§!"
 
@@ -494,6 +493,7 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  #wfc_subjects_category
   trp_decision_form_united_central_america: "Сформировать провинцию Центральная америка"
   trp_decision_transfer_blz: "Передать Белиз"
+  trp_decision_form_island_governorship: "Островное губернаторство"
 
 #NEC
  #nec_category_necrification

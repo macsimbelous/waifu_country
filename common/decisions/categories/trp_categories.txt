@@ -21,19 +21,6 @@ trp_cloning_category = {
 	# }
 }
 
-trp_discrediting_decisions = {
-	priority = 9
-	icon = decision_category_generic_propaganda
-	picture = GFX_decision_cat_picture_chi_political_support
-	allowed = {
-		original_tag = TRP
-	}
-	# visible = {
-	# 	#has_country_flag = wfl_KGB_flag
-	# 	#has_intelligence_agency = yes
-	# }
-}
-
 trp_category_tasks = {
 	priority = 19
 	#icon = decision_category_generic_propaganda

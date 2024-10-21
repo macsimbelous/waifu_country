@@ -450,7 +450,6 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
 
 #TRP
  #discrediting
-  trp_discrediting_decisions:0 "Discredit"
   trp_discrediting_decision.t:0 "Discredit §Y[From.GetName]§!"
   trp_discrediting_decision.t_desc:0 "Disseminate compromising information about the state of §Y[From.GetName]§! throughout the world."
 
@@ -493,6 +492,7 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
  #wfc_subjects_category
   trp_decision_form_united_central_america: "Form the province of Central America."
   trp_decision_transfer_blz: "Transfer Belize"
+  trp_decision_form_island_governorship: "Island governorship"
 
 #NEC
  #nec_category_necrification

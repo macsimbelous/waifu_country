@@ -233,6 +233,7 @@ wfc_is_island_state = {
 		}
 	}
 }
+
 wfc_is_possible_construction = {
 	custom_trigger_tooltip = {
 		tooltip = wfc_tt_is_possible_construction
@@ -253,6 +254,558 @@ wfc_is_possible_construction = {
 			state = 273
 			state = 552
 			state = 767
+		}
+	}
+}
+
+trp_st_south_american_unification = {
+	# TRP
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_trp_required_states_tt
+		#controls_state = 939
+		939 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 969
+		969 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		687 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		309 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		310 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# COL
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_col_required_states_tt
+		#controls_state = 493
+		493 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 306
+		306 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 486
+		486 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# VEN
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_ven_required_states_tt
+		#controls_state = 488
+		488 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 307
+		307 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 489
+		489 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# PRU
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_pru_required_states_tt
+		#controls_state = 490
+		947 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 491
+		491 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 303
+		303 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 492
+		492 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 494
+		494 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# BOL
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_bol_required_states_tt
+		#controls_state = 302
+		302 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 487
+		487 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# CHL
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_chl_required_states_tt
+		#controls_state = 506
+		951 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 279
+		506 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 507
+		952 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		279 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		950 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		949 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		507 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# ARG
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_arg_required_states_tt
+		#controls_state = 278
+		959 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 508
+		508 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 509
+		957 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 510
+		509 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 511
+		510 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 512
+		960 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		511 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		958 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		956 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		278 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		512 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		955 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		954 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		953 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# PAR
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_par_required_states_tt
+		#controls_state = 301
+		301 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 688
+		688 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# BRA
+	custom_trigger_tooltip = {
+		tooltip = trp_form_country_bra_required_states_tt
+		502 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		503 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		944 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		501 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		496 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		500 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		943 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		499 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		936 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		498 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		935 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		937 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		497 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		941 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		505 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		504 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		280 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		938 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		966 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		965 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		942 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		967 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		968 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		962 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		963 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		961 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		964 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		940 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		495 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	#controls_state = 305
+	305 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	490 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	#controls_state = 300
+	300 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	945 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	946 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	#controls_state = 309
+	#controls_state = 310
+	#controls_state = 687
+	#controls_state = 304
+}
+
+mah_st_form_crystal_empire = {
+	# Maho
+	custom_trigger_tooltip = {
+		tooltip = mah_form_crystal_empire_maho_required_states_tt
+		#controls_state = 677
+		677 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 680
+		680 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 553
+		553 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 554
+		554 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 799
+		# 799 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+		#controls_state = 454
+		454 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 455
+		455 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# Iraq
+	custom_trigger_tooltip = {
+		tooltip = form_country_iraq_required_states_tt
+		#controls_state = 676
+		676 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 675
+		675 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 291
+		291 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# Saudi Arabia
+	custom_trigger_tooltip = {
+		tooltip = form_country_saudi_required_states_tt
+		#controls_state = 292
+		292 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 679
+		679 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 678
+		678 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		855 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		854 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		857 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		859 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		856 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		858 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	#controls_state = 656
+	656 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	#controls_state = 765
+	OR = {
+		765 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		controls_province = 8051
+		any_other_country = {
+			is_puppet_of = ROOT
+			controls_province = 8051
+		}
+	}
+	#controls_state = 658
+	658 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	#controls_state = 293
+	293 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	#controls_state = 659
+	659 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	#controls_state = 294
+	294 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+}
+
+acw_st_create_great_animeland = {
+	#Animeland
+	custom_trigger_tooltip = {
+		tooltip = acw_form_animeland_required_states_tt
+		controls_state = 76
+		controls_state = 82
+		controls_state = 83
+		controls_state = 84
+		controls_state = 764
+	}
+	#Bulgaria
+	custom_trigger_tooltip = {
+		tooltip = acw_form_bulgaria_required_states_tt
+		#controls_state = 48
+		48 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 801
+		801 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 212
+		212 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 211
+		211 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	#Romania
+	custom_trigger_tooltip = {
+		tooltip = acw_form_romania_required_states_tt
+		#controls_state = 46
+		46 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 76
+		# 76 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+		#controls_state = 77
+		77 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 79
+		79 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 81
+		81 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 82
+		# 82 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+		#controls_state = 83
+		# 83 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+		#controls_state = 84
+		# 84 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+	}
+	#Yugoslavia 
+	custom_trigger_tooltip = {
+		tooltip = acw_form_yugoslavia_required_states_tt
+		#controls_state = 102
+		# 102 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+		#controls_state = 103
+		# 103 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+		#controls_state = 109
+		109 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 104
+		104 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 804
+		804 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 105
+		105 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 107
+		107 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 45
+		45 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 764
+		# 764 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+		#controls_state = 108
+		108 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 802
+		802 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 803
+		803 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 106
+		106 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# Hungary
+	custom_trigger_tooltip = {
+		tooltip = acw_form_hungary_required_states_tt
+		#controls_state = 155
+		155 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 43
+		43 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 154
+		154 = {
+			wfc_is_controlled_by_root_or_puppet = yes
 		}
 	}
 }

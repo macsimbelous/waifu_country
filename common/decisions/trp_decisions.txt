@@ -158,10 +158,13 @@ trp_cloning_category = {
 	}
 }
 
-trp_discrediting_decisions = {
+operations = {
 	trp_discrediting_decision = {
 		name = trp_discrediting_decision.t
 		#icon = onmap_recruit_operative
+		allowed = {
+			original_tag = TRP
+		}
 		visible = {
 			has_wargoal_against = FROM
 		}
@@ -250,623 +253,13 @@ trp_south_american_federation = {
 		cost = 0
 		fire_only_once = yes
 		available = {
-			# TRP
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_trp_required_states_tt
-				#controls_state = 939
-				939 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 969
-				969 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				687 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				309 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				310 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# COL
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_col_required_states_tt
-				#controls_state = 493
-				493 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 306
-				306 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 486
-				486 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# VEN
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_ven_required_states_tt
-				#controls_state = 488
-				488 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 307
-				307 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 489
-				489 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# PRU
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_pru_required_states_tt
-				#controls_state = 490
-				947 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 491
-				491 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 303
-				303 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 492
-				492 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 494
-				494 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# BOL
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_bol_required_states_tt
-				#controls_state = 302
-				302 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 487
-				487 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# CHL
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_chl_required_states_tt
-				#controls_state = 506
-				951 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 279
-				506 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 507
-				952 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				279 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				950 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				949 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				507 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# ARG
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_arg_required_states_tt
-				#controls_state = 278
-				959 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 508
-				508 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 509
-				957 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 510
-				509 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 511
-				510 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 512
-				960 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				511 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				958 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				956 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				278 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				512 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				955 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				954 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				953 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# PAR
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_par_required_states_tt
-				#controls_state = 301
-				301 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				#controls_state = 688
-				688 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# BRA
-			custom_trigger_tooltip = {
-				tooltip = trp_form_country_bra_required_states_tt
-				502 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				503 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				944 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				501 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				496 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				500 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				943 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				499 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				936 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				498 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				935 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				937 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				497 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				941 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				505 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				504 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				280 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				938 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				966 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				965 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				942 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				967 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				968 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				962 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				963 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				961 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				964 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				940 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				495 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			#controls_state = 305
-			305 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			490 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			#controls_state = 300
-			300 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			945 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			946 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			#controls_state = 309
-			#controls_state = 310
-			#controls_state = 687
-			#controls_state = 304
+			trp_st_south_american_unification = yes
 		}
 		ai_will_do = {
 			factor = 1000
 		}
 		complete_effect = {
-			set_cosmetic_tag = TRP_SAF
-			set_country_flag = trp_south_american_federation_formed_flag
-			set_major = yes
-			hidden_effect = {
-				transfer_state = 493
-				transfer_state = 306
-				transfer_state = 486
-				transfer_state = 488
-				transfer_state = 307
-				transfer_state = 489
-				transfer_state = 947
-				transfer_state = 491
-				transfer_state = 303
-				transfer_state = 492
-				transfer_state = 494
-				transfer_state = 302
-				transfer_state = 487
-				transfer_state = 951
-				transfer_state = 506
-				transfer_state = 952
-				transfer_state = 279
-				transfer_state = 950
-				transfer_state = 949
-				transfer_state = 507
-				transfer_state = 959
-				transfer_state = 508
-				transfer_state = 957
-				transfer_state = 509
-				transfer_state = 510
-				transfer_state = 960
-				transfer_state = 511
-				transfer_state = 958
-				transfer_state = 956
-				transfer_state = 278
-				transfer_state = 512
-				transfer_state = 955
-				transfer_state = 954
-				transfer_state = 953
-				transfer_state = 301
-				transfer_state = 688
-				transfer_state = 502
-				transfer_state = 503
-				transfer_state = 944
-				transfer_state = 501
-				transfer_state = 496
-				transfer_state = 500
-				transfer_state = 943
-				transfer_state = 499
-				transfer_state = 936
-				transfer_state = 498
-				transfer_state = 935
-				transfer_state = 937
-				transfer_state = 497
-				transfer_state = 941
-				transfer_state = 505
-				transfer_state = 504
-				transfer_state = 280
-				transfer_state = 938
-				transfer_state = 966
-				transfer_state = 965
-				transfer_state = 942
-				transfer_state = 967
-				transfer_state = 968
-				transfer_state = 962
-				transfer_state = 963
-				transfer_state = 961
-				transfer_state = 964
-				transfer_state = 940
-				transfer_state = 495
-				transfer_state = 305
-				transfer_state = 490
-				transfer_state = 300
-				transfer_state = 945
-				transfer_state = 946
-				#transfer_state = 309
-				if = {
-					limit = {
-						309 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 309
-				}
-				#transfer_state = 310
-				if = {
-					limit = {
-						310 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 310
-				}
-				#transfer_state = 687
-				if = {
-					limit = {
-						687 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 687
-				}
-				if = {
-					limit = {
-						649 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 649
-				}
-				if = {
-					limit = {
-						299 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 299
-				}
-				if = {
-					limit = {
-						691 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 691
-				}
-				if = {
-					limit = {
-						695 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 695
-				}
-				if = {
-					limit = {
-						692 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 692
-				}
-				if = {
-					limit = {
-						694 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 694
-				}
-				if = {
-					limit = {
-						308 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 308
-				}
-				if = {
-					limit = {
-						308 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 304
-				}
-				if = {
-					limit = {
-						948 = {
-							wfc_is_controlled_by_root_or_puppet = yes
-						}
-					}
-					transfer_state = 948
-				}
-			}
-			custom_effect_tooltip = trp_form_country_coring_states_tt
-			hidden_effect = {
-				add_state_core = 493
-				add_state_core = 306
-				add_state_core = 486
-				add_state_core = 488
-				add_state_core = 307
-				add_state_core = 489
-				add_state_core = 947
-				add_state_core = 491
-				add_state_core = 303
-				add_state_core = 492
-				add_state_core = 494
-				add_state_core = 302
-				add_state_core = 487
-				add_state_core = 951
-				add_state_core = 506
-				add_state_core = 952
-				add_state_core = 279
-				add_state_core = 950
-				add_state_core = 949
-				add_state_core = 507
-				add_state_core = 959
-				add_state_core = 508
-				add_state_core = 957
-				add_state_core = 509
-				add_state_core = 510
-				add_state_core = 960
-				add_state_core = 511
-				add_state_core = 958
-				add_state_core = 956
-				add_state_core = 278
-				add_state_core = 512
-				add_state_core = 955
-				add_state_core = 954
-				add_state_core = 953
-				add_state_core = 301
-				add_state_core = 688
-				add_state_core = 502
-				add_state_core = 503
-				add_state_core = 944
-				add_state_core = 501
-				add_state_core = 496
-				add_state_core = 500
-				add_state_core = 943
-				add_state_core = 499
-				add_state_core = 936
-				add_state_core = 498
-				add_state_core = 935
-				add_state_core = 937
-				add_state_core = 497
-				add_state_core = 941
-				add_state_core = 505
-				add_state_core = 504
-				add_state_core = 280
-				add_state_core = 938
-				add_state_core = 966
-				add_state_core = 965
-				add_state_core = 942
-				add_state_core = 967
-				add_state_core = 968
-				add_state_core = 962
-				add_state_core = 963
-				add_state_core = 961
-				add_state_core = 964
-				add_state_core = 940
-				add_state_core = 495
-				add_state_core = 305
-				add_state_core = 490
-				add_state_core = 300
-				add_state_core = 945
-				add_state_core = 946
-				if = {
-					limit = {
-						controls_state = 309
-					}
-					add_state_core = 309
-				}
-				if = {
-					limit = {
-						controls_state = 310
-					}
-					add_state_core = 310
-				}
-				if = {
-					limit = {
-						controls_state = 687
-					}
-					add_state_core = 687
-				}
-				if = {
-					limit = {
-						controls_state = 649
-					}
-					add_state_core = 649
-				}
-				if = {
-					limit = {
-						controls_state = 299
-					}
-					add_state_core = 299
-				}
-				if = {
-					limit = {
-						controls_state = 691
-					}
-					add_state_core = 691
-				}
-				if = {
-					limit = {
-						controls_state = 695
-					}
-					add_state_core = 695
-				}
-				if = {
-					limit = {
-						controls_state = 692
-					}
-					add_state_core = 692
-				}
-				if = {
-					limit = {
-						controls_state = 694
-					}
-					add_state_core = 694
-				}
-				if = {
-					limit = {
-						controls_state = 308
-					}
-					add_state_core = 308
-				}
-				if = {
-					limit = {
-						controls_state = 304
-					}
-					add_state_core = 304
-				}
-				if = {
-					limit = {
-						controls_state = 948
-					}
-					add_state_core = 948
-				}
-			}
+			trp_se_south_american_unification = yes
 		}
 	}
 }
@@ -1737,16 +1130,27 @@ wfc_subjects_category = {
 		name = form_united_central_america
 		icon = generic_form_nation
 		priority = 2
+		fire_only_once = yes
 		allowed = {
 			original_tag = TRP
 		}
 		available = {
 			is_subject = no
-			controls_state = 313
-			controls_state = 314
-			controls_state = 312
-			controls_state = 317
-			controls_state = 316
+			313 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			314 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			312 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			317 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			316 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		visible = {
 			NOT = {
@@ -1821,6 +1225,120 @@ wfc_subjects_category = {
 				}
 				set_global_flag = form_united_central_america_flag
 				set_country_flag = trp_flag_form_united_central_america
+			}
+		}
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	trp_decision_form_island_governorship = {
+		name = form_united_central_america
+		icon = generic_form_nation
+		priority = 2
+		fire_only_once = yes
+		allowed = {
+			original_tag = TRP
+		}
+		available = {
+			is_subject = no
+			315 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			689 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			690 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			693 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			318 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			319 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			686 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			694 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			308 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			692 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		visible = {
+			NOT = {
+				has_country_flag = trp_flag_form_united_central_america
+			}
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = CUB
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 315
+					transfer_state = 689
+					transfer_state = 690
+					transfer_state = 693
+					transfer_state = 318
+					transfer_state = 319
+					transfer_state = 686
+					transfer_state = 694
+					transfer_state = 308
+					transfer_state = 692
+
+					add_state_core = 315
+					add_state_core = 689
+					add_state_core = 690
+					add_state_core = 693
+					add_state_core = 318
+					add_state_core = 319
+					add_state_core = 686
+					add_state_core = 694
+					add_state_core = 308
+					add_state_core = 692
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					# set_cosmetic_tag = USC_UNIFIED
+					# set_country_flag = trp_flag_united_central_america
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
 			}
 		}
 		ai_will_do = {
