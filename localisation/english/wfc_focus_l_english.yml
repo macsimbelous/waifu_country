@@ -459,6 +459,16 @@
  trp_focus_develop_cloning_tt: "Clone production solutions will be open"
  trp_focus_extra_tech_slot_2: "Academy Expansion"
  trp_focus_secret_weapons: "Super weapon"
+ trp_focus_batalha_do_borracha: "$BRA_batalha_do_borracha$"
+ trp_focus_batalha_do_borracha_desc: "$BRA_batalha_do_borracha_desc$"
+ trp_focus_expand_steel_extraction: "$ARG_expand_steel_extraction$"
+ trp_focus_expand_steel_extraction_desc: "$ARG_expand_steel_extraction_desc$"
+ trp_focus_expand_aluminum_extraction: "$ARG_expand_aluminum_extraction$"
+ trp_focus_expand_aluminum_extraction_desc: "$ARG_expand_aluminum_extraction_desc$"
+ trp_focus_found_national_steelworks: "$CHL_found_national_steelworks$"
+ trp_focus_found_national_steelworks_desc: "$CHL_found_national_steelworks_desc$"
+ trp_focus_exploit_mineral_wealth: "$GUAY_exploit_mineral_wealth$"
+ trp_focus_exploit_mineral_wealth_desc: "$GUAY_exploit_mineral_wealth_desc$"
 
 #NEC
  nec_focus: "Focuses [NEC.GetName]"

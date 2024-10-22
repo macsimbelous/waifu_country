@@ -472,30 +472,279 @@
 		id = trp_focus_batalha_do_borracha
 		#id = BRA_batalha_do_borracha
 		icon = GFX_focus_BRA_rubber_war
-		prerequisite = { focus = BRA_companhia_siderurgica_nacional focus = BRA_promote_resource_extraction }
-		x = 2
+		prerequisite = {
+			focus = trp_focus_minprom
+		}
+		x = -2
 		y = 1
-		relative_position_id = BRA_companhia_siderurgica_nacional
+		relative_position_id = trp_focus_minprom
 		cost = 10
 		available = {
 			controls_state = 497
 			controls_state = 495
 		}
-
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
-
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
 		completion_reward = {
 			every_owned_state = {
 				limit = {
 					OR = {
 						state = 497
-						state = 495						
-					}	
+						state = 495
+					}
 				}
 				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
 				add_resource = {
 					type = rubber
 					amount = 20
+				}
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				497 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				495 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				add = 9
+			}
+		}
+	}
+	focus = {
+		#INDUSTRIAL
+		id = trp_focus_expand_steel_extraction
+		#id = ARG_expand_steel_extraction
+		icon = GFX_focus_generic_steel
+		prerequisite = {
+			focus = trp_focus_minprom
+		}
+		x = 0
+		y = 1
+		relative_position_id = trp_focus_minprom
+		cost = 10
+		available = {
+			958 = {
+				is_controlled_by = ROOT
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				958 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				add = 9
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			958 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	focus = {
+		#INDUSTRIAL
+		id = trp_focus_expand_aluminum_extraction
+		#id = ARG_expand_aluminum_extraction
+		icon = GFX_focus_generic_aluminum
+		prerequisite = {
+			focus = trp_focus_minprom
+		}
+		x = 2
+		y = 1
+		relative_position_id = trp_focus_minprom
+		cost = 10
+		available = {
+			959 = {
+				is_controlled_by = ROOT
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				959 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				add = 9
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			959 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+	}
+	focus = {
+		id = trp_focus_found_national_steelworks
+		#id = CHL_found_national_steelworks
+		icon = GFX_focus_generic_steel
+		relative_position_id = trp_focus_batalha_do_borracha
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = trp_focus_batalha_do_borracha
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				950 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				add = 9
+			}
+		}
+		available = {
+			950 = {
+				is_controlled_by = ROOT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			950 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+				add_resource = {
+					type = steel
+					amount = 24
+				}
+			}
+		}
+	}
+	focus = {
+		id = trp_focus_exploit_mineral_wealth
+		#id = GUAY_exploit_mineral_wealth
+		icon = GFX_focus_generic_steel
+		x = 0
+		y = 1
+		relative_position_id = trp_focus_batalha_do_borracha
+		prerequisite = {
+			focus = trp_focus_batalha_do_borracha
+		}
+		available = {
+			controls_state = 688
+			controls_state = 300
+			controls_state = 945
+			controls_state = 946
+		}
+		cost = 10
+		ai_will_do = {
+			base = 1
+			modifier = {
+				688 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				300 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				945 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				946 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				add = 9
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = BRA_resource_extraction_bonus
+				bonus = 1
+				uses = 1
+				category = excavation_tech
+			}
+			688 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 2
+				}
+				add_resource = {
+					type = tungsten
+					amount = 8
+				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+			300 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+			945 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+			}
+			946 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+				add_resource = {
+					type = oil
+					amount = 5
 				}
 			}
 		}
