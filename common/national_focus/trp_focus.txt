@@ -468,6 +468,38 @@
 			factor = 100
 		}
 	}
+	focus = {
+		id = trp_focus_batalha_do_borracha
+		#id = BRA_batalha_do_borracha
+		icon = GFX_focus_BRA_rubber_war
+		prerequisite = { focus = BRA_companhia_siderurgica_nacional focus = BRA_promote_resource_extraction }
+		x = 2
+		y = 1
+		relative_position_id = BRA_companhia_siderurgica_nacional
+		cost = 10
+		available = {
+			controls_state = 497
+			controls_state = 495
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
+
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 497
+						state = 495						
+					}	
+				}
+				add_extra_state_shared_building_slots = 1
+				add_resource = {
+					type = rubber
+					amount = 20
+				}
+			}
+		}
+	}
 	##################################
 	######## POLITICAL DIRECTION #####
 	##################################
@@ -1740,9 +1772,9 @@
 				954 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
-				953 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
+				# 953 = {
+				# 	wfc_is_controlled_by_root_or_puppet = yes
+				# }
 			}
 		}
 		completion_reward = {
