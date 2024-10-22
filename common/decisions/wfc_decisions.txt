@@ -2636,15 +2636,7 @@ prospect_for_resources = {
 		#512
 		icon = oil
 		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
+			original_tag = TRP
 		}
 		highlight_states = {
 			highlight_state_targets = {
@@ -2728,15 +2720,7 @@ prospect_for_resources = {
 		name = CHL_expand_araucanian_steelworks_decision
 		icon = GFX_decision_steel
 		allowed = {
-			OR = {
-				original_tag = ACW
-				original_tag = HEN
-				original_tag = MAH
-				original_tag = TRP
-				original_tag = MEH
-				original_tag = MMS
-				original_tag = NEC
-			}
+			original_tag = TRP
 		}
 		ai_will_do = {
 			base = 75
