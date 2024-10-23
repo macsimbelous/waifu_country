@@ -211,6 +211,57 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = wfc_news.14
+	title = wfc_news.14.t
+	desc = wfc_news.14.d
+	picture = GFX_wfc_news_event_antitrapitos_operation
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = wfc_news.14.a
+		trigger = {
+			NOT = {
+				original_tag = TRP
+				original_tag = BRA
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = PAR
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = URG
+			}
+		}
+	}
+	option = {
+		name = wfc_news.14.b
+		trigger = {
+			OR = {
+				original_tag = ECU
+				original_tag = PRU
+				original_tag = BOL
+				original_tag = PAR
+				original_tag = CHL
+				original_tag = ARG
+				original_tag = URG
+			}
+		}
+	}
+	option = {
+		name = wfc_news.14.c
+		trigger = {
+			original_tag = TRP
+		}
+	}
+	option = {
+		name = wfc_news.14.e
+		trigger = {
+			original_tag = BRA
+		}
+	}
+}
+
 #Захваты городов за Мехалэнд
 # The Fall of Washington
 news_event = {

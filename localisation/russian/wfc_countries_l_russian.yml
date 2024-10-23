@@ -16,20 +16,20 @@
  ACW_DEF:0 "Анимеляндия"
  ACW_ADJ:0 "Анимешные"
  #Empire
- ACW_EMP_communism:0 "Великая Советская Анимеляндия"
- ACW_EMP_communism_DEF:0 "Великая Советская Анимеляндия"
- ACW_EMP_communism_ADJ:0 "Анимешная"
- ACW_EMP_democratic:0 "Аниме Федерация"
- ACW_EMP_democratic_DEF:0 "Аниме Федерация"
- ACW_EMP_democratic_ADJ:0 "Анимешная"
- ACW_EMP_fascism:0 "Великая Империя Анимеляндия"
- ACW_EMP_fascism_DEF:0 "Великая Империя Анимеляндия"
- ACW_EMP_fascism_ADJ:0 "Анимешная"
- ACW_EMP_neutrality:0 "Великая Анимеляндия"
- ACW_EMP_neutrality_DEF:0 "Великая Анимеляндия"
- ACW_EMP_neutrality_ADJ:0 "Анимешные"
+  ACW_EMP_communism:0 "Великая Советская Анимеляндия"
+  ACW_EMP_communism_DEF:0 "Великая Советская Анимеляндия"
+  ACW_EMP_communism_ADJ:0 "Анимешная"
+  ACW_EMP_democratic:0 "Аниме Федерация"
+  ACW_EMP_democratic_DEF:0 "Аниме Федерация"
+  ACW_EMP_democratic_ADJ:0 "Анимешная"
+  ACW_EMP_fascism:0 "Великая Империя Анимеляндия"
+  ACW_EMP_fascism_DEF:0 "Великая Империя Анимеляндия"
+  ACW_EMP_fascism_ADJ:0 "Анимешная"
+  ACW_EMP_neutrality:0 "Великая Анимеляндия"
+  ACW_EMP_neutrality_DEF:0 "Великая Анимеляндия"
+  ACW_EMP_neutrality_ADJ:0 "Анимешные"
  #bookmark
- ACW_GATHERING_STORM_DESC:0 "В прошлом наша власть распространялась на все окрестные земли, но со временем наше королевство пришло в упадок и нам остался лишь небольшой клочок земли, лишённый даже тени былова величия."
+  ACW_GATHERING_STORM_DESC:0 "В прошлом наша власть распространялась на все окрестные земли, но со временем наше королевство пришло в упадок и нам остался лишь небольшой клочок земли, лишённый даже тени былова величия."
 
 #HEN
  HEN_fascism:0 "Империя Хенталия"
@@ -193,6 +193,7 @@
  wfc_alliance_monster_girls_defense_alliance: "Альянс по обороне от Монстродевушек"
  hen_faction_orb_of_corruption: "Сфера развращения"
  wfc_faction_6th_international: "6 Интернационал"
+ wfc_faction_antitrapitos: "Антитрапитос"
 
 #autonomy
  wfc_autonomy_province:0 "Провинция"

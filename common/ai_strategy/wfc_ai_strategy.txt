@@ -604,6 +604,7 @@ wfc_bra_antagonize_trp_expansion = {
 			OR = { 
 				exists = no
 				is_puppet_of = BRA
+				is_in_faction_with = BRA
 			}
 		}
 	}
@@ -620,6 +621,76 @@ wfc_bra_antagonize_trp_expansion = {
 	ai_strategy = {
 		type = invade
 		id = TRP
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = ECU
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = ECU
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = PRU
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = PRU
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = BOL
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = BOL
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = PAR
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = PAR
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = CHL
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = CHL
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = ARG
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = ARG
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = URG
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = URG
 		value = 100
 	}
 }

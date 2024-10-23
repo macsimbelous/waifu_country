@@ -84,7 +84,15 @@ wfc_news.7.a:0 "This is the beginning of a new era!"
  wfc_news.13.d: "After Hentalia gained control of the main islands of Japan, the Japanese admirals faced a difficult choice: to continue fighting with the troops that were in Korea and Manchuria, or to surrender to Hentalia. After lengthy deliberations, most admirals favored surrender."
  wfc_news.13.a: "Expected."
  wfc_news.13.b: "Cute."
- wfc_news.13.c: "Предатели!"
+ wfc_news.13.c: "Traitors!"
+
+#wfc_news.14
+ wfc_news.14.t: "Anti-trap operation!"
+ wfc_news.14.d: "Brazil announced the launch of an anti-trap military operation to curb trap expansion on the South American continent."
+ wfc_news.14.a: "Cute."
+ wfc_news.14.b: "Just as long as we don't get hit."
+ wfc_news.14.с: "They will pay for it."
+ wfc_news.14.e: "Crush them!"
 
 #wfc_news.101
  wfc_news.101.t:0 "Fall of Washington"

@@ -35,6 +35,10 @@ spriteTypes = {
 		name = "GFX_wfc_news_event_the_zombie_apocalypse"
 		texturefile = "gfx/event_pictures/wfc_news_event_the_zombie_apocalypse.dds"
 	}
+	spriteType = {
+		name = "GFX_wfc_news_event_antitrapitos_operation"
+		texturefile = "gfx/event_pictures/wfc_news_event_antitrapitos_operation.dds"
+	}
 	#kosmos
 	spriteType = {
 		name = "GFX_news_event_doroga_v_kosmos"
