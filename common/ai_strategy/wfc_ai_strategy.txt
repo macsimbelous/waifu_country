@@ -353,7 +353,9 @@ wfc_convoy_raid_sov = {
 		has_war_with = SOV
 	}
 	abort = {
-		NOT = { has_war_with = SOV }
+		NOT = {
+			has_war_with = SOV
+		}
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -418,7 +420,9 @@ wfc_convoy_raid_usa = {
 		has_war_with = USA
 	}
 	abort = {
-		NOT = { has_war_with = USA }
+		NOT = {
+			has_war_with = USA
+		}
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -468,7 +472,9 @@ wfc_convoy_raid_can = {
 		has_war_with = CAN
 	}
 	abort = {
-		NOT = { has_war_with = CAN }
+		NOT = {
+			has_war_with = CAN
+		}
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -508,7 +514,9 @@ wfc_convoy_raid_mex = {
 		has_war_with = MEX
 	}
 	abort = {
-		NOT = { has_war_with = MEX }
+		NOT = {
+			has_war_with = MEX
+		}
 	}
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -550,23 +558,68 @@ wfc_antagonize_world_to_nec = {
 		value = 100
 	}
 }
+
 wfc_antagonize_to_nec = {
-    allowed = {
-        NOT = { original_tag = NEC }
-    }
-    enable = {
-        NOT = {
+	allowed = {
+		NOT = {
+			original_tag = NEC
+		}
+	}
+	enable = {
+		NOT = {
 			has_idea = nec_idea_the_undead
 		}
-    }
-    enable_reverse = {
-        NEC = { has_idea = nec_idea_the_undead }
-    }
-    reversed = yes
-    abort_when_not_enabled = yes
-    ai_strategy = {
-        type = antagonize
-        id = NEC
-        value = 100
-    }
+	}
+	enable_reverse = {
+		NEC = {
+			has_idea = nec_idea_the_undead
+		}
+	}
+	reversed = yes
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = antagonize
+		id = NEC
+		value = 100
+	}
+}
+
+#BRA
+wfc_bra_antagonize_trp_expansion = {
+	allowed = {
+		tag = BRA
+	}
+	enable = {
+		TRP = {
+			controls_state = 493
+			controls_state = 306
+			controls_state = 486
+			controls_state = 488
+			controls_state = 307
+			controls_state = 489
+		}
+	}
+	abort = {
+		TRP = {
+			OR = { 
+				exists = no
+				is_puppet_of = BRA
+			}
+		}
+	}
+	ai_strategy = {
+		type = conquer
+		id = TRP
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = TRP
+		value = 100
+	}
+	ai_strategy = {
+		type = invade
+		id = TRP
+		value = 100
+	}
 }

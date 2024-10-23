@@ -6092,3 +6092,63 @@ wfc_generic_purchase_old_ships_category = {
 		}
 	}
 }
+
+operations = {
+	wfc_decision_antitrapitos_operation = {
+		fire_only_once = yes
+		days_remove = 90
+		war_with_on_remove = TRP
+		cost = 50
+		allowed = {
+			tag = BRA
+		}
+		available = {
+			TRP = {
+				# COL
+				custom_trigger_tooltip = {
+					tooltip = trp_form_country_col_required_states_tt
+					controls_state = 493
+					controls_state = 306
+					controls_state = 486
+				}
+				# VEN
+				custom_trigger_tooltip = {
+					tooltip = trp_form_country_ven_required_states_tt
+					controls_state = 488
+					controls_state = 307
+					controls_state = 489
+				}
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = TRP
+				type = puppet_wargoal_focus
+			}
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+				has_opinion = {
+					target = TRP
+					value > 29
+				}
+				add = -2
+			}
+			modifier = {
+				has_opinion = {
+					target = TRP
+					value > 49
+				}
+				add = -2
+			}
+			modifier = {
+				has_opinion = {
+					target = TRP
+					value > 74
+				}
+				add = -1
+			}
+		}
+	}
+}
