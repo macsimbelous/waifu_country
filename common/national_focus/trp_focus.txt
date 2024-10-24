@@ -481,7 +481,7 @@
 		cost = 10
 		available = {
 			controls_state = 497
-			controls_state = 495
+			controls_state = 938
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -491,7 +491,7 @@
 				limit = {
 					OR = {
 						state = 497
-						state = 495
+						state = 938
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -870,16 +870,47 @@
 			}
 		}
 		bypass = {
-			is_in_faction_with = SOV
+			is_in_faction = yes
 		}
-		available_if_capitulated = yes
 		completion_reward = {
-			SOV = {
-				add_to_faction = TRP
-				# country_event = {
-				# 	hours = 1
-				# 	id = czech.1
-				# }
+			if = {
+				limit = {
+					SOV = {
+						is_faction_leader = yes
+						has_government = communism
+					}
+				}
+				SOV = {
+					country_event = generic.2
+				}
+			}
+			else_if = {
+				limit = {
+					any_other_country = {
+						is_faction_leader = yes
+						has_government = communism
+					}
+				}
+				random_other_country = {
+					limit = {
+						has_government = communism
+						is_faction_leader = yes
+					}
+					country_event = generic.2
+				}
+			}
+			else = {
+				set_rule = {
+					can_create_factions = yes
+				}
+				create_faction = trp_the_trap_international
+				every_other_country = {
+					limit = {
+						has_government = communism
+						is_in_faction = no
+					}
+					country_event = generic.5
+				}
 			}
 		}
 	}
