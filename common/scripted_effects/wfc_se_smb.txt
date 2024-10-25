@@ -8,7 +8,7 @@ wfc_se_set_shared_military_branch_defaults = {
 		ROOT.wfc_smb_army_modifier_experience_loss_factor = 0
 	}
 	set_variable = {
-		ROOT.wfc_smb_army_modifier_experience_gain_army = 0.02
+		ROOT.wfc_smb_army_modifier_experience_gain_army = 0.1
 	}
 	set_variable = {
 		ROOT.wfc_smb_army_production_speed_arms_factory_factor = 0
@@ -93,7 +93,7 @@ wfc_se_set_shared_military_branch_defaults = {
 	}
 	# Navy Modifiers
 	set_variable = {
-		ROOT.wfc_smb_navy_experience_gain_navy_factor = 0.02
+		ROOT.wfc_smb_navy_experience_gain_navy_factor = 0.1
 	}
 	set_variable = {
 		ROOT.wfc_smb_navy_mines_planting_by_fleets_factor = 0
@@ -188,7 +188,7 @@ wfc_se_set_shared_military_branch_defaults = {
 		ROOT.wfc_smb_airforce_modifier_ground_attack_factor = 0
 	}
 	set_variable = {
-		ROOT.wfc_smb_airforce_modifier_experience_gain_air = 0.02
+		ROOT.wfc_smb_airforce_modifier_experience_gain_air = 0.1
 	}
 	set_variable = {
 		ROOT.wfc_smb_army_modifier_industrial_capacity_factory_airfoce = 0

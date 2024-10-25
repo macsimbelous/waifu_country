@@ -2118,7 +2118,7 @@
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 22
+		x = 23
 		y = 8
 		cost = 5
 		search_filters = {
@@ -2138,7 +2138,7 @@
 		prerequisite = {
 			focus = trp_focus_academy_of_sciences
 		}
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = trp_focus_academy_of_sciences
 		cost = 5
@@ -2165,7 +2165,7 @@
 		prerequisite = {
 			focus = trp_focus_academy_of_sciences
 		}
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = trp_focus_academy_of_sciences
 		cost = 5
@@ -2191,7 +2191,7 @@
 		prerequisite = {
 			focus = trp_focus_academy_of_sciences
 		}
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = trp_focus_academy_of_sciences
 		cost = 5
@@ -2212,16 +2212,40 @@
 		}
 	}
 	focus = {
+		id = trp_focus_develop_cloning
+		icon = GFX_focus_research2
+		prerequisite = {
+			focus = trp_focus_academy_of_sciences
+		}
+		x = 3
+		y = 1
+		relative_position_id = trp_focus_academy_of_sciences
+		cost = 26
+		cancelable = no
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			#set_country_flag = trp_flag_developed_cloning
+			set_country_flag = trp_cloning_level_1
+			swap_ideas = {
+				remove_idea = trp_childless_idea
+				add_idea = trp_cloning_idea
+			}
+			#add_ideas = trp_cloning_idea
+			custom_effect_tooltip = trp_focus_develop_cloning_tt
+			news_event = wfc_news.3
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	focus = {
 		id = trp_focus_extra_tech_slot_2
 		icon = GFX_focus_research2
 		prerequisite = {
-			focus = trp_focus_nuclear_effort
-		}
-		prerequisite = {
-			focus = trp_focus_rocket_effort
-		}
-		prerequisite = {
-			focus = trp_focus_electronics_effort
+			focus = trp_focus_academy_of_sciences
 		}
 		available = {
 			num_of_factories > 75
@@ -2229,8 +2253,8 @@
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		x = 0
-		y = 1
-		relative_position_id = trp_focus_nuclear_effort
+		y = 2
+		relative_position_id = trp_focus_academy_of_sciences
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -2249,7 +2273,7 @@
 		prerequisite = {
 			focus = trp_focus_extra_tech_slot_2
 		}
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = trp_focus_extra_tech_slot_2
 		cost = 10
@@ -2272,34 +2296,5 @@
 			factor = 1
 		}
 	}
-	focus = {
-		id = trp_focus_develop_cloning
-		icon = GFX_focus_research2
-		prerequisite = {
-			focus = trp_focus_extra_tech_slot_2
-		}
-		x = 1
-		y = 1
-		relative_position_id = trp_focus_extra_tech_slot_2
-		cost = 52
-		cancelable = no
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			#set_country_flag = trp_flag_developed_cloning
-			set_country_flag = trp_cloning_level_1
-			swap_ideas = {
-				remove_idea = trp_childless_idea
-				add_idea = trp_cloning_idea
-			}
-			#add_ideas = trp_cloning_idea
-			custom_effect_tooltip = trp_focus_develop_cloning_tt
-			news_event = wfc_news.3
-		}
-		ai_will_do = {
-			factor = 100
-		}
-	}
+
 }
