@@ -6127,13 +6127,27 @@ operations = {
 			}
 			news_event = wfc_news.14
 			create_faction = wfc_faction_antitrapitos
-			# give_guarantee = ECU
-			# give_guarantee = PRU
-			# give_guarantee = BOL
-			# give_guarantee = PAR
-			# give_guarantee = CHL
-			# give_guarantee = ARG
-			# give_guarantee = URG
+			ECU = {
+				country_event = generic.5
+			}
+			PRU = {
+				country_event = generic.5
+			}
+			BOL = {
+				country_event = generic.5
+			}
+			PAR = {
+				country_event = generic.5
+			}
+			CHL = {
+				country_event = generic.5
+			}
+			ARG = {
+				country_event = generic.5
+			}
+			URG = {
+				country_event = generic.5
+			}
 		}
 		ai_will_do = {
 			base = 5

@@ -2205,3 +2205,325 @@ acw_se_create_great_animeland = {
 		transfer_state = 154
 	}
 }
+
+#Cheat code
+d_add_yamato = {
+	if = {
+		limit = {
+			FROM = {
+				naval_base > 0
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_country_flag = wfc_flag_add_yamato
+					}
+				}
+			}
+			set_country_flag = wfc_flag_add_yamato
+			set_technology = {
+				popup = no
+				ship_hull_super_heavy = 1
+			}
+			create_equipment_variant = {
+				name = "Super Linkor Class"
+				type = ship_hull_super_heavy_1
+				#name_group = JAP_BB_HISTORICAL
+				parent_version = 0
+				allow_without_tech = yes
+				modules = {
+					fixed_ship_battery_slot = ship_super_heavy_battery_1
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = heavy_ship_engine_2
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_shbb
+					front_1_custom_slot = ship_anti_air_2
+					front_2_custom_slot = ship_super_heavy_battery_1
+					mid_1_custom_slot = ship_anti_air_2
+					mid_2_custom_slot = ship_secondaries_2
+					mid_3_custom_slot = dp_ship_secondaries_2
+					rear_1_custom_slot = ship_super_heavy_battery_1
+					rear_2_custom_slot = ship_airplane_launcher_2
+				}
+			}
+		}
+		create_ship = {
+			type = ship_hull_super_heavy_1
+			equipment_variant = "Super Linkor Class"
+		}
+	}
+}
+
+d_add_dd = {
+	if = {
+		limit = {
+			FROM = {
+				naval_base > 0
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_country_flag = wfc_flag_add_dd
+					}
+				}
+			}
+			set_country_flag = wfc_flag_add_dd
+			set_technology = {
+				popup = no
+				basic_ship_hull_light = 1
+			}
+			create_equipment_variant = {
+				name = "Cheat DD Class"
+				type = ship_hull_light_2
+				#name_group = HEN_DD_HISTORICAL
+				parent_version = 0
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_2
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+					fixed_ship_radar_slot = ship_sonar_1
+					fixed_ship_engine_slot = light_ship_engine_2
+					fixed_ship_torpedo_slot = ship_torpedo_1
+					mid_1_custom_slot = ship_torpedo_1
+					rear_1_custom_slot = ship_depth_charge_1
+				}
+			}
+		}
+		create_ship = {
+			type = ship_hull_light_2
+			equipment_variant = "Cheat DD Class"
+		}
+		create_ship = {
+			type = ship_hull_light_2
+			equipment_variant = "Cheat DD Class"
+		}
+		create_ship = {
+			type = ship_hull_light_2
+			equipment_variant = "Cheat DD Class"
+		}
+		create_ship = {
+			type = ship_hull_light_2
+			equipment_variant = "Cheat DD Class"
+		}
+	}
+}
+
+d_add_cl = {
+	if = {
+		limit = {
+			FROM = {
+				naval_base > 0
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_country_flag = wfc_flag_add_cl
+					}
+				}
+			}
+			set_country_flag = wfc_flag_add_cl
+			set_technology = {
+				popup = no
+				basic_ship_hull_light = 1
+			}
+			create_equipment_variant = {
+				name = "Cheat CL Class"
+				type = ship_hull_cruiser_2
+				#name_group = HEN_CL_HISTORICAL
+				parent_version = 0
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_1
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_armor_slot = ship_armor_cruiser_1
+					#front_1_custom_slot = ship_anti_air_1
+					mid_1_custom_slot = ship_torpedo_1
+					mid_2_custom_slot = ship_secondaries_1
+					rear_1_custom_slot = ship_light_medium_battery_1
+				}
+			}
+		}
+		create_ship = {
+			type = ship_hull_cruiser_2
+			equipment_variant = "Cheat CL Class"
+		}
+	}
+}
+
+d_add_ca = {
+	if = {
+		limit = {
+			FROM = {
+				naval_base > 0
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_country_flag = wfc_flag_add_ca
+					}
+				}
+			}
+			set_country_flag = wfc_flag_add_ca
+			set_technology = {
+				popup = no
+				basic_ship_hull_cruiser = 1
+			}
+			create_equipment_variant = {
+				name = "Cheat CA Class"
+				type = ship_hull_cruiser_2
+				#name_group = HEN_CA_HISTORICAL
+				parent_version = 0
+				modules = {
+					fixed_ship_battery_slot = ship_medium_battery_1
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_armor_slot = ship_armor_cruiser_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					mid_1_custom_slot = ship_airplane_launcher_1
+					mid_2_custom_slot = ship_torpedo_1
+					rear_1_custom_slot = ship_medium_battery_1
+				}
+			}
+		}
+		create_ship = {
+			type = ship_hull_cruiser_2
+			equipment_variant = "Cheat CA Class"
+		}
+	}
+}
+
+d_add_bb = {
+	if = {
+		limit = {
+			FROM = {
+				naval_base > 0
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_country_flag = wfc_flag_add_bb
+					}
+				}
+			}
+			set_country_flag = wfc_flag_add_bb
+			set_technology = {
+				popup = no
+				basic_ship_hull_heavy = 1
+			}
+			create_equipment_variant = {
+				name = "Cheat BB Class"
+				type = ship_hull_heavy_2
+				#name_group = HEN_BB_HISTORICAL
+				parent_version = 0
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_1
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = heavy_ship_engine_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_bb_1
+					front_1_custom_slot = ship_heavy_battery_1
+					mid_1_custom_slot = ship_airplane_launcher_1
+					mid_2_custom_slot = ship_secondaries_1
+					rear_1_custom_slot = ship_heavy_battery_1
+				}
+			}
+		}
+		create_ship = {
+			type = ship_hull_heavy_2
+			equipment_variant = "Cheat BB Class"
+		}
+	}
+}
+
+d_add_cv = {
+	if = {
+		limit = {
+			FROM = {
+				naval_base > 0
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_country_flag = wfc_flag_add_cv
+					}
+				}
+			}
+			set_country_flag = wfc_flag_add_cv
+			set_technology = {
+				popup = no
+				basic_ship_hull_carrier = 1
+			}
+			create_equipment_variant = {
+				name = "Cheat CV Class"
+				type = ship_hull_carrier_2
+				#name_group = JAP_CV_HISTORICAL
+				parent_version = 0
+				allow_without_tech = yes
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_2
+					fixed_ship_secondaries_slot = dp_ship_secondaries_1
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+				}
+			}
+		}
+		create_ship = {
+			type = ship_hull_carrier_2
+			equipment_variant = "Cheat CV Class"
+		}
+	}
+}
+
+d_add_armada = {
+	d_add_yamato = yes
+	d_add_bb = yes
+	d_add_bb = yes
+	d_add_ca = yes
+	d_add_ca = yes
+	d_add_ca = yes
+	d_add_ca = yes
+	d_add_ca = yes
+	d_add_ca = yes
+	d_add_cl = yes
+	d_add_cl = yes
+	d_add_cl = yes
+	d_add_cl = yes
+	d_add_cl = yes
+	d_add_cl = yes
+	d_add_cl = yes
+	d_add_cl = yes
+	d_add_cl = yes
+	d_add_dd = yes
+	d_add_dd = yes
+	d_add_dd = yes
+	d_add_dd = yes
+	d_add_dd = yes
+	d_add_dd = yes
+	d_add_dd = yes
+	d_add_dd = yes
+	d_add_dd = yes
+}
