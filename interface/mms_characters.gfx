@@ -607,6 +607,26 @@ spriteTypes = {
 		name = "GFX_portrait_mms_elivex_puppet"
 		texturefile = "gfx/leaders/MMS/elivex_puppet.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_jane_doe"
+		texturefile = "gfx/leaders/MMS/jane_doe_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_jane_doe_operative"
+		texturefile = "gfx/leaders/MMS/jane_doe_operative.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_ellen_joe"
+		texturefile = "gfx/leaders/MMS/ellen_joe_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_ellen_joe_navy"
+		texturefile = "gfx/leaders/MMS/ellen_joe_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_ellen_joe_civilian"
+		texturefile = "gfx/leaders/MMS/ellen_joe_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

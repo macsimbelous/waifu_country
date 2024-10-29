@@ -179,6 +179,7 @@ recruit_character = mms_anis
 recruit_character = mms_xianyun
 recruit_character = mms_kujou_sara
 recruit_character = mms_elivex
+recruit_character = mms_ellen_joe
 #Agents
 recruit_character = MMS_rias_gremory
 create_operative_leader = {
@@ -226,6 +227,20 @@ create_operative_leader = {
 	traits = {
 		operative_escape_artist
 		operative_demolition_expert
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		MMS
+	}
+}
+recruit_character = mms_jane_doe
+create_operative_leader = {
+	name = "Jane Doe"
+	GFX = GFX_portrait_mms_jane_doe_operative
+	traits = {
+		operative_safe_cracker
+		operative_infiltrator
 	}
 	bypass_recruitment = no
 	available_to_spy_master = yes

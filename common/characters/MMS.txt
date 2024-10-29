@@ -1715,4 +1715,36 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	mms_jane_doe = {
+		name = mms_jane_doe
+		portraits = {
+			army = {
+				small = GFX_idea_mms_jane_doe
+				large = GFX_portrait_mms_jane_doe_operative
+			}
+		}
+	}
+	mms_ellen_joe = {
+		name = mms_ellen_joe
+		portraits = {
+			navy = {
+				small = GFX_idea_mms_ellen_joe
+				large = GFX_portrait_mms_ellen_joe_navy
+			}
+			civilian = {
+				large = GFX_portrait_mms_ellen_joe_civilian
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_media_personality
+				gentlemanly
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
 }
