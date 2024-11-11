@@ -725,6 +725,7 @@ mah_antagonize_mms = {
 		value = 1000
 	}
 }
+
 #Spain civil war
 mah_support_spd = {
 	allowed = {
@@ -737,7 +738,9 @@ mah_support_spd = {
 		}
 		country_exists = SPD
 		has_global_flag = spanish_civil_war
-		NOT = { has_global_flag = scw_over }
+		NOT = {
+			has_global_flag = scw_over
+		}
 	}
 	abort = {
 		has_global_flag = scw_over
@@ -755,6 +758,55 @@ mah_support_spd = {
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = SPD
+		value = 100
+	}
+}
+
+#ETH
+mah_support_eth = {
+	allowed = {
+		tag = MAH
+	}
+	enable = {
+		ETH = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_war_with = ETH
+		}
+	}
+	abort = {
+		OR = {
+			ETH = {
+				NOT = { has_war_with = ITA }
+			}
+			has_war_with = ETH
+			AND = {
+				any_other_country = {
+					is_in_faction_with = ETH
+					has_war_with = ROOT
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = ETH
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = ETH
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = ETH
+		value = 100
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = ETH
 		value = 100
 	}
 }
