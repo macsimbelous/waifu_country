@@ -609,6 +609,12 @@ characters = {
 				large = GFX_portrait_nec_sebrix_magnus_civilian
 			}
 		}
+		scientist = {
+			traits = { scientist_trait_nuclear_warfare_expert scientist_trait_bright }
+			skills = {
+				specialization_nuclear = 3
+			}
+		}
 		advisor = {
 			slot = theorist
 			ledger = army

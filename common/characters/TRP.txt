@@ -497,6 +497,12 @@ characters = {
 				large = GFX_portrait_trp_sylvia
 			}
 		}
+		scientist = {
+			traits = { scientist_trait_nuclear_power_expert scientist_trait_genius }
+			skills = {
+				specialization_nuclear = 3
+			}
+		}
 		advisor = {
 			slot = theorist
 			ledger = army

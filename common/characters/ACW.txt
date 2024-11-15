@@ -2492,9 +2492,16 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_megumin
+				large = GFX_portrait_acw_megumin
 			}
 			civilian = {
 				large = GFX_portrait_acw_megumin
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist scientist_trait_resourceful }
+			skills = {
+				specialization_nuclear = 3
 			}
 		}
 		advisor = {
@@ -2550,9 +2557,16 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_ayame_himuro
+				large = GFX_portrait_acw_ayame_himuro
 			}
 			civilian = {
 				large = GFX_portrait_acw_ayame_himuro
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_electronics_specialist scientist_trait_fast_learner }
+			skills = {
+				specialization_air = 3
 			}
 		}
 		advisor = {
@@ -2576,9 +2590,16 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_mineru_wachi
+				large = GFX_portrait_acw_mineru_wachi_civilian
 			}
 			civilian = {
 				large = GFX_portrait_acw_mineru_wachi_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_rocketry_specialist scientist_trait_genius }
+			skills = {
+				specialization_air = 4
 			}
 		}
 		advisor = {
@@ -2628,9 +2649,16 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_acw_eleonore_bonnefoi
+				large = GFX_portrait_acw_eleonore_bonnefoi_civilian
 			}
 			civilian = {
 				large = GFX_portrait_acw_eleonore_bonnefoi_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_bombs_expert }
+			skills = {
+				specialization_air = 2
 			}
 		}
 		advisor = {

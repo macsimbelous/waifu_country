@@ -439,6 +439,12 @@ characters = {
 				large = GFX_portrait_meh_edi
 			}
 		}
+		scientist = {
+			traits = { scientist_trait_guidance_systems_expert scientist_trait_resourceful }
+			skills = {
+				specialization_air = 3
+			}
+		}
 		advisor = {
 			slot = theorist
 			idea_token = MEH_EDI

@@ -420,6 +420,12 @@ characters = {
 				large = GFX_portrait_mah_kurumi_mugen
 			}
 		}
+		scientist = {
+			traits = { scientist_trait_armored_specialist scientist_trait_brilliant_theorist }
+			skills = {
+				specialization_land = 2
+			}
+		}
 		advisor = {
 			slot = theorist
 			idea_token = MAH_kurumi_mugen
@@ -1192,6 +1198,13 @@ characters = {
 			}
 			army = {
 				small = GFX_idea_mah_lisa_minci
+				large = GFX_portrait_mah_lisa_minci_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist scientist_trait_resourceful }
+			skills = {
+				specialization_nuclear = 2
 			}
 		}
 		advisor = {
