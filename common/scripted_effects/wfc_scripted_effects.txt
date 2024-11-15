@@ -2177,6 +2177,10 @@ acw_se_create_great_animeland = {
 			add_core_of = ROOT
 		}
 		transfer_state = 106
+		970 = {
+			add_core_of = ROOT
+		}
+		transfer_state = 970
 	}
 	# Hungary
 	if = {

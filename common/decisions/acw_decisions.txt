@@ -1520,6 +1520,7 @@ acw_create_great_animeland_category = {
 			controls_state = 802
 			controls_state = 803
 			controls_state = 106
+			controls_state = 970
 		}
 		ai_will_do = {
 			base = 0
@@ -1543,6 +1544,7 @@ acw_create_great_animeland_category = {
 					transfer_state = 802
 					transfer_state = 803
 					transfer_state = 106
+					transfer_state = 970
 				}
 			}
 		}

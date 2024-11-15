@@ -794,6 +794,9 @@ acw_st_create_great_animeland = {
 		106 = {
 			wfc_is_controlled_by_root_or_puppet = yes
 		}
+		970 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
 	}
 	# Hungary
 	custom_trigger_tooltip = {

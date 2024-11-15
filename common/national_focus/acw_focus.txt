@@ -2304,6 +2304,7 @@ focus_tree = {
 			add_state_claim = 802
 			add_state_claim = 803
 			add_state_claim = 106
+			add_state_claim = 970
 			create_wargoal = {
 				target = YUG
 				type = annex_everything
