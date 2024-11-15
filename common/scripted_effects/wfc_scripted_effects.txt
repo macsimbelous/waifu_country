@@ -1022,7 +1022,7 @@ wfc_add_infrastructure_in_random_state = {
 				is_core_of = ROOT
 				free_building_slots = {
 					building = infrastructure
-					include_locked = yes
+					#include_locked = yes
 					size > 0
 				}
 				wfc_is_possible_construction = yes
@@ -1033,7 +1033,7 @@ wfc_add_infrastructure_in_random_state = {
 				is_core_of = ROOT
 				free_building_slots = {
 					building = infrastructure
-					include_locked = yes
+					#include_locked = yes
 					size > 0
 				}
 				wfc_is_possible_construction = yes
@@ -1052,7 +1052,7 @@ wfc_add_infrastructure_in_random_state = {
 				is_controlled_by = ROOT
 				free_building_slots = {
 					building = infrastructure
-					include_locked = yes
+					#include_locked = yes
 					size > 0
 				}
 				wfc_is_possible_construction = yes
@@ -1062,7 +1062,7 @@ wfc_add_infrastructure_in_random_state = {
 			limit = {
 				free_building_slots = {
 					building = infrastructure
-					include_locked = yes
+					#include_locked = yes
 					size > 0
 				}
 				wfc_is_possible_construction = yes
@@ -1081,7 +1081,7 @@ wfc_add_infrastructure_in_random_state = {
 				is_core_of = ROOT
 				free_building_slots = {
 					building = infrastructure
-					include_locked = yes
+					#include_locked = yes
 					size > 0
 				}
 				wfc_is_possible_construction = yes
@@ -1092,7 +1092,7 @@ wfc_add_infrastructure_in_random_state = {
 				is_core_of = ROOT
 				free_building_slots = {
 					building = infrastructure
-					include_locked = yes
+					#include_locked = yes
 					size > 0
 				}
 				wfc_is_possible_construction = yes
@@ -1110,7 +1110,7 @@ wfc_add_infrastructure_in_random_state = {
 			limit = {
 				free_building_slots = {
 					building = infrastructure
-					include_locked = yes
+					#include_locked = yes
 					size > 0
 				}
 				wfc_is_possible_construction = yes
@@ -2103,6 +2103,10 @@ acw_se_create_great_animeland = {
 			add_core_of = ROOT
 		}
 		transfer_state = 84
+		971 = {
+			add_core_of = ROOT
+		}
+		transfer_state = 971
 	}
 	# Yugoslavia
 	if = {
@@ -2203,6 +2207,14 @@ acw_se_create_great_animeland = {
 			add_core_of = ROOT
 		}
 		transfer_state = 154
+		973 = {
+			add_core_of = ROOT
+		}
+		transfer_state = 973
+		974 = {
+			add_core_of = ROOT
+		}
+		transfer_state = 974
 	}
 }
 

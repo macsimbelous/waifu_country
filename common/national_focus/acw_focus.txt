@@ -2262,6 +2262,8 @@ focus_tree = {
 			add_state_claim = 155
 			add_state_claim = 43
 			add_state_claim = 154
+			add_state_claim = 973
+			add_state_claim = 974
 			create_wargoal = {
 				target = HUN
 				type = annex_everything
@@ -2336,6 +2338,7 @@ focus_tree = {
 			add_state_claim = 77
 			add_state_claim = 79
 			add_state_claim = 81
+			add_state_claim = 971
 			create_wargoal = {
 				target = ROM
 				type = annex_everything
@@ -2904,12 +2907,6 @@ focus_tree = {
 			is_puppet = no
 			NOT = {
 				is_in_faction_with = CZE
-			}
-			152 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			4 = {
-				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			155 = {
 				wfc_is_controlled_by_root_or_puppet = yes

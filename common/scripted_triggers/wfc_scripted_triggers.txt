@@ -735,6 +735,9 @@ acw_st_create_great_animeland = {
 		# 84 = {
 		# 	wfc_is_controlled_by_root_or_puppet = yes
 		# }
+		971 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
 	}
 	#Yugoslavia 
 	custom_trigger_tooltip = {
@@ -805,6 +808,12 @@ acw_st_create_great_animeland = {
 		}
 		#controls_state = 154
 		154 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		973 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		974 = {
 			wfc_is_controlled_by_root_or_puppet = yes
 		}
 	}

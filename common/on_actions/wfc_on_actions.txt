@@ -1097,6 +1097,10 @@ on_actions = {
 						blockade_runner
 					}
 				}
+				#Костылб
+				set_variable = {
+					wfc_var_target_coup = GER.id
+				}
 			}
 		}
 	}

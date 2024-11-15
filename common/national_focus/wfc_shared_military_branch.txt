@@ -1644,7 +1644,7 @@ shared_focus = {
 				free_building_slots = {
 					building = air_base
 					size > 1
-					include_locked = yes
+					#include_locked = yes
 				}
 				is_controlled_by = ROOT
 				wfc_is_possible_construction = yes
@@ -1757,7 +1757,7 @@ shared_focus = {
 				free_building_slots = {
 					building = air_base
 					size > 1
-					include_locked = yes
+					#include_locked = yes
 				}
 				is_owned_and_controlled_by = ROOT
 				wfc_is_possible_construction = yes
@@ -1774,7 +1774,7 @@ shared_focus = {
 				free_building_slots = {
 					building = air_base
 					size > 1
-					include_locked = yes
+					#include_locked = yes
 				}
 				is_owned_and_controlled_by = ROOT
 				wfc_is_possible_construction = yes

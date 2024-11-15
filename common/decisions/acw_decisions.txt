@@ -1487,6 +1487,7 @@ acw_create_great_animeland_category = {
 			controls_state = 82
 			controls_state = 83
 			controls_state = 84
+			controls_state = 971
 		}
 		ai_will_do = {
 			base = 0
@@ -1554,6 +1555,8 @@ acw_create_great_animeland_category = {
 			controls_state = 155
 			controls_state = 43
 			controls_state = 154
+			controls_state = 973
+			controls_state = 974
 		}
 		ai_will_do = {
 			base = 0
@@ -1611,6 +1614,16 @@ acw_category_protectorates = {
 							is_puppet_of = ROOT
 						}
 					}
+					975 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
+					976 = {
+						OWNER = {
+							is_puppet_of = ROOT
+						}
+					}
 				}
 			}
 		}
@@ -1619,6 +1632,8 @@ acw_category_protectorates = {
 			controls_state = 153
 			controls_state = 152
 			controls_state = 4
+			controls_state = 975
+			controls_state = 976
 		}
 		ai_will_do = {
 			base = 100
@@ -1654,6 +1669,8 @@ acw_category_protectorates = {
 					transfer_state = 153
 					transfer_state = 152
 					transfer_state = 4
+					transfer_state = 975
+					transfer_state = 976
 				}
 				var:country_to_initiate = {
 					set_country_flag = wfc_change_focus_tree_flag
