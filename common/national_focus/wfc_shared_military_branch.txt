@@ -48,6 +48,97 @@ shared_focus = {
 				level = 1
 			}
 		}
+		if = {
+			limit = {
+				tag = ACW
+			}
+			83 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					province = 9640
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = HEN
+			}
+			528 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					province = 10020
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MAH
+			}
+			455 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					province = 10089
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MEH
+			}
+			378 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					province = 10387
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MMS
+			}
+			410 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					province = 2070
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = NEC
+			}
+			758 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					province = 8029
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = TRP
+			}
+			310 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+					province = 4934
+					instant_build = yes
+				}
+			}
+		}
 	}
 }
 
@@ -1693,6 +1784,97 @@ shared_focus = {
 				level = 1
 			}
 		}
+		if = {
+			limit = {
+				tag = ACW
+			}
+			82 = {
+				add_building_construction = {
+					type = air_facility
+					level = 1
+					province = 662
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = HEN
+			}
+			528 = {
+				add_building_construction = {
+					type = air_facility
+					level = 1
+					province = 11925
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MAH
+			}
+			454 = {
+				add_building_construction = {
+					type = air_facility
+					level = 1
+					province = 7107
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MEH
+			}
+			378 = {
+				add_building_construction = {
+					type = air_facility
+					level = 1
+					province = 3588
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MMS
+			}
+			414 = {
+				add_building_construction = {
+					type = air_facility
+					level = 1
+					province = 12895
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = NEC
+			}
+			758 = {
+				add_building_construction = {
+					type = air_facility
+					level = 1
+					province = 12801
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = TRP
+			}
+			939 = {
+				add_building_construction = {
+					type = air_facility
+					level = 1
+					province = 13276
+					instant_build = yes
+				}
+			}
+		}
 	}
 }
 
@@ -2637,6 +2819,97 @@ shared_focus = {
 			modifier = wfc_dm_smb_navy
 		}
 		wfc_add_dockyard_in_random_state_or_offsite = yes
+		if = {
+			limit = {
+				tag = ACW
+			}
+			105 = {
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					province = 9809
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = HEN
+			}
+			528 = {
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					province = 9950
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MAH
+			}
+			553 = {
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					province = 792
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MEH
+			}
+			378 = {
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					province = 9671
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MMS
+			}
+			412 = {
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					province = 7982
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = NEC
+			}
+			430 = {
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					province = 11968
+					instant_build = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = TRP
+			}
+			939= {
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					province = 4980
+					instant_build = yes
+				}
+			}
+		}
 	}
 }
 

@@ -202,93 +202,6 @@ wfc_test_category = {
 			add_stability = 0.2
 		}
 	}
-	wfc_test_1 = {
-		fire_only_once = no
-		cost = 0
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = wfc_opposition_is_more_popular_than_government
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					OR = {
-						communism > party_popularity@democratic
-						fascism > party_popularity@democratic
-						neutrality > party_popularity@democratic
-					}
-				}
-				else_if = {
-					limit = {
-						has_government = communism
-					}
-					OR = {
-						democratic > party_popularity@communism
-						fascism > party_popularity@communism
-						neutrality > party_popularity@communism
-					}
-				}
-				else_if = {
-					limit = {
-						has_government = fascism
-					}
-					OR = {
-						democratic > party_popularity@fascism
-						communism > party_popularity@fascism
-						neutrality > party_popularity@fascism
-					}
-				}
-				else = {
-					OR = {
-						democratic > party_popularity@neutrality
-						fascism > party_popularity@neutrality
-						communism > party_popularity@neutrality
-					}
-				}
-			}
-		}
-		complete_effect = {
-			if = {
-				limit = {
-					democratic > party_popularity@communism
-					democratic > party_popularity@fascism
-					democratic > party_popularity@neutrality
-				}
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-				}
-			}
-			else_if = {
-				limit = {
-					communism > party_popularity@democratic
-					communism > party_popularity@fascism
-					communism > party_popularity@neutrality
-				}
-				set_politics = {
-					ruling_party = communism
-					elections_allowed = no
-				}
-			}
-			else_if = {
-				limit = {
-					fascism > party_popularity@communism
-					fascism > party_popularity@democratic
-					fascism > party_popularity@neutrality
-				}
-				set_politics = {
-					ruling_party = fascism
-					elections_allowed = no
-				}
-			}
-			else = {
-				set_politics = {
-					ruling_party = neutrality
-					elections_allowed = no
-				}
-			}
-		}
-	}
 	wfc_acw_war_rom = {
 		fire_only_once = no
 		cost = 0
@@ -426,131 +339,6 @@ wfc_test_category = {
 					}
 				}
 			}
-		}
-	}
-	wfc_test_rise_zombi = {
-		fire_only_once = no
-		cost = 0
-		visible = {
-			tag = MMS
-		}
-		available = {
-			has_full_control_of_state = 267
-		}
-		complete_effect = {
-			ZMB = {
-				#set_state_controller = 267
-				transfer_state = 267
-				load_oob = ZMB_1936
-				267 = {
-					add_core_of = ZMB
-					set_temp_variable = {
-						i = 0
-					}
-					while_loop_effect = {
-						limit = {
-							check_variable = {
-								i = 10
-								compare = less_than
-							}
-						}
-						add_to_temp_variable = {
-							i = 1
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-						create_unit = {
-							division = "name = \"Zombi Division\" division_template = \"Zombi Division\" start_experience_factor = 1 start_equipment_factor = 1"
-							owner = ZMB
-							#prioritize_location = 4518
-							allow_spawning_on_enemy_provs = yes
-						}
-					}
-				}
-				declare_war_on = {
-					target = MMS
-					type = annex_everything
-				}
-				add_ideas = ZMB_tae_yamada
-				country_lock_all_division_template = yes
-				set_division_force_allow_recruiting = {
-					division_template = "Zombi Division"
-				}
-				set_division_force_allow_recruiting = {
-					division_template = "Zombi Cavalry"
-				}
-				#dddassad
-				delete_unit_template_and_units = {
-					division_template = "MonMusu Garrison"
-					disband = yes
-				}
-				delete_unit_template_and_units = {
-					division_template = "MonMusu Cavalry"
-					disband = yes
-				}
-				delete_unit_template_and_units = {
-					division_template = "MonMusu Brigade"
-					disband = yes
-				}
-				delete_unit_template_and_units = {
-					division_template = "MonMusu Division"
-					disband = yes
-				}
-			}
-			country_event = mms_event.2
-			news_event = wfc_news.10
 		}
 	}
 	wfc_test_add_claims_to_rom = {
@@ -1026,6 +814,18 @@ wfc_test_category = {
 				add_offsite_building = {
 					type = industrial_complex
 					level = 1
+				}
+			}
+		}
+	}
+	wfc_test_add_nuclear_facility = {
+		complete_effect = {
+			412 = {
+				add_building_construction = {
+					type = air_facility
+					level = 1
+					province = 12863
+					instant_build = yes
 				}
 			}
 		}

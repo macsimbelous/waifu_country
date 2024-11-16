@@ -2380,7 +2380,7 @@ focus_tree = {
 		relative_position_id = hen_focus_expand_academy
 		x = -2
 		y = 1
-		cost = 5
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -2388,6 +2388,14 @@ focus_tree = {
 			focus = hen_focus_expand_academy
 		}
 		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = nuclear_facility
+					level = 1
+					province = 11949
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = nuclear_bonus
 				bonus = 1
