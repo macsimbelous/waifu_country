@@ -431,6 +431,30 @@ spriteTypes = {
 		name = "GFX_portrait_hen_taura_hattori_army"
 		texturefile = "gfx/leaders/HEN/taura_hattori_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hen_liza_aki"
+		texturefile = "gfx/leaders/HEN/liza_aki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_liza_aki_civilian"
+		texturefile = "gfx/leaders/HEN/liza_aki_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_chie_rall"
+		texturefile = "gfx/leaders/HEN/chie_rall_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_chie_rall_civilian"
+		texturefile = "gfx/leaders/HEN/chie_rall_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hen_emma_budyonny"
+		texturefile = "gfx/leaders/HEN/emma_budyonny_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_emma_budyonny_civilian"
+		texturefile = "gfx/leaders/HEN/emma_budyonny_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_hen_land_01_small"

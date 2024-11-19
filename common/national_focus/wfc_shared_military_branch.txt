@@ -2823,12 +2823,29 @@ shared_focus = {
 			limit = {
 				tag = ACW
 			}
-			105 = {
-				add_building_construction = {
-					type = naval_facility
-					level = 1
-					province = 9809
-					instant_build = yes
+			if = {
+				limit = {
+					105 = {
+						is_fully_controlled_by = ROOT
+					}
+				}
+				105 = {
+					add_building_construction = {
+						type = naval_facility
+						level = 1
+						province = 9809
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				971 = {
+					add_building_construction = {
+						type = naval_facility
+						level = 1
+						province = 657
+						instant_build = yes
+					}
 				}
 			}
 		}

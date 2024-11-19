@@ -448,9 +448,9 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_surface_ship_specialist scientist_trait_gifted_engineer }
+			traits = { scientist_trait_nuclear_specialist scientist_trait_bright }
 			skills = {
-				specialization_naval = 1
+				specialization_nuclear = 1
 			}
 		}
 		advisor = {
@@ -1308,6 +1308,60 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	hen_liza_aki = {
+		name = hen_liza_aki
+		portraits = {
+			army = {
+				small = GFX_idea_hen_liza_aki
+				large = GFX_portrait_hen_liza_aki_civilian
+			}
+			civilian = {
+				large = GFX_portrait_hen_liza_aki_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist scientist_trait_genius }
+			skills = {
+				specialization_naval = 2
+			}
+		}
+	}
+	hen_chie_rall = {
+		name = hen_chie_rall
+		portraits = {
+			army = {
+				small = GFX_idea_hen_chie_rall
+				large = GFX_portrait_hen_chie_rall_civilian
+			}
+			civilian = {
+				large = GFX_portrait_hen_chie_rall_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_aircraft_specialist scientist_trait_fast_learner }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+	hen_emma_budyonny = {
+		name = hen_emma_budyonny
+		portraits = {
+			army = {
+				small = GFX_idea_hen_emma_budyonny
+				large = GFX_portrait_hen_emma_budyonny_civilian
+			}
+			civilian = {
+				large = GFX_portrait_hen_emma_budyonny_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_armored_specialist scientist_trait_resourceful }
+			skills = {
+				specialization_land = 1
+			}
 		}
 	}
 }
