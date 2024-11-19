@@ -1113,6 +1113,22 @@ spriteTypes = {
 		name = "GFX_portrait_acw_pyro_army"
 		texturefile = "gfx/leaders/ACW/pyro_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_acw_mila_tarakanova"
+		texturefile = "gfx/leaders/ACW/mila_tarakanova_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_mila_tarakanova_civilian"
+		texturefile = "gfx/leaders/ACW/mila_tarakanova_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_acw_ark_royal"
+		texturefile = "gfx/leaders/ACW/ark_royal_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_ark_royal_civilian"
+		texturefile = "gfx/leaders/ACW/ark_royal_civilian.dds"
+	}
 	#generics
 	spriteType = {
 		name = "GFX_portrait_acw_land_01_small"
