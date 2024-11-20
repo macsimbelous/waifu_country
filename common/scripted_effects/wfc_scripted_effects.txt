@@ -1544,6 +1544,116 @@ trp_se_south_american_unification = {
 	set_country_flag = trp_south_american_federation_formed_flag
 	set_major = yes
 	hidden_effect = {
+		if = {
+			limit = {
+				VEN = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = VEN
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				COL = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = COL
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				ECU = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = ECU
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				PRU = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = PRU
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				BOL = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = BOL
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				CHL = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = CHL
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				PAR = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = PAR
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				ARG = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = ARG
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				URG = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = URG
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				BRA = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = BRA
+				transfer_troops = yes
+			}
+		}
 		transfer_state = 493
 		transfer_state = 306
 		transfer_state = 486
@@ -1882,6 +1992,94 @@ mah_se_form_crystal_empire = {
 	set_country_flag = mah_crystal_empire_formed_flag
 	set_major = yes
 	hidden_effect = {
+		if = {
+			limit = {
+				KUR = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = KUR
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				IRQ = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = IRQ
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				SAU = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = SAU
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				KUW = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = KUW
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				QAT = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = QAT
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				UAE = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = UAE
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				YEM = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = YEM
+				transfer_troops = yes
+			}
+		}
+		if = {
+			limit = {
+				OMA = {
+					is_puppet_of = ROOT
+				}
+			}
+			annex_country = {
+				target = OMA
+				transfer_troops = yes
+			}
+		}
 		transfer_state = 676
 		transfer_state = 675
 		transfer_state = 291
@@ -1900,6 +2098,12 @@ mah_se_form_crystal_empire = {
 		transfer_state = 857
 		transfer_state = 858
 		transfer_state = 859
+		transfer_state = 680
+		transfer_state = 677
+		transfer_state = 553
+		transfer_state = 554
+		transfer_state = 454
+		transfer_state = 455
 		if = {
 			limit = {
 				906 = {

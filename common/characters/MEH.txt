@@ -213,6 +213,9 @@ characters = {
 				small = GFX_idea_meh_ashigara_arp
 				large = GFX_portrait_meh_ashigara_arp
 			}
+			civilian = {
+				large = GFX_portrait_meh_ashigara_arp
+			}
 		}
 		advisor = {
 			slot = political_advisor
@@ -238,14 +241,11 @@ characters = {
 				}
 			}
 		}
-		navy_leader = {
-			traits = {
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist scientist_trait_schrodingers_trait }
+			skills = {
+				specialization_naval = 1
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
 		}
 	}
 	#marshal
@@ -1287,6 +1287,61 @@ characters = {
 			}
 			skill = 1
 			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	meh_freyna = {
+		name = meh_freyna
+		portraits = {
+			army = {
+				small = GFX_idea_meh_freyna
+				large = GFX_portrait_meh_freyna_civilian
+			}
+			civilian = {
+				large = GFX_portrait_meh_freyna_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_nuclear_power_expert scientist_trait_fast_learner }
+			skills = {
+				specialization_nuclear  = 1
+			}
+		}
+	}
+	meh_astra = {
+		name = meh_astra
+		portraits = {
+			army = {
+				small = GFX_idea_meh_astra
+				large = GFX_portrait_meh_astra_civilian
+			}
+			civilian = {
+				large = GFX_portrait_meh_astra_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_artillery_specialist scientist_trait_bright }
+			skills = {
+				specialization_land  = 1
+			}
+		}
+	}
+	meh_bunny = {
+		name = meh_bunny
+		portraits = {
+			army = {
+				small = GFX_idea_meh_bunny
+				large = GFX_portrait_meh_bunny_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando urban_assault_specialist
+			}
+			skill = 1
+			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1

@@ -415,6 +415,30 @@ spriteTypes = {
 		name = "GFX_idea_meh_zinas"
 		texturefile = "gfx/leaders/MEH/zinas_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_meh_freyna_civilian"
+		texturefile = "gfx/leaders/MEH/freyna_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_meh_freyna"
+		texturefile = "gfx/leaders/MEH/freyna_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_meh_astra_civilian"
+		texturefile = "gfx/leaders/MEH/astra_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_meh_astra"
+		texturefile = "gfx/leaders/MEH/astra_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_meh_bunny_army"
+		texturefile = "gfx/leaders/MEH/bunny_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_meh_bunny"
+		texturefile = "gfx/leaders/MEH/bunny_idea.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_meh_land_01_small"

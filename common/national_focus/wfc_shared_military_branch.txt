@@ -3,7 +3,7 @@ shared_focus = {
 	icon = GFX_goal_panzerwaffe
 	x = 0
 	y = 0
-	cost = 5
+	cost = 10
 	available = {
 		if = {
 			limit = {
@@ -22,7 +22,7 @@ shared_focus = {
 		}
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 	completion_reward = {
 		army_experience = 25
@@ -1700,13 +1700,9 @@ shared_focus = {
 	#prerequisite = { focus = wfc_smb_army }
 	x = 9
 	y = 0
-	cost = 5
+	cost = 10
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			has_war = yes
-			factor = 10
-		}
+		factor = 100
 	}
 	available = {
 		if = {
@@ -2789,9 +2785,9 @@ shared_focus = {
 	relative_position_id = wfc_smb_air_force
 	x = 8
 	y = 0
-	cost = 5
+	cost = 10
 	ai_will_do = {
-		factor = 10
+		factor = 100
 	}
 	available = {
 		if = {
