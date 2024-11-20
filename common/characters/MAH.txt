@@ -1410,6 +1410,51 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	mah_element_venus = {
+		name = mah_element_venus
+		portraits = {
+			civilian = {
+				large = GFX_portrait_mah_element_venus_civilian
+			}
+			army = {
+				small = GFX_idea_mah_element_venus
+				large = GFX_portrait_mah_element_venus_army
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_jet_expert scientist_trait_gifted_engineer }
+			skills = {
+				specialization_air = 1
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = air
+			idea_token = mah_element_venus
+			cost = 150
+			traits = {
+				air_air_superiority_3
+			}
+		}
+	}
+	mah_mai_surkova = {
+		name = mah_mai_surkova
+		portraits = {
+			civilian = {
+				large = GFX_portrait_mah_mai_surkova_civilian
+			}
+			army = {
+				small = GFX_idea_mah_mai_surkova
+				large = GFX_portrait_mah_mai_surkova_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_submarine_specialist scientist_trait_genius }
+			skills = {
+				specialization_naval = 2
+			}
+		}
+	}
 	#Заглушка
 	MAH_head_int = {
 		name = MAH_Hitomi_Tsukishiro

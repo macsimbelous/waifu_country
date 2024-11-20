@@ -452,6 +452,26 @@ spriteTypes = {
 		name = "GFX_idea_mah_mina_rall"
 		texturefile = "gfx/leaders/MAH/mina_rall_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_mah_element_venus_army"
+		texturefile = "gfx/leaders/MAH/element_venus_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mah_element_venus"
+		texturefile = "gfx/leaders/MAH/element_venus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_element_venus_civilian"
+		texturefile = "gfx/leaders/MAH/element_venus_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mah_mai_surkova"
+		texturefile = "gfx/leaders/MAH/mai_surkova_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_mai_surkova_civilian"
+		texturefile = "gfx/leaders/MAH/mai_surkova_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mah_land_01_small"
