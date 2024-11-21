@@ -627,6 +627,30 @@ spriteTypes = {
 		name = "GFX_portrait_mms_ellen_joe_civilian"
 		texturefile = "gfx/leaders/MMS/ellen_joe_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_hiya"
+		texturefile = "gfx/leaders/MMS/hiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_hiya_civilian"
+		texturefile = "gfx/leaders/MMS/hiya_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_zaichik"
+		texturefile = "gfx/leaders/MMS/zaichik_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_zaichik_civilian"
+		texturefile = "gfx/leaders/MMS/zaichik_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mms_xilonen"
+		texturefile = "gfx/leaders/MMS/xilonen_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_xilonen_civilian"
+		texturefile = "gfx/leaders/MMS/xilonen_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

@@ -1759,4 +1759,58 @@ characters = {
 			coordination_skill = 1
 		}
 	}
+	mms_hiya = {
+		name = mms_hiya
+		portraits = {
+			army = {
+				small = GFX_idea_mms_hiya
+				large = GFX_portrait_mms_hiya_civilian
+			}
+			civilian = {
+				large = GFX_portrait_mms_hiya_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_aircraft_specialist scientist_trait_brilliant_theorist }
+			skills = {
+				specialization_air = 2
+			}
+		}
+	}
+	mms_zaichik = {
+		name = mms_zaichik
+		portraits = {
+			army = {
+				small = GFX_idea_mms_zaichik
+				large = GFX_portrait_mms_zaichik_civilian
+			}
+			civilian = {
+				large = GFX_portrait_mms_zaichik_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist scientist_trait_resourceful }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+	mms_xilonen = {
+		name = mmms_xilonen
+		portraits = {
+			army = {
+				small = GFX_idea_mms_xilonen
+				large = GFX_portrait_mms_xilonen_civilian
+			}
+			civilian = {
+				large = GFX_portrait_mms_xilonen_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_armored_specialist scientist_trait_gifted_engineer }
+			skills = {
+				specialization_land = 2
+			}
+		}
+	}
 }

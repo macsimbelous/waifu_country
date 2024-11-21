@@ -355,6 +355,30 @@ spriteTypes = {
 		name = "GFX_portrait_trp_bertrand_army"
 		texturefile = "gfx/leaders/TRP/bertrand_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_adolfo_camila"
+		texturefile = "gfx/leaders/TRP/adolfo_camila_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_adolfo_camila_civilian"
+		texturefile = "gfx/leaders/TRP/adolfo_camila_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_adelita_grau"
+		texturefile = "gfx/leaders/TRP/adelita_grau_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_adelita_grau_civilian"
+		texturefile = "gfx/leaders/TRP/adelita_grau_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_kisaragi_yura"
+		texturefile = "gfx/leaders/TRP/kisaragi_yura_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_kisaragi_yura_civilian"
+		texturefile = "gfx/leaders/TRP/kisaragi_yura_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_trp_land_01_small"

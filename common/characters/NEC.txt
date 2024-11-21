@@ -610,9 +610,9 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_nuclear_warfare_expert scientist_trait_bright }
+			traits = { scientist_trait_nuclear_warfare_expert scientist_trait_genius }
 			skills = {
-				specialization_nuclear = 3
+				specialization_nuclear = 1
 			}
 		}
 		advisor = {
@@ -897,6 +897,79 @@ characters = {
 			modifier = {
 				research_speed_factor = 0.1
 			}
+		}
+	}
+	nec_nergal = {
+		name = nec_nergal
+		portraits = {
+			army = {
+				small = GFX_idea_nec_nergal
+				large = GFX_portrait_nec_nergal_civilian
+			}
+			civilian = {
+				large = GFX_portrait_nec_nergal_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist scientist_trait_resourceful }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+	nec_yaga = {
+		name = nec_yaga
+		portraits = {
+			army = {
+				small = GFX_idea_nec_yaga
+				large = GFX_portrait_nec_yaga_civilian
+			}
+			civilian = {
+				large = GFX_portrait_nec_yaga_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_aircraft_specialist scientist_trait_gifted_engineer }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+	nec_hecate = {
+		name = nec_hecate
+		portraits = {
+			army = {
+				small = GFX_idea_nec_hecate
+				large = GFX_portrait_nec_hecate_civilian
+			}
+			civilian = {
+				large = GFX_portrait_nec_hecate_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_artillery_specialist scientist_trait_fast_learner }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+	nec_morrigan = {
+		name = nec_morrigan
+		portraits = {
+			army = {
+				small = GFX_idea_nec_morrigan
+				large = GFX_portrait_nec_morrigan_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	#Заглушки

@@ -204,7 +204,7 @@
  wfc_is_controlled_by_root_or_puppet_tt:0 "Контролирует §G[ROOT.GetName]§! или §Gмарионетка§!"
 
 #Effects
- wfc_instantiate_province_tt:0 "Будет сформирована провинция §Y[?country_to_initiate.GetName]§!"
+ wfc_instantiate_province_tt: "Будет сформирована провинция §Y[?country_to_initiate.GetName]§!"
 
 #autonomies
 ACW_wfc_autonomy_province:0 "Провинция $ACW$"

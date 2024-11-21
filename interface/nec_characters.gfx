@@ -255,6 +255,38 @@ spriteTypes = {
 		name = "GFX_portrait_nec_wiz_puppet"
 		texturefile = "gfx/leaders/NEC/wiz_puppet.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_nergal"
+		texturefile = "gfx/leaders/NEC/nergal_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_nergal_civilian"
+		texturefile = "gfx/leaders/NEC/nergal_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_yaga"
+		texturefile = "gfx/leaders/NEC/yaga_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_yaga_civilian"
+		texturefile = "gfx/leaders/NEC/yaga_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_hecate"
+		texturefile = "gfx/leaders/NEC/hecate_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_hecate_civilian"
+		texturefile = "gfx/leaders/NEC/hecate_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nec_morrigan"
+		texturefile = "gfx/leaders/NEC/morrigan_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_morrigan_army"
+		texturefile = "gfx/leaders/NEC/morrigan_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"

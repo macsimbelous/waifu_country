@@ -496,6 +496,9 @@ characters = {
 				small = GFX_idea_trp_sylvia
 				large = GFX_portrait_trp_sylvia
 			}
+			civilian = {
+				large = GFX_portrait_trp_sylvia
+			}
 		}
 		scientist = {
 			traits = { scientist_trait_nuclear_power_expert scientist_trait_genius }
@@ -1034,6 +1037,60 @@ characters = {
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
+		}
+	}
+	trp_adolfo_camila = {
+		name = trp_adolfo_camila
+		portraits = {
+			army = {
+				small = GFX_idea_trp_adolfo_camila
+				large = GFX_portrait_trp_adolfo_camila_civilian
+			}
+			civilian = {
+				large = GFX_portrait_trp_adolfo_camila_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_armored_specialist scientist_trait_bright }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+	trp_adelita_grau = {
+		name = trp_adelita_grau
+		portraits = {
+			army = {
+				small = GFX_idea_trp_adelita_grau
+				large = GFX_portrait_trp_adelita_grau_civilian
+			}
+			civilian = {
+				large = GFX_portrait_trp_adelita_grau_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_helicopter_expert scientist_trait_fast_learner }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+	trp_kisaragi_yura = {
+		name = trp_kisaragi_yura
+		portraits = {
+			army = {
+				small = GFX_idea_trp_kisaragi_yura
+				large = GFX_portrait_trp_kisaragi_yura_civilian
+			}
+			civilian = {
+				large = GFX_portrait_trp_kisaragi_yura_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist scientist_trait_resourceful }
+			skills = {
+				specialization_naval = 1
+			}
 		}
 	}
 	TRP_aoi_futaba = {
