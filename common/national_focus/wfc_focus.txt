@@ -1490,6 +1490,10 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			original_tag = MAH
+			factor = 100
+		}
 	}
 }
 
