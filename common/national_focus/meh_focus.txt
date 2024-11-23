@@ -2134,7 +2134,7 @@ focus_tree = {
 				USA = {
 					has_capitulated = yes
 				}
-				country_exists = USA
+				NOT = { country_exists = USA }
 			}
 			OR = {
 				custom_trigger_tooltip = {
@@ -2182,7 +2182,7 @@ focus_tree = {
 				MEX = {
 					has_capitulated = yes
 				}
-				country_exists = MEX
+				NOT = { country_exists = MEX }
 			}
 			OR = {
 				custom_trigger_tooltip = {
@@ -2257,7 +2257,7 @@ focus_tree = {
 				CAN = {
 					has_capitulated = yes
 				}
-				country_exists = CAN
+				NOT = { country_exists = CAN }
 			}
 			# 332 = {
 			# 	wfc_is_controlled_by_root_or_puppet = yes
