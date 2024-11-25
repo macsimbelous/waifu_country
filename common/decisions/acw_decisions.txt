@@ -1683,6 +1683,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
+					inherit_technology = ACW
 				}
 			}
 			var:country_to_initiate = {
@@ -1775,6 +1776,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
+					inherit_technology = ACW
 				}
 			}
 			var:country_to_initiate = {
@@ -1870,6 +1872,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
+					inherit_technology = ACW
 				}
 			}
 			var:country_to_initiate = {
@@ -2027,6 +2030,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
+					inherit_technology = ACW
 				}
 			}
 			var:country_to_initiate = {
@@ -2058,6 +2062,128 @@ acw_category_protectorates = {
 					}
 				}
 				transfer_state = 103
+			}
+		}
+	}
+	acw_decision_create_protectorate_pol = {
+		icon = GFX_decision_generic_nationalism
+		cost = mtth:wfc_mtth_acw_protectorate_cost
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 92
+				state = 88
+				state = 90
+				state = 10
+				state = 98
+				state = 87
+				state = 86
+			}
+		}
+		available = {
+			92 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			88 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			90 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			10 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			98 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			87 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			86 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = POL
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 10
+				}
+				if = {
+					limit = {
+						has_war_with = POL
+					}
+					every_state = {
+						limit = {
+							OR = {
+								state = 92
+								state = 88
+								state = 90
+								state = 98
+								state = 87
+								state = 86
+							}
+						}
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
+						add_claim_by = var:country_to_initiate
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							OR = {
+								state = 92
+								state = 88
+								state = 90
+								state = 98
+								state = 87
+								state = 86
+							}
+						}
+						transfer_state_to = var:country_to_initiate
+					}
+				}
+				var:country_to_initiate = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					inherit_technology = ACW
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
 			}
 		}
 	}
@@ -2257,6 +2383,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
+					inherit_technology = ACW
 				}
 			}
 			var:country_to_initiate = {

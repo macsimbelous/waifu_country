@@ -44,6 +44,9 @@ acw_category_protectorates = {
 	visible = {
 		has_completed_focus = acw_focus_protectorates
 	}
+	available = {
+		is_subject = no
+	}
 }
 
 acw_category_foreign_politics = {

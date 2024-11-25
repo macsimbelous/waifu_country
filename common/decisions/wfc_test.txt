@@ -818,15 +818,33 @@ wfc_test_category = {
 			}
 		}
 	}
-	wfc_test_add_nuclear_facility = {
+	wfc_test_necrofication = {
 		complete_effect = {
-			412 = {
-				add_building_construction = {
-					type = air_facility
-					level = 1
-					province = 12863
-					instant_build = yes
+			annex_country = {
+				target = TIB
+			}
+			annex_country = {
+				target = NEP
+			}
+			annex_country = {
+				target = BHU
+			}
+			add_ideas = nec_idea_necrification
+		}
+	}
+	wfc_test_compliance_up = {
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					NOT = {
+						is_core_of = ROOT
+					}
+					any_neighbor_state = {
+						is_core_of = ROOT
+					}
 				}
+				add_compliance = 75
 			}
 		}
 	}

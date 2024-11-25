@@ -331,6 +331,9 @@ nec_category_necrification = {
 	}
 	nec_decision_necrification = {
 		icon = GFX_decision_generic_brainwash
+		allowed = {
+			always = no
+		}
 		available = {
 			FROM = {
 				is_fully_controlled_by = ROOT
@@ -411,6 +414,9 @@ nec_category_necrification = {
 		name = meh_cyborgization
 		icon = GFX_decision_generic_brainwash
 		priority = 1
+		allowed = {
+			always = no
+		}
 		available = {
 			FROM = {
 				is_fully_controlled_by = ROOT

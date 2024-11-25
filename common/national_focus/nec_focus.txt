@@ -221,6 +221,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_country_flag = nec_flag_necrification
+			add_ideas = nec_idea_necrification
 			hidden_effect = {
 				transfer_state = 757
 				transfer_state = 322
