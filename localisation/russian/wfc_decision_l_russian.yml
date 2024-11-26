@@ -263,6 +263,7 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   acw_decision_create_protectorate_ita: "Создать Итальянский протекторат"
   acw_decision_create_protectorate_ukr: "Создать Украинский протекторат"
   acw_decision_transfer_west_ukr: "Передать западную украину протекторату"
+  acw_decision_create_protectorate_pol: "Протекторат [POL.GetName]"
 
  #acw_category_foreign_politics
   acw_category_foreign_politics: "Иностранная политика"

@@ -262,10 +262,11 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
   acw_category_protectorates: "Protectorates"
   acw_decision_create_protectorate_aus: "Create Austrian Protectorate"
   acw_decision_create_protectorate_slo: "Create The Slovak protectorate"
-  acw_decision_create_protectorate_gre: "Create The Greek Protectorate".
-  acw_decision_create_protectorate_ita: "Create The Italian Protectorate".
-  acw_decision_create_protectorate_ukr: "Create The Ukrainian Protectorate".
-  acw_decision_transfer_west_ukr: "Transfer Western Ukraine to protectorate".
+  acw_decision_create_protectorate_gre: "Create The Greek Protectorate"
+  acw_decision_create_protectorate_ita: "Create The Italian Protectorate"
+  acw_decision_create_protectorate_ukr: "Create The Ukrainian Protectorate"
+  acw_decision_transfer_west_ukr: "Transfer Western Ukraine to protectorate"
+  acw_decision_create_protectorate_pol: "Protectorate [POL.GetName]"
 
  #acw_category_foreign_politics
   acw_category_foreign_politics: "Foreign Politics"

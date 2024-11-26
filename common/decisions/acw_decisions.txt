@@ -1683,7 +1683,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
-					inherit_technology = ACW
+					inherit_technology = ROOT
 				}
 			}
 			var:country_to_initiate = {
@@ -1776,7 +1776,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
-					inherit_technology = ACW
+					inherit_technology = ROOT
 				}
 			}
 			var:country_to_initiate = {
@@ -1872,7 +1872,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
-					inherit_technology = ACW
+					inherit_technology = ROOT
 				}
 			}
 			var:country_to_initiate = {
@@ -2030,7 +2030,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
-					inherit_technology = ACW
+					inherit_technology = ROOT
 				}
 			}
 			var:country_to_initiate = {
@@ -2137,7 +2137,7 @@ acw_category_protectorates = {
 				}
 				if = {
 					limit = {
-						has_war_with = POL
+						92.OWNER = { has_war_with = ROOT }
 					}
 					every_state = {
 						limit = {
@@ -2179,7 +2179,107 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
-					inherit_technology = ACW
+					inherit_technology = ROOT
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
+		}
+	}
+	acw_decision_create_protectorate_sil = {
+		icon = GFX_decision_generic_nationalism
+		cost = mtth:wfc_mtth_acw_protectorate_cost
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 66
+				state = 67
+				state = 762
+			}
+		}
+		available = {
+			66 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			67 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			762 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = SIL
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 66
+				}
+				if = {
+					limit = {
+						67.OWNER = {
+							has_war_with = ROOT
+						}
+					}
+					every_state = {
+						limit = {
+							OR = {
+								state = 67
+								state = 762
+							}
+						}
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
+						add_claim_by = var:country_to_initiate
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							OR = {
+								state = 67
+								state = 762
+							}
+						}
+						transfer_state_to = var:country_to_initiate
+					}
+				}
+				var:country_to_initiate = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					inherit_technology = ROOT
 				}
 			}
 			var:country_to_initiate = {
@@ -2383,7 +2483,7 @@ acw_category_protectorates = {
 					every_owned_state = {
 						remove_claim_by = ROOT
 					}
-					inherit_technology = ACW
+					inherit_technology = ROOT
 				}
 			}
 			var:country_to_initiate = {
