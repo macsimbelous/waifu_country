@@ -2941,6 +2941,25 @@ characters = {
 			}
 		}
 	}
+	acw_burnice = {
+		name = acw_burnice
+		portraits = {
+			army = {
+				small = GFX_idea_acw_burnice
+				large = GFX_portrait_acw_burnice_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#Заглушка
 	ACW_head_int = {
 		name = generic_head_of_intelligence

@@ -1129,6 +1129,14 @@ spriteTypes = {
 		name = "GFX_portrait_acw_ark_royal_civilian"
 		texturefile = "gfx/leaders/ACW/ark_royal_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_acw_burnice"
+		texturefile = "gfx/leaders/ACW/burnice_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_burnice_army"
+		texturefile = "gfx/leaders/ACW/burnice_army.dds"
+	}
 	#generics
 	spriteType = {
 		name = "GFX_portrait_acw_land_01_small"
