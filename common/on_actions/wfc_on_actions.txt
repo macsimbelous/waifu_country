@@ -1338,6 +1338,7 @@ on_actions = {
 						}
 					}
 					wfc_coring_state = yes
+					wfc_se_necrification_create_unit = yes
 				}
 			}
 		}

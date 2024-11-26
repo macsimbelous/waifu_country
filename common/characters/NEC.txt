@@ -328,8 +328,8 @@ characters = {
 			}
 		}
 	}
-	nec_nec_onyx_void = {
-		name = nec_nec_onyx_void
+	nec_onyx_void = {
+		name = nec_onyx_void
 		portraits = {
 			army = {
 				small = GFX_idea_nec_onyx_void
@@ -338,7 +338,7 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = nec_nec_onyx_void
+			idea_token = nec_onyx_void
 			cost = 50
 			traits = {
 				army_chief_defensive_1
@@ -665,6 +665,7 @@ characters = {
 			traits = {
 				war_hero
 				urban_assault_specialist
+				winter_specialist
 				adaptable
 			}
 			skill = 2
