@@ -257,13 +257,14 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
 
  #acw_category_protectorates
   acw_category_protectorates: "Потектораты"
-  acw_decision_create_protectorate_aus: "Создать Австрийский протекторат"
-  acw_decision_create_protectorate_slo: "Создать Словацкий протекторат"
-  acw_decision_create_protectorate_gre: "Создать Греческий протекторат"
-  acw_decision_create_protectorate_ita: "Создать Итальянский протекторат"
-  acw_decision_create_protectorate_ukr: "Создать Украинский протекторат"
-  acw_decision_transfer_west_ukr: "Передать западную украину протекторату"
+  acw_decision_create_protectorate_aus: "Протекторат [AUS.GetName]"
+  acw_decision_create_protectorate_slo: "Протекторат [SLO.GetName]"
+  acw_decision_create_protectorate_gre: "Протекторат [GRE.GetName]"
+  acw_decision_create_protectorate_ita: "Протекторат [ITA.GetName]"
+  acw_decision_create_protectorate_ukr: "Протекторат [UKR.GetName]"
+  acw_decision_transfer_west_ukr: "Передать западную украину"
   acw_decision_create_protectorate_pol: "Протекторат [POL.GetName]"
+  acw_decision_create_protectorate_sil: "Протекторат [SIL.GetName]"
 
  #acw_category_foreign_politics
   acw_category_foreign_politics: "Иностранная политика"

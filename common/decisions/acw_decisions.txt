@@ -2137,7 +2137,11 @@ acw_category_protectorates = {
 				}
 				if = {
 					limit = {
-						92.OWNER = { has_war_with = ROOT }
+						92 = {
+							OWNER = {
+								has_war_with = ROOT
+							}
+						}
 					}
 					every_state = {
 						limit = {
@@ -2243,8 +2247,10 @@ acw_category_protectorates = {
 				}
 				if = {
 					limit = {
-						67.OWNER = {
-							has_war_with = ROOT
+						67 = {
+							OWNER = {
+								has_war_with = ROOT
+							}
 						}
 					}
 					every_state = {
