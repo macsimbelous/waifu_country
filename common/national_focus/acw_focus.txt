@@ -2178,7 +2178,7 @@ focus_tree = {
 			add_war_support = 0.1
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 5
 			modifier = {
 				has_government = democratic
 				factor = 0
@@ -2237,6 +2237,9 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
 		id = acw_focus_attack_hun
@@ -2268,6 +2271,9 @@ focus_tree = {
 				target = HUN
 				type = annex_everything
 			}
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 	focus = {
@@ -2310,6 +2316,9 @@ focus_tree = {
 				type = annex_everything
 			}
 		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
 		id = acw_focus_attack_romania
@@ -2344,6 +2353,9 @@ focus_tree = {
 				target = ROM
 				type = annex_everything
 			}
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 	focus = {
@@ -2385,6 +2397,15 @@ focus_tree = {
 				type = annex_everything
 			}
 		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				BUL = {
+					is_in_faction = no
+				}
+				factor = 100
+			}
+		}
 	}
 	focus = {
 		id = acw_focus_great_animeland
@@ -2407,6 +2428,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			acw_se_create_great_animeland = yes
+		}
+		ai_will_do = {
+			factor = 100
 		}
 	}
 	focus = {
