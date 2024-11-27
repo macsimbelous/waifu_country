@@ -2135,43 +2135,26 @@ acw_category_protectorates = {
 				var:country_to_initiate = {
 					transfer_state = 10
 				}
-				if = {
+				every_state = {
 					limit = {
-						92 = {
-							OWNER = {
-								has_war_with = ROOT
-							}
+						OR = {
+							state = 92
+							state = 88
+							state = 90
+							state = 98
+							state = 87
+							state = 86
 						}
 					}
-					every_state = {
+					if = {
 						limit = {
-							OR = {
-								state = 92
-								state = 88
-								state = 90
-								state = 98
-								state = 87
-								state = 86
-							}
-						}
-						add_contested_owner = var:country_to_initiate
-						set_state_controller_to = var:country_to_initiate
-						add_claim_by = var:country_to_initiate
-					}
-				}
-				else = {
-					every_state = {
-						limit = {
-							OR = {
-								state = 92
-								state = 88
-								state = 90
-								state = 98
-								state = 87
-								state = 86
-							}
+							wfc_is_owned_by_root_or_puppet = yes
 						}
 						transfer_state_to = var:country_to_initiate
+					}
+					else = {
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
 					}
 				}
 				var:country_to_initiate = {
@@ -2245,35 +2228,22 @@ acw_category_protectorates = {
 				var:country_to_initiate = {
 					transfer_state = 66
 				}
-				if = {
+				every_state = {
 					limit = {
-						67 = {
-							OWNER = {
-								has_war_with = ROOT
-							}
+						OR = {
+							state = 67
+							state = 762
 						}
 					}
-					every_state = {
+					if = {
 						limit = {
-							OR = {
-								state = 67
-								state = 762
-							}
-						}
-						add_contested_owner = var:country_to_initiate
-						set_state_controller_to = var:country_to_initiate
-						add_claim_by = var:country_to_initiate
-					}
-				}
-				else = {
-					every_state = {
-						limit = {
-							OR = {
-								state = 67
-								state = 762
-							}
+							wfc_is_owned_by_root_or_puppet = yes
 						}
 						transfer_state_to = var:country_to_initiate
+					}
+					else = {
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
 					}
 				}
 				var:country_to_initiate = {
@@ -2297,116 +2267,79 @@ acw_category_protectorates = {
 		icon = generic_form_nation
 		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
-		visible = {
-			#has_completed_focus = acw_focus_protectorate_ukr
-			NOT = {
-				AND = {
-					199 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					201 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					202 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					193 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					225 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					198 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					834 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					192 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					203 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					197 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					196 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					259 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					226 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					200 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					221 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					227 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-					228 = {
-						OWNER = {
-							is_puppet_of = ROOT
-						}
-					}
-				}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 199
+				state = 201
+				state = 202
+				state = 193
+				state = 225
+				state = 198
+				state = 834
+				state = 192
+				state = 203
+				state = 197
+				state = 196
+				state = 259
+				state = 226
+				state = 200
+				state = 221
+				state = 227
+				state = 228
 			}
 		}
 		available = {
-			controls_state = 199
-			controls_state = 201
-			controls_state = 202
-			controls_state = 193
-			controls_state = 225
-			controls_state = 198
-			controls_state = 834
-			controls_state = 192
-			controls_state = 203
-			controls_state = 197
-			controls_state = 196
-			controls_state = 259
-			controls_state = 226
-			controls_state = 200
-			controls_state = 221
-			controls_state = 227
-			controls_state = 228
+			199 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			201 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			202 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			193 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			225 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			198 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			834 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			192 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			203 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			197 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			196 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			259 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			226 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			200 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			221 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			227 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			228 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
 		}
 		ai_will_do = {
 			base = 100
@@ -2438,46 +2371,64 @@ acw_category_protectorates = {
 					autonomy_state = wfc_autonomy_province
 				}
 				var:country_to_initiate = {
-					transfer_state = 199
-					transfer_state = 201
 					transfer_state = 202
-					transfer_state = 193
-					transfer_state = 225
-					transfer_state = 198
-					transfer_state = 834
-					transfer_state = 192
-					transfer_state = 203
-					transfer_state = 197
-					transfer_state = 196
-					transfer_state = 259
-					transfer_state = 226
-					transfer_state = 200
-					transfer_state = 221
-					transfer_state = 227
-					transfer_state = 228
-					if = {
-						limit = {
-							ROOT = {
-								controls_state = 89
-							}
+				}
+				every_state = {
+					limit = {
+						OR = {
+							state = 199
+							state = 201
+							#state = 202
+							state = 193
+							state = 225
+							state = 198
+							state = 834
+							state = 192
+							state = 203
+							state = 197
+							state = 196
+							state = 259
+							state = 226
+							state = 200
+							state = 221
+							state = 227
+							state = 228
 						}
-						transfer_state = 89
 					}
 					if = {
 						limit = {
-							ROOT = {
-								controls_state = 91
-							}
+							wfc_is_owned_by_root_or_puppet = yes
 						}
-						transfer_state = 91
+						transfer_state_to = var:country_to_initiate
+					}
+					else = {
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
+					}
+				}
+				#West ukr
+				every_state = {
+					limit = {
+						OR = {
+							state = 89
+							state = 91
+							state = 93
+						}
 					}
 					if = {
 						limit = {
-							ROOT = {
-								controls_state = 93
-							}
+							is_controlled_by_ROOT_or_subject = yes
 						}
-						transfer_state = 93
+						if = {
+							limit = {
+								wfc_is_owned_by_root_or_puppet = yes
+							}
+							transfer_state_to = var:country_to_initiate
+						}
+						else = {
+							add_contested_owner = var:country_to_initiate
+							set_state_controller_to = var:country_to_initiate
+						}
 					}
 				}
 				var:country_to_initiate = {
@@ -2501,23 +2452,39 @@ acw_category_protectorates = {
 		icon = generic_form_nation
 		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 89
+				state = 91
+				state = 93
+				state = 80
+			}
+		}
 		visible = {
-			#has_completed_focus = acw_focus_west_ukr
+			any_other_country = {
+				original_tag = UKR
+				is_puppet_of = ROOT
+			}
 			NOT = {
 				AND = {
 					89 = {
 						OWNER = {
-							is_puppet_of = ROOT
+							original_tag = UKR
 						}
 					}
 					91 = {
 						OWNER = {
-							is_puppet_of = ROOT
+							original_tag = UKR
 						}
 					}
 					93 = {
 						OWNER = {
-							is_puppet_of = ROOT
+							original_tag = UKR
+						}
+					}
+					80 = {
+						OWNER = {
+							original_tag = UKR
 						}
 					}
 				}
@@ -2533,9 +2500,8 @@ acw_category_protectorates = {
 			93 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
-			any_other_country = {
-				original_tag = UKR
-				is_puppet_of = ROOT
+			80 = {
+				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		ai_will_do = {
@@ -2547,9 +2513,26 @@ acw_category_protectorates = {
 					original_tag = UKR
 					is_puppet_of = ROOT
 				}
-				transfer_state = 89
-				transfer_state = 91
-				transfer_state = 93
+				every_state = {
+					limit = {
+						OR = {
+							state = 89
+							state = 91
+							state = 93
+							state = 80
+						}
+					}
+					if = {
+						limit = {
+							wfc_is_owned_by_root_or_puppet = yes
+						}
+						transfer_state_to = PREV
+					}
+					else = {
+						add_contested_owner = PREV
+						set_state_controller_to = PREV
+					}
+				}
 			}
 		}
 	}

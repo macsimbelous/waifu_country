@@ -25,6 +25,18 @@ wfc_is_controlled_by_root_or_puppet = {
 	}
 }
 
+wfc_is_owned_by_root_or_puppet = {
+	custom_trigger_tooltip = {
+		tooltip = wfc_is_owned_by_root_or_puppet_tt
+		OWNER = {
+			OR = {
+				tag = ROOT
+				is_puppet_of = ROOT
+			}
+		}
+	}
+}
+
 wfc_same_conscription = {
 	custom_trigger_tooltip = {
 		tooltip = wfc_same_conscription_tt
