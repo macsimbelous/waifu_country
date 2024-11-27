@@ -84,7 +84,7 @@ ideas = {
 			}
 			picture = generic_purge
 			modifier = {
-				resistance_target = 0.8
+				resistance_target = 0.65
 				#compliance_growth = 0.05
 				compliance_gain = 0.05
 				required_garrison_factor = 0.25
