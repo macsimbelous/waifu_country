@@ -268,6 +268,7 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
   acw_decision_transfer_west_ukr: "Transfer Western Ukraine"
   acw_decision_create_protectorate_pol: "Protectorate [POL.GetName]"
   acw_decision_create_protectorate_sil: "Protectorate [SIL.GetName]"
+  acw_decision_create_protectorate_mol: "Protectorate [MOL.GetName]"
 
  #acw_category_foreign_politics
   acw_category_foreign_politics: "Foreign Politics"

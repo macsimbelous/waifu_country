@@ -1589,9 +1589,19 @@ acw_create_great_animeland_category = {
 
 acw_category_protectorates = {
 	acw_decision_create_protectorate_aus = {
-		icon = generic_form_nation
+		icon = GFX_decision_generic_nationalism
 		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 848
+				state = 153
+				state = 152
+				state = 4
+				state = 975
+				state = 976
+			}
+		}
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_aus
 			NOT = {
@@ -1692,9 +1702,17 @@ acw_category_protectorates = {
 		}
 	}
 	acw_decision_create_protectorate_slo = {
-		icon = generic_form_nation
+		icon = GFX_decision_generic_nationalism
 		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 70
+				state = 71
+				state = 73
+				state = 664
+			}
+		}
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_cze
 			NOT = {
@@ -1785,9 +1803,18 @@ acw_category_protectorates = {
 		}
 	}
 	acw_decision_create_protectorate_gre = {
-		icon = generic_form_nation
+		icon = GFX_decision_generic_nationalism
 		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 184
+				state = 731
+				state = 185
+				state = 47
+				state = 186
+			}
+		}
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_gre
 			NOT = {
@@ -1881,9 +1908,29 @@ acw_category_protectorates = {
 		}
 	}
 	acw_decision_create_protectorate_ita = {
-		icon = generic_form_nation
+		icon = GFX_decision_generic_nationalism
 		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 115
+				state = 156
+				state = 849
+				state = 117
+				state = 2
+				state = 157
+				state = 162
+				state = 161
+				state = 158
+				state = 159
+				state = 850
+				state = 160
+				state = 39
+				state = 736
+				state = 852
+				state = 163
+			}
+		}
 		visible = {
 			#has_completed_focus = acw_focus_protectorate_ita
 			NOT = {
@@ -2263,8 +2310,90 @@ acw_category_protectorates = {
 			}
 		}
 	}
+	acw_decision_create_protectorate_mol = {
+		icon = GFX_decision_generic_nationalism
+		cost = mtth:wfc_mtth_acw_protectorate_cost
+		fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 78
+				state = 766
+			}
+		}
+		available = {
+			78 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			766 = {
+				is_controlled_by_ROOT_or_subject = yes
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = MOL
+			}
+			custom_effect_tooltip = wfc_instantiate_province_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						var:country_to_initiate = {
+							exists = yes
+						}
+					}
+					create_dynamic_country = {
+						original_tag = country_to_initiate
+						set_temp_variable = {
+							country_to_initiate = this
+						}
+					}
+				}
+				var:country_to_initiate = {
+					wfc_set_province_flag = yes
+				}
+				set_autonomy = {
+					target = country_to_initiate
+					autonomy_state = wfc_autonomy_province
+				}
+				var:country_to_initiate = {
+					transfer_state = 78
+				}
+				every_state = {
+					limit = {
+						state = 766
+					}
+					if = {
+						limit = {
+							wfc_is_owned_by_root_or_puppet = yes
+						}
+						transfer_state_to = var:country_to_initiate
+					}
+					else = {
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
+					}
+				}
+				var:country_to_initiate = {
+					set_country_flag = wfc_change_focus_tree_flag
+					load_focus_tree = {
+						tree = wfc_puppet_focus
+						keep_completed = no
+					}
+					every_owned_state = {
+						remove_claim_by = ROOT
+					}
+					inherit_technology = ROOT
+				}
+			}
+			var:country_to_initiate = {
+				wfc_change_country_leader = yes
+			}
+		}
+	}
 	acw_decision_create_protectorate_ukr = {
-		icon = generic_form_nation
+		icon = GFX_decision_generic_nationalism
 		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
 		highlight_states = {
@@ -2449,7 +2578,7 @@ acw_category_protectorates = {
 		}
 	}
 	acw_decision_transfer_west_ukr = {
-		icon = generic_form_nation
+		#icon = GFX_decision_generic_nationalism
 		cost = mtth:wfc_mtth_acw_protectorate_cost
 		fire_only_once = yes
 		highlight_states = {
