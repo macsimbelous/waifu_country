@@ -1,17 +1,6 @@
 ﻿l_english:
 
-#mms_event.2
- mms_event.2.t: "Rise of the Dead!"
- mms_event.2.d: "Experiments with necromancy got out of control, the living dead attacked the laboratory staff and, having killed them all, escaped, at the moment, hordes of the living dead are rapidly spreading across Kabul, and if emergency measures are not taken, the whole country will soon be dominated by the living dead."
- mms_event.2.a: "Destroy them without delay!"
- mms_event.2.b: "Brain!"
-
-#mms_event.3
- mms_event.3.t: "Arrest 02!"
- mms_event.3.d: "General 02 has been found to be plotting a coup d'état and must be stopped immediately."
- mms_event.3.a: "Arrest her. Immediately!"
-
-#mms_event.4
- mms_event.4.t: "Assassinate Shamiko!"
- mms_event.4.d: "There is no longer any reason to tolerate a vile half-breed on the throne."
- mms_event.4.a: "Long live Queen 02."
+#nec_event.1
+ nec_event.1.t: "The Necrophication of [nec_necrification_state_withdrawn.GetName]"
+ nec_event.1.d: "The population of the [nec_necrification_state_withdrawn.GetName] region is completely necrophied."
+ nec_event.1.c: "We're outnumbered!"

@@ -1,0 +1,6 @@
+﻿l_russian:
+
+#nec_event.1
+ nec_event.1.t: "Некрофикация [nec_necrification_state_withdrawn.GetName]"
+ nec_event.1.d: "Население региона [nec_necrification_state_withdrawn.GetName] полностью некрофицировано."
+ nec_event.1.c: "Нас становиться больше!"

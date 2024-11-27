@@ -1339,6 +1339,10 @@ on_actions = {
 					}
 					wfc_coring_state = yes
 					wfc_se_necrification_create_unit = yes
+					state_event = {
+						id = nec_event.1
+						trigger_for = controller
+					}
 				}
 			}
 		}

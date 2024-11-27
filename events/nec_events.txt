@@ -1,0 +1,21 @@
+add_namespace = nec_event
+
+state_event = {
+	id = nec_event.1
+	title = wfc_event.1.t
+	desc = nec_event.1.d
+	#picture = GFX_report_event_british_artillery
+	is_triggered_only = yes
+	immediate = {
+		ROOT = { save_event_target_as = nec_necrification_state_withdrawn }
+	}
+	option = {
+		name = nec_event.1.c
+		ai_chance = {
+			base = 1
+		}
+		# ROOT = {
+		# 	add_manpower = 1000000
+		# }
+	}
+}

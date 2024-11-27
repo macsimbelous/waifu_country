@@ -455,6 +455,14 @@ spriteTypes = {
 		name = "GFX_portrait_hen_emma_budyonny_civilian"
 		texturefile = "gfx/leaders/HEN/emma_budyonny_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hen_frey_heartbreaker"
+		texturefile = "gfx/leaders/HEN/frey_heartbreaker_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hen_frey_heartbreaker_civilian"
+		texturefile = "gfx/leaders/HEN/frey_heartbreaker_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_hen_land_01_small"

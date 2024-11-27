@@ -651,6 +651,14 @@ spriteTypes = {
 		name = "GFX_portrait_mms_xilonen_civilian"
 		texturefile = "gfx/leaders/MMS/xilonen_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mms_sinon"
+		texturefile = "gfx/leaders/MMS/sinon_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mms_sinon_army"
+		texturefile = "gfx/leaders/MMS/sinon_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mms_land_01_small"

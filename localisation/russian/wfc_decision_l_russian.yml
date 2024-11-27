@@ -436,6 +436,7 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   mms_retire_holo:0 "§BОперация преемник§!"
   mms_retire_maou:0 "§RДворцовый переворот§!"
   mms_retire_yuuko_yoshida:0 "§gОтречься от престола§!"
+  mms_decision_recruit_sinon: "Нанять §B[ACW.ACW_Sinon.GetName]§!"
 
  #mms_category_reparations
   mms_category_reparations: "Репарации"

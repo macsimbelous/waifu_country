@@ -392,3 +392,23 @@ country_event = {
 		add_ideas = JUNO_hidden_at_production_ns
 	}
 }
+state_event = {
+	id = wfc_event.10
+	title = wfc_event.10.t
+	desc = wfc_event.10.d
+	picture = GFX_report_event_british_artillery
+	is_triggered_only = yes
+	immediate = {
+		ROOT = { save_event_target_as = poland_state_withdrawn }
+	}
+	option = {
+		name = wfc_event.10.c
+		ai_chance = {
+			base = 15
+		}
+		ROOT = {
+			add_manpower = 1000000
+		}
+
+	}
+}

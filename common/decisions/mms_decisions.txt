@@ -1021,6 +1021,33 @@ political_actions = {
 			}
 		}
 	}
+	mms_decision_recruit_sinon = {
+		cost = 25
+		visible = {
+			any_other_country = {
+				is_puppet_of = ROOT
+				has_character = ACW_Sinon
+			}
+		}
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					is_puppet_of = ROOT
+					has_character = ACW_Sinon
+				}
+				ACW_Sinon = {
+					set_nationality = ROOT
+				}
+			}
+			set_portraits = {
+				character = ACW_Sinon
+				army = {
+					small = GFX_idea_mms_sinon
+					large = GFX_portrait_mms_sinon_army
+				}
+			}
+		}
+	}
 }
 
 mms_category_reparations = {

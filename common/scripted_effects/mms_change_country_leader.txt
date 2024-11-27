@@ -5,11 +5,42 @@ mms_change_country_leader = {
 		limit = {
 			original_tag = ACW
 		}
-		set_country_leader_name = {
-			name = ACW_Mamako_Oosuki
+		if = {
+			limit = {
+				has_government = communism
+			}
+			set_country_leader_name = {
+				name = ACW_Mamako_Oosuki
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_acw_mamako_oosuki_puppet
+			}
 		}
-		set_country_leader_portrait = {
-			portrait = GFX_portrait_acw_mamako_oosuki_puppet
+		else_if = {
+			limit = { has_government = fascism }
+			set_country_leader_name = {
+				name = ACW_Mamako_Oosuki
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_acw_mamako_oosuki_puppet
+			}
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			set_country_leader_name = {
+				name = ACW_Mamako_Oosuki
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_acw_mamako_oosuki_puppet
+			}
+		}
+		else = {
+			set_country_leader_name = {
+				name = ACW_Sinon
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_acw_sinon_puppet
+			}
 		}
 	}
 	else = {

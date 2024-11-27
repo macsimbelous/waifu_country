@@ -1364,4 +1364,22 @@ characters = {
 			}
 		}
 	}
+	hen_frey_heartbreaker = {
+		name = hen_frey_heartbreaker
+		portraits = {
+			army = {
+				small = GFX_idea_hen_frey_heartbreaker
+				large = GFX_portrait_hen_frey_heartbreaker_civilian
+			}
+			civilian = {
+				large = GFX_portrait_hen_frey_heartbreaker_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_submarine_specialist }
+			skills = {
+				specialization_naval = 3
+			}
+		}
+	}
 }

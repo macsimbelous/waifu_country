@@ -590,8 +590,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ACW/sinon_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_acw_sinon"
-		texturefile = "gfx/leaders/ACW/Sinon.dds"
+		name = "GFX_portrait_acw_sinon_army"
+		texturefile = "gfx/leaders/ACW/sinon_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_acw_sinon_puppet"
+		texturefile = "gfx/leaders/ACW/sinon_puppet.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_acw_sophie_neuenmuller"
