@@ -1023,6 +1023,7 @@ political_actions = {
 	}
 	mms_decision_recruit_sinon = {
 		cost = 25
+		fire_only_once = yes
 		visible = {
 			any_other_country = {
 				is_puppet_of = ROOT
