@@ -411,7 +411,7 @@ focus_tree = {
 			add_war_support = 0.1
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 	}
 	focus = {
@@ -464,7 +464,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
 	}
 	focus = {
@@ -484,10 +484,10 @@ focus_tree = {
 			is_puppet = no
 			if = {
 				limit = {
-					has_war = yes
+					has_war_with = RAJ
 				}
 				has_army_manpower = {
-					size > 399999
+					size > 999999
 				}
 			}
 			else = {
@@ -508,7 +508,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 	}
 	focus = {
@@ -528,10 +528,10 @@ focus_tree = {
 			is_puppet = no
 			if = {
 				limit = {
-					has_war = yes
+					has_war_with = RAJ
 				}
 				has_army_manpower = {
-					size > 399999
+					size > 999999
 				}
 			}
 			else = {
@@ -552,7 +552,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 	}
 	focus = {
