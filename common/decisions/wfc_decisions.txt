@@ -2731,7 +2731,7 @@ prospect_for_resources = {
 			}
 		}
 		available = {
-			has_completed_focus = CHL_found_national_steelworks
+			has_completed_focus = trp_focus_found_national_steelworks
 			num_of_civilian_factories_available_for_projects > 4
 			controls_state = 950
 		}
