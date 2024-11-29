@@ -1,6 +1,9 @@
 meh_kosmos_category = {
 	meh_create_rocket_factory_decision = {
 		icon = generic_construction
+		allowed = {
+			always = no
+		}
 		available = {
 			rocket_site > 0
 			num_of_civilian_factories_available_for_projects > 14
@@ -25,6 +28,9 @@ meh_kosmos_category = {
 	}
 	meh_rocket_assembly_decision = {
 		icon = GFX_decision_meh_kosmos_rocket_icon
+		allowed = {
+			always = no
+		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -58,11 +64,14 @@ meh_kosmos_category = {
 		icon = GFX_decision_meh_rocket_launch_decision
 		available = {
 			rocket_site > 0
-			custom_trigger_tooltip = {
-				tooltip = meh_rocket_count_tt
-				check_variable = {
-					meh_rocket_count > 0
-				}
+			# custom_trigger_tooltip = {
+			# 	tooltip = meh_rocket_count_tt
+			# 	check_variable = {
+			# 		meh_rocket_count > 0
+			# 	}
+			# }
+			has_equipment = {
+				ballistic_missile_equipment_2 > 0
 			}
 			custom_trigger_tooltip = {
 				tooltip = meh_sputnik_count_tt
@@ -72,7 +81,7 @@ meh_kosmos_category = {
 			}
 		}
 		visible = {
-			has_country_flag = meh_kosmos_create_rocket_factory_flag
+			#has_country_flag = meh_kosmos_create_rocket_factory_flag
 		}
 		fire_only_once = no
 		cost = 50
@@ -88,8 +97,13 @@ meh_kosmos_category = {
 			}
 		}
 		complete_effect = {
-			subtract_from_variable = {
-				meh_rocket_count = 1
+			# subtract_from_variable = {
+			# 	meh_rocket_count = 1
+			# }
+			add_equipment_to_stockpile = {
+				type = ballistic_missile_equipment_2
+				amount = -1
+				#producer = GER
 			}
 			random_list = {
 				80 = {
@@ -144,6 +158,9 @@ meh_kosmos_category = {
 	}
 	meh_mbr_assembly_decision = {
 		icon = GFX_decision_meh_kosmos_rocket_icon
+		allowed = {
+			always = no
+		}
 		available = {
 			has_tech = nukes
 			num_of_civilian_factories_available_for_projects > 2
@@ -174,6 +191,9 @@ meh_kosmos_category = {
 	}
 	meh_mbr_strike_decision = {
 		icon = generic_ignite_civil_war
+		allowed = {
+			always = no
+		}
 		available = {
 			num_of_nukes > 0
 			custom_trigger_tooltip = {

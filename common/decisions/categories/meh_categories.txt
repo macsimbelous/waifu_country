@@ -5,24 +5,25 @@ meh_kosmos_category = {
 		original_tag = MEH
 	}
 	visible = {
-		OR = {
-			has_country_flag = meh_create_rocketry_flag
-			rocket_site > 0
-		}
+		is_special_project_completed = sp:sp_rockets_medium_range_ballistic_missile
+		# OR = {
+		# 	has_country_flag = meh_create_rocketry_flag
+		# 	rocket_site > 0
+		# }
 	}
-	available = {
-		has_tech = advanced_rocket_engines
-	}
+	# available = {
+	# 	has_tech = advanced_rocket_engines
+	# }
 	priority = 9
-	on_map_area = {
-		#		state = ROOT.capital
-		name = meh_mbr_strike_decision_tt
-		zoom = 656
-		target_root_trigger = {
-			#			has_tech = nukes
-			#			has_tech = advanced_rocket_engines
-		}
-	}
+	# on_map_area = {
+	# 	#		state = ROOT.capital
+	# 	name = meh_mbr_strike_decision_tt
+	# 	zoom = 656
+	# 	target_root_trigger = {
+	# 		#			has_tech = nukes
+	# 		#			has_tech = advanced_rocket_engines
+	# 	}
+	# }
 }
 
 meh_cyborgization_category = {
