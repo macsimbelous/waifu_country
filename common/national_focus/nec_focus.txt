@@ -229,7 +229,8 @@ focus_tree = {
 				transfer_state = 324
 			}
 			757 = {
-				add_core_of = ROOT
+				wfc_coring_state = yes
+				#add_core_of = ROOT
 				custom_effect_tooltip = nec_decision_necrification_create_unit_tt
 				hidden_effect = {
 					create_unit = {
@@ -241,7 +242,8 @@ focus_tree = {
 				}
 			}
 			322 = {
-				add_core_of = ROOT
+				wfc_coring_state = yes
+				#add_core_of = ROOT
 				custom_effect_tooltip = nec_decision_necrification_create_unit_tt
 				hidden_effect = {
 					create_unit = {
@@ -253,7 +255,8 @@ focus_tree = {
 				}
 			}
 			323 = {
-				add_core_of = ROOT
+				wfc_coring_state = yes
+				#add_core_of = ROOT
 				custom_effect_tooltip = nec_decision_necrification_create_unit_tt
 				hidden_effect = {
 					create_unit = {
@@ -289,7 +292,8 @@ focus_tree = {
 				}
 			}
 			324 = {
-				add_core_of = ROOT
+				wfc_coring_state = yes
+				#add_core_of = ROOT
 				custom_effect_tooltip = nec_decision_necrification_create_unit_tt
 				hidden_effect = {
 					create_unit = {
@@ -302,7 +306,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	focus = {

@@ -1,5 +1,6 @@
 ﻿l_english:
-wfc_tt_is_island_state: "Not island"
+wfc_tt_is_island_state: "Island"
+wfc_tt_is_island_state_NOT: "Not island"
 nec_decision_necrification_create_unit_tt: "Combat units will be created in numbers proportional to the population of the territory."
 mms_tt_iie_infantry_attack: "Infantry attack will increase by $RIGHT|+=%1$"
 mms_tt_iie_special_forces_attack: "Special Forces attack will increase by $RIGHT|+=%1$"
