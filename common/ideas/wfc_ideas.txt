@@ -351,17 +351,17 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 			research_bonus = {
-				#industry = 0.15
-				cat_production = 0.2
-				concentrated_industry_category = 0.2
-				dispersed_industry_category = 0.2
-				construction_tech = 0.2
+				industry = 0.2
+				# cat_production = 0.2
+				# concentrated_industry_category = 0.2
+				# dispersed_industry_category = 0.2
+				# construction_tech = 0.2
 			}
 			modifier = {
-				#production_speed_buildings_factor = 0.1
-				production_speed_arms_factory_factor = 0.15
-				production_speed_dockyard_factor = 0.15
-				production_speed_industrial_complex_factor = 0.15
+				production_speed_buildings_factor = 0.05
+				# production_speed_arms_factory_factor = 0.15
+				# production_speed_dockyard_factor = 0.15
+				# production_speed_industrial_complex_factor = 0.15
 			}
 			traits = {
 				industrial_concern
@@ -387,7 +387,7 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 			research_bonus = {
-				electronics = 0.2
+				electronics = 0.15
 			}
 			modifier = {
 				production_speed_radar_station_factor = 0.15
@@ -415,12 +415,12 @@ ideas = {
 			}
 			cost = 150
 			removal_cost = -1
-			research_bonus = {
-				nuclear = 0.2
-			}
+			# research_bonus = {
+			# 	nuclear = 0.2
+			# }
 			modifier = {
-				production_speed_nuclear_reactor_factor = 0.15
-				nuclear_production_factor = 0.15
+				production_speed_nuclear_reactor_factor = 0.2
+				#nuclear_production_factor = 0.15
 			}
 			traits = {
 				wfc_atom_concern_trait
@@ -445,11 +445,12 @@ ideas = {
 			}
 			cost = 150
 			removal_cost = -1
-			research_bonus = {
-				synth_resources = 0.2
-			}
+			# research_bonus = {
+			# 	synth_resources = 0.2
+			# }
 			modifier = {
 				production_speed_synthetic_refinery_factor = 0.15
+				fuel_gain_factor_from_states = 0.15
 			}
 			traits = {
 				refinery_concern
