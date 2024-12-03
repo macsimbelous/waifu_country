@@ -12,6 +12,32 @@ focus_tree = {
 		x = 60
 		y = 1400
 	}
+	initial_show_position = {
+		focus = wfc_political_effort
+	}
+	shortcut = {
+		name = GER_economic_path_shortcut
+		target = wfc_industrial_effort
+		scroll_wheel_factor = 1.0
+	}
+
+	shortcut = {
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
+		scroll_wheel_factor = 1.0
+	}
+	
+	shortcut = {
+		name = GER_air_doctrine_shortcut
+		target = wfc_smb_air_force
+		scroll_wheel_factor = 1.0
+	}
+
+	shortcut = {
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
+		scroll_wheel_factor = 1.0
+	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort
 	#shared_focus = wfc_naval_effort

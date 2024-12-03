@@ -1,3 +1,19 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+### search_filters = {FOCUS_FILTER_BALANCE_OF_POWER}
+### search_filters = {FOCUS_FILTER_POLITICAL_CHARACTER}
+### search_filters = {FOCUS_FILTER_MILITARY_CHARACTER}
+### search_filters = {FOCUS_FILTER_INTERNATIONAL_TRADE}
+### search_filters = {FOCUS_FILTER_HISTORICAL}
 focus_tree = {
 	id = acw_focus
 	country = {
@@ -15,6 +31,29 @@ focus_tree = {
 	continuous_focus_position = {
 		x = 60
 		y = 1400
+	}
+	shortcut = {
+		name = GER_economic_path_shortcut
+		target = acw_focus_revise_industrial_policy 
+		scroll_wheel_factor = 1.0
+	}
+
+	shortcut = {
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
+		scroll_wheel_factor = 1.0
+	}
+	
+	shortcut = {
+		name = GER_air_doctrine_shortcut
+		target = wfc_smb_air_force
+		scroll_wheel_factor = 1.0
+	}
+
+	shortcut = {
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
+		scroll_wheel_factor = 1.0
 	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort

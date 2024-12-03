@@ -8,9 +8,35 @@
 		}
 	}
 	default = no
+	initial_show_position = {
+		focus = wfc_political_effort
+	}
 	continuous_focus_position = {
 		x = 60
 		y = 1350
+	}
+	shortcut = {
+		name = GER_economic_path_shortcut
+		target = trp_infrastructure_effort_nsb
+		scroll_wheel_factor = 1.0
+	}
+
+	shortcut = {
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
+		scroll_wheel_factor = 1.0
+	}
+	
+	shortcut = {
+		name = GER_air_doctrine_shortcut
+		target = wfc_smb_air_force
+		scroll_wheel_factor = 1.0
+	}
+
+	shortcut = {
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
+		scroll_wheel_factor = 1.0
 	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort
