@@ -524,6 +524,35 @@ scripted_diplomatic_actions = {
 		# runs when the action is properly sent and accepted
 		complete_effect = {
 			wfc_change_country_leader = yes
+			inherit_technology = ROOT
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = NEC
+					}
+				}
+				add_ideas = nec_idea_the_undead
+				add_ideas = nec_idea_necromancy
+				add_ideas = nec_idea_army_of_the_undead
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = MEH
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_idea = meh_ai_2
+						}
+					}
+					add_ideas = meh_ai_2
+				}
+				else = {
+					add_ideas = meh_ai
+				}
+			}
 		}
 		# runs when the action is properly sent and rejected
 		reject_effect = {
