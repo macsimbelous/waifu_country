@@ -1862,11 +1862,16 @@ shared_focus = {
 			limit = {
 				tag = TRP
 			}
-			939 = {
+			309 = {
 				add_building_construction = {
 					type = air_facility
 					level = 1
-					province = 13276
+					province = 1928
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
 					instant_build = yes
 				}
 			}
