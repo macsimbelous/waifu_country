@@ -652,6 +652,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = BOL
+			has_completed_focus = trp_attack_bol
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -679,6 +680,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = PAR
+			has_completed_focus = trp_attack_par
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -707,6 +709,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = COL
+			has_completed_focus = trp_attack_col
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -738,6 +741,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = VEN
+			has_completed_focus = trp_attack_ven
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -768,6 +772,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = ECU
+			has_completed_focus = trp_attack_ecu
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -807,6 +812,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = PRU
+			has_completed_focus = trp_attack_pru
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -873,6 +879,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = BRA
+			has_completed_focus = trp_attack_bra
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -982,6 +989,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = URG
+			has_completed_focus = trp_attack_urg
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -1024,6 +1032,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = ARG
+			has_completed_focus = trp_attack_arg
 		}
 		timeout_effect = {
 			add_stability = -0.05
@@ -1092,6 +1101,7 @@ trp_category_tasks = {
 		}
 		activation = {
 			has_war_with = CHL
+			has_completed_focus = trp_attack_chl
 		}
 		timeout_effect = {
 			add_stability = -0.05
