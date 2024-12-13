@@ -1455,6 +1455,28 @@ characters = {
 			}
 		}
 	}
+	mah_momo_ayase = {
+		name = mah_momo_ayase
+		portraits = {
+			army = {
+				large = GFX_portrait_mah_momo_ayase_army
+				small = GFX_idea_mah_momo_ayase
+			}
+			civilian = {
+				large = GFX_portrait_mah_momo_ayase_civilian
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#Заглушка
 	MAH_head_int = {
 		name = MAH_Hitomi_Tsukishiro

@@ -472,6 +472,18 @@ spriteTypes = {
 		name = "GFX_portrait_mah_mai_surkova_civilian"
 		texturefile = "gfx/leaders/MAH/mai_surkova_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mah_momo_ayase"
+		texturefile = "gfx/leaders/MAH/momo_ayase_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_momo_ayase_army"
+		texturefile = "gfx/leaders/MAH/momo_ayase_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_mah_momo_ayase_civilian"
+		texturefile = "gfx/leaders/MAH/momo_ayase_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_mah_land_01_small"
