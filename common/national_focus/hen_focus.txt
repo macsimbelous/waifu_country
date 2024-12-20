@@ -120,7 +120,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_visit_to_japan
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
@@ -152,7 +152,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_investments_in_the_military_industry_of_japan
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_RESEARCH
@@ -564,7 +564,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = hen_visit_to_sov
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
