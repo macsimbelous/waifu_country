@@ -134,6 +134,7 @@ wfc_transfer_of_the_capital_decision: "Move the capital to the §G[FROM.GetName]
  wfc_develop_oil_deposits_in_puppet:0 "Mining oil deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
  wfc_develop_chromium_deposits_in_puppet:0 "Mining chromium deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
  wfc_develop_tungsten_deposits_in_puppet:0 "Mining tungsten deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
+ wfc_resource_development_completed_flag: "Field development completed"
 
 #wfc_category_preparing_a_coup
  wfc_category_preparing_a_coup: "Coup in §Y[?wfc_var_target_coup.GetName]§!"
