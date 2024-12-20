@@ -171,18 +171,18 @@ wfc_budget_category = {
 	#picture = GFX_wfc_budget_category
 	scripted_gui = wfc_scripted_gui_subsidies
 	visible_when_empty = yes
-	allowed = {
-		OR = {
-			original_tag = ACW
-			original_tag = HEN
-			original_tag = MAH
-			original_tag = TRP
-			original_tag = MEH
-			original_tag = MMS
-			original_tag = ZMB
-			original_tag = NEC
-		}
-	}
+	# allowed = {
+	# 	OR = {
+	# 		original_tag = ACW
+	# 		original_tag = HEN
+	# 		original_tag = MAH
+	# 		original_tag = TRP
+	# 		original_tag = MEH
+	# 		original_tag = MMS
+	# 		original_tag = ZMB
+	# 		original_tag = NEC
+	# 	}
+	# }
 }
 
 wfc_construction_phase_category = {

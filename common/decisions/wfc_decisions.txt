@@ -2268,6 +2268,16 @@ prospect_for_resources = {
 				}
 			}
 		}
+		cancel_trigger = {
+			FROM = {
+				OR = {
+					has_state_flag = wfc_resource_development_completed_flag
+					NOT = {
+						is_fully_controlled_by = OWNER
+					}
+				}
+			}
+		}
 		ai_will_do = {
 			base = 1
 			modifier = {
@@ -2344,6 +2354,16 @@ prospect_for_resources = {
 				}
 				OWNER = {
 					is_puppet_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			FROM = {
+				OR = {
+					has_state_flag = wfc_resource_development_completed_flag
+					NOT = {
+						is_fully_controlled_by = OWNER
+					}
 				}
 			}
 		}
@@ -2426,6 +2446,16 @@ prospect_for_resources = {
 				}
 			}
 		}
+		cancel_trigger = {
+			FROM = {
+				OR = {
+					has_state_flag = wfc_resource_development_completed_flag
+					NOT = {
+						is_fully_controlled_by = OWNER
+					}
+				}
+			}
+		}
 		ai_will_do = {
 			base = 1
 			modifier = {
@@ -2502,6 +2532,16 @@ prospect_for_resources = {
 				}
 				OWNER = {
 					is_puppet_of = ROOT
+				}
+			}
+		}
+		cancel_trigger = {
+			FROM = {
+				OR = {
+					has_state_flag = wfc_resource_development_completed_flag
+					NOT = {
+						is_fully_controlled_by = OWNER
+					}
 				}
 			}
 		}
@@ -2584,6 +2624,16 @@ prospect_for_resources = {
 				}
 			}
 		}
+		cancel_trigger = {
+			FROM = {
+				OR = {
+					has_state_flag = wfc_resource_development_completed_flag
+					NOT = {
+						is_fully_controlled_by = OWNER
+					}
+				}
+			}
+		}
 		ai_will_do = {
 			base = 1
 			modifier = {
@@ -2632,7 +2682,7 @@ prospect_for_resources = {
 	}
 	# For Pupet
 	wfc_develop_steel_deposits_for_puppet = {
-		name = wfc_develop_steel_deposits_in_puppet
+		name = wfc_develop_steel_deposits
 		icon = steel
 		desc = wfc_develop_deposits_desc
 		available = {
@@ -2698,12 +2748,12 @@ prospect_for_resources = {
 		}
 	}
 	wfc_develop_aluminium_deposits_for_puppet = {
-		name = wfc_develop_aluminium_deposits_in_puppet
+		name = wfc_develop_aluminium_deposits
 		icon = aluminium
 		desc = wfc_develop_deposits_desc
 		available = {
 			FROM = {
-				is_fully_controlled_by = OWNER
+				is_fully_controlled_by = ROOT
 			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
@@ -2774,12 +2824,12 @@ prospect_for_resources = {
 		}
 	}
 	wfc_develop_oil_deposits_for_puppet = {
-		name = wfc_develop_oil_deposits_in_puppet
+		name = wfc_develop_oil_deposits
 		icon = oil
 		desc = wfc_develop_deposits_desc
 		available = {
 			FROM = {
-				is_fully_controlled_by = OWNER
+				is_fully_controlled_by = ROOT
 			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
@@ -2850,12 +2900,12 @@ prospect_for_resources = {
 		}
 	}
 	wfc_develop_chromium_deposits_for_puppet = {
-		name = wfc_develop_chromium_deposits_in_puppet
+		name = wfc_develop_chromium_deposits
 		icon = chromium
 		desc = wfc_develop_deposits_desc
 		available = {
 			FROM = {
-				is_fully_controlled_by = OWNER
+				is_fully_controlled_by = ROOT
 			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
@@ -2926,12 +2976,12 @@ prospect_for_resources = {
 		}
 	}
 	wfc_develop_tungsten_deposits_for_puppet = {
-		name = wfc_develop_tungsten_deposits_in_puppet
+		name = wfc_develop_tungsten_deposits
 		icon = tungsten
 		desc = wfc_develop_deposits_desc
 		available = {
 			FROM = {
-				is_fully_controlled_by = OWNER
+				is_fully_controlled_by = ROOT
 			}
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 4
