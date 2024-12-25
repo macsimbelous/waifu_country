@@ -440,12 +440,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MEH/bunny_idea.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_meh_tratte_götel_civilian"
-		texturefile = "gfx/leaders/MEH/tratte_götel_civilian.dds"
+		name = "GFX_portrait_meh_tratte_gotel_civilian"
+		texturefile = "gfx/leaders/MEH/tratte_gotel_civilian.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_meh_tratte_götel"
-		texturefile = "gfx/leaders/MEH/tratte_götel_idea.dds"
+		name = "GFX_idea_meh_tratte_gotel"
+		texturefile = "gfx/leaders/MEH/tratte_gotel_idea.dds"
 	}
 	#generic
 	spriteType = {

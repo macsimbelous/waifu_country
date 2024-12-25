@@ -1347,15 +1347,15 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	meh_tratte_götel = {
-		name = meh_tratte_götel
+	meh_tratte_gotel = {
+		name = meh_tratte_gotel
 		portraits = {
 			army = {
-				small = GFX_idea_meh_tratte_götel
-				large = GFX_portrait_meh_tratte_götel_civilian
+				small = GFX_idea_meh_tratte_gotel
+				large = GFX_portrait_meh_tratte_gotel_civilian
 			}
 			civilian = {
-				large = GFX_portrait_meh_tratte_götel_civilian
+				large = GFX_portrait_meh_tratte_gotel_civilian
 			}
 		}
 		scientist = {
