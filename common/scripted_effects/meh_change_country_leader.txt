@@ -11,7 +11,7 @@ meh_change_country_leader = {
 		set_variable_to_random = {
 			var = ROOT.rand_char
 			min = 1
-			max = 67
+			max = 68
 			integer = yes
 		}
 	}
@@ -701,6 +701,16 @@ meh_change_country_leader = {
 		}
 		set_country_leader_portrait = {
 			portrait = GFX_portrait_meh_land_40
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				ROOT.rand_char = 68
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_meh_naval_16
 		}
 	}
 	add_country_leader_trait = wfc_android

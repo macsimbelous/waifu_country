@@ -29,10 +29,6 @@ country_event = {
 			every_owned_state = {
 				add_claim_by = USA
 			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.1
-			}
 		}
 		USA = {
 			declare_war_on = {
@@ -41,19 +37,15 @@ country_event = {
 			}
 		}
 		news_event = wfc_news.8
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
 	}
 	option = {
 		name = meh_event.2.b
 		ai_chance = {
 			base = 0
-		}
-		if = {
-			limit = {
-				MEX = {
-					is_puppet_of = MEH
-				}
-			}
-			release_puppet = MEX
 		}
 		MEX = {
 			transfer_state = 483
@@ -61,40 +53,34 @@ country_event = {
 			transfer_state = 480
 			transfer_state = 479
 		}
-		hidden_effect = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.5
-			}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.2
 		}
 	}
 }
 
 #meh_border_conflict
 add_namespace = meh_border_conflict
-
 #initial border incident against Soviet Union
 country_event = {
 	id = meh_border_conflict.1
 	title = meh_border_conflict.1.t
 	desc = meh_border_conflict.1.desc
 	picture = GFX_report_event_japan_army_mountainside
-
 	is_triggered_only = yes
-
 	option = {
 		name = meh_border_conflict.1.a
 	}
 }
+
 #Japan wins
 country_event = {
 	id = meh_border_conflict.2
 	title = meh_border_conflict.2.t
 	desc = meh_border_conflict.2.desc
 	picture = GFX_report_event_japanese_transport_soldiers
-
 	is_triggered_only = yes
-
 	option = {
 		name = meh_border_conflict.2.a
 		trigger = {
@@ -109,7 +95,7 @@ country_event = {
 		add_tech_bonus = {
 			name = sov_jap_border_conflict_won
 			category = armor
-			bonus = 1.0
+			bonus = 1
 		}
 		transfer_state = 484
 		MEX = {
@@ -127,15 +113,14 @@ country_event = {
 		army_experience = 20
 	}
 }
+
 #Japan loses
 country_event = {
 	id = meh_border_conflict.3
 	title = meh_border_conflict.3.t
 	desc = meh_border_conflict.3.desc
 	picture = GFX_report_event_japanese_soldiers_03
-
 	is_triggered_only = yes
-
 	option = {
 		name = meh_border_conflict.3.a
 		trigger = {
@@ -158,14 +143,12 @@ country_event = {
 }
 
 #stalemate
-country_event = { 
+country_event = {
 	id = meh_border_conflict.4
 	title = meh_border_conflict.4.t
 	desc = meh_border_conflict.4.desc
 	picture = GFX_report_event_japanese_army_parade
-
 	is_triggered_only = yes
-
 	option = {
 		name = meh_border_conflict.4.a
 		trigger = {
@@ -188,14 +171,10 @@ country_event = {
 	title = meh_border_conflict.5.t
 	desc = meh_border_conflict.5.desc
 	picture = GFX_report_event_japanese_parade
-
 	is_triggered_only = yes
-
 	option = {
 		name = meh_border_conflict.5.a
-		
 	}
-	
 }
 
 #Soviet escalates
@@ -204,12 +183,8 @@ country_event = {
 	title = meh_border_conflict.6.t
 	desc = meh_border_conflict.6.desc
 	picture = GFX_report_event_SOV_tank_column
-
 	is_triggered_only = yes
-
 	option = {
 		name = meh_border_conflict.6.a
-		
 	}
-	
 }

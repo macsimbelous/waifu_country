@@ -3360,7 +3360,9 @@ wfc_machine_war_category = {
 	wfc_machine_war_for_mex_decision = {
 		icon = generic_ignite_civil_war
 		fire_only_once = yes
-		cost = 50
+		cost = 100
+		days_remove = 90
+		war_with_on_remove = MEH
 		available = {
 			is_puppet = no
 			NOT = {
@@ -3383,12 +3385,11 @@ wfc_machine_war_category = {
 					is_owned_by = MEH
 				}
 			}
-			date > 1939.1.1
 		}
 		ai_will_do = {
 			factor = 1
 		}
-		complete_effect = {
+		remove_effect = {
 			MEH = {
 				country_event = meh_event.2
 			}
@@ -3399,7 +3400,7 @@ wfc_machine_war_category = {
 		icon = generic_ignite_civil_war
 		fire_only_once = yes
 		cost = 100
-		days_remove = 60
+		days_remove = 90
 		war_with_on_remove = MEH
 		available = {
 			is_puppet = no
@@ -3410,7 +3411,6 @@ wfc_machine_war_category = {
 					has_government = communism
 				}
 			}
-			date > 1939.1.1
 		}
 		ai_will_do = {
 			factor = 1

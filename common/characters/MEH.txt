@@ -1347,4 +1347,22 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	meh_tratte_götel = {
+		name = meh_tratte_götel
+		portraits = {
+			army = {
+				small = GFX_idea_meh_tratte_götel
+				large = GFX_portrait_meh_tratte_götel_civilian
+			}
+			civilian = {
+				large = GFX_portrait_meh_tratte_götel_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_aircraft_specialist scientist_trait_genius }
+			skills = {
+				specialization_air = 2
+			}
+		}
+	}
 }
