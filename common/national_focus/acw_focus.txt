@@ -2122,6 +2122,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			wfc_add_nuclear_reactor_in_random_state = yes
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -2758,6 +2762,10 @@ focus_tree = {
 				category = rocketry
 				category = jet_technology
 			}
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.25
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -2870,15 +2878,31 @@ focus_tree = {
 			add_tech_bonus = {
 				name = secret_bonus
 				bonus = 1
-				uses = 4
+				uses = 2
 				ahead_reduction = 2
 				category = electronics
-				category = nuclear
+				#category = nuclear
 				category = rocketry
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.25
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.25
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.25
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 	}
 	focus = {

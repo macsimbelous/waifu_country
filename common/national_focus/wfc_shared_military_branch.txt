@@ -369,6 +369,10 @@ shared_focus = {
 			category = armor
 		}
 		custom_effect_tooltip = wfc_smb_tank_warfare_tt
+		add_breakthrough_progress = {
+			specialization = specialization_land
+			value = 0.25
+		}
 	}
 }
 
@@ -724,6 +728,10 @@ shared_focus = {
 			wfc_smb_army_modifier_army_org_factor = 0.05
 			tooltip = army_org_factor_tt
 		}
+		add_breakthrough_progress = {
+			specialization = specialization_land
+			value = 0.25
+		}
 	}
 }
 
@@ -1045,7 +1053,7 @@ shared_focus = {
 			bonus = 0.75
 			uses = 2
 			category = electronics
-			category = nuclear
+			#category = nuclear
 			category = rocketry
 		}
 	}
@@ -1064,10 +1072,6 @@ shared_focus = {
 	x = 4
 	y = 1
 	cost = 5
-	available = {
-	}
-	bypass = {
-	}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -1076,16 +1080,9 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-		add_tech_bonus = {
-			name = nuclear_bonus
-			ahead_reduction = 2
-			category = nuclear
-		}
-		add_tech_bonus = {
-			name = wfc_smb_nuclear_initiative
-			bonus = 1
-			uses = 1
-			category = nuclear
+		add_breakthrough_progress = {
+			specialization = specialization_nuclear
+			value = 0.5
 		}
 	}
 }
@@ -1910,6 +1907,10 @@ shared_focus = {
 			wfc_smb_airforce_modifier_air_doctrine_cost_factor = -0.1
 			tooltip = air_doctrine_cost_factor_tt
 		}
+		add_breakthrough_progress = {
+			specialization = specialization_air
+			value = 0.25
+		}
 	}
 }
 
@@ -2207,6 +2208,10 @@ shared_focus = {
 		factor = 10
 	}
 	completion_reward = {
+		add_breakthrough_progress = {
+			specialization = specialization_air
+			value = 0.25
+		}
 		if = {
 			limit = {
 				any_controlled_state = {
@@ -2995,6 +3000,10 @@ shared_focus = {
 				set_character_flag = wfc_smb_naval_academy_boost
 			}
 		}
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.25
+		}
 	}
 }
 
@@ -3146,6 +3155,10 @@ shared_focus = {
 			bonus = 1
 			uses = 2
 			category = naval_equipment
+		}
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.25
 		}
 		if = {
 			limit = {

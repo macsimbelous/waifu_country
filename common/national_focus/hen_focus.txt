@@ -167,6 +167,36 @@ focus_tree = {
 					uses = 2
 					category = ss_tech
 				}
+				random_list = {
+					25 = {
+						add_breakthrough_progress = {
+							specialization = specialization_nuclear
+							value = 0.25
+						}
+					}
+					25 = {
+						add_breakthrough_progress = {
+							specialization = specialization_naval
+							value = 0.25
+						}
+					}
+					25 = {
+						add_breakthrough_progress = {
+							specialization = specialization_air
+							value = 0.25
+						}
+					}
+					25 = {
+						add_breakthrough_progress = {
+							specialization = specialization_land
+							value = 0.25
+						}
+					}
+				}
+				add_opinion_modifier = {
+					target = HEN
+					modifier = small_increase
+				}
 			}
 			add_tech_bonus = {
 				name = fighter_bonus
@@ -180,6 +210,32 @@ focus_tree = {
 			add_popularity = {
 				ideology = fascism
 				popularity = 0.1
+			}
+			random_list = {
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_nuclear
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_naval
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_air
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_land
+						value = 0.25
+					}
+				}
 			}
 		}
 	}
@@ -712,6 +768,32 @@ focus_tree = {
 					uses = 2
 					category = industry
 				}
+				random_list = {
+					25 = {
+						add_breakthrough_progress = {
+							specialization = specialization_nuclear
+							value = 0.25
+						}
+					}
+					25 = {
+						add_breakthrough_progress = {
+							specialization = specialization_naval
+							value = 0.25
+						}
+					}
+					25 = {
+						add_breakthrough_progress = {
+							specialization = specialization_air
+							value = 0.25
+						}
+					}
+					25 = {
+						add_breakthrough_progress = {
+							specialization = specialization_land
+							value = 0.25
+						}
+					}
+				}
 			}
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
@@ -728,6 +810,32 @@ focus_tree = {
 			add_opinion_modifier = {
 				target = SOV
 				modifier = small_increase
+			}
+			random_list = {
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_nuclear
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_naval
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_air
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_land
+						value = 0.25
+					}
+				}
 			}
 			SOV = {
 				add_opinion_modifier = {
@@ -1109,6 +1217,10 @@ focus_tree = {
 				uses = 2
 				category = infantry_weapons
 				category = artillery
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.25
 			}
 		}
 		ai_will_do = {
@@ -2425,7 +2537,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = nuclear_bonus
 				bonus = 1
-				uses = 2
+				uses = 1
 				ahead_reduction = 2
 				category = nuclear
 			}
@@ -2541,6 +2653,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			wfc_add_nuclear_reactor_in_random_state = yes
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -2575,6 +2691,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			wfc_add_rocket_site_in_random_state = yes
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.25
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -2598,24 +2718,21 @@ focus_tree = {
 			focus = hen_focus_kosmodrom
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				name = nuclear_bonus
-				ahead_reduction = 2
-				uses = 1
-				category = nuclear
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.3
 			}
-			add_tech_bonus = {
-				name = jet_rocket_bonus
-				uses = 2
-				ahead_reduction = 2
-				category = rocketry
-				#category = jet_technology
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.3
 			}
-			add_tech_bonus = {
-				name = electronics_bonus
-				bonus = 1
-				uses = 2
-				category = electronics
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.3
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.3
 			}
 		}
 		ai_will_do = {
@@ -2863,6 +2980,32 @@ focus_tree = {
 					uses = 1
 				}
 			}
+			random_list = {
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_nuclear
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_naval
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_air
+						value = 0.25
+					}
+				}
+				25 = {
+					add_breakthrough_progress = {
+						specialization = specialization_land
+						value = 0.25
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 2
@@ -2939,6 +3082,10 @@ focus_tree = {
 		completion_reward = {
 			navy_experience = 25
 			wfc_add_dockyard_in_random_state_or_offsite = yes
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.25
+			}
 		}
 	}
 	#submarine war

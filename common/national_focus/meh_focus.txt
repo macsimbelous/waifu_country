@@ -22,25 +22,22 @@ focus_tree = {
 	shortcut = {
 		name = GER_economic_path_shortcut
 		target = meh_upgrade_ai
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
-
 	shortcut = {
 		name = GER_naval_doctrine_shortcut
 		target = wfc_smb_navy
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
-	
 	shortcut = {
 		name = GER_air_doctrine_shortcut
 		target = wfc_smb_air_force
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
-
 	shortcut = {
 		name = GER_military_doctrine_shortcut
 		target = wfc_smb_army
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort
@@ -1091,11 +1088,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			wfc_add_nuclear_reactor_in_random_state = yes
-			add_tech_bonus = {
-				name = nuclear_bonus
-				ahead_reduction = 2
-				category = nuclear
-				uses = 1
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
 			}
 		}
 		ai_will_do = {
@@ -1224,11 +1219,27 @@ focus_tree = {
 			add_tech_bonus = {
 				name = secret_bonus
 				bonus = 1
-				uses = 4
+				uses = 2
 				ahead_reduction = 2
 				category = electronics
-				category = nuclear
+				#category = nuclear
 				category = rocketry
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.25
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.25
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.25
 			}
 		}
 		ai_will_do = {
@@ -2008,6 +2019,41 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = meh_focus_alliance_with_nec
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = {
+			focus = meh_attack_mex
+		}
+		prerequisite = {
+			focus = meh_attack_can
+		}
+		x = -1
+		y = 1
+		relative_position_id = meh_attack_mex
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			is_faction_leader = yes
+			is_in_faction_with = NEC
+		}
+		available = {
+			NEC = {
+				has_same_ideology = yes
+			}
+		}
+		completion_reward = {
+			create_faction = meh_faction_exterminatus
+			NEC = {
+				country_event = generic.5
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
 		id = meh_attack_world
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
@@ -2020,11 +2066,17 @@ focus_tree = {
 		y = 1
 		relative_position_id = meh_attack_mex
 		cost = 10
-		will_lead_to_war_with = MEX
+		#will_lead_to_war_with = MEX
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		available = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				has_war = no
+			}
 			is_subject = no
 			has_government = fascism
 			has_army_manpower = {
@@ -2160,7 +2212,9 @@ focus_tree = {
 				USA = {
 					has_capitulated = yes
 				}
-				NOT = { country_exists = USA }
+				NOT = {
+					country_exists = USA
+				}
 			}
 			OR = {
 				custom_trigger_tooltip = {
@@ -2208,7 +2262,9 @@ focus_tree = {
 				MEX = {
 					has_capitulated = yes
 				}
-				NOT = { country_exists = MEX }
+				NOT = {
+					country_exists = MEX
+				}
 			}
 			OR = {
 				custom_trigger_tooltip = {
@@ -2283,67 +2339,149 @@ focus_tree = {
 				CAN = {
 					has_capitulated = yes
 				}
-				NOT = { country_exists = CAN }
+				NOT = {
+					country_exists = CAN
+				}
 			}
 			# 332 = {
 			# 	wfc_is_controlled_by_root_or_puppet = yes
 			# }
 		}
 		completion_reward = {
-			every_state = {
+			if = {
 				limit = {
-					NOT = {
-						owner = {
-							OR = {
-								is_puppet_of = ROOT
-								tag = ROOT
+					is_faction_leader = yes
+					is_in_faction_with = NEC
+				}
+				every_state = {
+					limit = {
+						NOT = {
+							owner = {
+								OR = {
+									is_puppet_of = ROOT
+									tag = ROOT
+									is_puppet_of = NEC
+									tag = NEC
+								}
 							}
 						}
 					}
+					if = {
+						limit = {
+							OR = {
+								is_on_continent = asia
+								is_on_continent = europe
+							}
+						}
+						add_claim_by = NEC
+					}
+					else = {
+						add_claim_by = MEH
+					}
+					
 				}
-				add_claim_by = MEH
+				every_other_country = {
+					limit = {
+						NOT = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+							is_puppet_of = NEC
+							is_subject_of = NEC
+						}
+					}
+					ROOT = {
+						declare_war_on = {
+							target = PREV
+							type = annex_everything
+						}
+					}
+				}
 			}
-			if = {
-				limit = {
-					is_in_faction = yes
+			else = {
+				every_state = {
+					limit = {
+						NOT = {
+							owner = {
+								OR = {
+									is_puppet_of = ROOT
+									tag = ROOT
+								}
+							}
+						}
+					}
+					add_claim_by = MEH
 				}
 				if = {
 					limit = {
-						is_faction_leader = no
+						is_in_faction = yes
 					}
-					leave_faction = yes
-				}
-			}
-			# every_other_country = {
-			# 	limit = {
-			# 		OR = {
-			# 			is_puppet_of = ROOT
-			# 			is_subject_of = ROOT
-			# 		}
-			# 	}
-			# 	ROOT = {
-			# 		annex_country = {
-			# 			target = PREV
-			# 			transfer_troops = yes
-			# 		}
-			# 	}
-			# }
-			every_other_country = {
-				limit = {
-					NOT = {
-						is_puppet_of = ROOT
-						is_subject_of = ROOT
+					if = {
+						limit = {
+							is_faction_leader = no
+						}
+						leave_faction = yes
+						create_faction = meh_faction_exterminatus
+					}
+					else = {
+						every_other_country = {
+							limit = {
+								is_in_faction_with = MEH
+								NOT = {
+									is_puppet_of = ROOT
+								}
+							}
+							leave_faction = yes
+						}
 					}
 				}
-				ROOT = {
-					declare_war_on = {
-						target = PREV
-						type = annex_everything
+				every_other_country = {
+					limit = {
+						NOT = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+					ROOT = {
+						declare_war_on = {
+							target = PREV
+							type = annex_everything
+						}
 					}
 				}
 			}
 			add_ideas = meh_exterminatus_idea
 			news_event = wfc_news.9
+		}
+	}
+	focus = {
+		id = meh_focus_attack_nec
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+			focus = meh_attack_world
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_attack_world
+		cost = 10
+		will_lead_to_war_with = NEC
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			has_war_with = NEC
+		}
+		available = {
+			has_war = no
+			all_state = {
+				is_controlled_by_ROOT_or_ally = yes
+			}
+		}
+		completion_reward = {
+			remove_from_faction = NEC
+			declare_war_on = {
+				target = NEC
+				type = annex_everything
+			}
 		}
 	}
 	focus = {
