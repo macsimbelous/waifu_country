@@ -1129,6 +1129,28 @@ acw_faction_category = {
 			tag = FROM
 			cic_to_target_factor = 0.1
 		}
+		remove_effect = {
+			FROM = {
+				add_to_variable = {
+					wfc_var_acw_influence = 1
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						check_variable = {
+							wfc_var_acw_influence > 2
+						}
+					}
+				}
+				set_autonomy = {
+					target = FROM
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
 		ai_will_do = {
 			base = 0
 			modifier = {

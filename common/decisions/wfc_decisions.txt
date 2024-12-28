@@ -3881,7 +3881,13 @@ wfc_category_preparing_a_coup = {
 						}
 						factor = 1.5
 					}
-					puppet = var:wfc_var_target_coup
+					#puppet = var:wfc_var_target_coup
+					set_autonomy = {
+						target = var:wfc_var_target_coup
+						autonomy_state = autonomy_puppet
+						end_wars = no
+						end_civil_wars = no
+					}
 					var:wfc_var_target_coup = {
 						if = {
 							limit = {

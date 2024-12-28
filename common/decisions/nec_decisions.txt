@@ -869,7 +869,13 @@ operations = {
 		remove_effect = {
 			random_list = {
 				90 = {
-					puppet = FROM
+					#puppet = FROM
+					set_autonomy = {
+						target = FROM
+						autonomy_state = autonomy_puppet
+						end_wars = no
+						end_civil_wars = no
+					}
 					FROM = {
 						hidden_effect = {
 							add_ideas = nec_idea_the_undead
