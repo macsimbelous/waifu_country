@@ -239,8 +239,8 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
   acw_invite_trp_faction: "To invite §Y[TRP.GetNameDef]§!"
   acw_invite_nec_faction: "To invite §Y[NEC.GetNameDef]§!"
   acw_invite_faction_desc: "Before we send our proposal, we should improve our relationship."
-  acw_economic_assistance_to_faction_members:0 "Economic aid to §Y[FROM.GetNameDef]§!"
-  acw_economic_assistance_to_faction_members_desc:0 "Our economic assistance will help our allies to survive the hardships of the war more easily."
+  acw_economic_assistance_to_faction_members: "Economic aid to §Y[FROM.GetNameDef]§!"
+  acw_economic_assistance_to_faction_members_desc: "Our economic aid will help our allies survive the hardships of war. And will increase our influence over them, when our influence becomes great enough they will obey us.\nInfluence: [?FROM.wfc_var_acw_influence] out of 3"
 
  #acw_create_great_animeland_category
   acw_create_great_animeland_category:0 "§YThe Great Animeland§!"
