@@ -1093,7 +1093,8 @@ acw_faction_category = {
 	acw_economic_assistance_to_faction_members = {
 		visible = {
 			#has_country_flag = acw_waifu_power_is_exist_flag
-			is_faction_leader = yes
+			#is_faction_leader = yes
+			is_subject = no
 			has_capitulated = no
 			FROM = {
 				NOT = {
@@ -1101,6 +1102,8 @@ acw_faction_category = {
 					is_subject_of = ROOT
 				}
 				is_in_faction_with = ROOT
+				is_faction_leader = no
+				is_major = no
 				is_ai = yes
 			}
 		}
@@ -1169,7 +1172,8 @@ acw_faction_category = {
 		desc = acw_economic_assistance_to_faction_members_desc
 		visible = {
 			#has_country_flag = acw_waifu_power_is_exist_flag
-			is_faction_leader = yes
+			#is_faction_leader = yes
+			is_subject = no
 			has_capitulated = no
 			FROM = {
 				NOT = {

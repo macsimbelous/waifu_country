@@ -2271,7 +2271,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = bunker
-					level = 3
+					level = 5
 					instant_build = yes
 					province = {
 						all_provinces = yes
@@ -2537,11 +2537,14 @@ focus_tree = {
 			factor = 5
 		}
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = wfc_tt_ruling_party_greater_50
-				check_variable = {
-					party_popularity@ruling_party > 0.5
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = wfc_tt_ruling_party_greater_50
+					check_variable = {
+						party_popularity@ruling_party > 0.5
+					}
 				}
+				has_completed_focus = wfc_shared_focus_referendum
 			}
 		}
 		completion_reward = {
