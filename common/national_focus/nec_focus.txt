@@ -16,26 +16,33 @@ focus_tree = {
 		focus = nec_focus_conquest_of_tib
 	}
 	shortcut = {
-		name = GER_economic_path_shortcut
-		target = nec_focus_modernization_of_the_capitals_infrastructure
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
 		scroll_wheel_factor = 1.0
 	}
-
-	shortcut = {
-		name = GER_naval_doctrine_shortcut
-		target = wfc_smb_navy
-		scroll_wheel_factor = 1.0
-	}
-	
 	shortcut = {
 		name = GER_air_doctrine_shortcut
 		target = wfc_smb_air_force
 		scroll_wheel_factor = 1.0
 	}
-
 	shortcut = {
-		name = GER_military_doctrine_shortcut
-		target = wfc_smb_army
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = wfc_political_effort
+		target = wfc_political_effort
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = GER_economic_path_shortcut
+		target = nec_focus_modernization_of_the_capitals_infrastructure
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = wfc_foreign_politica_shortcut
+		target = nec_focus_the_world_of_the_dead
 		scroll_wheel_factor = 1.0
 	}
 	#shared_focus = wfc_army_effort
@@ -49,8 +56,8 @@ focus_tree = {
 	focus = {
 		id = nec_focus_conquest_of_tib
 		icon = GFX_goal_generic_major_war
-		x = 16
-		y = 9
+		x = 40
+		y = 0
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -423,8 +430,8 @@ focus_tree = {
 	focus = {
 		id = nec_focus_the_world_of_the_dead
 		icon = GFX_goal_generic_CAS
-		x = 20
-		y = 9
+		x = 44
+		y = 0
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1150,8 +1157,8 @@ focus_tree = {
 	focus = {
 		id = nec_focus_modernization_of_the_capitals_infrastructure
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 9
-		y = 9
+		x = 35
+		y = 0
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1761,23 +1768,14 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = nec_focus_extra_tech_slot
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		available = {
-			758 = {
-				is_fully_controlled_by = ROOT
-			}
-		}
 		completion_reward = {
-			758 = {
-				add_building_construction = {
-					type = nuclear_facility
-					level = 1
-					province = 12784
-					instant_build = yes
-				}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
 			}
 			add_tech_bonus = {
 				name = nuclear_bonus

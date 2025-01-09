@@ -16,26 +16,33 @@ focus_tree = {
 		focus = wfc_political_effort
 	}
 	shortcut = {
-		name = GER_economic_path_shortcut
-		target = wfc_industrial_effort
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
 		scroll_wheel_factor = 1.0
 	}
-
-	shortcut = {
-		name = GER_naval_doctrine_shortcut
-		target = wfc_smb_navy
-		scroll_wheel_factor = 1.0
-	}
-	
 	shortcut = {
 		name = GER_air_doctrine_shortcut
 		target = wfc_smb_air_force
 		scroll_wheel_factor = 1.0
 	}
-
 	shortcut = {
-		name = GER_military_doctrine_shortcut
-		target = wfc_smb_army
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = wfc_political_effort
+		target = wfc_political_effort
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = GER_economic_path_shortcut
+		target = wfc_industrial_effort
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = wfc_foreign_politica_shortcut
+		target = mah_unification_of_the_middle_east
 		scroll_wheel_factor = 1.0
 	}
 	#shared_focus = wfc_army_effort
@@ -49,7 +56,7 @@ focus_tree = {
 	focus = {
 		id = mah_unification_of_the_middle_east
 		icon = GFX_focus_generic_home_defense
-		x = 32
+		x = 39
 		y = 0
 		cost = 5
 		search_filters = {
@@ -695,7 +702,7 @@ focus_tree = {
 	focus = {
 		id = mah_expanding_the_sphere_of_influence
 		icon = GFX_focus_generic_home_defense
-		x = 35
+		x = 42
 		y = 0
 		cost = 5
 		search_filters = {

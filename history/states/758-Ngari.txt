@@ -19,6 +19,9 @@ state={
 			5094 = {
 				supply_node = 1
 			}
+			12784 = {
+				land_facility = 1
+			}
 		}
 		add_core_of = NEC
 		victory_points = {

@@ -25,6 +25,9 @@ state={
 			11608 = {
 				supply_node = 1
 			}
+			9606 = {
+				land_facility = 1
+			}
 		}
 		# add_core_of = ROM
 		# add_core_of = TRA

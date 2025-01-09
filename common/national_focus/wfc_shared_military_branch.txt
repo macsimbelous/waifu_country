@@ -3,7 +3,7 @@ shared_focus = {
 	icon = GFX_goal_panzerwaffe
 	x = 0
 	y = 0
-	cost = 10
+	cost = 5
 	available = {
 		if = {
 			limit = {
@@ -48,96 +48,9 @@ shared_focus = {
 				level = 1
 			}
 		}
-		if = {
-			limit = {
-				tag = ACW
-			}
-			83 = {
-				add_building_construction = {
-					type = land_facility
-					level = 1
-					province = 9640
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = HEN
-			}
-			528 = {
-				add_building_construction = {
-					type = land_facility
-					level = 1
-					province = 10020
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MAH
-			}
-			455 = {
-				add_building_construction = {
-					type = land_facility
-					level = 1
-					province = 10089
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MEH
-			}
-			378 = {
-				add_building_construction = {
-					type = land_facility
-					level = 1
-					province = 10387
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MMS
-			}
-			410 = {
-				add_building_construction = {
-					type = land_facility
-					level = 1
-					province = 2070
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = NEC
-			}
-			758 = {
-				add_building_construction = {
-					type = land_facility
-					level = 1
-					province = 8029
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = TRP
-			}
-			310 = {
-				add_building_construction = {
-					type = land_facility
-					level = 1
-					province = 4934
-					instant_build = yes
-				}
-			}
+		add_breakthrough_progress = {
+			specialization = specialization_land
+			value = 0.25
 		}
 	}
 }
@@ -1697,7 +1610,7 @@ shared_focus = {
 	#prerequisite = { focus = wfc_smb_army }
 	x = 9
 	y = 0
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 100
 	}
@@ -1777,101 +1690,9 @@ shared_focus = {
 				level = 1
 			}
 		}
-		if = {
-			limit = {
-				tag = ACW
-			}
-			82 = {
-				add_building_construction = {
-					type = air_facility
-					level = 1
-					province = 662
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = HEN
-			}
-			528 = {
-				add_building_construction = {
-					type = air_facility
-					level = 1
-					province = 11925
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MAH
-			}
-			454 = {
-				add_building_construction = {
-					type = air_facility
-					level = 1
-					province = 7107
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MEH
-			}
-			378 = {
-				add_building_construction = {
-					type = air_facility
-					level = 1
-					province = 3588
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MMS
-			}
-			414 = {
-				add_building_construction = {
-					type = air_facility
-					level = 1
-					province = 12895
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = NEC
-			}
-			758 = {
-				add_building_construction = {
-					type = air_facility
-					level = 1
-					province = 12801
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = TRP
-			}
-			309 = {
-				add_building_construction = {
-					type = air_facility
-					level = 1
-					province = 1928
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = air_base
-					level = 1
-					instant_build = yes
-				}
-			}
+		add_breakthrough_progress = {
+			specialization = specialization_air
+			value = 0.25
 		}
 	}
 }
@@ -2795,7 +2616,7 @@ shared_focus = {
 	relative_position_id = wfc_smb_air_force
 	x = 8
 	y = 0
-	cost = 10
+	cost = 5
 	ai_will_do = {
 		factor = 100
 	}
@@ -2825,113 +2646,9 @@ shared_focus = {
 			modifier = wfc_dm_smb_navy
 		}
 		wfc_add_dockyard_in_random_state_or_offsite = yes
-		if = {
-			limit = {
-				tag = ACW
-			}
-			if = {
-				limit = {
-					105 = {
-						is_fully_controlled_by = ROOT
-					}
-				}
-				105 = {
-					add_building_construction = {
-						type = naval_facility
-						level = 1
-						province = 9809
-						instant_build = yes
-					}
-				}
-			}
-			else = {
-				971 = {
-					add_building_construction = {
-						type = naval_facility
-						level = 1
-						province = 657
-						instant_build = yes
-					}
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = HEN
-			}
-			528 = {
-				add_building_construction = {
-					type = naval_facility
-					level = 1
-					province = 9950
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MAH
-			}
-			553 = {
-				add_building_construction = {
-					type = naval_facility
-					level = 1
-					province = 792
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MEH
-			}
-			378 = {
-				add_building_construction = {
-					type = naval_facility
-					level = 1
-					province = 9671
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = MMS
-			}
-			412 = {
-				add_building_construction = {
-					type = naval_facility
-					level = 1
-					province = 7982
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = NEC
-			}
-			430 = {
-				add_building_construction = {
-					type = naval_facility
-					level = 1
-					province = 11968
-					instant_build = yes
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				tag = TRP
-			}
-			939= {
-				add_building_construction = {
-					type = naval_facility
-					level = 1
-					province = 4980
-					instant_build = yes
-				}
-			}
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.25
 		}
 	}
 }

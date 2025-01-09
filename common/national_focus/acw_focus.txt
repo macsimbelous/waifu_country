@@ -32,27 +32,45 @@ focus_tree = {
 		x = 60
 		y = 1400
 	}
-	shortcut = {
-		name = GER_economic_path_shortcut
-		target = acw_focus_revise_industrial_policy 
-		scroll_wheel_factor = 1.0
-	}
 
 	shortcut = {
-		name = GER_naval_doctrine_shortcut
-		target = wfc_smb_navy
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
 		scroll_wheel_factor = 1.0
 	}
-	
 	shortcut = {
 		name = GER_air_doctrine_shortcut
 		target = wfc_smb_air_force
 		scroll_wheel_factor = 1.0
 	}
-
 	shortcut = {
-		name = GER_military_doctrine_shortcut
-		target = wfc_smb_army
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = wfc_political_effort
+		target = wfc_political_effort
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = acw_focus_government_reform
+		target = acw_focus_government_reform
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = GER_economic_path_shortcut
+		target = acw_focus_revise_industrial_policy 
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = wfc_foreign_politica_shortcut
+		target = acw_focus_join_comintern
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = acw_focus_protectorates
+		target = acw_focus_protectorates
 		scroll_wheel_factor = 1.0
 	}
 	#shared_focus = wfc_army_effort
@@ -67,8 +85,8 @@ focus_tree = {
 		id = acw_focus_revise_industrial_policy
 		icon = GFX_focus_generic_industry_3
 		#relative_position_id = acw_focus_state_council
-		x = 32
-		y = 8
+		x = 43
+		y = 0
 		cost = 5
 		# prerequisite = {
 		# 	focus = acw_focus_state_council
@@ -94,7 +112,7 @@ focus_tree = {
 		id = acw_focus_beacon_of_freedom
 		icon = GFX_goal_support_democracy
 		#relative_position_id = acw_focus_general_election
-		x = 45
+		x = 52
 		y = 0
 		cost = 5
 		search_filters = {
@@ -2134,7 +2152,7 @@ focus_tree = {
 	focus = {
 		id = acw_focus_join_comintern
 		icon = GFX_focus_generic_join_comintern
-		x = 43
+		x = 50
 		y = 0
 		#relative_position_id = acw_focus_communist_volunteers
 		cost = 5
@@ -2203,7 +2221,7 @@ focus_tree = {
 	focus = {
 		id = acw_focus_path_to_empire
 		icon = GFX_focus_generic_strike_at_democracy1
-		x = 41
+		x = 48
 		y = 0
 		#relative_position_id = acw_focus_queens_party
 		cost = 5
@@ -2783,19 +2801,15 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = acw_focus_academy_of_sciences
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			84 = {
-				add_building_construction = {
-					type = nuclear_facility
-					level = 1
-					province = 3694
-					instant_build = yes
-				}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
 			}
 			add_tech_bonus = {
 				name = nuclear_bonus
@@ -2931,8 +2945,8 @@ focus_tree = {
 	focus = {
 		id = acw_focus_protectorates
 		icon = GFX_focus_generic_home_defense
-		x = 41
-		y = 8
+		x = 58
+		y = 0
 		cost = 5
 		ai_will_do = {
 			factor = 1

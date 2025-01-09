@@ -17,13 +17,8 @@ focus_tree = {
 		y = 1400
 	}
 	shortcut = {
-		name = GER_economic_path_shortcut
-		target = mms_focus_modernize_steel_plant
-		scroll_wheel_factor = 1
-	}
-	shortcut = {
-		name = GER_naval_doctrine_shortcut
-		target = wfc_smb_navy
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
 		scroll_wheel_factor = 1
 	}
 	shortcut = {
@@ -32,9 +27,34 @@ focus_tree = {
 		scroll_wheel_factor = 1
 	}
 	shortcut = {
-		name = GER_military_doctrine_shortcut
-		target = wfc_smb_army
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
 		scroll_wheel_factor = 1
+	}
+	shortcut = {
+		name = wfc_political_effort
+		target = wfc_political_effort
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = GER_economic_path_shortcut
+		target = mms_focus_modernize_steel_plant
+		scroll_wheel_factor = 1
+	}
+	shortcut = {
+		name = mms_focus_scientific_nexus
+		target = mms_focus_scientific_nexus
+		scroll_wheel_factor = 1
+	}
+	shortcut = {
+		name = mms_focus_workouts_shamiko
+		target = mms_focus_workouts_shamiko
+		scroll_wheel_factor = 1
+	}
+	shortcut = {
+		name = wfc_foreign_politica_shortcut
+		target = mms_expansion_of_living_space
+		scroll_wheel_factor = 1.0
 	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort
@@ -47,8 +67,8 @@ focus_tree = {
 	focus = {
 		id = mms_expansion_of_living_space
 		icon = GFX_focus_jap_strike_south
-		x = 27
-		y = 9
+		x = 50
+		y = 0
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -735,8 +755,8 @@ focus_tree = {
 	focus = {
 		id = mms_focus_modernize_steel_plant
 		icon = GFX_focus_generic_steel
-		x = 17
-		y = 9
+		x = 35
+		y = 0
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1595,8 +1615,8 @@ focus_tree = {
 	focus = {
 		id = mms_focus_workouts_shamiko
 		icon = GFX_goal_generic_political_pressure
-		x = 4
-		y = 9
+		x = 45
+		y = 0
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1940,8 +1960,8 @@ focus_tree = {
 	focus = {
 		id = mms_focus_scientific_nexus
 		icon = GFX_focus_research2
-		x = 10
-		y = 9
+		x = 40
+		y = 0
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -1960,23 +1980,14 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = mms_focus_scientific_nexus
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		available = {
-			414 = {
-				is_fully_controlled_by = ROOT
-			}
-		}
 		completion_reward = {
-			414 = {
-				add_building_construction = {
-					type = nuclear_facility
-					level = 1
-					province = 12852
-					instant_build = yes
-				}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
 			}
 			add_tech_bonus = {
 				name = nuclear_bonus

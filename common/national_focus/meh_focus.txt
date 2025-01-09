@@ -20,13 +20,8 @@ focus_tree = {
 		focus = wfc_political_effort
 	}
 	shortcut = {
-		name = GER_economic_path_shortcut
-		target = meh_upgrade_ai
-		scroll_wheel_factor = 1
-	}
-	shortcut = {
-		name = GER_naval_doctrine_shortcut
-		target = wfc_smb_navy
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
 		scroll_wheel_factor = 1
 	}
 	shortcut = {
@@ -35,8 +30,18 @@ focus_tree = {
 		scroll_wheel_factor = 1
 	}
 	shortcut = {
-		name = GER_military_doctrine_shortcut
-		target = wfc_smb_army
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
+		scroll_wheel_factor = 1
+	}
+	shortcut = {
+		name = wfc_political_effort
+		target = wfc_political_effort
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = meh_upgrade_ai
+		target = meh_upgrade_ai
 		scroll_wheel_factor = 1
 	}
 	#shared_focus = wfc_army_effort
@@ -1150,19 +1155,15 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = meh_extra_tech_slot
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			379 = {
-				add_building_construction = {
-					type = nuclear_facility
-					level = 1
-					province = 7827
-					instant_build = yes
-				}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
 			}
 			add_tech_bonus = {
 				name = nuclear_bonus

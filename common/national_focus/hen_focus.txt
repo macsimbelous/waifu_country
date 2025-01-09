@@ -20,26 +20,33 @@ focus_tree = {
 		focus = wfc_political_effort
 	}
 	shortcut = {
-		name = GER_economic_path_shortcut
-		target = hen_focus_hentalia_development
+		name = GER_military_doctrine_shortcut
+		target = wfc_smb_army
 		scroll_wheel_factor = 1.0
 	}
-
-	shortcut = {
-		name = GER_naval_doctrine_shortcut
-		target = wfc_smb_navy
-		scroll_wheel_factor = 1.0
-	}
-	
 	shortcut = {
 		name = GER_air_doctrine_shortcut
 		target = wfc_smb_air_force
 		scroll_wheel_factor = 1.0
 	}
-
 	shortcut = {
-		name = GER_military_doctrine_shortcut
-		target = wfc_smb_army
+		name = GER_naval_doctrine_shortcut
+		target = wfc_smb_navy
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = wfc_political_effort
+		target = wfc_political_effort
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = hen_focus_hentalia_development
+		target = hen_focus_hentalia_development
+		scroll_wheel_factor = 1.0
+	}
+	shortcut = {
+		name = wfc_foreign_politica_shortcut
+		target = hen_friendship_with_japan
 		scroll_wheel_factor = 1.0
 	}
 	#shared_focus = wfc_army_effort
@@ -53,8 +60,8 @@ focus_tree = {
 	focus = {
 		id = hen_friendship_with_japan
 		icon = GFX_focus_chi_collaboration_with_the_japanese
-		x = 27
-		y = 8
+		x = 64
+		y = 0
 		cost = 5
 		mutually_exclusive = {
 			focus = hen_conquest_of_japan
@@ -526,8 +533,8 @@ focus_tree = {
 	focus = {
 		id = hen_conquest_of_japan
 		icon = GFX_focus_attack_japan
-		x = 32
-		y = 8
+		x = 69
+		y = 0
 		cost = 5
 		mutually_exclusive = {
 			focus = hen_friendship_with_japan
@@ -550,8 +557,8 @@ focus_tree = {
 	focus = {
 		id = hen_friendship_with_sov
 		icon = GFX_focus_chi_mission_to_the_soviet_union
-		x = 23
-		y = 8
+		x = 60
+		y = 0
 		cost = 5
 		mutually_exclusive = {
 			focus = hen_friendship_with_japan
@@ -1880,7 +1887,7 @@ focus_tree = {
 	focus = {
 		id = hen_focus_hentalia_development
 		icon = GFX_focus_spa_the_spanish_miracle
-		x = 40
+		x = 47
 		y = 0
 		cost = 5
 		search_filters = {
@@ -2518,7 +2525,7 @@ focus_tree = {
 		relative_position_id = hen_focus_expand_academy
 		x = -2
 		y = 1
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
@@ -2526,13 +2533,9 @@ focus_tree = {
 			focus = hen_focus_expand_academy
 		}
 		completion_reward = {
-			528 = {
-				add_building_construction = {
-					type = nuclear_facility
-					level = 1
-					province = 11949
-					instant_build = yes
-				}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
 			}
 			add_tech_bonus = {
 				name = nuclear_bonus
@@ -3057,8 +3060,8 @@ focus_tree = {
 	focus = {
 		id = hen_focus_development_of_the_navy
 		icon = GFX_goal_generic_navy_cruiser
-		x = 17
-		y = 8
+		x = 26
+		y = 0
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH

@@ -1243,6 +1243,23 @@ on_actions = {
 			}
 		}
 	}
+	on_monthly_MMS = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_government = neutrality
+					}
+					has_power_balance = {
+						id = mms_balance_of_power
+					}
+				}
+				remove_power_balance = {
+					id = mms_balance_of_power
+				}
+			}
+		}
+	}
 	on_monthly = {
 		effect = {
 			if = {
