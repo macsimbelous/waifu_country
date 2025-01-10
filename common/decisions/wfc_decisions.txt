@@ -221,11 +221,6 @@ wfc_integration_category = {
 		days_remove = 60
 		state_target = yes
 		on_map_mode = map_and_decisions_view
-		highlight_states = { 
-			highlight_state_targets = {
-				state = FROM
-			}
-		}
 		#target_array = owned_controlled_states
 		target_array = owned_states
 		target_trigger = {
@@ -417,11 +412,6 @@ economy_decisions = {
 		days_remove = 30
 		state_target = yes
 		on_map_mode = map_only
-		highlight_states = { 
-			highlight_state_targets = {
-				state = FROM
-			}
-		}
 		target_array = owned_states
 		target_trigger = {
 			FROM = {
