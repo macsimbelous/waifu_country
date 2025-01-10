@@ -614,6 +614,11 @@ meh_cyborgization_category = {
 		#icon = generic_form_nation
 		icon = GFX_decision_generic_brainwash
 		priority = 2
+		highlight_states = { 
+			highlight_state_targets = {
+				state = FROM
+			}
+		}
 		available = {
 			FROM = {
 				is_fully_controlled_by = ROOT
@@ -703,6 +708,11 @@ meh_cyborgization_category = {
 		name = meh_cyborgization
 		icon = GFX_decision_generic_brainwash
 		priority = 1
+		highlight_states = { 
+			highlight_state_targets = {
+				state = FROM
+			}
+		}
 		available = {
 			FROM = {
 				is_fully_controlled_by = ROOT

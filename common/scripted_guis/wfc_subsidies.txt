@@ -349,7 +349,7 @@ scripted_gui = {
 						compare = less_than
 					}
 				}
-				has_tech = nukes
+				#has_tech = nukes
 				nuclear_reactor > 0
 			}
 			wfc_subsidies_to_nuclear_subtract_click_enabled = {

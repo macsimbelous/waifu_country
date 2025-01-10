@@ -783,13 +783,13 @@ wfc_test_category = {
 			}
 		}
 	}
-	wfc_test_facility = {
-		available = {
-			has_facility_specialization = specialization_land
-			land_facility < 1
-			any_owned_state = {
-				land_facility < 1
-			}
+	wfc_test_nuclear = {
+		days_remove = 180
+		modifier = {
+			nuclear_production_factor = 3
+			sp_nuclear_bomb_speed_factor = 0.05
+			sp_thermo_nuclear_bomb_speed_factor = 0.05
+			thermonuclear_production_factor = 2
 		}
 	}
 }
