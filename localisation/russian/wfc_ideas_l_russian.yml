@@ -154,3 +154,8 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
  wfc_smb_heavy_airframe_initiative: "Инициатива «Летающие крепости»"
  wfc_smb_medium_airframe_initiative: "Программа «Тактическая авиация»"
  wfc_smb_light_airframe_initiative: "Программа «Маневренная авиация»"
+
+#modifier
+ modifier_production_speed_commercial_nuclear_reactor_factor: "Скорость строительства §Yкоммерческих АЭС§!"
+ modifier_production_speed_commercial_nuclear_reactor_factor_desc: "Изменяет скорость строительства коммерческих АЭС."
+ production_speed_commercial_nuclear_reactor_factor_tt: " $modifier_production_speed_commercial_nuclear_reactor_factor$: $RIGHT|+=%1$"

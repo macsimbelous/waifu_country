@@ -162,3 +162,10 @@ acw_subject_autonomy_mod_tt:0 "Increase in the autonomy of the subjects §G-0.5"
  wfc_smb_heavy_airframe_initiative: "Flying Fortresses Initiative"
  wfc_smb_medium_airframe_initiative: "Tactical Air Force Initiative"
  wfc_smb_light_airframe_initiative: "Nimble Air Force Initiative"
+
+#modifier
+ modifier_production_speed_commercial_nuclear_reactor_factor: "Speed of construction of §Ycommercial NPPs§!"
+ modifier_production_speed_commercial_nuclear_reactor_factor_desc: "Changes the rate of construction of commercial nuclear power plants."
+ production_speed_commercial_nuclear_reactor_factor_tt: " $modifier_production_speed_commercial_nuclear_reactor_factor$: $RIGHT|+=%1$"
+
+

@@ -313,7 +313,6 @@ ideas = {
 			#picture = idea_JUNO_truck_production_cost
 			removal_cost = -1
 			picture = ITA_bandits_war
-
 			allowed_civil_war = {
 				always = yes
 			}
@@ -420,7 +419,14 @@ ideas = {
 			# }
 			modifier = {
 				production_speed_nuclear_reactor_factor = 0.2
+				production_speed_commercial_nuclear_reactor_factor = 0.2
 				#nuclear_production_factor = 0.15
+				sp_nuclear_bomb_speed_factor = 0.05
+				sp_thermo_nuclear_bomb_speed_factor = 0.05
+				sp_nuclear_reactor_speed_factor = 0.05
+				sp_commercial_nuclear_reactor_speed_factor = 0.05
+				sp_nuclear_engines_speed_factor = 0.05
+				sp_nuclear_warheads_speed_factor = 0.05
 			}
 			traits = {
 				wfc_atom_concern_trait
