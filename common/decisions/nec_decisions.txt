@@ -404,3 +404,26 @@ political_actions = {
 		}
 	}
 }
+
+nec_category_raise_the_zombies = {
+	nec_decision_raise_the_zombies = {
+		cost = 50
+		days_re_enable = 180
+		complete_effect = {
+			every_controlled_state = {
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 100
+			}
+		}
+	}
+}
