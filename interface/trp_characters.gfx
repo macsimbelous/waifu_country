@@ -379,6 +379,18 @@ spriteTypes = {
 		name = "GFX_portrait_trp_kisaragi_yura_civilian"
 		texturefile = "gfx/leaders/TRP/kisaragi_yura_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_momochi_ayame"
+		texturefile = "gfx/leaders/TRP/momochi_ayame_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_momochi_ayame_army"
+		texturefile = "gfx/leaders/TRP/momochi_ayame_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_momochi_ayame_civilian"
+		texturefile = "gfx/leaders/TRP/momochi_ayame_civilian.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_trp_land_01_small"

@@ -1120,6 +1120,28 @@ characters = {
 			}
 		}
 	}
+	trp_momochi_ayame = {
+		name = trp_momochi_ayame
+		portraits = {
+			army = {
+				small = GFX_idea_trp_momochi_ayame
+				large = GFX_portrait_trp_momochi_ayame_army
+			}
+			civilian = {
+				large = GFX_portrait_trp_momochi_ayame_civilian
+			}
+		}
+		corps_commander = {
+			traits = {
+				urban_assault_specialist
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#Заглушки
 	TRP_aoi_futaba2 = {
 		name = TRP_aoi_futaba
