@@ -525,8 +525,20 @@ focus_tree = {
 				}
 			}
 			else = {
-				has_army_manpower = {
-					size > 199999
+				if = {
+					limit = {
+						SIK = {
+							is_in_faction_with = CHI
+						}
+					}
+					has_army_manpower = {
+						size > 499999
+					}
+				}
+				else = {
+					has_army_manpower = {
+						size > 199999
+					}
 				}
 			}
 		}
@@ -569,8 +581,20 @@ focus_tree = {
 				}
 			}
 			else = {
-				has_army_manpower = {
-					size > 199999
+				if = {
+					limit = {
+						XSM = {
+							is_in_faction_with = CHI
+						}
+					}
+					has_army_manpower = {
+						size > 499999
+					}
+				}
+				else = {
+					has_army_manpower = {
+						size > 199999
+					}
 				}
 			}
 		}

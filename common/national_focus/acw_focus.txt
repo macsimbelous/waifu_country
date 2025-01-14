@@ -32,46 +32,45 @@ focus_tree = {
 		x = 60
 		y = 1400
 	}
-
 	shortcut = {
 		name = GER_military_doctrine_shortcut
 		target = wfc_smb_army
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_air_doctrine_shortcut
 		target = wfc_smb_air_force
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_naval_doctrine_shortcut
 		target = wfc_smb_navy
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = wfc_political_effort
 		target = wfc_political_effort
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = acw_focus_government_reform
 		target = acw_focus_government_reform
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_economic_path_shortcut
-		target = acw_focus_revise_industrial_policy 
-		scroll_wheel_factor = 1.0
+		target = acw_focus_revise_industrial_policy
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = wfc_foreign_politica_shortcut
 		target = acw_focus_join_comintern
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = acw_focus_protectorates
 		target = acw_focus_protectorates
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort
@@ -1026,6 +1025,8 @@ focus_tree = {
 				set_autonomy = {
 					target = ROM
 					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
 				}
 			}
 			if = {
@@ -1035,6 +1036,8 @@ focus_tree = {
 				set_autonomy = {
 					target = YUG
 					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
 				}
 			}
 			if = {
@@ -1044,6 +1047,8 @@ focus_tree = {
 				set_autonomy = {
 					target = HUN
 					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
 				}
 			}
 			if = {
@@ -1053,6 +1058,8 @@ focus_tree = {
 				set_autonomy = {
 					target = ALB
 					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
 				}
 			}
 		}

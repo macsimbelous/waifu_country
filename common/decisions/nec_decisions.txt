@@ -13,8 +13,9 @@ operations = {
 			FROM = {
 				is_puppet = no
 				is_faction_leader = no
-				has_war = no
-				has_civil_war = no
+				is_ai = yes
+				# has_war = no
+				# has_civil_war = no
 			}
 		}
 		visible = {
