@@ -391,6 +391,22 @@ spriteTypes = {
 		name = "GFX_portrait_trp_momochi_ayame_civilian"
 		texturefile = "gfx/leaders/TRP/momochi_ayame_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_wang_erxi"
+		texturefile = "gfx/leaders/TRP/wang_erxi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_wang_erxi_operative"
+		texturefile = "gfx/leaders/TRP/wang_erxi_operative.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trp_coco"
+		texturefile = "gfx/leaders/TRP/coco_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_coco_navy"
+		texturefile = "gfx/leaders/TRP/coco_navy.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_trp_land_01_small"

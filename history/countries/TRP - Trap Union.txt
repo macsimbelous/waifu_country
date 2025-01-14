@@ -149,7 +149,22 @@ recruit_character = trp_adolfo_camila
 recruit_character = trp_adelita_grau
 recruit_character = trp_kisaragi_yura
 recruit_character = trp_momochi_ayame
+recruit_character = trp_coco
 #agents
+recruit_character = trp_wang_erxi
+create_operative_leader = {
+	name = "Wang Erxi"
+	GFX = GFX_portrait_trp_wang_erxi_operative
+	traits = {
+		operative_seducer
+		operative_master_interrogator
+	}
+	bypass_recruitment = no
+	available_to_spy_master = yes
+	nationalities = {
+		TRP JAP
+	}
+}
 recruit_character = trp_sakae_yomoda
 create_operative_leader = {
 	name = "Sakae Yomoda"

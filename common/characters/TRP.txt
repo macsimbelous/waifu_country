@@ -1142,6 +1142,34 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	trp_wang_erxi = {
+		name = trp_wang_erxi
+		portraits = {
+			army = {
+				small = GFX_idea_trp_wang_erxi
+				large = GFX_portrait_trp_wang_erxi_operative
+			}
+		}
+	}
+	trp_coco = {
+		name = trp_coco
+		portraits = {
+			navy = {
+				small = GFX_idea_trp_coco
+				large = GFX_portrait_trp_coco_navy
+			}
+		}
+		navy_leader = {
+			traits = {
+				wfc_exp_navy_trait
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
 	#Заглушки
 	TRP_aoi_futaba2 = {
 		name = TRP_aoi_futaba
