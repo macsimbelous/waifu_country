@@ -973,6 +973,25 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	nec_krolya_koshmarnaya = {
+		name = nec_krolya_koshmarnaya
+		portraits = {
+			army = {
+				small = GFX_idea_nec_krolya_koshmarnaya
+				large = GFX_portrait_nec_krolya_koshmarnaya_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				ascari_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		#name = generic_head_of_intelligence
