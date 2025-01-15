@@ -588,7 +588,7 @@ focus_tree = {
 						}
 					}
 					has_army_manpower = {
-						size > 499999
+						size > 599999
 					}
 				}
 				else = {
