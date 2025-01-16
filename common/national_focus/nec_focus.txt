@@ -18,32 +18,32 @@ focus_tree = {
 	shortcut = {
 		name = GER_military_doctrine_shortcut
 		target = wfc_smb_army
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_air_doctrine_shortcut
 		target = wfc_smb_air_force
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_naval_doctrine_shortcut
 		target = wfc_smb_navy
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = wfc_political_effort
 		target = wfc_political_effort
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_economic_path_shortcut
 		target = nec_focus_modernization_of_the_capitals_infrastructure
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = wfc_foreign_politica_shortcut
 		target = nec_focus_the_world_of_the_dead
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort
@@ -430,7 +430,7 @@ focus_tree = {
 	focus = {
 		id = nec_focus_the_world_of_the_dead
 		icon = GFX_goal_generic_CAS
-		x = 44
+		x = 47
 		y = 0
 		cost = 5
 		search_filters = {
@@ -455,7 +455,7 @@ focus_tree = {
 			focus = nec_focus_the_world_of_the_dead
 		}
 		relative_position_id = nec_focus_the_world_of_the_dead
-		x = 0
+		x = -1
 		y = 1
 		cost = 10
 		search_filters = {
@@ -502,14 +502,145 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = nec_focus_defensive_lines
+		prerequisite = {
+			focus = nec_focus_the_world_of_the_dead
+		}
+		icon = GFX_goal_generic_construct_military
+		relative_position_id = nec_focus_the_world_of_the_dead
+		x = 1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			has_full_control_of_state = 322
+			has_full_control_of_state = 323
+			has_full_control_of_state = 324
+			has_full_control_of_state = 757
+			has_full_control_of_state = 758
+		}
+		completion_reward = {
+			custom_effect_tooltip = acw_defensive_lines_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						state = 322
+						state = 323
+						state = 324
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+				}
+				757 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = 4900
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = 2014
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = 5033
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = 2098
+					}
+				}
+				758 = {
+					if = {
+						limit = {
+							ROOT = {
+								has_tech = radio_detection
+							}
+						}
+						add_building_construction = {
+							type = radar_station
+							level = 1
+							instant_build = yes
+						}
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = 1961
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = 10802
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = 12801
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
 		id = nec_focus_conquest_of_sik
 		icon = GFX_goal_generic_major_war
-		relative_position_id = nec_focus_expansion_of_the_railway_network
-		x = -1
-		y = 1
+		relative_position_id = nec_focus_the_world_of_the_dead
+		x = -4
+		y = 2
 		cost = 5
 		prerequisite = {
 			focus = nec_focus_expansion_of_the_railway_network
+		}
+		prerequisite = {
+			focus = nec_focus_defensive_lines
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -560,12 +691,15 @@ focus_tree = {
 	focus = {
 		id = nec_focus_conquest_of_xsm
 		icon = GFX_goal_generic_major_war
-		relative_position_id = nec_focus_expansion_of_the_railway_network
-		x = 1
-		y = 1
+		relative_position_id = nec_focus_the_world_of_the_dead
+		x = -2
+		y = 2
 		cost = 5
 		prerequisite = {
 			focus = nec_focus_expansion_of_the_railway_network
+		}
+		prerequisite = {
+			focus = nec_focus_defensive_lines
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -616,9 +750,9 @@ focus_tree = {
 	focus = {
 		id = nec_focus_conquest_of_chi
 		icon = GFX_focus_attack_china
-		relative_position_id = nec_focus_expansion_of_the_railway_network
-		x = 0
-		y = 2
+		relative_position_id = nec_focus_the_world_of_the_dead
+		x = -3
+		y = 3
 		cost = 5
 		prerequisite = {
 			focus = nec_focus_conquest_of_sik
@@ -815,12 +949,15 @@ focus_tree = {
 	focus = {
 		id = nec_focus_conquest_of_raj
 		icon = GFX_focus_attack_india
-		relative_position_id = nec_focus_expansion_of_the_railway_network
-		x = 5
-		y = 1
+		relative_position_id = nec_focus_the_world_of_the_dead
+		x = 2
+		y = 2
 		cost = 5
 		prerequisite = {
 			focus = nec_focus_expansion_of_the_railway_network
+		}
+		prerequisite = {
+			focus = nec_focus_defensive_lines
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1067,12 +1204,15 @@ focus_tree = {
 	focus = {
 		id = nec_focus_conquest_of_sov
 		icon = GFX_focus_attack_soviet
-		relative_position_id = nec_focus_expansion_of_the_railway_network
-		x = 8
-		y = 1
+		relative_position_id = nec_focus_the_world_of_the_dead
+		x = 5
+		y = 2
 		cost = 5
 		prerequisite = {
 			focus = nec_focus_expansion_of_the_railway_network
+		}
+		prerequisite = {
+			focus = nec_focus_defensive_lines
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

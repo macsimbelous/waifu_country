@@ -111,6 +111,11 @@ create_operative_leader = {
 }
 
 every_other_country = {
+	limit = {
+		NOT = {
+			tag = MEH
+		}
+	}
 	add_opinion_modifier = {
 		target = ROOT
 		modifier = nec_om_hate_undead
