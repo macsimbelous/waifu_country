@@ -297,210 +297,6 @@ wfc_test_category = {
 			wfc_add_industrial_complex_in_random_state = yes
 		}
 	}
-	wfc_test_add_random_skill_to_random_generals = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			random_character = {
-				limit = {
-					is_army_leader = yes
-					skill < 3
-				}
-				set_variable = {
-					rand_skill = 0
-				}
-				set_variable_to_random = {
-					var = rand_skill
-					min = 2
-					max = 4
-					integer = yes
-				}
-				add_skill_level = rand_skill
-				add_attack = rand_skill
-				add_defense = rand_skill
-				add_planning = rand_skill
-				add_logistics = rand_skill
-				add_unit_leader_trait = wfc_exp_trait
-				add_random_trait = {
-					old_guard
-					brilliant_strategist
-					inflexible_strategist
-					politically_connected
-					war_hero
-					career_officer
-					trait_cautious
-					trait_reckless
-					media_personality
-					harsh_leader
-					bearer_of_artillery
-					infantry_officer
-					cavalry_officer
-					armor_officer
-					engineer_officer
-					irregulars_officer
-					ascari_officer
-					militias_officer
-					jaeger
-				}
-			}
-			random_character = {
-				limit = {
-					is_army_leader = yes
-					skill < 3
-				}
-				set_variable = {
-					rand_skill = 0
-				}
-				set_variable_to_random = {
-					var = rand_skill
-					min = 2
-					max = 4
-					integer = yes
-				}
-				add_skill_level = rand_skill
-				add_attack = rand_skill
-				add_defense = rand_skill
-				add_planning = rand_skill
-				add_logistics = rand_skill
-				add_unit_leader_trait = wfc_exp_trait
-				add_random_trait = {
-					old_guard
-					brilliant_strategist
-					inflexible_strategist
-					politically_connected
-					war_hero
-					career_officer
-					trait_cautious
-					trait_reckless
-					media_personality
-					harsh_leader
-					bearer_of_artillery
-					infantry_officer
-					cavalry_officer
-					armor_officer
-					engineer_officer
-					irregulars_officer
-					ascari_officer
-					militias_officer
-					jaeger
-				}
-			}
-			random_character = {
-				limit = {
-					is_army_leader = yes
-					skill < 3
-				}
-				set_variable = {
-					rand_skill = 0
-				}
-				set_variable_to_random = {
-					var = rand_skill
-					min = 2
-					max = 4
-					integer = yes
-				}
-				add_skill_level = rand_skill
-				add_attack = rand_skill
-				add_defense = rand_skill
-				add_planning = rand_skill
-				add_logistics = rand_skill
-				add_unit_leader_trait = wfc_exp_trait
-				add_random_trait = {
-					old_guard
-					brilliant_strategist
-					inflexible_strategist
-					politically_connected
-					war_hero
-					career_officer
-					trait_cautious
-					trait_reckless
-					media_personality
-					harsh_leader
-					bearer_of_artillery
-					infantry_officer
-					cavalry_officer
-					armor_officer
-					engineer_officer
-					irregulars_officer
-					ascari_officer
-					militias_officer
-					jaeger
-				}
-			}
-			random_character = {
-				limit = {
-					is_navy_leader = yes
-					skill < 3
-				}
-				set_variable = {
-					rand_skill = 0
-				}
-				set_variable_to_random = {
-					var = rand_skill
-					min = 2
-					max = 4
-					integer = yes
-				}
-				add_skill_level = rand_skill
-				add_attack = rand_skill
-				add_defense = rand_skill
-				add_maneuver = rand_skill
-				add_coordination = rand_skill
-				add_unit_leader_trait = wfc_exp_navy_trait
-				add_random_trait = {
-					old_guard_navy
-					gentlemanly
-					gunnery_expert
-					cuts_corners
-					chief_engineer
-					navy_media_personality
-					bold
-					navy_career_officer
-					battleship_adherent
-					aviation_enthusiast
-					caustic_personality
-					craven
-					naval_lineage
-				}
-			}
-			random_character = {
-				limit = {
-					is_navy_leader = yes
-					skill < 3
-				}
-				set_variable = {
-					rand_skill = 0
-				}
-				set_variable_to_random = {
-					var = rand_skill
-					min = 2
-					max = 4
-					integer = yes
-				}
-				add_skill_level = rand_skill
-				add_attack = rand_skill
-				add_defense = rand_skill
-				add_maneuver = rand_skill
-				add_coordination = rand_skill
-				add_unit_leader_trait = wfc_exp_navy_trait
-				add_random_trait = {
-					old_guard_navy
-					gentlemanly
-					gunnery_expert
-					cuts_corners
-					chief_engineer
-					navy_media_personality
-					bold
-					navy_career_officer
-					battleship_adherent
-					aviation_enthusiast
-					caustic_personality
-					craven
-					naval_lineage
-				}
-			}
-		}
-	}
 	wfc_test_create_faction = {
 		complete_effect = {
 			create_faction = wfc_test_faction
@@ -674,6 +470,93 @@ wfc_test_category = {
 			sp_nuclear_bomb_speed_factor = 0.05
 			sp_thermo_nuclear_bomb_speed_factor = 0.05
 			thermonuclear_production_factor = 2
+		}
+	}
+	wfc_test_add_bunker = {
+		complete_effect = {
+			custom_effect_tooltip = acw_defensive_lines_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 322
+							state = 323
+							state = 324
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+				}
+				757 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						instant_build = yes
+						province = {
+							id = 4900
+							id = 2014
+							id = 5033
+							id = 2098
+						}
+					}
+				}
+				758 = {
+					if = {
+						limit = {
+							ROOT = {
+								has_tech = radio_detection
+							}
+						}
+						add_building_construction = {
+							type = radar_station
+							level = 1
+							instant_build = yes
+						}
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						instant_build = yes
+						province = {
+							id = 1961
+							id = 10802
+							id = 12801
+						}
+					}
+				}
+			}
 		}
 	}
 }
