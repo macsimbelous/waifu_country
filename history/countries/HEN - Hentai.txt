@@ -35,6 +35,7 @@ set_technology = {
 	iw_large_airframe = 1
 	basic_large_airframe = 1
 	range_improvements = 1
+	air_torpedoe_1 = 1
 
 	#####
 	gwtank_chassis = 1
@@ -375,6 +376,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_main_weapon_slot = medium_bomb_bay
 		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		fixed_auxiliary_weapon_slot_2 = torpedo_mounting
 		engine_type_slot = engine_2_2x
 		special_type_slot_1 = fuel_tanks_medium
 	}

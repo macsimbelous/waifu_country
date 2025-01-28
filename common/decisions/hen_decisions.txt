@@ -402,12 +402,23 @@ hen_category_colonies = {
 					}
 					hen_change_country_leader = yes
 				}
+				if = {
+					limit = {
+						875 = {
+							is_controlled_by_ROOT_or_subject = yes
+						}
+					}
+					var:country_to_initiate = {
+						transfer_state = 875
+					}
+				}
 			}
 			655 = {
 				add_core_of = HEN
 				remove_core_of = SOV
 				remove_core_of = FER
 			}
+			transfer_state = 655
 		}
 	}
 	hen_decision_create_provinces_yak = {
