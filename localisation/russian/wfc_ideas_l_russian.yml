@@ -70,7 +70,12 @@ wfc_subsidies_dm:0 "Бюджетные субсидии"
  hen_idea_perverted_intelligence_agency: "Извращённое разведывательное управление"
  hen_idea_academy_of_perverted_sciences: "Академия извращённых наук"
  hen_idea_perverted_admiralty: "Изврашённое адмиралтейство"
- hen_organization_futabu: "§RФутабу!§!"
+ #MIO
+  hen_organization_futabu: "§RФутабу!§!"
+  hen_organization_asamiya_industries: "Асамия Индастриз"
+  wfc_mio_initial_trait_light_tanks_production: "Производитель лёгких танков"
+  wfc_mio_trait_soft_attack_tanks: "Улучшение против пехоты"
+  wfc_mio_trait_breakthrough_tanks: "Улучшение прорыва"
 
 #MAH
  mah_the_nation_of_mahou_shoujo:0 "Нация  §BВолшебниц§!"

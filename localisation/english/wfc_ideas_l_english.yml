@@ -40,7 +40,12 @@ wfc_subsidies_dm:0 "Budget subsidies"
  hen_mistiora_arte:0 "Mistiora Arte"
  hen_iris_arcadia:0 "Iris Arcadia"
  hen_olga_discordia:0 "Olga Discordia"
- hen_organization_futabu: "§RFuta-Bu!§!"
+ #MIO
+  hen_organization_futabu: "§RFuta-Bu!§!"
+  hen_organization_asamiya_industries: "Asamiya Industries"
+  wfc_mio_initial_trait_light_tanks_production: "Light tank manufacturer"
+  wfc_mio_trait_soft_attack_tanks: "Improvement against infantry"
+  wfc_mio_trait_breakthrough_tanks: "Breakthrough Improvement"
 
 ###########
  Anime_Physics:0 "Anime physics"

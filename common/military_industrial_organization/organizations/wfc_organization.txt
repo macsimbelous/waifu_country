@@ -46,6 +46,7 @@ mms_organization_ifrit_forge = {
 	}
 }
 
+#HEN
 hen_organization_futabu = {
 	include = generic_battle_line_ship_organization
 	icon = GFX_idea_hen_futabu
@@ -72,6 +73,69 @@ hen_organization_futabu = {
 			build_cost_ic = -0.15
 			torpedo_attack = 0.25
 			sub_detection = 0.25
+		}
+	}
+}
+hen_organization_asamiya_industries = {
+	include = generic_tank_organization
+	icon = GFX_idea_generic_acquire_tanks
+	allowed = {
+		original_tag = HEN
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	equipment_type = { mio_cat_eq_all_light_tank }
+	research_categories = { mio_cat_tech_light_armor_and_modules }
+	initial_trait = {
+		name = wfc_mio_initial_trait_light_tanks_production
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+		}
+		production_bonus = {
+			#production_capacity_factor = 0.05
+			production_efficiency_cap_factor = 0.05
+			production_cost_factor = -0.05
+		}
+		equipment_bonus = {
+			#armor_value = -0.05
+			#defense =-0.05
+			#build_cost_ic = -0.05
+			soft_attack = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_soft_attack_tanks
+		name = wfc_mio_trait_soft_attack_tanks
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		special_trait_background = yes
+		relative_position_id = generic_mio_trait_defensive_equipment
+		position = {
+			x = 2
+			y = 1
+		}
+		all_parents = {
+			generic_mio_trait_defensive_equipment
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_breakthrough_tanks
+		name = wfc_mio_trait_breakthrough_tanks
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		special_trait_background = yes
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = wfc_mio_trait_soft_attack_tanks
+		all_parents = {
+			wfc_mio_trait_soft_attack_tanks
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
 		}
 	}
 }
