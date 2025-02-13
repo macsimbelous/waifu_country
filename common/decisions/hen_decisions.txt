@@ -1099,6 +1099,9 @@ hen_category_colonies = {
 			634 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			979 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -1135,6 +1138,7 @@ hen_category_colonies = {
 					transfer_state = 523
 					transfer_state = 737
 					transfer_state = 634
+					transfer_state = 979
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
