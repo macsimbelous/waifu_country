@@ -1012,15 +1012,27 @@ focus_tree = {
 			if = {
 				limit = {
 					is_in_faction_with = BUL
+					BUL = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
 				}
 				set_autonomy = {
 					target = BUL
 					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
 				}
 			}
 			if = {
 				limit = {
 					is_in_faction_with = ROM
+					ROM = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
 				}
 				set_autonomy = {
 					target = ROM
@@ -1032,6 +1044,11 @@ focus_tree = {
 			if = {
 				limit = {
 					is_in_faction_with = YUG
+					YUG = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
 				}
 				set_autonomy = {
 					target = YUG
@@ -1043,6 +1060,11 @@ focus_tree = {
 			if = {
 				limit = {
 					is_in_faction_with = HUN
+					HUN = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
 				}
 				set_autonomy = {
 					target = HUN
@@ -1054,9 +1076,142 @@ focus_tree = {
 			if = {
 				limit = {
 					is_in_faction_with = ALB
+					ALB = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
 				}
 				set_autonomy = {
 					target = ALB
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = SER
+					SER = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+				set_autonomy = {
+					target = SER
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = KOS
+					KOS = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+				set_autonomy = {
+					target = KOS
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = MAC
+					MAC = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+				set_autonomy = {
+					target = MAC
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = MNT
+					MNT = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+				set_autonomy = {
+					target = MNT
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = BOS
+					BOS = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+				set_autonomy = {
+					target = BOS
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = CRO
+					CRO = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+				set_autonomy = {
+					target = CRO
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = SLV
+					SLV = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+				set_autonomy = {
+					target = SLV
+					autonomy_state = autonomy_dominion
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = MOL
+					MOL = {
+						NOT = {
+							is_puppet_of = ROOT
+						}
+					}
+				}
+				set_autonomy = {
+					target = MOL
 					autonomy_state = autonomy_dominion
 					end_wars = no
 					end_civil_wars = no
