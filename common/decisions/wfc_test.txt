@@ -258,6 +258,19 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_add_faction_bul = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = ACW
+		}
+		available = {
+			is_in_faction = yes
+		}
+		complete_effect = {
+			add_to_faction = BUL
+		}
+	}
 	wfc_test_create_balance_of_power = {
 		fire_only_once = no
 		cost = 0

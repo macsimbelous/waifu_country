@@ -1003,6 +1003,8 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
+			is_faction_leader = yes
+			num_faction_members > 3
 			num_of_factories > 75
 		}
 		ai_will_do = {
