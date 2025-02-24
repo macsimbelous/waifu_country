@@ -38,11 +38,12 @@ wfc_subsidies_dm = {
 	industrial_capacity_factory = wfc_subsidies_to_factory
 	industrial_capacity_dockyard = wfc_subsidies_to_dockyard
 	research_speed_factor = wfc_subsidies_to_research
-	nuclear_production_factor = wfc_subsidies_to_nuclear
 	local_resources_factor = wfc_subsidies_to_resources
-	sp_nuclear_bomb_speed_factor = wfc_subsidies_to_resources
-	sp_thermo_nuclear_bomb_speed_factor = wfc_subsidies_to_resources
+	#sp_nuclear_bomb_speed_factor = wfc_subsidies_to_resources
+	#sp_thermo_nuclear_bomb_speed_factor = wfc_subsidies_to_resources
 	thermonuclear_production_factor = wfc_subsidies_to_resources
+	nuclear_production_factor = wfc_subsidies_to_nuclear
+	
 	#political_power_factor = wfc_political_power_to_subsidies
 	consumer_goods_factor = wfc_consumer_goods_factor_to_subsidies
 }

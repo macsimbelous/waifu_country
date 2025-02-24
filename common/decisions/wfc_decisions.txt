@@ -348,14 +348,55 @@ wfl_campaigning_for_volunteers_category = {
 			multiply_temp_variable = {
 				country_popularity = 5
 			}
+			if = {
+				limit = {
+					has_war = yes
+				}
+				add_to_temp_variable = {
+					country_popularity = 500
+				}
+			}
+			if = {
+				limit = {
+					has_war_support > 0.5
+				}
+				add_to_temp_variable = {
+					country_popularity = 500
+				}
+			}
+			if = {
+				limit = {
+					has_war_support > 0.6
+				}
+				add_to_temp_variable = {
+					country_popularity = 500
+				}
+			}
+			if = {
+				limit = {
+					has_war_support > 0.7
+				}
+				add_to_temp_variable = {
+					country_popularity = 500
+				}
+			}
+			if = {
+				limit = {
+					has_war_support > 0.8
+				}
+				add_to_temp_variable = {
+					country_popularity = 500
+				}
+			}
+			if = {
+				limit = {
+					has_war_support > 0.9
+				}
+				add_to_temp_variable = {
+					country_popularity = 500
+				}
+			}
 			add_manpower = country_popularity
-			# set_temp_variable = {
-			# 	temp_mp = mtth:wfc_volunteers_base
-			# }
-			# multiply_temp_variable = {
-			# 	temp_mp = num_owned_states
-			# }
-			# add_manpower = temp_mp
 		}
 	}
 }

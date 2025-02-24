@@ -483,6 +483,7 @@ wfc_test_category = {
 			sp_nuclear_bomb_speed_factor = 0.05
 			sp_thermo_nuclear_bomb_speed_factor = 0.05
 			thermonuclear_production_factor = 2
+			
 		}
 	}
 	wfc_test_add_bunker = {

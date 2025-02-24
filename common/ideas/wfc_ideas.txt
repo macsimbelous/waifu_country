@@ -149,9 +149,10 @@ ideas = {
 			picture = generic_purge
 			removal_cost = -1
 			modifier = {
-				stability_factor = -0.7
+				stability_factor = -0.3
 				army_morale_factor = -0.3
-				political_power_gain = -1
+				political_power_gain = -0.5
+				surrender_limit = -0.1
 			}
 		}
 		Is_Flat_Justice = {
