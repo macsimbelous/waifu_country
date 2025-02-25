@@ -94,6 +94,14 @@ set_technology = {
 	engine_tech_1 = 1
 	armor_tech_1 = 1
 }
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 1
+}
+add_breakthrough_progress = {
+	specialization = specialization_nuclear
+	value = 0.76
+}
 
 add_ideas = {
 	free_trade

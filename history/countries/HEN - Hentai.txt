@@ -72,7 +72,10 @@ set_technology = {
 	fire_control_methods_1 = 1
 	mtg_transport = 1
 }
-
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 1
+}
 # JAP = {
 # 	diplomatic_relation = {
 # 		country = HEN

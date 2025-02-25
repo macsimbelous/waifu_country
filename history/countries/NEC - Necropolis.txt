@@ -20,6 +20,10 @@ set_technology = {
 	gw_artillery = 1
 	tech_trucks = 1
 }
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.57
+}
 
 #ideas
 add_ideas = {
