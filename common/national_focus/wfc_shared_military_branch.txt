@@ -685,7 +685,7 @@ shared_focus = {
 		}
 		add_tech_bonus = {
 			name = wfc_smb_army_modernization_initiative
-			bonus = 0.35
+			bonus = 0.5
 			uses = 1
 			category = infantry_weapons
 		}
@@ -1825,6 +1825,12 @@ shared_focus = {
 		add_to_variable = {
 			wfc_smb_army_modifier_industrial_capacity_factory_airfoce = 0.05
 			tooltip = industrial_capacity_factory_tt
+		}
+		add_tech_bonus = {
+			name = air_equipment
+			bonus = 0.5
+			uses = 2
+			category = air_equipment
 		}
 	}
 }
