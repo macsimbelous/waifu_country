@@ -315,6 +315,14 @@ shared_focus = {
 			wfc_smb_army_modifier_industrial_capacity_factory = 0.05
 			tooltip = industrial_capacity_factory_tt
 		}
+		add_tech_bonus = {
+			name = wfc_smb_armor_modernization_initiative
+			bonus = 0.5
+			uses = 2
+			category = armor
+			category = infantry_weapons
+			category = artillery
+		}
 	}
 }
 
