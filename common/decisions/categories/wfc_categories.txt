@@ -25,7 +25,7 @@ wfc_world_conquest_category = {
 			NOT = {
 				has_country_leader_with_trait = defeatist
 			}
-			has_country_flag = mms_colonization_per_and_afg_flag
+			has_country_flag = mms_flag_colonization_per_and_afg
 		}
 		if = {
 			limit = {

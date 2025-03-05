@@ -566,55 +566,29 @@ trp_st_south_american_unification = {
 	#controls_state = 304
 }
 
-mah_st_form_crystal_empire = {
-	# Maho
-	custom_trigger_tooltip = {
-		tooltip = mah_form_crystal_empire_maho_required_states_tt
-		#controls_state = 677
-		677 = {
-			wfc_is_controlled_by_root_or_puppet = yes
-		}
-		#controls_state = 680
-		680 = {
-			wfc_is_controlled_by_root_or_puppet = yes
-		}
-		#controls_state = 553
-		553 = {
-			wfc_is_controlled_by_root_or_puppet = yes
-		}
-		#controls_state = 554
-		554 = {
-			wfc_is_controlled_by_root_or_puppet = yes
-		}
-		#controls_state = 799
-		# 799 = {
-		# 	wfc_is_controlled_by_root_or_puppet = yes
-		# }
-		#controls_state = 454
-		454 = {
-			wfc_is_controlled_by_root_or_puppet = yes
-		}
-		#controls_state = 455
-		455 = {
-			wfc_is_controlled_by_root_or_puppet = yes
-		}
-	}
+wfc_st_controls_iraq = {
 	# Iraq
 	custom_trigger_tooltip = {
 		tooltip = form_country_iraq_required_states_tt
-		#controls_state = 676
 		676 = {
 			wfc_is_controlled_by_root_or_puppet = yes
 		}
-		#controls_state = 675
 		675 = {
 			wfc_is_controlled_by_root_or_puppet = yes
 		}
-		#controls_state = 291
 		291 = {
 			wfc_is_controlled_by_root_or_puppet = yes
 		}
+		1010 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1011 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
 	}
+}
+
+wfc_st_controls_saudi_arabia = {
 	# Saudi Arabia
 	custom_trigger_tooltip = {
 		tooltip = form_country_saudi_required_states_tt
@@ -649,6 +623,45 @@ mah_st_form_crystal_empire = {
 			wfc_is_controlled_by_root_or_puppet = yes
 		}
 	}
+}
+
+mah_st_form_crystal_empire = {
+	# Maho
+	custom_trigger_tooltip = {
+		tooltip = mah_form_crystal_empire_maho_required_states_tt
+		#controls_state = 677
+		677 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 680
+		680 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 553
+		553 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 554
+		554 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 799
+		# 799 = {
+		# 	wfc_is_controlled_by_root_or_puppet = yes
+		# }
+		#controls_state = 454
+		454 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		#controls_state = 455
+		455 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+	# Iraq
+	wfc_st_controls_iraq = yes
+	# Saudi Arabia
+	wfc_st_controls_saudi_arabia = yes
 	#controls_state = 656
 	656 = {
 		wfc_is_controlled_by_root_or_puppet = yes
@@ -678,6 +691,9 @@ mah_st_form_crystal_empire = {
 	}
 	#controls_state = 294
 	294 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	992 = {
 		wfc_is_controlled_by_root_or_puppet = yes
 	}
 }
@@ -937,6 +953,80 @@ wfc_st_compare_fleet = {
 		}
 		else = {
 			always = no
+		}
+	}
+}
+
+wfc_st_controls_afghanistan = {
+	# Afghanistan
+	custom_trigger_tooltip = {
+		tooltip = form_country_afghanistan_required_states_tt
+		415 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		267 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1005 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1006 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1007 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1008 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1009 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+}
+
+wfc_st_controls_iran = {
+	# Iran
+	custom_trigger_tooltip = {
+		tooltip = form_country_iran_required_states_tt
+		419 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		421 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		420 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		417 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		413 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		266 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		418 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		411 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		412 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		416 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		414 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		410 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1000 = {
+			wfc_is_controlled_by_root_or_puppet = yes
 		}
 	}
 }

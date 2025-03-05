@@ -182,6 +182,8 @@ focus_tree = {
 			add_state_claim = 676
 			add_state_claim = 675
 			add_state_claim = 291
+			add_state_claim = 1010
+			add_state_claim = 1011
 			create_wargoal = {
 				target = IRQ
 				type = annex_everything
@@ -210,15 +212,7 @@ focus_tree = {
 			NOT = {
 				is_in_faction_with = SAU
 			}
-			676 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			675 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			291 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			wfc_st_controls_iraq = yes
 		}
 		completion_reward = {
 			add_state_claim = 292
@@ -254,36 +248,7 @@ focus_tree = {
 		}
 		available = {
 			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				292 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				678 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				679 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				854 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				855 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				856 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				857 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				858 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				859 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
+			wfc_st_controls_saudi_arabia = yes
 		}
 		completion_reward = {
 			build_railway = {
@@ -338,9 +303,13 @@ focus_tree = {
 				is_in_faction_with = OMA
 				is_in_faction_with = YEM
 			}
+			wfc_st_controls_saudi_arabia = yes
 		}
 		completion_reward = {
 			add_state_claim = 294
+			add_state_claim = 1015
+			add_state_claim = 1016
+			add_state_claim = 1013
 			create_wargoal = {
 				target = OMA
 				type = annex_everything
@@ -418,36 +387,36 @@ focus_tree = {
 					}
 				}
 			}
+			1014 = {
+				CONTROLLER = {
+					OR = {
+						tag = ENG
+						is_puppet_of = ENG
+					}
+				}
+			}
+			992 = {
+				CONTROLLER = {
+					OR = {
+						tag = ENG
+						is_puppet_of = ENG
+					}
+				}
+			}
 			# Iraq
-			custom_trigger_tooltip = {
-				tooltip = form_country_iraq_required_states_tt
-				676 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				675 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				291 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
+			wfc_st_controls_iraq = yes
 			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				292 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				679 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				678 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
+			wfc_st_controls_saudi_arabia = yes
 			293 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1015 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1016 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
@@ -462,6 +431,12 @@ focus_tree = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			659 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			992 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1014 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
@@ -494,35 +469,19 @@ focus_tree = {
 			}
 			is_puppet = no
 			# Iraq
-			custom_trigger_tooltip = {
-				tooltip = form_country_iraq_required_states_tt
-				676 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				675 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				291 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
+			wfc_st_controls_iraq = yes
 			# Saudi Arabia
-			custom_trigger_tooltip = {
-				tooltip = form_country_saudi_required_states_tt
-				292 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				679 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				678 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
+			wfc_st_controls_saudi_arabia = yes
 			293 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1015 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1016 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			has_army_manpower = {
@@ -542,6 +501,12 @@ focus_tree = {
 			659 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			992 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1014 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		completion_reward = {
 			if = {
@@ -556,6 +521,8 @@ focus_tree = {
 			add_state_claim = 659
 			add_state_claim = 183
 			add_state_claim = 906
+			add_state_claim = 1014
+			add_state_claim = 992
 			create_wargoal = {
 				target = ENG
 				type = take_claimed_state
@@ -666,6 +633,36 @@ focus_tree = {
 						}
 					}
 				}
+				1014 = {
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
+						}
+					}
+				}
+				992 = {
+					if = {
+						limit = {
+							NOT = {
+								is_controlled_by = ENG
+							}
+						}
+						ROOT = {
+							create_wargoal = {
+								target = PREV.OWNER
+								type = annex_everything
+							}
+						}
+					}
+				}
 			}
 		}
 		ai_will_do = {
@@ -741,6 +738,9 @@ focus_tree = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			291 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1010 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}

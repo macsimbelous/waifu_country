@@ -39,23 +39,12 @@ mms_category_reparations = {
 }
 
 mms_expansion_of_living_space_category = {
-	priority = 11
+	priority = 20
 	#icon = decision_generic_ignite_civil_war
 	picture = GFX_mms_workouts_shamiko_category
 	#visible_when_empty = yes
 	allowed = {
 		original_tag = MMS
-		always = no
-	}
-	visible = {
-		NOT = {
-			has_government = democratic
-		}
-	}
-	available = {
-		NOT = {
-			has_country_leader_with_trait = defeatist
-		}
 	}
 }
 

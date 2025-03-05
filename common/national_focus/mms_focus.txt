@@ -34,7 +34,7 @@ focus_tree = {
 	shortcut = {
 		name = wfc_political_effort
 		target = wfc_political_effort
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_economic_path_shortcut
@@ -54,7 +54,7 @@ focus_tree = {
 	shortcut = {
 		name = wfc_foreign_politica_shortcut
 		target = mms_expansion_of_living_space
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort
@@ -104,9 +104,15 @@ focus_tree = {
 			add_state_claim = 416
 			add_state_claim = 414
 			add_state_claim = 410
+			add_state_claim = 1000
 			#afg
 			add_state_claim = 415
 			add_state_claim = 267
+			add_state_claim = 1005
+			add_state_claim = 1006
+			add_state_claim = 1007
+			add_state_claim = 1008
+			add_state_claim = 1009
 		}
 		ai_will_do = {
 			factor = 10
@@ -139,55 +145,12 @@ focus_tree = {
 				NOT = {
 					has_war_with = AFG
 				}
-				# Afghanistan
-				custom_trigger_tooltip = {
-					tooltip = form_country_afghanistan_required_states_tt
-					controls_state = 415
-					controls_state = 267
-				}
+				wfc_st_controls_afghanistan = yes
 			}
 			has_civil_war = no
 		}
 		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = form_country_iran_required_states_tt
-				419 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				421 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				420 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				417 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				413 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				266 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				418 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				411 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				412 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				416 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				414 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				410 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
+			wfc_st_controls_iran = yes
 		}
 		completion_reward = {
 			declare_war_on = {
@@ -222,35 +185,12 @@ focus_tree = {
 				NOT = {
 					has_war_with = PER
 				}
-				# Iran
-				custom_trigger_tooltip = {
-					tooltip = form_country_iran_required_states_tt
-					controls_state = 419
-					controls_state = 421
-					controls_state = 420
-					controls_state = 417
-					controls_state = 413
-					controls_state = 266
-					controls_state = 418
-					controls_state = 411
-					controls_state = 412
-					controls_state = 416
-					controls_state = 414
-					controls_state = 410
-				}
+				wfc_st_controls_iran = yes
 			}
 			has_civil_war = no
 		}
 		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = form_country_afghanistan_required_states_tt
-				415 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				267 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
+			wfc_st_controls_afghanistan = yes
 		}
 		completion_reward = {
 			declare_war_on = {
@@ -318,145 +258,15 @@ focus_tree = {
 		cancelable = no
 		cancel_if_invalid = no
 		continue_if_invalid = yes
+		bypass = {
+			has_country_flag = mms_flag_colonization_per_and_afg
+		}
 		available = {
-			# Iran
-			custom_trigger_tooltip = {
-				tooltip = form_country_iran_required_states_tt
-				419 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				421 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				420 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				417 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				413 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				266 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				418 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				411 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				412 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				416 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				414 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				410 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
-			# Afghanistan
-			custom_trigger_tooltip = {
-				tooltip = form_country_afghanistan_required_states_tt
-				415 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-				267 = {
-					wfc_is_controlled_by_root_or_puppet = yes
-				}
-			}
+			wfc_st_controls_iran = yes
+			wfc_st_controls_afghanistan = yes
 		}
 		completion_reward = {
-			set_country_flag = mms_colonization_per_and_afg_flag
-			set_major = yes
-			hidden_effect = {
-				transfer_state = 415
-				transfer_state = 267
-				transfer_state = 419
-				transfer_state = 421
-				transfer_state = 413
-				transfer_state = 420
-				transfer_state = 417
-				transfer_state = 411
-				transfer_state = 266
-				transfer_state = 418
-				transfer_state = 416
-			}
-			412 = {
-				add_manpower = -1000000
-			}
-			custom_effect_tooltip = mms_colonization_per_and_afg_flag_tt
-			hidden_effect = {
-				415 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				267 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				419 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				421 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				413 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				420 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				417 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				411 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				266 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				418 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-				416 = {
-					add_manpower = 91000
-					add_core_of = MMS
-				}
-			}
-			if = {
-				limit = {
-					has_country_leader = {
-						character = MMS_yuuko_yoshida
-						ruling_only = yes
-					}
-				}
-				remove_country_leader_trait = wfc_half_breed
-				add_country_leader_trait = wfc_demon_lord
-				if = {
-					limit = {
-						has_power_balance = {
-							id = mms_balance_of_power
-						}
-					}
-					add_power_balance_value = {
-						id = mms_balance_of_power
-						value = -0.25
-					}
-				}
-			}
+			mms_se_colonization_per_and_afg = yes
 		}
 		ai_will_do = {
 			factor = 10
@@ -682,6 +492,9 @@ focus_tree = {
 			add_state_claim = 440
 			add_state_claim = 442
 			add_state_claim = 787
+			add_state_claim = 987
+			add_state_claim = 988
+			add_state_claim = 1012
 			declare_war_on = {
 				target = RAJ
 				type = puppet_wargoal_focus
@@ -743,6 +556,9 @@ focus_tree = {
 			add_state_claim = 440
 			add_state_claim = 442
 			add_state_claim = 787
+			add_state_claim = 987
+			add_state_claim = 988
+			add_state_claim = 1012
 			declare_war_on = {
 				target = PAK
 				type = annex_everything

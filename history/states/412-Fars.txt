@@ -34,17 +34,6 @@ state={
 			arms_factory = 2
 		}
 		add_core_of = MMS
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				arms_factory = 3
-				dockyard = 2
-				7982 = {
-					naval_base = 6
-					#supply_node = 1
-				}
-			}
-		}
 	}
 
 	provinces={
