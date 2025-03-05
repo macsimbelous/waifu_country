@@ -2235,10 +2235,19 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
-			has_tech = nuclear_reactor
+			#has_tech = nuclear_reactor
+			has_tech = commercial_nuclear_reactor_tech
+			any_owned_state = {
+				free_building_slots = {
+					building = commercial_nuclear_reactor
+					size > 0
+					include_locked = yes
+				}
+			}
 		}
 		completion_reward = {
-			wfc_add_nuclear_reactor_in_random_state = yes
+			#wfc_add_nuclear_reactor_in_random_state = yes
+			wfc_add_commercial_nuclear_reactor_in_random_state = yes
 			add_breakthrough_progress = {
 				specialization = specialization_nuclear
 				value = 0.25
