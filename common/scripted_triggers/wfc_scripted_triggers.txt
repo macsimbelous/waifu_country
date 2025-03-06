@@ -1028,5 +1028,14 @@ wfc_st_controls_iran = {
 		1000 = {
 			wfc_is_controlled_by_root_or_puppet = yes
 		}
+		1001 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1002 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		1004 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
 	}
 }

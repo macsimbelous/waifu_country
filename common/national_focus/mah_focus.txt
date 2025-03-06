@@ -18,32 +18,32 @@ focus_tree = {
 	shortcut = {
 		name = GER_military_doctrine_shortcut
 		target = wfc_smb_army
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_air_doctrine_shortcut
 		target = wfc_smb_air_force
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_naval_doctrine_shortcut
 		target = wfc_smb_navy
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = wfc_political_effort
 		target = wfc_political_effort
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = GER_economic_path_shortcut
 		target = wfc_industrial_effort
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	shortcut = {
 		name = wfc_foreign_politica_shortcut
 		target = mah_unification_of_the_middle_east
-		scroll_wheel_factor = 1.0
+		scroll_wheel_factor = 1
 	}
 	#shared_focus = wfc_army_effort
 	#shared_focus = wfc_aviation_effort
@@ -56,7 +56,7 @@ focus_tree = {
 	focus = {
 		id = mah_unification_of_the_middle_east
 		icon = GFX_focus_generic_home_defense
-		x = 39
+		x = 40
 		y = 0
 		cost = 5
 		search_filters = {
@@ -194,10 +194,315 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = mah_focus_IRQ_heavy_industry_investments
+		icon = GFX_focus_generic_industry_2
+		prerequisite = {
+			focus = mah_conquest_of_irq
+		}
+		x = -2
+		y = 1
+		relative_position_id = mah_conquest_of_irq
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+			wfc_st_controls_iraq = yes
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			random_state = {
+				limit = {
+					is_core_of = IRQ
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				prioritize = {
+					1011
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					is_core_of = IRQ
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				prioritize = {
+					291
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_focus_IRQ_purchase_foreign_equipment
+		icon = GFX_goal_generic_production2
+		prerequisite = {
+			focus = mah_focus_IRQ_heavy_industry_investments
+		}
+		#mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = mah_focus_IRQ_heavy_industry_investments
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_HISTORICAL
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRQ_purchase_foreign_equipment
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			random_state = {
+				limit = {
+					is_core_of = IRQ
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_focus_IRQ_found_southern_steel_plants
+		icon = GFX_focus_generic_steel
+		prerequisite = {
+			focus = mah_focus_IRQ_purchase_foreign_equipment
+		}
+		x = 0
+		y = 1
+		relative_position_id = mah_focus_IRQ_purchase_foreign_equipment
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+			1011 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_HISTORICAL
+		}
+		completion_reward = {
+			1011 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+			#custom_effect_tooltip = generic_skip_one_line_tt
+			#IRQ_agrarian_society_modifier_level_down = yes
+		}
+	}
+	focus = {
+		id = mah_focus_IRQ_found_the_state_company_for_iron_and_steel
+		icon = {
+			trigger = {
+				OR = {
+					has_cosmetic_tag = IRQ_kurdistan_tag
+					has_cosmetic_tag = greater_kurdistan
+				}
+			}
+			value = GFX_focus_IRQ_found_the_state_company_for_iron_and_steel_alt
+		}
+		icon = {
+			value = GFX_focus_IRQ_found_the_state_company_for_iron_and_steel
+		}
+		dynamic = yes
+		prerequisite = {
+			focus = mah_focus_IRQ_found_southern_steel_plants
+		}
+		x = 0
+		y = 1
+		relative_position_id = mah_focus_IRQ_found_southern_steel_plants
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+			1011 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		bypass = {
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_HISTORICAL
+		}
+		completion_reward = {
+			1011 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+			#custom_effect_tooltip = generic_skip_one_line_tt
+			#custom_effect_tooltip = available_industrial_concern
+			#show_ideas_tooltip = IRQ_state_company_for_iron_and_steel
+		}
+	}
+	focus = {
+		id = mah_focus_IRQ_construct_the_dukan_dam
+		icon = GFX_focus_generic_hydroelectric_energy
+		prerequisite = {
+			focus = mah_focus_IRQ_found_the_state_company_for_iron_and_steel
+		}
+		x = -2
+		y = 1
+		relative_position_id = mah_focus_IRQ_found_the_state_company_for_iron_and_steel
+		cost = 10
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+			676 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_HISTORICAL
+		}
+		completion_reward = {
+			676 = {
+				add_building_construction = {
+					type = dam
+					level = 1
+					instant_build = yes
+					province = {
+						id = 6826
+					}
+				}
+				custom_effect_tooltip = {
+					localization_key = building_state_modifier|dam
+					INDENT = ""
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_focus_IRQ_expand_oil_production
+		icon = GFX_focus_generic_resource_extraction
+		prerequisite = {
+			focus = mah_focus_IRQ_found_the_state_company_for_iron_and_steel
+		}
+		x = 0
+		y = 1
+		relative_position_id = mah_focus_IRQ_found_the_state_company_for_iron_and_steel
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			291 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			676 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = IRQ_expand_oil_production
+				bonus = 0.75
+				uses = 1
+				category = synth_resources
+			}
+			291 = {
+				add_resource = {
+					type = oil
+					amount = 10
+				}
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			676 = {
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}
+		}
+	}
+	focus = {
+		id = mah_focus_IRQ_export_infrastructure
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = {
+			focus = mah_focus_IRQ_expand_oil_production
+		}
+		x = 0
+		y = 1
+		relative_position_id = mah_focus_IRQ_expand_oil_production
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_ideas = IRQ_export_economy_idea
+			custom_effect_tooltip = generic_skip_one_line_tt
+			every_owned_state = {
+				limit = {
+					infrastructure < 5
+					is_controlled_by = ROOT
+				}
+				random_select_amount = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
 		id = mah_conquest_of_sau
 		icon = GFX_goal_generic_major_war
 		relative_position_id = mah_conquest_of_irq
-		x = 0
+		x = 1
 		y = 1
 		cost = 5
 		will_lead_to_war_with = SAU
@@ -699,7 +1004,7 @@ focus_tree = {
 	focus = {
 		id = mah_expanding_the_sphere_of_influence
 		icon = GFX_focus_generic_home_defense
-		x = 42
+		x = 44
 		y = 0
 		cost = 5
 		search_filters = {

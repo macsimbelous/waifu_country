@@ -2594,6 +2594,9 @@ mms_se_colonization_per_and_afg = {
 		transfer_state = 418
 		transfer_state = 416
 		transfer_state = 1000
+		transfer_state = 1001
+		transfer_state = 1002
+		transfer_state = 1004
 		transfer_state = 1005
 		transfer_state = 1006
 		transfer_state = 1007
@@ -2606,71 +2609,83 @@ mms_se_colonization_per_and_afg = {
 	custom_effect_tooltip = mms_colonization_per_and_afg_flag_tt
 	hidden_effect = {
 		415 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		267 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		419 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		421 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		413 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		420 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		417 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		411 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		266 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		418 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		416 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		1000 = {
-			add_manpower = 58823
+			add_manpower = 50000
+			add_core_of = MMS
+		}
+		1001 = {
+			add_manpower = 50000
+			add_core_of = MMS
+		}
+		1002 = {
+			add_manpower = 50000
+			add_core_of = MMS
+		}
+		1004 = {
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		1005 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		1006 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		1007 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		1008 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 		1009 = {
-			add_manpower = 58823
+			add_manpower = 50000
 			add_core_of = MMS
 		}
 	}

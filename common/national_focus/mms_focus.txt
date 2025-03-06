@@ -67,7 +67,7 @@ focus_tree = {
 	focus = {
 		id = mms_expansion_of_living_space
 		icon = GFX_focus_jap_strike_south
-		x = 50
+		x = 53
 		y = 0
 		cost = 5
 		search_filters = {
@@ -203,40 +203,143 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = mms_expansion_of_the_supply_network_in_afg
-		icon = GFX_goal_generic_construct_infrastructure
+		#INDUSTRIAL
+		id = mms_focus_PER_tehran_power_plant
+		icon = GFX_focus_ARG_develop_the_electricity_sector
 		prerequisite = {
-			focus = mms_attack_afg
+			focus = mms_attack_per
 		}
-		relative_position_id = mms_attack_afg
-		x = 1
+		x = -3
 		y = 1
-		cost = 5
+		relative_position_id = mms_attack_per
+		cost = 10
+		ai_will_do = {
+			factor = 15
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			controls_state = 266
+		}
+		completion_reward = {
+			add_ideas = PER_tehran_power_grid_idea
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			266 = {
+				#Tehran
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			add_tech_bonus = {
+				name = PER_tehran_power_grid_bonus
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+	focus = {
+		#INDUSTRIAL
+		id = mms_focus_PER_develop_oil_fields
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = {
+			focus = mms_attack_per
+		}
+		x = -1
+		y = 1
+		relative_position_id = mms_attack_per
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
-			#has_full_control_of_state = 415
-			controls_state = 415
-			controls_province = 1995
+			controls_state = 421
+			controls_state = 413
+			controls_state = 412
 		}
 		completion_reward = {
-			build_railway = {
-				level = 1
-				start_province = 7990
-				target_province = 1995
+			421 = {
+				add_resource = {
+					type = oil
+					amount = 25
+				}
 			}
-			415 = {
-				add_building_construction = {
-					type = supply_node
-					level = 1
-					province = 1995
-					instant_build = yes
+			413 = {
+				add_resource = {
+					type = oil
+					amount = 15
+				}
+			}
+			412 = {
+				add_resource = {
+					type = oil
+					amount = 18
 				}
 			}
 		}
+	}
+	focus = {
+		#DEMOCRATIC
+		id = mms_focus_PER_expand_oil_production
+		icon = GFX_focus_generic_resource_extraction
+		prerequisite = {
+			focus = mms_focus_PER_develop_oil_fields
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_PER_develop_oil_fields
+		cost = 10
+		available = {
+			controls_state = 411
+			controls_state = 412
+			controls_state = 413
+		}
+		bypass = {
+		}
+		allow_branch = {
+		}
 		ai_will_do = {
-			factor = 100
+			factor = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = yes
+				}
+			}
+			411 = {
+				add_resource = {
+					type = oil
+					amount = 6
+				}
+			}
+			412 = {
+				add_resource = {
+					type = oil
+					amount = 3
+				}
+			}
+			413 = {
+				add_resource = {
+					type = oil
+					amount = 5
+				}
+			}
 		}
 	}
 	focus = {
@@ -569,6 +672,394 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = mms_expansion_of_the_supply_network_in_afg
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = mms_attack_afg
+		}
+		relative_position_id = mms_attack_afg
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			#has_full_control_of_state = 415
+			controls_state = 415
+			controls_province = 1995
+		}
+		completion_reward = {
+			build_railway = {
+				level = 1
+				start_province = 7990
+				target_province = 1995
+			}
+			415 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 1995
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	focus = {
+		id = mms_focus_AFG_clear_malarial_swamps
+		icon = GFX_focus_AFG_anti_malaria
+		prerequisite = {
+			focus = mms_expansion_of_the_supply_network_in_afg
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_expansion_of_the_supply_network_in_afg
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			wfc_st_controls_afghanistan = yes
+			industrial_complex > 3
+			has_tech = excavation1
+		}
+		search_filters = {
+			FOCUS_FILTER_HISTORICAL
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_stability = 0.05
+			415 = {
+				add_extra_state_shared_building_slots = 3
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_AFG_qargha_dam
+		icon = GFX_focus_generic_hydroelectric_energy
+		prerequisite = {
+			focus = mms_focus_AFG_clear_malarial_swamps
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_AFG_clear_malarial_swamps
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			industrial_complex > 5
+			267 = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_HISTORICAL
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			267 = {
+				add_building_construction = {
+					type = dam
+					level = 1
+					instant_build = yes
+					province = {
+						id = 12769
+					}
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = building_state_modifier|dam
+				INDENT = ""
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_AFG_kajaki_dam
+		icon = {
+			trigger = {
+				OR = {
+					has_government = democratic
+					has_government = communism
+				}
+			}
+			value = GFX_focus_AFG_helmand_river_authority
+		}
+		icon = {
+			trigger = {
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+			value = GFX_focus_generic_electrification
+		}
+		prerequisite = {
+			focus = mms_focus_AFG_qargha_dam
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_AFG_qargha_dam
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			industrial_complex > 9
+			1009 = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_HISTORICAL
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			1009 = {
+				add_building_construction = {
+					type = dam
+					level = 1
+					instant_build = yes
+					province = {
+						id = 2078
+					}
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = building_state_modifier|dam
+				INDENT = ""
+			}
+			#custom_effect_tooltip = available_industrial_concern
+			#show_ideas_tooltip = AFG_hellmand_valley_authority_idea		
+			add_ideas = AFG_hellmand_altered_no_treaty
+			custom_effect_tooltip = AFG_kajaki_dam_tt
+			414 = {
+				OWNER = {
+					country_event = {
+						id = AFG_industrial_events.30
+						hours = 1
+					}
+					effect_tooltip = {
+						add_ideas = PER_hellmand_altered_no_treaty
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_AFG_iron_mines
+		icon = GFX_focus_generic_steel
+		prerequisite = {
+			focus = mms_focus_AFG_kajaki_dam
+		}
+		x = -1
+		y = 1
+		relative_position_id = mms_focus_AFG_kajaki_dam
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			1006 = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			1006 = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_AFG_chromite_mines
+		icon = GFX_focus_generic_chromium
+		prerequisite = {
+			focus = mms_focus_AFG_kajaki_dam
+		}
+		x = 1
+		y = 1
+		relative_position_id = mms_focus_AFG_kajaki_dam
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			1008 = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			1008 = {
+				add_resource = {
+					type = chromium
+					amount = 24
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					instant_build = yes
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_AFG_sugar_processing
+		icon = GFX_focus_AFG_sugar_factory
+		prerequisite = {
+			focus = mms_expansion_of_the_supply_network_in_afg
+		}
+		x = 2
+		y = 1
+		relative_position_id = mms_expansion_of_the_supply_network_in_afg
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			wfc_st_controls_afghanistan = yes
+		}
+		search_filters = {
+			FOCUS_FILTER_HISTORICAL
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			random_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					is_core_of = AFG
+					wfc_is_controlled_by_root_or_puppet = yes
+					#is_owned_and_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			#custom_effect_tooltip = available_industrial_concern
+			#show_ideas_tooltip = AFG_baghlan_sugar_factory_idea		
+			#alter_subsistence_economy_modifier_industrialize = yes
+		}
+	}
+	focus = {
+		id = mms_focus_AFG_fruit_packing
+		icon = GFX_focus_AFG_fruit_processing
+		prerequisite = {
+			focus = mms_focus_AFG_sugar_processing
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_AFG_sugar_processing
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		search_filters = {
+			FOCUS_FILTER_HISTORICAL
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = AFG_fruit_packing
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			random_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					is_core_of = AFG
+					wfc_is_controlled_by_root_or_puppet = yes
+					#is_owned_and_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			#alter_subsistence_economy_modifier_industrialize = yes
+		}
+	}
+	focus = {
+		id = mms_focus_AFG_expand_karakul_lambskin_industry
+		icon = GFX_focus_generic_sheep
+		prerequisite = {
+			focus = mms_focus_AFG_fruit_packing
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_AFG_fruit_packing
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		search_filters = {
+			FOCUS_FILTER_HISTORICAL
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			random_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					is_core_of = AFG
+					wfc_is_controlled_by_root_or_puppet = yes
+					#is_owned_and_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = AFG_expand_karakul_lambskin_industry
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			#alter_subsistence_economy_modifier_industrialize = yes
+		}
+	}
+	focus = {
 		id = mms_focus_modernize_steel_plant
 		icon = GFX_focus_generic_steel
 		x = 35
@@ -664,6 +1155,13 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		completion_reward = {
+			add_ideas = AFG_infrastructure_investment
+			add_tech_bonus = {
+				name = AFG_infrastructure_construction
+				bonus = 0.6
+				uses = 1
+				category = train_tech
+			}
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1
@@ -693,6 +1191,17 @@ focus_tree = {
 				level = 1
 				start_province = 7982
 				target_province = 10782
+			}
+			every_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					has_dynamic_modifier = {
+						modifier = AFG_economic_regionalism
+					}
+				}
+				remove_dynamic_modifier = {
+					modifier = AFG_economic_regionalism
+				}
 			}
 		}
 	}
@@ -1274,8 +1783,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = mms_focus_nuclear_reactor
-		icon = GFX_focus_wonderweapons
+		id = mms_focus_AFG_modern_economy
+		icon = GFX_focus_AFG_a_modern_economy
 		prerequisite = {
 			focus = mms_focus_tungsten_plant
 		}
@@ -1285,11 +1794,34 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = mms_focus_production_effort
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			industrial_complex > 19
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_ideas = AFG_emerging_economy
+			ETH_add_random_mil_factory_effect = yes
+		}
+	}
+	focus = {
+		id = mms_focus_nuclear_reactor
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = mms_focus_AFG_modern_economy
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_AFG_modern_economy
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		available_if_capitulated = yes
 		available = {
 			#has_tech = nuclear_reactor
 			has_tech = commercial_nuclear_reactor_tech
@@ -1418,6 +1950,28 @@ focus_tree = {
 					}
 				}
 			}
+		}
+	}
+	focus = {
+		#INDUSTRIAL
+		id = mms_focus_PER_oil_baron
+		icon = GFX_focus_PER_increase_oil_sales
+		prerequisite = {
+			focus = mms_focus_synthetic_refinery
+		}
+		x = 0
+		y = 1
+		relative_position_id = mms_focus_synthetic_refinery
+		cost = 5
+		ai_will_do = {
+			factor = 15
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_ideas = PER_oil_baron_idea
+			custom_effect_tooltip = CHL_skip_one_line_tt
 		}
 	}
 	focus = {
