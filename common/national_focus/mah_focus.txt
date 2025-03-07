@@ -499,10 +499,41 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = mah_conquest_of_kur
+		icon = GFX_goal_generic_major_war
+		relative_position_id = mah_conquest_of_irq
+		x = 0
+		y = 1
+		cost = 5
+		will_lead_to_war_with = KUR
+		prerequisite = {
+			focus = mah_conquest_of_irq
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			country_exists = KUR
+			NOT = {
+				is_in_faction_with = KUR
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = KUR
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
 		id = mah_conquest_of_sau
 		icon = GFX_goal_generic_major_war
 		relative_position_id = mah_conquest_of_irq
-		x = 1
+		x = 2
 		y = 1
 		cost = 5
 		will_lead_to_war_with = SAU

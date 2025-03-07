@@ -290,6 +290,109 @@ mah_crystal_empire_category = {
 			}
 		}
 	}
+	mah_conquest_of_kur_decision = {
+		icon = generic_ignite_civil_war
+		cost = 25
+		fire_only_once = yes
+		days_remove = 30
+		war_with_on_remove = KUR
+		visible = {
+			country_exists = KUR
+			KUR = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+			NOT = {
+				has_war_with = KUR
+			}
+		}
+		available = {
+			wfc_st_controls_saudi_arabia = yes
+			NOT = {
+				is_in_faction_with = KUR
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			hidden_effect = {
+				KUR = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = KUR
+				type = annex_everything
+			}
+		}
+	}
+	mah_conquest_of_asy_decision = {
+		icon = generic_ignite_civil_war
+		cost = 25
+		fire_only_once = yes
+		days_remove = 30
+		war_with_on_remove = ASY
+		visible = {
+			country_exists = ASY
+			ASY = {
+				NOT = {
+					OR = {
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+					}
+				}
+			}
+			NOT = {
+				has_war_with = ASY
+			}
+		}
+		available = {
+			NOT = {
+				is_in_faction_with = ASY
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			hidden_effect = {
+				ASY = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = ASY
+				type = annex_everything
+			}
+		}
+	}
 }
 
 mah_make_friends_with_shamiko_category = {
