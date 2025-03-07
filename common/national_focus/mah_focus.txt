@@ -188,6 +188,20 @@ focus_tree = {
 				target = IRQ
 				type = annex_everything
 			}
+			hidden_effect = {
+				if = {
+					limit = {
+						is_ai = yes
+					}
+					ENG = {
+						diplomatic_relation = {
+							country = IRQ
+							relation = guarantee
+							active = no
+						}
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 10
