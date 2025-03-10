@@ -992,6 +992,25 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	nec_castorice = {
+		name = nec_castorice
+		portraits = {
+			army = {
+				small = GFX_idea_nec_castorice
+				large = GFX_portrait_nec_castorice_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				
+			}
+			skill = 3
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		#name = generic_head_of_intelligence

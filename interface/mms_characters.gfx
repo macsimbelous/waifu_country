@@ -104,14 +104,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMS/Lucy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_mms_makina_hoshimura"
-		texturefile = "gfx/leaders/MMS/makina_hoshimura_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_mms_makina_hoshimura"
-		texturefile = "gfx/leaders/MMS/Makina_Hoshimura.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_mms_maou"
 		texturefile = "gfx/leaders/MMS/maou_idea.dds"
 	}
