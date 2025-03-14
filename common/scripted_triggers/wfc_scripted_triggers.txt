@@ -662,38 +662,34 @@ mah_st_form_crystal_empire = {
 	wfc_st_controls_iraq = yes
 	# Saudi Arabia
 	wfc_st_controls_saudi_arabia = yes
-	#controls_state = 656
 	656 = {
 		wfc_is_controlled_by_root_or_puppet = yes
 	}
-	#controls_state = 765
-	OR = {
-		765 = {
-			wfc_is_controlled_by_root_or_puppet = yes
-		}
-		controls_province = 8051
-		any_other_country = {
-			is_puppet_of = ROOT
-			controls_province = 8051
-		}
+	765 = {
+		wfc_is_controlled_by_root_or_puppet = yes
 	}
-	#controls_state = 658
 	658 = {
 		wfc_is_controlled_by_root_or_puppet = yes
 	}
-	#controls_state = 293
 	293 = {
 		wfc_is_controlled_by_root_or_puppet = yes
 	}
-	#controls_state = 659
 	659 = {
 		wfc_is_controlled_by_root_or_puppet = yes
 	}
-	#controls_state = 294
 	294 = {
 		wfc_is_controlled_by_root_or_puppet = yes
 	}
 	992 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	1015 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	1016 = {
+		wfc_is_controlled_by_root_or_puppet = yes
+	}
+	1013 = {
 		wfc_is_controlled_by_root_or_puppet = yes
 	}
 }

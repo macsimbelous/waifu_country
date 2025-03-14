@@ -105,6 +105,9 @@ focus_tree = {
 			add_state_claim = 414
 			add_state_claim = 410
 			add_state_claim = 1000
+			add_state_claim = 1001
+			add_state_claim = 1002
+			add_state_claim = 1004
 			#afg
 			add_state_claim = 415
 			add_state_claim = 267
@@ -131,7 +134,7 @@ focus_tree = {
 		relative_position_id = mms_expansion_of_living_space
 		x = -1
 		y = 1
-		cost = 10
+		cost = 15
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -164,14 +167,14 @@ focus_tree = {
 	}
 	focus = {
 		id = mms_attack_afg
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_afghanistan
 		prerequisite = {
 			focus = mms_expansion_of_living_space
 		}
 		relative_position_id = mms_expansion_of_living_space
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -687,6 +690,7 @@ focus_tree = {
 		available = {
 			#has_full_control_of_state = 415
 			controls_state = 415
+			controls_state = 1009
 			controls_province = 1995
 		}
 		completion_reward = {
@@ -797,6 +801,7 @@ focus_tree = {
 			}
 			value = GFX_focus_generic_electrification
 		}
+		dynamic = yes
 		prerequisite = {
 			focus = mms_focus_AFG_qargha_dam
 		}

@@ -1,25 +1,4 @@
 acw_concert_decisions = {
-	acw_create_idols_agency = {
-		icon = decision_category_generic_propaganda
-		ai_will_do = {
-			factor = 1
-		}
-		fire_only_once = yes
-		cost = 50
-		days_remove = 30
-		available = {
-			num_of_civilian_factories_available_for_projects > 4
-		}
-		modifier = {
-			civilian_factory_use = 5
-		}
-		remove_effect = {
-			country_event = acw_event.10
-			add_ideas = acw_idols_agency_idea
-			custom_effect_tooltip = acw_idols_agency_tt
-			add_stability = 0.05
-		}
-	}
 	acw_world_tour = {
 		icon = decision_category_generic_propaganda
 		ai_will_do = {

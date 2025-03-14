@@ -1331,7 +1331,7 @@
 	}
 	focus = {
 		id = trp_attack_bra
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_brazil
 		prerequisite = {
 			focus = trp_conquest_of_south_america
 		}
@@ -1397,7 +1397,7 @@
 	}
 	focus = {
 		id = trp_attack_urg
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_uruguay
 		prerequisite = {
 			focus = trp_attack_bra
 		}
@@ -1522,7 +1522,7 @@
 	}
 	focus = {
 		id = trp_attack_bol
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_bolivia
 		prerequisite = {
 			focus = trp_attack_bra
 		}
@@ -1646,7 +1646,7 @@
 	}
 	focus = {
 		id = trp_attack_ven
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_venezuela
 		prerequisite = {
 			focus = trp_conquest_of_south_america
 		}
@@ -1676,7 +1676,7 @@
 	}
 	focus = {
 		id = trp_attack_col
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_colombia
 		prerequisite = {
 			focus = trp_attack_ven
 		}
@@ -1710,7 +1710,7 @@
 	}
 	focus = {
 		id = trp_attack_ecu
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_ecuador
 		prerequisite = {
 			focus = trp_attack_col
 		}
@@ -1760,7 +1760,7 @@
 	}
 	focus = {
 		id = trp_attack_pru
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_peru
 		prerequisite = {
 			focus = trp_attack_ecu
 		}
@@ -1804,7 +1804,7 @@
 	}
 	focus = {
 		id = trp_attack_par
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_paraguay
 		prerequisite = {
 			focus = trp_attack_bra
 		}
@@ -1944,7 +1944,7 @@
 	}
 	focus = {
 		id = trp_attack_arg
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_argentina
 		prerequisite = {
 			focus = trp_attack_par
 		}
@@ -2028,7 +2028,7 @@
 	}
 	focus = {
 		id = trp_attack_chl
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_chile
 		prerequisite = {
 			focus = trp_attack_arg
 		}

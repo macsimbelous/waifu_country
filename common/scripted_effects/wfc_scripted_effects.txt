@@ -2227,6 +2227,9 @@ mah_se_form_crystal_empire = {
 		transfer_state = 454
 		transfer_state = 455
 		transfer_state = 992
+		transfer_state = 1015
+		transfer_state = 1016
+		transfer_state = 1013
 		if = {
 			limit = {
 				906 = {
@@ -2337,9 +2340,7 @@ mah_se_form_crystal_empire = {
 	}
 	if = {
 		limit = {
-			906 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			controls_state = 906
 		}
 		906 = {
 			#add_core_of = ROOT
@@ -2348,9 +2349,7 @@ mah_se_form_crystal_empire = {
 	}
 	if = {
 		limit = {
-			183 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			controls_state = 183
 		}
 		183 = {
 			#add_core_of = ROOT
@@ -2359,11 +2358,36 @@ mah_se_form_crystal_empire = {
 	}
 	if = {
 		limit = {
-			1014 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			controls_state = 1013
+		}
+		1013 = {
+			#add_core_of = ROOT
+			wfc_coring_state = yes
+		}
+	}
+	if = {
+		limit = {
+			controls_state = 1014
 		}
 		1014 = {
+			#add_core_of = ROOT
+			wfc_coring_state = yes
+		}
+	}
+	if = {
+		limit = {
+			controls_state = 1015
+		}
+		1015 = {
+			#add_core_of = ROOT
+			wfc_coring_state = yes
+		}
+	}
+	if = {
+		limit = {
+			controls_state = 1016
+		}
+		1016 = {
 			#add_core_of = ROOT
 			wfc_coring_state = yes
 		}

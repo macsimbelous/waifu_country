@@ -160,7 +160,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mah_conquest_of_irq
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_iraq
 		relative_position_id = mah_production_effort
 		x = 0
 		y = 1
@@ -514,7 +514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mah_conquest_of_kur
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_kurdistan
 		relative_position_id = mah_conquest_of_irq
 		x = 0
 		y = 1
@@ -801,7 +801,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mah_focus_attack_british_colonies_in_the_middle_east
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_attack_britain
 		relative_position_id = mah_conquest_of_yem_and_oma
 		x = 1
 		y = 1

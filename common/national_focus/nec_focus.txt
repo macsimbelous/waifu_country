@@ -1029,7 +1029,7 @@ focus_tree = {
 	}
 	focus = {
 		id = nec_focus_conquest_of_afg
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_afghanistan
 		relative_position_id = nec_focus_conquest_of_pak
 		x = -1
 		y = 1
@@ -1102,7 +1102,7 @@ focus_tree = {
 	}
 	focus = {
 		id = nec_focus_conquest_of_per
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_iran
 		relative_position_id = nec_focus_conquest_of_pak
 		x = 0
 		y = 2
