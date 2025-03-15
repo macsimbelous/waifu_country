@@ -1177,11 +1177,51 @@ focus_tree = {
 			#Animeland
 			custom_trigger_tooltip = {
 				tooltip = acw_form_animeland_required_states_tt
-				controls_state = 76
-				controls_state = 82
-				controls_state = 83
-				controls_state = 84
-				controls_state = 764
+				76 = {
+					CONTROLLER = {
+						OR = {
+							tag = ROOT
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				82 = {
+					CONTROLLER = {
+						OR = {
+							tag = ROOT
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				83 = {
+					CONTROLLER = {
+						OR = {
+							tag = ROOT
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				84 = {
+					CONTROLLER = {
+						OR = {
+							tag = ROOT
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
+				764 = {
+					CONTROLLER = {
+						OR = {
+							tag = ROOT
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+				}
 			}
 			if = {
 				limit = {
