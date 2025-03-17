@@ -85,15 +85,15 @@ characters = {
 			}
 		}
 	}
-	nec_omicilia = {
-		name = nec_omicilia
+	nec_castorice = {
+		name = nec_castorice
 		portraits = {
 			army = {
-				small = GFX_idea_nec_omicilia
-				large = GFX_portrait_nec_omicilia_civilian
+				small = GFX_idea_nec_castorice
+				large = GFX_portrait_nec_castorice_army
 			}
 			civilian = {
-				large = GFX_portrait_nec_omicilia_civilian
+				large = GFX_portrait_nec_castorice_army
 			}
 		}
 		country_leader = {
@@ -107,24 +107,15 @@ characters = {
 			}
 			expire = "1999.1.1"
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = nec_omicilia
-			cost = 150
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = nec_omicilia
-						ruling_only = yes
-					}
-				}
-			}
+		corps_commander = {
 			traits = {
-				staunch_monarchist
+				brilliant_strategist
 			}
-			ai_will_do = {
-				factor = 0
-			}
+			skill = 3
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	nec_aya_rindou = {
@@ -162,6 +153,32 @@ characters = {
 			}
 			traits = {
 				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	nec_omicilia = {
+		name = nec_omicilia
+		portraits = {
+			army = {
+				small = GFX_idea_nec_omicilia
+				large = GFX_portrait_nec_omicilia_civilian
+			}
+			civilian = {
+				large = GFX_portrait_nec_omicilia_civilian
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_omicilia
+			cost = 150
+			traits = {
+				staunch_monarchist
+			}
+			modifier = {
+				political_power_factor = 0.1
 			}
 			ai_will_do = {
 				factor = 0
@@ -990,25 +1007,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-	}
-	nec_castorice = {
-		name = nec_castorice
-		portraits = {
-			army = {
-				small = GFX_idea_nec_castorice
-				large = GFX_portrait_nec_castorice_army
-			}
-		}
-		corps_commander = {
-			traits = {
-				
-			}
-			skill = 3
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
 		}
 	}
 	nec_kuniko_utagawa= {
