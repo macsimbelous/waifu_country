@@ -407,6 +407,9 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
  meh_border_conflict_escalate_to_war_desc: "Skirmishes in the disputed region have been going on for some time now, and it looks like the conflict is going to escalate. We must prepare for the next step and see this conflict as preparation for a large-scale war."
  meh_border_conflict_back_out_of_conflict: "Отступить"
  meh_border_conflict_back_out_of_conflict_desc: "The risk of the conflict spinning out of control and escalating into a large-scale war is too high. We must minimize casualties and send diplomats to probe the ground."
+#political_actions
+ meh_decision_coup_2b: "§RCoup 2B§!"
+ meh_decision_coup_2b_desc: "2B will become the leader of the country."
 
 #MMS
 #mms_workouts_shamiko_category

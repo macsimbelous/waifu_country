@@ -2495,36 +2495,26 @@ shared_focus = {
 				elections_allowed = no
 			}
 		}
-		# if = {
-		# 	limit = {
-		# 		has_completed_focus = wfc_nationalism_focus
-		# 	}
-		# 	country_event = {
-		# 		id = political.18
-		# 	}
-		# }
-		# else_if = {
-		# 	limit = {
-		# 		has_completed_focus = wfc_internationalism_focus
-		# 	}
-		# 	country_event = {
-		# 		id = political.19
-		# 	}
-		# }
-		# else_if = {
-		# 	limit = {
-		# 		has_completed_focus = wfc_focus_democracy
-		# 	}
-		# 	country_event = {
-		# 		id = political.20
-		# 	}
-		# }
-		# else = {
-		# 	set_politics = {
-		# 		ruling_party = neutrality
-		# 		elections_allowed = no
-		# 	}
-		# }
+		hidden_effect = {
+			if = {
+				limit = {
+					has_idea = fascist_assault_divisions
+				}
+				remove_ideas = fascist_assault_divisions
+			}
+			if = {
+				limit = {
+					has_idea = communist_partisans_recruiting
+				}
+				remove_ideas = communist_partisans_recruiting
+			}
+			if = {
+				limit = {
+					has_idea = democratic_opposition_voicing_protests
+				}
+				remove_ideas = democratic_opposition_voicing_protests
+			}
+		}
 	}
 	ai_will_do = {
 		factor = 100

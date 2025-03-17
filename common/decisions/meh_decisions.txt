@@ -1104,6 +1104,64 @@ meh_cyborgization_category = {
 }
 
 political_actions = {
+	meh_decision_coup_2b = {
+		cost = 100
+		fire_only_once = yes
+		allowed = {
+			original_tag = MEH
+		}
+		available = {
+			has_government = fascism
+			MEH_2B = {
+				is_field_marshal = yes
+			}
+		}
+		complete_effect = {
+			kill_country_leader = yes
+			add_country_leader_role = {
+				character = MEH_2B
+				promote_leader = yes
+				country_leader = {
+					ideology = fascism_ideology
+					expire = "1965.1.1.1"
+					traits = {
+						wfc_android
+						wfc_tyan_militarist
+						wfc_patron_of_the_military_industrial_complex
+						wfc_dictator
+						wfc_dislikes_usa
+					}
+				}
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_idea = fascist_assault_divisions
+					}
+					remove_ideas = fascist_assault_divisions
+				}
+				if = {
+					limit = {
+						has_idea = communist_partisans_recruiting
+					}
+					remove_ideas = communist_partisans_recruiting
+				}
+				if = {
+					limit = {
+						has_idea = democratic_opposition_voicing_protests
+					}
+					remove_ideas = democratic_opposition_voicing_protests
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -100
+		}
+	}
 	meh_retire_leader = {
 		name = wfc_retire_leader
 		allowed = {
