@@ -1170,6 +1170,24 @@ characters = {
 			coordination_skill = 1
 		}
 	}
+	trp_touya_fuji = {
+		name = trp_touya_fuji
+		portraits = {
+			army = {
+				small = GFX_idea_trp_touya_fuji
+				large = GFX_portrait_trp_touya_fuji_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#Заглушки
 	TRP_aoi_futaba2 = {
 		name = TRP_aoi_futaba

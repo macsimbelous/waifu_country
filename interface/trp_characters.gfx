@@ -407,6 +407,14 @@ spriteTypes = {
 		name = "GFX_portrait_trp_coco_navy"
 		texturefile = "gfx/leaders/TRP/coco_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_trp_touya_fuji"
+		texturefile = "gfx/leaders/TRP/touya_fuji_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_trp_touya_fuji_army"
+		texturefile = "gfx/leaders/TRP/touya_fuji_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_trp_land_01_small"
