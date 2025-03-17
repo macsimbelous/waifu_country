@@ -1011,6 +1011,24 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	nec_kuniko_utagawa= {
+		name = nec_kuniko_utagawa
+		portraits = {
+			army = {
+				small = GFX_idea_nec_kuniko_utagawa
+				large = GFX_portrait_nec_kuniko_utagawa_army
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 	#Заглушки
 	nec_head_int = {
 		#name = generic_head_of_intelligence

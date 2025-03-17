@@ -303,6 +303,14 @@ spriteTypes = {
 		name = "GFX_portrait_nec_castorice_army"
 		texturefile = "gfx/leaders/NEC/castorice_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_nec_kuniko_utagawa"
+		texturefile = "gfx/leaders/NEC/kuniko_utagawa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nec_kuniko_utagawa_army"
+		texturefile = "gfx/leaders/NEC/kuniko_utagawa_army.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_nec_land_01_small"
