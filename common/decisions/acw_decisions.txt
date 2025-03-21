@@ -1082,12 +1082,15 @@ acw_faction_category = {
 				}
 				is_in_faction_with = ROOT
 				is_faction_leader = no
-				is_major = no
 				is_ai = yes
 			}
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 30
+			#num_of_civilian_factories_available_for_projects > 30
+			ic_ratio = {
+				tag = FROM
+				ratio > 2
+			}
 			FROM = {
 				has_capitulated = no
 			}
@@ -1137,6 +1140,10 @@ acw_faction_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
+				num_of_civilian_factories > 30
+				add = 1
+			}
+			modifier = {
 				num_of_civilian_factories > 50
 				add = 1
 			}
@@ -1164,7 +1171,11 @@ acw_faction_category = {
 			}
 		}
 		available = {
-			num_of_civilian_factories_available_for_projects > 30
+			#num_of_civilian_factories_available_for_projects > 30
+			ic_ratio = {
+				tag = FROM
+				ratio > 2
+			}
 			FROM = {
 				has_capitulated = no
 			}
@@ -1192,6 +1203,10 @@ acw_faction_category = {
 		}
 		ai_will_do = {
 			base = 0
+			modifier = {
+				num_of_civilian_factories > 30
+				add = 1
+			}
 			modifier = {
 				num_of_civilian_factories > 50
 				add = 1
