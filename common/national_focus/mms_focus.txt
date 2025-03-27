@@ -439,6 +439,195 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = mms_focus_anti_nec_defensive_lines
+		prerequisite = {
+			focus = mms_expansion_of_the_supply_network
+		}
+		icon = GFX_goal_generic_construct_military
+		relative_position_id = mms_expansion_of_the_supply_network
+		x = -5
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			build_railway = {
+				level = 2
+				path = {
+					10737
+					10781
+					12653
+					7519
+				}
+			}
+			1005 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 7519
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_tech = radio_detection
+						}
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			custom_effect_tooltip = acw_defensive_lines_tt
+			every_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					any_neighbor_state = {
+						owner = {
+							OR = {
+								original_tag = NEC
+								is_puppet_of = NEC
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = mms_focus_attack_nec
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		prerequisite = {
+			focus = mms_focus_anti_nec_defensive_lines
+		}
+		relative_position_id = mms_focus_anti_nec_defensive_lines
+		x = -1
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		will_lead_to_war_with = NEC
+		available = {
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = NEC
+			}
+			NEC = {
+				exists = yes
+				NOT = {
+					is_puppet_of = ROOT
+				}
+			}
+			has_army_manpower = {
+				size > 999999
+			}
+		}
+		bypass = {
+			has_war_with = NEC
+		}
+		completion_reward = {
+			NEC = {
+				every_owned_state = {
+					limit = {
+						is_core_of = NEC
+					}
+					add_claim_by = ROOT
+				}
+			}
+			declare_war_on = {
+				target = NEC
+				type = annex_everything
+			}
+		}
+		bypass_effect = {
+			NEC = {
+				every_owned_state = {
+					limit = {
+						is_core_of = NEC
+					}
+					add_claim_by = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				add = -1
+			}
+		}
+	}
+	focus = {
+		id = mms_focus_alliance_with_nec
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = {
+			focus = mms_focus_anti_nec_defensive_lines
+		}
+		x = 1
+		y = 1
+		relative_position_id = mms_focus_anti_nec_defensive_lines
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			is_faction_leader = yes
+			is_in_faction_with = NEC
+		}
+		available = {
+			NOT = {
+				has_war_with = NEC
+			}
+			is_subject = no
+			is_in_faction = no
+			NEC = {
+				has_same_ideology = yes
+				is_subject = no
+				is_in_faction = no
+			}
+		}
+		completion_reward = {
+			create_faction = mms_faction_unholy_alliance
+			NEC = {
+				country_event = generic.5
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
 		id = mms_attack_mah
 		icon = GFX_goal_generic_major_war
 		prerequisite = {
@@ -491,7 +680,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1
 		}
 	}
 	focus = {
@@ -553,7 +742,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
 	}
 	focus = {
@@ -607,7 +796,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
 	}
 	focus = {
@@ -671,7 +860,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
 	}
 	focus = {

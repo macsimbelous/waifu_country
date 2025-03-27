@@ -392,6 +392,12 @@
  mms_attack_raj: "Захватить §R[RAJ.GetName]§!"
  mms_attack_pak: "Захватить §R[PAK.GetName]§!"
  mms_expansion_of_the_supply_network_in_afg: "Железная дорога в [415.GetName]"
+ mms_focus_anti_nec_defensive_lines: "Укрепление границы с нежитью"
+ mms_focus_anti_nec_defensive_lines_desc: "Вероятность столкновения с нежитью в будущем высока и нам нужно заблаговременно укрепить наши границы с ними."
+ mms_focus_attack_nec: "Уничтожение нежити"
+ mms_focus_attack_nec_desc: "Нет необходимости ждать агрессии нежити мы сами очистим мир от это мерзости."
+ mms_focus_alliance_with_nec: "Нечестивый союз"
+ mms_focus_alliance_with_nec_desc: "Ещё вчера союз с нежитью казался немыслимым но выгоды от этого союза перевешивают все недостатки."
  #Indastry
   mms_focus_modernize_steel_plant: "Больше стали"
   mms_focus_infrastructure_effort: "$AFG_infrastructure_construction$"

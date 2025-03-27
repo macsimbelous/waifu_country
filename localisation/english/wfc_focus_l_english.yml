@@ -395,6 +395,12 @@
  mms_attack_raj: "Obtain §R[RAJ.GetName]§!"
  mms_attack_pak: "Obtain §R[PAK.GetName]§!"
  mms_expansion_of_the_supply_network_in_afg: "Railroad at [415.GetName]"
+ mms_focus_anti_nec_defensive_lines: "Strengthening the border with the undead"
+ mms_focus_anti_nec_defensive_lines_desc: "The likelihood of encountering the undead in the future is high and we need to fortify our borders with them well in advance."
+ mms_focus_attack_nec: "Destroying the undead"
+ mms_focus_attack_nec_desc: "There is no need to wait for undead aggression, we will cleanse the world of this abomination ourselves."
+ mms_focus_alliance_with_nec: "Unholy Alliance"
+ mms_focus_alliance_with_nec_desc: "Even yesterday, an alliance with the undead seemed unthinkable, but the benefits of this alliance outweigh all the drawbacks."
  #industry
   mms_focus_modernize_steel_plant: "More Steel"
   mms_focus_infrastructure_effort: "$AFG_infrastructure_construction$"

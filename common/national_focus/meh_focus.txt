@@ -2042,8 +2042,15 @@ focus_tree = {
 			is_in_faction_with = NEC
 		}
 		available = {
+			NOT = {
+				has_war_with = NEC
+			}
+			is_subject = no
+			is_in_faction = no
 			NEC = {
 				has_same_ideology = yes
+				is_subject = no
+				is_in_faction = no
 			}
 		}
 		completion_reward = {
