@@ -65,17 +65,12 @@ country_event = {
 		MMS_02 = {
 			remove_unit_leader_role = yes
 		}
-		MMS_serafall_leviathan = {
-			add_trait = {
-				slot = political_advisor
-				trait = wfc_silent_workhorse
-			}
-		}
 		remove_power_balance = {
 			id = mms_balance_of_power
 		}
+		wfc_se_remove_from_serafall_and_vignette = yes
 		add_stability = 0.15
-		#add_political_power = -50
+		add_political_power = -50
 	}
 }
 
@@ -125,8 +120,9 @@ country_event = {
 		remove_power_balance = {
 			id = mms_balance_of_power
 		}
+		wfc_se_remove_from_serafall_and_vignette = yes
 		add_war_support = 0.15
-		#add_political_power = -50
+		add_political_power = -50
 	}
 }
 
@@ -154,8 +150,8 @@ country_event = {
 		remove_power_balance = {
 			id = mms_balance_of_power
 		}
+		wfc_se_remove_from_serafall_and_vignette = yes
 		add_stability = 0.15
-		add_political_power = -50
 	}
 }
 
@@ -195,16 +191,7 @@ country_event = {
 		remove_power_balance = {
 			id = mms_balance_of_power
 		}
+		wfc_se_remove_from_serafall_and_vignette = yes
 		add_war_support = 0.15
-		add_political_power = -50
-		# if = {
-		# 	limit = {
-		# 		is_in_faction_with = MAH
-		# 		MAH = {
-		# 			is_faction_leader = yes
-		# 		}
-		# 	}
-		# 	leave_faction = yes
-		# }
 	}
 }

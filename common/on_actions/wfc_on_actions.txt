@@ -1226,6 +1226,7 @@ on_actions = {
 				remove_power_balance = {
 					id = mms_balance_of_power
 				}
+				wfc_se_remove_from_serafall_and_vignette = yes
 			}
 			if = {
 				limit = {
@@ -1256,6 +1257,24 @@ on_actions = {
 				}
 				remove_power_balance = {
 					id = mms_balance_of_power
+				}
+				wfc_se_remove_from_serafall_and_vignette = yes
+			}
+		}
+	}
+	on_monthly_MAH = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_government = fascism
+					}
+					has_power_balance = {
+						id = mah_balance_of_power
+					}
+				}
+				remove_power_balance = {
+					id = mah_balance_of_power
 				}
 			}
 		}

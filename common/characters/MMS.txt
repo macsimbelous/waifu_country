@@ -758,11 +758,12 @@ characters = {
 					has_government = communism
 				}
 			}
-			modifier = {
-				power_balance_weekly = 0.01
-			}
+			# modifier = {
+			# 	power_balance_weekly = 0.01
+			# }
 			traits = {
 				wfc_war_industrialist
+				wfc_trait_02_supporter
 			}
 			ai_will_do = {
 				factor = 1
@@ -1262,10 +1263,11 @@ characters = {
 			}
 			traits = {
 				staunch_monarchist
+				wfc_trait_yuuko_yoshida_supporter
 			}
 			modifier = {
 				political_power_factor = 0.1
-				power_balance_weekly = -0.01
+				#power_balance_weekly = -0.01
 			}
 			ai_will_do = {
 				factor = 0

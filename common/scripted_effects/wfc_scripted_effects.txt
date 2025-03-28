@@ -3057,3 +3057,22 @@ d_add_armada = {
 	d_add_dd = yes
 	d_add_dd = yes
 }
+
+wfc_se_remove_from_serafall_and_vignette = {
+	MMS_vignette_april_tsukinose = {
+		remove_trait = {
+			slot = political_advisor
+			trait = wfc_trait_02_supporter
+		}
+	}
+	MMS_serafall_leviathan = {
+		remove_trait = {
+			slot = political_advisor
+			trait = wfc_trait_yuuko_yoshida_supporter
+		}
+		add_trait = {
+			slot = political_advisor
+			trait = wfc_silent_workhorse
+		}
+	}
+}
