@@ -134,7 +134,7 @@ focus_tree = {
 		relative_position_id = mms_expansion_of_living_space
 		x = -1
 		y = 1
-		cost = 15
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}

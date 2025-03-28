@@ -1,21 +1,21 @@
-
-state={
-	id=410
-	name="STATE_410"
+state = {
+	id = 410
+	name = "STATE_410"
 	manpower = 1341053
-	
 	state_category = large_city
-
-	history={
+	history = {
 		owner = MMS
 		victory_points = {
-			10782 1 
+			10782
+			1
 		}
 		victory_points = {
-			4891 10
+			4891
+			10
 		}
 		victory_points = {
-			2039 5
+			2039
+			5
 		}
 		buildings = {
 			infrastructure = 2
@@ -24,6 +24,8 @@ state={
 			#dockyard = 3
 			10782 = {
 				supply_node = 1
+			}
+			2039 = {
 				land_facility = 1
 			}
 		}
@@ -35,9 +37,13 @@ state={
 			}
 		}
 	}
-
-	provinces={
-		1889 2039 2070 4891 10782 13082 
+	provinces = {
+		1889
+		2039
+		2070
+		4891
+		10782
+		13082
 	}
-	local_supplies=10.0
+	local_supplies = 10
 }

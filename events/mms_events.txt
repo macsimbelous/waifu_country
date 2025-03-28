@@ -75,7 +75,7 @@ country_event = {
 			id = mms_balance_of_power
 		}
 		add_stability = 0.15
-		add_political_power = -50
+		#add_political_power = -50
 	}
 }
 
@@ -126,7 +126,7 @@ country_event = {
 			id = mms_balance_of_power
 		}
 		add_war_support = 0.15
-		add_political_power = -50
+		#add_political_power = -50
 	}
 }
 
