@@ -321,6 +321,8 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   hen_decision_create_provinces_vin_tt: "Будет сформирована колония §Y[VIN.GetName]§!"
   hen_decision_create_provinces_sia: "Сформировать колонию §Y[SIA.GetName]§!"
   hen_decision_create_provinces_sia_tt: "Будет сформирована колония §Y[SIA.GetName]§!"
+  hen_decision_propose_a_peace_treaty_to_the_sov: "Предложить мирное соглашение СССР"
+  hen_decision_propose_a_peace_treaty_to_the_sov_desc: "Если советский союз примет наше предложение мы получим во владение все контролируемые нами территории."
  #hen_decision_rebellion_in_jap
   hen_decision_rebellion_in_jap: "Организовать мятеж извращенцев в регионе §Y[FROM.GetName]§!"
 

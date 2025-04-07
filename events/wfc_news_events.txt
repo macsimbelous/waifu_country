@@ -261,6 +261,17 @@ news_event = {
 		}
 	}
 }
+news_event = {
+	id = wfc_news.15
+	title = wfc_news.11.t
+	desc = wfc_news.15.d
+	picture = GFX_news_event_generic_sign_treaty1
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = wfc_news.11.a
+	}
+}
 
 #Захваты городов за Мехалэнд
 # The Fall of Washington

@@ -29,3 +29,19 @@ hen_event.1.a:0 "We use them to destabilize our enemies."
  hen_event.5.a: "This is our internal business!"
  hen_event.5.b: "Relations with neighbors are more important."
  hen_event.5.c: "Give your uncle an accident."
+
+#hen_event.6
+ hen_event.6.t: "Peace offering"
+ hen_event.6.d: "Hentalia offered to make peace with the main condition that all the territories under its control be given to it."
+ hen_event.6.a: "We don't have a choice."
+ hen_event.6.b: "We will stand to the end"
+
+#hen_event.7
+ hen_event.7.t: "The Soviets agreed"
+ hen_event.7.d: "The Soviet Union agreed to our peace terms."
+ hen_event.7.a: "That's great."
+
+#hen_event.8
+ hen_event.8.t: "The Soviet Union refused"
+ hen_event.8.d: "The Soviet Union did not accept our peace terms."
+ hen_event.8.a: "Each successive sentence will be worse"

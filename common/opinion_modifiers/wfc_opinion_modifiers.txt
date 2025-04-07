@@ -7,5 +7,8 @@ opinion_modifiers = {
 		value = -50
 		months = 48
 	}
+	mah_om_dislike_of_monsters = { value = -15 }
+	#mah_om_dislike_of_the_undead = { value = -10 }
+	mah_om_dislike_of_perverts = { value = -10 }
 }
 

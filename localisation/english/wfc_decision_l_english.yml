@@ -323,6 +323,8 @@ acw_sheryl_nome_tour_decision.t:0 "Tour of Sheryl Nome"
   hen_decision_create_provinces_vin_tt: "The colony of §Y[VIN.GetName]§! will be formed"
   hen_decision_create_provinces_sia: "Form the colony §Y[SIA.GetName]§!"
   hen_decision_create_provinces_sia_tt: "The colony of §Y[SIA.GetName]§! will be formed"
+  hen_decision_propose_a_peace_treaty_to_the_sov: "Propose a peace treaty to the USSR"
+  hen_decision_propose_a_peace_treaty_to_the_sov_desc: "If the Soviet Union accepts our offer, we will take possession of all the territories we control."
  #hen_decision_rebellion_in_jap
   hen_decision_rebellion_in_jap: "Organize a rebellion of perverts in the §Y[FROM.GetName]§! region."
 

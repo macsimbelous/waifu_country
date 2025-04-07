@@ -337,4 +337,14 @@ create_equipment_variant = {
 	}
 	#icon = "gfx/interface/technologies/improved_light_tank.dds"
 }
+
+add_opinion_modifier = {
+	target = MMS
+	modifier = mah_om_dislike_of_monsters
+}
+add_opinion_modifier = {
+	target = HEN
+	modifier = mah_om_dislike_of_perverts
+}
+
 wfc_se_set_shared_military_branch_defaults = yes

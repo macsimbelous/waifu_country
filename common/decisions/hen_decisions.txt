@@ -319,36 +319,7 @@ hen_category_colonies = {
 			}
 		}
 		available = {
-			563 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			561 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			657 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			560 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			409 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			408 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			562 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			874 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			822 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			637 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			wfc_st_controls_fer = yes
 		}
 		ai_will_do = {
 			factor = 5
@@ -382,16 +353,10 @@ hen_category_colonies = {
 					autonomy_state = wfc_autonomy_province
 				}
 				var:country_to_initiate = {
-					transfer_state = 563
-					transfer_state = 561
-					transfer_state = 657
-					transfer_state = 560
-					transfer_state = 409
 					transfer_state = 408
-					transfer_state = 562
-					transfer_state = 874
-					transfer_state = 822
-					transfer_state = 637
+					set_capital = {
+						state = 408
+					}
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -402,10 +367,46 @@ hen_category_colonies = {
 					}
 					hen_change_country_leader = yes
 				}
+				every_state = {
+					limit = {
+						OR = {
+							state = 563
+							state = 561
+							state = 657
+							state = 560
+							state = 409
+							state = 562
+							state = 874
+							state = 822
+							state = 637
+						}
+					}
+					if = {
+						limit = {
+							wfc_is_owned_by_root_or_puppet = yes
+						}
+						transfer_state_to = var:country_to_initiate
+					}
+					else = {
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
+					}
+				}
 				if = {
 					limit = {
 						875 = {
 							is_controlled_by_ROOT_or_subject = yes
+						}
+					}
+					875 = {
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
+					}
+				}
+				else_if = {
+					limit = {
+						875 = {
+							wfc_is_owned_by_root_or_puppet = yes
 						}
 					}
 					var:country_to_initiate = {
@@ -418,7 +419,7 @@ hen_category_colonies = {
 				remove_core_of = SOV
 				remove_core_of = FER
 			}
-			transfer_state = 655
+			#transfer_state = 655
 		}
 	}
 	hen_decision_create_provinces_yak = {
@@ -434,18 +435,7 @@ hen_category_colonies = {
 			}
 		}
 		available = {
-			876 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			877 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			574 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			644 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			wfc_st_controls_yak = yes
 		}
 		ai_will_do = {
 			factor = 5
@@ -479,10 +469,13 @@ hen_category_colonies = {
 					autonomy_state = wfc_autonomy_province
 				}
 				var:country_to_initiate = {
-					transfer_state = 876
-					transfer_state = 877
+					#transfer_state = 876
+					#transfer_state = 877
 					transfer_state = 574
-					transfer_state = 644
+					#transfer_state = 644
+					set_capital = {
+						state = 574
+					}
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -492,6 +485,25 @@ hen_category_colonies = {
 						remove_claim_by = ROOT
 					}
 					hen_change_country_leader = yes
+				}
+				every_state = {
+					limit = {
+						OR = {
+							state = 876
+							state = 877
+							state = 644
+						}
+					}
+					if = {
+						limit = {
+							wfc_is_owned_by_root_or_puppet = yes
+						}
+						transfer_state_to = var:country_to_initiate
+					}
+					else = {
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
+					}
 				}
 			}
 		}
@@ -509,33 +521,7 @@ hen_category_colonies = {
 			}
 		}
 		available = {
-			516 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			576 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			568 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			567 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			878 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			575 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			566 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			564 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			565 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			wfc_st_controls_sib = yes
 		}
 		ai_will_do = {
 			factor = 5
@@ -569,15 +555,18 @@ hen_category_colonies = {
 					autonomy_state = wfc_autonomy_province
 				}
 				var:country_to_initiate = {
-					transfer_state = 516
-					transfer_state = 576
-					transfer_state = 568
+					#transfer_state = 516
+					#transfer_state = 576
+					#transfer_state = 568
 					transfer_state = 567
-					transfer_state = 878
-					transfer_state = 575
-					transfer_state = 566
-					transfer_state = 564
-					transfer_state = 565
+					#transfer_state = 878
+					#transfer_state = 575
+					#transfer_state = 566
+					#transfer_state = 564
+					#transfer_state = 565
+					set_capital = {
+						state = 567
+					}
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -587,6 +576,30 @@ hen_category_colonies = {
 						remove_claim_by = ROOT
 					}
 					hen_change_country_leader = yes
+				}
+				every_state = {
+					limit = {
+						OR = {
+							state = 516
+							state = 576
+							state = 568
+							state = 878
+							state = 575
+							state = 566
+							state = 564
+							state = 565
+						}
+					}
+					if = {
+						limit = {
+							wfc_is_owned_by_root_or_puppet = yes
+						}
+						transfer_state_to = var:country_to_initiate
+					}
+					else = {
+						add_contested_owner = var:country_to_initiate
+						set_state_controller_to = var:country_to_initiate
+					}
 				}
 			}
 		}
@@ -1476,6 +1489,42 @@ hen_category_colonies = {
 					}
 					hen_change_country_leader = yes
 				}
+			}
+		}
+	}
+	hen_decision_propose_a_peace_treaty_to_the_sov = {
+		icon = decision_eng_trade_unions_support
+		cost = 25
+		fire_only_once = no
+		priority = 2
+		days_re_enable = 90
+		visible = {
+			has_war_with = SOV
+		}
+		available = {
+			wfc_st_controls_fer = yes
+			wfc_st_controls_yak = yes
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+			}
+			SOV = {
+				OR = {
+					is_faction_leader = yes
+					is_in_faction = no
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				wfc_st_controls_sib = yes
+				factor = 100
+			}
+		}
+		complete_effect = {
+			SOV = {
+				country_event = hen_event.6
 			}
 		}
 	}

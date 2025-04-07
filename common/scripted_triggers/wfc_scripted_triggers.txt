@@ -1075,3 +1075,90 @@ wfc_st_controls_iran = {
 		}
 	}
 }
+
+wfc_st_controls_fer = {
+	custom_trigger_tooltip = {
+		tooltip = wfc_tt_controls_fer
+		563 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		561 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		657 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		560 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		409 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		408 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		562 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		874 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		822 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		637 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+}
+
+wfc_st_controls_yak = {
+	custom_trigger_tooltip = {
+		tooltip = wfc_tt_controls_yak
+		876 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		877 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		574 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		644 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+}
+
+wfc_st_controls_sib = {
+	custom_trigger_tooltip = {
+		tooltip = wfc_tt_controls_sib
+		516 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		576 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		568 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		567 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		878 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		575 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		566 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		564 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+		565 = {
+			wfc_is_controlled_by_root_or_puppet = yes
+		}
+	}
+}
