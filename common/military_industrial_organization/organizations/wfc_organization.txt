@@ -407,7 +407,7 @@ meh_organization_mythra_motors = {
 #MAH
 mah_organization_armored_car = {
 	include = generic_armored_car_organization
-	#name = generic_submarine_organization
+	name = generic_armored_car_organization
 	#icon = GFX_idea_hen_futabu
 	allowed = {
 		original_tag = MAH
@@ -420,9 +420,65 @@ mah_organization_armored_car = {
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
 		}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
 		equipment_bonus = {
 			armor_value = 0.05
 			defense = 0.05
+			build_cost_ic = -0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_assembly_line_1
+		name = wfc_mio_trait_assembly_line_1
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		special_trait_background = yes
+		position = {
+			x = 0
+			y = 0
+		}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_assembly_line_2
+		name = wfc_mio_trait_assembly_line_2
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		special_trait_background = yes
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = wfc_mio_trait_assembly_line_1
+		all_parents = {
+			wfc_mio_trait_assembly_line_1
+		}
+		available = {
+			has_mio_size > 4
+		}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_cost_optimization
+		name = wfc_mio_trait_cost_optimization
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		special_trait_background = yes
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = wfc_mio_trait_assembly_line_2
+		all_parents = {
+			wfc_mio_trait_assembly_line_2
+		}
+		available = {
+			has_mio_size > 9
+		}
+		equipment_bonus = {
 			build_cost_ic = -0.05
 		}
 	}
@@ -535,9 +591,6 @@ wfc_generic_medium_tank_organization = {
 		all_parents = {
 			wfc_mio_trait_assembly_line_1
 		}
-		available = {
-			has_mio_size > 4
-		}
 		production_bonus = {
 			production_capacity_factor = 0.05
 		}
@@ -555,9 +608,6 @@ wfc_generic_medium_tank_organization = {
 		all_parents = {
 			wfc_mio_trait_assembly_line_2
 		}
-		available = {
-			has_mio_size > 9
-		}
 		equipment_bonus = {
 			build_cost_ic = -0.05
 		}
@@ -566,7 +616,7 @@ wfc_generic_medium_tank_organization = {
 
 wfc_generic_helicopter_organization = {
 	include = generic_helicopter_organization
-	#name = generic_submarine_organization
+	name = generic_helicopter_organization
 	#icon = GFX_idea_hen_futabu
 	allowed = {
 		OR = {
@@ -586,6 +636,66 @@ wfc_generic_helicopter_organization = {
 		name = generic_mio_initial_trait_helicopter_manufacturer
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_assembly_line_1
+		name = wfc_mio_trait_assembly_line_1
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		#special_trait_background = yes
+		relative_position_id = generic_mio_trait_mass_production_certification
+		all_parents = {
+			generic_mio_trait_mass_production_certification
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_assembly_line_2
+		name = wfc_mio_trait_assembly_line_2
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		#special_trait_background = yes
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = wfc_mio_trait_assembly_line_1
+		all_parents = {
+			wfc_mio_trait_assembly_line_1
+		}
+		available = {
+			has_mio_size > 4
+		}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+	}
+	add_trait = {
+		token = wfc_mio_trait_cost_optimization
+		name = wfc_mio_trait_cost_optimization
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		#special_trait_background = yes
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = wfc_mio_trait_assembly_line_2
+		all_parents = {
+			wfc_mio_trait_assembly_line_2
+		}
+		available = {
+			has_mio_size > 9
 		}
 		equipment_bonus = {
 			build_cost_ic = -0.05
