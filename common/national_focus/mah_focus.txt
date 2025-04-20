@@ -218,7 +218,7 @@ focus_tree = {
 		relative_position_id = mah_conquest_of_irq
 		cost = 5
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 		available = {
 			wfc_st_controls_iraq = yes
@@ -281,7 +281,7 @@ focus_tree = {
 		relative_position_id = mah_focus_IRQ_heavy_industry_investments
 		cost = 5
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -324,7 +324,7 @@ focus_tree = {
 		relative_position_id = mah_focus_IRQ_purchase_foreign_equipment
 		cost = 5
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 		available = {
 			1011 = {
@@ -369,7 +369,7 @@ focus_tree = {
 		relative_position_id = mah_focus_IRQ_found_southern_steel_plants
 		cost = 5
 		ai_will_do = {
-			base = 1
+			base = 10
 		}
 		available = {
 			1011 = {
@@ -490,7 +490,7 @@ focus_tree = {
 		relative_position_id = mah_focus_IRQ_expand_oil_production
 		cost = 5
 		ai_will_do = {
-			base = 1
+			base = 0
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -639,7 +639,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 5
-		will_lead_to_war_with = OMA
+		#will_lead_to_war_with = OMA
 		will_lead_to_war_with = YEM
 		prerequisite = {
 			focus = mah_expand_supply_to_sau
@@ -650,20 +650,20 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			NOT = {
-				is_in_faction_with = OMA
+				#is_in_faction_with = OMA
 				is_in_faction_with = YEM
 			}
 			wfc_st_controls_saudi_arabia = yes
 		}
 		completion_reward = {
-			add_state_claim = 294
-			add_state_claim = 1015
-			add_state_claim = 1016
-			add_state_claim = 1013
-			create_wargoal = {
-				target = OMA
-				type = annex_everything
-			}
+			#add_state_claim = 294
+			#add_state_claim = 1015
+			#add_state_claim = 1016
+			#add_state_claim = 1013
+			# create_wargoal = {
+			# 	target = OMA
+			# 	type = annex_everything
+			# }
 			add_state_claim = 293
 			if = {
 				limit = {
@@ -760,15 +760,15 @@ focus_tree = {
 			293 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
-			294 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			1015 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			1016 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			# 294 = {
+			# 	wfc_is_controlled_by_root_or_puppet = yes
+			# }
+			# 1015 = {
+			# 	wfc_is_controlled_by_root_or_puppet = yes
+			# }
+			# 1016 = {
+			# 	wfc_is_controlled_by_root_or_puppet = yes
+			# }
 		}
 		bypass = {
 			656 = {
@@ -787,6 +787,18 @@ focus_tree = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			1014 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1015 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1016 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1013 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
@@ -825,15 +837,15 @@ focus_tree = {
 			293 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
-			294 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			1015 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
-			1016 = {
-				wfc_is_controlled_by_root_or_puppet = yes
-			}
+			# 294 = {
+			# 	wfc_is_controlled_by_root_or_puppet = yes
+			# }
+			# 1015 = {
+			# 	wfc_is_controlled_by_root_or_puppet = yes
+			# }
+			# 1016 = {
+			# 	wfc_is_controlled_by_root_or_puppet = yes
+			# }
 			has_army_manpower = {
 				size > 499999
 			}
@@ -857,6 +869,18 @@ focus_tree = {
 			1014 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			294 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1015 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1016 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1013 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		completion_reward = {
 			if = {
@@ -876,6 +900,14 @@ focus_tree = {
 			create_wargoal = {
 				target = ENG
 				type = take_claimed_state
+			}
+			add_state_claim = 294
+			add_state_claim = 1015
+			add_state_claim = 1016
+			add_state_claim = 1013
+			create_wargoal = {
+				target = OMA
+				type = annex_everything
 			}
 			hidden_effect = {
 				656 = {

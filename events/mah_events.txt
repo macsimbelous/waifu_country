@@ -643,6 +643,10 @@ country_event = {
 			transfer_state = 659
 			transfer_state = 992
 			transfer_state = 1014
+			transfer_state = 294
+			transfer_state = 1013
+			transfer_state = 1015
+			transfer_state = 1016
 			country_event = mah_event.9
 		}
 	}
