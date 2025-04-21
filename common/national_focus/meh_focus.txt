@@ -1272,7 +1272,7 @@ focus_tree = {
 				has_government = democratic
 			}
 		}
-		x = 11
+		x = 12
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
@@ -1367,7 +1367,7 @@ focus_tree = {
 	}
 	focus = {
 		id = meh_revolution_in_usa
-		icon = GFX_focus_generic_strike_at_democracy3
+		icon = GFX_focus_generic_attack_usa
 		prerequisite = {
 			focus = meh_join_comintern
 		}
@@ -1385,6 +1385,102 @@ focus_tree = {
 		completion_reward = {
 			declare_war_on = {
 				target = USA
+				type = puppet_wargoal_focus
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_focus_revolution_in_eng
+		icon = GFX_focus_attack_britain
+		prerequisite = {
+			focus = meh_revolution_in_usa
+		}
+		x = -2
+		y = 1
+		relative_position_id = meh_revolution_in_usa
+		cost = 5
+		will_lead_to_war_with = ENG
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			NOT = {
+				ENG = {
+					has_government = communism
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = ENG
+				type = puppet_wargoal_focus
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_focus_revolution_in_ger
+		icon = GFX_focus_attack_germany
+		prerequisite = {
+			focus = meh_revolution_in_usa
+		}
+		x = 0
+		y = 1
+		relative_position_id = meh_revolution_in_usa
+		cost = 5
+		will_lead_to_war_with = GER
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			NOT = {
+				GER = {
+					has_government = communism
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = GER
+				type = puppet_wargoal_focus
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = meh_focus_revolution_in_jap
+		icon = GFX_focus_attack_japan
+		prerequisite = {
+			focus = meh_revolution_in_usa
+		}
+		x = 2
+		y = 1
+		relative_position_id = meh_revolution_in_usa
+		cost = 5
+		will_lead_to_war_with = JAP
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			is_puppet = no
+			NOT = {
+				JAP = {
+					has_government = communism
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = JAP
 				type = puppet_wargoal_focus
 			}
 		}
@@ -1438,14 +1534,6 @@ focus_tree = {
 		#will_lead_to_war_with = GER
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-		}
-		bypass = {
-			USA = {
-				OR = {
-					exists = no
-					is_puppet_of = ROOT
-				}
-			}
 		}
 		available = {
 			is_puppet = no
@@ -2071,7 +2159,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = meh_exterminatus_focus
 		}
-		x = 14
+		x = 15
 		y = 1
 		relative_position_id = meh_upgrade_ai
 		cost = 5
