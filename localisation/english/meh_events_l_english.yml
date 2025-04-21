@@ -36,6 +36,12 @@ meh_event.1.a:0 "Retribution is inevitable!"
  meh_event.2.a:0 "Don't break us!"
  meh_event.2.b:0 "We don't have a choice."
 
+#meh_event.3
+ meh_event.3.t: "A proposal for the sale of Baja California"
+ meh_event.3.d: "Mechaland's diplomats handed us an offer to sell Baja California to Mechaland, they also hinted that they would settle the matter by force if we refused."
+ meh_event.3.a: "We don't have a choice."
+ meh_event.3.b: "Don't break us!"
+
 #meh_border_conflict
  meh_border_conflict.1.t: "Mehaland's provocation at our borders."
  meh_border_conflict.1.desc: "During the demarcation work on the border between us and Mechaland, a working group was sent to check the demarcation markers. While approaching the border, the working group was fired upon by a Mechaland post. \n\nWe have handed in an official protest note, but the Mechaland ambassador claims that our working group was trying to expand the border and mark more territory as their own.\n\nThe Mechaland representatives have assured us that they respect the border, but will not allow any “manipulation” of the actual demarcation line and will respond with force to any attempts to violate it. This means that we are essentially prevented from moving freely within our territory in the area."

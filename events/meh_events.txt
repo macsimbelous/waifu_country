@@ -60,6 +60,60 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = meh_event.3
+	title = meh_event.3.t
+	desc = meh_event.3.d
+	#picture = GFX_meh_event_01
+	is_triggered_only = yes
+	option = {
+		name = meh_event.3.a
+		ai_chance = {
+			base = 1
+			modifier = {
+				MEH = {
+					has_opinion = {
+						target = MEX
+						value > 49
+					}
+				}
+				add = 9
+			}
+		}
+		MEH = {
+			transfer_state = 484
+			add_political_power = -300
+		}
+		add_political_power = 300
+		277 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = land_facility
+				instant_build = yes
+				level = 1
+				province = 7913
+			}
+		}
+	}
+	option = {
+		name = meh_event.3.b
+		ai_chance = {
+			base = 1
+		}
+		MEH = {
+			add_state_claim = 484
+			declare_war_on = {
+				target = MEX
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+}
+
 #meh_border_conflict
 add_namespace = meh_border_conflict
 #initial border incident against Soviet Union
@@ -188,3 +242,4 @@ country_event = {
 		name = meh_border_conflict.6.a
 	}
 }
+

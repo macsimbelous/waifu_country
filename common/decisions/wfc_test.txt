@@ -615,4 +615,22 @@ wfc_test_category = {
 			}
 		}
 	}
+	wfc_test_relation = {
+		fire_only_once = no
+		cost = 0
+		visible = {
+			tag = MEH
+		}
+		available = {
+			MEX = {
+				strength_ratio = {
+					tag = MEH
+					ratio < 1
+				}
+			}
+		}
+		complete_effect = {
+			country_event = meh_event.3
+		}
+	}
 }
