@@ -1365,4 +1365,26 @@ characters = {
 			}
 		}
 	}
+	meh_makina_agatsuma = {
+		name = meh_makina_agatsuma
+		portraits = {
+			army = {
+				small = GFX_idea_meh_makina_agatsuma
+				large = GFX_portrait_meh_makina_agatsuma_army
+			}
+			civilian = {
+				large = GFX_portrait_meh_makina_agatsuma_civilian
+			}
+		}
+		corps_commander = {
+			traits = {
+				swamp_fox
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
 }

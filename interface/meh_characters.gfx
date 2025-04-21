@@ -447,6 +447,18 @@ spriteTypes = {
 		name = "GFX_idea_meh_tratte_gotel"
 		texturefile = "gfx/leaders/MEH/tratte_gotel_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_meh_makina_agatsuma_civilian"
+		texturefile = "gfx/leaders/MEH/makina_agatsuma_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_meh_makina_agatsuma_army"
+		texturefile = "gfx/leaders/MEH/makina_agatsuma_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_meh_makina_agatsuma"
+		texturefile = "gfx/leaders/MEH/makina_agatsuma_idea.dds"
+	}
 	#generic
 	spriteType = {
 		name = "GFX_portrait_meh_land_01_small"
