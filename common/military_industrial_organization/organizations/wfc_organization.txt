@@ -591,6 +591,9 @@ wfc_generic_medium_tank_organization = {
 		all_parents = {
 			wfc_mio_trait_assembly_line_1
 		}
+		available = {
+			has_mio_size > 4
+		}
 		production_bonus = {
 			production_capacity_factor = 0.05
 		}
@@ -607,6 +610,9 @@ wfc_generic_medium_tank_organization = {
 		relative_position_id = wfc_mio_trait_assembly_line_2
 		all_parents = {
 			wfc_mio_trait_assembly_line_2
+		}
+		available = {
+			has_mio_size > 9
 		}
 		equipment_bonus = {
 			build_cost_ic = -0.05
@@ -674,9 +680,6 @@ wfc_generic_helicopter_organization = {
 		all_parents = {
 			wfc_mio_trait_assembly_line_1
 		}
-		available = {
-			has_mio_size > 4
-		}
 		production_bonus = {
 			production_capacity_factor = 0.05
 		}
@@ -693,9 +696,6 @@ wfc_generic_helicopter_organization = {
 		relative_position_id = wfc_mio_trait_assembly_line_2
 		all_parents = {
 			wfc_mio_trait_assembly_line_2
-		}
-		available = {
-			has_mio_size > 9
 		}
 		equipment_bonus = {
 			build_cost_ic = -0.05
