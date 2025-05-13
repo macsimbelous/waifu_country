@@ -422,7 +422,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Alexandra_Frolova
 			ledger = air
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = MEH
 			}
@@ -765,7 +765,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Elizabeth
 			ledger = army
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = MEH
 			}
@@ -1010,7 +1010,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Kongou_ARP
 			ledger = navy
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = MEH
 			}

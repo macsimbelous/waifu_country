@@ -786,7 +786,7 @@ characters = {
 			slot = theorist
 			idea_token = MMS_satanichia_mcdowell_kurumizawa
 			ledger = air
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = MMS
 			}
@@ -874,7 +874,7 @@ characters = {
 			slot = theorist
 			idea_token = MMS_heine
 			ledger = army
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = MMS
 			}
@@ -1048,7 +1048,7 @@ characters = {
 			slot = theorist
 			idea_token = MMS_yamato_wg
 			ledger = navy
-			cost = 150
+			cost = 100
 			traits = {
 				naval_theorist
 			}

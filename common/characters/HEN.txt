@@ -274,7 +274,7 @@ characters = {
 			slot = theorist
 			idea_token = HEN_Mari_Setogaya
 			ledger = air
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = HEN
 			}
@@ -417,7 +417,7 @@ characters = {
 			slot = theorist
 			idea_token = HEN_Igawa_Asagi
 			ledger = army
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = HEN
 			}
@@ -1137,7 +1137,7 @@ characters = {
 			slot = theorist
 			idea_token = hen_aya_itou
 			ledger = navy
-			cost = 150
+			cost = 100
 			traits = {
 				naval_theorist
 			}

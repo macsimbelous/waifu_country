@@ -260,7 +260,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = TRP_felix_argyle
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = TRP
 			}
@@ -648,7 +648,7 @@ characters = {
 			slot = theorist
 			ledger = air
 			idea_token = TRP_ritsu_souma
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = TRP
 			}
@@ -922,7 +922,7 @@ characters = {
 			slot = theorist
 			ledger = navy
 			idea_token = TRP_russell
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = TRP
 			}

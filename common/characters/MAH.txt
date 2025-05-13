@@ -637,7 +637,7 @@ characters = {
 			slot = theorist
 			idea_token = MAH_frill
 			ledger = air
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = MAH
 			}
@@ -763,7 +763,7 @@ characters = {
 			slot = theorist
 			idea_token = MAH_nagisa_misumi
 			ledger = army
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = MAH
 			}
@@ -1104,7 +1104,7 @@ characters = {
 			slot = theorist
 			idea_token = MAH_akane_isshiki
 			ledger = navy
-			cost = 150
+			cost = 100
 			allowed = {
 				original_tag = MAH
 			}
