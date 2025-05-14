@@ -3483,16 +3483,19 @@ shared_focus = {
 			uses = 1
 			category = ss_tech
 		}
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.25
+		}
 		if = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			set_technology = {
-				cruiser_submarines = 1
-			}
+			add_ideas = cruiser_submarine_specialization_mtg
 		}
 		else = {
-			navy_experience = 50
+			#navy_experience = 50
+			add_ideas = cruiser_submarine_specialization
 		}
 	}
 }
@@ -3528,18 +3531,89 @@ shared_focus = {
 			uses = 1
 			category = ss_tech
 		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.25
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
 		if = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
-			set_technology = {
-				midget_submarines = 1
-				popup = no
-			}
+			add_ideas = midget_submarine_specialization_mtg
 		}
 		else = {
-			navy_experience = 50
+			add_ideas = midget_submarine_specialization
 		}
+	}
+}
+
+shared_focus = {
+	id = wfc_smb_wolfpack_tactics
+	#id = GER_wolfpack_tactics
+	icon = GFX_goal_generic_wolf_pack
+	prerequisite = {
+		focus = wfc_smb_cruiser_subs
+		focus = wfc_smb_midget_subs
+	}
+	x = 0
+	y = 2
+	relative_position_id = wfc_smb_raiding_fleet
+	cost = 5
+	available = {
+		has_war = yes
+	}
+	search_filters = {
+		#FOCUS_FILTER_HISTORICAL
+		FOCUS_FILTER_MILITARY_CHARACTER
+	}
+	completion_reward = {
+		add_doctrine_cost_reduction = {
+			name = GER_wolfpack_tactics
+			cost_reduction = 0.25
+			uses = 1
+			category = trade_interdiction_tree
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+		if = {
+			limit = {
+				has_character = HEN_Kaname
+				HEN_Kaname = {
+					is_unit_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					HEN_Kaname = {
+						NOT = {
+							has_trait = bold
+						}
+					}
+				}
+				add_trait = {
+					character = HEN_Kaname
+					trait = bold
+				}
+			}
+			else_if = {
+				limit = {
+					HEN_Kaname = {
+						NOT = {
+							has_trait = spotter
+						}
+					}
+				}
+				add_trait = {
+					character = HEN_Kaname
+					trait = spotter
+				}
+			}
+		}
+		add_ideas = GER_rudeltaktik_ns
+		custom_effect_tooltip = generic_skip_one_line_tt
+		#custom_effect_tooltip = available_theorist
+		#show_ideas_tooltip = alfred_saalwachter
 	}
 }
 
