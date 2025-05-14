@@ -66,6 +66,12 @@ focus_tree = {
 				remove_idea = meh_ai
 				add_idea = meh_ai_2
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_special_project_speed_factor = 0.05
+				tooltip = special_project_speed_factor_tt
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -740,6 +746,10 @@ focus_tree = {
 				improved_heavy_battery = 1
 				advanced_dp_light_battery = 1
 			}
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.25
+			}
 			# Submarines #
 			create_equipment_variant = {
 				name = "Salmon Class"				# represents Salmon and Sargo classes
@@ -1066,6 +1076,12 @@ focus_tree = {
 				uses = 1
 				category = rocketry
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_sp_tag_rocket_speed_factor = 0.15
+				tooltip = sp_tag_rocket_speed_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -1173,6 +1189,38 @@ focus_tree = {
 				bonus = 1
 				category = nuclear
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_production_speed_nuclear_facility_factor = 0.15
+				tooltip = production_speed_nuclear_facility_factor_tt
+			}
+			add_to_variable = {
+				GER_wunderwaffen_production_speed_nuclear_reactor_factor = 0.1
+				tooltip = production_speed_nuclear_reactor_factor_tt
+			}
+			if = {
+				limit = {
+					NOT = {
+						is_special_project_completed = sp:sp_nuclear_reactor
+					}
+				}
+				add_to_variable = {
+					GER_wunderwaffen_sp_nuclear_reactor_speed_factor = 0.1
+					tooltip = sp_nuclear_reactor_speed_factor_tt
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						is_special_project_completed = sp:sp_commercial_nuclear_reactor
+					}
+				}
+				add_to_variable = {
+					GER_wunderwaffen_sp_commercial_nuclear_reactor_speed_factor = 0.1
+					tooltip = sp_commercial_nuclear_reactor_speed_factor_tt
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -1243,6 +1291,16 @@ focus_tree = {
 			add_breakthrough_progress = {
 				specialization = specialization_land
 				value = 0.25
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_special_project_speed_factor = 0.05
+				tooltip = special_project_speed_factor_tt
+			}
+			add_to_variable = {
+				GER_wunderwaffen_production_speed_facility_factor = 0.05
+				tooltip = production_speed_facility_factor_tt
 			}
 		}
 		ai_will_do = {

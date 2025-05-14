@@ -2605,7 +2605,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			navy_experience = 25
+			navy_experience = 50
 			set_technology = {
 				popup = no
 				basic_naval_mines = 1
@@ -2620,6 +2620,10 @@ focus_tree = {
 				basic_depth_charges = 1
 				coastal_defense_ships = 1
 				basic_light_battery = 1
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.25
 			}
 			# Submarines #
 			create_equipment_variant = {
@@ -2902,6 +2906,13 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = acw_minprom_idea
 			set_country_flag = acw_minprom_flag
+						custom_effect_tooltip = generic_skip_one_line_tt
+			
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = { 
+				GER_wunderwaffen_production_speed_facility_factor = 0.1
+				tooltip = production_speed_facility_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -2920,6 +2931,13 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = acw_minscience_idea
 			add_research_slot = 1
+						custom_effect_tooltip = generic_skip_one_line_tt
+			
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = { 
+				GER_wunderwaffen_special_project_speed_factor = 0.05
+				tooltip = special_project_speed_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -3076,6 +3094,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_research_slot = 1
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_special_project_speed_factor = 0.025
+				tooltip = special_project_speed_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -3103,6 +3126,12 @@ focus_tree = {
 			add_breakthrough_progress = {
 				specialization = specialization_air
 				value = 0.25
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_sp_tag_rocket_speed_factor = 0.15
+				tooltip = sp_tag_rocket_speed_factor_tt
 			}
 		}
 		ai_will_do = {
@@ -3134,6 +3163,38 @@ focus_tree = {
 				ahead_reduction = 2
 				category = nuclear
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_production_speed_nuclear_facility_factor = 0.15
+				tooltip = production_speed_nuclear_facility_factor_tt
+			}
+			add_to_variable = {
+				GER_wunderwaffen_production_speed_nuclear_reactor_factor = 0.1
+				tooltip = production_speed_nuclear_reactor_factor_tt
+			}
+			if = {
+				limit = {
+					NOT = {
+						is_special_project_completed = sp:sp_nuclear_reactor
+					}
+				}
+				add_to_variable = {
+					GER_wunderwaffen_sp_nuclear_reactor_speed_factor = 0.1
+					tooltip = sp_nuclear_reactor_speed_factor_tt
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						is_special_project_completed = sp:sp_commercial_nuclear_reactor
+					}
+				}
+				add_to_variable = {
+					GER_wunderwaffen_sp_commercial_nuclear_reactor_speed_factor = 0.1
+					tooltip = sp_commercial_nuclear_reactor_speed_factor_tt
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
@@ -3159,6 +3220,11 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 				category = electronics
+			}
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_special_project_speed_factor = 0.025
+				tooltip = special_project_speed_factor_tt
 			}
 		}
 		ai_will_do = {
@@ -3233,6 +3299,16 @@ focus_tree = {
 			add_breakthrough_progress = {
 				specialization = specialization_land
 				value = 0.25
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			GER_add_or_modify_wunderwaffen = yes
+			add_to_variable = {
+				GER_wunderwaffen_special_project_speed_factor = 0.05
+				tooltip = special_project_speed_factor_tt
+			}
+			add_to_variable = {
+				GER_wunderwaffen_production_speed_facility_factor = 0.1
+				tooltip = production_speed_facility_factor_tt
 			}
 		}
 		ai_will_do = {
