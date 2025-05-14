@@ -2163,6 +2163,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		available = {
+			has_resources_in_country = {
+				resource = oil
+				amount > 350
+			}
+		}
 		completion_reward = {
 			add_ideas = PER_oil_baron_idea
 			custom_effect_tooltip = CHL_skip_one_line_tt
