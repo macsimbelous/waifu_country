@@ -135,39 +135,31 @@ ideas = {
 				experience_loss_factor = -0.05
 			}
 		}
+		mms_idea_hellmand_altered_no_treaty = {
+			allowed = {
+				tag = MMS
+			}
+			removal_cost = -1
+			picture = AFG_helmand_no_treaty
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = -0.15
+			}
+		}
+		mms_idea_oil_baron = {
+			allowed = {
+				original_tag = MMS
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_stockpile_fuel
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.2
+				industrial_capacity_factory = 0.1
+				production_speed_synthetic_refinery_factor = 0.15
+			}
+		}
 	}
-	# materiel_manufacturer = {
-	# 	designer = yes
-	# 	mms_ifrit_forge = {
-	# 		allowed = {
-	# 			original_tag = MMS
-	# 		}
-	# 		cost = 150
-	# 		removal_cost = -1
-	# 		research_bonus = {
-	# 			infantry_weapons = 0.1
-	# 			artillery = 0.1
-	# 			support_tech = 0.1
-	# 		}
-	# 		equipment_bonus = {
-	# 			infantry_equipment = {
-	# 				build_cost_ic = -0.2
-	# 				#reliability = 0.1
-	# 			}
-	# 			artillery_equipment = {
-	# 				build_cost_ic = -0.2
-	# 			}
-	# 			support_equipment = {
-	# 				build_cost_ic = -0.2
-	# 				#reliability = 0.1
-	# 			}
-	# 		}
-	# 		traits = {
-	# 			wfc_infantry_and_artillery_equipment_manufacturer
-	# 		}
-	# 		ai_will_do = {
-	# 			factor = 100
-	# 		}
-	# 	}
-	# }
 }

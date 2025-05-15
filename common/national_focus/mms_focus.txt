@@ -1028,19 +1028,7 @@ focus_tree = {
 			}
 			#custom_effect_tooltip = available_industrial_concern
 			#show_ideas_tooltip = AFG_hellmand_valley_authority_idea		
-			add_ideas = AFG_hellmand_altered_no_treaty
-			# custom_effect_tooltip = AFG_kajaki_dam_tt
-			# 414 = {
-			# 	OWNER = {
-			# 		country_event = {
-			# 			id = AFG_industrial_events.30
-			# 			hours = 1
-			# 		}
-			# 		effect_tooltip = {
-			# 			add_ideas = PER_hellmand_altered_no_treaty
-			# 		}
-			# 	}
-			# }
+			add_ideas = mms_idea_hellmand_altered_no_treaty
 		}
 	}
 	focus = {
@@ -2170,7 +2158,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_ideas = PER_oil_baron_idea
+			add_ideas = mms_idea_oil_baron
 			custom_effect_tooltip = CHL_skip_one_line_tt
 		}
 	}
