@@ -2155,6 +2155,7 @@ focus_tree = {
 			has_resources_in_country = {
 				resource = oil
 				amount > 350
+				extracted = yes
 			}
 		}
 		completion_reward = {
