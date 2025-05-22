@@ -699,7 +699,6 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-
 	MMS_saya_kisaragi = {
 		name = MMS_saya_kisaragi
 		portraits = {
@@ -768,8 +767,19 @@ characters = {
 			ai_will_do = {
 				factor = 1
 				modifier = {
-					is_historical_focus_on = no
-					factor = 2000
+					AND = {
+						is_historical_focus_on = yes
+						has_game_rule = {
+							rule = MMS_ai_behavior
+							option = DEFAULT
+						}
+					}
+					has_country_flag = MMS_AI_RANDOM_HISTORICAL
+					has_game_rule = {
+						rule = MMS_ai_behavior
+						option = HISTORICAL
+					}
+					add = -1
 				}
 			}
 		}
@@ -795,7 +805,6 @@ characters = {
 			}
 		}
 	}
-
 	MMS_saya_otonashi = {
 		name = MMS_saya_otonashi
 		portraits = {
@@ -844,7 +853,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_artillery_specialist scientist_trait_fast_learner }
+			traits = {
+				scientist_trait_artillery_specialist
+				scientist_trait_fast_learner
+			}
 			skills = {
 				specialization_land = 2
 			}
@@ -1004,7 +1016,6 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-
 	MMS_kuraishi_eriko = {
 		name = MMS_kuraishi_eriko
 		portraits = {
@@ -1214,7 +1225,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_nuclear_specialist scientist_trait_genius }
+			traits = {
+				scientist_trait_nuclear_specialist
+				scientist_trait_genius
+			}
 			skills = {
 				specialization_nuclear = 3
 			}
@@ -1270,23 +1284,14 @@ characters = {
 				#power_balance_weekly = -0.01
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 1
 				modifier = {
-					OR = {
-						AND = {
-							is_historical_focus_on = yes
-							has_game_rule = {
-								rule = MMS_ai_behavior
-								option = DEFAULT
-							}
-						}
-						has_country_flag = MMS_AI_RANDOM_HISTORICAL
-						has_game_rule = {
-							rule = MMS_ai_behavior
-							option = HISTORICAL
-						}
+					has_country_flag = MMS_AI_RANDOM_NEUTRALITY_02
+					has_game_rule = {
+						rule = MMS_ai_behavior
+						option = NEUTRALITY_02
 					}
-					factor = 100
+					add = -1
 				}
 			}
 		}
@@ -1500,7 +1505,6 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
-
 			}
 			skill = 1
 			attack_skill = 1
@@ -1774,7 +1778,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_aircraft_specialist scientist_trait_brilliant_theorist }
+			traits = {
+				scientist_trait_aircraft_specialist
+				scientist_trait_brilliant_theorist
+			}
 			skills = {
 				specialization_air = 2
 			}
@@ -1792,7 +1799,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_surface_ship_specialist scientist_trait_resourceful }
+			traits = {
+				scientist_trait_surface_ship_specialist
+				scientist_trait_resourceful
+			}
 			skills = {
 				specialization_naval = 1
 			}
@@ -1810,7 +1820,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_armored_specialist scientist_trait_gifted_engineer }
+			traits = {
+				scientist_trait_armored_specialist
+				scientist_trait_gifted_engineer
+			}
 			skills = {
 				specialization_land = 2
 			}
