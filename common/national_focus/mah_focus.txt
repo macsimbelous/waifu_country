@@ -1215,4 +1215,68 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = mah_focus_attack_nec
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		prerequisite = {
+			focus = mah_focus_attack_mms
+		}
+		relative_position_id = mah_focus_attack_mms
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		will_lead_to_war_with = NEC
+		available = {
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = NEC
+			}
+			NEC = {
+				exists = yes
+				NOT = {
+					is_puppet_of = ROOT
+				}
+			}
+			has_army_manpower = {
+				size > 999999
+			}
+		}
+		bypass = {
+			has_war_with = NEC
+		}
+		completion_reward = {
+			NEC = {
+				every_owned_state = {
+					limit = {
+						is_core_of = NEC
+					}
+					add_claim_by = ROOT
+				}
+			}
+			declare_war_on = {
+				target = NEC
+				type = annex_everything
+			}
+		}
+		bypass_effect = {
+			NEC = {
+				every_owned_state = {
+					limit = {
+						is_core_of = NEC
+					}
+					add_claim_by = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				add = -1
+			}
+		}
+	}
 }
