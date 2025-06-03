@@ -3053,6 +3053,12 @@ acw_form_european_union_category = {
 				34 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
+				977 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				980 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# France
 			custom_trigger_tooltip = {
@@ -3257,6 +3263,9 @@ acw_form_european_union_category = {
 				763 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
+				978 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
 			}
 			# Switzerland
 			custom_trigger_tooltip = {
@@ -3293,6 +3302,12 @@ acw_form_european_union_category = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 				848 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				975 = {
+					wfc_is_controlled_by_root_or_puppet = yes
+				}
+				976 = {
 					wfc_is_controlled_by_root_or_puppet = yes
 				}
 			}
@@ -3535,6 +3550,14 @@ acw_form_european_union_category = {
 					add_core_of = ROOT
 				}
 				transfer_state = 34
+				977 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 977
+				980 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 980
 			}
 			# France
 			custom_effect_tooltip = form_eu_france_coring_states_tt
@@ -3807,6 +3830,10 @@ acw_form_european_union_category = {
 					add_core_of = ROOT
 				}
 				transfer_state = 763
+				978 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 978
 			}
 			# Switzerland
 			custom_effect_tooltip = form_country_switzerland_coring_states_tt
@@ -3851,6 +3878,14 @@ acw_form_european_union_category = {
 					add_core_of = ROOT
 				}
 				transfer_state = 4
+				975 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 975
+				976 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 976
 			}
 			# Czechoslovakia
 			custom_effect_tooltip = form_country_czechoslovakia_coring_states_tt
@@ -4067,6 +4102,22 @@ acw_form_european_union_category = {
 			# Spain and Portugal
 			custom_effect_tooltip = wfc_form_eu_spain_and_portugal_coring_states_tt
 			hidden_effect = {
+				165 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 165
+				167 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 167
+				168 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 168
+				173 = {
+					add_core_of = ROOT
+				}
+				transfer_state = 173
 				# Eastern Aragon
 				794 = {
 					add_core_of = ROOT
