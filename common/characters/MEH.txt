@@ -242,7 +242,9 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_surface_ship_specialist }
+			traits = {
+				scientist_trait_surface_ship_specialist
+			}
 			skills = {
 				specialization_naval = 1
 			}
@@ -440,7 +442,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_guidance_systems_expert scientist_trait_resourceful }
+			traits = {
+				scientist_trait_guidance_systems_expert
+				scientist_trait_resourceful
+			}
 			skills = {
 				specialization_air = 3
 			}
@@ -1304,9 +1309,12 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_nuclear_power_expert scientist_trait_fast_learner }
+			traits = {
+				scientist_trait_nuclear_power_expert
+				scientist_trait_fast_learner
+			}
 			skills = {
-				specialization_nuclear  = 1
+				specialization_nuclear = 1
 			}
 		}
 	}
@@ -1322,9 +1330,12 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_armored_specialist scientist_trait_bright }
+			traits = {
+				scientist_trait_armored_specialist
+				scientist_trait_bright
+			}
 			skills = {
-				specialization_land  = 1
+				specialization_land = 1
 			}
 		}
 	}
@@ -1338,7 +1349,8 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				commando urban_assault_specialist
+				commando
+				urban_assault_specialist
 			}
 			skill = 1
 			attack_skill = 2
@@ -1359,7 +1371,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_aircraft_specialist scientist_trait_genius }
+			traits = {
+				scientist_trait_aircraft_specialist
+				scientist_trait_genius
+			}
 			skills = {
 				specialization_air = 2
 			}
@@ -1385,6 +1400,26 @@ characters = {
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 1
+		}
+	}
+	meh_amagi = {
+		name = meh_amagi
+		portraits = {
+			army = {
+				small = GFX_idea_meh_amagi
+				large = GFX_portrait_meh_amagi_army
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 }

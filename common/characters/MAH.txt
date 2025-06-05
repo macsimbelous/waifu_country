@@ -421,7 +421,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_armored_specialist scientist_trait_brilliant_theorist }
+			traits = {
+				scientist_trait_armored_specialist
+				scientist_trait_brilliant_theorist
+			}
 			skills = {
 				specialization_land = 2
 			}
@@ -1202,7 +1205,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_nuclear_specialist scientist_trait_resourceful }
+			traits = {
+				scientist_trait_nuclear_specialist
+				scientist_trait_resourceful
+			}
 			skills = {
 				specialization_nuclear = 2
 			}
@@ -1316,7 +1322,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 2
@@ -1363,7 +1368,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 2
@@ -1382,7 +1386,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 1
@@ -1401,7 +1404,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 1
@@ -1422,7 +1424,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_jet_expert scientist_trait_gifted_engineer }
+			traits = {
+				scientist_trait_jet_expert
+				scientist_trait_gifted_engineer
+			}
 			skills = {
 				specialization_air = 1
 			}
@@ -1449,7 +1454,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_submarine_specialist scientist_trait_genius }
+			traits = {
+				scientist_trait_submarine_specialist
+				scientist_trait_genius
+			}
 			skills = {
 				specialization_naval = 2
 			}
@@ -1468,10 +1476,48 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	mah_fiora_bruneli = {
+		name = mah_fiora_bruneli
+		portraits = {
+			army = {
+				large = GFX_portrait_mah_fiora_bruneli_army
+				small = GFX_idea_mah_fiora_bruneli
+			}
+			civilian = {
+				large = GFX_portrait_mah_fiora_bruneli_civilian
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	mah_tanya_salman = {
+		name = mah_tanya_salman
+		portraits = {
+			army = {
+				large = GFX_portrait_mah_tanya_salman_army
+				small = GFX_idea_mah_tanya_salman
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1

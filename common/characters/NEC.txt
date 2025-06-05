@@ -107,15 +107,36 @@ characters = {
 			}
 			expire = "1999.1.1"
 		}
-		corps_commander = {
+		advisor = {
+			slot = army_chief
+			idea_token = nec_castorice
+			cost = 50
+			traits = {
+				army_chief_offensive_1
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = nec_castorice
+						ruling_only = yes
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		field_marshal = {
 			traits = {
 				brilliant_strategist
+				aggressive_assaulter
+				offensive_doctrine
 			}
-			skill = 3
+			skill = 4
 			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
 		}
 	}
 	nec_aya_rindou = {
@@ -361,7 +382,7 @@ characters = {
 				army_chief_defensive_1
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 0
 			}
 		}
 		field_marshal = {
@@ -627,7 +648,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_nuclear_warfare_expert scientist_trait_genius }
+			traits = {
+				scientist_trait_nuclear_warfare_expert
+				scientist_trait_genius
+			}
 			skills = {
 				specialization_nuclear = 1
 			}
@@ -929,7 +953,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_surface_ship_specialist scientist_trait_resourceful }
+			traits = {
+				scientist_trait_surface_ship_specialist
+				scientist_trait_resourceful
+			}
 			skills = {
 				specialization_naval = 1
 			}
@@ -947,7 +974,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_aircraft_specialist scientist_trait_gifted_engineer }
+			traits = {
+				scientist_trait_aircraft_specialist
+				scientist_trait_gifted_engineer
+			}
 			skills = {
 				specialization_air = 1
 			}
@@ -965,7 +995,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_artillery_specialist scientist_trait_fast_learner }
+			traits = {
+				scientist_trait_artillery_specialist
+				scientist_trait_fast_learner
+			}
 			skills = {
 				specialization_land = 1
 			}
@@ -1009,7 +1042,7 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	nec_kuniko_utagawa= {
+	nec_kuniko_utagawa = {
 		name = nec_kuniko_utagawa
 		portraits = {
 			army = {
