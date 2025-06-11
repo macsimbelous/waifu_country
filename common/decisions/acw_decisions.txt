@@ -2972,6 +2972,7 @@ acw_form_european_union_category = {
 	acw_form_european_union = {
 		name = form_european_union
 		icon = generic_form_nation
+		fire_only_once = yes
 		allowed = {
 			original_tag = ACW
 		}
