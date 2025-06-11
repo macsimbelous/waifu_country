@@ -2353,9 +2353,12 @@ focus_tree = {
 				tag = MEX
 				ratio > 2
 			}
+			MEX = {
+				has_civil_war = no
+			}
 		}
 		completion_reward = {
-			country_event = meh_event.3
+			MEX = { country_event = meh_event.3 }
 		}
 		ai_will_do = {
 			factor = 5
