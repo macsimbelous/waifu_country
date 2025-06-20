@@ -810,3 +810,35 @@ mah_support_eth = {
 		value = 100
 	}
 }
+
+#GER
+mah_antagonize_ger = {
+	allowed = {
+		original_tag = MAH
+	}
+	enable = {
+		has_country_leader_with_trait = dislikes_germany
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = antagonize
+		id = GER
+		value = 1000
+	}
+}
+
+#SOV
+mah_antagonize_sov = {
+	allowed = {
+		original_tag = MAH
+	}
+	enable = {
+		has_country_leader_with_trait = dislikes_soviet
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = antagonize
+		id = SOV
+		value = 1000
+	}
+}

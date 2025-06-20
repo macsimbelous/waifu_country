@@ -2697,6 +2697,10 @@ focus_tree = {
 				mms_ifrit_equipment_upgrade_cost_days = 15
 			}
 			set_country_flag = mms_flag_ifrit_infantry_equipment
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.25
+			}
 		}
 		ai_will_do = {
 			factor = 10

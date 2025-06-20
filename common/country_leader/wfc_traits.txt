@@ -233,6 +233,9 @@ leader_traits = {
 	wfc_dislikes_jap = {
 		random = no
 	}
+	wfc_trait_hates_monsters = {
+		random = no
+	}
 	#ministri
 	wfc_nuclear_mazoku = {
 		sprite = 14
