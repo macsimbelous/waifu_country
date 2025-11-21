@@ -417,6 +417,7 @@ focus_tree = {
 			add_state_claim = 592
 			add_state_claim = 593
 			add_state_claim = 591
+			add_state_claim = 1033
 			create_wargoal = {
 				target = GXC
 				type = annex_everything
@@ -491,6 +492,7 @@ focus_tree = {
 			add_state_claim = 286
 			add_state_claim = 741
 			add_state_claim = 728
+			add_state_claim = 1017
 			create_wargoal = {
 				target = 671.OWNER
 				type = take_claimed_state
@@ -1472,6 +1474,7 @@ focus_tree = {
 			add_state_core = 282
 			add_state_core = 646
 			add_state_core = 537
+			add_state_core = 1020
 			add_state_claim = 555
 			add_state_claim = 527
 			add_state_claim = 525
@@ -1552,6 +1555,8 @@ focus_tree = {
 			controls_state = 534
 			controls_state = 533
 			controls_state = 536
+			controls_state = 1020
+			controls_state = 1018
 			#controls_state = 555
 			#controls_state = 645
 			#controls_state = 526
@@ -1737,6 +1742,14 @@ focus_tree = {
 				add_state_claim = 625
 				add_state_claim = 628
 				add_state_claim = 627
+				add_state_claim = 1017
+				add_state_claim = 1021
+				add_state_claim = 1022
+				add_state_claim = 1023
+				add_state_claim = 1024
+				add_state_claim = 1025
+				add_state_claim = 1026
+				add_state_claim = 1027
 			}
 			create_wargoal = {
 				target = FRA
@@ -1817,6 +1830,11 @@ focus_tree = {
 				add_state_claim = 717
 				add_state_claim = 527
 				add_state_claim = 525
+				add_state_claim = 1034
+				add_state_claim = 1035
+				add_state_claim = 1038
+				add_state_claim = 1039
+				add_state_claim = 1033
 			}
 			create_wargoal = {
 				target = CHI
@@ -3192,15 +3210,19 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_mastery_bonus = {
+				name = flexible_navy
+				bonus = 0.1
+				days = 240
+				grand_doctrine = new_convoy_raiding
+				track = submarines
+			}
+
 			add_doctrine_cost_reduction = {
-				name = sub_op_bonus
+				name = flexible_navy
 				cost_reduction = 0.5
 				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				#technology = combined_operations_raiding
+				category = naval_doctrine
 			}
 			add_tech_bonus = {
 				name = ss_bonus
@@ -3297,15 +3319,19 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_mastery_bonus = {
+				name = flexible_navy
+				bonus = 0.1
+				days = 240
+				grand_doctrine = new_convoy_raiding
+				track = submarines
+			}
+
 			add_doctrine_cost_reduction = {
-				name = sub_op_bonus
+				name = flexible_navy
 				cost_reduction = 0.5
 				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				#technology = combined_operations_raiding
+				category = naval_doctrine
 			}
 			add_tech_bonus = {
 				name = ss_bonus
@@ -3341,6 +3367,7 @@ focus_tree = {
 			controls_state = 534
 			controls_state = 533
 			controls_state = 536
+			controls_state = 1020
 		}
 		ai_will_do = {
 			factor = 100
@@ -3787,7 +3814,7 @@ focus_tree = {
 				bonus = 1
 				ahead_reduction = 2
 				uses = 1
-				category = cl_tech
+				#category = cl_tech
 				category = ca_tech
 			}
 		}
@@ -3896,15 +3923,19 @@ focus_tree = {
 		}
 		completion_reward = {
 			navy_experience = 25
+			add_mastery_bonus = {
+				name = flexible_navy
+				bonus = 0.1
+				days = 240
+				grand_doctrine = new_convoy_raiding
+				track = submarines
+			}
+
 			add_doctrine_cost_reduction = {
-				name = sub_op_bonus
+				name = flexible_navy
 				cost_reduction = 0.5
 				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				#technology = combined_operations_raiding
+				category = naval_doctrine
 			}
 		}
 	}

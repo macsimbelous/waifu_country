@@ -9,6 +9,7 @@ state={
 	state_category = metropolis
 	resources = {
 		steel = 9
+		coal = 4
 	}
 	history={
 		owner = NEC

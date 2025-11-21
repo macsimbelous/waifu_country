@@ -70,6 +70,7 @@ focus_tree = {
 			wfc_add_arms_factory_in_random_state_or_offsite = yes
 			add_state_claim = 322
 			add_state_claim = 757
+			add_state_claim = 601
 			declare_war_on = {
 				target = TIB
 				type = annex_everything
@@ -240,6 +241,9 @@ focus_tree = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			322 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			601 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			323 = {
@@ -483,6 +487,16 @@ focus_tree = {
 			build_railway = {
 				level = 1
 				path = {
+					4994
+					5033
+					10741
+					8041
+					10856
+				}
+			}
+			build_railway = {
+				level = 1
+				path = {
 					5094
 					2010
 					5011
@@ -493,6 +507,14 @@ focus_tree = {
 					type = supply_node
 					level = 1
 					province = 5011
+					instant_build = yes
+				}
+			}
+			601 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 10856
 					instant_build = yes
 				}
 			}
@@ -520,6 +542,7 @@ focus_tree = {
 			has_full_control_of_state = 324
 			has_full_control_of_state = 757
 			has_full_control_of_state = 758
+			has_full_control_of_state = 601
 		}
 		completion_reward = {
 			custom_effect_tooltip = acw_defensive_lines_tt
@@ -601,6 +624,31 @@ focus_tree = {
 							id = 1961
 							id = 10802
 							id = 12801
+						}
+					}
+				}
+				601 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 4
+						instant_build = yes
+						province = {
+							id = 5080
+							id = 8059
+							id = 10856
+							id = 4407
+							id = 5102
+							id = 5018
 						}
 					}
 				}

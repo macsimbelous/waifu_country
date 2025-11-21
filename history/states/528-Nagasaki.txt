@@ -4,8 +4,9 @@ state = {
 	manpower = 17128147
 	state_category = megalopolis
 	resources = {
-		chromium = 52
-		steel = 12
+		chromium = 32
+		steel = 15
+		coal = 15
 	}
 	history = {
 		owner = HEN
@@ -44,10 +45,6 @@ state = {
 			50
 		}
 		victory_points = {
-			4102
-			10
-		}
-		victory_points = {
 			10020
 			10
 		}
@@ -68,24 +65,16 @@ state = {
 		}
 	}
 	provinces = {
-		1020
 		1025
 		1158
-		1183
 		4027
-		4102
 		4164
-		4198
 		7110
-		7178
 		9950
 		10011
 		10020
 		10092
 		11925
-		11949
-		12006
-		12032
 	}
 	local_supplies = 10
 }

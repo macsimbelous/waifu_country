@@ -623,6 +623,18 @@ hen_category_colonies = {
 			525 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			1028 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1029 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1030 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1031 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -658,6 +670,10 @@ hen_category_colonies = {
 				var:country_to_initiate = {
 					transfer_state = 525
 					transfer_state = 527
+					transfer_state = 1028
+					transfer_state = 1029
+					transfer_state = 1030
+					transfer_state = 1031
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -868,6 +884,18 @@ hen_category_colonies = {
 			595 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			1039 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1038 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1035 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1034 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -911,6 +939,10 @@ hen_category_colonies = {
 					transfer_state = 596
 					transfer_state = 600
 					transfer_state = 595
+					transfer_state = 1034
+					transfer_state = 1035
+					transfer_state = 1038
+					transfer_state = 1039
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -952,6 +984,9 @@ hen_category_colonies = {
 			593 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			1033 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -990,6 +1025,7 @@ hen_category_colonies = {
 					transfer_state = 593
 					transfer_state = 594
 					transfer_state = 599
+					transfer_state = 1033
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -1037,6 +1073,15 @@ hen_category_colonies = {
 			627 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			1025 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1026 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1027 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -1077,6 +1122,9 @@ hen_category_colonies = {
 					transfer_state = 628
 					transfer_state = 625
 					transfer_state = 627
+					transfer_state = 1025
+					transfer_state = 1026
+					transfer_state = 1027
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -1205,6 +1253,15 @@ hen_category_colonies = {
 			333 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
+			1022 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1023 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1024 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -1247,7 +1304,12 @@ hen_category_colonies = {
 					transfer_state = 738
 					transfer_state = 669
 					transfer_state = 333
+					transfer_state = 1022
+					transfer_state = 1023
+					transfer_state = 1024
 					add_state_core = 333
+					add_state_core = 1023
+					add_state_core = 1024
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -1281,6 +1343,9 @@ hen_category_colonies = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			333 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1021 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
@@ -1318,6 +1383,7 @@ hen_category_colonies = {
 				var:country_to_initiate = {
 					transfer_state = 333
 					transfer_state = 336
+					transfer_state = 1021
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -1354,6 +1420,9 @@ hen_category_colonies = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 			286 = {
+				wfc_is_controlled_by_root_or_puppet = yes
+			}
+			1017 = {
 				wfc_is_controlled_by_root_or_puppet = yes
 			}
 		}
@@ -1393,6 +1462,7 @@ hen_category_colonies = {
 					transfer_state = 670
 					transfer_state = 741
 					transfer_state = 286
+					transfer_state = 1017
 					set_country_flag = wfc_change_focus_tree_flag
 					load_focus_tree = {
 						tree = wfc_puppet_focus
@@ -1553,6 +1623,7 @@ hen_category_rebellion_in_jap = {
 					state = 534
 					state = 535
 					state = 536
+					state = 1020
 				}
 			}
 		}

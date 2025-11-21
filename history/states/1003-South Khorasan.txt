@@ -5,7 +5,9 @@ state={
 	manpower = 243007
 	
 	state_category = wasteland
-
+	resources = {
+		coal = 3
+	}
 	history={
 		owner = MMS
 		buildings = {
