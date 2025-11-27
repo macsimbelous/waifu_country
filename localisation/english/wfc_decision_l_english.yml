@@ -528,3 +528,7 @@ meh_sputnik_not:0 "You must have at least one §Ysatellite§! in orbit"
  #nec_category_raise_the_zombies
   nec_category_raise_the_zombies: "§GZombi!"
   nec_decision_raise_the_zombies: "§GRaise The Zombies§!"
+
+ #nec_world_conquest_category
+  nec_world_conquest_category: "Conquest of the world"
+  nec_world_conquest_decision: "§RConquer [From.GetNameDef]§!"

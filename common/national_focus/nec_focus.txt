@@ -261,6 +261,7 @@ focus_tree = {
 				transfer_state = 322
 				transfer_state = 323
 				transfer_state = 324
+				transfer_state = 601
 			}
 			757 = {
 				wfc_coring_state = yes
@@ -326,6 +327,19 @@ focus_tree = {
 				}
 			}
 			324 = {
+				wfc_coring_state = yes
+				#add_core_of = ROOT
+				custom_effect_tooltip = nec_decision_necrification_create_unit_tt
+				hidden_effect = {
+					create_unit = {
+						division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+						owner = NEC
+						#prioritize_location = 4518
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+			601 = {
 				wfc_coring_state = yes
 				#add_core_of = ROOT
 				custom_effect_tooltip = nec_decision_necrification_create_unit_tt
@@ -692,7 +706,7 @@ focus_tree = {
 						}
 					}
 					has_army_manpower = {
-						size > 599999
+						size > 499999
 					}
 				}
 				else = {
@@ -751,7 +765,7 @@ focus_tree = {
 						}
 					}
 					has_army_manpower = {
-						size > 599999
+						size > 499999
 					}
 				}
 				else = {

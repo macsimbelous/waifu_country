@@ -622,6 +622,10 @@ wfc_test_category = {
 			tag = MEH
 		}
 		available = {
+			OR = {
+				has_war = no
+				NOT = { surrender_progress > 0 }
+			}
 			MEX = {
 				strength_ratio = {
 					tag = MEH

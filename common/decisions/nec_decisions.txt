@@ -432,3 +432,133 @@ nec_category_raise_the_zombies = {
 		}
 	}
 }
+
+nec_world_conquest_category = {
+	nec_world_conquest_decision = {
+		icon = generic_ignite_civil_war
+		#war_with_target_on_complete = yes
+		war_with_target_on_remove = yes
+		available = {
+			NOT = {
+				has_country_flag = wfc_flag_prepare_to_attack
+			}
+			OR = {
+				has_war = no
+				NOT = { surrender_progress > 0 }
+			}
+		}
+		visible = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						OR = {
+							is_puppet_of = ROOT
+							is_subject_of = ROOT
+						}
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						is_subject_of = ROOT
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		#target_array = neighbors
+		target_trigger = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 1.5
+				}
+				add = 1
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 2
+				}
+				add = 1
+			}
+			modifier = {
+				is_in_faction = yes
+				add = -2
+			}
+			modifier = {
+				is_faction_leader = yes
+				add = 3
+			}
+			modifier = {
+				FROM = {
+					OR = {
+						is_in_faction = yes
+						is_puppet = yes
+					}
+				}
+				add = -1
+			}
+		}
+		fire_only_once = no
+		cost = 0
+		#days_re_enable = 30
+		days_remove = 30
+		remove_effect = {
+			clr_country_flag = wfc_flag_prepare_to_attack
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				declare_war_on = {
+					target = FROM
+					type = puppet_wargoal_focus
+				}
+				FROM = {
+					every_owned_state = {
+						limit = {
+							any_neighbor_state = {
+								is_owned_by = ROOT
+							}
+						}
+						add_claim_by = ROOT
+					}
+				}
+			}
+			else = {
+				declare_war_on = {
+					target = FROM
+					type = annex_everything
+				}
+				FROM = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = wfc_flag_prepare_to_attack
+		}
+	}
+}

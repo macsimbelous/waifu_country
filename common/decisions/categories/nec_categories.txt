@@ -1,3 +1,18 @@
+nec_world_conquest_category = {
+	priority = 8
+	icon = decision_generic_ignite_civil_war
+	#visible_when_empty = yes
+	allowed = {
+		original_tag = NEC
+	}
+	visible = {
+		has_completed_focus = nec_focus_the_world_of_the_dead
+	}
+	available = {
+		is_puppet = no
+	}
+}
+
 nec_category_raise_the_zombies = {
 	allowed = {
 		original_tag = NEC

@@ -530,6 +530,10 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
   nec_category_raise_the_zombies: "§GЗомби§!"
   nec_decision_raise_the_zombies: "§GПоднять зомби§!"
 
+ #nec_world_conquest_category
+  nec_world_conquest_category: "Завоевание мира"
+  nec_world_conquest_decision: "§RЗавоевать [From.GetNameDef]§!"
+
 #test
  wfc_test_category:0 "Тестовая категория"
  #wfc_test_create_colab: "[ACW_fiona_frost.GetName]"
