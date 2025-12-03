@@ -2375,7 +2375,13 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_intelligence_princess
+				#wfc_intelligence_princess
+				head_of_intelligence
+			}
+			modifier = {
+				operative_slot = 1
+				agency_upgrade_time = -0.15
+				decryption_power_factor = 0.15
 			}
 			ai_will_do = {
 				factor = 1
@@ -2499,7 +2505,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_nuclear_warfare_expert scientist_trait_resourceful }
+			traits = {
+				scientist_trait_nuclear_warfare_expert
+				scientist_trait_resourceful
+			}
 			skills = {
 				specialization_nuclear = 3
 			}
@@ -2564,7 +2573,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_electronics_specialist scientist_trait_fast_learner }
+			traits = {
+				scientist_trait_electronics_specialist
+				scientist_trait_fast_learner
+			}
 			skills = {
 				specialization_air = 3
 			}
@@ -2597,7 +2609,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_rocketry_specialist scientist_trait_genius }
+			traits = {
+				scientist_trait_rocketry_specialist
+				scientist_trait_genius
+			}
 			skills = {
 				specialization_air = 4
 			}
@@ -2643,6 +2658,20 @@ characters = {
 				large = GFX_portrait_acw_nishikino_maki_civilian
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_nishikino_maki
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				spymaster
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	ACW_eleonore_bonnefoi = {
 		name = ACW_eleonore_bonnefoi
@@ -2656,7 +2685,9 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_bombs_expert }
+			traits = {
+				scientist_trait_bombs_expert
+			}
 			skills = {
 				specialization_air = 2
 			}
@@ -2683,6 +2714,20 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_acw_fiona_frost_operative
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ACW_fiona_frost
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				intelligence_service_deputy
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}
@@ -2719,6 +2764,23 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_acw_grete_operative
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = acw_grete
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				mastermind_code_cracker
+			}
+			modifier = {
+				decryption_power = 5
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}
@@ -2917,7 +2979,9 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_armored_specialist  }
+			traits = {
+				scientist_trait_armored_specialist
+			}
 			skills = {
 				specialization_land = 1
 			}
@@ -2935,7 +2999,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_surface_ship_specialist scientist_trait_gifted_engineer }
+			traits = {
+				scientist_trait_surface_ship_specialist
+				scientist_trait_gifted_engineer
+			}
 			skills = {
 				specialization_naval = 2
 			}
@@ -2951,42 +3018,12 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 3
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-	}
-	#Заглушка
-	ACW_head_int = {
-		name = generic_head_of_intelligence
-		portraits = {
-			army = {
-				small = GFX_idea_acw_ayame_himuro
-			}
-			civilian = {
-				large = GFX_portrait_acw_ayame_himuro
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ACW_head_int
-			cost = 1000
-			allowed = {
-				original_tag = ACW
-			}
-			visible = {
-				always = no
-			}
-			traits = {
-				head_of_intelligence
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 }

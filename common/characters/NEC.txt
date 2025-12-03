@@ -254,6 +254,20 @@ characters = {
 				large = GFX_portrait_nec_sakura_minamoto_operative
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_sakura_minamoto
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				spymaster
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	nec_zombina = {
 		name = nec_zombina
@@ -327,10 +341,13 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_head_of_intelligence
+				#wfc_head_of_intelligence
+				head_of_intelligence
 			}
 			modifier = {
 				intel_network_gain_factor = 0.15
+				agency_upgrade_time = -0.15
+				operative_slot = 1
 			}
 			ai_will_do = {
 				factor = 1
@@ -355,11 +372,15 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_trait_head_of_counterintelligence
+				#wfc_trait_head_of_counterintelligence
+				intelligence_service_deputy
 			}
 			modifier = {
 				resistance_damage_to_garrison = -0.5
 				stability_factor = 0.1
+				resistance_decay = 0.15
+				intelligence_agency_defense = 0.15
+				foreign_subversive_activites = -0.5
 			}
 			ai_will_do = {
 				factor = 1
@@ -1031,15 +1052,22 @@ characters = {
 				large = GFX_portrait_nec_krolya_koshmarnaya_army
 			}
 		}
-		corps_commander = {
-			traits = {
-				ascari_officer
+		advisor = {
+			slot = political_advisor
+			idea_token = nec_krolya_koshmarnaya
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				mastermind_code_cracker
+			}
+			modifier = {
+				decryption_power = 5
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	nec_kuniko_utagawa = {
@@ -1058,32 +1086,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-	}
-	#Заглушки
-	nec_head_int = {
-		#name = generic_head_of_intelligence
-		portraits = {
-			army = {
-				small = GFX_idea_nec_sakura_minamoto
-			}
-			civilian = {
-				large = GFX_portrait_nec_sakura_minamoto_operative
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = nec_head_int
-			cost = 1000
-			visible = {
-				always = no
-			}
-			traits = {
-				head_of_intelligence
-			}
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 }

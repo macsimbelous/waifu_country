@@ -501,7 +501,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_nuclear_power_expert scientist_trait_genius }
+			traits = {
+				scientist_trait_nuclear_power_expert
+				scientist_trait_genius
+			}
 			skills = {
 				specialization_nuclear = 3
 			}
@@ -657,7 +660,6 @@ characters = {
 			}
 		}
 	}
-
 	TRP_mizuho_miyanokouji = {
 		name = TRP_mizuho_miyanokouji
 		portraits = {
@@ -729,7 +731,6 @@ characters = {
 			}
 		}
 	}
-
 	TRP_shirota_mitsuki = {
 		name = TRP_shirota_mitsuki
 		portraits = {
@@ -899,7 +900,6 @@ characters = {
 			}
 		}
 	}
-
 	TRP_russell = {
 		name = TRP_russell
 		portraits = {
@@ -1000,6 +1000,23 @@ characters = {
 				large = GFX_portrait_trp_sakae_yomoda_operative
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = trp_sakae_yomoda
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				mastermind_code_cracker
+			}
+			modifier = {
+				decryption_power = 5
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	trp_chen_li = {
 		name = trp_chen_li
@@ -1051,7 +1068,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_armored_specialist scientist_trait_bright }
+			traits = {
+				scientist_trait_armored_specialist
+				scientist_trait_bright
+			}
 			skills = {
 				specialization_land = 1
 			}
@@ -1069,7 +1089,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_helicopter_expert scientist_trait_fast_learner }
+			traits = {
+				scientist_trait_helicopter_expert
+				scientist_trait_fast_learner
+			}
 			skills = {
 				specialization_air = 1
 			}
@@ -1087,7 +1110,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_surface_ship_specialist scientist_trait_resourceful }
+			traits = {
+				scientist_trait_surface_ship_specialist
+				scientist_trait_resourceful
+			}
 			skills = {
 				specialization_naval = 1
 			}
@@ -1109,11 +1135,14 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_head_of_intelligence
+				#wfc_head_of_intelligence
+				head_of_intelligence
 			}
 			modifier = {
 				resistance_damage_to_garrison_on_our_occupied_states = 0.25
 				intelligence_agency_defense = 0.15
+				agency_upgrade_time = -0.15
+				operative_slot = 1
 			}
 			ai_will_do = {
 				factor = 1
@@ -1150,6 +1179,20 @@ characters = {
 				large = GFX_portrait_trp_wang_erxi_operative
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			idea_token = trp_wang_erxi
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				spymaster
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	trp_coco = {
 		name = trp_coco
@@ -1178,36 +1221,18 @@ characters = {
 				large = GFX_portrait_trp_touya_fuji_army
 			}
 		}
-		corps_commander = {
-			traits = {
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	#Заглушки
-	TRP_aoi_futaba2 = {
-		name = TRP_aoi_futaba
-		portraits = {
-			army = {
-				small = GFX_idea_trp_aoi_futaba
-			}
-		}
 		advisor = {
 			slot = political_advisor
-			idea_token = TRP_aoi_futaba2
-			cost = 1000
-			allowed = {
-				original_tag = TRP
-			}
-			visible = {
-				always = no
+			idea_token = trp_touya_fuji
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
 			traits = {
-				head_of_intelligence
+				special_envoy
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

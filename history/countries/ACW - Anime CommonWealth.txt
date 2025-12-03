@@ -105,7 +105,6 @@ recruit_character = ACW_Aoi_Sakurai
 recruit_character = ACW_Megumin
 recruit_character = ACW_irina_jelavic
 recruit_character = ACW_Ayame_Himuro
-recruit_character = ACW_head_int
 recruit_character = ACW_mona_megistus
 recruit_character = ACW_mineru_wachi
 recruit_character = ACW_eleonore_bonnefoi
@@ -374,47 +373,47 @@ create_operative_leader = {
 	}
 }
 recruit_character = ACW_nishikino_maki
-create_operative_leader = {
-	name = ACW_nishikino_maki
-	GFX = GFX_portrait_acw_nishikino_maki_operative
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		ACW
-	}
-	traits = {
-		operative_natural_orator
-		operative_well_groomed
-	}
-}
+# create_operative_leader = {
+# 	name = ACW_nishikino_maki
+# 	GFX = GFX_portrait_acw_nishikino_maki_operative
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		ACW
+# 	}
+# 	traits = {
+# 		operative_natural_orator
+# 		operative_well_groomed
+# 	}
+# }
 recruit_character = ACW_fiona_frost
-create_operative_leader = {
-	name = ACW_fiona_frost
-	GFX = GFX_portrait_acw_fiona_frost_operative
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		ACW
-	}
-	traits = {
-		operative_master_interrogator
-	}
-}
+# create_operative_leader = {
+# 	name = ACW_fiona_frost
+# 	GFX = GFX_portrait_acw_fiona_frost_operative
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		ACW
+# 	}
+# 	traits = {
+# 		operative_master_interrogator
+# 	}
+# }
 
 recruit_character = acw_grete
-create_operative_leader = {
-	name = acw_grete
-	GFX = GFX_portrait_acw_grete_operative
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		ACW
-	}
-	traits = {
-		operative_master_interrogator
-		operative_infiltrator
-	}
-}
+# create_operative_leader = {
+# 	name = acw_grete
+# 	GFX = GFX_portrait_acw_grete_operative
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		ACW
+# 	}
+# 	traits = {
+# 		operative_master_interrogator
+# 		operative_infiltrator
+# 	}
+# }
 
 ACW_Erza = {
 	set_character_flag = acw_country_leader_flag

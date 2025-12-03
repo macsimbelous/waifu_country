@@ -85,24 +85,22 @@ recruit_character = nec_hecate
 recruit_character = nec_morrigan
 recruit_character = nec_krolya_koshmarnaya
 recruit_character = nec_kuniko_utagawa
-#Заглушки
-recruit_character = nec_head_int
 
 #Agents
 recruit_character = nec_sakura_minamoto
-create_operative_leader = {
-	name = "Sakura Minamoto"
-	GFX = GFX_portrait_nec_sakura_minamoto_operative
-	traits = {
-		operative_infiltrator
-		operative_natural_orator
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		NEC JAP
-	}
-}
+# create_operative_leader = {
+# 	name = "Sakura Minamoto"
+# 	GFX = GFX_portrait_nec_sakura_minamoto_operative
+# 	traits = {
+# 		operative_infiltrator
+# 		operative_natural_orator
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		NEC JAP
+# 	}
+# }
 recruit_character = nec_lin_temptress
 create_operative_leader = {
 	name = "Lin Temptress"

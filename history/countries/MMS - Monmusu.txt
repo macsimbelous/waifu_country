@@ -158,7 +158,6 @@ recruit_character = MMS_purifier
 recruit_character = MMS_tester
 recruit_character = MMS_meroune_lorelei
 recruit_character = MMS_shigure
-recruit_character = MMS_shigure2
 recruit_character = MMS_touka_kuroitsu
 recruit_character = MMS_wolf_bete
 recruit_character = MMS_serafall_leviathan
@@ -190,18 +189,18 @@ recruit_character = mms_xilonen
 recruit_character = mms_beniko_zashiki
 #Agents
 recruit_character = MMS_rias_gremory
-create_operative_leader = {
-	name = "Rias Gremory"
-	GFX = GFX_portrait_mms_rias_gremory_army
-	traits = {
-		operative_seducer
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		MMS
-	}
-}
+# create_operative_leader = {
+# 	name = "Rias Gremory"
+# 	GFX = GFX_portrait_mms_rias_gremory_army
+# 	traits = {
+# 		operative_seducer
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		MMS
+# 	}
+# }
 
 create_operative_leader = {
 	name = "Mio Naruse"
@@ -243,19 +242,19 @@ create_operative_leader = {
 	}
 }
 recruit_character = mms_jane_doe
-create_operative_leader = {
-	name = "Jane Doe"
-	GFX = GFX_portrait_mms_jane_doe_operative
-	traits = {
-		operative_safe_cracker
-		operative_infiltrator
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		MMS
-	}
-}
+# create_operative_leader = {
+# 	name = "Jane Doe"
+# 	GFX = GFX_portrait_mms_jane_doe_operative
+# 	traits = {
+# 		operative_safe_cracker
+# 		operative_infiltrator
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		MMS
+# 	}
+# }
 
 MMS_velvet_crowe = {
 	set_character_flag = mms_country_leader_flag

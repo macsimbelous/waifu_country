@@ -1114,37 +1114,17 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_head_of_intelligence
+				#wfc_head_of_intelligence
+				head_of_intelligence
 			}
 			modifier = {
 				decryption_power_factor = 0.2
 				encryption_factor = 0.2
+				agency_upgrade_time = -0.15
+				operative_slot = 1
 			}
 			ai_will_do = {
 				factor = 1
-			}
-		}
-	}
-	MEH_head_int = {
-		name = MEH_Yurizaki_Mira
-		portraits = {
-			army = {
-				small = GFX_idea_meh_yurizaki_mira
-				large = GFX_portrait_meh_yurizaki_mira
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MEH_head_int
-			cost = 1000
-			allowed = {
-				original_tag = MEH
-			}
-			visible = {
-				always = no
-			}
-			traits = {
-				head_of_intelligence
 			}
 		}
 	}
@@ -1189,14 +1169,19 @@ characters = {
 				large = GFX_portrait_meh_azerty_army
 			}
 		}
-		corps_commander = {
-			traits = {
+		advisor = {
+			slot = political_advisor
+			idea_token = meh_azerty
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				intelligence_service_deputy
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	meh_talus = {
@@ -1225,14 +1210,19 @@ characters = {
 				large = GFX_portrait_meh_lona_army
 			}
 		}
-		corps_commander = {
-			traits = {
+		advisor = {
+			slot = political_advisor
+			idea_token = meh_lona
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				spymaster
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	meh_nova = {
@@ -1287,14 +1277,22 @@ characters = {
 				large = GFX_portrait_meh_zinas_army
 			}
 		}
-		corps_commander = {
-			traits = {
+		advisor = {
+			slot = political_advisor
+			idea_token = meh_zinas
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				mastermind_code_cracker
+			}
+			modifier = {
+				decryption_power = 5
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	meh_freyna = {

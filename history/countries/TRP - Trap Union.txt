@@ -144,7 +144,6 @@ recruit_character = TRP_mariya_shidou
 recruit_character = TRP_russell
 recruit_character = TRP_mare_bello_fiore
 recruit_character = TRP_aoi_futaba
-recruit_character = TRP_aoi_futaba2
 recruit_character = TRP_kiruko
 recruit_character = trp_poison
 recruit_character = trp_chen_li
@@ -157,33 +156,33 @@ recruit_character = trp_coco
 recruit_character = trp_touya_fuji
 #agents
 recruit_character = trp_wang_erxi
-create_operative_leader = {
-	name = "Wang Erxi"
-	GFX = GFX_portrait_trp_wang_erxi_operative
-	traits = {
-		operative_seducer
-		operative_master_interrogator
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		TRP JAP
-	}
-}
+# create_operative_leader = {
+# 	name = "Wang Erxi"
+# 	GFX = GFX_portrait_trp_wang_erxi_operative
+# 	traits = {
+# 		operative_seducer
+# 		operative_master_interrogator
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		TRP JAP
+# 	}
+# }
 recruit_character = trp_sakae_yomoda
-create_operative_leader = {
-	name = "Sakae Yomoda"
-	GFX = GFX_portrait_trp_sakae_yomoda_operative
-	traits = {
-		operative_infiltrator
-		operative_double_agent
-	}
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		TRP JAP
-	}
-}
+# create_operative_leader = {
+# 	name = "Sakae Yomoda"
+# 	GFX = GFX_portrait_trp_sakae_yomoda_operative
+# 	traits = {
+# 		operative_infiltrator
+# 		operative_double_agent
+# 	}
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		TRP JAP
+# 	}
+# }
 
 create_operative_leader = {
 	name = "Saki Mizushima"

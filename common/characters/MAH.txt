@@ -658,15 +658,22 @@ characters = {
 				large = GFX_portrait_mah_honey_kisaragi
 			}
 		}
-		corps_commander = {
-			traits = {
-				commando
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_honey_kisaragi
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				mastermind_code_cracker
+			}
+			modifier = {
+				decryption_power = 5
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MAH_mai_tokiha = {
@@ -1164,14 +1171,19 @@ characters = {
 				large = GFX_portrait_mah_laura_la_mer
 			}
 		}
-		navy_leader = {
-			traits = {
+		advisor = {
+			slot = political_advisor
+			idea_token = MAH_laura_la_mer
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			traits = {
+				spymaster
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	MAH_kobato_hanato = {
@@ -1303,10 +1315,13 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_head_of_intelligence
+				#wfc_head_of_intelligence
+				head_of_intelligence
 			}
 			modifier = {
-				operative_slot = 1
+				agency_upgrade_time = -0.15
+				operative_slot = 2
+				resistance_damage_to_garrison_on_our_occupied_states = 0.25
 			}
 			ai_will_do = {
 				factor = 1
@@ -1514,37 +1529,18 @@ characters = {
 				small = GFX_idea_mah_tanya_salman
 			}
 		}
-		corps_commander = {
-			traits = {
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	#Заглушка
-	MAH_head_int = {
-		name = MAH_Hitomi_Tsukishiro
-		portraits = {
-			army = {
-				small = GFX_idea_mah_hitomi_tsukishiro
-				large = GFX_portrait_mah_hitomi_tsukishiro
-			}
-		}
 		advisor = {
 			slot = political_advisor
-			idea_token = MAH_head_int
-			cost = 1000
-			allowed = {
-				original_tag = MAH
-			}
-			visible = {
-				always = no
+			idea_token = mah_tanya_salman
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
 			traits = {
-				head_of_intelligence
+				special_envoy
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

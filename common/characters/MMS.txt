@@ -1176,40 +1176,17 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_head_of_intelligence
+				#wfc_head_of_intelligence
+				head_of_intelligence
 			}
 			modifier = {
 				resistance_damage_to_garrison_on_our_occupied_states = 0.25
 				resistance_damage_to_garrison = -0.25
+				agency_upgrade_time = -0.15
+				operative_slot = 1
 			}
 			ai_will_do = {
 				factor = 1
-			}
-		}
-	}
-	MMS_shigure2 = {
-		name = MMS_shigure
-		portraits = {
-			army = {
-				small = GFX_idea_mms_shigure
-				large = GFX_portrait_mms_shigure_operative
-			}
-			civilian = {
-				large = GFX_portrait_mms_shigure_civilian
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MMS_shigure2
-			cost = 1000
-			allowed = {
-				original_tag = MMS
-			}
-			visible = {
-				always = no
-			}
-			traits = {
-				head_of_intelligence
 			}
 		}
 	}
@@ -1305,6 +1282,20 @@ characters = {
 			army = {
 				small = GFX_idea_mms_rias_gremory
 				large = GFX_portrait_mms_rias_gremory_army
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MMS_rias_gremory
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				spymaster
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}
@@ -1724,14 +1715,22 @@ characters = {
 				large = GFX_portrait_mms_elivex_army
 			}
 		}
-		corps_commander = {
-			traits = {
+		advisor = {
+			slot = political_advisor
+			idea_token = mms_elivex
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				mastermind_code_cracker
+			}
+			modifier = {
+				decryption_power = 5
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	mms_jane_doe = {
@@ -1740,6 +1739,20 @@ characters = {
 			army = {
 				small = GFX_idea_mms_jane_doe
 				large = GFX_portrait_mms_jane_doe_operative
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = mms_jane_doe
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				intelligence_service_deputy
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

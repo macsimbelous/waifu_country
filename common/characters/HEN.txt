@@ -448,7 +448,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_nuclear_specialist scientist_trait_bright }
+			traits = {
+				scientist_trait_nuclear_specialist
+				scientist_trait_bright
+			}
 			skills = {
 				specialization_nuclear = 1
 			}
@@ -486,7 +489,6 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-
 	HEN_Ruma = {
 		name = HEN_Ruma
 		portraits = {
@@ -878,7 +880,6 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-
 	HEN_brainjacker = {
 		name = HEN_brainjacker
 		portraits = {
@@ -995,7 +996,6 @@ characters = {
 			}
 		}
 	}
-
 	HEN_Akiho_Taniguchi = {
 		name = HEN_Akiho_Taniguchi
 		portraits = {
@@ -1048,44 +1048,16 @@ characters = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				wfc_head_of_intelligence
+				#wfc_head_of_intelligence
+				head_of_intelligence
 			}
 			modifier = {
-				agency_upgrade_time = -0.2
+				agency_upgrade_time = -0.15
+				operative_slot = 1
+				encryption_factor = 0.15
 			}
 			ai_will_do = {
 				factor = 5
-			}
-		}
-	}
-	HEN_head_int = {
-		name = HEN_Mika_Amano
-		portraits = {
-			army = {
-				small = GFX_idea_hen_mika_amano
-			}
-			civilian = {
-				large = GFX_portrait_hen_mika_amano
-			}
-		}
-		allowed_civil_war = {
-			always = yes
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = HEN_head_int
-			cost = 1000
-			allowed = {
-				original_tag = HEN
-			}
-			visible = {
-				always = no
-			}
-			traits = {
-				head_of_intelligence
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 	}
@@ -1122,6 +1094,20 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_hen_sayaka_akimiya_operative
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HEN_sayaka_akimiya
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				spymaster
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}
@@ -1167,7 +1153,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 1
@@ -1223,15 +1208,22 @@ characters = {
 				large = GFX_portrait_hen_anzu_sakata_army
 			}
 		}
-		corps_commander = {
-			traits = {
-				
+		advisor = {
+			slot = political_advisor
+			idea_token = hen_anzu_sakata
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				mastermind_code_cracker
+			}
+			modifier = {
+				decryption_power = 5
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	hen_kino_honda = {
@@ -1242,15 +1234,19 @@ characters = {
 				large = GFX_portrait_hen_kino_honda_army
 			}
 		}
-		corps_commander = {
-			traits = {
-				
+		advisor = {
+			slot = political_advisor
+			idea_token = hen_kino_honda
+			cost = 150
+			available = {
+				has_intelligence_agency = yes
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				intelligence_service_deputy
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	hen_nana_ogata = {
@@ -1263,7 +1259,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 1
@@ -1282,7 +1277,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 1
@@ -1301,7 +1295,6 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				
 			}
 			skill = 1
 			attack_skill = 1
@@ -1322,7 +1315,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_surface_ship_specialist scientist_trait_genius }
+			traits = {
+				scientist_trait_surface_ship_specialist
+				scientist_trait_genius
+			}
 			skills = {
 				specialization_naval = 2
 			}
@@ -1340,7 +1336,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_aircraft_specialist scientist_trait_fast_learner }
+			traits = {
+				scientist_trait_aircraft_specialist
+				scientist_trait_fast_learner
+			}
 			skills = {
 				specialization_air = 1
 			}
@@ -1358,7 +1357,10 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_armored_specialist scientist_trait_resourceful }
+			traits = {
+				scientist_trait_armored_specialist
+				scientist_trait_resourceful
+			}
 			skills = {
 				specialization_land = 1
 			}
@@ -1376,7 +1378,9 @@ characters = {
 			}
 		}
 		scientist = {
-			traits = { scientist_trait_submarine_specialist }
+			traits = {
+				scientist_trait_submarine_specialist
+			}
 			skills = {
 				specialization_naval = 3
 			}

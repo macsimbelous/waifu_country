@@ -154,7 +154,6 @@ recruit_character = HEN_Suomi
 recruit_character = HEN_Akiho_Taniguchi
 recruit_character = HEN_Sill_Plain
 recruit_character = HEN_Mika_Amano
-recruit_character = HEN_head_int
 recruit_character = HEN_reika_shichijou
 recruit_character = hen_aya_itou
 recruit_character = hen_lona
@@ -212,19 +211,19 @@ create_operative_leader = {
 	}
 }
 recruit_character = HEN_sayaka_akimiya
-create_operative_leader = {
-	name = "Sayaka Akimiya"
-	GFX = GFX_portrait_hen_sayaka_akimiya_operative
-	bypass_recruitment = no
-	available_to_spy_master = yes
-	nationalities = {
-		HEN
-	}
-	traits = {
-		operative_linguist
-		operative_well_groomed
-	}
-}
+# create_operative_leader = {
+# 	name = "Sayaka Akimiya"
+# 	GFX = GFX_portrait_hen_sayaka_akimiya_operative
+# 	bypass_recruitment = no
+# 	available_to_spy_master = yes
+# 	nationalities = {
+# 		HEN
+# 	}
+# 	traits = {
+# 		operative_linguist
+# 		operative_well_groomed
+# 	}
+# }
 
 
 HEN_Takumi_Musashino = {
