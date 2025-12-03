@@ -108,11 +108,12 @@ wfc_construction_phase_bunker_decision:0 "Добавить бункеры на �
 wfc_construction_phase_coastal_bunker_decision:0 "Добавить береговые укрепления"
 
 #wfc_transfer_of_the_capital_category
-wfc_transfer_of_the_capital_category:0 "Перенос столицы"
-wfc_transfer_of_the_capital_decision:0 "Перенести столицу в регион §G[FROM.GetName]§!"
+wfc_transfer_of_the_capital_category: "Перенос столицы"
+wfc_transfer_of_the_capital_decision: "Перенести столицу в регион §G[FROM.GetName]§!"
 
 #prospect_for_resources
- wfc_geological_exploration:0 "Геологическая разведка своей територии"
+ wfc_geological_exploration: "Геологическая разведка своей територии"
+ wfc_geological_exploration_desc: "Железо §G40%§!\nАлюминий §G20%§!\nХром, вольфрам, уголь и нефть §G10%§!"
  wfc_geological_exploration_in_puppet:0 "Геологическая разведка в субъектах"
  wfc_not_geological_exploration_tt:0 "Разведка ресурсов не проводилась"
  wfc_develop_steel_deposits:0 "Разработать месторождения железа в §G[FROM.GetName]§!"
@@ -125,13 +126,17 @@ wfc_transfer_of_the_capital_decision:0 "Перенести столицу в р�
  wfc_develop_chromium_deposits_tt:0 "В регионе §G[FROM.GetName]§! будут разработаны месторождения хрома"
  wfc_develop_tungsten_deposits:0 "Разработать месторождения вольфрама в §G[FROM.GetName]§!"
  wfc_develop_tungsten_deposits_tt:0 "В регионе §G[FROM.GetName]§! будут разработаны месторождения вольфрама"
- wfc_develop_deposits_desc:0 "Будет добавлено случайное колтчество ресурсов от 3 до 25."
+ wfc_develop_coal_deposits: "Разработать месторождения угля в §G[FROM.GetName]§!"
+ wfc_develop_coal_deposits_tt: "В регионе §G[FROM.GetName]§! будут разработаны месторождения угля"
+ wfc_develop_deposits_desc:0 "Будет добавлено случайное количество ресурсов:\nЖелеза от 8 до 32\nАлюминия от 6 до 28\nНефти от 10 до 40\nВольфрама от 7 до 30\nХрома от 7 до 30\nУгля от 3 до 25"
  wfc_develop_steel_deposits_in_puppet:0 "Разработать месторождения железа в регионе §G[FROM.GetName]§! субъекта §B[FROM.OWNER.GetName]§!"
  wfc_develop_aluminium_deposits_in_puppet:0 "Разработать месторождения алюминия в регионе §G[FROM.GetName]§! субъекта §B[FROM.OWNER.GetName]§!"
  wfc_develop_oil_deposits_in_puppet:0 "Разработать месторождения нефти в регионе §G[FROM.GetName]§! субъекта §B[FROM.OWNER.GetName]§!"
  wfc_develop_chromium_deposits_in_puppet:0 "Разработать месторождения хрома в регионе §G[FROM.GetName]§! субъекта §B[FROM.OWNER.GetName]§!"
  wfc_develop_tungsten_deposits_in_puppet:0 "Разработать месторождения вольфрама в регионе §G[FROM.GetName]§! субъекта §B[FROM.OWNER.GetName]§!"
+ wfc_develop_coal_deposits_in_puppet: "Разработать месторождения угля в регионе §G[FROM.GetName]§! субъекта §B[FROM.OWNER.GetName]§!"
  wfc_resource_development_completed_flag: "Разработка месторождения завершена"
+
 
 #wfc_category_preparing_a_coup
  wfc_category_preparing_a_coup: "Переворот в государстве §Y[?wfc_var_target_coup.GetName]§!"

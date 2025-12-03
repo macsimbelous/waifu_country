@@ -1437,7 +1437,7 @@ d_rise_zombi = {
 		#add_ideas = ZMB_tae_yamada
 		# country_lock_all_division_template = yes
 		# set_division_force_allow_recruiting = {
-		# 	division_template = "Zombi Division"
+		# 	division_template = \"Zombi Division\"
 		# 	force_allow_recruiting = yes
 		# }
 		# set_division_force_allow_recruiting = {
@@ -3074,5 +3074,71 @@ wfc_se_remove_from_serafall_and_vignette = {
 			slot = political_advisor
 			trait = wfc_silent_workhorse
 		}
+	}
+}
+
+wfc_se_geological_exploration = {
+	custom_effect_tooltip = wfc_tt_geological_exploration
+	hidden_effect = {
+		set_variable = {
+			res_count = 3
+		}
+		random_list = {
+			40 = {
+				set_state_flag = wfc_exploration_steel_flag
+				randomize_variable = {
+					var = res_count
+					distribution = uniform
+					min = 8
+					max = 32
+				}
+			}
+			20 = {
+				set_state_flag = wfc_exploration_aluminium_flag
+				randomize_variable = {
+					var = res_count
+					distribution = uniform
+					min = 6
+					max = 28
+				}
+			}
+			10 = {
+				set_state_flag = wfc_exploration_oil_flag
+				randomize_variable = {
+					var = res_count
+					distribution = uniform
+					min = 10
+					max = 40
+				}
+			}
+			10 = {
+				set_state_flag = wfc_exploration_tungsten_flag
+				randomize_variable = {
+					var = res_count
+					distribution = uniform
+					min = 7
+					max = 30
+				}
+			}
+			10 = {
+				set_state_flag = wfc_exploration_chromium_flag
+				randomize_variable = {
+					var = res_count
+					distribution = uniform
+					min = 7
+					max = 30
+				}
+			}
+			10 = {
+				set_state_flag = wfc_exploration_coal_flag
+				randomize_variable = {
+					var = res_count
+					distribution = uniform
+					min = 3
+					max = 25
+				}
+			}
+		}
+		set_state_flag = wfc_geological_exploration_completed_flag
 	}
 }

@@ -116,6 +116,7 @@ wfc_transfer_of_the_capital_decision: "Move the capital to the §G[FROM.GetName]
 
 #prospect_for_resources
  wfc_geological_exploration:0 "Geological exploration of its territory"
+ wfc_geological_exploration_desc: "Iron §G40%§!\nAluminum §G20%§!\nChromium, tungsten, coal, and oil §G10%§!"
  wfc_geological_exploration_in_puppet:0 "Geological exploration in the regions"
  wfc_not_geological_exploration_tt:0 "Resource exploration has not been carried out"
  wfc_develop_steel_deposits:0 "Develop iron deposits in §G[FROM.GetName]§!"
@@ -128,12 +129,15 @@ wfc_transfer_of_the_capital_decision: "Move the capital to the §G[FROM.GetName]
  wfc_develop_chromium_deposits_tt:0 "Chromium deposits will be developed in the §G[FROM.GetName]§! region"
  wfc_develop_tungsten_deposits:0 "Develop tungsten deposits in §G[FROM.GetName]§!"
  wfc_develop_tungsten_deposits_tt:0 "Tungsten deposits will be developed in the §G[FROM.GetName]§! region"
- wfc_develop_deposits_desc:0 "A random amount of resources from 3 to 25 will be added."
+ wfc_develop_coal_deposits: "Develop coal deposits in §G[FROM.GetName]§!"
+ wfc_develop_coal_deposits_tt: "Coal deposits will be developed in the §G[FROM.GetName]§! region."
+ wfc_develop_deposits_desc:0 "A random amount of resources will be added:\nIron from 8 to 32\nAluminum from 6 to 28\nOil from 10 to 40\nTungsten from 7 to 30\nChromium from 7 to 30\nCoal from 3 to 25"
  wfc_develop_steel_deposits_in_puppet:0 "Mining iron deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
  wfc_develop_aluminium_deposits_in_puppet:0 "Mining aluminum deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
  wfc_develop_oil_deposits_in_puppet:0 "Mining oil deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
  wfc_develop_chromium_deposits_in_puppet:0 "Mining chromium deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
  wfc_develop_tungsten_deposits_in_puppet:0 "Mining tungsten deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
+ wfc_develop_coal_deposits_in_puppet: "Mining coal deposits in the region §G[FROM.GetName]§! subject §B[FROM.OWNER.GetName]§!"
  wfc_resource_development_completed_flag: "Field development completed"
 
 #wfc_category_preparing_a_coup
