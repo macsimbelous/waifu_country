@@ -434,6 +434,570 @@ nec_category_raise_the_zombies = {
 }
 
 nec_world_conquest_category = {
+	nec_decision_invasion_of_japan = {
+		icon = generic_confiscation
+		fire_only_once = yes
+		days_remove = 30
+		priority = 2
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		highlight_states = {
+			highlight_state_targets = {
+				state = 528
+			}
+		}
+		available = {
+			1030 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = 528.controller
+				type = annex_everything
+			}
+			set_province_controller = 10011
+			set_province_controller = 1158
+			set_province_controller = 7110
+			set_province_controller = 1025
+			528 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 10011
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 10011
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 10011
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 10011
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 10011
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 1158
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7110
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 1025
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_invasion_of_taiwan = {
+		icon = generic_confiscation
+		fire_only_once = yes
+		days_remove = 30
+		priority = 2
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		highlight_states = {
+			highlight_state_targets = {
+				state = 524
+			}
+		}
+		available = {
+			595 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = 524.controller
+				type = annex_everything
+			}
+			set_province_controller = 7186
+			524 = {
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7186
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7186
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7186
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7186
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7186
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_invasion_of_philipine = {
+		icon = generic_confiscation
+		fire_only_once = yes
+		days_remove = 30
+		priority = 2
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		highlight_states = {
+			highlight_state_targets = {
+				state = 623
+			}
+		}
+		available = {
+			524 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = 623.controller
+				type = annex_everything
+			}
+			set_province_controller = 12213
+			623 = {
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12213
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12213
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12213
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12213
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12213
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_invasion_of_malazia = {
+		icon = generic_confiscation
+		fire_only_once = yes
+		days_remove = 30
+		priority = 2
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1024
+			}
+		}
+		available = {
+			1025 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = 1024.controller
+				type = annex_everything
+			}
+			set_province_controller = 12228
+			1024 = {
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12228
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12228
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12228
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12228
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 12228
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_invasion_of_indonezia = {
+		icon = generic_confiscation
+		fire_only_once = yes
+		days_remove = 30
+		priority = 2
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		highlight_states = {
+			highlight_state_targets = {
+				state = 672
+			}
+		}
+		available = {
+			336 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = 672.controller
+				type = annex_everything
+			}
+			set_province_controller = 4652
+			672 = {
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 4652
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 4652
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 4652
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 4652
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 4652
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_invasion_of_australia = {
+		icon = generic_confiscation
+		fire_only_once = yes
+		days_remove = 30
+		priority = 2
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		highlight_states = {
+			highlight_state_targets = {
+				state = 870
+			}
+		}
+		available = {
+			controls_state = 667
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = 870.controller
+				type = annex_everything
+			}
+			set_province_controller = 11016
+			870 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 11016
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 11016
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 11016
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 11016
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 11016
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 11016
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_invasion_of_usa = {
+		icon = generic_confiscation
+		fire_only_once = yes
+		days_remove = 30
+		priority = 2
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		highlight_states = {
+			highlight_state_targets = {
+				state = 463
+			}
+		}
+		available = {
+			822 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = 463.controller
+				type = annex_everything
+			}
+			set_province_controller = 7855
+			463 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 7855
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7855
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7855
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7855
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7855
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 7855
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	nec_decision_invasion_of_eng = {
+		icon = generic_confiscation
+		fire_only_once = yes
+		days_remove = 30
+		priority = 2
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		highlight_states = {
+			highlight_state_targets = {
+				state = 127
+			}
+		}
+		available = {
+			29 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = 127.controller
+				type = annex_everything
+			}
+			set_province_controller = 3501
+			127 = {
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 3501
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 3501
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 3501
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 3501
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Zombi\" division_template = \"Zombi\" start_experience_factor = 0.25 start_equipment_factor = 1"
+					owner = NEC
+					prioritize_location = 3501
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	nec_world_conquest_decision = {
 		icon = generic_ignite_civil_war
 		#war_with_target_on_complete = yes

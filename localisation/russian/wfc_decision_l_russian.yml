@@ -538,6 +538,14 @@ wfc_transfer_of_the_capital_decision: "Перенести столицу в ре
  #nec_world_conquest_category
   nec_world_conquest_category: "Завоевание мира"
   nec_world_conquest_decision: "§RЗавоевать [From.GetNameDef]§!"
+  nec_decision_invasion_of_japan: "§RВторжение в Японию§!"
+  nec_decision_invasion_of_taiwan: "§RВторжение на Тайвань§!"
+  nec_decision_invasion_of_philipine: "§RВторжение на Филипины§!"
+  nec_decision_invasion_of_malazia: "§RВторжение в Малазию§!"
+  nec_decision_invasion_of_indonezia: "§RВторжение в Индонезию§!"
+  nec_decision_invasion_of_australia: "§RВторжение в Австралию§!"
+  nec_decision_invasion_of_usa: "§RВторжение в Северную америку§!"
+  nec_decision_invasion_of_eng: "§RВторжение в Англию§!"
 
 #test
  wfc_test_category:0 "Тестовая категория"
