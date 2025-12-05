@@ -726,6 +726,20 @@ focus_tree = {
 				target = SIK
 				type = annex_everything
 			}
+			if = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				KHM = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				create_wargoal = {
+					target = KHM
+					type = annex_everything
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -785,6 +799,29 @@ focus_tree = {
 				target = XSM
 				type = annex_everything
 			}
+			if = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				GSM = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				create_wargoal = {
+					target = GSM
+					type = annex_everything
+				}
+				NXM = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				create_wargoal = {
+					target = NXM
+					type = annex_everything
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 5
@@ -834,6 +871,29 @@ focus_tree = {
 			create_wargoal = {
 				target = CHI
 				type = annex_everything
+			}
+			if = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				SIC = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				create_wargoal = {
+					target = SIC
+					type = annex_everything
+				}
+				XIC = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				create_wargoal = {
+					target = XIC
+					type = annex_everything
+				}
 			}
 		}
 		ai_will_do = {
@@ -904,6 +964,20 @@ focus_tree = {
 			create_wargoal = {
 				target = GXC
 				type = annex_everything
+			}
+			if = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				GDC = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+				create_wargoal = {
+					target = GDC
+					type = annex_everything
+				}
 			}
 		}
 		ai_will_do = {
@@ -1991,30 +2065,33 @@ focus_tree = {
 				category = nuclear
 			}
 			custom_effect_tooltip = generic_skip_one_line_tt
-
 			GER_add_or_modify_wunderwaffen = yes
-			add_to_variable = { 
+			add_to_variable = {
 				GER_wunderwaffen_production_speed_nuclear_facility_factor = 0.15
 				tooltip = production_speed_nuclear_facility_factor_tt
 			}
-			add_to_variable = { 
+			add_to_variable = {
 				GER_wunderwaffen_production_speed_nuclear_reactor_factor = 0.1
 				tooltip = production_speed_nuclear_reactor_factor_tt
 			}
 			if = {
 				limit = {
-					NOT = { is_special_project_completed = sp:sp_nuclear_reactor }
+					NOT = {
+						is_special_project_completed = sp:sp_nuclear_reactor
+					}
 				}
-				add_to_variable = { 
+				add_to_variable = {
 					GER_wunderwaffen_sp_nuclear_reactor_speed_factor = 0.1
 					tooltip = sp_nuclear_reactor_speed_factor_tt
 				}
 			}
 			if = {
 				limit = {
-					NOT = { is_special_project_completed = sp:sp_commercial_nuclear_reactor }
+					NOT = {
+						is_special_project_completed = sp:sp_commercial_nuclear_reactor
+					}
 				}
-				add_to_variable = { 
+				add_to_variable = {
 					GER_wunderwaffen_sp_commercial_nuclear_reactor_speed_factor = 0.1
 					tooltip = sp_commercial_nuclear_reactor_speed_factor_tt
 				}
@@ -2090,13 +2167,12 @@ focus_tree = {
 				value = 0.25
 			}
 			custom_effect_tooltip = generic_skip_one_line_tt
-
 			GER_add_or_modify_wunderwaffen = yes
-			add_to_variable = { 
+			add_to_variable = {
 				GER_wunderwaffen_special_project_speed_factor = 0.1
 				tooltip = special_project_speed_factor_tt
 			}
-			add_to_variable = { 
+			add_to_variable = {
 				GER_wunderwaffen_production_speed_facility_factor = 0.05
 				tooltip = production_speed_facility_factor_tt
 			}
