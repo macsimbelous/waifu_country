@@ -21,6 +21,7 @@ state={
 			air_base = 10
 			1562 = {
 				naval_base = 10
+				naval_supply_hub = 1
 			}
 			4518 = {
 				air_facility = 1
@@ -29,7 +30,14 @@ state={
 				naval_base = 5
 			}
 			9671 = {
-				naval_base = 4
+				naval_base = 10
+				naval_supply_hub = 1
+				naval_headquarters = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
 			}
 			610 = {
 				naval_base = 1
