@@ -41,10 +41,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 			modifier = {
 				has_war = yes
-				add = -5
+				add = -1
 			}
 		}
 		modifier = {
@@ -113,10 +113,19 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 0
+			modifier = {
+				wfc_st_controls_iraq = yes
+				wfc_st_controls_saudi_arabia = yes
+				controls_state = 1015
+				controls_state = 294
+				controls_state = 1016
+				controls_state = 293
+				add = 1
+			}
 			modifier = {
 				has_war = yes
-				add = -5
+				add = -1
 			}
 		}
 		modifier = {
@@ -169,10 +178,19 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 0
+			modifier = {
+				wfc_st_controls_iraq = yes
+				wfc_st_controls_saudi_arabia = yes
+				controls_state = 1015
+				controls_state = 294
+				controls_state = 1016
+				controls_state = 293
+				add = 1
+			}
 			modifier = {
 				has_war = yes
-				add = -5
+				add = -1
 			}
 		}
 		modifier = {
@@ -225,10 +243,19 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 0
+			modifier = {
+				wfc_st_controls_iraq = yes
+				wfc_st_controls_saudi_arabia = yes
+				controls_state = 1015
+				controls_state = 294
+				controls_state = 1016
+				controls_state = 293
+				add = 1
+			}
 			modifier = {
 				has_war = yes
-				add = -5
+				add = -1
 			}
 		}
 		modifier = {
@@ -281,10 +308,19 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 0
+			modifier = {
+				wfc_st_controls_iraq = yes
+				wfc_st_controls_saudi_arabia = yes
+				controls_state = 1015
+				controls_state = 294
+				controls_state = 1016
+				controls_state = 293
+				add = 1
+			}
 			modifier = {
 				has_war = yes
-				add = -5
+				add = -1
 			}
 		}
 		modifier = {
@@ -337,10 +373,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 			modifier = {
 				has_war = yes
-				add = -5
+				add = -1
 			}
 		}
 		modifier = {
@@ -392,10 +428,10 @@ mah_crystal_empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 1
 			modifier = {
 				has_war = yes
-				add = -5
+				add = -1
 			}
 		}
 		modifier = {
@@ -417,6 +453,74 @@ mah_crystal_empire_category = {
 			}
 			create_wargoal = {
 				target = ASY
+				type = annex_everything
+			}
+		}
+	}
+	mah_conquest_of_imo_decision = {
+		icon = generic_ignite_civil_war
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 180
+		days_remove = 35
+		war_with_on_remove = IMO
+		visible = {
+			has_completed_focus = mah_conquest_of_yem_and_oma
+			NOT = {
+				has_war_with = IMO
+			}
+			country_exists = IMO
+			IMO = {
+				NOT = {
+					is_subject_of = ROOT
+				}
+			}
+		}
+		available = {
+			wfc_st_controls_saudi_arabia = yes
+			NOT = {
+				is_in_faction_with = IMO
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				add = -1
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+			training_time_army_factor = -0.2
+			production_speed_buildings_factor = 0.2
+		}
+		complete_effect = {
+			add_war_support = 0.05
+		}
+		remove_effect = {
+			build_railway = {
+				level = 1
+				start_province = 12758
+				target_province = 12740
+			}
+			678 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 12740
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+				IMO = {
+					every_owned_state = {
+						add_claim_by = ROOT
+					}
+				}
+			}
+			create_wargoal = {
+				target = IMO
 				type = annex_everything
 			}
 		}

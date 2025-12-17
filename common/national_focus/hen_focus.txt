@@ -70,18 +70,51 @@ focus_tree = {
 			focus = hen_friendship_with_sov
 		}
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_STABILITY
 		}
 		available = {
-			JAP = {
-				has_government = fascism
-				fascism > 0.5
+			if = {
+				limit = {
+					has_government = communism
+				}
+				JAP = {
+					has_government = communism
+				}
 			}
-			fascism > 0.3
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				JAP = {
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = democratic
+				}
+				JAP = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
+			else = {
+				JAP = {
+					OR = {
+						has_government = fascism
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
 		}
 		completion_reward = {
-			add_stability = 0.01
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1
@@ -112,9 +145,38 @@ focus_tree = {
 					modifier = large_increase
 				}
 			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
+			if = {
+				limit = {
+					has_government = communism
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = democratic
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.05
+				}
+			}
+			else = {
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}
 			}
 		}
 	}
@@ -144,9 +206,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
+			JAP = {
+				add_opinion_modifier = {
+					target = HEN
+					modifier = small_increase
+				}
 			}
 		}
 	}
@@ -168,37 +232,15 @@ focus_tree = {
 		completion_reward = {
 			JAP = {
 				add_tech_bonus = {
-					name = ss_bonus
+					name = fighter_bonus
 					bonus = 1
 					ahead_reduction = 2
 					uses = 2
-					category = ss_tech
+					category = light_air
 				}
-				random_list = {
-					25 = {
-						add_breakthrough_progress = {
-							specialization = specialization_nuclear
-							value = 0.25
-						}
-					}
-					25 = {
-						add_breakthrough_progress = {
-							specialization = specialization_naval
-							value = 0.25
-						}
-					}
-					25 = {
-						add_breakthrough_progress = {
-							specialization = specialization_air
-							value = 0.25
-						}
-					}
-					25 = {
-						add_breakthrough_progress = {
-							specialization = specialization_land
-							value = 0.25
-						}
-					}
+				add_breakthrough_progress = {
+					specialization = specialization_air
+					value = 0.5
 				}
 				add_opinion_modifier = {
 					target = HEN
@@ -206,43 +248,19 @@ focus_tree = {
 				}
 			}
 			add_tech_bonus = {
-				name = fighter_bonus
+				name = ss_bonus
 				bonus = 1
 				ahead_reduction = 2
 				uses = 2
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
+				category = ss_tech
 			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.1
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.5
 			}
-			random_list = {
-				25 = {
-					add_breakthrough_progress = {
-						specialization = specialization_nuclear
-						value = 0.25
-					}
-				}
-				25 = {
-					add_breakthrough_progress = {
-						specialization = specialization_naval
-						value = 0.25
-					}
-				}
-				25 = {
-					add_breakthrough_progress = {
-						specialization = specialization_air
-						value = 0.25
-					}
-				}
-				25 = {
-					add_breakthrough_progress = {
-						specialization = specialization_land
-						value = 0.25
-					}
-				}
+			add_opinion_modifier = {
+				target = JAP
+				modifier = small_increase
 			}
 		}
 	}
@@ -261,15 +279,12 @@ focus_tree = {
 		}
 		available = {
 			JAP = {
-				has_same_ideology = yes
+				#has_same_ideology = yes
+				#is_in_faction = yes
 				is_faction_leader = yes
 			}
 		}
-		available_if_capitulated = yes
 		completion_reward = {
-			# JAP = {
-			# 	add_to_faction = HEN
-			# }
 			JAP = {
 				country_event = hen_event.4
 			}
@@ -2163,12 +2178,19 @@ focus_tree = {
 			focus = hen_focus_polymer_production
 		}
 		completion_reward = {
-			528 = {
+			1018 = {
 				add_building_construction = {
 					type = naval_base
-					province = 11925
-					level = 4
+					province = 7178
+					level = 7
 					instant_build = yes
+				}
+			}
+			build_railway = {
+				level = 4
+				path = {
+					11925
+					7178
 				}
 			}
 			add_tech_bonus = {
@@ -2863,9 +2885,9 @@ focus_tree = {
 		prerequisite = {
 			focus = hen_focus_academy_of_perverted_sciences
 		}
-		# prerequisite = {
-		# 	focus = hen_focus_perverted_intelligence_agency
-		# }
+		prerequisite = {
+			focus = hen_focus_perverted_intelligence_agency
+		}
 		ai_will_do = {
 			factor = 5
 		}
@@ -3223,7 +3245,6 @@ focus_tree = {
 				grand_doctrine = new_convoy_raiding
 				track = submarines
 			}
-
 			add_doctrine_cost_reduction = {
 				name = flexible_navy
 				cost_reduction = 0.5
@@ -3332,7 +3353,6 @@ focus_tree = {
 				grand_doctrine = new_convoy_raiding
 				track = submarines
 			}
-
 			add_doctrine_cost_reduction = {
 				name = flexible_navy
 				cost_reduction = 0.5
@@ -3936,7 +3956,6 @@ focus_tree = {
 				grand_doctrine = new_convoy_raiding
 				track = submarines
 			}
-
 			add_doctrine_cost_reduction = {
 				name = flexible_navy
 				cost_reduction = 0.5
