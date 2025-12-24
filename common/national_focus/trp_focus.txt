@@ -1105,7 +1105,7 @@
 		}
 		completion_reward = {
 			ENG = {
-				add_to_faction = TRP
+				country_event = generic.2
 			}
 		}
 	}
@@ -1283,11 +1283,7 @@
 		available_if_capitulated = yes
 		completion_reward = {
 			GER = {
-				add_to_faction = TRP
-				# country_event = {
-				# 	hours = 1
-				# 	id = czech.16
-				# }
+				country_event = generic.2
 			}
 		}
 	}
