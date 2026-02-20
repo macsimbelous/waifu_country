@@ -641,12 +641,12 @@ characters = {
 			slot = theorist
 			idea_token = MAH_frill
 			ledger = air
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
 			traits = {
-				air_warfare_theorist
+				close_air_support_proponent
 			}
 		}
 	}
@@ -774,12 +774,12 @@ characters = {
 			slot = theorist
 			idea_token = MAH_nagisa_misumi
 			ledger = army
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
 			traits = {
-				military_theorist
+				grand_battle_plan_expert
 			}
 		}
 	}
@@ -1115,12 +1115,12 @@ characters = {
 			slot = theorist
 			idea_token = MAH_akane_isshiki
 			ledger = navy
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MAH
 			}
 			traits = {
-				naval_theorist
+				grand_fleet_proponent
 			}
 		}
 	}

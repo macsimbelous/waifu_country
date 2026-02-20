@@ -260,12 +260,12 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = TRP_felix_argyle
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = TRP
 			}
 			traits = {
-				military_theorist
+				superior_firepower_expert
 			}
 		}
 	}
@@ -651,12 +651,12 @@ characters = {
 			slot = theorist
 			ledger = air
 			idea_token = TRP_ritsu_souma
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = TRP
 			}
 			traits = {
-				air_warfare_theorist
+				close_air_support_proponent
 			}
 		}
 	}
@@ -866,6 +866,18 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = TRP_hamaji_yakumo
+			cost = 150
+			allowed = {
+				original_tag = TRP
+			}
+			traits = {
+				submarine_specialist
+			}
+		}
 	}
 	TRP_taroumaru_seike = {
 		name = TRP_taroumaru_seike
@@ -922,12 +934,12 @@ characters = {
 			slot = theorist
 			ledger = navy
 			idea_token = TRP_russell
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = TRP
 			}
 			traits = {
-				naval_theorist
+				grand_fleet_proponent
 			}
 		}
 	}

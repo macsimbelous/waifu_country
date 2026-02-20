@@ -796,12 +796,12 @@ characters = {
 			slot = theorist
 			idea_token = MMS_satanichia_mcdowell_kurumizawa
 			ledger = air
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MMS
 			}
 			traits = {
-				air_warfare_theorist
+				victory_through_airpower
 			}
 		}
 	}
@@ -886,12 +886,12 @@ characters = {
 			slot = theorist
 			idea_token = MMS_heine
 			ledger = army
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MMS
 			}
 			traits = {
-				military_theorist
+				mobile_warfare_expert
 			}
 		}
 		corps_commander = {
@@ -1059,9 +1059,9 @@ characters = {
 			slot = theorist
 			idea_token = MMS_yamato_wg
 			ledger = navy
-			cost = 100
+			cost = 150
 			traits = {
-				naval_theorist
+				grand_fleet_proponent
 			}
 		}
 		navy_leader = {

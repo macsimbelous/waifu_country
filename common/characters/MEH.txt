@@ -424,12 +424,12 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Alexandra_Frolova
 			ledger = air
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				air_warfare_theorist
+				assault_avaition
 			}
 		}
 	}
@@ -454,7 +454,7 @@ characters = {
 			slot = theorist
 			idea_token = MEH_EDI
 			ledger = army
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
@@ -770,12 +770,12 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Elizabeth
 			ledger = army
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				military_theorist
+				grand_battle_plan_expert
 			}
 		}
 	}
@@ -1015,12 +1015,12 @@ characters = {
 			slot = theorist
 			idea_token = MEH_Kongou_ARP
 			ledger = navy
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = MEH
 			}
 			traits = {
-				naval_theorist
+				grand_fleet_proponent
 			}
 		}
 		navy_leader = {
@@ -1085,6 +1085,18 @@ characters = {
 			army = {
 				small = GFX_idea_meh_hiei_arp
 				large = GFX_portrait_meh_hiei_arp
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MEH_Hiei_ARP
+			ledger = navy
+			cost = 150
+			allowed = {
+				original_tag = MEH
+			}
+			traits = {
+				naval_aviation_pioneer
 			}
 		}
 		navy_leader = {

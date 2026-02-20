@@ -274,12 +274,12 @@ characters = {
 			slot = theorist
 			idea_token = HEN_Mari_Setogaya
 			ledger = air
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
 			traits = {
-				air_warfare_theorist
+				victory_through_airpower
 			}
 			ai_will_do = {
 				factor = 1
@@ -417,12 +417,12 @@ characters = {
 			slot = theorist
 			idea_token = HEN_Igawa_Asagi
 			ledger = army
-			cost = 100
+			cost = 150
 			allowed = {
 				original_tag = HEN
 			}
 			traits = {
-				military_theorist
+				grand_battle_plan_expert
 			}
 			ai_will_do = {
 				factor = 1
@@ -1123,9 +1123,9 @@ characters = {
 			slot = theorist
 			idea_token = hen_aya_itou
 			ledger = navy
-			cost = 100
+			cost = 150
 			traits = {
-				naval_theorist
+				grand_fleet_proponent
 			}
 			ai_will_do = {
 				factor = 1
@@ -1167,6 +1167,18 @@ characters = {
 			navy = {
 				small = GFX_idea_hen_cobi
 				large = GFX_portrait_hen_cobi_navy
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = hen_cobi
+			ledger = navy
+			cost = 150
+			traits = {
+				naval_aviation_pioneer
+			}
+			ai_will_do = {
+				factor = 1
 			}
 		}
 		navy_leader = {
